@@ -2,6 +2,9 @@
 
 This is the repository for the Liferay.Design site.
 
+Mockups
+https://liferay.invisionapp.com/d/main#/projects/prototypes/12822327
+
 # Setup
 
 ```
