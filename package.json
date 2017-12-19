@@ -1,0 +1,92 @@
+{
+	"babel": {
+		"presets": [
+			"react",
+			"env"
+		]
+	},
+	"csfConfig": {
+		"js": {
+			"lint": {
+				"parserOptions": {
+					"ecmaVersion": 7
+				},
+				"rules": {
+					"csf-sort-props": [
+						2,
+						{
+							"casesensitive": true
+						}
+					],
+					"no-unknown-property": 0
+				}
+			}
+		},
+		"path:**/{client/**/*,*.js}": {
+			"js": {
+				"lint": {
+					"globals": {
+						"RC": true
+					}
+				}
+			}
+		},
+		"path:**/{node/**/*,*.js}": {
+			"js": {
+				"lint": {
+					"globals": {
+						"requireRoot": true
+					},
+					"rules": {
+						"no-console": 0,
+						"no-debugger": 0
+					}
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"express": "^4.16.2",
+		"immutable": "^4.0.0-rc.9",
+		"prop-types": "^15.6.0",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-router-dom": "^4.2.2"
+	},
+	"description": "Liferay Design Site",
+	"devDependencies": {
+		"babel-loader": "^7.1.2",
+		"babel-core": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"check-source-formatting": "^2.0.0-rc.7",
+		"clean-webpack-plugin": "^0.1.17",
+		"css-loader": "^0.28.7",
+		"file-loader": "^1.1.5",
+		"node-sass": "^4.5.3",
+		"nodemon": "^1.12.1",
+		"sass-loader": "^6.0.6",
+		"style-loader": "^0.19.0",
+		"url-loader": "^0.6.2",
+		"webpack": "^3.10.0"
+	},
+	"engines": {
+		"node": ">=8.8.1"
+	},
+	"homepage": "https://github.com/liferay/liferay-portal-ee",
+	"main": "./app.js",
+	"name": "liferay-design",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/liferay/liferay-portal-ee.git"
+	},
+	"scripts": {
+		"build": "NODE_ENV=production webpack",
+		"build:dev": "NODE_ENV=development webpack",
+		"start": "node app",
+		"start:watch": "nodemon --watch server",
+		"watch": "NODE_ENV=development webpack --watch"
+	},
+	"version": "1.0.0"
+}
