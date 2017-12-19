@@ -1,0 +1,34 @@
+@import "~styles/variables";
+
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.entry {
+	&:hover .entry-label {
+		color: $colorWhite;
+	}
+
+	&.selected {
+		border-bottom: 1px solid $colorBlack;
+
+		.entry-label {
+			color: $colorWhite;
+		}
+	}
+}
+
+.entry-label {
+	color: $colorPrimaryBlueLight;
+	margin: 0;
+	padding: 8px 0;
+	text-transform: capitalize;
+	transition: color 0.1s ease-out;
+}
+
+.entry-link {
+	display: block;
+	text-decoration: none;
+}

@@ -1,0 +1,51 @@
+@import "~styles/animations";
+@import "~styles/variables";
+
+.banner {
+	background-size: 219%;
+	box-shadow: 0 17px 50px 0 #003A97;
+	margin: 0 auto;
+	width: 612px;
+    background-position: 29% -22px;
+    height: 683px;
+}
+
+.container {
+	width: 768px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+	color: $colorWhite;
+	width: 100%;
+	z-index: 100;
+    align-items: center;
+    left: 0;
+    position: absolute;
+    top: 240px;
+}
+
+.label {
+	color: $colorBlack;
+	letter-spacing: 4px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.primary {
+	margin-bottom: 16px;
+}
+
+.secondary {
+	font-weight: $fontWeightLight;
+}
+
+.tertiary {
+	position: absolute;
+    letter-spacing: 8px;
+    margin: 0;
+    right: -72px;
+    top: 50%;
+    transform: rotateZ(90deg);
+}
