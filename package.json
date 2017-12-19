@@ -71,7 +71,7 @@
 		"webpack": "^3.10.0"
 	},
 	"engines": {
-		"node": ">=8.8.1"
+		"node": ">=9.2.1"
 	},
 	"homepage": "https://github.com/liferay/liferay-portal-ee",
 	"main": "./app.js",
