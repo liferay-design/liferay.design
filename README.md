@@ -1,6 +1,6 @@
-# Dossiera App
+# Liferay.Design.com
 
-This is the repository for the Dossiera App.
+This is the repository for the Liferay.Design site.
 
 # Setup
 
@@ -10,29 +10,29 @@ npm install
 
 # Build
 
-Build Client Files During Development
+Build client files during development.
 ```
 npm run build:dev
 ```
 
-Build & Watch Client Files During Development
+Build & watch client files during development.
 ```
 npm run watch
 ```
 
-Build Client Files For Production
+Build client files for production.
 ```
 npm run build
 ```
 
 # Server
 
-Run Server For Production
+Run server for production.
 ```
 npm run start
 ```
 
-Run Server During Development
+Run server during development with watch task.
 ```
 npm run start:watch
 ```
