@@ -7,6 +7,8 @@
 }
 
 .entry {
+	margin: 0 20px;
+
 	&:hover .entry-label {
 		color: $colorWhite;
 	}
