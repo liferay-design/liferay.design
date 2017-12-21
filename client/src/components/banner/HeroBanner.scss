@@ -1,36 +1,51 @@
 @import "~styles/animations";
 @import "~styles/variables";
 
+$bottomMargin: 104px;
+
 .banner {
+    background-position: 29% -22px;
 	background-size: 219%;
 	box-shadow: 0 17px 50px 0 #003A97;
+    height: 100%;
 	margin: 0 auto;
-	width: 612px;
-    background-position: 29% -22px;
-    height: 683px;
+	width: 100%;
 }
 
 .container {
-	width: 768px;
+	height: calc(100vh - #{$globalHeaderHeight} - #{$bottomMargin});
     margin: 0 auto;
+    min-height: 400px;
+    min-width: 360px;
     position: relative;
+	width: calc(93vh - #{$globalHeaderHeight} - #{$bottomMargin});
 }
 
 .header {
-	color: $colorWhite;
-	width: 100%;
-	z-index: 100;
     align-items: center;
-    left: 0;
+	color: $colorWhite;
+    left: 50%;
     position: absolute;
-    top: 240px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 126%;
+    z-index: 100;
 }
 
 .label {
 	color: $colorBlack;
 	letter-spacing: 4px;
-	margin-bottom: 40px;
+	margin-bottom: 32px;
 	text-transform: uppercase;
+
+	&:after {
+		background-color: $colorBlack;
+		content: '';
+		display: block;
+		height: 1px;
+		margin-top: 8px;
+		width: 16px;
+	}
 }
 
 .primary {
@@ -42,9 +57,9 @@
 }
 
 .tertiary {
-	position: absolute;
-    letter-spacing: 8px;
+	letter-spacing: 8px;
     margin: 0;
+	position: absolute;
     right: -72px;
     top: 50%;
     transform: rotateZ(90deg);
