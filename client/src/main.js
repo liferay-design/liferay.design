@@ -15,12 +15,7 @@ class Site extends React.Component {
 				<div className="liferay-design-site" key="app">
 					<Route
 						component={Events}
-						path={'/events'}
-					/>
-
-					<Route
-						component={Events}
-						path={'/test'}
+						path={'/'}
 					/>
 				</div>
 			</Router>
