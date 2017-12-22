@@ -5,16 +5,14 @@ import React from 'react';
 import classNames from 'components/header/Header.scss';
 import Navbar from 'components/navbar/Navbar';
 
-const ARTICLES = 'articles';
-const CAREERS = 'careers';
-const EVENTS = 'events';
+const AGENDA = 'agenda';
 const TEAM = 'team';
+const VENUE = 'venue';
 
 export const navKeys = {
-	[TEAM]: 'team',
-	[ARTICLES]: 'articles',
-	[EVENTS]: 'events',
-	[CAREERS]: 'careers'
+	[VENUE]: 'venue',
+	[AGENDA]: 'agenda',
+	[TEAM]: 'team'
 }
 
 class Header extends React.Component {
@@ -31,8 +29,8 @@ class Header extends React.Component {
 
 				<Navbar
 					className={classNames.navbar}
-					href={`/{option}`}
-					options={List([TEAM, ARTICLES, EVENTS, CAREERS])}
+					href={`#{option}`}
+					options={List([VENUE, AGENDA, TEAM])}
 					optionsMap={Map(navKeys)}
 					selected={selected}
 					key="navbar"
@@ -44,10 +42,6 @@ class Header extends React.Component {
 
 Header.propTypes = {
 	selected: PropTypes.string
-};
-
-Header.defaultProps = {
-	selected: TEAM
 };
 
 export default Header;

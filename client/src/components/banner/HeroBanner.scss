@@ -13,12 +13,12 @@ $bottomMargin: 104px;
 }
 
 .container {
-	height: calc(100vh - #{$globalHeaderHeight} - #{$bottomMargin});
+	height: calc(100vh - #{$globalHeaderHeight});
     margin: 0 auto;
     min-height: 400px;
     min-width: 360px;
     position: relative;
-	width: calc(93vh - #{$globalHeaderHeight} - #{$bottomMargin});
+	width: calc(93vh - #{$globalHeaderHeight});
 }
 
 .header {
@@ -28,7 +28,7 @@ $bottomMargin: 104px;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 126%;
+    width: 137%;
     z-index: 100;
 }
 
