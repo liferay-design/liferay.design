@@ -1,10 +1,4 @@
 {
-	"babel": {
-		"presets": [
-			"react",
-			"env"
-		]
-	},
 	"csfConfig": {
 		"js": {
 			"lint": {
@@ -55,16 +49,28 @@
 	},
 	"description": "Liferay Design Site",
 	"devDependencies": {
-		"babel-loader": "^7.1.2",
 		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.0.1",
+		"babel-loader": "^7.1.2",
+		"babel-plugin-transform-export-extensions": "^6.22.0",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-react": "^6.24.1",
-		"check-source-formatting": "^2.0.0-rc.7",
+		"babel-preset-react-optimize": "^1.0.1",
 		"clean-webpack-plugin": "^0.1.17",
 		"css-loader": "^0.28.7",
+		"eslint": "^4.10.0",
+		"eslint-config-prettier": "^2.6.0",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-prettier": "^2.3.1",
+		"eslint-plugin-react": "^7.4.0",
 		"file-loader": "^1.1.5",
+		"husky": "^0.14.3",
+		"lint-staged": "^4.3.0",
 		"node-sass": "^4.5.3",
 		"nodemon": "^1.12.1",
+		"prettier": "^1.7.4",
+		"prettier-eslint-cli": "^4.4.0",
 		"sass-loader": "^6.0.6",
 		"style-loader": "^0.19.0",
 		"url-loader": "^0.6.2",
@@ -86,7 +92,14 @@
 		"build:dev": "NODE_ENV=development webpack",
 		"start": "node app",
 		"start:watch": "nodemon --watch server",
-		"watch": "NODE_ENV=development webpack --watch"
+		"watch": "NODE_ENV=development webpack --watch",
+		"lint-staged": "lint-staged"
+	},
+	"lint-staged": {
+		"*.{js,json,scss}": [
+			"prettier-eslint --write --config .prettierrc --eslint-config-path .eslintrc ",
+			"git add"
+		]
 	},
 	"version": "1.0.0"
 }

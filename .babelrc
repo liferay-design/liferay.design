@@ -1,0 +1,19 @@
+{
+	"presets": [
+		[
+			"env",
+			{
+				"modules": false,
+				"targets": {
+					"browsers": ["last 3 versions"]
+				}
+			}
+		]
+	],
+	"plugins": ["transform-export-extensions", "transform-object-rest-spread"],
+	"env": {
+		"production": {
+			"presets": ["react-optimize"]
+		}
+	}
+}
