@@ -13,6 +13,9 @@
 	],
 	"plugins": ["transform-export-extensions", "transform-object-rest-spread"],
 	"env": {
+		"development": {
+			"plugins": ["react-hot-loader/babel"]
+		},
 		"production": {
 			"presets": ["react-optimize"]
 		}
