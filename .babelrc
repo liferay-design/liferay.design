@@ -8,7 +8,8 @@
 					"browsers": ["last 3 versions"]
 				}
 			}
-		]
+		],
+		"react"
 	],
 	"plugins": ["transform-export-extensions", "transform-object-rest-spread"],
 	"env": {
