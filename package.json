@@ -74,7 +74,8 @@
 		"sass-loader": "^6.0.6",
 		"style-loader": "^0.19.0",
 		"url-loader": "^0.6.2",
-		"webpack": "^3.10.0"
+		"webpack": "^3.10.0",
+		"webpack-dev-server": "^2.9.7"
 	},
 	"engines": {
 		"node": ">=9.2.1"
@@ -91,8 +92,7 @@
 		"build": "NODE_ENV=production webpack",
 		"build:dev": "NODE_ENV=development webpack",
 		"start": "node app",
-		"start:watch": "nodemon --watch server",
-		"watch": "NODE_ENV=development webpack --watch",
+		"dev": "webpack-dev-server --content-base ./client",
 		"lint-staged": "lint-staged"
 	},
 	"lint-staged": {
