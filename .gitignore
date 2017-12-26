@@ -1,2 +1,26 @@
-.vscode
+# General
 node_modules
+dist
+
+# Logs
+logs
+*.log
+.next
+
+# Mac
+.DS_Store
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules
+package-lock.json
+npm-debug.log
+
+# IDE/Editor data
+.idea
+.vscode
+
