@@ -15,26 +15,20 @@ export const navKeys = {
 	[TEAM]: 'team',
 }
 
-class Header extends React.Component {
-	render() {
-		const { selected } = this.props
+const Header = ({ selected }) => (
+	<div className={classes.container}>
+		<h2 className={classes.siteName}>{'Liferay.Design'}</h2>
 
-		return (
-			<div className={classes.container}>
-				<h2 className={classes.siteName}>{'Liferay.Design'}</h2>
-
-				<Navbar
-					className={classes.navbar}
-					href={`#{option}`}
-					options={List([VENUE, AGENDA, TEAM])}
-					optionsMap={Map(navKeys)}
-					selected={selected}
-					key="navbar"
-				/>
-			</div>
-		)
-	}
-}
+		<Navbar
+			className={classes.navbar}
+			href={`#{option}`}
+			options={List([VENUE, AGENDA, TEAM])}
+			optionsMap={Map(navKeys)}
+			selected={selected}
+			key="navbar"
+		/>
+	</div>
+)
 
 Header.propTypes = {
 	selected: PropTypes.string,

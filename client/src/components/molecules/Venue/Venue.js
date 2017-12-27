@@ -4,36 +4,33 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Venue.scss'
 
-class Venue extends React.Component {
-	render() {
-		return (
-			<section className={classes.container}>
-				<div className={classes.whiteBox} />
+const Venue = () => (
+	<section className={classes.container}>
+		<div className={classes.whiteBox} />
 
-				<Flex justify="space-between" width="100%">
-					<Heading bottomBorder level={2}>
-						VENUE
-					</Heading>
+		<Flex justify="space-between" width="100%">
+			<Heading bottomBorder level={2}>
+				Venue
+			</Heading>
 
-					<Flex direction="column">
-						<Heading color="white">Liferay Headquarters</Heading>
-						<Text>1400 Montefino Ave</Text>
-						<Text>Diamond Bar, CA 91765</Text>
-						<Text>Jan 22 – Jan 26</Text>
-						<Text color="black">directions</Text>
-						<Flex justify="space-between">
-							leftArrow rightArrow
-							{'numbers'}
-						</Flex>
-					</Flex>
+			<Flex direction="column">
+				<Heading color="white">Liferay Headquarters</Heading>
 
-					<div className={classes.image1} />
-					<div className={classes.image2} />
+				<Text>1400 Montefino Ave</Text>
+				<Text>Diamond Bar, CA 91765</Text>
+				<Text>Jan 22 – Jan 26</Text>
+				<Text color="black">directions</Text>
+				<Flex justify="space-between">
+					leftArrow rightArrow
+					{'numbers'}
 				</Flex>
-			</section>
-		)
-	}
-}
+			</Flex>
+
+			<div className={classes.image1} />
+			<div className={classes.image2} />
+		</Flex>
+	</section>
+)
 
 Venue.propTypes = {
 	label: PropTypes.string,

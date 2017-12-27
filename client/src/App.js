@@ -5,7 +5,7 @@ import React from 'react'
 
 const App = () => (
 	<Router>
-		<div className="liferay-design-site" key="app">
+		<div className="liferay-design-site">
 			<Route component={Events} path={'/'} />
 		</div>
 	</Router>
