@@ -1,11 +1,26 @@
 import PropTypes from 'prop-types'
+import React from 'react'
 import classes from './Heading.scss'
+import { colors } from 'theme'
 
-const Heading = ({ align, className, color, children, level }) => {
+const Heading = ({
+	align,
+	bottomBorder,
+	className,
+	color,
+	children,
+	level,
+}) => {
 	const Header = `h${level}`
+	const borderClass = bottomBorder ? 'bottomBorder' : ''
 
 	return (
-		<Header className={className} style={{ color, textAlign: align }}>
+		<Header
+			className={`${className} ${classes[Header]} ${
+				classes[borderClass]
+			}`}
+			style={{ color: colors[color], textAlign: align }}
+		>
 			{children}
 		</Header>
 	)
@@ -13,6 +28,7 @@ const Heading = ({ align, className, color, children, level }) => {
 
 Heading.propTypes = {
 	align: PropTypes.string,
+	bottomBorder: PropTypes.bool,
 	className: PropTypes.string,
 	color: PropTypes.string,
 	children: PropTypes.node,
@@ -21,6 +37,7 @@ Heading.propTypes = {
 
 Heading.defaultProps = {
 	color: 'black',
+	level: 3,
 	textAlign: 'left',
 }
 

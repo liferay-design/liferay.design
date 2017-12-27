@@ -1,34 +1,36 @@
+import { Flex, Heading, Text } from 'components/atoms'
+
 import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Venue.scss'
-import yellowPolaroid from 'resources/yellow-polaroid-small.png'
 
 class Venue extends React.Component {
 	render() {
-		const {
-			label,
-			primaryHeader,
-			secondaryHeader,
-			tertiaryHeader,
-		} = this.props
-
 		return (
-			<div className={classes.container}>
-				<div className={classes.header}>
-					<h5 className={classes.label}>{label}</h5>
+			<section className={classes.container}>
+				<div className={classes.whiteBox} />
 
-					<h1 className={classes.primary}>{primaryHeader}</h1>
+				<Flex justify="space-between" width="100%">
+					<Heading bottomBorder level={2}>
+						VENUE
+					</Heading>
 
-					<h2 className={classes.secondary}>{secondaryHeader}</h2>
+					<Flex direction="column">
+						<Heading color="white">Liferay Headquarters</Heading>
+						<Text>1400 Montefino Ave</Text>
+						<Text>Diamond Bar, CA 91765</Text>
+						<Text>Jan 22 – Jan 26</Text>
+						<Text color="black">directions</Text>
+						<Flex justify="space-between">
+							leftArrow rightArrow
+							{'numbers'}
+						</Flex>
+					</Flex>
 
-					<h5 className={classes.tertiary}>{tertiaryHeader}</h5>
-				</div>
-
-				<div
-					className={classes.banner}
-					style={{ backgroundImage: `url(${yellowPolaroid})` }}
-				/>
-			</div>
+					<div className={classes.image1} />
+					<div className={classes.image2} />
+				</Flex>
+			</section>
 		)
 	}
 }

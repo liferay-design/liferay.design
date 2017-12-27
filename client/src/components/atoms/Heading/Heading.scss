@@ -1,1 +1,37 @@
+@import '~theme/variables';
 
+.bottomBorder {
+	&:after {
+		background-color: $black;
+		content: '';
+		display: block;
+		height: 1px;
+		margin-top: 8px;
+		width: 16px;
+	}
+}
+
+.h1 {
+	font-size: $fontSizeXXLarge;
+	font-weight: $fontWeightHeavy;
+}
+
+.h2 {
+	font-size: $fontSizeLarge;
+	font-weight: $fontWeightHeavy;
+}
+
+.h3 {
+	font-size: $fontSizeMedium;
+	font-weight: $fontWeightHeavy;
+}
+
+.h4 {
+	font-size: $fontSizeSmall;
+	font-weight: $fontWeightHeavy;
+}
+
+.h5 {
+	font-size: $fontSizeXSmall;
+	font-weight: $fontWeightHeavy;
+}

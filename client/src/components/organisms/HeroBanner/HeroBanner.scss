@@ -1,5 +1,5 @@
-@import '~styles/animations';
-@import '~styles/variables';
+@import '~theme/animations';
+@import '~theme/variables';
 
 $bottomMargin: 104px;
 
@@ -23,7 +23,7 @@ $bottomMargin: 104px;
 
 .header {
 	align-items: center;
-	color: $colorWhite;
+	color: $white;
 	left: 50%;
 	position: absolute;
 	top: 50%;
@@ -33,13 +33,13 @@ $bottomMargin: 104px;
 }
 
 .label {
-	color: $colorBlack;
+	color: $black;
 	letter-spacing: 4px;
 	margin-bottom: 32px;
 	text-transform: uppercase;
 
 	&:after {
-		background-color: $colorBlack;
+		background-color: $black;
 		content: '';
 		display: block;
 		height: 1px;

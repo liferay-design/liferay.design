@@ -68,7 +68,7 @@ module.exports = {
 			},
 			{
 				include: path.join(clientDirectory, '/src/resources'),
-				test: /\.png$/,
+				test: /\.(png|jpg|gif)$/,
 				use: {
 					loader: 'url-loader',
 					options: {
@@ -143,7 +143,7 @@ module.exports = {
 			lib: path.join(clientDirectory, 'src/lib'),
 			pages: path.join(clientDirectory, 'src/pages'),
 			resources: path.join(clientDirectory, 'src/resources'),
-			styles: path.join(clientDirectory, 'src/styles'),
+			theme: path.join(clientDirectory, 'src/theme'),
 			utils: path.join(clientDirectory, 'src/utils'),
 		},
 		extensions: ['.js'],

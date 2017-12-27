@@ -1,4 +1,4 @@
-@import '~styles/variables';
+@import '~theme/variables';
 
 .container {
 	align-items: center;
@@ -10,20 +10,20 @@
 	margin: 0 20px;
 
 	&:hover .entry-label {
-		color: $colorWhite;
+		color: $white;
 	}
 
 	&.selected {
-		border-bottom: 1px solid $colorBlack;
+		border-bottom: 1px solid $black;
 
 		.entry-label {
-			color: $colorWhite;
+			color: $white;
 		}
 	}
 }
 
 .entry-label {
-	color: $colorPrimaryBlueLight;
+	color: $secondary;
 	margin: 0;
 	padding: 8px 0;
 	text-transform: capitalize;

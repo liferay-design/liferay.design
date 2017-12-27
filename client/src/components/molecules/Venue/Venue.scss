@@ -1,20 +1,32 @@
-@import '~styles/variables';
+@import '~theme/variables';
 
 .container {
-	display: flex;
-	margin: 3em;
+	margin: $spacingLarge 0 $spacingLarge $spacingSmall;
+	padding-bottom: $spacingLarge;
 	position: relative;
-	justify-content: center;
+	width: 100vw;
 }
 
-.navbar {
-	height: 1em;
+.image1 {
+	background-image: url('/public/images/snow-man.jpg');
+	background-position: center;
+	height: 30vh;
+	width: 400px;
 }
 
-.site-name {
-	color: $colorWhite;
-	font-weight: $fontWeightHeavy;
-	left: 0;
+.image2 {
+	background-image: url('/public/images/ticket.jpg');
+	background-position: center;
+	height: 30vh;
+	width: 250px;
+}
+
+.whiteBox {
+	background: $white;
 	position: absolute;
-	top: 0.1em;
+	bottom: 0;
+	right: 0;
+	width: 40vw;
+	height: 200px;
+	z-index: -1;
 }

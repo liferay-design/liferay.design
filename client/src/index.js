@@ -3,7 +3,7 @@ import { AppContainer } from 'react-hot-loader'
 import React from 'react'
 import ReactDom from 'react-dom'
 
-require('styles/global.scss')
+require('theme/global.scss')
 
 const render = Component => {
 	ReactDom.render(
