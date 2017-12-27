@@ -1,16 +1,13 @@
-import {List, Map} from 'immutable';
-import React from 'react';
+import { Header, HeroBanner } from 'components/organisms'
 
-import HeroBanner from 'components/banner/HeroBanner';
-import Header, {navKeys} from 'components/header/Header';
+import React from 'react'
+import { navKeys } from 'components/organisms/Header'
 
 class Events extends React.Component {
 	render() {
 		return (
 			<div>
-				<Header
-					selected={navKeys.events}
-				/>
+				<Header selected={navKeys.events} />
 
 				<HeroBanner
 					label={'event'}
@@ -19,10 +16,10 @@ class Events extends React.Component {
 					tertiaryHeader={'2018'}
 				/>
 
-				{"Hello World"}
+				{'Hello World'}
 			</div>
 		)
 	}
 }
 
-export default Events;
+export default Events
