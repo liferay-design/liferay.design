@@ -1,35 +1,35 @@
-@import "~styles/animations";
-@import "~styles/variables";
+@import '~styles/animations';
+@import '~styles/variables';
 
 $bottomMargin: 104px;
 
 .banner {
-    background-position: 29% -22px;
+	background-position: 29% -22px;
 	background-size: 219%;
-	box-shadow: 0 17px 50px 0 #003A97;
-    height: 100%;
+	box-shadow: 0 17px 50px 0 #003a97;
+	height: 100%;
 	margin: 0 auto;
 	width: 100%;
 }
 
 .container {
 	height: calc(100vh - #{$globalHeaderHeight});
-    margin: 0 auto;
-    min-height: 400px;
-    min-width: 360px;
-    position: relative;
+	margin: 0 auto;
+	min-height: 400px;
+	min-width: 360px;
+	position: relative;
 	width: calc(93vh - #{$globalHeaderHeight});
 }
 
 .header {
-    align-items: center;
+	align-items: center;
 	color: $colorWhite;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 137%;
-    z-index: 100;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 137%;
+	z-index: 100;
 }
 
 .label {
@@ -58,9 +58,9 @@ $bottomMargin: 104px;
 
 .tertiary {
 	letter-spacing: 8px;
-    margin: 0;
+	margin: 0;
 	position: absolute;
-    right: -72px;
-    top: 50%;
-    transform: rotateZ(90deg);
+	right: -72px;
+	top: 50%;
+	transform: rotateZ(90deg);
 }
