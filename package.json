@@ -96,7 +96,8 @@
 		"start": "node app",
 		"dev":
 			"cross-env NODE_ENV=development webpack-dev-server --content-base ./client",
-		"lint-staged": "lint-staged"
+		"lint-staged": "lint-staged",
+		"precommit": "lint-staged"
 	},
 	"lint-staged": {
 		"*.{js,json,scss}": [
