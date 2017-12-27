@@ -1,4 +1,4 @@
-import { Flex, Heading, Text } from 'components/atoms'
+import { Flex, Heading, Icon, Text } from 'components/atoms'
 
 import PropTypes from 'prop-types'
 import React from 'react'
@@ -21,8 +21,9 @@ const Venue = () => (
 				<Text>Jan 22 – Jan 26</Text>
 				<Text color="black">directions</Text>
 				<Flex justify="space-between">
-					leftArrow rightArrow
-					{'numbers'}
+					<Icon name="leftArrow" />
+					<Icon name="rightArrow" />
+					{'01 / 05'}
 				</Flex>
 			</Flex>
 
