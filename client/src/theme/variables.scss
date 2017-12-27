@@ -1,9 +1,9 @@
 /* ---------- Colors ---------- */
 
-$colorPrimaryBlue: #0055FD;
-$colorPrimaryBlueLight: #95BDFF;
-$colorWhite: #FFF;
-$colorBlack: #1C1B1B;
+$primary: #0055fd;
+$secondary: #95bdff;
+$white: #fff;
+$black: #1c1b1b;
 
 /* ---------- Global sizes ---------- */
 
@@ -15,8 +15,8 @@ $fontFamilyPrimary: 'Source Code Pro', 'Menlo', monospace;
 
 /* ---------- Font sizes ---------- */
 
-$fontSizeXSmall: .8rem;
-$fontSizeSmall: .9rem;
+$fontSizeXSmall: 0.8rem;
+$fontSizeSmall: 0.9rem;
 $fontSizeMedium: 1rem;
 $fontSizeLarge: 1.6rem;
 $fontSizeXLarge: 2rem;
@@ -28,3 +28,12 @@ $fontWeightLight: 200;
 $fontWeightRegular: 400;
 $fontWeightHeavy: 500;
 $fontWeightBlack: 700;
+
+/* ---------- Padding & Margin ---------- */
+
+$spacingXSmall: 0.4rem;
+$spacingSmall: 1rem;
+$spacingMedium: 3rem;
+$spacingLarge: 8rem;
+$spacingXLarge: 16rem;
+$spacingXXLarge: 32rem;
