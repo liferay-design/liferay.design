@@ -11,9 +11,7 @@ export const Talk = props => {
 	function renderSpeakers(speaker) {
 		if (speaker) {
 			if (speaker.length > 1) {
-				return speaker.map(data => (
-					<Speaker data={data} key={data.photo} />
-				))
+				return speaker.map(data => <Speaker data={data} key={data.photo} />)
 			} else {
 				return <Speaker data={speaker[0]} />
 			}

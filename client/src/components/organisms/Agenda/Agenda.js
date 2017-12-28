@@ -16,19 +16,14 @@ export class Agenda extends Component {
 	render() {
 		return (
 			<div className={classes.agendaContainer}>
-				<Flex
-					className={classes.heading}
-					justify="flex-start"
-					width="100%"
-				>
+				<Flex className={classes.heading} justify="flex-start" width="100%">
 					<Heading level={2} bottomBorder>
 						Agenda
 					</Heading>
 
 					<Text color="black" type="p" width="30%">
-						Orci varius natoque penatibus et magnis dis parturient
-						montes, nascetur ridiculus mus. Integer aliquam quis
-						magna.
+						Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+						ridiculus mus. Integer aliquam quis magna.
 					</Text>
 				</Flex>
 

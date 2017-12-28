@@ -28,11 +28,7 @@ const Flexbox = ({
 		},
 	})
 	return (
-		<div
-			id={name}
-			name={name}
-			className={`${css(styles.flex)} ${className || ''}`}
-		>
+		<div id={name} name={name} className={`${css(styles.flex)} ${className || ''}`}>
 			{children}
 		</div>
 	)
