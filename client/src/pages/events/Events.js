@@ -1,7 +1,6 @@
-import { Header, HeroBanner } from 'components/organisms'
+import { Agenda, Header, HeroBanner, Venue } from 'components/organisms'
 
 import React from 'react'
-import { Venue } from 'components/molecules'
 import { navKeys } from 'components/organisms/Header'
 
 const Events = () => (
@@ -16,6 +15,8 @@ const Events = () => (
 		/>
 
 		<Venue />
+
+		<Agenda />
 	</div>
 )
 

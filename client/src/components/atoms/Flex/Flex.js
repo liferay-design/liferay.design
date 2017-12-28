@@ -17,6 +17,7 @@ const Flexbox = ({
 }) => {
 	const styles = StyleSheet.create({
 		flex: {
+			boxSizing: 'border-box',
 			backgroundColor: colors[background],
 			display: 'flex',
 			flexDirection: direction,

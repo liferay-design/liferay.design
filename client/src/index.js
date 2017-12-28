@@ -4,6 +4,7 @@ import React from 'react'
 import ReactDom from 'react-dom'
 
 require('theme/global.scss')
+require('theme/reset.scss')
 
 const render = Component => {
 	ReactDom.render(

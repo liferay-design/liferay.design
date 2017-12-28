@@ -1,0 +1,43 @@
+@import '~theme/variables';
+
+.agendaContainer {
+	background: $white;
+	min-height: 100vh;
+}
+
+.heading {
+	padding: $spacingLarge;
+
+	p {
+		margin-left: $spacingLarge;
+	}
+}
+
+.dayToggle {
+	background: $primary;
+	width: 100px;
+	height: 500px;
+
+	> span {
+		display: block;
+		transform: translate(45px, 0) rotate(90deg);
+		transform-origin: left bottom;
+		width: 200px;
+
+		span {
+			color: $white;
+		}
+	}
+}
+
+.schedule {
+	width: 50%;
+}
+
+.talkContainer {
+	margin-bottom: $spacingMedium;
+
+	> div {
+		margin-left: $spacingMedium;
+	}
+}
