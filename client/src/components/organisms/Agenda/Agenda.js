@@ -6,12 +6,26 @@ import classes from './Agenda.scss'
 import scheduleArray from './schedule'
 
 export class Agenda extends Component {
-	constructor(props) {
-		super(props)
+	constructor() {
+		super()
 
 		this.state = {
 			currentAgenda: scheduleArray[1],
 		}
+	}
+	toggleDay(toggleDirection) {
+		const currentIndex = this.state.currentAgenda.id
+		const scheduleLength = scheduleArray.length - 1
+
+		let updatedIndex
+
+		if (toggleDirection === 'previous') {
+			updatedIndex = currentIndex > 0 ? currentIndex - 1 : currentIndex
+		} else {
+			updatedIndex = currentIndex < scheduleLength ? currentIndex + 1 : currentIndex
+		}
+
+		this.setState({ currentAgenda: scheduleArray[updatedIndex] })
 	}
 	render() {
 		return (
@@ -28,7 +42,7 @@ export class Agenda extends Component {
 				</Flex>
 
 				<Flex justify="space-around">
-					<div className={classes.dayToggle}>
+					<div className={classes.dayToggle} onClick={() => this.toggleDay('previous')}>
 						<Text>
 							Monday <span>Jan 22</span>
 						</Text>
@@ -40,7 +54,7 @@ export class Agenda extends Component {
 						))}
 					</div>
 
-					<div className={classes.dayToggle}>
+					<div className={classes.dayToggle} onClick={() => this.toggleDay('next')}>
 						<Text>
 							Wednesday <span>Jan 24</span>
 						</Text>

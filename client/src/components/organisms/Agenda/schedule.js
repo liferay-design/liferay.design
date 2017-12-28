@@ -1,6 +1,9 @@
+// Make sure the shape of this data stays consistent
+// Also ensure that the id starts at 0 and increases by 1 for each day
+
 const scheduleArray = [
 	{
-		id: 1,
+		id: 0,
 		day: 'Monday Jan 22',
 		talks: [
 			{
@@ -40,7 +43,7 @@ const scheduleArray = [
 		],
 	},
 	{
-		id: 2,
+		id: 1,
 		day: 'Tuesday Jan 23',
 		talks: [
 			{
@@ -75,7 +78,7 @@ const scheduleArray = [
 		],
 	},
 	{
-		id: 3,
+		id: 2,
 		day: 'Monday Jan 22',
 		talks: [
 			{
