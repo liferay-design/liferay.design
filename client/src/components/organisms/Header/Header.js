@@ -17,7 +17,7 @@ export const navKeys = {
 
 const Header = ({ selected }) => (
 	<div className={classes.container}>
-		<h2 className={classes.siteName}>{'Liferay.Design'}</h2>
+		<h2 className={`${classes.siteName} f4`}>{'Liferay.Design'}</h2>
 
 		<Navbar
 			className={classes.navbar}

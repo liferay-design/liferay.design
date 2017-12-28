@@ -9,7 +9,11 @@
 	padding: $spacingLarge;
 
 	p {
-		margin-left: $spacingLarge;
+		color: $grey;
+		//margin-left: $spacingLarge;
+		max-width: 50vw;
+		position: absolute;
+		left: 25vw;
 	}
 }
 

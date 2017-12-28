@@ -66,7 +66,7 @@ export class Agenda extends Component {
 						Agenda
 					</Heading>
 
-					<Text color="black" type="p" width="30%">
+					<Text type="p" color="grey">
 						Orci varius natoque penatibus et magnis dis parturient montes, nascetur
 						ridiculus mus. Integer aliquam quis magna.
 					</Text>

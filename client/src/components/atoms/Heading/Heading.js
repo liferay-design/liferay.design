@@ -27,7 +27,7 @@ Heading.propTypes = {
 }
 
 Heading.defaultProps = {
-	color: 'black',
+	//color: 'black',
 	level: 3,
 	textAlign: 'left',
 }
