@@ -16,10 +16,10 @@ const Venue = () => (
 			<Flex direction="column">
 				<Heading color="white">Liferay Headquarters</Heading>
 
-				<Text>1400 Montefino Ave</Text>
-				<Text>Diamond Bar, CA 91765</Text>
-				<Text>Jan 22 – Jan 26</Text>
-				<Text color="black">directions</Text>
+				<Text color="white">1400 Montefino Ave</Text>
+				<Text color="white">Diamond Bar, CA 91765</Text>
+				<Text color="white">Jan 22 – Jan 26</Text>
+				<Text>directions</Text>
 				<Flex justify="space-between">
 					<Icon name="leftArrow" />
 					<Icon name="rightArrow" />

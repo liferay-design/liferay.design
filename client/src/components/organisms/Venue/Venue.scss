@@ -1,10 +1,9 @@
 @import '~theme/variables';
 
 .container {
-	margin: $spacingLarge 0 $spacingLarge $spacingSmall;
+	margin: $spacingLarge 0 0 $spacingLarge;
 	padding-bottom: $spacingLarge;
 	position: relative;
-	width: 100vw;
 }
 
 .image1 {
