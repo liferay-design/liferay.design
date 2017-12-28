@@ -32,7 +32,7 @@ export class Agenda extends Component {
 					</Text>
 				</Flex>
 
-				<Flex justify="space-around">
+				<Flex justify="space-between">
 					<div className={classes.dayToggle}>
 						<Text>
 							Monday <span>Jan 22</span>

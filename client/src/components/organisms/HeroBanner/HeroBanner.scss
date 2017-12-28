@@ -28,6 +28,7 @@ $bottomMargin: 104px;
 	position: absolute;
 	top: 50%;
 	transform: translate(-50%, -50%);
+	max-width: 835px;
 	width: 85vw;
 	z-index: 100;
 }
@@ -60,7 +61,7 @@ $bottomMargin: 104px;
 	letter-spacing: 8px;
 	margin: 0;
 	position: absolute;
-	right: -72px;
+	right: -24px;
 	top: 50%;
-	transform: rotateZ(90deg);
+	transform: rotateZ(-90deg);
 }
