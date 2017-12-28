@@ -3,13 +3,7 @@ import React from 'react'
 import ReactSvg from 'react-svg'
 
 const Icon = ({ className, name, style }) => {
-	return (
-		<ReactSvg
-			className={className}
-			path={`public/images/icons/${name}.svg`}
-			style={style}
-		/>
-	)
+	return <ReactSvg className={className} path={`public/images/icons/${name}.svg`} style={style} />
 }
 
 Icon.propTypes = {

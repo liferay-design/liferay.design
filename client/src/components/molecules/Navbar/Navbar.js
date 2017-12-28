@@ -25,15 +25,10 @@ const Navbar = ({ href, options, optionsMap, selected }) => {
 			{options.map(entry => {
 				return (
 					<div
-						className={`${classes.entry} ${
-							entry === selected ? classes.selected : ''
-						}`}
+						className={`${classes.entry} ${entry === selected ? classes.selected : ''}`}
 						key={entry}
 					>
-						<Link
-							className={classes.entryLink}
-							to={_constructHref(entry, href)}
-						>
+						<Link className={classes.entryLink} to={_constructHref(entry, href)}>
 							<Heading className={classes.entryLabel}>
 								{optionsMap.get(entry)}
 							</Heading>
