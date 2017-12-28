@@ -1,6 +1,7 @@
 import { Flex, Heading, Text } from 'components/atoms'
 import React, { Component } from 'react'
 
+import Day from './Day'
 import Talk from './Talk'
 import classes from './Agenda.scss'
 import moment from 'moment'
@@ -10,18 +11,31 @@ export class Agenda extends Component {
 	constructor() {
 		super()
 
-		const previousDay = new Date(scheduleArray[0].day)
-		const day = moment('12/25/1995', 'MM-DD-YYYY').format()
-		console.log(day)
-
 		this.state = {
 			currentAgenda: scheduleArray[1],
-			previousDay: new Date(scheduleArray[0].day),
-			nextDay: new Date(scheduleArray[2].day),
+			currentDay: this.getDate(scheduleArray[1].day),
+			previousDay: this.getDate(scheduleArray[0].day),
+			nextDay: this.getDate(scheduleArray[2].day),
 		}
+
+		this.toggleDay = this.toggleDay.bind(this)
 	}
-	getPreviousDay() {
-		// return `${day.getDay} ${day.getMonth}`
+	getDate(date) {
+		return moment(date, 'MM-DD-YYYY')
+	}
+	getNextDay(index) {
+		if (index < scheduleArray.length - 1) {
+			const nextIndex = index + 1
+			return this.getDate(scheduleArray[nextIndex].day)
+		}
+		return null
+	}
+	getPreviousDay(index) {
+		if (index > 0) {
+			const previousIndex = index - 1
+			return this.getDate(scheduleArray[previousIndex].day)
+		}
+		return null
 	}
 	toggleDay(toggleDirection) {
 		const currentIndex = this.state.currentAgenda.id
@@ -35,9 +49,16 @@ export class Agenda extends Component {
 			updatedIndex = currentIndex < scheduleLength ? currentIndex + 1 : currentIndex
 		}
 
-		this.setState({ currentAgenda: scheduleArray[updatedIndex] })
+		this.setState({
+			currentAgenda: scheduleArray[updatedIndex],
+			currentDay: this.getDate(scheduleArray[updatedIndex].day),
+			nextDay: this.getNextDay(updatedIndex),
+			previousDay: this.getPreviousDay(updatedIndex),
+		})
 	}
 	render() {
+		const { currentDay, nextDay, previousDay } = this.state
+
 		return (
 			<div className={classes.agendaContainer}>
 				<Flex className={classes.heading} justify="flex-start" width="100%">
@@ -52,24 +73,17 @@ export class Agenda extends Component {
 				</Flex>
 
 				<Flex justify="space-around">
-					<div className={classes.dayToggle} onClick={() => this.toggleDay('previous')}>
-						<Text>
-							{this.state.previousDay.getDay()}{' '}
-							<span>{this.state.previousDay.getMonth()}</span>
-						</Text>
-					</div>
+					<Day day={previousDay} onClick={() => this.toggleDay('previous')} />
 
 					<div className={classes.schedule}>
+						<Day current day={currentDay} />
+
 						{this.state.currentAgenda.talks.map((data, i) => (
 							<Talk data={data} key={i} />
 						))}
 					</div>
 
-					<div className={classes.dayToggle} onClick={() => this.toggleDay('next')}>
-						<Text>
-							Wednesday <span>Jan 24</span>
-						</Text>
-					</div>
+					<Day day={nextDay} onClick={() => this.toggleDay('next')} />
 				</Flex>
 			</div>
 		)

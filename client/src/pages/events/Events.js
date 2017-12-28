@@ -1,5 +1,6 @@
 import { Agenda, Header, HeroBanner, Venue } from 'components/organisms'
 
+import Error from 'react-error-boundary'
 import React from 'react'
 import { navKeys } from 'components/organisms/Header'
 
@@ -16,7 +17,9 @@ const Events = () => (
 
 		<Venue />
 
-		<Agenda />
+		<Error>
+			<Agenda />
+		</Error>
 	</div>
 )
 
