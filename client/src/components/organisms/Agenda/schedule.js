@@ -1,10 +1,10 @@
 // Make sure the shape of this data stays consistent
 // Also ensure that the id starts at 0 and increases by 1 for each day
-
+// Dates should be in this format ('year, month, day')
 const scheduleArray = [
 	{
 		id: 0,
-		day: 'Monday Jan 22',
+		day: '2017, 1, 22',
 		talks: [
 			{
 				time: '08:45 am',
@@ -44,7 +44,7 @@ const scheduleArray = [
 	},
 	{
 		id: 1,
-		day: 'Tuesday Jan 23',
+		day: '2017, 1, 23',
 		talks: [
 			{
 				time: '08:45 am',
@@ -79,7 +79,7 @@ const scheduleArray = [
 	},
 	{
 		id: 2,
-		day: 'Monday Jan 22',
+		day: '2017, 1, 23',
 		talks: [
 			{
 				time: '08:45 am',

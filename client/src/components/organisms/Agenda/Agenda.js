@@ -3,15 +3,25 @@ import React, { Component } from 'react'
 
 import Talk from './Talk'
 import classes from './Agenda.scss'
+import moment from 'moment'
 import scheduleArray from './schedule'
 
 export class Agenda extends Component {
 	constructor() {
 		super()
 
+		const previousDay = new Date(scheduleArray[0].day)
+		const day = moment('12/25/1995', 'MM-DD-YYYY').format()
+		console.log(day)
+
 		this.state = {
 			currentAgenda: scheduleArray[1],
+			previousDay: new Date(scheduleArray[0].day),
+			nextDay: new Date(scheduleArray[2].day),
 		}
+	}
+	getPreviousDay() {
+		// return `${day.getDay} ${day.getMonth}`
 	}
 	toggleDay(toggleDirection) {
 		const currentIndex = this.state.currentAgenda.id
@@ -44,7 +54,8 @@ export class Agenda extends Component {
 				<Flex justify="space-around">
 					<div className={classes.dayToggle} onClick={() => this.toggleDay('previous')}>
 						<Text>
-							Monday <span>Jan 22</span>
+							{this.state.previousDay.getDay()}{' '}
+							<span>{this.state.previousDay.getMonth()}</span>
 						</Text>
 					</div>
 

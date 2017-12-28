@@ -20,6 +20,7 @@ const Venue = () => (
 				<Text color="white">Diamond Bar, CA 91765</Text>
 				<Text color="white">Jan 22 – Jan 26</Text>
 				<Text>directions</Text>
+
 				<Flex justify="space-between">
 					<Icon name="leftArrow" />
 					<Icon name="rightArrow" />
@@ -28,6 +29,7 @@ const Venue = () => (
 			</Flex>
 
 			<div className={classes.image1} />
+
 			<div className={classes.image2} />
 		</Flex>
 	</section>
