@@ -1,7 +1,7 @@
 @import '~theme/variables';
 
 .container {
-	margin: $spacingLarge 0 0 $spacingLarge;
+	margin: $spacingXLarge 0 0 $spacingLarge;
 	padding-bottom: $spacingLarge;
 	position: relative;
 }
@@ -9,14 +9,14 @@
 .image1 {
 	background-image: url('/public/images/snow-man.jpg');
 	background-position: center;
-	height: 30vh;
-	width: 400px;
+	height: 40vh;
+	width: calc(50vw - 15%);
 }
 
 .image2 {
 	background-image: url('/public/images/ticket.jpg');
 	background-position: center;
-	height: 30vh;
+	height: 40vh;
 	width: 250px;
 }
 
