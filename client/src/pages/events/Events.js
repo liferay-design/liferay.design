@@ -18,9 +18,9 @@ const Events = () => (
 
 		<Agenda />
 
-		<Footer />
-
 		<Team />
+
+		<Footer />
 	</div>
 )
 
