@@ -1,9 +1,9 @@
 import { Flex, Heading, Text } from 'components/atoms'
 import React, { Component } from 'react'
 
+import Person from './Person/Person'
 import classes from './Team.scss'
 import teamMembers from './team_members'
-import Person from './Person/Person'
 
 class Team extends Component {
 	constructor(props) {
@@ -15,7 +15,7 @@ class Team extends Component {
 	}
 	render() {
 		return (
-			<div className={classes.teamContainer}>
+			<div className={classes.teamContainer} id="team">
 				<Flex className={classes.heading} justify="flex-start" width="100%">
 					<Heading level={2} bottomBorder>
 						Team

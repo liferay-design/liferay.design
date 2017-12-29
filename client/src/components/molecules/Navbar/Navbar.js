@@ -1,7 +1,7 @@
 import { List, Map } from 'immutable'
 
 import { Heading } from 'components/atoms'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Navbar.scss'

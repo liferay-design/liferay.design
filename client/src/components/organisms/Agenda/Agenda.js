@@ -60,7 +60,7 @@ export class Agenda extends Component {
 		const { currentDay, nextDay, previousDay } = this.state
 
 		return (
-			<div className={classes.agendaContainer}>
+			<div className={classes.agendaContainer} id="agenda">
 				<Flex className={classes.heading} justify="flex-start" width="100%">
 					<Heading level={2} bottomBorder>
 						Agenda

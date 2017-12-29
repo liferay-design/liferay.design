@@ -5,7 +5,7 @@ import React from 'react'
 import classes from './Venue.scss'
 
 const Venue = () => (
-	<section className={classes.container}>
+	<section className={classes.container} id="venue">
 		<div className={classes.whiteBox} />
 
 		<Flex justify="space-between" width="100%">

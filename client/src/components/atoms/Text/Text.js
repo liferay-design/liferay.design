@@ -19,7 +19,7 @@ const Text = ({ align, children, color, size, style, type, weight, width }) => {
 	}
 
 	return (
-		<Type className={classes[type]} style={{ color: colors[color], ...textAlign, width }}>
+		<Type className={classes[type]} style={styles}>
 			{children}
 		</Type>
 	)
