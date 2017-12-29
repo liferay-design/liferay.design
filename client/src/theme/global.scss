@@ -10,47 +10,4 @@
 		font-family: $fontFamilyPrimary;
 		margin: 0;
 	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5 {
-		margin: 0;
-	}
-
-	h1,
-	.f1 {
-		font-size: $fontSizeXXLarge;
-		font-weight: $fontWeightHeavy;
-	}
-
-	h2,
-	.f2 {
-		font-size: $fontSizeXLarge;
-		font-weight: $fontWeightHeavy;
-	}
-
-	h3,
-	.f3 {
-		font-size: $fontSizeLarge;
-		font-weight: $fontWeightHeavy;
-	}
-
-	h4,
-	.f4 {
-		font-size: $fontSizeMedium;
-		font-weight: $fontWeightHeavy;
-	}
-
-	h5,
-	.f5 {
-		font-size: $fontSizeSmall;
-		font-weight: $fontWeightHeavy;
-	}
-
-	h6,
-	.f6 {
-		font-size: $fontSizeXSmall;
-	}
 }
