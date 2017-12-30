@@ -5,7 +5,7 @@ import React from 'react'
 import classes from './Venue.scss'
 
 const Venue = () => (
-	<section className={classes.container}>
+	<section className={classes.container} id="venue">
 		<div className={classes.whiteBox} />
 
 		<Flex justify="space-between" width="100%">
@@ -21,6 +21,7 @@ const Venue = () => (
 				<Text color="white">Diamond Bar, CA 91765</Text>
 				<Text color="white">Jan 22 – 26</Text>
 				<Text>directions</Text>
+
 				<Flex justify="space-between">
 					<Icon name="leftArrow" />
 					<Icon name="rightArrow" />
@@ -29,6 +30,7 @@ const Venue = () => (
 			</Flex>
 
 			<div className={classes.image1} />
+
 			<div className={classes.image2} />
 		</Flex>
 	</section>

@@ -1,0 +1,14 @@
+@import '~theme/variables';
+
+.teamContainer {
+	padding: $spacingLarge;
+	min-height: 100vh;
+}
+
+.heading {
+	padding: $spacingLarge;
+
+	p {
+		margin-left: $spacingLarge;
+	}
+}

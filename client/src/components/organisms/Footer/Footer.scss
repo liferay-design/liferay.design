@@ -1,0 +1,51 @@
+@import '~theme/variables';
+
+.container {
+	position: relative;
+}
+
+.mediaWrapper {
+	position: absolute;
+	top: -20px;
+	right: 0;
+	width: 100%;
+}
+
+.mediaContainer {
+	position: relative;
+	height: 240px;
+
+	img {
+		height: 100%;
+	}
+}
+
+.mediaText {
+	position: absolute;
+	height: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	background: $white;
+	width: 40%;
+}
+
+.whiteSeparator {
+	background: $white;
+	height: 200px;
+	width: 100%;
+}
+
+.rightWhiteBox {
+	background: $white;
+	height: 100%;
+	width: 20%;
+}
+
+.textContainer {
+	height: 200px;
+}
+
+.credits {
+	padding: $spacingSmall;
+}

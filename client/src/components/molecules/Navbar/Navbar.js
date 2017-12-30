@@ -1,7 +1,7 @@
 import { List, Map } from 'immutable'
 
 import { Heading } from 'components/atoms'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Navbar.scss'
@@ -25,16 +25,13 @@ const Navbar = ({ href, options, optionsMap, selected }) => {
 			{options.map(entry => {
 				return (
 					<div
-						className={`${classes.entry} ${
-							entry === selected ? classes.selected : ''
-						}`}
+						className={`${classes.entry} ${entry === selected ? classes.selected : ''}`}
 						key={entry}
 					>
-						<Link
-							className={classes.entryLink}
-							to={_constructHref(entry, href)}
-						>
-							<Heading className={`${classes.entryLabel} f4`}>
+
+						<Link className={classes.entryLink} to={_constructHref(entry, href)}>
+							<Heading className={classes.entryLabel}>
+
 								{optionsMap.get(entry)}
 							</Heading>
 						</Link>

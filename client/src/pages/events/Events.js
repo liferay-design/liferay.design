@@ -1,4 +1,4 @@
-import { Agenda, Header, HeroBanner, Venue } from 'components/organisms'
+import { Agenda, Footer, Header, HeroBanner, Team, Venue } from 'components/organisms'
 
 import React from 'react'
 import { navKeys } from 'components/organisms/Header'
@@ -17,6 +17,10 @@ const Events = () => (
 		<Venue />
 
 		<Agenda />
+
+		<Team />
+
+		<Footer />
 	</div>
 )
 

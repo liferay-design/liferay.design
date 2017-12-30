@@ -19,6 +19,7 @@
 
 .dayToggle {
 	background: $primary;
+	cursor: pointer;
 	width: 100px;
 	height: 500px;
 
@@ -32,6 +33,12 @@
 			color: $white;
 		}
 	}
+}
+
+.noDay {
+	background: $grey;
+	width: 100px;
+	height: 500px;
 }
 
 .schedule {

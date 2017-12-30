@@ -3,22 +3,13 @@ import React from 'react'
 import classes from './Heading.scss'
 import { colors } from 'theme'
 
-const Heading = ({
-	align,
-	bottomBorder,
-	className,
-	color,
-	children,
-	level,
-}) => {
+const Heading = ({ align, bottomBorder, className, color, children, level }) => {
 	const Header = `h${level}`
 	const borderClass = bottomBorder ? 'bottomBorder' : ''
 
 	return (
 		<Header
-			className={`${className} ${classes[Header]} ${
-				classes[borderClass]
-			}`}
+			className={`${className} ${classes[Header]} ${classes[borderClass]}`}
 			style={{ color: colors[color], textAlign: align }}
 		>
 			{children}

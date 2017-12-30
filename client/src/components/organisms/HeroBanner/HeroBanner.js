@@ -1,29 +1,30 @@
+import { Heading } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './HeroBanner.scss'
 import yellowPolaroid from 'resources/yellow-polaroid-small.png'
 
-const HeroBanner = ({
-	label,
-	primaryHeader,
-	secondaryHeader,
-	tertiaryHeader,
-}) => (
+const HeroBanner = ({ label, primaryHeader, secondaryHeader, tertiaryHeader }) => (
 	<div className={classes.container}>
 		<div className={classes.header}>
-			<h5 className={classes.label}>{label}</h5>
+			<Heading level={5} className={classes.label}>
+				{label}
+			</Heading>
 
-			<h1 className={classes.primary}>{primaryHeader}</h1>
+			<Heading level={1} className={classes.primary}>
+				{primaryHeader}
+			</Heading>
 
-			<h2 className={classes.secondary}>{secondaryHeader}</h2>
+			<Heading level={2} className={classes.secondary}>
+				{secondaryHeader}
+			</Heading>
 
-			<h5 className={classes.tertiary}>{tertiaryHeader}</h5>
+			<Heading level={5} className={classes.tertiary}>
+				{tertiaryHeader}
+			</Heading>
 		</div>
 
-		<div
-			className={classes.banner}
-			style={{ backgroundImage: `url(${yellowPolaroid})` }}
-		/>
+		<div className={classes.banner} style={{ backgroundImage: `url(${yellowPolaroid})` }} />
 	</div>
 )
 

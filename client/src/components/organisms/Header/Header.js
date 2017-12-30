@@ -1,5 +1,6 @@
 import { List, Map } from 'immutable'
 
+import { Heading } from 'components/atoms'
 import { Navbar } from 'components/molecules'
 import PropTypes from 'prop-types'
 import React from 'react'
@@ -17,7 +18,10 @@ export const navKeys = {
 
 const Header = ({ selected }) => (
 	<div className={classes.container}>
-		<h2 className={`${classes.siteName} f4`}>{'Liferay.Design'}</h2>
+  
+		<Heading level={5} color="white" className={classes.siteName}>
+			Liferay.Design
+		</Heading>
 
 		<Navbar
 			className={classes.navbar}
