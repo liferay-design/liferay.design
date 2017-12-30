@@ -15,6 +15,7 @@
 	padding-bottom: $spacingSmall;
 }
 
+
 .h1 {
 	@extend .shared;
 	font-size: $fontSizeXXLarge;
@@ -44,6 +45,7 @@
 	font-size: $fontSizeXSmall;
 	font-weight: $fontWeightHeavy;
 }
+
 
 .h6 {
 	@extend .shared;

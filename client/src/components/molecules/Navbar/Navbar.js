@@ -28,8 +28,10 @@ const Navbar = ({ href, options, optionsMap, selected }) => {
 						className={`${classes.entry} ${entry === selected ? classes.selected : ''}`}
 						key={entry}
 					>
+
 						<Link className={classes.entryLink} to={_constructHref(entry, href)}>
 							<Heading className={classes.entryLabel}>
+
 								{optionsMap.get(entry)}
 							</Heading>
 						</Link>
