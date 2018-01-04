@@ -20,14 +20,18 @@
 .dayToggle {
 	background: $primary;
 	cursor: pointer;
+	padding: 3em 0;
 	width: 100px;
-	height: 500px;
+	height: 50vh;
+	min-height: 20ch;
 
 	> span {
 		display: block;
-		transform: translate(45px, 0) rotate(90deg);
+		font-size: $fontSizeLarge !important;
+		transform: rotate(90deg);
 		transform-origin: left bottom;
-		width: 200px;
+		padding: 1.2em;
+		width: 18ch;
 
 		span {
 			color: $white;

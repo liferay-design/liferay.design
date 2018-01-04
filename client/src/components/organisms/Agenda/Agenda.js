@@ -72,7 +72,7 @@ export class Agenda extends Component {
 					</Text>
 				</Flex>
 
-				<Flex justify="space-around">
+				<Flex justify="space-between">
 					<Day day={previousDay} onClick={() => this.toggleDay('previous')} previous />
 
 					<div className={classes.schedule}>
