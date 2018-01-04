@@ -2,6 +2,7 @@
 
 :global {
 	body {
+		background-attachment: fixed;
 		background-blend-mode: multiply;
 		background-color: $primary;
 		background-image: url(~resources/diamond-bar-topography.png);
