@@ -1,3 +1,4 @@
 {
-	"id": "liferaydesign"
+	"id": "liferaydesign",
+	"port": 8585
 }
