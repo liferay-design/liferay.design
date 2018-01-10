@@ -63,6 +63,7 @@
 		"babel-preset-react": "^6.24.1",
 		"babel-preset-react-optimize": "^1.0.1",
 		"clean-webpack-plugin": "^0.1.17",
+		"copyfiles": "^1.2.0",
 		"css-loader": "^0.28.7",
 		"eslint": "^4.10.0",
 		"eslint-config-prettier": "^2.6.0",
@@ -96,8 +97,8 @@
 		"url": "git+https://github.com/liferay/liferay-portal-ee.git"
 	},
 	"scripts": {
-		"build": "cross-env NODE_ENV=production webpack",
-		"build:dev": "cross-env NODE_ENV=development webpack",
+		"build": "npm run build:copy && cross-env NODE_ENV=production webpack",
+		"build:copy": "copyfiles -u 2 client/public/images/**/* client/public/images/* client/dist",
 		"start": "npm run build && node app",
 		"dev": "cross-env NODE_ENV=development webpack-dev-server --content-base ./client",
 		"format": "prettier-eslint --write \"client/src/**/*.js\"",

@@ -19,12 +19,7 @@ Then visit the url shown in your cli (should look like: http://localhost:8080/).
 
 Build client files during development.
 ```
-npm run build:dev
-```
-
-Build client files for production.
-```
-npm run build
+npm run dev
 ```
 
 # Serving the files
