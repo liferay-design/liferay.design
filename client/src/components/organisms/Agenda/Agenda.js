@@ -67,8 +67,9 @@ export class Agenda extends Component {
 					</Heading>
 
 					<Text type="p" color="grey">
-						Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-						ridiculus mus. Integer aliquam quis magna.
+						The first Design Week at Liferay features a variety of sessions that will
+						give insights into what the teams in each region are working on, as well as
+						provide a foundation for increased collaboration.
 					</Text>
 				</Flex>
 

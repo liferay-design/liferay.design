@@ -11,23 +11,22 @@ export const Footer = () => {
 
 			<div className={classes.mediaWrapper}>
 				<Flex className={classes.mediaContainer} justify="flex-end">
-					<img src="/public/images/new-year.jpg" />
+					<img src="/public/images/footer_tweet.jpg" />
 
 					<div className={classes.rightWhiteBox} />
-
-					<Flex
-						className={classes.mediaText}
-						align="center"
-						direction="column"
-						justify="center"
-					>
-						<Flex justify="flex-end">
-							<Icon name="twitter" />
-						</Flex>
-
-						<Text>Tweet</Text>
-						<Text color="grey">your experience</Text>
+				</Flex>
+				<Flex
+					className={classes.mediaText}
+					align="center"
+					direction="column"
+					justify="center"
+				>
+					<Flex justify="flex-end">
+						<Icon name="twitter" />
 					</Flex>
+
+					<Text>Tweet</Text>
+					<Text color="grey">your experience</Text>
 				</Flex>
 			</div>
 
