@@ -6,14 +6,18 @@
 }
 
 .heading {
+	margin-bottom: 6em;
 	padding: $spacingLarge;
 
 	p {
 		color: $grey;
-		//margin-left: $spacingLarge;
+		margin: 0.25em 0 1.2em 0;
 		max-width: 50vw;
 		position: absolute;
 		left: 25vw;
+		font-size: 1.4em !important;
+		line-height: 1.4;
+		font-weight: 300 !important;
 	}
 }
 

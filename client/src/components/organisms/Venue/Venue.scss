@@ -7,16 +7,19 @@
 }
 
 .image1 {
-	background-image: url('/public/images/snow-man.jpg');
+	background-image: url('/public/images/venue_jess.jpg');
 	background-position: center;
+	background-size: cover;
 	height: 40vh;
 	width: calc(50vw - 15%);
 }
 
 .image2 {
-	background-image: url('/public/images/ticket.jpg');
+	background-image: url('/public/images/venue_ray.jpg');
 	background-position: center;
+	background-size: cover;
 	height: 40vh;
+	margin-right: -1vw;
 	width: 250px;
 }
 
@@ -28,4 +31,8 @@
 	width: 40vw;
 	height: 200px;
 	z-index: -1;
+}
+
+.f4 {
+	margin-top: 0.6em;
 }
