@@ -4,7 +4,7 @@ import React from 'react'
 import classes from './HeroBanner.scss'
 import yellowPolaroid from 'resources/yellow-polaroid-small.png'
 
-const HeroBanner = ({ label, primaryHeader, secondaryHeader, tertiaryHeader }) => (
+const HeroBanner = ({ label, primaryHeader, secondaryHeader, date, tertiaryHeader }) => (
 	<div className={classes.container}>
 		<div className={classes.header}>
 			<Heading level={5} className={classes.label}>
@@ -17,6 +17,10 @@ const HeroBanner = ({ label, primaryHeader, secondaryHeader, tertiaryHeader }) =
 
 			<Heading level={2} className={classes.secondary}>
 				{secondaryHeader}
+			</Heading>
+
+			<Heading level={2} className={classes.secondary}>
+				{date}
 			</Heading>
 
 			<Heading level={5} className={classes.tertiary}>
@@ -32,6 +36,7 @@ HeroBanner.propTypes = {
 	label: PropTypes.string,
 	primaryHeader: PropTypes.string,
 	secondaryHeader: PropTypes.string,
+	date: PropTypes.string,
 	tertiaryHeader: PropTypes.string,
 }
 
