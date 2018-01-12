@@ -13,6 +13,7 @@ export const Speaker = props => {
 				alt={photo}
 				width="100px"
 				height="100px"
+				object-fit="cover"
 			/>
 
 			<Flex justify="center" direction="column">

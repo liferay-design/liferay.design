@@ -12,12 +12,13 @@
 	p {
 		color: $grey;
 		margin: 0.25em 0 1.2em 0;
-		max-width: 50vw;
+		max-width: 800px;
 		position: absolute;
-		left: 25vw;
+		left: 22vw;
 		font-size: 1.4em !important;
 		line-height: 1.4;
 		font-weight: 300 !important;
+		width: 56vw;
 	}
 }
 
@@ -50,7 +51,8 @@
 }
 
 .schedule {
-	width: 50%;
+	max-width: 800px;
+	width: 56vw;
 }
 
 .talkContainer {

@@ -12,6 +12,7 @@
 	background-size: cover;
 	height: 40vh;
 	width: calc(50vw - 15%);
+	margin-left: 9vw;
 }
 
 .image2 {
@@ -20,7 +21,7 @@
 	background-size: cover;
 	height: 40vh;
 	margin-right: -1vw;
-	width: 250px;
+	width: 12vw;
 }
 
 .whiteBox {
@@ -33,6 +34,21 @@
 	z-index: -1;
 }
 
-.f4 {
+h3 {
 	margin-top: 0.6em;
+	padding-bottom: 1.4rem;
+}
+
+.address {
+	margin: 0.5rem 0 0 4vw;
+}
+
+.address span {
+	opacity: 0.7;
+}
+
+.address a,
+.address a:visited {
+	color: $black;
+	padding-top: 0.4rem;
 }

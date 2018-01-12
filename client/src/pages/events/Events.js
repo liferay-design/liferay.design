@@ -11,6 +11,7 @@ const Events = () => (
 			label="event"
 			primaryHeader="Design Week"
 			secondaryHeader="Los Angeles, CA"
+			date="Jan 22 — 26"
 			tertiaryHeader="2018"
 		/>
 
