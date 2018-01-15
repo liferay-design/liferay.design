@@ -5,181 +5,403 @@
 const scheduleArray = [
 	{
 		id: 0,
-		day: '1/22/17',
+		day: '1/22/18',
 		talks: [
 			{
-				time: '08:45 am',
-				title: 'Brand Continuity',
-				subtitle: '1 hr Training Room 120',
+				time: '09:30',
+				title: 'Welcome!',
+				subtitle: '30 min | Training Room 120',
 				speaker: [
 					{
-						photo: 'marco',
-						name: 'Marco Leo',
-						title: 'Software Architect',
-					},
-					{
-						photo: 'christina',
-						name: 'Christina Gonzales',
-						title: 'Software Engineer',
+						photo: 'hidalgo_juan',
+						name: 'Juan Hidalgo',
+						title: 'Design Director',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Customer Experience',
-				subtitle: '1 hr Training Room 120',
+				time: '10:00',
+				title: 'Design @Liferay 2018',
+				subtitle: '1 hr | Training Room 120',
 				speaker: [
 					{
-						photo: 'javier',
-						name: 'Javier Gamarra',
-						title: 'Senior Consultant',
+						photo: 'liferay_icon',
+						name: '',
+						title: '',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
+				time: '11:00',
 				title: 'Breaktivity',
-				subtitle: 'Lets get creative together',
+				subtitle: '30 min | Lets get creative together!',
+			},
+			{
+				time: '11:30',
+				title: 'liferay.design',
+				subtitle: '55 min talk, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'connolly_ryan',
+						name: 'Ryan Connolly',
+						title: 'UX Designer',
+					},
+					{
+						photo: 'hanaoka_paul',
+						name: 'Paul Hanaoka',
+						title: 'UX Design Manager',
+					},
+				],
+			},
+			{
+				time: '12:30',
+				title: 'Lunch!',
+				subtitle: '1.5 hr | Meet downstairs in cafeteria 🌮',
+			},
+			{
+				time: '14:00',
+				title: 'Workshop: Using Lexicon to craft your interfaces',
+				subtitle: '1.25 hr, 15 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'anton_juan',
+						name: 'Juan Anton',
+						title: 'UX Designer',
+					},
+					{
+						photo: 'valle_victor',
+						name: 'Victor Valle',
+						title: 'UX Design Manager',
+					},
+				],
 			},
 		],
 	},
 	{
 		id: 1,
-		day: '1/23/17',
+		day: '1/23/18',
 		talks: [
 			{
-				time: '08:45 am',
-				title: '7.1 How to Achieve Our Goals',
-				subtitle: '1 hr Training Room 120',
+				time: '08:45',
+				title: 'Liferay 7.1: How to Achieve Our Goals',
+				subtitle: '1 hr, 15 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'victor',
+						photo: 'valle_victor',
 						name: 'Victor Valle',
 						title: 'UX Design Manager',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Customer Experience',
-				subtitle: '1 hr Training Room 120',
+				time: '09:00',
+				title: 'Lightroom',
+				subtitle: '1 hr | 100J',
 				speaker: [
 					{
-						photo: 'zeno',
-						name: 'Zeno Rocha',
-						title: 'Dev Advocate',
+						photo: 'chan_julia',
+						name: 'Julia Chan',
+						title: 'Graphic Designer',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
+				time: '10:00',
+				title: 'Customer Experience',
+				subtitle: '55 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'nakamura_henry',
+						name: 'Henry Nakamura',
+						title: 'Senior Customer Experience Manager',
+					},
+				],
+			},
+			{
+				time: '11:00',
 				title: 'Breaktivity',
 				subtitle: 'Lets get creative together',
+			},
+			{
+				time: '11:30',
+				title: 'Brand Continuity',
+				subtitle: '55 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'chang_jason',
+						name: 'Jason Chang',
+						title: 'Marketing Operations Director',
+					},
+					{
+						photo: 'young_emily',
+						name: 'Emily Young',
+						title: 'Design Manager',
+					},
+				],
+			},
+			{
+				time: '12:30',
+				title: 'Lunch!',
+				subtitle: '1.5 hr | Meet downstairs in cafeteria 🍱',
+			},
+			{
+				time: '14:00',
+				title: 'Group Activity: Design Principles',
+				subtitle: '1.5 hrs | Training Room 120',
 			},
 		],
 	},
 	{
 		id: 2,
-		day: '1/24/17',
+		day: '1/24/18',
 		talks: [
 			{
-				time: '08:45 am',
-				title: 'Brand Continuity',
-				subtitle: '1 hr Training Room 120',
+				time: '08:45',
+				title: 'File & Folder Conventions',
+				subtitle: '40 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'zeno',
-						name: 'Zeno Rocha',
-						title: 'Developer Advocate',
+						photo: 'fernandes_vitor',
+						name: 'Vitor Fernandes',
+						title: 'Design Coordinator',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Customer Experience',
-				subtitle: '1 hr Training Room 120',
+				time: '09:30',
+				title: 'A Fragmented Experience',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'chema',
-						name: 'Chema Balsas',
-						title: 'Software Engineer Liferay',
+						photo: 'hidalgo_juan',
+						name: 'Juan Hidalgo',
+						title: 'Design Director',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
+				time: '10:00',
+				title: 'Our Vocabulary: Best Practices',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'martin_beatriz',
+						name: 'Beatriz Martin',
+						title: 'UX Designer',
+					},
+				],
+			},
+			{
+				time: '10:30',
 				title: 'Breaktivity',
-				subtitle: 'Lets get creative together',
+				subtitle: '30 min | Lets get creative together!',
+			},
+			{
+				time: '11:00',
+				title: 'Market Research for Commerce',
+				subtitle: '55 min talk, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'murakami_corbin',
+						name: 'Corbin Murakami',
+						title: 'Product Manager',
+					},
+				],
+			},
+			{
+				time: '12:00',
+				title: 'Lunch!',
+				subtitle: '1.5 hr | Meet downstairs in cafeteria 🍔',
+			},
+			{
+				time: '13:30',
+				title: 'Brand Process: Vision, Marketing, & Communication',
+				subtitle: '55 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'ho_bryan',
+						name: 'Bryan Ho',
+						title: 'Associate Design Manager',
+					},
+					{
+						photo: 'young_emily',
+						name: 'Emily Young',
+						title: 'Design Manager',
+					},
+				],
+			},
+			{
+				time: '14:30',
+				title: 'Workshop: Visual Storytelling',
+				subtitle: '55 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'connolly_ryan',
+						name: 'Ryan Connolly',
+						title: 'UX Designer',
+					},
+				],
 			},
 		],
 	},
 	{
 		id: 3,
-		day: '1/25/17',
+		day: '1/25/18',
 		talks: [
 			{
-				time: '08:45 am',
-				title: 'Brand Continuity',
-				subtitle: '1 hr Training Room 120',
+				time: '08:45',
+				title: 'Experience Cloud: How to Achieve Our Goals',
+				subtitle: '40 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'zeno',
-						name: 'Zeno Rocha',
-						title: 'Developer Advocate',
+						photo: 'youn_angelo',
+						name: 'Angelo Youn',
+						title: 'UX Designer',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Customer Experience',
-				subtitle: '1 hr Training Room 120',
+				time: '09:30',
+				title: 'Legally Designed',
+				subtitle: '25 min, 5 min Q&A | Traning Room 120',
 				speaker: [
 					{
-						photo: 'chema',
-						name: 'Chema Balsas',
-						title: 'Software Engineer Liferay',
+						photo: 'wang_andrew',
+						name: 'Andrew Wang',
+						title: 'Corporate Counsel',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Breaktivity',
-				subtitle: 'Lets get creative together',
+				time: '10:00',
+				title: 'Accessibility for Designers',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'jeong_chris',
+						name: 'Christopher Jeong',
+						title: 'UX Designer',
+					},
+				],
+			},
+			{
+				time: '10:30',
+				title: 'Coffee Break ☕️',
+				subtitle: 'Let&apo;s Cook',
+			},
+			{
+				time: '11:00',
+				title: 'UX for Bot Design',
+				subtitle: '25 min, 5 min Q&A | Traning Room 120',
+				speaker: [
+					{
+						photo: 'dantas_jadson',
+						name: 'Jadson Dantas',
+						title: 'UX Designer',
+					},
+				],
+			},
+			{
+				time: '11:30',
+				title: 'Building the Mobile Strategies',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'pires_felipe',
+						name: 'Felipe Pires',
+						title: 'UX Designer',
+					},
+				],
+			},
+			{
+				time: '12:00',
+				title: 'Lunch!',
+				subtitle: '1.5 hr | Meet downstairs in cafeteria 🍜',
+			},
+			{
+				time: '13:30',
+				title: 'Design Review',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'fernandes_vitor',
+						name: 'Vitor Fernandes',
+						title: 'Design Coordinator',
+					},
+					{
+						photo: 'pires_felipe',
+						name: 'Felipe Pires',
+						title: 'UX Designer',
+					},
+				],
+			},
+			{
+				time: '14:00',
+				title: 'Discovering Information Architecture',
+				subtitle: '55 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'aragones_david',
+						name: 'David Aragones',
+						title: 'UX Designer',
+					},
+				],
+			},
+			{
+				time: '15:00',
+				title: 'Designing Cross-platform Applications: Liferay Events App',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				speaker: [
+					{
+						photo: 'oliveira_cassia',
+						name: 'Cássia Oliveira',
+						title: 'Product Designer',
+					},
+				],
 			},
 		],
 	},
 	{
 		id: 4,
-		day: '1/26/17',
+		day: '1/26/18',
 		talks: [
 			{
-				time: '08:45 am',
-				title: 'Brand Continuity',
-				subtitle: '1 hr Training Room 120',
+				time: '08:45',
+				title: 'Workshop: User Journeys & Personas',
+				subtitle: '1.75 hr | Training Room 120',
 				speaker: [
 					{
-						photo: 'zeno',
-						name: 'Zeno Rocha',
-						title: 'Developer Advocate',
+						photo: 'moura_nathalia',
+						name: 'Nathália Moura',
+						title: 'UX Designer',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Customer Experience',
-				subtitle: '1 hr Training Room 120',
+				time: '10:30',
+				title: 'Tea Time 🍵',
+			},
+			{
+				time: '11:30',
+				title: 'Creative Activity',
+				subtitle: '1 hr | Training Room 120',
 				speaker: [
 					{
-						photo: 'chema',
-						name: 'Chema Balsas',
-						title: 'Software Engineer Liferay',
+						photo: 'chang_jason',
+						name: 'Jason Chang',
+						title: 'Marketing Operations Director',
 					},
 				],
 			},
 			{
-				time: '10:00 am',
-				title: 'Breaktivity',
-				subtitle: 'Lets get creative together',
+				time: '12:00',
+				title: 'Lunch!',
+				subtitle: '1.5 hr | Meet downstairs in cafeteria 🍣',
+			},
+			{
+				time: '13:30',
+				title: 'Closing',
+				subtitle: '30 min | Training Room 120',
 			},
 		],
 	},
