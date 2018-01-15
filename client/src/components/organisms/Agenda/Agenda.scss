@@ -29,11 +29,14 @@
 	width: 100px;
 	height: 50vh;
 	min-height: 20ch;
+	position: sticky;
+	top: 10vh;
+	margin-bottom: 10vh;
 
 	> span {
 		display: block;
 		font-size: $fontSizeLarge !important;
-		transform: rotate(90deg);
+		transform: rotate(90deg) translateX(-5ch);
 		transform-origin: left bottom;
 		padding: 1.2em;
 		width: 18ch;
@@ -45,7 +48,7 @@
 }
 
 .noDay {
-	background: $grey;
+	background: none;
 	width: 100px;
 	height: 500px;
 }
