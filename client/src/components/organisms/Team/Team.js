@@ -26,7 +26,7 @@ class Team extends Component {
 					</Text>
 				</Flex>
 
-				<Flex justify="flex-start">
+				<Flex justify="flex-start" flexWrap="wrap">
 					{this.state.teamMembers.map(person => {
 						return <Person key={person.id} person={person} />
 					})}
