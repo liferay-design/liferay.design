@@ -20,11 +20,6 @@ const scheduleArray = [
 				],
 			},
 			{
-				time: '10:00',
-				title: 'Design @Liferay 2018',
-				subtitle: '1 hr | Training Room 120',
-			},
-			{
 				time: '11:00',
 				title: 'Breaktivity',
 				subtitle: '30 min | Lets get creative together!',
