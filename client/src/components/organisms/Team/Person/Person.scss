@@ -16,20 +16,20 @@
 	}
 
 	img {
+		box-shadow: 0 1em 4em -0.5em rgba(0, 0, 0, 0.2);
 		object-fit: cover;
 		filter: grayscale(100%);
-		max-width: 100%;
-		height: auto;
-		transform: scale(0.5);
+		width: 30vmin;
+		height: 30vmin;
+		opacity: 0.7;
+		transform: scale(0.6);
 		transition: all 0.3s ease-in-out;
 		z-index: 2;
-	}
-
-	&:hover {
-		img {
+		&:hover {
 			transform: scale(1);
 			transition: all 0.2s ease-in-out;
 			filter: grayscale(0);
+			opacity: 1;
 		}
 	}
 }

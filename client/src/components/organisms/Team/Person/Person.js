@@ -1,3 +1,5 @@
+import { Flex } from 'components/atoms'
+
 import React from 'react'
 import classes from './Person.scss'
 
@@ -25,8 +27,10 @@ class Person extends React.Component {
 				onMouseLeave={this.onPersonMouseLeave.bind(this)}
 				className={classes.personContainer}
 			>
-				<img src={this.state.imageUrl} />
-				<figcaption>{this.props.person.name}</figcaption>
+				<Flex direction="column" align="center">
+					<img src={this.state.imageUrl} />
+					<figcaption>{this.props.person.name}</figcaption>
+				</Flex>
 			</figure>
 		)
 	}
