@@ -22,10 +22,10 @@ export const Talk = props => {
 		<Flex className={classes.talkContainer}>
 			<Text>{time}</Text>
 
-			<div>
-				<Heading level={5}>{title}</Heading>
+			<div className={classes.sessionHeading}>
+				<Heading level={3}>{title}</Heading>
 
-				<Heading level={6}>{subtitle}</Heading>
+				<Heading level={4}>{subtitle}</Heading>
 
 				{renderSpeakers(speaker)}
 			</div>

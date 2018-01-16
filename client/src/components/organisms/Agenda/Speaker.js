@@ -1,7 +1,8 @@
-import { Flex, Text } from 'components/atoms'
+import { Flex, Heading, Text } from 'components/atoms'
 
 import PropTypes from 'prop-types'
 import React from 'react'
+import classes from './Agenda.scss'
 
 export const Speaker = props => {
 	const { photo, name, title } = props.data
@@ -11,14 +12,13 @@ export const Speaker = props => {
 			<img
 				src={`/public/images/speakers/${photo}.jpg`}
 				alt={photo}
-				width="100px"
-				height="100px"
-				object-fit="cover"
+				width="130px"
+				height="130px"
 			/>
 
-			<Flex justify="center" direction="column">
-				<Text>{name}</Text>
-				<Text>{title}</Text>
+			<Flex justify="center" direction="column" className={classes.speakerHeading}>
+				<Heading level={4}>{name}</Heading>
+				<Heading level={5}>{title}</Heading>
 			</Flex>
 		</Flex>
 	)

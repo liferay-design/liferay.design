@@ -2,7 +2,8 @@
 
 .personContainer {
 	box-sizing: border-box;
-	margin: 5rem 5rem 0 0;
+	margin: 0;
+	padding: 0.5rem;
 	transition: all 0.15s ease-in-out;
 	width: 25%;
 
@@ -10,22 +11,25 @@
 		color: $white;
 		position: relative;
 		text-align: center;
+		margin-top: -3rem;
 		z-index: 99;
 	}
 
 	img {
 		object-fit: cover;
-		filter: sepia(1);
+		filter: grayscale(100%);
 		max-width: 100%;
 		height: auto;
+		transform: scale(0.5);
+		transition: all 0.3s ease-in-out;
 		z-index: 2;
 	}
 
 	&:hover {
 		img {
-			transform: scale(1.25);
-			transition: all 0.15s ease-in-out;
-			filter: sepia(0);
+			transform: scale(1);
+			transition: all 0.2s ease-in-out;
+			filter: grayscale(0);
 		}
 	}
 }
