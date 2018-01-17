@@ -5,24 +5,27 @@
 }
 
 .mediaWrapper {
-	position: absolute;
-	top: -20px;
+	margin-top: -4%;
+	height: 80vh;
 	right: 0;
-	width: 100%;
 }
 
 .mediaContainer {
 	position: relative;
-	height: 240px;
+	height: 60vh;
 
 	img {
-		height: 100%;
+		object-fit: cover;
+		height: 64vh;
+		margin-right: 30vw;
+		width: 60vw;
 	}
 }
 
 .mediaText {
 	position: absolute;
-	height: 70%;
+	margin-top: -17vh;
+	height: 49vh;
 	top: 50%;
 	transform: translateY(-50%);
 	right: 0;
@@ -34,12 +37,6 @@
 	background: $white;
 	height: 200px;
 	width: 100%;
-}
-
-.rightWhiteBox {
-	background: $white;
-	height: 100%;
-	width: 20%;
 }
 
 .textContainer {
