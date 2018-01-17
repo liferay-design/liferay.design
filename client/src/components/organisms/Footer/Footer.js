@@ -12,8 +12,6 @@ export const Footer = () => {
 			<div className={classes.mediaWrapper}>
 				<Flex className={classes.mediaContainer} justify="flex-end">
 					<img src="/public/images/footer_tweet.jpg" />
-
-					<div className={classes.rightWhiteBox} />
 				</Flex>
 				<Flex
 					className={classes.mediaText}
@@ -24,35 +22,17 @@ export const Footer = () => {
 					<Flex justify="flex-end">
 						<Icon name="twitter" />
 					</Flex>
-
-					<Text>Tweet</Text>
-					<Text color="grey">your experience</Text>
+					<Text color="grey">Tweet your experience</Text>
+					<Heading level={2}>#DesignBar2018</Heading>
 				</Flex>
 			</div>
 
 			<Flex align="center" className={classes.textContainer} justify="space-around">
 				<Heading level={3}>Liferay.Design</Heading>
 
-				<ul>
-					<li>
-						<Heading level={4}>Column One</Heading>
-					</li>
-					<li>Subnav one</li>
-					<li>Subnav two</li>
-					<li>Subnav three</li>
-				</ul>
-
-				<ul>
-					<li>
-						<Heading level={4}>Column Two</Heading>
-					</li>
-					<li>Subnav one</li>
-					<li>Subnav two</li>
-					<li>Subnav three</li>
-				</ul>
-
 				<Flex>
 					<Icon name="facebook" />
+					<Icon name="github" />
 					<Icon name="twitter" />
 					<Icon name="instagram" />
 					<Icon name="linkedin" />
@@ -61,7 +41,7 @@ export const Footer = () => {
 
 			<Flex className={classes.credits} justify="space-between">
 				<Text>Brought to you by Liferay, Inc</Text>
-				<Text>Powered by WeDeploy tm</Text>
+				<Text>Powered by WeDeploy™</Text>
 			</Flex>
 		</div>
 	)

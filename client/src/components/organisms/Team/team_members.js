@@ -1,7 +1,7 @@
 // Make sure the shape of this data stays consistent
 // Also ensure that the id starts at 0 and increases by 1
 
-const imageDir = 'public/images/team_pictures'
+const imageDir = 'public/images/headshots'
 
 const teamMembers = [
 	{
@@ -108,69 +108,69 @@ const teamMembers = [
 	},
 	{
 		id: 17,
-		name: 'Sharon Wong',
-		imageUrl: `${imageDir}/wong_sharon.jpg`,
-		imageHoverUrl: `/${imageDir}/wong_sharon.jpg`,
-	},
-	{
-		id: 18,
 		name: 'Jessica Lee',
 		imageUrl: `${imageDir}/lee_jessica.jpg`,
 		imageHoverUrl: `/${imageDir}/lee_jessica.jpg`,
 	},
 	{
-		id: 19,
+		id: 18,
 		name: 'Beatriz Martin',
 		imageUrl: `${imageDir}/martin_beatriz.jpg`,
 		imageHoverUrl: `/${imageDir}/martin_beatriz.jpg`,
 	},
 	{
-		id: 20,
+		id: 19,
 		name: 'Nathalia Moura',
 		imageUrl: `${imageDir}/moura_nathalia.jpg`,
 		imageHoverUrl: `/${imageDir}/moura_nathalia.jpg`,
 	},
 	{
-		id: 21,
+		id: 20,
 		name: 'Cassia Oliveira',
 		imageUrl: `${imageDir}/oliveira_cassia.jpg`,
 		imageHoverUrl: `/${imageDir}/oliveira_cassia.jpg`,
 	},
 	{
-		id: 22,
+		id: 21,
 		name: 'Patrick Pentz',
 		imageUrl: `${imageDir}/pentz_patrick.jpg`,
 		imageHoverUrl: `/${imageDir}/pentz_patrick.jpg`,
 	},
 	{
-		id: 23,
+		id: 22,
 		name: 'Felipe Pires',
 		imageUrl: `${imageDir}/pires_felipe.jpg`,
 		imageHoverUrl: `/${imageDir}/pires_felipe.jpg`,
 	},
 	{
-		id: 24,
+		id: 23,
 		name: 'Davi Shamá',
 		imageUrl: `${imageDir}/shama_davi.jpg`,
 		imageHoverUrl: `/${imageDir}/shama_davi.jpg`,
 	},
 	{
-		id: 25,
+		id: 24,
 		name: 'Paul Tiplea',
 		imageUrl: `${imageDir}/tiplea_paul.jpg`,
 		imageHoverUrl: `/${imageDir}/tiplea_paul.jpg`,
 	},
 	{
-		id: 26,
+		id: 25,
 		name: 'Victor Valle',
 		imageUrl: `${imageDir}/valle_victor.jpg`,
 		imageHoverUrl: `/${imageDir}/valle_victor.jpg`,
 	},
 	{
-		id: 27,
+		id: 26,
 		name: 'Susana Vázquez',
 		imageUrl: `${imageDir}/vazquez_susana.jpg`,
 		imageHoverUrl: `/${imageDir}/vazquez_susana.jpg`,
+	},
+	{
+		id: 27,
+		name: 'Sharon Wong',
+		imageUrl: `${imageDir}/wong_sharon.jpg`,
+		imageHoverUrl: `/${imageDir}/wong_sharon.jpg`,
 	},
 	{
 		id: 28,

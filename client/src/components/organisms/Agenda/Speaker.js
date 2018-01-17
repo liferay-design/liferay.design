@@ -10,7 +10,7 @@ export const Speaker = props => {
 	return (
 		<Flex justify="flex-start">
 			<img
-				src={`/public/images/speakers/${photo}.jpg`}
+				src={`/public/images/headshots/${photo}.jpg`}
 				alt={photo}
 				width="130px"
 				height="130px"
