@@ -27,21 +27,39 @@ export const Footer = () => {
 				</Flex>
 			</div>
 
-			<Flex align="center" className={classes.textContainer} justify="space-around">
-				<Heading level={3}>Liferay.Design</Heading>
+			<Flex className={classes.footer} direction="column">
+				<Flex className={classes.textContainer} justify="space-between">
+					<Heading color="white" level={3}>
+						Liferay.Design
+					</Heading>
 
-				<Flex>
-					<Icon name="facebook" />
-					<Icon name="github" />
-					<Icon name="twitter" />
-					<Icon name="instagram" />
-					<Icon name="linkedin" />
+					<Flex className={classes.social} justify="space-between">
+						<a href="https://www.facebook.com/hashtag/liferaydesign">
+							<Icon fill="white" name="facebook" />
+						</a>
+						<a href="https://github.com/liferay-design/liferay.design">
+							<Icon fill="white" name="github" />
+						</a>
+						<a href="https://www.instagram.com/liferaydesignbr/">
+							<Icon fill="white" name="instagram" />
+						</a>
+						<a href="https://www.linkedin.com/company/liferay-inc">
+							<Icon fill="white" name="linkedin" />
+						</a>
+						<a href="https://twitter.com/liferaydesign">
+							<Icon fill="white" name="twitter" />
+						</a>
+					</Flex>
 				</Flex>
-			</Flex>
 
-			<Flex className={classes.credits} justify="space-between">
-				<Text>Brought to you by Liferay, Inc</Text>
-				<Text>Powered by WeDeploy™</Text>
+				<Flex className={classes.credits} justify="space-between">
+					<Text weight="light" color="white">
+						Part of <a href="https://liferay.com">Liferay, Inc</a>
+					</Text>
+					<Text weight="light" color="white">
+						Powered by <a href="https://wedeploy.com">WeDeploy™</a>
+					</Text>
+				</Flex>
 			</Flex>
 		</div>
 	)

@@ -40,13 +40,47 @@
 }
 
 .textContainer {
-	height: 200px;
+	padding-bottom: 10vh;
 }
 
 .credits {
+	padding-bottom: 5vh;
+}
+
+.footer {
+	margin: 0 auto;
+	max-width: 1440px;
 	padding: $spacingSmall;
 }
 
-.subFooter {
-	display: flex;
+.social {
+	width: 320px;
+}
+
+.social a {
+	opacity: 0.7;
+	position: relative;
+	&::after {
+		background: $black;
+		bottom: 0;
+		content: '';
+		left: 0;
+		position: absolute;
+		height: 1px;
+		transition: transform 0.4s ease;
+		transform: scaleX(0);
+		width: 100%;
+	}
+	&:hover {
+		opacity: 1;
+	}
+	&:hover::after {
+		transition: transform 0.2s ease;
+		transform: scaleX(1);
+	}
+}
+
+.credits a {
+	font-weight: $fontWeightRegular;
+	color: $white;
 }

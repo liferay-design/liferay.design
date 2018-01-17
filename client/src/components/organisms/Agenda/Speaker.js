@@ -1,4 +1,4 @@
-import { Flex, Heading, Text } from 'components/atoms'
+import { Flex, Heading } from 'components/atoms'
 
 import PropTypes from 'prop-types'
 import React from 'react'
