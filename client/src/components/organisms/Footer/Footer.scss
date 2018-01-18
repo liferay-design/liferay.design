@@ -5,7 +5,7 @@
 }
 
 .mediaWrapper {
-	margin-top: -4%;
+	margin-top: -17vh;
 	height: 80vh;
 	right: 0;
 }
@@ -17,6 +17,7 @@
 	img {
 		object-fit: cover;
 		height: 64vh;
+		min-height: 580px;
 		margin-right: 30vw;
 		width: 60vw;
 	}
@@ -24,18 +25,26 @@
 
 .mediaText {
 	position: absolute;
-	margin-top: -17vh;
-	height: 49vh;
-	top: 50%;
-	transform: translateY(-50%);
+	padding: 7vh 6vh 10vh;
+	top: 27vh;
 	right: 0;
 	background: $white;
 	width: 40%;
+
+	a {
+		color: $black;
+		text-decoration: none;
+	}
+
+	h1 a {
+		color: inherit;
+		font-weight: $fontWeightBlack;
+	}
 }
 
 .whiteSeparator {
 	background: $white;
-	height: 200px;
+	height: 30vh;
 	width: 100%;
 }
 
@@ -83,4 +92,9 @@
 .credits a {
 	font-weight: $fontWeightRegular;
 	color: $white;
+}
+
+.tweetIcon {
+	align-self: flex-end;
+	margin-right: 2vh;
 }
