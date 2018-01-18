@@ -27,7 +27,7 @@ class Person extends React.Component {
 				onMouseLeave={this.onPersonMouseLeave.bind(this)}
 				className={classes.personContainer}
 			>
-				<Flex direction="column" align="center">
+				<Flex className={classes.headshotContainer} direction="column" align="center">
 					<img src={this.state.imageUrl} />
 					<figcaption>{this.props.person.name}</figcaption>
 				</Flex>

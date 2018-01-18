@@ -8,7 +8,7 @@ const Venue = () => (
 	<section className={classes.container} id="venue">
 		<div className={classes.whiteBox} />
 
-		<Flex justify="space-between" width="100%">
+		<Flex className={classes.venueInfo} justify="space-between" width="100%">
 			<Heading bottomBorder level={2}>
 				Venue
 			</Heading>

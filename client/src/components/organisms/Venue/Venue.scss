@@ -1,7 +1,6 @@
 @import '~theme/variables';
 
 .container {
-	margin: $spacingXLarge 0 0 $spacingLarge;
 	padding-bottom: $spacingLarge;
 	position: relative;
 }
@@ -12,7 +11,8 @@
 	background-size: cover;
 	height: 40vh;
 	width: calc(50vw - 15%);
-	margin-left: 9vw;
+	position: absolute;
+	left: 600px;
 }
 
 .image2 {
@@ -20,8 +20,9 @@
 	background-position: center;
 	background-size: cover;
 	height: 40vh;
-	margin-right: -1vw;
-	width: 12vw;
+	left: calc(calc(50vw - 15%) + 600px + 2rem);
+	width: calc(50vw - 15%);
+	position: absolute;
 }
 
 .whiteBox {
@@ -40,7 +41,9 @@ h3 {
 }
 
 .address {
-	margin: 0.5rem 0 0 4vw;
+	margin-top: 0.5rem;
+	position: absolute;
+	left: 200px;
 }
 
 .address span {
@@ -51,4 +54,11 @@ h3 {
 .address a:visited {
 	color: $black;
 	padding-top: 0.4rem;
+}
+
+.venueInfo {
+	max-width: 1200px;
+	margin: 16rem auto 0;
+	position: relative;
+	min-height: 40vh;
 }

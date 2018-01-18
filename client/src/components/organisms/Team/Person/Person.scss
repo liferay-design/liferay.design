@@ -3,16 +3,38 @@
 .personContainer {
 	box-sizing: border-box;
 	margin: 0;
+	min-height: 20vw;
 	padding: 0.5rem;
 	transition: all 0.15s ease-in-out;
 	width: 25%;
 
 	figcaption {
 		color: $white;
+		letter-spacing: 0ch;
 		position: relative;
 		text-align: center;
-		margin-top: -3rem;
+		text-shadow: 0 0 1rem rgba(16, 92, 249, 0.1);
+		margin-top: -2rem;
 		z-index: 99;
+		transition: all 0.15s ease-in-out;
+	}
+
+	.headshotContainer {
+		&:hover {
+			figcaption {
+				text-shadow: 0 0 1rem rgba(16, 92, 249, 0.7);
+				letter-spacing: 0.2ch;
+				font-weight: $fontWeightBlack;
+				transition: all 0.15s ease-in-out;
+			}
+
+			img {
+				transform: scale(1);
+				transition: all 0.2s ease-in-out;
+				filter: grayscale(0);
+				opacity: 1;
+			}
+		}
 	}
 
 	img {
@@ -25,11 +47,5 @@
 		transform: scale(0.6);
 		transition: all 0.3s ease-in-out;
 		z-index: 2;
-		&:hover {
-			transform: scale(1);
-			transition: all 0.2s ease-in-out;
-			filter: grayscale(0);
-			opacity: 1;
-		}
 	}
 }
