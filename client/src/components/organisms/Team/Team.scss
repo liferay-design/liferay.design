@@ -1,12 +1,15 @@
 @import '~theme/variables';
 
 .teamContainer {
-	padding: $spacingLarge;
-	min-height: 100vh;
+	max-width: calc(1200px - 2rem);
+	padding: 8rem 1rem;
+	margin: 0 auto;
 }
 
 .heading {
+	position: relative;
 	p {
-		margin-left: $spacingLarge;
+		position: absolute;
+		left: calc(200px - 1rem);
 	}
 }

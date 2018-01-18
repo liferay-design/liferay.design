@@ -7,15 +7,17 @@
 }
 
 .heading {
-	margin-bottom: 6em;
-	padding: $spacingLarge;
+	max-width: 1200px;
+	padding: 8rem 1rem;
+	margin: 0 auto 6rem;
+	position: relative;
 
 	p {
 		color: $grey;
 		margin: 0.25em 0 1.2em 0;
 		max-width: 800px;
 		position: absolute;
-		left: 22vw;
+		left: 200px;
 		font-size: 1.4em !important;
 		line-height: 1.4;
 		font-weight: 300 !important;
@@ -30,7 +32,10 @@
 	width: 100px;
 	height: 50vh;
 	min-height: 20ch;
-	position: sticky;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
 	top: 10vh;
 	margin-bottom: 10vh;
 
