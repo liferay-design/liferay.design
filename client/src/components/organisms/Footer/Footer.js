@@ -15,15 +15,20 @@ export const Footer = () => {
 				</Flex>
 				<Flex
 					className={classes.mediaText}
-					align="center"
+					align="flex-start"
 					direction="column"
 					justify="center"
 				>
-					<Flex justify="flex-end">
-						<Icon name="twitter" />
+					<Flex className={classes.tweetIcon}>
+						<Icon fill="lightestGrey" name="twitter" />
 					</Flex>
-					<Text color="grey">Tweet your experience</Text>
-					<Heading level={2}>#DesignBar2018</Heading>
+					<Text size="xLarge" color="grey">
+						<a href="https://twitter.com/hashtag/designbar2018">Tweet</a> your
+						experience
+					</Text>
+					<Heading level={1}>
+						<a href="https://twitter.com/hashtag/designbar2018">#DesignBar2018</a>
+					</Heading>
 				</Flex>
 			</div>
 

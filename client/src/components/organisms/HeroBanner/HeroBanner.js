@@ -2,7 +2,7 @@ import { Heading } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './HeroBanner.scss'
-import yellowPolaroid from 'resources/yellow-polaroid-small.png'
+import Image from './Image/Image'
 
 const HeroBanner = ({ label, primaryHeader, secondaryHeader, date, tertiaryHeader }) => (
 	<div className={classes.container}>
@@ -28,7 +28,7 @@ const HeroBanner = ({ label, primaryHeader, secondaryHeader, date, tertiaryHeade
 			</Heading>
 		</div>
 
-		<div className={classes.banner} style={{ backgroundImage: `url(${yellowPolaroid})` }} />
+		<Image id="heroImage" />
 	</div>
 )
 
