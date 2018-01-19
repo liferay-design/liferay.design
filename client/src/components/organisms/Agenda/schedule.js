@@ -361,13 +361,6 @@ const scheduleArray = [
 				time: '11:30',
 				title: 'Creative Activity',
 				subtitle: '1 hr | Training Room 120',
-				speaker: [
-					{
-						photo: 'chang_jason',
-						name: 'Jason Chang',
-						title: 'Marketing Operations Director',
-					},
-				],
 			},
 			{
 				time: '12:00',
