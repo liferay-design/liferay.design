@@ -237,26 +237,14 @@ const scheduleArray = [
 		day: '1/25/18',
 		talks: [
 			{
-				time: '08:45',
+				time: '09:30',
 				title: 'Experience Cloud: How to Achieve Our Goals',
-				subtitle: '40 min, 5 min Q&A | Training Room 120',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
 						photo: 'youn_angelo',
 						name: 'Angelo Youn',
 						title: 'UX Designer',
-					},
-				],
-			},
-			{
-				time: '09:30',
-				title: 'Legally Designed',
-				subtitle: '25 min, 5 min Q&A | Traning Room 120',
-				speaker: [
-					{
-						photo: 'wang_andrew',
-						name: 'Andrew Wang',
-						title: 'Corporate Counsel',
 					},
 				],
 			},
@@ -275,17 +263,17 @@ const scheduleArray = [
 			{
 				time: '10:30',
 				title: 'Coffee Break ☕️',
-				subtitle: 'Let&apo;s Cook',
+				subtitle: "Let's Cook",
 			},
 			{
 				time: '11:00',
-				title: 'UX for Bot Design',
+				title: 'Figma is for Friends',
 				subtitle: '25 min, 5 min Q&A | Traning Room 120',
 				speaker: [
 					{
-						photo: 'dantas_jadson',
-						name: 'Jadson Dantas',
-						title: 'UX Designer',
+						photo: 'hanaoka_paul',
+						name: 'Paul Hanaoka',
+						title: 'UX Design Manager',
 					},
 				],
 			},

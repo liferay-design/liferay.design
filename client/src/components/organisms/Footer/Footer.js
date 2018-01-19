@@ -45,7 +45,7 @@ export const Footer = () => {
 						<a href="https://github.com/liferay-design/liferay.design">
 							<Icon fill="white" name="github" />
 						</a>
-						<a href="https://www.instagram.com/liferaydesignbr/">
+						<a href="https://www.instagram.com/liferay_uxd/">
 							<Icon fill="white" name="instagram" />
 						</a>
 						<a href="https://www.linkedin.com/company/liferay-inc">
