@@ -1,6 +1,5 @@
 import { Flex, Heading, Icon, Text } from 'components/atoms'
 
-import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Footer.scss'
 
@@ -22,18 +21,18 @@ export const Footer = () => {
 					<Flex className={classes.tweetIcon}>
 						<Icon fill="lightestGrey" name="twitter" />
 					</Flex>
-					<Text size="xLarge" color="grey">
+					<Text className={classes.tweetCTA} color="grey">
 						<a href="https://twitter.com/hashtag/designbar2018">Tweet</a> your
 						experience
 					</Text>
-					<Heading level={1}>
+					<Text className={classes.tweetHashtag}>
 						<a href="https://twitter.com/hashtag/designbar2018">#DesignBar2018</a>
-					</Heading>
+					</Text>
 				</Flex>
 			</div>
 
 			<Flex className={classes.footer} direction="column">
-				<Flex className={classes.textContainer} justify="space-between">
+				<Flex className={classes.textContainer} justify="space-between" flexWrap="wrap">
 					<Heading color="white" level={3}>
 						Liferay.Design
 					</Heading>
@@ -57,7 +56,7 @@ export const Footer = () => {
 					</Flex>
 				</Flex>
 
-				<Flex className={classes.credits} justify="space-between">
+				<Flex className={classes.credits} justify="space-between" flexWrap="wrap">
 					<Text weight="light" color="white">
 						Part of <a href="https://liferay.com">Liferay, Inc</a>
 					</Text>

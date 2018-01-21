@@ -5,6 +5,9 @@
 	margin: 3em;
 	position: relative;
 	justify-content: center;
+	@media screen and (max-width: 800px) {
+		justify-content: flex-end;
+	}
 }
 
 .navbar {

@@ -8,6 +8,9 @@
 	margin-top: -17vh;
 	height: 80vh;
 	right: 0;
+	@media screen and (max-width: $screenSmall) {
+		margin-top: -10vh;
+	}
 }
 
 .mediaContainer {
@@ -18,8 +21,14 @@
 		object-fit: cover;
 		height: 64vh;
 		min-height: 580px;
-		margin-right: 30vw;
+		margin-right: 31vw;
 		width: 60vw;
+		@media screen and (max-width: $screenSmall) {
+			height: 50vh;
+			margin-right: initial;
+			width: 100vw;
+			min-height: 400px;
+		}
 	}
 }
 
@@ -36,9 +45,12 @@
 		text-decoration: none;
 	}
 
-	h1 a {
-		color: inherit;
-		font-weight: $fontWeightBlack;
+	@media screen and (max-width: $screenSmall) {
+		padding: 2rem 2rem 4rem;
+		top: 50vh;
+		left: 1rem;
+		right: initial;
+		width: calc(100vw - 1rem);
 	}
 }
 
@@ -46,24 +58,27 @@
 	background: $white;
 	height: 30vh;
 	width: 100%;
+	@media screen and (max-width: $screenSmall) {
+		height: 15vh;
+	}
 }
 
 .textContainer {
 	padding-bottom: 10vh;
 }
 
-.credits {
-	padding-bottom: 5vh;
-}
-
 .footer {
 	margin: 0 auto;
 	max-width: 1200px;
-	padding: $spacingSmall;
+	padding: $spacingSmall $spacingSmall $spacingMedium;
 }
 
 .social {
 	width: 320px;
+	@media screen and (max-width: $screenSmall) {
+		order: -1;
+		margin: 0 0 3rem -0.5rem;
+	}
 }
 
 .social a {
@@ -94,7 +109,27 @@
 	color: $white;
 }
 
+.credits span {
+	padding-bottom: 1rem;
+}
+
 .tweetIcon {
 	align-self: flex-end;
 	margin-right: 2vh;
+}
+
+span.tweetCTA {
+	font-size: $fontSizeXLarge !important;
+	@media screen and (max-width: $screenSmall) {
+		font-size: $fontSizeMedium !important;
+	}
+}
+
+.tweetHashtag a {
+	font-size: $fontSizeXXLarge;
+	color: inherit;
+	font-weight: $fontWeightBlack;
+	@media screen and (max-width: $screenSmall) {
+		font-size: $fontSizeXLarge !important;
+	}
 }

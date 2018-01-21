@@ -1,5 +1,6 @@
 import { Flex, Heading, Text } from 'components/atoms'
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
 
 import Day from './Day'
 import Talk from './Talk'
@@ -60,7 +61,7 @@ export class Agenda extends Component {
 
 		return (
 			<div className={classes.agendaContainer} id="agenda">
-				<Flex className={classes.heading} justify="flex-start" width="100%">
+				<Flex className={classes.heading} justify="flex-start" flexWrap="wrap" width="100%">
 					<Heading level={2} bottomBorder>
 						Agenda
 					</Heading>
@@ -71,20 +72,44 @@ export class Agenda extends Component {
 						provide a foundation for increased collaboration.
 					</Text>
 				</Flex>
+				<MediaQuery minWidth={800}>
+					<Flex justify="space-between">
+						<Day
+							day={previousDay}
+							onClick={() => this.toggleDay('previous')}
+							previous
+						/>
 
-				<Flex justify="space-between">
-					<Day day={previousDay} onClick={() => this.toggleDay('previous')} previous />
+						<div className={classes.schedule}>
+							<Day current day={currentDay} />
 
-					<div className={classes.schedule}>
-						<Day current day={currentDay} />
+							{this.state.currentAgenda.talks.map((data, i) => (
+								<Talk data={data} key={i} />
+							))}
+						</div>
 
-						{this.state.currentAgenda.talks.map((data, i) => (
-							<Talk data={data} key={i} />
-						))}
+						<Day day={nextDay} onClick={() => this.toggleDay('next')} />
+					</Flex>
+				</MediaQuery>
+				<MediaQuery maxWidth={799}>
+					<div className={classes.mobileAgenda}>
+						<Flex className={classes.mobileToggles}>
+							<Day
+								day={previousDay}
+								onClick={() => this.toggleDay('previous')}
+								previous
+							/>
+							<Day day={nextDay} onClick={() => this.toggleDay('next')} />
+						</Flex>
+						<div className={classes.schedule}>
+							<Day current day={currentDay} />
+
+							{this.state.currentAgenda.talks.map((data, i) => (
+								<Talk data={data} key={i} />
+							))}
+						</div>
 					</div>
-
-					<Day day={nextDay} onClick={() => this.toggleDay('next')} />
-				</Flex>
+				</MediaQuery>
 			</div>
 		)
 	}
