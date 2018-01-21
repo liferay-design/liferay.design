@@ -11,6 +11,9 @@
 	padding: 8rem 1rem;
 	margin: 0 auto 6rem;
 	position: relative;
+	@media screen and (max-width: $screenSmall) {
+		margin: 0 auto;
+	}
 
 	p {
 		color: $grey;
@@ -22,6 +25,11 @@
 		line-height: 1.4;
 		font-weight: 300 !important;
 		width: 56vw;
+		@media screen and (max-width: $screenSmall) {
+			position: relative;
+			left: initial;
+			width: 100%;
+		}
 	}
 }
 
@@ -40,12 +48,23 @@
 	top: 10vh;
 	margin-bottom: 10vh;
 
+	> div {
+		position: absolute;
+		right: -2.05rem;
+	}
+
+	div:nth-child(3) {
+		position: absolute;
+		top: 3rem;
+		left: -2.05rem;
+	}
+
 	> span {
 		display: block;
 		font-size: $fontSizeLarge !important;
 		transform: rotate(90deg) translateX(-5ch);
 		transform-origin: left bottom;
-		padding: 1.2em;
+		padding: 1.2em 2em;
 		width: 18ch;
 
 		span {
@@ -63,6 +82,10 @@
 .schedule {
 	max-width: 800px;
 	width: 56vw;
+	@media screen and (max-width: $screenSmall) {
+		padding: 1rem;
+		width: initial;
+	}
 }
 
 .talkContainer {
@@ -90,5 +113,45 @@
 .speakerHeading {
 	> h4 {
 		font-weight: 700;
+	}
+}
+
+.mobileAgenda {
+	.schedule {
+		width: calc(100vw - 2rem);
+		padding: 3rem 1rem 6rem;
+	}
+	.mobileToggles {
+		position: -webkit-sticky;
+		position: -moz-sticky;
+		position: -ms-sticky;
+		position: -o-sticky;
+		position: sticky;
+		top: calc(100vh - 5rem);
+		margin-bottom: initial;
+		padding: 1rem;
+		z-index: 1;
+		.dayToggle {
+			width: 50vw;
+			padding: 1rem;
+			height: 3rem;
+			min-height: initial;
+			top: initial;
+			margin-bottom: initial;
+			> span {
+				transform: initial;
+				padding: 0.5rem;
+			}
+			> div {
+				position: absolute;
+				top: 45%;
+				right: initial;
+				left: initial;
+			}
+		}
+		.noDay {
+			width: 50vw;
+			height: 3rem;
+		}
 	}
 }

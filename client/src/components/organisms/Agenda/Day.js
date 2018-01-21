@@ -9,13 +9,15 @@ export const Day = ({ current, day, onClick, previous }) => {
 		if (day) {
 			return (
 				<div className={classes.dayToggle} onClick={onClick}>
-					<Icon name={`${previous ? 'left' : 'right'}ArrowTrailing`} />
+					<Icon name={`${previous ? 'leftArrowTrailing' : null}`} />
 
 					<Text>
 						{day.format('dddd')}
 						<span> {day.format('MMM')}</span>
 						<span> {day.format('DD')}</span>
 					</Text>
+
+					<Icon name={`${previous ? null : 'rightArrowTrailing'}`} />
 				</div>
 			)
 		}

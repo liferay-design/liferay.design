@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Text.scss'
 
-const Text = ({ align, children, color, size, style, type, weight, width }) => {
+const Text = ({ align, className, children, color, size, style, type, weight, width }) => {
 	const Type = type
 
 	const textAlign = align ? { display: 'block', textAlign: align } : null
@@ -19,7 +19,7 @@ const Text = ({ align, children, color, size, style, type, weight, width }) => {
 	}
 
 	return (
-		<Type className={classes[type]} style={styles}>
+		<Type className={className} style={styles}>
 			{children}
 		</Type>
 	)
@@ -27,6 +27,7 @@ const Text = ({ align, children, color, size, style, type, weight, width }) => {
 
 Text.propTypes = {
 	align: PropTypes.string,
+	className: PropTypes.string,
 	children: PropTypes.node.isRequired,
 	color: PropTypes.string,
 	style: PropTypes.object,

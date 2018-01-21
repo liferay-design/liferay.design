@@ -26,10 +26,11 @@ const Venue = () => (
 					directions{' '}
 				</a>
 			</Flex>
+			<div className={classes.carousel}>
+				<div className={classes.image + ' ' + classes.jess} />
 
-			<div className={classes.image1} />
-
-			<div className={classes.image2} />
+				<div className={classes.image + ' ' + classes.ray} />
+			</div>
 		</Flex>
 	</section>
 )

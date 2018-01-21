@@ -5,24 +5,32 @@
 	position: relative;
 }
 
-.image1 {
-	background-image: url('/public/images/venue_jess.jpg');
+.image {
 	background-position: center;
 	background-size: cover;
 	height: 40vh;
+	margin-right: 1rem;
+	min-width: 400px;
 	width: calc(50vw - 15%);
-	position: absolute;
-	left: 600px;
 }
 
-.image2 {
+.jess {
+	background-image: url('/public/images/venue_jess.jpg');
+}
+
+.ray {
 	background-image: url('/public/images/venue_ray.jpg');
-	background-position: center;
-	background-size: cover;
-	height: 40vh;
-	left: calc(calc(50vw - 15%) + 600px + 2rem);
-	width: calc(50vw - 15%);
+}
+
+.carousel {
+	display: flex;
+	left: 50%;
 	position: absolute;
+	width: 100%;
+	@media screen and (max-width: $screenMedium) {
+		left: 1rem;
+		top: 70%;
+	}
 }
 
 .whiteBox {
@@ -33,6 +41,9 @@
 	width: 40vw;
 	height: 200px;
 	z-index: -1;
+	@media screen and (max-width: $screenMedium) {
+		height: 32vmax;
+	}
 }
 
 h3 {
@@ -41,9 +52,12 @@ h3 {
 }
 
 .address {
-	margin-top: 0.5rem;
+	margin: 0.5rem 0 3rem;
 	position: absolute;
 	left: 200px;
+	@media screen and (max-width: $screenSmall) {
+		left: 36vw;
+	}
 }
 
 .address span {
