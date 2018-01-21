@@ -4,11 +4,10 @@
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+	width: 27ch;
 }
 
 .entry {
-	margin: 0 20px;
-
 	&:hover .entry-label {
 		color: $white;
 		transition: color 0.4s ease-out;
