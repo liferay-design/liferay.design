@@ -27,11 +27,12 @@ export const Day = ({ current, day, onClick, previous }) => {
 	return (
 		<Aux>
 			{current ? (
-				<Text align="center">
+				<div className={classes.currentDay}>
 					{day.format('dddd')}&nbsp;
-					{day.format('MMM')}&nbsp;
-					{day.format('DD')}&nbsp;
-				</Text>
+					<span>
+						{day.format('MMM')} {day.format('DD')}
+					</span>
+				</div>
 			) : (
 				renderDayToggler()
 			)}
@@ -40,6 +41,7 @@ export const Day = ({ current, day, onClick, previous }) => {
 }
 
 Day.propTypes = {
+	className: PropTypes.string,
 	current: PropTypes.bool,
 	day: PropTypes.object,
 	onClick: PropTypes.func,
