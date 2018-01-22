@@ -15,7 +15,19 @@ const scheduleArray = [
 					{
 						photo: 'hidalgo_juan',
 						name: 'Juan Hidalgo',
-						title: 'Design Director',
+						title: 'UX Design Director',
+					},
+				],
+			},
+			{
+				time: '10:00',
+				title: 'Design 2018',
+				subtitle: '1 hr | Training Room 120',
+				speaker: [
+					{
+						photo: 'liferay_icon',
+						name: 'Regional Teams',
+						title: 'Show projects and progress of each team.',
 					},
 				],
 			},
@@ -78,18 +90,6 @@ const scheduleArray = [
 						photo: 'valle_victor',
 						name: 'Victor Valle',
 						title: 'UX Design Manager',
-					},
-				],
-			},
-			{
-				time: '09:00',
-				title: 'Lightroom',
-				subtitle: '1 hr | 100J',
-				speaker: [
-					{
-						photo: 'chan_julia',
-						name: 'Julia Chan',
-						title: 'Graphic Designer',
 					},
 				],
 			},
@@ -157,13 +157,13 @@ const scheduleArray = [
 			},
 			{
 				time: '09:30',
-				title: 'A Fragmented Experience',
-				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				title: 'Experience Cloud: How to Achieve Our Goals',
+				subtitle: '25 min, 5 min Q&A | Traning Room 120',
 				speaker: [
 					{
-						photo: 'hidalgo_juan',
-						name: 'Juan Hidalgo',
-						title: 'Design Director',
+						photo: 'hanaoka_paul',
+						name: 'Paul Hanaoka',
+						title: 'UX Design Manager',
 					},
 				],
 			},
@@ -237,26 +237,25 @@ const scheduleArray = [
 		day: '1/25/18',
 		talks: [
 			{
-				time: '09:30',
-				title: 'Experience Cloud: How to Achieve Our Goals',
-				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				time: '08:45',
+				title: 'Legally Designed',
+				subtitle: '55 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'youn_angelo',
-						name: 'Angelo Youn',
-						title: 'UX Designer',
+						name: 'Corporate Counsel',
+						title: 'Streaming Live from Eschborn',
 					},
 				],
 			},
 			{
-				time: '10:00',
-				title: 'Accessibility for Designers',
-				subtitle: '25 min, 5 min Q&A | Training Room 120',
+				time: '9:45',
+				title: 'Lightroom',
+				subtitle: '45 min | Training Room 120',
 				speaker: [
 					{
-						photo: 'jeong_chris',
-						name: 'Christopher Jeong',
-						title: 'UX Designer',
+						photo: 'chan_julia',
+						name: 'Julia Chan',
+						title: 'Graphic Designer',
 					},
 				],
 			},
@@ -267,13 +266,13 @@ const scheduleArray = [
 			},
 			{
 				time: '11:00',
-				title: 'Figma is for Friends',
-				subtitle: '25 min, 5 min Q&A | Traning Room 120',
+				title: 'Accessibility for Designers',
+				subtitle: '25 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'hanaoka_paul',
-						name: 'Paul Hanaoka',
-						title: 'UX Design Manager',
+						photo: 'jeong_chris',
+						name: 'Christopher Jeong',
+						title: 'UX Designer',
 					},
 				],
 			},
