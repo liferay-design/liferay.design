@@ -3,6 +3,7 @@
 .container {
 	padding-bottom: $spacingLarge;
 	position: relative;
+	overflow-x: hidden;
 }
 
 .image {
