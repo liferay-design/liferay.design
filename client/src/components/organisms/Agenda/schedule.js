@@ -83,13 +83,13 @@ const scheduleArray = [
 		talks: [
 			{
 				time: '08:45',
-				title: 'Liferay 7.1: How to Achieve Our Goals',
+				title: 'File & Folder Conventions',
 				subtitle: '1 hr, 15 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'valle_victor',
-						name: 'Victor Valle',
-						title: 'UX Design Manager',
+						photo: 'fernandes_vitor',
+						name: 'Vitor Fernandes',
+						title: 'Design Coordinator',
 					},
 				],
 			},
@@ -145,13 +145,13 @@ const scheduleArray = [
 		talks: [
 			{
 				time: '08:45',
-				title: 'File & Folder Conventions',
+				title: 'Liferay 7.1: How to Achieve Our Goals',
 				subtitle: '40 min, 5 min Q&A | Training Room 120',
 				speaker: [
 					{
-						photo: 'fernandes_vitor',
-						name: 'Vitor Fernandes',
-						title: 'Design Coordinator',
+						photo: 'valle_victor',
+						name: 'Victor Valle',
+						title: 'UX Design Manager',
 					},
 				],
 			},
