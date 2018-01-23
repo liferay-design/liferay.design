@@ -13,7 +13,7 @@ export class Agenda extends Component {
 		super()
 
 		this.state = {
-			currentAgenda: scheduleArray[0],
+			currentAgenda: scheduleArray[1],
 			currentDay: this.getDate(scheduleArray[0].day),
 			nextDay: this.getDate(scheduleArray[1].day),
 		}
