@@ -14,8 +14,9 @@ export class Agenda extends Component {
 
 		this.state = {
 			currentAgenda: scheduleArray[1],
-			currentDay: this.getDate(scheduleArray[0].day),
-			nextDay: this.getDate(scheduleArray[1].day),
+			currentDay: this.getDate(scheduleArray[1].day),
+			nextDay: this.getDate(scheduleArray[2].day),
+			previousDay: this.getDate(scheduleArray[0].day),
 		}
 
 		this.toggleDay = this.toggleDay.bind(this)
