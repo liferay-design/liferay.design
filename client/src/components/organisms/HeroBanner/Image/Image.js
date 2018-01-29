@@ -5,7 +5,7 @@ export const Image = () => {
 	function getRandomImage(max) {
 		return Math.floor(Math.random() * Math.floor(max))
 	}
-	const image = getRandomImage(13)
+	const image = getRandomImage(14)
 	return (
 		<div
 			className={classes.banner}

@@ -1,11 +1,12 @@
 @import '~theme/variables';
 
 .teamContainer {
-	max-width: calc(1200px - 2rem);
+	background: $white;
 	padding: 20vh 1rem;
-	margin: 0 auto;
 	div {
 		padding-bottom: 2rem;
+		max-width: calc(1200px - 2rem);
+		margin: 0 auto;
 	}
 }
 

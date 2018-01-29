@@ -21,7 +21,7 @@ class Team extends Component {
 						Team
 					</Heading>
 
-					<Text color="white" type="p" width="60vw">
+					<Text color="black" type="p" width="60vw">
 						We are 30+ designers from Brazil, Germany, Italy, Spain, and the US ✌️
 					</Text>
 				</Flex>
