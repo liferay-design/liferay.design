@@ -9,6 +9,9 @@ const App = () => (
 			<Route component={Events} path={'/'} />
 		</div>
 	</Router>
+	<StaticRouter basename="/disruptors">
+  		<Link to="https://nvite.com/DesignDisruptors/n34we6"/>
+	</StaticRouter>
 )
 
 export default App
