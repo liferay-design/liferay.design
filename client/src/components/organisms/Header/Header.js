@@ -6,14 +6,16 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './Header.scss'
 
-const AGENDA = 'agenda'
+const ARTICLES = 'articles'
+const CAREERS = 'careers'
+const EVENTS = 'events'
 const TEAM = 'team'
-const VENUE = 'venue'
 
 export const navKeys = {
-	[VENUE]: 'venue',
-	[AGENDA]: 'agenda',
 	[TEAM]: 'team',
+	[ARTICLES]: 'articles',
+	[EVENTS]: 'events',
+	[CAREERS]: 'careers',
 }
 
 const Header = ({ selected }) => (
@@ -25,7 +27,7 @@ const Header = ({ selected }) => (
 		<Navbar
 			className={classes.navbar}
 			href={`#{option}`}
-			options={List([VENUE, AGENDA, TEAM])}
+			options={List([TEAM, ARTICLES, EVENTS, CAREERS])}
 			optionsMap={Map(navKeys)}
 			selected={selected}
 			key="navbar"

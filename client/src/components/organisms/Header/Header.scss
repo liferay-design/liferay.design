@@ -4,7 +4,7 @@
 	display: flex;
 	margin: 3em;
 	position: relative;
-	justify-content: center;
+	justify-content: space-between;
 	@media screen and (max-width: $screenMedium) {
 		justify-content: flex-end;
 	}
@@ -19,9 +19,8 @@
 }
 
 .site-name {
-	left: 0;
-	position: absolute;
-	top: 0.3em;
+	padding-bottom: 0;
+	line-height: 1.6;
 	@media screen and (max-width: $screenSmall) {
 		position: initial;
 	}
