@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './FeaturedPost.scss'
 import postFeed from '../../Posts/post_feed'
-import Post from '../../Posts/Post/Post'
+import HeroPost from '../../Posts/HeroPost/HeroPost'
 
 export const FeaturedPost = () => {
 	function getRandomPost(max) {
@@ -9,13 +9,7 @@ export const FeaturedPost = () => {
 	}
 	const featuredPost = getRandomPost(postFeed.length - 1)
 
-	return <Post post={postFeed[featuredPost]} />
-	// return (
-	// 	<div
-	// 		className={classes.banner}
-	// 		style={{ backgroundImage: `url(/public/images/banner/${image}.jpg)` }}
-	// 	/>
-	// )
+	return <HeroPost post={postFeed[featuredPost]} />
 }
 
 export default FeaturedPost
