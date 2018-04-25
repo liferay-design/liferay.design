@@ -13,7 +13,7 @@ $bottomMargin: 104px;
 }
 
 .container {
-	height: calc(100vh - #{$globalHeaderHeight});
+	height: 100%;
 	margin: 0 auto;
 	min-height: 400px;
 	min-width: 360px;

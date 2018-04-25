@@ -7,7 +7,7 @@ const Home = () => (
 	<div>
 		<Header selected={navKeys.null} />
 
-		<HeroBanner primaryHeader="Create Useful & Effective Personas" tertiaryHeader="4 mins" />
+		<HeroBanner />
 
 		<Posts />
 

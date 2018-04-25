@@ -6,7 +6,7 @@ import classes from './Footer.scss'
 export const Footer = () => {
 	return (
 		<div className={classes.container}>
-			<div className={classes.whiteSeparator} />
+			{/* <div className={classes.whiteSeparator} />
 
 			<div className={classes.mediaWrapper}>
 				<Flex className={classes.mediaContainer} justify="flex-end">
@@ -29,7 +29,7 @@ export const Footer = () => {
 						<a href="https://twitter.com/hashtag/designbar2018">#DesignBar2018</a>
 					</Text>
 				</Flex>
-			</div>
+			</div> */}
 
 			<Flex className={classes.footer} direction="column">
 				<Flex className={classes.textContainer} justify="space-between" flexWrap="wrap">
