@@ -1,10 +1,6 @@
 @import '~theme/variables';
 
 :global {
-	html {
-		cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" transform="rotate(-20)" width="24" height="24" style="font-size:1rem"><text x="2" y="20">👆</text></svg>'),
-			auto;
-	}
 	body {
 		background-attachment: fixed;
 		background-blend-mode: multiply;

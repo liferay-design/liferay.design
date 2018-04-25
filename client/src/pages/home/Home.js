@@ -1,4 +1,4 @@
-import { Agenda, Footer, Header, HeroBanner, Team, Venue } from 'components/organisms'
+import { Agenda, Footer, Header, HeroBanner, Posts, Venue } from 'components/organisms'
 
 import React from 'react'
 import { navKeys } from 'components/organisms/Header'
@@ -9,7 +9,7 @@ const Home = () => (
 
 		<HeroBanner primaryHeader="Create Useful & Effective Personas" tertiaryHeader="4 mins" />
 
-		<Team />
+		<Posts />
 
 		<Footer />
 	</div>
