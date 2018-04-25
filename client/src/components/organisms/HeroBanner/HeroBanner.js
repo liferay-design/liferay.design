@@ -2,7 +2,7 @@ import { Heading } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import classes from './HeroBanner.scss'
-import Image from './Image/Image'
+import FeaturedPost from './FeaturedPost/FeaturedPost'
 
 const HeroBanner = ({ label, primaryHeader, secondaryHeader, date, tertiaryHeader }) => (
 	<div className={classes.container}>
@@ -28,7 +28,7 @@ const HeroBanner = ({ label, primaryHeader, secondaryHeader, date, tertiaryHeade
 			</Heading>
 		</div>
 
-		<Image id="heroImage" />
+		<FeaturedPost />
 	</div>
 )
 
