@@ -107,10 +107,7 @@
 		"precommit": "lint-staged"
 	},
 	"lint-staged": {
-		"*.{js,json,scss}": [
-			"prettier-eslint --write --config .prettierrc --eslint-config-path .eslintrc ",
-			"git add"
-		]
+		"*.{js,json,scss}": ["prettier --write --config .prettierrc", "git add"]
 	},
 	"version": "1.0.0"
 }
