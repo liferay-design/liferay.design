@@ -13,7 +13,7 @@ $bottomMargin: 104px;
 }
 
 .container {
-	height: calc(100vh - #{$globalHeaderHeight});
+	height: 100%;
 	margin: 0 auto;
 	min-height: 400px;
 	min-width: 360px;
@@ -61,6 +61,8 @@ $bottomMargin: 104px;
 
 .primary {
 	margin-top: 1.6em;
+	min-width: 320px;
+	width: 50%;
 }
 
 .secondary {
