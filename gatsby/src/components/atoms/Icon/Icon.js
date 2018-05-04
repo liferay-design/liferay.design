@@ -16,7 +16,7 @@ const Icon = ({ className, fill, height, width, name, style }) => {
 	return (
 		<ReactSvg
 			className={className}
-			path={withPrefix(`static/images/icons/${name}.svg`)}
+			path={withPrefix(`/images/icons/${name}.svg`)}
 			style={styles}
 		/>
 	)

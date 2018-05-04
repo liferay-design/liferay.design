@@ -5,13 +5,17 @@ import React from 'react'
 import classes from './Header.module.scss'
 
 const Header = () => (
-	<div>
-		<Heading level={3} color="white" className={classes.container}>
+	<div className={classes.container}>
+		<Heading level={3} color="white" className={classes.siteName}>
 			Liferay.Design
 		</Heading>
 
-		<Navbar />
+		{/* <Navbar /> */}
 	</div>
 )
+
+Header.propTypes = {
+	selected: PropTypes.string,
+}
 
 export default Header

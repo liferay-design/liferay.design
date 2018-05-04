@@ -4,10 +4,10 @@
 	display: flex;
 	margin: 3em;
 	position: relative;
-	justify-content: center;
-	@media screen and (max-width: $screenMedium) {
-		justify-content: flex-end;
-	}
+	justify-content: space-between;
+	// @media screen and (max-width: $screenMedium) {
+	// 	justify-content: flex-end;
+	// }
 	@media screen and (max-width: $screenSmall) {
 		display: block;
 		margin: 3em 1rem;
@@ -19,9 +19,16 @@
 }
 
 .site-name {
-	left: 0;
-	position: absolute;
-	top: 0.3em;
+	padding-bottom: 0;
+	line-height: 1.6;
+	&:after {
+		content: '';
+		width: 20px;
+		height: 3px;
+		background: $primary;
+		display: block;
+		margin-top: 1rem;
+	}
 	@media screen and (max-width: $screenSmall) {
 		position: initial;
 	}

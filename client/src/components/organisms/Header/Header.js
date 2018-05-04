@@ -1,5 +1,3 @@
-import { List, Map } from 'immutable'
-
 import { Heading } from 'components/atoms'
 import { Navbar } from 'components/molecules'
 import PropTypes from 'prop-types'

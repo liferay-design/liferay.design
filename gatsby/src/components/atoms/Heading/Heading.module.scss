@@ -2,7 +2,7 @@
 
 .bottomBorder {
 	&:after {
-		background-color: $black;
+		background-color: $primary;
 		content: '';
 		display: block;
 		height: 1px;

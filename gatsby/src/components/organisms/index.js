@@ -4,5 +4,6 @@ import Header from './Header'
 import HeroBanner from './HeroBanner'
 import Team from './Team'
 import Venue from './Venue'
+import Posts from './Posts'
 
-export { Agenda, Footer, Header, HeroBanner, Team, Venue }
+export { Agenda, Footer, Header, HeroBanner, Posts, Team, Venue }

@@ -6,31 +6,6 @@ import classes from './Footer.module.scss'
 export const Footer = () => {
 	return (
 		<div className={classes.container}>
-			<div className={classes.whiteSeparator} />
-
-			<div className={classes.mediaWrapper}>
-				<Flex className={classes.mediaContainer} justify="flex-end">
-					<img src={require('resources/footer_tweet.jpg')} />
-				</Flex>
-				<Flex
-					className={classes.mediaText}
-					align="flex-start"
-					direction="column"
-					justify="center"
-				>
-					<Flex className={classes.tweetIcon}>
-						<Icon fill="lightestGrey" name="twitter" />
-					</Flex>
-					<Text className={classes.tweetCTA} color="grey">
-						<a href="https://twitter.com/hashtag/designbar2018">Tweet</a> your
-						experience
-					</Text>
-					<Text className={classes.tweetHashtag}>
-						<a href="https://twitter.com/hashtag/designbar2018">#DesignBar2018</a>
-					</Text>
-				</Flex>
-			</div>
-
 			<Flex className={classes.footer} direction="column">
 				<Flex className={classes.textContainer} justify="space-between" flexWrap="wrap">
 					<Heading color="white" level={3}>
@@ -44,10 +19,10 @@ export const Footer = () => {
 						<a href="https://github.com/liferay-design/liferay.design">
 							<Icon fill="white" name="github" />
 						</a>
-						<a href="https://www.instagram.com/liferay_uxd/">
+						<a href="https://www.instagram.com/liferay_ux/">
 							<Icon fill="white" name="instagram" />
 						</a>
-						<a href="https://www.linkedin.com/company/liferay-inc">
+						<a href="https://www.linkedin.com/company/83609">
 							<Icon fill="white" name="linkedin" />
 						</a>
 						<a href="https://twitter.com/liferaydesign">
