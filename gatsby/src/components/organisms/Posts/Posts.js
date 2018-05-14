@@ -1,6 +1,6 @@
-import { Flex } from 'components/atoms'
 import React, { Component } from 'react'
-import Post from './Post/Post'
+import { Flex } from 'components/atoms'
+import { Post } from 'components/molecules'
 import classes from './Posts.module.scss'
 import postFeed from './post_feed'
 

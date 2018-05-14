@@ -1,7 +1,6 @@
+import postFeed from 'components/organisms/Posts/post_feed'
 import React from 'react'
-import classes from './FeaturedPost.scss'
-import postFeed from '../../organisms/Posts/post_feed'
-import HeroPost from '../../organisms/Posts/HeroPost/HeroPost'
+import HeroPost from '../HeroPost'
 
 export const FeaturedPost = () => {
 	function getRandomPost(max) {
