@@ -1,0 +1,60 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-849f065275ab15daddb0.js",
+      "component---src-pages-index-js-849f065275ab15daddb0.js.map"
+    ],
+    "path---events": [
+      "path---events-a0e39f21c11f6a62c5ab.js",
+      "path---events-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----cac63ff5c1b42581353c.js",
+      "path----cac63ff5c1b42581353c.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-84924ccf6dbf040f75e1.js",
+      "component---src-layouts-index-js-84924ccf6dbf040f75e1.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-events-index-js": [
+      "component---src-pages-events-index-js-89c324b484f6602bfda3.js",
+      "component---src-pages-events-index-js-89c324b484f6602bfda3.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-56f195f9a2afa551b347.js",
+      "component---src-pages-404-js-56f195f9a2afa551b347.js.map"
+    ],
+    "commons": [
+      "commons-44c98d95ecbf1b9a60ff.js",
+      "build-js-styles.css",
+      "commons-44c98d95ecbf1b9a60ff.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-d87f609e94ea3f3dd888.js",
+      "component---src-pages-page-2-js-d87f609e94ea3f3dd888.js.map"
+    ],
+    "app": [
+      "app-69bb823a6ffe33d432cb.js",
+      "build-js-styles.css",
+      "app-69bb823a6ffe33d432cb.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

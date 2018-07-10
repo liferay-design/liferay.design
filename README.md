@@ -1,62 +1,34 @@
-# Liferay.Design.com
+# gatsby-starter-default
 
-This is the repository for the Liferay.Design site.
+The default Gatsby starter.
 
-# Mockups
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-[Invision](https://liferay.invisionapp.com/d/main#/projects/prototypes/12822327)
-[Figma](https://www.figma.com/file/BDFA4cnCwatsFeLbbUqDJPIG/design_site_00_event_detail)
+## Setup
 
-# Setup
-
-```
-npm install
-npm run dev
+```sh
+yarn install
 ```
 
-Then visit the url shown in your cli (should look like: http://localhost:8080/).
-
-# Bundling all the files
-
-Build client files during development.
-
-```
-npm run dev
+```sh
+yarn run dev
 ```
 
-# Serving the files
+<!--
+## Install
 
-Run server for production.
-
+Make sure that you have the Gatsby CLI program installed:
+```sh
+npm install --global gatsby-cli
 ```
-npm run start
+
+And run from your CLI:
+```sh
+gatsby new gatsby-example-site
 ```
 
-## Optional Plugins to install for your code editor:
-
-### Prettier (formatter primarily for JS files)
-
-> Prettier is an opinionated code formatter. https://prettier.io/playground/
-
-* User Guide: https://github.com/prettier/prettier
-* VS Code Editor Plugin: https://github.com/prettier/prettier-vscode
-* Vim Plugin: https://github.com/prettier/vim-prettier
-* Sublime: https://packagecontrol.io/packages/JsPrettier
-
-### ESlint (linter)
-
-> Eslint is a pluggable linting utility for JavaScript and JSX
-
-* User Guide: https://eslint.org/docs/user-guide/getting-started#configuration
-* VS Code Editor Plugin: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-* Vim Plugin: https://github.com/vim-syntastic/syntastic/tree/master/syntax_checkers/javascript
-* Sublime: https://github.com/roadhump/SublimeLinter-eslint
-
-### EditorConfig (formatter)
-
-> EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
-
-* Info: http://editorconfig.org/
-* VS Code Editor plugin: https://github.com/editorconfig/editorconfig-vscode
-* Vim plugin: https://github.com/editorconfig/editorconfig-vim
-* Sublime: https://github.com/sindresorhus/editorconfig-sublime
+Then you can run it by:
+```sh
+cd gatsby-example-site
+npm run develop
+``` -->
