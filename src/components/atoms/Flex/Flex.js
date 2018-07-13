@@ -1,5 +1,3 @@
-import { StyleSheet, css } from 'aphrodite'
-
 import PropTypes from 'prop-types'
 import React from 'react'
 import { colors } from 'theme'
@@ -15,20 +13,19 @@ const Flexbox = ({
 	name,
 	width,
 }) => {
-	const styles = StyleSheet.create({
-		flex: {
-			boxSizing: 'border-box',
-			backgroundColor: colors[background],
-			display: 'flex',
-			flexDirection: direction,
-			justifyContent: justify,
-			alignItems: align,
-			flexWrap,
-			width,
-		},
-	})
+	const styles = {
+		boxSizing: 'border-box',
+		backgroundColor: colors[background],
+		display: 'flex',
+		flexDirection: direction,
+		justifyContent: justify,
+		alignItems: align,
+		flexWrap,
+		width,
+	}
+
 	return (
-		<div id={name} name={name} className={`${css(styles.flex)} ${className || ''}`}>
+		<div className={className} id={name} name={name} style={styles}>
 			{children}
 		</div>
 	)
