@@ -1,4 +1,6 @@
 {
 	"id": "liferaydesign",
-	"port": 4000
+	"env": {
+		"WEDEPLOY_WEB_PATH": "public"
+	}
 }

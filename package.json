@@ -18,8 +18,7 @@
 	"scripts": {
 		"build": "gatsby build",
 		"dev": "gatsby develop --port 4000",
-		"format": "prettier --write 'src/**/*.js'",
-		"start": "npm run build"
+		"format": "prettier --write 'src/**/*.js'"
 	},
 	"devDependencies": {
 		"gatsby-plugin-react-next": "^1.0.11",
