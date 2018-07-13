@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cee7e88d3b016dbaa6b4f3c5e2ee4bc8",
+        "contentDigest": "ad1823e487acaa9a1dd6316b63729ced",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -237,64 +237,6 @@
       "children": [],
       "internal": {
         "contentDigest": "ee986d125905858d538082f51f191460",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-catch-links": {
-      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-catch-links",
-      "id": "Plugin gatsby-plugin-catch-links",
-      "name": "gatsby-plugin-catch-links",
-      "version": "1.0.22",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [
-        "onClientEntry"
-      ],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-catch-links",
-      "packageJson": {
-        "name": "gatsby-plugin-catch-links",
-        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
-        "version": "1.0.22",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^1.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "b4f2cfbfde8d17870a889ae195005e92",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -562,250 +504,17 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-remark": {
-      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-transformer-remark",
-      "id": "Plugin gatsby-transformer-remark",
-      "name": "gatsby-transformer-remark",
-      "version": "1.7.42",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-transformer-remark",
-      "packageJson": {
-        "name": "gatsby-transformer-remark",
-        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "1.7.42",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "markdown",
-          "remark"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "graphql-type-json",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "gray-matter",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "hast-util-raw",
-            "version": "^2.0.2"
-          },
-          {
-            "name": "hast-util-to-html",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.4"
-          },
-          {
-            "name": "mdast-util-to-hast",
-            "version": "^2.4.0"
-          },
-          {
-            "name": "mdast-util-toc",
-            "version": "^2.0.1"
-          },
-          {
-            "name": "remark",
-            "version": "^7.0.1"
-          },
-          {
-            "name": "remark-parse",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "remark-retext",
-            "version": "^3.1.0"
-          },
-          {
-            "name": "remark-stringify",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "retext-english",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "sanitize-html",
-            "version": "^1.14.1"
-          },
-          {
-            "name": "underscore.string",
-            "version": "^3.3.4"
-          },
-          {
-            "name": "unified",
-            "version": "^6.1.5"
-          },
-          {
-            "name": "unist-util-remove-position",
-            "version": "^1.1.1"
-          },
-          {
-            "name": "unist-util-select",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "unist-util-visit",
-            "version": "^1.1.1"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "babel-plugin-transform-object-rest-spread",
-            "version": "^6.20.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "bdd397fb1349dc717e666f03662e5d33",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-source-filesystem": {
-      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-source-filesystem",
-      "id": "Plugin gatsby-source-filesystem",
-      "name": "gatsby-source-filesystem",
-      "version": "1.5.38",
-      "pluginOptions": {
-        "plugins": [],
-        "path": "/Users/plhnk/Github/liferay.design/src/posts",
-        "name": "posts"
-      },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-source-filesystem",
-      "packageJson": {
-        "name": "gatsby-source-filesystem",
-        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "1.5.38",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "better-queue",
-            "version": "^3.8.7"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "chokidar",
-            "version": "^1.7.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.1"
-          },
-          {
-            "name": "got",
-            "version": "^7.1.0"
-          },
-          {
-            "name": "md5-file",
-            "version": "^3.1.1"
-          },
-          {
-            "name": "mime",
-            "version": "^1.3.6"
-          },
-          {
-            "name": "pretty-bytes",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "slash",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "valid-url",
-            "version": "^1.0.9"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^1.9.250"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "ebd2a46978f23e8c9fa701618b8506f3",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/plhnk/Github/liferay.design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "fe4fd5f41a724ae0883849150f002b3d",
+      "version": "aa7afdf3c3fabb8274b5492efc398bce",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/plhnk/Github/liferay.design",
@@ -884,7 +593,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e19af77cc3f736883e308ec72f78017d",
+        "contentDigest": "6a73e4af3cb1984febd947f454fcd919",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -897,127 +606,15 @@
       "host": "localhost",
       "pathPrefix": "/public",
       "polyfill": true,
-      "buildTime": "2018-07-10T22:36:16.103Z",
+      "buildTime": "2018-07-11T21:19:53.821Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6ae36efc7c8dff77ae436a927a95560a",
+        "contentDigest": "e230d47e82980389a4781ccec609f9e4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
-    },
-    "/Users/plhnk/Github/liferay.design/src/posts absPath of file": {
-      "id": "/Users/plhnk/Github/liferay.design/src/posts absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c13d03178d483fde0fd3142cf5e7a97e",
-        "type": "Directory",
-        "description": "Directory \"src/posts\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/plhnk/Github/liferay.design/src/posts",
-      "relativePath": "",
-      "extension": "",
-      "size": 102,
-      "prettySize": "102 B",
-      "modifiedTime": "2018-05-05T03:38:20.000Z",
-      "accessTime": "2018-07-10T22:36:18.000Z",
-      "changeTime": "2018-05-05T03:38:20.000Z",
-      "birthTime": "2018-05-05T03:38:12.000Z",
-      "root": "/",
-      "dir": "/Users/plhnk/Github/liferay.design/src",
-      "base": "posts",
-      "ext": "",
-      "name": "posts",
-      "relativeDirectory": "..",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2410752,
-      "blocks": 0,
-      "atimeMs": 1531262178000,
-      "mtimeMs": 1525491500000,
-      "ctimeMs": 1525491500000,
-      "birthtimeMs": 1525491492000,
-      "atime": "2018-07-10T22:36:18.000Z",
-      "mtime": "2018-05-05T03:38:20.000Z",
-      "ctime": "2018-05-05T03:38:20.000Z",
-      "birthtime": "2018-05-05T03:38:12.000Z"
-    },
-    "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file": {
-      "id": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file",
-      "children": [
-        "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "12a41deb5c62e707ce4f6faeedc14d46",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/hello-world.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md",
-      "relativePath": "hello-world.md",
-      "extension": "md",
-      "size": 484,
-      "prettySize": "484 B",
-      "modifiedTime": "2018-05-05T03:38:23.000Z",
-      "accessTime": "2018-07-10T22:33:03.000Z",
-      "changeTime": "2018-05-05T03:38:23.000Z",
-      "birthTime": "2018-05-05T03:38:20.000Z",
-      "root": "/",
-      "dir": "/Users/plhnk/Github/liferay.design/src/posts",
-      "base": "hello-world.md",
-      "ext": ".md",
-      "name": "hello-world",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2410753,
-      "blocks": 8,
-      "atimeMs": 1531261983000,
-      "mtimeMs": 1525491503000,
-      "ctimeMs": 1525491503000,
-      "birthtimeMs": 1525491500000,
-      "atime": "2018-07-10T22:33:03.000Z",
-      "mtime": "2018-05-05T03:38:23.000Z",
-      "ctime": "2018-05-05T03:38:23.000Z",
-      "birthtime": "2018-05-05T03:38:20.000Z"
-    },
-    "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file",
-      "internal": {
-        "content": "---\npath: \"/hello-world\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"My First Gatsby Post\"\n---\nOooooh-weeee, my first blog post!\nFirst post Ipsum is a major key to success. Congratulations, you played yourself. Surround yourself with angels. Celebrate success right, the only way, apple. \n \nThe key is to drink coconut, fresh coconut, trust me. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast. \n",
-        "type": "MarkdownRemark",
-        "contentDigest": "b74253b51ab04766f82671715930bddf",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "My First Gatsby Post",
-        "path": "/hello-world",
-        "date": "2017-07-12T17:12:33.962Z",
-        "_PARENT": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file",
-        "parent": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "Oooooh-weeee, my first blog post!\nFirst post Ipsum is a major key to success. Congratulations, you played yourself. Surround yourself with angels. Celebrate success right, the only way, apple. \n \nThe key is to drink coconut, fresh coconut, trust me. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast. \n",
-      "fileAbsolutePath": "/Users/plhnk/Github/liferay.design/src/posts/hello-world.md"
     },
     "SitePage /404/": {
       "layout": "index",
@@ -1035,7 +632,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a672137d6ee8f4240035a5b15c7ce8b3",
+        "contentDigest": "943fc0498c8c895bee22de6384fd6b5b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1056,7 +653,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "783497ae1cf5401987c7d0fd01964ddd",
+        "contentDigest": "5f0ef1f6dc4d21c309dcb1dd1bac252c",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1077,28 +674,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4f969ad169938f01ddb44f6b97b8aa2",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/plhnk/Github/liferay.design/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/plhnk/Github/liferay.design/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "567ee7c2a35fb1167c8fac01da414e08",
+        "contentDigest": "5eb375913a6ef1734791ee272a34190f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1119,7 +695,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "31a88f17da53c07b938aa0520aad593c",
+        "contentDigest": "c62743a4e270131c4fc6579c0bcd6120",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1127,7 +703,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "66c31a73e5c85d3a9b35191c650e494b"
+    "PLUGINS_HASH": "0c1c72de38d345f98a187022ee85da7e"
   },
   "componentDataDependencies": {
     "nodes": {

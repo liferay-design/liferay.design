@@ -14,9 +14,7 @@
 		"react-responsive": "^4.1.0",
 		"react-svg": "^4.1.6"
 	},
-	"keywords": [
-		"gatsby"
-	],
+	"keywords": ["gatsby"],
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build --prefix-paths",

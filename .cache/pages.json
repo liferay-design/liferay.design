@@ -28,13 +28,6 @@
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-page-2-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "page-2.json",
-        "path": "/page-2/"
-    },
-    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
