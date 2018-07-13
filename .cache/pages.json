@@ -1,12 +1,5 @@
 [
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",

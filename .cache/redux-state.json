@@ -1,28 +1,18 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/liferay/dev/design/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/liferay/dev/design/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "96830b643c99b62da28d078e84bc2f74",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +24,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +41,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f21f046457948bc9e0024157d55acbb9",
+        "contentDigest": "dbffc67b0daae1b7f0d564ac27cef3e3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "id": "Plugin component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
@@ -69,7 +59,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
@@ -90,13 +80,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8a11389fd4ddeb800be8c8f7b81a55c9",
+        "contentDigest": "0cd84d1af8371300ad3ee9be798dad08",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -108,7 +98,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -129,13 +119,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "31388defbf13216d1471c062e86b8d5f",
+        "contentDigest": "44838b14b374b611a2c74c82496066e1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -148,7 +138,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -165,13 +155,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6cf2e0852f714c0002c66df9bb5e5d44",
+        "contentDigest": "de091007a6257d1d11658d11a3b778f9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -183,7 +173,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -200,13 +190,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "267911b66c80f163759ab9db708f2a44",
+        "contentDigest": "42617831542a67a5ddd276831269972e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -219,7 +209,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -236,13 +226,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f86c41e7c3a64885279fa013f2a3eb8a",
+        "contentDigest": "ee986d125905858d538082f51f191460",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.11",
@@ -254,7 +244,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -310,13 +300,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "38404fc6069114f33d37aed33192921b",
+        "contentDigest": "6b1d5b113e66eff42fa908237d7f1fc7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-resolve-src": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby-plugin-resolve-src",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-resolve-src",
       "id": "Plugin gatsby-plugin-resolve-src",
       "name": "gatsby-plugin-resolve-src",
       "version": "1.1.3",
@@ -328,7 +318,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby-plugin-resolve-src",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-resolve-src",
       "packageJson": {
         "name": "gatsby-plugin-resolve-src",
         "description": "Gatsby plugin to allow resolving imports from the src subdirectory",
@@ -349,13 +339,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "69ac59bc2f3548b36e7be6f2547bd0d4",
+        "contentDigest": "a467dd148305798bab0ad4dccfdfb258",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-next": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby-plugin-react-next",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-react-next",
       "id": "Plugin gatsby-plugin-react-next",
       "name": "gatsby-plugin-react-next",
       "version": "1.0.11",
@@ -367,7 +357,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby-plugin-react-next",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-react-next",
       "packageJson": {
         "name": "gatsby-plugin-react-next",
         "description": "Use React 16 with your Gatsby v1 site",
@@ -419,13 +409,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "721029b498b8ce66b28afc1955bc89fc",
+        "contentDigest": "9e3026ae67528c9d157018cac4c73096",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/liferay/dev/design/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
       "version": "1.0.26",
@@ -437,7 +427,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -499,23 +489,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2d04574fcca6827da1df1a5332baa7d9",
+        "contentDigest": "d44918f14bdc2ad47eb647d9f1099763",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/liferay/dev/design",
+      "resolve": "/Users/plhnk/Github/liferay.design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "f57116cd4d1a95c875165071cc5df17e",
+      "version": "771a8be050d265e2c02c4e3cce472ff4",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/liferay/dev/design",
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -525,10 +515,6 @@
         ],
         "license": "MIT",
         "dependencies": [
-          {
-            "name": "aphrodite",
-            "version": "^2.2.2"
-          },
           {
             "name": "gatsby",
             "version": "^1.9.247"
@@ -591,7 +577,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a9020e8f42feb3eb212860be66e33540",
+        "contentDigest": "b109737070947cea202dceb100c4875f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -600,16 +586,14 @@
       "siteMetadata": {
         "title": "Liferay.Design | Blogs, careers, guidelines, and other resources from the Design Teams at Liferay!"
       },
-      "port": "4000",
-      "host": "localhost",
       "pathPrefix": "/public",
       "polyfill": true,
-      "buildTime": "2018-07-13T21:15:53.989Z",
+      "buildTime": "2018-07-13T21:35:49.781Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "632fa1e05fbd82cbb6bc92aab328d271",
+        "contentDigest": "60634c69bbfb382a546079bf10509879",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -619,18 +603,18 @@
       "jsonName": "404.json",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/liferay/dev/design/src/pages/404.js",
+      "component": "/Users/plhnk/Github/liferay.design/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/liferay/dev/design/src/pages/404.js",
+      "componentPath": "/Users/plhnk/Github/liferay.design/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5cfcc016ab79ab33113271d1c8776f22",
+        "contentDigest": "e720eb656d87d3f912d34fab9010b394",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -640,18 +624,18 @@
       "jsonName": "events.json",
       "internalComponentName": "ComponentEvents",
       "path": "/events/",
-      "component": "/Users/liferay/dev/design/src/pages/events/index.js",
+      "component": "/Users/plhnk/Github/liferay.design/src/pages/events/index.js",
       "componentChunkName": "component---src-pages-events-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/liferay/dev/design/src/pages/events/index.js",
+      "componentPath": "/Users/plhnk/Github/liferay.design/src/pages/events/index.js",
       "id": "SitePage /events/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "88a42b20c1a2b176f482b84aaef8225a",
+        "contentDigest": "f2c8a53aa1c7e4eb8a8cc99bc073b754",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -661,18 +645,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/liferay/dev/design/src/pages/index.js",
+      "component": "/Users/plhnk/Github/liferay.design/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/liferay/dev/design/src/pages/index.js",
+      "componentPath": "/Users/plhnk/Github/liferay.design/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "628f27998a5b6b0cd20af3e9c7de74d6",
+        "contentDigest": "9aebe80bf3ff6592ae1c482496344c9e",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -682,18 +666,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/liferay/dev/design/src/pages/404.js",
+      "component": "/Users/plhnk/Github/liferay.design/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/liferay/dev/design/src/pages/404.js",
+      "componentPath": "/Users/plhnk/Github/liferay.design/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7bd2db67ae9b9e5e5e52b9573cbf9a0",
+        "contentDigest": "6647b9cec2a1ab24f31dc7c3413551c7",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -701,7 +685,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2bbc1ef3915077f49f5bc7ba1849f7aa"
+    "PLUGINS_HASH": "d14c937b7849a6ecb238cc1b30bb91e5"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -709,10 +693,6 @@
         "LAYOUT___index"
       ]
     },
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
