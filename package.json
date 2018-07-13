@@ -3,7 +3,6 @@
 	"description": "Gatsby default starter",
 	"version": "1.0.0",
 	"dependencies": {
-		"aphrodite": "^2.2.2",
 		"gatsby": "^1.9.247",
 		"gatsby-link": "^1.6.40",
 		"gatsby-plugin-catch-links": "^1.0.22",
@@ -17,7 +16,7 @@
 	"keywords": ["gatsby"],
 	"license": "MIT",
 	"scripts": {
-		"build": "gatsby build --prefix-paths",
+		"build": "gatsby build",
 		"dev": "gatsby develop --port 4000",
 		"format": "prettier --write 'src/**/*.js'"
 	},
