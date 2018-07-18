@@ -2,6 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---src-templates-blog-post-js": require("gatsby-module-loader?name=component---src-templates-blog-post-js!/Users/plhnk/Github/liferay.design/src/templates/blog-post.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/plhnk/Github/liferay.design/src/pages/404.js"),
   "component---src-pages-events-index-js": require("gatsby-module-loader?name=component---src-pages-events-index-js!/Users/plhnk/Github/liferay.design/src/pages/events/index.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/plhnk/Github/liferay.design/src/pages/index.js")
@@ -9,6 +10,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/plhnk/Github/liferay.design/.cache/json/layout-index.json"),
+  "hello-world.json": require("gatsby-module-loader?name=path---hello-world!/Users/plhnk/Github/liferay.design/.cache/json/hello-world.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/plhnk/Github/liferay.design/.cache/json/404.json"),
   "events.json": require("gatsby-module-loader?name=path---events!/Users/plhnk/Github/liferay.design/.cache/json/events.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/plhnk/Github/liferay.design/.cache/json/index.json"),

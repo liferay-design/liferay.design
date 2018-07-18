@@ -1,0 +1,2 @@
+webpackJsonp([0x834755aae49e],{329:function(e,t){e.exports={data:{markdownRemark:{html:'<p>R2-D2 you\'re my only hope!</p>\n<iframe width="560" height="315" src="https://www.youtube.com/embed/idCil0mNhoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',frontmatter:{date:"July 12, 2017",path:"/hello-world",title:"R2 is the Meaning in My Life"}}},pathContext:{}}}});
+//# sourceMappingURL=path---hello-world-dd7ce453b7f0ee5e911d.js.map

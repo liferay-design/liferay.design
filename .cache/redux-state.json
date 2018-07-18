@@ -231,6 +231,64 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "852ac2ce0239e551e25ef6bc993a6b11",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-react-helmet": {
       "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
@@ -494,15 +552,252 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/plhnk/Github/liferay.design/src/pages/blog",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a96eb52369d218d2118ff054e47b4c96",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/plhnk/Github/liferay.design/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bf6ffaafc39d15e930a6dfad22d2b3ae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/plhnk/Github/liferay.design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "771a8be050d265e2c02c4e3cce472ff4",
+      "version": "95b4f138bcf2b74fee124dbff60e505a",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/plhnk/Github/liferay.design",
@@ -525,7 +820,7 @@
           },
           {
             "name": "gatsby-plugin-catch-links",
-            "version": "^1.0.22"
+            "version": "^1.0.24"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -533,11 +828,11 @@
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^1.5.38"
+            "version": "^1.5.39"
           },
           {
             "name": "gatsby-transformer-remark",
-            "version": "^1.7.42"
+            "version": "^1.7.44"
           },
           {
             "name": "react-helmet",
@@ -577,7 +872,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b109737070947cea202dceb100c4875f",
+        "contentDigest": "d72e08488de0bfa0dbfe9ceb323c1916",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -588,13 +883,146 @@
       },
       "pathPrefix": "/public",
       "polyfill": true,
-      "buildTime": "2018-07-13T21:35:49.781Z",
+      "buildTime": "2018-07-18T17:49:17.295Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "60634c69bbfb382a546079bf10509879",
+        "contentDigest": "1fd335bb6210eff5c9c7807fd30d9d72",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/plhnk/Github/liferay.design/src/pages/blog absPath of file": {
+      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8515b6ed846c06286ceb74c1b4eef8b9",
+        "type": "Directory",
+        "description": "Directory \"src/pages/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-07-18T05:38:51.000Z",
+      "accessTime": "2018-07-18T17:49:18.000Z",
+      "changeTime": "2018-07-18T05:38:51.000Z",
+      "birthTime": "2018-07-18T05:38:46.000Z",
+      "root": "/",
+      "dir": "/Users/plhnk/Github/liferay.design/src/pages",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6965905,
+      "blocks": 0,
+      "atimeMs": 1531936158000,
+      "mtimeMs": 1531892331000,
+      "ctimeMs": 1531892331000,
+      "birthtimeMs": 1531892326000,
+      "atime": "2018-07-18T17:49:18.000Z",
+      "mtime": "2018-07-18T05:38:51.000Z",
+      "ctime": "2018-07-18T05:38:51.000Z",
+      "birthtime": "2018-07-18T05:38:46.000Z"
+    },
+    "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file": {
+      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file",
+      "children": [
+        "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d700a4ca12652c04a075bfcb640952e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/blog/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md",
+      "relativePath": "index.md",
+      "extension": "md",
+      "size": 286,
+      "prettySize": "286 B",
+      "modifiedTime": "2018-07-18T17:46:25.000Z",
+      "accessTime": "2018-07-18T17:48:27.000Z",
+      "changeTime": "2018-07-18T17:46:25.000Z",
+      "birthTime": "2018-07-18T05:38:51.000Z",
+      "root": "/",
+      "dir": "/Users/plhnk/Github/liferay.design/src/pages/blog",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6965907,
+      "blocks": 8,
+      "atimeMs": 1531936107000,
+      "mtimeMs": 1531935985000,
+      "ctimeMs": 1531935985000,
+      "birthtimeMs": 1531892331000,
+      "atime": "2018-07-18T17:48:27.000Z",
+      "mtime": "2018-07-18T17:46:25.000Z",
+      "ctime": "2018-07-18T17:46:25.000Z",
+      "birthtime": "2018-07-18T05:38:51.000Z"
+    },
+    "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/hello-world\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"R2 is the Meaning in My Life\"\n---\n\nR2-D2 you're my only hope!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/idCil0mNhoo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "fc2453c80dc933533198d2824e660ae7",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "R2 is the Meaning in My Life",
+        "path": "/hello-world",
+        "date": "2017-07-12T17:12:33.962Z",
+        "_PARENT": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file",
+        "parent": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nR2-D2 you're my only hope!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/idCil0mNhoo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n",
+      "fileAbsolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md"
+    },
+    "SitePage /hello-world": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world",
+      "component": "/Users/plhnk/Github/liferay.design/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/plhnk/Github/liferay.design/src/templates/blog-post.js",
+      "id": "SitePage /hello-world",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "89c3cb3ccdc09a007b227d2cde116d95",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -614,7 +1042,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e720eb656d87d3f912d34fab9010b394",
+        "contentDigest": "1fc9f46df6162aa64614bf14c6c06ad7",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -635,7 +1063,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2c8a53aa1c7e4eb8a8cc99bc073b754",
+        "contentDigest": "c38fb7f114ac89d3ea6d21394887da45",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -656,7 +1084,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9aebe80bf3ff6592ae1c482496344c9e",
+        "contentDigest": "69bfce55497ce671d219bb0a54ee4e08",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -677,7 +1105,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6647b9cec2a1ab24f31dc7c3413551c7",
+        "contentDigest": "601b5a3f33664d9cd2536db54bc7a8e6",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -685,14 +1113,21 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d14c937b7849a6ecb238cc1b30bb91e5"
+    "PLUGINS_HASH": "53e53ed3f51ba2db3129e40488c3307c"
   },
   "componentDataDependencies": {
     "nodes": {
+      "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world"
+      ],
       "Site": [
         "LAYOUT___index"
       ]
     },
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

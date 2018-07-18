@@ -5,15 +5,17 @@
 	"dependencies": {
 		"gatsby": "^1.9.247",
 		"gatsby-link": "^1.6.40",
-		"gatsby-plugin-catch-links": "^1.0.22",
+		"gatsby-plugin-catch-links": "^1.0.24",
 		"gatsby-plugin-react-helmet": "^2.0.10",
-		"gatsby-source-filesystem": "^1.5.38",
-		"gatsby-transformer-remark": "^1.7.42",
+		"gatsby-source-filesystem": "^1.5.39",
+		"gatsby-transformer-remark": "^1.7.44",
 		"react-helmet": "^5.2.0",
 		"react-responsive": "^4.1.0",
 		"react-svg": "^4.1.6"
 	},
-	"keywords": ["gatsby"],
+	"keywords": [
+		"gatsby"
+	],
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
