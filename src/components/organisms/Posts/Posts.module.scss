@@ -6,6 +6,11 @@
 	margin: 0 auto;
 	padding: 20vh 6rem;
 }
+
+.postDirection {
+	flex-direction: row-reverse !important;
+	flex-wrap: wrap-reverse !important;
+}
 @media screen and (max-width: 1248px) {
 	.postFeed {
 		padding: 20vh 3rem;

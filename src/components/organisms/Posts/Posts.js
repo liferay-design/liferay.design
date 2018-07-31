@@ -8,7 +8,7 @@ class Posts extends Component {
 	render() {
 		return (
 			<div className={classes.postFeed} id="posts">
-				<Flex justify="center" flexWrap="wrap">
+				<Flex justify="center" flexWrap="wrap" className={classes.postDirection}>
 					{postFeed.map(post => {
 						return <Post key={post.id} post={post} />
 					})}
