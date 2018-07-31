@@ -21,6 +21,13 @@
         "path": "/events/"
     },
     {
+        "componentChunkName": "component---src-pages-handbook-index-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "handbook.json",
+        "path": "/handbook/"
+    },
+    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",

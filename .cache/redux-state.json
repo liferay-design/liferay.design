@@ -883,12 +883,12 @@
       },
       "pathPrefix": "/public",
       "polyfill": true,
-      "buildTime": "2018-07-18T17:49:17.295Z",
+      "buildTime": "2018-07-31T23:30:37.808Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1fd335bb6210eff5c9c7807fd30d9d72",
+        "contentDigest": "0339c1c505b6099048e937c91595ab67",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -898,7 +898,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8515b6ed846c06286ceb74c1b4eef8b9",
+        "contentDigest": "cd85a7e38295a941dc03343e5435570c",
         "type": "Directory",
         "description": "Directory \"src/pages/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -909,9 +909,9 @@
       "extension": "",
       "size": 102,
       "prettySize": "102 B",
-      "modifiedTime": "2018-07-18T05:38:51.000Z",
-      "accessTime": "2018-07-18T17:49:18.000Z",
-      "changeTime": "2018-07-18T05:38:51.000Z",
+      "modifiedTime": "2018-07-31T22:46:26.000Z",
+      "accessTime": "2018-07-31T23:30:39.000Z",
+      "changeTime": "2018-07-31T22:46:26.000Z",
       "birthTime": "2018-07-18T05:38:46.000Z",
       "root": "/",
       "dir": "/Users/plhnk/Github/liferay.design/src/pages",
@@ -928,44 +928,88 @@
       "blksize": 4096,
       "ino": 6965905,
       "blocks": 0,
-      "atimeMs": 1531936158000,
-      "mtimeMs": 1531892331000,
-      "ctimeMs": 1531892331000,
+      "atimeMs": 1533079839000,
+      "mtimeMs": 1533077186000,
+      "ctimeMs": 1533077186000,
       "birthtimeMs": 1531892326000,
-      "atime": "2018-07-18T17:49:18.000Z",
-      "mtime": "2018-07-18T05:38:51.000Z",
-      "ctime": "2018-07-18T05:38:51.000Z",
+      "atime": "2018-07-31T23:30:39.000Z",
+      "mtime": "2018-07-31T22:46:26.000Z",
+      "ctime": "2018-07-31T22:46:26.000Z",
       "birthtime": "2018-07-18T05:38:46.000Z"
     },
-    "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file": {
-      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file",
+    "/Users/plhnk/Github/liferay.design/src/pages/blog/180712 absPath of file": {
+      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a67cb98a45301780ae3bd12676ae80c8",
+        "type": "Directory",
+        "description": "Directory \"src/pages/blog/180712\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712",
+      "relativePath": "180712",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-07-20T04:43:35.000Z",
+      "accessTime": "2018-07-31T23:30:39.000Z",
+      "changeTime": "2018-07-20T04:43:35.000Z",
+      "birthTime": "2018-07-20T04:43:31.000Z",
+      "root": "/",
+      "dir": "/Users/plhnk/Github/liferay.design/src/pages/blog",
+      "base": "180712",
+      "ext": "",
+      "name": "180712",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7037137,
+      "blocks": 0,
+      "atimeMs": 1533079839000,
+      "mtimeMs": 1532061815000,
+      "ctimeMs": 1532061815000,
+      "birthtimeMs": 1532061811000,
+      "atime": "2018-07-31T23:30:39.000Z",
+      "mtime": "2018-07-20T04:43:35.000Z",
+      "ctime": "2018-07-20T04:43:35.000Z",
+      "birthtime": "2018-07-20T04:43:31.000Z"
+    },
+    "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file": {
+      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file",
       "children": [
-        "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark"
+        "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6d700a4ca12652c04a075bfcb640952e",
         "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src/pages/blog/index.md\"",
+        "description": "File \"src/pages/blog/180712/index.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md",
-      "relativePath": "index.md",
+      "absolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md",
+      "relativePath": "180712/index.md",
       "extension": "md",
       "size": 286,
       "prettySize": "286 B",
-      "modifiedTime": "2018-07-18T17:46:25.000Z",
-      "accessTime": "2018-07-18T17:48:27.000Z",
-      "changeTime": "2018-07-18T17:46:25.000Z",
+      "modifiedTime": "2018-07-20T04:43:35.000Z",
+      "accessTime": "2018-07-26T19:13:21.000Z",
+      "changeTime": "2018-07-20T04:43:35.000Z",
       "birthTime": "2018-07-18T05:38:51.000Z",
       "root": "/",
-      "dir": "/Users/plhnk/Github/liferay.design/src/pages/blog",
+      "dir": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "relativeDirectory": "",
+      "relativeDirectory": "180712",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -975,35 +1019,35 @@
       "blksize": 4096,
       "ino": 6965907,
       "blocks": 8,
-      "atimeMs": 1531936107000,
-      "mtimeMs": 1531935985000,
-      "ctimeMs": 1531935985000,
+      "atimeMs": 1532632401000,
+      "mtimeMs": 1532061815000,
+      "ctimeMs": 1532061815000,
       "birthtimeMs": 1531892331000,
-      "atime": "2018-07-18T17:48:27.000Z",
-      "mtime": "2018-07-18T17:46:25.000Z",
-      "ctime": "2018-07-18T17:46:25.000Z",
+      "atime": "2018-07-26T19:13:21.000Z",
+      "mtime": "2018-07-20T04:43:35.000Z",
+      "ctime": "2018-07-20T04:43:35.000Z",
       "birthtime": "2018-07-18T05:38:51.000Z"
     },
-    "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file >>> MarkdownRemark",
+    "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file",
+      "parent": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file",
       "internal": {
         "content": "---\npath: \"/hello-world\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"R2 is the Meaning in My Life\"\n---\n\nR2-D2 you're my only hope!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/idCil0mNhoo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n",
         "type": "MarkdownRemark",
-        "contentDigest": "fc2453c80dc933533198d2824e660ae7",
+        "contentDigest": "7a6430bd71e122d8aa9543c64032ad1a",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "R2 is the Meaning in My Life",
         "path": "/hello-world",
         "date": "2017-07-12T17:12:33.962Z",
-        "_PARENT": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file",
-        "parent": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md absPath of file"
+        "_PARENT": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file",
+        "parent": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file"
       },
       "excerpt": "",
       "rawMarkdownBody": "\nR2-D2 you're my only hope!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/idCil0mNhoo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n",
-      "fileAbsolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/index.md"
+      "fileAbsolutePath": "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md"
     },
     "SitePage /hello-world": {
       "layout": "index",
@@ -1021,7 +1065,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "89c3cb3ccdc09a007b227d2cde116d95",
+        "contentDigest": "efd0add78160930f9bd867e288f0a77e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1042,7 +1086,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fc9f46df6162aa64614bf14c6c06ad7",
+        "contentDigest": "9506a1853f8782d697ad51bf99857bd0",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1063,7 +1107,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c38fb7f114ac89d3ea6d21394887da45",
+        "contentDigest": "33468c41d2bed8f86f53d8a517715bda",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /handbook/": {
+      "layout": "index",
+      "jsonName": "handbook.json",
+      "internalComponentName": "ComponentHandbook",
+      "path": "/handbook/",
+      "component": "/Users/plhnk/Github/liferay.design/src/pages/handbook/index.js",
+      "componentChunkName": "component---src-pages-handbook-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/plhnk/Github/liferay.design/src/pages/handbook/index.js",
+      "id": "SitePage /handbook/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a8433eb99f560ee0c95b7d84149e7d23",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1084,7 +1149,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "69bfce55497ce671d219bb0a54ee4e08",
+        "contentDigest": "8e7c17dcc377f9e07367507187114e05",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1105,7 +1170,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "601b5a3f33664d9cd2536db54bc7a8e6",
+        "contentDigest": "2011ed9929b952847b5dd7d846ef8127",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1122,6 +1187,9 @@
       ],
       "Site": [
         "LAYOUT___index"
+      ],
+      "/Users/plhnk/Github/liferay.design/src/pages/blog/180712/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world"
       ]
     },
     "connections": {

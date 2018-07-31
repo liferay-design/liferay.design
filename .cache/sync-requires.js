@@ -10,6 +10,7 @@ exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/Users/plhnk/Github/liferay.design/src/templates/blog-post.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/plhnk/Github/liferay.design/src/pages/404.js")),
   "component---src-pages-events-index-js": preferDefault(require("/Users/plhnk/Github/liferay.design/src/pages/events/index.js")),
+  "component---src-pages-handbook-index-js": preferDefault(require("/Users/plhnk/Github/liferay.design/src/pages/handbook/index.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/plhnk/Github/liferay.design/src/pages/index.js"))
 }
 
@@ -18,6 +19,7 @@ exports.json = {
   "hello-world.json": require("/Users/plhnk/Github/liferay.design/.cache/json/hello-world.json"),
   "404.json": require("/Users/plhnk/Github/liferay.design/.cache/json/404.json"),
   "events.json": require("/Users/plhnk/Github/liferay.design/.cache/json/events.json"),
+  "handbook.json": require("/Users/plhnk/Github/liferay.design/.cache/json/handbook.json"),
   "index.json": require("/Users/plhnk/Github/liferay.design/.cache/json/index.json"),
   "404-html.json": require("/Users/plhnk/Github/liferay.design/.cache/json/404-html.json")
 }
