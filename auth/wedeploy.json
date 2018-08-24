@@ -1,9 +1,0 @@
-{
-	"id": "design",
-	"image": "wedeploy/auth",
-	"env": {
-		"WEDEPLOY_AUTH_GOOGLE": "true",
-		"WEDEPLOY_AUTH_GOOGLE_CLIENT_ID": "241599564418-5i6erkpokpvd6nmmmme9g0j33uhn741h.apps.googleusercontent.com",
-		"WEDEPLOY_AUTH_GOOGLE_CLIENT_SECRET": "ZO6bn4WVq0Ora7SiERWbhiRi"
-	}
-}

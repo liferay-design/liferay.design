@@ -3,7 +3,7 @@ import { Flex, Heading, Text } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import Speaker from './Speaker'
-import classes from './Agenda.module.scss'
+import styles from './styles.module.scss'
 
 export const Talk = props => {
 	const { time, title, subtitle, speaker } = props.data
@@ -19,10 +19,10 @@ export const Talk = props => {
 		return ''
 	}
 	return (
-		<Flex className={classes.talkContainer}>
+		<Flex className={styles.talkContainer}>
 			<Text>{time}</Text>
 
-			<div className={classes.sessionHeading}>
+			<div className={styles.sessionHeading}>
 				<Heading level={3}>{title}</Heading>
 
 				<Heading level={4}>{subtitle}</Heading>

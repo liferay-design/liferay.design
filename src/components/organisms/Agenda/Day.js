@@ -1,14 +1,14 @@
-import { Aux, Icon, Text } from 'components/atoms'
+import { Icon, Text } from 'components/atoms'
 
 import PropTypes from 'prop-types'
 import React from 'react'
-import classes from './Agenda.module.scss'
+import styles from './styles.module.scss'
 
 export const Day = ({ current, day, onClick, previous }) => {
 	function renderDayToggler() {
 		if (day) {
 			return (
-				<div className={classes.dayToggle} onClick={onClick}>
+				<div className={styles.dayToggle} onClick={onClick}>
 					<Icon name={`${previous ? 'leftArrowTrailing' : null}`} />
 
 					<Text>
@@ -22,13 +22,14 @@ export const Day = ({ current, day, onClick, previous }) => {
 			)
 		}
 
-		return <div className={classes.noDay} />
+		return <div className={styles.noDay} />
 	}
 	return (
-		<Aux>
+		<>
 			{current ? (
-				<div className={classes.currentDay}>
-					{day.format('dddd')}&nbsp;
+				<div className={styles.currentDay}>
+					{day.format('dddd')}
+					&nbsp;
 					<span>
 						{day.format('MMM')} {day.format('DD')}
 					</span>
@@ -36,7 +37,7 @@ export const Day = ({ current, day, onClick, previous }) => {
 			) : (
 				renderDayToggler()
 			)}
-		</Aux>
+		</>
 	)
 }
 

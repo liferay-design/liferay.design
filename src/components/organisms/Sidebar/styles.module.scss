@@ -1,0 +1,30 @@
+.sidebar {
+	background: #f7f8f9;
+	padding: 5rem 1rem;
+	box-shadow: rgba(34, 36, 38, 0.15) 0px 0px 20px;
+	width: 20rem;
+
+	aside {
+		padding-top: 5rem;
+		width: 100%;
+	}
+
+	a > section {
+		margin-top: 0.5rem !important;
+
+		&:hover {
+			background: rgba(0, 0, 0, 0.05) !important;
+			color: rgba(0, 0, 0, 0.95) !important;
+		}
+	}
+}
+
+.sidebar-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	nav {
+		margin: 0 0.3rem;
+	}
+}
