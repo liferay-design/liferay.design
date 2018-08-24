@@ -1,7 +1,6 @@
 {
 	"id": "liferaydesign",
 	"image": "wedeploy/hosting:2.0.1",
-	"image": "wedeploy/auth:2.8.0",
 	"env": {
 		"WEDEPLOY_WEB_PATH": "public"
 	}
