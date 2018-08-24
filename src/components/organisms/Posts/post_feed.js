@@ -4,7 +4,7 @@
 const imageDir = '/images/posts'
 const headshotDir = '/images/headshots'
 
-import { withPrefix } from 'gatsby-link'
+import { withPrefix } from 'gatsby'
 
 const postFeed = [
 	{
@@ -15,7 +15,8 @@ const postFeed = [
 		heroUrl: withPrefix(`${imageDir}/maximize-value.jpg`),
 		detailImageUrl: withPrefix(`${headshotDir}/hanaoka_paul.jpg`),
 		category: 'Blog Post',
-		link: 'https://www.liferay.com/blog/en-us/digital-strategy/maximizing-the-value-of-design',
+		link:
+			'https://www.liferay.com/blog/en-us/digital-strategy/maximizing-the-value-of-design',
 	},
 	{
 		id: 1,
@@ -25,7 +26,8 @@ const postFeed = [
 		heroUrl: withPrefix(`${imageDir}/design-week-team.jpeg`),
 		detailImageUrl: withPrefix(`${headshotDir}/hidalgo_juan.jpg`),
 		category: 'Event Recap',
-		link: 'https://medium.com/@jhidalgoreina/liferay-design-week-2018-is-over-feb08e290a5f',
+		link:
+			'https://medium.com/@jhidalgoreina/liferay-design-week-2018-is-over-feb08e290a5f',
 	},
 	{
 		id: 2,
@@ -66,7 +68,8 @@ const postFeed = [
 		heroUrl: withPrefix(`${imageDir}/multicultural-animations.jpeg`),
 		detailImageUrl: withPrefix(`${headshotDir}/vazquez_susana.jpg`),
 		category: 'Blog Post',
-		link: 'https://medium.com/liferaydesign/designing-for-a-multicultural-product-9564bc657cb5',
+		link:
+			'https://medium.com/liferaydesign/designing-for-a-multicultural-product-9564bc657cb5',
 	},
 ]
 

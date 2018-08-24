@@ -1,0 +1,21 @@
+.logout-container {
+	cursor: pointer;
+	position: relative;
+}
+
+.profile {
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	position: absolute;
+	top: 130%;
+	right: 0;
+	width: 300px;
+	height: 150px;
+	background: rgb(245, 245, 245);
+
+	> div {
+		display: flex;
+		flex-direction: column;
+	}
+}
