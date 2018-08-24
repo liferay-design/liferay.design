@@ -1,7 +1,7 @@
 // Make sure the shape of this data stays consistent
 // Also ensure that the id starts at 0 and increases by 1
 
-import { withPrefix } from 'gatsby-link'
+import { withPrefix } from 'gatsby'
 
 const imageDir = 'images/headshots'
 

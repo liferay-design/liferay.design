@@ -1,13 +1,13 @@
-import { Footer, Header, HeroBanner, Posts } from 'components/organisms'
 import React from 'react'
+import { MainLayout } from 'components/templates'
+import { HeroBanner, Posts } from 'components/organisms'
 
 const Home = () => (
-	<div>
-		<Header />
+	<MainLayout section="Design">
 		<HeroBanner />
+
 		<Posts />
-		<Footer />
-	</div>
+	</MainLayout>
 )
 
 export default Home

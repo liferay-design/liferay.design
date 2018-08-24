@@ -1,6 +1,8 @@
+import Accordion from './Accordion'
+import LogoutContainer from './LogoutContainer'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
-import Navbar from './Navbar'
 import Post from './Post'
+import Person from './Person'
 
-export { FeaturedPost, HeroPost, Navbar, Post }
+export { Accordion, FeaturedPost, HeroPost, Person, Post, LogoutContainer }

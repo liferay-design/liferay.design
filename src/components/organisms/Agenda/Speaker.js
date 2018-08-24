@@ -1,8 +1,8 @@
 import { Flex, Heading } from 'components/atoms'
-import { withPrefix } from 'gatsby-link'
+import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import classes from './Agenda.module.scss'
+import styles from './styles.module.scss'
 
 export const Speaker = props => {
 	const { photo, name, title } = props.data
@@ -16,7 +16,7 @@ export const Speaker = props => {
 				height="130px"
 			/>
 
-			<Flex justify="center" direction="column" className={classes.speakerHeading}>
+			<Flex justify="center" direction="column" className={styles.speakerHeading}>
 				<Heading level={4}>{name}</Heading>
 				<Heading level={5}>{title}</Heading>
 			</Flex>
