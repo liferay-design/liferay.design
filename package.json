@@ -25,10 +25,8 @@
 		"gatsby-plugin-react-helmet": "3.0.0-beta.4",
 		"gatsby-plugin-resolve-src": "2.0.0-beta.1",
 		"gatsby-plugin-sass": "2.0.0-beta.10",
-		"gatsby-plugin-sharp": "^2.0.0-rc.0",
 		"gatsby-source-filesystem": "2.0.1-beta.10",
 		"gatsby-transformer-remark": "2.1.1-beta.6",
-		"gatsby-transformer-sharp": "2.1.1-beta.7",
 		"node-sass": "^4.9.3",
 		"prettier": "^1.14.2"
 	},
