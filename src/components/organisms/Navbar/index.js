@@ -18,22 +18,24 @@ const Navbar = ({ section }) => {
 	return (
 		<nav className={styles.container}>
 			<Flex align="center">
-				<Icon width="10rem" name="liferay" />
+				<Icon width="2rem" name="liferay" />
+
+				<Link to="/">Liferay.Design/</Link>
 
 				<Heading level={3} padding="0">
 					{section}
 				</Heading>
 			</Flex>
 
-			<Link to="/blueprints">Blueprints</Link>
+			<Flex align="center">
+				<Link to="/blueprints">Blueprints</Link>
 
-			<a href="dashboard-liferaydotdesign.wedeploy.io">Dashboard</a>
+				<Link to="/handbook">Handbook</Link>
 
-			<Link to="/handbook">Handbook</Link>
+				<Link to="/events">Events</Link>
 
-			<Link to="/events">Events</Link>
-
-			<AuthContainer>Sign In</AuthContainer>
+				<AuthContainer>Sign In</AuthContainer>
+			</Flex>
 		</nav>
 	)
 }

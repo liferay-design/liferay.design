@@ -13,7 +13,7 @@ function upsertAtPath(path, value, obj) {
 	return obj
 }
 
-export default class Blueprints extends Component {
+export default class Handbook extends Component {
 	buildSidebarTree(markdownNodes) {
 		const sidebarTree = markdownNodes.edges.reduce((currentTree, currentValue) => {
 			const slug = currentValue.node.fields.slug
@@ -42,15 +42,15 @@ export default class Blueprints extends Component {
 		return (
 			<PrivatePage
 				message="You must be a Liferay Employee to view this page"
-				section="Blueprints"
+				section="Handbook"
 			>
 				<Sidebar path={this.props.location.pathname} tree={sidebarTree}>
-					<Navbar section="Blueprints" />
+					<Navbar section="Handbook" />
 
 					<div className={styles.markdownContainer}>
 						<h1>{post.frontmatter.title}</h1>
 
-						<h2>Blueprints</h2>
+						<h2>Handbook</h2>
 
 						<div
 							dangerouslySetInnerHTML={{
@@ -67,7 +67,7 @@ export default class Blueprints extends Component {
 
 export const query = graphql`
 	query($slug: String!) {
-		allMarkdownRemark(filter: { fields: { slug: { regex: "/blueprints/" } } }) {
+		allMarkdownRemark(filter: { fields: { slug: { regex: "/handbook/" } } }) {
 			totalCount
 			edges {
 				node {
