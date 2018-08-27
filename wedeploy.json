@@ -1,11 +1,6 @@
 {
 	"id": "liferaydesign",
 	"image": "wedeploy/hosting:2.0.1",
-	"command": [
-		"npm",
-		"run",
-		"build"
-	],
 	"env": {
 		"WEDEPLOY_WEB_PATH": "public"
 	}
