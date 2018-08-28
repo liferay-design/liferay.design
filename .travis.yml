@@ -1,16 +1,19 @@
 language: node_js
 node_js:
-    - '8.11.4'
+  - '8.11.4'
 cache:
-    directories:
-        - node_modules
-
+  directories:
+    - node_modules
+before_script: ./deploy/deploy-common.sh
+stages:
+  - name: deploy-prod
+    if: branch = master
+  - name: deploy-dev
+    if: branch = dev
 jobs:
   include:
-    - script: ./deploy/deploy-common.sh
     - stage: deploy-prod
-        if: branch = master
-        script: ./deploy/deploy-prod.sh
+      script: ./deploy/deploy-prod.sh
     - stage: deploy-dev
-        if: branch = dev
-        script: ./deploy/deploy-dev.sh
+      script: ./deploy/deploy-dev.sh
+

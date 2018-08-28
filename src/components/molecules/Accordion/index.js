@@ -30,7 +30,7 @@ export default class Accordion extends Component {
 				</Link>
 
 				<Transition
-					animation="horizontal flip"
+					animation="slide down"
 					duration={200}
 					visible={this.state.showChildren}
 				>
