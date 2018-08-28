@@ -1,11 +1,7 @@
-#!/bin/bash
+#!/bin/bash -x
 
 curl https://cdn.wedeploy.com/cli/latest/wedeploy.sh -fsSL | bash
 
 echo "" > .gitignore
 
-echo "=================="
-
-cat .gitignore
-
-echo "=================="
+npm run build
