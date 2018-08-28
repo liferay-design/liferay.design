@@ -3,7 +3,7 @@ import { MainLayout } from 'components/templates'
 import { HeroBanner, Posts } from 'components/organisms'
 
 const Home = () => (
-	<MainLayout section="Design">
+	<MainLayout>
 		<HeroBanner />
 
 		<Posts />
