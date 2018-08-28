@@ -20,10 +20,10 @@ const Navbar = ({ section }) => {
 			<Flex align="center">
 				<Icon width="2rem" name="liferay" />
 
-				<Link to="/">Liferay.Design/</Link>
+				<Link to="/">Liferay.Design </Link>
 
 				<Heading level={3} padding="0">
-					{section}
+					{section && `/ ${section}`}
 				</Heading>
 			</Flex>
 
