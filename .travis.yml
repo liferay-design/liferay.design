@@ -4,7 +4,6 @@ node_js:
 cache:
   directories:
     - node_modules
-before_script: ./deploy/deploy-common.sh
 stages:
   - name: deploy-prod
     if: branch = master
@@ -16,4 +15,3 @@ jobs:
       script: ./deploy/deploy-prod.sh
     - stage: deploy-dev
       script: ./deploy/deploy-dev.sh
-
