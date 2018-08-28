@@ -7,7 +7,7 @@ cache:
 
 jobs:
   include:
-    script: ./deploy/deploy-common.sh
+    - script: ./deploy/deploy-common.sh
     - stage: deploy-prod
         if: branch = master
         script: ./deploy/deploy-prod.sh
