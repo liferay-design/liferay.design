@@ -5,7 +5,7 @@ import { MainLayout } from 'components/templates'
 export default ({ data }) => {
 	return (
 		<div>
-			<MainLayout section="Blueprints" />
+			<MainLayout section="Blueprints" >
 
 			<h4>{data.allMarkdownRemark.totalCount} Posts</h4>
 
@@ -18,6 +18,7 @@ export default ({ data }) => {
 					</Link>
 				</div>
 			))}
+			</MainLayout>
 		</div>
 	)
 }

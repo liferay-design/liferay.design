@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import styles from './styles.module.scss'
-import { Icon, Menu, Transition } from 'semantic-ui-react'
+import { FontIcon, Menu } from 'react-md'
 
 export default class Accordion extends Component {
 	state = {
@@ -13,7 +13,7 @@ export default class Accordion extends Component {
 	}
 
 	render() {
-		const IconRotatedProp = this.state.showChildren ? { rotated: 'clockwise' } : {}
+		const FontIconRotatedProp = this.state.showChildren ? { rotated: 'clockwise' } : {}
 
 		return (
 			<div className={styles.accordion}>
@@ -25,17 +25,11 @@ export default class Accordion extends Component {
 					>
 						{this.props.title}
 
-						<Icon name="triangle right" {...IconRotatedProp} />
+						<FontIcon {...FontIconRotatedProp} >keyboard_arrow_down</FontIcon>
 					</Menu.Item>
 				</Link>
 
-				<Transition
-					animation="slide down"
-					duration={200}
-					visible={this.state.showChildren}
-				>
 					<div className={styles.childrenContainer}>{this.props.children}</div>
-				</Transition>
 			</div>
 		)
 	}

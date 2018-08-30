@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Menu } from 'semantic-ui-react'
+import { Menu } from 'react-md'
 import { Accordion } from 'components/molecules'
 import { map } from 'lodash'
 import { Link } from 'gatsby'

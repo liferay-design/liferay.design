@@ -9,12 +9,11 @@
 		"react": "^16.4.2",
 		"react-dom": "^16.4.2",
 		"react-helmet": "^5.2.0",
+		"react-md": "^1.5.1",
 		"react-responsive": "^4.1.0",
 		"react-router-dom": "^4.3.1",
 		"react-sidebar": "^3.0.2",
 		"react-svg": "^5.0.22",
-		"semantic-ui-css": "^2.3.3",
-		"semantic-ui-react": "^0.82.2",
 		"wedeploy": "^4.5.0"
 	},
 	"devDependencies": {

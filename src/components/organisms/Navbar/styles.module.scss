@@ -4,23 +4,16 @@
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 2rem;
-	width: 100%;
-	height: 5rem;
+	padding: $spacingMedium;
 	z-index: 1000;
 	position: relative;
-
-	h2 {
-		margin: 0;
-	}
-
-	.cool-link {
-		color: red !important;
+	a {
+		text-decoration: none;
 	}
 }
 
-.entry {
-	&:hover .entry-label {
+.entry a {
+	&:hover {
 		color: $white;
 		transition: color 0.4s ease-out;
 		&::after {
@@ -32,16 +25,16 @@
 	&.selected {
 		border-bottom: 1px solid $black;
 
-		.entry-label {
+		.entry a {
 			color: $white;
 		}
 	}
 }
 
-.entry-label {
+.entry a {
 	color: $secondary;
 	margin: 0;
-	padding: 8px 0;
+	padding: $spacingSmall;
 	position: relative;
 	text-transform: capitalize;
 	transition: color 0.2s ease-out;
@@ -57,14 +50,16 @@
 		width: 100%;
 	}
 }
+.entry > :last-child {		
+		padding-left: $spacingSmall;
 
-.entry-link {
-	display: block;
-	text-decoration: none;
-}
+	}
 
 .siteName {
+	color: $white;
+	font-size: $fontSizeMedium;
 	padding-bottom: 0;
+	padding-top: $spacingSmall;
 	line-height: 1.6;
 	&:after {
 		content: '';

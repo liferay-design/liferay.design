@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Image, Segment } from 'semantic-ui-react'
+import { Media, Paper } from 'react-md'
 
 export default class PrivatePage extends Component {
 	state = {
@@ -19,7 +19,7 @@ export default class PrivatePage extends Component {
 			return this.props.children
 		}
 
-		return <Segment>{this.props.message}</Segment>
+		return <Paper>{this.props.message}</Paper>
 	}
 
 	render() {
@@ -28,9 +28,9 @@ export default class PrivatePage extends Component {
 				{this.state.authLoaded ? (
 					this.renderPrivateContent()
 				) : (
-					<Segment loading>
-						<Image src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
-					</Segment>
+					<Paper loading>
+						<Media src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
+					</Paper>
 				)}
 			</div>
 		)

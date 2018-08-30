@@ -14,7 +14,7 @@ $bottomMargin: 104px;
 
 .container {
 	height: calc(100vh - #{$globalHeaderHeight});
-	margin: 0 auto;
+	margin: $spacingBase auto;
 	min-height: 400px;
 	min-width: 360px;
 	position: relative;
