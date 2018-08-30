@@ -4,9 +4,11 @@
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	padding: $spacingMedium;
 	z-index: 1000;
 	position: relative;
+	margin: 0 auto;
+	max-width: 80rem;
+	padding: $spacingMedium $spacingSmall $spacingMedium;
 	a {
 		text-decoration: none;
 	}
@@ -32,28 +34,32 @@
 }
 
 .entry a {
-	color: $secondary;
+	color: $grey;
 	margin: 0;
 	padding: $spacingSmall;
 	position: relative;
-	text-transform: capitalize;
+	font-size: $fontSizeSmall;
 	transition: color 0.2s ease-out;
 	&::after {
-		background: $black;
+		background: $white;
 		bottom: 0;
 		content: '';
-		left: 0;
+		right: $spacingSmall;
 		position: absolute;
-		height: 1px;
+		height: 3px;
 		transition: transform 0.4s ease;
+		transform-origin: left;
 		transform: scaleX(0);
-		width: 100%;
+		width: $spacingBase;
+	}
+	&:last-child {
+		padding: $spacingSmall 0 $spacingSmall $spacingBase;
+		&::after {
+			right: 0;
+			background: $primary;
+		}
 	}
 }
-.entry > :last-child {		
-		padding-left: $spacingSmall;
-
-	}
 
 .siteName {
 	color: $white;
@@ -63,7 +69,7 @@
 	line-height: 1.6;
 	&:after {
 		content: '';
-		width: 20px;
+		width: $spacingBase;
 		height: 3px;
 		background: $primary;
 		display: block;

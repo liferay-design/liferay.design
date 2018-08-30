@@ -66,7 +66,7 @@
 
 .footer {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 80rem;
 	padding: $spacingSmall $spacingSmall $spacingMedium;
 }
 
@@ -103,11 +103,14 @@
 }
 
 .credits a {
-	font-weight: $fontWeightRegular;
+	font-weight: $fontWeightHeavy;
 	color: $white;
 }
 
 .credits span {
+	font-size: $fontSizeXSmall;
+	font-weight: $fontWeightLight;
+	color: $lightGrey;
 	padding-bottom: 1rem;
 }
 

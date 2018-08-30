@@ -83,6 +83,8 @@ a.linkContainer {
 	position: absolute;
 	right: -24px;
 	top: 30%;
+	text-transform: uppercase;
+	font-size: $fontSizeXSmall;
 	transform: rotateZ(-90deg) translateY(40vmin);
 
 	@media screen and (max-width: $screenLarge) {

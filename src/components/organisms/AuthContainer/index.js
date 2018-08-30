@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { LogoutContainer } from 'components/molecules'
-import { navigate } from 'gatsby'
+import { navigate, Link } from 'gatsby'
 import styles from './styles.module.scss'
 
 export default class AuthContainer extends Component {
@@ -63,9 +63,9 @@ export default class AuthContainer extends Component {
 		return this.state.user ? (
 			<LogoutContainer user={this.state.user} onClick={this.logout} />
 		) : (
-			<span className={styles.login} onClick={this.login}>
+			<Link to="#" className={styles.login} onClick={this.login}>
 				Sign In
-			</span>
+			</Link>
 		)
 	}
 }

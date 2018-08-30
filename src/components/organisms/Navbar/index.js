@@ -20,13 +20,13 @@ const Navbar = ({ section }) => {
 			<Link className={styles.siteName} to="/">Liferay.Design {section && `/ ${section}`}</Link>
 
 			<Flex className={styles.entry} align="center">
-				<Link to="/blueprints">Blueprints</Link>
+				<Link to="/articles">Articles</Link>
 
-				<Link to="/handbook">Handbook</Link>
+				<Link to="/team">Team</Link>
 
-				<Link to="/events">Events</Link>
+				<Link to="/resources">Resources</Link>
 
-				<AuthContainer>Sign In</AuthContainer>
+				<AuthContainer />
 			</Flex>
 		</nav>
 	)

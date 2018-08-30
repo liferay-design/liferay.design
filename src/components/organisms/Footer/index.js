@@ -16,30 +16,33 @@ export const Footer = () => {
 					</Heading>
 
 					<Flex className={styles.social} justify="space-between">
-						<a href="https://www.facebook.com/hashtag/liferaydesign">
-							<Icon fill="white" name="facebook" />
+						<a target="_blank" href="https://www.dribbble.com/liferay">
+							<Icon fill="white" name="dribbble" />
 						</a>
-						<a href="https://github.com/liferay-design/liferay.design">
+						<a target="_blank" href="https://github.com/liferay-design/liferay.design">
 							<Icon fill="white" name="github" />
 						</a>
-						<a href="https://www.instagram.com/liferay_ux/">
+						<a target="_blank" href="https://www.instagram.com/liferay_ux/">
 							<Icon fill="white" name="instagram" />
 						</a>
-						<a href="https://www.linkedin.com/company/83609">
+						<a target="_blank" href="https://www.linkedin.com/company/83609">
 							<Icon fill="white" name="linkedin" />
 						</a>
-						<a href="https://twitter.com/liferaydesign">
+						<a target="_blank" href="https://www.medium.com/liferaydesign">
+							<Icon fill="white" name="medium" />
+						</a>
+						<a target="_blank" href="https://twitter.com/liferaydesign">
 							<Icon fill="white" name="twitter" />
 						</a>
 					</Flex>
 				</Flex>
 
 				<Flex className={styles.credits} justify="space-between" flexWrap="wrap">
-					<Text weight="light" color="white">
-						Part of <a href="https://liferay.com">Liferay, Inc</a>
+					<Text color="#C0C0C0" size="0.8rem">
+						Part of <a target="_blank" href="https://liferay.com">Liferay, Inc</a>
 					</Text>
-					<Text weight="light" color="white">
-						Powered by <a href="https://wedeploy.com">WeDeploy™</a>
+					<Text color="#C0C0C0" size="0.8rem">
+						Powered by  <a target="_blank" href="http://gatsbyjs.org/">Gatsby</a> and <a href="https://wedeploy.com">WeDeploy™</a>
 					</Text>
 				</Flex>
 			</Flex>
