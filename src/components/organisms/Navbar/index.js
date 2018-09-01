@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Heading } from 'components/atoms'
+import { Flex } from 'components/atoms'
 import styles from './styles.module.scss'
 import { AuthContainer } from 'components/organisms'
 import PropTypes from 'prop-types'
@@ -23,8 +23,6 @@ const Navbar = ({ section }) => {
 				<Link to="/articles">Articles</Link>
 
 				<Link to="/team">Team</Link>
-
-				<Link to="/resources">Resources</Link>
 
 				<AuthContainer />
 			</Flex>

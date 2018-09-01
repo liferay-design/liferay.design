@@ -7,9 +7,11 @@ import HeroBanner from './HeroBanner'
 import Team from './Team'
 import Venue from './Venue'
 import Posts from './Posts'
+import Banner from './Banner'
 
 export {
 	Agenda,
+	Banner,
 	Footer,
 	HeroBanner,
 	Posts,

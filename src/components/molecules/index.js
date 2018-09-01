@@ -4,5 +4,6 @@ import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
 import Post from './Post'
 import Person from './Person'
+import LexiconCard from './LexiconCard'
 
-export { Accordion, FeaturedPost, HeroPost, Person, Post, LogoutContainer }
+export { Accordion, FeaturedPost, HeroPost, Person, Post, LexiconCard, LogoutContainer }

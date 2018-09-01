@@ -1,0 +1,86 @@
+@import '~theme/variables';
+
+.banner {
+    background: blue;
+}
+
+.teasers {
+    background-color: $white;
+    margin-top: -$spacingLarge;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    background-color: $white;
+    border-bottom: $fontSizeSmall solid $white;
+    border-radius: $fontSizeSmall;
+    box-shadow: 4px 6px 36px rgba(48, 49, 63, 0.15);
+    margin-bottom: 24px;
+    min-height: 100%;
+    transition: all 0.4s;
+    &:hover {
+      background-color: $lightestGrey;
+      border-color: $brandDark;
+      box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
+      transform: translateY(-3px);
+    }
+    .card-body {
+      padding: 32px;
+    }
+    h2 {
+      color: $darkGrey;
+      font-size: 21px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .btn {
+      color: $darkGrey;
+      display: inline-flex;
+      font-size: 11px;
+      letter-spacing: 1px;
+      img {
+        height: 1em;
+        margin: auto;
+      }
+    }
+    p {
+      color: #a1a3b6;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    img.mx-auto {
+      margin: 32px 0 40px;
+      width: 98px;
+    }
+}
+
+.vertical {
+    color: #c4cacb;
+    font-size: $fontSizeXSmall;
+    letter-spacing: 2px;
+    margin-top: 250px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.social {
+    height: $spacingMedium;
+    width: $spacingMedium;
+    display: flex;
+    margin: $spacingSmall $spacingXSmall;
+    padding-top: 0.3em;
+    justify-content: center;
+    align-items: center;
+    background: $lightestGrey;
+    border-radius: 50%;
+    &:hover {
+        background: $primary;
+    }
+}
