@@ -4,12 +4,12 @@ import ReactSvg from 'react-svg'
 import { colors } from 'theme'
 import { withPrefix } from 'gatsby'
 
-const Icon = ({ className, fill, height, width, name, style }) => {
+const Icon = ({ className, fill, height, width, name, style, padding }) => {
 	const styles = {
 		...style,
 		fill: colors[fill],
 		height,
-		padding: '4px',
+		padding,
 		width,
 	}
 
@@ -29,10 +29,12 @@ Icon.propTypes = {
 	width: PropTypes.string,
 	name: PropTypes.string.isRequired,
 	style: PropTypes.object,
+	padding: PropTypes.object,
 }
 
 Icon.defaultProps = {
 	fill: 'black',
+	padding: '4px',
 }
 
 export default Icon

@@ -22,7 +22,7 @@ class Person extends React.Component {
 
 	render() {
 		return (
-			<Link className={styles.cardLink} to="/">
+			<Link className={styles.cardLink} to={this.props.person.page}>
 				<Card
 					onMouseEnter={this.onPersonMouseEnter.bind(this)}
 					onMouseLeave={this.onPersonMouseLeave.bind(this)}

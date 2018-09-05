@@ -13,6 +13,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/anton_juan_h.jpg`),
 		title: 'Senior UX Designer',
 		icon: 'fa fa-palette',
+		page: '/team/anton_juan',
 	},
 	{
 		id: 1,
@@ -21,6 +22,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/aragones_david_h.jpg`),
 		title: 'Senior UX Designer',
 		icon: 'fa fa-universal-access',
+		page: '/team/aragones_david',
 	},
 	{
 		id: 3,
@@ -29,6 +31,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/chan_julia_h.jpg`),
 		title: 'Graphic Designer',
 		icon: 'fa fa-coffee',
+		page: '/team/chan_julia',
 	},
 	{
 		id: 5,
@@ -37,6 +40,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/cicero_emiliano_h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa fa-bezier-curve',
+		page: '/team/cicero_emiliano',
 	},
 	{
 		id: 6,
@@ -45,6 +49,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/connolly_ryan_h.jpg`),
 		title: 'UX Design Manager',
 		icon: 'fa fa-pen',
+		page: '/team/connolly_ryan',
 	},
 	{
 		id: 7,
@@ -53,6 +58,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/dantas_jadson_h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa fa-music',
+		page: '/team/dantas_jadson',
 	},
 	{
 		id: 8,
@@ -61,6 +67,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/fernandes_vitor_h.jpg`),
 		title: 'UX Design Manager',
 		icon: 'fa fa-rocket',
+		page: '/team/fernandes_vitor',
 	},
 	{
 		id: 9,
@@ -69,6 +76,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/fernandes_rafael_h.jpg`),
 		title: 'Senior UX Designer',
 		icon: 'fa fa-headphones-alt',
+		page: '/team/fernandes_rafael',
 	},
 	{
 		id: 10,
@@ -77,6 +85,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hammer_markus_h.jpg`),
 		title: 'Senior Graphic Designer',
 		icon: 'fa fa-gavel',
+		page: '/team/hammer_markus',
 	},
 	{
 		id: 11,
@@ -85,6 +94,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hanaoka_paul_h.jpg`),
 		title: 'UX Design Manager',
 		icon: 'fa fa-terminal',
+		page: '/team/hanaoka_paul',
 	},
 	{
 		id: 12,
@@ -93,6 +103,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hancock_abel_h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa fa-code',
+		page: '/team/hancock-abel',
 	},
 	{
 		id: 13,
@@ -101,6 +112,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hidalgo_juan_h.jpg`),
 		title: 'UX Director',
 		icon: 'fa fa-heart',
+		page: '/team/hidalgo_juan',
 	},
 	{
 		id: 14,
@@ -109,6 +121,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hisamoto_naoki_h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa fa-check-double',
+		page: '/team/hisamoto_naoki',
 	},
 	{
 		id: 15,
@@ -117,6 +130,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/ho_bryan_h.jpg`),
 		title: 'Associate Graphic Design Manager',
 		icon: 'fa fa-pencil-alt',
+		page: '/team/ho_bryan',
 	},
 	{
 		id: 16,
@@ -125,6 +139,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/jeong_chris_h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa fa-glasses',
+		page: '/team/jeong_chris',
 	},
 	{
 		id: 17,
@@ -133,6 +148,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/lee_jessica_h.jpg`),
 		title: 'Graphic Designer',
 		icon: 'fa fa-pen-nib',
+		page: '/team/lee_jessica',
 	},
 	{
 		id: 19,
@@ -141,6 +157,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/moura_nathalia_h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa fa-map-marked-alt',
+		page: '/team/moura_nathalia',
 	},
 	{
 		id: 21,
@@ -149,6 +166,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/pentz_patrick_h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa fa-camera',
+		page: '/team/pentz_patrick',
 	},
 	{
 		id: 22,
@@ -157,6 +175,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/pires_felipe_h.jpg`),
 		title: 'UX Design Manager',
 		icon: 'fa fa-dumbbell',
+		page: '/team/pires_felipe',
 	},
 	{
 		id: 23,
@@ -165,6 +184,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/shama_davi_h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa fa-pencil-ruler',
+		page: '/team/shama_davi',
 	},
 	{
 		id: 25,
@@ -173,6 +193,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/valle_victor_h.jpg`),
 		title: 'UX Design Manager',
 		icon: 'fas fa-fingerprint',
+		page: '/team/valle_victor',
 	},
 	{
 		id: 26,
@@ -181,6 +202,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/vazquez_susana_h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa fa-archway',
+		page: '/team/vazquez_susana',
 	},
 	{
 		id: 27,
@@ -189,6 +211,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/wong_sharon_h.jpg`),
 		title: 'Graphic Designer',
 		icon: 'fa fa-pen-fancy',
+		page: '/team/wong_sharon',
 	},
 	{
 		id: 30,
@@ -197,6 +220,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/young_emily_h.jpg`),
 		title: 'Graphic Design Manager',
 		icon: 'fa fa-stroopwafel',
+		page: '/team/young_emily',
 	},
 	{
 		id: 31,
@@ -205,6 +229,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/yuan_rachel_h.jpg`),
 		title: 'Senior Graphic Designer',
 		icon: 'fa fa-chess-queen',
+		page: '/team/yuan_rachel',
 	},
 ]
 
