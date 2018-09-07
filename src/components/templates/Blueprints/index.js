@@ -44,9 +44,8 @@ export default class Blueprints extends Component {
 				message="You must be a Liferay Employee to view this page"
 				section="Blueprints"
 			>
-				<Sidebar path={this.props.location.pathname} tree={sidebarTree}>
-					<Navbar section="Blueprints" />
-
+				<Navbar section="Blueprints" />
+				<Sidebar path={this.props.location.pathname} tree={sidebarTree}/>
 					<div className={styles.markdownContainer}>
 						<h1>{post.frontmatter.title}</h1>
 
@@ -58,8 +57,7 @@ export default class Blueprints extends Component {
 							}}
 						/>
 					</div>
-					<Footer />
-				</Sidebar>
+				<Footer />
 			</PrivatePage>
 		)
 	}

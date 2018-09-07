@@ -29,7 +29,7 @@ Icon.propTypes = {
 	width: PropTypes.string,
 	name: PropTypes.string.isRequired,
 	style: PropTypes.object,
-	padding: PropTypes.object,
+	padding: PropTypes.string,
 }
 
 Icon.defaultProps = {

@@ -4,6 +4,7 @@ import styles from './styles.module.scss'
 import { Avatar, Card, CardTitle, CardText, Media, FontIcon } from 'react-md'
 
 class Person extends React.Component {
+	
 	constructor(props) {
 		super(props)
 
@@ -31,7 +32,7 @@ class Person extends React.Component {
 					<Media aspectRatio="4-3" className={styles.image}><img src={withPrefix(this.state.imageUrl)} /></Media>
 					<Avatar className={styles.avatar} icon={<FontIcon iconClassName={this.props.person.icon} />} />
 					<div className={styles.copy}>
-						<CardTitle className={styles.title} >{this.props.person.name}</CardTitle>
+						<CardTitle className={styles.title} title={this.props.person.name}/>
 						<CardText className={styles.text} >{this.props.person.title}</CardText>
 					</div>
 				</Card>
