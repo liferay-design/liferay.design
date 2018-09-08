@@ -4,7 +4,7 @@ import { Heading, Text, Icon, Flex } from 'components/atoms'
 import { Footer, Banner, Navbar } from 'components/organisms'
 import styles from './blueprints.module.scss'
 import { Grid, Cell, Card, CardTitle, CardText, } from 'react-md'
-import { Base, styled } from 'reakit'
+import { Button, Base, styled } from 'reakit'
 
 const Theme = styled(Base) `
 	font-family: 'Source Sans Pro';
@@ -16,11 +16,17 @@ const WideCard = styled(Card) `
 
 const Blueprints = () => (
 		<Theme>
-			<Navbar/>
-			<Banner/>
-			<div className={styles.teasers}>
+			<Flex className={styles.banner} background="primary" width="100vw" height="108vh" direction="column" align="center">
+				<Navbar section="Blueprints" />
+				<div className={styles.bannerContent}>
+					<Heading color="white" level={1}>Blueprints</Heading>
+					<Heading color="white" level={2}>Brand Guidelines For Liferay</Heading>
+					<Link to="/blueprints/about"><Button className={styles.button}>Get Started</Button></Link>
+				</div>
+			</Flex>
+			<div className={styles.background}>
 				<div className={styles.container}>
-					<Grid>
+					<Grid className={styles.teasers}>
 						<Cell size={1}>
 							<Text color="#c4cacb" weight="700" size="12px" type="p" className={styles.vertical}>Explore Blueprints</Text>
 						</Cell>

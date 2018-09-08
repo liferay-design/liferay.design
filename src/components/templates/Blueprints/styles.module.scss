@@ -1,4 +1,7 @@
+@import '~theme/variables';
+
 .markdownContainer {
+	background: $white;
 	margin-bottom: auto;
 	padding: 6rem 3rem;
 }

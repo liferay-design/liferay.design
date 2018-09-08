@@ -1,17 +1,69 @@
 @import '~theme/variables';
 
-.banner {
-    background: blue;
+.background {
+  background: $white;
 }
 
-.teasers {
-    background-color: $white;
-    margin-top: -$spacingLarge;
+.banner {
+    max-width: 100vw;
+    background-color: #0b63ce;
+    background-image: linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center -6rem;
+  .banner-content {
+    margin-top: 6.1rem;
+  }
+}
+
+.teasers > div:nth-child(-n+3) {
+  margin-top: -$spacingMedium * 2;
+}
+
+.nav {
+  align-self: flex-start;
+  justify-self: flex-start;
 }
 
 .container {
-    max-width: 960px;
+  max-width: 960px;
+  background-color: $white;
     margin: 0 auto;
+}
+
+.banner-content {
+  text-align: center;
+  h1 {
+    font-size: 82px;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    opacity: 0.5 !important;
+    margin-top: 1.7rem;
+    font-weight: 700;
+  }
+
+  .button {
+    font-weight: 900 !important;
+    border-radius: 6px;
+    border-width: 2px;
+    font-size: 1rem;
+    min-height: 64px;
+    padding: 18px 64px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #204589;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 3.3rem;
+  }
+
 }
 
 a.card-link {

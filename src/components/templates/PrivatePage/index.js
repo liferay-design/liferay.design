@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Media, Paper } from 'react-md'
+import { Media, Paper, Card } from 'react-md'
+import { AuthContainer } from 'components/organisms'
+import styles from './styles.module.scss'
 
 export default class PrivatePage extends Component {
 	state = {
@@ -19,7 +21,7 @@ export default class PrivatePage extends Component {
 			return this.props.children
 		}
 
-		return <Paper>{this.props.message}</Paper>
+		return <Card><div>{this.props.message}</div><AuthContainer/></Card>
 	}
 
 	render() {
