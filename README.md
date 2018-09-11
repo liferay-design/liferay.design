@@ -113,7 +113,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
   13. **`wedeploy.json`**: [WeDeploy](https://wedeploy.com/) takes care of deploying and hosting our site! It's pretty great. The ~3 lines of code basically:
       1. tell which project we're working on 
       2. what kind of thing we're doing (in this case, hosting files)
-      3. which files to serve. 
+      3. which files to serve.
+      
       Amazing.
 
 ## 🎓 Learning Gatsby
