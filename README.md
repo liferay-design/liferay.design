@@ -3,27 +3,29 @@
 ## About
 The online presence of Liferay's Design Teams! Designed in Figma, built with Gatsby.
 
-## 🚀 Quick start
+## 👾 Getting started
 
-**If you don't have a dev environment**
+### If you don't have a dev environment
 
 The bare minimum you'll need is [npm](https://www.npmjs.com/get-npm) (which means you'll also need [Node](https://nodejs.org/en/) 😬 ), but before you start doing any of that &mdash; treat-yo-self to increased productivity by using some of the stuff [we've cobbled together](https://github.com/liferay-design/phresh-n-clean).
 
+### Quick Start
+
 1. **Install Dependencies**
 
-  ```sh
-  npm install
-  ```
+   ```sh
+   npm install
+   ```
 
 1. **Start up the dev server**
 
-  ```sh
-  npm run dev
-  ```
-  
+   ```sh
+   npm run dev
+   ```
+
 1. Go to `localhost:7777` and watch your work magically appear!
 
-1. **Pushing work to the upstream dev branch will automagically build**
+1. **Pushing work to the upstream dev branch will automagically build the site**
 
 1. Once build is complete visit [the dev site to see it](https://liferaydesign-liferaydotdesign-dev.wedeploy.io).
 
