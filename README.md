@@ -5,6 +5,10 @@ The online presence of Liferay's Design Teams! Designed in Figma, built with Gat
 
 ## 🚀 Quick start
 
+0. **If you don't have a dev environment**
+
+The bare minimum you'll need is [npm](https://www.npmjs.com/get-npm) (which means you'll also need [Node](https://nodejs.org/en/) 😬 ), but before you start doing any of that &mdash; treat-yo-self to increased productivity by using some of the stuff [we've cobbled together](https://github.com/liferay-design/phresh-n-clean).
+
 1.  **Install Dependencies**
 
 ```sh
@@ -78,7 +82,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── package-lock.json
     ├── package.json
     ├── README.md
-    └── yarn.lock
+    └── wedeploy.json
 
   1.  **`/node_modules`**: The directory where all of the modules of code that your project depends on (npm packages) are automatically installed.
 
@@ -104,7 +108,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
   12.  **`README.md`**: A text file containing useful reference information about your project.
 
-  13.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
+  13.  **`wedeploy.json`**: [WeDeploy](https://wedeploy.com/) takes care of deploying and hosting our site! It's pretty great. The ~3 lines of code basically 1. tell which project we're working on, 2. what kind of thing we're doing (in this case, hosting files), and 3. which files to serve. Amazing.
 
 ## 🎓 Learning Gatsby
 
