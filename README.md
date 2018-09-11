@@ -17,13 +17,13 @@ npm install
 npm run dev
 ```
 
-3. Go to `localhost:7777`
+3. Go to `localhost:7777` and watch your work magically appear!
 
-4. **Pushing work to the dev branch will automagically build**
+4. **Pushing work to the upstream dev branch will automagically build**
 
-5. Once build is complete visit liferaydesign-liferaydotdesign-dev.wedeploy.io
+5. Once build is complete visit [the dev site to see it](https://liferaydesign-liferaydotdesign-dev.wedeploy.io).
 
-- You can view build status at https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs
+- If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
 
 ## Structure
 
@@ -43,7 +43,21 @@ We save "versions" of the site as branches &mdash; v1 (for example) was the firs
 
 TODO: deploy old versions on subdomains.
 
-## 🧐 What's inside?
+### Folders
+
+#### Deploy
+
+This contains the scripts that make the site magically appear when new work gets pulled into the repo &mdash; real developers made this for us, and we generally don't touch it.
+
+#### src
+
+This is where the site lives &mdash; there's a readme file in there that will give you more information about it.
+
+#### static/images 
+
+This is where we store all the... you guessed it, images! There's probably a better way to do this, so please help us out.
+
+## 💁 What do all these files do?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
