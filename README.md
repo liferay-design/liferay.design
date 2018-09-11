@@ -5,29 +5,29 @@ The online presence of Liferay's Design Teams! Designed in Figma, built with Gat
 
 ## 🚀 Quick start
 
-0. **If you don't have a dev environment**
+**If you don't have a dev environment**
 
 The bare minimum you'll need is [npm](https://www.npmjs.com/get-npm) (which means you'll also need [Node](https://nodejs.org/en/) 😬 ), but before you start doing any of that &mdash; treat-yo-self to increased productivity by using some of the stuff [we've cobbled together](https://github.com/liferay-design/phresh-n-clean).
 
-1.  **Install Dependencies**
+1. **Install Dependencies**
 
-```sh
-npm install
-```
+  ```sh
+  npm install
+  ```
 
-2.  **Start up the dev server**
+1. **Start up the dev server**
 
-```sh
-npm run dev
-```
+  ```sh
+  npm run dev
+  ```
+  
+1. Go to `localhost:7777` and watch your work magically appear!
 
-3. Go to `localhost:7777` and watch your work magically appear!
+1. **Pushing work to the upstream dev branch will automagically build**
 
-4. **Pushing work to the upstream dev branch will automagically build**
+1. Once build is complete visit [the dev site to see it](https://liferaydesign-liferaydotdesign-dev.wedeploy.io).
 
-5. Once build is complete visit [the dev site to see it](https://liferaydesign-liferaydotdesign-dev.wedeploy.io).
-
-- If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
+   If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
 
 ## ⛩ Structure
 
