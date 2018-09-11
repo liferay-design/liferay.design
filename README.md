@@ -19,11 +19,29 @@ npm run dev
 
 3. Go to `localhost:7777`
 
-4. **Push your work to dev branch it will automagically build**
+4. **Pushing work to the dev branch will automagically build**
 
 5. Once build is complete visit liferaydesign-liferaydotdesign-dev.wedeploy.io
 
 - You can view build status at https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs
+
+## Structure
+
+### Branches
+
+#### Master
+
+Currently live on [liferay.design](https://liferay.design), it's compiled from the dev branch by Travis CI and then WeDeployed. Don't work on Master, as your pull request won't get accepted 😬. 
+
+#### Dev
+
+Work and submit pull requests from the `dev` branch.
+
+#### vN
+
+We save "versions" of the site as branches &mdash; v1 (for example) was the first ever version of the site.
+
+TODO: deploy old versions on subdomains.
 
 ## 🧐 What's inside?
 
