@@ -25,9 +25,9 @@ npm run dev
 
 - If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
 
-## Structure
+## ⛩ Structure
 
-### Branches
+### 🌳 Branches
 
 #### Master
 
@@ -43,7 +43,9 @@ We save "versions" of the site as branches &mdash; v1 (for example) was the firs
 
 TODO: deploy old versions on subdomains.
 
-### Folders
+---
+
+### 📂 Folders
 
 #### Deploy
 
@@ -56,6 +58,8 @@ This is where the site lives &mdash; there's a readme file in there that will gi
 #### static/images 
 
 This is where we store all the... you guessed it, images! There's probably a better way to do this, so please help us out.
+
+---
 
 ## 💁 What do all these files do?
 
