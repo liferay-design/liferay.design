@@ -16,7 +16,6 @@ module.exports = {
 				path: './src',
 			},
 		},
-		`gatsby-plugin-styled-components`,
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {
