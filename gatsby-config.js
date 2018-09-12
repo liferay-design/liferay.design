@@ -7,9 +7,16 @@ module.exports = {
 	plugins: [
 		'gatsby-plugin-catch-links',
 		'gatsby-plugin-react-helmet',
-		'gatsby-plugin-sass',
 		'gatsby-plugin-resolve-src',
-		'gatsby-plugin-catch-links',
+		'gatsby-plugin-sass',
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'src',
+				path: './src',
+			},
+		},
+		`gatsby-plugin-styled-components`,
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {
@@ -24,13 +31,6 @@ module.exports = {
 						},
 					},
 				],
-			},
-		},
-		{
-			resolve: 'gatsby-source-filesystem',
-			options: {
-				name: 'src',
-				path: './src',
 			},
 		},
 	],

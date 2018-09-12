@@ -1,21 +1,20 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
-import { Footer, Banner, Navbar } from 'components/organisms'
+import { Footer, Navbar } from 'components/organisms'
 import styles from './blueprints.module.scss'
 import { Grid, Cell, Card, CardTitle, CardText, } from 'react-md'
-import { Button, Base, styled } from 'reakit'
+import { Button, styled } from 'reakit'
+import { Liferay } from 'components/themes'
 
-const Theme = styled(Base) `
-	font-family: 'Source Sans Pro';
-`
 const WideCard = styled(Card) `
 	display: flex;
 	text-align: left !important;
 `
 
 const Blueprints = () => (
-		<Theme>
+		<div>
+			<Liferay />
 			<Flex className={styles.banner} background="primary" width="100vw" height="108vh" direction="column" align="center">
 				<Navbar section="Blueprints" />
 				<div className={styles.bannerContent}>
@@ -104,40 +103,7 @@ const Blueprints = () => (
 				</div>
 			</div>
 			<Footer/>
-		</Theme>
+		</div>
 	)
 
 	export default Blueprints
-	
-// get all posts
-{/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-
-{data.allMarkdownRemark.edges.map(({ node }) => (
-	<div key={node.id}>
-		<Link to={node.fields.slug}>
-			<h3>{node.frontmatter.title}</h3>
-
-			<p>{node.excerpt}</p>
-		</Link>
-	</div>
-))} 	 */}
-
-// export const query = graphql`
-// 	{
-// 		allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(blueprints)/" } }) {
-// 			totalCount
-// 			edges {
-// 				node {
-// 					id
-// 					frontmatter {
-// 						title
-// 					}
-// 					fields {
-// 						slug
-// 					}
-// 					excerpt
-// 				}
-// 			}
-// 		}
-// 	}
-// `
