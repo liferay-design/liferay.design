@@ -1,7 +1,9 @@
 # Liferay.Design
 
 ## About
-The online presence of Liferay's Design Teams! Designed in Figma, built with Gatsby.
+The online presence of Liferay's Design Teams! 
+
+Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [WeDeploy](https://wedeploy.com).
 
 ## 👾 Getting started
 
@@ -59,7 +61,31 @@ This contains the scripts that make the site magically appear when new work gets
 
 #### src
 
-This is where the site lives &mdash; there's a readme file in there that will give you more information about it.
+The src folder is where all the code is that gets compiled into a `public` folder which gets rendered onto the interwebs at [our domain](https://liferay.design). We roughly follow [atomic design](http://atomicdesign.bradfrost.com) principles.
+
+##### components
+
+Where all of our react components live &mdash; atoms, molecules, organisms, templates, and theme.
+
+##### images
+
+TODO: resolve duplicate `images` folders (static/images)
+
+##### markdown
+
+This is where 98.3% of the site content lives &mdash; [markdown](https://www.markdownguide.org) is a lot easier to write than html 🤓.
+
+##### pages
+
+Surprise surprise, this is where the code for the main pages of [liferay.design](https://liferay.design) lives.
+
+##### theme
+
+Stylesheets and other theme-related files.
+
+##### utils
+
+[Auth](https://wedeploy.com/docs/auth/getting-started/) is our only utility &mdash; but it's so great it gets its own folder.
 
 #### static/images 
 
@@ -114,7 +140,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
       1. tell which project we're working on 
       2. what kind of thing we're doing (in this case, hosting files)
       3. which files to serve.
-      
+
       Amazing.
 
 ## 🎓 Learning Gatsby
@@ -124,3 +150,11 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 -  **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://next.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 -  **To dive straight into code samples head [to our documentation](https://next.gatsbyjs.org/docs/).** In particular, check out the “Guides”, API reference, and “Advanced Tutorials” sections in the sidebar.
+
+## Contributing to this site
+
+We definitely appreciate contributions in any form &mdash; QA, [submitting issues](https://github.com/liferay-design/liferay.design/issues), providing  feedback, code, design, etc.
+
+If you're part of the Liferay team in Figma, there's a Liferay.Design project &mdash; you can see where we're at and contribute comments, designs, etc there.
+
+If you'd like to help manage deployments, please request to join our WeDeploy team!
