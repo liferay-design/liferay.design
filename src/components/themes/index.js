@@ -1,5 +1,4 @@
 import Liferay from './Liferay'
-import Longform from './Longform'
 
 // Colors are same as in variables.module.scss
 const colors = {
@@ -29,4 +28,4 @@ const fontWeights = {
 	black: 700,
 }
 
-export { colors, fontWeights, fontSizes, Liferay, Longform }
+export { colors, fontWeights, fontSizes, Liferay }

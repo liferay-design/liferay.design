@@ -3,84 +3,80 @@ title: 'Write Your Bio'
 description: 'Share your awesomeness'
 ---
 
-# All About You
+## All About You
 
-Some questions to kickstart your bio page on liferay.design
+Some questions to kickstart [your bio page](/team) on liferay.design
 
-## Instructions
+### Instructions
 
-1. From the dev branch of your fork of liferay.design, create a new .md file in `[/src/markdown/team](https://github.com/liferay-design/liferay.design/tree/dev/src/markdown/team)`
+1. From the dev branch of your fork of liferay.design, create a new .md file in [/src/markdown/team](https://github.com/liferay-design/liferay.design/tree/dev/src/markdown/team)
 
 1. Answer a few of the questions in this doc, then submit a pull request
 
-### How did you get into design?
+#### How did you get into design?
 
-`[answer]`
+[answer]
 
-### Why are you at Liferay?
+#### Why are you at Liferay?
 
-`[answer]`
+[answer]
 
-### Favorite tool?
+#### Favorite tool?
 
-`[answer]`
+[answer]
 
-### Best lifehack?
+#### Best lifehack?
 
-`[answer]`
+[answer]
 
-### Where do you find #inspiration?
+#### Where do you find #inspiration?
 
-`[answer]`
+[answer]
 
-### One thing you are getting better at?
+#### One thing you are getting better at?
 
-`[answer]`
+[answer]
 
-### One misconception about design you try to clear up?
+#### One misconception about design you try to clear up?
 
-`[answer]`
+[answer]
 
-### If you weren't designing, what would you be doing?
+#### If you weren't designing, what would you be doing?
 
-`[answer]`
+[answer]
 
-### What does your desktop/home screen look like?
+#### What does your desktop/home screen look like?
 
-`[answer]`
+[answer]
 
-### Favorite place to visit?
+#### Favorite place to visit?
 
-`[answer]`
+[answer]
 
-### Favorite hotkey?
+#### Favorite hotkey?
 
-`[answer]`
+[answer]
 
-### Advice for ambitious designers?
+#### Advice for ambitious designers?
 
-`[answer]`
+[answer]
 
-### Last book you read?
+#### Last book you read?
 
-`[answer]`
+[answer]
 
-### Thoughts on man-buns?
+#### Most effective productivity booster?
 
-`[answer]`
+[answer]
 
-### Most effective productivity booster?
+#### Best interview question?
 
-`[answer]`
+[answer]
 
-### Best interview question?
+#### [What keeps you up at night?](http://whatkeepsyouupatnight.io)
 
-`[answer]`
+[answer]
 
-### [What keeps you up at night?](http://whatkeepsyouupatnight.io)
+#### [Shameless plug?](https://www.programmerinterview.com/index.php/american-vocabulary/shameless-plug-meaning/)
 
-`[answer]`
-
-### Shameless plug?
-
-`[answer]`
+[answer]

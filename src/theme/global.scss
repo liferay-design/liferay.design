@@ -1,4 +1,4 @@
-@import '~theme/reset';
+// @import '~theme/reset';
 @import '~theme/variables';
 @import '~react-md/src/scss/react-md';
 
@@ -13,7 +13,6 @@ $md-light-theme: false;
 $md-typography-extended: false;
 
 @include react-md-everything;
-
 
 html,
 body {
