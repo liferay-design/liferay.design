@@ -10,13 +10,29 @@
 .wrapper {
 	max-width: 77ch;
 	margin: 0 auto;
-}
 
-.wrapper p {
-	font-size: $fontSizeMedium;
-	font-weight: $fontWeightRegular;
-	color: $darkGrey;
-	margin-bottom: 1rem;
-	-webkit-font-smoothing: antialiased !important;
-	-moz-osx-font-smoothing: grayscale !important;
+	img {
+		height: 300px;
+		width: 300px;
+		right: 22rem;
+		position: absolute;
+		top: 5rem;
+	}
+
+	p {
+		font-size: $fontSizeMedium;
+		font-weight: $fontWeightRegular;
+		color: $darkGrey;
+		margin-bottom: 1rem;
+		-webkit-font-smoothing: antialiased !important;
+		-moz-osx-font-smoothing: grayscale !important;
+	}
+
+	h3 {
+		margin-top: 6rem;
+		// font-size: $fontSizeXLarge;
+		&:first-child {
+			margin-top: 1rem;
+		}
+	}
 }
