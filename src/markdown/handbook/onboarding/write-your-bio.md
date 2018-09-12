@@ -11,7 +11,7 @@ Some questions to kickstart [your bio page](/team) on liferay.design
 
 1. From the dev branch of your fork of liferay.design, create a new .md file in [/src/markdown/team](https://github.com/liferay-design/liferay.design/tree/dev/src/markdown/team)
 
-1. Answer a few of the questions in this doc, then submit a pull request
+1. Answer a few of the questions in this doc, then [submit a pull request](https://github.com/liferay-design/liferay.design/pulls)!
 
 #### How did you get into design?
 
