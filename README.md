@@ -5,11 +5,13 @@ The online presence of Liferay's Design Teams!
 
 Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [WeDeploy](https://wedeploy.com).
 
+
 ## 👾 Getting started
 
 ### If you don't have a dev environment
 
 The bare minimum you'll need is [npm](https://www.npmjs.com/get-npm) (which means you'll also need [Node](https://nodejs.org/en/) 😬 ), but before you start doing any of that &mdash; treat-yo-self to increased productivity by using some of the stuff [we've cobbled together](https://github.com/liferay-design/phresh-n-clean).
+
 
 ### Quick Start
 
@@ -29,7 +31,7 @@ The bare minimum you'll need is [npm](https://www.npmjs.com/get-npm) (which mean
 
 1. **Pushing work to the upstream dev branch will automagically build the site**
 
-1. Once build is complete visit [the dev site to see it](https://liferaydesign-liferaydotdesign-dev.wedeploy.io).
+1. Once build is complete visit [the dev site to see it](https://site-liferaydotdesign-dev.wedeploy.io).
 
    If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
 
@@ -39,17 +41,20 @@ The bare minimum you'll need is [npm](https://www.npmjs.com/get-npm) (which mean
 
 #### Master
 
-Currently live on [liferay.design](https://liferay.design), it's compiled from the dev branch by Travis CI and then WeDeployed. Don't work on Master, as your pull request won't get accepted 😬. 
+Currently live on [liferay.design](https://liferay.design), it's compiled from the dev branch by Travis CI and then WeDeployed. Don't work on Master, as your pull request won't get accepted 😬.
+
 
 #### Dev
 
 Work and submit pull requests from the `dev` branch.
+
 
 #### vN
 
 We save "versions" of the site as branches &mdash; v1 (for example) was the first ever version of the site.
 
 TODO: deploy old versions on subdomains.
+
 
 ---
 
@@ -59,37 +64,41 @@ TODO: deploy old versions on subdomains.
 
 This contains the scripts that make the site magically appear when new work gets pulled into the repo &mdash; real developers made this for us, and we generally don't touch it.
 
+
 #### src
 
 The src folder is where all the code is that gets compiled into a `public` folder which gets rendered onto the interwebs at [our domain](https://liferay.design). We roughly follow [atomic design](http://atomicdesign.bradfrost.com) principles.
+
 
 ##### components
 
 Where all of our react components live &mdash; atoms, molecules, organisms, templates, and theme.
 
-##### images
-
-TODO: resolve duplicate `images` folders (static/images)
 
 ##### markdown
 
 This is where 98.3% of the site content lives &mdash; [markdown](https://www.markdownguide.org) is a lot easier to write than html 🤓.
 
+
 ##### pages
 
 Surprise surprise, this is where the code for the main pages of [liferay.design](https://liferay.design) lives.
+
 
 ##### theme
 
 Stylesheets and other theme-related files.
 
+
 ##### utils
 
 [Auth](https://wedeploy.com/docs/auth/getting-started/) is our only utility &mdash; but it's so great it gets its own folder.
 
+
 #### static/images 
 
 This is where we store all the... you guessed it, images! There's probably a better way to do this, so please help us out.
+
 
 ---
 

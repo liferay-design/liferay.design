@@ -1,5 +1,5 @@
 {
-	"id": "liferaydesign",
+	"id": "site",
 	"image": "wedeploy/hosting:2.0.1",
 	"env": {
 		"WEDEPLOY_WEB_PATH": "public"
