@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
+import { Flex } from 'components/atoms'
 import { Sidebar, Footer, Navbar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
 
@@ -48,15 +49,14 @@ export default class Handbook extends Component {
 				<Sidebar path={this.props.location.pathname} tree={sidebarTree}/>
 
 					<div className={styles.markdownContainer}>
-						<h1>{post.frontmatter.title}</h1>
-
-						<h2>Handbook</h2>
-
-						<div
-							dangerouslySetInnerHTML={{
-								__html: post.html,
-							}}
-						/>
+						<Flex direction="column" className={styles.wrapper}>
+							<h1>{post.frontmatter.title}</h1>
+							<div
+								dangerouslySetInnerHTML={{
+									__html: post.html,
+								}}
+							/>
+						</Flex>
 					</div>
 					<Footer />
 			</PrivatePage>

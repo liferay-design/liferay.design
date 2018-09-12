@@ -23,11 +23,9 @@ export default class Team extends Component {
 			<div>
 				<Navbar section="Team" />
 				<div className={styles.markdownContainer}>
-					<h1>{post.frontmatter.title}</h1>
-					{/* <img src={post.frontmatter.featured_image}/> */}
-					<h2>{post.frontmatter.description}</h2>
-
-					<Flex className={styles.wrapper}>
+					<Flex direction="column" className={styles.wrapper}>
+						<h1>{post.frontmatter.title}</h1>
+						<h2>{post.frontmatter.description}</h2>
 						<div 						
 						dangerouslySetInnerHTML={{
 							__html: post.html,
