@@ -1,5 +1,9 @@
 @import '~theme/variables';
 
+.sans {
+	font-family: $fontFamilySecondary;
+}
+
 .markdownContainer {
 	background: $white;
 	margin-bottom: auto;

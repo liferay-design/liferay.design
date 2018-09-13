@@ -2,10 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
 import { Footer, Navbar } from 'components/organisms'
-import styles from './blueprints.module.scss'
+import styles from './styles.module.scss'
 import { Grid, Cell, Card, CardTitle, CardText, } from 'react-md'
 import { Button, styled } from 'reakit'
-import { Liferay } from 'components/themes'
 
 const WideCard = styled(Card) `
 	display: flex;
@@ -13,14 +12,13 @@ const WideCard = styled(Card) `
 `
 
 const Blueprints = () => (
-		<div>
-			<Liferay />
+		<div className={styles.sans}>
 			<Flex className={styles.banner} background="primary" width="100vw" height="108vh" direction="column" align="center">
 				<Navbar section="Blueprints" />
 				<div className={styles.bannerContent}>
 					<Heading color="white" level={1}>Blueprints</Heading>
 					<Heading color="white" level={2}>Brand Guidelines For Liferay</Heading>
-					<Link to="/blueprints/about"><Button className={styles.button}>Get Started</Button></Link>
+					<Link to="/blueprints/principles"><Button className={styles.button}>Get Started</Button></Link>
 				</div>
 			</Flex>
 			<div className={styles.background}>
@@ -40,7 +38,7 @@ const Blueprints = () => (
 							</Link>
 						</Cell>
 						<Cell size={5}>
-							<Link className={styles.cardLink} to="/blueprints/about">
+						<Link className={styles.cardLink} to="/blueprints/resources/logo-files">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="logos" />
 									<CardTitle className={styles.cardTitle} title="Just the Logos, Please"/>
@@ -52,7 +50,7 @@ const Blueprints = () => (
 					</Grid>
 					<Grid>
 						<Cell offset={1} size={10}>
-							<Link className={styles.cardLink} to="/blueprints/about">
+							<Link className={styles.cardLink} to="/blueprints/resources">
 								<WideCard className={styles.card}>
 									<Icon padding="3.5rem 6.25rem .5rem" name="resources" />
 									<Flex align="flex-start" direction="column">
@@ -66,7 +64,7 @@ const Blueprints = () => (
 					</Grid>
 					<Grid>
 						<Cell offset={1} size={5}>
-							<Link className={styles.cardLink} to="/blueprints/about">
+							<Link className={styles.cardLink} to="/blueprints/faqs">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="faqs" />
 									<CardTitle className={styles.cardTitle} title="FAQ"/>
@@ -76,7 +74,7 @@ const Blueprints = () => (
 							</Link>
 						</Cell>
 						<Cell size={5}>
-							<Link className={styles.cardLink} to="/blueprints/about">
+							<Link className={styles.cardLink} to="/team">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="liferay-design" />
 									<CardTitle className={styles.cardTitle} title="Liferay.Design"/>
@@ -102,7 +100,7 @@ const Blueprints = () => (
 					</Grid>
 				</div>
 			</div>
-			<Footer/>
+			<Footer light/>
 		</div>
 	)
 

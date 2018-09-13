@@ -47,7 +47,6 @@ Text.propTypes = {
 }
 
 Text.defaultProps = {
-	color: 'black',
 	size: 'base',
 	type: 'span',
 	weight: 'regular',

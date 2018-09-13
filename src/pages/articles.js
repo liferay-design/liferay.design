@@ -2,12 +2,21 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { MainLayout } from 'components/templates'
 import { Posts } from 'components/organisms'
+import { styled, Heading } from 'reakit'
+
+const Title = styled(Heading)`
+		fontSize: 3rem;
+		fontWeight: 600;
+		color: white;
+`;
 
 export default ({ data }) => {
 	return (
 		<div>
 			<MainLayout section="Articles" >
-
+			<Title>
+				The Blog
+			</Title>
 			<Posts />
 
 			<h4>{data.allMarkdownRemark.totalCount} Posts</h4>

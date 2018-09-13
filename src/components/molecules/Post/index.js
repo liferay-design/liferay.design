@@ -21,7 +21,7 @@ class Post extends React.Component {
 					</div>
 					<div className={styles.postData}>
 						<img src={this.state.detailImageUrl} />
-						<Heading level={2}>{this.props.post.title}</Heading>
+						<Heading level={3}>{this.props.post.title}</Heading>
 						<figcaption>{this.props.post.preview}</figcaption>
 					</div>
 				</figure>

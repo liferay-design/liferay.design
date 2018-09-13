@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
 import { Flex } from 'components/atoms'
-import { Sidebar, FooterDark, Navbar } from 'components/organisms'
+import { Sidebar, Footer, Navbar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
 
 function upsertAtPath(path, value, obj) {
@@ -58,7 +58,7 @@ export default class Handbook extends Component {
 							/>
 						</Flex>
 					</div>
-					<FooterDark />
+					<Footer light />
 			</PrivatePage>
 		)
 	}

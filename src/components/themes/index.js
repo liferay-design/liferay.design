@@ -1,5 +1,3 @@
-import Liferay from './Liferay'
-
 // Colors are same as in variables.module.scss
 const colors = {
 	primary: '#0055FD',
@@ -28,4 +26,4 @@ const fontWeights = {
 	black: 700,
 }
 
-export { colors, fontWeights, fontSizes, Liferay }
+export { colors, fontWeights, fontSizes }

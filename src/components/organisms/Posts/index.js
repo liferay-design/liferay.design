@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Flex } from 'components/atoms'
+import { Flex, Heading } from 'components/atoms'
 import { Post } from 'components/molecules'
 import styles from './styles.module.scss'
 import postFeed from './post_feed'
