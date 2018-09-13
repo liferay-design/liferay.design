@@ -4,6 +4,7 @@ import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
 import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
+import Img from 'gatsby-image'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -17,51 +18,36 @@ export default class Team extends Component {
 
 	render() {
 		const post = this.props.data.markdownRemark
-		const markdown = this.props.data.allMarkdownRemark
 
-		return (
-			<div>
+		return <div>
 				<Navbar section="Team" />
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						<h1>{post.frontmatter.title}</h1>
 						<h2>{post.frontmatter.description}</h2>
-						<div 						
-						dangerouslySetInnerHTML={{
-							__html: post.html,
-						}}
-						/>
+						<div>{post.frontmatter.featuredImage}</div>
+						<a href={post.frontmatter.twitterUrl}>tweet</a>
+						<a href={post.frontmatter.instagramUrl}>insta</a>
+						{/* <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} /> */}
+						<div dangerouslySetInnerHTML={{ __html: post.html }} />
 					</Flex>
 				</div>
 				<Footer light />
-			</div>				
-		)
+			</div>
 	}
 }
 
 export const query = graphql`
-	query($slug: String!) {
-		allMarkdownRemark(filter: { fields: { slug: { regex: "/team/" } } }) {
-			totalCount
-			edges {
-				node {
-					id
+			query($slug: String!) {
+				markdownRemark(fields: { slug: { eq: $slug } }) {
+					html
 					frontmatter {
 						title
-					}
-					fields {
-						slug
+						description
+						featuredImage
+						twitterUrl
+						instagramUrl
 					}
 				}
 			}
-		}
-
-		markdownRemark(fields: { slug: { eq: $slug } }) {
-			html
-			frontmatter {
-				title
-				description
-			}
-		}
-	}
-`
+		`
