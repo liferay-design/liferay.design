@@ -6,11 +6,16 @@ The online presence of Liferay's Design Teams!
 
 Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [WeDeploy](https://wedeploy.com).
 
+<br />
+<br />
+
 ## 👾 Getting started
 
 ### If you don't have a dev environment
 
 Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
+
+<br />
 
 ### Quick Start
 
@@ -32,11 +37,10 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 1. Open up your [favorite browser](https://opera.com), type `localhost:7777` into the nav bar, and watch your work magically appear!
 
-1. **Pushing work to the upstream dev branch will automagically build the site**
+1. See the [Contributing Guidelines](#contributing-to-this-site) for what to do after you make some improvements!
 
-1. Once build is complete visit [the dev site to see it](https://site-liferaydotdesign-dev.wedeploy.io).
-
-    If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
+<br />
+<br />
 
 ## ⛩ Structure
 
@@ -94,6 +98,9 @@ This is where we store all the... you guessed it, images! There's probably a bet
 
 ---
 
+<br />
+<br />
+
 ## 💁 What do all these files do?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
@@ -145,6 +152,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
     Amazing.
 
+<br />
+<br />
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://next.gatsbyjs.org/). Here are some places to start:
@@ -153,6 +163,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 -   **To dive straight into code samples head [to our documentation](https://next.gatsbyjs.org/docs/).** In particular, check out the “Guides”, API reference, and “Advanced Tutorials” sections in the sidebar.
 
+<br />
+<br />
+
 ## Starting Phresh
 
 This is written for people who generally try to avoid the terminal &mdash; it can be scary, but Liferay.Design is a lot like Zelda (you don't have to go alone 🥁)!
@@ -160,6 +173,9 @@ This is written for people who generally try to avoid the terminal &mdash; it ca
 Any of the [designers here](https://github.com/orgs/liferay-design/people) can help you, or at least point you to someone who can.
 
 Set aside about 45 &mdash; 60 min to get set up.
+
+<br />
+<br />
 
 ### Step 1: Create a Github Account _(3 min)_
 
@@ -193,11 +209,14 @@ Set aside about 45 &mdash; 60 min to get set up.
     1. Type `mkdir github` and hit Enter &mdash; now look at your Finder, you should now see a new folder labeled 'github' in your Home directory (`~/`)
     1. Type `cd github` and hit Enter &mdash; you've now navigated to the github folder in your Terminal!
     - \_Note that this is our suggested method for organizing your repos, feel free to organize differently.
-1. Now that your Terminal is open to your github folder, it's time to clone the repo! ![location of clone button](https://raw.githubusercontent.com/liferay-design/liferay.design/tree/dev/static/images/documentation/clone-repo.png@2x)
+1. Now that your Terminal is open to your github folder, it's time to clone the repo! ![location of clone button](https://github.com/liferay-design/liferay.design/blob/dev/static/images/documentation/clone-repo.png@2x.png?raw=true)
 1. Copy the url to your clipboard (there's a handy little button 📋)
 1. Type `git clone`, paste the repo url and hit Enter &mdash; cloning should take about 10 seconds.
 1. Now you need to navigate to the folder &mdash; type `cd life` and hit Tab, it should autocomplete to `liferay.design` &mdash; if it does, hit enter, if not, finish typing it out
 1. Take your fingers off the keyboard, and give yourself a hand, you're now ready to [begin development](#quick-start)!
+
+<br />
+<br />
 
 ## Contributing to this site
 
@@ -206,3 +225,11 @@ We definitely appreciate contributions in any form &mdash; QA, [submitting issue
 If you're part of the Liferay team in Figma, there's a Liferay.Design project &mdash; you can see where we're at and contribute comments, designs, etc there.
 
 If you'd like to help manage deployments, please request to join our WeDeploy team!
+
+### Notes
+
+1. **Pushing work to the upstream dev branch will automagically build the site**
+
+1. Once build is complete visit [the dev site to see it](https://site-liferaydotdesign-dev.wedeploy.io).
+
+    If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).

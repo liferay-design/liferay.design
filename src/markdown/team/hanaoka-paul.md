@@ -1,12 +1,8 @@
 ---
 title: 'Paul Hanaoka'
 description: 'UX Design Manager'
-featuredImage: 'hello-world'
-twitterUrl: 'https://twitter.com/plhnk'
-instagramUrl: ''
+featuredImage: '/images/headshots/hanaoka-paul-h.jpg'
 ---
-
-<img src="/images/headshots/hanaoka-paul-h.jpg" />
 
 ### Favorite tool?
 

@@ -1,7 +1,7 @@
 ---
 title: 'Abel Hancock'
 description: 'Associate UX Designer'
-featuredImage: './hancock_abel.jpg'
+featuredImage: '/images/headshots/hancock-abel-h.jpg'
 ---
 
 Donec risus ligula, congue nec malesuada non, consectetur quis odio. Nullam ut vulputate elit. Vestibulum ante massa, aliquam ac scelerisque at, rhoncus ac libero. Nulla ultrices auctor hendrerit. Etiam auctor, odio ac mattis dictum, diam turpis molestie erat, sit amet posuere arcu augue sit amet mi. Cras malesuada nunc eget nisl viverra porttitor.
