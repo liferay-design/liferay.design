@@ -33,7 +33,6 @@ Icon.propTypes = {
 }
 
 Icon.defaultProps = {
-	fill: 'black',
 	padding: '4px',
 }
 

@@ -1,5 +1,28 @@
 @import '~theme/variables';
 
+// Light footer i.e. white backgound
+footer.light {
+	background-color: $white;
+	color: $black;
+	svg {
+		fill: $black;
+	}
+	span {
+		color: $darkGrey;
+	}
+	a {
+		color: $darkestGrey;
+	}
+}
+
+// Dark footer i.e. dark background
+footer.dark {
+	color: $white;
+	svg {
+		fill: $white;
+	}
+}
+
 .mediaWrapper {
 	margin-top: -17vh;
 	height: 80vh;
@@ -28,37 +51,6 @@
 	}
 }
 
-.mediaText {
-	position: absolute;
-	padding: 7vh 6vh 10vh;
-	top: 27vh;
-	right: 0;
-	background: $white;
-	width: 40%;
-
-	a {
-		color: $black;
-		text-decoration: none;
-	}
-
-	@media screen and (max-width: $screenSmall) {
-		padding: 2rem 2rem 4rem;
-		top: 50vh;
-		left: 1rem;
-		right: initial;
-		width: calc(100vw - 1rem);
-	}
-}
-
-.whiteSeparator {
-	background: $white;
-	height: 30vh;
-	width: 100%;
-	@media screen and (max-width: $screenSmall) {
-		height: 15vh;
-	}
-}
-
 .textContainer {
 	padding-bottom: 10vh;
 }
@@ -78,26 +70,15 @@
 }
 
 .social a {
-	opacity: 0.7;
-	position: relative;
+	transform: translateY(0) scale(0.95);
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-	&::after {
-		background: $black;
-		bottom: 0;
-		content: '';
-		left: 0;
-		position: absolute;
-		height: 1px;
-		transition: transform 0.4s ease;
-		transform: scaleX(0);
-		width: 100%;
-	}
 	&:hover {
-		opacity: 1;
-	}
-	&:hover::after {
-		transition: transform 0.2s ease;
-		transform: scaleX(1);
+		transform: translateY(-0.4rem) scale(1);
+		transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		svg {
+			fill: $primary;
+		}
 	}
 }
 
@@ -111,25 +92,4 @@
 	font-weight: $fontWeightLight;
 	color: $lightGrey;
 	padding-bottom: 1rem;
-}
-
-.tweetIcon {
-	align-self: flex-end;
-	margin-right: 2vh;
-}
-
-span.tweetCTA {
-	font-size: $fontSizeXLarge !important;
-	@media screen and (max-width: $screenSmall) {
-		font-size: $fontSizeMedium !important;
-	}
-}
-
-.tweetHashtag a {
-	font-size: $fontSizeXXLarge;
-	color: inherit;
-	font-weight: $fontWeightBlack;
-	@media screen and (max-width: $screenSmall) {
-		font-size: $fontSizeXLarge !important;
-	}
 }

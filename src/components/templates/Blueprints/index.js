@@ -4,7 +4,6 @@ import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
 import { Sidebar, Footer, Navbar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
-import { Liferay } from 'components/themes'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -41,25 +40,26 @@ export default class Blueprints extends Component {
 		const sidebarTree = this.buildSidebarTree(markdown)
 
 		return (
-			<PrivatePage
+			<PrivatePage 
 				message="You must be a Liferay Employee to view this page"
 				section="Blueprints"
 			>
-				<Liferay />
-				<Navbar section="Blueprints" />
-				<Sidebar path={this.props.location.pathname} tree={sidebarTree}/>
-					<div className={styles.markdownContainer}>
-						<h1>{post.frontmatter.title}</h1>
+				<div className={styles.sans}>
+					<Navbar section="Blueprints" />
+					<Sidebar path={this.props.location.pathname} tree={sidebarTree}/>
+						<div className={styles.markdownContainer}>
+							<h1>{post.frontmatter.title}</h1>
 
-						<h2>Blueprints</h2>
+							<h2>Blueprints</h2>
 
-						<div
-							dangerouslySetInnerHTML={{
-								__html: post.html,
-							}}
-						/>
-					</div>
-				<Footer />
+							<div
+								dangerouslySetInnerHTML={{
+									__html: post.html,
+								}}
+							/>
+						</div>
+					<Footer light />
+				</div>	
 			</PrivatePage>
 		)
 	}

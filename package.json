@@ -15,7 +15,6 @@
 		"react-sidebar": "^3.0.2",
 		"react-svg": "^5.0.22",
 		"reakit": "^0.14.5",
-		"styled-components": "^4.0.0-beta.3",
 		"wedeploy": "^4.5.0"
 	},
 	"devDependencies": {

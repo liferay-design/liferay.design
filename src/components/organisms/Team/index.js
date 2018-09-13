@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Flex, Heading, Text } from 'components/atoms'
+import { Flex, Heading } from 'components/atoms'
 import { Person } from 'components/molecules'
 import styles from './styles.module.scss'
 import teamMembers from './team_members'
