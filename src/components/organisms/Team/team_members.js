@@ -231,6 +231,15 @@ const teamMembers = [
 		icon: 'fa fa-chess-queen',
 		page: '/team/yuan-rachel',
 	},
+	{
+		id: 32,
+		name: 'James Lyons',
+		imageUrl: withPrefix(`${imageDir}/-upside-down-face.png`),
+		imageHoverUrl: withPrefix(`${imageDir}/-thinking-face.png`),
+		title: 'UX Designer',
+		icon: 'fa fa-drum',
+		page: '/team/lyons-james',
+	},
 ]
 
 export default teamMembers
