@@ -2,6 +2,7 @@
 author: 'Paul'
 date: '2017-07-12T17:12:33.962Z'
 title: 'R2 is the Meaning in My Life'
+featuredImage: 'null'
 description: 'Hello World'
 ---
 

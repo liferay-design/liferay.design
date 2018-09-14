@@ -1,27 +1,12 @@
 @import '~theme/variables';
 
 .postFeed {
-	background: $black;
-	max-width: 1560px;
+	max-width: 80rem;
+	padding: 3rem 1rem 3rem;
 	margin: 0 auto;
-	padding: 3rem 4rem;
-	h1 {
-		padding-left: 2rem;
-	}
 }
 
 .postDirection {
 	flex-direction: row-reverse !important;
 	flex-wrap: wrap-reverse !important;
-}
-@media screen and (max-width: 1248px) {
-	.postFeed {
-		padding: 20vh 3rem;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.postFeed {
-		padding: 20vh 0;
-	}
 }
