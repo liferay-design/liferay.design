@@ -1,5 +1,44 @@
 @import 'theme/variables.scss';
 
+.banner {
+	padding-top: $spacingLarge;
+	height: 72vh;
+	max-height: $screenMedium;
+	h1 {
+		width: 200px;
+		font-size: $fontSizeDisplay;
+		line-height: 0.9;
+		color: $white;
+		z-index: 2;
+		font-weight: $fontWeightHeavy;
+		box-shadow: $elevation1;
+	}
+	.role {
+		width: 200px;
+		order: 3;
+		h2 {
+			transform: translateX(-$spacingLarge) rotate(-90deg);
+			font-weight: $fontWeightHeavy;
+			font-size: $fontSizeXSmall;
+			text-transform: uppercase;
+			color: $grey;
+			letter-spacing: 0.5ch;
+			width: 60ch;
+			text-align: center;
+		}
+	}
+	img {
+		height: 80vh;
+		max-height: $screenMedium;
+		font-size: $fontSizeMedium;
+		font-family: $fontFamilySecondary;
+		width: 70vh;
+		max-width: 68ch;
+		z-index: 1;
+		box-shadow: $elevation2;
+	}
+}
+
 .markdownContainer {
 	margin-bottom: auto;
 	padding: 6rem 3rem;
@@ -8,8 +47,8 @@
 }
 
 .wrapper {
-	max-width: 77ch;
-	margin: 0 auto;
+	max-width: 68ch;
+	margin: $spacingLarge auto 0;
 
 	img {
 		height: 300px;
@@ -29,10 +68,10 @@
 	}
 
 	h3 {
-		margin-top: 6rem;
+		margin-top: $spacingMedium * 2;
 		// font-size: $fontSizeXLarge;
 		&:first-child {
-			margin-top: 1rem;
+			margin-top: $spacingSmall;
 		}
 	}
 }

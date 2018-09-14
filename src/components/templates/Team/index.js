@@ -22,11 +22,11 @@ export default class Team extends Component {
 		return <div>
 				<Navbar section="Team" />
 
-				<div className={styles.banner}>
+				<Flex justify="center" align="center" className={styles.banner}>
 					<h1>{post.frontmatter.title}</h1>
-					<h2>{post.frontmatter.description}</h2>
+					<div className={styles.role}><h2>{post.frontmatter.description}</h2></div>
 					<img src={withPrefix(post.frontmatter.featuredImage)} />
-				</div>
+				</Flex>
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						<div dangerouslySetInnerHTML={{ __html: post.html }} />
