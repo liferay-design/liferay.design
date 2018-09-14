@@ -73,7 +73,7 @@ const postFeed = [
 	},
 	{
 		id: 6,
-		title: 'About Bridges, Software, and Failures.',
+		title: 'About Bridges, Software, and Failures',
 		preview: 'Published on Medium by Juan\xa0Hidalgo',
 		thumbnailUrl: withPrefix(`${imageDir}/about-bridges.jpeg`),
 		heroUrl: withPrefix(`${imageDir}/about-bridges.jpeg`),
