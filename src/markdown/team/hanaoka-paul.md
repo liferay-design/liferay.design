@@ -28,7 +28,9 @@ I'm pretty sloppy developer, I always need to go back and rename stuff or change
 
 ### Advice for ambitious designers?
 
-Don't say no to anything, take on challenges and things that will make you uncomfortable. Invest time in craft.
+Invest time in craft, [commit to doing things right](https://thenextweb.com/apple/2011/10/24/steve-jobs-obsession-with-the-quality-of-the-things-unseen/).
+
+Don't say no to anything, take on challenges and things that will make you uncomfortable.
 
 Don't make excuses &mdash; everybody is busy, people make time for what is important to them.
 
