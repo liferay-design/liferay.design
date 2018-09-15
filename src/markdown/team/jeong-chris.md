@@ -6,49 +6,37 @@ featuredImage: '/images/headshots/jeong-chris.jpg'
 
 ### Favorite tool?
 
-Figma &mdash; and my 8' level.
+I love using Figma to collaborate and share with others! It's a really good tool for creating high fidelity mock ups and keeping all your files organized. Also, I know I will get flames for this, but I really love using Axure. In 2018, there is still no prototyping tool that comes close to their functions.
 
 ### Best lifehack?
 
-Go to bed before 11, wake up before 6.
+Learned from a TEDtalk that 99% of us are probably tying our shoes the wrong way. After the initial loop, swing the swoop the other way (counter clockwise) for a stronger knot. I'm serious about this one, try it on your rounded laces too) 
+
+Oh and a second one... Stir fry your cauliflower rice with egg and soy sauce. 
 
 ### If you weren't designing, what would you be doing?
 
-When I was younger, I wanted to be an architect &mdash; but now if I wasn't a designer, I'd probably want to build custom homes.
+Most likely, would have went back to school for my MBA and went the business route. 
 
 ### Favorite place to visit?
 
-Copenhagen, Denmark &mdash; it's such a happy, bikeable city. In the summer it's not too hot and there's tons of great coffee, food, and thrift stores.
+I love to travel and all, but seriously nothing beats the smell of early morning grass on the golf course. 
 
 ### Favorite hotkey?
 
-`⇧⌘L` &mdash; Select all occurrences of current selection
-
-I'm pretty sloppy developer, I always need to go back and rename stuff or change lots of things, so this is super helpful.
+Depending what im using, CMND Space, CMND 3, CMND ' 
 
 ### Advice for ambitious designers?
 
-Invest time in craft, [commit to doing things right](https://thenextweb.com/apple/2011/10/24/steve-jobs-obsession-with-the-quality-of-the-things-unseen/).
-
-Don't say no to anything, take on challenges and things that will make you uncomfortable.
-
-Don't make excuses &mdash; everybody is busy, people make time for what is important to them.
+Since designers are expected to answer on behalf of the user, sometimes we fall in to this trap where we feel like our opinion is that of the user. Learn to be comfortable with not having an answer, but always stay curious. This means talking to people... so if  you're not good at that, figure out a way to get better.
 
 ### Last book you read?
 
-[The Service Innovation Handbook](https://serviceinnovationhandbook.org/) &mdash; some of my teammates gave this to me for my birthday, I really love it.
+Inspired by Marty Cagan 
 
 ### Most effective productivity booster?
 
-Delete Facebook and Instagram from all your devices.
-
-Highly recommend this &mdash; I did it a few years ago, and it's been great.
+I like to do my mental "heavy lifting" like interaction, logic, competitve research in the AM, and the click, click, drag stuff in the afternoon. 
 
 ### What keeps you up at night?
-
-The future.
-
-JK &mdash; generally thinking about all the things I didn't accomplish during the day, week, month.
-
-My 2-year old when he's sick.
 
