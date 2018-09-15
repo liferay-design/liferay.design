@@ -1,8 +1,7 @@
-import { Heading } from 'components/atoms'
 import React from 'react'
 import styles from './styles.module.scss'
-import { Avatar, Card, CardTitle, CardText, Media, FontIcon } from 'react-md'
-import { withPrefix, Link } from 'gatsby'
+import { Avatar, Card, CardTitle, CardText, Media } from 'react-md'
+import { Link } from 'gatsby'
 
 class Post extends React.Component {
 	constructor(props) {
