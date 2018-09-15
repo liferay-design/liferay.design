@@ -7,27 +7,30 @@ class HeroPost extends React.Component {
 		super(props)
 
 		this.state = {
+			postLink: props.post.link,
 			heroUrl: props.post.heroUrl,
+			heroTitle: props.post.title,
 			detailImageUrl: props.post.detailImageUrl,
+			heroCategory: props.post.category,
 		}
 	}
 
 	render() {
 		return (
-			<a className={styles.linkContainer} href={this.props.post.link} target="new">
+			<a className={styles.linkContainer} href={this.state.postLink} target="new">
 				<figure className={styles.postContainer}>
 					<div className={styles.imgOverlay}>
 						<img className={styles.postHero} src={this.state.heroUrl} />
 					</div>
 
 					<div className={styles.postData}>
-						<Heading level={1}>{this.props.post.title}</Heading>
+						<Heading level={1}>{this.state.heroTitle}</Heading>
 
 						<img
 							className={styles.headshot}
 							src={this.state.detailImageUrl}
 						/>
-						<figcaption>{this.props.post.category}</figcaption>
+						<figcaption>{this.state.heroCategory}</figcaption>
 					</div>
 				</figure>
 			</a>
