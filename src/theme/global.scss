@@ -27,6 +27,14 @@ body {
 	font-family: $fontFamilyPrimary;
 	margin: 0;
 	// overflow-x: hidden;
+	::selection {
+	  background: #05F;
+	  color: #fff;
+	}
+	::-moz-selection {
+	  background: #05F;
+	  color: #fff;
+	}	
 }
 
 a {
