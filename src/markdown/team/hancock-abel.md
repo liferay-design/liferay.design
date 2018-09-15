@@ -4,10 +4,6 @@ description: 'Associate UX Designer'
 featuredImage: '/images/headshots/hancock-abel-h.jpg'
 ---
 
-#### How did you get into design?
-
-You don't "get into design". Design gets into your being and you can't help but find a way to practice it.
-
 
 #### Favorite tool? 🛠
 
