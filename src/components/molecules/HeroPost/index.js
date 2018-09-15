@@ -1,40 +1,23 @@
 import { Heading } from 'components/atoms'
 import React from 'react'
 import styles from './styles.module.scss'
+import { Flex } from 'components/atoms'
+import { Link } from 'gatsby'
 
 class HeroPost extends React.Component {
-	constructor(props) {
-		super(props)
-
-		this.state = {
-			postLink: props.post.link,
-			heroUrl: props.post.heroUrl,
-			heroTitle: props.post.title,
-			detailImageUrl: props.post.detailImageUrl,
-			heroCategory: props.post.category,
-		}
-	}
 
 	render() {
-		return (
-			<a className={styles.linkContainer} href={this.state.postLink} target="new">
-				<figure className={styles.postContainer}>
-					<div className={styles.imgOverlay}>
-						<img className={styles.postHero} src={this.state.heroUrl} />
-					</div>
-
+		return <Link to={this.props.post.link} target="new">
+				<Flex justify="center" align="center" className={styles.banner}>
+					<Heading color="white" level={1}>{this.props.post.title}
+					<img className={styles.headshot} src={this.props.post.detailImageUrl} />
+					</Heading>
+					<img className={styles.postHero} src={this.props.post.heroUrl} />
 					<div className={styles.postData}>
-						<Heading level={1}>{this.state.heroTitle}</Heading>
-
-						<img
-							className={styles.headshot}
-							src={this.state.detailImageUrl}
-						/>
-						<figcaption>{this.state.heroCategory}</figcaption>
+						<figcaption>{this.props.post.category}</figcaption>
 					</div>
-				</figure>
-			</a>
-		)
+				</Flex>
+			</Link>
 	}
 }
 
