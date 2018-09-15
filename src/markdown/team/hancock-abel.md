@@ -25,11 +25,6 @@ Don't buy stuff.
 I love stuff and I have lots of stuff. But [they say](https://www.google.com/search?q=spend+money+on+experiences+not+things+research) that at the end of your life you will wish you had spent your time and money on experiences instead of stuff. For me, it's not always huge, dramatic experiences. It's little things fun things every week that I decide to spend money on without feeling guilty. I didn't come up with this philosophy but I definitely try to live by it. Keep a balanced perspective on what is important and how short life is.
 
 
-#### Where do you find #inspiration?
-
-I think a huge part of finding inspiration is keeping an open and curious mind. I get inspiration from so many places. Usually when I'm not even looking for it. 
-
-
 #### If you weren't designing, what would you be doing? 🎶
 
 Definitely writing & playing music! Currently I am working on music for a film and I hope to get to the point where I can do that full time. Then design on the side, along with woodworking/building.
