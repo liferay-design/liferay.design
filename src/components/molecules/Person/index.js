@@ -1,10 +1,10 @@
 import { withPrefix, Link } from 'gatsby'
-import React from 'react'
+import React, { Children } from 'react'
 import styles from './styles.module.scss'
 import { Avatar, Card, CardTitle, CardText, Media, FontIcon } from 'react-md'
 
 class Person extends React.Component {
-	
+
 	constructor(props) {
 		super(props)
 
@@ -29,7 +29,7 @@ class Person extends React.Component {
 					onMouseLeave={this.onPersonMouseLeave.bind(this)}
 					className={styles.card}
 				>
-					<Media aspectRatio="4-3" className={styles.image}><img src={withPrefix(this.state.imageUrl)} /></Media>
+					<Media aspectRatio="4-3" className={styles[this.props.person.page]}><img src={withPrefix(this.state.imageUrl)} /></Media>
 					<Avatar className={styles.avatar} icon={<FontIcon iconClassName={this.props.person.icon} />} />
 					<div className={styles.copy}>
 						<CardTitle className={styles.title} title={this.props.person.name}/>

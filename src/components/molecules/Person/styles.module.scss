@@ -1,12 +1,12 @@
 @import '~theme/variables';
 
 .card-link {
-	padding: ($spacingXSmall+$spacingBase) 0;
+	padding: ($spacingXSmall + $spacingBase) 0;
 	flex: 0 1 calc(33.33% - 4rem);
 	min-width: 23rem;
 	width: 33%;
 	display: flex;
-    align-items: stretch;
+	align-items: stretch;
 }
 
 .card {
@@ -21,7 +21,6 @@
 		transition: all 0.2s ease-in-out;
 		box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.5);
 		background: $darkestGrey;
-		
 	}
 	.avatar {
 		border: none;
@@ -30,7 +29,13 @@
 		height: $spacingBase * 2;
 		width: $spacingBase * 2;
 		position: absolute;
-	}	
+	}
+
+	.null {
+		img {
+			filter: grayscale(1);
+		}
+	}
 	.copy {
 		padding: ($spacingBase + $spacingXSmall) $spacingBase $spacingMedium;
 		.title {
