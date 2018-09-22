@@ -7,13 +7,11 @@ import postFeed from './post_feed'
 class Posts extends Component {
 	render() {
 		return (
-			<div className={styles.postFeed} id="posts">
-				<Flex justify="space-between" flexWrap="wrap" className={styles.postDirection}>
-					{postFeed.map(post => {
-						return <Post key={post.id} post={post} />
-					})}
-				</Flex>
-			</div>
+			<Flex justify="space-between" flexWrap="wrap" className={styles.postDirection}>
+				{postFeed.map(post => {
+					return <Post key={post.id} post={post} />
+				})}
+			</Flex>
 		)
 	}
 }
