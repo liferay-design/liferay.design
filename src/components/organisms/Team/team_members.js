@@ -25,7 +25,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 3,
+		id: 2,
 		name: 'Julia Chan',
 		imageUrl: withPrefix(`${imageDir}/chan-julia.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/chan-julia-h.jpg`),
@@ -34,7 +34,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 5,
+		id: 3,
 		name: 'Emiliano Cicero',
 		imageUrl: withPrefix(`${imageDir}/cicero-emiliano.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/cicero-emiliano-h.jpg`),
@@ -43,16 +43,16 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 6,
+		id: 4,
 		name: 'Ryan Connolly',
 		imageUrl: withPrefix(`${imageDir}/connolly-ryan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/connolly-ryan-h.jpg`),
 		title: 'UX Design Manager',
 		icon: 'fa fa-pen',
-		page: 'null',
+		page: '/team/connolly-ryan',
 	},
 	{
-		id: 7,
+		id: 5,
 		name: 'Jadson Dantas',
 		imageUrl: withPrefix(`${imageDir}/dantas-jadson.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/dantas-jadson-h.jpg`),
@@ -61,7 +61,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 8,
+		id: 6,
 		name: 'Vitor Fernandes',
 		imageUrl: withPrefix(`${imageDir}/fernandes-vitor.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/fernandes-vitor-h.jpg`),
@@ -70,7 +70,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 9,
+		id: 7,
 		name: 'Rafael Fernandes',
 		imageUrl: withPrefix(`${imageDir}/fernandes-rafael.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/fernandes-rafael-h.jpg`),
@@ -79,7 +79,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 10,
+		id: 8,
 		name: 'Markus Hammer',
 		imageUrl: withPrefix(`${imageDir}/hammer-markus.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hammer-markus-h.jpg`),
@@ -88,7 +88,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 11,
+		id: 9,
 		name: 'Paul Hanaoka',
 		imageUrl: withPrefix(`${imageDir}/hanaoka-paul.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hanaoka-paul-h.jpg`),
@@ -97,7 +97,7 @@ const teamMembers = [
 		page: '/team/hanaoka-paul',
 	},
 	{
-		id: 12,
+		id: 10,
 		name: 'Abel Hancock',
 		imageUrl: withPrefix(`${imageDir}/hancock-abel.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hancock-abel-h.jpg`),
@@ -106,7 +106,7 @@ const teamMembers = [
 		page: '/team/hancock-abel',
 	},
 	{
-		id: 13,
+		id: 11,
 		name: 'Juan Hidalgo',
 		imageUrl: withPrefix(`${imageDir}/hidalgo-juan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hidalgo-juan-h.jpg`),
@@ -115,7 +115,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 14,
+		id: 12,
 		name: 'Naoki Hisamoto',
 		imageUrl: withPrefix(`${imageDir}/hisamoto-naoki.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hisamoto-naoki-h.jpg`),
@@ -124,7 +124,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 15,
+		id: 13,
 		name: 'Bryan Ho',
 		imageUrl: withPrefix(`${imageDir}/ho-bryan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/ho-bryan-h.jpg`),
@@ -133,13 +133,22 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 16,
+		id: 14,
 		name: 'Chris Jeong',
 		imageUrl: withPrefix(`${imageDir}/jeong-chris.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/jeong-chris-h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa fa-glasses',
 		page: '/team/jeong-chris',
+	},
+	{
+		id: 15,
+		name: 'David Kim',
+		imageUrl: withPrefix(`${imageDir}/-sunglasses.png`),
+		imageHoverUrl: withPrefix(`${imageDir}/hancock-abel-h.jpg`),
+		title: 'UX Designer',
+		icon: 'fa fa-pastafarianism',
+		page: '/team/kim-david',
 	},
 	{
 		id: 17,
@@ -149,6 +158,15 @@ const teamMembers = [
 		title: 'Graphic Designer',
 		icon: 'fa fa-pen-nib',
 		page: 'null',
+	},
+	{
+		id: 18,
+		name: 'James Lyons',
+		imageUrl: withPrefix(`${imageDir}/-upside-down-face.png`),
+		imageHoverUrl: withPrefix(`${imageDir}/-thinking-face.png`),
+		title: 'UX Designer',
+		icon: 'fa fa-drum',
+		page: '/team/lyons-james',
 	},
 	{
 		id: 19,
@@ -230,24 +248,6 @@ const teamMembers = [
 		title: 'Senior Graphic Designer',
 		icon: 'fa fa-chess-queen',
 		page: 'null',
-	},
-	{
-		id: 32,
-		name: 'James Lyons',
-		imageUrl: withPrefix(`${imageDir}/-upside-down-face.png`),
-		imageHoverUrl: withPrefix(`${imageDir}/-thinking-face.png`),
-		title: 'UX Designer',
-		icon: 'fa fa-drum',
-		page: '/team/lyons-james',
-	},
-	{
-		id: 33,
-		name: 'David Kim',
-		imageUrl: withPrefix(`${imageDir}/-sunglasses.png`),
-		imageHoverUrl: withPrefix(`${imageDir}/hancock-abel-h.jpg`),
-		title: 'UX Designer',
-		icon: 'fa fa-pastafarianism',
-		page: '/team/kim-david',
 	},
 ]
 
