@@ -11,17 +11,11 @@ class Team extends Component {
 
 	render() {
 		return (
-			<div className={styles.teamContainer} id="team">
-				<Heading level={1} color="white">
-					The Squad
-				</Heading>
-
-				<Flex className={styles.wrapper} justify="space-between" flexWrap="wrap">
-					{this.state.teamMembers.map(person => (
-						<Person key={person.id} person={person} />
-					))}
-				</Flex>
-			</div>
+			<Flex className={styles.wrapper} justify="space-between" flexWrap="wrap">
+				{this.state.teamMembers.map(person => (
+					<Person key={person.id} person={person} />
+				))}
+			</Flex>
 		)
 	}
 }
