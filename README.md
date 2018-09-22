@@ -222,6 +222,6 @@ Set aside about 45 &mdash; 60 min to get set up.
 
 1. **Pushing work to the upstream dev branch will automagically build the site**
 
-1. Once build is complete visit [the dev site to see it](https://site-liferaydotdesign-dev.wedeploy.io).
+1. Once build is complete visit [the dev site to see it](https://dev.liferay.design).
 
     If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
