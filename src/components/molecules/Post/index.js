@@ -14,7 +14,7 @@ class Post extends React.Component {
 	}
 
 	render() {
-		return <Link className={styles.cardLink} to={this.props.post.link} target="new">
+		return <Link className={styles.externalLink} to={this.props.post.link} target="new">
 				<Card className={styles.card}>
 					<Media aspectRatio="4-3" className={styles.image}>
 						<img src={this.state.thumbnailUrl} />
