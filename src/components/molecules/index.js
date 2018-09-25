@@ -7,5 +7,6 @@ import Person from './Person'
 import SiteName from './SiteName'
 import NavItems from './NavItems'
 import LexiconCard from './LexiconCard'
+import Billboard from './Billboard'
 
-export { Accordion, FeaturedPost, HeroPost, Person, Post, LexiconCard, LogoutContainer, SiteName, NavItems }
+export { Accordion, FeaturedPost, HeroPost, Person, Post, LexiconCard, LogoutContainer, SiteName, NavItems, Billboard }
