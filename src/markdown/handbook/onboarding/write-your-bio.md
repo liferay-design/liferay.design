@@ -9,6 +9,8 @@ Some questions to kickstart [your bio page](/team) on liferay.design
 
 ### Instructions
 
+If you're not familiar with the [contributing guidelines](https://github.com/liferay-design/liferay.design/blob/dev/CONTRIBUTING.md#how-to), please review them.
+
 1. From the dev branch of your fork of liferay.design, create a new .md file in [/src/markdown/team](https://github.com/liferay-design/liferay.design/tree/dev/src/markdown/team)
 
 1. Answer a few of the questions in this doc, then [submit a pull request](https://github.com/liferay-design/liferay.design/pulls)!
