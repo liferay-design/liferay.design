@@ -4,13 +4,19 @@ import { Heading, Text, Icon, Flex } from 'components/atoms'
 import { Billboard } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import styles from './styles.module.scss'
-import { Grid, Cell, Card, CardTitle, CardText, } from 'react-md'
-import { Button, styled } from 'reakit'
+import { Card, CardTitle, CardText, } from 'react-md'
+import { Grid, Button, styled } from 'reakit'
 
 const WideCard = styled(Card) `
 	display: flex;
 	text-align: left !important;
 `
+
+const cardGrid = `
+	"tlg tlc trc rg" auto
+	"lg m m rg" auto
+	"lg blc brc brg" auto / 3rem 5fr 5fr 3rem
+`;
 
 const Blueprints = () => (
 		<div className={styles.sans}>
@@ -24,11 +30,11 @@ const Blueprints = () => (
 			</Flex>
 			<div className={styles.background}>
 				<div className={styles.container}>
-					<Grid className={styles.teasers}>
-						<Cell size={1}>
+					<Grid className={styles.teasers} gap="2rem" template={cardGrid} >
+						<Grid.Item area="tlg">
 							<Text color="#c4cacb" weight="700" size="12px" type="p" className={styles.vertical}>Explore Blueprints</Text>
-						</Cell>
-						<Cell size={5}>
+						</Grid.Item>
+						<Grid.Item area="tlc">
 							<Link className={styles.cardLink} to="/blueprints/about">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="why-blueprints" />
@@ -37,8 +43,8 @@ const Blueprints = () => (
 									<CardText className={styles.arrow}><Icon padding=".5em .75em .25em" name="chevron-right"/>Read More</CardText>
 								</Card>
 							</Link>
-						</Cell>
-						<Cell size={5}>
+						</Grid.Item>
+						<Grid.Item area="trc">
 						<Link className={styles.cardLink} to="/blueprints/resources/logo-files">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="logos" />
@@ -47,10 +53,8 @@ const Blueprints = () => (
 									<CardText className={styles.arrow}><Icon padding=".5em .75em .25em" name="chevron-right"/>Waffle Time</CardText>
 								</Card>
 							</Link>
-						</Cell>
-					</Grid>
-					<Grid>
-						<Cell offset={1} size={10}>
+						</Grid.Item>
+						<Grid.Item area="m">
 							<Link className={styles.cardLink} to="/blueprints/resources">
 								<WideCard className={styles.card}>
 									<Icon padding="3.5rem 6.25rem .5rem" name="resources" />
@@ -61,10 +65,8 @@ const Blueprints = () => (
 									</Flex>
 								</WideCard>
 							</Link>
-						</Cell>
-					</Grid>
-					<Grid>
-						<Cell offset={1} size={5}>
+						</Grid.Item>
+						<Grid.Item area="blc">
 							<Link className={styles.cardLink} to="/blueprints/faqs">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="faqs" />
@@ -73,8 +75,8 @@ const Blueprints = () => (
 									<CardText className={styles.arrow}><Icon padding=".5em .75em .25em" name="chevron-right"/>Why is the Liferay Blue</CardText>
 								</Card>
 							</Link>
-						</Cell>
-						<Cell size={5}>
+						</Grid.Item>
+						<Grid.Item area="brc">
 							<Link className={styles.cardLink} to="/team">
 								<Card className={styles.card}>
 									<Icon padding="2.5rem 0 .5rem" name="liferay-design" />
@@ -83,12 +85,12 @@ const Blueprints = () => (
 									<CardText className={styles.arrow}><Icon padding=".5em .75em .25em" name="chevron-right"/>Experience Liferay.Design</CardText>
 								</Card>
 							</Link>
-						</Cell>
-						<Cell size={1}>
+						</Grid.Item>
+						<Grid.Item area="brg">
 							<Link className={styles.social} to="https://github.com/liferay-design"><Icon fill="white" name="github" /></Link>
 							<Link className={styles.social} to="https://dribbble.com/liferay"><Icon fill="white" name="dribbble" /></Link>
 							<Link className={styles.social} to="https://twitter.com/liferaydesign"><Icon fill="white" name="twitter" /></Link>
-						</Cell>
+						</Grid.Item>
 					</Grid>
 				</div>
 			</div>
