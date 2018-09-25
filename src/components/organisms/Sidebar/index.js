@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Drawer, Menu, ListItem } from 'react-md'
+import { ListItem } from 'react-md'
 import { Accordion } from 'components/molecules'
-import { Navbar } from 'components/organisms'
 import { map } from 'lodash'
 import { Link } from 'gatsby'
 
