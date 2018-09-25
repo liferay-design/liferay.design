@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import { Avatar, Card, CardTitle, CardText, Media } from 'react-md'
-import { Link } from 'gatsby'
 
 class Post extends React.Component {
 	constructor(props) {
@@ -14,7 +13,7 @@ class Post extends React.Component {
 	}
 
 	render() {
-		return <Link className={styles.externalLink} to={this.props.post.link} target="new">
+		return <a className={styles.externalLink} href={this.props.post.link} target="new">
 				<Card className={styles.card}>
 					<Media aspectRatio="4-3" className={styles.image}>
 						<img src={this.state.thumbnailUrl} />
@@ -27,7 +26,7 @@ class Post extends React.Component {
 						</CardText>
 					</div>
 				</Card>
-			</Link>
+			</a>
 	}
 }
 
