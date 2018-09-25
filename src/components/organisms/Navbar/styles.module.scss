@@ -1,16 +1,31 @@
 @import '~theme/variables';
 
-.container {
+nav {
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
 	z-index: 1000;
 	position: relative;
-	margin: 0 auto;
-	max-width: 80rem;
-	width: 100%;
-	padding: $spacingMedium $spacingSmall $spacingMedium;
 	a {
 		text-decoration: none;
+	}
+}
+
+nav.white {
+	color: $white;
+
+	a {
+		&:after {
+			background: $white !important;
+		}
+		&:hover {
+			color: $lightGrey;
+			&:after {
+				background: $lightGrey !important;
+			}
+		}
+	}
+	div > a {
+		color: $white;
 	}
 }

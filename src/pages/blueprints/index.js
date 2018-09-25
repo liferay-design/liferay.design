@@ -15,7 +15,7 @@ const WideCard = styled(Card) `
 const Blueprints = () => (
 		<div className={styles.sans}>
 			<Flex className={styles.banner} background="primary" width="100vw" height="108vh" direction="column" align="center">
-				<Navbar section="Blueprints" />
+				<Navbar white section="Blueprints" />
 				<div className={styles.bannerContent}>
 					<Heading color="white" level={1}>Blueprints</Heading>
 					<Heading color="white" level={2}>Brand Guidelines For Liferay</Heading>

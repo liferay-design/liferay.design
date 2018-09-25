@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './styles.module.scss'
+import { Container } from 'components/atoms'
 import { SiteName, NavItems } from 'components/molecules'
 import PropTypes from 'prop-types'
 
-const Navbar = ({ section }) => {
+const Navbar = ({ white, section }) => {
 	// TODO: Add custom nav items for events page
 	// const navItems = ['agenda', 'blueprints', 'dashboard', 'team', 'venue']
 
@@ -13,12 +14,12 @@ const Navbar = ({ section }) => {
 	// 	</Heading>
 	// ))}
 
-	return (
-		<nav className={styles.container}>
-			<SiteName section={section} />
-			<NavItems />
-		</nav>
-	)
+	return <Container>
+			<nav className={white ? styles.white : styles.default}>
+				<SiteName section={section} />
+				<NavItems />
+			</nav>
+		</Container>
 }
 
 Navbar.propTypes = {
