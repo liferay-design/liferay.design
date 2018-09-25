@@ -26,15 +26,15 @@ body {
 	font-size: 16px;
 	font-family: $fontFamilyPrimary;
 	margin: 0;
-	// overflow-x: hidden;
+	overflow-x: hidden;
 	::selection {
-	  background: #05F;
-	  color: #fff;
+		background: #05f;
+		color: #fff;
 	}
 	::-moz-selection {
-	  background: #05F;
-	  color: #fff;
-	}	
+		background: #05f;
+		color: #fff;
+	}
 }
 
 a {
