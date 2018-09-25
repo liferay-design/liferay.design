@@ -1,3 +1,5 @@
+@import '~theme/variables';
+
 // .sidebar {
 // 	background: #f7f8f9;
 // 	padding: 5rem 1rem;
@@ -19,19 +21,15 @@
 // 	}
 // }
 
-// .sidebar-content {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: space-between;
-
-// 	nav {
-// 		margin: 0 0.3rem;
-// 	}
-// }
-
 .sidebar-wrapper {
+	> ul {
+		padding-left: 0;
+	}
+
+	ul > div > a > li,
+	ul > div > ul {
+		padding-left: $spacingSmall;
+	}
 	height: 100%;
 	list-style: none;
-	width: 40rem;
-	flex-basis: 30%;
 }
