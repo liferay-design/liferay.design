@@ -1,0 +1,20 @@
+@import '~theme/variables';
+
+.siteName {
+	color: $white;
+	font-size: $fontSizeMedium;
+	padding-bottom: 0;
+	padding-top: $spacingSmall;
+	line-height: 1.6;
+	&:after {
+		content: '';
+		width: $spacingBase;
+		height: 3px;
+		background: $primary;
+		display: block;
+		margin-top: 1rem;
+	}
+	@media screen and (max-width: $screenSmall) {
+		position: initial;
+	}
+}

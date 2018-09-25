@@ -10,7 +10,7 @@ class Team extends Component {
 
 	render() {
 		return (
-			<CardGrid className={styles.wrapper}>
+			<CardGrid>
 				{this.state.teamMembers.map(person => (
 					<Person key={person.id} person={person} />
 				))}

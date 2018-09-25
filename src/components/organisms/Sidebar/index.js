@@ -33,11 +33,9 @@ const SidebarContent = ({ path, tree }) => {
 }
 
 export default class SidebarWrapper extends Component {
-	render() {
-		return (
-			<div className={styles.sidebarWrapper}>
+	render( ) {
+		return <div className={styles.sidebarWrapper}>
 				<SidebarContent path={this.props.path} tree={this.props.tree} />
 			</div>
-		)
 	}
 }

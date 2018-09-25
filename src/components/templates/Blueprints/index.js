@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
 import { Sidebar, Footer, Navbar } from 'components/organisms'
+// import { SiteName, NavItems } from 'components/molecules'
 import { PrivatePage } from 'components/templates'
 
 function upsertAtPath(path, value, obj) {
@@ -45,10 +46,16 @@ export default class Blueprints extends Component {
 				section="Blueprints"
 			>
 				<div className={styles.sans}>
-					<Navbar section="Blueprints" />
-
+					<Navbar section="Blueprints"/>
 					<div className={styles.mainContentWrapper}>
-						<Sidebar path={this.props.location.pathname} tree={sidebarTree} />
+						{/* <div className={styles.siteName}>
+							<SiteName section="Blueprints"/>
+						</div>
+						<div className={styles.navItems}>
+							<NavItems />
+						</div> */}
+						<Sidebar className={styles.sidebar} path={this.props.location.pathname} tree={sidebarTree}>
+						</Sidebar>
 
 						<div className={styles.markdownContainer}>
 							<h1>{post.frontmatter.title}</h1>

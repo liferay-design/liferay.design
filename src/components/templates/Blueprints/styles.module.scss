@@ -2,15 +2,29 @@
 
 .sans {
 	font-family: $fontFamilySecondary;
+	overflow-y: hidden;
 }
 
 .main-content-wrapper {
-	display: flex;
+	display: grid;
+	height: 100%;
+	grid: 'gutterL sidebar main gutterR' 1fr / 1fr 19rem 60rem 1fr;
+	grid-gap: $spacingSmall;
+	background: $white;
 }
 
+// .site-name {
+// 	grid-area: nav;
+// }
+
+// .nav-items {
+// 	grid-area: items;
+// }
+
+//.sidebar styles are scoped to the component — is this the best?
+
 .markdown-container {
-	background: $white;
-	flex-basis: 70%;
+	grid-area: main;
 	padding: 6rem 3rem;
 	min-height: 70vh;
 }
