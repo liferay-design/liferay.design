@@ -23,6 +23,10 @@ footer.dark {
 	}
 }
 
+footer {
+	padding-top: $spacingMedium;
+}
+
 .mediaWrapper {
 	margin-top: -17vh;
 	height: 80vh;
@@ -53,12 +57,6 @@ footer.dark {
 
 .textContainer {
 	padding-bottom: 10vh;
-}
-
-.footer {
-	margin: 0 auto;
-	max-width: 80rem;
-	padding: $spacingSmall $spacingSmall $spacingMedium;
 }
 
 .social {

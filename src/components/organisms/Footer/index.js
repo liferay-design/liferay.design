@@ -1,11 +1,11 @@
-import { Flex, Heading, Icon, Text } from 'components/atoms'
+import { Container, Flex, Heading, Icon, Text } from 'components/atoms'
 import React from 'react'
 import styles from './styles.module.scss'
 
 export const Footer = ({ light }) => {
 	return (
 		<footer className={light ? styles.light : styles.dark}>
-			<Flex className={styles.footer} direction="column">
+			<Container>
 				<Flex
 					className={styles.textContainer}
 					justify="space-between"
@@ -45,7 +45,7 @@ export const Footer = ({ light }) => {
 						Powered by  <a target="_blank" href="http://gatsbyjs.org/">Gatsby</a> and <a href="https://wedeploy.com">WeDeploy™</a>
 					</Text>
 				</Flex>
-			</Flex>
+			</Container>
 		</footer>
 	)
 }
