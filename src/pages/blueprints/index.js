@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
+import { Billboard } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import styles from './styles.module.scss'
 import { Grid, Cell, Card, CardTitle, CardText, } from 'react-md'
@@ -88,19 +89,16 @@ const Blueprints = () => (
 							<Link className={styles.social} to="https://dribbble.com/liferay"><Icon fill="white" name="dribbble" /></Link>
 							<Link className={styles.social} to="https://twitter.com/liferaydesign"><Icon fill="white" name="twitter" /></Link>
 						</Cell>
-						<Cell  offset={1} size={10}>
-							<Flex align="flex-start">
-								<Icon padding="3.5rem 6.25rem .5rem" name="jira"/>
-								<Flex justify="center" direction="column">
-									<Heading level={2}>Need something?</Heading>
-									<Text>Head over to Jira and <Link to="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17" target="_blank">create an issue</Link>!</Text>
-								</Flex>
-							</Flex>
-						</Cell>
 					</Grid>
 				</div>
 			</div>
-			<Footer light/>
+			<Billboard 
+				image='jira'
+				heading='Need something?'
+				Subtitle={() => <Text size="large">Head over to Jira and <a href="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17" target="_blank">create an issue</a>!</Text>}
+				background='/images/home/blueprints-bg.svg'
+				/>
+			<Footer />
 		</div>
 	)
 
