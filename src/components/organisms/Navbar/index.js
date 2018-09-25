@@ -1,9 +1,7 @@
 import React from 'react'
-import { Flex } from 'components/atoms'
 import styles from './styles.module.scss'
-import { AuthContainer } from 'components/organisms'
+import { SiteName, NavItems } from 'components/molecules'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
 
 const Navbar = ({ section }) => {
 	// TODO: Add custom nav items for events page
@@ -17,15 +15,8 @@ const Navbar = ({ section }) => {
 
 	return (
 		<nav className={styles.container}>
-			<Link className={styles.siteName} to="/">Liferay.Design {section && `/ ${section}`}</Link>
-
-			<Flex className={styles.entry} align="center">
-				<Link to="/articles">Articles</Link>
-
-				<Link to="/team">Team</Link>
-
-				<AuthContainer />
-			</Flex>
+			<SiteName section={section} />
+			<NavItems />
 		</nav>
 	)
 }

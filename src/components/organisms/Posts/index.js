@@ -6,7 +6,7 @@ import postFeed from './post_feed'
 class Posts extends Component {
 	render() {
 		return (
-			<CardGrid className={styles.postDirection}>
+			<CardGrid>
 				{postFeed.map(post => {
 					return <Post key={post.id} post={post} />
 				})}

@@ -22,6 +22,8 @@
 // }
 
 .sidebar-wrapper {
+	background: $lightestGrey;
+	grid-area: sidebar;
 	> ul {
 		padding-left: 0;
 	}
@@ -32,4 +34,12 @@
 	}
 	height: 100%;
 	list-style: none;
+
+	&:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background: $lightestGrey;
+		display: block;
+	}
 }
