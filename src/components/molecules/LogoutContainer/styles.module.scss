@@ -1,7 +1,10 @@
+@import '~theme/variables';
+
 .logout-container {
 	cursor: pointer;
 	position: relative;
-	padding-left: 2rem;
+	padding-left: $spacingBase;
+	margin-right: -4px;
 }
 
 .profile {
@@ -10,7 +13,7 @@
 	display: flex;
 	position: absolute;
 	top: 100%;
-	right: 2rem;
+	right: $spacingBase;
 
 	> div {
 		display: flex;
