@@ -19,11 +19,7 @@ export default class AuthContainer extends Component {
 			this.setUser(user)
 		}
 
-		console.log('auth', auth)
-
 		auth.onSignIn(user => {
-			console.log('user', user)
-			console.log('this', this)
 			this.setUser(user)
 		})
 	}
@@ -37,8 +33,6 @@ export default class AuthContainer extends Component {
 	}
 
 	setUser = user => {
-		console.log('user', user)
-
 		if (user) {
 			this.setState({
 				user: { email: user.email, avatar: user.photoUrl, name: user.name },
