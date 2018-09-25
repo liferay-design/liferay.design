@@ -23,22 +23,22 @@ const SidebarContent = ({ path, tree }) => {
 
 		return (
 			<Link key={node.title} to={node.slug}>
-				<ListItem active={node.slug === path} as="section" primaryText={node.title} />
+				<ListItem
+					active={node.slug === path}
+					as="section"
+					primaryText={node.title}
+				/>
 			</Link>
 		)
 	})
 }
 
 export default class SidebarWrapper extends Component {
-
 	render() {
 		return (
-			<Drawer 
-				children={<SidebarContent />}
-				inline={true}
-			>
-				{this.props.children}
-			</Drawer>
+			<div className={styles.sidebarWrapper}>
+				<SidebarContent path={this.props.path} tree={this.props.tree} />
+			</div>
 		)
 	}
 }

@@ -21,7 +21,12 @@ export default class PrivatePage extends Component {
 			return this.props.children
 		}
 
-		return <Card><div>{this.props.message}</div><AuthContainer/></Card>
+		return (
+			<Card>
+				<div>{this.props.message}</div>
+				<AuthContainer />
+			</Card>
+		)
 	}
 
 	render() {
@@ -30,7 +35,7 @@ export default class PrivatePage extends Component {
 				{this.state.authLoaded ? (
 					this.renderPrivateContent()
 				) : (
-					<Paper loading>
+					<Paper>
 						<Media src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
 					</Paper>
 				)}

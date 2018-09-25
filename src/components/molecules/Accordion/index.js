@@ -16,7 +16,7 @@ export default class Accordion extends Component {
 		// const FontIconRotatedProp = this.state.showChildren ? { rotated: 'clockwise' } : {}
 
 		return (
-			<div className={styles.accordion}>
+			<ul className={styles.accordion}>
 				<Link to={this.props.slug}>
 					<ListItem
 						active={this.props.slug === this.props.path}
@@ -28,8 +28,14 @@ export default class Accordion extends Component {
 					</ListItem>
 				</Link>
 
-					<div className={styles.childrenContainer}>{this.props.children}</div>
-			</div>
+				<div
+					className={`${styles.childrenContainer} ${
+						this.state.showChildren ? styles.visible : styles.hidden
+					}`}
+				>
+					{this.props.children}
+				</div>
+			</ul>
 		)
 	}
 }

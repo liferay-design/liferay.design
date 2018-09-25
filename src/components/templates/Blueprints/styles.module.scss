@@ -4,8 +4,13 @@
 	font-family: $fontFamilySecondary;
 }
 
-.markdownContainer {
+.main-content-wrapper {
+	display: flex;
+}
+
+.markdown-container {
 	background: $white;
-	margin-bottom: auto;
+	flex-basis: 70%;
 	padding: 6rem 3rem;
+	min-height: 70vh;
 }
