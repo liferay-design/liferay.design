@@ -46,19 +46,19 @@ export default class Handbook extends Component {
 				section="Handbook"
 			>
 				<Navbar section="Handbook" />
-				<Sidebar path={this.props.location.pathname} tree={sidebarTree}/>
+				{/* <Sidebar path={this.props.location.pathname} tree={sidebarTree}/> */}
 
-					<div className={styles.markdownContainer}>
-						<Flex direction="column" className={styles.wrapper}>
-							<h1>{post.frontmatter.title}</h1>
-							<div
-								dangerouslySetInnerHTML={{
-									__html: post.html,
-								}}
-							/>
-						</Flex>
-					</div>
-					<Footer light />
+				<div className={styles.markdownContainer}>
+					<Flex direction="column" className={styles.wrapper}>
+						<h1>{post.frontmatter.title}</h1>
+						<div
+							dangerouslySetInnerHTML={{
+								__html: post.html,
+							}}
+						/>
+					</Flex>
+				</div>
+				<Footer light />
 			</PrivatePage>
 		)
 	}
