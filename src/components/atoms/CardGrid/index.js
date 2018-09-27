@@ -4,11 +4,9 @@ import { Grid } from 'reakit';
 
 
 const Container = ({children}) => {
-    return (
-        <Grid columns="1fr 1fr 1fr" autoRows="auto" gap="5rem 4rem">
-            {children}
-        </Grid>
-    )
+    return <Grid columns="repeat(auto-fill, minmax(18rem, 1fr))" autoRows="auto" gap="5rem 4rem">
+			{children}
+		</Grid>
 }
 
 Container.propTypes = {
