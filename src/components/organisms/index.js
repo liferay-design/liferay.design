@@ -1,6 +1,7 @@
 import Agenda from './Agenda'
 import Banner from './Banner'
 import Footer from './Footer'
+import FooterMarkdown from './FooterMarkdown'
 import HeroBanner from './HeroBanner'
 import NavItems from './NavItems'
 import Navbar from './Navbar'
@@ -13,7 +14,7 @@ export {
 	Agenda,
 	Banner,
 	Footer,
-	Header,
+	FooterMarkdown,
 	HeroBanner,
 	NavItems,
 	Navbar,

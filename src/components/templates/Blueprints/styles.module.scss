@@ -5,20 +5,8 @@
 	overflow-y: hidden;
 }
 
-.main-content-wrapper {
-	display: grid;
-	height: 100%;
-	grid: 'gutterL sidebar main gutterR' 1fr / 1fr 19rem 60rem 1fr;
-	grid-gap: $spacingSmall;
+.mainContentWrapper {
 	background: $white;
 }
 
-.markdown-container {
-	grid-area: main;
-	padding: 3.75rem 3rem;
-	min-height: 70vh;
-
-	h1 {
-		margin: 0 0 7.75rem;
-	}
-}
+//.sidebar styles are scoped to the component — is this the best?

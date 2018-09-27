@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
-import { Flex } from 'components/atoms'
-import { AuthContainer } from 'components/molecules'
-import { Sidebar } from 'components/organisms'
+import { Sidebar, FooterMarkdown } from 'components/organisms'
+import { NavItems } from 'components/molecules'
+import { ContainerMarkdown, Flex } from 'components/atoms'
 import { PrivatePage } from 'components/templates'
+import { Grid } from 'reakit'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -15,6 +16,9 @@ function upsertAtPath(path, value, obj) {
 	return obj
 }
 
+const template = `
+	"sidebar main" 1fr / 18rem 1fr
+`;
 export default class Blueprints extends Component {
 	buildSidebarTree(markdownNodes) {
 		const sidebarTree = markdownNodes.edges.reduce((currentTree, currentValue) => {
@@ -51,23 +55,21 @@ export default class Blueprints extends Component {
 				section="Blueprints"
 			>
 				<div className={styles.sans}>
-					<div className={styles.mainContentWrapper}>
-						<Sidebar path={this.props.location.pathname} tree={sidebarTree} />
-
-						<div className={styles.markdownContainer}>
-							<Flex justify="space-between">
+					<Grid template={template} className={styles.mainContentWrapper}>
+						<Sidebar className={styles.sidebar} path={this.props.location.pathname} tree={sidebarTree} />
+						<ContainerMarkdown className={styles.markdownContainer}>
+							<Flex justify="space-between" className={styles.header}>
 								<h1>{post.frontmatter.title}</h1>
-
-								<AuthContainer />
+								<NavItems />
 							</Flex>
-
 							<div
 								dangerouslySetInnerHTML={{
 									__html: post.html,
 								}}
 							/>
-						</div>
-					</div>
+							<FooterMarkdown light />
+						</ContainerMarkdown>
+					</Grid>
 				</div>
 			</PrivatePage>
 		)
