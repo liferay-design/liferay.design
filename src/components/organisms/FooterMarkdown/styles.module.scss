@@ -5,13 +5,13 @@ footer.light {
 	background-color: $white;
 	color: $black;
 	svg {
-		fill: $black;
+		fill: $grey;
 	}
 	span {
 		color: $darkGrey;
 	}
 	a {
-		color: $darkestGrey;
+		color: $darkGrey;
 	}
 }
 
@@ -27,67 +27,7 @@ footer {
 	padding-top: $spacingMedium;
 }
 
-.mediaWrapper {
-	margin-top: -17vh;
-	height: 80vh;
-	right: 0;
-
-	@media screen and (max-width: $screenSmall) {
-		margin-top: -10vh;
-	}
-}
-
-.mediaContainer {
-	position: relative;
-	height: 60vh;
-
-	img {
-		height: 64vh;
-		min-height: 580px;
-		margin-right: 31vw;
-		width: 60vw;
-		@media screen and (max-width: $screenSmall) {
-			height: 50vh;
-			margin-right: initial;
-			width: 100vw;
-			min-height: 400px;
-		}
-	}
-}
-
 .textContainer {
-	padding-bottom: 10vh;
-}
-
-.social {
-	width: 320px;
-	@media screen and (max-width: $screenSmall) {
-		order: -1;
-		margin: 0 0 3rem -0.5rem;
-	}
-}
-
-.social a {
-	transform: translateY(0) scale(0.95);
-	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
-	&:hover {
-		transform: translateY(-0.4rem) scale(1);
-		transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-		svg {
-			fill: $primary;
-		}
-	}
-}
-
-.credits a {
-	font-weight: $fontWeightHeavy;
-	color: $white;
-}
-
-.credits span {
-	font-size: $fontSizeXSmall;
-	font-weight: $fontWeightLight;
-	color: $lightGrey;
-	padding-bottom: 1rem;
+	border-top: solid 2px $lightestGrey;
+	padding: $spacingSmall 0 10vh;
 }

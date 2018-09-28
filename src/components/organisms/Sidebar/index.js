@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { SiteName } from 'components/atoms'
-import { Accordion } from 'components/molecules'
+import { ListItem } from 'react-md'
+import { Flex } from 'components/atoms'
+import { Accordion, SiteName, SiteCredits } from 'components/molecules'
 import { map } from 'lodash'
 import { Link } from 'gatsby'
 
@@ -46,5 +47,11 @@ export default class SidebarWrapper extends Component {
 				</div>
 			</div>
 		)
+	// render( ) {
+	// 	return <Flex direction="column" className={styles.sidebarWrapper}>
+	// 			<SiteName section="Blueprints" />
+	// 			<SidebarContent path={this.props.path} tree={this.props.tree} />
+	// 			<SiteCredits />
+	// 		</Flex>
 	}
 }
