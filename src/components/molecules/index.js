@@ -1,27 +1,25 @@
 import Accordion from './Accordion'
+import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
 import LexiconCard from './LexiconCard'
 import LogoutContainer from './LogoutContainer'
-import NavItems from './NavItems'
 import Person from './Person'
 import Post from './Post'
 import SiteCredits from './SiteCredits'
-import SiteName from './SiteName'
 import SocialIcons from './SocialIcons'
 
 export { 
     Accordion, 
+    AuthContainer, 
     Billboard,
     FeaturedPost, 
     HeroPost, 
     LexiconCard, 
-    LogoutContainer, 
-    NavItems, 
+    LogoutContainer,  
     Person, 
     Post, 
     SiteCredits, 
-    SiteName, 
     SocialIcons, 
 }

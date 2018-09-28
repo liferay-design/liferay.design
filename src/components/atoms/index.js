@@ -8,4 +8,4 @@ import ContainerMarkdown from './ContainerMarkdown'
 import CardGrid from './CardGrid'
 import SiteName from './SiteName'
 
-export { Flex, Heading, Icon, Image, Text, Container, ContainerMarkdown, CardGrid }
+export { Flex, Heading, Icon, Image, Text, Container, ContainerMarkdown, CardGrid, SiteName }
