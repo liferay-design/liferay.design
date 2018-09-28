@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { ListItem } from 'react-md'
 import { Accordion } from 'components/molecules'
 import { map } from 'lodash'
 import { Link } from 'gatsby'
@@ -21,21 +20,23 @@ const SidebarContent = ({ path, tree }) => {
 		}
 
 		return (
-			<Link key={node.title} to={node.slug}>
-				<ListItem
-					active={node.slug === path}
-					as="section"
-					primaryText={node.title}
-				/>
+			<Link
+				className={`leaf ${node.slug === path && styles.active}`}
+				key={node.title}
+				to={node.slug}
+			>
+				{node.title}
 			</Link>
 		)
 	})
 }
 
 export default class SidebarWrapper extends Component {
-	render( ) {
-		return <div className={styles.sidebarWrapper}>
+	render() {
+		return (
+			<div className={styles.sidebarWrapper}>
 				<SidebarContent path={this.props.path} tree={this.props.tree} />
 			</div>
+		)
 	}
 }

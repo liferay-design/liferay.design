@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Media, Paper, Card } from 'react-md'
-import { AuthContainer } from 'components/organisms'
-import styles from './styles.module.scss'
+import { AuthContainer } from 'components/molecules'
 
 export default class PrivatePage extends Component {
 	state = {

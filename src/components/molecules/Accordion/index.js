@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import styles from './styles.module.scss'
-import { FontIcon, ListItem, Menu } from 'react-md'
+import { Icon } from 'components/atoms'
 
 export default class Accordion extends Component {
 	state = {
@@ -13,19 +13,27 @@ export default class Accordion extends Component {
 	}
 
 	render() {
-		// const FontIconRotatedProp = this.state.showChildren ? { rotated: 'clockwise' } : {}
+		const FontIconRotatedProp = this.state.showChildren
+			? { rotated: 'clockwise' }
+			: {}
 
 		return (
 			<ul className={styles.accordion}>
 				<Link to={this.props.slug}>
-					<ListItem
-						active={this.props.slug === this.props.path}
-						as="section"
+					<span
+						className="sidebar-item"
 						onClick={this.toggleVisibility}
-						primaryText={this.props.title}
+						style={{
+							background:
+								this.props.slug === this.props.path
+									? '#E8E8E7'
+									: 'transparent',
+						}}
 					>
-						{/* <FontIcon {...FontIconRotatedProp} >keyboard_arrow_down</FontIcon> */}
-					</ListItem>
+						{this.props.title}
+
+						<Icon name="keyboardArrowRight" />
+					</span>
 				</Link>
 
 				<div
