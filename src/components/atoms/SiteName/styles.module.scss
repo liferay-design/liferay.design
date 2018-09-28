@@ -4,8 +4,8 @@
 	color: $white;
 	font-size: $fontSizeMedium;
 	padding-bottom: 0;
-	padding-top: $spacingSmall;
 	line-height: 1.6;
+
 	&:after {
 		content: '';
 		width: $spacingBase;
@@ -14,6 +14,11 @@
 		display: block;
 		margin-top: 1rem;
 	}
+
+	&.dark {
+		color: $black;
+	}
+
 	@media screen and (max-width: $screenSmall) {
 		position: initial;
 	}
