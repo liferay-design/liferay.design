@@ -1,4 +1,5 @@
-import { Container, Flex, Icon, Text } from 'components/atoms'
+import { Flex, Text } from 'components/atoms'
+import { SocialIcons } from 'components/molecules'
 import React from 'react'
 import styles from './styles.module.scss'
 
@@ -9,31 +10,13 @@ export const FooterMarkdown = ({ light }) => {
 				className={styles.textContainer}
 				justify="space-between"
 				flexWrap="wrap"
+				align="center"
 			>
 				<Text>
-					How can this be improved? Contribute on Github!
+					How can this be improved? <a href="https://github.com/liferay-design/liferay.design/issues">Create an issue</a>!
 				</Text>
-
-				<Flex className={styles.social} justify="space-between">
-					<a target="_blank" href="https://www.dribbble.com/liferay">
-						<Icon name="dribbble" />
-					</a>
-					<a target="_blank" href="https://github.com/liferay-design/liferay.design">
-						<Icon name="github" />
-					</a>
-					<a target="_blank" href="https://www.instagram.com/liferay_ux/">
-						<Icon name="instagram" />
-					</a>
-					<a target="_blank" href="https://www.linkedin.com/company/83609">
-						<Icon name="linkedin" />
-					</a>
-					<a target="_blank" href="https://www.medium.com/liferaydesign">
-						<Icon name="medium" />
-					</a>
-					<a target="_blank" href="https://twitter.com/liferaydesign">
-						<Icon name="twitter" />
-					</a>
-				</Flex>
+				 {/* TODO — create a "Contribute on Github!" component */}
+				<SocialIcons />
 			</Flex>
 		</footer>
 	)

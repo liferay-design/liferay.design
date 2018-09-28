@@ -1,0 +1,13 @@
+@import '~theme/variables';
+
+.credits a {
+	font-weight: $fontWeightHeavy;
+	color: $white;
+}
+
+.credits span {
+	font-size: $fontSizeXSmall;
+	font-weight: $fontWeightLight;
+	color: $lightGrey;
+	padding-bottom: 1rem;
+}

@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
-import { Sidebar, FooterMarkdown } from 'components/organisms'
-import { NavItems } from 'components/molecules'
+import { Sidebar, FooterMarkdown, AuthContainer } from 'components/organisms'
 import { ContainerMarkdown, Flex } from 'components/atoms'
 import { PrivatePage } from 'components/templates'
 import { Grid } from 'reakit'
@@ -57,12 +56,12 @@ export default class Blueprints extends Component {
 				<div className={styles.sans}>
 					<Grid template={template} className={styles.mainContentWrapper}>
 						<Sidebar className={styles.sidebar} path={this.props.location.pathname} tree={sidebarTree} />
-						<ContainerMarkdown className={styles.markdownContainer}>
-							<Flex justify="space-between" className={styles.header}>
+						<ContainerMarkdown>
+							<Flex justify="space-between" align="baseline" className={styles.header}>
 								<h1>{post.frontmatter.title}</h1>
-								<NavItems />
+								<AuthContainer />
 							</Flex>
-							<div
+							<div className={styles.body}
 								dangerouslySetInnerHTML={{
 									__html: post.html,
 								}}
