@@ -1,5 +1,7 @@
 .accordion {
 	list-style: none;
+	margin: 0;
+	padding-left: 0;
 
 	h3 {
 		background: none;
@@ -15,17 +17,21 @@
 		}
 	}
 
-	.sidebar-item {
-		font-weight: 400;
+	> a > span {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
-// .children-container {
-//   padding-left: 0.7rem;
-// }
+.children-container {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1rem;
+}
 
 .visible {
-	display: block;
+	display: flex;
 }
 
 .hidden {

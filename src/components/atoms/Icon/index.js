@@ -3,7 +3,7 @@ import React from 'react'
 import { colors } from 'theme'
 import IconsObject from '../Icons'
 
-const Icon = ({ className, fill, height, width, name, style, padding }) => {
+const Icon = ({ className, fill, height, width, name, style, padding, rotate }) => {
 	const styles = {
 		...style,
 		fill: colors[fill],
@@ -12,10 +12,15 @@ const Icon = ({ className, fill, height, width, name, style, padding }) => {
 		width,
 	}
 
+	if (rotate) {
+		styles.transform = `rotate(${rotate}deg)`
+		styles.transition = 'transform 0.5s'
+	}
+
 	const DynamicIcon = IconsObject[name]
 
 	return DynamicIcon ? (
-		<DynamicIcon className={className} styles={styles} name={name} />
+		<DynamicIcon className={className} style={styles} name={name} />
 	) : (
 		<span>Icon does not exist</span>
 	)
@@ -29,6 +34,7 @@ Icon.propTypes = {
 	name: PropTypes.string.isRequired,
 	style: PropTypes.object,
 	padding: PropTypes.string,
+	rotate: PropTypes.number,
 }
 
 Icon.defaultProps = {

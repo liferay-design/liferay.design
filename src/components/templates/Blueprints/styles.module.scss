@@ -15,6 +15,10 @@
 
 .markdown-container {
 	grid-area: main;
-	padding: 6rem 3rem;
+	padding: 3.75rem 3rem;
 	min-height: 70vh;
+
+	h1 {
+		margin: 0 0 7.75rem;
+	}
 }

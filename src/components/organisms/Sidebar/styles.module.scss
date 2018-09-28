@@ -1,29 +1,28 @@
 @import '~theme/variables';
 
-// .sidebar {
-// 	background: #f7f8f9;
-// 	padding: 5rem 1rem;
-// 	box-shadow: rgba(34, 36, 38, 0.15) 0px 0px 20px;
-// 	width: 20rem;
-
-// 	aside {
-// 		padding-top: 5rem;
-// 		width: 100%;
-// 	}
-
-// 	a > section {
-// 		margin-top: 0.5rem !important;
-
-// 		&:hover {
-// 			background: rgba(0, 0, 0, 0.05) !important;
-// 			color: rgba(0, 0, 0, 0.95) !important;
-// 		}
-// 	}
-// }
-
-.sidebar-wrapper {
-	background: $lightestGrey;
+.sidebar {
+	background: #f5f5f8;
+	display: flex;
+	flex-direction: column;
 	grid-area: sidebar;
+	height: 100%;
+	list-style: none;
+	padding: 3.75rem 0;
+
+	&:after {
+		content: '';
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	> div:first-child {
+		padding: 0 2rem;
+	}
+
+	> div:nth-child(2) {
+		margin: 0 1rem;
+	}
 
 	> ul {
 		padding-left: 0;
@@ -33,22 +32,34 @@
 	ul > div > ul {
 		padding-left: $spacingSmall;
 	}
-	height: 100%;
-	list-style: none;
+}
 
-	.leaf-link {
-		border-radius: 4px;
+.first-level-node {
+	font-weight: 600 !important;
+}
 
-		&.active {
-			background: #e8e8e7;
-		}
+.sidebar-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding-top: 7.75rem;
+}
+
+.leaf-link {
+	border-radius: 4px;
+	font-weight: 400;
+	padding: 0.55rem 1rem;
+	position: relative;
+
+	&:hover,
+	&.active {
+		background-color: #e8e8e7;
 	}
 
-	&:after {
-		content: '';
-		width: 100%;
-		height: 100%;
-		background: $lightestGrey;
-		display: block;
+	&:hover {
+		color: $black;
+	}
+
+	&.active {
+		font-weight: 600;
 	}
 }

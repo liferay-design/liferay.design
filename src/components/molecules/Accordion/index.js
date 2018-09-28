@@ -4,8 +4,12 @@ import styles from './styles.module.scss'
 import { Icon } from 'components/atoms'
 
 export default class Accordion extends Component {
-	state = {
-		showChildren: false,
+	constructor(props) {
+		super(props)
+
+		this.state = {
+			showChildren: props.open,
+		}
 	}
 
 	toggleVisibility = () => {
@@ -13,26 +17,17 @@ export default class Accordion extends Component {
 	}
 
 	render() {
-		const FontIconRotatedProp = this.state.showChildren
-			? { rotated: 'clockwise' }
-			: {}
-
 		return (
 			<ul className={styles.accordion}>
-				<Link to={this.props.slug}>
-					<span
-						className="sidebar-item"
-						onClick={this.toggleVisibility}
-						style={{
-							background:
-								this.props.slug === this.props.path
-									? '#E8E8E7'
-									: 'transparent',
-						}}
-					>
+				<Link onClick={this.toggleVisibility} to={this.props.link}>
+					<span className={`${this.props.className}`}>
 						{this.props.title}
 
-						<Icon name="keyboardArrowRight" />
+						{this.state.showChildren ? (
+							<Icon name="keyboardArrowRight" rotate={90} />
+						) : (
+							<Icon name="keyboardArrowRight" />
+						)}
 					</span>
 				</Link>
 

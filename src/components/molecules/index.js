@@ -7,7 +7,6 @@ import LexiconCard from './LexiconCard'
 import LogoutContainer from './LogoutContainer'
 import Person from './Person'
 import Post from './Post'
-import SiteName from './SiteName'
 
 export {
 	Accordion,
@@ -19,5 +18,4 @@ export {
 	LogoutContainer,
 	Person,
 	Post,
-	SiteName,
 }

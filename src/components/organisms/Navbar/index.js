@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
-import { Container } from 'components/atoms'
-import { SiteName } from 'components/molecules'
+import { Container, SiteName } from 'components/atoms'
 import { NavItems } from 'components/organisms'
 
 import PropTypes from 'prop-types'

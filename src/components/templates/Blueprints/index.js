@@ -29,6 +29,10 @@ export default class Blueprints extends Component {
 			const treePath = slugArr.join('.children.')
 			const sidebarItemValue = { title, slug }
 
+			if (!treePath.includes('children')) {
+				sidebarItemValue.firstLevel = true
+			}
+
 			return upsertAtPath(treePath, sidebarItemValue, currentTree)
 		}, {})
 
