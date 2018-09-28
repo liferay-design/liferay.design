@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { ListItem } from 'react-md'
-import { Flex } from 'components/atoms'
-import { Accordion, SiteName, SiteCredits } from 'components/molecules'
+import { Grid } from 'reakit'
+import { Flex, SiteName } from 'components/atoms'
+import { Accordion, SiteCredits } from 'components/molecules'
 import { map } from 'lodash'
 import { Link } from 'gatsby'
 
@@ -36,22 +36,19 @@ const SidebarContent = ({ path, tree }) => {
 
 export default class SidebarWrapper extends Component {
 	render() {
-		return (
-			<div className={styles.sidebar}>
-				<div>
+		return ( 
+			<Grid columns="1fr" rows="12rem auto 8rem" className={styles.sidebar}>
+				<Grid.Item>
 					<SiteName section="Blueprints" dark />
-				</div>
+				</Grid.Item>
 
-				<div className={styles.sidebarContentWrapper}>
+				<Grid.Item className={styles.sidebarContentWrapper}>
 					<SidebarContent path={this.props.path} tree={this.props.tree} />
-				</div>
-			</div>
-		)
-	// render( ) {
-	// 	return <Flex direction="column" className={styles.sidebarWrapper}>
-	// 			<SiteName section="Blueprints" />
-	// 			<SidebarContent path={this.props.path} tree={this.props.tree} />
-	// 			<SiteCredits />
-	// 		</Flex>
+				</Grid.Item>
+				<Grid.Item className={styles.credits}>
+					<SiteCredits />
+				</Grid.Item>
+			</Grid>
+			)
 	}
 }

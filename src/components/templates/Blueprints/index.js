@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
-import { Sidebar, FooterMarkdown, AuthContainer } from 'components/organisms'
+import { Sidebar, FooterMarkdown } from 'components/organisms'
+import { AuthContainer } from 'components/molecules'
 import { ContainerMarkdown, Flex } from 'components/atoms'
 import { PrivatePage } from 'components/templates'
 import { Grid } from 'reakit'
@@ -16,7 +17,7 @@ function upsertAtPath(path, value, obj) {
 }
 
 const template = `
-	"sidebar main" 1fr / 18rem 1fr
+	"sidebar main" auto / 18rem 1fr
 `;
 export default class Blueprints extends Component {
 	buildSidebarTree(markdownNodes) {
@@ -55,7 +56,7 @@ export default class Blueprints extends Component {
 			>
 				<div className={styles.sans}>
 					<Grid template={template} className={styles.mainContentWrapper}>
-						<Sidebar className={styles.sidebar} path={this.props.location.pathname} tree={sidebarTree} />
+						<Sidebar path={this.props.location.pathname} tree={sidebarTree} />
 						<ContainerMarkdown>
 							<Flex justify="space-between" align="baseline" className={styles.header}>
 								<h1>{post.frontmatter.title}</h1>
