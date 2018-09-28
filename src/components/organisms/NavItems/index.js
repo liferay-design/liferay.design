@@ -1,12 +1,12 @@
 import React from 'react'
 import { Flex } from 'components/atoms'
-import styles from './styles.module.scss'
-import { AuthContainer } from 'components/organisms'
+import { AuthContainer } from 'components/molecules'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-const NavItems = () => {
+import styles from './styles.module.scss'
 
+const NavItems = () => {
 	return (
 		<Flex className={styles.entry} align="center">
 			<Link to="/articles">Articles</Link>

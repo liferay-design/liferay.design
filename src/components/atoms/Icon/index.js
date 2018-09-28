@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import ReactSvg from 'react-svg'
 import { colors } from 'theme'
-import { withPrefix } from 'gatsby'
+import IconsObject from '../Icons'
 
 const Icon = ({ className, fill, height, width, name, style, padding }) => {
 	const styles = {
@@ -13,12 +12,12 @@ const Icon = ({ className, fill, height, width, name, style, padding }) => {
 		width,
 	}
 
-	return (
-		<ReactSvg
-			className={className}
-			path={withPrefix(`/images/icons/${name}.svg`)}
-			style={styles}
-		/>
+	const DynamicIcon = IconsObject[name]
+
+	return DynamicIcon ? (
+		<DynamicIcon className={className} styles={styles} name={name} />
+	) : (
+		<span>Icon does not exist</span>
 	)
 }
 
@@ -34,6 +33,8 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
 	padding: '4px',
+	height: '24px',
+	width: '24px',
 }
 
 export default Icon

@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
-import { Sidebar, Footer, Navbar } from 'components/organisms'
-// import { SiteName, NavItems } from 'components/molecules'
+import { Flex } from 'components/atoms'
+import { AuthContainer } from 'components/molecules'
+import { Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
 
 function upsertAtPath(path, value, obj) {
@@ -46,21 +47,15 @@ export default class Blueprints extends Component {
 				section="Blueprints"
 			>
 				<div className={styles.sans}>
-					<Navbar section="Blueprints"/>
 					<div className={styles.mainContentWrapper}>
-						{/* <div className={styles.siteName}>
-							<SiteName section="Blueprints"/>
-						</div>
-						<div className={styles.navItems}>
-							<NavItems />
-						</div> */}
-						<Sidebar className={styles.sidebar} path={this.props.location.pathname} tree={sidebarTree}>
-						</Sidebar>
+						<Sidebar path={this.props.location.pathname} tree={sidebarTree} />
 
 						<div className={styles.markdownContainer}>
-							<h1>{post.frontmatter.title}</h1>
+							<Flex justify="space-between">
+								<h1>{post.frontmatter.title}</h1>
 
-							<h2>Blueprints</h2>
+								<AuthContainer />
+							</Flex>
 
 							<div
 								dangerouslySetInnerHTML={{
@@ -69,8 +64,6 @@ export default class Blueprints extends Component {
 							/>
 						</div>
 					</div>
-
-					<Footer light />
 				</div>
 			</PrivatePage>
 		)

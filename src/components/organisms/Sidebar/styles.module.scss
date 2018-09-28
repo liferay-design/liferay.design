@@ -24,6 +24,7 @@
 .sidebar-wrapper {
 	background: $lightestGrey;
 	grid-area: sidebar;
+
 	> ul {
 		padding-left: 0;
 	}
@@ -34,6 +35,14 @@
 	}
 	height: 100%;
 	list-style: none;
+
+	.leaf-link {
+		border-radius: 4px;
+
+		&.active {
+			background: #e8e8e7;
+		}
+	}
 
 	&:after {
 		content: '';

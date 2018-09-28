@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import { Container } from 'components/atoms'
-import { SiteName, NavItems } from 'components/molecules'
+import { SiteName } from 'components/molecules'
+import { NavItems } from 'components/organisms'
+
 import PropTypes from 'prop-types'
 
 const Navbar = ({ white, section }) => {
@@ -14,12 +16,15 @@ const Navbar = ({ white, section }) => {
 	// 	</Heading>
 	// ))}
 
-	return <Container>
+	return (
+		<Container>
 			<nav className={white ? styles.white : styles.default}>
 				<SiteName section={section} />
+
 				<NavItems />
 			</nav>
 		</Container>
+	)
 }
 
 Navbar.propTypes = {
