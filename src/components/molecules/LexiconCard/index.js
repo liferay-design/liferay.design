@@ -1,24 +1,29 @@
-import { withPrefix, Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
-import { Avatar, Card, CardTitle, CardText, Media, FontIcon } from 'react-md'
+import { Card, CardTitle, CardText } from 'react-md'
 
-class LexiconCard extends React.Component {
+const LexiconCard = ({ title, text, cta, to }) => {
+	return (
+		<Link className={styles} to={to}>
+			<Card className={styles.card} >
+				<div className={styles.copy}>
+					<CardTitle className={styles.title} title={title}/>
+					<CardText className={styles.text} >{text}</CardText>
+					<CardText className={styles.cta}>{cta}</CardText>
+				</div>
+			</Card>
+		</Link>
+	)
+}
 
-	render() {
-		return (
-			<Link className={styles.cardLink} to="/">
-				<Card className={styles.card} >
-					<Media aspectRatio="4-3" className={styles.image}><img src={withPrefix(this.state.imageUrl)} /></Media>
-					<Avatar className={styles.avatar} icon={<FontIcon iconClassName={this.props.person.icon} />} />
-					<div className={styles.copy}>
-						<CardTitle className={styles.title} >{this.props.person.name}</CardTitle>
-						<CardText className={styles.text} >{this.props.person.title}</CardText>
-					</div>
-				</Card>
-			</Link>
-		)
-	}
+LexiconCard.propTypes = {
+	title: PropTypes.string,
+	text: PropTypes.string,
+	cta: PropTypes.string,
+	to: PropTypes.string,
+	styles: PropTypes.string,
 }
 
 export default LexiconCard
