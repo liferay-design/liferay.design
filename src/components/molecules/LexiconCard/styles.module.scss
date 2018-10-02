@@ -1,84 +1,53 @@
 @import '~theme/variables';
+@import '~theme/blueprints';
 
-.card-link {
-	padding: ($spacingXSmall+$spacingBase) 0;
-	flex: 0 1 calc(33.33% - 4rem);
-	min-width: 23rem;
-	width: 33%;
-	display: flex;
-    align-items: stretch;
+
+a.card-link {
+	color: inherit;
 }
 
 .card {
-	color: $white;
-	background: $darkGrey;
-	box-shadow: 0 0.5rem 5rem -1rem rgba(0, 0, 0, 0.3);
-	transform: translateY(0);
-	transition: all 0.15s ease-in-out;
-	width: 100%;
+	text-align: center;
+	background-color: $white;
+	border-bottom: $fontSizeSmall solid $white;
+	border-radius: $fontSizeSmall;
+	box-shadow: 4px 6px 36px rgba(48, 49, 63, 0.15);
+	margin-bottom: 2rem;
+	padding: 1rem;
+	min-height: 100%;
+	transition: all 0.4s;
 	&:hover {
-		transform: translateY(-0.2rem);
-		transition: all 0.2s ease-in-out;
-		box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.5);
-		background: $darkestGrey;
-		
+		background-color: $neutral9;
+		border-color: $brandDark;
+		box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
+		transform: translateY(-3px);
 	}
-	.avatar {
-		border: none;
-		background: $darkestGrey;
-		margin: -$spacingBase 1.8rem 0;
-		height: $spacingBase * 2;
-		width: $spacingBase * 2;
-		position: absolute;
-	}	
-	.copy {
-		padding: ($spacingBase + $spacingXSmall) $spacingBase $spacingMedium;
-		.title {
-			font-size: $fontSizeLarge;
-			padding: 0;
+	.card-body {
+		padding: 32px;
+	}
+	.arrow {
+		display: flex;
+		justify-content: center;
+		font-size: 12px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		font-weight: 900;
+		align-items: center;
+	}
+	.cardTitle {
+		justify-content: center;
+		padding: 2rem 1rem 0;
+		h2 {
+			color: $darkGrey;
+			font-weight: $fontWeightBlack;
+			font-size: 21px;
+			line-height: 1.6;
 		}
-		.text {
-			color: $grey;
-			font-size: $fontSizeMedium;
-			padding: 0;
-		}
 	}
-}
-
-@media screen and (max-width: 1152px) {
-	.card {
-		flex-basis: calc(50% - 4rem);
-		// &:last-child {
-		// 	margin-right: calc(50% + 2rem);
-		// }
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.card {
-		flex-basis: calc(100% - 2rem);
-		margin: 1.1rem 1rem;
-		// &:last-child {
-		// 	margin-right: 2rem;
-		// }
-	}
-}
-
-.card.external-link {
-	&:after {
-		content: url("data:image/svg+xml;charset=UTF-8, <svg width='20' height='20' xmlns='http://www.w3.org/2000/svg' version='1.1'><path d='M18 2h1.5V.5H18V2zm0 16v1.5h1.5V18H18zM2 18H.5v1.5H2V18zM2 2V.5H.5V2H2zm9.333 1.5H18v-3h-6.667v3zM16.5 2v6.667h3V2h-3zm.44-1.06l-11 11 2.12 2.12 11-11L16.94.94zm-.44 10.393V18h3v-6.667h-3zM18 16.5H2v3h16v-3zM3.5 18V2h-3v16h3zM2 3.5h6.667v-3H2v3z' fill='#fff'/></svg>");
-		position: absolute;
-		right: 2rem;
-		top: 2.1rem;
-		transform: translate(-1em, 1em);
-		transition: all 0.15s ease-in-out;
-		opacity: 0;
-	}
-	&::hover {
-		&:after {
-			transform: translate(0, 0);
-			transition: all 0.4s ease-in-out;
-			opacity: 1;
-		}
+	p.cardText {
+		font-weight: $fontWeightRegular;
+		color: #a1a3b6;
+		font-size: 18px;
+		line-height: 1.6;
 	}
 }

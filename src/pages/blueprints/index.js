@@ -22,7 +22,6 @@ const Blueprints = () => (
 	<div className={styles.sans}>
 		<Flex
 			className={styles.banner}
-			background="primary"
 			width="100vw"
 			height="108vh"
 			direction="column"
@@ -68,10 +67,6 @@ const Blueprints = () => (
 									far, together.
 								</CardText>
 								<CardText className={styles.arrow}>
-									<Icon
-										padding=".5em .75em .25em"
-										name="chevronRight"
-									/>
 									Read More
 								</CardText>
 							</Card>
@@ -93,10 +88,6 @@ const Blueprints = () => (
 									That's why this is at the top of the page.
 								</CardText>
 								<CardText className={styles.arrow}>
-									<Icon
-										padding=".5em .75em .25em"
-										name="chevronRight"
-									/>
 									Waffle Time
 								</CardText>
 							</Card>
@@ -116,10 +107,6 @@ const Blueprints = () => (
 										colors, fonts, images&mdash;get it all right here!
 									</CardText>
 									<CardText className={styles.arrow}>
-										<Icon
-											padding=".5em .75em .25em 0"
-											name="chevronRight"
-										/>
 										Get 'Em
 									</CardText>
 								</Flex>
@@ -135,10 +122,6 @@ const Blueprints = () => (
 									Have a question? We have frequently given answers.
 								</CardText>
 								<CardText className={styles.arrow}>
-									<Icon
-										padding=".5em .75em .25em"
-										name="chevronRight"
-									/>
 									Why is the Liferay Blue
 								</CardText>
 							</Card>
@@ -157,10 +140,6 @@ const Blueprints = () => (
 									stuff&mdash;see what else we're doing.
 								</CardText>
 								<CardText className={styles.arrow}>
-									<Icon
-										padding=".5em .75em .25em"
-										name="chevronRight"
-									/>
 									Experience Liferay.Design
 								</CardText>
 							</Card>

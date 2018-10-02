@@ -39,8 +39,8 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
 	padding: '4px',
-	height: '24px',
-	width: '24px',
+	height: '32px',
+	width: '32px',
 }
 
 export default Icon
