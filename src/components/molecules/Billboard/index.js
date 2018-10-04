@@ -8,7 +8,7 @@ const Billboard = ({ image, heading, Subtitle, background }) => {
 	return (
 		<section
 			className={styles.wrapper}
-			style={{ backgroundImage: `url(${background})` }}
+			style={{ background: `${background}` }}
 		>
 			<Grid columns="20rem 30rem 1fr" areas="'icon copy gutterR'">
 				<Icon className={styles.icon} name={image} />
