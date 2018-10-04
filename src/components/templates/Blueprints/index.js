@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { cloneDeep, get, set } from 'lodash'
-import { Sidebar, FooterMarkdown } from 'components/organisms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
-import { ContainerMarkdown, Flex } from 'components/atoms'
+import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
+import { graphql } from 'gatsby'
+import { cloneDeep, get, set } from 'lodash'
+import React, { Component } from 'react'
 import { Grid } from 'reakit'
+import styles from './styles.module.scss'
+import MediaQuery from 'react-responsive'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -16,10 +17,11 @@ function upsertAtPath(path, value, obj) {
 	return obj
 }
 
-const template = `
-	"sidebar main" auto / 18rem 1fr
-`;
 export default class Blueprints extends Component {
+	state = {
+		mobileSidebarVisible: false,
+	}
+
 	buildSidebarTree(markdownNodes) {
 		const sidebarTree = markdownNodes.edges.reduce((currentTree, currentValue) => {
 			const slug = currentValue.node.fields.slug
@@ -43,33 +45,102 @@ export default class Blueprints extends Component {
 		return sidebarTree
 	}
 
+	toggleMobileSidebarVisibility = () => {
+		console.log('toggle')
+		this.setState(state => {
+			return { mobileSidebarVisible: !state.mobileSidebarVisible }
+		})
+	}
+
 	render() {
 		const post = this.props.data.markdownRemark
 		const markdown = this.props.data.allMarkdownRemark
 
 		const sidebarTree = this.buildSidebarTree(markdown)
-
+		console.log('render')
 		return (
 			<PrivatePage
 				message="You must be a Liferay Employee to view this page"
 				section="Blueprints"
 			>
 				<div className={styles.sans}>
-					<Grid template={template} className={styles.mainContentWrapper}>
-						<Sidebar path={this.props.location.pathname} tree={sidebarTree} />
-						<ContainerMarkdown>
-							<Flex justify="space-between" align="baseline" className={styles.header}>
-								<h1>{post.frontmatter.title}</h1>
-								<AuthContainer />
-							</Flex>
-							<div className={styles.body}
-								dangerouslySetInnerHTML={{
-									__html: post.html,
-								}}
-							/>
-							<FooterMarkdown light />
-						</ContainerMarkdown>
-					</Grid>
+					<MediaQuery maxWidth={767}>
+						{matches => {
+							console.log('render')
+							return (
+								<Grid
+									template={
+										matches
+											? `"sidebar main" auto / ${
+													this.state.mobileSidebarVisible
+														? '1fr 0'
+														: '0 1fr'
+											  }`
+											: `"sidebar main" auto / 18rem 1fr`
+									}
+									className={styles.mainContentWrapper}
+								>
+									{matches && (
+										<Flex
+											background="#f7f8f9"
+											className={styles.mobileNavbar}
+											justify="space-between"
+											padding="2rem 1.5rem"
+										>
+											<SiteName section="Blueprints" dark />
+											<AuthContainer />
+										</Flex>
+									)}
+
+									<Sidebar
+										path={this.props.location.pathname}
+										tree={sidebarTree}
+									/>
+
+									<ContainerMarkdown>
+										<Flex
+											justify="space-between"
+											align="baseline"
+											className={styles.header}
+										>
+											<h1>{post.frontmatter.title}</h1>
+
+											{!matches && <AuthContainer />}
+										</Flex>
+
+										<div
+											className={styles.body}
+											dangerouslySetInnerHTML={{
+												__html: post.html,
+											}}
+										/>
+
+										<FooterMarkdown light />
+
+										<Flex
+											align="center"
+											className={styles.mobileMenuBar}
+											justify="space-between"
+										>
+											<Icon margin="0" name="logoDark" />
+
+											<Flex
+												onClick={
+													this.toggleMobileSidebarVisibility
+												}
+											>
+												{this.state.mobileSidebarVisible ? (
+													<Icon name="close" />
+												) : (
+													<Text color="white">Menu</Text>
+												)}
+											</Flex>
+										</Flex>
+									</ContainerMarkdown>
+								</Grid>
+							)
+						}}
+					</MediaQuery>
 				</div>
 			</PrivatePage>
 		)

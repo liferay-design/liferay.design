@@ -27,3 +27,22 @@
 }
 
 //.sidebar styles are scoped to the component — is this the best?
+.mobileMenuBar {
+	background: $black;
+	bottom: 0;
+	display: none !important;
+	left: 0;
+	padding: 1.5rem;
+	position: fixed;
+	right: 0;
+
+	> div {
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.mobileMenuBar {
+		display: flex !important;
+	}
+}

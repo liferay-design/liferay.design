@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import { Grid } from 'reakit'
-import { Flex, SiteName } from 'components/atoms'
+import { SiteName } from 'components/atoms'
 import { Accordion, SiteCredits } from 'components/molecules'
 import { map } from 'lodash'
 import { Link } from 'gatsby'
+import MediaQuery from 'react-responsive'
 
 const SidebarContent = ({ path, tree }) => {
 	return map(tree, node => {
@@ -36,12 +37,13 @@ const SidebarContent = ({ path, tree }) => {
 
 export default class SidebarWrapper extends Component {
 	render() {
-		return ( 
+		return (
 			<Grid columns="1fr" rows="12rem auto 8rem" className={styles.sidebar}>
-				<Grid.Item>
-					<SiteName section="Blueprints" dark />
-				</Grid.Item>
-
+				<MediaQuery minWidth={768}>
+					<Grid.Item>
+						<SiteName section="Blueprints" dark />
+					</Grid.Item>
+				</MediaQuery>
 				<Grid.Item className={styles.sidebarContentWrapper}>
 					<SidebarContent path={this.props.path} tree={this.props.tree} />
 				</Grid.Item>
@@ -49,6 +51,6 @@ export default class SidebarWrapper extends Component {
 					<SiteCredits />
 				</Grid.Item>
 			</Grid>
-			)
+		)
 	}
 }
