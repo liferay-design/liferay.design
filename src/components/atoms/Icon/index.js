@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { colors } from 'theme'
-import IconsObject from '../Icons'
+import IconsObject from './icons'
 
-const Icon = ({ className, fill, height, width, name, style, padding, rotate }) => {
+const Icon = ({ className, fill, height, width, name, style, margin, rotate }) => {
 	const styles = {
 		...style,
 		fill: colors[fill],
 		height,
-		padding,
+		margin,
 		width,
 	}
 
@@ -33,14 +33,12 @@ Icon.propTypes = {
 	width: PropTypes.string,
 	name: PropTypes.string.isRequired,
 	style: PropTypes.object,
-	padding: PropTypes.string,
+	margin: PropTypes.string,
 	rotate: PropTypes.number,
 }
 
 Icon.defaultProps = {
-	padding: '4px',
-	height: '32px',
-	width: '32px',
+	margin: '4px',
 }
 
 export default Icon
