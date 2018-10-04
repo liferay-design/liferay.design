@@ -57,7 +57,7 @@ const Blueprints = () => (
 					<Grid.Item area="tlc">
 						<Link className={styles.cardLink} to="/blueprints/about">
 							<Card className={styles.card}>
-								<Icon padding="2.5rem 0 .5rem" name="whyBlueprints" />
+								<Icon margin="2.5rem 0 .5rem" name="whyBlueprints" />
 								<CardTitle
 									className={styles.cardTitle}
 									title="Why Blueprints"
@@ -66,9 +66,7 @@ const Blueprints = () => (
 									A single source of truth for Liferay so that we can go
 									far, together.
 								</CardText>
-								<CardText className={styles.arrow}>
-									Read More
-								</CardText>
+								<CardText className={styles.arrow}>Read More</CardText>
 							</Card>
 						</Link>
 					</Grid.Item>
@@ -78,7 +76,7 @@ const Blueprints = () => (
 							to="/blueprints/resources/logo-files"
 						>
 							<Card className={styles.card}>
-								<Icon padding="2.5rem 0 .5rem" name="logos" />
+								<Icon margin="2.5rem 0 .5rem" name="logos" />
 								<CardTitle
 									className={styles.cardTitle}
 									title="Just the Logos, Please"
@@ -87,16 +85,14 @@ const Blueprints = () => (
 									We know what you’re looking for, and we respect that.
 									That's why this is at the top of the page.
 								</CardText>
-								<CardText className={styles.arrow}>
-									Waffle Time
-								</CardText>
+								<CardText className={styles.arrow}>Waffle Time</CardText>
 							</Card>
 						</Link>
 					</Grid.Item>
 					<Grid.Item area="m">
 						<Link className={styles.cardLink} to="/blueprints/resources">
 							<WideCard className={styles.card}>
-								<Icon padding="3.5rem 6.25rem .5rem" name="resources" />
+								<Icon margin="3.5rem 6.25rem .5rem" name="resources" />
 								<Flex align="flex-start" direction="column">
 									<CardTitle
 										className={styles.cardTitle}
@@ -106,9 +102,7 @@ const Blueprints = () => (
 										The reason you've come to this site&mdash;logos,
 										colors, fonts, images&mdash;get it all right here!
 									</CardText>
-									<CardText className={styles.arrow}>
-										Get 'Em
-									</CardText>
+									<CardText className={styles.arrow}>Get 'Em</CardText>
 								</Flex>
 							</WideCard>
 						</Link>
@@ -116,7 +110,7 @@ const Blueprints = () => (
 					<Grid.Item area="blc">
 						<Link className={styles.cardLink} to="/blueprints/faqs">
 							<Card className={styles.card}>
-								<Icon padding="2.5rem 0 .5rem" name="faqs" />
+								<Icon margin="2.5rem 0 .5rem" name="faqs" />
 								<CardTitle className={styles.cardTitle} title="FAQ" />
 								<CardText component="p" className={styles.cardText}>
 									Have a question? We have frequently given answers.
@@ -130,7 +124,7 @@ const Blueprints = () => (
 					<Grid.Item area="brc">
 						<Link className={styles.cardLink} to="/team">
 							<Card className={styles.card}>
-								<Icon padding="2.5rem 0 .5rem" name="liferayDesign" />
+								<Icon margin="2.5rem 0 .5rem" name="liferayDesign" />
 								<CardTitle
 									className={styles.cardTitle}
 									title="Liferay.Design"
@@ -165,23 +159,25 @@ const Blueprints = () => (
 				</Grid>
 			</div>
 		</div>
-		<Billboard
-			image="jira"
-			heading="Need something?"
-			Subtitle={() => (
-				<Text size="large">
-					Head over to Jira and{' '}
-					<a
-						href="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17"
-						target="_blank"
-					>
-						create an issue
-					</a>
-					!
-				</Text>
-			)}
-			background="/images/home/blueprints-bg.svg"
-		/>
+		<div className={styles.billboard}>
+			<Billboard
+				image="jira"
+				heading="Need something?"
+				Subtitle={() => (
+					<Text size="large">
+						Head over to Jira and{' '}
+						<a
+							href="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17"
+							target="_blank"
+						>
+							create an issue
+						</a>
+						!
+					</Text>
+				)}
+				background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg)"
+			/>
+		</div>
 		<Footer />
 	</div>
 )

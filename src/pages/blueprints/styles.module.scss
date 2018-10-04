@@ -27,6 +27,10 @@
 	}
 }
 
+.billboard {
+	margin-top: -($spacingBase * 2);
+}
+
 .teasers > div:nth-child(-n + 3) {
 	margin-top: -$spacingMedium * 2;
 }
@@ -86,7 +90,6 @@ a.card-link {
 	border-bottom: $fontSizeSmall solid $white;
 	border-radius: $fontSizeSmall;
 	box-shadow: 4px 6px 36px rgba(48, 49, 63, 0.15);
-	margin-bottom: 2rem;
 	padding: 1rem;
 	min-height: 100%;
 	transition: all 0.4s;
@@ -157,7 +160,6 @@ a.card-link {
 	width: $spacingMedium;
 	display: flex;
 	margin: $spacingSmall $spacingXSmall;
-	padding-top: 0.3em;
 	justify-content: center;
 	align-items: center;
 	background: $lightestGrey;
