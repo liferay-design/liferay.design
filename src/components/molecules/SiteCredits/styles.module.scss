@@ -1,0 +1,13 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+.credits a {
+	font-weight: $fontWeightHeavy;
+	// color: $white;
+}
+
+.credits span {
+	font-weight: $fontWeightLight;
+	color: $blueprintsSecondary;
+	padding-bottom: 1rem;
+}

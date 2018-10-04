@@ -1,4 +1,22 @@
+@import 'theme/variables.scss';
+
 .markdownContainer {
 	margin-bottom: auto;
 	padding: 6rem 3rem;
+	background: white;
+}
+
+.wrapper {
+	max-width: 77ch;
+	margin: 0 auto;
+}
+
+.wrapper p {
+	font-family: $fontFamilySecondary;
+	font-size: $fontSizeMedium;
+	font-weight: $fontWeightRegular;
+	color: $darkGrey;
+	margin-bottom: 1rem;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
 }

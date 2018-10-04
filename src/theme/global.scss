@@ -1,13 +1,47 @@
+// @import '~theme/reset';
 @import '~theme/variables';
+@import '~react-md/src/scss/react-md';
+
+// Liferay.Design Theme (overrides)
+$md-font-family: $fontFamilyPrimary;
+$md-font-regular: $fontWeightHeavy;
+
+$md-primary-color: $primary;
+$md-secondary-color: $secondary;
+
+$md-light-theme: false;
+$md-typography-extended: false;
+
+@include react-md-everything;
 
 html,
 body {
 	height: 100%;
-}
-
-body {
+	background-attachment: fixed;
+	background-color: $black;
+	background-image: url(/images/diamond-bar-topography.png);
+	background-repeat: no-repeat repeat;
+	background-size: 100%;
+	font-size: 16px;
 	font-family: $fontFamilyPrimary;
 	margin: 0;
+	overflow-x: hidden;
+	::selection {
+		background: #05f;
+		color: #fff;
+	}
+	::-moz-selection {
+		background: #05f;
+		color: #fff;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	object-fit: cover;
 }
 
 .logo-usage {

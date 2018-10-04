@@ -1,0 +1,48 @@
+@import '~theme/variables';
+
+.entry a {
+	&:hover {
+		color: $white;
+		transition: color 0.4s ease-out;
+		&::after {
+			transition: transform 0.2s ease;
+			transform: scaleX(1);
+		}
+	}
+
+	&.selected {
+		border-bottom: 1px solid $black;
+
+		.entry a {
+			color: $white;
+		}
+	}
+}
+
+.entry a {
+	color: $grey;
+	margin: 0;
+	padding: $spacingSmall;
+	position: relative;
+	font-size: $fontSizeSmall;
+	transition: color 0.2s ease-out;
+	&::after {
+		background: $white;
+		bottom: 0;
+		content: '';
+		right: $spacingSmall;
+		position: absolute;
+		height: 3px;
+		transition: transform 0.4s ease;
+		transform-origin: right;
+		transform: scaleX(0);
+		width: $spacingBase;
+	}
+	&:last-child {
+		padding: $spacingSmall 0 $spacingSmall $spacingBase;
+		&::after {
+			right: 0;
+			background: $primary;
+		}
+	}
+}

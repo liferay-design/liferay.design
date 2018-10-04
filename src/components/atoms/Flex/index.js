@@ -12,6 +12,7 @@ const Flexbox = ({
 	children,
 	name,
 	width,
+	height,
 }) => {
 	const styles = {
 		boxSizing: 'border-box',
@@ -22,6 +23,7 @@ const Flexbox = ({
 		alignItems: align,
 		flexWrap,
 		width,
+		height,
 	}
 
 	return (
@@ -47,6 +49,7 @@ Flexbox.propTypes = {
 	flexWrap: PropTypes.string,
 	name: PropTypes.string,
 	width: PropTypes.string,
+	height: PropTypes.string,
 }
 
 export default Flexbox

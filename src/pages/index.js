@@ -1,12 +1,14 @@
 import React from 'react'
 import { MainLayout } from 'components/templates'
 import { HeroBanner, Posts } from 'components/organisms'
+import { Container } from 'components/atoms'
 
 const Home = () => (
-	<MainLayout section="Design">
+	<MainLayout>
 		<HeroBanner />
-
-		<Posts />
+		<Container>
+			<Posts />
+		</Container>
 	</MainLayout>
 )
 

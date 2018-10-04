@@ -1,4 +1,12 @@
-.markdownContainer {
-	margin-bottom: auto;
-	padding: 6rem 3rem;
+@import '~theme/variables';
+
+.sans {
+	font-family: $fontFamilySecondary;
 }
+
+.mainContentWrapper {
+	background: $white;
+	min-height: 100vh;
+}
+
+//.sidebar styles are scoped to the component — is this the best?

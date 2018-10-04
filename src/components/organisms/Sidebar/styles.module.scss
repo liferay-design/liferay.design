@@ -1,30 +1,59 @@
-.sidebar {
-	background: #f7f8f9;
-	padding: 5rem 1rem;
-	box-shadow: rgba(34, 36, 38, 0.15) 0px 0px 20px;
-	width: 20rem;
+@import '~theme/variables';
+@import '~theme/blueprints';
 
-	aside {
-		padding-top: 5rem;
-		width: 100%;
+.sidebar {
+	background: $neutral9;
+	grid-area: sidebar;
+	height: 100%;
+	max-height: 100vh;
+	position: sticky;
+	top: 0;
+	list-style: none;
+
+	> div:first-child {
+		padding: $spacingMedium $spacingBase;
 	}
 
-	a > section {
-		margin-top: 0.5rem !important;
+	> ul {
+		padding-left: 0;
+	}
 
-		&:hover {
-			background: rgba(0, 0, 0, 0.05) !important;
-			color: rgba(0, 0, 0, 0.95) !important;
-		}
+	ul > div > a > li,
+	ul > div > ul {
+		padding-left: $spacingSmall;
 	}
 }
 
-.sidebar-content {
+.first-level-node {
+	font-weight: 600 !important;
+}
+
+.sidebar-content-wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	padding: $spacingSmall;
+}
 
-	nav {
-		margin: 0 0.3rem;
+.credits {
+	padding: $spacingBase;
+}
+
+.leaf-link {
+	border-radius: 4px;
+	font-weight: $fontWeightRegular;
+	padding: 0.55rem $spacingSmall;
+	position: relative;
+
+	&:hover,
+	&.active {
+		background-color: $neutral8;
+	}
+
+	&:hover {
+		color: $black;
+	}
+
+	&.active {
+		font-weight: $fontWeightHeavy;
 	}
 }

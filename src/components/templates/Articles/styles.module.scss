@@ -1,0 +1,114 @@
+@import 'theme/variables.scss';
+
+.banner {
+	margin: 0 auto;
+	max-width: 80rem;
+	width: 100%;
+	padding: 3rem 1rem 3rem;
+	// padding-top: $spacingLarge;
+	height: 40vh;
+	max-height: $screenMedium;
+	position: relative;
+	h1 {
+		order: 2;
+		font-size: $fontSizeDisplay;
+		line-height: 0.9;
+		color: $white;
+		z-index: 2;
+		font-weight: $fontWeightHeavy;
+		box-shadow: $elevation1;
+		span {
+			position: absolute;
+			display: block;
+			font-size: $fontSizeBase;
+			color: $grey;
+			line-height: 2;
+			top: 50vh;
+			margin-left: 1ch;
+		}
+	}
+	.role {
+		width: 100px;
+		h2 {
+			transform: translateX(-$spacingLarge) rotate(-90deg);
+			font-weight: $fontWeightHeavy;
+			font-size: $fontSizeXSmall;
+			text-transform: uppercase;
+			color: $grey;
+			letter-spacing: 0.5ch;
+			width: 35ch;
+			text-align: center;
+		}
+	}
+	// img {
+	// 	height: 80vh;
+	// 	max-height: $screenMedium;
+	// 	font-size: $fontSizeMedium;
+	// 	font-family: $fontFamilySecondary;
+	// 	width: 70vh;
+	// 	max-width: 68ch;
+	// 	z-index: 1;
+	// 	box-shadow: $elevation2;
+	// }
+}
+
+a {
+	color: inherit;
+	font-weight: $fontWeightBlack;
+	&:hover {
+		color: $primary;
+	}
+}
+
+.markdownContainer {
+	margin-bottom: auto;
+	padding: 6rem 3rem;
+	font-family: $fontFamilySecondary;
+	background: white;
+}
+
+.wrapper {
+	max-width: 68ch;
+	margin: $spacingLarge auto 0;
+
+	p {
+		font-size: $fontSizeMedium;
+		font-weight: $fontWeightRegular;
+		color: $darkGrey;
+		margin-bottom: 1rem;
+		-webkit-font-smoothing: antialiased !important;
+		-moz-osx-font-smoothing: grayscale !important;
+		img {
+			margin-left: -40%;
+			width: 180%;
+		}
+		img + strong {
+			text-transform: uppercase;
+			letter-spacing: 0.5ch;
+			font-weight: $fontWeightHeavy;
+			color: $grey;
+			font-size: $fontSizeSmall;
+			transform: translate(80%, -$spacingXLarge) rotate(90deg);
+			display: block;
+		}
+		// img + strong {
+		// 	font-style: italic;
+		// 	font-weight: $fontWeightHeavy;
+		// 	color: $grey;
+		// 	font-size: $fontSizeSmall;
+		// 	display: block;
+		// }
+	}
+
+	h3 {
+		margin-top: $spacingMedium * 2;
+		// font-size: $fontSizeXLarge;
+		&:first-child {
+			margin-top: $spacingSmall;
+		}
+	}
+
+	img {
+		width: 100%;
+	}
+}

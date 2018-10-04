@@ -1,0 +1,33 @@
+@import '~theme/variables';
+
+// Light footer i.e. white backgound
+footer.light {
+	background-color: $white;
+	color: $black;
+	svg {
+		fill: $grey;
+	}
+	span {
+		color: $darkGrey;
+	}
+	a {
+		color: $darkGrey;
+	}
+}
+
+// Dark footer i.e. dark background
+footer.dark {
+	color: $white;
+	svg {
+		fill: $white;
+	}
+}
+
+footer {
+	padding-top: $spacingMedium;
+}
+
+.textContainer {
+	border-top: solid 2px $lightestGrey;
+	padding: $spacingSmall 0 10vh;
+}

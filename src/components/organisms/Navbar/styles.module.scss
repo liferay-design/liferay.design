@@ -1,80 +1,31 @@
 @import '~theme/variables';
 
-.container {
+nav {
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 2rem;
-	width: 100%;
-	height: 5rem;
 	z-index: 1000;
 	position: relative;
-
-	h2 {
-		margin: 0;
-	}
-
-	.cool-link {
-		color: red !important;
+	a {
+		text-decoration: none;
 	}
 }
 
-.entry {
-	&:hover .entry-label {
+nav.white {
+	color: $white;
+
+	a {
+		&:after {
+			background: $white !important;
+		}
+		&:hover {
+			color: $lightGrey;
+			&:after {
+				background: $lightGrey !important;
+			}
+		}
+	}
+	div > a {
 		color: $white;
-		transition: color 0.4s ease-out;
-		&::after {
-			transition: transform 0.2s ease;
-			transform: scaleX(1);
-		}
-	}
-
-	&.selected {
-		border-bottom: 1px solid $black;
-
-		.entry-label {
-			color: $white;
-		}
-	}
-}
-
-.entry-label {
-	color: $secondary;
-	margin: 0;
-	padding: 8px 0;
-	position: relative;
-	text-transform: capitalize;
-	transition: color 0.2s ease-out;
-	&::after {
-		background: $black;
-		bottom: 0;
-		content: '';
-		left: 0;
-		position: absolute;
-		height: 1px;
-		transition: transform 0.4s ease;
-		transform: scaleX(0);
-		width: 100%;
-	}
-}
-
-.entry-link {
-	display: block;
-	text-decoration: none;
-}
-
-.siteName {
-	padding-bottom: 0;
-	line-height: 1.6;
-	&:after {
-		content: '';
-		width: 20px;
-		height: 3px;
-		background: $primary;
-		display: block;
-		margin-top: 1rem;
-	}
-	@media screen and (max-width: $screenSmall) {
-		position: initial;
 	}
 }

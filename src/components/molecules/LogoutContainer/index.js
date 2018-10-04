@@ -1,36 +1,42 @@
 import React, { Component } from 'react'
-import { Button, Image, Transition } from 'semantic-ui-react'
+import { Button, Avatar, Collapse, Paper } from 'react-md'
 import styles from './styles.module.scss'
 
 export default class LogoutContainer extends Component {
-	state = {
-		dropdownOpen: false,
-	}
+	state = { collapsed: true, panel: [] }
 
-	toggleDropdown = () => this.setState({ dropdownOpen: !this.state.dropdownOpen })
-
-	render() {
+	componentWillMount() {
+		this.setState({
+		  collapsed: true,
+		  panel: [],
+		});
+	  }
+	
+	  toggle = () => {
+		this.setState({ collapsed: !this.state.collapsed });
+	  };
+	
+	  render() {
+		const { collapsed, panel } = this.state;
+	
 		return (
-			<div className={styles.logoutContainer} onClick={this.toggleDropdown}>
-				<Image src={this.props.user.avatar} avatar />
-
-				<Transition visible={this.state.dropdownOpen} animation="scale">
-					<div>
-						<div className={styles.profile}>
-							<Image src={this.props.user.avatar} avatar size="tiny" />
-
-							<div>
-								<span>{this.props.user.name}</span>
-								<span>{this.props.user.email}</span>
-
-								<Button primary onClick={this.props.onClick}>
-									Sign Out
-								</Button>
-							</div>
-						</div>
-					</div>
-				</Transition>
+		  <div>
+			<div className={styles.logoutContainer} onClick={this.toggle}>
+				<Avatar src={this.props.user.avatar} role="presentation" />
 			</div>
-		)
+			<Collapse collapsed={collapsed}>
+					<Paper className={styles.profile}>
+						<div>
+							<span>{this.props.user.name}</span>
+							<span>{this.props.user.email}</span>
+
+							<Button flat onClick={this.props.onClick}>
+								Sign Out
+							</Button>
+						</div>
+					</Paper>
+				</Collapse>
+		  </div>
+		);
+	  }
 	}
-}

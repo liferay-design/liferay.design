@@ -1,0 +1,53 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+
+a.card-link {
+	color: inherit;
+}
+
+.card {
+	text-align: center;
+	background-color: $white;
+	border-bottom: $fontSizeSmall solid $white;
+	border-radius: $fontSizeSmall;
+	box-shadow: 4px 6px 36px rgba(48, 49, 63, 0.15);
+	margin-bottom: 2rem;
+	padding: 1rem;
+	min-height: 100%;
+	transition: all 0.4s;
+	&:hover {
+		background-color: $neutral9;
+		border-color: $brandDark;
+		box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
+		transform: translateY(-3px);
+	}
+	.card-body {
+		padding: 32px;
+	}
+	.arrow {
+		display: flex;
+		justify-content: center;
+		font-size: 12px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		font-weight: 900;
+		align-items: center;
+	}
+	.cardTitle {
+		justify-content: center;
+		padding: 2rem 1rem 0;
+		h2 {
+			color: $darkGrey;
+			font-weight: $fontWeightBlack;
+			font-size: 21px;
+			line-height: 1.6;
+		}
+	}
+	p.cardText {
+		font-weight: $fontWeightRegular;
+		color: #a1a3b6;
+		font-size: 18px;
+		line-height: 1.6;
+	}
+}

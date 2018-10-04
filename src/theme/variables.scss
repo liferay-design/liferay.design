@@ -10,6 +10,9 @@ $black: #1c1b1b;
 $lightGrey: #c0c0c0;
 $lightestGrey: #e7e7e7;
 
+// blueprints
+$brandDark: #204589;
+
 /* ---------- Global sizes ---------- */
 
 $globalHeaderHeight: 131px;
@@ -17,6 +20,7 @@ $globalHeaderHeight: 131px;
 /* ---------- Font family ---------- */
 
 $fontFamilyPrimary: 'Source Code Pro', 'Menlo', monospace;
+$fontFamilySecondary: 'Source Sans Pro', Tahoma, 'Trebuchet MS', sans-serif;
 
 /* ---------- Font sizes ---------- */
 
@@ -27,26 +31,34 @@ $fontSizeMedium: 1.2rem;
 $fontSizeLarge: 1.8rem;
 $fontSizeXLarge: 2.2rem;
 $fontSizeXXLarge: 3rem;
+$fontSizeDisplay: 5rem;
 
 /* ---------- Font weights ---------- */
 
-$fontWeightLight: 200;
+$fontWeightLight: 300;
 $fontWeightRegular: 400;
-$fontWeightHeavy: 500;
+$fontWeightHeavy: 600;
 $fontWeightBlack: 700;
 
 /* ---------- Padding & Margin ---------- */
 
 $spacingXSmall: 0.4rem;
 $spacingSmall: 1rem;
+$spacingBase: 2rem;
 $spacingMedium: 3rem;
 $spacingLarge: 8rem;
 $spacingXLarge: 16rem;
 $spacingXXLarge: 32rem;
 
+/* ---------- Elevations & Shadows ---------- */
+
+$elevation1: 0 0.1rem 3rem rgba(28, 27, 27, 0.2);
+$elevation2: 0 0.5rem 5rem -1rem rgba(0, 0, 0, 0.8);
+$elevation3: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.95);
+
 /* ---------- Screen Sizes ---------- */
 
-$screenSmall: 400px;
-$screenMedium: 800px;
-$screenLarge: 1200px;
-$screenXLarge: 2000px;
+$screenSmall: 28rem;
+$screenMedium: 48rem;
+$screenLarge: 80rem;
+$screenXLarge: 120rem;

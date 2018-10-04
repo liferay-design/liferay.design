@@ -1,19 +1,24 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Menu } from 'semantic-ui-react'
-import { Accordion } from 'components/molecules'
+import { Grid } from 'reakit'
+import { Flex, SiteName } from 'components/atoms'
+import { Accordion, SiteCredits } from 'components/molecules'
 import { map } from 'lodash'
 import { Link } from 'gatsby'
-import Sidebar from 'react-sidebar'
 
 const SidebarContent = ({ path, tree }) => {
 	return map(tree, node => {
+		const className = `${styles.leafLink} ${
+			node.slug === path ? styles.active : ''
+		} ${node.firstLevel ? styles.firstLevelNode : ''}`
+
 		if (node.hasOwnProperty('children')) {
 			return (
 				<Accordion
+					className={className}
 					key={node.title}
-					slug={node.slug}
-					path={path}
+					link={node.slug}
+					open={path.includes(node.title.toLowerCase())}
 					title={node.title}
 				>
 					<SidebarContent path={path} tree={node.children} />
@@ -22,55 +27,28 @@ const SidebarContent = ({ path, tree }) => {
 		}
 
 		return (
-			<Link key={node.title} to={node.slug}>
-				<Menu.Item active={node.slug === path} as="section" name={node.title} />
+			<Link className={className} key={node.title} to={node.slug}>
+				{node.title}
 			</Link>
 		)
 	})
 }
 
 export default class SidebarWrapper extends Component {
-	state = {
-		sidebarDocked: false,
-		sidebarOpen: false,
-	}
-
-	componentDidMount() {
-		this.mql = window.matchMedia(`(min-width: 800px)`)
-
-		this.mql.addListener(this.mediaQueryChanged)
-
-		this.setState({ sidebarDocked: this.mql.matches })
-	}
-
-	componentWillUnmount() {
-		this.mql.removeListener(this.mediaQueryChanged)
-	}
-
-	onSetSidebarOpen = open => {
-		this.setState({ sidebarOpen: open })
-	}
-
-	mediaQueryChanged = () => {
-		this.setState({ sidebarDocked: this.mql.matches, sidebarOpen: false })
-	}
-
 	render() {
-		return (
-			<Sidebar
-				sidebar={
-					<Menu as="aside" secondary vertical size="large">
-						<SidebarContent path={this.props.path} tree={this.props.tree} />
-					</Menu>
-				}
-				contentClassName={styles.sidebarContent}
-				sidebarClassName={styles.sidebar}
-				open={this.state.sidebarOpen}
-				docked={this.state.sidebarDocked}
-				onSetOpen={this.onSetSidebarOpen}
-			>
-				{this.props.children}
-			</Sidebar>
-		)
+		return ( 
+			<Grid columns="1fr" rows="12rem auto 8rem" className={styles.sidebar}>
+				<Grid.Item>
+					<SiteName section="Blueprints" dark />
+				</Grid.Item>
+
+				<Grid.Item className={styles.sidebarContentWrapper}>
+					<SidebarContent path={this.props.path} tree={this.props.tree} />
+				</Grid.Item>
+				<Grid.Item className={styles.credits}>
+					<SiteCredits />
+				</Grid.Item>
+			</Grid>
+			)
 	}
 }

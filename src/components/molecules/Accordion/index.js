@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import styles from './styles.module.scss'
-import { Icon, Menu, Transition } from 'semantic-ui-react'
+import { Icon } from 'components/atoms'
 
 export default class Accordion extends Component {
-	state = {
-		showChildren: false,
+	constructor(props) {
+		super(props)
+
+		this.state = {
+			showChildren: props.open,
+		}
 	}
 
 	toggleVisibility = () => {
@@ -13,30 +17,28 @@ export default class Accordion extends Component {
 	}
 
 	render() {
-		const IconRotatedProp = this.state.showChildren ? { rotated: 'clockwise' } : {}
-
 		return (
-			<div className={styles.accordion}>
-				<Link to={this.props.slug}>
-					<Menu.Item
-						active={this.props.slug === this.props.path}
-						as="section"
-						onClick={this.toggleVisibility}
-					>
+			<ul className={styles.accordion}>
+				<Link onClick={this.toggleVisibility} to={this.props.link}>
+					<span className={`${this.props.className}`}>
 						{this.props.title}
 
-						<Icon name="triangle right" {...IconRotatedProp} />
-					</Menu.Item>
+						{this.state.showChildren ? (
+							<Icon name="keyboardArrowRight" rotate={90} />
+						) : (
+							<Icon name="keyboardArrowRight" />
+						)}
+					</span>
 				</Link>
 
-				<Transition
-					animation="horizontal flip"
-					duration={200}
-					visible={this.state.showChildren}
+				<div
+					className={`${styles.childrenContainer} ${
+						this.state.showChildren ? styles.visible : styles.hidden
+					}`}
 				>
-					<div className={styles.childrenContainer}>{this.props.children}</div>
-				</Transition>
-			</div>
+					{this.props.children}
+				</div>
+			</ul>
 		)
 	}
 }

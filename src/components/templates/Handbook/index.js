@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { cloneDeep, get, set } from 'lodash'
+import { Flex } from 'components/atoms'
 import { Sidebar, Footer, Navbar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
 
@@ -44,22 +45,20 @@ export default class Handbook extends Component {
 				message="You must be a Liferay Employee to view this page"
 				section="Handbook"
 			>
-				<Sidebar path={this.props.location.pathname} tree={sidebarTree}>
-					<Navbar section="Handbook" />
+				<Navbar section="Handbook" />
+				{/* <Sidebar path={this.props.location.pathname} tree={sidebarTree}/> */}
 
-					<div className={styles.markdownContainer}>
+				<div className={styles.markdownContainer}>
+					<Flex direction="column" className={styles.wrapper}>
 						<h1>{post.frontmatter.title}</h1>
-
-						<h2>Handbook</h2>
-
 						<div
 							dangerouslySetInnerHTML={{
 								__html: post.html,
 							}}
 						/>
-					</div>
-					<Footer />
-				</Sidebar>
+					</Flex>
+				</div>
+				<Footer light />
 			</PrivatePage>
 		)
 	}

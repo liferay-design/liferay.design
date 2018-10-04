@@ -1,58 +1,46 @@
 @import '~theme/variables';
 
-a.linkContainer {
-	flex: 0 1 calc(33.33% - 4rem);
-	min-width: 30ch;
-	max-width: 480px;
-	text-decoration: none;
-	margin: 2.1rem 2rem;
-	// &:last-child {
-	// 	margin-right: calc(66.66% + 2rem);
-	// }
+.card {
+	color: $white;
+	background: $darkGrey;
+	box-shadow: 0 0.5rem 5rem -1rem rgba(0, 0, 0, 0.3);
+	height: 100%;
+	transform: translateY(0);
+	transition: all 0.15s ease-in-out;
+	width: 100%;
 	&:hover {
-		.postContainer {
-			background: $darkestGrey;
-			box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.5);
-			transform: translateY(-0.2rem);
-			transition: all 0.2s ease-in-out;
-			&:after {
-				transform: translate(0, 0);
-				transition: all 0.4s ease-in-out;
-				opacity: 1;
-			}
+		transform: translateY(-0.2rem);
+		transition: all 0.2s ease-in-out;
+		box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.5);
+		background: $darkestGrey;
+	}
+	.avatar {
+		border: none;
+		background: $darkestGrey;
+		margin: -$spacingBase 1.8rem 0;
+		height: $spacingBase * 2;
+		width: $spacingBase * 2;
+		position: absolute;
+	}
+	.copy {
+		padding: $spacingMedium $spacingBase $spacingMedium;
+		font-weight: $fontWeightHeavy;
+		.title {
+			font-size: $fontSizeMedium;
+			padding: 0;
+		}
+		.text {
+			color: $grey;
+			font-size: $fontSizeBase;
+			margin-top: $spacingSmall;
+			padding: 0;
 		}
 	}
 }
 
-@media screen and (max-width: 1152px) {
-	a.linkContainer {
-		flex-basis: calc(50% - 4rem);
-		// &:last-child {
-		// 	margin-right: calc(50% + 2rem);
-		// }
-	}
-}
+.externalLink {
+	position: relative;
 
-@media screen and (max-width: 800px) {
-	a.linkContainer {
-		flex-basis: calc(100% - 2rem);
-		margin: 1.1rem 1rem;
-		// &:last-child {
-		// 	margin-right: 2rem;
-		// }
-	}
-}
-
-.postContainer {
-	box-shadow: 0 0.5rem 5rem -1rem rgba(0, 0, 0, 0.3);
-	background: $darkGrey;
-	color: white;
-	height: 80vh;
-	max-height: 500px;
-	margin: 0;
-	min-height: 50ch;
-	transform: translateY(0);
-	transition: all 0.15s ease-in-out;
 	&:after {
 		content: url("data:image/svg+xml;charset=UTF-8, <svg width='20' height='20' xmlns='http://www.w3.org/2000/svg' version='1.1'><path d='M18 2h1.5V.5H18V2zm0 16v1.5h1.5V18H18zM2 18H.5v1.5H2V18zM2 2V.5H.5V2H2zm9.333 1.5H18v-3h-6.667v3zM16.5 2v6.667h3V2h-3zm.44-1.06l-11 11 2.12 2.12 11-11L16.94.94zm-.44 10.393V18h3v-6.667h-3zM18 16.5H2v3h16v-3zM3.5 18V2h-3v16h3zM2 3.5h6.667v-3H2v3z' fill='#fff'/></svg>");
 		position: absolute;
@@ -62,54 +50,11 @@ a.linkContainer {
 		transition: all 0.15s ease-in-out;
 		opacity: 0;
 	}
-
-	figcaption {
-		color: $grey;
-		position: relative;
-		margin: -1.5rem 0 0 0.1rem;
-	}
-
-	.postThumbnail {
-		background: $primary;
-		height: 50%;
-		width: 100%;
-		overflow: hidden;
-		//filter: grayscale(100%);
-		transition: all 0.3s ease-in-out;
-
-		img {
-			height: 100%;
-			object-fit: cover;
-			width: 100%;
-		}
-	}
-
-	.postContainer {
-		&:hover {
-			.postThumbnail {
-				//transform: scale(1);
-				transition: all 0.2s ease-in-out;
-				filter: grayscale(0);
-				opacity: 1;
-			}
-		}
-	}
-
-	.postData {
-		padding: 2rem 2rem 3rem;
-		margin-top: -4rem;
-
-		img {
-			object-fit: cover;
-			height: 4rem;
-			width: 4rem;
-			margin-left: -0.2rem;
-			background: $primary;
-			border-radius: 50%;
-		}
-
-		h2 {
-			margin: 1rem 0;
+	&:hover {
+		&:after {
+			transform: translate(0, 0);
+			transition: all 0.4s ease-in-out;
+			opacity: 1;
 		}
 	}
 }

@@ -3,22 +3,22 @@
 
 $bottomMargin: 104px;
 
-.banner {
-	background-position: 29% -22px;
-	background-size: 219%;
-	box-shadow: 0 17px 50px 0 #003a97;
-	height: 100%;
-	margin: 0 auto;
-	width: 100%;
-}
+// .banner {
+// 	background-position: 29% -22px;
+// 	background-size: 219%;
+// 	box-shadow: 0 17px 50px 0 #003a97;
+// 	height: 100%;
+// 	margin: 0 auto;
+// 	width: 100%;
+// }
 
 .container {
-	height: calc(100vh - #{$globalHeaderHeight});
+	height: 100vh;
 	margin: 0 auto;
 	min-height: 400px;
 	min-width: 360px;
 	position: relative;
-	width: calc(93vh - #{$globalHeaderHeight});
+	width: 100vw;
 	@media screen and (max-width: $screenMedium) {
 		width: calc(100vw - 2rem);
 		min-width: 300px;
@@ -26,56 +26,56 @@ $bottomMargin: 104px;
 	}
 }
 
-.header {
-	align-items: center;
-	color: $white;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	text-shadow: 0 0 2rem hsla(311, 70%, 60%, 0.5);
-	transform: translate(-50%, -50%);
-	max-width: 835px;
-	width: 85vw;
-	z-index: 100;
-	@media screen and (max-width: $screenSmall) {
-		top: 80%;
-		width: calc(100vw - 2rem);
-	}
-}
+// .header {
+// 	align-items: center;
+// 	color: $white;
+// 	left: 50%;
+// 	position: absolute;
+// 	top: 50%;
+// 	text-shadow: 0 0 2rem hsla(311, 70%, 60%, 0.5);
+// 	transform: translate(-50%, -50%);
+// 	max-width: 835px;
+// 	width: 85vw;
+// 	z-index: 100;
+// 	@media screen and (max-width: $screenSmall) {
+// 		top: 80%;
+// 		width: calc(100vw - 2rem);
+// 	}
+// }
 
-.label {
-	color: $black;
-	letter-spacing: 4px;
-	margin-bottom: 32px;
-	text-transform: uppercase;
+// .label {
+// 	color: $black;
+// 	letter-spacing: 4px;
+// 	margin-bottom: 32px;
+// 	text-transform: uppercase;
 
-	&:after {
-		background-color: $black;
-		content: '';
-		display: block;
-		height: 1px;
-		margin-top: 8px;
-		width: 16px;
-	}
-}
+// 	&:after {
+// 		background-color: $black;
+// 		content: '';
+// 		display: block;
+// 		height: 1px;
+// 		margin-top: 8px;
+// 		width: 16px;
+// 	}
+// }
 
-.primary {
-	margin-top: 1.6em;
-}
+// .primary {
+// 	margin-top: 1.6em;
+// }
 
-.secondary {
-	font-weight: $fontWeightLight;
-}
+// .secondary {
+// 	font-weight: $fontWeightLight;
+// }
 
-.tertiary {
-	letter-spacing: 8px;
-	margin: 0;
-	position: absolute;
-	right: -24px;
-	top: 50%;
-	transform: rotateZ(-90deg);
-	@media screen and (max-width: $screenMedium) {
-		right: -2.25rem;
-		top: -2%;
-	}
-}
+// .tertiary {
+// 	letter-spacing: 8px;
+// 	margin: 0;
+// 	position: absolute;
+// 	right: -24px;
+// 	top: 50%;
+// 	transform: rotateZ(-90deg);
+// 	@media screen and (max-width: $screenMedium) {
+// 		right: -2.25rem;
+// 		top: -2%;
+// 	}
+// }
