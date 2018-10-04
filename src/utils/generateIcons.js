@@ -20,7 +20,7 @@ async function convertSvgsIntoReactComponents() {
 
 		const svgComponent = await svgr(
 			svgMarkup,
-			{ icon: true },
+			{ icon: false },
 			{ componentName: svgName },
 		)
 
@@ -41,9 +41,12 @@ async function convertSvgsIntoReactComponents() {
 
 	const fileWithStringFunctions = fs.readFileSync(outputFile, { encoding: 'utf8' })
 
-	const fileConvertedFunctions = fileWithStringFunctions.replace(/'/g, '')
+	const validReactFile = `
+		import React from 'react'
+		export default ${fileWithStringFunctions.replace(/'/g, '')}
+	`
 
-	fs.writeFileSync(outputFile, `export default ${fileConvertedFunctions}`)
+	fs.writeFileSync(outputFile, validReactFile)
 }
 
 convertSvgsIntoReactComponents()
