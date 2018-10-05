@@ -22,7 +22,7 @@ const Icon = ({ className, fill, height, width, name, style, margin, rotate }) =
 	return DynamicIcon ? (
 		<DynamicIcon className={className} style={styles} name={name} />
 	) : (
-		<span>Icon does not exist</span>
+		<span title="icon not found"></span>
 	)
 }
 

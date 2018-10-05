@@ -5,49 +5,54 @@ a.card-link {
 	color: inherit;
 }
 
+.card.dark {
+	color: $white !important;
+	background-color: $darkGrey;
+	border-radius: 0;
+	&:hover {
+		background-color: $darkestGrey;
+	}
+	h2 {
+		color: $white !important;
+	}
+	p.text {
+		color: $lightestGrey !important;
+	}
+}
+
 .card {
 	text-align: center;
 	background-color: $white;
-	border-bottom: $fontSizeSmall solid $white;
 	border-radius: $fontSizeSmall;
 	box-shadow: $elevation1;
-	padding: 1rem;
+	padding: $spacingMedium $spacingSmall $spacingSmall;
 	min-height: 100%;
-	height: 40vh;
-	max-height: 800px;
 	transition: all 0.4s;
 	&:hover {
-		background-color: $neutral9;
-		border-color: $brandDark;
-		box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
-		transform: translateY(-3px);
+		background-color: $lightestBlue;
+		box-shadow: $elevation2;
+		transform: translateY(-($spacingXSmall / 2));
+		p.cta {
+			color: $primary;
+		}
 	}
 	.copy {
 		padding: 32px;
 	}
-	.arrow {
-		display: flex;
-		justify-content: center;
-		font-size: 12px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		font-weight: 900;
-		align-items: center;
+	h2.title {
+		color: $darkGrey;
+		font-weight: $fontWeightBlack;
+		// margin-bottom: $fontSizeMedium;
 	}
-	.title {
-		justify-content: center;
-		padding: 2rem 1rem 0;
-		h2 {
-			color: $darkGrey;
-			font-weight: $fontWeightBlack;
-			font-size: 21px;
-			line-height: 1.6;
-		}
-	}
+
 	p.text {
 		font-weight: $fontWeightRegular;
-		color: #a1a3b6;
-		font-size: 18px;
-		line-height: 1.6;
+		color: $lightGrey;
+		font-size: $fontSizeMedium;
+		margin: 0 0 $fontSizeXLarge;
+	}
+
+	p.cta {
+		color: lighten($grey, 16%);
 	}
 }

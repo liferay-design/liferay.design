@@ -2,20 +2,25 @@ import React from 'react'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
-import { Card, CardTitle, CardText } from 'react-md'
+import { Flex, Heading, Text, Icon } from 'components/atoms'
 
-const LexiconCard = ({ title, text, cta, to }) => {
-	return (
-		<Link className={styles} to={to}>
-			<Card className={styles.card} >
+const LexiconCard = ({ title, text, cta, to, icon, dark }) => {
+	return <Link to={to}>
+			<Flex direction="column" className={`${styles.card} ${dark ? styles.dark : styles.light}`}>
 				<div className={styles.copy}>
-					<CardTitle className={styles.title} title={title}/>
-					<CardText className={styles.text} >{text}</CardText>
-					<CardText className={styles.cta}>{cta}</CardText>
+					<Icon name={icon} width="6rem" height="6rem" margin="1rem 0 2rem" />
+					<Heading level={2} className={styles.title}>
+						{title}
+					</Heading>
+					<Text type="p" size="medium" className={styles.text}>
+						{text}
+					</Text>
+					<Text type="p" size="base" weight="black" className={styles.cta}>
+						{cta}
+					</Text>
 				</div>
-			</Card>
+			</Flex>
 		</Link>
-	)
 }
 
 LexiconCard.propTypes = {
@@ -24,6 +29,7 @@ LexiconCard.propTypes = {
 	cta: PropTypes.string,
 	to: PropTypes.string,
 	styles: PropTypes.string,
+	icon: PropTypes.string,
 }
 
 export default LexiconCard
