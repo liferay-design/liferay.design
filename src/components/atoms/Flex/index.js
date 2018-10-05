@@ -5,36 +5,41 @@ import { colors } from 'theme'
 const Flexbox = ({
 	align,
 	background,
+	children,
 	className,
 	direction,
-	justify,
 	flexWrap,
-	children,
-	name,
-	width,
 	height,
+	justify,
+	name,
+	padding,
+	width,
+	...props
 }) => {
 	const styles = {
+		alignItems: align,
 		boxSizing: 'border-box',
-		backgroundColor: colors[background],
 		display: 'flex',
 		flexDirection: direction,
-		justifyContent: justify,
-		alignItems: align,
 		flexWrap,
-		width,
 		height,
+		justifyContent: justify,
+		padding,
+		width,
+	}
+
+	if (background) {
+		styles.backgroundColor = colors[background] || background
 	}
 
 	return (
-		<div className={className} id={name} name={name} style={styles}>
+		<div className={className} id={name} name={name} style={styles} {...props}>
 			{children}
 		</div>
 	)
 }
 
 Flexbox.defaultProps = {
-	background: 'transparent',
 	direction: 'row',
 	flexWrap: 'nowrap',
 }
@@ -42,14 +47,15 @@ Flexbox.defaultProps = {
 Flexbox.propTypes = {
 	align: PropTypes.string,
 	background: PropTypes.string,
-	className: PropTypes.string,
 	children: PropTypes.node.isRequired,
+	className: PropTypes.string,
 	direction: PropTypes.string,
-	justify: PropTypes.string,
 	flexWrap: PropTypes.string,
-	name: PropTypes.string,
-	width: PropTypes.string,
 	height: PropTypes.string,
+	justify: PropTypes.string,
+	name: PropTypes.string,
+	padding: PropTypes.string,
+	width: PropTypes.string,
 }
 
 export default Flexbox
