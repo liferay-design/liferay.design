@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
-import { Billboard } from 'components/molecules'
+import { Billboard, LexiconCard } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import styles from './styles.module.scss'
 import { Card, CardTitle, CardText } from 'react-md'
@@ -55,89 +55,53 @@ const Blueprints = () => (
 						</Text>
 					</Grid.Item>
 					<Grid.Item area="tlc">
-						<Link className={styles.cardLink} to="/blueprints/about">
-							<Card className={styles.card}>
-								<Icon margin="2.5rem 0 .5rem" name="whyBlueprints" />
-								<CardTitle
-									className={styles.cardTitle}
-									title="Why Blueprints"
-								/>
-								<CardText component="p" className={styles.cardText}>
-									A single source of truth for Liferay so that we can go
-									far, together.
-								</CardText>
-								<CardText className={styles.arrow}>Read More</CardText>
-							</Card>
-						</Link>
+						<LexiconCard
+							icon="whyBlueprints"
+							title="Why Blueprints"
+							text="A single source of truth for Liferay so that we can go
+									far, together."
+							to="/blueprints/about"
+							cta="Read More"
+						/>
 					</Grid.Item>
 					<Grid.Item area="trc">
-						<Link
-							className={styles.cardLink}
+						<LexiconCard
+							icon="logos"
+							title="Just the Logos, Please"
+							text="We know what you’re looking for, and we respect that.
+								That's why this is at the top of the page."
 							to="/blueprints/resources/logo-files"
-						>
-							<Card className={styles.card}>
-								<Icon margin="2.5rem 0 .5rem" name="logos" />
-								<CardTitle
-									className={styles.cardTitle}
-									title="Just the Logos, Please"
-								/>
-								<CardText component="p" className={styles.cardText}>
-									We know what you’re looking for, and we respect that.
-									That's why this is at the top of the page.
-								</CardText>
-								<CardText className={styles.arrow}>Waffle Time</CardText>
-							</Card>
-						</Link>
+							cta="Waffle Time"
+						/>
 					</Grid.Item>
 					<Grid.Item area="m">
-						<Link className={styles.cardLink} to="/blueprints/resources">
-							<WideCard className={styles.card}>
-								<Icon margin="3.5rem 6.25rem .5rem" name="resources" />
-								<Flex align="flex-start" direction="column">
-									<CardTitle
-										className={styles.cardTitle}
-										title="Resources"
-									/>
-									<CardText component="p" className={styles.cardText}>
-										The reason you've come to this site&mdash;logos,
-										colors, fonts, images&mdash;get it all right here!
-									</CardText>
-									<CardText className={styles.arrow}>Get 'Em</CardText>
-								</Flex>
-							</WideCard>
-						</Link>
+						<LexiconCard
+							icon="resources"
+							title="Resources"
+							text="The reason you've come to this site&mdash;logos,
+										colors, fonts, images&mdash;get it all right here!"
+							to="/blueprints/resources"
+							cta="Get 'Em"
+						/>
 					</Grid.Item>
 					<Grid.Item area="blc">
-						<Link className={styles.cardLink} to="/blueprints/faqs">
-							<Card className={styles.card}>
-								<Icon margin="2.5rem 0 .5rem" name="faqs" />
-								<CardTitle className={styles.cardTitle} title="FAQ" />
-								<CardText component="p" className={styles.cardText}>
-									Have a question? We have frequently given answers.
-								</CardText>
-								<CardText className={styles.arrow}>
-									Why is the Liferay Blue
-								</CardText>
-							</Card>
-						</Link>
+						<LexiconCard
+							icon="faqs"
+							title="FAQ"
+							text="Have a question? We have frequently given answers."
+							to="/blueprints/faqs"
+							cta="Why is the Liferay Blue"
+						/>
 					</Grid.Item>
 					<Grid.Item area="brc">
-						<Link className={styles.cardLink} to="/team">
-							<Card className={styles.card}>
-								<Icon margin="2.5rem 0 .5rem" name="liferayDesign" />
-								<CardTitle
-									className={styles.cardTitle}
-									title="Liferay.Design"
-								/>
-								<CardText component="p" className={styles.cardText}>
-									Shameless plug for the people behind all of this
-									stuff&mdash;see what else we're doing.
-								</CardText>
-								<CardText className={styles.arrow}>
-									Experience Liferay.Design
-								</CardText>
-							</Card>
-						</Link>
+						<LexiconCard
+							icon="liferayDesign"
+							title="Liferay.Design"
+							text="Shameless plug for the people behind all of this
+									stuff&mdash;see what else we're doing."
+							to="/team"
+							cta="Experience Liferay.Design"
+						/>
 					</Grid.Item>
 					<Grid.Item area="brg">
 						<Link

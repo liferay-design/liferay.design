@@ -14,8 +14,8 @@ const ResourcesPage = () => (
 		<Container>
 			<Grid gap="2rem" template={cardGrid}>
 				<Grid.Item area="a">
-					<LexiconCard 
-						styles="blueprints"
+					<LexiconCard dark
+						icon="whyBlueprints"
 						title="Blueprints"
 						text="Liferay's Brand Style Guidelines"
 						to="/blueprints" 
@@ -23,7 +23,8 @@ const ResourcesPage = () => (
 						/>
 					</Grid.Item>
 				<Grid.Item area="b">
-					<LexiconCard 
+					<LexiconCard dark
+						icon="lexicon"
 						title="Lexicon"
 						text="Coming Soon!"
 						to="/resources" 
@@ -31,7 +32,8 @@ const ResourcesPage = () => (
 						/>
 				</Grid.Item>
 				<Grid.Item area="c">
-					<LexiconCard 
+					<LexiconCard dark
+						// icon="liferayDesign"
 						title="Dashboard"
 						text="Coming Soon!"
 						to="/resources" 
@@ -39,7 +41,8 @@ const ResourcesPage = () => (
 						/>
 				</Grid.Item>
 				<Grid.Item area="d">
-					<LexiconCard 
+					<LexiconCard dark
+						// icon="liferayDesign"
 						title="Handbook"
 						text="Coming Soon!"
 						to="/resources" 

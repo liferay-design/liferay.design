@@ -1,6 +1,6 @@
 /* ---------- Colors ---------- */
 
-$primary: #0055ff;
+$primary: #0b5fff;
 $secondary: #95bdff;
 $darkGrey: #353638;
 $darkestGrey: #1f2123;
@@ -9,6 +9,9 @@ $white: #fff;
 $black: #1c1b1b;
 $lightGrey: #c0c0c0;
 $lightestGrey: #e7e7e7;
+
+// from lexicon
+$lightestBlue: #f2f6ff;
 
 // blueprints
 $brandDark: #204589;
@@ -52,9 +55,9 @@ $spacingXXLarge: 32rem;
 
 /* ---------- Elevations & Shadows ---------- */
 
-$elevation1: 0 0.1rem 3rem rgba(28, 27, 27, 0.2);
-$elevation2: 0 0.5rem 5rem -1rem rgba(0, 0, 0, 0.8);
-$elevation3: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.95);
+$elevation1: 0 0.1rem 3rem rgba($black, 0.08);
+$elevation2: 0 0.5rem 5rem -1rem rgba($black, 0.16);
+$elevation3: 0 0.5rem 8rem -0.5rem rgba($black, 0.16);
 
 /* ---------- Screen Sizes ---------- */
 
