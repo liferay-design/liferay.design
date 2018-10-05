@@ -10,7 +10,7 @@ const Billboard = ({ image, heading, Subtitle, background }) => {
 			className={styles.wrapper}
 			style={{ background: `${background}` }}
 		>
-			<Grid columns="20rem 30rem 1fr" areas="'icon copy gutterR'">
+			<Grid columns="1fr 20rem 30rem 1fr" areas="'gutterL icon copy gutterR'">
 				<Icon className={styles.icon} name={image} />
 
 				<div className={styles.copy}>
