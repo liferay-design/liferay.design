@@ -80,6 +80,37 @@ Where all of our react components live &mdash; atoms, molecules, organisms, temp
 
 This is where 98.3% of the site content lives &mdash; [markdown](https://www.markdownguide.org) is a lot easier to write than html 🤓.
 
+###### Using React Compoents Within a Markdown file
+
+---
+
+title: 'Logos'
+description: "Liferay's logo and product logos in all the formats you need."
+
+---
+
+import { Icon } from 'components/atoms'
+
+Before you do anything with these files, make sure you thoroughly review our [logo guidelines](/docs/guidelines/logo-usage.html)!
+
+Downloads are grouped by Digital and Print formats and include approved colors and lockups.
+
+### Corporate Mark
+
+1. Rename the file extension from `.md` to `.mdx`
+2. If you have markup in the file, you will now have to make it React friendly (change `class` to `className` and `style=""` to `style={{}}`)
+3. Import the component as normal and use it as normal :)
+
+```js
+---
+title: 'Markdown File Title'
+---
+
+<div className="aspect-ratio card-item-first" style={{background: "url('/images/logos/liferay-logo.png') center/cover"}}>
+	<Icon name="keyboardArrowDown" />
+</div>
+```
+
 ##### pages
 
 Surprise surprise, this is where the code for the main pages of [liferay.design](https://liferay.design) lives.
