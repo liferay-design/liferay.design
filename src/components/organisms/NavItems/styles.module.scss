@@ -1,25 +1,6 @@
 @import '~theme/variables';
 
 .entry a {
-	&:hover {
-		color: $white;
-		transition: color 0.4s ease-out;
-		&::after {
-			transition: transform 0.2s ease;
-			transform: scaleX(1);
-		}
-	}
-
-	&.selected {
-		border-bottom: 1px solid $black;
-
-		.entry a {
-			color: $white;
-		}
-	}
-}
-
-.entry a {
 	color: $grey;
 	margin: 0;
 	padding: $spacingSmall;
@@ -44,5 +25,24 @@
 			right: 0;
 			background: $primary;
 		}
+	}
+	&:hover {
+		color: $white;
+		transition: color 0.4s ease-out;
+		&::after {
+			transition: transform 0.2s ease;
+			transform: scaleX(1);
+		}
+	}
+
+	&.selected {
+		border-bottom: 1px solid $black;
+
+		.entry a {
+			color: $white;
+		}
+	}
+	@media screen and (max-width: $screenSmall) {
+		display: none;
 	}
 }
