@@ -1,0 +1,8 @@
+.container {
+	border-radius: 0.5rem;
+	border: 1px solid lightgray;
+
+	div:first-child {
+		border-radius: 0.5rem 0.5rem 0 0;
+	}
+}

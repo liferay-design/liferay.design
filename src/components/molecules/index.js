@@ -1,6 +1,7 @@
 import Accordion from './Accordion'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
+import ColorSwatch from './ColorSwatch'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
 import LexiconCard from './LexiconCard'
@@ -10,16 +11,17 @@ import Post from './Post'
 import SiteCredits from './SiteCredits'
 import SocialIcons from './SocialIcons'
 
-export { 
-    Accordion, 
-    AuthContainer, 
-    Billboard,
-    FeaturedPost, 
-    HeroPost, 
-    LexiconCard, 
-    LogoutContainer,  
-    Person, 
-    Post, 
-    SiteCredits, 
-    SocialIcons, 
+export {
+	Accordion,
+	AuthContainer,
+	Billboard,
+	ColorSwatch,
+	FeaturedPost,
+	HeroPost,
+	LexiconCard,
+	LogoutContainer,
+	Person,
+	Post,
+	SiteCredits,
+	SocialIcons,
 }
