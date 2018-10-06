@@ -16,7 +16,7 @@ description: "Liferay's corporate font files."
 						<div class="autofit-col autofit-col-expand">
 							<div class="card-title text-truncate" title="Color Name"><h3 style="margin-top: 16px;">Source Sans Pro</h3></div>
 							<a href="/../resources/fonts/source-sans-pro-2.020R-ro-1.075R-it.zip" target="_blank" download="source-sans-pro"><button class="btn btn-primary" type="button">Download .zip</button></a>
-                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Sans+Pro" class="" style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
+                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Sans+Pro"  style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
 							<div class="card-detail">
 							</div>
 						</div>
@@ -35,7 +35,7 @@ description: "Liferay's corporate font files."
 						<div class="autofit-col autofit-col-expand">
 							<div class="card-title text-truncate" title="Color Name"><h3 style="margin-top: 16px;">Source Han Sans</h3></div>
 							<a href="/../resources/fonts/SourceHanSans.ttc.zip" target="_blank" download="source-sans-pro"><button class="btn btn-primary" type="button">Download .zip</button></a>
-                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Han+Sans" class="" style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
+                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Han+Sans"  style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
 							<div class="card-detail">
 							</div>
 						</div>
@@ -59,7 +59,7 @@ description: "Liferay's corporate font files."
 						<div class="autofit-col autofit-col-expand">
 							<div class="card-title text-truncate" title="Color Name"><h3 style="margin-top: 16px;">Source Serif Pro</h3></div>
 							<a href="/../resources/fonts/source-serif-pro-2.000R.zip" target="_blank" download="source-sans-pro"><button class="btn btn-primary" type="button">Download .zip</button></a>
-                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Serif+Pro" class="" style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
+                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Serif+Pro" style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
 							<div class="card-detail">
 							</div>
 						</div>
@@ -78,7 +78,7 @@ description: "Liferay's corporate font files."
 						<div class="autofit-col autofit-col-expand">
 							<div class="card-title text-truncate" title="Color Name"><h3 style="margin-top: 16px;">Source Code Pro</h3></div>
 							<a href="/../resources/fonts/source-code-pro-2.030R-ro-1.050R-it.zip" target="_blank" download="source-sans-pro"><button class="btn btn-primary" type="button">Download .zip</button></a>
-                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Code+Pro" class="" style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
+                            <a target="_blank" href="https://fonts.google.com/specimen/Source+Code+Pro" style="margin: 1rem 0 1.5rem;">Use on Google Fonts</a>
 							<div class="card-detail">
 							</div>
 						</div>
