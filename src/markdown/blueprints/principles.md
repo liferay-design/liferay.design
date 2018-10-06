@@ -16,7 +16,7 @@ In preparation for this, we surveyed a small, but diverse, focus group comprised
 One of the most important takeaways from the sprint, is that we need to continue to create open and direct lines of communication with our customers. Long-term we want to be an ecosystem partner with them, anticipating and meeting their needs, making technology useful for them.
 
 <div class="slides-embed">
-    <iframe src="https://docs.google.com/a/liferay.com/presentation/d/e/2PACX-1vQFO-HEjBi2juBAEw6aqRutC1W9WOEnvfmrT606jRaEmxV2dfvX_s-CevAgK1T6Z422BPbdFszhJmtS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="818" height="489" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/a/liferay.com/presentation/d/e/2PACX-1vQFO-HEjBi2juBAEw6aqRutC1W9WOEnvfmrT606jRaEmxV2dfvX_s-CevAgK1T6Z422BPbdFszhJmtS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="818" height="489" allowfullscreen={true} mozallowfullscreen={true} webkitallowfullscreen={true}></iframe>
 </div>
 
 _If the [slides above](https://docs.google.com/presentation/d/1wG5cn9-guNCskiIlMM95JwqtgtZEzYIsi7gPNCZmqXo/edit?usp=sharing) don't render, log into your Liferay Google Account._
