@@ -1,57 +1,78 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
 	const { createNodeField } = actions
 
-	if (node.internal.type === `MarkdownRemark`) {
+	if (node.internal.type === 'Mdx') {
 		const slug = createFilePath({ node, getNode }).replace('/markdown/', '/')
 
 		createNodeField({
 			node,
-			name: `slug`,
+			name: 'slug',
 			value: slug,
+		})
+
+		createNodeField({
+			name: 'order',
+			node,
+			value: node.frontmatter.order || '',
 		})
 	}
 }
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions
 
 	return new Promise((resolve, reject) => {
-		graphql(`
-			{
-				allMarkdownRemark {
-					edges {
-						node {
-							fields {
-								slug
+		resolve(
+			graphql(`
+				query {
+					allMdx {
+						edges {
+							node {
+								id
+								fields {
+									order
+									slug
+								}
+								code {
+									scope
+								}
 							}
 						}
 					}
 				}
-			}
-		`).then(result => {
-			result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-				const template = node.fields.slug.split('/')[1]
-
-				function capFirstLetter(string) {
-					return string.charAt(0).toUpperCase() + string.slice(1)
+			`).then(({ data, errors }) => {
+				if (errors) {
+					console.log('Error creating pages in `createPages` call ==>', errors)
+					reject(errors)
 				}
 
-				createPage({
-					path: node.fields.slug,
-					component: path.resolve(
+				data.allMdx.edges.forEach(({ node }) => {
+					const template = node.fields.slug.split('/')[1]
+
+					const templateFile = path.resolve(
 						`./src/components/templates/${capFirstLetter(template)}/index.js`,
-					),
-					context: {
-						slug: node.fields.slug,
-					},
+					)
+
+					createPage({
+						path: node.fields.slug,
+						component: componentWithMDXScope(templateFile, node.code.scope),
+						context: {
+							order: node.fields.order,
+							slug: node.fields.slug,
+						},
+					})
 				})
-			})
-			resolve()
-		})
+			}),
+		)
 	})
+}
+
+function capFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1)
 }
 
 // Called after every page is created.

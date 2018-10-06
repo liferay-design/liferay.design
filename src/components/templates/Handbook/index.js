@@ -5,6 +5,7 @@ import { cloneDeep, get, set } from 'lodash'
 import { Flex } from 'components/atoms'
 import { Sidebar, Footer, Navbar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -35,8 +36,8 @@ export default class Handbook extends Component {
 	}
 
 	render() {
-		const post = this.props.data.markdownRemark
-		const markdown = this.props.data.allMarkdownRemark
+		const post = this.props.data.mdx
+		const markdown = this.props.data.allMdx
 
 		const sidebarTree = this.buildSidebarTree(markdown)
 
@@ -51,11 +52,8 @@ export default class Handbook extends Component {
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						<h1>{post.frontmatter.title}</h1>
-						<div
-							dangerouslySetInnerHTML={{
-								__html: post.html,
-							}}
-						/>
+
+						<MDXRenderer>{post.code.body}</MDXRenderer>
 					</Flex>
 				</div>
 				<Footer light />
@@ -64,9 +62,9 @@ export default class Handbook extends Component {
 	}
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
 	query($slug: String!) {
-		allMarkdownRemark(filter: { fields: { slug: { regex: "/handbook/" } } }) {
+		allMdx(filter: { fields: { slug: { regex: "/handbook/" } } }) {
 			totalCount
 			edges {
 				node {
@@ -81,10 +79,12 @@ export const query = graphql`
 			}
 		}
 
-		markdownRemark(fields: { slug: { eq: $slug } }) {
-			html
+		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
 				title
+			}
+			code {
+				body
 			}
 		}
 	}

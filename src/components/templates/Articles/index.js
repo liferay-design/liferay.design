@@ -4,19 +4,22 @@ import styles from './styles.module.scss'
 import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
 import { withPrefix } from 'gatsby'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 
 export default class Articles extends Component {
-
 	render() {
-		const post = this.props.data.markdownRemark
+		const post = this.props.data.mdx
 
-		return	<div>
+		return (
+			<div>
 				<Navbar section="Articles" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<h1>
-						{post.frontmatter.title} <span>
-							by <a href={withPrefix(post.frontmatter.authorLink)}>
+						{post.frontmatter.title}{' '}
+						<span>
+							by{' '}
+							<a href={withPrefix(post.frontmatter.authorLink)}>
 								{post.frontmatter.author}
 							</a>
 						</span>
@@ -27,23 +30,26 @@ export default class Articles extends Component {
 				</Flex>
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
-						<div dangerouslySetInnerHTML={{ __html: post.html }} />
+						<MDXRenderer>{post.code.body}</MDXRenderer>
 					</Flex>
 				</div>
 				<Footer light />
 			</div>
+		)
 	}
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
 	query($slug: String!) {
-		markdownRemark(fields: { slug: { eq: $slug } }) {
-			html
+		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				title
 				author
 				authorLink
 				description
+				title
+			}
+			code {
+				body
 			}
 		}
 	}
