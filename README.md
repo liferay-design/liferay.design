@@ -1,3 +1,32 @@
+- [Liferay.Design](#liferaydesign)
+	- [About](#about)
+	- [👾 Getting started](#%F0%9F%91%BE-getting-started)
+		- [If you don't have a dev environment](#if-you-dont-have-a-dev-environment)
+		- [Quick Start](#quick-start)
+	- [⛩ Structure](#%E2%9B%A9-structure)
+		- [🌳 Branches](#%F0%9F%8C%B3-branches)
+			- [Master](#master)
+			- [Dev](#dev)
+			- [vN](#vn)
+		- [📂 Folders](#%F0%9F%93%82-folders)
+			- [Deploy](#deploy)
+			- [src](#src)
+				- [components](#components)
+				- [markdown](#markdown)
+					- [Using React Components Within a Markdown file](#using-react-components-within-a-markdown-file)
+				- [pages](#pages)
+				- [theme](#theme)
+				- [utils](#utils)
+			- [static/images](#staticimages)
+	- [💁 What do all these files do?](#%F0%9F%92%81-what-do-all-these-files-do)
+	- [🎓 Learning Gatsby](#%F0%9F%8E%93-learning-gatsby)
+	- [Starting Phresh](#starting-phresh)
+		- [Step 1: Create a Github Account _(3 min)_](#step-1-create-a-github-account-3-min)
+		- [Step 2: Familiarize yourself with Git and Github _(20 min)_](#step-2-familiarize-yourself-with-git-and-github-20-min)
+		- [Step 3: Let's git it started™ _(20 min)_](#step-3-lets-git-it-started%E2%84%A2-20-min)
+		- [Step 4: The Clone Wars _(2 min)_](#step-4-the-clone-wars-2-min)
+		- [Notes](#notes)
+
 # Liferay.Design
 
 ## About
@@ -80,22 +109,9 @@ Where all of our react components live &mdash; atoms, molecules, organisms, temp
 
 This is where 98.3% of the site content lives &mdash; [markdown](https://www.markdownguide.org) is a lot easier to write than html 🤓.
 
-###### Using React Compoents Within a Markdown file
+###### Using React Components Within a Markdown file
 
----
-
-title: 'Logos'
-description: "Liferay's logo and product logos in all the formats you need."
-
----
-
-import { Icon } from 'components/atoms'
-
-Before you do anything with these files, make sure you thoroughly review our [logo guidelines](/docs/guidelines/logo-usage.html)!
-
-Downloads are grouped by Digital and Print formats and include approved colors and lockups.
-
-### Corporate Mark
+> This is new experimental territory to render react components in md files, so you will propbably run into some quirks!
 
 1. Rename the file extension from `.md` to `.mdx`
 2. If you have markup in the file, you will now have to make it React friendly (change `class` to `className` and `style=""` to `style={{}}`)
@@ -110,6 +126,8 @@ title: 'Markdown File Title'
 	<Icon name="keyboardArrowDown" />
 </div>
 ```
+
+-   Notes: - For `.mdx` file syntax highlighting you can download the "Mdx" extension and follow their instructions - Don't put an extra line break between markup as it will think it will print out the literal markup for some reason
 
 ##### pages
 
