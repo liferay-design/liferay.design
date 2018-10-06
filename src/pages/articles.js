@@ -5,28 +5,32 @@ import { Posts } from 'components/organisms'
 import { Container, Heading } from 'components/atoms'
 
 export default ({ data }) => {
-	return <MainLayout section="Articles">
+	return (
+		<MainLayout section="Articles">
 			<Container>
 				<Heading level={1} color="white" padding="4rem">
 					The Blog
 				</Heading>
 				<Posts />
-				<h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+				<h4>{data.allMdx.totalCount} Posts</h4>
 
-				{data.allMarkdownRemark.edges.map(({ node }) => <div key={node.id}>
+				{data.allMdx.edges.map(({ node }) => (
+					<div key={node.id}>
 						<Link to={node.fields.slug}>
 							<h3>{node.frontmatter.title}</h3>
 
 							<p>{node.excerpt}</p>
 						</Link>
-					</div>)}
+					</div>
+				))}
 			</Container>
 		</MainLayout>
+	)
 }
 
 export const query = graphql`
 	{
-		allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(articles)/" } }) {
+		allMdx(filter: { fileAbsolutePath: { regex: "/(articles)/" } }) {
 			totalCount
 			edges {
 				node {

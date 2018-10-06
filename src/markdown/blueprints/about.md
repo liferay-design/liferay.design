@@ -3,7 +3,11 @@ title: 'About'
 description: "Liferay's Brand Guidelines"
 ---
 
+import { SiteName } from 'components/atoms'
+
 ### Why Blueprints?
+
+<SiteName section="blueprints" dark />
 
 The goal for this site is to increase the value of the Liferay brand. To do that, we need to accomplish three things:
 
