@@ -8,6 +8,7 @@ const Text = ({
 	className,
 	children,
 	color,
+	margin,
 	size,
 	style,
 	type,
@@ -20,6 +21,7 @@ const Text = ({
 
 	const styles = {
 		color: colors[color],
+		...(margin ? { marginBottom: fontSizes[margin] } : {}),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...style,
 		...textAlign,
@@ -39,6 +41,7 @@ Text.propTypes = {
 	className: PropTypes.string,
 	children: PropTypes.node.isRequired,
 	color: PropTypes.string,
+	margin: PropTypes.string,
 	style: PropTypes.object,
 	size: PropTypes.string,
 	type: PropTypes.oneOf(['p', 'span']),

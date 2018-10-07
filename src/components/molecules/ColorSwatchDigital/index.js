@@ -4,7 +4,7 @@ import { ColorField } from 'components/molecules'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 
-export default function ColorSwatch({ hex, title, name, cmyk, pms }) {
+export default function ColorSwatchDigital({ hex, rgb, hsl, title, name }) {
 	return (
 		<Flex className={styles.container} direction="column" width="100%">
 			<Flex background={name} height="0" padding="0 0 56.25%" width="100%" />
@@ -14,21 +14,18 @@ export default function ColorSwatch({ hex, title, name, cmyk, pms }) {
 					{title}
 				</Text>
 
-				<ColorField
-					title="Cyan, Magenta, Yellow, Key"
-					label="CMYK"
-					value={cmyk}
-				/>
-				<ColorField title="Pantone Matching System" label="PMS" value={pms} />
+				<ColorField title="HEX" label="HEX" value={hex} />
+				<ColorField title="Red Green Blue" label="RGB" value={rgb} />
+				<ColorField title="Hue Saturation Lightness" label="HSL" value={hsl} />
 			</Flex>
 		</Flex>
 	)
 }
 
-ColorSwatch.propTypes = {
+ColorSwatchDigital.propTypes = {
 	hex: PropTypes.string.isRequired,
 	name: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
-	cmyk: PropTypes.string.isRequired,
-	pms: PropTypes.string.isRequired,
+	rgb: PropTypes.string.isRequired,
+	hsl: PropTypes.string.isRequired,
 }
