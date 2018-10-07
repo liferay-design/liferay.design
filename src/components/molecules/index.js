@@ -2,6 +2,8 @@ import Accordion from './Accordion'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
 import ColorSwatch from './ColorSwatch'
+import ColorSwatchDigital from './ColorSwatchDigital'
+import ColorField from './ColorField'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
 import LexiconCard from './LexiconCard'
@@ -16,6 +18,8 @@ export {
 	AuthContainer,
 	Billboard,
 	ColorSwatch,
+	ColorSwatchDigital,
+	ColorField,
 	FeaturedPost,
 	HeroPost,
 	LexiconCard,
