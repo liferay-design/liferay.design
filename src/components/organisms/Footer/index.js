@@ -4,9 +4,15 @@ import React from 'react'
 import styles from './styles.module.scss'
 
 export const Footer = ({ light }) => {
-	return <footer className={light ? styles.light : styles.dark}>
+	return (
+		<footer className={light ? styles.light : styles.dark}>
 			<Container>
-				<Flex className={styles.textContainer} justify="space-between" flexWrap="wrap">
+				<Flex
+					className={styles.textContainer}
+					justify="space-between"
+					padding="0 0 10vh"
+					flexWrap="wrap"
+				>
 					<Heading level={3}>Liferay.Design</Heading>
 
 					<SocialIcons />
@@ -15,6 +21,7 @@ export const Footer = ({ light }) => {
 				<SiteCredits />
 			</Container>
 		</footer>
+	)
 }
 
 export default Footer
