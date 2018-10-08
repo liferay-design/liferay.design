@@ -1,4 +1,6 @@
 import Accordion from './Accordion'
+import AssetCardMultiple from './AssetCardMultiple'
+import AssetCardSingle from './AssetCardSingle'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
 import ColorSwatch from './ColorSwatch'
@@ -15,6 +17,8 @@ import SocialIcons from './SocialIcons'
 
 export {
 	Accordion,
+	AssetCardMultiple,
+	AssetCardSingle,
 	AuthContainer,
 	Billboard,
 	ColorSwatch,
