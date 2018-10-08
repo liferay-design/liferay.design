@@ -1,6 +1,6 @@
 ---
 title: 'Color'
-description: 'Color usage.'
+description: 'Using color at Liferay'
 ---
 
 ### Using Color
