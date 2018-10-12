@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import styles from './styles.module.scss'
-import { Icon } from 'components/atoms'
+import { Icon, Flex } from 'components/atoms'
 
 export default class Accordion extends Component {
 	constructor(props) {
@@ -19,17 +18,21 @@ export default class Accordion extends Component {
 	render() {
 		return (
 			<ul className={styles.accordion}>
-				<Link onClick={this.toggleVisibility} to={this.props.link}>
-					<span className={`${this.props.className}`}>
-						{this.props.title}
+				<Flex
+					align="center"
+					className={`${this.props.className}`}
+					onClick={this.toggleVisibility}
+					justify="space-between"
+					padding="0.55rem 1rem"
+				>
+					<span>{this.props.title}</span>
 
-						{this.state.showChildren ? (
-							<Icon name="keyboardArrowRight" rotate={90} />
-						) : (
-							<Icon name="keyboardArrowRight" />
-						)}
-					</span>
-				</Link>
+					{this.state.showChildren ? (
+						<Icon name="keyboardArrowRight" rotate={90} />
+					) : (
+						<Icon name="keyboardArrowRight" />
+					)}
+				</Flex>
 
 				<div
 					className={`${styles.childrenContainer} ${

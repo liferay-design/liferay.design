@@ -1,47 +1,129 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { cloneDeep, get, set } from 'lodash'
-import { Sidebar, FooterMarkdown } from 'components/organisms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
-import { ContainerMarkdown, Flex } from 'components/atoms'
+import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
-import { Grid } from 'reakit'
+import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { cloneDeep, get, set } from 'lodash'
+import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
+import { Grid } from 'reakit'
+import styles from './styles.module.scss'
 
-const template = `
-	"sidebar main" auto / 18rem 1fr
-`
+export default class Blueprints extends Component {
+	constructor(props) {
+		super(props)
 
-export default function Blueprints({ data: { allMdx, mdx }, location: { pathname } }) {
-	return (
-		<PrivatePage
-			message="You must be a Liferay Employee to view this page"
-			section="Blueprints"
-		>
-			<div className={styles.sans}>
-				<Grid template={template} className={styles.mainContentWrapper}>
-					<Sidebar path={pathname} tree={buildSidebarTree(allMdx)} />
+		this.state = {
+			mobileSidebarVisible: false,
+		}
 
-					<ContainerMarkdown>
-						<Flex
-							justify="space-between"
-							align="baseline"
-							className={styles.header}
-						>
-							<h1>{mdx.frontmatter.title}</h1>
+		this.toggleMobileSidebarVisibility = this.toggleMobileSidebarVisibility.bind(this)
+	}
 
-							<AuthContainer />
-						</Flex>
+	toggleMobileSidebarVisibility() {
+		this.setState(state => {
+			return { mobileSidebarVisible: !state.mobileSidebarVisible }
+		})
+	}
 
-						<MDXRenderer className={styles.body}>{mdx.code.body}</MDXRenderer>
+	render() {
+		const {
+			data: { allMdx, mdx },
+			location: { pathname },
+		} = this.props
 
-						<FooterMarkdown light />
-					</ContainerMarkdown>
-				</Grid>
-			</div>
-		</PrivatePage>
-	)
+		return (
+			<PrivatePage
+				message="You must be a Liferay Employee to view this page"
+				section="Blueprints"
+			>
+				<div className={styles.sans}>
+					<MediaQuery maxWidth={767}>
+						{matches => {
+							let gridTemplate = matches
+								? `"nav" 8rem "main" 1fr / 1fr`
+								: `"sidebar main" auto / 18rem 1fr`
+
+							return (
+								<Grid
+									template={gridTemplate}
+									className={styles.mainContentWrapper}
+								>
+									{matches && (
+										<Flex
+											className={styles.mobileNavbar}
+											justify="space-between"
+											padding="2rem 1.5rem"
+										>
+											<SiteName section="Blueprints" dark />
+											<AuthContainer />
+										</Flex>
+									)}
+
+									<Sidebar
+										path={pathname}
+										tree={buildSidebarTree(allMdx)}
+										isMobile={matches}
+										showSidebar={this.state.mobileSidebarVisible}
+									/>
+
+									<ContainerMarkdown
+										isMobile={matches}
+										isMobileSidebarVisible={
+											this.state.mobileSidebarVisible
+										}
+									>
+										<Flex
+											justify="space-between"
+											align="baseline"
+											className={styles.header}
+										>
+											<h1>{mdx.frontmatter.title}</h1>
+
+											{!matches && <AuthContainer />}
+										</Flex>
+
+										<MDXRenderer className={styles.body}>
+											{mdx.code.body}
+										</MDXRenderer>
+
+										<FooterMarkdown light />
+									</ContainerMarkdown>
+
+									<Flex
+										align="center"
+										className={styles.mobileMenuBar}
+										justify="space-between"
+									>
+										<Icon name="logoDark" />
+
+										{this.state.mobileSidebarVisible ? (
+											<Icon
+												name="close"
+												onClick={
+													this.toggleMobileSidebarVisibility
+												}
+											/>
+										) : (
+											<Text
+												color="white"
+												onClick={
+													this.toggleMobileSidebarVisibility
+												}
+											>
+												Menu
+											</Text>
+										)}
+									</Flex>
+								</Grid>
+							)
+						}}
+					</MediaQuery>
+				</div>
+			</PrivatePage>
+		)
+	}
 }
 
 export const pageQuery = graphql`

@@ -17,10 +17,8 @@
 		}
 	}
 
-	> a > span {
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
+	> div:first-child {
+		cursor: pointer;
 	}
 }
 
