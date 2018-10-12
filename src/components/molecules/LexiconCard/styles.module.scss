@@ -28,6 +28,7 @@ a.card-link {
 	padding: $spacingMedium $spacingSmall $spacingSmall;
 	min-height: 100%;
 	transition: all 0.4s;
+
 	&:hover {
 		background-color: $lightestBlue;
 		box-shadow: $elevation2;
@@ -36,9 +37,11 @@ a.card-link {
 			color: $primary;
 		}
 	}
+
 	.copy {
 		padding: 32px;
 	}
+
 	h2.title {
 		color: $darkGrey;
 		font-weight: $fontWeightBlack;

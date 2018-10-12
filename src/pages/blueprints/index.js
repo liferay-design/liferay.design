@@ -77,11 +77,14 @@ const Blueprints = () => (
 					<Grid.Item area="m">
 						<LexiconCard
 							icon="resources"
+							iconHeight="10rem"
+							iconWidth="11rem"
 							title="Resources"
 							text="The reason you've come to this site&mdash;logos,
 										colors, fonts, images&mdash;get it all right here!"
 							to="/blueprints/resources"
 							cta="Get 'Em"
+							direction="horizontal"
 						/>
 					</Grid.Item>
 					<Grid.Item area="blc">
@@ -91,6 +94,7 @@ const Blueprints = () => (
 							text="Have a question? We have frequently given answers."
 							to="/blueprints/faqs"
 							cta="Why is the Liferay Blue"
+							direction="vertical"
 						/>
 					</Grid.Item>
 					<Grid.Item area="brc">
@@ -101,6 +105,7 @@ const Blueprints = () => (
 									stuff&mdash;see what else we're doing."
 							to="/team"
 							cta="Experience Liferay.Design"
+							direction="vertical"
 						/>
 					</Grid.Item>
 					<Grid.Item area="brg">
