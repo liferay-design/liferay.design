@@ -1,20 +1,29 @@
 @import 'theme/variables.scss';
 
-.container {
+.markdown-container {
+	grid-area: main;
 	width: 100%;
 	max-width: $screenMedium;
 	padding: $spacingMedium $spacingSmall $spacingMedium;
 	margin: 0 auto;
+
+	&.mobile {
+		padding-bottom: $spacingLarge;
+	}
+
+	&.hide {
+		display: none;
+	}
 }
 
 @media screen and (max-width: $screenLarge) {
-	.container {
+	.markdown-container {
 		padding: $spacingMedium $spacingMedium $spacingMedium;
 	}
 }
 
 @media screen and (max-width: $screenSmall) {
-	.container {
+	.markdown-container {
 		padding: $spacingMedium $spacingSmall $spacingMedium;
 	}
 }

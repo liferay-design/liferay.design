@@ -7,7 +7,7 @@ description: 'Slide presentations and other document templates.'
 
 <div class="slides-embed">
     <iframe src="https://docs.google.com/a/liferay.com/presentation/d/e/2PACX-1vR0sUMw4tjfkGALrRAKOpGMIYHrryjr4ceHPRv5oepbXOi9vkw2WYEn5elhASiXbxI9ltfBSrG0Jjp9/embed?start=false&amp;loop=false&amp;delayms=3000"
-        frameborder="0" width="818" height="489" allowfullscreen={true} mozallowfullscreen={true} webkitallowfullscreen={true}></iframe>
+        frameborder="0" width="100%" height="100%" allowfullscreen={true} mozallowfullscreen={true} webkitallowfullscreen={true}></iframe>
 </div>
 
 _If the slides above don't render, log into your [Liferay Google Account](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d)._

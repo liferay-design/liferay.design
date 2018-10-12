@@ -2,6 +2,8 @@
 
 .social {
 	width: 320px;
+	z-index: -1;
+
 	@media screen and (max-width: $screenSmall) {
 		order: -1;
 		width: 100%;

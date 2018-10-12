@@ -9,7 +9,7 @@
 	min-height: 100vh;
 }
 
-.slides-embed {
+.slidesEmbed {
 	height: 488px;
 	margin-bottom: 2rem;
 	overflow: hidden;
@@ -26,4 +26,29 @@
 	}
 }
 
-//.sidebar styles are scoped to the component — is this the best?
+.mobileNavbar {
+	align-items: center;
+	grid-area: nav;
+	background: #f7f8f9;
+	width: 100%;
+}
+
+.mobileMenuBar {
+	background: $black;
+	bottom: 0;
+	display: none !important;
+	left: 0;
+	position: fixed;
+	right: 0;
+
+	> * {
+		cursor: pointer;
+		margin: 1rem 1.5rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.mobileMenuBar {
+		display: flex !important;
+	}
+}
