@@ -240,6 +240,15 @@ const teamMembers = [
 		icon: 'fa fa-drum',
 		page: '/team/lyons-james',
 	},
+	{
+		id: 33,
+		name: 'Duuriimaa Bargaid',
+		imageUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
+		title: 'Associate UX Designer',
+		icon: 'fa fa-drum',
+		page: '/team/bargaid-duuriimaa',
+	},
 ]
 
 export default teamMembers
