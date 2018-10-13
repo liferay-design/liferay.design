@@ -31,7 +31,7 @@ export default class Team extends Component {
 					<img src={withPrefix(post.frontmatter.featuredImage)} />
 				</Flex>
 				<div className={styles.markdownContainer}>
-					<Flex direction="column" className={styles.wrapper}>
+					<Flex margin="auto" direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>
 					</Flex>
 				</div>
@@ -49,6 +49,7 @@ export const pageQuery = graphql`
 				author
 				authorLink
 				description
+				featuredImage
 				title
 			}
 			code {

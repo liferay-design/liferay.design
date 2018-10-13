@@ -40,30 +40,28 @@
 }
 
 .markdownContainer {
-	margin-bottom: auto;
 	padding: 6rem 3rem;
 	font-family: $fontFamilySecondary;
 	background: white;
-}
 
-.wrapper {
-	max-width: 68ch;
-	margin: $spacingLarge auto 0;
+	.wrapper {
+		max-width: 68ch;
 
-	p {
-		font-size: $fontSizeMedium;
-		font-weight: $fontWeightRegular;
-		color: $darkGrey;
-		margin-bottom: 1rem;
-		-webkit-font-smoothing: antialiased !important;
-		-moz-osx-font-smoothing: grayscale !important;
-	}
+		p {
+			font-size: $fontSizeMedium;
+			font-weight: $fontWeightRegular;
+			color: $darkGrey;
+			margin-bottom: 1rem;
+			-webkit-font-smoothing: antialiased !important;
+			-moz-osx-font-smoothing: grayscale !important;
+		}
 
-	h3 {
-		margin-top: $spacingMedium * 2;
-		// font-size: $fontSizeXLarge;
-		&:first-child {
-			margin-top: $spacingSmall;
+		h3 {
+			margin-top: $spacingMedium * 2;
+			// font-size: $fontSizeXLarge;
+			&:first-child {
+				margin-top: $spacingSmall;
+			}
 		}
 	}
 }
