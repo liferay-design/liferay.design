@@ -14,6 +14,7 @@ const Text = ({
 	type,
 	weight,
 	width,
+	...props
 }) => {
 	const Type = type
 
@@ -30,7 +31,7 @@ const Text = ({
 	}
 
 	return (
-		<Type className={className} style={styles}>
+		<Type className={className} style={styles} {...props}>
 			{children}
 		</Type>
 	)

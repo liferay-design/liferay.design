@@ -7,7 +7,9 @@
 	height: 100%;
 	max-height: 100vh;
 	position: sticky;
+	overflow: scroll;
 	top: 0;
+	transition: transform 0.5s ease-in-out;
 	list-style: none;
 
 	> div:first-child {
@@ -24,6 +26,19 @@
 
 	a {
 		color: $black;
+	&.off-screen {
+		position: absolute;
+		transform: translateX(-120vw);
+		transition: transform 0.5s ease-in-out, top 0s ease-in-out 0.5s;
+		width: 98vw;
+	}
+
+	&.on-screen {
+		position: absolute;
+		top: 8rem;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 }
 

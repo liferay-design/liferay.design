@@ -3,7 +3,17 @@ import React from 'react'
 import { colors } from 'theme'
 import IconsObject from './icons'
 
-const Icon = ({ className, fill, height, width, name, style, margin, rotate }) => {
+const Icon = ({
+	className,
+	fill,
+	height,
+	width,
+	name,
+	style,
+	margin,
+	rotate,
+	...props
+}) => {
 	const styles = {
 		...style,
 		fill: colors[fill],
@@ -19,10 +29,14 @@ const Icon = ({ className, fill, height, width, name, style, margin, rotate }) =
 
 	const DynamicIcon = IconsObject[name]
 
+	if (!DynamicIcon) {
+		console.log(`${name} icon not found`)
+	}
+
 	return DynamicIcon ? (
-		<DynamicIcon className={className} style={styles} name={name} />
+		<DynamicIcon className={className} style={styles} name={name} {...props} />
 	) : (
-		<span title="icon not found"></span>
+		<span />
 	)
 }
 
@@ -35,10 +49,6 @@ Icon.propTypes = {
 	style: PropTypes.object,
 	margin: PropTypes.string,
 	rotate: PropTypes.number,
-}
-
-Icon.defaultProps = {
-	margin: '4px',
 }
 
 export default Icon
