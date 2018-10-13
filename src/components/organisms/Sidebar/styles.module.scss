@@ -24,6 +24,8 @@
 		padding-left: $spacingSmall;
 	}
 
+	a {
+		color: $black;
 	&.off-screen {
 		position: absolute;
 		transform: translateX(-120vw);
