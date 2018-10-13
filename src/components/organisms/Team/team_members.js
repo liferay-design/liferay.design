@@ -29,7 +29,7 @@ const teamMembers = [
 		id: 11,
 		name: 'Duuriimaa Bargaid',
 		imageUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
-		imageHoverUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/bargaid-duuriimaa-h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa_drum',
 		page: '/team/bargaid-duuriimaa',
