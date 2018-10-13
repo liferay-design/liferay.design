@@ -1,5 +1,6 @@
 // Make sure the shape of this data stays consistent
 // Also ensure that the id starts at 0 and increases by 1
+// Note that the fontawesome icons must be manually added as an svg in /static/images/icons
 
 import { withPrefix } from 'gatsby'
 
@@ -7,7 +8,7 @@ const imageDir = 'images/headshots'
 
 const teamMembers = [
 	{
-		id: 0,
+		id: 1,
 		name: 'Juan Anton',
 		imageUrl: withPrefix(`${imageDir}/anton-juan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/anton-juan-h.jpg`),
@@ -16,7 +17,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 1,
+		id: 10,
 		name: 'David Aragones',
 		imageUrl: withPrefix(`${imageDir}/aragones-david.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/aragones-david-h.jpg`),
@@ -25,7 +26,16 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 2,
+		id: 11,
+		name: 'Duuriimaa Bargaid',
+		imageUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
+		title: 'Associate UX Designer',
+		icon: 'fa_drum',
+		page: '/team/bargaid-duuriimaa',
+	},
+	{
+		id: 20,
 		name: 'Julia Chan',
 		imageUrl: withPrefix(`${imageDir}/chan-julia.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/chan-julia-h.jpg`),
@@ -34,7 +44,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 3,
+		id: 30,
 		name: 'Emiliano Cicero',
 		imageUrl: withPrefix(`${imageDir}/cicero-emiliano.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/cicero-emiliano-h.jpg`),
@@ -43,7 +53,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 4,
+		id: 40,
 		name: 'Ryan Connolly',
 		imageUrl: withPrefix(`${imageDir}/connolly-ryan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/connolly-ryan-h.jpg`),
@@ -52,7 +62,7 @@ const teamMembers = [
 		page: '/team/connolly-ryan',
 	},
 	{
-		id: 5,
+		id: 50,
 		name: 'Jadson Dantas',
 		imageUrl: withPrefix(`${imageDir}/dantas-jadson.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/dantas-jadson-h.jpg`),
@@ -61,7 +71,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 6,
+		id: 60,
 		name: 'Vitor Fernandes',
 		imageUrl: withPrefix(`${imageDir}/fernandes-vitor.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/fernandes-vitor-h.jpg`),
@@ -70,7 +80,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 7,
+		id: 70,
 		name: 'Rafael Fernandes',
 		imageUrl: withPrefix(`${imageDir}/fernandes-rafael.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/fernandes-rafael-h.jpg`),
@@ -79,7 +89,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 8,
+		id: 80,
 		name: 'Markus Hammer',
 		imageUrl: withPrefix(`${imageDir}/hammer-markus.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hammer-markus-h.jpg`),
@@ -88,7 +98,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 9,
+		id: 90,
 		name: 'Paul Hanaoka',
 		imageUrl: withPrefix(`${imageDir}/hanaoka-paul.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hanaoka-paul-h.jpg`),
@@ -97,7 +107,7 @@ const teamMembers = [
 		page: '/team/hanaoka-paul',
 	},
 	{
-		id: 10,
+		id: 100,
 		name: 'Abel Hancock',
 		imageUrl: withPrefix(`${imageDir}/hancock-abel.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hancock-abel-h.jpg`),
@@ -106,7 +116,7 @@ const teamMembers = [
 		page: '/team/hancock-abel',
 	},
 	{
-		id: 11,
+		id: 110,
 		name: 'Juan Hidalgo',
 		imageUrl: withPrefix(`${imageDir}/hidalgo-juan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hidalgo-juan-h.jpg`),
@@ -115,7 +125,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 12,
+		id: 120,
 		name: 'Naoki Hisamoto',
 		imageUrl: withPrefix(`${imageDir}/hisamoto-naoki.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/hisamoto-naoki-h.jpg`),
@@ -124,7 +134,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 13,
+		id: 130,
 		name: 'Bryan Ho',
 		imageUrl: withPrefix(`${imageDir}/ho-bryan.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/ho-bryan-h.jpg`),
@@ -133,7 +143,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 14,
+		id: 140,
 		name: 'Chris Jeong',
 		imageUrl: withPrefix(`${imageDir}/jeong-chris.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/jeong-chris-h.jpg`),
@@ -142,7 +152,7 @@ const teamMembers = [
 		page: '/team/jeong-chris',
 	},
 	{
-		id: 15,
+		id: 150,
 		name: 'David Kim',
 		imageUrl: withPrefix(`${imageDir}/-sunglasses.png`),
 		imageHoverUrl: withPrefix(`${imageDir}/hancock-abel-h.jpg`),
@@ -151,7 +161,7 @@ const teamMembers = [
 		page: '/team/kim-david',
 	},
 	{
-		id: 17,
+		id: 170,
 		name: 'Jessica Lee',
 		imageUrl: withPrefix(`${imageDir}/lee-jessica.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/lee-jessica-h.jpg`),
@@ -160,7 +170,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 18,
+		id: 180,
 		name: 'James Lyons',
 		imageUrl: withPrefix(`${imageDir}/-upside-down-face.png`),
 		imageHoverUrl: withPrefix(`${imageDir}/-thinking-face.png`),
@@ -169,7 +179,7 @@ const teamMembers = [
 		page: '/team/lyons-james',
 	},
 	{
-		id: 19,
+		id: 190,
 		name: 'Nathalia Moura',
 		imageUrl: withPrefix(`${imageDir}/moura-nathalia.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/moura-nathalia-h.jpg`),
@@ -178,7 +188,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 21,
+		id: 210,
 		name: 'Patrick Pentz',
 		imageUrl: withPrefix(`${imageDir}/pentz-patrick.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/pentz-patrick-h.jpg`),
@@ -187,7 +197,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 22,
+		id: 220,
 		name: 'Felipe Pires',
 		imageUrl: withPrefix(`${imageDir}/pires-felipe.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/pires-felipe-h.jpg`),
@@ -196,7 +206,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 23,
+		id: 230,
 		name: 'Davi Shamá',
 		imageUrl: withPrefix(`${imageDir}/shama-davi.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/shama-davi-h.jpg`),
@@ -205,7 +215,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 25,
+		id: 250,
 		name: 'Victor Valle',
 		imageUrl: withPrefix(`${imageDir}/valle-victor.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/valle-victor-h.jpg`),
@@ -214,7 +224,7 @@ const teamMembers = [
 		page: '/team/valle-victor',
 	},
 	{
-		id: 26,
+		id: 260,
 		name: 'Susana Vázquez',
 		imageUrl: withPrefix(`${imageDir}/vazquez-susana.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/vazquez-susana-h.jpg`),
@@ -223,7 +233,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 27,
+		id: 270,
 		name: 'Sharon Wong',
 		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
@@ -232,7 +242,7 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 30,
+		id: 300,
 		name: 'Emily Young',
 		imageUrl: withPrefix(`${imageDir}/young-emily.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/young-emily-h.jpg`),
@@ -241,22 +251,13 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
-		id: 31,
+		id: 310,
 		name: 'Rachel Yuan',
 		imageUrl: withPrefix(`${imageDir}/yuan-rachel.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/yuan-rachel-h.jpg`),
 		title: 'Senior Graphic Designer',
 		icon: 'fa_chess_queen',
 		page: 'null',
-	},
-	{
-		id: 33,
-		name: 'Duuriimaa Bargaid',
-		imageUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
-		imageHoverUrl: withPrefix(`${imageDir}/bargaid-duuriimaa.jpg`),
-		title: 'Associate UX Designer',
-		icon: 'fa fa-drum',
-		page: '/team/bargaid-duuriimaa',
 	},
 ]
 
