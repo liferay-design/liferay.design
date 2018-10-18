@@ -1,0 +1,16 @@
+@import '~theme/variables';
+
+.container {
+	img {
+		max-width: 100%;
+	}
+
+	p:before {
+		content: '';
+		background: currentColor;
+		height: $spacingXSmall / 2;
+		margin-bottom: $spacingXSmall / 2;
+		width: 100%;
+		display: block;
+	}
+}
