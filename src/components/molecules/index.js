@@ -5,6 +5,7 @@ import Billboard from './Billboard'
 import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import ColorField from './ColorField'
+import DoDont from './DoDont'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
 import LexiconCard from './LexiconCard'
@@ -22,6 +23,7 @@ export {
 	ColorSwatch,
 	ColorSwatchDigital,
 	ColorField,
+	DoDont,
 	FeaturedPost,
 	HeroPost,
 	LexiconCard,
