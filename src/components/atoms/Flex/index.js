@@ -5,6 +5,7 @@ import { colors } from 'theme'
 const Flexbox = ({
 	align,
 	background,
+	backgroundImage,
 	children,
 	className,
 	direction,
@@ -19,6 +20,7 @@ const Flexbox = ({
 }) => {
 	const styles = {
 		alignItems: align,
+		background: background,
 		boxSizing: 'border-box',
 		display: 'flex',
 		flexDirection: direction,
@@ -32,6 +34,10 @@ const Flexbox = ({
 
 	if (background) {
 		styles.backgroundColor = colors[background] || background
+	}
+
+	if (backgroundImage) {
+		styles.background = `url(${backgroundImage}) center/cover` || background
 	}
 
 	return (
@@ -51,6 +57,7 @@ Flexbox.defaultProps = {
 Flexbox.propTypes = {
 	align: PropTypes.string,
 	background: PropTypes.string,
+	backgroundImage: PropTypes.string,
 	children: PropTypes.node,
 	className: PropTypes.string,
 	direction: PropTypes.string,
