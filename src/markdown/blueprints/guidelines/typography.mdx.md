@@ -3,9 +3,22 @@ title: 'Typography'
 description: 'Typeface usage.'
 ---
 
-### Primary Typefaces
+import { Grid } from 'reakit'
+import { AssetCard } from 'components/molecules'
 
-#### Latin Alphabets: Source Sans Pro
+
+## Primary Typefaces
+
+
+<Grid columns="repeat( auto-fit, minmax(200px, 1fr) )" autoRows="auto" gap="1rem">
+    <AssetCard cta="View in Google Fonts" title="Source Sans Pro" preview="/images/typography/source-sans-pro.png" asset="/files/fonts/source-sans-pro-2.020R-ro-1.075R-it.zip" link="https://fonts.google.com/specimen/Source+Sans+Pro"/>
+	<AssetCard cta="View in Google Fonts" title="Source Han Sans" preview="/images/typography/source-han-sans.png" asset="/files/fonts/SourceHanSans.ttc.zip" link="https://fonts.google.com/specimen/Source+Han+Sans"/>
+</Grid>
+
+<br />
+<br />
+
+### Latin Alphabets: Source Sans Pro
 
 There are a number of qualities that make Source Sans Pro a good fit for Liferay:
 
@@ -14,9 +27,20 @@ There are a number of qualities that make Source Sans Pro a good fit for Liferay
 - [Open source](https://github.com/adobe-fonts/source-sans-pro).
 - Wide wariety of weights &mdash; helps us speak in the right way at the right place and context.
 
-#### Chinese, Japanese, Korean: Source Han Sans
+### Chinese, Japanese, Korean: Source Han Sans
 
 The Source Family includes a font with CJK characters, this helps us maintain consistency in even more languages.
+
+## Secondary Typefaces
+
+<Grid columns="repeat( auto-fit, minmax(200px, 1fr) )" autoRows="auto" gap="1rem">
+	<AssetCard cta="View in Google Fonts" title="Source Serif Pro" preview="/images/typography/source-serif-pro.png" asset="/files/fonts/source-serif-pro-2.000R.zip" link="https://fonts.google.com/specimen/Source+Serif+Pro"/>
+	<AssetCard cta="View in Google Fonts" title="Source Code Pro" preview="/images/typography/source-code-pro.png" asset="/files/fonts/source-code-pro-2.030R-ro-1.050R-it.zip" link="https://fonts.google.com/specimen/Source+Code+Pro"/>
+</Grid>
+
+<br />
+<br />
+
 
 ### Longform Text: Source Serif Pro
 
