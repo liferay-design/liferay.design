@@ -9,23 +9,6 @@
 	min-height: 100vh;
 }
 
-.slidesEmbed {
-	height: 488px;
-	margin-bottom: 2rem;
-	overflow: hidden;
-	margin-left: 0px;
-	max-width: 816px;
-	width: 100%;
-	box-shadow: 0 0.2rem 3rem -1rem rgba(0, 0, 0, 0.3),
-		0 1rem 2rem -1.25rem rgba(0, 0, 0, 0.8);
-	border-radius: 4px;
-	iframe {
-		position: relative;
-		left: -1px;
-		top: -1px;
-	}
-}
-
 .mobileNavbar {
 	align-items: center;
 	grid-area: nav;

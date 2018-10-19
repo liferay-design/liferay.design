@@ -4,13 +4,13 @@ import { ColorField } from 'components/molecules'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 
-export default function AssetCard({ asset, title, preview, link, cta }) {
+export default function AssetCard({ asset, title, preview, link, cta, letter }) {
 	return (
 		<Flex className={styles.container} direction="column" width="100%">
 			<Flex
 				backgroundImage={preview}
 				height="0"
-				padding="0 0 56.25%"
+				padding={ letter ? "0 0 129%" : "0 0 56.25%" }
 				width="100%"
 			/>
 
