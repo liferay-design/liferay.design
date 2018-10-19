@@ -11,19 +11,19 @@ module.exports = {
 			options: {
 				trackingId: 'UA-790163-24',
 				// Puts tracking script in the head instead of the body
-				head: false,
+				head: true,
 				// Setting this parameter is optional
 				anonymize: false,
 				// Setting this parameter is also optional
 				respectDNT: true,
 				// Avoids sending pageview hits from custom paths
-				exclude: ['/preview/**', '/do-not-track/me/too/'],
+				// exclude: ['/preview/**', '/do-not-track/me/too/'],
 				// Enables Google Optimize using your container Id
 				// optimizeId: 'YOUR_GOOGLE_OPTIMIZE_TRACKING_ID',
 				// Any additional create only fields (optional)
-				sampleRate: 5,
-				siteSpeedSampleRate: 10,
-				cookieDomain: 'liferay.design',
+				// sampleRate: 5,
+				// siteSpeedSampleRate: 10,
+				// cookieDomain: 'liferay.design',
 			},
 		},
 		'gatsby-plugin-react-helmet',
