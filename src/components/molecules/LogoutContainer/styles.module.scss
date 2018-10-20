@@ -1,10 +1,39 @@
 @import '~theme/variables';
+.relative {
+	position: relative;
+}
 
 .logout-container {
 	cursor: pointer;
 	position: relative;
 	padding-left: $spacingBase;
 	margin-right: -4px;
+}
+
+.wrapper {
+	background: $white;
+	box-shadow: $elevation1;
+	border-radius: $fontSizeXSmall / 2;
+	position: absolute;
+	right: -$spacingSmall;
+	top: $spacingMedium;
+	.caret {
+		height: 2rem;
+		width: 2rem;
+		position: absolute;
+		background: $white;
+		top: -2px;
+		transform: rotate(45deg);
+		right: 1rem;
+		border-radius: 0.2rem;
+		transition: all 0.5s ease-in-out;
+	}
+
+	img {
+		height: $spacingLarge;
+		object-fit: cover;
+		border-radius: $spacingXSmall 0 0 $spacingXSmall;
+	}
 }
 
 .profile {
