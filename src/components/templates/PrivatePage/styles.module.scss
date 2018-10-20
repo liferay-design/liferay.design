@@ -1,2 +1,19 @@
 @import '~theme/variables';
-
+.card {
+	background: $white;
+	box-shadow: $elevation1;
+	border-radius: $spacingXSmall;
+	max-width: $screenSmall;
+	.loginButton {
+		padding: 0;
+		background: $primary;
+		border-color: $primary;
+		color: $white;
+		&:hover {
+			background: darken($primary, 8%);
+		}
+		&:hover a {
+			color: $lightestGrey;
+		}
+	}
+}
