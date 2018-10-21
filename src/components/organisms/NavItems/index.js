@@ -9,11 +9,13 @@ import styles from './styles.module.scss'
 const NavItems = () => {
 	return (
 		<Flex className={styles.entry} align="center">
-			<Link to="/articles">Articles</Link>
+			<Flex className={styles.items}>
+				<Link to="/articles">Articles</Link>
 
-			<Link to="/team">Team</Link>
-			
-			<Link to="/resources">Resources</Link>
+				<Link to="/team">Team</Link>
+
+				<Link to="/resources">Resources</Link>
+			</Flex>
 
 			<AuthContainer />
 		</Flex>
