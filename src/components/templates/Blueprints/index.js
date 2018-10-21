@@ -68,28 +68,30 @@ export default class Blueprints extends Component {
 										showSidebar={this.state.mobileSidebarVisible}
 									/>
 
-									<ContainerMarkdown
+									<div
+										className={styles.body}
 										isMobile={matches}
 										isMobileSidebarVisible={
 											this.state.mobileSidebarVisible
 										}
 									>
-										<Flex
-											justify="space-between"
-											align="baseline"
-											className={styles.header}
-										>
-											<h1>{mdx.frontmatter.title}</h1>
+										<ContainerMarkdown>
+											<Flex
+												justify="space-between"
+												align="baseline"
+												className={styles.header}
+											>
+												<h1>{mdx.frontmatter.title}</h1>
 
-											{!matches && <AuthContainer />}
-										</Flex>
+												{!matches && <AuthContainer />}
+											</Flex>
 
-										<MDXRenderer className={styles.body}>
-											{mdx.code.body}
-										</MDXRenderer>
-
+											<MDXRenderer className={styles.body}>
+												{mdx.code.body}
+											</MDXRenderer>
+										</ContainerMarkdown>
 										<FooterMarkdown light />
-									</ContainerMarkdown>
+									</div>
 
 									<Flex
 										align="center"

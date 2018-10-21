@@ -23,11 +23,44 @@ footer.dark {
 	}
 }
 
+.wrapper {
+	max-width: 48rem;
+	margin: $spacingSmall auto $spacingLarge;
+}
+
 footer {
-	padding-top: $spacingMedium;
+	width: 100%;
+	max-width: $screenMedium;
+	padding: $spacingSmall $spacingSmall $spacingMedium;
+	border-top: solid 1px $lightestGrey;
+
+	&.mobile {
+		padding-bottom: $spacingLarge;
+	}
+
+	&.hide {
+		display: none;
+	}
 }
 
 .textContainer {
-	border-top: solid 2px $lightestGrey;
 	padding: $spacingSmall 0 10vh;
+}
+
+@media screen and (max-width: $screenLarge) {
+	.wrapper {
+		padding: $spacingBase;
+	}
+	footer {
+		padding: $spacingSmall;
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	.wrapper {
+		padding: $spacingSmall - $spacingXSmall;
+	}
+	footer {
+		padding: $spacingSmall $spacingXSmall 0;
+	}
 }
