@@ -5,7 +5,9 @@ import { Link } from 'gatsby'
 
 const SiteName = ({ dark, section }) => {
 	var str = section
-	var lowerCaseSection = str.toLowerCase()
+	if (str !== undefined) {
+		var lowerCaseSection = str.toLowerCase()
+	}
 
 	return (
 		<div className={`${styles.siteName} ${dark && styles.dark}`}>
