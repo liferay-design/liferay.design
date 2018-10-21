@@ -23,6 +23,7 @@
 	left: 0;
 	position: fixed;
 	right: 0;
+	z-index: 10;
 
 	> * {
 		cursor: pointer;
@@ -30,7 +31,7 @@
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $screenMedium) {
 	.mobileMenuBar {
 		display: flex !important;
 	}
