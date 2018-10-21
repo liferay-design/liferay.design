@@ -103,8 +103,8 @@ $elevation2: 0 0.5rem 5rem -1rem rgba($black, 0.16);
 $elevation3: 0 0.5rem 8rem -0.5rem rgba($black, 0.16);
 
 /* ---------- Screen Sizes ---------- */
-
-$screenSmall: 28rem;
-$screenMedium: 48rem;
-$screenLarge: 80rem;
-$screenXLarge: 120rem;
+// rem @ 16px
+$screenSmall: 28rem; // 448px
+$screenMedium: 48rem; // 768px
+$screenLarge: 80rem; // 1280px
+$screenXLarge: 120rem; // 1920px

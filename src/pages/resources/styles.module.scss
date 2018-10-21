@@ -4,3 +4,35 @@
 .blueprints {
 	color: red;
 }
+
+.grid {
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	div:nth-child(1) {
+		grid-area: 1 / 1 / 1 /5;
+	}
+	div:nth-child(2) {
+		grid-area: 1 / 5 / 1 / 7;
+	}
+	div:nth-child(3) {
+		grid-area: 2 / 1 / 2 / 4;
+	}
+	div:nth-child(4) {
+		grid-area: 2 / 4 / 2 / 7;
+	}
+	@media screen and (max-width: $screenMedium) {
+		div:nth-child(1) {
+			// grid-area: rs / cs / re / ce;
+			grid-area: 1 / 1 / 4 /2;
+		}
+		div:nth-child(2) {
+			grid-area: 4 / 1 / 6 / 1;
+		}
+		div:nth-child(3) {
+			grid-area: 6 / 1 / 7 / 1;
+		}
+		div:nth-child(4) {
+			grid-area: 7 / 1 / 8 / 1;
+		}
+	}
+}
