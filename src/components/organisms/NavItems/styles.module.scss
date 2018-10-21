@@ -42,7 +42,24 @@
 			color: $white;
 		}
 	}
-	@media screen and (max-width: $screenSmall) {
-		display: none;
+}
+@media screen and (max-width: $screenSmall) {
+	.items {
+		justify-content: space-around;
+		background: $black;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		padding: $spacingXSmall $spacingBase $spacingSmall;
+	}
+	.entry a {
+		&:last-child {
+			padding: $spacingSmall;
+			&::after {
+				right: $spacingSmall;
+				background: $primary;
+			}
+		}
 	}
 }
