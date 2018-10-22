@@ -53,6 +53,11 @@
 		left: 0;
 		padding: $spacingXSmall $spacingBase $spacingSmall;
 	}
+	.entry {
+		min-width: 14ch;
+		justify-content: flex-end;
+	}
+
 	.entry a {
 		&:last-child {
 			padding: $spacingSmall;
