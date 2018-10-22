@@ -62,7 +62,7 @@ const postFeed = [
 	// },
 	{
 		id: 5,
-		title: 'Designing Animations for a Multicultural\xa0Product',
+		title: 'Designing Animations for a Multicultural Product',
 		preview: 'Published on Medium by Susana\xa0Vázquez',
 		thumbnailUrl: withPrefix(`${imageDir}/multicultural-animations.jpeg`),
 		heroUrl: withPrefix(`${imageDir}/multicultural-animations.jpeg`),
