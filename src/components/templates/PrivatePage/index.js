@@ -18,7 +18,20 @@ export default class PrivatePage extends Component {
 	}
 
 	renderPrivateContent() {
-		if (this.auth.currentUser) {
+		// if (this.auth.currentUser) {
+		// 	return this.props.children
+		// }
+
+		const authenticatedUsers = ['liferay.com', 'triblio.com']
+		const currentUser = this.auth.currentUser
+
+		const isUserAuthenticated =
+			currentUser &&
+			authenticatedUsers.some(user => {
+				return currentUser.email.includes(user)
+			})
+
+		if (isUserAuthenticated) {
 			return this.props.children
 		}
 
