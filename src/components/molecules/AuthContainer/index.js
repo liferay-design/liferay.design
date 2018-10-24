@@ -22,6 +22,10 @@ export default class AuthContainer extends Component {
 		auth.onSignIn(user => {
 			this.setUser(user)
 		})
+
+		auth.onSignIn(function() {
+			location.reload(true)
+		})
 	}
 
 	login = () => {
