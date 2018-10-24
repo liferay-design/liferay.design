@@ -13,12 +13,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 			name: 'slug',
 			value: slug,
 		})
-
-		createNodeField({
-			name: 'order',
-			node,
-			value: node.frontmatter.order || '',
-		})
 	}
 }
 
@@ -34,7 +28,6 @@ exports.createPages = ({ actions, graphql }) => {
 							node {
 								id
 								fields {
-									order
 									slug
 								}
 								code {
@@ -61,7 +54,6 @@ exports.createPages = ({ actions, graphql }) => {
 						path: node.fields.slug,
 						component: componentWithMDXScope(templateFile, node.code.scope),
 						context: {
-							order: node.fields.order,
 							slug: node.fields.slug,
 						},
 					})

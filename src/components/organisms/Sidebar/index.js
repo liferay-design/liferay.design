@@ -3,11 +3,11 @@ import styles from './styles.module.scss'
 import { Grid } from 'reakit'
 import { SiteName } from 'components/atoms'
 import { Accordion, SiteCredits } from 'components/molecules'
-import map from 'lodash/map'
+import { map, orderBy } from 'lodash'
 import { Link } from 'gatsby'
 
 const SidebarContent = ({ path, tree }) => {
-	return map(tree, node => {
+	const unorderedTree = map(tree, node => {
 		const className = `${styles.leafLink} ${
 			node.slug === path ? styles.active : ''
 		} ${node.firstLevel ? styles.firstLevelNode : ''}`
@@ -26,11 +26,13 @@ const SidebarContent = ({ path, tree }) => {
 		}
 
 		return (
-			<Link className={className} key={node.title} to={node.slug}>
+			<Link className={className} key={node.order} to={node.slug}>
 				{node.title}
 			</Link>
 		)
 	})
+
+	return orderBy(unorderedTree, 'key', 'asc')
 }
 
 export default function SidebarWrapper({ path, tree, isMobile, showSidebar }) {
