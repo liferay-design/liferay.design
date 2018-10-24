@@ -136,6 +136,7 @@ export const pageQuery = graphql`
 				node {
 					id
 					frontmatter {
+						order
 						title
 					}
 					fields {
@@ -168,6 +169,7 @@ function buildSidebarTree(markdownNodes) {
 	const sidebarTree = markdownNodes.edges.reduce((currentTree, currentValue) => {
 		const slug = currentValue.node.fields.slug
 		const title = currentValue.node.frontmatter.title
+		const order = currentValue.node.frontmatter.order || title
 
 		const slugArr = slug
 			.split('/')
@@ -175,7 +177,7 @@ function buildSidebarTree(markdownNodes) {
 			.slice(1)
 
 		const treePath = slugArr.join('.children.')
-		const sidebarItemValue = { title, slug }
+		const sidebarItemValue = { order, title, slug }
 
 		if (!treePath.includes('children')) {
 			sidebarItemValue.firstLevel = true

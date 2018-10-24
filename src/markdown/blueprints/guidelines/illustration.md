@@ -1,6 +1,7 @@
 ---
 title: 'Illustration'
 description: 'What is our illustration style?'
+order: 4
 ---
 
 ### Style
