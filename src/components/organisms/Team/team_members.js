@@ -179,6 +179,15 @@ const teamMembers = [
 		page: '/team/lyons-james',
 	},
 	{
+		id: 185,
+		name: 'Miriam Manso',
+		imageUrl: withPrefix(`${imageDir}/manso-miriam.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/manso-miriam-h.jpg`),
+		title: 'Associate UX Designer',
+		icon: 'fa_pointe_shoe',
+		page: '/team/manso-miriam',
+	},
+	{
 		id: 190,
 		name: 'Nathalia Moura',
 		imageUrl: withPrefix(`${imageDir}/moura-nathalia.jpg`),
@@ -230,7 +239,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/vazquez-susana-h.jpg`),
 		title: 'Associate UX Designer',
 		icon: 'fa_archway',
-		page: 'null',
+		page: '/team/vazquez-susana',
 	},
 	{
 		id: 270,
