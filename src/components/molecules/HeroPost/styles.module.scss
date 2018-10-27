@@ -1,7 +1,7 @@
 @import '~theme/variables';
 
 .banner {
-	padding-top: $spacingLarge;
+	margin-top: $spacingLarge;
 	height: 72vh;
 	max-height: $screenMedium;
 	h1 {
@@ -54,10 +54,11 @@
 		flex-direction: column !important;
 
 		h1 {
-			font-size: $fontSizeXLarge;
+			font-size: $fontSizeLarge;
 			padding-right: 5rem;
 			width: 100%;
 			order: 2;
+			line-height: 1.2;
 			background: $darkGrey;
 			padding: $spacingMedium $spacingBase;
 		}

@@ -4,10 +4,16 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const SiteName = ({ dark, section }) => {
+	var str = section
+	if (str !== undefined) {
+		var lowerCaseSection = str.toLowerCase()
+	}
+
 	return (
-		<Link className={`${styles.siteName} ${dark && styles.dark}`} to="/">
-			Liferay.Design {section && `/ ${section}`}
-		</Link>
+		<div className={`${styles.siteName} ${dark && styles.dark}`}>
+			<Link to="/">Liferay.Design</Link>
+			{section && <Link to={lowerCaseSection}> / {section}</Link>}
+		</div>
 	)
 }
 

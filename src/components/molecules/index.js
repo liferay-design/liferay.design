@@ -1,11 +1,11 @@
 import Accordion from './Accordion'
-import AssetCardMultiple from './AssetCardMultiple'
-import AssetCardSingle from './AssetCardSingle'
+import AssetCard from './AssetCard'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
 import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import ColorField from './ColorField'
+import DoDont from './DoDont'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
 import LexiconCard from './LexiconCard'
@@ -17,13 +17,13 @@ import SocialIcons from './SocialIcons'
 
 export {
 	Accordion,
-	AssetCardMultiple,
-	AssetCardSingle,
+	AssetCard,
 	AuthContainer,
 	Billboard,
 	ColorSwatch,
 	ColorSwatchDigital,
 	ColorField,
+	DoDont,
 	FeaturedPost,
 	HeroPost,
 	LexiconCard,

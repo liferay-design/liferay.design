@@ -9,11 +9,15 @@
 	position: sticky;
 	overflow: scroll;
 	top: 0;
-	transition: transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-out 0s;
 	list-style: none;
+	z-index: 1;
 
 	> div:first-child {
 		padding: $spacingMedium $spacingBase;
+		@media screen and (max-width: $screenMedium) {
+			padding: $spacingSmall;
+		}
 	}
 
 	> ul {
@@ -25,15 +29,19 @@
 	}
 
 	&.off-screen {
-		position: absolute;
-		transform: translateX(-120vw);
-		transition: transform 0.5s ease-in-out, top 0s ease-in-out 0.5s;
+		position: fixed;
+		opacity: 0;
+		transform: translateY(120vh);
+		transition: opacity 0.5s ease 0.5s, transform 0.5s ease-in-out,
+			top 0s ease-in-out 1s;
 		width: 98vw;
 	}
 
 	&.on-screen {
-		position: absolute;
-		top: 8rem;
+		transform: translateY(0);
+		opacity: 1;
+		position: fixed;
+		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -64,7 +72,7 @@
 
 		&:hover,
 		&.active {
-			background-color: $neutral8;
+			background-color: $gray-200;
 		}
 
 		&:hover {

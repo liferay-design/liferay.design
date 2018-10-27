@@ -6,6 +6,18 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-catch-links',
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				trackingId: 'UA-790163-24',
+				// Puts tracking script in the head instead of the body
+				head: true,
+				// Setting this parameter is optional
+				anonymize: false,
+				// Setting this parameter is also optional
+				respectDNT: true,
+			},
+		},
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-resolve-src',
 		'gatsby-plugin-sass',

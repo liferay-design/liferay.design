@@ -1,11 +1,12 @@
 @import '~theme/variables';
 
 .siteName {
-	color: $white;
 	font-size: $fontSizeMedium;
 	padding-bottom: 0;
 	line-height: 1.6;
-
+	a {
+		color: $white;
+	}
 	&:after {
 		content: '';
 		width: $spacingBase;

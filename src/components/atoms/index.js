@@ -1,3 +1,4 @@
+import Button from './Button'
 import Flex from './Flex'
 import Heading from './Heading'
 import Icon from './Icon'
@@ -8,4 +9,15 @@ import ContainerMarkdown from './ContainerMarkdown'
 import CardGrid from './CardGrid'
 import SiteName from './SiteName'
 
-export { Flex, Heading, Icon, Image, Text, Container, ContainerMarkdown, CardGrid, SiteName }
+export {
+	Button,
+	Flex,
+	Heading,
+	Icon,
+	Image,
+	Text,
+	Container,
+	ContainerMarkdown,
+	CardGrid,
+	SiteName,
+}

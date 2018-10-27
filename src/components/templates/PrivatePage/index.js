@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import { Media, Paper, Card } from 'react-md'
+import { Media, Paper } from 'react-md'
 import { AuthContainer } from 'components/molecules'
+import { Button, Flex, Heading } from 'components/atoms'
+import styles from './styles.module.scss'
 
 export default class PrivatePage extends Component {
 	state = {
@@ -16,15 +18,46 @@ export default class PrivatePage extends Component {
 	}
 
 	renderPrivateContent() {
-		if (this.auth.currentUser) {
+		// if (this.auth.currentUser) {
+		// 	return this.props.children
+		// }
+
+		const authenticatedUsers = ['liferay.com', 'triblio.com']
+		const currentUser = this.auth.currentUser
+
+		const isUserAuthenticated =
+			currentUser &&
+			authenticatedUsers.some(user => {
+				return currentUser.email.includes(user)
+			})
+
+		if (isUserAuthenticated) {
 			return this.props.children
 		}
 
 		return (
-			<Card>
-				<div>{this.props.message}</div>
-				<AuthContainer />
-			</Card>
+			<Flex
+				className={styles.wrapper}
+				height="100vh"
+				width="100vw"
+				justify="center"
+				align="center"
+			>
+				<Flex
+					className={styles.card}
+					margin="0 0 2rem"
+					padding="2rem 2rem 2.4rem"
+					justify="center"
+					align="center"
+				>
+					<Flex direction="column">
+						<Heading margin="2rem">{this.props.message}</Heading>
+						<Button className={styles.loginButton}>
+							<AuthContainer />
+						</Button>
+					</Flex>
+				</Flex>
+			</Flex>
 		)
 	}
 

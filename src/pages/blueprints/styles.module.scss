@@ -22,17 +22,10 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center -6rem;
-	.banner-content {
-		margin-top: 6.1rem;
-	}
 }
 
-.billboard {
-	margin-top: -($spacingBase * 2);
-}
-
-.teasers > div:nth-child(-n + 3) {
-	margin-top: -$spacingMedium * 2;
+.teasers {
+	transform: translateY($spacingBase * 2);
 }
 
 .nav {
@@ -47,18 +40,17 @@
 }
 
 .banner-content {
+	margin-top: 4.3rem;
 	text-align: center;
 	h1 {
-		font-size: 82px;
+		font-size: $fontSizeDisplay * 1.2;
 		font-weight: 900;
 	}
 
 	h2 {
-		font-size: 18px;
-		letter-spacing: 5px;
-		text-transform: uppercase;
+		font-size: $fontSizeLarge;
 		opacity: 0.5 !important;
-		margin-top: 1.7rem;
+		margin-top: 0.6rem;
 		font-weight: 700;
 	}
 
@@ -68,79 +60,13 @@
 		border-width: 2px;
 		font-size: 1rem;
 		min-height: 64px;
-		padding: 18px 64px;
+		padding: 18px 69px;
 		background-color: $white;
 		border-color: $white;
 		color: $blueprintsDark;
-		font-size: 13px;
-		letter-spacing: 1.5px;
+		font-size: $fontSizeBase;
 		line-height: 24px;
-		text-transform: uppercase;
-		margin-top: 3.3rem;
-	}
-}
-
-a.card-link {
-	color: inherit;
-}
-
-.card {
-	text-align: center;
-	background-color: $white;
-	border-bottom: $fontSizeSmall solid $white;
-	border-radius: $fontSizeSmall;
-	box-shadow: 4px 6px 36px rgba(48, 49, 63, 0.15);
-	padding: 1rem;
-	min-height: 100%;
-	transition: all 0.4s;
-	&:hover {
-		background-color: $neutral9;
-		border-color: $brandDark;
-		box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
-		transform: translateY(-3px);
-	}
-	.card-body {
-		padding: 32px;
-	}
-	.arrow {
-		display: flex;
-		justify-content: center;
-		font-size: 12px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		font-weight: 900;
-		align-items: center;
-	}
-	.cardTitle {
-		justify-content: center;
-		padding: 2rem 1rem 0;
-		h2 {
-			color: $darkGrey;
-			font-weight: $fontWeightBlack;
-			font-size: 21px;
-			line-height: 1.6;
-		}
-	}
-	p.cardText {
-		font-weight: $fontWeightRegular;
-		color: #a1a3b6;
-		font-size: 18px;
-		line-height: 1.6;
-	}
-
-	.btn {
-		color: $darkGrey;
-		display: inline-flex;
-		font-size: 11px;
-		letter-spacing: 1px;
-		img {
-			height: 1em;
-			margin: auto;
-		}
-	}
-	img.mx-auto {
-		margin: 32px 0 40px;
-		width: 98px;
+		margin-top: 2.7rem;
 	}
 }
 
@@ -149,7 +75,7 @@ a.card-link {
 	font-size: $fontSizeXSmall;
 	font-weight: $fontWeightBlack;
 	letter-spacing: 2px;
-	margin-top: 250px;
+	margin-top: $spacingMedium * 4;
 	text-transform: uppercase;
 	transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
 	white-space: nowrap;

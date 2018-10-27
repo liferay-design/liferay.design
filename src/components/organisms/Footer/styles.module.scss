@@ -21,8 +21,11 @@ footer.dark {
 	svg {
 		fill: $white;
 	}
+	a {
+		color: $grey;
+	}
 }
 
 footer {
-	padding-top: $spacingMedium;
+	padding: $spacingMedium 0 $spacingMedium;
 }

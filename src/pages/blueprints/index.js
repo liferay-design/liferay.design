@@ -23,7 +23,7 @@ const Blueprints = () => (
 		<Flex
 			className={styles.banner}
 			width="100vw"
-			height="108vh"
+			height="100vh"
 			direction="column"
 			align="center"
 		>
@@ -43,7 +43,7 @@ const Blueprints = () => (
 		<div className={styles.background}>
 			<div className={styles.container}>
 				<Grid className={styles.teasers} gap="2rem" template={cardGrid}>
-					<Grid.Item area="tlg">
+					<Grid.Item area="tlg" marginTop="-8rem">
 						<Text
 							color="#c4cacb"
 							weight="700"
@@ -54,7 +54,7 @@ const Blueprints = () => (
 							Explore Blueprints
 						</Text>
 					</Grid.Item>
-					<Grid.Item area="tlc">
+					<Grid.Item area="tlc" marginTop="-8rem">
 						<LexiconCard
 							icon="whyBlueprints"
 							title="Why Blueprints"
@@ -64,24 +64,25 @@ const Blueprints = () => (
 							cta="Read More"
 						/>
 					</Grid.Item>
-					<Grid.Item area="trc">
+					<Grid.Item area="trc" marginTop="-8rem">
 						<LexiconCard
 							icon="logos"
 							title="Just the Logos, Please"
 							text="We know what you’re looking for, and we respect that.
-								That's why this is at the top of the page."
+								Here it is at the top of the page."
 							to="/blueprints/resources/logo-files"
 							cta="Waffle Time"
 						/>
 					</Grid.Item>
 					<Grid.Item area="m">
 						<LexiconCard
+							wide
 							icon="resources"
 							iconHeight="10rem"
 							iconWidth="11rem"
 							title="Resources"
 							text="The reason you've come to this site&mdash;logos,
-										colors, fonts, images&mdash;get it all right here!"
+										colors, fonts, images&mdash;get it all right&nbsp;here!"
 							to="/blueprints/resources"
 							cta="Get 'Em"
 							direction="horizontal"
@@ -108,7 +109,7 @@ const Blueprints = () => (
 							direction="vertical"
 						/>
 					</Grid.Item>
-					<Grid.Item area="brg">
+					<Grid.Item area="brg" marginTop="2rem">
 						<Link
 							className={styles.social}
 							to="https://github.com/liferay-design"
@@ -144,7 +145,7 @@ const Blueprints = () => (
 						!
 					</Text>
 				)}
-				background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg)"
+				background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg) center/cover fixed"
 			/>
 		</div>
 		<Footer />

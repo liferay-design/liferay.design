@@ -20,6 +20,25 @@ a.card-link {
 	}
 }
 
+.card.wide {
+	text-align: left;
+	.content {
+		display: flex;
+		padding: $spacingMedium;
+		align-items: center;
+	}
+	.iconWrapper {
+		width: 100%;
+		svg {
+			height: 10rem !important;
+			width: 10rem !important;
+		}
+	}
+	.copy {
+		padding: $spacingSmall $spacingSmall $spacingSmall $spacingBase;
+	}
+}
+
 .card {
 	text-align: center;
 	background-color: $white;
@@ -38,8 +57,8 @@ a.card-link {
 		}
 	}
 
-	.copy {
-		padding: 32px;
+	.content {
+		padding: $spacingMedium;
 	}
 
 	h2.title {

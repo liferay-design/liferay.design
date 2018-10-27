@@ -1,0 +1,15 @@
+@import '~theme/variables';
+
+button {
+	font-family: $fontFamilyPrimary;
+	-webkit-appearance: button;
+	font-size: $fontSizeBase;
+	cursor: pointer;
+	color: $darkGrey;
+	background-color: $lightestGrey;
+	border-color: $lightestGrey;
+	box-shadow: none;
+	padding: $spacingXSmall;
+	border-radius: $spacingXSmall / 2;
+	margin-top: $spacingSmall;
+}

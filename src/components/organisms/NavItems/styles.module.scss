@@ -1,48 +1,72 @@
 @import '~theme/variables';
 
-.entry a {
-	color: $grey;
-	margin: 0;
-	padding: $spacingSmall;
-	position: relative;
-	font-size: $fontSizeSmall;
-	transition: color 0.2s ease-out;
-	&::after {
-		background: $white;
-		bottom: 0;
-		content: '';
-		right: $spacingSmall;
-		position: absolute;
-		height: 3px;
-		transition: transform 0.4s ease;
-		transform-origin: right;
-		transform: scaleX(0);
-		width: $spacingBase;
-	}
-	&:last-child {
+.entry {
+	&:last-child > a {
 		padding: $spacingSmall 0 $spacingSmall $spacingBase;
 		&::after {
 			right: 0;
 			background: $primary;
 		}
 	}
-	&:hover {
-		color: $white;
-		transition: color 0.4s ease-out;
+	a {
+		color: $grey;
+		margin: 0;
+		padding: $spacingSmall;
+		position: relative;
+		font-size: $fontSizeSmall;
+		transition: color 0.2s ease-out;
 		&::after {
-			transition: transform 0.2s ease;
-			transform: scaleX(1);
+			background: $white;
+			bottom: 0;
+			content: '';
+			right: $spacingSmall;
+			position: absolute;
+			height: 3px;
+			transition: transform 0.4s ease;
+			transform-origin: right;
+			transform: scaleX(0);
+			width: $spacingBase;
 		}
-	}
-
-	&.selected {
-		border-bottom: 1px solid $black;
-
-		.entry a {
+		&:hover {
 			color: $white;
+			transition: color 0.4s ease-out;
+			&::after {
+				transition: transform 0.2s ease;
+				transform: scaleX(1);
+			}
+		}
+
+		&.selected {
+			border-bottom: 1px solid $black;
+
+			.entry a {
+				color: $white;
+			}
 		}
 	}
-	@media screen and (max-width: $screenSmall) {
-		display: none;
+}
+@media screen and (max-width: $screenSmall) {
+	.items {
+		justify-content: space-around;
+		background: $black;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		padding: $spacingXSmall $spacingBase $spacingSmall;
+	}
+	.entry {
+		min-width: 14ch;
+		justify-content: flex-end;
+	}
+
+	.entry a {
+		&:last-child {
+			padding: $spacingSmall;
+			&::after {
+				right: $spacingSmall;
+				background: $primary;
+			}
+		}
 	}
 }

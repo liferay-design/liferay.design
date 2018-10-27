@@ -2,11 +2,20 @@
 
 .social {
 	width: 320px;
-	z-index: -1;
+	// z-index: -1;
 
-	@media screen and (max-width: $screenSmall) {
+	@media screen and (max-width: $screenLarge) {
+		width: 50%;
+	}
+
+	@media screen and (max-width: $screenMedium) {
+		margin: $spacingSmall 0;
 		order: -1;
 		width: 100%;
+		max-width: 360px;
+	}
+
+	@media screen and (max-width: $screenSmall) {
 		margin: 0 -0.2rem 3rem -0.2rem;
 	}
 }

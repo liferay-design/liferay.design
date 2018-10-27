@@ -68,28 +68,30 @@ export default class Blueprints extends Component {
 										showSidebar={this.state.mobileSidebarVisible}
 									/>
 
-									<ContainerMarkdown
+									<div
+										className={styles.body}
 										isMobile={matches}
 										isMobileSidebarVisible={
 											this.state.mobileSidebarVisible
 										}
 									>
-										<Flex
-											justify="space-between"
-											align="baseline"
-											className={styles.header}
-										>
-											<h1>{mdx.frontmatter.title}</h1>
+										<ContainerMarkdown>
+											<Flex
+												justify="space-between"
+												align="baseline"
+												className={styles.header}
+											>
+												<h1>{mdx.frontmatter.title}</h1>
 
-											{!matches && <AuthContainer />}
-										</Flex>
+												{!matches && <AuthContainer />}
+											</Flex>
 
-										<MDXRenderer className={styles.body}>
-											{mdx.code.body}
-										</MDXRenderer>
-
+											<MDXRenderer className={styles.body}>
+												{mdx.code.body}
+											</MDXRenderer>
+										</ContainerMarkdown>
 										<FooterMarkdown light />
-									</ContainerMarkdown>
+									</div>
 
 									<Flex
 										align="center"
@@ -134,6 +136,7 @@ export const pageQuery = graphql`
 				node {
 					id
 					frontmatter {
+						order
 						title
 					}
 					fields {
@@ -166,6 +169,7 @@ function buildSidebarTree(markdownNodes) {
 	const sidebarTree = markdownNodes.edges.reduce((currentTree, currentValue) => {
 		const slug = currentValue.node.fields.slug
 		const title = currentValue.node.frontmatter.title
+		const order = currentValue.node.frontmatter.order || title
 
 		const slugArr = slug
 			.split('/')
@@ -173,7 +177,7 @@ function buildSidebarTree(markdownNodes) {
 			.slice(1)
 
 		const treePath = slugArr.join('.children.')
-		const sidebarItemValue = { title, slug }
+		const sidebarItemValue = { order, title, slug }
 
 		if (!treePath.includes('children')) {
 			sidebarItemValue.firstLevel = true
