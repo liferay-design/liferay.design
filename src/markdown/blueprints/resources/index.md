@@ -1,6 +1,7 @@
 ---
 title: 'Resources'
 description: "Liferay's Brand Resources"
+order: 4
 ---
 
 ### Liferay Brand Resources

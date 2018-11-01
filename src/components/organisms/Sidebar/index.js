@@ -16,7 +16,7 @@ const SidebarContent = ({ path, tree }) => {
 			return (
 				<Accordion
 					className={className}
-					key={node.title}
+					key={node.order}
 					open={path.includes(node.title.toLowerCase())}
 					title={node.title}
 				>
