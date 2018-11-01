@@ -1,6 +1,7 @@
 ---
 title: 'FAQ'
 description: 'Frequently Asked Questions'
+order: 5
 ---
 
 ### I need to update the logo for [my thing], how do I do that?
