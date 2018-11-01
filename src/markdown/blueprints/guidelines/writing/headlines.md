@@ -1,6 +1,7 @@
 ---
 title: 'Writing Effective Headlines'
 description: 'Words matter'
+order: 7
 ---
 
 The kind of headline you write will depend on the type of collateral you’re creating or what channel it will be posted to. These are good general guidelines for writing effective headlines, but feel free to step outside of them if it will make your piece stronger.

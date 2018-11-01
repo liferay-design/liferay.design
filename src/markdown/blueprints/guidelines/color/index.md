@@ -1,7 +1,7 @@
 ---
 title: 'Color'
 description: 'Using color at Liferay'
-order: 5
+order: 3
 ---
 
 ### Using Color

@@ -1,7 +1,7 @@
 ---
 title: 'Legal'
 description: 'Protecting the Liferay Brand'
-order: 2
+order: 70
 ---
 
 ### Global Responsibility

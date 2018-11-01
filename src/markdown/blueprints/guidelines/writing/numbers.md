@@ -1,6 +1,7 @@
 ---
 title: 'Numbers'
 description: 'One, two, three, four'
+order: 4
 ---
 
 ## Cardinal and Ordinal Numbers
