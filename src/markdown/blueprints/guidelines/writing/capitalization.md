@@ -1,6 +1,7 @@
 ---
 title: 'Capitalization'
 description: 'What is the capital of Vermont?'
+order: 2
 ---
 
 ## Titles of People and Terms Within Text

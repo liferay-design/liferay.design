@@ -1,6 +1,7 @@
 ---
 title: 'Punctuation'
 description: 'Using commas, periods and stuff'
+order: 3
 ---
 
 ## Acronyms and Abbreviations
