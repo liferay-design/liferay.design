@@ -1,6 +1,7 @@
 @import '~theme/variables';
 
 nav {
+	font-weight: $fontWeightHeavy;
 	align-items: baseline;
 	display: flex;
 	justify-content: space-between;
