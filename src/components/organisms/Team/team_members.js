@@ -14,7 +14,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/anton-juan-h.jpg`),
 		title: 'Senior UX Designer',
 		icon: 'fa_palette',
-		page: 'null',
+		page: '/team/anton-juan',
 	},
 	{
 		id: 10,

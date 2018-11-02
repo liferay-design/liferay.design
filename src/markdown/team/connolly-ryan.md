@@ -1,6 +1,7 @@
 ---
 title: 'Ryan Connolly'
 description: 'UX Design Manager'
+featuredImage: '/images/headshots/connolly-ryan-h.jpg'
 ---
 
 #### How did you get into design?
