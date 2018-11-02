@@ -16,11 +16,16 @@
 	}
 	.avatar {
 		border: none;
+		box-shadow: $elevation0;
 		background: $darkestGrey;
 		margin: -$spacingBase 1.8rem 0;
 		height: $spacingBase * 2;
 		width: $spacingBase * 2;
 		position: absolute;
+		& img {
+			height: 100%;
+			width: 100%;
+		}
 	}
 	.copy {
 		padding: $spacingMedium $spacingBase $spacingMedium;
