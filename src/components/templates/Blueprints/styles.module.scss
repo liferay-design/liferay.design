@@ -2,6 +2,9 @@
 
 .sans {
 	font-family: $fontFamilySecondary;
+	a {
+		font-weight: $fontWeightBlack;
+	}
 }
 
 .mainContentWrapper {
