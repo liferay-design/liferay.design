@@ -8,6 +8,7 @@ import ColorField from './ColorField'
 import DoDont from './DoDont'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
+import ImageDownload from './ImageDownload'
 import LexiconCard from './LexiconCard'
 import LogoutContainer from './LogoutContainer'
 import Person from './Person'
@@ -26,6 +27,7 @@ export {
 	DoDont,
 	FeaturedPost,
 	HeroPost,
+	ImageDownload,
 	LexiconCard,
 	LogoutContainer,
 	Person,
