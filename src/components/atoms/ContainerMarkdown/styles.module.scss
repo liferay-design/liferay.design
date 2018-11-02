@@ -15,15 +15,15 @@
 		display: none;
 	}
 
-	ol {
+	div > ol {
 		padding-inline-start: 0;
 		list-style: none;
 		counter-reset: li;
-		li {
+		> li {
 			counter-increment: li;
 			&:before {
 				content: '.' counter(li);
-				color: #c0c0c0;
+				color: $neutral4;
 				width: 2ch;
 				margin-left: -3ch;
 				text-align: right;

@@ -16,7 +16,7 @@ Absolutely not &mdash; a brand is [more than a logo](https://hbr.org/2011/06/a-l
 
 ## I need to get/update the logo for my project/product/initiative, how do I do that?
 
-Great question &mdash; the first step is to reach out to [Jason Chang](mailto:jason.chang@liferay.com) and explain the strategy behind your initiative and how it fits into our greater product story.
+Great question &mdash; we're currently working to define a framework and guidelines for this, but until then please reach out to [Jason Chang](mailto:jason.chang@liferay.com) and explain the strategy behind your initiative and how it fits into our greater product story.
 
 ## Do I need to order new signage? (Or booths, shirts, etc)
 
