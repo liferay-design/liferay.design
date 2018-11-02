@@ -66,12 +66,12 @@ a.card-link {
 
 	p.text {
 		font-weight: $fontWeightRegular;
-		color: $lightGrey;
+		color: $gray-500;
 		font-size: $fontSizeMedium;
 		margin: 0 0 $fontSizeXLarge;
 	}
 
 	p.cta {
-		color: lighten($grey, 16%);
+		color: lighten($gray-500, 16%);
 	}
 }
