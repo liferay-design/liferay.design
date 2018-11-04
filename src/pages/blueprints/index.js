@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
 import { Billboard, LexiconCard } from 'components/molecules'
-import { Footer, Navbar } from 'components/organisms'
+import { Footer, Navbar, Banner } from 'components/organisms'
 import styles from './styles.module.scss'
 import { Card, CardTitle, CardText } from 'react-md'
 import { Grid, Button, styled } from 'reakit'
@@ -20,26 +20,14 @@ const cardGrid = `
 
 const Blueprints = () => (
 	<div className={styles.sans}>
-		<Flex
-			className={styles.banner}
-			width="100vw"
-			height="100vh"
-			direction="column"
-			align="center"
-		>
-			<Navbar white section="Blueprints" />
-			<div className={styles.bannerContent}>
-				<Heading color="white" level={1}>
-					Blueprints
-				</Heading>
-				<Heading color="white" level={2}>
-					Brand Guidelines For Liferay
-				</Heading>
-				<Link to="/blueprints/principles">
-					<Button className={styles.button}>Get Started</Button>
-				</Link>
-			</div>
-		</Flex>
+		<Banner
+			headline="Blueprints"
+			subtitle="Brand Guidlines for Liferay"
+			cta="Get Started"
+			ctaLink="/blueprints/principles"
+			section="Blueprints"
+			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg) center -6rem / cover fixed, #0b63ff"
+		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
 				<Grid className={styles.teasers} gap="2rem" template={cardGrid}>
