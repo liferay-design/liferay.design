@@ -32,3 +32,16 @@
 		}
 	}
 }
+
+@media screen and (max-width: $screenSmall) {
+	.container {
+		.content {
+			h1 {
+				font-size: $fontSizeDisplay;
+			}
+			h2 {
+				font-size: $fontSizeMedium;
+			}
+		}
+	}
+}
