@@ -3,7 +3,7 @@
 
 .teasers {
 	grid-template-columns: 1fr 1fr 1fr;
-	margin-top: $spacingBase * (-3) - $spacingSmall;
+	margin-top: $spacingBase * (-3) - $spacingSmall !important;
 	@media screen and (max-width: $screenMedium) {
 		margin-top: initial;
 		grid-template-columns: 1fr;
