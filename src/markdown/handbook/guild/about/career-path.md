@@ -1,6 +1,6 @@
 ---
-title: 'page-title'
-description: 'page-description'
+title: 'Career Path'
+description: 'TODO write career path description'
 ---
 
-### Every page is a markdown file
+## TODO: career path

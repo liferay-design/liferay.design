@@ -20,3 +20,36 @@
 	-webkit-font-smoothing: antialiased !important;
 	-moz-osx-font-smoothing: grayscale !important;
 }
+
+.mainContentWrapper {
+	background: $white;
+	min-height: 100vh;
+}
+
+.mobileNavbar {
+	align-items: center;
+	grid-area: nav;
+	background: #f7f8f9;
+	width: 100%;
+}
+
+.mobileMenuBar {
+	background: $black;
+	bottom: 0;
+	display: none !important;
+	left: 0;
+	position: fixed;
+	right: 0;
+	z-index: 10;
+
+	> * {
+		cursor: pointer;
+		margin: 1rem 1.5rem;
+	}
+}
+
+@media screen and (max-width: $screenMedium) {
+	.mobileMenuBar {
+		display: flex !important;
+	}
+}

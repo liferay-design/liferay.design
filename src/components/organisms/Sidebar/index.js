@@ -35,7 +35,7 @@ const SidebarContent = ({ path, tree }) => {
 	return orderBy(unorderedTree, 'key', 'asc')
 }
 
-export default function SidebarWrapper({ path, tree, isMobile, showSidebar }) {
+export default function SidebarWrapper({ path, tree, isMobile, showSidebar, section }) {
 	return (
 		<Grid
 			columns="1fr"
@@ -46,7 +46,7 @@ export default function SidebarWrapper({ path, tree, isMobile, showSidebar }) {
 		>
 			{!isMobile && (
 				<Grid.Item>
-					<SiteName section="Blueprints" dark />
+					<SiteName section={section} dark />
 				</Grid.Item>
 			)}
 

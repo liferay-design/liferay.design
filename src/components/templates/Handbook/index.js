@@ -1,62 +1,45 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { cloneDeep, get, set } from 'lodash'
-import { Flex } from 'components/atoms'
-import { Sidebar, Footer, Navbar } from 'components/organisms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
+import { AuthContainer } from 'components/molecules'
+import { FooterMarkdown } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
+import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-
-function upsertAtPath(path, value, obj) {
-	obj = cloneDeep(obj)
-	const pathValue = get(obj, path)
-	set(obj, path, { ...pathValue, ...value })
-
-	return obj
-}
+import { cloneDeep, get, set } from 'lodash'
+import React, { Component } from 'react'
+import MediaQuery from 'react-responsive'
+import { Grid } from 'reakit'
+import styles from './styles.module.scss'
 
 export default class Handbook extends Component {
-	buildSidebarTree(markdownNodes) {
-		const sidebarTree = markdownNodes.edges.reduce((currentTree, currentValue) => {
-			const slug = currentValue.node.fields.slug
-			const title = currentValue.node.frontmatter.title
-
-			const slugArr = slug
-				.split('/')
-				.filter(slug => slug !== '')
-				.slice(1)
-
-			const treePath = slugArr.join('.children.')
-			const sidebarItemValue = { title, slug }
-
-			return upsertAtPath(treePath, sidebarItemValue, currentTree)
-		}, {})
-
-		return sidebarTree
-	}
-
 	render() {
-		const post = this.props.data.mdx
-		const markdown = this.props.data.allMdx
+		const {
+			data: { allMdx, mdx },
+			location: { pathname },
+		} = this.props
 
-		const sidebarTree = this.buildSidebarTree(markdown)
+		const template = `"main" auto / 1fr`
 
 		return (
 			<PrivatePage
 				message="You must be a Liferay Employee to view this page"
 				section="Handbook"
 			>
-				<Navbar section="Handbook" />
-				{/* <Sidebar path={this.props.location.pathname} tree={sidebarTree}/> */}
+				<Grid template={template} className={styles.mainContentWrapper}>
+					<ContainerMarkdown>
+						<Flex
+							justify="space-between"
+							align="baseline"
+							className={styles.header}
+						>
+							<h1>{mdx.frontmatter.title}</h1>
 
-				<div className={styles.markdownContainer}>
-					<Flex direction="column" className={styles.wrapper}>
-						<h1>{post.frontmatter.title}</h1>
+							<AuthContainer />
+						</Flex>
 
-						<MDXRenderer>{post.code.body}</MDXRenderer>
-					</Flex>
-				</div>
-				<Footer light />
+						<MDXRenderer className={styles.body}>{mdx.code.body}</MDXRenderer>
+					</ContainerMarkdown>
+					<FooterMarkdown light />
+				</Grid>
 			</PrivatePage>
 		)
 	}
@@ -64,12 +47,13 @@ export default class Handbook extends Component {
 
 export const pageQuery = graphql`
 	query($slug: String!) {
-		allMdx(filter: { fields: { slug: { regex: "/handbook/" } } }) {
+		allMdx(filter: { fields: { slug: { regex: "/(handbook)/" } } }) {
 			totalCount
 			edges {
 				node {
 					id
 					frontmatter {
+						order
 						title
 					}
 					fields {
@@ -89,3 +73,11 @@ export const pageQuery = graphql`
 		}
 	}
 `
+
+function upsertAtPath(path, value, obj) {
+	obj = cloneDeep(obj)
+	const pathValue = get(obj, path)
+	set(obj, path, { ...pathValue, ...value })
+
+	return obj
+}

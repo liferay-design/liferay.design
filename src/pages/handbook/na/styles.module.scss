@@ -1,0 +1,40 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+.body {
+	// background: $white;
+}
+
+.teasers {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+	max-width: $screenLarge;
+	margin: 0 auto;
+}
+
+.vertical {
+	color: $neutral7;
+	font-size: $fontSizeXSmall;
+	font-weight: $fontWeightBlack;
+	letter-spacing: 2px;
+	margin-top: $spacingMedium * 4;
+	text-transform: uppercase;
+	transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
+	white-space: nowrap;
+}
+
+.social {
+	height: $spacingMedium;
+	width: $spacingMedium;
+	display: flex;
+	margin: $spacingSmall $spacingXSmall;
+	justify-content: center;
+	align-items: center;
+	background: $lightestGrey;
+	border-radius: 50%;
+	&:hover {
+		background: $primary;
+	}
+}

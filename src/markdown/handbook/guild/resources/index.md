@@ -1,6 +1,6 @@
 ---
-title: 'page-title'
+title: 'Guild Resources'
 description: 'page-description'
 ---
 
-### Every folder needs an index.md file
+## TODO: Guild Resources

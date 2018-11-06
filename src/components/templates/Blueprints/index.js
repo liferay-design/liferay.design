@@ -66,6 +66,7 @@ export default class Blueprints extends Component {
 										tree={buildSidebarTree(allMdx)}
 										isMobile={matches}
 										showSidebar={this.state.mobileSidebarVisible}
+										section="Blueprints"
 									/>
 
 									<div

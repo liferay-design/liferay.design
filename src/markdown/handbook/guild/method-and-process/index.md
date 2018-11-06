@@ -1,6 +1,6 @@
 ---
-title: 'page-title'
+title: 'Methods and Processes'
 description: 'page-description'
 ---
 
-### Every folder needs an index.md file
+## TODO: Guild Methods and Processes

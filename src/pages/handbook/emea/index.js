@@ -24,7 +24,7 @@ export default ({ data }) => {
 
 export const query = graphql`
 	{
-		allMdx(filter: { fileAbsolutePath: { regex: "/(handbook)/" } }) {
+		allMdx(filter: { fileAbsolutePath: { regex: "/(handbook)/(emea)/" } }) {
 			totalCount
 			edges {
 				node {
