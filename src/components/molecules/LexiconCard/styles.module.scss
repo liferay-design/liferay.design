@@ -75,3 +75,11 @@ a.card-link {
 		color: lighten($gray-500, 16%);
 	}
 }
+@media screen and (max-width: $screenMedium) {
+	.card {
+		padding: 0;
+		.content {
+			padding: $spacingBase $spacingSmall;
+		}
+	}
+}
