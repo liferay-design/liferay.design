@@ -72,10 +72,16 @@ function capFirstLetter(string) {
 exports.onCreatePage = async ({ page, actions }) => {
 	const { createPage } = actions
 
-	if (page.path.match(/^\/blueprints/)) {
-		page.matchPath = '/blueprints/*'
-
-		// Update the page.
-		createPage(page)
+	var pageMap = {
+		[ "blueprints" ] : [ "blueprints" ],
+		[ "handbook" ] : [ "handbook" ],
 	}
+
+	for ( key in pageMap )
+		if (page.path.match(/^\/pageMap[key]/)) {
+			page.matchPath = '/key/*'
+
+			// Update the page.
+			createPage(page)
+		}
 }
