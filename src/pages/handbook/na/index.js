@@ -15,10 +15,10 @@ export default ({ data }) => {
 						<LexiconCard dark icon="whyBlueprints" title="Onboarding" text="Your first few days won't be boring, we guarantee that!" to="/handbook/na/onboarding/first-week" cta="Welcome Aboard!" />
 					</Grid.Item>
 					<Grid.Item marginTop="-4rem">
-						<LexiconCard dark icon="whyBlueprints" title="Tools" text="If we have 8 hours to design an interface, the first 6 will be spent creating the grid." to="/handbook/na/tools/design" cta="Sharpen the Axe" />
+						<LexiconCard dark icon="liferayDesign" title="Tools" text="If we have 8 hours to design an interface, the first 6 will be spent creating the grid." to="/handbook/na/tools/design" cta="Sharpen the Axe" />
 					</Grid.Item>
 					<Grid.Item marginTop="-4rem">
-						<LexiconCard dark icon="logos" title="Processes" text="We don't have any 7' Cameroonians on the team yet, but we're always hiring." to="/handbook/na/processes/rotisserie/kitchen-prep" cta="#TrustTheProcess" />
+						<LexiconCard dark icon="faqs" title="Processes" text="We don't have any 7' Cameroonians on the team yet, but we're always hiring." to="/handbook/na/processes/rotisserie/kitchen-prep" cta="#TrustTheProcess" />
 					</Grid.Item>
 				</Grid>
 			</div>
