@@ -6,8 +6,7 @@ import { LexiconCard } from 'components/molecules'
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 
-export default ({ data }) => {
-	return (
+const HandbookNA = () => (
 		<div className={styles.body}>
 			<Banner
 				headline="Handbook"
@@ -54,24 +53,5 @@ export default ({ data }) => {
 			<Footer />
 		</div>
 	)
-}
 
-export const query = graphql`
-	{
-		allMdx(filter: { fileAbsolutePath: { regex: "/(handbook)/(na)/" } }) {
-			totalCount
-			edges {
-				node {
-					id
-					frontmatter {
-						title
-					}
-					fields {
-						slug
-					}
-					excerpt
-				}
-			}
-		}
-	}
-`
+export default HandbookNA
