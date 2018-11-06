@@ -49,7 +49,7 @@ const HandbookGuild = () => (
 						title="NA"
 						text="North America"
 						to="/handbook/na"
-						cta="Yo"
+						cta="Howdy"
 					/>
 				</Grid.Item>
 			</Grid>
