@@ -1,6 +1,6 @@
 ---
 title: 'Communication Tools'
-description: ''
+description: 'Can you hear me now?'
 order: 1
 ---
 
