@@ -1,0 +1,12 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+.teasers {
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: $spacingBase * (-3) - $spacingSmall;
+	@media screen and (max-width: $screenMedium) {
+		margin-top: initial;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+}

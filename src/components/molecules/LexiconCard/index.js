@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 import { Flex, Heading, Text, Icon } from 'components/atoms'
 
-const LexiconCard = ({ title, text, cta, to, icon, dark, wide }) => {
+const LexiconCard = ({ title, text, cta, to, icon, dark, wide, fill }) => {
 	return (
 		<Link to={to}>
 			<Flex
@@ -17,6 +17,7 @@ const LexiconCard = ({ title, text, cta, to, icon, dark, wide }) => {
 					<Flex align="center" justify="center" className={styles.iconWrapper}>
 						<Icon
 							name={icon}
+							fill={fill}
 							width="6rem"
 							height="6rem"
 							margin="1rem 0 2rem"
