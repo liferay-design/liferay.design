@@ -23,7 +23,7 @@ const Blueprints = () => (
 	<div className={styles.sans}>
 		<Banner
 			headline="Blueprints"
-			subtitle="Brand Guidlines for Liferay"
+			subtitle="Brand Guidelines for Liferay"
 			cta="Get Started"
 			ctaLink="/blueprints/principles"
 			section="Blueprints"

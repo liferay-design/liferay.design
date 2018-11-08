@@ -1,23 +1,22 @@
 @import '~theme/variables';
 
 .container {
-
 	.download {
 		display: inline-block;
 		bottom: $spacingBase;
 		right: $spacingBase;
-		height: $spacingBase + .2rem;
-		width: $spacingBase + .2rem;
+		height: $spacingBase + 0.2rem;
+		width: $spacingBase + 0.2rem;
 		padding: $spacingXSmall;
 		background: $neutral9;
 		opacity: 0.9;
 		transform: translateY(0);
-		transition: transform .2s ease-in-out;
+		transition: transform 0.2s ease-in-out;
 		border-radius: $spacingXSmall;
 		&:hover {
 			box-shadow: $elevation1;
-			transform: translateY(.2rem);
-			transition: transform .2s ease-in-out;
+			transform: translateY(0.2rem);
+			transition: transform 0.2s ease-in-out;
 		}
 	}
 
