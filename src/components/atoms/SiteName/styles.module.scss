@@ -18,6 +18,12 @@
 
 	&.dark {
 		color: $black;
+		 a {
+			color: $black;
+			&:hover {
+				color: $primary;
+			}
+		}
 	}
 
 	@media screen and (max-width: $screenSmall) {
