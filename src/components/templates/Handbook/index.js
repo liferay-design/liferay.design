@@ -103,16 +103,12 @@ export default class Handbook extends Component {
 									{this.state.mobileSidebarVisible ? (
 										<Icon
 											name="close"
-											onClick={
-												this.toggleMobileSidebarVisibility
-											}
+											onClick={this.toggleMobileSidebarVisibility}
 										/>
 									) : (
 										<Text
 											color="white"
-											onClick={
-												this.toggleMobileSidebarVisibility
-											}
+											onClick={this.toggleMobileSidebarVisibility}
 										>
 											Menu
 										</Text>
@@ -129,7 +125,7 @@ export default class Handbook extends Component {
 
 export const pageQuery = graphql`
 	query($slug: String!) {
-		allMdx(filter: { fileAbsolutePath: { regex: "/(handbook)/(na)/" } }) {
+		allMdx(filter: { fileAbsolutePath: { regex: "/(handbook)/" } }) {
 			totalCount
 			edges {
 				node {
