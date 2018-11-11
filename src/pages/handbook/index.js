@@ -13,11 +13,11 @@ const HandbookGuild = () => (
 			headline="Handbook"
 			subtitle="For the UX Design Guild"
 			cta="Get Started"
-			ctaLink="/handbook/overview"
+			ctaLink="/handbook/principles"
 			section="Handbook"
 			background="url(/images/handbook/guild/ux-guild.svg) center / cover fixed"
 		/>
-		<Container>
+		{/* <Container>
 			<Grid className={styles.teasers} gap="2rem">
 				<Grid.Item>
 					<LexiconCard
@@ -53,7 +53,7 @@ const HandbookGuild = () => (
 					/>
 				</Grid.Item>
 			</Grid>
-		</Container>
+		</Container> */}
 		<Footer />
 	</div>
 )
