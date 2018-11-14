@@ -18,6 +18,7 @@
 	right: -$spacingSmall;
 	top: $spacingMedium;
 	.caret {
+		box-shadow: $elevation1;
 		height: 2rem;
 		width: 2rem;
 		position: absolute;
@@ -28,6 +29,14 @@
 		border-radius: 0.2rem;
 		transition: all 0.5s ease-in-out;
 	}
+	.caretOverlay {
+		background: $white;
+		border-radius: $fontSizeXSmall / 2;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+	}
 
 	img {
 		height: $spacingLarge;
@@ -35,17 +44,6 @@
 		border-radius: $spacingXSmall 0 0 $spacingXSmall;
 	}
 }
-
-.profile {
-	align-items: center;
-	justify-content: space-around;
-	display: flex;
-	position: absolute;
-	top: 100%;
-	right: $spacingBase;
-
-	> div {
-		display: flex;
-		flex-direction: column;
-	}
+.container {
+	position: relative;
 }

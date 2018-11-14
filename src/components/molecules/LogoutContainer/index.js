@@ -28,7 +28,8 @@ export default class LogoutContainer extends Component {
 				<Collapse animate={false} collapsed={collapsed}>
 					<div className={styles.wrapper}>
 						<div className={styles.caret} />
-						<Flex className={styles.container}>
+						<div className={styles.caretOverlay} />
+						<Flex position="relative" className={styles.container}>
 							<img src={this.props.user.avatar} />
 							<Flex direction="column" padding="1rem">
 								<Text
