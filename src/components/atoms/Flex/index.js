@@ -15,6 +15,7 @@ const Flexbox = ({
 	margin,
 	name,
 	padding,
+	position,
 	width,
 	...props
 }) => {
@@ -29,6 +30,7 @@ const Flexbox = ({
 		justifyContent: justify,
 		margin,
 		padding,
+		position,
 		width,
 	}
 
@@ -69,6 +71,7 @@ Flexbox.propTypes = {
 	name: PropTypes.string,
 	padding: PropTypes.string,
 	padding: PropTypes.string,
+	position: PropTypes.string,
 	width: PropTypes.string,
 }
 
