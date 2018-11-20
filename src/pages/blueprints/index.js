@@ -83,6 +83,9 @@ const Blueprints = () => (
 									<LexiconCard
 										wide
 										icon="resources"
+										iconHeight="10rem"
+										iconWidth="11rem"
+										direction="horizontal"
 										title="Resources"
 										text="The reason you've come to this site&mdash;logos,
 											colors, fonts, images&mdash;get it all right&nbsp;here!"
