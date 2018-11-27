@@ -1,0 +1,494 @@
+@import '~theme/variables';
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900');
+
+.pagestyles {
+    background:#1F2123;
+    font-family: Muli;
+    font-weight: 800;
+    overflow-X: hidden;
+    .textMega {
+        font-size: 70vw; //1100px
+        line-height: 70vw;
+        color: #fff;
+        opacity: 0.03;
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        height: 100%;
+
+    }
+    .textHuge {
+        font-size: 20vw; //300px
+        color: #C8C8C8;
+        font-weight: 800;
+        margin: 0;
+        margin-left: -1.4vw;
+    }
+    .textLarge {
+        font-size: 12.5vw; //200px
+        font-weight: 800;
+        color: #fff;
+        margin: 0;
+        margin-left: -0.9vw;
+    }
+    .f1 {
+        font-size: 10vw; //150px
+        font-weight: 800;
+        color: #fff;
+    }
+    .f2 {
+        font-size: 7.5vw; //100px
+        font-weight: 800;
+        color: #fff;
+        line-height: 120%;
+    }
+    .f3Large {
+        font-size: 5.8vw; //100px
+        font-weight: 800;
+        line-height: 100%;
+    }
+    .f3 {
+        font-size: 5vw; //65px
+        font-weight: 800;
+        line-height: 100%;
+    }
+    .pLarge {
+        font-size: 2.2vw;
+    }
+    .p {
+        font-size: 1.8vw;
+        line-height: 150%;
+        color: #4E5358;
+        font-weight: 300;
+    }
+    .pSmall {
+        font-size: 1vw;
+        font-weight: 600;
+    }
+    .navDark {
+        position: absolute;
+        top: 100vh;
+    }
+}
+//anchor links
+.anchorLinks {
+    background: #272A2C;
+    position: fixed;
+    left: 2vw;
+    top: 5vw;
+    opacity: 0;
+    z-index: 100;
+    a {
+        position: relative;
+        .anchorBlock {
+            width: 1.5vw;
+            height: 1.5vw;
+            min-width: 12px;
+            min-height: 12px;
+            background: #272A2C;
+            position: relative;
+        }
+        .anchorText {
+            position: absolute;
+            width: 200px;
+            bottom: 0;
+            color: #fff;
+            padding-left: 150%;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity ease-in-out .1s;
+        }
+    }
+    a:hover {
+        .anchorBlock {
+            background: #006DE7;
+        }
+        .anchorText {
+            opacity: 1;
+        }
+    }
+}
+//header
+.headerPlx {
+    top: 200px;
+    position: relative;
+    .header {
+        div {
+            width: 140px;
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        :nth-child(1), :nth-child(3) {
+            color: $white;
+            font-size: 70px;
+            opacity: 0.1;
+        }
+        :nth-child(2) {
+            font-size: 35px;
+            background: #fff;
+        }
+    }
+}
+
+//banner
+.banner {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20vw;
+    margin-bottom: 35vw;
+    position: relative;
+    .title {
+        position: relative;
+        z-index: 2;
+        left: 10vw;
+        top: 10vw;
+        width: 70vw;
+        max-width: 640px;
+    }
+    .f1 {
+        line-height: 90%;
+        margin: 0;
+        &::first-letter {
+            margin-left: 0.2vw;
+        }
+    }
+    .square {
+        background: #272A2C;
+        width: 50vw;
+        height: 50vw;
+        right: 25vw;
+        top: 0;
+        position: absolute;
+        z-index: 0;
+    }
+    .biggestcircle {
+        width: 50vw;
+        height: 50vw;
+        opacity: 0.3;
+        position: absolute;
+        right: 0;
+        top: 25vw;
+    }
+    .dashedcircle {
+        width: 25vw;
+        height: 25vw;
+        position: absolute;
+        right: 12.5vw;
+        top: 37.5vw;
+    }
+    .circle {
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        right: 17.5vw;
+        top: 42.5vw;
+    }
+    .pie {
+        width: 20vw;
+        height: 21vw;
+        opacity: 0.1;
+        position: absolute;
+        right: 25vw;
+        top: 29.6vw;
+    }
+}
+//team
+.team {
+    padding: 0 10vw;
+    position: relative;
+    margin-bottom: 30vw;
+     .circle {
+        position: absolute;
+        bottom: -20vw;
+        left: -4vw;
+        width: 40vw;
+        height: 40vw;
+    }
+    .designers {
+        height: 55vw;
+        div {
+            width: 40vw;
+        }
+        .designersHired {
+            background: white;
+            margin-top: -4vw;
+            padding: 8vw;
+            position: relative;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #006DE7;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .textHuge, .f3 {
+                color: #1F2123;
+                line-height: 120%;
+            }
+            .f3 {
+                opacity: 0.2;
+            }
+        }
+        .designerRatios {
+            background: #2F3337;
+            color: #595C5F;
+            position: relative;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #fff;
+                opacity: 0.1;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .psmall {
+                text-align: center;
+                position: relative;
+                width: auto;
+                &:before {
+                    content: " ";
+                    width: 1.5vw;
+                    height: 1.5vw;
+                    background: #006DE7;
+                    position: absolute;
+                    top: -3em;
+                    left: 1.5em;
+                }
+            }
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                width: 80%
+            }
+            .designersToDev, .designersToProjects {
+                width: 100%;
+                height: 50%;
+                .projectBlocks, .devBlocks {
+                    position: relative;
+                    top: -2.2vw;
+                    div {
+                        width: 1.5vw;
+                        height: 1.5vw;
+                        background: #fff;
+                        margin: .5vw;
+                    }
+                }
+                .devBlocks {
+                    width: 2.5vw;
+                    left: 5.4vw;
+                }
+                .projectBlocks {
+                    width: 5vw;
+                    left: 5.5vw;
+                }
+            }
+        }
+
+
+    }
+    .stats {
+        width: 80vw;
+        background: #25282A;
+        height: 30vw;
+        position: relative;
+        &:after{
+            content: " ";
+            width: 100%;
+            height: .5vw;
+            background: #fff;
+            opacity: 0.04;
+            bottom: 0;
+            position: absolute;
+            left: 0;
+        }
+        .f3Large {
+            color: #fff;
+        }
+        .pLarge {
+            color: #fff;
+            opacity: 0.2;
+        }
+    }
+    .sketchToFigma {
+        width: 80vw;
+        position: relative;
+        z-index: 1;
+        .sketch, .figma {
+            width: 40vw;
+            position: relative;
+            img {
+                max-width: 10vw;
+                max-height: 10vw;
+                margin-bottom: 3vw;
+            }
+        }
+        .sketch {
+            background: #2F3337;
+            height: 30vw;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #fff;
+                opacity: 0.1;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .p {
+                color: #fff;
+                span {
+                    font-weight: 600;
+                }
+            }
+            
+        }
+        .figma {
+            background: #fff;
+            height: 32vw;
+            margin-top: -2vw;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #006DE7;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .p {
+                color: #1F2123;
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+        .arrow {
+            width: 15vw;
+            position: absolute;
+            left: 32vw;
+            top: 13vw;
+        }
+    }
+}
+//products launched
+.productsLaunched {
+    height: 110vw;
+    width: 100vw;
+    position: relative;
+    .f2 {
+        position: relative;
+        top: 30vw;
+        left: 28vw;
+        width: 50vw;
+    }
+    .products {
+        width: 50vw;
+        left: 10vw;
+        top: 50vw;
+    }
+    .pSmall {
+        color: #fff;
+        opacity: 0.5;
+    }
+    :nth-child(5) {
+        width: 8.5vw;
+    }
+    .dotSmall {
+        background: #fff;
+        opacity: 0.2;
+        width: 0.2vw;
+        height: 0.2vw;
+        border-radius: 50%;
+    }
+    .circle {
+        position: absolute;
+        right: -12vw;
+        width: 20vw;
+        height: 20vw;
+        bottom: -14vw;
+        z-index: 0;
+    }
+    .biggestcircle {
+        width: 120vw;
+        height: 120vw;
+        position: absolute;
+        right: -60vw;
+        opacity: 0.3;
+        bottom: -60vw;
+        z-index: 0;
+    }
+}
+//brand
+.brand {
+    background: #fff;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    padding: 0 10vw;
+    .textHuge {
+        position: relative;
+        top: -17vw;
+    }
+    .liferayLogo {
+        position: relative;
+        width: 28vw;
+        left: -1.6vw;
+    }
+    .p {
+        &:nth-of-type(1) {
+            width: 40vw;
+        }
+    }
+    .waffles {
+        position: relative;
+        bottom: -15vw;
+        .blackWaffle, .blueWaffle {
+            width: 40vw;
+            height: 30vw;
+            svg {
+                width: 16vw;
+                height: 16vw;
+            }
+        }
+        .blackWaffle {
+            background: #1F2123;
+        }
+        .blueWaffle {
+            background: #fff;
+        }
+    }
+}
+//redefined
+.redefined {
+    background: #006DE7;
+    padding: 30vw 10vw 15vw;
+    .textLarge {
+        opacity: 0.2;
+    }
+    .p {
+        color: #fff;
+        width: 40vw;
+    }
+}
+
+//projects completed 
+.projectsCompleted {
+    height: 110vw;
+    width: 100vw;
+    position: relative;
+    .f2 {
+        position: relative;
+        top: 30vw;
+        left: 28vw;
+        width: 50vw;
+    }
+}
