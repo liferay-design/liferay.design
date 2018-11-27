@@ -35,6 +35,7 @@ const LexiconCard = ({
 			<Flex
 				direction={directionMap[direction]}
 				className={`${styles.card} ${dark ? styles.dark : styles.light}`}
+				padding="6rem 3rem"
 			>
 				<Flex align="center" justify="center" width={iconWidthMap[direction]}>
 					<Icon
