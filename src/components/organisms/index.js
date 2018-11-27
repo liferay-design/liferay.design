@@ -10,7 +10,6 @@ import Posts from './Posts'
 import Sidebar from './Sidebar'
 import Team from './Team'
 import Venue from './Venue'
-import TwentyEighteen from './TwentyEighteen'
 
 export {
 	Agenda,
@@ -25,5 +24,4 @@ export {
 	Sidebar,
 	Team,
 	Venue,
-	TwentyEighteen,
 }

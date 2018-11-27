@@ -1,5 +1,6 @@
 import React from 'react'
 import { Flex, Heading, Image } from 'components/atoms'
+import { Footer } from 'components/organisms'
 import styles from './styles.module.scss'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx';
@@ -312,7 +313,7 @@ const TwentyEighteen = () => {
             <div className={styles.textMega}>87</div>
             <Plx parallaxData={ PlxUp1 } className={styles.f2}>Projects Completed</Plx>
         </section>
-        
+        <Footer />
     </div>
     )
 }
