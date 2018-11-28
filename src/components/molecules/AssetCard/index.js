@@ -10,7 +10,7 @@ export default function AssetCard({ asset, title, preview, link, cta, letter }) 
 			<Flex
 				backgroundImage={preview}
 				height="0"
-				padding={ letter ? "0 0 129%" : "0 0 56.25%" }
+				padding={letter ? '0 0 129%' : '0 0 56.25%'}
 				width="100%"
 			/>
 
@@ -19,7 +19,12 @@ export default function AssetCard({ asset, title, preview, link, cta, letter }) 
 					{title}
 				</Text>
 
-				<a className={styles.primaryAction} href={link} target="_blank">
+				<a
+					className={styles.primaryAction}
+					href={link}
+					target="_blank"
+					rel="noopener"
+				>
 					{cta}
 				</a>
 			</Flex>

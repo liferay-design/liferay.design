@@ -148,6 +148,7 @@ const Blueprints = () => (
 						<a
 							href="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17"
 							target="_blank"
+							rel="noopener"
 						>
 							create an issue
 						</a>
