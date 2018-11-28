@@ -1,8 +1,9 @@
 module.exports = {
 	siteMetadata: {
-		title:
-			'Liferay.Design | Blogs, careers, guidelines, and other resources from the Design Teams at Liferay!',
+		title: 'Liferay.Design',
 		author: 'Ryan Garant',
+		description:
+			'Blogs, careers, guidelines, and other resources from the Design Teams at Liferay!',
 	},
 	plugins: [
 		'gatsby-plugin-catch-links',
