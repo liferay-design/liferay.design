@@ -11,15 +11,16 @@ The beginning of November marked my first year as Liferay's UX Design Manager fo
 _Spoiler alert: I made a lot of mistakes, but also learned a lot and thought it might be helpful to share some of these things._
 
 ![New team, assemble!](/images/posts/assemble.jpg)
+_Get it? I’m sorry._
 
 ## Mergers & Acquisitions
 
 _(If you read that heading in Christian Bale's voice - that's interesting, please continue-this will be my last film reference. Yes, I said film.)_
 
 Let me preface this by repeating - I made a lot of mistakes - it took about eight months for our team to get healthy enough to jog. In retrospect that sounds like a really long time and believe me, it was.
-Two things I would recommend to managers undergoing a similar process are to "rehire" all prospective teammates and establish a short "onboarding" period to use as a milestone for a team health evaluation.
+Two things I would recommend to managers undergoing a similar process are to &ldquo;rehire&rdquo; all prospective teammates and establish a short &ldquo;onboarding&rdquo; period to use as a milestone for a team health evaluation.
 
-### "Rehire" all teammates that aren't currently reporting to you
+### &ldquo;Rehire&rdquo; all teammates that aren't currently reporting to you
 
 Provide time for a series of interviews, give your colleagues the opportunity to learn about you and your expectations for the team. You should also interview them as you would a new employee, learn about them, identify their strengths and opportunities for growth, and have an open discussion to see if you are the best person to help them and if they are going to be a good fit for the new team. Make the decision together - either party should have the ability to opt-out and explore other possibilities within the organization.
 
@@ -32,7 +33,7 @@ _Incorporate cheers into your daily standups | Photo by [rawpixel](https://unspl
 
 ## Team Culture
 
-There are plenty of far more experienced and knowledgeable people you can read regarding the finer points of strong culture-building, but for starters my recommendation is to do three things regularly:
+There are plenty of [far more experienced](https://knowyourcompany.com/learn/) and [knowledgeable people](https://medium.com/@thinmatt/my-go-to-resources-for-helping-me-grow-as-a-designer-turned-people-manager-9ab966415af3) [you can read](https://www.franklincovey.com/the-7-habits.html) regarding the [finer points of strong culture-building](https://www.radicalcandor.com/blog/tag/tip/), but for starters my recommendation is to do three things regularly:
 
 1. **Know your teammates personally ** &mdash; have weekly walks or chats with them. Don't talk about work, don't ask for a progress report, use the time to learn about them - their families, their passions, what they're doing outside of work, etc. Investing in your team in this way will help you serve them in a more effective way.
 1. **Listen more than you talk** &mdash; in one-on-ones, in reviews, in team meetings, be slow to give your opinions - ask questions to clarify and guide the conversation, but you'll learn a lot by talking less and helping your colleagues discover their own voices.
