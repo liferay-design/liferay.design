@@ -6,9 +6,9 @@ cache:
     - node_modules
 stages:
   - name: deploy-prod
-    if: branch = master
+    if: branch = production
   - name: deploy-dev
-    if: branch = dev
+    if: branch = master
 jobs:
   include:
     - stage: deploy-prod
