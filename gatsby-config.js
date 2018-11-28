@@ -20,6 +20,10 @@ module.exports = {
 		},
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-resolve-src',
+		{
+			resolve: `gatsby-plugin-manifest`,
+		},
+		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
