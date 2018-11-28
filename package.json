@@ -5,6 +5,7 @@
 	"author": "Ryan Garant <ryan.garant@liferay.com>",
 	"dependencies": {
 		"core-js": "^2.5.7",
+		"gatsby-plugin-brotli": "^1.0.0",
 		"gatsby-plugin-google-analytics": "next",
 		"gatsby-plugin-manifest": "next",
 		"gatsby-plugin-offline": "next",
