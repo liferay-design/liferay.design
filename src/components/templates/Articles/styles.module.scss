@@ -54,7 +54,7 @@
 
 a {
 	color: inherit;
-	font-weight: $fontWeightBlack;
+	text-decoration: underline;
 	&:hover {
 		color: $primary;
 	}
@@ -68,19 +68,23 @@ a {
 }
 
 .wrapper {
-	max-width: 68ch;
+	max-width: 88ch;
 	margin: $spacingLarge auto 0;
 
-	p {
+	p,
+	ol > li,
+	ul > li {
 		font-size: $fontSizeMedium;
+		line-height: 1.6;
 		font-weight: $fontWeightRegular;
 		color: $darkGrey;
 		margin-bottom: 1rem;
 		-webkit-font-smoothing: antialiased !important;
 		-moz-osx-font-smoothing: grayscale !important;
 		img {
-			margin-left: -40%;
-			width: 180%;
+			margin: 3rem 0 0 -20%;
+			max-height: 64vh;
+			width: 140%;
 		}
 		img + strong {
 			text-transform: uppercase;
@@ -99,10 +103,14 @@ a {
 		// 	display: block;
 		// }
 	}
+	ol,
+	ul {
+		padding-left: $fontSizeMedium;
+	}
 
+	h2,
 	h3 {
-		margin-top: $spacingMedium * 2;
-		// font-size: $fontSizeXLarge;
+		margin-top: 3em;
 		&:first-child {
 			margin-top: $spacingSmall;
 		}
@@ -110,5 +118,13 @@ a {
 
 	img {
 		width: 100%;
+	}
+
+	//caption styling
+	img + em {
+		color: $gray-600;
+		font-size: $fontSizeSmall;
+		text-align: center;
+		display: inherit;
 	}
 }
