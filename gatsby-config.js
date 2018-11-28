@@ -6,6 +6,7 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-catch-links',
+		'gatsby-plugin-compression',
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
