@@ -1,19 +1,23 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Drawer, Menu, ListItem } from 'react-md'
-import { Accordion } from 'components/molecules'
-import { Navbar } from 'components/organisms'
-import { map } from 'lodash'
+import { Grid } from 'reakit'
+import { SiteName } from 'components/atoms'
+import { Accordion, SiteCredits } from 'components/molecules'
+import { map, orderBy } from 'lodash'
 import { Link } from 'gatsby'
 
 const SidebarContent = ({ path, tree }) => {
-	return map(tree, node => {
+	const unorderedTree = map(tree, node => {
+		const className = `${styles.leafLink} ${
+			node.slug === path ? styles.active : ''
+		} ${node.firstLevel ? styles.firstLevelNode : ''}`
+
 		if (node.hasOwnProperty('children')) {
 			return (
 				<Accordion
-					key={node.title}
-					slug={node.slug}
-					path={path}
+					className={className}
+					key={node.order}
+					open={path.includes(node.title.toLowerCase())}
 					title={node.title}
 				>
 					<SidebarContent path={path} tree={node.children} />
@@ -22,23 +26,39 @@ const SidebarContent = ({ path, tree }) => {
 		}
 
 		return (
-			<Link key={node.title} to={node.slug}>
-				<ListItem active={node.slug === path} as="section" primaryText={node.title} />
+			<Link className={className} key={node.order} to={node.slug}>
+				{node.title}
 			</Link>
 		)
 	})
+
+	return orderBy(unorderedTree, 'key', 'asc')
 }
 
-export default class SidebarWrapper extends Component {
+export default function SidebarWrapper({ path, tree, isMobile, showSidebar, section }) {
+	return (
+		<Grid
+			columns="1fr"
+			rows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
+			className={`${styles.sidebar} ${
+				isMobile && showSidebar ? styles.onScreen : ''
+			} ${isMobile && !showSidebar ? styles.offScreen : ''}`}
+		>
+			{!isMobile && (
+				<Grid.Item>
+					<SiteName section={section} dark />
+				</Grid.Item>
+			)}
 
-	render() {
-		return (
-			<Drawer 
-				children={<SidebarContent />}
-				inline={true}
-			>
-				{this.props.children}
-			</Drawer>
-		)
-	}
+			<Grid.Item className={styles.sidebarContentWrapper}>
+				<SidebarContent path={path} tree={tree} />
+			</Grid.Item>
+
+			{!isMobile && (
+				<Grid.Item className={styles.credits}>
+					<SiteCredits />
+				</Grid.Item>
+			)}
+		</Grid>
+	)
 }

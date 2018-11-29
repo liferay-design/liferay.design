@@ -1,24 +1,42 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import ReactSvg from 'react-svg'
 import { colors } from 'theme'
-import { withPrefix } from 'gatsby'
+import IconsObject from './icons'
 
-const Icon = ({ className, fill, height, width, name, style, padding }) => {
+const Icon = ({
+	className,
+	fill,
+	height,
+	width,
+	name,
+	style,
+	margin,
+	rotate,
+	...props
+}) => {
 	const styles = {
 		...style,
 		fill: colors[fill],
 		height,
-		padding,
+		margin,
 		width,
 	}
 
-	return (
-		<ReactSvg
-			className={className}
-			path={withPrefix(`/images/icons/${name}.svg`)}
-			style={styles}
-		/>
+	if (rotate) {
+		styles.transform = `rotate(${rotate}deg)`
+		styles.transition = 'transform 0.5s'
+	}
+
+	const DynamicIcon = IconsObject[name]
+
+	if (!DynamicIcon) {
+		console.log(`${name} icon not found`)
+	}
+
+	return DynamicIcon ? (
+		<DynamicIcon className={className} style={styles} name={name} {...props} />
+	) : (
+		<span />
 	)
 }
 
@@ -29,11 +47,8 @@ Icon.propTypes = {
 	width: PropTypes.string,
 	name: PropTypes.string.isRequired,
 	style: PropTypes.object,
-	padding: PropTypes.string,
-}
-
-Icon.defaultProps = {
-	padding: '4px',
+	margin: PropTypes.string,
+	rotate: PropTypes.number,
 }
 
 export default Icon

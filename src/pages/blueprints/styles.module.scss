@@ -1,4 +1,5 @@
 @import '~theme/variables';
+@import '~theme/blueprints';
 
 .sans {
 	font-family: $fontFamilySecondary;
@@ -8,30 +9,8 @@
 	background: $white;
 }
 
-.banner {
-	max-width: 100vw;
-	background-color: #0b63ce;
-	background-image: linear-gradient(
-			20deg,
-			rgba(11, 99, 206, 0.4),
-			rgba(11, 99, 206, 0.6)
-		),
-		url(/images/home/blueprints-bg.svg);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center -6rem;
-	.banner-content {
-		margin-top: 6.1rem;
-	}
-}
-
-.teasers > div:nth-child(-n + 3) {
-	margin-top: -$spacingMedium * 2;
-}
-
-.nav {
-	align-self: flex-start;
-	justify-self: flex-start;
+.teasers {
+	transform: translateY($spacingBase * 2);
 }
 
 .container {
@@ -40,112 +19,14 @@
 	margin: 0 auto;
 }
 
-.banner-content {
-	text-align: center;
-	h1 {
-		font-size: 82px;
-		font-weight: 900;
-	}
-
-	h2 {
-		font-size: 18px;
-		letter-spacing: 5px;
-		text-transform: uppercase;
-		opacity: 0.5 !important;
-		margin-top: 1.7rem;
-		font-weight: 700;
-	}
-
-	.button {
-		font-weight: 900 !important;
-		border-radius: 6px;
-		border-width: 2px;
-		font-size: 1rem;
-		min-height: 64px;
-		padding: 18px 64px;
-		background-color: #fff;
-		border-color: #fff;
-		color: #204589;
-		font-size: 13px;
-		letter-spacing: 1.5px;
-		line-height: 24px;
-		text-transform: uppercase;
-		margin-top: 3.3rem;
-	}
-}
-
-a.card-link {
-	color: inherit;
-}
-
-.card {
-	text-align: center;
-	background-color: $white;
-	border-bottom: $fontSizeSmall solid $white;
-	border-radius: $fontSizeSmall;
-	box-shadow: 4px 6px 36px rgba(48, 49, 63, 0.15);
-	margin-bottom: 2rem;
-	padding: 1rem;
-	min-height: 100%;
-	transition: all 0.4s;
-	&:hover {
-		background-color: $lightestGrey;
-		border-color: $brandDark;
-		box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
-		transform: translateY(-3px);
-	}
-	.card-body {
-		padding: 32px;
-	}
-	.arrow {
-		display: flex;
-		justify-content: center;
-		font-size: 12px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		font-weight: 900;
-		align-items: center;
-	}
-	.cardTitle {
-		justify-content: center;
-		padding: 2rem 1rem 0;
-		h2 {
-			color: $darkGrey;
-			font-weight: $fontWeightBlack;
-			font-size: 21px;
-			line-height: 1.6;
-		}
-	}
-	p.cardText {
-		font-weight: $fontWeightRegular;
-		color: #a1a3b6;
-		font-size: 18px;
-		line-height: 1.6;
-	}
-
-	.btn {
-		color: $darkGrey;
-		display: inline-flex;
-		font-size: 11px;
-		letter-spacing: 1px;
-		img {
-			height: 1em;
-			margin: auto;
-		}
-	}
-	img.mx-auto {
-		margin: 32px 0 40px;
-		width: 98px;
-	}
-}
-
 .vertical {
-	color: #c4cacb;
+	color: $neutral7;
 	font-size: $fontSizeXSmall;
+	font-weight: $fontWeightBlack;
 	letter-spacing: 2px;
-	margin-top: 250px;
+	margin-top: $spacingMedium * 4;
 	text-transform: uppercase;
-	transform: rotate(-90deg);
+	transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
 	white-space: nowrap;
 }
 
@@ -154,7 +35,6 @@ a.card-link {
 	width: $spacingMedium;
 	display: flex;
 	margin: $spacingSmall $spacingXSmall;
-	padding-top: 0.3em;
 	justify-content: center;
 	align-items: center;
 	background: $lightestGrey;

@@ -1,6 +1,7 @@
 ---
 title: 'Principles'
 description: "Liferay's Brand Principles"
+order: 2
 ---
 
 1.  **Confident** &mdash; _Business done well will improve the world._
@@ -13,12 +14,13 @@ To start this process, we held a Brand Sprint with Bryan Cheung to get the 30,00
 
 In preparation for this, we surveyed a small, but diverse, focus group comprised of a wide variety of departments and regions &mdash; in order to come to the sprint with a good idea of where these people felt that we were.
 
-One of the most [important takeaways from the sprint](https://docs.google.com/presentation/d/1wG5cn9-guNCskiIlMM95JwqtgtZEzYIsi7gPNCZmqXo/edit?usp=sharing), is that we need to continue to create open and direct lines of communication with our customers. Long-term we want to be an ecosystem partner with them, anticipating and meeting their needs, making technology useful for them.
+One of the most important takeaways from the sprint, is that we need to continue to create open and direct lines of communication with our customers. Long-term we want to be an ecosystem partner with them, anticipating and meeting their needs, making technology useful for them.
 
-<div class="slides-embed">
-    <span class="placeholder" style="position: absolute; text-align: center; width: 100%; padding-top: 25%; z-index: 1;">If you see this message, sign in to your Google Account or view directly in <a target="_blank" href="https://docs.google.com/presentation/d/1wG5cn9-guNCskiIlMM95JwqtgtZEzYIsi7gPNCZmqXo/edit?usp=sharing">Google Slides</a></span>
-    <iframe src="https://docs.google.com/a/liferay.com/presentation/d/e/2PACX-1vQFO-HEjBi2juBAEw6aqRutC1W9WOEnvfmrT606jRaEmxV2dfvX_s-CevAgK1T6Z422BPbdFszhJmtS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="818" height="489" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div style="height: 446px; margin-bottom: 2rem; overflow: hidden; margin-left: 0px; max-width: 816px; width: 100%; box-shadow: 0 0.2rem 3rem -1rem rgba(0, 0, 0, 0.3), 0 1rem 2rem -1.25rem rgba(0, 0, 0, 0.8); border-radius: 4px;">
+    <iframe src="https://docs.google.com/a/liferay.com/presentation/d/e/2PACX-1vQFO-HEjBi2juBAEw6aqRutC1W9WOEnvfmrT606jRaEmxV2dfvX_s-CevAgK1T6Z422BPbdFszhJmtS/embed?start=false&loop=false&delayms=3000" frameborder="0"  width="742" height="447" allowfullscreen={true} mozallowfullscreen={true} webkitallowfullscreen={true}></iframe>
 </div>
+
+_If the [slides above](https://docs.google.com/presentation/d/1wG5cn9-guNCskiIlMM95JwqtgtZEzYIsi7gPNCZmqXo/edit?usp=sharing) don't render, log into your Liferay Google Account._
 
 ### That’s Great and All — but What Does That Look Like?
 
@@ -28,4 +30,4 @@ We have a candid, humble voice in our marketing and sales materials — to suppo
 
 ### Awesome — I Think These Could Be Better, How Can I Contribute
 
-Review the various GDocs linked from this site and add comments, or edit directly on Github from links at the bottom of each page.
+Review the various GDocs linked from this site and add comments, or edit the content directly on Github using the links at the bottom of each page.

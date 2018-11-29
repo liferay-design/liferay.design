@@ -1,0 +1,38 @@
+@import '~theme/variables';
+
+.container {
+	.download {
+		display: inline-block;
+		bottom: $spacingBase;
+		right: $spacingBase;
+		height: $spacingBase + 0.2rem;
+		width: $spacingBase + 0.2rem;
+		padding: $spacingXSmall;
+		background: $neutral9;
+		opacity: 0.9;
+		transform: translateY(0);
+		transition: transform 0.2s ease-in-out;
+		border-radius: $spacingXSmall;
+		&:hover {
+			box-shadow: $elevation1;
+			transform: translateY(0.2rem);
+			transition: transform 0.2s ease-in-out;
+		}
+	}
+
+	.caption {
+		text-align: center;
+		margin: $spacingBase 0;
+		p {
+			vertical-align: super;
+			font-style: italic;
+			display: inline;
+			margin-right: $spacingXSmall;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		object-fit: cover;
+	}
+}

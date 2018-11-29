@@ -1,0 +1,32 @@
+@import '~theme/variables';
+
+.siteName {
+	font-size: $fontSizeMedium;
+	padding-bottom: 0;
+	line-height: 1.6;
+	a {
+		color: $white;
+	}
+	&:after {
+		content: '';
+		width: $spacingBase;
+		height: 3px;
+		background: $primary;
+		display: block;
+		margin-top: 1rem;
+	}
+
+	&.dark {
+		color: $black;
+		 a {
+			color: $black;
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+
+	@media screen and (max-width: $screenSmall) {
+		position: initial;
+	}
+}

@@ -1,3 +1,47 @@
 @import '~theme/animations';
 @import '~theme/variables';
+@import '~theme/blueprints';
 
+.container {
+	height: 100vh;
+	width: 100vw;
+	.button {
+		font-weight: 900 !important;
+		border-radius: $spacingXSmall;
+		font-size: 1rem;
+		min-height: 64px;
+		padding: 18px 69px;
+		background-color: $white;
+		border-color: $white;
+		color: $blueprintsDark;
+		margin-top: 2.4rem;
+	}
+	.content {
+		margin-top: 4.3rem;
+		text-align: center;
+		h1 {
+			font-size: $fontSizeDisplay * 1.2;
+			font-weight: 900;
+		}
+
+		h2 {
+			font-size: $fontSizeLarge;
+			opacity: 0.5 !important;
+			margin-top: 0.4rem;
+			font-weight: 700;
+		}
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	.container {
+		.content {
+			h1 {
+				font-size: $fontSizeDisplay;
+			}
+			h2 {
+				font-size: $fontSizeMedium;
+			}
+		}
+	}
+}

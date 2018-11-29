@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import styles from './styles.module.scss'
-import { FontIcon, ListItem, Menu } from 'react-md'
+import { Icon, Flex } from 'components/atoms'
 
 export default class Accordion extends Component {
-	state = {
-		showChildren: false,
+	constructor(props) {
+		super(props)
+
+		this.state = {
+			showChildren: props.open,
+		}
 	}
 
 	toggleVisibility = () => {
@@ -13,23 +16,32 @@ export default class Accordion extends Component {
 	}
 
 	render() {
-		// const FontIconRotatedProp = this.state.showChildren ? { rotated: 'clockwise' } : {}
-
 		return (
-			<div className={styles.accordion}>
-				<Link to={this.props.slug}>
-					<ListItem
-						active={this.props.slug === this.props.path}
-						as="section"
-						onClick={this.toggleVisibility}
-						primaryText={this.props.title}
-					>
-						{/* <FontIcon {...FontIconRotatedProp} >keyboard_arrow_down</FontIcon> */}
-					</ListItem>
-				</Link>
+			<ul className={styles.accordion}>
+				<Flex
+					align="center"
+					className={`${this.props.className}`}
+					onClick={this.toggleVisibility}
+					justify="space-between"
+					padding="0.55rem 1rem"
+				>
+					<span>{this.props.title}</span>
 
-					<div className={styles.childrenContainer}>{this.props.children}</div>
-			</div>
+					{this.state.showChildren ? (
+						<Icon name="keyboardArrowRight" rotate={90} />
+					) : (
+						<Icon name="keyboardArrowRight" />
+					)}
+				</Flex>
+
+				<div
+					className={`${styles.childrenContainer} ${
+						this.state.showChildren ? styles.visible : styles.hidden
+					}`}
+				>
+					{this.props.children}
+				</div>
+			</ul>
 		)
 	}
 }

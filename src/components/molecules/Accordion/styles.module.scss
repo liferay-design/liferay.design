@@ -1,27 +1,37 @@
-// .accordion {
-//   h3 {
-//     background: none;
-//     border-radius: 5%;
-//     cursor: pointer;
-//     margin: 0.5rem 0;
-//     padding: 0.25rem 1rem;
-//     transition: background 0.5s;
+.accordion {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
 
-//     &:hover {
-//       background: rgba(aqua, 0.25);
-//       transition: background 0.5s;
-//     }
-//   }
-// }
+	h3 {
+		background: none;
+		border-radius: 5%;
+		cursor: pointer;
+		margin: 0.5rem 0;
+		padding: 0.25rem 1rem;
+		transition: background 0.5s;
 
-// .children-container {
-//   padding-left: 0.7rem;
-// }
+		&:hover {
+			background: rgba(aqua, 0.25);
+			transition: background 0.5s;
+		}
+	}
 
-// .visible {
-//   display: block;
-// }
+	> div:first-child {
+		cursor: pointer;
+	}
+}
 
-// .hidden {
-//   display: none;
-// }
+.children-container {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1rem;
+}
+
+.visible {
+	display: flex;
+}
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,20 @@
+@import 'theme/variables.scss';
+
+.container {
+	width: 100%;
+	max-width: $screenLarge;
+	padding: $spacingMedium $spacingSmall $spacingMedium;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: $screenLarge) {
+	.container {
+		padding: $spacingMedium $spacingMedium $spacingMedium;
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	.container {
+		padding: $spacingMedium $spacingSmall $spacingMedium;
+	}
+}

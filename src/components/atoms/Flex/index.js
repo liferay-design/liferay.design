@@ -5,51 +5,74 @@ import { colors } from 'theme'
 const Flexbox = ({
 	align,
 	background,
+	backgroundImage,
+	children,
 	className,
 	direction,
-	justify,
 	flexWrap,
-	children,
-	name,
-	width,
 	height,
+	justify,
+	margin,
+	name,
+	padding,
+	position,
+	width,
+	...props
 }) => {
 	const styles = {
+		alignItems: align,
+		background: background,
 		boxSizing: 'border-box',
-		backgroundColor: colors[background],
 		display: 'flex',
 		flexDirection: direction,
-		justifyContent: justify,
-		alignItems: align,
 		flexWrap,
-		width,
 		height,
+		justifyContent: justify,
+		margin,
+		padding,
+		position,
+		width,
+	}
+
+	if (background) {
+		styles.backgroundColor = colors[background] || background
+	}
+
+	if (backgroundImage) {
+		styles.background = `url(${backgroundImage}) center/cover` || background
 	}
 
 	return (
-		<div className={className} id={name} name={name} style={styles}>
-			{children}
+		<div className={className} id={name} name={name} style={styles} {...props}>
+			{children && children}
 		</div>
 	)
 }
 
 Flexbox.defaultProps = {
-	background: 'transparent',
 	direction: 'row',
 	flexWrap: 'nowrap',
+	// padding: '0',
+	// margin: '0',
 }
 
 Flexbox.propTypes = {
 	align: PropTypes.string,
 	background: PropTypes.string,
+	backgroundImage: PropTypes.string,
+	children: PropTypes.node,
 	className: PropTypes.string,
-	children: PropTypes.node.isRequired,
 	direction: PropTypes.string,
-	justify: PropTypes.string,
 	flexWrap: PropTypes.string,
-	name: PropTypes.string,
-	width: PropTypes.string,
 	height: PropTypes.string,
+	height: PropTypes.string,
+	justify: PropTypes.string,
+	margin: PropTypes.string,
+	name: PropTypes.string,
+	padding: PropTypes.string,
+	padding: PropTypes.string,
+	position: PropTypes.string,
+	width: PropTypes.string,
 }
 
 export default Flexbox

@@ -1,30 +1,86 @@
-// .sidebar {
-// 	background: #f7f8f9;
-// 	padding: 5rem 1rem;
-// 	box-shadow: rgba(34, 36, 38, 0.15) 0px 0px 20px;
-// 	width: 20rem;
+@import '~theme/variables';
+@import '~theme/blueprints';
 
-// 	aside {
-// 		padding-top: 5rem;
-// 		width: 100%;
-// 	}
+.sidebar {
+	background: $neutral9;
+	grid-area: sidebar;
+	height: 100%;
+	max-height: 100vh;
+	position: sticky;
+	overflow: auto;
+	top: 0;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-out 0s;
+	list-style: none;
+	z-index: 1;
 
-// 	a > section {
-// 		margin-top: 0.5rem !important;
+	> div:first-child {
+		padding: $spacingMedium $spacingBase;
+		@media screen and (max-width: $screenMedium) {
+			padding: $spacingSmall;
+		}
+	}
 
-// 		&:hover {
-// 			background: rgba(0, 0, 0, 0.05) !important;
-// 			color: rgba(0, 0, 0, 0.95) !important;
-// 		}
-// 	}
-// }
+	> ul {
+		padding-left: 0;
+	}
 
-// .sidebar-content {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: space-between;
+	ul > div > a > li {
+		padding-left: $spacingSmall;
+	}
 
-// 	nav {
-// 		margin: 0 0.3rem;
-// 	}
-// }
+	&.off-screen {
+		position: fixed;
+		opacity: 0;
+		transform: translateY(120vh);
+		transition: opacity 0.5s ease 0.5s, transform 0.5s ease-in-out,
+			top 0s ease-in-out 1s;
+		width: 98vw;
+	}
+
+	&.on-screen {
+		transform: translateY(0);
+		opacity: 1;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	a {
+		color: $black;
+	}
+
+	.first-level-node {
+		font-weight: 600 !important;
+	}
+
+	.sidebar-content-wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: $spacingSmall;
+	}
+
+	.credits {
+		padding: $spacingBase;
+	}
+
+	.leaf-link {
+		border-radius: 4px;
+		font-weight: $fontWeightRegular;
+		padding: 0.55rem $spacingSmall;
+		position: relative;
+
+		&:hover,
+		&.active {
+			background-color: $gray-200;
+		}
+
+		&:hover {
+			color: $black;
+		}
+
+		&.active {
+			font-weight: $fontWeightHeavy;
+		}
+	}
+}

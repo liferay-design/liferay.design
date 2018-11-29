@@ -8,11 +8,13 @@ const Text = ({
 	className,
 	children,
 	color,
+	margin,
 	size,
 	style,
 	type,
 	weight,
 	width,
+	...props
 }) => {
 	const Type = type
 
@@ -20,6 +22,7 @@ const Text = ({
 
 	const styles = {
 		color: colors[color],
+		...(margin ? { marginBottom: fontSizes[margin] } : {}),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...style,
 		...textAlign,
@@ -28,7 +31,7 @@ const Text = ({
 	}
 
 	return (
-		<Type className={className} style={styles}>
+		<Type className={className} style={styles} {...props}>
 			{children}
 		</Type>
 	)
@@ -39,6 +42,7 @@ Text.propTypes = {
 	className: PropTypes.string,
 	children: PropTypes.node.isRequired,
 	color: PropTypes.string,
+	margin: PropTypes.string,
 	style: PropTypes.object,
 	size: PropTypes.string,
 	type: PropTypes.oneOf(['p', 'span']),

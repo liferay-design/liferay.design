@@ -4,7 +4,7 @@
 
 // Liferay.Design Theme (overrides)
 $md-font-family: $fontFamilyPrimary;
-$md-font-regular: $fontWeightHeavy;
+$md-font-regular: $fontWeightRegular;
 
 $md-primary-color: $primary;
 $md-secondary-color: $secondary;
@@ -18,7 +18,6 @@ html,
 body {
 	height: 100%;
 	background-attachment: fixed;
-	background-blend-mode: multiply;
 	background-color: $black;
 	background-image: url(/images/diamond-bar-topography.png);
 	background-repeat: no-repeat repeat;
@@ -28,13 +27,23 @@ body {
 	margin: 0;
 	// overflow-x: hidden;
 	::selection {
-	  background: #05F;
-	  color: #fff;
+		background: #05f;
+		color: #fff;
 	}
 	::-moz-selection {
-	  background: #05F;
-	  color: #fff;
-	}	
+		background: #05f;
+		color: #fff;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-bottom: 1em;
 }
 
 a {

@@ -1,11 +1,11 @@
 @import '~theme/variables';
 
 .banner {
-	padding-top: $spacingLarge;
+	margin-top: $spacingLarge;
 	height: 72vh;
 	max-height: $screenMedium;
 	h1 {
-		width: 600px;
+		width: 60vw;
 		font-size: $fontSizeDisplay;
 		line-height: 0.9;
 		color: $white;
@@ -15,7 +15,7 @@
 		text-shadow: $elevation1;
 	}
 	.postData {
-		width: 200px;
+		width: 20vw;
 		order: 3;
 		figcaption {
 			transform: translateX(-$spacingLarge) rotate(-90deg);
@@ -34,7 +34,7 @@
 		font-size: $fontSizeMedium;
 		font-family: $fontFamilySecondary;
 		width: 70vh;
-		margin-left: -400px;
+		margin-left: -40vw;
 		max-width: 68ch;
 		z-index: 1;
 		box-shadow: $elevation2;
@@ -47,59 +47,36 @@
 		width: 4rem;
 		box-shadow: 0 0.1rem 3rem rgba(28, 27, 27, 0.2);
 		position: absolute;
-		left: calc(200px + -2rem);
+		left: calc(20vw - 2rem);
 		bottom: -5rem;
 	}
+	@media screen and (max-width: $screenMedium) {
+		flex-direction: column !important;
+
+		h1 {
+			font-size: $fontSizeLarge;
+			padding-right: 5rem;
+			width: 100%;
+			order: 2;
+			line-height: 1.2;
+			background: $darkGrey;
+			padding: $spacingMedium $spacingBase;
+		}
+		.postData {
+			figcaption {
+				display: none;
+				visibility: hidden;
+			}
+		}
+		.postHero {
+			margin: 0;
+			width: 100%;
+			height: 50vh;
+			order: 0;
+		}
+		img.headshot {
+			left: 1.8rem;
+			bottom: calc(100% - 2rem);
+		}
+	}
 }
-
-// .postContainer {
-// 	&:after {
-// 		content: url("data:image/svg+xml;charset=UTF-8, <svg width='20' height='20' xmlns='http://www.w3.org/2000/svg' version='1.1'><path d='M18 2h1.5V.5H18V2zm0 16v1.5h1.5V18H18zM2 18H.5v1.5H2V18zM2 2V.5H.5V2H2zm9.333 1.5H18v-3h-6.667v3zM16.5 2v6.667h3V2h-3zm.44-1.06l-11 11 2.12 2.12 11-11L16.94.94zm-.44 10.393V18h3v-6.667h-3zM18 16.5H2v3h16v-3zM3.5 18V2h-3v16h3zM2 3.5h6.667v-3H2v3z' fill='#fff'/></svg>");
-// 		position: absolute;
-// 		right: 2rem;
-// 		top: 2.1rem;
-// 		transform: translate(-1em, 1em);
-// 		transition: all 0.15s ease-in-out;
-// 		opacity: 0;
-// 	}
-// }
-
-// img.postHero {
-// 	transform: translateY(0);
-// 	transition: all 0.15s ease-in-out;
-// }
-
-// .imgOverlay {
-// 	height: 100%;
-// }
-
-// a.linkContainer {
-// 	&:hover {
-// 		.postContainer {
-// 			&:after {
-// 				transform: translate(0, 0);
-// 				transition: all 0.4s ease-in-out;
-// 				opacity: 1;
-// 			}
-// 			img.postHero {
-// 				box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.95);
-// 				transform: translateY(-0.2rem);
-// 				transition: all 0.2s ease-in-out;
-// 			}
-// 		}
-// 	}
-// }
-
-// .postData h1 {
-// 	text-shadow: 0 0.1rem 3rem rgba(28, 27, 27, 0.2);
-// 	font-size: 9vmin;
-// 	margin-left: -21vmin;
-// 	width: 15ch;
-// 	@media screen and (max-width: $screenLarge) {
-// 		margin-left: -7vw;
-// 	}
-
-// 	@media screen and (max-width: $screenMedium) {
-// 		margin-left: initial;
-// 	}
-// }

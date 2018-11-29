@@ -1,0 +1,65 @@
+@import '~theme/variables';
+
+.wrapper {
+	max-width: 48rem;
+	margin: $spacingSmall auto $spacingLarge;
+	// Light footer i.e. white backgound
+	footer.light {
+		background-color: $white;
+		color: $black;
+		svg {
+			fill: $grey;
+		}
+		span {
+			color: $darkGrey;
+		}
+		a {
+			color: $darkGrey;
+		}
+	}
+
+	// Dark footer i.e. dark background
+	footer.dark {
+		color: $white;
+		svg {
+			fill: $white;
+		}
+	}
+
+	footer {
+		width: 100%;
+		max-width: $screenMedium;
+		padding: $spacingSmall $spacingSmall $spacingMedium;
+		border-top: solid 1px $lightestGrey;
+
+		&.mobile {
+			padding-bottom: $spacingLarge;
+		}
+
+		&.hide {
+			display: none;
+		}
+	}
+
+	.textContainer {
+		padding: $spacingSmall 0 10vh;
+	}
+}
+
+@media screen and (max-width: $screenLarge) {
+	.wrapper {
+		padding: $spacingBase;
+		footer {
+			padding: $spacingSmall;
+		}
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	.wrapper {
+		padding: $spacingSmall - $spacingXSmall;
+		footer {
+			padding: $spacingSmall $spacingXSmall 0;
+		}
+	}
+}

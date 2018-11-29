@@ -1,24 +1,27 @@
-import Sidebar from './Sidebar'
-import Navbar from './Navbar'
-import AuthContainer from './AuthContainer'
 import Agenda from './Agenda'
+import Banner from './Banner'
+import CapitalizationTool from './CapitalizationTool'
 import Footer from './Footer'
+import FooterMarkdown from './FooterMarkdown'
 import HeroBanner from './HeroBanner'
+import NavItems from './NavItems'
+import Navbar from './Navbar'
+import Posts from './Posts'
+import Sidebar from './Sidebar'
 import Team from './Team'
 import Venue from './Venue'
-import Posts from './Posts'
-import Banner from './Banner'
 
 export {
 	Agenda,
 	Banner,
+	CapitalizationTool,
 	Footer,
+	FooterMarkdown,
 	HeroBanner,
+	NavItems,
+	Navbar,
 	Posts,
+	Sidebar,
 	Team,
 	Venue,
-	AuthContainer,
-	Header,
-	Navbar,
-	Sidebar,
 }
