@@ -111,7 +111,8 @@
 //header
 .headerPlx {
 	top: 200px;
-	position: relative;
+    position: relative;
+    will-change: transform;
 	.header {
 		div {
 			width: 140px;
@@ -197,188 +198,203 @@
 }
 //team
 .team {
-	padding: 0 10vw;
-	position: relative;
-	margin-bottom: 30vw;
-	.circle {
-		position: absolute;
-		bottom: -20vw;
-		left: -4vw;
-		width: 40vw;
-		height: 40vw;
-	}
-	.designers {
-		height: 55vw;
-		div {
-			width: 40vw;
-		}
-		.designersHired {
-			background: white;
-			margin-top: -4vw;
-			padding: 8vw;
-			position: relative;
-			&:after {
-				content: ' ';
-				width: 100%;
-				height: 0.5vw;
-				background: #006de7;
-				bottom: 0;
-				position: absolute;
-				left: 0;
-			}
-			.textHuge,
-			.f3 {
-				color: #1f2123;
-				line-height: 120%;
-			}
-			.f3 {
-				opacity: 0.2;
-			}
-		}
-		.designerRatios {
-			background: #2f3337;
-			color: #595c5f;
-			position: relative;
-			&:after {
-				content: ' ';
-				width: 100%;
-				height: 0.5vw;
-				background: $white;
-				opacity: 0.1;
-				bottom: 0;
-				position: absolute;
-				left: 0;
-			}
-			.psmall {
-				text-align: center;
-				position: relative;
-				width: auto;
-				&:before {
-					content: ' ';
-					width: 1.5vw;
-					height: 1.5vw;
-					background: #006de7;
-					position: absolute;
-					top: -3em;
-					left: 1.5em;
-				}
-			}
-			svg {
-				position: absolute;
-				top: 50%;
-				left: 10%;
-				width: 80%;
-			}
-			.designersToDev,
-			.designersToProjects {
-				width: 100%;
-				height: 50%;
-				.projectBlocks,
-				.devBlocks {
-					position: relative;
-					top: -2.2vw;
-					div {
-						width: 1.5vw;
-						height: 1.5vw;
-						background: $white;
-						margin: 0.5vw;
-					}
-				}
-				.devBlocks {
-					width: 2.5vw;
-					left: 5.4vw;
-				}
-				.projectBlocks {
-					width: 5vw;
-					left: 5.5vw;
-				}
-			}
-		}
-	}
-	.stats {
-		width: 80vw;
-		background: #25282a;
-		height: 30vw;
-		position: relative;
-		&:after {
-			content: ' ';
-			width: 100%;
-			height: 0.5vw;
-			background: $white;
-			opacity: 0.04;
-			bottom: 0;
-			position: absolute;
-			left: 0;
-		}
-		.f3Large {
-			color: $white;
-		}
-		.pLarge {
-			color: $white;
-			opacity: 0.2;
-		}
-	}
-	.sketchToFigma {
-		width: 80vw;
-		position: relative;
-		z-index: 1;
-		.sketch,
-		.figma {
-			width: 40vw;
-			position: relative;
-			img {
-				max-width: 10vw;
-				max-height: 10vw;
-				margin-bottom: 3vw;
-			}
-		}
-		.sketch {
-			background: #2f3337;
-			height: 30vw;
-			&:after {
-				content: ' ';
-				width: 100%;
-				height: 0.5vw;
-				background: $white;
-				opacity: 0.1;
-				bottom: 0;
-				position: absolute;
-				left: 0;
-			}
-			.p {
-				color: $white;
-				span {
-					font-weight: 600;
-				}
-			}
-		}
-		.figma {
-			background: $white;
-			height: 32vw;
-			margin-top: -2vw;
-			&:after {
-				content: ' ';
-				width: 100%;
-				height: 0.5vw;
-				background: #006de7;
-				bottom: 0;
-				position: absolute;
-				left: 0;
-			}
-			.p {
-				color: #1f2123;
-				span {
-					font-weight: 600;
-				}
-			}
-		}
-		.arrow {
-			width: 15vw;
-			position: absolute;
-			left: 32vw;
-			top: 13vw;
-		}
-	}
+    padding: 0 10vw;
+    position: relative;
+    margin-bottom: 30vw;
+     .circle {
+        position: absolute;
+        bottom: -20vw;
+        left: -4vw;
+        width: 40vw;
+        height: 40vw;
+    }
+    .designers {
+        height: 55vw;
+        .designersHired, .designerRatios {
+            width: 40vw;
+        }
+        .designersHired {
+            background: white;
+            margin-top: -4vw;
+            padding: 8vw;
+            position: relative;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #006DE7;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .textHuge, .f3 {
+                color: #1F2123;
+                line-height: 120%;
+            }
+            .f3 {
+                opacity: 0.2;
+            }
+        }
+        .designerRatios {
+            background: #2F3337;
+            color: #595C5F;
+            position: relative;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #fff;
+                opacity: 0.1;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .psmall {
+                text-align: center;
+                position: relative;
+                width: auto;
+            }
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                width: 80%
+            }
+            .devBlocksWrapper, .projectBlocksWrapper {
+                padding-left: 1.5ch;
+                div:first-of-type {
+                    div {
+                        width: 1.5vw;
+                        height: 1.5vw;
+                        background: #006DE7;
+                    }
+                }
+                p {
+                    margin: 1em;
+                }
+            }
+            .designersToDev, .designersToProjects {
+                width: 100%;
+                height: 50%;
+                .devBlocks {
+                    min-width: 2.5vw;
+                    left: 6.3ch;
+                    .grid {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-row-gap: 0.5vw;
+                        grid-column-gap: 0.5vw;
+                        div {
+                            width: 1.5vw;
+                            height: 1.5vw;
+                            background: #fff;
+                        }
+                    }
+                }
+                .projectBlocks {
+                    min-width: 5vw;
+                    left: 6.4ch;
+                    .grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-row-gap: 0.5vw;
+                        grid-column-gap: 0.5vw;
+                        div {
+                            width: 1.5vw;
+                            height: 1.5vw;
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+    .stats {
+        width: 80vw;
+        background: #25282A;
+        height: 30vw;
+        position: relative;
+        &:after{
+            content: " ";
+            width: 100%;
+            height: .5vw;
+            background: #fff;
+            opacity: 0.04;
+            bottom: 0;
+            position: absolute;
+            left: 0;
+        }
+        .f3Large {
+            color: #fff;
+        }
+        .pLarge {
+            color: #fff;
+            opacity: 0.2;
+        }
+    }
+    .sketchToFigma {
+        width: 80vw;
+        position: relative;
+        z-index: 1;
+        .sketch, .figma {
+            width: 40vw;
+            position: relative;
+            img {
+                max-width: 10vw;
+                max-height: 10vw;
+                margin-bottom: 3vw;
+            }
+        }
+        .sketch {
+            background: #2F3337;
+            height: 30vw;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #fff;
+                opacity: 0.1;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .p {
+                color: #fff;
+                span {
+                    font-weight: 600;
+                }
+            }
+            
+        }
+        .figma {
+            background: #fff;
+            height: 32vw;
+            margin-top: -2vw;
+            &:after{
+                content: " ";
+                width: 100%;
+                height: .5vw;
+                background: #006DE7;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .p {
+                color: #1F2123;
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+        .arrow {
+            width: 15vw;
+            position: absolute;
+            left: 32vw;
+            top: 13vw;
+        }
+    }
 }
 //products launched
 .productsLaunched {
@@ -392,10 +408,19 @@
 		width: 50vw;
 	}
 	.products {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
 		width: 50vw;
 		left: 10vw;
-		top: 50vw;
-	}
+        top: 50vw;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .Plx--in {
+        opacity: 1;
+    }
 	.pSmall {
 		color: $white;
 		opacity: 0.5;
@@ -415,7 +440,7 @@
 		right: -12vw;
 		width: 20vw;
 		height: 20vw;
-		bottom: -14vw;
+		bottom: -10vw;
 		z-index: 0;
 	}
 	.biggestcircle {
@@ -435,10 +460,10 @@
 	min-height: 100vh;
 	position: relative;
 	z-index: 1;
-	padding: 0 10vw;
-	.textHuge {
+    padding: 0 10vw;
+	.heading {
 		position: relative;
-		top: -17vw;
+        top: -13vw;
 	}
 	.liferayLogo {
 		position: relative;
@@ -451,6 +476,8 @@
 		}
 	}
 	.waffles {
+        display: flex;
+        align-items: center;
 		position: relative;
 		bottom: -15vw;
 		.blackWaffle,
