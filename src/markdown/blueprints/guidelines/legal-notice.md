@@ -54,4 +54,4 @@ Special form drawings (word and logo combo):
 
 We have various trademarks registrations and applications elsewhere around the world.
 
-This information is accurate as of November 2018.
+This information is accurate as of December 2018.
