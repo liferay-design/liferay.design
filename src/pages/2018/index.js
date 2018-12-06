@@ -407,26 +407,40 @@ const TwentyEighteen = () => {
             </Flex>
             <Flex justify="space-around" className={styles.stats}>
                 <Flex direction="column" justify="center" align="center">
-                    <div className={styles.f3Large}>25</div>
+                    <Plx className={styles.f3Large} parallaxData={ InView }>
+                         25
+                    </Plx>
                     <div className={styles.pLarge}>Designers</div>
                 </Flex>
                 <Flex direction="column" justify="center" align="center">
-                    <div className={styles.f3Large}>32</div>
+                    <Plx className={styles.f3Large} parallaxData={ InView }>
+                         32
+                    </Plx>
                     <div className={styles.pLarge}>Projects</div>
                 </Flex>
                 <Flex direction="column" justify="center" align="center">
-                    <div className={styles.f3Large}>1,108</div>
+                    <Plx className={styles.f3Large} parallaxData={ InView }>
+                         1,108
+                    </Plx>
                     <div className={styles.pLarge}>Accounts Served</div>
                 </Flex>
             </Flex>
             <Flex className={styles.sketchToFigma}>
                 <Flex justify="center" direction="column" align="center" className={styles.sketch}>
                     <img src="images/2018/sketch.png" />
-                    <div className={styles.p}>Bye, <span>Sketch</span></div>
+                    <div className={styles.p}>Bye,&nbsp; 
+                        <Plx className={styles.p} parallaxData={ InView10 }>
+                            Sketch
+                        </Plx>
+                    </div>
                 </Flex>
                 <Flex justify="center" direction="column" align="center" className={styles.figma}>
                     <img src="images/2018/figma.png" />
-                    <div className={styles.p}>Hello, <span>Figma</span></div>
+                    <div className={styles.p}>Hello,&nbsp;
+                        <Plx className={styles.p} parallaxData={ InView10 }>
+                            Figma
+                        </Plx>
+                    </div>
                 </Flex>
                 <Plx parallaxData={ InView } className={styles.arrow}><svg viewBox="0 0 195 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line x1="1.74846e-07" y1="6" x2="162" y2="6.00001" stroke="#006DE7" stroke-width="4" stroke-linejoin="round" stroke-dasharray="1 10"/>
