@@ -1,4 +1,9 @@
 @import '~theme/variables';
+@font-face {
+    font-family: 'SourceSans';
+    src: url('./fonts/SourceSansVariable-Roman.ttf') format('truetype');
+    font-weight: 1 999;
+}
 
 @keyframes fadeIn {
 	to {opacity: 1}
@@ -6,7 +11,7 @@
 
 .pagestyles {
 	background: #1f2123;
-	font-family: $fontFamilySecondary;
+	font-family: 'SourceSans';
 	font-weight: $fontWeightBlack;
 	overflow-x: hidden;
 	.textHuge,
@@ -401,7 +406,46 @@
         }
         .f3Large {
             color: #fff;
-        }
+		}
+		//global style for the sake of targeting Plx active class
+		:first-child {
+			:global .Plx--above {
+				font-weight: 100;
+				opacity: 0.6;
+				transition: opacity 200ms ease,font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+			}
+			:global .Plx--below {
+			  font-weight: 700;
+			  opacity: 1;
+			  transition: opacity 200ms ease, font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+			}
+		}
+		:nth-child(2) {
+			:global .Plx--above {
+				font-weight: 100;
+				opacity: 0.6;
+				transition: opacity 200ms ease,font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+			}
+			:global .Plx--below {
+			  font-weight: 700;
+			  opacity: 1;
+			  transition: opacity 200ms ease, font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+			  transition-delay: 200ms;
+			}
+		}
+		:nth-child(3) {
+			:global .Plx--above {
+				font-weight: 100;
+				opacity: 0.6;
+				transition: opacity 200ms ease,font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+			}
+			:global .Plx--below {
+			  font-weight: 700;
+			  opacity: 1;
+			  transition: opacity 200ms ease, font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+			  transition-delay: 400ms;
+			}
+		}
         .pLarge {
             color: #fff;
             opacity: 0.2;
@@ -435,9 +479,17 @@
             }
             .p {
                 color: #fff;
-                span {
-                    font-weight: 600;
-                }
+                > div {
+					display: inline;
+				}
+				:global .Plx--above {
+					font-weight: 100;
+					transition: font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+				}
+				:global .Plx--below {
+				  font-weight: 600;
+				  transition: font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+				}
             }
             
         }
@@ -456,9 +508,17 @@
             }
             .p {
                 color: #1F2123;
-                span {
-                    font-weight: 600;
-                }
+                :global .Plx--above {
+					display: inline;
+					font-weight: 100;
+					transition: font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+				}
+				:global .Plx--below{
+				  display: inline;
+				  font-weight: 600;
+				  transition: font-weight 400ms cubic-bezier(0.17, 0.67, 0.4, 1.83);
+				  transition-delay: 600ms;
+				}
             }
         }
         .arrow {
