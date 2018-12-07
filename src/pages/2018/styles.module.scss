@@ -932,3 +932,137 @@
 		}
 	}
 }
+
+.stats{
+	width: 100vw;
+	position: relative;
+	padding: 10vw 10vw;
+	.title {
+		position: relative;
+		width: 14vw;
+		:before {
+			content: url("data:image/svg+xml,%3Csvg viewBox='0 0 125 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='9' cy='43' r='9' fill='%23006DE7'/%3E%3Ccircle cx='43' cy='18' r='9' fill='%23006DE7'/%3E%3Ccircle cx='79' cy='36' r='9' fill='%23006DE7'/%3E%3Ccircle cx='116' cy='9' r='9' fill='%23006DE7'/%3E%3Cpath d='M9 43.5L43.5 18L79.5 36.5L116.5 9' stroke='%23006DE7' stroke-width='3' stroke-dasharray='4 10'/%3E%3C/svg%3E");
+			position: absolute;
+			right: -100%;
+			width: 8vw;
+		}
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-row-gap: 10vw;
+		width: 80vw;
+		height: 60vw;
+		text-align: center;
+		margin-top: 10vw;
+		.circle {
+			background: #272A2C;
+			border-radius: 50%;
+			position: absolute;
+			z-index: 0;
+		}
+		.f3 {
+			color: #fff;
+			position: relative;
+			margin-top: 5vw;
+			margin-bottom: 3.8vw;
+			z-index: 1;
+		}
+		.p {
+			font-weight: $fontWeightHeavy;
+			color: #fff;
+			opacity: 0.4;
+		}
+		.vertline {
+			position: absolute;
+			height: 200vh;
+			width: 1px;
+			top: -100vh;
+			left: 50%;
+			opacity: 0;
+			pointer-events: none;
+		}
+		.horzline {
+			position: absolute;
+			height: 200vh;
+			width: 1px;
+			top: -106vw;
+			transform: rotate(90deg);
+			transform-origin: center;
+			opacity: 0;
+			pointer-events: none;
+		}
+		.statSmall {
+			position: relative;
+			.circle {
+				width: 10vw;
+				height: 10vw;
+				left: 5vw;
+				top: 2.5vw;
+			}
+		}
+		.statLarge {
+			position: relative;
+			.circle {
+				width: 14vw;
+				height: 14vw;
+				left: 3vw;
+				top: -1.5vw;
+			}
+			.f3 {
+				margin-top: 3vw;
+				margin-bottom: 5.8vw;
+			}
+			.horzline {
+				top: -108vw;
+			}
+		}
+		.statVLarge {
+			position: relative;
+			.circle {
+				width: 17vw;
+				height: 17vw;
+				left: 1.5vw;
+				top: -4.5vw;
+			}
+			.f3 {
+				margin-top: 1.5vw;
+				margin-bottom: 7.3vw;
+			}
+			.horzline {
+				top: -109.5vw;
+			}
+		}
+		.statVLarge,
+		.statLarge,
+		.statSmall {
+			z-index: 1;
+			.f3, .p, .circle, .vertline, .horzline {
+				transition: 0.4s cubic-bezier(0.24, 0.44, 0, 1);;
+			}
+			&:hover {
+				cursor: default;
+				z-index: 0;
+				.f3 {
+					color: #006DE7;
+					transition: 0.1s ease-in-out;
+				}
+				.circle {
+					background: #fff;
+					transform: scale(1.1);
+					transform-origin: center;
+					transition: 0.1s ease-in-out;
+				}
+				.p {
+					opacity: 1;
+					transition: 0.1s ease-in-out;
+				}
+				.vertline, .horzline {
+					opacity: 0.6;
+					transition: 0.1s ease-in-out;
+				}
+			}
+		}
+	}
+}
