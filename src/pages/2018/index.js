@@ -700,11 +700,11 @@ const TwentyEighteen = () => {
         </section>
 
         {/* stats */}
-        <section id="stats" className={styles.stats}>
+        <section id="stats" className={styles.stats} scroll="no">
             <Plx className={styles.title} parallaxData={ PlxUp2 }>
                 <h2 className={styles.f2}>Stats</h2>
             </Plx>
-            <div className={styles.grid}>
+            <Plx className={styles.grid}>
                 <Flex justify="center" direction="column" className={styles.statSmall}>
                 <div className={styles.vertline}>
                         <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -778,7 +778,7 @@ const TwentyEighteen = () => {
                     </div>
                     <div className={styles.circle}></div>
                     <div className={styles.f3}>06</div>
-                    <div className={styles.p}>Hires</div>
+                    <div className={styles.p}>New Hires</div>
                 </Flex>
                 <Flex justify="center" direction="column" className={styles.statLarge}>
                     <div className={styles.vertline}>
@@ -807,7 +807,7 @@ const TwentyEighteen = () => {
                         </svg>
                     </div>
                     <div className={styles.circle}></div>
-                    <div className={styles.f3}>34,565</div>
+                    <div className={styles.f3}>34.5<span>k</span></div>
                     <div className={styles.p}>Documents Created</div>
                 </Flex>
                 <Flex justify="center" direction="column" className={styles.statSmall}>
@@ -882,10 +882,10 @@ const TwentyEighteen = () => {
                         </svg>
                     </div>
                     <div className={styles.circle}></div>
-                    <div className={styles.f3}>7,650</div>
+                    <div className={styles.f3}>7.7<span>k</span></div>
                     <div className={styles.p}>Sticky Notes Used</div>
                 </Flex>
-            </div>
+            </Plx>
         </section>
 
         <Footer />
