@@ -303,6 +303,10 @@ const TwentyEighteen = () => {
                     <Plx className={styles.anchorBlock} parallaxData={anchorLinksBlocks}></Plx>
                     <Plx className={styles.anchorText} parallaxData={anchorLinksText} >Dribbble Campaign</Plx>
                 </AnchorLink>
+                <AnchorLink href='#stats'>
+                    <Plx className={styles.anchorBlock} parallaxData={anchorLinksBlocks}></Plx>
+                    <Plx className={styles.anchorText} parallaxData={anchorLinksText}>Stats</Plx>
+                </AnchorLink>
         </Plx>
         
 
@@ -694,6 +698,196 @@ const TwentyEighteen = () => {
                 </div>
             </Plx>
         </section>
+
+        {/* stats */}
+        <section id="stats" className={styles.stats}>
+            <Plx className={styles.title} parallaxData={ PlxUp2 }>
+                <h2 className={styles.f2}>Stats</h2>
+            </Plx>
+            <div className={styles.grid}>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>06</div>
+                    <div className={styles.p}>Events Hosted</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>18</div>
+                    <div className={styles.p}>Events Attended</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statLarge}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>849</div>
+                    <div className={styles.p}>Applications</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>33</div>
+                    <div className={styles.p}>Interviews</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>06</div>
+                    <div className={styles.p}>Hires</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statLarge}>
+                    <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>205</div>
+                    <div className={styles.p}>Icons Created</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statVLarge}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>34,565</div>
+                    <div className={styles.p}>Documents Created</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>23</div>
+                    <div className={styles.p}>Loop Posts</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>01</div>
+                    <div className={styles.p}>Annual Report</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statLarge}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>112</div>
+                    <div className={styles.p}>Critique Sessions</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statSmall}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>12</div>
+                    <div className={styles.p}>Talks Given</div>
+                </Flex>
+                <Flex justify="center" direction="column" className={styles.statVLarge}>
+                <div className={styles.vertline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.horzline}>
+                        <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="0" x2="0.5" y2="100%" stroke="#006DE7" stroke-linejoin="round" stroke-dasharray="1 10"/>
+                        </svg>
+                    </div>
+                    <div className={styles.circle}></div>
+                    <div className={styles.f3}>7,650</div>
+                    <div className={styles.p}>Sticky Notes Used</div>
+                </Flex>
+            </div>
+        </section>
+
         <Footer />
     </div>
     )
