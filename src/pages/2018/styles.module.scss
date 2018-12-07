@@ -951,7 +951,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
-		grid-row-gap: 10vw;
+		grid-row-gap: 12vw;
 		width: 80vw;
 		height: 60vw;
 		text-align: center;
@@ -968,6 +968,7 @@
 			margin-top: 5vw;
 			margin-bottom: 3.8vw;
 			z-index: 1;
+			font-weight: $fontWeightRegular;
 		}
 		.p {
 			font-weight: $fontWeightHeavy;
@@ -982,16 +983,18 @@
 			left: 50%;
 			opacity: 0;
 			pointer-events: none;
+			display: none;
 		}
 		.horzline {
 			position: absolute;
 			height: 200vh;
 			width: 1px;
-			top: -106vw;
-			transform: rotate(90deg);
-			transform-origin: center;
+			top: 45%;
+			transform: rotate(90deg) translateY(-100vw);
+			transform-origin: top;
 			opacity: 0;
 			pointer-events: none;
+			display: none;
 		}
 		.statSmall {
 			position: relative;
@@ -1014,12 +1017,12 @@
 				margin-top: 3vw;
 				margin-bottom: 5.8vw;
 			}
-			.horzline {
-				top: -108vw;
-			}
 		}
 		.statVLarge {
 			position: relative;
+			span {
+				font-size: 3vw;
+			}
 			.circle {
 				width: 17vw;
 				height: 17vw;
@@ -1029,9 +1032,6 @@
 			.f3 {
 				margin-top: 1.5vw;
 				margin-bottom: 7.3vw;
-			}
-			.horzline {
-				top: -109.5vw;
 			}
 		}
 		.statVLarge,
@@ -1047,6 +1047,7 @@
 				.f3 {
 					color: #006DE7;
 					transition: 0.1s ease-in-out;
+					font-weight: $fontWeightBlack;
 				}
 				.circle {
 					background: #fff;
