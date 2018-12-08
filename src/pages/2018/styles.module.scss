@@ -742,23 +742,21 @@
 					transform: translateY(-50%);
 				}
 			}
-			.dot {
-				background: #006DE7;
+			.designerHeadshot {
 				width: 1vw;
 				height: 1vw;
 				border-radius: 50%;
-				position: relative;
 				margin: 0 8vw;
-				&:before {
-					content: '';
+				border: 0.5vw solid #006DE7;
+				position: relative;
+				transition: 0.2s ease-out;
+				opacity: 0.8;
+				&:global.Plx--active {
 					width: 4vw;
 					height: 4vw;
-					position: absolute;
-					border: 1vw solid #006DE7;
-					border-radius: 50%;
-					opacity: 0.2;
-					left: -153%;
-					top: -153%;
+					border: 0;
+					margin: 0 6.5vw;
+					opacity: 1;
 				}
 			}
 			h4.pLarge {
@@ -796,14 +794,22 @@
 					display: inline;
 				}
 			}
-			.dot {
-				background: #006DE7;
+			.designerHeadshot {
 				width: 1vw;
 				height: 1vw;
 				border-radius: 50%;
-				position: relative;
 				margin: 0 8vw;
-				opacity: 0.4
+				border: 0.5vw solid #006DE7;
+				position: relative;
+				transition: 0.2s ease-out;
+				opacity: 0.4;
+				&:global.Plx--active {
+					width: 4vw;
+					height: 4vw;
+					border: 0;
+					margin: 0 6.5vw;
+					opacity: 1;
+				}
 			}
 			h4.pSmall {
 				margin: 0;
@@ -1064,6 +1070,139 @@
 					transition: 0.1s ease-in-out;
 				}
 			}
+		}
+	}
+}
+
+.lexicon {
+	background: $white;
+	width: 100vw;
+	min-height: 100vh;
+	position: relative;
+	z-index: 1;
+	padding: 0 10vw;
+	margin-top: 20vw;
+	.heading {
+		position: relative;
+        top: -17vw;
+	}
+	.p {
+		width: 40vw;
+		top: -5vw;
+		position: relative;
+	}
+	.wrapper{
+		position: relative;
+		.lexiconBackground {
+			width: 100vw;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+			height: 90vw;
+			position: absolute;
+			left: -10vw;
+			top: 18vw;
+			.justblue {
+				background-color: #006DE7;
+				background-image: url('/images/2018/lexicon-background.svg');
+				grid-column-start: 2;
+				grid-column-end: 3;
+				grid-row-start: 1;
+				grid-row-end: 2;
+			}
+			.svgpattern {
+				background-color: #006DE7;
+				background-image: url('/images/2018/lexicon-background.svg');
+				grid-column-start: 1;
+				grid-column-end: 3;
+				grid-row-start: 2;
+				grid-row-end: 5;
+			}
+		}
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+			width: 80vw;
+			height: 90vw;
+			position: relative;
+			.image {
+				background-color: #fff;
+				background-image: url('/images/2018/lexicon-team.JPG');
+				background-attachment: cover;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-position: 50% 100%;
+				grid-row-start: 2;
+				grid-row-end: 5; 
+			}
+			.projects {
+				background: #1F2123;
+				grid-column-start: 2;
+				grid-column-end: 3;
+				grid-row-start: 1;
+				grid-row-end: 3;
+				.textLarge {
+					color: #fff;
+					width: 12vw;
+					text-align: left;
+					padding-bottom: 2vw;
+				}
+				.p {
+					color: #fff;
+					width: 12vw;
+					text-align: left;
+				}
+			}
+			.snapshot {
+				background-color: #fff;
+				background-image: url('/images/2018/lexicon-clip.png');
+				background-attachment: cover;
+				background-size: 140%;
+				background-repeat: no-repeat;
+				background-position: 0% 50%;
+				grid-column-start: 2;
+				grid-column-end: 3;
+				grid-row-start: 3;
+				grid-row-end: 5;
+			}
+		}
+	}
+}
+
+//thank you
+.thankyou {
+	width: 100vw;
+	padding: 10vw;
+	margin: auto;
+	max-width: calc(80rem + 20vw - 2rem);
+	border-bottom: #006DE7 solid 0.2vw;
+	.f1 {
+		width: 65vw;
+	}
+	.pLarge {
+		color: #fff;
+	}
+	.p {
+		color: #fff;
+		opacity: 0.6;
+	}
+	div.p {
+		color: #fff;
+		position: relative;
+		padding: 8vw 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20vw;
+		font-weight: $fontWeightHeavy;
+		opacity: 1;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 25vw;
+			opacity: 0.06;
 		}
 	}
 }
