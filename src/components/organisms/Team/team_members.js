@@ -172,8 +172,8 @@ const teamMembers = [
 	{
 		id: 180,
 		name: 'James Lyons',
-		imageUrl: withPrefix(`${imageDir}/-upside-down-face.png`),
-		imageHoverUrl: withPrefix(`${imageDir}/-thinking-face.png`),
+		imageUrl: withPrefix(`${imageDir}/lyons-james.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/lyons-james-h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa_drum',
 		page: '/team/lyons-james',
