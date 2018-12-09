@@ -154,8 +154,8 @@ const teamMembers = [
 	{
 		id: 150,
 		name: 'David Kim',
-		imageUrl: withPrefix(`${imageDir}/-sunglasses.png`),
-		imageHoverUrl: withPrefix(`${imageDir}/hancock-abel-h.jpg`),
+		imageUrl: withPrefix(`${imageDir}/kim-david.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/kim-david-h.jpg`),
 		title: 'UX Designer',
 		icon: 'fa_pastafarianism',
 		page: '/team/kim-david',
