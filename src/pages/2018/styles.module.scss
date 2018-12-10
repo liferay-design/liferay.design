@@ -778,6 +778,24 @@
 			display: flex;
 			justify-content: flex-start;
 			align-items: center;
+			.birthRayDate {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				width: 11vw;
+				font-weight: $fontWeightRegular;
+				:first-child {
+					color: $white;
+					opacity: 0.6;
+					display: inline;
+					padding-right: 0.2em;
+				}
+				:nth-child(2) {
+					color: $white;
+					opacity: 0.2;
+					display: inline;
+				}
+			}
 			.date {
 				position: relative;
 				width: 11vw;
@@ -816,61 +834,6 @@
 				margin: 0;
 				color: $white;
 				font-weight: $fontWeightRegular;
-				span {
-					opacity: 0.4;
-					font-weight: $fontWeightLight;
-				}
-			}
-		}
-		.birthray {
-			position: relative;
-			padding-bottom: 6vw;
-			display: flex;
-			justify-content: flex-start;
-			align-items: center;
-			min-height: 14vw;
-			.date {
-				position: relative;
-				display: flex;
-				justify-content: center;
-				width: 11vw;
-				font-weight: $fontWeightRegular;
-				:first-child {
-					color: $white;
-					opacity: 0.6;
-					display: inline;
-					padding-right: 0.2em;
-				}
-				:nth-child(2) {
-					color: $white;
-					opacity: 0.2;
-					display: inline;
-				}
-			}
-			.designerHeadshot {
-				width: 1vw;
-				height: 1vw;
-				border-radius: 50%;
-				margin: 0 8vw;
-				border: 0.5vw solid #006de7;
-				position: relative;
-				transition: 0.2s ease-out;
-				opacity: 0.4;
-				&:global.Plx--active {
-					width: 4vw;
-					height: 4vw;
-					border: 0;
-					margin: 0 6.5vw;
-					opacity: 1;
-				}
-			}
-			h4.pSmall {
-				margin: 0;
-				color: $white;
-				font-size: 1.2vw;
-				font-weight: $fontWeightRegular;
-				text-transform: uppercase;
-				letter-spacing: 0.4em;
 				span {
 					opacity: 0.4;
 					font-weight: $fontWeightLight;

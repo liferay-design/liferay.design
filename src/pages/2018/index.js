@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
-import IllustrationsCarousel from 'components/molecules/IllustrationsCarousel';
+import IllustrationsCarousel from 'components/molecules/IllustrationsCarousel'
 
 //custom plx data
 const anchorLinks = [
@@ -835,10 +835,10 @@ const TwentyEighteen = () => {
 				</p>
 			</section>
 
-            {/* illustrations */}
-            <section id="illustrations" className={styles.illustrations}>
-                <IllustrationsCarousel />
-            </section>
+			{/* illustrations */}
+			<section id="illustrations" className={styles.illustrations}>
+				<IllustrationsCarousel />
+			</section>
 
 			{/* Designers hired */}
 			<section id="designers-hired" className={styles.designersHired}>
@@ -885,7 +885,7 @@ const TwentyEighteen = () => {
 							src="/images/headshots/bargaid-duuriimaa.jpg"
 						/>
 						<h4 className={styles.pLarge}>
-							Duuriimaa Bargaid <span>&nbsp;&nbsp; Spain</span>
+							Duuriimaa <span>started in Spain</span>
 						</h4>
 					</Plx>
 
@@ -893,9 +893,9 @@ const TwentyEighteen = () => {
 						tagName="a"
 						href="team/connolly-ryan"
 						parallaxData={designerHired}
-						className={styles.birthray}
+						className={styles.hired}
 					>
-						<div className={styles.date}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Apr</div>
 							<div className={styles.pLarge}>24</div>
 						</div>
@@ -905,8 +905,8 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/connolly-ryan.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Ryan Connolly <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Ryan<span>'s 1st Birthray</span>
 						</h4>
 					</Plx>
 
@@ -922,7 +922,7 @@ const TwentyEighteen = () => {
 							src="/images/headshots/-sunglasses.png"
 						/>
 						<h4 className={styles.pLarge}>
-							Andras Himmer <span>&nbsp;&nbsp; Hungary</span>
+							Andras <span>started in Hungary</span>
 						</h4>
 					</Plx>
 
@@ -938,12 +938,12 @@ const TwentyEighteen = () => {
 							src="/images/headshots/-heart-eyes-cat.png"
 						/>
 						<h4 className={styles.pLarge}>
-							Andrea Censi <span>&nbsp;&nbsp; Italy</span>
+							Andrea Censi <span>started in Italy</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Jul</div>
 							<div className={styles.pLarge}>03</div>
 						</div>
@@ -953,13 +953,13 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/oliveira-cassia.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Cassia Oliveira <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Cassia<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Aug</div>
 							<div className={styles.pLarge}>07</div>
 						</div>
@@ -969,8 +969,8 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/pentz-patrick.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Patrick Pentz <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Patrick<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 
@@ -986,12 +986,12 @@ const TwentyEighteen = () => {
 							src="/images/headshots/lyons-james.jpg"
 						/>
 						<h4 className={styles.pLarge}>
-							James Lyons <span>&nbsp;&nbsp; North America</span>
+							James <span>started in California</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Sep</div>
 							<div className={styles.pLarge}>11</div>
 						</div>
@@ -1001,8 +1001,8 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/-upside-down-face.png"
 						/>
-						<h4 className={styles.pSmall}>
-							Gabryelle Barbosa <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Gabryelle<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 
@@ -1018,12 +1018,12 @@ const TwentyEighteen = () => {
 							src="/images/headshots/kim-david.jpg"
 						/>
 						<h4 className={styles.pLarge}>
-							David Kim <span>&nbsp;&nbsp; North America</span>
+							David <span>started in California</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Sep</div>
 							<div className={styles.pLarge}>18</div>
 						</div>
@@ -1033,8 +1033,8 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/shama-davi.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Davi Shamá <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Davi<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 
@@ -1050,12 +1050,12 @@ const TwentyEighteen = () => {
 							src="/images/headshots/manso-miriam.jpg"
 						/>
 						<h4 className={styles.pLarge}>
-							Miriam Manso <span>&nbsp;&nbsp; Spain</span>
+							Miriam <span>started in Spain</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Oct</div>
 							<div className={styles.pLarge}>16</div>
 						</div>
@@ -1065,13 +1065,13 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/jeong-chris.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Christopher Jeong <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Chris<span>' first Birthray</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Oct</div>
 							<div className={styles.pLarge}>18</div>
 						</div>
@@ -1081,13 +1081,13 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/vazquez-susana.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Susana Vázquez <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Susana<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 
-					<Plx parallaxData={designerHired} className={styles.birthray}>
-						<div className={styles.date}>
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
 							<div className={styles.pLarge}>Dec</div>
 							<div className={styles.pLarge}>18</div>
 						</div>
@@ -1097,8 +1097,8 @@ const TwentyEighteen = () => {
 							className={styles.designerHeadshot}
 							src="/images/headshots/hancock-abel.jpg"
 						/>
-						<h4 className={styles.pSmall}>
-							Abel Hancock <span>&nbsp;&nbsp; 1st Birthray</span>
+						<h4 className={styles.pLarge}>
+							Abel<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 				</Flex>
@@ -1108,7 +1108,11 @@ const TwentyEighteen = () => {
 			<section id="dribbble" className={styles.dribbble}>
 				<Plx className={styles.title} parallaxData={PlxUp2}>
 					<div className={styles.pie} />
-					<h2 className={styles.f2}><a href="https://dribbble.com/liferay" target="_blank">Dribbble</a></h2>
+					<h2 className={styles.f2}>
+						<a href="https://dribbble.com/liferay" target="_blank">
+							Dribbble
+						</a>
+					</h2>
 				</Plx>
 				<Plx className={styles.p} parallaxData={PlxUp1}>
 					A 6-week daily posting regimen coordinated between all three regions
