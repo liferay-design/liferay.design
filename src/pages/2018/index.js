@@ -1742,25 +1742,26 @@ const TwentyEighteen = () => {
 				<h2 className={styles.f1}>Thank you for a great year</h2>
 				<p className={styles.pLarge}>From the Director</p>
 				<p className={styles.p}>
-					Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
-					suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus
-					nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-					posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel,
-					ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt.
-					Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-					Donec rutrum congue leo eget malesuada. Sed porttitor lectus nibh.
+					This has been an incredible year of opportunity and growth for UX
+					design within Liferay. It has been very impressive watching the
+					maturity of our design culture evolve from a simple concept into
+					something tangible. I want to applaud the efforts of the entire team
+					and thank everyone at Liferay for being so understanding and accepting
+					of our push to establish strong design-thinking at this company. We’re
+					excited to do even more next year. Paul is a disappointment, though.
+					Thank you all.
 				</p>
 
 				<Plx parallaxData={PlxUp2} className={styles.p}>
 					<Plx
-						parallaxData={PlxUp1}
+						parallaxData={PlxUp2}
 						tagName="img"
 						src="/images/headshots/hidalgo-juan.jpg"
 						className={styles.headshot}
 					/>
 					Juan Hidalgo
 					<Plx
-						parallaxData={PlxUp1}
+						parallaxData={PlxUp3}
 						tagName="img"
 						src="/images/2018/jh-signature-hwite.png"
 						className={styles.signature}
