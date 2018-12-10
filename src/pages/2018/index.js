@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { Flex, Heading, Image } from 'components/atoms'
 import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
@@ -772,12 +773,16 @@ const TwentyEighteen = () => {
 							/>
 						</svg>
 					</div>
-					<p className={styles.p}>
-						Nunc in velit venenatis, tempor enim id, sodales eros. Integer
-						rutrum ipsum ac dolor tempus, in lobortis lorem imperdiet. Ut
-						malesuada lectus ac aliquet suscipit. Nullam rhoncus, diam vitae
-						maximus finibus, orci leo dictu.
-					</p>
+					<div className={styles.p}>
+						<p>
+							We took another step in the evolution of the Liferay brand,
+							working with a diverse group from Engineering, Marketing,
+							Sales, and other departments.
+						</p>
+						<Link to="/articles/necessity-for-brand-updates-in-2018">
+							Read more about the necessity for brand updates
+						</Link>
+					</div>
 				</Flex>
 				<Plx parallaxData={PlxUp2} className={styles.waffles}>
 					<Flex justify="center" align="center" className={styles.blackWaffle}>
@@ -821,7 +826,7 @@ const TwentyEighteen = () => {
 
 			{/* redefined */}
 			<section id="redefined" className={styles.redefined}>
-				<h2 className={styles.textLarge}>Redefined</h2>
+				<h2 className={styles.textLarge}>Rede&#xFB01;ned</h2>
 				<p className={styles.p}>
 					Nunc in velit venenatis, tempor enim id, sodales eros. Integer rutrum
 					ipsum ac dolor tempus, in lobortis lorem imperdiet. Ut malesuada
