@@ -106,7 +106,7 @@
 	.f1,
 	.f3 {
 		text-align: center;
-		color: #fff;
+		color: $white;
 	}
 	.f1 {
 		padding-bottom: 2vh;
@@ -320,7 +320,7 @@
 				content: ' ';
 				width: 100%;
 				height: 0.5vw;
-				background: #fff;
+				background: $white;
 				opacity: 0.1;
 				bottom: 0;
 				position: absolute;
@@ -366,7 +366,7 @@
 						div {
 							width: 1.5vw;
 							height: 1.5vw;
-							background: #fff;
+							background: $white;
 						}
 						:first-child {
 							height: 0.66vw;
@@ -384,7 +384,7 @@
 						div {
 							width: 1.5vw;
 							height: 1.5vw;
-							background: #fff;
+							background: $white;
 						}
 						:nth-child(2) {
 							height: 0.58vw;
@@ -404,14 +404,14 @@
 			content: ' ';
 			width: 100%;
 			height: 0.5vw;
-			background: #fff;
+			background: $white;
 			opacity: 0.04;
 			bottom: 0;
 			position: absolute;
 			left: 0;
 		}
 		.f3Large {
-			color: #fff;
+			color: $white;
 		}
 		//global style for the sake of targeting Plx active class
 		:first-child {
@@ -459,7 +459,7 @@
 			}
 		}
 		.pLarge {
-			color: #fff;
+			color: $white;
 			opacity: 0.2;
 		}
 	}
@@ -484,14 +484,14 @@
 				content: ' ';
 				width: 100%;
 				height: 0.5vw;
-				background: #fff;
+				background: $white;
 				opacity: 0.1;
 				bottom: 0;
 				position: absolute;
 				left: 0;
 			}
 			.p {
-				color: #fff;
+				color: $white;
 				> div {
 					display: inline;
 				}
@@ -506,7 +506,7 @@
 			}
 		}
 		.figma {
-			background: #fff;
+			background: $white;
 			height: 32vw;
 			margin-top: -2vw;
 			&:after {
@@ -559,7 +559,7 @@
 		width: 50vw;
 	}
 	.f3 {
-		color: #fff;
+		color: $white;
 		position: relative;
 		top: 60vw;
 		left: 20vw;
@@ -745,6 +745,13 @@
 	}
 }
 
+//illustrations
+.illustrations {
+	background: $white;
+	padding: 10vw;
+	min-height: 100vh;
+}
+
 //designers hired
 .designersHired {
 	width: 100vw;
@@ -781,7 +788,7 @@
 				}
 				.pLarge {
 					position: absolute;
-					color: #fff;
+					color: $white;
 					width: 100%;
 					text-align: center;
 					top: 50%;
@@ -807,7 +814,7 @@
 			}
 			h4.pLarge {
 				margin: 0;
-				color: #fff;
+				color: $white;
 				font-weight: $fontWeightRegular;
 				span {
 					opacity: 0.4;
@@ -829,13 +836,13 @@
 				width: 11vw;
 				font-weight: $fontWeightRegular;
 				:first-child {
-					color: #fff;
+					color: $white;
 					opacity: 0.6;
 					display: inline;
 					padding-right: 0.2em;
 				}
 				:nth-child(2) {
-					color: #fff;
+					color: $white;
 					opacity: 0.2;
 					display: inline;
 				}
@@ -859,7 +866,7 @@
 			}
 			h4.pSmall {
 				margin: 0;
-				color: #fff;
+				color: $white;
 				font-size: 1.2vw;
 				font-weight: $fontWeightRegular;
 				text-transform: uppercase;
@@ -887,11 +894,18 @@
 		}
 		.f2 {
 			margin: 2vw 0;
+			a {
+				color: $white;
+				transition: 0.2s;
+				&:hover {
+					color: #006de7;
+				}
+			}
 		}
 	}
 	.p {
 		width: 40vw;
-		color: #fff;
+		color: $white;
 		opacity: 0.5;
 	}
 	.dashedcircle {
@@ -928,10 +942,10 @@
 			flex-direction: column;
 		}
 		.f3 {
-			color: #fff;
+			color: $white;
 		}
 		.left {
-			background: #fff;
+			background: $white;
 			grid-row-start: 1;
 			grid-row-end: 3;
 			.f1 {
@@ -949,7 +963,7 @@
 			background: #373a3c;
 			.pSmall {
 				width: unset;
-				color: #fff;
+				color: $white;
 				opacity: 1;
 				font-weight: $fontWeightLight;
 			}
@@ -958,7 +972,7 @@
 			background: #272a2c;
 			.pSmall {
 				width: unset;
-				color: #fff;
+				color: $white;
 				opacity: 1;
 				font-weight: $fontWeightLight;
 			}
@@ -969,7 +983,7 @@
 			position: relative;
 			.pSmall {
 				width: unset;
-				color: #fff;
+				color: $white;
 				opacity: 1;
 				font-weight: $fontWeightLight;
 			}
@@ -1016,7 +1030,7 @@
 			z-index: 0;
 		}
 		.f3 {
-			color: #fff;
+			color: $white;
 			position: relative;
 			margin-top: 5vw;
 			margin-bottom: 3.8vw;
@@ -1025,7 +1039,7 @@
 		}
 		.p {
 			font-weight: $fontWeightHeavy;
-			color: #fff;
+			color: $white;
 			opacity: 0.4;
 		}
 		.vertline {
@@ -1107,7 +1121,7 @@
 					font-weight: $fontWeightBlack;
 				}
 				.circle {
-					background: #fff;
+					background: $white;
 					transform: scale(1.1);
 					transform-origin: center;
 					transition: 0.1s ease-in-out;
@@ -1179,7 +1193,7 @@
 			height: 90vw;
 			position: relative;
 			.image {
-				background-color: #fff;
+				background-color: $white;
 				background-image: url('/images/2018/lexicon-team.JPG');
 				background-attachment: cover;
 				background-size: 100%;
@@ -1195,19 +1209,19 @@
 				grid-row-start: 1;
 				grid-row-end: 3;
 				.textLarge {
-					color: #fff;
+					color: $white;
 					width: 12vw;
 					text-align: left;
 					padding-bottom: 2vw;
 				}
 				.p {
-					color: #fff;
+					color: $white;
 					width: 12vw;
 					text-align: left;
 				}
 			}
 			.snapshot {
-				background-color: #fff;
+				background-color: $white;
 				background-image: url('/images/2018/lexicon-clip.png');
 				background-attachment: cover;
 				background-size: 140%;
@@ -1233,14 +1247,14 @@
 		width: 65vw;
 	}
 	.pLarge {
-		color: #fff;
+		color: $white;
 	}
 	.p {
-		color: #fff;
+		color: $white;
 		opacity: 0.6;
 	}
 	div.p {
-		color: #fff;
+		color: $white;
 		position: relative;
 		padding: 8vw 0;
 		display: flex;

@@ -5,6 +5,7 @@ import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
+import IllustrationsCarousel from 'components/molecules/IllustrationsCarousel';
 
 //custom plx data
 const anchorLinks = [
@@ -834,6 +835,11 @@ const TwentyEighteen = () => {
 				</p>
 			</section>
 
+            {/* illustrations */}
+            <section id="illustrations" className={styles.illustrations}>
+                <IllustrationsCarousel />
+            </section>
+
 			{/* Designers hired */}
 			<section id="designers-hired" className={styles.designersHired}>
 				<Plx className={styles.title} parallaxData={PlxUp2}>
@@ -1102,7 +1108,7 @@ const TwentyEighteen = () => {
 			<section id="dribbble" className={styles.dribbble}>
 				<Plx className={styles.title} parallaxData={PlxUp2}>
 					<div className={styles.pie} />
-					<h2 className={styles.f2}>Dribbble</h2>
+					<h2 className={styles.f2}><a href="https://dribbble.com/liferay" target="_blank">Dribbble</a></h2>
 				</Plx>
 				<Plx className={styles.p} parallaxData={PlxUp1}>
 					A 6-week daily posting regimen coordinated between all three regions
