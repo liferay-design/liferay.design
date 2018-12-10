@@ -1249,7 +1249,15 @@
 		width: 20vw;
 		font-weight: $fontWeightHeavy;
 		opacity: 1;
-		img {
+		.headshot {
+			position: absolute;
+			top: calc(4vw - 0.5rem);
+			left: -5vw;
+			height: 8rem;
+			width: 8rem;
+			border-radius: 50%;
+		}
+		.signature {
 			position: absolute;
 			top: 0;
 			left: 0;

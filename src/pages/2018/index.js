@@ -1749,12 +1749,20 @@ const TwentyEighteen = () => {
 					Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
 					Donec rutrum congue leo eget malesuada. Sed porttitor lectus nibh.
 				</p>
+
 				<Plx parallaxData={PlxUp2} className={styles.p}>
+					<Plx
+						parallaxData={PlxUp1}
+						tagName="img"
+						src="/images/headshots/hidalgo-juan.jpg"
+						className={styles.headshot}
+					/>
 					Juan Hidalgo
 					<Plx
 						parallaxData={PlxUp1}
 						tagName="img"
 						src="/images/2018/jh-signature-hwite.png"
+						className={styles.signature}
 					/>
 				</Plx>
 			</section>
