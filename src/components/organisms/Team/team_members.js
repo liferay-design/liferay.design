@@ -23,7 +23,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/aragones-david-h.jpg`),
 		title: 'Senior UX Designer',
 		icon: 'fa_universal_access',
-		page: 'null',
+		page: '/team/aragones-david',
 	},
 	{
 		id: 11,
