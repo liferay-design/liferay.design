@@ -829,9 +829,13 @@ const TwentyEighteen = () => {
 			<section id="redefined" className={styles.redefined}>
 				<h2 className={styles.textLarge}>Rede&#xFB01;ned</h2>
 				<p className={styles.p}>
-					Nunc in velit venenatis, tempor enim id, sodales eros. Integer rutrum
-					ipsum ac dolor tempus, in lobortis lorem imperdiet. Ut malesuada
-					lectus ac aliquet.
+					We kicked off this process by conducting some research within a
+					variety of departments and regions. Then we conducted an offsite brand
+					sprint with the CEO and marketing leadership to gather data for
+					Liferay’s long-term vision.
+				</p>
+				<p className={styles.p}>
+					Less than 90 days later, we began rolling out these updates globally.
 				</p>
 			</section>
 
