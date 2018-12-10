@@ -779,7 +779,7 @@ const TwentyEighteen = () => {
 							working with a diverse group from Engineering, Marketing,
 							Sales, and other departments.
 						</p>
-						<Link to="/articles/necessity-for-brand-updates-in-2018">
+						<Link to="/articles/2018/necessity-for-brand-updates/">
 							Read more about the necessity for brand updates
 						</Link>
 					</div>
