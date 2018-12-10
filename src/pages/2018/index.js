@@ -1105,8 +1105,9 @@ const TwentyEighteen = () => {
 					<h2 className={styles.f2}>Dribbble</h2>
 				</Plx>
 				<Plx className={styles.p} parallaxData={PlxUp1}>
-					A 6-week daily posting engagement led to some significant results on
-					the main designer social media platform.
+					A 6-week daily posting regimen coordinated between all three regions
+					created significant results on the primary social media platform for
+					designers.
 				</Plx>
 				<Plx parallaxData={PlxRotateRight1} className={styles.dashedcircle}>
 					<svg
@@ -1153,7 +1154,7 @@ const TwentyEighteen = () => {
 			{/* stats */}
 			<section id="stats" className={styles.stats} scroll="no">
 				<Plx className={styles.title} parallaxData={PlxUp2}>
-					<h2 className={styles.f2}>Stats</h2>
+					<h2 className={styles.f2}>Vanity Metrics</h2>
 				</Plx>
 				<Plx className={styles.grid}>
 					<Flex

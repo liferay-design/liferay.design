@@ -992,11 +992,11 @@
 	padding: 10vw 10vw;
 	.title {
 		position: relative;
-		width: 14vw;
+		display: inline-block;
 		:before {
 			content: url("data:image/svg+xml,%3Csvg viewBox='0 0 125 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='9' cy='43' r='9' fill='%23006DE7'/%3E%3Ccircle cx='43' cy='18' r='9' fill='%23006DE7'/%3E%3Ccircle cx='79' cy='36' r='9' fill='%23006DE7'/%3E%3Ccircle cx='116' cy='9' r='9' fill='%23006DE7'/%3E%3Cpath d='M9 43.5L43.5 18L79.5 36.5L116.5 9' stroke='%23006DE7' stroke-width='3' stroke-dasharray='4 10'/%3E%3C/svg%3E");
 			position: absolute;
-			right: -100%;
+			right: -3ch;
 			width: 8vw;
 		}
 	}
