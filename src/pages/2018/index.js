@@ -1741,10 +1741,12 @@ const TwentyEighteen = () => {
 					<h2 className={styles.textHuge}>Lexicon</h2>
 				</Plx>
 				<p className={styles.p}>
-					Nunc in velit venenatis, tempor enim id, sodales eros. Integer rutrum
-					ipsum ac dolor tempus, in lobortis lorem imperdiet. Ut malesuada
-					lectus ac aliquet suscipit. Nullam rhoncus, diam vitae maximus
-					finibus, orci leo dictu.
+					Our Design System evolved into version 2.0 and was spread to different
+					products and projects.
+				</p>
+				<p className={styles.p}>
+					Utilizing Lexicon in more interfaces allow us to gain robustness and
+					improve communication through a consistent language.
 				</p>
 				<div className={styles.wrapper}>
 					<div className={styles.lexiconBackground}>
