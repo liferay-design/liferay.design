@@ -839,10 +839,12 @@ const TwentyEighteen = () => {
 				</p>
 			</section>
 
-			{/* illustrations */}
-			<section id="illustrations" className={styles.illustrations}>
-				<IllustrationsCarousel />
-			</section>
+            {/* illustrations */}
+            <section id="illustrations" className={styles.illustrations}>
+				<div class='carousel-wrapper'>
+               	 <IllustrationsCarousel />
+				</div>
+            </section>
 
 			{/* Designers hired */}
 			<section id="designers-hired" className={styles.designersHired}>
