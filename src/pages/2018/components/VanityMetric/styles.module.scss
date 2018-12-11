@@ -2,6 +2,7 @@
 
 .stat {
 	position: relative;
+	cursor: default;
 	svg {
 		position: absolute;
 		top: 50%;
@@ -20,7 +21,7 @@
 		transition: all 0.15s ease-in-out;
 	}
 	.f3 {
-		font-size: 5vw;
+		font-size: 4.5vw;
 		line-height: 100%;
 		color: #fff;
 		font-weight: 400;
@@ -28,12 +29,13 @@
 	}
 	.p {
 		font-weight: 600;
-		color: #fff;
+		color: #C8C8C8;
 		opacity: 0.4;
 		font-size: 1.8vw;
 		line-height: 150%;
 	}
 	&:hover {
+		z-index: 1;
 		svg {
 			transform: translate(-50%, -50%) scale(1);
 			transform-origin: center;
@@ -48,8 +50,9 @@
 			transition: all 0.15s ease-in-out;
 		}
 		.p {
-			transform: translateY(5vh);
+			transform: translateY(2vw);
 			transition: all 0.15s ease-in-out;
+			opacity: 1;
 		}
 	}
 }
