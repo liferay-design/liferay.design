@@ -2,14 +2,12 @@ import Accordion from './Accordion'
 import AssetCard from './AssetCard'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
-import BrandCarousel from './BrandCarousel'
 import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import ColorField from './ColorField'
 import DoDont from './DoDont'
 import FeaturedPost from './FeaturedPost'
 import HeroPost from './HeroPost'
-import IllustrationsCarousel from './IllustrationsCarousel'
 import ImageDownload from './ImageDownload'
 import LexiconCard from './LexiconCard'
 import LogoutContainer from './LogoutContainer'
@@ -23,14 +21,12 @@ export {
 	AssetCard,
 	AuthContainer,
 	Billboard,
-	BrandCarousel,
 	ColorSwatch,
 	ColorSwatchDigital,
 	ColorField,
 	DoDont,
 	FeaturedPost,
 	HeroPost,
-	IllustrationsCarousel,
 	ImageDownload,
 	LexiconCard,
 	LogoutContainer,

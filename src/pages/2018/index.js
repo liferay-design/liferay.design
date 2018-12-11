@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
-import { IllustrationsCarousel, BrandCarousel } from 'components/molecules'
+import { IllustrationsCarousel, BrandCarousel } from 'pages/2018/components'
 
 //custom plx data
 const anchorLinks = [
@@ -1548,51 +1548,6 @@ const TwentyEighteen = () => {
 						<div className={styles.circle} />
 						<div className={styles.f3}>23</div>
 						<div className={styles.p}>Loop Posts</div>
-					</Flex>
-					<Flex
-						justify="center"
-						direction="column"
-						className={styles.statSmall}
-					>
-						<div className={styles.vertline}>
-							<svg
-								width="100%"
-								height="100%"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<line
-									x1="0.5"
-									y1="0"
-									x2="0.5"
-									y2="100%"
-									stroke="#006DE7"
-									stroke-linejoin="round"
-									stroke-dasharray="1 10"
-								/>
-							</svg>
-						</div>
-						<div className={styles.horzline}>
-							<svg
-								width="100%"
-								height="100%"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<line
-									x1="0.5"
-									y1="0"
-									x2="0.5"
-									y2="100%"
-									stroke="#006DE7"
-									stroke-linejoin="round"
-									stroke-dasharray="1 10"
-								/>
-							</svg>
-						</div>
-						<div className={styles.circle} />
-						<div className={styles.f3}>01</div>
-						<div className={styles.p}>Annual Report</div>
 					</Flex>
 					<Flex
 						justify="center"
