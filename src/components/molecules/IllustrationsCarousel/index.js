@@ -17,37 +17,37 @@ const IllustrationsCarousel = () => {
             stopOnHover={false}
             >
                 <div>
-                    <img src="images/illustrations/liferay-dot-com/hero-analytics-cloud.png" />
+                    <img src="/images/illustrations/liferay-dot-com/hero-analytics-cloud.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/liferay-dot-com/hero-commerce.png" />
+                    <img src="/images/illustrations/liferay-dot-com/hero-commerce.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/liferay-dot-com/hero-dxp-cloud.png" />
+                    <img src="/images/illustrations/liferay-dot-com/hero-dxp-cloud.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/liferay-dot-com/hero-dxp.png" />
+                    <img src="/images/illustrations/liferay-dot-com/hero-dxp.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/liferay-dot-com/hero-homepage.png" />
+                    <img src="/images/illustrations/liferay-dot-com/hero-homepage.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/liferay-dot-com/hero-liferay-resources.png" />
+                    <img src="/images/illustrations/liferay-dot-com/hero-liferay-resources.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/partner-portal/hero-marketing.png" />
+                    <img src="/images/illustrations/partner-portal/hero-marketing.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/partner-portal/hero-resources.png" />
+                    <img src="/images/illustrations/partner-portal/hero-resources.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/partner-portal/hero-sales.png" />
+                    <img src="/images/illustrations/partner-portal/hero-sales.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/partner-portal/hero-support.png" />
+                    <img src="/images/illustrations/partner-portal/hero-support.png" />
                 </div>
                 <div>
-                    <img src="images/illustrations/partner-portal/hero-technical.jpg" />
+                    <img src="/images/illustrations/partner-portal/hero-technical.jpg" />
                 </div>
         </Carousel>
         )

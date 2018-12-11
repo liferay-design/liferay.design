@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
-import IllustrationsCarousel from 'components/molecules/IllustrationsCarousel'
+import { IllustrationsCarousel, BrandCarousel } from 'components/molecules'
 
 //custom plx data
 const anchorLinks = [
@@ -834,9 +834,7 @@ const TwentyEighteen = () => {
 					sprint with the CEO and marketing leadership to gather data for
 					Liferay’s long-term vision.
 				</p>
-				<p className={styles.p}>
-					Less than 90 days later, we began rolling out these updates globally.
-				</p>
+                <BrandCarousel />
 			</section>
 
             {/* illustrations */}
@@ -1769,18 +1767,16 @@ const TwentyEighteen = () => {
 				</p>
 
 				<Plx parallaxData={PlxUp2} className={styles.p}>
-					<Plx
-						parallaxData={PlxUp2}
-						tagName="img"
-						src="/images/headshots/hidalgo-juan.jpg"
-						className={styles.headshot}
-					/>
 					Juan Hidalgo
 					<Plx
 						parallaxData={PlxUp3}
 						tagName="img"
 						src="/images/2018/jh-signature-hwite.png"
 						className={styles.signature}
+					/>
+                    <img
+						src="/images/headshots/hidalgo-juan.jpg"
+						className={styles.headshot}
 					/>
 				</Plx>
 			</section>

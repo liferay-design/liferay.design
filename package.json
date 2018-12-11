@@ -22,8 +22,10 @@
 		"react-responsive-carousel": "^3.1.43",
 		"react-router-dom": "^4.3.1",
 		"react-sidebar": "^3.0.2",
+		"react-slick": "^0.23.2",
 		"react-svg": "^6.0.15",
 		"reakit": "^0.14.5",
+		"slick-carousel": "^1.8.1",
 		"wedeploy": "^4.5.0"
 	},
 	"devDependencies": {

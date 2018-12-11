@@ -1082,7 +1082,6 @@
 
 	}
 
-
 }
 
 //designers hired
@@ -1155,7 +1154,7 @@
 				position: relative;
 				transition: 0.2s ease-out;
 				opacity: 0.8;
-				&:global.Plx--active {
+				&:global(.Plx--active) {
 					width: 4vw;
 					height: 4vw;
 					border: 0;
@@ -1553,6 +1552,7 @@
 		color: $white;
 		position: relative;
 		padding: 8vw 0;
+		padding-left: 6vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1561,10 +1561,10 @@
 		opacity: 1;
 		.headshot {
 			position: absolute;
-			top: calc(4vw - 0.5rem);
-			left: -5vw;
-			height: 8rem;
-			width: 8rem;
+			//top: calc(4vw - 0.5rem);
+			left: 0;
+			height: 6vw;
+			width: 6vw;
 			border-radius: 50%;
 		}
 		.signature {
