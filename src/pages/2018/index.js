@@ -911,6 +911,15 @@ const TwentyEighteen = () => {
 						</svg>
 					</div>
 					<Designer
+						profileUrl=""
+						month="Jan"
+						day="08"
+						headshot="/images/headshots/balbas-cassandra.jpg"
+						name="Cassandra"
+						detail="firstDay"
+						country="California"
+					/>
+					<Designer
 						profileUrl="/team/bargaid-duuriimaa"
 						month="Feb"
 						day="08"
@@ -920,11 +929,29 @@ const TwentyEighteen = () => {
 						country="Spain"
 					/>
 					<Designer
+						profileUrl=""
+						month="Apr"
+						day="18"
+						headshot="/images/headshots/hisamoto-naoki.jpg"
+						name="Naoki"
+						detail="birthRay"
+						birthRay
+					/>
+					<Designer
 						profileUrl="/team/connolly-ryan"
 						month="Apr"
 						day="24"
 						headshot="/images/headshots/connolly-ryan.jpg"
 						name="Ryan"
+						detail="birthRay"
+						birthRay
+					/>
+					<Designer
+						profileUrl=""
+						month="May"
+						day="01"
+						headshot="/images/headshots/wu-rebecca.jpg"
+						name="Rebecca"
 						detail="birthRay"
 						birthRay
 					/>
@@ -986,6 +1013,16 @@ const TwentyEighteen = () => {
 						birthRay
 					/>
 					<Designer
+						profileUrl="/team/hancock-abel"
+						month="Sep"
+						day="15"
+						headshot="/images/headshots/hancock-abel.jpg"
+						name="Abel"
+						detail="birthRay"
+						country=""
+						birthRay
+					/>
+					<Designer
 						profileUrl="/team/kim-david"
 						month="Sep"
 						day="17"
@@ -1039,16 +1076,6 @@ const TwentyEighteen = () => {
 						day="18"
 						headshot="/images/headshots/vazquez-susana.jpg"
 						name="Susana"
-						detail="birthRay"
-						country=""
-						birthRay
-					/>
-					<Designer
-						profileUrl="/team/hancock-abel"
-						month="Dec"
-						day="18"
-						headshot="/images/headshots/hancock-abel.jpg"
-						name="Abel"
 						detail="birthRay"
 						country=""
 						birthRay
