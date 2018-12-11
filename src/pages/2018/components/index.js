@@ -1,4 +1,5 @@
 import BrandCarousel from './BrandCarousel'
+import Designer from './Designer'
 import IllustrationsCarousel from './IllustrationsCarousel'
 
-export { BrandCarousel, IllustrationsCarousel }
+export { BrandCarousel, Designer, IllustrationsCarousel }
