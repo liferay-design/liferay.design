@@ -1,0 +1,55 @@
+@import '~theme/variables';
+
+.stat {
+	position: relative;
+	svg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) scale(0.9);
+		transition: all 0.15s ease-in-out;
+		z-index: 0;
+		.circle {
+			fill: #272a2c;
+			mix-blend-mode: multiply;
+		}
+	}
+	.f3,
+	.p {
+		z-index: 1;
+		transition: all 0.15s ease-in-out;
+	}
+	.f3 {
+		font-size: 5vw;
+		line-height: 100%;
+		color: #fff;
+		font-weight: 400;
+		margin-top: 2.2vw;
+	}
+	.p {
+		font-weight: 600;
+		color: #fff;
+		opacity: 0.4;
+		font-size: 1.8vw;
+		line-height: 150%;
+	}
+	&:hover {
+		svg {
+			transform: translate(-50%, -50%) scale(1);
+			transform-origin: center;
+			transition: all 0.15s ease-in-out;
+			.circle {
+				fill: $white;
+			}
+		}
+		.f3 {
+			color: $primary;
+			font-weight: $fontWeightBlack;
+			transition: all 0.15s ease-in-out;
+		}
+		.p {
+			transform: translateY(5vh);
+			transition: all 0.15s ease-in-out;
+		}
+	}
+}
