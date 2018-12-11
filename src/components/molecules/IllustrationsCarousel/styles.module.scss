@@ -26,13 +26,13 @@
 }
 
 .carousel .control-arrow:hover {
-				opacity: 1
+				opacity: 1;
 }
 
 .carousel .control-disabled.control-arrow {
 				opacity: 0;
 				cursor: inherit;
-				display: none
+				display: none;
 }
 
 .carousel .control-prev.control-arrow {
@@ -41,34 +41,34 @@
 
 
 .carousel .control-next.control-arrow {
-				right: 0
+				right: 0;
 }
 
 
 .carousel {
 				position: relative;
-				width: 100%
+				width: 100%;
 }
 
 .carousel * {
 				-webkit-box-sizing: border-box;
 				-moz-box-sizing: border-box;
-				box-sizing: border-box
+				box-sizing: border-box;
 }
 
 .carousel img {
 				width: 100%;
 				display: inline-block;
-				pointer-events: none
+				pointer-events: none;
 }
 
 .carousel .carousel {
-				position: relative
+				position: relative;
 }
 
 .carousel .thumbs-wrapper {
 				margin: 20px;
-				overflow: hidden
+				overflow: hidden;
 }
 
 .carousel .thumbs {
@@ -84,7 +84,7 @@
 				transform: translate3d(0, 0, 0);
 				position: relative;
 				list-style: none;
-				white-space: nowrap
+				white-space: nowrap;
 }
 
 .carousel .thumb {
@@ -99,17 +99,17 @@
 				white-space: nowrap;
 				overflow: hidden;
 				border: 3px solid #fff;
-				padding: 2px
+				padding: 2px;
 }
 
 .carousel .thumb.selected,
 .carousel .thumb:hover {
 				border: 3px solid #333;
-				padding: 2px
+				padding: 2px;
 }
 
 .carousel .thumb img {
-				vertical-align: top
+				vertical-align: top;
 }
 
 .carousel.carousel-slider {
@@ -126,7 +126,7 @@
 				-moz-transition: height .15s ease-in;
 				-ms-transition: height .15s ease-in;
 				-o-transition: height .15s ease-in;
-				transition: height .15s ease-in
+				transition: height .15s ease-in;
 }
 
 .carousel .slider-wrapper.axis-horizontal .slider {
@@ -136,7 +136,7 @@
 				display: -ms-flexbox;
 				display: -moz-flex;
 				display: -webkit-flex;
-				display: flex
+				display: flex;
 }
 
 .carousel .slider-wrapper.axis-horizontal .slider .slide {
@@ -152,12 +152,12 @@
 				display: -ms-flexbox;
 				display: -moz-flex;
 				display: -webkit-flex;
-				display: flex
+				display: flex;
 }
 
 .carousel .slider-wrapper.axis-vertical .slider {
 				-webkit-flex-direction: column;
-				flex-direction: column
+				flex-direction: column;
 }
 
 .carousel .slider {
@@ -165,7 +165,7 @@
 				padding: 0;
 				position: relative;
 				list-style: none;
-				width: 100%
+				width: 100%;
 }
 
 .carousel .slider.animated {
@@ -181,20 +181,20 @@
 				margin: 0;
 				position: relative;
 				text-align: center;
-				background: #000
+				background: #000;
 }
 
 .carousel .slide img {
 				width: 100%;
 				vertical-align: top;
-				border: 0
+				border: 0;
 }
 
 .carousel .slide iframe {
 				display: inline-block;
 				width: calc(100% - 80px);
 				margin: 0 40px 40px;
-				border: 0
+				border: 0;
 }
 
 .carousel .slide .legend {
@@ -219,7 +219,7 @@
 				-moz-transition: opacity .35s ease-in-out;
 				-ms-transition: opacity .35s ease-in-out;
 				-o-transition: opacity .35s ease-in-out;
-				transition: opacity .35s ease-in-out
+				transition: opacity .35s ease-in-out;
 }
 
 .carousel .control-dots {
@@ -227,12 +227,12 @@
 				bottom: 0;
 				margin: 10px 0;
 				text-align: center;
-				width: 100%
+				width: 100%;
 }
 
 @media (min-width:960px) {
 				.carousel .control-dots {
-								bottom: 0
+								bottom: 0;
 				}
 }
 
@@ -250,12 +250,12 @@
 				height: 8px;
 				cursor: pointer;
 				display: inline-block;
-				margin: 0 8px
+				margin: 0 8px;
 }
 
 .carousel .control-dots .dot.selected,
 .carousel .control-dots .dot:hover {
-				opacity: 1
+				opacity: 1;
 }
 
 .carousel .carousel-status {
@@ -265,9 +265,9 @@
 				padding: 5px;
 				font-size: 10px;
 				text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
-				color: #fff
+				color: #fff;
 }
 
 .carousel:hover .slide .legend {
-				opacity: 1
+				opacity: 1;
 }
