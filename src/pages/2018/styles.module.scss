@@ -5,10 +5,24 @@
 	font-weight: 1 999;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn100 {
 	to {
 		opacity: 1;
 	}
+}
+@keyframes fadeIn30 {
+	to {
+		opacity: 0.3;
+	}
+}
+@keyframes fadeIn10 {
+	to {
+		opacity: 0.1;
+	}
+}
+@keyframes grow0to100 {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
 }
 
 .pagestyles {
@@ -180,11 +194,26 @@
 		}
 	}
 }
+
+@keyframes header {
+	from {top: 50vh}
+	to {top: 100px}
+}
+@keyframes twenty {
+	from {transform: translateX(100%)}
+	to {transform: translateX(0)}
+}
+@keyframes eighteen {
+	from {transform: translateX(-100%)}
+	to {transform: translateX(0)}
+}
 //header
 .headerPlx {
-	top: 100px;
+	top: 50vh;
 	position: relative;
 	will-change: transform;
+	animation: header 1s cubic-bezier(0.35, 0.24, 0.15, 1.03) 1s forwards;
+	z-index: 10;
 	.header {
 		div {
 			width: 140px;
@@ -199,6 +228,14 @@
 			font-size: 70px;
 			opacity: 0.1;
 		}
+		:nth-child(1) {
+			transform: translateX(100%);
+			animation: twenty 1s cubic-bezier(0.35, 0.24, 0.15, 1.03) 0.5s forwards;
+		}
+		:nth-child(3) {
+			transform: translateX(-100%);
+			animation: eighteen 1s cubic-bezier(0.35, 0.24, 0.15, 1.03) 0.5s forwards;
+		}
 		:nth-child(2) {
 			font-size: 35px;
 			background: $white;
@@ -206,6 +243,21 @@
 	}
 }
 
+
+@keyframes backgroundElements {
+	from {
+		width: 100vw;
+		max-width: 100vw;
+		height: 100vh;
+		max-height: 100vh;
+	}
+	to {
+		width: 50vw;
+		max-width: 80vh;
+		height: 50vw;
+		max-height: 80vh;
+	}
+}
 //banner
 .banner {
 	height: calc(100vh - 140px);
@@ -222,6 +274,8 @@
 		left: 10vw;
 		width: 70vw;
 		max-width: 640px;
+		opacity: 0;
+		animation: fadeIn100 1s ease-out 2s forwards;
 	}
 	.f1 {
 		line-height: 90%;
@@ -231,14 +285,15 @@
 		}
 	}
 	.backgroundElements {
-		width: 50vw;
-		max-width: 80vh;
-		height: 50vw;
-		max-height: 80vh;
+		width: 100vw;
+		max-width: 100vw;
+		height: 100vh;
+		max-height: 100vh;
 		position: absolute;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
+		animation: backgroundElements 1s cubic-bezier(0.35, 0.24, 0.15, 1.03) 1s forwards
 	}
 	.square {
 		background: #272a2c;
@@ -258,6 +313,12 @@
 		position: absolute;
 		right: -50%;
 		top: 50%;
+		opacity: 0;
+		transform-origin: center;
+		animation: fadeIn30 1s ease-out 1.4s forwards;
+		svg {
+			animation: grow0to100 1s cubic-bezier(0.4, 0, 0.11, 1.14) 1.4s forwards;
+		}
 	}
 	.dashedcircle {
 		width: 50%;
@@ -265,6 +326,12 @@
 		position: absolute;
 		right: -25%;
 		top: 75%;
+		opacity: 0;
+		transform-origin: center;
+		animation: fadeIn100 1s ease-out 1.6s forwards;
+		svg {
+			animation: grow0to100 1s cubic-bezier(0.4, 0, 0.11, 1.14) 1.6s forwards;
+		}
 	}
 	.circle {
 		width: 30%;
@@ -272,14 +339,22 @@
 		position: absolute;
 		right: -15%;
 		top: 85%;
+		opacity: 0;
+		transform-origin: center;
+		animation: fadeIn100 1s ease-out 1.8s forwards;
+		svg {
+			animation: grow0to100 1s cubic-bezier(0.4, 0, 0.11, 1.14) 1.8s forwards;
+		}
 	}
 	.pie {
 		width: 40%;
 		height: 42%;
-		opacity: 0.1;
 		position: absolute;
 		right: 0;
 		top: 60%;
+		opacity: 0;
+		transform-origin: bottom right;
+		animation: fadeIn10 1s ease-out 1.4s forwards;
 	}
 }
 //team
@@ -1389,6 +1464,7 @@
 	border-bottom: #006de7 solid 0.2vw;
 	.f1 {
 		width: 65vw;
+		line-height: 100%;
 	}
 	.pLarge {
 		color: $white;
