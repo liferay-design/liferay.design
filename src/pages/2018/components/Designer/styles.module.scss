@@ -10,6 +10,7 @@
 		position: relative;
 		display: flex;
 		justify-content: center;
+		margin: 4vw 0;
 		width: 11vw;
 		font-weight: $fontWeightRegular;
 		.month {
@@ -28,7 +29,7 @@
 	}
 	.date {
 		position: relative;
-		margin: 6vw 0;
+		margin: 4vw 0;
 		width: 11vw;
 		.month {
 			text-align: center;
