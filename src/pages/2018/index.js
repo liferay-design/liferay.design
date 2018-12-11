@@ -1741,8 +1741,11 @@ const TwentyEighteen = () => {
 					<h2 className={styles.textHuge}>Lexicon</h2>
 				</Plx>
 				<p className={styles.p}>
-					Our Design System evolved into version 2.0 and was spread to different
-					products and projects.
+					Our Design System evolved into{' '}
+					<a href="https://lexicondesign.io/" target="_new">
+						version 2.0
+					</a>{' '}
+					and was spread to different products and projects.
 				</p>
 				<p className={styles.p}>
 					Utilizing Lexicon in more interfaces allow us to gain robustness and
