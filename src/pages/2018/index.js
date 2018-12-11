@@ -1147,28 +1147,28 @@ const TwentyEighteen = () => {
 				</Plx>
 				<Plx className={styles.grid}>
 					<VanityMetric number="" description="" size="0" />
-					<VanityMetric number="06" description="Events Hosted" size="106" />
-					<VanityMetric number="18" description="Events Attended" size="118" />
-					<VanityMetric number="12" description="Talks Given" size="112" />
-					<VanityMetric number="849" description="Applications" size="300" />
-					<VanityMetric number="33" description="Interviews" size="133" />
-					<VanityMetric number="06" description="New Hires" size="106" />
+					<VanityMetric number="06" description="Events Hosted" size="6vw" />
+					<VanityMetric number="18" description="Events Attended" size="8vw" />
+					<VanityMetric number="12" description="Talks Given" size="7vw" />
+					<VanityMetric number="849" description="Applications" size="15vw" />
+					<VanityMetric number="33" description="Interviews" size="10vw" />
+					<VanityMetric number="06" description="New Hires" size="6vw" />
 					<VanityMetric
 						number="4.5k"
 						description="Documents Created"
-						size="400"
+						size="22vw"
 					/>
-					<VanityMetric number="205" description="Icons Created" size="205" />
-					<VanityMetric number="23" description="Loop Posts" size="123" />
+					<VanityMetric number="205" description="Icons Created" size="12vw" />
+					<VanityMetric number="23" description="Loop Posts" size="9vw" />
 					<VanityMetric
 						number="112"
 						description="Critique Sessions"
-						size="112"
+						size="11vw"
 					/>
 					<VanityMetric
 						number="7.7k"
 						description="Sticky Notes Used"
-						size="700"
+						size="30vw"
 					/>
 				</Plx>
 			</section>
