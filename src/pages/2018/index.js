@@ -1222,7 +1222,7 @@ const TwentyEighteen = () => {
 					something tangible. I want to applaud the efforts of the entire team
 					and thank everyone at Liferay for being so understanding and accepting
 					of our push to establish strong design-thinking at this company. We’re
-					excited to do even more next year. Paul is a disappointment, though.
+					excited to do even more next year.
 					Thank you all.
 				</p>
 
