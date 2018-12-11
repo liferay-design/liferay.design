@@ -29,6 +29,9 @@ const IllustrationsCarousel = () => {
                     <img src="/images/illustrations/liferay-dot-com/hero-dxp.png" />
                 </div>
                 <div>
+                    <img src="/images/illustrations/liferay-dot-com/hero-subscriptions.png" />
+                </div>
+                <div>
                     <img src="/images/illustrations/liferay-dot-com/hero-homepage.png" />
                 </div>
                 <div>
@@ -38,7 +41,7 @@ const IllustrationsCarousel = () => {
                     <img src="/images/illustrations/partner-portal/hero-marketing.png" />
                 </div>
                 <div>
-                    <img src="/images/illustrations/partner-portal/hero-resources.png" />
+                    <img src="/images/illustrations/partner-portal/hero-login.png" />
                 </div>
                 <div>
                     <img src="/images/illustrations/partner-portal/hero-sales.png" />
