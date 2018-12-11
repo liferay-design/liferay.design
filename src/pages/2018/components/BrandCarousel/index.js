@@ -58,6 +58,14 @@ export default class VariableWidth extends Component {
                     src="images/2018/rebrand-5.png" />
                     <p>Offsite branding meeting</p>
             </div>
+            <div 
+                className={styles.imgWrapper} 
+                >
+                <img 
+                    className={styles.image} 
+                    src="images/2018/rebrand-6.png" />
+                    <p>New branding on Liferay.com</p>
+            </div>
           </Slider>
         </div>
       );
