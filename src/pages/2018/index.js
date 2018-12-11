@@ -51,6 +51,54 @@ const anchorLinksText = [
 			},
 		],
 	},
+	{
+		start: '#illustrations',
+		startOffset: '90vh',
+		duration: 1,
+		properties: [
+			{
+				startValue: '#ffffff',
+				endValue: '#272A2C',
+				property: 'color',
+			},
+		],
+	},
+	{
+		start: '#designers-hired',
+		startOffset: '90vh',
+		duration: 1,
+		properties: [
+			{
+				startValue: '#272A2C',
+				endValue: '#ffffff',
+				property: 'color',
+			},
+		],
+	},
+	{
+		start: '#lexicon',
+		startOffset: '90vh',
+		duration: 1,
+		properties: [
+			{
+				startValue: '#ffffff',
+				endValue: '#272A2C',
+				property: 'color',
+			},
+		],
+	},
+	{
+		start: '#thankyou',
+		startOffset: '90vh',
+		duration: 1,
+		properties: [
+			{
+				startValue: '#272A2C',
+				endValue: '#ffffff',
+				property: 'color',
+			},
+		],
+	},
 ]
 const anchorLinksBlocks = [
 	{
@@ -247,7 +295,7 @@ const TwentyEighteen = () => {
 				direction="column"
 				className={styles.tooSmall}
 			>
-				<div className={styles.f1}>Oops... things are getting a little tight</div>
+				<div className={styles.f1}>Too small!</div>
 				<div className={styles.f3}>
 					Make your window bigger or view this report on a larger device to
 					see&nbsp;all&nbsp;the&nbsp;goods.
@@ -299,7 +347,7 @@ const TwentyEighteen = () => {
 			</Flex>
 			{/* anchor links */}
 			<Plx className={styles.anchorLinks} parallaxData={anchorLinks}>
-				<AnchorLink href="#top">
+				<AnchorLink href="#header">
 					<Plx
 						className={styles.anchorBlock}
 						parallaxData={anchorLinksBlocks}
@@ -353,13 +401,31 @@ const TwentyEighteen = () => {
 						Dribbble Campaign
 					</Plx>
 				</AnchorLink>
-				<AnchorLink href="#stats">
+				<AnchorLink href="#vanity-metrics">
 					<Plx
 						className={styles.anchorBlock}
 						parallaxData={anchorLinksBlocks}
 					/>
 					<Plx className={styles.anchorText} parallaxData={anchorLinksText}>
-						Stats
+						Vanity Metrics
+					</Plx>
+				</AnchorLink>
+                <AnchorLink offset="200" href="#lexicon">
+					<Plx
+						className={styles.anchorBlock}
+						parallaxData={anchorLinksBlocks}
+					/>
+					<Plx className={styles.anchorText} parallaxData={anchorLinksText}>
+						Lexicon
+					</Plx>
+				</AnchorLink>
+				<AnchorLink href="#thankyou">
+					<Plx
+						className={styles.anchorBlock}
+						parallaxData={anchorLinksBlocks}
+					/>
+					<Plx className={styles.anchorText} parallaxData={anchorLinksText}>
+						Thank You
 					</Plx>
 				</AnchorLink>
 			</Plx>
@@ -1048,7 +1114,7 @@ const TwentyEighteen = () => {
 			</section>
 
 			{/* stats */}
-			<section id="stats" className={styles.stats} scroll="no">
+			<section id="vanity-metrics" className={styles.stats} scroll="no">
 				<Plx className={styles.title} parallaxData={PlxUp2}>
 					<h2 className={styles.f2}>Vanity Metrics</h2>
 				</Plx>
