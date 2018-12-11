@@ -834,15 +834,15 @@ const TwentyEighteen = () => {
 					sprint with the CEO and marketing leadership to gather data for
 					Liferay’s long-term vision.
 				</p>
-                <BrandCarousel />
+				<BrandCarousel />
 			</section>
 
-            {/* illustrations */}
-            <section id="illustrations" className={styles.illustrations}>
-				<div class='carousel-wrapper'>
-               	 <IllustrationsCarousel />
+			{/* illustrations */}
+			<section id="illustrations" className={styles.illustrations}>
+				<div class="carousel-wrapper">
+					<IllustrationsCarousel />
 				</div>
-            </section>
+			</section>
 
 			{/* Designers hired */}
 			<section id="designers-hired" className={styles.designersHired}>
@@ -1055,6 +1055,22 @@ const TwentyEighteen = () => {
 						/>
 						<h4 className={styles.pLarge}>
 							Miriam <span>started in Spain</span>
+						</h4>
+					</Plx>
+
+					<Plx parallaxData={designerHired} className={styles.hired}>
+						<div className={styles.birthRayDate}>
+							<div className={styles.pLarge}>Oct</div>
+							<div className={styles.pLarge}>02</div>
+						</div>
+						<Plx
+							tagName="img"
+							parallaxData={designerHeadshot}
+							className={styles.designerHeadshot}
+							src="/images/headshots/fernandes-rafael.jpg"
+						/>
+						<h4 className={styles.pLarge}>
+							Rafael<span>'s first Birthray</span>
 						</h4>
 					</Plx>
 
@@ -1774,7 +1790,7 @@ const TwentyEighteen = () => {
 						src="/images/2018/jh-signature-hwite.png"
 						className={styles.signature}
 					/>
-                    <img
+					<img
 						src="/images/headshots/hidalgo-juan.jpg"
 						className={styles.headshot}
 					/>
