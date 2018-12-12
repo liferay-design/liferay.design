@@ -410,7 +410,7 @@ const TwentyEighteen = () => {
 						Vanity Metrics
 					</Plx>
 				</AnchorLink>
-                <AnchorLink offset="200" href="#lexicon">
+				<AnchorLink offset="200" href="#lexicon">
 					<Plx
 						className={styles.anchorBlock}
 						parallaxData={anchorLinksBlocks}
@@ -1009,7 +1009,7 @@ const TwentyEighteen = () => {
 						headshot="/images/headshots/-upside-down-face.png"
 						name="Gabryelle"
 						detail="birthRay"
-						country="Brazil"
+						country=""
 						birthRay
 					/>
 					<Designer
@@ -1222,8 +1222,7 @@ const TwentyEighteen = () => {
 					something tangible. I want to applaud the efforts of the entire team
 					and thank everyone at Liferay for being so understanding and accepting
 					of our push to establish strong design-thinking at this company. We’re
-					excited to do even more next year.
-					Thank you all.
+					excited to do even more next year. Thank you all.
 				</p>
 
 				<Plx parallaxData={PlxUp2} className={styles.p}>
