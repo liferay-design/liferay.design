@@ -10,7 +10,7 @@ import {
 	IllustrationsCarousel,
 	BrandCarousel,
 	VanityMetric,
-} from 'pages/2018/components'
+} from 'pages/2018/components/_index'
 
 //custom plx data
 const anchorLinks = [
