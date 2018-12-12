@@ -12,6 +12,12 @@ import {
 	VanityMetric,
 } from 'pages/2018/components/_index'
 
+var res = document.createElement("link");
+res.rel = "preload";
+res.as = "font";
+res.href = "./fonts/SourceSansVariable-Roman.ttf.woff2";
+document.head.appendChild(res);
+
 //custom plx data
 const anchorLinks = [
 	{
@@ -750,7 +756,7 @@ const TwentyEighteen = () => {
 					Supporting Releases
 				</Plx>
 				<Plx parallaxData={InView10} className={styles.releases}>
-					<div className={styles.pSmall}>Customer Portal</div>
+					<div className={styles.pSmall}>Help Center</div>
 					<div className={styles.dotSmall} />
 					<div className={styles.pSmall}>University</div>
 					<div className={styles.dotSmall} />
