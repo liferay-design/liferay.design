@@ -750,7 +750,7 @@ const TwentyEighteen = () => {
 					Supporting Releases
 				</Plx>
 				<Plx parallaxData={InView10} className={styles.releases}>
-					<div className={styles.pSmall}>Customer Portal</div>
+					<div className={styles.pSmall}>Help Center</div>
 					<div className={styles.dotSmall} />
 					<div className={styles.pSmall}>University</div>
 					<div className={styles.dotSmall} />
