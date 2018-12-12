@@ -15,7 +15,7 @@ import {
 var res = document.createElement("link");
 res.rel = "preload";
 res.as = "font";
-res.href = "./fonts/SourceSansVariable-Roman.ttf";
+res.href = "./fonts/SourceSansVariable-Roman.ttf.woff2";
 document.head.appendChild(res);
 
 //custom plx data
