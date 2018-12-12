@@ -1214,16 +1214,19 @@ const TwentyEighteen = () => {
 			{/* thank you */}
 			<section id="thankyou" className={styles.thankyou}>
 				<h2 className={styles.f1}>Thank you for a great year</h2>
-				<p className={styles.pLarge}>From the Director</p>
+				<p className={styles.pLarge}>From el Director</p>
 				<p className={styles.p}>
 					This has been an incredible year of opportunity and growth for UX
 					design within Liferay. It has been very impressive watching the
 					maturity of our design culture evolve from a simple concept into
-					something tangible. I want to applaud the efforts of the entire team
-					and thank everyone at Liferay for being so understanding and accepting
-					of our push to establish strong design-thinking at this company. We’re
-					excited to do even more next year. Thank you all.
+					something tangible.
 				</p>
+				<p className={styles.p}>
+					I want to applaud the efforts of the entire team and thank everyone at
+					Liferay for helping us grow, get better and spread design-thinking at
+					this company. We’re excited to do even more next year.
+				</p>
+				<p className={styles.p}>Thank you all.</p>
 
 				<Plx parallaxData={PlxUp2} className={styles.p}>
 					Juan Hidalgo
