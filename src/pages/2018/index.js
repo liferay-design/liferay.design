@@ -12,6 +12,12 @@ import {
 	VanityMetric,
 } from 'pages/2018/components/_index'
 
+var res = document.createElement("link");
+res.rel = "preload";
+res.as = "font";
+res.href = "./fonts/SourceSansVariable-Roman.ttf";
+document.head.appendChild(res);
+
 //custom plx data
 const anchorLinks = [
 	{
