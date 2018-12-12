@@ -21,8 +21,12 @@
 	}
 }
 @keyframes grow0to100 {
-	from {transform: scale(0)}
-	to {transform: scale(1)}
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 
 .pagestyles {
@@ -103,8 +107,12 @@
 	}
 }
 @keyframes bouncingArrow {
-	from {transform: scaleX(1)}
-	to {transform: scaleX(0.85)}
+	from {
+		transform: scaleX(1);
+	}
+	to {
+		transform: scaleX(0.85);
+	}
 }
 .tooSmall {
 	width: 100vw;
@@ -196,16 +204,28 @@
 }
 
 @keyframes header {
-	from {top: 50vh}
-	to {top: 100px}
+	from {
+		top: 50vh;
+	}
+	to {
+		top: 100px;
+	}
 }
 @keyframes twenty {
-	from {transform: translateX(100%)}
-	to {transform: translateX(0)}
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
 }
 @keyframes eighteen {
-	from {transform: translateX(-100%)}
-	to {transform: translateX(0)}
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
 }
 //header
 .headerPlx {
@@ -242,7 +262,6 @@
 		}
 	}
 }
-
 
 @keyframes backgroundElements {
 	from {
@@ -293,7 +312,7 @@
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
-		animation: backgroundElements 1s cubic-bezier(0.35, 0.24, 0.15, 1.03) 1s forwards
+		animation: backgroundElements 1s cubic-bezier(0.35, 0.24, 0.15, 1.03) 1s forwards;
 	}
 	.square {
 		background: #272a2c;
@@ -1412,12 +1431,8 @@
 			height: 90vw;
 			position: relative;
 			.image {
-				background-color: $white;
-				background-image: url('/images/2018/lexicon-team.JPG');
-				background-attachment: cover;
-				background-size: 100%;
-				background-repeat: no-repeat;
-				background-position: 50% 100%;
+				background: $white url('/images/2018/lexicon-team.JPG') no-repeat
+					center/cover;
 				grid-row-start: 2;
 				grid-row-end: 5;
 			}
@@ -1440,12 +1455,8 @@
 				}
 			}
 			.snapshot {
-				background-color: $white;
-				background-image: url('/images/2018/lexicon-clip.png');
-				background-attachment: cover;
-				background-size: 140%;
-				background-repeat: no-repeat;
-				background-position: 0% 50%;
+				background: $white url('/images/2018/lexicon-clip.gif') no-repeat 40% 50% /
+					cover;
 				grid-column-start: 2;
 				grid-column-end: 3;
 				grid-row-start: 3;
