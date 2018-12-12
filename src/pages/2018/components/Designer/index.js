@@ -17,7 +17,7 @@ const Designer = ({
 }) => {
 	const detailMap = {
 		firstDay: ' started in',
-		birthRay: "'s first Birth-Ray",
+		birthRay: "'s first birth-ray",
 	}
 
 	const designerHired = [
