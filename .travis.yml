@@ -8,7 +8,7 @@ stages:
   - name: deploy-prod
     if: branch = production
   - name: deploy-dev
-    if: branch = master
+    if: branch = dev
 jobs:
   include:
     - stage: deploy-prod
