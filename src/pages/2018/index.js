@@ -286,11 +286,6 @@ const PlxRotateRight1 = [
 ]
 
 const TwentyEighteen = () => {
-	var res = document.createElement("link");
-		res.rel = "preload";
-		res.as = "font";
-		res.href = "./fonts/SourceSansVariable-Roman.ttf.woff2";
-		document.head.appendChild(res);
 	return (
 		
 		<div className={styles.pagestyles}>
