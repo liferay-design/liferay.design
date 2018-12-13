@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Helmet } from "react-helmet"
+import { Helmet } from 'react-helmet'
 import { Flex, Heading, Image } from 'components/atoms'
 import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
@@ -288,11 +288,16 @@ const PlxRotateRight1 = [
 
 const TwentyEighteen = () => {
 	return (
-		
 		<div className={styles.pagestyles}>
 			<Helmet>
-			<link rel="preload" href="./fonts/SourceSansVariable-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin="" />
-            </Helmet>
+				<link
+					rel="preload"
+					href="./fonts/SourceSansVariable-Roman.ttf.woff2"
+					as="font"
+					type="font/woff2"
+					crossorigin=""
+				/>
+			</Helmet>
 			{/* overlay for small screens */}
 			<Flex
 				align="center"
@@ -1238,7 +1243,7 @@ const TwentyEighteen = () => {
 					<Plx
 						parallaxData={PlxUp3}
 						tagName="img"
-						src="/images/2018/jh-signature-hwite.png"
+						src="/images/2018/jh-signature.svg"
 						className={styles.signature}
 					/>
 					<img
