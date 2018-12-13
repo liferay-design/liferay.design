@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Helmet } from "react-helmet"
 import { Flex, Heading, Image } from 'components/atoms'
 import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
@@ -289,6 +290,9 @@ const TwentyEighteen = () => {
 	return (
 		
 		<div className={styles.pagestyles}>
+			<Helmet>
+			<link rel="preload" href="./fonts/SourceSansVariable-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin="" />
+            </Helmet>
 			{/* overlay for small screens */}
 			<Flex
 				align="center"
