@@ -1407,16 +1407,15 @@
 			left: -10vw;
 			top: 18vw;
 			.justblue {
-				background-color: #006de7;
-				background-image: url('/images/2018/lexicon-background.svg');
+				background: #0b5fff;
 				grid-column-start: 2;
 				grid-column-end: 3;
 				grid-row-start: 1;
 				grid-row-end: 2;
 			}
 			.svgpattern {
-				background-color: #006de7;
-				background-image: url('/images/2018/lexicon-background.svg');
+				background: #0b5fff url('/images/2018/lexicon-pattern.svg');
+				background-attachment: fixed;
 				grid-column-start: 1;
 				grid-column-end: 3;
 				grid-row-start: 2;
@@ -1455,7 +1454,7 @@
 				}
 			}
 			.snapshot {
-				background: $white url('/images/2018/lexicon-clip.gif') no-repeat 40% 50% /
+				background: $white url('/images/2018/lexicon-clip.gif') no-repeat center/
 					cover;
 				grid-column-start: 2;
 				grid-column-end: 3;
