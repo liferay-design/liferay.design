@@ -833,7 +833,7 @@ const TwentyEighteen = () => {
 						</Link>
 					</div>
 				</Flex>
-				<Plx parallaxData={PlxUp2} className={styles.waffles}>
+				<Plx parallaxData={PlxUp3} className={styles.waffles}>
 					<Flex justify="center" align="center" className={styles.blackWaffle}>
 						<Plx parallaxData={PlxUp1}>
 							<svg
@@ -853,7 +853,7 @@ const TwentyEighteen = () => {
 						</Plx>
 					</Flex>
 					<Flex justify="center" align="center" className={styles.blueWaffle}>
-						<Plx parallaxData={PlxUp1}>
+						<Plx parallaxData={PlxUp2}>
 							<svg
 								width="100%"
 								height="100%"
@@ -928,6 +928,15 @@ const TwentyEighteen = () => {
 						name="Cassandra"
 						detail="firstDay"
 						country="California"
+					/>
+					<Designer
+						profileUrl=""
+						month="Jan"
+						day="20"
+						headshot="/images/posts/design-week-team.jpeg"
+						name="Design Week"
+						detail="firstDay"
+						country="Diamond Bar, CA"
 					/>
 					<Designer
 						profileUrl="/team/bargaid-duuriimaa"
@@ -1246,7 +1255,9 @@ const TwentyEighteen = () => {
 						src="/images/2018/jh-signature.svg"
 						className={styles.signature}
 					/>
-					<img
+					<Plx
+						parallaxData={PlxUp1}
+						tagName="img"
 						src="/images/headshots/hidalgo-juan.jpg"
 						className={styles.headshot}
 					/>
