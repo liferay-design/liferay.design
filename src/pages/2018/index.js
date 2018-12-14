@@ -317,19 +317,16 @@ const TwentyEighteen = () => {
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<line
-							x1="1.74846e-07"
+							x1="1.75e-07"
 							y1="6"
 							x2="162"
-							y2="6.00001"
+							y2="6"
 							stroke="#006DE7"
 							stroke-width="4"
 							stroke-linejoin="round"
 							stroke-dasharray="1 10"
 						/>
-						<path
-							d="M194.5 6L188.5 10.7631V1.23686L194.5 6Z"
-							fill="#006DE7"
-						/>
+						<path d="M195 6L188.5 10.76V1.24L195 6Z" fill="#006DE7" />
 					</svg>
 				</div>
 				<div className={styles.arrowB}>
@@ -339,19 +336,16 @@ const TwentyEighteen = () => {
 						xmlns="http://www.w3.org/2000/svg"
 					>
 						<line
-							x1="1.74846e-07"
+							x1="1.75e-07"
 							y1="6"
 							x2="162"
-							y2="6.00001"
+							y2="6"
 							stroke="#006DE7"
 							stroke-width="4"
 							stroke-linejoin="round"
 							stroke-dasharray="1 10"
 						/>
-						<path
-							d="M194.5 6L188.5 10.7631V1.23686L194.5 6Z"
-							fill="#006DE7"
-						/>
+						<path d="M195 6L188.5 10.76V1.24L195 6Z" fill="#006DE7" />
 					</svg>
 				</div>
 			</Flex>
@@ -520,7 +514,7 @@ const TwentyEighteen = () => {
 							<circle
 								cx="50%"
 								cy="50%"
-								r="49.4%"
+								r="49%"
 								stroke="#006DE7"
 								stroke-width="12"
 							/>
@@ -537,7 +531,7 @@ const TwentyEighteen = () => {
 							<path
 								fill-rule="evenodd"
 								clip-rule="evenodd"
-								d="M0 438.5C0 196.49 196.053.27 438 0v457H.383A446.101 446.101 0 0 1 0 438.5z"
+								d="M0 438.5C0 196.5 196.053.27 438 0v457H.383A446 446 0 0 1 0 438.5z"
 								fill="#000"
 							/>
 						</svg>
@@ -686,7 +680,7 @@ const TwentyEighteen = () => {
 						<Plx className={styles.f3Large} parallaxData={InView}>
 							1,108
 						</Plx>
-						<div className={styles.pLarge}>Accounts Served</div>
+						<div className={styles.pLarge}>Customers &amp; Partners</div>
 					</Flex>
 				</Flex>
 				<Flex className={styles.sketchToFigma}>
@@ -725,19 +719,16 @@ const TwentyEighteen = () => {
 							xmlns="http://www.w3.org/2000/svg"
 						>
 							<line
-								x1="1.74846e-07"
+								x1="1.75e-07"
 								y1="6"
 								x2="162"
-								y2="6.00001"
+								y2="6"
 								stroke="#006DE7"
 								stroke-width="4"
 								stroke-linejoin="round"
 								stroke-dasharray="1 10"
 							/>
-							<path
-								d="M194.5 6L188.5 10.7631V1.23686L194.5 6Z"
-								fill="#006DE7"
-							/>
+							<path d="M195 6L188.5 10.76V1.237L195 6Z" fill="#006DE7" />
 						</svg>
 					</Plx>
 				</Flex>
@@ -877,12 +868,6 @@ const TwentyEighteen = () => {
 			{/* redefined */}
 			<section id="redefined" className={styles.redefined}>
 				<h2 className={styles.textLarge}>Rede&#xFB01;ned</h2>
-				{/* <p className={styles.p}>
-					We kicked off this process by conducting some research within a
-					variety of departments and regions. Then we conducted an offsite brand
-					sprint with the CEO and marketing leadership to gather data for
-					Liferay’s long-term vision.
-				</p> */}
 				<BrandCarousel />
 			</section>
 
