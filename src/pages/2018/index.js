@@ -604,6 +604,7 @@ const TwentyEighteen = () => {
 									<div className={styles.grid}>
 										<div />
 										<div />
+										<div />
 									</div>
 									<p className={styles.psmall}>Projects</p>
 								</Flex>
@@ -766,7 +767,7 @@ const TwentyEighteen = () => {
 					<div className={styles.dotSmall} />
 					<div className={styles.pSmall}>Partner Portal</div>
 					<div className={styles.dotSmall} />
-					<div className={styles.pSmall}>LRDC</div>
+					<div className={styles.pSmall}>Liferay.com</div>
 					<div className={styles.dotSmall} />
 					<div className={styles.pSmall}>Lexicon 2.0</div>
 					<div className={styles.dotSmall} />
@@ -876,12 +877,12 @@ const TwentyEighteen = () => {
 			{/* redefined */}
 			<section id="redefined" className={styles.redefined}>
 				<h2 className={styles.textLarge}>Rede&#xFB01;ned</h2>
-				<p className={styles.p}>
+				{/* <p className={styles.p}>
 					We kicked off this process by conducting some research within a
 					variety of departments and regions. Then we conducted an offsite brand
 					sprint with the CEO and marketing leadership to gather data for
 					Liferay’s long-term vision.
-				</p>
+				</p> */}
 				<BrandCarousel />
 			</section>
 
@@ -928,15 +929,6 @@ const TwentyEighteen = () => {
 						name="Cassandra"
 						detail="firstDay"
 						country="California"
-					/>
-					<Designer
-						profileUrl=""
-						month="Jan"
-						day="20"
-						headshot="/images/posts/design-week-team.jpeg"
-						name="Design Week"
-						detail="firstDay"
-						country="Diamond Bar, CA"
 					/>
 					<Designer
 						profileUrl="/team/bargaid-duuriimaa"
@@ -1235,10 +1227,9 @@ const TwentyEighteen = () => {
 				<h2 className={styles.f1}>Thank you for a great year</h2>
 				<p className={styles.pLarge}>From el Director</p>
 				<p className={styles.p}>
-					This has been an incredible year of opportunity and growth for UX
-					design within Liferay. It has been very impressive watching the
-					maturity of our design culture evolve from a simple concept into
-					something tangible.
+					This has been an incredible year of opportunity and growth for the
+					User Experience Department at Liferay. It&nbsp;has been a pleasure to
+					see our design culture evolve this year.
 				</p>
 				<p className={styles.p}>
 					I want to applaud the efforts of the entire team and thank everyone at
