@@ -122,7 +122,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hidalgo-juan-h.jpg`),
 		title: 'UX Director',
 		icon: 'fa_heart',
-		page: 'null',
+		page: '/team/hidalgo-juan',
 	},
 	{
 		id: 120,
