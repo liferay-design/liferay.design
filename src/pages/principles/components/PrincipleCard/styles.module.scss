@@ -1,5 +1,258 @@
 @import '~theme/variables';
 
-h1 {
-    font-size: 4rem;
+$accent-color: #006de7;
+
+.card {
+	position: relative;
+
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+
+	width: 800px;
+	height: 400px;
+
+	background-color: #fff;
+	box-shadow: 0 64px 80px rgba(58, 56, 68, 0.1);
+
+	contain: content;
+	// scroll: none;
+
+	//Principle Card Content
+	.card-content-principle {
+		position: absolute;
+
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+
+		width: 100%;
+		height: 100%;
+
+		.shape {
+			width: 16px;
+			height: 16px;
+
+			transition: all 0.25s ease;
+			transition-delay: 0.5s;
+			//animate
+			transform: translateX(0%);
+
+			opacity: 1;
+			border: 8px solid;
+		}
+
+		h3 {
+			margin: 16px 0px 24px 0px;
+
+			transition: all 0.25s ease;
+			transition-delay: 0.565s;
+			//animate
+			transform: translateX(0%);
+
+			opacity: 1;
+			color: $brandPrimary;
+
+			font-size: 32px;
+			font-weight: 800;
+		}
+
+		p {
+			max-width: 500px;
+
+			transition: all 0.25s ease;
+			transition-delay: 0.58s;
+			//animate
+			transform: translateX(0%);
+			text-align: center;
+
+			opacity: 1;
+			color: RGBA(58, 56, 68, 0.5);
+
+			font-size: 18px;
+		}
+
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+			width: 50%;
+
+			list-style: none;
+
+			transition: all 0.25s ease;
+			transition-delay: 0.72s;
+			//animate
+			transform: translateX(0%);
+
+			opacity: 1;
+
+			li {
+				font-weight: 700;
+			}
+		}
+	}
+
+	//Questions
+	.card-content-questions {
+		position: absolute;
+
+		display: flex;
+		overflow: hidden;
+		align-items: center;
+		flex-direction: row;
+
+		width: 100%;
+		height: 100%;
+
+		transition: transform 1s ease;
+		transition-delay: 0s;
+		transform: translateX(100%);
+		// justify-content: center;
+
+		background-color: $brandPrimary;
+
+		.shape {
+			width: 64px;
+			height: 64px;
+
+			transition: all 0.25s ease;
+			transform: translateX(0px);
+			//animate
+
+			opacity: 0;
+			border: 32px solid #fff;
+		}
+
+		ul {
+			margin-left: 40px;
+
+			list-style: none;
+
+			color: #fff;
+
+			li {
+				transition: all 0.25s ease;
+				transition-delay: 0.15s;
+				//animate
+				transform: translateX(30%);
+
+				opacity: 0;
+
+				line-height: 300%;
+			}
+		}
+	}
+
+	//animated divs
+
+	.light-color-wipe {
+		position: relative;
+
+		width: 100%;
+		height: 400px;
+
+		content: '';
+		transition: transform 1s ease;
+		transition-delay: 0.25s;
+		transform: translateX(100%);
+
+		opacity: 0.3;
+		background-color: $brandPrimary;
+	}
+}
+
+.card.showQuestions {
+	//Principle Card Content
+	.card-content-principle {
+
+		.shape {
+			transition-delay: 0s;
+			transform: translateX(-50%);
+
+			opacity: 0;
+		}
+
+		h3 {
+			transition-delay: 0s;
+			transform: translateX(-30%);
+
+			opacity: 0;
+		}
+
+		p {
+			transition-delay: 0s;
+			transform: translateX(-30%);
+
+			opacity: 0;
+		}
+
+		ul {
+			transition: all 0.25s ease;
+			transition-delay: 0s;
+			transform: translateX(-30%);
+
+			opacity: 0;
+		}
+	}
+
+	//Questions
+	.card-content-questions {
+		transform: translateX(0%);
+		// transition-delay: 0ms;
+
+		.shape {
+			transition-delay: 0.65s;
+			transform: translateX(-32px);
+			//animate
+
+			opacity: 0.2;
+		}
+
+		ul {
+			//
+
+			li {
+				transition: all 1s ease;
+				transition-delay: 0.5s;
+				//animate
+				transform: translateX(0%);
+
+				opacity: 1;
+			}
+		}
+	}
+
+	//animated divs
+	.light-color-wipe {
+		transition: transform 0.5s ease;
+		transition-delay: 0s;
+		transform: translateX(0%);
+	}
+}
+
+//Toggle Buttons
+
+.toggle-button {
+	position: absolute;
+	z-index: 5;
+	right: 32px;
+	bottom: 24px;
+
+	cursor: pointer;
+
+	opacity: 0.5;
+}
+
+.untoggle-button {
+	position: absolute;
+	z-index: 5;
+	bottom: 24px;
+	left: 32px;
+
+	cursor: pointer;
+
+	opacity: 0.5;
 }
