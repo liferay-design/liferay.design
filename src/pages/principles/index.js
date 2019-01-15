@@ -8,6 +8,15 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
 import { PrincipleCard, PrinciplesHeader } from 'pages/principles/components/_index'
 
+// const ChildLink = React.createClass({
+// 	render: function() {
+// 	  return (
+// 		<a href={this.props.linkHref}>{this.props.linkText}</a>
+// 	  )
+// 	}
+//   });
+
+
 const Principles = () => {
 	return (
 		<div className={styles.pagestyles}>
@@ -32,8 +41,58 @@ const Principles = () => {
 				</svg>
 			</AnchorLink>
 
-			<Flex align="center" justify="center" className={styles.cardWrap} id="principles">
-				<PrincipleCard />
+			<Flex direction="column" align="center" justify="center" className={styles.cardWrap} id="principles">
+				<PrincipleCard 
+					symbol="/images/principles/symbol-intentional.svg"
+					name="Intentional" 
+					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level." wordOne="Simple"
+					wordTwo="Intuitive"
+					wordThree="Effective" 
+					questionOne="Are my designs passing <a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?"
+					questionTwo="Are my designs reducing problem complexity by addressing simple and focused tasks?"
+					questionThree="Are my designs achieving the business goal?"
+					questionFour="Are my designs adding value to the system?"
+					questionFour="Can I articulate the value my design is adding to the user?"
+				/>
+				<PrincipleCard 
+					symbol="/images/principles/symbol-inclusive.svg"
+					name="Inclusive" 
+					description="Design for real people, not stereotyped personas. Reflect reality, use expected, consistent patterns and natural metaphors."
+					wordOne="Universal"
+					wordTwo="Open Source Design"
+					wordThree="Consistent"
+					questionOne="Are my designs passing <a href='https://www.w3.org/WAI/ER/tools/'>accessibility tests</a>?"
+					questionTwo="Am I designing in a non-discriminative way?"
+					questionThree="Am I empowering my users to do their tasks?"
+					questionFour="Are we contributing to the design community?"
+					questionFive="Do I know the groups and the people that my designs are for?"
+				/>
+				<PrincipleCard 
+					symbol="/images/principles/symbol-inclusive.svg"
+					name="Honest" 
+					description="Be clear, transparent, and straightforward. Respect people’s needs and resources, like attention and time."
+					wordOne="Affordances"
+					wordTwo="Transparent"
+					wordThree="People Centered"
+					questionOne="Am I using the correct <a href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?"
+					questionTwo="Are you testing and validating your designs with people?"
+					questionThree="Am I using dark patterns?"
+					questionFour="Are my designs ethical?"
+					questionFour="Am I working to continuously reduce the cognitive load for users?"
+				/>
+				<PrincipleCard 
+					symbol="/images/principles/symbol-inclusive.svg"
+					name="Pleasurable" 
+					description="Design products that all people enjoy using. Intentionally produce your best, down to the minutiae."
+					wordOne="Emotions"
+					wordTwo="Genuine"
+					wordThree="Reliable"
+					questionOne="Am I spending time with users to understand their emotions?"
+					questionTwo="Are people better for experiencing the work we do?"
+					questionThree="Do people find delight and joy when experiencing our designs?"
+					questionFour="Are my designs performant, functional, and usable?"
+					questionFour="Is my design authentic and based in timeless principles?"
+				/>
 			</Flex>
 		</div>
 	)
