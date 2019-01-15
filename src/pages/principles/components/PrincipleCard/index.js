@@ -1,72 +1,35 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 
-
-// class ShowQuestions extends React.Component {
-//     constructor(props) {    
-//       super(props)
-//       this.state = {
-//         condition: false
-//       }
-//       this.handleClick = this.handleClick.bind(this)
-//     }
-//     handleClick() {
-//       this.setState({
-//         condition: !this.state.condition
-//       })
-//     }
-//     render() {
-//       return (
-//         <ButtonChild        
-//           className={ this.state.condition ? "button toggled" : "button" }
-//           toggleClassName={ this.handleClick }
-//         >
-//           Click me if you dare!
-//         </ButtonChild>
-//       )
-//     }
-//   }
-
-const PrincipleCard = () => {
-
-    // function ShowQuestions() {
-    //     function handleClick(e) {
-    //       e.preventDefault();
-    //       console.log('The link was clicked.');
-    //     }
-    // }
+function PrincipleCard(props) {
 
 	return (
 		<div className={styles.pagestyles}>
 			<div className={styles.card}>
 				<div className={styles.lightColorWipe}>&nbsp;</div>
 				<div className={styles.cardContentPrinciple}>
-					<div className={styles.shape}>&nbsp;</div>
-					<h3>Principle</h3>
+					<img src={props.symbol} className={styles.shape} />
+					<h3>{props.name}</h3>
 					<p>
-						Now... who messes with the blowfish, Jesse? You're damn right. You
-						are a blowfish. Say it again. Say it like you mean it.
+						{props.description}
 					</p>
 					<ul>
-						<li>Word</li>
-						<li>Werd</li>
-						<li>Wurd</li>
+						<li>{props.wordOne}</li>
+						<li>{props.wordTwo}</li>
+						<li>{props.wordThree}</li>
 					</ul>
 				</div>
 				<div className={styles.cardContentQuestions}>
-					<div className={styles.shape}>&nbsp;</div>
+					<img src={props.symbol} className={styles.shape} />
 					<ul>
-						<li>This is a question?</li>
-						<li>This is a longer question?</li>
-						<li>
-							This is the longest of all the questions in this list of
-							questions?
-						</li>
-						<li>This is almost the longest question?</li>
-						<li>This is a question?</li>
+						<li>{props.questionOne}</li>
+						<li>{props.questionTwo}</li>
+						<li>{props.questionThree}</li>
+						<li>{props.questionFour}</li>
+						<li>{props.questionFive}</li>
 					</ul>
 				</div>
-				<a className={styles.toggleButton}>
+				<a className={styles.toggleButton} id="toggle">
 					👉
 				</a>
 				<a className={styles.untoggleButton} id="untoggle">

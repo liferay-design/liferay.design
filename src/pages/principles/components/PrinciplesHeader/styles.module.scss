@@ -4,17 +4,22 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	justify-content: end;
+	justify-content: center;
 
-	width: 40vw * 2;
-	height: 40vw;
+	width: 36vw * 2;
+	height: 36vw;
 	margin-right: auto;
 	margin-left: auto;
 
 	color: $white;
-	border-bottom-right-radius: 40vw * 2;
-	border-bottom-left-radius: 40vw * 2;
+	border-bottom-right-radius: 36vw * 2;
+	border-bottom-left-radius: 36vw * 2;
 	background-color: $brandPrimary;
+
+	.header-badge {
+		margin-top: 32px;
+		margin-bottom: 8px;
+	}
 
 	.header-text {
 		margin-bottom: 10vw;
@@ -22,6 +27,8 @@
 		text-align: center;
 
 		h4 {
+			margin-top: 16px;
+
 			letter-spacing: 12px;
 			text-transform: uppercase;
 
