@@ -68,7 +68,7 @@ const Principles = () => {
 					questionFive="Do I know the groups and the people that my designs are for?"
 				/>
 				<PrincipleCard 
-					symbol="/images/principles/symbol-inclusive.svg"
+					symbol="/images/principles/symbol-honest.svg"
 					name="Honest" 
 					description="Be clear, transparent, and straightforward. Respect people’s needs and resources, like attention and time."
 					wordOne="Affordances"
@@ -78,10 +78,10 @@ const Principles = () => {
 					questionTwo="Are you testing and validating your designs with people?"
 					questionThree="Am I using dark patterns?"
 					questionFour="Are my designs ethical?"
-					questionFour="Am I working to continuously reduce the cognitive load for users?"
+					questionFive="Am I working to continuously reduce the cognitive load for users?"
 				/>
 				<PrincipleCard 
-					symbol="/images/principles/symbol-inclusive.svg"
+					symbol="/images/principles/symbol-pleasurable.svg"
 					name="Pleasurable" 
 					description="Design products that all people enjoy using. Intentionally produce your best, down to the minutiae."
 					wordOne="Emotions"
@@ -91,7 +91,7 @@ const Principles = () => {
 					questionTwo="Are people better for experiencing the work we do?"
 					questionThree="Do people find delight and joy when experiencing our designs?"
 					questionFour="Are my designs performant, functional, and usable?"
-					questionFour="Is my design authentic and based in timeless principles?"
+					questionFive="Is my design authentic and based in timeless principles?"
 				/>
 			</Flex>
 		</div>
