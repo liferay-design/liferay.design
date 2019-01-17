@@ -16,6 +16,38 @@ import { PrincipleCard, PrinciplesHeader } from 'pages/principles/components/_in
 // 	}
 //   });
 
+// TOOD: Save each card question data
+const questionsIntentional = [
+	<span>Are my designs passing <a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?</span>,
+	"Are my designs reducing problem complexity by addressing simple and focused tasks?",
+	"Are my designs achieving the business goal?",
+	"Are my designs adding value to the system?",
+	"Can I articulate the value my design is adding to the user?"
+];
+
+const questionsInclusive = [
+	<span>Are my designs passing <a href='https://www.w3.org/WAI/ER/tools/'>accessibility tests</a>?</span>,
+	"Am I designing in a non-discriminative way?",
+	"Am I empowering my users to do their tasks?",
+	"Are we contributing to the design community?",
+	"Do I know the groups and the people that my designs are for?"
+];
+
+const questionsHonest = [
+	<span>Am I using the correct <a href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?</span>,
+	"Are you testing and validating your designs with people?",
+	"Am I using dark patterns?",
+	"Are my designs ethical?",
+	"Am I working to continuously reduce the cognitive load for users?"
+];
+
+const questionsPleasurable = [
+	"Am I spending time with users to understand their emotions?",
+	"Are people better for experiencing the work we do?",
+	"Do people find delight and joy when experiencing our designs?",
+	"Are my designs performant, functional, and usable?",
+	"Is my design authentic and based in timeless principles?"
+];
 
 const Principles = () => {
 	return (
@@ -47,12 +79,8 @@ const Principles = () => {
 					name="Intentional" 
 					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level." wordOne="Simple"
 					wordTwo="Intuitive"
-					wordThree="Effective" 
-					questionOne="Are my designs passing <a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?"
-					questionTwo="Are my designs reducing problem complexity by addressing simple and focused tasks?"
-					questionThree="Are my designs achieving the business goal?"
-					questionFour="Are my designs adding value to the system?"
-					questionFour="Can I articulate the value my design is adding to the user?"
+					wordThree="Effective"
+					questions={questionsIntentional}
 				/>
 				<PrincipleCard 
 					symbol="/images/principles/symbol-inclusive.svg"
@@ -61,11 +89,7 @@ const Principles = () => {
 					wordOne="Universal"
 					wordTwo="Open Source Design"
 					wordThree="Consistent"
-					questionOne="Are my designs passing <a href='https://www.w3.org/WAI/ER/tools/'>accessibility tests</a>?"
-					questionTwo="Am I designing in a non-discriminative way?"
-					questionThree="Am I empowering my users to do their tasks?"
-					questionFour="Are we contributing to the design community?"
-					questionFive="Do I know the groups and the people that my designs are for?"
+					questions={questionsInclusive}
 				/>
 				<PrincipleCard 
 					symbol="/images/principles/symbol-honest.svg"
@@ -74,11 +98,7 @@ const Principles = () => {
 					wordOne="Affordances"
 					wordTwo="Transparent"
 					wordThree="People Centered"
-					questionOne="Am I using the correct <a href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?"
-					questionTwo="Are you testing and validating your designs with people?"
-					questionThree="Am I using dark patterns?"
-					questionFour="Are my designs ethical?"
-					questionFive="Am I working to continuously reduce the cognitive load for users?"
+					questions={questionsHonest}
 				/>
 				<PrincipleCard 
 					symbol="/images/principles/symbol-pleasurable.svg"
@@ -87,11 +107,7 @@ const Principles = () => {
 					wordOne="Emotions"
 					wordTwo="Genuine"
 					wordThree="Reliable"
-					questionOne="Am I spending time with users to understand their emotions?"
-					questionTwo="Are people better for experiencing the work we do?"
-					questionThree="Do people find delight and joy when experiencing our designs?"
-					questionFour="Are my designs performant, functional, and usable?"
-					questionFive="Is my design authentic and based in timeless principles?"
+					questions={questionsPleasurable}
 				/>
 			</Flex>
 		</div>
