@@ -10,7 +10,7 @@ class PrincipleCard extends React.Component {
 	}
   
 	handleClick() {
-	  // Increment the count when the button is clicked
+	  // Toggle state when button is clicked
 	  this.setState({
 		condition: !this.state.condition
 	  }, function() {
@@ -19,8 +19,22 @@ class PrincipleCard extends React.Component {
 		console.log("buttn's clicked");
 	  });
 	}
+
+	getQuestionsList(questions) {
+		if (!questions || questions.length < 1) {
+			return;
+		}
+		const listItems = questions.map((question) =>
+			<li>{question}</li>
+		);
+		return (
+			<ul>{listItems}</ul>
+		);
+	}
   
 	render() {
+		const questionsList = this.getQuestionsList(this.props.questions);
+		
 	  return (
 		<div className={this.state.condition ? ([styles.card, styles.showQuestions].join(' ')) : (styles.card)}>
 					<div className={styles.lightColorWipe}>&nbsp;</div>
@@ -38,23 +52,17 @@ class PrincipleCard extends React.Component {
 					</div>
 					<div className={styles.cardContentQuestions}>
 						<img src={this.props.symbol} className={styles.shape} />
-						<ul>
-							<li>{this.props.questionOne}</li>
-							<li>{this.props.questionTwo}</li>
-							<li>{this.props.questionThree}</li>
-							<li>{this.props.questionFour}</li>
-							<li>{this.props.questionFive}</li>
-						</ul>
+						{questionsList}
 					</div>
 					
-					<div className={styles.toggleButton} id="toggle">
+					<div className={styles.toggleButton}>
 						<button onClick={this.handleClick.bind(this)}>
 							toggle
 						</button>
 					</div>
-					<a className={styles.untoggleButton} id="untoggle">
+					{/* <a className={styles.untoggleButton}>
 						👈
-					</a>
+					</a> */}
 				</div>
 	  );
 	}

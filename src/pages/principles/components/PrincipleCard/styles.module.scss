@@ -34,7 +34,6 @@ $accent-color: #006de7;
 		.shape {
 			// width: 16px;
 			// height: 16px;
-
 			transition: all 0.25s ease;
 			transition-delay: 0.5s;
 			//animate
@@ -90,8 +89,8 @@ $accent-color: #006de7;
 			opacity: 1;
 
 			li {
-				font-weight: 700;
 				font-size: $fontSizeBase;
+				font-weight: 700;
 			}
 		}
 	}
@@ -142,7 +141,19 @@ $accent-color: #006de7;
 
 				opacity: 0;
 
+				font-size: $fontSizeBase;
 				line-height: 300%;
+
+					a {
+						overflow: hidden;
+
+						text-decoration: underline;
+
+						color: $white;
+						background-color: $brandPrimary;
+
+						font-weight: $fontWeightHeavy;
+					}
 			}
 		}
 	}

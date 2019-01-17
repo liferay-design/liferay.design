@@ -6,10 +6,15 @@
 	flex-direction: column;
 	justify-content: center;
 
-	width: 36vw * 2;
-	height: 36vw;
+	// width: 36vw * 2;
+	// height: 36vw;
+	width: 512px * 2;
+	height: 512px;
+	min-height: fit-content;
 	margin-right: auto;
 	margin-left: auto;
+
+	text-align: center;
 
 	color: $white;
 	border-bottom-right-radius: 36vw * 2;
@@ -17,6 +22,8 @@
 	background-color: $brandPrimary;
 
 	.header-badge {
+		width: 56px;
+		height: auto;
 		margin-top: 32px;
 		margin-bottom: 8px;
 	}
@@ -46,7 +53,6 @@
 			max-width: 464px;
 			margin-top: 32px;
 
-			text-align: center;
 			text-transform: lowercase;
 
 			opacity: 0.8;
