@@ -2,6 +2,16 @@
 
 $accent-color: #006de7;
 
+button,{
+  vertical-align: middle;
+  color: inherit;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
 .card {
 	position: relative;
 
@@ -123,7 +133,6 @@ $accent-color: #006de7;
 			//animate
 
 			opacity: 0;
-			border: 32px solid #fff;
 		}
 
 		ul {
@@ -154,6 +163,27 @@ $accent-color: #006de7;
 
 						font-weight: $fontWeightHeavy;
 					}
+			}
+		}
+	}
+
+	.toggle-button {
+		position: absolute;
+		z-index: 5;
+		right: 32px;
+		bottom: 24px;
+
+		transition: transform 0.5s ease;
+		transform: rotate(0deg);
+	
+		cursor: pointer;
+	
+		opacity: 0.5;
+
+		svg {
+			path {
+			transition: fill 0.5s ease;
+			fill: $brandPrimary;
 			}
 		}
 	}
@@ -237,6 +267,15 @@ $accent-color: #006de7;
 		}
 	}
 
+	.toggle-button {
+		transform: rotate(180deg);
+		svg {
+			path {
+			fill: $white;
+			}
+		}
+	}
+
 	//animated divs
 	.light-color-wipe {
 		transition: transform 0.5s ease;
@@ -247,24 +286,24 @@ $accent-color: #006de7;
 
 //Toggle Buttons
 
-.toggle-button {
-	position: absolute;
-	z-index: 5;
-	right: 32px;
-	bottom: 24px;
+// .toggle-button {
+// 	position: absolute;
+// 	z-index: 5;
+// 	right: 32px;
+// 	bottom: 24px;
 
-	cursor: pointer;
+// 	cursor: pointer;
 
-	opacity: 0.5;
-}
+// 	opacity: 0.5;
+// }
 
-.untoggle-button {
-	position: absolute;
-	z-index: 5;
-	bottom: 24px;
-	left: 32px;
+// .untoggle-button {
+// 	position: absolute;
+// 	z-index: 5;
+// 	bottom: 24px;
+// 	left: 32px;
 
-	cursor: pointer;
+// 	cursor: pointer;
 
-	opacity: 0.5;
-}
+// 	opacity: 0.5;
+// }
