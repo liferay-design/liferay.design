@@ -8,21 +8,18 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
 import { PrincipleCard, PrinciplesHeader } from 'pages/principles/components/_index'
 
-// const ChildLink = React.createClass({
-// 	render: function() {
-// 	  return (
-// 		<a href={this.props.linkHref}>{this.props.linkText}</a>
-// 	  )
-// 	}
-//   });
-
-// TOOD: Save each card question data
 const questionsIntentional = [
 	<span>Are my designs passing <a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?</span>,
 	"Are my designs reducing problem complexity by addressing simple and focused tasks?",
 	"Are my designs achieving the business goal?",
 	"Are my designs adding value to the system?",
 	"Can I articulate the value my design is adding to the user?"
+];
+
+const descriptorsIntentional = [
+	"Simple",
+	"Intuitive",
+	"Effective"
 ];
 
 const questionsInclusive = [
@@ -33,6 +30,13 @@ const questionsInclusive = [
 	"Do I know the groups and the people that my designs are for?"
 ];
 
+const descriptorsInclusive = [
+	"Universal",
+	"Open Source Design",
+	"Consistent"
+];
+
+
 const questionsHonest = [
 	<span>Am I using the correct <a href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?</span>,
 	"Are you testing and validating your designs with people?",
@@ -41,12 +45,24 @@ const questionsHonest = [
 	"Am I working to continuously reduce the cognitive load for users?"
 ];
 
+const descriptorsHonest = [
+	"Affordances",
+	"Transparent",
+	"People Centered"
+];
+
 const questionsPleasurable = [
 	"Am I spending time with users to understand their emotions?",
 	"Are people better for experiencing the work we do?",
 	"Do people find delight and joy when experiencing our designs?",
 	"Are my designs performant, functional, and usable?",
 	"Is my design authentic and based in timeless principles?"
+];
+
+const descriptorsPleasurable = [
+	"Emotions",
+	"Genuine",
+	"Reliable"
 ];
 
 const Principles = () => {
@@ -78,35 +94,28 @@ const Principles = () => {
 					symbol="/images/principles/symbol-intentional.svg"
 					name="Intentional" 
 					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level." wordOne="Simple"
-					wordTwo="Intuitive"
-					wordThree="Effective"
+					descriptors={descriptorsIntentional}
 					questions={questionsIntentional}
 				/>
 				<PrincipleCard 
 					symbol="/images/principles/symbol-inclusive.svg"
 					name="Inclusive" 
 					description="Design for real people, not stereotyped personas. Reflect reality, use expected, consistent patterns and natural metaphors."
-					wordOne="Universal"
-					wordTwo="Open Source Design"
-					wordThree="Consistent"
+					descriptors={descriptorsInclusive}
 					questions={questionsInclusive}
 				/>
 				<PrincipleCard 
 					symbol="/images/principles/symbol-honest.svg"
 					name="Honest" 
 					description="Be clear, transparent, and straightforward. Respect people’s needs and resources, like attention and time."
-					wordOne="Affordances"
-					wordTwo="Transparent"
-					wordThree="People Centered"
+					descriptors={descriptorsHonest}
 					questions={questionsHonest}
 				/>
 				<PrincipleCard 
 					symbol="/images/principles/symbol-pleasurable.svg"
 					name="Pleasurable" 
 					description="Design products that all people enjoy using. Intentionally produce your best, down to the minutiae."
-					wordOne="Emotions"
-					wordTwo="Genuine"
-					wordThree="Reliable"
+					descriptors={descriptorsPleasurable}
 					questions={questionsPleasurable}
 				/>
 			</Flex>

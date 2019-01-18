@@ -20,6 +20,18 @@ class PrincipleCard extends React.Component {
 	  });
 	}
 
+	getDescriptorsList(descriptors) {
+		if (!descriptors || descriptors.length < 1) {
+			return;
+		}
+		const listItems = descriptors.map((descriptor) =>
+			<li>{descriptor}</li>
+		);
+		return (
+			<ul>{listItems}</ul>
+		);
+	}
+
 	getQuestionsList(questions) {
 		if (!questions || questions.length < 1) {
 			return;
@@ -34,6 +46,7 @@ class PrincipleCard extends React.Component {
   
 	render() {
 		const questionsList = this.getQuestionsList(this.props.questions);
+		const descriptorsList = this.getDescriptorsList(this.props.descriptors);
 		
 	  return (
 		<div className={this.state.condition ? ([styles.card, styles.showQuestions].join(' ')) : (styles.card)}>
@@ -44,11 +57,7 @@ class PrincipleCard extends React.Component {
 						<p>
 							{this.props.description}
 						</p>
-						<ul>
-							<li>{this.props.wordOne}</li>
-							<li>{this.props.wordTwo}</li>
-							<li>{this.props.wordThree}</li>
-						</ul>
+						{descriptorsList}
 					</div>
 					<div className={styles.cardContentQuestions}>
 						<img src={this.props.symbol} className={styles.shape} />
