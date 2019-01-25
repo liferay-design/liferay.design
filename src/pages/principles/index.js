@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 import { Footer } from 'components/organisms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
-import { PrincipleCard, PrinciplesHeader } from 'pages/principles/components/_index'
+import { PrinciplesHeader, PrincipleCard, PrinciplesFooter } from 'pages/principles/components/_index'
 
 const questionsIntentional = [
 	<span>Are my designs passing <a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?</span>,
@@ -119,6 +119,7 @@ const Principles = () => {
 					questions={questionsPleasurable}
 				/>
 			</Flex>
+			<PrinciplesFooter />
 		</div>
 	)
 }
