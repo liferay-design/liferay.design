@@ -1,4 +1,5 @@
-import PrincipleCard from './PrincipleCard'
 import PrinciplesHeader from './PrinciplesHeader'
+import PrincipleCard from './PrincipleCard'
+import PrinciplesFooter from './PrinciplesFooter'
 
-export { PrincipleCard, PrinciplesHeader }
+export { PrinciplesHeader, PrincipleCard, PrinciplesFooter }
