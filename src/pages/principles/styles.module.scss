@@ -3,7 +3,8 @@
 .pagestyles {
 	color: $gray-700;
 	background-color: $white;
-	background-image: none;
+    background-image: none;
+    overflow-x: hidden;
 
     font-family: $fontFamilySecondary;
     font-size: 62.5%;
@@ -29,10 +30,16 @@
     position: absolute;
     left: 0;
     z-index:0;
+    img {
+        width: 40vw;
+    }
 }
 
 .plxElementRight {
     position: absolute;
     right: 0;
     z-index:0;
+    img {
+        width: 40vw;
+    }
 }
