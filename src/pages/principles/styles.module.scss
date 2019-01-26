@@ -23,3 +23,16 @@
 .card-wrap {
     margin-top: 220px;
 }
+
+
+.plxElementLeft {
+    position: absolute;
+    left: 0;
+    z-index:0;
+}
+
+.plxElementRight {
+    position: absolute;
+    right: 0;
+    z-index:0;
+}

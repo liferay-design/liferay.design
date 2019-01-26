@@ -12,6 +12,16 @@ button,{
   outline: 0;
 }
 
+.card-section {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+}
+
 .card {
 	position: relative;
 
@@ -25,6 +35,7 @@ button,{
 
 	background-color: #fff;
 	box-shadow: 0 80px 80px rgba(58, 56, 68, 0.1), 0 8px 40px rgba(58, 56, 68, 0.1);
+	z-index: 2;
 
 	contain: content;
 	// scroll: none;
