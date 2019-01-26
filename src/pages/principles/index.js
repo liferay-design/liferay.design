@@ -65,6 +65,87 @@ const descriptorsPleasurable = [
 	"Reliable"
 ];
 
+//parallax variables
+const PlxUp1 = [
+	{
+		start: 'self',
+		duration: '200vh',
+		properties: [
+			{
+				startValue: 50,
+				endValue: -50,
+				property: 'translateY',
+			},
+		],
+	},
+]
+const PlxUp2 = [
+	{
+		start: 'self',
+		duration: '200vh',
+		properties: [
+			{
+				startValue: 100,
+				endValue: -100,
+				property: 'translateY',
+			},
+		],
+	},
+]
+const PlxUp3 = [
+	{
+		start: 'self',
+		duration: '200vh',
+		properties: [
+			{
+				startValue: 150,
+				endValue: -150,
+				property: 'translateY',
+			},
+		],
+	},
+]
+const PlxDown1 = [
+	{
+		start: 'self',
+		duration: '200vh',
+		properties: [
+			{
+				startValue: -50,
+				endValue: 50,
+				property: 'translateY',
+			},
+		],
+	},
+]
+const PlxDown2 = [
+	{
+		start: 'self',
+		duration: '200vh',
+		properties: [
+			{
+				startValue: -100,
+				endValue: 100,
+				property: 'translateY',
+			},
+		],
+	},
+]
+const PlxDown3 = [
+	{
+		start: 'self',
+		duration: '200vh',
+		properties: [
+			{
+				startValue: -150,
+				endValue: 150,
+				property: 'translateY',
+			},
+		],
+	},
+]
+
+
 const Principles = () => {
 	return (
 		<div className={styles.pagestyles}>
@@ -96,21 +177,36 @@ const Principles = () => {
 					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level." wordOne="Simple"
 					descriptors={descriptorsIntentional}
 					questions={questionsIntentional}
+					plxSide={styles.plxElementLeft}
+					plxElement="/images/principles/plx-triangle.svg"
 				/>
+				{/* <Plx className={styles.plxElementLeft} parallaxData={PlxUp3}>
+					<img src="/images/principles/plx-triangle.svg" />
+				</Plx> */}
 				<PrincipleCard 
 					symbol="/images/principles/symbol-inclusive.svg"
 					name="Inclusive" 
 					description="Design for real people, not stereotyped personas. Reflect reality, use expected, consistent patterns and natural metaphors."
 					descriptors={descriptorsInclusive}
 					questions={questionsInclusive}
+					plxSide={styles.plxElementRight}
+					plxElement="/images/principles/plx-doughnut.svg"
 				/>
+				{/* <Plx className={styles.plxElementRight} parallaxData={PlxUp3}>
+					<img src="/images/principles/plx-doughnut.svg" />
+				</Plx> */}
 				<PrincipleCard 
 					symbol="/images/principles/symbol-honest.svg"
 					name="Honest" 
 					description="Be clear, transparent, and straightforward. Respect people’s needs and resources, like attention and time."
 					descriptors={descriptorsHonest}
 					questions={questionsHonest}
+					plxSide={styles.plxElementLeft}
+					plxElement="/images/principles/plx-square.svg"
 				/>
+				{/* <Plx className={styles.plxElementLeft} parallaxData={PlxUp3}>
+					<img src="/images/principles/plx-square.svg" />
+				</Plx> */}
 				<PrincipleCard 
 					symbol="/images/principles/symbol-pleasurable.svg"
 					name="Pleasurable" 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Plx from 'react-plx'
 import styles from './styles.module.scss'
 
 class PrincipleCard extends React.Component {
@@ -47,9 +48,24 @@ class PrincipleCard extends React.Component {
 	render() {
 		const questionsList = this.getQuestionsList(this.props.questions);
 		const descriptorsList = this.getDescriptorsList(this.props.descriptors);
+
+		const PlxUp3 = [
+			{
+				start: 'self',
+				duration: '200vh',
+				properties: [
+					{
+						startValue: 150,
+						endValue: -150,
+						property: 'translateY',
+					},
+				],
+			},
+		]
 		
 	  return (
-		<div className={this.state.condition ? ([styles.card, styles.showQuestions].join(' ')) : (styles.card)}>
+		<section className={styles.cardSection}>
+			<div className={this.state.condition ? ([styles.card, styles.showQuestions].join(' ')) : (styles.card)}>
 					<div className={styles.lightColorWipe}>&nbsp;</div>
 					<div className={styles.cardContentPrinciple}>
 						<img src={this.props.symbol} className={styles.shape} />
@@ -72,10 +88,13 @@ class PrincipleCard extends React.Component {
 
 						</button>
 					</div>
-					{/* <a className={styles.untoggleButton}>
-						👈
-					</a> */}
 				</div>
+
+				<Plx className={this.props.plxSide} parallaxData={PlxUp3}>
+					<img src={this.props.plxElement} />
+				</Plx>
+
+			</section>	
 	  );
 	}
   }
