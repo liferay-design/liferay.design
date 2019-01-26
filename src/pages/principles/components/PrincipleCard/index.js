@@ -14,10 +14,6 @@ class PrincipleCard extends React.Component {
 	  // Toggle state when button is clicked
 	  this.setState({
 		condition: !this.state.condition
-	  }, function() {
-		// setState is asynchronous! This function gets called
-		// when it's finished.
-		console.log("buttn's clicked");
 	  });
 	}
 
@@ -49,19 +45,85 @@ class PrincipleCard extends React.Component {
 		const questionsList = this.getQuestionsList(this.props.questions);
 		const descriptorsList = this.getDescriptorsList(this.props.descriptors);
 
-		const PlxUp3 = [
-			{
-				start: 'self',
-				duration: '200vh',
-				properties: [
-					{
-						startValue: 150,
-						endValue: -150,
-						property: 'translateY',
-					},
-				],
-			},
-		]
+//parallax variables
+	const PlxUp1 = [
+		{
+			start: 'self',
+			duration: '200vh',
+			properties: [
+				{
+					startValue: 50,
+					endValue: -50,
+					property: 'translateY',
+				},
+			],
+		},
+	]
+	const PlxUp2 = [
+		{
+			start: 'self',
+			duration: '200vh',
+			properties: [
+				{
+					startValue: 100,
+					endValue: -100,
+					property: 'translateY',
+				},
+			],
+		},
+	]
+	const PlxUp3 = [
+		{
+			start: 'self',
+			duration: '200vh',
+			properties: [
+				{
+					startValue: 150,
+					endValue: -150,
+					property: 'translateY',
+				},
+			],
+		},
+	]
+	const PlxDown1 = [
+		{
+			start: 'self',
+			duration: '200vh',
+			properties: [
+				{
+					startValue: -50,
+					endValue: 50,
+					property: 'translateY',
+				},
+			],
+		},
+	]
+	const PlxDown2 = [
+		{
+			start: 'self',
+			duration: '200vh',
+			properties: [
+				{
+					startValue: -100,
+					endValue: 100,
+					property: 'translateY',
+				},
+			],
+		},
+	]
+	const PlxDown3 = [
+		{
+			start: 'self',
+			duration: '200vh',
+			properties: [
+				{
+					startValue: -150,
+					endValue: 150,
+					property: 'translateY',
+				},
+			],
+		},
+	]
 		
 	  return (
 		<section className={styles.cardSection}>
