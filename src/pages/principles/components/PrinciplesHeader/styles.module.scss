@@ -5,9 +5,9 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
 	// width: 36vw * 2;
 	// height: 36vw;
+
 	width: 40vw * 2;
 	height: 40vw;
 	min-height: fit-content;
@@ -48,10 +48,15 @@
 			margin-bottom: 0;
 
 			font-size: $fontSizeXXLarge;
+
+			@media screen and (max-width: $screenSmall) {
+				font-size: $fontSizeXLarge;
+			  }
 		}
 		p {
 			max-width: 464px;
 			margin-top: 32px;
+			padding: 0px 1rem;
 
 			text-transform: lowercase;
 
@@ -60,6 +65,12 @@
 			font-size: 18px;
 			font-weight: 300;
 			line-height: 26px;
+
+			@media screen and (max-width: $screenSmall) {
+				padding: 0px 1.25rem 1.5rem 1.25rem;
+
+				font-size: $fontSizeSmall;
+			  }
 		}
 	}
 }

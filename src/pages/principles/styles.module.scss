@@ -32,6 +32,9 @@
     z-index:0;
     img {
         width: 40vw;
+        @media screen and (max-width: $screenSmall) {
+            width: 60vw;
+          }
     }
 }
 
@@ -41,5 +44,8 @@
     z-index:0;
     img {
         width: 40vw;
+        @media screen and (max-width: $screenSmall) {
+            width: 60vw;
+          }
     }
 }
