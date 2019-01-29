@@ -9,7 +9,7 @@ import Plx from 'react-plx'
 import { PrinciplesHeader, PrincipleCard, PrinciplesFooter } from 'pages/principles/components/_index'
 
 const questionsIntentional = [
-	<span>Are my designs passing <a href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?</span>,
+	<span>Are my designs passing <a target='_blank' rel='noopener noreferrer' href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?</span>,
 	"Are my designs reducing problem complexity by addressing simple and focused tasks?",
 	"Are my designs achieving the business goal?",
 	"Are my designs adding value to the system?",
@@ -23,7 +23,7 @@ const descriptorsIntentional = [
 ];
 
 const questionsInclusive = [
-	<span>Are my designs passing <a href='https://www.w3.org/WAI/ER/tools/'>accessibility tests</a>?</span>,
+	<span>Are my designs passing <a target='_blank' rel='noopener noreferrer' href='https://www.w3.org/WAI/ER/tools/'>accessibility tests</a>?</span>,
 	"Am I designing in a non-discriminative way?",
 	"Am I empowering my users to do their tasks?",
 	"Are we contributing to the design community?",
@@ -38,7 +38,7 @@ const descriptorsInclusive = [
 
 
 const questionsHonest = [
-	<span>Am I using the correct <a href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?</span>,
+	<span>Am I using the correct <a target='_blank' rel='noopener noreferrer' href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?</span>,
 	"Are you testing and validating your designs with people?",
 	"Am I using dark patterns?",
 	"Are my designs ethical?",
