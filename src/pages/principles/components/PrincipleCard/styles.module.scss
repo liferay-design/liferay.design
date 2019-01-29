@@ -2,47 +2,59 @@
 
 $accent-color: #006de7;
 
-button,{
+button {
+  margin: 0;
+  padding: 0;
+
   vertical-align: middle;
+
   color: inherit;
   border: 0;
-  background: transparent;
-  padding: 0;
-  margin: 0;
   outline: 0;
+  background: transparent;
 }
 
 .card-section {
-	width: 100vw;
-	height: 90vh;
+	position: relative;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+
+	width: 100vw;
+	height: 90vh;
+
+	@media screen and (max-width: $screenSmall) {
+		height: 100vh;
+	  }
 }
 
 .card {
 	position: relative;
+	z-index: 2;
 
 	display: flex;
 	overflow: hidden;
 	justify-content: center;
-
 	// width: 800px;
 	// height: 400px;
+
 	width: 80vw;
 	max-width: 1296px;
-	max-height: 640px;
 	height: 40vw;
-	min-height: 40rem;
+	min-height: 520px;
+	max-height: 640px;
 	// margin-bottom: 220px;
 
 	background-color: #fff;
 	box-shadow: 0 80px 80px rgba(58, 56, 68, 0.1), 0 8px 40px rgba(58, 56, 68, 0.1);
-	z-index: 2;
 
 	contain: content;
-	// scroll: none;
+
+	@media screen and (max-width: $screenSmall) {
+		width: 90vw;
+		height: 90vh;
+	  }
 
 	//Principle Card Content
 	.card-content-principle {
@@ -55,6 +67,7 @@ button,{
 
 		width: 100%;
 		height: 100%;
+		padding: 16px;
 
 		.shape {
 			// width: 16px;
@@ -92,7 +105,7 @@ button,{
 			text-align: center;
 
 			opacity: 1;
-			color: RGBA(58, 56, 68, 0.5);
+			color: rgba(58, 56, 68, 0.5);
 
 			font-size: 18px;
 		}
@@ -103,6 +116,7 @@ button,{
 			justify-content: space-around;
 
 			width: 50%;
+			padding-left: 0;
 
 			list-style: none;
 
@@ -113,9 +127,18 @@ button,{
 
 			opacity: 1;
 
+			@media screen and (max-width: $screenSmall) {
+				flex-direction: column;
+
+				width: 100%;
+			  }
+
 			li {
 				font-size: $fontSizeBase;
 				font-weight: 700;
+				@media screen and (max-width: $screenSmall) {
+					margin-bottom: 12px;
+				  }
 			}
 		}
 	}
@@ -140,6 +163,8 @@ button,{
 		background-color: $brandPrimary;
 
 		.shape {
+			position: absolute;
+
 			width: 64px;
 			height: 64px;
 
@@ -151,11 +176,17 @@ button,{
 		}
 
 		ul {
-			margin-left: 40px;
+			margin-left: 25%;
 
 			list-style: none;
 
 			color: #fff;
+
+			@media screen and (max-width: $screenSmall) {
+				margin-right: auto;
+				margin-left: auto;
+				padding: 1rem;
+			  }
 
 			li {
 				transition: all 0.25s ease;
@@ -167,6 +198,13 @@ button,{
 
 				font-size: $fontSizeBase;
 				line-height: 300%;
+
+				@media screen and (max-width: $screenSmall) {
+					margin-bottom: 1rem;
+
+					font-size: $fontSizeSmall;
+					line-height: 130%;
+				  }
 
 					a {
 						overflow: hidden;
@@ -188,17 +226,43 @@ button,{
 		right: 32px;
 		bottom: 24px;
 
-		transition: transform 0.5s ease;
-		transform: rotate(0deg);
-	
 		cursor: pointer;
-	
+		transition: transform 0.3s ease-out;
+		transform: rotate(0deg);
+
 		opacity: 0.5;
 
-		svg {
-			path {
-			transition: fill 0.5s ease;
-			fill: $brandPrimary;
+		button {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+
+			svg {
+				path {
+				transition: fill 0.5s ease;
+	
+				fill: $brandPrimary;
+				}
+			}
+	
+			span {
+				letter-spacing: 4px;
+				text-transform: uppercase;
+				font-size: $fontSizeSmall;
+				@media screen and (max-width: $screenSmall) {
+					font-size: $fontSizeXSmall;
+				  }
+			  }
+
+			span:nth-of-type(1) {
+				display: inline;
+				text-align: right;
+			}
+
+			span:nth-of-type(2) {
+				display:none;
+				transform: rotate(180deg);
+				color: $white;
 			}
 		}
 	}
@@ -284,9 +348,31 @@ button,{
 
 	.toggle-button {
 		transform: rotate(180deg);
-		svg {
-			path {
-			fill: $white;
+		
+
+		button {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+
+			svg {
+				path {
+				fill: $white;
+				}
+			}
+	
+			span {
+				letter-spacing: 4px;
+				text-transform: uppercase;
+				font-size: $fontSizeSmall;
+			  }
+
+			span:nth-of-type(1) {
+				display: none;
+			}
+
+			span:nth-of-type(2) {
+				display:inline;
 			}
 		}
 	}
