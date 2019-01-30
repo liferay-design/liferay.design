@@ -116,6 +116,7 @@ button {
 			justify-content: space-around;
 
 			width: 50%;
+			max-width: 500px;
 			padding-left: 0;
 
 			list-style: none;
@@ -136,6 +137,7 @@ button {
 			li {
 				font-size: $fontSizeBase;
 				font-weight: 700;
+				padding: 0px 1rem;
 				@media screen and (max-width: $screenSmall) {
 					margin-bottom: 12px;
 				  }
