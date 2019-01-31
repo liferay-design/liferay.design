@@ -6,6 +6,11 @@
 	flex-direction: column;
 	justify-content: center;
 	height: 80vh;
+	width: 100vw;
+
+	@media screen and (max-width: $screenSmall) {
+		height: 80vh;
+	  }
 
 	.footerBadgeOuterCircle{
 		display: flex;
@@ -17,6 +22,11 @@
 
 		border-radius: 100%;
 		background-color: rgba(13, 99, 206, 0.10);
+
+		@media screen and (max-width: $screenSmall) {
+			width: 16rem;
+			height: 16rem;
+		  }
 	
 
 		.footerBadgeCircle {
@@ -29,12 +39,21 @@
 
 			border-radius: 100%;
 			background-color: $brandPrimary;
-			}
+
+			@media screen and (max-width: $screenSmall) {
+				width: 12rem;
+				height: 12rem;
+			  }
+		
+		}
 
 		.footerBadge {
 			width: 12rem;
 			height: auto;
 
+			@media screen and (max-width: $screenSmall) {
+				width: 8rem;
+			  }
 		}
 	}
 	.footerLowerCircle {
