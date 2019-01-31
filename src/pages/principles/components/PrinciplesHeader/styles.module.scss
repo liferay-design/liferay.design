@@ -17,9 +17,16 @@
 	text-align: center;
 
 	color: $white;
-	border-bottom-right-radius: 36vw * 2;
-	border-bottom-left-radius: 36vw * 2;
+	border-bottom-right-radius: 40vw * 2;
+	border-bottom-left-radius: 40vw * 2;
 	background-color: $brandPrimary;
+
+	@media screen and (max-width: $screenSmall) {
+		width: 50vw * 2;
+		height: 60vh;
+		border-bottom-right-radius: 50vw * 2;
+		border-bottom-left-radius: 50vw * 2;
+	  }
 
 	.header-badge {
 		width: 56px;

@@ -167,14 +167,21 @@ button {
 		.shape {
 			position: absolute;
 
-			width: 64px;
-			height: 64px;
+			width: 25%;
+			height: auto;
+
+			mix-blend-mode: screen;
 
 			transition: all 0.25s ease;
 			transform: translateX(0px);
 			//animate
 
 			opacity: 0;
+
+			@media screen and (max-width: $screenSmall) {
+				width: 50%;
+			  }
+
 		}
 
 		ul {
@@ -187,7 +194,7 @@ button {
 			@media screen and (max-width: $screenSmall) {
 				margin-right: auto;
 				margin-left: auto;
-				padding: 1rem;
+				padding: 1.5rem;
 			  }
 
 			li {
@@ -204,7 +211,7 @@ button {
 				@media screen and (max-width: $screenSmall) {
 					margin-bottom: 1rem;
 
-					font-size: $fontSizeSmall;
+					font-size: $fontSizeMedium;
 					line-height: 130%;
 				  }
 
@@ -328,7 +335,7 @@ button {
 
 		.shape {
 			transition-delay: 0.65s;
-			transform: translateX(-32px);
+			transform: translateX(-33%);
 			//animate
 
 			opacity: 0.2;
