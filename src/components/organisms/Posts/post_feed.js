@@ -50,16 +50,16 @@ const postFeed = [
 		link:
 			'https://medium.com/@77896317/the-danger-and-pitfalls-of-uniformity-in-design-systems-68fb31aa28e5',
 	},
-	// {
-	// 	id: 4,
-	// 	title: 'UX Designer',
-	// 	preview: 'Opening in Los Angeles, CA',
-	// 	thumbnailUrl: withPrefix(`${imageDir}/ux-designer.jpg`),
-	// 	heroUrl: withPrefix(`${imageDir}/ux-designer.jpg`),
-	// 	detailImageUrl: withPrefix(`${headshotDir}/-sunglasses.png`),
-	// 	category: 'Join Us!',
-	// 	link: 'https://jobs.jobvite.com/liferay/job/oy3O7fwg',
-	// },
+	{
+		id: 4,
+		title: 'Product Designer',
+		preview: 'Opening in Los Angeles, CA',
+		thumbnailUrl: withPrefix(`${imageDir}/ux-designer.jpg`),
+		heroUrl: withPrefix(`${imageDir}/ux-designer.jpg`),
+		detailImageUrl: withPrefix(`${headshotDir}/-sunglasses.png`),
+		category: 'Join Us!',
+		link: '/careers/na/product-designer',
+	},
 	{
 		id: 5,
 		title: 'Designing Animations for a Multicultural Product',
