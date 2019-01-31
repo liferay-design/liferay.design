@@ -230,7 +230,7 @@ button {
 
 		cursor: pointer;
 		transition: transform 0.3s ease-out;
-		transform: rotate(0deg);
+		transform: rotate(-90deg);
 
 		opacity: 0.5;
 
@@ -349,7 +349,7 @@ button {
 	}
 
 	.toggle-button {
-		transform: rotate(180deg);
+		transform: rotate(90deg);
 		
 
 		button {
