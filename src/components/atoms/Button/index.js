@@ -8,8 +8,10 @@ const Button = ({
 	renderAs,
 	className,
 	children,
-	color,
+	backgroundColor,
+	textColor,
 	margin,
+	padding,
 	size,
 	style,
 	weight,
@@ -21,8 +23,10 @@ const Button = ({
 	const textAlign = align ? { display: 'block', textAlign: align } : null
 
 	const styles = {
-		color: colors[color],
+		color: colors[textColor],
+		backgroundColor: colors[backgroundColor],
 		...(margin ? { marginBottom: fontSizes[margin] } : {}),
+		...(padding ? { padding: fontSizes[padding] } : {}),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...style,
 		...textAlign,
@@ -43,6 +47,7 @@ Button.propTypes = {
 	children: PropTypes.node.isRequired,
 	color: PropTypes.string,
 	margin: PropTypes.string,
+	padding: PropTypes.string,
 	style: PropTypes.object,
 	size: PropTypes.string,
 	renderAs: PropTypes.oneOf(['a', 'button']),

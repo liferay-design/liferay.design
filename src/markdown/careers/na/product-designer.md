@@ -1,16 +1,16 @@
 ---
-author: 'James Lyons'
-authorLink: '/team/lyons-james'
+author: 'Los Angeles, CA'
+authorLink: 'https://app.jobvite.com/j?aj=oqKh9fwk&s=liferay-dot-design'
 date: '2018-12-10'
 title: 'Product Designer'
-description: 'Los Angeles, CA 🇺🇸'
+description: ''
 ---
 
 ## Who Designs at Liferay?
 
 Design is [a team sport](https://www.oreilly.com/ideas/12-qualities-of-effective-design-organizations) — while our athletic accomplishments are limited, our commitment to building a strong team is not. We firmly believe in going far together — what this looks like is passion for producing excellence and a patient tenacity to make improvements over time.
 
-To learn more about our growing team check out [Liferay.Design](https://liferay.design)!
+To learn more about who you'd be working with, get acquainted with [the team](/team)!
 
 ## Who Are We Looking For?
 
