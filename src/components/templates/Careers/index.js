@@ -13,6 +13,7 @@ const ApplyButton = styled(Button)`
 	background-color: ${colors["primary"]}
 	color: ${colors["white"]}
 	padding: ${fontSizes["medium"]} ${fontSizes["large"]}
+	height: 100%
 `
 
 
