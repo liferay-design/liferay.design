@@ -237,9 +237,14 @@ button {
 
 		cursor: pointer;
 		transition: transform 0.3s ease-out;
-		transform: rotate(-90deg);
+		transform: rotate(0deg);
 
 		opacity: 0.5;
+
+		@media screen and (max-width: $screenSmall) { 
+			right: 42%; //trying to optically center
+			margin: auto;
+		  }
 
 		button {
 			display: flex;
@@ -247,6 +252,7 @@ button {
 			align-items: flex-end;
 
 			svg {
+				transform: rotate(-90deg);
 				path {
 				transition: fill 0.5s ease;
 	
@@ -356,7 +362,7 @@ button {
 	}
 
 	.toggle-button {
-		transform: rotate(90deg);
+		transform: rotate(180deg);
 		
 
 		button {
