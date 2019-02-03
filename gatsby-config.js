@@ -9,6 +9,13 @@ module.exports = {
 		'gatsby-plugin-brotli',
 		'gatsby-plugin-catch-links',
 		{
+			resolve: 'gatsby-source-sheets',
+			options: {
+				sheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
+				tabName: 'Class Data',
+			},
+		},
+		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
 				trackingId: 'UA-790163-24',
