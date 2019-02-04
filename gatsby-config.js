@@ -20,6 +20,13 @@ module.exports = {
 				respectDNT: true,
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-intercom-spa',
+			options: {
+			  app_id: 'zxdedz6f',
+			  include_in_development: true,
+			}
+		  },
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-resolve-src',
 		{
