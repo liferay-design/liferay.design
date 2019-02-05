@@ -25,7 +25,7 @@ function processRow(row, id, createContentDigest) {
 		parent: null,
 		children: [],
 		internal: {
-			type: `GoogleSheetsRow`,
+			type: `GoogleDocs`,
 			content: nodeContent,
 			contentDigest: createContentDigest(row),
 		},

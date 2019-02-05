@@ -1,18 +1,24 @@
 const fs = require('fs')
 const readline = require('readline-sync')
 const { google } = require('googleapis')
+const camelCase = require('lodash.camelcase')
 
 // If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+const SCOPES = [
+	'https://www.googleapis.com/auth/spreadsheets.readonly',
+	'https://www.googleapis.com/auth/drive.readonly',
+	'https://www.googleapis.com/auth/drive.metadata.readonly',
+]
+
 const TOKEN_PATH = `${process.cwd()}/token.json`
 
-module.exports = getRows
+function fetchDoc(id, auth) {
+	const drive = google.drive({ version: 'v3', auth })
 
-/**
- * Prints the names and majors of students in a sample spreadsheet:
- * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
- */
-async function getRows(sheetId, tabName) {
+	return drive.files.export({ fileId: id, mimeType: 'text/html' })
+}
+
+async function fetchRows(sheetId, tabName) {
 	const auth = await authorize()
 
 	const sheets = google.sheets({ version: 'v4', auth })
@@ -26,17 +32,34 @@ async function getRows(sheetId, tabName) {
 
 	const columnNames = values[0]
 
-	const structuredData = values.slice(1).map(row => {
+	const structuredData = await Promise.all(
+		values
+			.slice(1)
+			.map(structureData)
+			.map(getDocHtml),
+	)
+
+	function structureData(row) {
 		const rowObject = {}
 
 		row.forEach((cell, i) => {
-			rowObject[columnNames[i]] = cell
+			rowObject[camelCase(columnNames[i])] = cell
 		})
 
 		return rowObject
-	})
+	}
 
-	console.log('structuredData', structuredData)
+	async function getDocHtml(row) {
+		if (row.doc) {
+			try {
+				var { data } = await fetchDoc(row.doc, auth)
+			} catch (error) {
+				throw new Error(`doin stuff ${error}`)
+			}
+
+			return { ...row, doc: data }
+		}
+	}
 
 	return { data: structuredData }
 }
@@ -55,7 +78,7 @@ function getCredentials() {
  * Create an OAuth2 client with the given credentials, and then execute the
  * given callback function.
  */
-function authorize() {
+async function authorize() {
 	const { client_secret, client_id, redirect_uris } = getCredentials().installed
 
 	const oAuth2Client = new google.auth.OAuth2(
@@ -64,14 +87,17 @@ function authorize() {
 		redirect_uris[0],
 	)
 
-	// Check if we have previously stored a token.
-	try {
-		var token = fs.readFileSync(TOKEN_PATH)
-	} catch (err) {
-		return getNewToken(oAuth2Client)
+	if (!fs.existsSync(TOKEN_PATH)) {
+		var { tokens } = await getNewToken(oAuth2Client)
+
+		fs.writeFileSync(TOKEN_PATH, JSON.stringify(tokens))
+
+		console.log('Token stored to', TOKEN_PATH)
+	} else {
+		var tokens = JSON.parse(fs.readFileSync(TOKEN_PATH))
 	}
 
-	oAuth2Client.setCredentials(JSON.parse(token))
+	oAuth2Client.setCredentials(tokens)
 
 	return oAuth2Client
 }
@@ -81,7 +107,7 @@ function authorize() {
  * execute the given callback with the authorized OAuth2 client.
  * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
  */
-async function getNewToken(oAuth2Client) {
+function getNewToken(oAuth2Client) {
 	const authUrl = oAuth2Client.generateAuthUrl({
 		access_type: 'offline',
 		scope: SCOPES,
@@ -91,13 +117,7 @@ async function getNewToken(oAuth2Client) {
 
 	const code = readline.question('Enter the code from that page here: ')
 
-	const token = await oAuth2Client.getToken(code)
-
-	oAuth2Client.setCredentials(token)
-
-	fs.writeFileSync(TOKEN_PATH, JSON.stringify(token))
-
-	console.log('Token stored to', TOKEN_PATH)
-
-	return oAuth2Client
+	return oAuth2Client.getToken(code)
 }
+
+module.exports = fetchRows

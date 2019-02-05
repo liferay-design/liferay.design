@@ -19,48 +19,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions
 
-	return new Promise((resolve, reject) => {
-		resolve(
-			graphql(`
-				query {
-					allMdx {
-						edges {
-							node {
-								id
-								fields {
-									slug
-								}
-								code {
-									scope
-								}
-							}
-						}
-					}
-				}
-			`).then(({ data, errors }) => {
-				if (errors) {
-					console.log('Error creating pages in `createPages` call ==>', errors)
-					reject(errors)
-				}
-
-				data.allMdx.edges.forEach(({ node }) => {
-					const template = node.fields.slug.split('/')[1]
-
-					const templateFile = path.resolve(
-						`./src/components/templates/${capFirstLetter(template)}/index.js`,
-					)
-
-					createPage({
-						path: node.fields.slug,
-						component: componentWithMDXScope(templateFile, node.code.scope),
-						context: {
-							slug: node.fields.slug,
-						},
-					})
-				})
-			}),
-		)
-	})
+	return Promise.all([generateMarkdownPages(createPage, graphql)])
 }
 
 function capFirstLetter(string) {
@@ -73,15 +32,90 @@ exports.onCreatePage = async ({ page, actions }) => {
 	const { createPage } = actions
 
 	var pageMap = {
-		[ "blueprints" ] : [ "blueprints" ],
-		[ "handbook" ] : [ "handbook" ],
+		['blueprints']: ['blueprints'],
+		['handbook']: ['handbook'],
 	}
 
-	for ( key in pageMap )
+	for (key in pageMap)
 		if (page.path.match(/^\/pageMap[key]/)) {
 			page.matchPath = '/key/*'
 
 			// Update the page.
 			createPage(page)
 		}
+}
+
+function generateGoogleDocPages(createPage, graphql) {
+	return graphql(`
+		query {
+			allGoogleDocs {
+				edges {
+					node {
+						id
+						doc
+					}
+				}
+			}
+		}
+	`).then(({ data, errors }) => {
+		if (errors) {
+			console.log('Error creating pages in `createPages` call ==>', errors)
+			reject(errors)
+		}
+
+		data.allGoogleDocs.edges.forEach(({ node }) => {
+			const templateFile = path.resolve(
+				`./src/components/templates/${capFirstLetter(template)}/index.js`,
+			)
+
+			createPage({
+				path: node.fields.slug,
+				component: componentWithMDXScope(templateFile, node.code.scope),
+				context: {
+					slug: node.fields.slug,
+				},
+			})
+		})
+	})
+}
+
+function generateMarkdownPages(createPage, graphql) {
+	return graphql(`
+		query {
+			allMdx {
+				edges {
+					node {
+						id
+						fields {
+							slug
+						}
+						code {
+							scope
+						}
+					}
+				}
+			}
+		}
+	`).then(({ data, errors }) => {
+		if (errors) {
+			console.log('Error creating pages in `createPages` call ==>', errors)
+			reject(errors)
+		}
+
+		data.allMdx.edges.forEach(({ node }) => {
+			const template = node.fields.slug.split('/')[1]
+
+			const templateFile = path.resolve(
+				`./src/components/templates/${capFirstLetter(template)}/index.js`,
+			)
+
+			createPage({
+				path: node.fields.slug,
+				component: componentWithMDXScope(templateFile, node.code.scope),
+				context: {
+					slug: node.fields.slug,
+				},
+			})
+		})
+	})
 }

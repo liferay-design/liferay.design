@@ -5,17 +5,15 @@ import { Icon, Text } from 'components/atoms'
 import { styled, Button } from 'reakit'
 import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
-import { withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import { colors, fontSizes, fontWeights } from 'theme'
+import { colors, fontSizes } from 'theme'
 
 const ApplyButton = styled(Button)`
-	background-color: ${colors["primary"]}
-	color: ${colors["white"]}
-	padding: ${fontSizes["medium"]} ${fontSizes["large"]}
-	height: 100%
+	background-color: ${colors['primary']};
+	color: ${colors['white']};
+	padding: ${fontSizes['medium']} ${fontSizes['large']};
+	height: 100%;
 `
-
 
 export default class Careers extends Component {
 	render() {
@@ -27,10 +25,11 @@ export default class Careers extends Component {
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<div className={styles.largeContainer}>
-					<h1>{post.frontmatter.title} 
-						<span>{post.frontmatter.author} </span>
-					</h1>
-					{/* <div className={styles.role}>
+						<h1>
+							{post.frontmatter.title}
+							<span>{post.frontmatter.author} </span>
+						</h1>
+						{/* <div className={styles.role}>
 						<h2>{post.frontmatter.description}</h2>
 					</div> */}
 					</div>
@@ -45,9 +44,18 @@ export default class Careers extends Component {
 								opaque="false"
 								href={post.frontmatter.authorLink}
 							>
-								Apply on Jobvite <Icon name="externalLink" margin="0 .2rem 0 .1rem" height=".8rem" width=".8rem" fill="white" />
+								Apply on Jobvite{' '}
+								<Icon
+									name="externalLink"
+									margin="0 .2rem 0 .1rem"
+									height=".8rem"
+									width=".8rem"
+									fill="white"
+								/>
 							</ApplyButton>
-							<Text type="p" style="italic">(apologies in advance :grimacing:)</Text>
+							<Text type="p" style="italic">
+								(apologies in advance :grimacing:)
+							</Text>
 						</div>
 					</Flex>
 				</div>

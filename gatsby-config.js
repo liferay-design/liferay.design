@@ -11,8 +11,8 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-sheets',
 			options: {
-				sheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-				tabName: 'Class Data',
+				sheetId: '1zqucTFkeoNch9pDq2ADGWHCK0fn-OH17lnMg3HRLVfY',
+				tabName: 'Sheet1',
 			},
 		},
 		{
