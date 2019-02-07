@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 const PrinciplesHeader = () => {
 	return (
 		<div className={styles.circleHeader}>
-			<img src="/images/principles/principles-badge.svg" className={styles.headerBadge} />
+			<img src="/images/logos/liferay-waffle-white.svg" className={styles.headerBadge} />
 			<div className={styles.headerText}>
 				<h4>Liferay</h4>
 				<h1>Design Principles</h1>
