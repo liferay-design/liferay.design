@@ -28,6 +28,13 @@ module.exports = {
 		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
+		{
+			resolve: 'gatsby-plugin-intercom-spa',
+			options: {
+				app_id: 'zxdedz6f',
+				include_in_development: true,
+			}
+		},
 		'gatsby-transformer-sharp',
 		{
 			resolve: 'gatsby-source-filesystem',
