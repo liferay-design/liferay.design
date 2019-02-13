@@ -32,7 +32,7 @@ const questionsInclusive = [
 
 const descriptorsInclusive = [
 	"Universal",
-	"Open Source Design",
+	"Open",
 	"Consistent"
 ];
 
@@ -46,9 +46,9 @@ const questionsHonest = [
 ];
 
 const descriptorsHonest = [
-	"Affordances",
+	"Affordant",
 	"Transparent",
-	"People Centered"
+	"Human"
 ];
 
 const questionsPleasurable = [
@@ -94,7 +94,7 @@ const Principles = () => {
 				<PrincipleCard 
 					symbol="/images/principles/symbol-intentional.svg"
 					name="Intentional" 
-					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level." wordOne="Simple"
+					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the person's knowledge or concentration level." wordOne="Simple"
 					descriptors={descriptorsIntentional}
 					questions={questionsIntentional}
 					plxSide={styles.plxElementLeft}
@@ -106,7 +106,7 @@ const Principles = () => {
 				<PrincipleCard 
 					symbol="/images/principles/symbol-inclusive.svg"
 					name="Inclusive" 
-					description="Design for real people, not stereotyped personas. Reflect reality, use expected, consistent patterns and natural metaphors."
+					description="Design for real people, not stereotyped personas. Reflect reality; use expected, contextual patterns and natural metaphors."
 					descriptors={descriptorsInclusive}
 					questions={questionsInclusive}
 					plxSide={styles.plxElementRight}
