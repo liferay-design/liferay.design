@@ -11,30 +11,30 @@ const PrinciplesFooter = () => {
 						<svg width="238" height="238" viewBox="0 0 238 238" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.footerBadge}>
 							<path id="topCurve" d="M15 120C15 60.5 66 18 119 18C172 18 223 62 223 120" stroke="none"/>
 							<path id="bottomCurve" d="M15 120.5C15 179.5 60.7281 225.5 119 225.5C177.272 225.5 223 181 223 120.5" stroke="none"/>
-							<text style={{
-								fill:"#fff",
-								fonFamily:"Source Sans Pro",
-								fontStyle:"normal",
-								fontWeight: "bold",
-								lineHeight: "normal",
-								fontSize: "16px",
-								textAlign: "center",
-								letterSpacing: "2px",
-								textTransform: "uppercase"
-
+							<text 
+								textAnchor= "middle"
+								dominantBaseline="middle" 
+								style={{
+									fill:"#fff",
+									fonFamily:"Source Sans Pro",
+									fontStyle:"normal",
+									fontWeight: "bold",
+									lineHeight: "normal",
+									fontSize: "16px",
+									textAlign: "center",
+									letterSpacing: "2px",
+									textTransform: "uppercase"
 							}}> 
 								<textPath
 									startOffset="52%" 
 									href="#topCurve" 
-									textAnchor= "middle"
-									dominantBaseline="middle" >
+									>
 								Liferay Inc.
 								</textPath>
 								<textPath
 									startOffset="50%" 
 									href="#bottomCurve"
-									textAnchor= "middle"
-									dominantBaseline="middle" 
+									
 									style={{
 										transform:"translateY(18px)"}}>
 								Design Principles

@@ -8,10 +8,10 @@ const PrinciplesHeader = () => {
 			<div className={styles.headerText}>
 				{/* is this necessary? we have the waffle above <h4>Liferay</h4> */} 
 				<h1>Design Principles</h1>
-				
+{/* 				
 				<p>
 					We seek to produce good design. 
-				</p>
+				</p> */}
 				<p>
 					These principles guide our work, and provide standards for what good design means at Liferay.
 				</p>
