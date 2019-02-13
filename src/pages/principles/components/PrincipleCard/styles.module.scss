@@ -5,9 +5,7 @@ $accent-color: #006de7;
 button {
   margin: 0;
   padding: 0;
-
   vertical-align: middle;
-
   color: inherit;
   border: 0;
   outline: 0;
@@ -16,11 +14,9 @@ button {
 
 .card-section {
 	position: relative;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 100vw;
 	height: 90vh;
 
@@ -32,23 +28,19 @@ button {
 .card {
 	position: relative;
 	z-index: 2;
-
 	display: flex;
 	overflow: hidden;
 	justify-content: center;
 	// width: 800px;
 	// height: 400px;
-
 	width: 80vw;
 	max-width: 1296px;
 	height: 40vw;
 	min-height: 520px;
 	max-height: 640px;
 	// margin-bottom: 220px;
-
 	background-color: #fff;
 	box-shadow: 0 2rem 5rem rgba(58, 56, 68, 0.1), 0 .5rem 3rem rgba(58, 56, 68, 0.1);
-
 	contain: content;
 
 	@media screen and (max-width: $screenSmall) {
@@ -59,12 +51,10 @@ button {
 	//Principle Card Content
 	.card-content-principle {
 		position: absolute;
-
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		justify-content: center;
-
 		width: 100%;
 		height: 100%;
 		padding: 16px;
@@ -81,56 +71,44 @@ button {
 		}
 
 		h3 {
-			margin: 16px 0px 24px 0px;
-
+			margin: $spacingSmall 0 $spacingXSmall;
 			transition: all 0.25s ease;
 			transition-delay: 0.565s;
 			//animate
 			transform: translateX(0%);
-
 			opacity: 1;
 			color: $brandPrimary;
-
 			font-size: 32px;
 			font-weight: 800;
 		}
 
 		p {
-			max-width: 500px;
-
+			max-width: $screenSmall;
 			transition: all 0.25s ease;
 			transition-delay: 0.58s;
 			//animate
 			transform: translateX(0%);
 			text-align: center;
-
 			opacity: 1;
-			color: rgba(58, 56, 68, 0.5);
-
-			font-size: 18px;
+			color: $gray-600;
+			font-size: $fontSizeMedium;
 		}
 
 		ul {
 			display: flex;
 			align-items: center;
-			justify-content: space-around;
-
+			justify-content: space-between;
 			width: 50%;
-			max-width: 500px;
+			max-width: $screenSmall;
 			padding-left: 0;
-
 			list-style: none;
-
 			transition: all 0.25s ease;
 			transition-delay: 0.72s;
-			//animate
 			transform: translateX(0%);
-
 			opacity: 1;
 
 			@media screen and (max-width: $screenSmall) {
 				flex-direction: column;
-
 				width: 100%;
 			  }
 
@@ -148,36 +126,27 @@ button {
 	//Questions
 	.card-content-questions {
 		position: absolute;
-
 		display: flex;
 		overflow: hidden;
 		align-items: center;
 		flex-direction: row;
-
 		width: 100%;
 		height: 100%;
-
 		transition: transform 1s ease;
 		transition-delay: 0s;
 		transform: translateX(100%);
 		// justify-content: center;
-
 		background-color: $brandPrimary;
 
 		.shape {
 			position: absolute;
-
 			width: 25%;
 			height: auto;
-
 			mix-blend-mode: screen;
-
 			transition: all 0.25s ease;
 			transform: translateX(0px);
 			//animate
-
 			opacity: 0;
-
 			@media screen and (max-width: $screenSmall) {
 				width: 50%;
 			  }
@@ -186,9 +155,7 @@ button {
 
 		ul {
 			margin-left: 25%;
-
 			list-style: none;
-
 			color: #fff;
 
 			@media screen and (max-width: $screenSmall) {
@@ -202,12 +169,9 @@ button {
 				transition-delay: 0.15s;
 				//animate
 				transform: translateX(30%);
-
 				opacity: 0;
-
 				font-size: $fontSizeBase;
 				line-height: 300%;
-
 				@media screen and (max-width: $screenSmall) {
 					margin-bottom: 1rem;
 
@@ -217,12 +181,9 @@ button {
 
 					a {
 						overflow: hidden;
-
 						text-decoration: underline;
-
 						color: $white;
 						background-color: $brandPrimary;
-
 						font-weight: $fontWeightHeavy;
 					}
 			}
@@ -307,7 +268,6 @@ button {
 		.shape {
 			transition-delay: 0s;
 			transform: translateX(-50%);
-
 			opacity: 0;
 		}
 
