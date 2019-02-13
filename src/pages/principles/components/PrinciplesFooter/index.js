@@ -24,12 +24,13 @@ const PrinciplesFooter = () => {
 									textAlign: "center",
 									letterSpacing: "2px",
 									textTransform: "uppercase"
+
 							}}> 
 								<textPath
 									startOffset="52%" 
 									href="#topCurve" 
 									>
-								Liferay Inc.
+								Liferay Design Principles
 								</textPath>
 								<textPath
 									startOffset="50%" 
@@ -37,7 +38,6 @@ const PrinciplesFooter = () => {
 									
 									style={{
 										transform:"translateY(18px)"}}>
-								Design Principles
 								</textPath>
 							</text>
 							<g transform="scale(.67) translate(58 58)">
@@ -47,7 +47,7 @@ const PrinciplesFooter = () => {
 					</div>
 				</Link>
 			</div>
-			<div className={styles.footerLowerCircle} />
+			{/* <div className={styles.footerLowerCircle} /> */}
 		</div>
 	)
 }

@@ -135,7 +135,8 @@ const Principles = () => {
 					questions={questionsPleasurable}
 				/>
 			</Flex>
-			<PrinciplesFooter />
+			{/* <PrinciplesFooter /> */}
+			<Footer light />
 		</div>
 	)
 }
