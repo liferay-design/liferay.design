@@ -6,12 +6,14 @@ const PrinciplesHeader = () => {
 		<div className={styles.circleHeader}>
 			<img src="/images/logos/liferay-waffle-white.svg" className={styles.headerBadge} />
 			<div className={styles.headerText}>
-				<h4>Liferay</h4>
+				{/* is this necessary? we have the waffle above <h4>Liferay</h4> */} 
 				<h1>Design Principles</h1>
+				
 				<p>
-					Ut facilisis, lacus non hendrerit iaculis, ipsum dolor varius ligula,
-					eu lobortis orci sem accumsan justo. Proin in justo eget sem porta
-					tincidunt. Maecenas sapien tellus.
+					We seek to produce good design. 
+				</p>
+				<p>
+					These principles guide our work, and provide standards for what good design means at Liferay.
 				</p>
 			</div>
 		</div>
@@ -19,3 +21,5 @@ const PrinciplesHeader = () => {
 }
 
 export default PrinciplesHeader
+
+// TODO: abstract this content out to props
