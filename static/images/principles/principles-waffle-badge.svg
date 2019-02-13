@@ -14,7 +14,7 @@
         line-height: normal;
         font-size: 24px;
         text-align: center;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         text-transform: uppercase;">
     Liferay Inc.
     </textPath>
@@ -30,7 +30,7 @@
         line-height: normal;
         font-size: 24px;
         text-align: center;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         text-transform: uppercase;
         transform: translateY(18px);">
     Design Principles
