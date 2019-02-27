@@ -1,9 +1,10 @@
 ---
-author: 'James Lyons'
+author: 'fa_figma'
 authorLink: '/team/lyons-james'
-date: '2018-12-10'
-title: '90 Days of UX at Liferay'
-description: '3 Min Read'
+date: '2019-02-12'
+title: 'Design at Scale'
+description: 'Madrid 🇪🇸'
+featuredImage: '/images/events/design-at-scale-madrid-2019.jpg'
 ---
 
 

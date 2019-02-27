@@ -1,10 +1,10 @@
 ---
-author: 'James Lyons'
-# use authorLink for link out for signups
-authorLink: '/team/lyons-james' 
-date: '2018-10-10'
-title: 'Design at Scale in Madrid'
-description: '3 Min Read'
+author: 'fa_film'
+# authorLink: '/team/lyons-james'
+date: '2018-03-13'
+title: 'Design Disruptors Screening'
+description: 'Los Angeles 🇺🇸'
+featuredImage: '/images/events/design-disruptors-viewing.jpg'
 ---
 
 
