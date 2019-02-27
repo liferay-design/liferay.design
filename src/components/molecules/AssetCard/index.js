@@ -4,7 +4,7 @@ import { ColorField } from 'components/molecules'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 
-export default function AssetCard({ asset, title, preview, link, cta, letter }) {
+export default function CardAsset({ asset, title, preview, link, cta, letter }) {
 	return (
 		<Flex className={styles.container} direction="column" width="100%">
 			<Flex
@@ -32,7 +32,7 @@ export default function AssetCard({ asset, title, preview, link, cta, letter }) 
 	)
 }
 
-AssetCard.propTypes = {
+CardAsset.propTypes = {
 	preview: PropTypes.string.isRequired,
 	asset: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,

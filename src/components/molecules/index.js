@@ -1,5 +1,5 @@
 import Accordion from './Accordion'
-import AssetCard from './AssetCard'
+import CardAsset from './CardAsset'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
 import CardDefault from './CardDefault'
@@ -19,7 +19,7 @@ import SocialIcons from './SocialIcons'
 
 export {
 	Accordion,
-	AssetCard,
+	CardAsset,
 	AuthContainer,
 	Billboard,
 	CardDefault,
