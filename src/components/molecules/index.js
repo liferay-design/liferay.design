@@ -2,6 +2,7 @@ import Accordion from './Accordion'
 import AssetCard from './AssetCard'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
+import CardDefault from './CardDefault'
 import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import ColorField from './ColorField'
@@ -21,6 +22,7 @@ export {
 	AssetCard,
 	AuthContainer,
 	Billboard,
+	CardDefault,
 	ColorSwatch,
 	ColorSwatchDigital,
 	ColorField,
