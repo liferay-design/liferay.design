@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 import { Flex, Heading, Text, Icon } from 'components/atoms'
 
-const LexiconCard = ({
+const CardLexicon = ({
 	title,
 	text,
 	cta,
@@ -64,7 +64,7 @@ const LexiconCard = ({
 	)
 }
 
-LexiconCard.propTypes = {
+CardLexicon.propTypes = {
 	cta: PropTypes.string,
 	direction: PropTypes.string,
 	icon: PropTypes.string,
@@ -76,10 +76,10 @@ LexiconCard.propTypes = {
 	to: PropTypes.string,
 }
 
-LexiconCard.defaultProps = {
+CardLexicon.defaultProps = {
 	direction: 'vertical',
 	iconWidth: '6rem',
 	iconHeight: '6rem',
 }
 
-export default LexiconCard
+export default CardLexicon
