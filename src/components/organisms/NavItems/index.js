@@ -11,6 +11,8 @@ const NavItems = () => {
 		<Flex className={styles.entry} align="center">
 			<Flex className={styles.items}>
 				<Link to="/articles">Articles</Link>
+				
+				<Link to="/events">Events</Link>
 
 				<Link to="/team">Team</Link>
 
