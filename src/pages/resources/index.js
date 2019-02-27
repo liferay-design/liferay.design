@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainLayout } from 'components/templates'
 import { Container } from 'components/atoms'
-import { LexiconCard } from 'components/molecules'
+import { CardLexicon } from 'components/molecules'
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 
@@ -10,7 +10,7 @@ const ResourcesPage = () => (
 		<Container>
 			<Grid className={styles.grid} gap="2rem">
 				<Grid.Item>
-					<LexiconCard
+					<CardLexicon
 						dark
 						icon="whyBlueprints"
 						title="Blueprints"
@@ -20,7 +20,7 @@ const ResourcesPage = () => (
 					/>
 				</Grid.Item>
 				<Grid.Item>
-					<LexiconCard
+					<CardLexicon
 						dark
 						icon="lexicon"
 						title="Lexicon"
@@ -30,7 +30,7 @@ const ResourcesPage = () => (
 					/>
 				</Grid.Item>
 				<Grid.Item>
-					<LexiconCard
+					<CardLexicon
 						dark
 						// icon="liferayDesign"
 						title="Dashboard"
@@ -40,7 +40,7 @@ const ResourcesPage = () => (
 					/>
 				</Grid.Item>
 				<Grid.Item>
-					<LexiconCard
+					<CardLexicon
 						dark
 						// icon="liferayDesign"
 						title="Handbook"

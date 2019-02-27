@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
-import { Billboard, LexiconCard } from 'components/molecules'
+import { Billboard, CardLexicon } from 'components/molecules'
 import { Footer, Navbar, Banner } from 'components/organisms'
 import styles from './styles.module.scss'
 import { Card, CardTitle, CardText } from 'react-md'
@@ -60,7 +60,7 @@ const Blueprints = () => (
 									</Text>
 								</Grid.Item>
 								<Grid.Item area="tlc" marginTop="-8rem">
-									<LexiconCard
+									<CardLexicon
 										icon="whyBlueprints"
 										title="Why Blueprints"
 										text="A single source of truth for Liferay so that we can go
@@ -70,7 +70,7 @@ const Blueprints = () => (
 									/>
 								</Grid.Item>
 								<Grid.Item area="trc" marginTop="-8rem">
-									<LexiconCard
+									<CardLexicon
 										icon="logos"
 										title="Just the Logos, Please"
 										text="We know what you’re looking for, and we respect that.
@@ -80,7 +80,7 @@ const Blueprints = () => (
 									/>
 								</Grid.Item>
 								<Grid.Item area="m">
-									<LexiconCard
+									<CardLexicon
 										wide
 										icon="resources"
 										iconHeight="10rem"
@@ -94,7 +94,7 @@ const Blueprints = () => (
 									/>
 								</Grid.Item>
 								<Grid.Item area="blc">
-									<LexiconCard
+									<CardLexicon
 										icon="faqs"
 										title="FAQ"
 										text="Have a question? We have frequently given answers."
@@ -103,7 +103,7 @@ const Blueprints = () => (
 									/>
 								</Grid.Item>
 								<Grid.Item area="brc">
-									<LexiconCard
+									<CardLexicon
 										icon="liferayDesign"
 										title="Liferay.Design"
 										text="Shameless plug for the people behind all of this
