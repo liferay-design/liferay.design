@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { MainLayout } from 'components/templates'
-import { Posts } from 'components/organisms'
-import { Container, Heading } from 'components/atoms'
+import { CardGrid, Container, Heading } from 'components/atoms'
+import { CardDefault } from 'components/molecules'
 
 export default ({ data }) => {
 	return (
@@ -15,15 +15,26 @@ export default ({ data }) => {
 			<Heading level={1} color="white" padding="4rem">
 				Past Events
 			</Heading>
+			<CardGrid>
 				{data.allMdx.edges.map(({ node }) => (
-					<div key={node.id}>
-						<Link to={node.fields.slug}>
-							<h3>{node.frontmatter.title}</h3>
+					<CardDefault
+						key={node.id}
+						imageURL={node.frontmatter.featuredImage}
+						link={node.fields.slug}
+						title={node.frontmatter.title}
+						subtitle={node.frontmatter.description}
+						icon={node.frontmatter.author}
+					/>
+					
+					// <div key={node.id}>
+					// 	<Link to={node.fields.slug}>
+					// 		<h3>{node.frontmatter.title}</h3>
 
-							<p>{node.excerpt}</p>
-						</Link>
-					</div>
+					// 		<p>{node.excerpt}</p>
+					// 	</Link>
+					// </div>
 				))}
+				</CardGrid>
 			</Container>
 		</MainLayout>
 	)
@@ -38,6 +49,9 @@ export const query = graphql`
 					id
 					frontmatter {
 						title
+						description
+						featuredImage
+						author
 					}
 					fields {
 						slug
