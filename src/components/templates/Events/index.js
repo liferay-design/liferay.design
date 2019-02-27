@@ -6,13 +6,13 @@ import { Flex } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 
-export default class Articles extends Component {
+export default class Events extends Component {
 	render() {
 		const post = this.props.data.mdx
 
 		return (
 			<div>
-				<Navbar section="Articles" />
+				<Navbar section="Events" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<h1>
