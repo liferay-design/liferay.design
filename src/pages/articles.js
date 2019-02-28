@@ -21,7 +21,7 @@ export default ({ data }) => {
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={node.frontmatter.description}
-							icon={node.frontmatter.avatar}
+							avatarImageURL={node.frontmatter.avatar}
 						/>
 					))}
 				</CardGrid>
