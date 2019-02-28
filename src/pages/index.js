@@ -6,9 +6,9 @@ import { Container } from 'components/atoms'
 const Home = () => (
 	<MainLayout>
 		<HeroBanner />
-		<Container>
+		{/* <Container>
 			<Posts />
-		</Container>
+		</Container> */}
 	</MainLayout>
 )
 
