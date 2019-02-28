@@ -28,7 +28,7 @@ export default class Careers extends Component {
 				<Flex justify="center" align="center" className={styles.banner}>
 					<div className={styles.largeContainer}>
 					<h1>{post.frontmatter.title} 
-						<span>{post.frontmatter.author} </span>
+						<span>{post.frontmatter.cityRegion} </span>
 					</h1>
 					{/* <div className={styles.role}>
 						<h2>{post.frontmatter.description}</h2>
@@ -43,7 +43,7 @@ export default class Careers extends Component {
 								as="a"
 								target="new"
 								opaque="false"
-								href={post.frontmatter.authorLink}
+								href={post.frontmatter.applyLink}
 							>
 								Apply on Jobvite <Icon name="externalLink" margin="0 .2rem 0 .1rem" height=".8rem" width=".8rem" fill="white" />
 							</ApplyButton>
@@ -61,8 +61,8 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				author
-				authorLink
+				cityRegion
+				applyLink
 				description
 				title
 			}
