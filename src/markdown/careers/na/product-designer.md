@@ -5,7 +5,7 @@ date: '2018-12-10'
 title: 'Product Designer'
 description: 'Los Angeles'
 featuredImage: '/images/posts/ux-designer.jpg'
-avatar: 'fa_coffee'
+avatar: '/images/headshots/-nerd-face.png'
 ---
 
 ## Who Designs at Liferay?
