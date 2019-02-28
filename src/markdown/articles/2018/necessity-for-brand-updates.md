@@ -4,6 +4,8 @@ authorLink: '/team/hanaoka-paul'
 date: '2018-12-10'
 title: 'Brand Updates at Liferay'
 description: '9 Min Read'
+featuredImage: '/images/posts/dribbble-coaster.jpg'
+avatar: '/images/headshots/hanaoka-paul.jpg'
 ---
 
 What is Liferay DXP? I’m sure you’ve asked yourself this question. I’m even more sure you’ve heard someone else ask this question.

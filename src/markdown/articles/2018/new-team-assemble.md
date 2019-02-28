@@ -4,6 +4,8 @@ authorLink: '/team/hanaoka-paul'
 date: '2018-11-27T17:12:33.962Z'
 title: 'New Team, Assemble!'
 description: '3 Min Read'
+featuredImage: '/images/posts/assemble.jpg'
+avatar: '/images/headshots/hanaoka-paul.jpg'
 ---
 
 The beginning of November marked my first year as Liferay's UX Design Manager for North America. As Design organizations are wont to do, we restructured and consolidated some designers from marketing and engineering into a fledgling User Experience team based out of our office in ~~Diamond Bar~~ Los Angeles.
@@ -57,7 +59,6 @@ _This could not be posted on Medium without a proper B&W picture | photo by [Dav
 
 ## Looking Ahead
 
-2018 was a long year. I haven't even finished all the things mentioned above, but we're working hard and continuously improving. We're almost always hiring, so if any of this sounds good and you want to join, [check out our careers page](https://liferay.com/careers) _(yes, we know it sucks, but the API is kind of hard to work with)_! 
+2018 was a long year. I haven't even finished all the things mentioned above, but we're working hard and continuously improving. We're almost always hiring, so if any of this sounds good and you want to join, [check out our careers page](https://liferay.com/careers) _(yes, we know it sucks, but the API is kind of hard to work with)_!
 
 If this is all a bunch of crap and you hate it, please be sure to [let me have it on twitter ](https://twitter.com/plhnk)&mdash; but also check out [our careers page](https://liferay.com/careers) and help me.
-
