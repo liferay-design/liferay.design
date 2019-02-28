@@ -21,6 +21,10 @@
 		height: $spacingBase * 2;
 		width: $spacingBase * 2;
 		position: absolute;
+		img {
+			height: 100%;
+			width: 100%;
+		}
 	}
 
 	.null {
