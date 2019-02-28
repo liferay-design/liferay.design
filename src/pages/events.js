@@ -41,24 +41,28 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-	{
-		allMdx(filter: { fileAbsolutePath: { regex: "/(events)/(past)/" } }) {
-			totalCount
-			edges {
-				node {
-					id
-					frontmatter {
-						title
-						description
-						featuredImage
-						author
+			{
+				allMdx(
+					filter: { fileAbsolutePath: { regex: "/(events)/(past)/" } }
+					sort: { order: DESC, fields: [frontmatter___date] }
+				) {
+					totalCount
+					edges {
+						node {
+							id
+							frontmatter {
+								title
+								description
+								featuredImage
+								author
+								date(formatString: "MMMM DD, YYYY")
+							}
+							fields {
+								slug
+							}
+							excerpt
+						}
 					}
-					fields {
-						slug
-					}
-					excerpt
 				}
 			}
-		}
-	}
-`
+		`
