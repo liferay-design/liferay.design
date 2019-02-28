@@ -43,10 +43,11 @@
 		padding: ($spacingBase + $spacingXSmall) $spacingBase $spacingMedium;
 		.title {
 			font-size: $fontSizeLarge;
+			margin: $spacingSmall 0;
 			padding: 0;
 		}
 		.text {
-			color: $grey;
+			color: $gray-500;
 			font-size: $fontSizeMedium;
 			padding: 0;
 		}
