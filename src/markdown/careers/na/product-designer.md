@@ -3,7 +3,9 @@ author: 'Los Angeles, CA'
 authorLink: 'https://app.jobvite.com/j?aj=oqKh9fwk&s=liferay-dot-design'
 date: '2018-12-10'
 title: 'Product Designer'
-description: ''
+description: 'Los Angeles'
+featuredImage: '/images/posts/ux-designer.jpg'
+avatar: 'fa_coffee'
 ---
 
 ## Who Designs at Liferay?
