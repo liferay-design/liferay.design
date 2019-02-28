@@ -18,10 +18,8 @@ export default class Events extends Component {
 					<h1>
 						{post.frontmatter.title}{' '}
 						<span>
-							by{' '}
-							<a href={withPrefix(post.frontmatter.authorLink)}>
-								{post.frontmatter.author}
-							</a>
+							{' '}
+								{post.frontmatter.date}
 						</span>
 					</h1>
 					<div className={styles.role}>
@@ -40,17 +38,18 @@ export default class Events extends Component {
 }
 
 export const pageQuery = graphql`
-	query($slug: String!) {
-		mdx(fields: { slug: { eq: $slug } }) {
-			frontmatter {
-				author
-				authorLink
-				description
-				title
+			query($slug: String!) {
+				mdx(fields: { slug: { eq: $slug } }) {
+					frontmatter {
+						author
+						authorLink
+						description
+						title
+						date(formatString: "MMMM DD, YYYY")
+					}
+					code {
+						body
+					}
+				}
 			}
-			code {
-				body
-			}
-		}
-	}
-`
+		`
