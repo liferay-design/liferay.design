@@ -3,7 +3,7 @@ author: 'Paul Hanaoka'
 authorLink: '/team/hanaoka-paul'
 date: '2018-12-10'
 title: 'Brand Updates at Liferay'
-description: '9 Min Read'
+description: '6 Min Read'
 featuredImage: '/images/posts/dribbble-coaster.jpg'
 avatar: '/images/headshots/hanaoka-paul.jpg'
 ---
