@@ -12,11 +12,13 @@ const NavItems = () => {
 			<Flex className={styles.items}>
 				<Link to="/articles">Articles</Link>
 				
+				<Link to="/careers">Careers</Link>
+				
 				<Link to="/events">Events</Link>
 
 				<Link to="/team">Team</Link>
 
-				<Link to="/resources">Resources</Link>
+				{/* <Link to="/resources">Resources</Link> */}
 			</Flex>
 
 			<AuthContainer />
