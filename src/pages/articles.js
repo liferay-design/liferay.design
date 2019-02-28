@@ -25,19 +25,6 @@ export default ({ data }) => {
 						/>
 					))}
 				</CardGrid>
-
-				<Posts />
-				<h4>{data.allMdx.totalCount} Posts</h4>
-
-				{data.allMdx.edges.map(({ node }) => (
-					<div key={node.id}>
-						<Link to={node.fields.slug}>
-							<h3>{node.frontmatter.title}</h3>
-
-							<p>{node.excerpt}</p>
-						</Link>
-					</div>
-				))}
 			</Container>
 		</MainLayout>
 	)
