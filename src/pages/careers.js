@@ -21,7 +21,6 @@ export default ({ data }) => {
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={node.frontmatter.description}
-							// icon={node.frontmatter.avatar}
 							avatarImageURL={node.frontmatter.avatar}
 						/>
 					))}
@@ -42,7 +41,6 @@ export const query = graphql`
 						title
 						description
 						featuredImage
-						author
 						avatar
 					}
 					fields {
