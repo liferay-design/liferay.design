@@ -4,6 +4,8 @@ authorLink: '/team/jeong-chris'
 date: '2018-11-29'
 title: 'Year 1 Retrospective'
 description: '5 Min Read'
+featuredImage: '/images/posts/cj-change.jpeg'
+avatar: '/images/headshots/jeong-chris.jpg'
 ---
 
 During my first year at Liferay, I had the pleasure of contributing to taking our Analytics Cloud offering from idea to reality. During this period, we’ve had anywhere between 3 to 8 designers at various design stages attending brainstorming sessions, providing countless comments over Invision and Figma, and at times flying thousands of miles just to be in the same room together. We did all of this in the name of taking an abstract idea to a concrete product.

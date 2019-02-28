@@ -3,7 +3,9 @@ author: 'PJ Pentz'
 authorLink: '/team/pentz-patrick'
 date: '2018-12-06'
 title: 'Reflecting on My First Year Designing at Liferay'
-description: '5 Min Read'
+description: '9 Min Read'
+featuredImage: '/images/posts/pj-first-year.jpeg'
+avatar: '/images/headshots/pentz-patrick.jpg'
 ---
 
 _Learning to work across different teams as a UX Designer_
