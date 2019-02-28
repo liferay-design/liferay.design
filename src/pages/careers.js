@@ -15,12 +15,14 @@ export default ({ data }) => {
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }) => (
 						<CardDefault
+							avatarImage
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={node.frontmatter.description}
-							icon={node.frontmatter.avatar}
+							// icon={node.frontmatter.avatar}
+							avatarImageURL={node.frontmatter.avatar}
 						/>
 					))}
 				</CardGrid>
