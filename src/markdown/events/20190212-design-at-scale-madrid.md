@@ -1,16 +1,26 @@
 ---
-author: 'fa_figma'
-authorLink: '/team/lyons-james'
-date: '2019-02-12'
-title: 'Design at Scale'
-description: 'Madrid 🇪🇸'
-featuredImage: '/images/events/design-at-scale-madrid-2019.jpg'
+draft: false #requried (true or false)
+
+#Event Card Fields
+author: 'fa_figma' #requried
+title: 'Design at Scale' #requried
+featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #requried
+description: 'Madrid 🇪🇸' #required
+
+#Event Details
+startDateTime: '2019-02-12T00:00' #required (yyyy-mm-ddThh:mm)
+endDateTime: ''
+
+
+summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'
+
+locationName: 'Liferay, Inc – Diamond Bar, CA' #requried
+locationAddress: ''
+locationURL: 'https://goo.gl/maps/q1BzwoswY112'
+
+heroImage: ''
+bodyImage: '/images/events/design-at-scale-madrid-2019.jpg'
 ---
-
-Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.
-
-![The Figmaster](/images/events/design-at-scale-madrid-2019.jpg)
-_The Figmaster Himself, [Emiliano Cicero](https://twitter.com/EmilianoGCicero)_
 
 ## Biggest Takeaway
 
