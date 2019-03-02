@@ -19,6 +19,8 @@ locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
 heroImage: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80'
 bodyImage: 'https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2900&q=80'
+
+ctaURL: 'https://www.meetup.com/'
 ---
 
 ## Biggest Takeaway
