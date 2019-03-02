@@ -1,10 +1,24 @@
 ---
-author: 'fa_film'
-# authorLink: '/team/lyons-james'
-date: '2018-03-13'
-title: 'Design Disruptors Screening'
-description: 'Los Angeles 🇺🇸'
-featuredImage: '/images/events/design-disruptors-viewing.jpg'
+draft: false #requried (true or false)
+
+#Event Card Fields
+author: 'fa_figma' #requried
+title: 'Design Disruptors Screening' #requried
+featuredImage: '/images/events/design-disruptors-viewing.jpg' #requried
+description: 'Los Angeles 🇺🇸' #required
+
+#Event Details
+startDateTime: '2018-03-13T18:30' #required (yyyy-mm-ddThh:mm)
+endDateTime: ''
+
+
+summary: 'James talks about his first year working at Liferay and how he discovered our company at a Design Disruptors Screening'
+
+locationName: 'Liferay, Inc – Diamond Bar, CA' #requried
+locationURL: 'https://goo.gl/maps/q1BzwoswY112'
+
+heroImage: ''
+bodyImage: '/images/events/design-disruptors-viewing.jpg'
 ---
 
 

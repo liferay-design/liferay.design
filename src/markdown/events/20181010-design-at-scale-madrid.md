@@ -1,10 +1,24 @@
 ---
-author: 'fa_object_group'
-authorLink: '/team/lyons-james' 
-date: '2018-10-10'
-title: 'Design at Scale'
-description: 'Madrid 🇪🇸'
-featuredImage: '/images/events/design-at-scale-madrid-2018.jpg'
+draft: false #requried (true or false)
+
+#Event Card Fields
+author: 'fa_object_group' #requried
+title: 'Design at Scale' #requried
+featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #requried
+description: 'Madrid 🇪🇸' #required
+
+#Event Details
+startDateTime: '2019-01-26T19:30' #required (yyyy-mm-dd)
+endDateTime: ''
+
+
+summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'
+
+locationName: 'Liferay – Madrid' #requried (yyyy-mm-ddThh:mm)
+locationURL: 'https://goo.gl/maps/JQZZugSQ5iG2'
+
+heroImage: ''
+bodyImage: '/images/events/design-at-scale-madrid-2018.jpg'
 ---
 
 
