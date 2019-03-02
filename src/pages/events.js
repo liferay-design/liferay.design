@@ -43,7 +43,12 @@ export default ({ data }) => {
 export const query = graphql`
 			{
 				allMdx(
-					filter: { fileAbsolutePath: { regex: "/(events)/(past)/" } }
+					filter: {
+						fileAbsolutePath: { regex: "/(events)/(past)/" }
+						frontmatter: { 
+							draft: { eq: false }
+						}
+					}
 					sort: { order: DESC, fields: [frontmatter___date] }
 				) {
 					totalCount
