@@ -5,45 +5,108 @@
 	max-width: 80rem;
 	width: 100%;
 	padding: 3rem 1rem 3rem;
-	height: 40vh;
-	max-height: $screenMedium;
 	position: relative;
-	h1 {
-		order: 2;
-		font-size: $fontSizeDisplay;
-		line-height: 0.9;
-		color: $white;
-		z-index: 2;
-		font-weight: $fontWeightHeavy;
-		box-shadow: $elevation1;
-		span {
-			position: absolute;
-			display: block;
-			font-size: $fontSizeBase;
-			color: $grey;
-			line-height: 2;
-			top: 50vh;
-			margin-left: 1ch;
-		}
-	}
-	.role {
-		width: 100px;
-		h2 {
-			transform: translateX(-$spacingLarge) rotate(-90deg);
+	font-family: $fontFamilySecondary;
+	.bannerContent{
+		max-width: 44rem;
+		h1 {
+			font-size: $fontSizeDisplay;
+			line-height: 0.9;
+			color: $white;
 			font-weight: $fontWeightHeavy;
-			font-size: $fontSizeXSmall;
-			text-transform: uppercase;
-			color: $grey;
-			letter-spacing: 0.5ch;
-			width: 35ch;
-			text-align: center;
+			box-shadow: $elevation1;
+			margin: 0;
+			font-family: $fontFamilyPrimary;
+			div {
+				background: rgba(255, 255, 255, 0.04);
+				width: 2ch;
+				height: 2ch;
+				position: absolute;
+				left: 0;
+				top: 3rem;
+				@media only screen and (max-width: 1280px)  {
+					left: 3rem;
+				}
+				span {
+					&:nth-of-type(1) {
+						display: block;
+						font-size: $fontSizeBase;
+						color: $white;
+						opacity: 0.3;
+						text-transform: uppercase;
+						letter-spacing: 0.7em;
+						margin-right: -0.7em;
+						padding-bottom: 0.5em;
+					}
+					&:nth-of-type(2) {
+						display: block;
+						font-size: $fontSizeXXLarge;
+						color: $white;
+						text-transform: uppercase;
+						opacity: 1;
+					}
+				}
+			}
+		}
+		h2 {
+			.startTime,
+			.endTime,
+			.locationName a {
+				font-family: $fontFamilySecondary;
+				font-weight: $fontWeightLight;
+				font-size: $fontSizeMedium;
+				color: $white;
+			}
+			.locationName {
+				display: block;
+				position: relative;
+				a {
+					position: relative;
+				}
+				a:after {
+					background: #fff;
+					bottom: -0.5em;
+					content: '';
+					position: absolute;
+					right: 0;
+					height: 3px;
+					transition: transform 0.4s ease;
+					transform-origin: right;
+					transform: scaleX(0);
+					width: 100%;
+				}
+				a:hover:after {
+					transition: transform 0.2s ease;
+					transform: scaleX(1);
+				}
+			}
+		}
+		.heroImage {
+			width: 90vw;
+			position: relative;
+			left: calc(-50vw + 50%);
+			max-height: 80vh;
+			margin: 8rem 0 4rem;
+		}
+		.summary {
+			font-size: $fontSizeLarge;
+			color: $white;
+			font-weight: $fontWeightLight;
+		}
+		.bodyImage {
+			width: 90vw;
+			height: 40vw;
+			position: relative;
+			left: calc(-45vw + 50%);
+			margin-top: 4rem;
+			margin-bottom: calc(-20vw - 4rem);
 		}
 	}
 }
 
 .markdownContainer {
 	margin-bottom: auto;
-	padding: 6rem 3rem;
+	padding: calc(20vw + 6rem) 3rem 6rem;
 	font-family: $fontFamilySecondary;
 	background: white;
 	a {
