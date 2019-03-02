@@ -24,7 +24,7 @@
 				position: absolute;
 				left: 0;
 				top: 3rem;
-				@media only screen and (max-width: 1280px)  {
+				@media only screen and (max-width: $screenLarge)  {
 					left: 3rem;
 				}
 				span {
@@ -101,6 +101,25 @@
 			margin-top: 4rem;
 			margin-bottom: calc(-20vw - 4rem);
 		}
+	}
+}
+.ctaButton {
+	position: fixed;
+	background-color: $action;
+	right: 0;
+	top: 50vh;
+	transform-origin: right;
+	transform: rotate(.75turn) translateY(-50%);
+	padding: $spacingSmall $spacingMedium;
+	font-size: $fontSizeMedium;
+	color: $white;
+	font-weight: $fontWeightHeavy;
+	text-align: center;
+	@media only screen and (max-width: $screenSmall)  {
+		width: 100vw;
+		bottom: 74.3px;
+		top: unset;
+		transform: none;
 	}
 }
 

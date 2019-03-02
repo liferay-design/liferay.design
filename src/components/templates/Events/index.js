@@ -50,6 +50,7 @@ export default class Events extends Component {
 						{post.frontmatter.bodyImage && <img className={styles.bodyImage} src={post.frontmatter.bodyImage}/>}
 					</Flex>
 				</Flex>
+				<a href={post.frontmatter.ctaURL} className={styles.ctaButton} target="_blank">RSVP</a>
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>
@@ -76,6 +77,7 @@ export const pageQuery = graphql`
 						heroImage
 						summary
 						bodyImage
+						ctaURL
 					}
 					code {
 						body
