@@ -5,4 +5,11 @@ import HandbookLayout from './Handbook'
 import MainLayout from './MainLayout'
 import PrivatePage from './PrivatePage'
 
-export { Articles, BlueprintsLayout, Events, HandbookLayout, PrivatePage, MainLayout }
+export {
+    Articles,
+    BlueprintsLayout,
+    Events,
+    HandbookLayout,
+    PrivatePage,
+    MainLayout,
+}
