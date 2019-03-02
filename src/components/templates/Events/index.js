@@ -5,6 +5,7 @@ import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import moment from 'moment'
 
 export default class Events extends Component {
 	render() {
@@ -15,16 +16,39 @@ export default class Events extends Component {
 				<Navbar section="Events" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
-					<h1>
-						{post.frontmatter.title}{' '}
-						<span>
-							{' '}
-								{post.frontmatter.date}
-						</span>
-					</h1>
-					<div className={styles.role}>
-						<h2>{post.frontmatter.description}</h2>
-					</div>
+					<Flex direction="column" className={styles.bannerContent}>
+						<h1>
+							{post.frontmatter.title}{' '}
+							<Flex justify="center" align="center" direction="column">
+								<span>
+									{' '}
+										{moment(post.frontmatter.startDateTime).format("MMM")}
+								</span>
+								<span>
+									{' '}
+										{moment(post.frontmatter.startDateTime).format("DD")}
+								</span>
+							</Flex>
+						</h1>
+						<h2>
+							<span className={styles.startTime}>
+								{moment(post.frontmatter.startDateTime).format("h:mma")}
+							</span>
+							{post.frontmatter.endDateTime && <span className={styles.endTime}>
+								&nbsp; – &nbsp;{moment(post.frontmatter.endDateTime).format("h:mma")}
+							</span>}
+							<span className={styles.locationName}>
+								<a href={post.frontmatter.locationURL} target="_blank">
+									{post.frontmatter.locationName}
+								</a>
+							</span>
+						</h2>
+						{post.frontmatter.heroImage && <img className={styles.heroImage} src={post.frontmatter.heroImage}/>}
+						<p className={styles.summary}>
+							{post.frontmatter.summary}
+						</p>
+						{post.frontmatter.bodyImage && <img className={styles.bodyImage} src={post.frontmatter.bodyImage}/>}
+					</Flex>
 				</Flex>
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
@@ -45,7 +69,13 @@ export const pageQuery = graphql`
 						authorLink
 						description
 						title
-						date(formatString: "MMMM DD, YYYY")
+						startDateTime
+						endDateTime
+						locationName
+						locationURL
+						heroImage
+						summary
+						bodyImage
 					}
 					code {
 						body
