@@ -11,7 +11,7 @@ export default ({ data }) => {
 				<Heading level={1} color="white" padding="4rem">
 					Upcoming Events
 				</Heading>
-				{/* <h4>{data.allMdx.totalCount} Posts</h4> */}
+
 			<Heading level={1} color="white" padding="4rem">
 				Past Events
 			</Heading>
@@ -25,14 +25,6 @@ export default ({ data }) => {
 						subtitle={node.frontmatter.description}
 						icon={node.frontmatter.author}
 					/>
-					
-					// <div key={node.id}>
-					// 	<Link to={node.fields.slug}>
-					// 		<h3>{node.frontmatter.title}</h3>
-
-					// 		<p>{node.excerpt}</p>
-					// 	</Link>
-					// </div>
 				))}
 				</CardGrid>
 			</Container>
@@ -44,7 +36,7 @@ export const query = graphql`
 			{
 				allMdx(
 					filter: {
-						fileAbsolutePath: { regex: "/(events)/(past)/" }
+						fileAbsolutePath: { regex: "/(events)/" }
 						frontmatter: { 
 							draft: { eq: false }
 						}
