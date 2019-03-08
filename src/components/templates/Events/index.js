@@ -11,6 +11,12 @@ export default class Events extends Component {
 	render() {
 		const post = this.props.data.mdx
 
+		// Prereqs for conditional date rendering
+		const d1 = new Date(); // Get today's date
+		const today = d1.getTime(); // convert to date object
+		const d2 = new Date(moment(post.frontmatter.startDateTime).format("YYYY/MM/DD")); // get the date from the frontmatter
+		const eventDate = d2.getTime(); // convert the event's date to a date object
+
 		return (
 			<div>
 				<Navbar section="Events" />
@@ -50,7 +56,7 @@ export default class Events extends Component {
 						{post.frontmatter.bodyImage && <img className={styles.bodyImage} src={post.frontmatter.bodyImage}/>}
 					</Flex>
 				</Flex>
-				<a href={post.frontmatter.ctaURL} className={styles.ctaButton} target="_blank">RSVP</a>
+				{today < eventDate ? <a href={post.frontmatter.ctaURL} className={styles.ctaButton} target="_blank">RSVP</a> : null }
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>

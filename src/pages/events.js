@@ -41,7 +41,7 @@ export const query = graphql`
 							draft: { eq: false }
 						}
 					}
-					sort: { order: DESC, fields: [frontmatter___date] }
+					sort: { order: DESC, fields: [frontmatter___startDateTime] }
 				) {
 					totalCount
 					edges {
@@ -52,7 +52,7 @@ export const query = graphql`
 								description
 								featuredImage
 								author
-								date(formatString: "MMMM DD, YYYY")
+								startDateTime
 							}
 							fields {
 								slug
