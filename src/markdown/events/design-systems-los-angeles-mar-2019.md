@@ -1,16 +1,15 @@
 ---
-draft: true #requried (true or false)
+draft: false #requried (true or false)
 
 #Event Card Fields
 author: 'fa_figma' #requried
 title: 'Design Systems Meetup' #requried
 featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #requried
-description: 'North America 🇺🇸' #required
+description: 'Los Angeles 🇺🇸' #required
 
 #Event Details
-startDateTime: '2019-01-26T19:30' #required (yyyy-mm-dd)
-endDateTime: '2019-01-26T21:30'
-
+startDateTime: '2019-03-26T18:30' #required (yyyy-mm-dd)
+endDateTime: '2019-03-26T20:30'
 
 summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'
 
