@@ -52,4 +52,15 @@
 			padding: 0;
 		}
 	}
+	.pill {
+		background: $action;
+		margin: $spacingSmall;
+		line-height: 2.5;
+		border-radius: $spacingMedium;
+		position: absolute;
+		top: $spacingSmall;
+		right: $spacingXSmall;
+		width: 38%;
+		text-align: center;
+	}
 }

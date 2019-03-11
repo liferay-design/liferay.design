@@ -1,7 +1,7 @@
 import { withPrefix, Link } from 'gatsby'
 import React from 'react'
 import styles from './styles.module.scss'
-import { Icon } from 'components/atoms'
+import { Icon,Text } from 'components/atoms'
 import PropTypes from 'prop-types'
 import { Avatar, Card, CardTitle, CardText, Media } from 'react-md'
 
@@ -14,12 +14,17 @@ const CardDefault = ({
 	link,
 	avatarImage,
 	avatarImageURL,
+	pill,
+	tag,
 }) => (
 	<Link key={key} className={styles.cardLink} to={link}>
 		<Card className={styles.card}>
 			<Media aspectRatio="4-3" className={styles.null}>
 				<img src={withPrefix(`${imageURL}`)} />
 			</Media>
+			{pill ? (
+				<Text className={styles.pill} weight="black">{tag}</Text>
+			) : null}
 			{avatarImage ? (
 				<Avatar className={styles.avatar} src={withPrefix(`${avatarImageURL}`)} />
 			) : (
@@ -44,6 +49,8 @@ CardDefault.propTypes = {
 	title: PropTypes.string,
 	subtitle: PropTypes.string,
 	link: PropTypes.string,
+	pill: PropTypes.string,
+	tag: PropTypes.string,
 }
 
 export default CardDefault

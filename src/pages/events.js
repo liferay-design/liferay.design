@@ -34,6 +34,8 @@ export default ({ data }) => {
 				<CardGrid>
 					{cardData.map(({ node }) => (
 						<CardDefault
+							pill
+							tag={node.frontmatter.tag}
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
@@ -69,6 +71,7 @@ export const query = graphql`
 								featuredImage
 								author
 								startDateTime
+								tag
 							}
 							fields {
 								slug
