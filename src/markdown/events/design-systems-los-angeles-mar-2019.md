@@ -4,42 +4,45 @@ draft: false #requried (true or false)
 #Event Card Fields
 author: 'fa_figma' #requried
 title: 'Design Systems Meetup' #requried
-featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #requried
+featuredImage: '/images/events/design-systems-la-201903.jpg' #requried
 description: 'Los Angeles 🇺🇸' #required
 
 #Event Details
 startDateTime: '2019-03-26T18:30' #required (yyyy-mm-dd)
 endDateTime: '2019-03-26T20:30'
 
-summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'
+summary: 'Join us on the outskirts of Los Angeles for a low-key night of food, drink, and design!'
 
 locationName: 'Liferay, Inc – Diamond Bar, CA' #requried (yyyy-mm-ddThh:mm)
 locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
-heroImage: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80'
-bodyImage: 'https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2900&q=80'
+# heroImage: '/images/events/design-systems-la-201903.jpg'
+bodyImage: '/images/events/design-systems-la-201903.jpg'
 
 ctaURL: 'https://www.meetup.com/Figma-LA/events/259310410/'
 
 tag: '  RSVP Now!  '
 ---
 
-## Biggest Takeaway
+## Agenda
 
-Figma takes design efficiency and collaboration to a next level. The way DSL can be built in Figma against other tools, the efficiency compared with competitors, the distribution to designers in a same company, and the participation of different stakeholders simultaneously in the workflow process make this tool a key nowadays.
-Repetitive processes forced Mendesaltaren improve the way they are working. They dedicated a time to stract commonalities in these processes a built a sketch plugin to automate the basics. They also realized that there are other processes that are repetitive and time costly out of projects, like on boardings, and all the knowledge to share around it. As a result, they created their design handbook, now on second iteration, that serves them as a guide not only for onboarding but for daily consumption for the standards they agreed on.
+6:30 — have some food, relax in the game room
 
-## Lessons Learned
+7:10 — Welcome!
 
-First talk was a Liferay member talk. We didn’t learn that much on the talk. But we have learned a lot along the time dedicating a time to built Lexicon in Figma. This let us save time, money, and focus on the real challenges and details a product has.
-From Danny’s talk we learned that having standard, guides and a certain order has a huge impact in an organization. They are a small team, 8 member, so imagine us in Liferay with a teams of around 30 designers with different products and goals but with many commonalities due to our nature that has to be covered in our guild.
+7:15 — Potential Talks:
 
-## Presentations
+1. **Business Value of Design Systems**
+   _- For people who would like to increase their company’s investment in design systems_
+1. **Open Source Your Design System**
+   _- For people who are interested in the intersection of open source and design_
+1. **Best Practices for Component Libraries**
+   _- For existing Figma users, but interesting for anyone who works on component libraries — even Sketch users ;)_
 
-[Construcción de una librería de componentes](https://www.youtube.com/watch?v=lNJxO1ibNrM)
+8:15 — Q&A
 
-[Procesos, herramientas y aprendizajes](https://www.youtube.com/watch?v=i18FcNa1NAU)
+8:30 — Raffle
 
-## Special Thanks To…
+_**Note:** If you have interest in giving a talk on one of these three topics, please let us know! We're planning on at least 2 talks, but want to leave the door open for any community members to share._
 
-From here our thanks to Emiliano Cicero and Danny Saltaren for dedicating their time and wisdom. Thanks also to Design @scale Madrid for organizing the event and to Figma for the stickers!
+[RSVP on Meetup.com!](https://www.meetup.com/Figma-LA/events/259310410/)
