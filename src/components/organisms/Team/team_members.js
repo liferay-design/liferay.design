@@ -45,6 +45,15 @@ const teamMembers = [
 	},
 	{
 		id: 30,
+		name: 'Andrea Censi',
+		imageUrl: withPrefix(`${imageDir}/censi-andrea.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/censi-andrea-h.jpg`),
+		title: 'UX Designer',
+		icon: 'fa_headphones_alt',
+		page: 'null',
+	},
+	{
+		id: 30,
 		name: 'Emiliano Cicero',
 		imageUrl: withPrefix(`${imageDir}/cicero-emiliano.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/cicero-emiliano-h.jpg`),
@@ -123,6 +132,15 @@ const teamMembers = [
 		title: 'UX Director',
 		icon: 'fa_heart',
 		page: '/team/hidalgo-juan',
+	},
+	{
+		id: 114,
+		name: 'Andras Himer',
+		imageUrl: withPrefix(`${imageDir}/-nerd-face.png`),
+		imageHoverUrl: withPrefix(`${imageDir}/-heart-eyes-cat.png`),
+		title: 'UX Designer',
+		icon: 'fa_heart',
+		page: 'null',
 	},
 	{
 		id: 120,
