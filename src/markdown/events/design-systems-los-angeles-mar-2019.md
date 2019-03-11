@@ -21,7 +21,7 @@ bodyImage: '/images/events/design-systems-la-201903.jpg'
 
 ctaURL: 'https://www.meetup.com/Figma-LA/events/259310410/'
 
-tag: '  RSVP Now!  '
+tag: 'RSVP Now!'
 ---
 
 ## Agenda
