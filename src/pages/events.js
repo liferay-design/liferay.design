@@ -3,30 +3,46 @@ import { Link, graphql } from 'gatsby'
 import { MainLayout } from 'components/templates'
 import { CardGrid, Container, Heading } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
+import moment from 'moment'
 
 export default ({ data }) => {
+
+	const cardData = data.allMdx.edges
+	
+	// // Prereqs for conditional date rendering
+	// const d1 = new Date(); // Get today's date
+	// const today = d1.getTime(); // convert to date object
+	// const d2 = new Date(moment(cardData.node.frontmatter.startDateTime).format("YYYY/MM/DD")); // get the date from the frontmatter
+	// const eventDate = d2.getTime(); // convert the event's date to a date object
+
+	// // Separate current and past events
+	// const pastEvents = cardData.filter(({ node }) => false)
+
 	return (
 		<MainLayout section="Events">
 			<Container>
-				<Heading level={1} color="white" padding="4rem">
+				{/* <Heading level={1} color="white" padding="4rem">
 					Upcoming Events
 				</Heading>
 
-			<Heading level={1} color="white" padding="4rem">
-				Past Events
-			</Heading>
-			<CardGrid>
-				{data.allMdx.edges.map(({ node }) => (
-					<CardDefault
-						key={node.id}
-						imageURL={node.frontmatter.featuredImage}
-						link={node.fields.slug}
-						title={node.frontmatter.title}
-						subtitle={node.frontmatter.description}
-						icon={node.frontmatter.author}
-					/>
-				))}
-				</CardGrid>
+				<Heading level={1} color="white" padding="4rem">
+					Past Events
+				</Heading> */}
+				<Heading level={1} color="white" padding="4rem">
+					We Love to Host!
+				</Heading>
+				<CardGrid>
+					{cardData.map(({ node }) => (
+						<CardDefault
+							key={node.id}
+							imageURL={node.frontmatter.featuredImage}
+							link={node.fields.slug}
+							title={node.frontmatter.title}
+							subtitle={node.frontmatter.description}
+							icon={node.frontmatter.author}
+						/>
+					))}
+					</CardGrid>
 			</Container>
 		</MainLayout>
 	)
