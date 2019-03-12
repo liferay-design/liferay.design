@@ -48,6 +48,16 @@
 				}
 			}
 		}
+		@media only screen and (max-width: 1040px)  {
+			max-width: 100%;
+			padding: 0 2rem;
+			h1 div {
+				position: relative;
+				top: 0;
+				left: 0;
+				margin-bottom: 2rem;
+			}
+		}
 		h2 {
 			.startTime,
 			.endTime,
@@ -115,6 +125,7 @@
 	color: $white;
 	font-weight: $fontWeightHeavy;
 	text-align: center;
+	z-index: 1;
 	@media only screen and (max-width: $screenSmall)  {
 		width: 100vw;
 		bottom: 74.3px;

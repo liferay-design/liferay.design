@@ -24,7 +24,6 @@ export default class Events extends Component {
 				<Flex justify="center" align="center" className={styles.banner}>
 					<Flex direction="column" className={styles.bannerContent}>
 						<h1>
-							{post.frontmatter.title}{' '}
 							<Flex justify="center" align="center" direction="column">
 								<span>
 									{' '}
@@ -35,6 +34,7 @@ export default class Events extends Component {
 										{moment(post.frontmatter.startDateTime).format("DD")}
 								</span>
 							</Flex>
+							{post.frontmatter.title}{' '}
 						</h1>
 						<h2>
 							<span className={styles.startTime}>
