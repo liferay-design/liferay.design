@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 import { Flex, Heading, Text, Icon } from 'components/atoms'

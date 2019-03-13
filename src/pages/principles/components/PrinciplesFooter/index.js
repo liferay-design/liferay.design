@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 
 const PrinciplesFooter = () => {
 	return (

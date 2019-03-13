@@ -2,7 +2,7 @@ import React from 'react'
 import { Flex } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 
 import styles from './styles.module.scss'
 
