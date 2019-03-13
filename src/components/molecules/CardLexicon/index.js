@@ -43,6 +43,7 @@ const CardLexicon = ({
 						width={iconWidth}
 						height={iconHeight}
 						margin="1rem 0 2rem"
+						fill="white"
 					/>
 				</Flex>
 				<div
