@@ -47,26 +47,43 @@
 }
 @media screen and (max-width: $screenSmall) {
 	.items {
-		justify-content: space-around;
+		overflow: scroll;
 		background: $black;
 		position: fixed;
 		bottom: 0;
 		right: 0;
 		left: 0;
-		padding: $spacingXSmall $spacingBase $spacingSmall;
+		padding: $spacingXSmall $spacingSmall $spacingSmall;
+		&::after {
+			content: '';
+			height: 4.2rem;
+			width: $spacingBase;
+			background: linear-gradient(
+				to right,
+				rgba(19, 20, 31, 0),
+				rgba(19, 20, 31, 0.9)
+			);
+			position: fixed;
+			right: 0;
+			bottom: 0;
+		}
 	}
 	.entry {
 		min-width: 14ch;
 		justify-content: flex-end;
+		a {
+			padding: $spacingXSmall * 2;
+		}
 	}
 
 	.entry a {
+		&::after {
+			right: initial;
+			left: calc(50% - 1rem);
+			transform-origin: center;
+		}
 		&:last-child {
-			padding: $spacingSmall;
-			&::after {
-				right: $spacingSmall;
-				background: $primary;
-			}
+			padding-right: $spacingBase;
 		}
 	}
 }
