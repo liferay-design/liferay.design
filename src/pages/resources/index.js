@@ -16,7 +16,7 @@ const ResourcesPage = () => (
 						title="Blueprints"
 						text="Liferay's Brand Style Guidelines"
 						to="/blueprints"
-						cta="Learn More"
+						cta="The Blue Abides"
 					/>
 				</Grid.Item>
 				<Grid.Item>
@@ -24,29 +24,29 @@ const ResourcesPage = () => (
 						dark
 						icon="lexicon"
 						title="Lexicon"
-						text="Coming Soon!"
-						to="/resources"
-						// cta="Learn More"
+						text="Our Experience Language"
+						to="https://lexicondesign.io"
+						cta="Get Started"
 					/>
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
 						dark
-						// icon="liferayDesign"
+						icon="fa_figma"
+						title="Figma Resources"
+						text="Open Sourced Projects"
+						to="/resources/figma"
+						cta="Help Us, Help You"
+					/>
+				</Grid.Item>
+				<Grid.Item>
+					<CardLexicon
+						dark
+						icon="fa_terminal"
 						title="Dashboard"
 						text="Coming Soon!"
-						to="/resources"
-						// cta="Learn More"
-					/>
-				</Grid.Item>
-				<Grid.Item>
-					<CardLexicon
-						dark
-						// icon="liferayDesign"
-						title="Handbook"
-						text="Coming Soon!"
-						to="/resources"
-						// cta="Learn More"
+						to="https://dashboard.liferay.design"
+						cta="Sneak a Peek"
 					/>
 				</Grid.Item>
 			</Grid>
