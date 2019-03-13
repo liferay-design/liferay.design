@@ -24,7 +24,7 @@ export default class Resources extends Component {
 				<Flex justify="center" align="center" className={styles.banner}>
 					<Flex direction="column" className={styles.bannerContent}>
 						<h1>
-							<Flex justify="center" align="center" direction="column">
+							{/* <Flex justify="center" align="center" direction="column">
 								<span>
 									{' '}
 										{moment(post.frontmatter.startDateTime).format("MMM")}
@@ -33,10 +33,10 @@ export default class Resources extends Component {
 									{' '}
 										{moment(post.frontmatter.startDateTime).format("DD")}
 								</span>
-							</Flex>
+							</Flex> */}
 							{post.frontmatter.title}{' '}
 						</h1>
-						<h2>
+						{/* <h2>
 							<span className={styles.startTime}>
 								{moment(post.frontmatter.startDateTime).format("h:mma")}
 							</span>
@@ -48,15 +48,15 @@ export default class Resources extends Component {
 									{post.frontmatter.locationName}
 								</a>
 							</span>
-						</h2>
-						{post.frontmatter.heroImage && <img className={styles.heroImage} src={post.frontmatter.heroImage}/>}
+						</h2> */}
+						{/* {post.frontmatter.heroImage && <img className={styles.heroImage} src={post.frontmatter.heroImage}/>}
 						<p className={styles.summary}>
 							{post.frontmatter.summary}
 						</p>
-						{post.frontmatter.bodyImage && <img className={styles.bodyImage} src={post.frontmatter.bodyImage}/>}
+						{post.frontmatter.bodyImage && <img className={styles.bodyImage} src={post.frontmatter.bodyImage}/>} */}
 					</Flex>
 				</Flex>
-				{today < eventDate ? <a href={post.frontmatter.ctaURL} className={styles.ctaButton} target="_blank">RSVP</a> : null }
+				{/* {today < eventDate ? <a href={post.frontmatter.ctaURL} className={styles.ctaButton} target="_blank">RSVP</a> : null } */}
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>
