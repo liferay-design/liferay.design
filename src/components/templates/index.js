@@ -4,12 +4,14 @@ import Events from './Blueprints'
 import HandbookLayout from './Handbook'
 import MainLayout from './MainLayout'
 import PrivatePage from './PrivatePage'
+import Resources from './Resources'
 
 export {
     Articles,
     BlueprintsLayout,
     Events,
     HandbookLayout,
-    PrivatePage,
     MainLayout,
+    PrivatePage,
+    Resources,
 }
