@@ -34,7 +34,7 @@ const ResourcesPage = () => (
 						dark
 						icon="fa_figma"
 						title="Figma Resources"
-						text="Open Sourced Projects"
+						text="Open Source Design Projects"
 						to="/resources/figma"
 						cta="Help Us, Help You"
 					/>
