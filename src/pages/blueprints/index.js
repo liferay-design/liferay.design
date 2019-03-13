@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 import { Heading, Text, Icon, Flex } from 'components/atoms'
 import { Billboard, CardLexicon } from 'components/molecules'
 import { Footer, Navbar, Banner } from 'components/organisms'

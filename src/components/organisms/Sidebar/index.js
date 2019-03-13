@@ -4,7 +4,7 @@ import { Grid } from 'reakit'
 import { SiteName } from 'components/atoms'
 import { Accordion, SiteCredits } from 'components/molecules'
 import { map, orderBy } from 'lodash'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 
 const SidebarContent = ({ path, tree }) => {
 	const unorderedTree = map(tree, node => {

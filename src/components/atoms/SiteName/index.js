@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 
 const SiteName = ({ dark, section }) => {
 	var str = section

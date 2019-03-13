@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import styles from './styles.module.scss'
 import Plx from 'react-plx'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link } from 'components/atoms'
 import { Flex } from 'components/atoms'
 
 const VanityMetric = ({ number, description, size }) => {
