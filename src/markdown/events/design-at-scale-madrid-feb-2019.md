@@ -11,12 +11,10 @@ description: 'Madrid 🇪🇸' #required
 startDateTime: '2019-02-12T00:00' #required (yyyy-mm-ddThh:mm)
 endDateTime: ''
 
-
 summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'
 
-locationName: 'Liferay, Inc – Diamond Bar, CA' #requried
-locationAddress: ''
-locationURL: 'https://goo.gl/maps/q1BzwoswY112'
+locationName: 'Liferay Madrid, Spain'
+locationURL: 'https://goo.gl/maps/JQZZugSQ5iG2'
 
 heroImage: ''
 bodyImage: '/images/events/design-at-scale-madrid-2019.jpg'
