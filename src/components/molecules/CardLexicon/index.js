@@ -49,7 +49,6 @@ const CardLexicon = ({
 						className={styles.image}
 						align="center"
 						justify="center"
-						width="40%"
 					>
 						<img src={withPrefix(`${imageUrl}`)} />
 					</Flex>
@@ -74,6 +73,7 @@ const CardLexicon = ({
 					style={{
 						flexBasis: '50%',
 						textAlign: textAlignmentMap[direction],
+						alignSelf: 'center',
 					}}
 				>
 					<Heading level={2} className={styles.title}>
