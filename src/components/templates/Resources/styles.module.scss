@@ -58,39 +58,6 @@
 				margin-bottom: 2rem;
 			}
 		}
-		h2 {
-			.startTime,
-			.endTime,
-			.locationName a {
-				font-family: $fontFamilySecondary;
-				font-weight: $fontWeightLight;
-				font-size: $fontSizeMedium;
-				color: $white;
-			}
-			.locationName {
-				display: block;
-				position: relative;
-				a {
-					position: relative;
-				}
-				a:after {
-					background: #fff;
-					bottom: -0.5em;
-					content: '';
-					position: absolute;
-					right: 0;
-					height: 3px;
-					transition: transform 0.4s ease;
-					transform-origin: right;
-					transform: scaleX(0);
-					width: 100%;
-				}
-				a:hover:after {
-					transition: transform 0.2s ease;
-					transform: scaleX(1);
-				}
-			}
-		}
 		.heroImage {
 			width: 90vw;
 			position: relative;
@@ -113,26 +80,6 @@
 		}
 	}
 }
-.ctaButton {
-	position: fixed;
-	background-color: $action;
-	right: 0;
-	top: 50vh;
-	transform-origin: right;
-	transform: rotate(0.75turn) translateY(-50%);
-	padding: $spacingSmall $spacingMedium;
-	font-size: $fontSizeMedium;
-	color: $white;
-	font-weight: $fontWeightHeavy;
-	text-align: center;
-	z-index: 1;
-	@media only screen and (max-width: $screenSmall) {
-		width: 100vw;
-		bottom: 74.3px;
-		top: unset;
-		transform: none;
-	}
-}
 
 .markdownContainer {
 	margin-bottom: auto;
@@ -147,10 +94,6 @@
 		}
 	}
 	.wrapper {
-		max-width: 88ch;
-		margin: $spacingLarge auto 0;
-		text-align: center;
-
 		p,
 		ol > li,
 		ul > li {
