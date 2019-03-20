@@ -26,13 +26,16 @@
 		padding: ($spacingMedium * 2) $spacingMedium;
 	}
 	.copy {
-		padding: $spacingMedium $spacingMedium $spacingMedium $spacingSmall;
+		padding: $spacingLarge $spacingMedium $spacingLarge $spacingSmall;
 	}
 	.image {
-		margin-right: $spacingMedium;
+		margin-right: $spacingBase;
 		margin-bottom: 0;
-		height: 100%;
-		width: 40%;
+		width: 50%;
+		max-height: initial;
+		img {
+			height: 100%;
+		}
 	}
 }
 
@@ -60,12 +63,12 @@
 		padding: ($spacingMedium * 2) $spacingMedium 0;
 	}
 	.image {
-		max-height: 400px;
+		max-height: 300px;
 		overflow: hidden;
 		margin-bottom: $spacingMedium;
-		img {
-			max-height: 100%;
-		}
+		// img {
+		// 	max-height: 100%;
+		// }
 	}
 	h2.title {
 		color: $darkGrey;
