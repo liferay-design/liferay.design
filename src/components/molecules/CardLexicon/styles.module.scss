@@ -30,6 +30,9 @@
 	}
 	.image {
 		margin-right: $spacingMedium;
+		margin-bottom: 0;
+		height: 100%;
+		width: 40%;
 	}
 }
 
@@ -57,8 +60,11 @@
 		padding: ($spacingMedium * 2) $spacingMedium 0;
 	}
 	.image {
+		max-height: 400px;
+		overflow: hidden;
+		margin-bottom: $spacingMedium;
 		img {
-			height: 100%;
+			max-height: 100%;
 		}
 	}
 	h2.title {
