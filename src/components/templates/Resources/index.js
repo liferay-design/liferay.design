@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styles from './styles.module.scss'
 import { Footer, Navbar } from 'components/organisms'
-import { Flex } from 'components/atoms'
+import { Container, Flex } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 
@@ -16,15 +16,15 @@ export default class Resources extends Component {
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<Flex direction="column" className={styles.bannerContent}>
-						<h1>
-							{post.frontmatter.title}{' '}
-						</h1>
+						<h1>{post.frontmatter.title} </h1>
 					</Flex>
 				</Flex>
 				<div className={styles.markdownContainer}>
-					<Flex direction="column" className={styles.wrapper}>
-						<MDXRenderer>{post.code.body}</MDXRenderer>
-					</Flex>
+					<Container>
+						<Flex direction="column" className={styles.wrapper}>
+							<MDXRenderer>{post.code.body}</MDXRenderer>
+						</Flex>
+					</Container>
 				</div>
 				<Footer light />
 			</div>
