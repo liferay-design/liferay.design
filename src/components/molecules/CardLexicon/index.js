@@ -3,6 +3,7 @@ import { Link } from 'components/atoms'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 import { Flex, Heading, Text, Icon } from 'components/atoms'
+import { withPrefix } from 'gatsby';
 
 const CardLexicon = ({
 	title,
@@ -11,7 +12,7 @@ const CardLexicon = ({
 	to,
 	icon,
 	image, 
-	imageURL,
+	imageUrl,
 	dark,
 	direction,
 	iconWidth,
@@ -38,24 +39,42 @@ const CardLexicon = ({
 		<Link to={to} className={styles.link}>
 			<Flex
 				direction={directionMap[direction]}
-				className={`${styles.card} ${dark ? styles.dark : styles.light} ${wide ? styles.wide : 'null'} `}
+				className={`${styles.card} ${dark ? styles.dark : styles.light} ${
+					wide ? styles.wide : 'null'
+				} `}
 				padding="0"
 			>
-				{image ? 
-					<Flex className={styles.image} align="center" justify="center" width="40%"><img src="/images/posts/boxing.jpg"/>
+				{image ? (
+					<Flex
+						className={styles.image}
+						align="center"
+						justify="center"
+						width="40%"
+					>
+						<img src={withPrefix(`${imageUrl}`)} />
 					</Flex>
-					: <Flex align="center" justify="center" className={styles.icon} width={iconWidthMap[direction]}>
-					<Icon
-						name={icon}
-						width={iconWidth}
-						height={iconHeight}
-						margin="1rem 0 2rem"
-						fill="white"
-					/>
-				</Flex>}
+				) : (
+					<Flex
+						align="center"
+						justify="center"
+						className={styles.icon}
+						width={iconWidthMap[direction]}
+					>
+						<Icon
+							name={icon}
+							width={iconWidth}
+							height={iconHeight}
+							margin="1rem 0 2rem"
+							fill="white"
+						/>
+					</Flex>
+				)}
 				<div
 					className={styles.copy}
-					style={{ flexBasis: '50%', textAlign: textAlignmentMap[direction] }}
+					style={{
+						flexBasis: '50%',
+						textAlign: textAlignmentMap[direction],
+					}}
 				>
 					<Heading level={2} className={styles.title}>
 						{title}
@@ -76,6 +95,7 @@ CardLexicon.propTypes = {
 	cta: PropTypes.string,
 	direction: PropTypes.string,
 	icon: PropTypes.string,
+	imageUrl: PropTypes.string,
 	iconWidth: PropTypes.string,
 	iconHeight: PropTypes.string,
 	styles: PropTypes.string,
