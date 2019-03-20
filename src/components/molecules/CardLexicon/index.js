@@ -10,10 +10,13 @@ const CardLexicon = ({
 	cta,
 	to,
 	icon,
+	image, 
+	imageURL,
 	dark,
 	direction,
 	iconWidth,
 	iconHeight,
+	wide
 }) => {
 	const directionMap = {
 		vertical: 'column',
@@ -30,14 +33,18 @@ const CardLexicon = ({
 		horizontal: '50%',
 	}
 
+
 	return (
-		<Link to={to}>
+		<Link to={to} className={styles.link}>
 			<Flex
 				direction={directionMap[direction]}
-				className={`${styles.card} ${dark ? styles.dark : styles.light}`}
-				padding="6rem 3rem"
+				className={`${styles.card} ${dark ? styles.dark : styles.light} ${wide ? styles.wide : 'null'} `}
+				padding="0"
 			>
-				<Flex align="center" justify="center" width={iconWidthMap[direction]}>
+				{image ? 
+					<Flex className={styles.image} align="center" justify="center" width="40%"><img src="/images/posts/boxing.jpg"/>
+					</Flex>
+					: <Flex align="center" justify="center" className={styles.icon} width={iconWidthMap[direction]}>
 					<Icon
 						name={icon}
 						width={iconWidth}
@@ -45,7 +52,7 @@ const CardLexicon = ({
 						margin="1rem 0 2rem"
 						fill="white"
 					/>
-				</Flex>
+				</Flex>}
 				<div
 					className={styles.copy}
 					style={{ flexBasis: '50%', textAlign: textAlignmentMap[direction] }}

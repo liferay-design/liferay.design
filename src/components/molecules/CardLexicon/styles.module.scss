@@ -1,8 +1,8 @@
 @import '~theme/variables';
 @import '~theme/blueprints';
 
-a.card-link {
-	color: inherit;
+.link {
+	text-decoration: none !important;
 }
 
 .card.dark {
@@ -21,21 +21,15 @@ a.card-link {
 }
 
 .card.wide {
-	text-align: left;
-	.content {
-		display: flex;
-		padding: $spacingMedium;
-		align-items: center;
-	}
-	.iconWrapper {
-		width: 100%;
-		svg {
-			height: 10rem !important;
-			width: 10rem !important;
-		}
+	align-items: stretch;
+	.icon {
+		padding: ($spacingMedium * 2) $spacingMedium;
 	}
 	.copy {
-		padding: $spacingSmall $spacingSmall $spacingSmall $spacingBase;
+		padding: $spacingMedium $spacingMedium $spacingMedium $spacingSmall;
+	}
+	.image {
+		margin-right: $spacingMedium;
 	}
 }
 
@@ -47,6 +41,7 @@ a.card-link {
 	padding: $spacingMedium $spacingSmall $spacingSmall;
 	min-height: 100%;
 	transition: all 0.4s;
+	overflow: hidden;
 	&:hover {
 		background-color: $lightestBlue;
 		box-shadow: $elevation2;
@@ -55,13 +50,20 @@ a.card-link {
 			color: $primary;
 		}
 	}
-	.content {
-		padding: $spacingMedium;
+	.copy {
+		padding: 0 $spacingMedium ($spacingMedium * 2);
+	}
+	.icon {
+		padding: ($spacingMedium * 2) $spacingMedium 0;
+	}
+	.image {
+		img {
+			height: 100%;
+		}
 	}
 	h2.title {
 		color: $darkGrey;
 		font-weight: $fontWeightBlack;
-		// margin-bottom: $fontSizeMedium;
 	}
 
 	p.text {
@@ -78,8 +80,5 @@ a.card-link {
 @media screen and (max-width: $screenMedium) {
 	.card {
 		padding: 0;
-		.content {
-			padding: $spacingBase $spacingSmall;
-		}
 	}
 }
