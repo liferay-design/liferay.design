@@ -9,7 +9,7 @@ avatar: '/images/headshots/hanaoka-paul.jpg'
 ---
 
 ![Atomic Figma Components](/images/posts/atomic-components.jpg)
-_Special thanks to Jamie Street, Jimmy Musto, Jens Johnsson, Sergi Viladesau, and Princess Buttercup for the photos._
+_Special thanks to [Jamie Street](https://unsplash.com/photos/-7ip4yX5P6Q), [Jimmy Musto](https://unsplash.com/photos/iOWEyl7sEgY), [Jens Johnsson](https://unsplash.com/photos/-N1_Vhyqd50), [Sergi Viladesau](https://unsplash.com/photos/dyrehVIidQk), [Princess Buttercup](https://unsplash.com/photos/OvLBv6F6DGE), and all the fine folks at [Unsplash](https://unsplash.com) for the photos._
 
 If you’re as lazy as I am, you’ll definitely want to read this to learn how to set yourself up for hyper-efficient changes and updates to your Figma components. With all the time you save, you can do what I do and browse Unsplash’s cat photos for hours on end.
 
