@@ -140,7 +140,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/-heart-eyes-cat.png`),
 		title: 'UX Designer',
 		icon: 'fa_heart',
-		page: 'null',
+		page: '/team/himer-andras',
 	},
 	{
 		id: 120,
