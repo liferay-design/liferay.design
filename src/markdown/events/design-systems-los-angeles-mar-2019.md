@@ -16,12 +16,11 @@ summary: 'Join us on the outskirts of Los Angeles for a low-key night of food, d
 locationName: 'Liferay, Inc – Diamond Bar, CA' #requried (yyyy-mm-ddThh:mm)
 locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
-# heroImage: '/images/events/design-systems-la-201903.jpg'
+heroImage: '/images/events/design-systems-recap-march-2019.jpg'
 bodyImage: '/images/events/design-systems-la-201903.jpg'
 
 ctaURL: 'https://www.meetup.com/Figma-LA/events/259310410/'
-
-tag: 'RSVP Now!'
+# tag: 'RSVP Now!'
 ---
 
 ## Agenda
