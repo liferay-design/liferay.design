@@ -1,6 +1,6 @@
 ---
 title: 'Abel Hancock'
-description: 'Associate UX Designer'
+description: 'UX Designer'
 featuredImage: '/images/headshots/hancock-abel-h.jpg'
 ---
 
