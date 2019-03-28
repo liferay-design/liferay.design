@@ -1,7 +1,7 @@
 ---
-title: 'Write Your Bio'
-description: 'Share your awesomeness'
-featuredImage: '/images/headshots/hancock-abel-h.jpg'
+title: 'David Kim'
+description: 'UX Designer'
+featuredImage: '/images/headshots/kim-david-h.jpg'
 ---
 
 ### How did you get into design?
