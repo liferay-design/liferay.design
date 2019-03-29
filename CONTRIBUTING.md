@@ -4,7 +4,7 @@ We definitely appreciate contributions in any form &mdash; QA, [submitting issue
 
 If you're part of the Liferay team in Figma, there's a Liferay.Design project &mdash; you can see where we're at and contribute comments, designs, etc there.
 
-If you'd like to help manage deployments, please request to join our WeDeploy team!
+If you'd like to help manage deployments, please [request to join our WeDeploy team](mailto:paul.hanaoka@liferay.com?subject=I'd%20like%20to%20join%20the%20WeDeploy%20team%20for%20Liferay.Design!&body=Pretty%20please!%20%0A%0A%5Badd%20some%20reasons%5D)!
 
 A good place to start is our [Issues page](https://github.com/liferay-design/liferay.design/issues)!
 
