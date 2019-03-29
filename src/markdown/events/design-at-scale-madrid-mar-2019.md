@@ -20,8 +20,7 @@ heroImage: ''
 bodyImage: '/images/events/mad-meetup.jpg'
 
 ctaURL: 'https://www.meetup.com/es-ES/Design-at-Scale-Madrid/events/259923673/'
-
-tag: 'RSVP Now!'
+# tag: 'RSVP Now!'
 ---
 
 ## Detalles
