@@ -10,11 +10,11 @@ A good place to start is our [Issues page](https://github.com/liferay-design/lif
 
 ## How To:
 
-([See this top answer on Stack Overflow.](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github))
+1.  Fork the repo.
+1.  Clone your fork on your computer (local).
+1.  Commit any changes to your local, then push to your origin.
+1.  Create a pull request to upstream.
 
-1.  Fork the repo
-1.  Clone your fork on your computer (local)
-1.  Commit any changes to your local, the push to your origin
-1.  Create a pull request to the upstream repo
+_(If "local", "origin", and "upstream" are greek to you, [see this top answer on Stack Overflow.](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github))_
 
 **Note** All work should be done on the `master` branch (or you can create your own branch and request to merge it with the `master` branch.
