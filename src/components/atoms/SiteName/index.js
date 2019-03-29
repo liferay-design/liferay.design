@@ -12,7 +12,7 @@ const SiteName = ({ dark, section }) => {
 	return (
 		<div className={`${styles.siteName} ${dark && styles.dark}`}>
 			<Link to="/">Liferay.Design</Link>
-			{section && <Link to={lowerCaseSection}> / {section}</Link>}
+			{section && <Link to={"/" + `${lowerCaseSection}`}> / {section}</Link>}
 		</div>
 	)
 }
