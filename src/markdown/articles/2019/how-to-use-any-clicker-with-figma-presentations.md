@@ -35,7 +35,7 @@ _figma prototype example_
 
 ## Step 2: Download and install the [Karabiner-Elements](https://pqrs.org/osx/karabiner/)
 
-Karabiner installs both their _Elements_ and _Event Viewer_ apps by default. In this case we will only be using _Karabiner - Elements_ to map the clicker keys.
+Karabiner installs both their _Elements_ and _Event Viewer_ apps by default. In this case, we will only be using _Karabiner - Elements_ to map the clicker keys.
 
 ![karabiner website screenshot](/images/posts/figma-clicker/download-karabiner-app.png)
 _karabiner website_
@@ -48,9 +48,9 @@ This is where the magic happens! Open Karabiner - Elements and:
 
 2. **Determine** what keys your clicker is... well... clicking. If you have trouble with this the _Karabiner - Event Viewer_ app comes in handy to show what keys are being triggered
 
--   _Tip: Logitech R400 arrow keystokes are `page_up` and `page_down`_
+-   _Tip: Logitech R400 arrow keystrokes are `page_up` and `page_down`_
 
-3. **Map** the clicker key (From key) to the corosponding arrow direction (To key)
+3. **Map** the clicker key (From key) to the corresponding arrow direction (To key)
 
 (optional) Choose an arbitrary clicker key to map to "r" for restarting your presentation
 
