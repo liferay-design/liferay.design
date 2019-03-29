@@ -66,7 +66,7 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 1. Open up your [favorite browser](https://opera.com), type `localhost:7777` into the nav bar, and watch your work magically appear!
 
-1. See the [Contributing Guidelines](#contributing-to-this-site) for what to do after you make some improvements!
+1. See the [Contributing Guidelines](/blob/master/CONTRIBUTING.md) for what to do after you make some improvements!
 
 <br />
 <br />
