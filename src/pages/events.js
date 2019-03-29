@@ -35,7 +35,7 @@ export default ({ data }) => {
 					{cardData.map(({ node }) => (
 						<CardDefault
 							pill
-							tag={node.frontmatter.tag}
+							// tag={node.frontmatter.tag}
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
@@ -71,7 +71,6 @@ export const query = graphql`
 								featuredImage
 								author
 								startDateTime
-								tag
 							}
 							fields {
 								slug
@@ -82,3 +81,6 @@ export const query = graphql`
 				}
 			}
 		`
+
+
+// TODO: set up some filter so that past / future events are separated

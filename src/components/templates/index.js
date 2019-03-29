@@ -7,7 +7,7 @@ import PrivatePage from './PrivatePage'
 import Resources from './Resources'
 
 export {
-    Articles,
+    ArticlesLayout,
     BlueprintsLayout,
     Events,
     HandbookLayout,
