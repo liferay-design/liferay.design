@@ -77,11 +77,15 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 #### Master
 
-Currently live on [liferay.design](https://liferay.design), it's compiled from the dev branch by Travis CI and then WeDeployed. Don't work on Master, as your pull request won't get accepted 😬.
+Work and submit pull requests from the `master` branch.
 
 #### Dev
 
-Work and submit pull requests from the `dev` branch.
+Currently live on [dev.liferay.design](https://dev.liferay.design). This is our pre-production environment, best not to send pull requests to it unless there's a special scenario.
+
+#### Production
+
+Currently live on [liferay.design](https://liferay.design), don't work on Production as your pull request typically won't get accepted.
 
 #### vN
 
@@ -257,8 +261,8 @@ Set aside about 45 &mdash; 60 min to get set up.
     1. Type `open .` and hit Enter &mdash; this will open up Finder to the current directory.
     1. Type `mkdir github` and hit Enter &mdash; now look at your Finder, you should now see a new folder labeled 'github' in your Home directory (`~/`)
     1. Type `cd github` and hit Enter &mdash; you've now navigated to the github folder in your Terminal!
-    - \_Note that this is our suggested method for organizing your repos, feel free to organize differently.
-1. Now that your Terminal is open to your github folder, it's time to clone the repo! ![location of clone button](https://github.com/liferay-design/liferay.design/blob/dev/static/images/documentation/clone-repo.png@2x.png?raw=true)
+    - _Note that this is our suggested method for organizing your repos, feel free to organize differently._
+1. Now that your Terminal is open to your github folder, it's time to clone the repo! <img src="https://github.com/liferay-design/liferay.design/blob/dev/static/images/documentation/clone-repo.png@2x.png?raw=true" style="width:400px; float: right;"/>
 1. Copy the url to your clipboard (there's a handy little button 📋)
 1. Type `git clone`, paste the repo url and hit Enter &mdash; cloning should take about 10 seconds.
 1. Now you need to navigate to the folder &mdash; type `cd life` and hit Tab, it should autocomplete to `liferay.design` &mdash; if it does, hit enter, if not, finish typing it out
@@ -269,8 +273,10 @@ Set aside about 45 &mdash; 60 min to get set up.
 
 ### Notes
 
-1. **Pushing work to the upstream dev branch will automagically build the site**
+1. **Pushing work to the upstream dev or production branches will automagically build the site**
 
-1. Once build is complete visit [the dev site to see it](https://dev.liferay.design).
+1. You can check the progress of your build by checking [Travis CI](https://travis-ci.org/liferay-design/liferay.design/).
+
+1. Once build is complete visit [dev](https://dev.liferay.design) or [production](https://liferay.design) to see it.
 
     If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
