@@ -5,6 +5,7 @@ import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import moment from 'moment'
 
 export default class Articles extends Component {
 	render() {
@@ -22,6 +23,7 @@ export default class Articles extends Component {
 							<a href={withPrefix(post.frontmatter.authorLink)}>
 								{post.frontmatter.author}
 							</a>
+							<br></br>on {moment(post.frontmatter.date).format("MMMM DD,YYYY")}
 						</span>
 					</h1>
 					<div className={styles.role}>
@@ -47,6 +49,7 @@ export const pageQuery = graphql`
 				authorLink
 				description
 				title
+				date
 			}
 			code {
 				body
