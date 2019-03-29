@@ -1,31 +1,31 @@
-- [Liferay.Design](#liferaydesign)
-	- [About](#about)
-	- [👾 Getting started](#%F0%9F%91%BE-getting-started)
-		- [If you don't have a dev environment](#if-you-dont-have-a-dev-environment)
-		- [Quick Start](#quick-start)
-	- [⛩ Structure](#%E2%9B%A9-structure)
-		- [🌳 Branches](#%F0%9F%8C%B3-branches)
-			- [Master](#master)
-			- [Dev](#dev)
-			- [vN](#vn)
-		- [📂 Folders](#%F0%9F%93%82-folders)
-			- [Deploy](#deploy)
-			- [src](#src)
-				- [components](#components)
-				- [markdown](#markdown)
-					- [Using React Components Within a Markdown file](#using-react-components-within-a-markdown-file)
-				- [pages](#pages)
-				- [theme](#theme)
-				- [utils](#utils)
-			- [static/images](#staticimages)
-	- [💁 What do all these files do?](#%F0%9F%92%81-what-do-all-these-files-do)
-	- [🎓 Learning Gatsby](#%F0%9F%8E%93-learning-gatsby)
-	- [Starting Phresh](#starting-phresh)
-		- [Step 1: Create a Github Account _(3 min)_](#step-1-create-a-github-account-3-min)
-		- [Step 2: Familiarize yourself with Git and Github _(20 min)_](#step-2-familiarize-yourself-with-git-and-github-20-min)
-		- [Step 3: Let's git it started™ _(20 min)_](#step-3-lets-git-it-started%E2%84%A2-20-min)
-		- [Step 4: The Clone Wars _(2 min)_](#step-4-the-clone-wars-2-min)
-		- [Notes](#notes)
+-   [Liferay.Design](#liferaydesign)
+    -   [About](#about)
+    -   [👾 Getting started](#-getting-started)
+        -   [If you don't have a dev environment](#if-you-dont-have-a-dev-environment)
+        -   [Quick Start](#quick-start)
+    -   [⛩ Structure](#-structure)
+        -   [🌳 Branches](#-branches)
+            -   [Master](#master)
+            -   [Dev](#dev)
+            -   [vN](#vn)
+        -   [📂 Folders](#-folders)
+            -   [Deploy](#deploy)
+            -   [src](#src)
+                -   [components](#components)
+                -   [markdown](#markdown)
+                    -   [Using React Components Within a Markdown file](#using-react-components-within-a-markdown-file)
+                -   [pages](#pages)
+                -   [theme](#theme)
+                -   [utils](#utils)
+            -   [static/images](#staticimages)
+    -   [💁 What do all these files do?](#-what-do-all-these-files-do)
+    -   [🎓 Learning Gatsby](#-learning-gatsby)
+    -   [Starting Phresh](#starting-phresh)
+        -   [Step 1: Create a Github Account _(3 min)_](#step-1-create-a-github-account-3-min)
+        -   [Step 2: Familiarize yourself with Git and Github _(20 min)_](#step-2-familiarize-yourself-with-git-and-github-20-min)
+        -   [Step 3: Let's git it started™ _(20 min)_](#step-3-lets-git-it-started%E2%84%A2-20-min)
+        -   [Step 4: The Clone Wars _(2 min)_](#step-4-the-clone-wars-2-min)
+        -   [Notes](#notes)
 
 # Liferay.Design
 
@@ -123,7 +123,7 @@ title: 'Markdown File Title'
 ---
 
 <div className="aspect-ratio card-item-first" style={{background: "url('/images/logos/liferay-logo.png') center/cover"}}>
-	<Icon name="keyboardArrowDown" />
+  <Icon name="keyboardArrowDown" />
 </div>
 ```
 
