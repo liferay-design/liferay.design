@@ -297,6 +297,7 @@ const TwentyEighteen = () => {
 					type="font/woff2"
 					crossorigin=""
 				/>
+				<title>Liferay Design | 2018 Annual Report</title>
 			</Helmet>
 			{/* overlay for small screens */}
 			<Flex

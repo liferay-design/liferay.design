@@ -1,6 +1,7 @@
 import React, { StrictMode } from 'react'
 import PropTypes from 'prop-types'
 import LogRocket from 'logrocket'
+import { Helmet } from 'react-helmet'
 
 export default class HTML extends React.Component {
 	render() {
@@ -15,6 +16,7 @@ export default class HTML extends React.Component {
 						name="viewport"
 						content="width=device-width, initial-scale=1, shrink-to-fit=no"
 					/>
+					<title>Liferay Design | Articles, Events, and Resources for the Open Source Design Community</title>
 
 					{this.props.headComponents}
 				</head>
