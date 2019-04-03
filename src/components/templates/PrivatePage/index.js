@@ -22,7 +22,7 @@ export default class PrivatePage extends Component {
 		// 	return this.props.children
 		// }
 
-		const authenticatedUsers = ['liferay.com', 'triblio.com']
+		const authenticatedUsers = ['liferay.com', 'triblio.com', 'kyrodigital.com']
 		const currentUser = this.auth.currentUser
 
 		const isUserAuthenticated =
