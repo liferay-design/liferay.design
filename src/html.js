@@ -1,8 +1,10 @@
 import React, { StrictMode } from 'react'
 import PropTypes from 'prop-types'
+import LogRocket from 'logrocket'
 
 export default class HTML extends React.Component {
 	render() {
+		LogRocket.init('vvepjf/liferaydesign');
 		return (
 			<html {...this.props.htmlAttributes}>
 				<head>
