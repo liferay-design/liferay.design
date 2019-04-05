@@ -1,0 +1,31 @@
+@import '~theme/variables';
+
+.wrapper {
+	&::after {
+		content: '';
+		background: $black;
+		height: 100%;
+		width: calc(calc(100% - 1280px) / 2);
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 1;
+	}
+	.button {
+		padding: 1rem 3rem;
+		background: $action;
+		color: $white;
+		transform: translateY(0);
+		box-shadow: $elevation1;
+		transition: all 0.4s ease-in-out;
+		&:hover {
+			background: darken($action, 8%);
+			transform: translateY(-$spacingXSmall);
+			box-shadow: $elevation3;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+	.headline {
+		font-weight: $fontWeightBlack;
+	}
+}

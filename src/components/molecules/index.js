@@ -1,6 +1,7 @@
 import Accordion from './Accordion'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
+import BillboardAlt from './BillboardAlt'
 import CardAsset from './CardAsset'
 import CardDefault from './CardDefault'
 import CardLexicon from './CardLexicon'
@@ -21,6 +22,7 @@ export {
 	Accordion,
 	AuthContainer,
 	Billboard,
+	BillboardAlt,
 	CardAsset,
 	CardDefault,
 	CardLexicon,
