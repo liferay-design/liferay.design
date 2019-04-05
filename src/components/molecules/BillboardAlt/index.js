@@ -7,26 +7,29 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 	return (
 		<Flex className={styles.wrapper} background={background}>
 			<Container>
-				<Flex>
+				<Flex className={styles.container}>
 					<Flex
-						margin="-3rem 0 3rem"
-						height="20rem"
-						width="20rem"
+						className={styles.image}
 						backgroundImage={image}
 					/>
-					<Flex 
-						margin="2rem 1rem 3rem 6rem" 
-						direction="column" align="flex-start"
+					<Flex
+						className={styles.text}
+						direction="column"
+						align="flex-start"
 						justify="space-between"
-						width="60ch"
-						>
-						<Heading className={styles.headline} level="2">{heading}</Heading>
+					>
+						<Heading className={styles.headline} level="2">
+							{heading}
+						</Heading>
 						<Text margin="xxLarge">{subtitle}</Text>
 						<Link to={ctaUrl}>
-							<Button 
+							<Button
 								size="medium"
 								weight="heavy"
-								className={styles.button}>{cta}</Button>
+								className={styles.button}
+							>
+								{cta}
+							</Button>
 						</Link>
 					</Flex>
 				</Flex>
