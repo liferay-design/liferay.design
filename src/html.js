@@ -7,7 +7,9 @@ export default class HTML extends React.Component {
 	render() {
 		LogRocket.init('vvepjf/liferaydesign');
 		return (
-			<html {...this.props.htmlAttributes}>
+			<html 
+				lang="en" 
+				{...this.props.htmlAttributes}>
 				<head>
 					<link rel="icon" href="/images/favicon.ico?v=1.0" />
 					<meta charSet="utf-8" />
@@ -16,7 +18,10 @@ export default class HTML extends React.Component {
 						name="viewport"
 						content="width=device-width, initial-scale=1, shrink-to-fit=no"
 					/>
-					<title>Liferay Design | Articles, Events, and Resources for the Open Source Design Community</title>
+					<title>
+						Liferay Design | Articles, Events, and Resources for the
+						Open Source Design Community
+					</title>
 
 					{this.props.headComponents}
 				</head>
