@@ -149,7 +149,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/hisamoto-naoki-h.jpg`),
 		title: 'Graphic Designer',
 		icon: 'fa_check_double',
-		page: 'null',
+		page: '/team/hisamoto-naoki',
 	},
 	{
 		id: 130,
