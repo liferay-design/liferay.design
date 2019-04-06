@@ -1,6 +1,6 @@
 ---
 title: 'Paul Hanaoka'
-description: 'UX Design Manager'
+description: 'Product Design Manager'
 featuredImage: '/images/headshots/hanaoka-paul-h.jpg'
 ---
 

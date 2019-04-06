@@ -1,6 +1,6 @@
 ---
 title: 'Victor Valle'
-description: 'UX Design Manager'
+description: 'Product Design Manager'
 featuredImage: '/images/headshots/valle-victor-h.jpg'
 ---
 
@@ -32,7 +32,7 @@ Divide and conquer! Apply this everywhere, it will reduce complexity to any prob
 
 ### Last book you read? 📔
 
-Tokyo Blues by *[Haruki Murakami](http://www.harukimurakami.com/author)*.
+Tokyo Blues by _[Haruki Murakami](http://www.harukimurakami.com/author)_.
 
 ### Favorite superhero 💪
 
