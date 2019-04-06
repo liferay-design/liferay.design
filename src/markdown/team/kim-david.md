@@ -1,6 +1,6 @@
 ---
 title: 'David Kim'
-description: 'UX Designer'
+description: 'Product Designer'
 featuredImage: '/images/headshots/kim-david-h.jpg'
 ---
 

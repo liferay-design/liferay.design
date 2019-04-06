@@ -1,6 +1,6 @@
 ---
 title: 'Ryan Connolly'
-description: 'UX Design Manager'
+description: 'Product Design Manager'
 featuredImage: '/images/headshots/connolly-ryan-h.jpg'
 ---
 
@@ -31,4 +31,3 @@ There's no question that I would be illustrating like a mad man.
 #### Advice for ambitious designers?
 
 Never stop practicing. Design is a skill that needs to be practiced and constantly worked on -- good things don't just happen out of nowhere.
-

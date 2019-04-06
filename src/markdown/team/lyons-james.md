@@ -1,6 +1,6 @@
 ---
 title: 'James Lyons'
-description: 'UX Designer'
+description: 'Product Designer'
 featuredImage: '/images/headshots/-upside-down-face.png'
 ---
 
