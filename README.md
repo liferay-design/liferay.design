@@ -29,7 +29,7 @@
 
 # Liferay.Design
 
-## About
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2922843-0ae6-4361-bdb2-6e26329da68a/deploy-status)](https://app.netlify.com/sites/happy-jackson-1b6bb8/deploys)## About
 
 The online presence of Liferay's Design Teams!
 
@@ -144,6 +144,7 @@ Stylesheets and other theme-related files.
 ##### utils
 
 [Auth](https://wedeploy.com/docs/auth/getting-started/) is our only utility &mdash; but it's so great it gets its own folder.
+[TODO: Replace WeDeploy Auth](https://github.com/liferay-design/liferay.design/issues/280)
 
 #### static/images
 
@@ -273,10 +274,6 @@ Set aside about 45 &mdash; 60 min to get set up.
 
 ### Notes
 
-1. **Pushing work to the upstream dev or production branches will automagically build the site**
+1. **Pushing work to any of the branches will automagically build the site**
 
-1. You can check the progress of your build by checking [Travis CI](https://travis-ci.org/liferay-design/liferay.design/).
-
-1. Once build is complete visit [dev](https://dev.liferay.design) or [production](https://liferay.design) to see it.
-
-    If you're in the WeDeploy project, you can view build status on the [logs page](https://console.wedeploy.com/projects/liferaydotdesign-dev/services/liferaydesign/logs).
+1. You can check the progress of current and past builds by checking our [Netlify Deploys page](https://app.netlify.com/sites/happy-jackson-1b6bb8/deploys).
