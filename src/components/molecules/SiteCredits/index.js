@@ -16,7 +16,7 @@ const SiteCredits = () => {
 				<a target="_blank" rel="noopener" href="http://gatsbyjs.org/">
 					Gatsby
 				</a>{' '}
-				and <a href="https://wedeploy.com">WeDeploy™</a>
+				and <a href="https://netlify.com">Netlify</a>
 			</Text>
 		</Flex>
 	)
