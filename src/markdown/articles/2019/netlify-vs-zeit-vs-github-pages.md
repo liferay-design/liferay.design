@@ -43,7 +43,9 @@ It hasn’t been as smooth as Netlify — a lot of that is probably attributable
 
 Old-reliable — gh-pages is not as flashy or fun to use as Netlify or Zeit, but it’ll get the job done. It doesn’t support continuous deployment, and using custom domains with it can be a bit of a pain — but if you only have one or two pages, then it can be nice to stay completely in the GitHub ecosystem.
 
-## <a id="further-reading">Further Reading</a>
+_Special thanks to [@abelfhancock](/team/hancock-abel) for doing a bunch of preliminary research and testing on [his personal site](https://www.hancockaudio.com) — check it out, it's pretty cool._
+
+## <a id="further-reading"></a>Further Reading
 
 -   [Where should I host my static website?](https://yrezgui.com/blog/2018/04/where-should-i-host-my-static-website.html) by Yacine Rezgui
 -   [Github Pages vs. Netlify](https://www.netlify.com/github-pages-vs-netlify/) by Netlify
