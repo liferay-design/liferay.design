@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Layout
 The asset toolbar's layout is flexible and adapts to different viewport sizes, as shown in the examples below:

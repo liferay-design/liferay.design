@@ -9,7 +9,7 @@ order: 2
 
 
 
-<div class="page-description">{$page.description}</div>
+
 
 ![state one of the management bar](../../../images/ManagementBarState1.jpg)
 

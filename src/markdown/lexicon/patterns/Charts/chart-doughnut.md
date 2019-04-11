@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 We recommend that you use the Donut Chart instead of the Pie chart due to the following reasons:
 * When you first see the Pie Chart, your eyes tend to be attracted to the center of the pie, then to the outside circle, and only after that, the different parts of the chart.

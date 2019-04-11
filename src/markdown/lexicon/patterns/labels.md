@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Usage
 Use labels to organize groups of items in your application. Labels have rounded borders by default.

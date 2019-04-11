@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 Stacked Bar Charts can either be displayed in vertical bars or horizontal bars. This page focuses on vertical bars, but horizontal bars are also acceptable.
 

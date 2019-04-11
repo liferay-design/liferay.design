@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 Badges have circular borders and are only used to specify a number.
 

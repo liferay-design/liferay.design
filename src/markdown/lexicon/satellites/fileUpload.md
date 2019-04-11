@@ -6,7 +6,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Simple File Upload
 Simple file upload is used to upload a simple file element.

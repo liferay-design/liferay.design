@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![navigation bar with 5 entries, first one seleted](../../../images/Navbar.jpg)
 

@@ -5,7 +5,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 
 Colors have a huge impact in a system. They define the visual identity, bring harmony, communicate, etc. Lexicon defines the following color palette that you are free to change for your own.

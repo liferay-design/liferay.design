@@ -7,7 +7,7 @@ layout: "guide"
 order: 4
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ## Autocomplete text field
 

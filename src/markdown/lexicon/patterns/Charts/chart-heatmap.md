@@ -6,7 +6,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![Heatmap chart](../../../images/ChartHeatmap.png)
 

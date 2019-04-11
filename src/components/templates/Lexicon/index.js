@@ -81,6 +81,9 @@ export default class Blueprints extends Component {
 
 												{!matches && <AuthContainer />}
 											</Flex>
+											<Flex>
+												<h2>{mdx.frontmatter.description}</h2>
+											</Flex>
 
 											<MDXRenderer className={styles.body}>
 												{mdx.code.body}
@@ -132,7 +135,9 @@ export const pageQuery = graphql`
 					id
 					frontmatter {
 						order
-						title
+						titleLabel
+						titleLabelLink
+						description
 					}
 					fields {
 						slug

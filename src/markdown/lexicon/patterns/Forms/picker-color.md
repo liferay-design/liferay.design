@@ -6,7 +6,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![Color picker field](../../../images/Picker-color-field.jpg)
 

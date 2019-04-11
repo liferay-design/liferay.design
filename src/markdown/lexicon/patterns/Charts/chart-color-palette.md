@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 Colors must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.
 
