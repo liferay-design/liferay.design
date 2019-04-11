@@ -22,8 +22,8 @@ const WideCard = styled(Card)`
 const Lexicon = () => (
 	<div className={styles.sans}>
 		<Banner
-			headline="Blueprints"
-			subtitle="Brand Guidelines for Liferay"
+			headline="Lexicon"
+			subtitle="An Experience Language for Crafting Beautiful UI"
 			cta="Get Started"
 			ctaLink="/blueprints/principles"
 			section="Blueprints"
