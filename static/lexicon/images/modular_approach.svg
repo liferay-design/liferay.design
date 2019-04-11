@@ -1,0 +1,21 @@
+<svg width="720px" height="720px" viewBox="0 0 720 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect fill="#272833" x="0" y="0" width="720" height="720"></rect>
+            <ellipse fill="#6B6C7E" cx="261" cy="538.171921" rx="132" ry="131.171921"></ellipse>
+            <rect fill="#FFFFFF" x="140" y="126" width="240" height="240"></rect>
+            <polygon fill="#4887FF" points="559.5 124 701 364.788775 418 364.788775"></polygon>
+            <g transform="translate(468.000000, 530.000000)" fill="#FFFFFF">
+                <rect x="46" y="7" width="20" height="9"></rect>
+                <rect x="86" y="7" width="20" height="9"></rect>
+                <rect x="126" y="7" width="20" height="9"></rect>
+                <rect x="166" y="7" width="20" height="9"></rect>
+                <polygon points="0 11 22 0 22 22"></polygon>
+            </g>
+            <g transform="translate(118.000000, 83.500000) scale(1, -1) translate(-118.000000, -83.500000) translate(31.000000, 1.000000)">
+                <path d="M0,0 C0,82.2904277 66.7095723,149 149,149 L149,149" stroke="#4887FF" stroke-width="8" stroke-dasharray="19,20"></path>
+                <polygon fill="#4887FF" transform="translate(162.000000, 153.000000) rotate(-177.000000) translate(-162.000000, -153.000000) " points="151 153 173 142 173 164"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
