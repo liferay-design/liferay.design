@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/progress-bars.html"
 description: "Progress bar indicates the percentage completed of a task."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

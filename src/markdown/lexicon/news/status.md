@@ -2,7 +2,7 @@
 title: "Status"
 description: "Lexicon upcoming site status"
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <p class="last-update">Last Update January 2nd, 2019</p>

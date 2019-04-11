@@ -2,7 +2,7 @@
 title: "Sites"
 description: "A tour through the basic patterns that make up the Classic theme that styles the Site's environment."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

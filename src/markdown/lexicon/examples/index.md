@@ -3,7 +3,7 @@ title: "Examples"
 description: "Keep updated."
 layout: "guide"
 icon: "lexicon-site-news"
-weight: 6
+order: 6
 ---
 
 <time>July 22nd, 2017</time>

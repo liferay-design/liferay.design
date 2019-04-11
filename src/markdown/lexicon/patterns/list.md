@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/list.html"
 description: "Lists are a visual representation of a dataset, based on groups of related content, that is organized vertically."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

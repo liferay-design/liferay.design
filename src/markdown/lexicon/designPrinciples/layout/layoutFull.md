@@ -2,7 +2,7 @@
 title: "Full Box"
 description: "The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div> 

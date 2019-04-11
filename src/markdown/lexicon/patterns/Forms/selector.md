@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/forms/selector.html"
 description: "A form control element used to select from several provided options and enter data."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

@@ -2,7 +2,7 @@
 title: "Colors"
 description: "A specific color palette with the aim to provide the best charts user experience."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

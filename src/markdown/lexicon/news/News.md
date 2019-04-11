@@ -2,7 +2,7 @@
 title: "News"
 description: "Keep updated."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <time>March 11th, 2019</time>

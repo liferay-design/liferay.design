@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/sidebar/info-panel.html"
 description: "An information container that displays additional data for the content displayed in the main visual area."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

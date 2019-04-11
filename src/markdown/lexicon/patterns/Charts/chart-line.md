@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/charts/basic/bar_chart.html"
 description: "A type of chart which displays information as a series of data points connected by straight line segments."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

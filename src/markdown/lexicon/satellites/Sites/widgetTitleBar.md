@@ -2,7 +2,7 @@
 title: "Widget Title Bar"
 description: "A bar that contains the widget's title and the tools that affect the widget."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

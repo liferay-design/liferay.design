@@ -3,7 +3,7 @@ title: "Get Started"
 description: "User experience design language."
 layout: "guide"
 icon: "lexicon-site-about"
-weight: 1
+order: 1
 ---
 
 

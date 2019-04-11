@@ -2,7 +2,7 @@
 title: "Interaction"
 description: "A description of the basic expected interaction behaviors for all charts."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

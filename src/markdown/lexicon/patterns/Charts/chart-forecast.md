@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/charts/advanced/predictive-forecasting.html"
 description: "The Predictive forecasting chart uses customer data to predict future data with a declared margin of error."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

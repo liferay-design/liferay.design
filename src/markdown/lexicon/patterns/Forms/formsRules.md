@@ -2,7 +2,7 @@
 title: "Forms Rules"
 description: "A set of rules and recommendations for using form patterns in portal."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

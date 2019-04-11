@@ -2,7 +2,7 @@
 title: "Sidebar + Box"
 description: "A specific layout used when a left sidebar requires a vertical navigation."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div> 

@@ -2,7 +2,7 @@
 title: "Navigation"
 description: "This section provides basic use guidelines for the main navigation patterns of the system."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

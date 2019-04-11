@@ -2,7 +2,7 @@
 title: "Forms Validation"
 description: "A description of how validation patterns must be displayed within form structures."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

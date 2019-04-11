@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/pagination.html"
 description: "Pager allows navigation between pages of a process or task divided into subtasks (pages)."
 layout: "guide"
-weight: 1
+order: 1
 hidden: yes
 ---
 

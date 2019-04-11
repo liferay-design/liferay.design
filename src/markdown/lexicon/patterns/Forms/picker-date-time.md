@@ -3,7 +3,7 @@ title: "Date & Time Pickers"
 titleLabel: "Pending"
 description: "Date and Time pickers let users select a date and time for a form."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

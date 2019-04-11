@@ -2,7 +2,7 @@
 title: "Buttons"
 description: "A set of button variations specifically designed for site environment widgets."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>
