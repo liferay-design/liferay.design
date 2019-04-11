@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Left navigation menu
 

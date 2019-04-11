@@ -5,7 +5,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 Words give meaning to your meticulously designed product. Without the proper messaging for your product’s navigation and functionality, uncertainty creeps into your users minds. The messages and naming conventions you use throughout your product complement its design. No matter how well-constructed your design, poor messaging can doom your product’s effectiveness. Clarity, confidence, and consistency in messaging promotes product reliability.
 

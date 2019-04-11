@@ -6,7 +6,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![table inline edition, view mode](../../../images/TableInlineEdition.jpg)
 

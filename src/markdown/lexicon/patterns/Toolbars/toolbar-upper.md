@@ -7,7 +7,7 @@ order: 2
 
 
 
-<div class="page-description">{$page.description}</div>
+
 
 This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
 

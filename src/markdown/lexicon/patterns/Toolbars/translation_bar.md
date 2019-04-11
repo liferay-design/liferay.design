@@ -8,7 +8,7 @@ hidden: yes
 
 
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Usage
 

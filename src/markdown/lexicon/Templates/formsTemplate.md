@@ -4,7 +4,7 @@ description: "The form template demonstrates how forms are built and composed us
 layout: "guide"
 order: 1
 ---
-<div class="page-description">{$page.description}</div>
+
 
 ### Form without side navigation example
 

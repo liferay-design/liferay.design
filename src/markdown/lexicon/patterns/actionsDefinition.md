@@ -5,7 +5,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Delete vs Send to Recycle Bin
 

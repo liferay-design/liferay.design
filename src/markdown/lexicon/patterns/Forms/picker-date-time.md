@@ -6,7 +6,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 **Note:** These components are meant to cover desktop browser needs. The OS native component must be used on mobile devices.
 

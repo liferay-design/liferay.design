@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![breadcrumb without collapsing](../../../images/Breadcrumb.jpg)
 

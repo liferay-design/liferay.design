@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![Asset Title Bar](../../../images/sites/AssetTitleBar.jpg)
 

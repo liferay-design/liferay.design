@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">{$page.description}</div> 
+ 
 
 The Form Box is the most basic layout used to contain form structures. This layout is composed of a box that occupies 8 columns of the grid, with 2 offset columns on both sides.
 

@@ -8,7 +8,7 @@ order: 1
 hidden: yes
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Usage
 

@@ -5,7 +5,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Layout
 This template works with several patterns, listed below, that can be directly mapped with the image:

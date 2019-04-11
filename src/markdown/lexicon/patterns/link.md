@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Usage
 * Only use links for navigation. A link must not trigger another kind of action.

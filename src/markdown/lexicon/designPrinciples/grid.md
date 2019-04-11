@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 
 Lexicon's layout framework aims to provide a common structural reference to ease the component creation and page composition processes, as well as to provide a visual consistency between the different elements of the interface.

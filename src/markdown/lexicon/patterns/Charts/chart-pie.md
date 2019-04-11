@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![Pie chart with 4 different elements](../../../images/ChartPie.png)
 

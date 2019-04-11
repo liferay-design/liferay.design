@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![Tabs. On the left side classic variation on the right side modern variation](../../../images/Tab.jpg)
 

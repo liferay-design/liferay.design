@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![modal window over a dark transparent background](../../../images/Modal.jpg)
 

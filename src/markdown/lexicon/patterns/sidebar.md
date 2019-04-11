@@ -6,7 +6,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 Lexicon defines two types of sidebars:
 * **Product Menu:** Lets the user navigate through different applications inside the Control Panel and the Site. See [product menu](../satellites/Sidebar/product_menu.html) for more information.

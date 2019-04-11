@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![Multi step form simplified](../../../images/MultiStepFormSimplified.jpg)
 

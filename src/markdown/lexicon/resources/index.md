@@ -5,7 +5,7 @@ layout: "guide"
 order: 8
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ### Design libraries
 

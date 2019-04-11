@@ -6,7 +6,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">{$page.description}</div>
+
 
 ![navigation card default state](../../../images/CardNavDefault.jpg)
 
