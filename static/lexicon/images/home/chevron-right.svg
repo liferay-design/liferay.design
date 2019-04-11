@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="7px" height="11px" viewBox="0 0 7 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Shape" fill="#0B5FFF" fill-rule="nonzero" points="0 1.80578 1.7302 0 7 5.5 1.7302 11 0 9.19423 3.53961 5.5"></polygon>
-    </g>
-</svg>
+<svg width="7" height="11" xmlns="http://www.w3.org/2000/svg"><path fill="#0B5FFF" d="M0 1.80578L1.7302 0 7 5.5 1.7302 11 0 9.19423 3.53961 5.5z"/></svg>
