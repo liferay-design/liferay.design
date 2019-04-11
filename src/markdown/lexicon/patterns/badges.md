@@ -6,9 +6,6 @@ description: "Badges help highlight important information, such as notifications
 layout: "guide"
 order: 1
 ---
-
-
-
 Badges have circular borders and are only used to specify a number.
 
 ![defualt size default color badge](../../../images/Badges.jpg)

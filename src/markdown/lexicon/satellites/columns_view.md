@@ -5,9 +5,6 @@ description: "Miller columns is a visualization type that lets users move faster
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 
 Miller columns let you navigate through many elements on multiple levels. This pattern, complemented with drag and drop, is very powerful for reorganizing elements. Moreover, it breaks down the complexity of loading many elements in a single list to many smaller lists.

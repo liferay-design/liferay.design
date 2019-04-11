@@ -6,9 +6,6 @@ description: "A text input variation used in fields that can be translated into 
 layout: "guide"
 order: 4
 ---
-
-
-
 ### Layout
 
 This component contains two elements:
@@ -55,6 +52,3 @@ This field is usually placed in a form with other localizable fields. Selecting 
 A very common case in Liferay Portal is to have to translate fields for URLs. This field is a clear combination of an input group with a localizable field.
 
 ![input localizable](../../../images/InputLocalizableGroupUrl.jpg)
-
-
-

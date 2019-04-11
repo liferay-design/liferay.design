@@ -6,9 +6,6 @@ description: "Stickers are a visual way to quickly identify content in a differe
 layout: "guide"
 order: 1
 ---
-
-
-
 ![sticker types](../../../images/Sticker32.jpg)
 
 ### Usage

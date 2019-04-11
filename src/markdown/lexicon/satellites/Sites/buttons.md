@@ -4,9 +4,6 @@ description: "A set of button variations specifically designed for site environm
 layout: "guide"
 order: 2
 ---
-
-
-
 ### Variations
 
 #### Primary button icon with text

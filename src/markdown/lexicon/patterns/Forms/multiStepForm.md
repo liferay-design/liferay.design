@@ -6,9 +6,6 @@ description: "A progress bar used to divide the main task into subtasks to help 
 layout: "guide"
 order: 3
 ---
-
-
-
 ![Multi step form](../../../images/MultiStepForm7Steps.jpg)
 
 ### Usage

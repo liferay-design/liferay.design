@@ -5,9 +5,6 @@ description: "Color picker lets users select a color from a predefined palette, 
 layout: "guide"
 order: 3
 ---
-
-
-
 ![Color picker field](../../../images/Picker-color-field.jpg)
 
 This pattern offers two variations, depending on the required usage. Please see the [Variations](#variations) section below for more information.

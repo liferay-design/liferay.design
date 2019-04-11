@@ -6,9 +6,6 @@ description: "A Pie chart divides data by numerical proportions of a total value
 layout: "guide"
 order: 3
 ---
-
-
-
 ![Pie chart with 4 different elements](../../../images/ChartPie.png)
 
 ### Color use

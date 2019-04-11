@@ -4,9 +4,6 @@ description: "A pattern that lets users drag and drop elements in the interface.
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Events
 
 Drag and drop interaction is composed of a series of six events:

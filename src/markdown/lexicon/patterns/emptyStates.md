@@ -5,9 +5,6 @@ description: "Empty states provide users with feedback on the reasons behind the
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 
 #### When should I use the default animations?

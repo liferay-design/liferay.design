@@ -6,9 +6,6 @@ description: "Buttons communicate an action to happen on user interaction."
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Types
 
 #### Primary

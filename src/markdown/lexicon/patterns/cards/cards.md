@@ -6,9 +6,6 @@ description: "Cards are a specific form of data visualization focused mainly on 
 layout: "guide"
 order: 1
 ---
-
-
-
 ![card with image default state](../../../images/CardImage.jpg)
 
 ### Usage

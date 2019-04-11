@@ -5,9 +5,6 @@ description: "A vertical panel that appears from the right or the left side of t
 layout: "guide"
 order: 1
 ---
-
-
-
 Lexicon defines two types of sidebars:
 * **Product Menu:** Lets the user navigate through different applications inside the Control Panel and the Site. See [product menu](../satellites/Sidebar/product_menu.html) for more information.
 * **Info Panel:** An information container to display relevant information that does not fit into the table, list, card, or any other visualization. See [info panel](../satellites/Sidebar/infopanel.html) for more information.

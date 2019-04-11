@@ -6,9 +6,6 @@ description: "Lists are a visual representation of a dataset, based on groups of
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 
 ![list entry in default state](../../../images/ListViewDefault.jpg)

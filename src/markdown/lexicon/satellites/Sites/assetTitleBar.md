@@ -4,9 +4,6 @@ description: "A bar used to display an asset's title and its associated actions 
 layout: "guide"
 order: 2
 ---
-
-
-
 ![Asset Title Bar](../../../images/sites/AssetTitleBar.jpg)
 
 ### Attributes

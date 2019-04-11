@@ -4,9 +4,6 @@ description: "Confirmation messages inform the user that a situation is critical
 layout: "guide"
 order: 1
 ---
-
-
-
 ![confirmation message](../../../images/ConfirmationMessage.jpg)
 
 ### Usage

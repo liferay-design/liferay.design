@@ -6,9 +6,6 @@ description: "A dropdown menu displays a list of options for the element that tr
 layout: "guide"
 order: 1
 ---
-
-
-
 ![default dropdown menu](../../../images/Dropdown.jpg)
 
 ### Usage

@@ -6,9 +6,6 @@ description: "Tabs organize similar content together into individual sections in
 layout: "guide"
 order: 1
 ---
-
-
-
 ![Tabs. On the left side classic variation on the right side modern variation](../../../images/Tab.jpg)
 
 

@@ -6,9 +6,6 @@ description: "A form control element used to select from several provided option
 layout: "guide"
 order: 3
 ---
-
-
-
 ## Selector
 
 ![select default state](../../../images/Selector.jpg)

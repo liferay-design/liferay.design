@@ -6,9 +6,6 @@ description: "Labels are a visual pattern used to categorize information providi
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 Use labels to organize groups of items in your application. Labels have rounded borders by default.
 
