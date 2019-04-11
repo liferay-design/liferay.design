@@ -7,9 +7,6 @@ layout: "guide"
 order: 3
 ---
 
-
-
-
 ### Color use
 
 You can use colors in different ways in Bar Charts, but there are two main use cases in Lexicon:

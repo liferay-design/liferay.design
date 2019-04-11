@@ -6,9 +6,6 @@ description: "Icons are a visual representation of an idea and/or action."
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 
 An icon by itself doesn't have a meaning, therefore it must be always associalted to a label, an action, or something similar. The icon itself helps to communicate an idea but the meaning must be given by the label. The icon is just a visual aid. Please choose carefully the icon and the associated label so together they have a powerful and not misleading meaning.

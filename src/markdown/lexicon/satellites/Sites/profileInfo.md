@@ -4,9 +4,6 @@ description: "An element used to identify the author or owner and other related 
 layout: "guide"
 order: 2
 ---
-
-
-
 ![Profile info types](../../../images/sites/ProfileInfoTypes.jpg)
 
 ### Attributes

@@ -6,9 +6,6 @@ description: "Pagination provides horizontal navigation between chunks(pages) of
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Variations
 
 #### Pagination

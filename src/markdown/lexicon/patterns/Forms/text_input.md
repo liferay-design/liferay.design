@@ -6,9 +6,6 @@ description: "A description of the different text input types, including usage a
 layout: "guide"
 order: 4
 ---
-
-
-
 ## Text Field
 
 A text field lets users enter data into the system to be processed.

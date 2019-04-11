@@ -4,9 +4,6 @@ description: "A series of links to previous versions of Lexicon and presentation
 layout: "guide"
 order: 8
 ---
-
-
-
 ### Design libraries
 
 Creating your own interfaces using Lexicon is pretty easy using our Figma or Sketch libraries. Our libraries provide you with our foundations and core components that you can use to build your interfaces.

@@ -7,9 +7,6 @@ layout: "guide"
 order: 1
 hidden: yes
 ---
-
-
-
 ### Usage
 
 Pagers are commonly used in forms that are chucked because of their length.

@@ -6,9 +6,6 @@ description: "The definition of the content hierarchy inside a form structure an
 layout: "guide"
 order: 2
 ---
-
-
-
 This page contemplates the visual definition of the hierarchy and the measurements and the definition of the components that establish that hierarchy.
 
 ### Layout

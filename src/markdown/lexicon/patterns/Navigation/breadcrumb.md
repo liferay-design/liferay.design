@@ -6,9 +6,6 @@ description: "Breadcrumb is a secondary navigation pattern that identifies the p
 layout: "guide"
 order: 2
 ---
-
-
-
 ![breadcrumb without collapsing](../../../images/Breadcrumb.jpg)
 
 ![breadcrumb collapsing with a dropdown button on the left side](../../../images/BreadcrumbDropdown.jpg)

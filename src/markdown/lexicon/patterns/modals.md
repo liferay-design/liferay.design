@@ -6,9 +6,6 @@ description: "A modal is a secondary window that communicates or provides an act
 layout: "guide"
 order: 1
 ---
-
-
-
 ![modal window over a dark transparent background](../../../images/Modal.jpg)
 
 ### Usage

@@ -6,9 +6,6 @@ description: "A Stacked Bar chart compares the values of single items with the t
 layout: "guide"
 order: 3
 ---
-
-
-
 Stacked Bar Charts can either be displayed in vertical bars or horizontal bars. This page focuses on vertical bars, but horizontal bars are also acceptable.
 
 This chart type is implemented using Bar Charts.

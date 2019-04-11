@@ -6,9 +6,6 @@ description: "A text field with added elements that provide a more complex input
 layout: "guide"
 order: 4
 ---
-
-
-
 ### Layout
 An input field's layout is flexible. You can add elements on either side of the field.
 

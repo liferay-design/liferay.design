@@ -6,9 +6,6 @@ description: "Forms obtain user data and transmit it to the system to either sto
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Parts
 
 ![lexicon default](../../../images/FormParts.jpg)

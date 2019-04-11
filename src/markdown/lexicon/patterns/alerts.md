@@ -6,9 +6,6 @@ description: "Alerts are used to capture the attention of the user in an intrusi
 layout: "guide"
 order: 1
 ---
-
-
-
 ![info alert colors](../../../images/Alert.jpg)
 
 ### Usage

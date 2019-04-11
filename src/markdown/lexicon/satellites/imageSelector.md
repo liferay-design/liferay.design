@@ -5,9 +5,6 @@ description: "The image selector lets the user select images from a grid, priori
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 
 * Only use this pattern for image selection.

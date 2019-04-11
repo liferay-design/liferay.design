@@ -5,9 +5,6 @@ description: "Card for navigation is a visual component focused on providing nav
 layout: "guide"
 order: 1
 ---
-
-
-
 ![navigation card default state](../../../images/CardNavDefault.jpg)
 
 ### Usage

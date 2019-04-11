@@ -6,9 +6,6 @@ description: "A table is a specific pattern for comparing datasets in a very dir
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 
 A table view is useful for comparing entries that need exhaustive comparison. Tables display text heavily. If you need to display images, we recommend that you use lists or cards.

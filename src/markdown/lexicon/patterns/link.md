@@ -6,9 +6,6 @@ description: "Also known as a hyperlink, a link is a clickable (text or image) e
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Usage
 * Only use links for navigation. A link must not trigger another kind of action.
 * Do not use a link to trigger an action that could trigger a button. If you want to trigger a button, use a [button link](./buttons.html) instead.

@@ -6,9 +6,6 @@ description: "A description of the search, autocomplete, labels, date, numeric, 
 layout: "guide"
 order: 4
 ---
-
-
-
 ## Autocomplete text field
 
 <span class="label label-secondary">PENDING</span>

@@ -6,9 +6,6 @@ description: "An alternative patterns that displays navigation items in a vertic
 layout: "guide"
 order: 2
 ---
-
-
-
 ![vertical navigation](../../../images/NavigationVertical.jpg)
 
 ### Usage

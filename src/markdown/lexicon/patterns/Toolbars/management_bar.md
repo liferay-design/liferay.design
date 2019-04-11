@@ -8,9 +8,6 @@ order: 2
 ---
 
 
-
-
-
 ![state one of the management bar](../../../images/ManagementBarState1.jpg)
 
 ![state two of the management bar](../../../images/ManagementBarState2.jpg)

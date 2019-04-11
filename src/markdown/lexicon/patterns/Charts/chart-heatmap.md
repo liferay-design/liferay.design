@@ -5,9 +5,6 @@ description: "The Heatmap Chart is a visual representation of the data using col
 layout: "guide"
 order: 3
 ---
-
-
-
 ![Heatmap chart](../../../images/ChartHeatmap.png)
 
 ### Color use

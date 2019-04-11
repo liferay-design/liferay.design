@@ -4,9 +4,6 @@ description: "This section provides basic use guidelines for the main navigation
 layout: "guide"
 order: 1
 ---
-
-
-
 This section describes the main navigational patterns, although more patterns are available.
 
 ![navigation configuration DE](../../../images/Navigation.jpg)

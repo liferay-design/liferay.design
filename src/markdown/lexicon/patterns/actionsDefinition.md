@@ -4,9 +4,6 @@ description: "This page defines the use case for several common actions."
 layout: "guide"
 order: 1
 ---
-
-
-
 ### Delete vs Send to Recycle Bin
 
 #### Delete

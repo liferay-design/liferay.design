@@ -6,9 +6,6 @@ description: "Header is a toolbar that provides identification and lets the user
 layout: "guide"
 order: 2
 ---
-
-
-
 ### Usage
 
 Header is always fixed to the top of the window.

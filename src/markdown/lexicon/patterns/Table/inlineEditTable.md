@@ -5,9 +5,6 @@ description: "A table variation that lets users modify certain values of the ent
 layout: "guide"
 order: 2
 ---
-
-
-
 ![table inline edition, view mode](../../../images/TableInlineEdition.jpg)
 
 ### Usage

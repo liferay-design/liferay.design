@@ -6,9 +6,6 @@ description: "A navigation bar, navbar, is a horizontal bar that provides severa
 layout: "guide"
 order: 2
 ---
-
-
-
 ![navigation bar with 5 entries, first one seleted](../../../images/Navbar.jpg)
 
 ### Usage
