@@ -1,9 +1,12 @@
 ---
-title: "Search"
-description: "Documentation search results."
+title: 'Search'
+description: 'Documentation search results.'
 hidden: true
 ---
 
+## search soy file
+
+```
 {namespace pageDocsSearch}
 
 /**
@@ -40,3 +43,4 @@ hidden: true
 		{/param}
 	{/call}
 {/template}
+```

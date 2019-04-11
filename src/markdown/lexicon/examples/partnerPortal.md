@@ -1,10 +1,11 @@
 ---
-title: "Partner Portal"
-titleProject: "PARTNER PORTAL"
-layout: "guide"
+title: 'Partner Portal'
+titleProject: 'PARTNER PORTAL'
+layout: 'guide'
 order: 1
 ---
 
+<!--
 <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">
         <span class="sticker-overlay">
@@ -15,7 +16,7 @@ order: 1
         <p class="designer-name">Patrick Pentz</p>
         <p class="designer-detail">UX Designer, LA</p>
     </span>
-</span>
+</span> -->
 
 Liferay's Partner Portal is the one-stop shop for everything partners need to manage their Liferay business. The portal allows our partners to register and track sales opportunities, manage subscription renewals, request marketing development funds, stay up to date with partner news, and access a variety of Liferay business resources.
 

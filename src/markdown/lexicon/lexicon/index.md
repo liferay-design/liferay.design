@@ -1,15 +1,14 @@
 ---
-title: "Get Started"
-description: "User experience design language."
-layout: "guide"
-icon: "lexicon-site-about"
+title: 'Get Started'
+description: 'User experience design language.'
+layout: 'guide'
+icon: 'lexicon-site-about'
 order: 1
 ---
 
-
 ### Design language
 
-Lexicon is a design language that provides a common framework for building interfaces within the Liferay product ecosystem. It is a guide to  foundations, components, patterns, and use cases that provide consistency and coherence to these products, and, ultimately, provides a satisfactory and unified experience to its users.
+Lexicon is a design language that provides a common framework for building interfaces within the Liferay product ecosystem. It is a guide to foundations, components, patterns, and use cases that provide consistency and coherence to these products, and, ultimately, provides a satisfactory and unified experience to its users.
 
 Lexicon is a living project, evolving and adapting over time to new and rising technologies to meet the needs of the people.
 
@@ -21,8 +20,9 @@ To achieve this goal, Lexicon uses Brad Frost's Atomic Design approach to interf
 
 ### Lexicon site
 
-This site explains the design specs and proper usage of Lexicon's system of components for designers, developers, and overall digital creators. While it is primarily for the Liferay community, it is open to anyone who wants to use its components or make contributions or suggestions to improving it. 
+This site explains the design specs and proper usage of Lexicon's system of components for designers, developers, and overall digital creators. While it is primarily for the Liferay community, it is open to anyone who wants to use its components or make contributions or suggestions to improving it.
 
+<!--
 <span class="getstarted-card row">
     <span class="col-12 col-sm-2 col-md-3 text-center">
         <img class="getstarted-img" src="/lexicon/images/getstarted/foundation.png" alt="">
@@ -71,16 +71,16 @@ This site explains the design specs and proper usage of Lexicon's system of comp
         <h4>Examples</h4>
         <p>This section showcases practical designs by UX Designers that demonstrate how core components and satellite components are applied to create Lexicon interfaces that tackle specific scenarios.</p>
     </span>
-</span>
-
+</span> -->
 
 The components in this site include the labels shown below, which indicate if the component links to its implementation or the product where you can find them. This lets you view the components in a real-world application and context.
 
+<!--
 | Label | Usage |
 | ---- | ----- |
 | <a class="label-link label label-warning" href="https://clayui.com/" target="_blank">VIEW IN CLAY</a> | Links to the pattern implementation |
 | <span class="label label-info">PRODUCT NAME</span> | The pattern is used in a concrete product or application |
-| <span class="label label-secondary">PENDING</span> | The pattern has been designed and will be implemented either in Clay or a Product/Application. |
+| <span class="label label-secondary">PENDING</span> | The pattern has been designed and will be implemented either in Clay or a Product/Application. | -->
 
 ### Implement Lexicon
 

@@ -1,15 +1,17 @@
 ---
-title: "Cards"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/cards.html"
-description: "Cards are a specific form of data visualization focused mainly on displaying images."
-layout: "guide"
+title: 'Cards'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/cards.html'
+description: 'Cards are a specific form of data visualization focused mainly on displaying images.'
+layout: 'guide'
 order: 1
 ---
+
 ![card with image default state](/lexicon/images/CardImage.jpg)
 
 ### Usage
-A card is a pattern that relies heavily on imagery, therefore, we recommend that you only use cards if you have images associated with your content. A practical use case for this could be your users database or an image library. 
+
+A card is a pattern that relies heavily on imagery, therefore, we recommend that you only use cards if you have images associated with your content. A practical use case for this could be your users database or an image library.
 
 Cards are meant for a light comparison of information rather than an exhaustive comparison. If you have exhaustive information to compare, which doesn't contain images, use a table instead.
 
@@ -17,25 +19,27 @@ Cards can have various configurations. We provide a flexible card layout that is
 
 ### Card interaction
 
-* A card can have a checkbox, a radio button, or neither of them.
-* You can select a card by using the checkbox or radio button or the image area. 
-* The main text in the card can be used for navigation:
-	* When used in a Folder card, it navigates to the next level.
-	* When used in a File, Image, or User card, it navigates to its detail view.
-	* Never use the navigation to view a preview. This is always a secondary action placed inside the action menu.
-	* If the link drives the user out of the site, please identify visually that this link will open in a new page.
-* When the card title is hovered a tooltip has to appear showing the entire element title.
+-   A card can have a checkbox, a radio button, or neither of them.
+-   You can select a card by using the checkbox or radio button or the image area.
+-   The main text in the card can be used for navigation:
+    _ When used in a Folder card, it navigates to the next level.
+    _ When used in a File, Image, or User card, it navigates to its detail view.
+    _ Never use the navigation to view a preview. This is always a secondary action placed inside the action menu.
+    _ If the link drives the user out of the site, please identify visually that this link will open in a new page.
+-   When the card title is hovered a tooltip has to appear showing the entire element title.
 
 ### Layout
+
 By providing a flexible layout, Lexicon gives you a wider range of possible configurations for your card. You can adapt the layout to suite your needs, so it just contain the elements you require.
 
 A card contains the following elements:
-* The image area: The main element in this pattern. It has a 16:9 aspect ratio.
-* Checkbox or radio: This is useful when working together as a visualization type with a management bar.
-* Sticker or User image: This is useful to identify the file type or the owner.
-* An information area
-	* Informative text: This contains relevant information, such as the description.
-	* Actions menu: This contains actions associated with the card.
+
+-   The image area: The main element in this pattern. It has a 16:9 aspect ratio.
+-   Checkbox or radio: This is useful when working together as a visualization type with a management bar.
+-   Sticker or User image: This is useful to identify the file type or the owner.
+-   An information area
+    _ Informative text: This contains relevant information, such as the description.
+    _ Actions menu: This contains actions associated with the card.
 
 The only required element for a card is the image. Everything else can be removed.
 
@@ -43,22 +47,27 @@ The only required element for a card is the image. Everything else can be remove
 
 Image cards are used in image/document galleries.
 
-#### Default 
+#### Default
+
 ![card with image default state](/lexicon/images/CardImage.jpg)
 
 #### Hover
+
 ![card with image hover state, blue border](/lexicon/images/CardImageHover.jpg)
 
-#### Active 
+#### Active
+
 ![card with image selected state, blue border and check marked](/lexicon/images/CardImageActive.jpg)
 
 #### Empty
+
 ![card with image empty state, no image, gray background grid](/lexicon/images/CardImageEmpty.jpg)
 
 #### Image with different ratios
 
 Images can vary in size. So no visual information is lost in the card, Lexicon maintains the original images aspect ratio within the image area's container.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
         <img src="/lexicon/images/CardImageAspectRatio1.jpg" alt="Card Image Aspect Ratio 1">
@@ -71,10 +80,9 @@ Images can vary in size. So no visual information is lost in the card, Lexicon m
 	<div class="dodont col-lg">
         <img src="/lexicon/images/CardImageAspectRatio3.jpg" alt="Card Image Aspect Ratio 3">
 	</div>
-</div>
+</div> -->
 
 Aspect ratio might be used when the content to represent in the card is a document. The image can expand to fill the area.
-
 
 ### Attributes
 
@@ -94,6 +102,7 @@ Aspect ratio might be used when the content to represent in the card is a docume
 
 User cards represent users. The user can be represented by their user image or up to two initials extracted from their user name or name + surname.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
         <img src="/lexicon/images/CardUser.jpg" alt="User card without image but initials">
@@ -101,7 +110,7 @@ User cards represent users. The user can be represented by their user image or u
 	<div class="dodont col-lg">
 		<img src="/lexicon/images/CardUserImage.jpg" alt="User card with image">
 	</div>
-</div>
+</div> -->
 
 ### File card
 
@@ -116,12 +125,11 @@ Folder cards display horizontal representations of information. They have the sa
 ![folder card, similar to a stripe card](/lexicon/images/CardFolder.jpg)
 
 ### Sections
+
 Card sections organize content into separate divisions by a certain categorization or typology.
 
 ![card section](/lexicon/images/CardViewGroupSeparator.png)
 
-
 ### Examples
 
 See the [dataset template](../Templates/datasetTemplate.html) for a practical use case of cards.
-

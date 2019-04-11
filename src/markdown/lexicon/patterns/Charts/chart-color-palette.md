@@ -1,9 +1,10 @@
 ---
-title: "Colors"
-description: "A specific color palette with the aim to provide the best charts user experience."
-layout: "guide"
+title: 'Colors'
+description: 'A specific color palette with the aim to provide the best charts user experience.'
+layout: 'guide'
 order: 2
 ---
+
 Colors must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.
 
 ### Flat Colors
@@ -14,16 +15,18 @@ Colors must be the last choice you make to differentiate chart elements. Lexicon
 
 ![charts color palette chunk 3: 6. Grass green, 7. Purple, 8. Yellow, 9. Sky blue](/lexicon/images/ColorCharts3.jpg)
 
-
 ### Gradient Colors
-Use gradient colors when you don’t need a chart with embedded texts, but instead you need visual variation between shapes (an example could be a Heat Map). 
+
+Use gradient colors when you don’t need a chart with embedded texts, but instead you need visual variation between shapes (an example could be a Heat Map).
 
 ![charts color hues for stark blue color](/lexicon/images/ChartColorStarkVariation.jpg)
 
 #### Use of Gradient Colors
+
 An example use case for gradient colors could be a low/high level Map with different data for every country, with a maximum of nine levels of differentiation.
 
 #### Rules for Gradient Colors
+
 You can get the same percentages we applied to the “Stark” blue for each one of the Flat Colors by using a [sass color generator](http://scg.ar-ch.org/). Paste the Flat Color HEX, and you’ll get the percentages. This provides you with a set of colors that you can use as gradient colors.
 
 ### Reading colors
@@ -31,8 +34,10 @@ You can get the same percentages we applied to the “Stark” blue for each one
 Colors help identify data and improve readability, but they must be chosen carefully. Choosing the wrong colors can produce the opposite effect. Below are some guidelines for choosing colors are shown below.
 
 #### Shape & order
-Using the proper shape and color order helps avoid color vibration and lets users, including color blind users, easily identify chart sections. A pie chart example is shown below:  
 
+Using the proper shape and color order helps avoid color vibration and lets users, including color blind users, easily identify chart sections. A pie chart example is shown below:
+
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/ChartShapeOrderRight.png" alt="colors must follow the order defined in the list and be separated in this case">
@@ -42,15 +47,17 @@ Using the proper shape and color order helps avoid color vibration and lets user
 		<img class="dont" src="/lexicon/images/ChartShapeOrderWrong.png" alt="colors in wrong order">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 #### Lines Charts
-Only use borders, **2px thickness**, to identify line charts. Differentiate them using dash types, shape types, and colors. Don’t use background/area colors with line charts, as they will only confuse the user. 
+
+Only use borders, **2px thickness**, to identify line charts. Differentiate them using dash types, shape types, and colors. Don’t use background/area colors with line charts, as they will only confuse the user.
 
 ![Charts line example with different lines types and shape types](/lexicon/images/ChartLineAndShapeExample1.png)
 
 #### Area Charts
-Background colors may be necessary to identify Area Charts. We recommend that you use **10% opacity** for each Area Chart's background color. This lets area colors overlap, without completely obscuring each other. Use the same elements as Line Charts for borders and shapes. 
+
+Background colors may be necessary to identify Area Charts. We recommend that you use **10% opacity** for each Area Chart's background color. This lets area colors overlap, without completely obscuring each other. Use the same elements as Line Charts for borders and shapes.
 
 ![lexicon default](/lexicon/images/ChartColorAreas.png)
 
@@ -64,17 +71,15 @@ The example below styles a Line chart to improve readability. The selected eleme
 
 ![Charts line previous example with one line selected](/lexicon/images/ChartLineAndShapeExample2.png)
 
-
 ### Text embedded in area
 
 Although, you can include text inside the Flat Colors by default, **we don't recommend it**. Instead, we recommend that you use organization and interaction to improve text readability. The best place for this is the legend.
 
 ![tooltip usage in a half donut chart](/lexicon/images/ChartBubbleExample.png)
 
-
 ### Accessibility
 
-Lexicon provides a set of elements that you can use to improve accessibility in your charts. These are covered in more detail below. 
+Lexicon provides a set of elements that you can use to improve accessibility in your charts. These are covered in more detail below.
 
 #### Lines and Shapes
 

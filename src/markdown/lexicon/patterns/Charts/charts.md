@@ -1,9 +1,10 @@
 ---
-title: "Charts"
-description: "This section defines and describes Lexicon Charts as a main graphical pattern to analyze data."
-layout: "guide"
+title: 'Charts'
+description: 'This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.'
+layout: 'guide'
 order: 1
 ---
+
 ### Color
 
 [Colors](./chart-color-palette.html) must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.
@@ -16,6 +17,7 @@ Lexicon states a series of [basic behaviors](./chart-interaction.html) for all i
 
 The collection of charts grows as Liferay products require new chart configurations. Check back here for new charts, or follow our [news](./../../news/News.html) to be updated.
 
+<!--
 <div class="row">
     <div class="col-lg">
         <div class="card-type-asset form-check form-check-card form-check-top-left image-card col-lg">
@@ -165,4 +167,4 @@ The collection of charts grows as Liferay products require new chart configurati
     </div>
     <div class="col-lg">
     </div>
-</div>
+</div> -->

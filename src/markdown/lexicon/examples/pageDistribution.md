@@ -1,10 +1,11 @@
 ---
-title: "Page Distribution"
-titleProject: "LIFERAY DXP"
-layout: "guide"
+title: 'Page Distribution'
+titleProject: 'LIFERAY DXP'
+layout: 'guide'
 order: 1
 ---
 
+<!--
 <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">
         <span class="sticker-overlay">
@@ -15,7 +16,7 @@ order: 1
         <p class="designer-name">Juan Antón</p>
         <p class="designer-detail">UX Designer, Madrid</p>
     </span>
-</span>
+</span> -->
 
 Organizing pages for a site can be hard to carry tasks. Sites can have thousands of pages and solutions like a page tree can go under performance issues due to the amount of information to load in the screen.
 

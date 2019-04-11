@@ -1,24 +1,28 @@
 ---
-title: "Buttons"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/buttons.html"
-description: "Buttons communicate an action to happen on user interaction."
-layout: "guide"
+title: 'Buttons'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/buttons.html'
+description: 'Buttons communicate an action to happen on user interaction.'
+layout: 'guide'
 order: 1
 ---
+
 ### Types
 
 #### Primary
+
 The primary button is always used for the most important actions. Two primary actions can't be near each other.
 
 ![button primary default size default state](/lexicon/images/ButtonPrimary.jpg)
 
 #### Secondary
+
 The secondary button is always use for secondary actions. Several secondary actions can be near by each other.
 
 ![button secondary default size default state](/lexicon/images/ButtonSecondary.jpg)
 
 #### Link
+
 The link button is mainly used for Cancel actions.
 
 ![button primary default size default state](/lexicon/images/ButtonLink.jpg)
@@ -44,11 +48,13 @@ The link button is mainly used for Cancel actions.
 ### Sizes
 
 #### Default
+
 The default size is a height of 40px. It is used for main page actions such as Save or Cancel.
 
 ![button primary large size disable state](/lexicon/images/ButtonPrimary.jpg)
 
 #### Small
+
 The small size is a height of 32px. It is used for actions inside a page, such as dropdowns, button groups, and split buttons.
 
 ![button primary default size disable state](/lexicon/images/ButtonPrimarySmall.jpg)
@@ -57,6 +63,7 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 
 Use the same height for all the buttons that are in the same row.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/ButtonSizeDo.jpg" alt="two buttons of same height in a row">
@@ -66,10 +73,11 @@ Use the same height for all the buttons that are in the same row.
 		<img class="dont" src="/lexicon/images/ButtonSizeDont.jpg" alt="two buttons of different height in a row">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 Characters can not all be uppercase in a button.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/ButtonCapitalizationDo.jpg" alt="button with no caps lock">
@@ -79,10 +87,11 @@ Characters can not all be uppercase in a button.
 		<img class="dont" src="/lexicon/images/ButtonCapitalizationDont.jpg" alt="button with caps lock">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 Text can not wrap multiple lines. It must all be on one line.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/ButtonWrapDo.jpg" alt="button with text on one line">
@@ -92,10 +101,11 @@ Text can not wrap multiple lines. It must all be on one line.
 		<img class="dont" src="/lexicon/images/ButtonWrapDont.jpg" alt="button with text wrapped">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 A borderless button must be placed either before or after a set of bordered buttons.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/ButtonIconDo.jpg" alt="borderless button, secondary button, primary button">
@@ -105,7 +115,7 @@ A borderless button must be placed either before or after a set of bordered butt
 		<img class="dont" src="/lexicon/images/ButtonIconDont.jpg" alt="secondary button, borderless button, primary button">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 ### Variations
 
@@ -166,4 +176,4 @@ Plus buttons provide add actions for a dataset and are normally placed in toolba
 
 Action buttons are used when a set of contextual actions are needed for an element or a dataset. This button displays a set of actions inside a dropdown menu. The actions must be sorted in a specific way. please visit Dropdown menu > Sorting actions to learn more.
 
-![Actions or kebab button](/lexicon/images/ButtonActionKebab.jpg)  
+![Actions or kebab button](/lexicon/images/ButtonActionKebab.jpg)

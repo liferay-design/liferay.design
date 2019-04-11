@@ -1,27 +1,30 @@
 ---
-title: "Labels"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/labels.html"
-description: "Labels are a visual pattern used to categorize information providing quick and easy recognition."
-layout: "guide"
+title: 'Labels'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/labels.html'
+description: 'Labels are a visual pattern used to categorize information providing quick and easy recognition.'
+layout: 'guide'
 order: 1
 ---
+
 ### Usage
+
 Use labels to organize groups of items in your application. Labels have rounded borders by default.
 
 ![default size default color label](/lexicon/images/Labels.jpg)
 
 ### Sizes
 
-| Size | Usage |
-| ---- | ----- |
-| ![default label small size](/lexicon/images/LabelSmall.jpg) | **Small**: Use the small label when the label doesn't need emphasized. Always use uppercase text for the small label. |
-| ![default label default size](/lexicon/images/LabelDefault.jpg) | **Default**: Use the default size to mark states. Lowercase is acceptable for this size. |
+| Size                                                            | Usage                                                                                                                 |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ![default label small size](/lexicon/images/LabelSmall.jpg)     | **Small**: Use the small label when the label doesn't need emphasized. Always use uppercase text for the small label. |
+| ![default label default size](/lexicon/images/LabelDefault.jpg) | **Default**: Use the default size to mark states. Lowercase is acceptable for this size.                              |
 
 ### Dos and Don'ts
 
 Labels categorize information and provide quick recognition.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/LabelSmallDo.jpg" alt="Simple label">
@@ -31,10 +34,11 @@ Labels categorize information and provide quick recognition.
 		<img class="dont" src="/lexicon/images/LabelSmallDont.jpg" alt="Label with sticker inside">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 Labels can only contain one line of text.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/LabelTextDo.jpg" alt="default label">
@@ -44,10 +48,11 @@ Labels can only contain one line of text.
 		<img class="dont" src="/lexicon/images/LabelTextDontLines.jpg" alt="default label with 2 lines of text">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 Never use ellipsis in labels.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/LabelTextDo.jpg" alt="default label">
@@ -58,7 +63,7 @@ Never use ellipsis in labels.
 		<p class="dont">Don't</p>
 	</div>
 </div>
-
+ -->
 
 ### Variations
 
@@ -89,4 +94,3 @@ Small size metrics:
 Default size metrics:
 
 ![label default size metrics](/lexicon/images/LabelMetrics.jpg)
-

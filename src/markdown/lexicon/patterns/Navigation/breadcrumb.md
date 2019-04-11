@@ -1,11 +1,12 @@
 ---
-title: "Breadcrumb"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/navigation/breadcrumbs.html"
-description: "Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy."
-layout: "guide"
+title: 'Breadcrumb'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/navigation/breadcrumbs.html'
+description: 'Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.'
+layout: 'guide'
 order: 2
 ---
+
 ![breadcrumb without collapsing](/lexicon/images/Breadcrumb.jpg)
 
 ![breadcrumb collapsing with a dropdown button on the left side](/lexicon/images/BreadcrumbDropdown.jpg)
@@ -16,13 +17,14 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
 
 ![breadcrumb with a dropdown menu open](/lexicon/images/BreadcrumbDropdownExample.jpg)
 
-* The breadcrumb is always horizontal.
-* Long crumbs can be reduced using ellipsis.
-* All crumbs link to their respective navigation level, except the last crumb which is only used to identify the current page.
-* When the crumbs reach overflow on the screen, the elements get collapsed into a dropdown menu as shown below. The order of the elements inside the dropdown menu is reversed.
+-   The breadcrumb is always horizontal.
+-   Long crumbs can be reduced using ellipsis.
+-   All crumbs link to their respective navigation level, except the last crumb which is only used to identify the current page.
+-   When the crumbs reach overflow on the screen, the elements get collapsed into a dropdown menu as shown below. The order of the elements inside the dropdown menu is reversed.
 
 ### Dos and Don'ts
 
+<!--
 <table>
     <thead>
         <tr>
@@ -80,8 +82,7 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
             </td>
         </tr>
     </tbody>
-</table>
-
+</table> -->
 
 ### Attributes
 
