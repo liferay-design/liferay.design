@@ -6,7 +6,7 @@ description: "A navigation bar, navbar, is a horizontal bar that provides severa
 layout: "guide"
 order: 2
 ---
-![navigation bar with 5 entries, first one seleted](../../../images/Navbar.jpg)
+![navigation bar with 5 entries, first one seleted](/lexicon/images/Navbar.jpg)
 
 ### Usage
 
@@ -18,19 +18,19 @@ When the number of tabs exceeds the navbar's size, the overflowing tabs are coll
 
 * The user uses the dropdown menu from the last tab to select an entry.
 
-![navigation bar with four entries, second one selected. The user interaction is in the last tab, named more, where the dropdown menu is open](../../../images/NavbarSecondSelectedDropMenuOpen.jpg)
+![navigation bar with four entries, second one selected. The user interaction is in the last tab, named more, where the dropdown menu is open](/lexicon/images/NavbarSecondSelectedDropMenuOpen.jpg)
 
 * The user has selected an option from the dropdown menu.
 
-![navigation bar with four entries, second one selected. The user interaction is in the last tab where the dropdown menu is open](../../../images/NavbarLastSelected.jpg)
+![navigation bar with four entries, second one selected. The user interaction is in the last tab where the dropdown menu is open](/lexicon/images/NavbarLastSelected.jpg)
 
 * When the user opens the dropdown menu, the first option appears marked as selected.
 
-![navigation bar with four entries, second one selected. The user interaction is in the last tab where the dropdown menu is open](../../../images/NavbarLastSelectedDropMenuOpen.jpg)
+![navigation bar with four entries, second one selected. The user interaction is in the last tab where the dropdown menu is open](/lexicon/images/NavbarLastSelectedDropMenuOpen.jpg)
 
 * Once a tab is selected outside the dropdown menu, the dropdown menu collapses.
 
-![navigation bar with four entries, second one selected. The user interaction is in the last tab where the dropdown menu is open](../../../images/NavbarDropdown.jpg)
+![navigation bar with four entries, second one selected. The user interaction is in the last tab where the dropdown menu is open](/lexicon/images/NavbarDropdown.jpg)
 
 ### Variations
 
@@ -38,10 +38,10 @@ When the number of tabs exceeds the navbar's size, the overflowing tabs are coll
 
 The positive navigation bar is defined for Sites. It displays navigation items in a light background with dark text.
 
-![navigation bar with four entries, first one selected](../../../images/NavbarPositive.jpg)
+![navigation bar with four entries, first one selected](/lexicon/images/NavbarPositive.jpg)
 
 #### Inverted
 
 The negative navigation bar is defined for Admin controls. It displays navigation items in a dark background with light text. It is always placed right below the header.
 
-![navigation bar with four entries, first one selected](../../../images/Navbar.jpg)
+![navigation bar with four entries, first one selected](/lexicon/images/Navbar.jpg)

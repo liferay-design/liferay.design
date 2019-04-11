@@ -10,7 +10,7 @@ We recommend that you use the Donut Chart instead of the Pie chart due to the fo
 * When you first see the Pie Chart, your eyes tend to be attracted to the center of the pie, then to the outside circle, and only after that, the different parts of the chart.
 * When you first see the Donut Chart, there’s no center to be attracted to, and the your eyes can read the different parts of the chart easily.
 
-![Donut Chart with 4 different elements](../../../images/ChartDoughnut.png)
+![Donut Chart with 4 different elements](/lexicon/images/ChartDoughnut.png)
 
 ### Color use
 
@@ -19,6 +19,6 @@ The Doughnut Chart must follow the standard color order for charts: the first ch
 ### States
 
 #### Chart item interaction
-![Intertaction on the blue pie piece of the chart, corresponding to Facebook](../../../images/ChartDoughnutItemSel.png)
+![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/lexicon/images/ChartDoughnutItemSel.png)
 
 

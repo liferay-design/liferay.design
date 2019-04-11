@@ -21,30 +21,30 @@ Below are some example layouts that combine fields and contents:
 
 Example 1: Three consecutive fields
 
-![toolbar layout example with three fields](../../../images/ToolbarLayout1.jpg)
+![toolbar layout example with three fields](/lexicon/images/ToolbarLayout1.jpg)
 
 Example 2: Three consecutive contents
 
-![toolbar layout example with three contents](../../../images/ToolbarLayout2.jpg)
+![toolbar layout example with three contents](/lexicon/images/ToolbarLayout2.jpg)
 
 Example 3: Field - Content - Field
 
-![toolbar layout example with field - content - field](../../../images/ToolbarLayout3.jpg)
+![toolbar layout example with field - content - field](/lexicon/images/ToolbarLayout3.jpg)
 
 The examples below show how these layouts are used for a management toolbar:
 
-![toolbar layout example with field - content - field](../../../images/ToolbarLayoutExample1.jpg)
+![toolbar layout example with field - content - field](/lexicon/images/ToolbarLayoutExample1.jpg)
 
-![toolbar layout example with field - content - field](../../../images/ToolbarLayoutExample3.jpg)
+![toolbar layout example with field - content - field](/lexicon/images/ToolbarLayoutExample3.jpg)
 
 
 ### Attributes
 
 The horizontal distance between elements is always 16px. This changes to 8px on mobile devices.
 
-![toolbar layout example with field - content - field](../../../images/ToolbarLayoutMetricsHor.jpg)
+![toolbar layout example with field - content - field](/lexicon/images/ToolbarLayoutMetricsHor.jpg)
 
 The minimum vertical distance between elements is 16px. The search field is an exception to this rule. We want the search field, which has a height of 40px, to have more emphasis. In this case, the toolbar's top and bottom margins are 12px.
 
-![toolbar layout example with field - content - field](../../../images/ToolbarLayoutMetricsVert.jpg)
+![toolbar layout example with field - content - field](/lexicon/images/ToolbarLayoutMetricsVert.jpg)
 

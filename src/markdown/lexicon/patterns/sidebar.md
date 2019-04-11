@@ -13,7 +13,7 @@ Lexicon defines two types of sidebars:
 
 On desktop, the panel pushes the content to the side, while on mobile devices, the panel is displayed over top of the content.
 
-![sidebars position to reflect the layout movement](../../../images/SidebarInfoPanelRespPM-IP-Open.jpg)
+![sidebars position to reflect the layout movement](/lexicon/images/SidebarInfoPanelRespPM-IP-Open.jpg)
 
 * On viewport sizes smaller than 768px wide, the “Product Menu” slides over the container instead of pushing it to the side.
 * On viewport sizes smaller than 992px wide, the “Info Panel” slides over the container instead of pushing it to the side.

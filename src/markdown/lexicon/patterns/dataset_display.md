@@ -16,13 +16,13 @@ A dataset display is the combination of a [management bar](./management_bar.html
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../../../images/DTTableView.jpg" alt="First slide">
+      <img class="d-block w-100" src="/lexicon/images/DTTableView.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../../../images/DTListView.jpg" alt="Second slide">
+      <img class="d-block w-100" src="/lexicon/images/DTListView.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../../../images/DTCardView.jpg" alt="Third slide">
+      <img class="d-block w-100" src="/lexicon/images/DTCardView.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,13 +68,13 @@ It's important to let the user know how and why an empty state is displayed, as 
 
 Individual actions are always available through an element's actions menu. Some of these actions are contextual and only appear in the management bar when one or more elements are selected from the dataset. These contextual actions are always represented by a button with an icon. They should only be the actions that are most relevant to the selected element(s).
 
-![individual actions displayed both in management bar and from actions menu](../../../images/DatasetDisplayIndividualActions.png)
+![individual actions displayed both in management bar and from actions menu](/lexicon/images/DatasetDisplayIndividualActions.png)
 
 ### Collective actions
 
 Collective actions are shown in the management bar when more than one element is selected in the dataset. If a collective action doesn't have an icon associated with it, it can be placed in a dropdown triggered from the actions button in the management bar.
 
-![collective actions displayed both in management bar and from actions menu](../../../images/DatasetDisplayGroupActions.png)
+![collective actions displayed both in management bar and from actions menu](/lexicon/images/DatasetDisplayGroupActions.png)
 
 ### Filtering
 * Only use filters when you need them.
@@ -99,10 +99,10 @@ The checkbox in the management bar selects/unselects all elements in the view.
 
 ### Drag and drop example
 
-![collective actions displayed both in management bar and from actions menu](../../../images/DatasetDisplayDragDrop.png)
+![collective actions displayed both in management bar and from actions menu](/lexicon/images/DatasetDisplayDragDrop.png)
 
 ### Change view
 
 Only provide multiple view options if more than one visualization method is available for a data set. visualization methods that are not available for a data set must not be available as a view option.
 
-![dataset display view change animation](../../../images/DatasetDisplayChangeView.gif)
+![dataset display view change animation](/lexicon/images/DatasetDisplayChangeView.gif)

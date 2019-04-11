@@ -5,7 +5,7 @@ description: "The Heatmap Chart is a visual representation of the data using col
 layout: "guide"
 order: 3
 ---
-![Heatmap chart](../../../images/ChartHeatmap.png)
+![Heatmap chart](/lexicon/images/ChartHeatmap.png)
 
 ### Color use
 
@@ -17,13 +17,13 @@ To improve the activities readability, you can use up to seven different circle 
 ### States
 
 #### Single item interaction
-![heatmap interaction with an element in the chart](../../../images/ChartHeatmapItemSel.png)
+![heatmap interaction with an element in the chart](/lexicon/images/ChartHeatmapItemSel.png)
 
 #### X-axis item interaction
-![heatmap interaction with an element in the chart](../../../images/ChartHeatmapAxisSel.png)
+![heatmap interaction with an element in the chart](/lexicon/images/ChartHeatmapAxisSel.png)
 
 #### Y-axis item interaction
-![heatmap interaction with an element in the chart](../../../images/ChartHeatmapAxisYSel.png)
+![heatmap interaction with an element in the chart](/lexicon/images/ChartHeatmapAxisYSel.png)
 
 #### Legend item interaction
-![heatmap interaction with an element in the chart](../../../images/ChartHeatmapLegendSel.png)
+![heatmap interaction with an element in the chart](/lexicon/images/ChartHeatmapLegendSel.png)

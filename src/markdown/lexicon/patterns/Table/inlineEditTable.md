@@ -5,7 +5,7 @@ description: "A table variation that lets users modify certain values of the ent
 layout: "guide"
 order: 2
 ---
-![table inline edition, view mode](../../../images/TableInlineEdition.jpg)
+![table inline edition, view mode](/lexicon/images/TableInlineEdition.jpg)
 
 ### Usage
 
@@ -23,7 +23,7 @@ order: 2
 * To enter edit mode, click the Edit button.
 * More actions are available under the actions button. If an element has an edit screen, name it "Advanced edit."
 
-![table inline edition row view configuration](../../../images/TableInlineEditRowView.jpg)
+![table inline edition row view configuration](/lexicon/images/TableInlineEditRowView.jpg)
 
 #### Edit mode
 * In this mode, if an entry is editable, it is transformed into one of the following input fields when it's clicked: text field, numeric field, select, etc.
@@ -31,15 +31,15 @@ order: 2
 	* Save: saves the changes and enters view mode.
 	* Cancel: discards the changes and enters view mode.
 
-![table inline edition row edit configuration](../../../images/TableInlineEditRowEdit.jpg)
+![table inline edition row edit configuration](/lexicon/images/TableInlineEditRowEdit.jpg)
 
 ### Example
 
-![table inline edition with first row in edition mode and first field on focus](../../../images/TableInlineEditionFocus.jpg)
+![table inline edition with first row in edition mode and first field on focus](/lexicon/images/TableInlineEditionFocus.jpg)
 
 ### Attributes
 
-![table row attributes](../../../images/TableInlineEditRowDesc.jpg)
+![table row attributes](/lexicon/images/TableInlineEditRowDesc.jpg)
 
 An editable row can contain the same elements as a standard table row. An inline editable table includes these attributes:
 
@@ -51,4 +51,4 @@ An editable row can contain the same elements as a standard table row. An inline
 
 The minimum distance between two columns is 24px.
 
-![table row metrics](../../../images/TableInlineEditRowMetrics1.jpg)
+![table row metrics](/lexicon/images/TableInlineEditRowMetrics1.jpg)

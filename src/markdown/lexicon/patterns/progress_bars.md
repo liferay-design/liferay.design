@@ -15,17 +15,17 @@ Progress bars are used as a feedback mechanism for system tasks. As long as the 
 #### Loading
 The progress bar grows in primary color, and the label changes to reflect the completion percentage.
 
-![indeterminate progress bar](../../../images/ProgressBar30.jpg) 
+![indeterminate progress bar](/lexicon/images/ProgressBar30.jpg) 
 
 #### Warning
 The warning state indicates that something happened and interrupted the process.
 
-![indeterminate progress bar](../../../images/ProgressBar70.jpg) 
+![indeterminate progress bar](/lexicon/images/ProgressBar70.jpg) 
 
 #### Finished
 The finished state indicates that the process is completed successfully when the label changes to the success icon.
 
-![indeterminate progress bar](../../../images/ProgressBar100.jpg) 
+![indeterminate progress bar](/lexicon/images/ProgressBar100.jpg) 
 
 ### Dos and Don'ts
 

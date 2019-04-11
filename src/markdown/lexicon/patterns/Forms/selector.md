@@ -8,7 +8,7 @@ order: 3
 ---
 ## Selector
 
-![select default state](../../../images/Selector.jpg)
+![select default state](/lexicon/images/Selector.jpg)
 
 ### Usage
 
@@ -23,9 +23,9 @@ The states for a selector are the same as the states for a text input.
 Multi select is the field type that allows writing text to create “tags” that are represented in the shape of labels. This components counts with auto complete feature.
 
 
-![multiple select field](../../../images/SelectMulti.jpg)
+![multiple select field](/lexicon/images/SelectMulti.jpg)
 
-![multiple select field with N lines](../../../images/SelectMultiNLines.jpg)
+![multiple select field with N lines](/lexicon/images/SelectMultiNLines.jpg)
 
 Multi select includes different features as:
 
@@ -33,4 +33,4 @@ Multi select includes different features as:
 * Fast label creation on text paste, creating tags for elements separated by commas.
 * This component aslo has a character whitelist that allows create labels with only desired characters.
 
-![multiple select field with N lines](../../../images/SelectMultiAutocomplete.gif)
+![multiple select field with N lines](/lexicon/images/SelectMultiAutocomplete.gif)

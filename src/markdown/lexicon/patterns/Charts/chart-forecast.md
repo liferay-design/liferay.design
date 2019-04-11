@@ -8,16 +8,16 @@ order: 3
 ---
 This chart contains three key parts: the past, the present, and the future. The past is represented with a line that goes up to the present. The present, or current date, is the point where the line starts having a shaded background. Finally, the future, or prediction, is differentiated with a shaded background.
 
-![Predictive Forecasting Chart](../../../images/ChartPredictiveForcDefault.jpg)
+![Predictive Forecasting Chart](/lexicon/images/ChartPredictiveForcDefault.jpg)
 
 
 ### States
 
 #### Single point interaction
 
-![Predictive Forecasting Item hover interaction](../../../images/ChartPredictiveForcItem.jpg)
+![Predictive Forecasting Item hover interaction](/lexicon/images/ChartPredictiveForcItem.jpg)
 
 
 #### Legend item interaction
 
-![Predictive Forecasting legend item hover interaction](../../../images/ChartPredictiveForcLegend.jpg)
+![Predictive Forecasting legend item hover interaction](/lexicon/images/ChartPredictiveForcLegend.jpg)

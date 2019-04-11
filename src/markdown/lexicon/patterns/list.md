@@ -8,7 +8,7 @@ order: 1
 ---
 ### Usage
 
-![list entry in default state](../../../images/ListViewDefault.jpg)
+![list entry in default state](/lexicon/images/ListViewDefault.jpg)
 
 A list is a visual representation of a dataset that provides more flexibility for arranging the data than a table and is less visually explicit than a card view. It's useful for comparing entries that don't require exhaustive comparison. If the dataset requires exhaustive comparison between entries, use the table view instead.
 
@@ -21,15 +21,15 @@ Lists support several text labels in a column, as shown in the examples below.
 
 #### Default states
 
-![list entry in default state](../../../images/ListViewDefault.jpg)
+![list entry in default state](/lexicon/images/ListViewDefault.jpg)
 
 #### Hover state
 
-![list entry in hover state](../../../images/ListViewHover.jpg)
+![list entry in hover state](/lexicon/images/ListViewHover.jpg)
 
 #### Selected state
 
-![list entry in selected state](../../../images/ListViewActive.jpg)
+![list entry in selected state](/lexicon/images/ListViewActive.jpg)
 
 ### Row interactions
 
@@ -54,11 +54,11 @@ Lists support several text labels in a column, as shown in the examples below.
 ### Sections
 List sections organize content into separate divisions by a certain categorization or typology.
 
-![List section](../../../images/ListViewGroupSeparator.jpg)
+![List section](/lexicon/images/ListViewGroupSeparator.jpg)
 
 #### Examples
 
-![list view example with 3 different states in different entries](../../../images/ListViewExample.jpg)
+![list view example with 3 different states in different entries](/lexicon/images/ListViewExample.jpg)
 
 See the [dataset template](../Templates/datasetTemplate.html) for more examples of lists.
 
@@ -73,6 +73,6 @@ See the [dataset template](../Templates/datasetTemplate.html) for more examples 
 
 If a list entry needs support for notifications, place an 8px width line on the left side of the row.
 
-![list notification default state has a blue line on the left side of the row](../../../images/ListNotificationDefault.jpg)
-![list notification active state has a blue line on the left side of the row](../../../images/ListNotificationActive.jpg)
-![list notification hover state has a blue line on the left side of the row](../../../images/ListNotificationHover.jpg)
+![list notification default state has a blue line on the left side of the row](/lexicon/images/ListNotificationDefault.jpg)
+![list notification active state has a blue line on the left side of the row](/lexicon/images/ListNotificationActive.jpg)
+![list notification hover state has a blue line on the left side of the row](/lexicon/images/ListNotificationHover.jpg)

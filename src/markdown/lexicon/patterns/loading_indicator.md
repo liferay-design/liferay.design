@@ -16,7 +16,7 @@ Please don’t use loading indicators inside buttons. If you need a loading indi
 ### Types
 
 #### Default
-![loading indicator default size](../../../images/LoadingIndicator.jpg)
+![loading indicator default size](/lexicon/images/LoadingIndicator.jpg)
 
 ### Size
 
@@ -33,8 +33,8 @@ Use the sizes below to respond to different device sizes:
 
 #### Positive
 
-![loading indicator default positive](../../../images/LoadingIndicator.jpg)
+![loading indicator default positive](/lexicon/images/LoadingIndicator.jpg)
 
 #### Negative
 
-![loading indicator default negative](../../../images/LoadingIndicatorInverted.jpg)
+![loading indicator default negative](/lexicon/images/LoadingIndicatorInverted.jpg)
