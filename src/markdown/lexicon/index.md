@@ -1,8 +1,11 @@
 ---
-title: "Docs"
-url: "/docs/patterns/alerts.html"
+title: 'Docs'
+url: '/docs/patterns/alerts.html'
 ---
 
+## lexicon index
+
+```
 {namespace pageDocsIndex}
 
 /**
@@ -17,3 +20,4 @@ url: "/docs/patterns/alerts.html"
     </head>
   </html>
 {/template}
+```

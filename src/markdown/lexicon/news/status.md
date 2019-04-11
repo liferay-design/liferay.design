@@ -1,10 +1,13 @@
 ---
-title: "Status"
-description: "Lexicon upcoming site status"
-layout: "guide"
+title: 'Status'
+description: 'Lexicon upcoming site status'
+layout: 'guide'
 order: 1
 ---
 
+## status page is commented out for now
+
+<!--
 <p class="last-update">Last Update January 2nd, 2019</p>
 
 
@@ -133,4 +136,4 @@ order: 1
 | Miller columns | <p class="dotDone">&#9679;</p> | NA | NA  |
 | <p class="tableSection">SIDEBAR</p> |
 | Info panel | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
-| Product menu | <p class="dotDone">&#9679;</p> | NA | NA |
+| Product menu | <p class="dotDone">&#9679;</p> | NA | NA | -->

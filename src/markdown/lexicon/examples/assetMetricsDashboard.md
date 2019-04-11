@@ -1,10 +1,11 @@
 ---
-title: "Asset Metrics Dashboard"
-titleProject: "ANALYTICS CLOUD"
-layout: "guide"
+title: 'Asset Metrics Dashboard'
+titleProject: 'ANALYTICS CLOUD'
+layout: 'guide'
 order: 1
 ---
 
+<!--
 <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">
         <span class="sticker-overlay">
@@ -15,7 +16,7 @@ order: 1
         <p class="designer-name">Rafael Fernandes</p>
         <p class="designer-detail">UX Designer, Recife</p>
     </span>
-</span>
+</span> -->
 
 Liferay Analytics Cloud provides the ability to analyze user profile data and interactions with dynamic pages and assets, displaying meaningful insights in the form of chart dashboards. These dashboards gather raw metrics data and deliver an easily readable measurable view for applications such as forms, blogs, documents, media and other pieces of web content.
 

@@ -1,73 +1,73 @@
 ---
-title: "Modals"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/modals.html"
-description: "A modal is a secondary window that communicates or provides an action inside the same process."
-layout: "guide"
+title: 'Modals'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/modals.html'
+description: 'A modal is a secondary window that communicates or provides an action inside the same process.'
+layout: 'guide'
 order: 1
 ---
+
 ![modal window over a dark transparent background](/lexicon/images/Modal.jpg)
 
 ### Usage
 
-* Modals can be built with different sizes and configurations to best fit the amount of content you have.
-* We recommend that you do not use the full-width size, as it appears as though it's a completely new page. If you require this size, we recommend that you consider creating a new page instead of a modal.
-* Modals belong to a screen, therefore a modal should not be triggered from another modal window (see the Modal over modal section below).
-* When a modal has a footer, place the actions inside and align them to the left. Follow this order for your actions: Primary button (only one), secondary button, and button link.
-
-<table>
-    <thead>
-        <tr>
-            <th>Dos</th>
-            <th>Don'ts</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
-                    <span>Use it to draw the user's attention to something that is more important.</span>
-                </div>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Do not use it for complex cases that require you to display a lot of information or to complete a long form. In these cases, use a new page instead.</span>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
-                    <span>Use it for simple content cases.</span>
-                </div>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Try not to trigger a modal window from another modal window. Modal windows are subordinate to pages.</span>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
-                    <span>Use it if you need to interrupt the user flow to display concrete information or capture data from the user.</span>
-                </div>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Never completely cover the page's information with the modal window.</span>
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
+-   Modals can be built with different sizes and configurations to best fit the amount of content you have.
+-   We recommend that you do not use the full-width size, as it appears as though it's a completely new page. If you require this size, we recommend that you consider creating a new page instead of a modal.
+-   Modals belong to a screen, therefore a modal should not be triggered from another modal window (see the Modal over modal section below).
+-   When a modal has a footer, place the actions inside and align them to the left. Follow this order for your actions: Primary button (only one), secondary button, and button link.
+    <!--
+    <table>
+        <thead>
+            <tr>
+                <th>Dos</th>
+                <th>Don'ts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
+                        <span>Use it to draw the user's attention to something that is more important.</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
+                        <span>Do not use it for complex cases that require you to display a lot of information or to complete a long form. In these cases, use a new page instead.</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
+                        <span>Use it for simple content cases.</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
+                        <span>Try not to trigger a modal window from another modal window. Modal windows are subordinate to pages.</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
+                        <span>Use it if you need to interrupt the user flow to display concrete information or capture data from the user.</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
+                        <span>Never completely cover the page's information with the modal window.</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
 
 #### Multiple selection inside a modal
 
@@ -89,12 +89,12 @@ Modal over modal is a not desired situation. Please, try to solve this situation
 
 Modals are always displayed at the center of the screen and can be configured with the sizes shown in the table below:
 
-| Size | Description |
-| ---- | ----- |
-| Small | 320px |
-| Default | 600px |
-| Large | 896px wide modal on screen sizes greater than 992px. 600px wide modal on screen sizes between 768px and 992px. |
-| Full width | A modal that stretches to fit the browser window, with 45px padding on every side. |
+| Size       | Description                                                                                                    |
+| ---------- | -------------------------------------------------------------------------------------------------------------- |
+| Small      | 320px                                                                                                          |
+| Default    | 600px                                                                                                          |
+| Large      | 896px wide modal on screen sizes greater than 992px. 600px wide modal on screen sizes between 768px and 992px. |
+| Full width | A modal that stretches to fit the browser window, with 45px padding on every side.                             |
 
 ![modal sizes](/lexicon/images/ModalSize.jpg)
 

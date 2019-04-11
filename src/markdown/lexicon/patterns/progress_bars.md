@@ -1,11 +1,12 @@
 ---
-title: "Progress Bar"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/progress-bars.html"
-description: "Progress bar indicates the percentage completed of a task."
-layout: "guide"
+title: 'Progress Bar'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/progress-bars.html'
+description: 'Progress bar indicates the percentage completed of a task.'
+layout: 'guide'
 order: 1
 ---
+
 ### Usage
 
 Progress bars are used as a feedback mechanism for system tasks. As long as the process is running, the progress bar grows continuously from 0% to 100%. Use it for system processes.
@@ -13,22 +14,26 @@ Progress bars are used as a feedback mechanism for system tasks. As long as the 
 ### States
 
 #### Loading
+
 The progress bar grows in primary color, and the label changes to reflect the completion percentage.
 
-![indeterminate progress bar](/lexicon/images/ProgressBar30.jpg) 
+![indeterminate progress bar](/lexicon/images/ProgressBar30.jpg)
 
 #### Warning
+
 The warning state indicates that something happened and interrupted the process.
 
-![indeterminate progress bar](/lexicon/images/ProgressBar70.jpg) 
+![indeterminate progress bar](/lexicon/images/ProgressBar70.jpg)
 
 #### Finished
+
 The finished state indicates that the process is completed successfully when the label changes to the success icon.
 
-![indeterminate progress bar](/lexicon/images/ProgressBar100.jpg) 
+![indeterminate progress bar](/lexicon/images/ProgressBar100.jpg)
 
 ### Dos and Don'ts
 
+<!--
 <table>
     <thead>
         <tr>
@@ -52,4 +57,4 @@ The finished state indicates that the process is completed successfully when the
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->

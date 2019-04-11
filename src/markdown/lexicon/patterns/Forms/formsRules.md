@@ -1,9 +1,10 @@
 ---
-title: "Forms Rules"
-description: "A set of rules and recommendations for using form patterns in portal."
-layout: "guide"
+title: 'Forms Rules'
+description: 'A set of rules and recommendations for using form patterns in portal.'
+layout: 'guide'
 order: 2
 ---
+
 ### Fields’ order
 
 Laying out the fields of your form we recommend you to follow an order of importance. Try to place first as many mandatory fields when possible to make the user task short. Non mandatory fields should go in a second place as they are not so important and the user could like to skip them. In case non mandatory fields are in between mandatory fields the user would expend more time scanning the form.
@@ -21,13 +22,14 @@ Fields can be mandatory/required to fill in a form. The way to mark a field as m
 
 Try to place first as many mandatory fields when possible to make the user task short. Non mandatory fields should go in a second place as they are not so important and the user may like to skip them. In case non mandatory fields are in between mandatory fields the user would expend more time scanning the form.
 
-
 ### Repeatable fields
 
 #### Single repeatable field
+
 A single repeatable field is useful when the user must provide several pieces of information that require the same input type, and the number of fields and field order are not important.
 
 #### Set of repeatable fields
+
 This lets the user add blocks of the same type of content to a form. Sets of repeatable fields are usually combined with other form pieces. Additional sets can be added and existing sets can be removed.
 
 ### Actions
@@ -38,7 +40,7 @@ General form actions are always placed at the end of the form on the left side i
 
 ![button order. Primary, secondary, link](/lexicon/images/ButtonOrder.jpg)
 
-*Note: This order is reversed in modals in which buttons in the footer are right-aligned: Link, Secondary, Primary.*
+_Note: This order is reversed in modals in which buttons in the footer are right-aligned: Link, Secondary, Primary._
 
 #### Interior form actions
 
@@ -50,6 +52,7 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 
 Never use two primary buttons together. There must only be one primary button that represents the most important action.
 
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/lexicon/images/FormButtonPrimaryDo.jpg" alt="Two butons, primary and secondary.">
@@ -72,12 +75,13 @@ Always use concrete words, rather than general words such as "Ok".
 		<img class="dont" src="/lexicon/images/FormButtonPrimaryTextDont.jpg" alt="Primary button with text Ok">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 ### Boolean situations
 
 Boolean situations are those yes/no situations usually solved with checkboxes.
-* Try to always be as explicit as possible to let the user know what is the outcome of the decision. 
-* Do not hide helpful information to the user in popovers, alerts, or secondary text.
+
+-   Try to always be as explicit as possible to let the user know what is the outcome of the decision.
+-   Do not hide helpful information to the user in popovers, alerts, or secondary text.
 
 ![boolean situations solved with checkboxes, relevant information/help is explicit](/lexicon/images/FormBooleanSituations.jpg)

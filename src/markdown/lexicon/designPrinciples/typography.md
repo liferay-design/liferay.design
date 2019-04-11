@@ -1,11 +1,12 @@
 ---
-title: "Typography"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/layout/typography.html"
-description: "A basic reference for the definition of the visual identity and the organization of the content."
-layout: "guide"
+title: 'Typography'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/layout/typography.html'
+description: 'A basic reference for the definition of the visual identity and the organization of the content.'
+layout: 'guide'
 order: 1
 ---
+
 ### Font Stacks
 
 Lexicon uses two text styles exclusively: A sans serif one, which is the main style, and a monospaced one used to render code.
@@ -15,38 +16,40 @@ Lexicon takes an agnostic approach to typography, due to the customizable, multi
 Lexicon and Clay embrace the standard known as "Native Font Stack" as the basis for its typographic source. The tables in the sections below list the font families available for each operating system's native font stack.
 
 #### Sans Serif
+
 For sans serif style, using Bootstrap's native font stack as inspiration, we also include families for Ubuntu, Oxygen, and Gnome operating systems:
 
-| OS | Font Family |
-| -- | ----------- |
-| Windows | Segoe UI |
-| MacOS & iOS | San Francisco |
-| Chrome OS & Android | Roboto |
-| Ubuntu | Ubuntu |
-| OxygenOS | Oxygen |
-| Cantarell | Gnome |
-| Basic web fallbacks | Arial, Helvetica Neue, sans-serif |
-| Emoji Fonts | Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol |
+| OS                  | Font Family                                        |
+| ------------------- | -------------------------------------------------- |
+| Windows             | Segoe UI                                           |
+| MacOS & iOS         | San Francisco                                      |
+| Chrome OS & Android | Roboto                                             |
+| Ubuntu              | Ubuntu                                             |
+| OxygenOS            | Oxygen                                             |
+| Cantarell           | Gnome                                              |
+| Basic web fallbacks | Arial, Helvetica Neue, sans-serif                  |
+| Emoji Fonts         | Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol |
 
+<!--
 <p class="code-text">
 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 </p>
-
+ -->
 
 #### Monospaced
 
 For monospaced style, we also follow the same approach as Bootstrap:
 
-| OS | Font Family |
-| -- | ----------- |
-| Windows | Segoe UI |
-| MacOS & iOS | San Francisco |
-| Chrome OS & Android | Roboto |
-| Basic web fallback | Courier New, monospaced |
+| OS                  | Font Family             |
+| ------------------- | ----------------------- |
+| Windows             | Segoe UI                |
+| MacOS & iOS         | San Francisco           |
+| Chrome OS & Android | Roboto                  |
+| Basic web fallback  | Courier New, monospaced |
 
-<p class="code-text">
+<!-- <p class="code-text">
 SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-</p>
+</p> -->
 
 Since Mac OS is the most widely used operating system for design tasks in Liferay and in general, we have decided to use the San Francisco font family for the visual examples in both the technical documentation and in the Lexicon Site.
 
@@ -56,11 +59,11 @@ As we approached the foundational elements with simplification and standardizati
 
 Lexicon's type scale is based on an initial increase of 2px that grows to 4px in larger font sizes to favor contrast and improve readability. It follows a non-linear arithmetic progression that's understandable and easy to use in both simple and complex applications.
 
-<table>
+<!-- <table>
     <thead>
         <tr>
             <th>px</th>
-            <th>rem</th>    
+            <th>rem</th>
             <th>example</th>
         </tr>
     </thead>
@@ -121,8 +124,7 @@ Lexicon's type scale is based on an initial increase of 2px that grows to 4px in
             <td class="type-scale type-scale-40">Design matters</td>
         </tr>
     </tbody>
-</table>
-
+</table> -->
 
 ### Basic Formatting
 
@@ -136,10 +138,10 @@ Using a minimum value of 1.5 for the line-height for main paragraph content also
 
 We perceive the space between large font sizes a bit differently. The white space between lines appears more prominent. Therefore, it is considered best practice to reduce the line height in font sizes that are 20 pixels or larger. The same is true for uppercase texts. Therefore uppercase headings in Lexicon, despite only being 12px and 14px, also use a ratio of 1:1.25.
 
-| Line Height | ratio |
-| -- | ----------- |
-| Standard | 1:1.5 |
-| Secondary | 1:1.25 |
+| Line Height | ratio  |
+| ----------- | ------ |
+| Standard    | 1:1.5  |
+| Secondary   | 1:1.25 |
 
 Lexicon's Line height only applies to texts elements that run more than one line, such as paragraphs, headlines, and list group items. For the remainder of the UI elements that contain text, such as buttons, single line input fields, stickers, badges, or labels, this value is defined by the implementation.
 
@@ -147,11 +149,12 @@ Lexicon's Line height only applies to texts elements that run more than one line
 
 For efficiency and simplicity, Lexicon only incorporates three font weights for content:
 
+<!--
 <table>
     <thead>
         <tr>
             <th>Font Weight</th>
-            <th>Reference</th>    
+            <th>Reference</th>
         </tr>
     </thead>
     <tbody>
@@ -168,13 +171,13 @@ For efficiency and simplicity, Lexicon only incorporates three font weights for 
             <td class="type-scale type-scale-16 type-bold">700</td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 The use cases for each font weight are covered in the "Type Styles" section.
 
 #### Letter Case
 
-Lexicon uses lowercase as a basis, regardless of the specific capitalization rules. Uppercase is only used as a hierarchy resource in the section divider pattern used in dataset display views and forms. 
+Lexicon uses lowercase as a basis, regardless of the specific capitalization rules. Uppercase is only used as a hierarchy resource in the section divider pattern used in dataset display views and forms.
 
 The use cases for each letter case are covered in the "Type Styles" section.
 
@@ -185,25 +188,26 @@ To provide optimal reading conditions, we recommend that you use a line width wi
 ![line length expalanatory image](/lexicon/images/LineLength.png)
 
 ### Type styles
-The tables in this section show the format combinations that are available in Lexicon, along with reference examples. 
+
+The tables in this section show the format combinations that are available in Lexicon, along with reference examples.
 
 #### Headings
 
-| Font Size | Line Height | Font Weight | Letter Case | Use Example |
-| --------- | ----------- | ----------- | ----------- | ----------- |
-| 12px / 0.75rem | 1.25 | 600 (semibold) | Uppercase | Dataset section divider |
-| 14px / 0.875rem | 1.25 | 600 (semibold) | Uppercase | Form section divider |
-| 16px / 1rem | 1.25 | 700 (bold) | Lowercase | Application and Page titles |
-| 20px / 1.25rem | 1.25 | 700 (bold) | Lowercase | Form title |
-| 24px / 1.5rem | 1.25 | 700 (bold) | Lowercase | Asset title in asset display widgets |
-| 28px / 1.75rem | 1.25 | 700 (bold) | Lowercase | Blog Entry title in blogs widget |
-| 36px / 2.25rem | 1.25 | 700 (bold) | Lowercase | Blog Entry Detail title |
+| Font Size       | Line Height | Font Weight    | Letter Case | Use Example                          |
+| --------------- | ----------- | -------------- | ----------- | ------------------------------------ |
+| 12px / 0.75rem  | 1.25        | 600 (semibold) | Uppercase   | Dataset section divider              |
+| 14px / 0.875rem | 1.25        | 600 (semibold) | Uppercase   | Form section divider                 |
+| 16px / 1rem     | 1.25        | 700 (bold)     | Lowercase   | Application and Page titles          |
+| 20px / 1.25rem  | 1.25        | 700 (bold)     | Lowercase   | Form title                           |
+| 24px / 1.5rem   | 1.25        | 700 (bold)     | Lowercase   | Asset title in asset display widgets |
+| 28px / 1.75rem  | 1.25        | 700 (bold)     | Lowercase   | Blog Entry title in blogs widget     |
+| 36px / 2.25rem  | 1.25        | 700 (bold)     | Lowercase   | Blog Entry Detail title              |
 
 #### Paragraph
 
-| Font Size | Line Height | Font Weight | Letter Case | Use Example |
-| --------- | ----------- | ----------- | ----------- | ----------- |
-| 16px / 1rem | 1.5 | 400 (regular) | Lowercase | Mid-long read text |
+| Font Size   | Line Height | Font Weight   | Letter Case | Use Example        |
+| ----------- | ----------- | ------------- | ----------- | ------------------ |
+| 16px / 1rem | 1.5         | 400 (regular) | Lowercase   | Mid-long read text |
 
 The paragraph element incorporates a bottom margin of 0.75rem (12px) to define the separation between text blocks.
 
@@ -215,10 +219,10 @@ The Lexicon UI elements are styled using a combination of the format values desc
 
 Content aligment is relevant for readability. Respecting some basic rules, 1rem spacing, make your text easier to consume. Please follow the advices in the images:
 
-<p class="do">Do</p>
+<!-- <p class="do">Do</p> -->
 
 ![two buttons of same height in a row](/lexicon/images/ContentAlignmentDo.jpg)
 
-<p class="dont">Don't</p>
+<!-- <p class="dont">Don't</p> -->
 
 ![two buttons of same height in a row](/lexicon/images/ContentAlignmentDont.jpg)
