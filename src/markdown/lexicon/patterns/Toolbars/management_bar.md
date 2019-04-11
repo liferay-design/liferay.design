@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/toolbars/management-toolbar.html"
 description: "Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 

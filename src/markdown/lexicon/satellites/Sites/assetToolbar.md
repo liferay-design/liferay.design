@@ -2,7 +2,7 @@
 title: "Asset Toolbar"
 description: "A multi-purpose toolbar that can be located in different types of asset visualizations."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

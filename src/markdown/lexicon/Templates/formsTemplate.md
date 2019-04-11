@@ -2,7 +2,7 @@
 title: "Form Template"
 description: "The form template demonstrates how forms are built and composed using Lexicon patterns."
 layout: "guide"
-weight: 1
+order: 1
 ---
 <div class="page-description">{$page.description}</div>
 

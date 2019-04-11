@@ -2,7 +2,7 @@
 title: "Asset Metrics Dashboard"
 titleProject: "ANALYTICS CLOUD"
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <span>

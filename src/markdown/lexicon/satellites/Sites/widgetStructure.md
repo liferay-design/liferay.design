@@ -2,7 +2,7 @@
 title: "Sites"
 description: "Sites section shows how Lexicon is applied in sites, the live side of Lexicon."
 layout: "guide"
-weight: 2
+order: 2
 hidden: yes
 ---
 

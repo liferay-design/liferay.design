@@ -2,7 +2,7 @@
 title: "Actions Definition"
 description: "This page defines the use case for several common actions."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

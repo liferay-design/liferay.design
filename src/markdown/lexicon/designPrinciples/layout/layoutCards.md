@@ -2,7 +2,7 @@
 title: "Cards Layout"
 description: "The card layout is used to display cards in a dataset."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div> 

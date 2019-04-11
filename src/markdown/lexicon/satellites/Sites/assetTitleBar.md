@@ -2,7 +2,7 @@
 title: "Asset Title Bar"
 description: "A bar used to display an asset's title and its associated actions when specific ADTs are displayed."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

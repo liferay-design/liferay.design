@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/forms/forms-hierarchy.html"
 description: "The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

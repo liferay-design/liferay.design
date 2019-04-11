@@ -3,7 +3,7 @@ title: "Sidebar"
 titleLabel: "Portal"
 description: "A vertical panel that appears from the right or the left side of the screen, triggered by a button."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

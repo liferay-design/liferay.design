@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/forms/text-input-localizable.html"
 description: "A text input variation used in fields that can be translated into multiple languages."
 layout: "guide"
-weight: 4
+order: 4
 ---
 
 <div class="page-description">{$page.description}</div>

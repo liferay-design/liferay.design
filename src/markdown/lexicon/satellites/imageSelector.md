@@ -3,7 +3,7 @@ title: "Image Selector"
 titleLabel: "Portal"
 description: "The image selector lets the user select images from a grid, prioritizing over other metadata."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

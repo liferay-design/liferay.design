@@ -3,7 +3,7 @@ title: "Slider"
 titleLabel: "Pending"
 description: "The Slider control allows user to select and entry data from among a linear range of values."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

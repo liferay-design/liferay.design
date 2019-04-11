@@ -2,7 +2,7 @@
 title: "Writing Style"
 description: "Clarity, confidence, and consistency in messaging promotes product reliability."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

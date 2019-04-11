@@ -3,7 +3,7 @@ title: "Heatmap Chart"
 titleLabel: "Pending"
 description: "The Heatmap Chart is a visual representation of the data using colors to indicate the values."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

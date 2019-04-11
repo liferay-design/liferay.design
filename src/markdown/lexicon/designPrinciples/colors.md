@@ -2,7 +2,7 @@
 title: "Color"
 description: "A consistent color palette is an essential asset in the communication resources of any design system."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

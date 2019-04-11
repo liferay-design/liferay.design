@@ -3,7 +3,7 @@ title: "News"
 description: "Keep updated."
 layout: "guide"
 icon: "lexicon-site-news"
-weight: 7
+order: 7
 ---
 
 <time>July 22nd, 2017</time>

@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/charts/basic/donut_chart.html"
 description: "A Donut Chart is a variation of the Pie chart that lets you divide data by numerical proportions of a total value."
 layout: "guide"
-weight: 3
+order: 3
 ---
 
 <div class="page-description">{$page.description}</div>

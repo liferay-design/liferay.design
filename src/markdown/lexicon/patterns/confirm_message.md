@@ -2,7 +2,7 @@
 title: "Confirmation Message"
 description: "Confirmation messages inform the user that a situation is critical or an action is irreversible and they must confirm before proceeding."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

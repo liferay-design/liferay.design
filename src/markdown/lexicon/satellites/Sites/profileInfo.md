@@ -2,7 +2,7 @@
 title: "Profile Info"
 description: "An element used to identify the author or owner and other related metadata of an asset in sites."
 layout: "guide"
-weight: 2
+order: 2
 ---
 
 <div class="page-description">{$page.description}</div>

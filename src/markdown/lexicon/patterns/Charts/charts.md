@@ -2,7 +2,7 @@
 title: "Charts"
 description: "This section defines and describes Lexicon Charts as a main graphical pattern to analyze data."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

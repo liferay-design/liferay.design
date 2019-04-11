@@ -3,7 +3,7 @@ title: "File Upload"
 titleLabel: "Portal"
 description: "File Uploader is a pattern that lets users select and upload images to the system."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

@@ -3,7 +3,7 @@ title: "Cards for Navigation"
 titleLabel: "Pending"
 description: "Card for navigation is a visual component focused on providing navigation in distributive pages or discributive page sections."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>

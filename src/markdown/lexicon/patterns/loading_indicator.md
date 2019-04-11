@@ -3,7 +3,7 @@ title: "Loading Indicator"
 titleLabel: "Portal"
 description: "The loading indicator shows the user that an external process, like a connection, is being executed."
 layout: "guide"
-weight: 1
+order: 1
 ---
 
 <div class="page-description">{$page.description}</div>
