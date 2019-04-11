@@ -12,21 +12,21 @@ Lexicon provides animations that you can use in your sites and apps. They should
 
 #### Empty collection
 
-![satellite navigating in the space](../../../images/empty_state.gif)
+![satellite navigating in the space](/lexicon/images/empty_state.gif)
 
 The satellite expresses that the dataset is empty and there is nothing in the collection.
 Use this animation when your initial dataset is empty or a folder is empty.
 
 #### Empty search
 
-![satellite navigating in the space](../../../images/search_state.gif)
+![satellite navigating in the space](/lexicon/images/search_state.gif)
 
 The telescope expresses that nothing was found.
 Use this animation for empty search results or empty results while applying filters over a data set.
 
 #### Successful empty state
 
-![satellite navigating in the space](../../../images/success_state.gif)
+![satellite navigating in the space](/lexicon/images/success_state.gif)
 
 The spaceship taking off expresses a successful success.
 Use this animation when a list has been emptied that is worthy of celebration. For example, you could use this to communicate a successful state when a notifications list is emptied.

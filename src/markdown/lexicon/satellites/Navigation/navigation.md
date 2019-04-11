@@ -6,11 +6,11 @@ order: 1
 ---
 This section describes the main navigational patterns, although more patterns are available.
 
-![navigation configuration DE](../../../images/Navigation.jpg)
+![navigation configuration DE](/lexicon/images/Navigation.jpg)
 
 Product navigation in DXP DE is always done through the [product menu](../Sidebar/product_menu.html). This sidebar acts as side navigation pattern and is always placed on the left side of the screen. It can be displayed or hidden with the product menu icon.
 
-![navigation configuration DE Parts](../../../images/NavigationParts.jpg)
+![navigation configuration DE Parts](/lexicon/images/NavigationParts.jpg)
 
 Page navigation can have different compositions but it always follows a same pattern:
 

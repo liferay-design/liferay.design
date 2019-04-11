@@ -19,11 +19,11 @@ There are three main elements used to define the form hierarchy:
 
 The examples below demonstrate all these form elements working together within the same form structure:
 
-![Form hierarchy example 1](../../../images/FormHierarchyParts.jpg)
+![Form hierarchy example 1](/lexicon/images/FormHierarchyParts.jpg)
 
 Including explanatory text:
 
-![Form hierarchy example 2](../../../images/FormHierarchyTexts.jpg)
+![Form hierarchy example 2](/lexicon/images/FormHierarchyTexts.jpg)
 
 ### Attributes
 
@@ -35,20 +35,20 @@ As mentioned in the [grid section](../../designPrinciples/grid.html), the main v
 
 __Section blocks metrics__
 
-![Section blocks metrics](../../../images/FormHierarchySectionBlocks.jpg)
+![Section blocks metrics](/lexicon/images/FormHierarchySectionBlocks.jpg)
 
 __Inside sections metrics__
 
-![Inside sections metrics](../../../images/FormHierarchySections.jpg)
+![Inside sections metrics](/lexicon/images/FormHierarchySections.jpg)
 
 __Metrics using explanatory texts associated to different section levels__
 
-![Metrics using explanatory texts associated to different section levels](../../../images/FormHierarchySectionTexts.jpg)
+![Metrics using explanatory texts associated to different section levels](/lexicon/images/FormHierarchySectionTexts.jpg)
 
 #### Mobile
 
 In small viewports, as mentioned in the [grid section](../../designPrinciples/grid.html), the main vertical spacing reference changes from 24px to 16px.
 
-![Inside sections metrics 2](../../../images/FormHierarchySectionBlocksM.jpg)
+![Inside sections metrics 2](/lexicon/images/FormHierarchySectionBlocksM.jpg)
 
-![Inside sections metrics 2](../../../images/FormHierarchySectionTextsM.jpg)
+![Inside sections metrics 2](/lexicon/images/FormHierarchySectionTextsM.jpg)

@@ -25,7 +25,7 @@ This site explains the design specs and proper usage of Lexicon's system of comp
 
 <span class="getstarted-card row">
     <span class="col-12 col-sm-2 col-md-3 text-center">
-        <img class="getstarted-img" src="../../../images/getstarted/foundation.png" alt="">
+        <img class="getstarted-img" src="/lexicon/images/getstarted/foundation.png" alt="">
     </span>
     <span class="getstarted-info col-md">
         <h4>Foundations</h4>
@@ -35,7 +35,7 @@ This site explains the design specs and proper usage of Lexicon's system of comp
 
 <span class="getstarted-card row">
     <span class="col-12 col-sm-2 col-md-3 text-center">
-        <img class="getstarted-img" src="../../../images/getstarted/component.png" alt="">
+        <img class="getstarted-img" src="/lexicon/images/getstarted/component.png" alt="">
     </span>
     <span class="getstarted-info col-md">
         <h4>Core Components</h4>
@@ -45,7 +45,7 @@ This site explains the design specs and proper usage of Lexicon's system of comp
 
 <span class="getstarted-card row">
     <span class="col-12 col-sm-2 col-md-3 text-center">
-        <img  class="getstarted-img" src="../../../images/getstarted/satellite.png" alt="">
+        <img  class="getstarted-img" src="/lexicon/images/getstarted/satellite.png" alt="">
     </span>
     <span class="getstarted-info col-md">
         <h4>Satellite Components</h4>
@@ -55,7 +55,7 @@ This site explains the design specs and proper usage of Lexicon's system of comp
 
 <span class="getstarted-card row">
     <span class="col-12 col-sm-2 col-md-3 text-center">
-        <img class="getstarted-img" src="../../../images/getstarted/template.png" alt="">
+        <img class="getstarted-img" src="/lexicon/images/getstarted/template.png" alt="">
     </span>
     <span class="getstarted-info col-md">
         <h4>Templates</h4>
@@ -65,7 +65,7 @@ This site explains the design specs and proper usage of Lexicon's system of comp
 
 <span class="getstarted-card row">
     <span class="col-12 col-sm-2 col-md-3 text-center">
-        <img class="getstarted-img" src="../../../images/getstarted/example.png" alt="">
+        <img class="getstarted-img" src="/lexicon/images/getstarted/example.png" alt="">
     </span>
     <span class="getstarted-info col-md">
         <h4>Examples</h4>

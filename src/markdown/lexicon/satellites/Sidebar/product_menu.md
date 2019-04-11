@@ -5,4 +5,4 @@ description: "A navigation menu that enters from the left side of the screen and
 layout: "guide"
 order: 2
 ---
-![product menu](../../../images/ProductMenu.jpg)
+![product menu](/lexicon/images/ProductMenu.jpg)

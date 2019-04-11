@@ -8,9 +8,9 @@ order: 2
 ---
 
 
-![state one of the management bar](../../../images/ManagementBarState1.jpg)
+![state one of the management bar](/lexicon/images/ManagementBarState1.jpg)
 
-![state two of the management bar](../../../images/ManagementBarState2.jpg)
+![state two of the management bar](/lexicon/images/ManagementBarState2.jpg)
 
 *Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height.*
 
@@ -26,7 +26,7 @@ It is the default state.
 
 It displays tools focused on filtering, sorting, and data visualization.
 
-![state one of the management toolbar with points to explain the different components inside it](../../../images/ManagementBarState1Parts.jpg)
+![state one of the management toolbar with points to explain the different components inside it](/lexicon/images/ManagementBarState1Parts.jpg)
 
 1. Checkbox: selects all elements on the current page
 2. Filter and Order: dropdown with dropdown menu associated. See [dropdown with groups](../dropdowns.html) for more information.
@@ -41,7 +41,7 @@ It displays contextual tools when one or more items are selected. Only the speci
 
 The background color changes to reflect the change of state.
 
-![state two of the management bar with points to explain the different components inside it](../../../images/ManagementBarState2Parts.jpg)
+![state two of the management bar with points to explain the different components inside it](/lexicon/images/ManagementBarState2Parts.jpg)
 
 1. Checkbox: To select all elements in the current page
 2. Counter: Selected elements counter
@@ -72,7 +72,7 @@ The Management Toolbar follows these rules for selection:
 
 A dropdown button triggers the dropdown menu with groups. This configuration keeps the Management Toolbar organized by collapsing options into collapsible menus.
 
-![dropdown menu displayed from filter and order dropdown button to filter and sort](../../../images/ManagementBarFilterOrder.jpg)
+![dropdown menu displayed from filter and order dropdown button to filter and sort](/lexicon/images/ManagementBarFilterOrder.jpg)
 
 **Filter by**: used to filter elements from the dataset.
 
@@ -82,13 +82,13 @@ A dropdown button triggers the dropdown menu with groups. This configuration kee
 
 Filters are reflected in the results bar. This bar includes a label for each filter that is applied.
 
-![state after applying filters](../../../images/ManagementBarFilterResults.jpg)
+![state after applying filters](/lexicon/images/ManagementBarFilterResults.jpg)
 
 #### Changing Views
 
 The icon button lets the user change visualization between tables, lists, and cards.
 
-![dropdown menu displayed from change view button dropdown button to change view](../../../images/ManagementBarViewChange.jpg)
+![dropdown menu displayed from change view button dropdown button to change view](/lexicon/images/ManagementBarViewChange.jpg)
 
 This button must not appear if there is only one possible visualization.
 
@@ -96,7 +96,7 @@ This button must not appear if there is only one possible visualization.
 
 When a management Toolbar contains a search field, and it is used to filter elements, a thing stripe is displayed, informing the user of the total results. This can be combined with filters.
 
-![state one after typing](../../../images/ManagementBarResults.jpg)
+![state one after typing](/lexicon/images/ManagementBarResults.jpg)
 
 
 #### Layout Variations
@@ -104,47 +104,47 @@ The functionalities that are not required disappear. The Search field expands to
 
 This example displays all the features:
 
-![state one of the management bar](../../../images/ManagementBarState1.jpg)
+![state one of the management bar](/lexicon/images/ManagementBarState1.jpg)
 
 There may be cases where selection or filters are not required. In these cases, you can remove the elements from the Management Toolbar that you don't need. In this example, we only need the search field, a button to change visualizations, and the plus button to add elements into the dataset.
 
-![state three without selection checkbox filter and order](../../../images/ManagementBarState3.jpg)
+![state three without selection checkbox filter and order](/lexicon/images/ManagementBarState3.jpg)
 
 You may not require the visualizations and the plus buttons. In this case, you can remove these options, as shown in the layout below:
 
-![state four without view change and plus button](../../../images/ManagementBarState4.jpg)
+![state four without view change and plus button](/lexicon/images/ManagementBarState4.jpg)
 
 Having the management toolbar only configured with the search field is the minimum possible configuration.
 
-![state five only with search field](../../../images/ManagementBarState5.jpg)
+![state five only with search field](/lexicon/images/ManagementBarState5.jpg)
 
 Last but not least, a very common case, and aforementioned in the View Case section, is to go without the visualizations button:
 
-![state six without view change](../../../images/ManagementBarState6.jpg)
+![state six without view change](/lexicon/images/ManagementBarState6.jpg)
 
 ### Mobile
 
 #### State 1
 On mobile devices, all actions are transformed into icons to conserve space and condense the toolbar to only one line. This provides more space for content, rather than tools.
 
-![state one of the management bar mobile](../../../images/ManagementBarMobileState1.jpg)
+![state one of the management bar mobile](/lexicon/images/ManagementBarMobileState1.jpg)
 
 #### State 2
 In contrast to the desktop version, no actions are available outside of the actions menu.
 
-![state two of the management bar mobile](../../../images/ManagementBarMobileState2.jpg)
+![state two of the management bar mobile](/lexicon/images/ManagementBarMobileState2.jpg)
 
 #### Search
 
 The magnifying glass icon triggers the Management Toolbar to switch to the search state. The search field expands to the width of the whole bar to provide the best user experience.
 
-![state two of the management bar mobile](../../../images/ManagementBarMobileSearch.jpg)
+![state two of the management bar mobile](/lexicon/images/ManagementBarMobileSearch.jpg)
 
 #### Search results 
 
 Tap the entry in the search field to view the results. The Management Toolbar returns to state 1 with a summary of the results found.
 
-![state two of the management bar mobile](../../../images/ManagementBarMobileResults.jpg)
+![state two of the management bar mobile](/lexicon/images/ManagementBarMobileResults.jpg)
 
 #### Mobile Layout Variations 
 
@@ -152,22 +152,22 @@ The search field grows to fill the remaining space leftover from features that w
 
 The example below displays all the features:
 
-![state one of the management bar mobile](../../../images/ManagementBarMobileState1.jpg)
+![state one of the management bar mobile](/lexicon/images/ManagementBarMobileState1.jpg)
 
 This example only includes the options to change the view mode and add new elements:
 
-![state three of the management bar mobile without selection filter and order](../../../images/ManagementBarMobileState3.jpg)
+![state three of the management bar mobile without selection filter and order](/lexicon/images/ManagementBarMobileState3.jpg)
 
 This example includes the options for selection, filter, and order:
 
-![state four of the management bar mobile without view change and plus button](../../../images/ManagementBarMobileState4.jpg)
+![state four of the management bar mobile without view change and plus button](/lexicon/images/ManagementBarMobileState4.jpg)
 
 The dataset display in this case, only allows users to Search.
 
-![state five of the management bar mobile only with the search field](../../../images/ManagementBarMobileState5.jpg)
+![state five of the management bar mobile only with the search field](/lexicon/images/ManagementBarMobileState5.jpg)
 
 The most common configuration includes all options, except the ability to change the view.
 
-![state six of the management bar mobile without change view](../../../images/ManagementBarMobileState6.jpg)
+![state six of the management bar mobile without change view](/lexicon/images/ManagementBarMobileState6.jpg)
 
 *Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height.*

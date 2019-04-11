@@ -10,11 +10,11 @@ Creating your own interfaces using Lexicon is pretty easy using our Figma or Ske
 
 <div class="row">
     <div class="download-card">
-        <img class="download-card-img" src="../../../images/resources/figma-logo.png">
+        <img class="download-card-img" src="/lexicon/images/resources/figma-logo.png">
         <a class="btn btn-primary" href="https://www.figma.com/file/fvvqKW4bIPIUfWqrtLAjD4/lexicon-dsl" target="_blank">Download</a>
     </div>
     <div class="download-card">
-        <img class="download-card-img" src="../../../images/resources/sketch-symbol-transparent.png">
+        <img class="download-card-img" src="/lexicon/images/resources/sketch-symbol-transparent.png">
         <a class="btn btn-primary" href="https://drive.google.com/file/d/1HfMYCIK9GE4htG6aTaRJ3NE5pJY7aB3k/view?usp=sharing" target="_blank">Download</a>
         <p class="download-card-text">No longer supported</p>
     </div>

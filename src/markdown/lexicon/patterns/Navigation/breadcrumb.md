@@ -6,15 +6,15 @@ description: "Breadcrumb is a secondary navigation pattern that identifies the p
 layout: "guide"
 order: 2
 ---
-![breadcrumb without collapsing](../../../images/Breadcrumb.jpg)
+![breadcrumb without collapsing](/lexicon/images/Breadcrumb.jpg)
 
-![breadcrumb collapsing with a dropdown button on the left side](../../../images/BreadcrumbDropdown.jpg)
+![breadcrumb collapsing with a dropdown button on the left side](/lexicon/images/BreadcrumbDropdown.jpg)
 
 ### Usage
 
 Breadcrumb works the same way across all viewport sizes. When there isn't enough space on the screen to display all the breadcrumbs, the first levels are collapsed into a dropdown menu. This allows the user to read and navigate to the previous closer levels, and also lets them navigate to other levels easily.
 
-![breadcrumb with a dropdown menu open](../../../images/BreadcrumbDropdownExample.jpg)
+![breadcrumb with a dropdown menu open](/lexicon/images/BreadcrumbDropdownExample.jpg)
 
 * The breadcrumb is always horizontal.
 * Long crumbs can be reduced using ellipsis.
@@ -85,4 +85,4 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
 
 ### Attributes
 
-![breadcrumb metrics](../../../images/BreadcrumbMetrics.jpg)
+![breadcrumb metrics](/lexicon/images/BreadcrumbMetrics.jpg)

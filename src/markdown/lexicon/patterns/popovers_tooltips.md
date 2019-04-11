@@ -8,13 +8,13 @@ order: 1
 ---
 ## Popovers
 
-![four different popovers with the arrow to the left, or right or top or down](../../../images/Popover.jpg) 
+![four different popovers with the arrow to the left, or right or top or down](/lexicon/images/Popover.jpg) 
 
 ### Usage
 
 Popovers are used together with the question mark icon to communicate to the user that there is useful information for them to read. Popovers contain helpful information such as an explanation of a context.
 
-![help icon](../../../images/PopoverFromIcon.jpg)
+![help icon](/lexicon/images/PopoverFromIcon.jpg)
 
 #### Dos and Don'ts
 
@@ -22,11 +22,11 @@ For readability, keep a distance of 8px between text and the icon.
 
 <div class="row">
 	<div class="dodont col-lg">
-        <img class="do" src="../../../images/PopoverTitleIconDo.jpg" alt="keep 8 pixels between title and help icon">
+        <img class="do" src="/lexicon/images/PopoverTitleIconDo.jpg" alt="keep 8 pixels between title and help icon">
         <p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="../../../images/PopoverTitleIconDont.jpg" alt="do not place it nearer than 8 pixels">
+		<img class="dont" src="/lexicon/images/PopoverTitleIconDont.jpg" alt="do not place it nearer than 8 pixels">
 		<p class="dont">Don't</p>
 	</div>
 </div>
@@ -35,24 +35,24 @@ Keep a distance of 16px between text and the icon.
 
 <div class="row">
     <div class="dodont col-lg">
-        <img class="do" src="../../../images/PopoverSectionIconDo.jpg" alt="keep 16 pixels between a section title and help icon">
+        <img class="do" src="/lexicon/images/PopoverSectionIconDo.jpg" alt="keep 16 pixels between a section title and help icon">
         <p class="do">Do</p>
     </div>
     <div class="dodont col-lg">
-        <img class="dont" src="../../../images/PopoverSectionIconDont.jpg" alt="do not place it nearer than 16 pixels">
+        <img class="dont" src="/lexicon/images/PopoverSectionIconDont.jpg" alt="do not place it nearer than 16 pixels">
         <p class="dont">Don't</p>
     </div>
 </div>
 
 ### Attributes
 
-![popover metrics](../../../images/PopoverMetrics.jpg)
+![popover metrics](/lexicon/images/PopoverMetrics.jpg)
 
 ## Tooltips
 
 Tooltips are brief pieces of information that appear on hover state over an element to clarify its meaning or use for the user.
 
-![the four different positions of a tooltip arrow in a tooltip, 4 tooltip cases](../../../images/Tooltip.jpg)
+![the four different positions of a tooltip arrow in a tooltip, 4 tooltip cases](/lexicon/images/Tooltip.jpg)
 
 ### Usage
 
@@ -69,15 +69,15 @@ Use tooltips on elements that trigger an action, such as button icons.
 
 <div class="row">
 	<div class="dodont col-lg">
-        <img class="do" src="../../../images/TooltipDo.jpg" alt="tooltip on button icon hover action">
+        <img class="do" src="/lexicon/images/TooltipDo.jpg" alt="tooltip on button icon hover action">
         <p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="../../../images/TooltipDont.jpg" alt="tooltip on plain text hover action">
+		<img class="dont" src="/lexicon/images/TooltipDont.jpg" alt="tooltip on plain text hover action">
 		<p class="dont">Don't</p>
 	</div>
 </div>
 
 ### Attributes
 
-![tootip metrics](../../../images/TooltipMetrics.jpg)
+![tootip metrics](/lexicon/images/TooltipMetrics.jpg)

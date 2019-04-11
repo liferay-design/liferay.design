@@ -10,7 +10,7 @@ Colors have a huge impact in a system. They define the visual identity, bring ha
 ### Primary colors
 Primary colors define part of Lexicon's visual identity. These colors have been carefully chosen for how easily they can be combined and with accessibility in mind.
 
-![Primary colors set](../../../images/ColorsPrimary.jpg)
+![Primary colors set](/lexicon/images/ColorsPrimary.jpg)
 
 | Color | Code | Usage |
 | ----- | ---- | ----- |
@@ -21,7 +21,7 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 #### Main color variations
 
-![Main color scale](../../../images/ColorMainScale.jpg)
+![Main color scale](/lexicon/images/ColorMainScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ----- | ---- | ----- |
@@ -35,7 +35,7 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 #### Gray variations
 
-![Primary colors set](../../../images/ColorGrayScale.jpg)
+![Primary colors set](/lexicon/images/ColorGrayScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ----- | ---- | ----- |
@@ -44,7 +44,7 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 #### Primary blue color variations
 
-![Primary color scale](../../../images/ColorPrimaryScale.jpg)
+![Primary color scale](/lexicon/images/ColorPrimaryScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ----- | ---- | ----- |
@@ -59,11 +59,11 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 Secondary colors are frequently used and still important, but they do not define the visual identity as much as Primary colors.
 
-![Secondary colors set](../../../images/ColorsSecondary.jpg)
+![Secondary colors set](/lexicon/images/ColorsSecondary.jpg)
 
 Each color is defined below, along with its variations and usage:
 
-![Reds color scale](../../../images/ColorRedScale.jpg)
+![Reds color scale](/lexicon/images/ColorRedScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ------------ | ---- | ----- |
@@ -71,7 +71,7 @@ Each color is defined below, along with its variations and usage:
 | Error L1 | -28% | #F48989 | Border color in error status messages |
 | Error L2 | -50% | #FEEFEF | Background color in error status messages |
 
-![Green color scale](../../../images/ColorGreenScale.jpg)
+![Green color scale](/lexicon/images/ColorGreenScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ----- | ---- | ----- |
@@ -79,7 +79,7 @@ Each color is defined below, along with its variations and usage:
 | Success L1 | -25% | #5ACA75 | Border color in success status messages | 
 | Success L2 | -63% | #EDF9F0 | Background color in success messages like alerts | 
 
-![Orange color scale](../../../images/ColorOrangeScale.jpg)
+![Orange color scale](/lexicon/images/ColorOrangeScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ----- | ---- | ----- |
@@ -87,7 +87,7 @@ Each color is defined below, along with its variations and usage:
 | Warning L1 | -25% | #FF8F39 | Border color in warning messages like alerts |
 | Warning L2 | -60% | #FFF4EC | Background color in warning messages like alerts |
 
-![Blue info color scale](../../../images/ColorBlueInfoScale.jpg)
+![Blue info color scale](/lexicon/images/ColorBlueInfoScale.jpg)
 
 | Color | Light | Code | Usage |
 | ----- | ----- | ---- | ----- |

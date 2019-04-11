@@ -6,7 +6,7 @@ description: "A progressive disclosure method to guide the user through a task d
 layout: "guide"
 order: 3
 ---
-![Multi step form simplified](../../../images/MultiStepFormSimplified.jpg)
+![Multi step form simplified](/lexicon/images/MultiStepFormSimplified.jpg)
 
 ### Usage
 
@@ -19,14 +19,14 @@ Rather than provide a complete interactive wizard display as the multi step form
 
 ### Attributes
 
-![Multi step form parts](../../../images/MultiStepFormSimpliParts.jpg)
+![Multi step form parts](/lexicon/images/MultiStepFormSimpliParts.jpg)
 
 1. Step title
 2. Step counter reference
 
-![Multi step form parts](../../../images/MultiStepFormSimpliMetrics.jpg)
+![Multi step form parts](/lexicon/images/MultiStepFormSimpliMetrics.jpg)
 
 
 ### Example
 
-![Multi step form simplified example of use inside a modal](../../../images/MultiStepFormSimplifiedExample.jpg)
+![Multi step form simplified example of use inside a modal](/lexicon/images/MultiStepFormSimplifiedExample.jpg)

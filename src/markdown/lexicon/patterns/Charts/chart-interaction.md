@@ -63,8 +63,8 @@ The popover must be shown on top of the legend item.
 
 A chart popover lets you display specific data for an exact point or an exact area that is interactive. This is another usage of the popover pattern.
 
-![Tooltip or popover](../../../images/ChartBubble.png)
+![Tooltip or popover](/lexicon/images/ChartBubble.png)
 
 The following half donut chart shows a chart tooltip in action:
 
-![tooltip usage in a half donut chart](../../../images/ChartBubbleExample.png)
+![tooltip usage in a half donut chart](/lexicon/images/ChartBubbleExample.png)

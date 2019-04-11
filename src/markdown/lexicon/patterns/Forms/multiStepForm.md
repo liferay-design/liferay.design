@@ -6,7 +6,7 @@ description: "A progress bar used to divide the main task into subtasks to help 
 layout: "guide"
 order: 3
 ---
-![Multi step form](../../../images/MultiStepForm7Steps.jpg)
+![Multi step form](/lexicon/images/MultiStepForm7Steps.jpg)
 
 ### Usage
 
@@ -21,42 +21,42 @@ A Multi step form is used when a major or big task has to be divided into smalle
 
 A multi step form must have a minimum of two steps:
 
-![Multi step form two steps](../../../images/MultiStepForm2Steps.jpg)
+![Multi step form two steps](/lexicon/images/MultiStepForm2Steps.jpg)
 
 We recommend a maximum of seven steps for two key reasons:
 * Seven is an easy number of elements to remember
 * Seven is a good threshold for touch interaction on mobile devices
 
-![Multi step form](../../../images/MultiStepForm7Steps.jpg)
+![Multi step form](/lexicon/images/MultiStepForm7Steps.jpg)
 
 If you add more than seven steps, the remaining steps should be grouped in a dropdown menu under the sixth element in the multi step form:
 
-![Multi step form two steps](../../../images/MultiStepFormNSteps.jpg)
+![Multi step form two steps](/lexicon/images/MultiStepFormNSteps.jpg)
 
 A Multi step form is most commonly used to guide the user in the process of filling in a complex or long form. Some processes may require you to navigate backwards through the process. For those cases, make sure to set up links in the multi step form elements.
 
 
 #### Example
 
-![Multi step form example grid](../../../images/MultiStepFormExampleGrid.jpg)
+![Multi step form example grid](/lexicon/images/MultiStepFormExampleGrid.jpg)
 
 ### Attributes
 
-![Multi step form parts](../../../images/MultiStepFormParts.jpg)
+![Multi step form parts](/lexicon/images/MultiStepFormParts.jpg)
 
 1. Done: Checked page
 2. Selected: Current page
 3. Disabled: Non visited page
 4. Steps row: equally divided space between all steps
 
-![Multi step form metrics](../../../images/MultiStepFormMetrics.jpg)
+![Multi step form metrics](/lexicon/images/MultiStepFormMetrics.jpg)
 
 ### Mobile
 
 Due to the reduced space on mobile displays, the process bar is condensed to a maximum of five steps. The remaining steps are included in a dropdown that is always placed under the second to last step:
 
-![Multi step form N steps mobile](../../../images/MultiStepFormNStepsMobile.jpg)
+![Multi step form N steps mobile](/lexicon/images/MultiStepFormNStepsMobile.jpg)
 
 #### Example
 
-![Multi step form example mobile](../../../images/MultiStepFormExampleMobile.jpg)
+![Multi step form example mobile](/lexicon/images/MultiStepFormExampleMobile.jpg)

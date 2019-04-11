@@ -8,7 +8,7 @@ order: 1
 ### Simple File Upload
 Simple file upload is used to upload a simple file element.
 
-![file upload simple](../../../images/FileUploadSimple.png)
+![file upload simple](/lexicon/images/FileUploadSimple.png)
 
 ### Multiple File Upload
 Inside this categorization we have two different patterns: file uploader and image uploader. Both are pretty similar, but the second one is more visual and adapted to the situation.
@@ -19,12 +19,12 @@ Both uploaders share the same **upload area** which has the following attributes
         * Message: clarifies the permitted file extensions and max size of each file
         * Secondary button: users may not always want to use the drag and drop feature. The button opens the operating system's file uploader with the option to select multiple files.
 
-        ![file upload simple empty state](../../../images/FileUploadEmptyState.png)
+        ![file upload simple empty state](/lexicon/images/FileUploadEmptyState.png)
 
     * Active
         * It contains an animation that invites users to drop documents on dropover state.
 
-        ![file upload simple empty state hover](../../../images/FileUploadEmptyStateHover.png)
+        ![file upload simple empty state hover](/lexicon/images/FileUploadEmptyStateHover.png)
 
 * Once files have been added to the upload system, there must be clear options to upload more files: An explicit button and a drag and drop option.
 * The scroll must only be vertical if needed.
@@ -33,7 +33,7 @@ Both uploaders share the same **upload area** which has the following attributes
 
 #### File Uploader
 
-![file upload simple](../../../images/FileUpload.png)
+![file upload simple](/lexicon/images/FileUpload.png)
 
 * File uploader accepts any file, including images, pdfs, docs, etc.
 * After dropping files in the area, the upload status of each file is displayed in a list.
@@ -42,26 +42,26 @@ Both uploaders share the same **upload area** which has the following attributes
 
 In this example, the file uploader works together with a form to predefine configuration options for the uploaded files:
 
-![file upload simple with errors](../../../images/FileUploaderErrorStatePanelOpen.png)
+![file upload simple with errors](/lexicon/images/FileUploaderErrorStatePanelOpen.png)
 
 Files can be in different states:
 
 * Default state: when the file is already uploaded
 
-![file upload list row default state](../../../images/FileUploadListDefault.png)
+![file upload list row default state](/lexicon/images/FileUploadListDefault.png)
 
 * Upload state: during the upload process
 
-![file upload list row upload state](../../../images/FileUploadListProgress.png)
+![file upload list row upload state](/lexicon/images/FileUploadListProgress.png)
 
 * Error state: when the file upload has failed
 
-![file upload list row error state](../../../images/FileUploadListError.png)
+![file upload list row error state](/lexicon/images/FileUploadListError.png)
 
 
 #### Image Uploader
 
-![file upload simple](../../../images/FileUploadImageUpload.png)
+![file upload simple](/lexicon/images/FileUploadImageUpload.png)
 
 * Image uploader only admits image file types.
 * After dropping images in the area, an image grid appears, letting the user see the upload process.
@@ -70,22 +70,22 @@ Files can be in different states:
 * Images that didn't complete the upload process provide the option to retry the upload.
 * Every image must be removable.
 
-![image upload with error state](../../../images/FileUploadImageUploadErrors.png)
+![image upload with error state](/lexicon/images/FileUploadImageUploadErrors.png)
 
 Images can be in different states:
 
 * Upload state: during the upload process. The default state is shown in the image on the left. The hover state is shown in the image on the right.
 
-![image upload, upload state](../../../images/FileUploadImageStates.png)
+![image upload, upload state](/lexicon/images/FileUploadImageStates.png)
 
 * Error state: when the file upload has failed
 
-![image upload error state](../../../images/FileUploadImageStatesError.png)
+![image upload error state](/lexicon/images/FileUploadImageStatesError.png)
 
 * Default and hover image states: when the file is already uploaded
 
-![image default and hover state](../../../images/FileUploadImageStatesDefaultHover.png)
+![image default and hover state](/lexicon/images/FileUploadImageStatesDefaultHover.png)
 
 * The image uploader may require a checked state for certain options:
 
-![image default and selected state](../../../images/FileUploadImageStatesChecbox.png)
+![image default and selected state](/lexicon/images/FileUploadImageStatesChecbox.png)

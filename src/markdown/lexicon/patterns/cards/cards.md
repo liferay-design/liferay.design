@@ -6,7 +6,7 @@ description: "Cards are a specific form of data visualization focused mainly on 
 layout: "guide"
 order: 1
 ---
-![card with image default state](../../../images/CardImage.jpg)
+![card with image default state](/lexicon/images/CardImage.jpg)
 
 ### Usage
 A card is a pattern that relies heavily on imagery, therefore, we recommend that you only use cards if you have images associated with your content. A practical use case for this could be your users database or an image library. 
@@ -44,16 +44,16 @@ The only required element for a card is the image. Everything else can be remove
 Image cards are used in image/document galleries.
 
 #### Default 
-![card with image default state](../../../images/CardImage.jpg)
+![card with image default state](/lexicon/images/CardImage.jpg)
 
 #### Hover
-![card with image hover state, blue border](../../../images/CardImageHover.jpg)
+![card with image hover state, blue border](/lexicon/images/CardImageHover.jpg)
 
 #### Active 
-![card with image selected state, blue border and check marked](../../../images/CardImageActive.jpg)
+![card with image selected state, blue border and check marked](/lexicon/images/CardImageActive.jpg)
 
 #### Empty
-![card with image empty state, no image, gray background grid](../../../images/CardImageEmpty.jpg)
+![card with image empty state, no image, gray background grid](/lexicon/images/CardImageEmpty.jpg)
 
 #### Image with different ratios
 
@@ -61,15 +61,15 @@ Images can vary in size. So no visual information is lost in the card, Lexicon m
 
 <div class="row">
 	<div class="dodont col-lg">
-        <img src="../../../images/CardImageAspectRatio1.jpg" alt="Card Image Aspect Ratio 1">
+        <img src="/lexicon/images/CardImageAspectRatio1.jpg" alt="Card Image Aspect Ratio 1">
 	</div>
 	<div class="dodont col-lg">
-		<img src="../../../images/CardImageAspectRatio2.jpg" alt="Card Image Aspect Ratio 2">
+		<img src="/lexicon/images/CardImageAspectRatio2.jpg" alt="Card Image Aspect Ratio 2">
 	</div>
 </div>
 <div class="row">
 	<div class="dodont col-lg">
-        <img src="../../../images/CardImageAspectRatio3.jpg" alt="Card Image Aspect Ratio 3">
+        <img src="/lexicon/images/CardImageAspectRatio3.jpg" alt="Card Image Aspect Ratio 3">
 	</div>
 </div>
 
@@ -78,7 +78,7 @@ Aspect ratio might be used when the content to represent in the card is a docume
 
 ### Attributes
 
-![7 possible parts of a card](../../../images/CardParts.jpg)
+![7 possible parts of a card](/lexicon/images/CardParts.jpg)
 
 1. Checkbox
 2. Image
@@ -88,7 +88,7 @@ Aspect ratio might be used when the content to represent in the card is a docume
 6. Detail or short descriptive text
 7. Label: status identifier
 
-![card metrics](../../../images/CardMetrics.jpg)
+![card metrics](/lexicon/images/CardMetrics.jpg)
 
 ### User card
 
@@ -96,10 +96,10 @@ User cards represent users. The user can be represented by their user image or u
 
 <div class="row">
 	<div class="dodont col-lg">
-        <img src="../../../images/CardUser.jpg" alt="User card without image but initials">
+        <img src="/lexicon/images/CardUser.jpg" alt="User card without image but initials">
 	</div>
 	<div class="dodont col-lg">
-		<img src="../../../images/CardUserImage.jpg" alt="User card with image">
+		<img src="/lexicon/images/CardUserImage.jpg" alt="User card with image">
 	</div>
 </div>
 
@@ -107,18 +107,18 @@ User cards represent users. The user can be represented by their user image or u
 
 File cards represent files other than images.
 
-![file card is identified with file icon type as center image](../../../images/CardFile.jpg)
+![file card is identified with file icon type as center image](/lexicon/images/CardFile.jpg)
 
 ### Folder card
 
 Folder cards display horizontal representations of information. They have the same amount of elements as the other cards previously explained on this page. The main purpose of this card is to represent folders, therefore the image is removed in this card type. In this case, only the checkbox is used to select.
 
-![folder card, similar to a stripe card](../../../images/CardFolder.jpg)
+![folder card, similar to a stripe card](/lexicon/images/CardFolder.jpg)
 
 ### Sections
 Card sections organize content into separate divisions by a certain categorization or typology.
 
-![card section](../../../images/CardViewGroupSeparator.png)
+![card section](/lexicon/images/CardViewGroupSeparator.png)
 
 
 ### Examples

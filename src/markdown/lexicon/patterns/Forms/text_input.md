@@ -10,7 +10,7 @@ order: 4
 
 A text field lets users enter data into the system to be processed.
 
-![default empty state](../../../images/Input.jpg)
+![default empty state](/lexicon/images/Input.jpg)
 
 ### Usage
 Text fields can have help text. Lexicon provides two different mechanisms to provide help:
@@ -23,27 +23,27 @@ Text fields can have help text. Lexicon provides two different mechanisms to pro
 
 Text fields can be simple:
 
-![default empty state](../../../images/Input.jpg)
+![default empty state](/lexicon/images/Input.jpg)
 
 Although they can include placeholder text, we don't recommend it since users can misinterpret it as final content.
 
-![default empty state](../../../images/InputPlaceholder.jpg)
+![default empty state](/lexicon/images/InputPlaceholder.jpg)
 
 Text fields can also have help text placed right below the text field.
 
-![default empty state](../../../images/InputHelpText.jpg)
+![default empty state](/lexicon/images/InputHelpText.jpg)
 
 #### Active
 
-![default active state](../../../images/InputSimpleFocus.jpg)
+![default active state](/lexicon/images/InputSimpleFocus.jpg)
 
 #### Disabled
 
-![default disabled state](../../../images/InputDisabled.jpg)
+![default disabled state](/lexicon/images/InputDisabled.jpg)
 
 #### Read only
 
-![default disabled state](../../../images/InputReadOnly.jpg)
+![default disabled state](/lexicon/images/InputReadOnly.jpg)
 
 ### Validations
 
@@ -51,21 +51,21 @@ Validation text for a field is placed right below the field box, just before the
 
 #### Success
 
-![default success state](../../../images/InputSuccess.jpg)
+![default success state](/lexicon/images/InputSuccess.jpg)
 
 #### Warning
 
-![default warning state](../../../images/InputWarning.jpg)
+![default warning state](/lexicon/images/InputWarning.jpg)
 
 #### Error
 
-![default error state](../../../images/InputError.jpg)
+![default error state](/lexicon/images/InputError.jpg)
 
-![default error state](../../../images/InputHelpTextError.jpg)
+![default error state](/lexicon/images/InputHelpTextError.jpg)
 
 ### Attributes
 
-![input field parts](../../../images/InputParts.jpg)
+![input field parts](/lexicon/images/InputParts.jpg)
 
 A text field, at the very least, contains these elements:
 1. Label
@@ -74,16 +74,16 @@ A text field, at the very least, contains these elements:
 4. Status message
 5. Help text 
 
-![input field metrics without error](../../../images/InputMetrics.jpg)
-![input field metrics with error](../../../images/InputErrorMetrics.jpg)
+![input field metrics without error](/lexicon/images/InputMetrics.jpg)
+![input field metrics with error](/lexicon/images/InputErrorMetrics.jpg)
 
 ## Text area
 
 A text area is similar to a text field input, however, it supports several lines of text. For example, a user can use a text area to enter long product descriptions.
 
-![text area](../../../images/InputTextArea.jpg)
+![text area](/lexicon/images/InputTextArea.jpg)
 
-![text area](../../../images/InputTextAreaHelpText.jpg)
+![text area](/lexicon/images/InputTextAreaHelpText.jpg)
 
 ### Usage
 

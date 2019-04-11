@@ -12,7 +12,7 @@ This type of validation occurs on the fly, while the user fills in the form. It 
 
 Forms have inline validation. All [form fields](./text_input.hmtl) that can be checked against a set of rules while filling them in must show success or error state to the user.
 
-![default error state](../../../images/InputHelpTextError.jpg)
+![default error state](/lexicon/images/InputHelpTextError.jpg)
 
 #### At least one field required
 
@@ -23,15 +23,15 @@ There may be a case when only one indeterminate field is required in a form or f
 3. All fields must be marked with the corresponding validation color.
     1. Only one validation message is shown for one of the input fields in the group, preferably the first. A good help message specifies the error to the user and explains how to solve it.
 
-    ![Form At Least One Field](../../../images/FormAtLeastOneField.jpg)
+    ![Form At Least One Field](/lexicon/images/FormAtLeastOneField.jpg)
 
     2. Once the validation conditions are met, the alert message disappears.
 
-    ![Form At Least One Field Validation](../../../images/FormAtLeastOneFieldValidation.jpg)
+    ![Form At Least One Field Validation](/lexicon/images/FormAtLeastOneFieldValidation.jpg)
     
     3. Losing focus triggers validation, unless a field in the group is already focused.
 
-    ![Form At Least One Field Validation](../../../images/FormAtLeastOneFieldSuccess.jpg)
+    ![Form At Least One Field Validation](/lexicon/images/FormAtLeastOneFieldSuccess.jpg)
 
 ### Full validation
 
@@ -39,4 +39,4 @@ Forms are validated when they are submitted via the "Save" action. When a form i
 
 The example below communicates the return of that service call with an [embedded alert](../alerts.html).
 
-![push alert example. Placed right below the last horizontal navigation label](../../../images/AlertEmbeddedExample.jpg)
+![push alert example. Placed right below the last horizontal navigation label](/lexicon/images/AlertEmbeddedExample.jpg)

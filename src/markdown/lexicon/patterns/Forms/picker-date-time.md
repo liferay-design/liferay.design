@@ -16,12 +16,12 @@ pattern that combines the two functionalities:
 
 ## Date Picker
 
-![Date picker](../../../images/Picker-date.jpg)
+![Date picker](/lexicon/images/Picker-date.jpg)
 
 
 ### Usage
 
-![Date picker with 6 points to describe the different elements. Explained below.](../../../images/Picker-date-desc.jpg)
+![Date picker with 6 points to describe the different elements. Explained below.](/lexicon/images/Picker-date-desc.jpg)
 
 1. Month selector: provides the twelve months of the year
 2. Year selector: provides the available years. This needs to be open so users can select past, present, future, or all dates.
@@ -41,53 +41,53 @@ pattern that combines the two functionalities:
 
 The default state displays the day's number, indicating that the user can select it.
 
-![Date picker default day button](../../../images/Picker-date-day-default.jpg)
+![Date picker default day button](/lexicon/images/Picker-date-day-default.jpg)
 
 #### Hover state
 
 When the user hovers an enabled day, a light grey circle is displayed behind it.
 
-![Date picker default day button](../../../images/Picker-date-day-hover.jpg)
+![Date picker default day button](/lexicon/images/Picker-date-day-hover.jpg)
 
 #### Active state
 
 A selected day is highlighted by a blue circle.
 
-![Date picker default day button](../../../images/Picker-date-day-active.jpg)
+![Date picker default day button](/lexicon/images/Picker-date-day-active.jpg)
 
 #### Disable state
 
 A disabled day is greyed out, indicating that the user can not select it.
 
-![Date picker default day button](../../../images/Picker-date-day-disabled.jpg)
+![Date picker default day button](/lexicon/images/Picker-date-day-disabled.jpg)
 
 ### Attributes
 
 Date picker layout and dimensions:
 
-![Date picker measures and distances](../../../images/Picker-date-measures.jpg)
+![Date picker measures and distances](/lexicon/images/Picker-date-measures.jpg)
 
 ### Extension Points
 
 Lexicon provides a recommended area for extension points that is placed right at the end of the calendar panel. If, however, you would like to provide a double calendar, we recommend that you place the calendars side by side, rather than stack them vertically.
 
-![Date picker extension point area right at the end of the panel](../../../images/Picker-date-extension.jpg)
+![Date picker extension point area right at the end of the panel](/lexicon/images/Picker-date-extension.jpg)
 
 ## Time Picker
 
 The time picker lets a user select a time from a range of hours and minutes.
 
-![Time picker](../../../images/Picker-time.jpg)
+![Time picker](/lexicon/images/Picker-time.jpg)
 
 ### Usage
 
 You can specify the time zone in the text label on the right side of the time picker.
 
-![Time picker](../../../images/Picker-time-zone.jpg)
+![Time picker](/lexicon/images/Picker-time-zone.jpg)
 
 
 ## Date and Time Picker
 
 The time picker is a common extension point when building a date picker, as it combines two related functionalities in the same component.
 
-![time picker](../../../images/Picker-date-time.jpg)
+![time picker](/lexicon/images/Picker-date-time.jpg)
