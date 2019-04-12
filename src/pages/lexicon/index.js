@@ -62,21 +62,19 @@ const Lexicon = () => (
 								<Grid.Item area="tlc" marginTop="-8rem">
 									<CardLexicon
 										icon="whyBlueprints"
-										title="Why Blueprints"
-										text="A single source of truth for Liferay so that we can go
-										far, together."
-										to="/blueprints/about"
-										cta="Read More"
+										title="Get Started"
+										text="An onboarding section as an introduction to the project, its objectives and proposals"
+										to="/lexicon/patterns"
+										cta="Learn More"
 									/>
 								</Grid.Item>
 								<Grid.Item area="trc" marginTop="-8rem">
 									<CardLexicon
 										icon="logos"
-										title="Just the Logos, Please"
-										text="We know what you’re looking for, and we respect that.
-									Here it is at the top of the page."
-										to="/blueprints/resources/logo-files"
-										cta="Waffle Time"
+										title="Foundations"
+										text="The basic principles and guidelines that lay on the core of the pattern libray."
+										to="/lexicon/foundations"
+										cta="Learn More"
 									/>
 								</Grid.Item>
 								<Grid.Item area="m">
@@ -86,30 +84,28 @@ const Lexicon = () => (
 										iconHeight="10rem"
 										iconWidth="11rem"
 										direction="horizontal"
-										title="Resources"
-										text="The reason you've come to this site&mdash;logos,
-											colors, fonts, images&mdash;get it all right&nbsp;here!"
-										to="/blueprints/resources"
-										cta="Get 'Em"
+										title="Components"
+										text="Explores the list of components and pattern that configure the building blocks of Lexicon system"
+										to="/lexicon/patterns"
+										cta="Learn More"
 									/>
 								</Grid.Item>
 								<Grid.Item area="blc">
 									<CardLexicon
 										icon="faqs"
-										title="FAQ"
-										text="Have a question? We have frequently given answers."
-										to="/blueprints/faqs"
-										cta="Why is the Liferay Blue?"
+										title="News & Updates"
+										text="Always up to date with the latest library updates and Lexicon project news"
+										to="/lexicon/news"
+										cta="Learn More"
 									/>
 								</Grid.Item>
 								<Grid.Item area="brc">
 									<CardLexicon
 										icon="liferayDesign"
-										title="Liferay.Design"
-										text="Shameless plug for the people behind all of this
-										stuff&mdash;see what else we're doing."
-										to="/team"
-										cta="Experience Liferay.Design"
+										title="Resources"
+										text="A set of tools links and downloads to learn Lexicon and use it in your projects"
+										to="/lexicon/resources"
+										cta="Learn More"
 									/>
 								</Grid.Item>
 								<Grid.Item area="brg" marginTop="2rem">
