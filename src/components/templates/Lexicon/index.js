@@ -9,7 +9,7 @@ import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 
-export default class Blueprints extends Component {
+export default class Lexicon extends Component {
 	constructor(props) {
 		super(props)
 
@@ -51,7 +51,7 @@ export default class Blueprints extends Component {
 											justify="space-between"
 											padding="2rem 1.5rem"
 										>
-											<SiteName section="Blueprints" dark />
+											<SiteName section="Lexicon" dark />
 											<AuthContainer />
 										</Flex>
 									)}
@@ -61,7 +61,7 @@ export default class Blueprints extends Component {
 										tree={buildSidebarTree(allMdx)}
 										isMobile={matches}
 										showSidebar={this.state.mobileSidebarVisible}
-										section="Blueprints"
+										section="Lexicon"
 									/>
 
 									<div
@@ -135,8 +135,7 @@ export const pageQuery = graphql`
 					id
 					frontmatter {
 						order
-						titleLabel
-						titleLabelLink
+						title
 						description
 					}
 					fields {
