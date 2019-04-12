@@ -1,7 +1,7 @@
 ---
-title: "Foundations"
+title: "Core Components"
 description: "Keep updated."
 layout: "guide"
 icon: "lexicon-site-principles"
-order: 1
+order: 2
 ---
