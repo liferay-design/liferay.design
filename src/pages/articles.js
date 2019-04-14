@@ -10,7 +10,7 @@ export default ({ data }) => {
 		<MainLayout section="Articles">
 			<Container>
 				<Heading level={1} color="white" padding="4rem">
-					The Blog
+					The Latest Posts
 				</Heading>
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }) => (
