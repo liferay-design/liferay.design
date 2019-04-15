@@ -134,4 +134,5 @@ Card sections organize content into separate divisions by a certain categorizati
 
 ### Examples
 
-See the [dataset template](../Templates/datasetTemplate.html) for a practical use case of cards.
+See the [dataset template](../../Templates/datasetTemplate) for a practical use case of cards.
+

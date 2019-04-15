@@ -18,7 +18,7 @@ This is the default configuration for a table, a list, or any other content stru
 
 On viewport sizes equal to or less than 768px, we introduce two key changes to the layout that optimize space for content:
 
-* The the vertical navigation changes to a toggle top navigation, as is described in [Nested navigation](../../patterns/Navigation/verticalNav.html).
+* The the vertical navigation changes to a toggle top navigation, as is described in [Nested navigation](../../../patterns/Navigation/verticalNav).
 * The box changes from 9 to 12 columns.
 
 ![layout sidebar + box responsive summary](/lexicon/images/layoutsidebarsummary.jpg)

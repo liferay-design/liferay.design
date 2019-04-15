@@ -7,7 +7,7 @@ order: 1
 
 <div class="page-description">The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid.</div> 
 
-This layout is used in the [Dataset Display](../../patterns/dataset_display.html) template.
+This layout is used in the [Dataset Display](lexicon/patterns/dataset_display) template.
 
 ![layout full box 1440px width screen](/lexicon/images/layoutfb01.jpg)
 
@@ -30,7 +30,7 @@ Note, however, that the lateral space is removed from the layout on displays sma
 
 ### Cards
 
-The card layout adapts 100% to the width of the container adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is a layout that we can find in templates like [Dataset Display](../../patterns/dataset_display.html).
+The card layout adapts 100% to the width of the container adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is a layout that we can find in templates like [Dataset Display](../../../patterns/dataset_display).
 
 #### Responsive behavior
 

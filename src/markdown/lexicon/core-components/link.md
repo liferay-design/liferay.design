@@ -11,7 +11,7 @@ order: 1
 
 ### Usage
 * Only use links for navigation. A link must not trigger another kind of action.
-* Do not use a link to trigger an action that could trigger a button. If you want to trigger a button, use a [button link](./buttons.html) instead.
+* Do not use a link to trigger an action that could trigger a button. If you want to trigger a button, use a [button link](../buttons) instead.
 
 ### Types
 

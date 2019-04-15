@@ -7,7 +7,7 @@ order: 2
 
 <div class="page-description">The card layout is used to display cards in a dataset.</div> 
 
-The card layout adapts 100% to the width of the container, adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is layout is used in the [Dataset Display](../../patterns/dataset_display.html) template.
+The card layout adapts 100% to the width of the container, adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is layout is used in the [Dataset Display](lexicon/patterns/dataset_display) template.
 
 #### Responsive behavior
 

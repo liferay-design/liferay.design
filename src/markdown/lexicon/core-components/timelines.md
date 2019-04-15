@@ -12,7 +12,7 @@ hidden: yes
 
 ### Usage
 
-Timelines are series of events placed in a timeline. Each event is composed by a point placed in the line a [panel](./panel.html) to describe the event to the right or left of the point.
+Timelines are series of events placed in a timeline. Each event is composed by a point placed in the line a [panel](../panel) to describe the event to the right or left of the point.
 
 The point can be any kind of identifier. We recommend the default one, circle, but it can be the case of events related to people where you might prefer to use a user identifier.
 

@@ -21,7 +21,7 @@ Follow the standard color order rules to determine color order for Line Charts. 
 
 ### Pattern use
 
-You can use either [Pattern](./charts.html) (line type or shape type) for Line Charts to help improve accessibility for your users. It's up to you to decide when best to use them.
+You can use either [Pattern](../charts) (line type or shape type) for Line Charts to help improve accessibility for your users. It's up to you to decide when best to use them.
 
 ### States
 
