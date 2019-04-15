@@ -7,6 +7,9 @@ layout: "guide"
 order: 1
 hidden: yes
 ---
+
+<div class="page-description">Timelines represent an horizontal visualization of events along the time.</div>
+
 ### Usage
 
 Timelines are series of events placed in a timeline. Each event is composed by a point placed in the line a [panel](./panel.html) to describe the event to the right or left of the point.

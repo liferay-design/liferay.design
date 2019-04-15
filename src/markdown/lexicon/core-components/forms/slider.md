@@ -5,6 +5,9 @@ description: "The Slider control allows user to select and entry data from among
 layout: "guide"
 order: 3
 ---
+
+<div class="page-description">The Slider control allows user to select and entry data from among a linear range of values.</div>
+
 ### Usage
 
 Sliders are used when you want the user to select a value from a predetermined range of values. A typical usage is selecting the contrast color value for an image.

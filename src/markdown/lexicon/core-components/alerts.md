@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">Alerts are used to capture the attention of the user in an intrusive way.</div>
+
 ![info alert colors](/lexicon/images/Alert.jpg)
 
 ### Usage

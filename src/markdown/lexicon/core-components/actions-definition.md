@@ -5,6 +5,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">This page defines the use case for several common actions.</div>
+
 ### Delete vs Send to Recycle Bin
 
 #### Delete

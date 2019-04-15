@@ -6,6 +6,9 @@ description: "A navigation bar, navbar, is a horizontal bar that provides severa
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">A navigation bar, navbar, is a horizontal bar that provides several access points to different parts of a system.</div>
+
 ![navigation bar with 5 entries, first one seleted](/lexicon/images/Navbar.jpg)
 
 ### Usage

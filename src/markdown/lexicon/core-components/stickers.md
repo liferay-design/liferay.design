@@ -6,6 +6,9 @@ description: "Stickers are a visual way to quickly identify content in a differe
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">Stickers are a visual way to quickly identify content in a different way than badges and labels.</div>
+
 ![sticker types](/lexicon/images/Sticker32.jpg)
 
 ### Usage

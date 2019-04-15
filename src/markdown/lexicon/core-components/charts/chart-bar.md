@@ -7,6 +7,9 @@ layout: "guide"
 order: 3
 ---
 
+<div class="page-description">A graphical data representation based on rectangle bars with proportional lengths and heights.</div>
+
+
 ### Color use
 
 You can use colors in different ways in Bar Charts, but there are two main use cases in Lexicon:

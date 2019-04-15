@@ -6,6 +6,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">The loading indicator shows the user that an external process, like a connection, is being executed.</div>
+
 ### Usage
 
 Use the loading indicator to inform the user that there is pending content from the server that will load where the indicator is displayed. Without this indicator, the user can feel lost or navigate away from the page prematurely.

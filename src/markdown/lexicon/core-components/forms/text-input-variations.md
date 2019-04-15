@@ -7,6 +7,8 @@ layout: 'guide'
 order: 4
 ---
 
+<div class="page-description">A description of the search, autocomplete, labels, date, numeric, and password input variations.</div>
+
 ## Autocomplete text field
 
 <!-- <span class="label label-secondary">PENDING</span> -->

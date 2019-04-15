@@ -7,6 +7,8 @@ layout: 'guide'
 order: 0
 ---
 
+<div class="page-description">Animations are used to transmit messages while capturing the user's attention in different ways.</div>
+
 ### Usage
 
 Lexicon provides animations that you can use in your sites and apps. They should only be used to support a message. Specific examples can be found in [dataset display](./datasetdisplay.html).
