@@ -15,7 +15,7 @@ A table view is useful for comparing entries that need exhaustive comparison. Ta
 
 A table entry or row doesn't support two different data types in the same column. The is due to potential comparison and sorting problems.
 
-When a table is used together with the management toolbar, the table entries must include a checkbox since the selection and actions are reflected in the management toolbar. See the [dataset display](../dataset_display.html) for examples.
+When a table is used together with the management toolbar, the table entries must include a checkbox since the selection and actions are reflected in the management toolbar. See the [dataset display](../../dataset_display) for examples.
 
 ![table parts](/lexicon/images/TableParts.jpg)
 

@@ -33,7 +33,7 @@ order: 1
 | Warning     | The warning alert is Yellow. It lets users know that the action was completed, but there are some issues with it. (E.g. The item was created but with some issues). |
 | Information | The information alert is Blue. It provides relevant information while a user carries out a task.                                                                    |
 
-See the [colors page](../designPrinciples/colors.html) to learn more about color definitions.
+See the [colors page](../../designPrinciples/colors) to learn more about color definitions.
 
 ### Attributes
 

@@ -12,7 +12,7 @@ order: 1
 
 #### When should I use the default animations?
 
-There are three default [animations](../designPrinciples/animations.html) available to communicate empty states. The scenario for each empty state and animation is shown below:
+There are three default [animations](/lexicon/designPrinciples/animations) available to communicate empty states. The scenario for each empty state and animation is shown below:
 
 **Empty dataset:** There are no elements in the data set at a certain level
 

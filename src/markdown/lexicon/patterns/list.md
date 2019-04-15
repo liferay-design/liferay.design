@@ -63,7 +63,7 @@ List sections organize content into separate divisions by a certain categorizati
 
 ![list view example with 3 different states in different entries](/lexicon/images/ListViewExample.jpg)
 
-See the [dataset template](../Templates/datasetTemplate.html) for more examples of lists.
+See the [dataset template](../../Templates/datasetTemplate) for more examples of lists.
 
 ### Responsive
 

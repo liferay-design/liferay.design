@@ -12,12 +12,11 @@ Building a well-structured site is key to a user properly consuming its informat
 ![ADT example marking different points: 1. Widget Title bar, 2. Asset tittle bar, 3. Profile info, 4. Asset Toolbar, 5. Buttons](/lexicon/images/sites/SitesExample.jpg)
 
 See the dedicated page for each component for more information:
-
-1. [Widget Title Bar](../widgetTitleBar.html)
-2. [Asset Title Bar](../assetTitleBar.html)
-3. [Profile Info](../profileInfo.html)
-4. [Asset Toolbar](../assetToolbar.html)
-5. [Buttons](../buttons.html)
+1. [Widget Title Bar](../widgetTitleBar)
+2. [Asset Title Bar](../assetTitleBar)
+3. [Profile Info](../profileInfo)
+4. [Asset Toolbar](../assetToolbar)
+5. [Buttons](../buttons)
 
 Although each ADT can be very different, with its own combination of components, they all share the same structure and overall look and feel.
 

@@ -16,11 +16,11 @@ order: 1
 1. Title (Required)
 2. Description (Not required but very useful). It should describe the form usage.
 3. Form Elements:
-    1. Text input. See [Text Input](./text_input.html) for more information.
-    2. Text input localizable. See [Text Input Localizable](./text_input_localizable.html) for more information.
-    3. Selector. See [Selectors](./selector.html) for more information.
-    4. Radio button. See [Checkbox, Radio Button, and Toggle](./radio_check_toggle.html) for more information
-    5. Checkbox. See [Checkbox, Radio Button, and Toggle](./radio_check_toggle.html) for more information.
+	1. Text input. See [Text Input](../text_input) for more information. 
+	2. Text input localizable. See [Text Input Localizable](../text_input_localizable) for more information.
+	3. Selector. See [Selectors](../selector) for more information. 
+	4. Radio button. See [Checkbox, Radio Button, and Toggle](../radio_check_toggle) for more information
+	5. Checkbox. See [Checkbox, Radio Button, and Toggle](../radio_check_toggle) for more information. 	
 4. Section. Sections are identified with a 14px size primary text that is always in uppercase letters. Some forms may require a full width underline for a better visual separation of content. This is usually used in configuration forms.
 5. Buttons. Visit Actions to learn how buttons are used in forms.
 
@@ -41,7 +41,7 @@ When adding columns, remember that the reading direction for each column is left
 
 #### Spacing
 
-It's very important to maintain the distance between form elements, such as texts, fields, sections, etc. Please see our [hierarchy](./formsHierarchy.html) page for guidance.
+It's very important to maintain the distance between form elements, such as texts, fields, sections, etc. Please see our [hierarchy](../formsHierarchy) page for guidance.
 
 As a general rule of thumb, use the following distances for spacing between form elements:
 
