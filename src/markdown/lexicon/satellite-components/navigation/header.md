@@ -6,6 +6,9 @@ description: "Header is a toolbar that provides identification and lets the user
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">Header is a toolbar that provides identification and lets the user navigate and perform actions.</div>
+
 ### Usage
 
 Header is always fixed to the top of the window.

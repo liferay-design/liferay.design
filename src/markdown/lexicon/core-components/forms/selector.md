@@ -6,6 +6,9 @@ description: "A form control element used to select from several provided option
 layout: "guide"
 order: 3
 ---
+
+<div class="page-description">A form control element used to select from several provided options and enter data.</div>
+
 ## Selector
 
 ![select default state](/lexicon/images/Selector.jpg)

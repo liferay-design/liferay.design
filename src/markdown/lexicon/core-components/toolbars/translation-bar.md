@@ -7,6 +7,9 @@ hidden: yes
 ---
 
 
+
+<div class="page-description">The translation bar is a toolbar that allows the user to choose the languages when translating content.</div>
+
 ### Usage
 
 * The toolbar is always used inside a form context.

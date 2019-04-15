@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">Cards are a specific form of data visualization focused mainly on displaying images.</div>
+
 ![card with image default state](/lexicon/images/CardImage.jpg)
 
 ### Usage

@@ -6,6 +6,9 @@ description: "A dropdown menu displays a list of options for the element that tr
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">A dropdown menu displays a list of options for the element that triggers it.</div>
+
 ![default dropdown menu](/lexicon/images/Dropdown.jpg)
 
 ### Usage

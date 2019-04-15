@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">Buttons communicate an action to happen on user interaction.</div>
+
 ### Types
 
 #### Primary

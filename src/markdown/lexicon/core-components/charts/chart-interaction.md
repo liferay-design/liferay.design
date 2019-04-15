@@ -4,6 +4,9 @@ description: "A description of the basic expected interaction behaviors for all 
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">A description of the basic expected interaction behaviors for all charts.</div>
+
 ### Interaction events
 
 If you need to create your own chart, it's useful to know how our events are defined. Use the rules covered in this section to keep a consistent user experience with the rest of the charts.

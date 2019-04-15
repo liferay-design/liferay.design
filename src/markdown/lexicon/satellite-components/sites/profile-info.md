@@ -4,6 +4,9 @@ description: "An element used to identify the author or owner and other related 
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">An element used to identify the author or owner and other related metadata of an asset in sites.</div>
+
 ![Profile info types](/lexicon/images/sites/ProfileInfoTypes.jpg)
 
 ### Attributes

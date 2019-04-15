@@ -6,6 +6,9 @@ description: "Form navigation can be displayed in two different ways: a left nav
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">Form navigation can be displayed in two different ways: a left navigation menu or a wizard.</div>
+
 ### Left navigation menu
 
 A left navigation menu lets you simplify a form into smaller, more manageable forms. It's best to divide a form by context.

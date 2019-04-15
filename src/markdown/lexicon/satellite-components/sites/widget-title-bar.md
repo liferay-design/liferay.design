@@ -4,6 +4,9 @@ description: "A bar that contains the widget's title and the tools that affect t
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">A bar that contains the widget's title and the tools that affect the widget.</div>
+
 ### Definition and Metrics
 
 The Widget title bar pattern can be defined in different ways, depending on the needs of the application.

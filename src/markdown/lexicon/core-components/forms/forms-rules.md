@@ -5,6 +5,8 @@ layout: 'guide'
 order: 2
 ---
 
+<div class="page-description">A set of rules and recommendations for using form patterns in portal.</div>
+
 ### Fields’ order
 
 Laying out the fields of your form we recommend you to follow an order of importance. Try to place first as many mandatory fields when possible to make the user task short. Non mandatory fields should go in a second place as they are not so important and the user could like to skip them. In case non mandatory fields are in between mandatory fields the user would expend more time scanning the form.

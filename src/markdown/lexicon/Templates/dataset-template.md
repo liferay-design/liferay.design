@@ -4,6 +4,9 @@ description: "A Dataset Template shows how a dataset is displayed using Lexicon 
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">A Dataset Template shows how a dataset is displayed using Lexicon patterns.</div>
+
 ### Layout
 This template works with several patterns, listed below, that can be directly mapped with the image:
 

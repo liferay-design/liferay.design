@@ -5,6 +5,9 @@ description: "Empty states provide users with feedback on the reasons behind the
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.</div>
+
 ### Usage
 
 #### When should I use the default animations?

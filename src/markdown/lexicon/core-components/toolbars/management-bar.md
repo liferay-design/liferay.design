@@ -7,6 +7,7 @@ layout: "guide"
 order: 2
 ---
 
+<div class="page-description">Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset.</div>
 
 ![state one of the management bar](/lexicon/images/ManagementBarState1.jpg)
 

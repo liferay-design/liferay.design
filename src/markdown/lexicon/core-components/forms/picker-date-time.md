@@ -5,6 +5,9 @@ description: "Date and Time pickers let users select a date and time for a form.
 layout: "guide"
 order: 3
 ---
+
+<div class="page-description">Date and Time pickers let users select a date and time for a form.</div>
+
 **Note:** These components are meant to cover desktop browser needs. The OS native component must be used on mobile devices.
 
 This page describes the date and time patterns separately and then describes a 

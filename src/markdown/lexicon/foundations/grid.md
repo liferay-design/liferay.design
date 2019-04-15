@@ -7,6 +7,9 @@ layout: 'guide'
 order: 20
 ---
 
+<div class="page-description">The main structural pattern that underlies the construction and positioning of all system components.</div>
+
+
 Lexicon's layout framework aims to provide a common structural reference to ease the component creation and page composition processes, as well as to provide a visual consistency between the different elements of the interface.
 
 ### Base Grid

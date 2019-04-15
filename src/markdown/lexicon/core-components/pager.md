@@ -7,6 +7,9 @@ layout: "guide"
 order: 1
 hidden: yes
 ---
+
+<div class="page-description">ager allows navigation between pages of a process or task divided into subtasks (pages).</div>
+
 ### Usage
 
 Pagers are commonly used in forms that are chucked because of their length.

@@ -5,7 +5,7 @@ layout: "guide"
 order: 3
 ---
 
- 
+<div class="page-description">A specific layout used when a left sidebar requires a vertical navigation.</div> 
 
 The space is organized in 3 columns for the sidebar and 9 or 8 columns for the content, depending on its type. This results in two different configurations: A 3+9 column layout and a 3+8 column layout. These configurations are covered in more detail below.
 

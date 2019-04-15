@@ -5,6 +5,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">This section provides basic use guidelines for the main navigation patterns of the system.</div>
+
 This section describes the main navigational patterns, although more patterns are available.
 
 ![navigation configuration DE](/lexicon/images/Navigation.jpg)
