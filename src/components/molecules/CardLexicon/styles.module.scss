@@ -77,13 +77,13 @@
 
 	p.text {
 		font-weight: $fontWeightRegular;
-		color: $gray-500;
+		color: $main-l4;
 		font-size: $fontSizeMedium;
 		margin: 0 0 $fontSizeXLarge;
 	}
 
 	p.cta {
-		color: lighten($gray-500, 16%);
+		color: lighten($main-l4, 16%);
 	}
 }
 @media screen and (max-width: $screenMedium) {
