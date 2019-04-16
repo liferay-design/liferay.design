@@ -35,9 +35,17 @@ $lightestGrey: $gray-300;
 
 // functional colors
 $error: #da1414;
+$error-l1: #f48989;
+$error-l2: #feefef;
 $success: #287d3c;
+$success-l1: #5aca75;
+$success-l2: #edf9f0;
 $warning: #b95000;
+$warning-l1: #ff8f39;
+$warning-l2: #fff4ec;
 $info: #2e5aac;
+$info-l1: #89a7e0;
+$info-l2: #eef2fa;
 $action: #0b5fff;
 
 // brand colors
@@ -62,6 +70,16 @@ $accent6: #19ab4f;
 $accent7: #503690;
 $accent8: #fdcc4a;
 $accent9: #47c6f5;
+
+
+/* ---------- Lexicon site --------- */
+$brand-primary: $action;
+
+$bg-color: $white;
+$sidebar-bg-color: $gray-100;
+
+$text-color: $gray-700;
+$text-color-light: $gray-600;
 
 /* ---------- Font family ---------- */
 
@@ -109,3 +127,26 @@ $screenSmall: 448px; // 28rem
 $screenMedium: 768px; // 48rem
 $screenLarge: 1280px; // 80rem
 $screenXLarge: 1920px; // 120rem
+
+/* ---------- Lexicon Sizes ----------- */
+$output-bourbon-deprecation-warnings: false;
+
+$base-size: 24px; // 1.5rem aprox
+
+// Screen sizes 
+$screen-md: 900px;
+$screen-sm: 900px;
+$screen-xs: 768px;
+
+$grid-float-breakpoint: $screen-sm;
+
+// Sizes
+$content-max-width: 960px;
+$sidebar-width: 376px;
+$margin-top-body: $base-size * 4;
+
+// Weights
+
+$weight-regular: 400;
+$weight-semibold: 600;
+$weight-bold: 700;
