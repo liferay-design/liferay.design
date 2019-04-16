@@ -1,19 +1,29 @@
 /* ---------- Colors ---------- */
 // from lexicon
 $lightestBlue: #f2f6ff;
-$gray-100: #f5f5f8;
-$gray-200: #f1f2f5;
-$gray-300: #e7e7ed;
-$gray-400: #cdced9;
-$gray-500: #a7a9bc;
-$gray-600: #6b6c7e;
-$gray-700: #393a4a;
-$gray-800: #30313f;
-$gray-900: #272833;
+$main-l8: #f5f5f8; //100
+
+$gray-bg: #f1f2f5; //200
+$gray-bg-l1: #f7f8f9;
+
+$main: #272833;
+$main-l1: #30313f;
+$main-l2: #393a4a;
+$main-l3: #6b6c7e;
+$main-l4: #a7a9bc;
+$main-l5: #cdced9;
+$main-l6: #e7e7ed;
+
 $black-000: #13141f;
 
 $primary: #0b5fff;
 $secondary: #95bdff;
+
+$primary-d2: #004ad7; 
+$primary-d1: #0053f0; 
+$primary-l1: #80acff; 
+$primary-l2: #b3cdff; 
+$primary-l3: #f0f5ff; 
 
 // Ye Olde Neutrals
 // $darkGrey: #353638;
@@ -25,13 +35,13 @@ $secondary: #95bdff;
 // $lightestGrey: #e7e7e7;
 
 // Lexicon Neutral Experiment
-$darkGrey: $gray-800;
-$darkestGrey: $gray-900;
-$grey: $gray-600;
+$darkGrey: $main-l1;
+$darkestGrey: $main;
+$grey: $main-l3;
 $white: #fff;
 $black: $black-000;
-$lightGrey: $gray-400;
-$lightestGrey: $gray-300;
+$lightGrey: $main-l5;
+$lightestGrey: $main-l6;
 
 // functional colors
 $error: #da1414;
@@ -76,10 +86,10 @@ $accent9: #47c6f5;
 $brand-primary: $action;
 
 $bg-color: $white;
-$sidebar-bg-color: $gray-100;
+$sidebar-bg-color: $main-l8;
 
-$text-color: $gray-700;
-$text-color-light: $gray-600;
+$text-color: $main-l2;
+$text-color-light: $main-l3;
 
 /* ---------- Font family ---------- */
 
