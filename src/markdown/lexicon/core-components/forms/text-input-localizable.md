@@ -6,6 +6,9 @@ description: "A text input variation used in fields that can be translated into 
 layout: "guide"
 order: 4
 ---
+
+<div class="page-description">A text input variation used in fields that can be translated into multiple languages.</div>
+
 ### Layout
 
 This component contains two elements:

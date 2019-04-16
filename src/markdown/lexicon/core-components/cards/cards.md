@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">Cards are a specific form of data visualization focused mainly on displaying images.</div>
+
 ![card with image default state](/lexicon/images/CardImage.jpg)
 
 ### Usage
@@ -132,4 +134,5 @@ Card sections organize content into separate divisions by a certain categorizati
 
 ### Examples
 
-See the [dataset template](../Templates/datasetTemplate.html) for a practical use case of cards.
+See the [dataset template](../../Templates/datasetTemplate) for a practical use case of cards.
+

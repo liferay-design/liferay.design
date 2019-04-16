@@ -7,15 +7,15 @@ order: 1
 
 ### Color
 
-[Colors](./chart-color-palette.html) must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.
+[Colors](../chart-color-palette) must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.
 
 ### Interaction
 
-Lexicon states a series of [basic behaviors](./chart-interaction.html) for all its charts so the user always knows what to expect. These standard behaviors reinforce consistency and reduce the learning curve.
+Lexicon states a series of [basic behaviors](../chart-interaction) for all its charts so the user always knows what to expect. These standard behaviors reinforce consistency and reduce the learning curve.
 
 ### Collection
 
-The collection of charts grows as Liferay products require new chart configurations. Check back here for new charts, or follow our [news](./../../news/News.html) to be updated.
+The collection of charts grows as Liferay products require new chart configurations. Check back here for new charts, or follow our [news](./../../../news/News) to be updated.
 
 <!--
 <div class="row">

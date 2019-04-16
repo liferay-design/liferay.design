@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">Buttons communicate an action to happen on user interaction.</div>
+
 ### Types
 
 #### Primary
@@ -127,7 +129,7 @@ A secondary borderless button is used in toolbars when a secondary button would 
 
 #### Icon button
 
-Buttons can display icons instead of text. The icons, however, must be monospaced inside the button. Icon buttons are used primarily in [management bars](./management_bar.html). This button variation can be primary, secondary, or borderless type.
+Buttons can display icons instead of text. The icons, however, must be monospaced inside the button. Icon buttons are used primarily in [management bars](../management_bar). This button variation can be primary, secondary, or borderless type.
 
 ![button icon primary default size default state](/lexicon/images/ButtonIconPrimary.jpg)
 

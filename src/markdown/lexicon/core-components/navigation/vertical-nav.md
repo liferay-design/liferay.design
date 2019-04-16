@@ -6,6 +6,9 @@ description: "An alternative patterns that displays navigation items in a vertic
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">An alternative patterns that displays navigation items in a vertical menu.</div>
+
 ![vertical navigation](/lexicon/images/NavigationVertical.jpg)
 
 ### Usage

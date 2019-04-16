@@ -6,6 +6,9 @@ description: "A type of chart which displays information as a series of data poi
 layout: "guide"
 order: 3
 ---
+
+<div class="page-description">A type of chart which displays information as a series of data points connected by straight line segments.</div>
+
 The points in a Line Chart are spaced apart (typically by their x-axis value) and joined with straight line segments. A Line Chart is often used to visualize a trend in data over intervals of time – a time series – thus the line is often drawn chronologically.
 
 Line Charts can also be used to compare changes over the same period of time for more than one group.
@@ -18,7 +21,7 @@ Follow the standard color order rules to determine color order for Line Charts. 
 
 ### Pattern use
 
-You can use either [Pattern](./charts.html) (line type or shape type) for Line Charts to help improve accessibility for your users. It's up to you to decide when best to use them.
+You can use either [Pattern](../charts) (line type or shape type) for Line Charts to help improve accessibility for your users. It's up to you to decide when best to use them.
 
 ### States
 

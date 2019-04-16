@@ -6,6 +6,9 @@ description: "A progressive disclosure method to guide the user through a task d
 layout: "guide"
 order: 3
 ---
+
+<div class="page-description">A progressive disclosure method to guide the user through a task divided into several steps.</div>
+
 ![Multi step form simplified](/lexicon/images/MultiStepFormSimplified.jpg)
 
 ### Usage

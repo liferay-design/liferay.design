@@ -6,6 +6,9 @@ description: "Pagination provides horizontal navigation between chunks(pages) of
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">Pagination provides horizontal navigation between chunks(pages) of a dataset.</div>
+
 ### Variations
 
 #### Pagination

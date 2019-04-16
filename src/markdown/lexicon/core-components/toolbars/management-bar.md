@@ -7,6 +7,7 @@ layout: "guide"
 order: 2
 ---
 
+<div class="page-description">Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset.</div>
 
 ![state one of the management bar](/lexicon/images/ManagementBarState1.jpg)
 
@@ -29,7 +30,7 @@ It displays tools focused on filtering, sorting, and data visualization.
 ![state one of the management toolbar with points to explain the different components inside it](/lexicon/images/ManagementBarState1Parts.jpg)
 
 1. Checkbox: selects all elements on the current page
-2. Filter and Order: dropdown with dropdown menu associated. See [dropdown with groups](../dropdowns.html) for more information.
+2. Filter and Order: dropdown with dropdown menu associated. See [dropdown with groups](../../dropdowns) for more information.
 3. Sort toggle button: The arrow identifies the sorting order, depending on the selected option inside the Filter and Order dropdown. The main attribute, usually the name, states the default sort parameter.
 4. Search bar to filter out the current dataset
 5. Visualization button to select the desired visualization

@@ -6,6 +6,9 @@ description: "Tabs organize similar content together into individual sections in
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">Tabs organize similar content together into individual sections in the same page.</div>
+
 ![Tabs. On the left side classic variation on the right side modern variation](/lexicon/images/Tab.jpg)
 
 

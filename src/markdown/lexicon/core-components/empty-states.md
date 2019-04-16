@@ -5,11 +5,14 @@ description: "Empty states provide users with feedback on the reasons behind the
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.</div>
+
 ### Usage
 
 #### When should I use the default animations?
 
-There are three default [animations](../designPrinciples/animations.html) available to communicate empty states. The scenario for each empty state and animation is shown below:
+There are three default [animations](/lexicon/designPrinciples/animations) available to communicate empty states. The scenario for each empty state and animation is shown below:
 
 **Empty dataset:** There are no elements in the data set at a certain level
 

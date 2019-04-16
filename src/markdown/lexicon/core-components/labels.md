@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+<div class="page-description">Labels are a visual pattern used to categorize information providing quick and easy recognition.</div>
+
 ### Usage
 
 Use labels to organize groups of items in your application. Labels have rounded borders by default.

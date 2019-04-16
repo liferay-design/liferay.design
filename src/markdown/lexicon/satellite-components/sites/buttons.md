@@ -4,6 +4,9 @@ description: "A set of button variations specifically designed for site environm
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">A set of button variations specifically designed for site environment widgets.</div>
+
 ### Variations
 
 #### Primary button icon with text
@@ -38,7 +41,7 @@ This variation is an extension of Lexicon's secondary button, so it can be regul
 
 ![Button site active and button site active borderless](/lexicon/images/sites/ButtonSitesActive.jpg)
 
-These buttons are primarily used as triggers for actions and tools in the [Asset Toolbar](./assetToolbar.html).
+These buttons are primarily used as triggers for actions and tools in the [Asset Toolbar](./assetToolbar).
 
 #### Secondary blue buttons
 
@@ -57,7 +60,7 @@ This variation only appears for logged in users that have editing permissions fo
 ![Button site active and button site active borderless](/lexicon/images/sites/ButtonSitesBlueActive.jpg)
 
 
-When these buttons are associated with an asset, a blog entry, a knowledge base article, or a comment, they only appear when hovering over the associated item. See the [Asset Title Bar documentation](./assetTitleBar.html) for more information about this behavior.
+When these buttons are associated with an asset, a blog entry, a knowledge base article, or a comment, they only appear when hovering over the associated item. See the [Asset Title Bar documentation](./assetTitleBar) for more information about this behavior.
 
 ### Attributes
 

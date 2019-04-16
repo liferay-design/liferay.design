@@ -5,6 +5,9 @@ description: "Card for navigation is a visual component focused on providing nav
 layout: "guide"
 order: 1
 ---
+
+<div class="page-description">Card for navigation is a visual component focused on providing navigation in distributive pages or discributive page sections.</div>
+
 ![navigation card default state](/lexicon/images/CardNavDefault.jpg)
 
 ### Usage

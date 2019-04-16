@@ -5,6 +5,9 @@ description: "A table variation that lets users modify certain values of the ent
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">A table variation that lets users modify certain values of the entry without going to the detail page.</div>
+
 ![table inline edition, view mode](/lexicon/images/TableInlineEdition.jpg)
 
 ### Usage

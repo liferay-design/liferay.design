@@ -6,6 +6,9 @@ description: "The definition of the content hierarchy inside a form structure an
 layout: "guide"
 order: 2
 ---
+
+<div class="page-description">The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks.</div>
+
 This page contemplates the visual definition of the hierarchy and the measurements and the definition of the components that establish that hierarchy.
 
 ### Layout
@@ -31,7 +34,7 @@ Metrics are key to understanding how our forms are built and how vertical spacin
 
 #### Desktop
 
-As mentioned in the [grid section](../../designPrinciples/grid.html), the main vertical spacing reference is 24px.
+As mentioned in the [grid section](../../../designPrinciples/grid), the main vertical spacing reference is 24px.
 
 __Section blocks metrics__
 
@@ -47,7 +50,7 @@ __Metrics using explanatory texts associated to different section levels__
 
 #### Mobile
 
-In small viewports, as mentioned in the [grid section](../../designPrinciples/grid.html), the main vertical spacing reference changes from 24px to 16px.
+In small viewports, as mentioned in the [grid section](../../../designPrinciples/grid), the main vertical spacing reference changes from 24px to 16px.
 
 ![Inside sections metrics 2](/lexicon/images/FormHierarchySectionBlocksM.jpg)
 

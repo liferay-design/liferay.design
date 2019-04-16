@@ -7,7 +7,9 @@ layout: 'guide'
 order: 1
 ---
 
-A dataset display is the combination of a [management bar](./management_bar.html), with one or many data visualization types, and optionally a mechanism of pagination. The most common visualization types used are [table](./table.html), [list](./list.html), and [card](./card.html). You can see the dataset display pattern in action in the slides below:
+<div class="page-description">A combination of components that configure the main data management pattern of the system.</div>
+
+A dataset display is the combination of a [management bar](../management_bar), with one or many data visualization types, and optionally a mechanism of pagination. The most common visualization types used are [table](../table), [list](../list), and [card](../card). You can see the dataset display pattern in action in the slides below:
 
 <!--
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -71,7 +73,7 @@ This pattern is used when the visualization elements require collective manageme
 
 ### Empty state
 
-It's important to let the user know how and why an empty state is displayed, as well as what actions they can take to move out from the empty state. See the [empty states](./emptyStates.html) page for more information.
+It's important to let the user know how and why an empty state is displayed, as well as what actions they can take to move out from the empty state. See the [empty states](../emptyStates) page for more information.
 
 ### Individual actions
 

@@ -5,7 +5,7 @@ layout: "guide"
 order: 3
 ---
 
- 
+<div class="page-description">A specific layout used when a left sidebar requires a vertical navigation.</div> 
 
 The space is organized in 3 columns for the sidebar and 9 or 8 columns for the content, depending on its type. This results in two different configurations: A 3+9 column layout and a 3+8 column layout. These configurations are covered in more detail below.
 
@@ -18,7 +18,7 @@ This is the default configuration for a table, a list, or any other content stru
 
 On viewport sizes equal to or less than 768px, we introduce two key changes to the layout that optimize space for content:
 
-* The the vertical navigation changes to a toggle top navigation, as is described in [Nested navigation](../../patterns/Navigation/verticalNav.html).
+* The the vertical navigation changes to a toggle top navigation, as is described in [Nested navigation](../../../patterns/Navigation/verticalNav).
 * The box changes from 9 to 12 columns.
 
 ![layout sidebar + box responsive summary](/lexicon/images/layoutsidebarsummary.jpg)

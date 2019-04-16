@@ -3,5 +3,5 @@ title: "Foundations"
 description: "Keep updated."
 layout: "guide"
 icon: "lexicon-site-principles"
-order: 2
+order: 1
 ---
