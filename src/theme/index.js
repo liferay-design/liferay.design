@@ -1,6 +1,5 @@
 // Colors are same as in variables.module.scss
 const colors = {
-	primary: '#0B5FFF',
 	secondary: '#95BDFF',
 	grey: '#a4a4a4',
 	white: '#FFF',
@@ -9,11 +8,35 @@ const colors = {
 	light: '#f2f6ff',
 	lightGrey: '#c0c0c0',
 	lightestGrey: '#e7e7e7',
+	// lexicon colors
+	main: '#272833',
+	mainl1: '#30313f',
+	mainl2: '#393a4a',
+	mainl3: '#6b6c7e',
+	mainl4: '#a7a9bc',
+	mainl5: '#cdced9',
+	mainl6: '#e7e7ed',
+	primary: '#0B5FFF',
+	primaryd2: '#004ad7', 
+	primaryd1: '#0053f0',
+	primaryl1: '#80acff',
+	primaryl2: '#b3cdff',
+	primaryl3: '#f0f5ff',
+	graybg: '#f1f2f5',
+	graybgl1: '#f7f8f9',
 	// functional colors
-	error: '#DA1414',
-	success: '#287D3C',
-	warning: '#B95000',
-	info: '#2E5AAC',
+	error: '#da1414',
+	errorl1: '#f48989',
+	errorl2: '#feefef',
+	success: '#287d3c',
+	successl1: '#5aca75',
+	successl2: '#edf9f0',
+	warning: '#b95000',
+	warningl1: '#ff8f39',
+	warningl2: '#fff4ec',
+	info: '#2e5aac',
+	infol1: '#89a7e0',
+	infol2: '#eef2fa',
 	action: '#0B5FFF',
 	// brand colors
 	brandPrimary: '#0b63CE',
@@ -35,7 +58,7 @@ const colors = {
 	accent6: '#19AB4F',
 	accent7: '#503690',
 	accent8: '#FDCC4A',
-	accent9: '#47C6F5',
+	accent9: '#47C6F5'
 }
 
 const fontSizes = {
