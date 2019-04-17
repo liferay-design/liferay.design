@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">A form control element used to select from several provided options and enter data.</div>
+A form control element used to select from several provided options and enter data.
 
 ## Selector
 

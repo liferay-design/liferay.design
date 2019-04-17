@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">A dropdown menu displays a list of options for the element that triggers it.</div>
+A dropdown menu displays a list of options for the element that triggers it.
 
 ![default dropdown menu](/images/lexicon/Dropdown.jpg)
 

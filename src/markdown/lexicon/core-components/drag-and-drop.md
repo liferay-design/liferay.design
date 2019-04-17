@@ -5,7 +5,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">A pattern that lets users drag and drop elements in the interface. This can optionally perform an action, depending on the target the element is dropped onto.</div>
+A pattern that lets users drag and drop elements in the interface. This can optionally perform an action, depending on the target the element is dropped onto.
 
 ### Events
 

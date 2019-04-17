@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">A graphical data representation based on rectangle bars with proportional lengths and heights.</div>
+A graphical data representation based on rectangle bars with proportional lengths and heights.
 
 
 ### Color use

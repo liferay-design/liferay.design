@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">A type of chart which displays information as a series of data points connected by straight line segments.</div>
+A type of chart which displays information as a series of data points connected by straight line segments.
 
 The points in a Line Chart are spaced apart (typically by their x-axis value) and joined with straight line segments. A Line Chart is often used to visualize a trend in data over intervals of time – a time series – thus the line is often drawn chronologically.
 

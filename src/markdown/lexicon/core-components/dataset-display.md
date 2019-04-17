@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">A combination of components that configure the main data management pattern of the system.</div>
+A combination of components that configure the main data management pattern of the system.
 
 A dataset display is the combination of a [management bar](../management_bar), with one or many data visualization types, and optionally a mechanism of pagination. The most common visualization types used are [table](../table), [list](../list), and [card](../card). You can see the dataset display pattern in action in the slides below:
 

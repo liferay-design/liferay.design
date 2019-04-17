@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">Tabs organize similar content together into individual sections in the same page.</div>
+Tabs organize similar content together into individual sections in the same page.
 
 ![Tabs. On the left side classic variation on the right side modern variation](/images/lexicon/Tab.jpg)
 

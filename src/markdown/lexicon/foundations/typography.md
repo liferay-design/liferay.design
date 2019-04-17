@@ -7,7 +7,7 @@ layout: 'guide'
 order: 40
 ---
 
-<div class="page-description">A basic reference for the definition of the visual identity and the organization of the content.</div>
+A basic reference for the definition of the visual identity and the organization of the content.
 
 ### Font Stacks
 

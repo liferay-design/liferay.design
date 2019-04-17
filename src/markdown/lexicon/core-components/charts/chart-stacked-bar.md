@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">A Stacked Bar chart compares the values of single items with the total data value.</div>
+A Stacked Bar chart compares the values of single items with the total data value.
 
 Stacked Bar Charts can either be displayed in vertical bars or horizontal bars. This page focuses on vertical bars, but horizontal bars are also acceptable.
 

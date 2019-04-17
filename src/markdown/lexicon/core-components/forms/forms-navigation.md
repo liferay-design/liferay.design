@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">Form navigation can be displayed in two different ways: a left navigation menu or a wizard.</div>
+Form navigation can be displayed in two different ways: a left navigation menu or a wizard.
 
 ### Left navigation menu
 

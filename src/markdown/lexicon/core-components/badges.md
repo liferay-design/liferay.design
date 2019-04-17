@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+Badges help highlight important information, such as notifications or new and unread messages.
+
 Badges have circular borders and are only used to specify a number.
 
 ![defualt size default color badge](/images/lexicon/Badges.jpg)

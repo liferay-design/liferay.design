@@ -4,7 +4,7 @@ description: "The form template demonstrates how forms are built and composed us
 layout: "guide"
 order: 1
 ---
-<div class="page-description">The form template demonstrates how forms are built and composed using Lexicon patterns.</div>
+The form template demonstrates how forms are built and composed using Lexicon patterns.
 
 ### Form without side navigation example
 

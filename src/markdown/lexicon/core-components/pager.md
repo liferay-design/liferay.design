@@ -8,7 +8,7 @@ order: 1
 hidden: yes
 ---
 
-<div class="page-description">ager allows navigation between pages of a process or task divided into subtasks (pages).</div>
+Pager allows navigation between pages of a process or task divided into subtasks (pages).
 
 ### Usage
 
