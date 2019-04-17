@@ -17,7 +17,7 @@ A table entry or row doesn't support two different data types in the same column
 
 When a table is used together with the management toolbar, the table entries must include a checkbox since the selection and actions are reflected in the management toolbar. See the [dataset display](../../dataset_display) for examples.
 
-![table parts](/lexicon/images/TableParts.jpg)
+![table parts](/images/lexicon/TableParts.jpg)
 
 Tables contain the following attributes (labeled in the image above):
 
@@ -30,7 +30,7 @@ Tables contain the following attributes (labeled in the image above):
 
 Column headers are always left-aligned, 14px, and have regular weight.
 
-![table header](/lexicon/images/TableHeader.jpg)
+![table header](/images/lexicon/TableHeader.jpg)
 
 The table header can have these interactive attributes:
 
@@ -39,7 +39,7 @@ The table header can have these interactive attributes:
 
 ### Table header attributes
 
-![table header description](/lexicon/images/TableHeaderParts.jpg)
+![table header description](/images/lexicon/TableHeaderParts.jpg)
 
 Tables headers contain the following attributes (labeled in the image above):
 
@@ -47,19 +47,19 @@ Tables headers contain the following attributes (labeled in the image above):
 2. Sort direction icon
 3. Remaining columns
 
-![table header metrics](/lexicon/images/TableHeaderMetrics.jpg)
+![table header metrics](/images/lexicon/TableHeaderMetrics.jpg)
 
 ### Sections
 
 You can use the table group separator to group a series of table entries.
 
-![table group](/lexicon/images/TableViewGroupSeparator.jpg)
+![table group](/images/lexicon/TableViewGroupSeparator.jpg)
 
 ### Row states
 
 #### Default state
 
-![table row in default state](/lexicon/images/TableViewDefault.jpg)
+![table row in default state](/images/lexicon/TableViewDefault.jpg)
 
 #### Hover state
 
@@ -67,15 +67,15 @@ When a user hovers over a table row, quick actions from the actions menu are dis
 
 When the row is selected, the actions do not appear on hover state.
 
-![table row in hover state](/lexicon/images/TableViewHover.jpg)
+![table row in hover state](/images/lexicon/TableViewHover.jpg)
 
 #### Selected state
 
-![table row in selected state](/lexicon/images/TableViewSelected.jpg)
+![table row in selected state](/images/lexicon/TableViewSelected.jpg)
 
 ### Row attributes
 
-![table row in hover state](/lexicon/images/TableViewDefaultParts.jpg)
+![table row in hover state](/images/lexicon/TableViewDefaultParts.jpg)
 
 Table rows contain the following attributes (labeled in the image above):
 
@@ -84,7 +84,7 @@ Table rows contain the following attributes (labeled in the image above):
 3. Columns
 4. Actions button
 
-![table row in hover state](/lexicon/images/TableViewHoverParts.jpg)
+![table row in hover state](/images/lexicon/TableViewHoverParts.jpg)
 
 Table rows on hover contain the following attributes (labeled in the image above):
 
@@ -94,7 +94,7 @@ Table rows on hover contain the following attributes (labeled in the image above
 4. Actions button
 5. Quick actions displayed on row hover
 
-![table row metrics](/lexicon/images/TableRowMetrics.jpg)
+![table row metrics](/images/lexicon/TableRowMetrics.jpg)
 
 ### Row interactions
 
@@ -112,7 +112,7 @@ Table rows on hover contain the following attributes (labeled in the image above
 
 #### Row hover
 
-![table view row hover](/lexicon/images/TableViewRowHover.gif)
+![table view row hover](/images/lexicon/TableViewRowHover.gif)
 
 ### Row Interaction Limitation
 
@@ -124,12 +124,12 @@ Never hide an action in the table since both static actions in the row and quick
 
 <!--
 <div class="dodont">
-	<img class="do" src="/lexicon/images/TableRowInteractionDo.jpg" alt="first, table view row default, second, table view row hover. There is no action to hover in the row. Correct.">
+	<img class="do" src="/images/lexicon/TableRowInteractionDo.jpg" alt="first, table view row default, second, table view row hover. There is no action to hover in the row. Correct.">
 	<p class="do">Do</p>
 </div>
 
 <div class="dodont">
-	<img class="dont" src="/lexicon/images/TableRowInteractionDont.jpg" alt="first, table view row default, second, table view row hover. There is an action hovered in the row. Incorrect.">
+	<img class="dont" src="/images/lexicon/TableRowInteractionDont.jpg" alt="first, table view row default, second, table view row hover. There is an action hovered in the row. Incorrect.">
 	<p class="dont">Don't</p>
 </div> -->
 
@@ -160,4 +160,4 @@ While the main column must always be placed on the leftmost side, the remaining 
 
 ### Example
 
-![table row in selected state](/lexicon/images/TableExample.jpg)
+![table row in selected state](/images/lexicon/TableExample.jpg)

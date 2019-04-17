@@ -9,7 +9,7 @@ order: 1
 
 Badges have circular borders and are only used to specify a number.
 
-![defualt size default color badge](/lexicon/images/Badges.jpg)
+![defualt size default color badge](/images/lexicon/Badges.jpg)
 
 ### Usage
 
@@ -29,18 +29,18 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-		<img class="do" src="/lexicon/images/BadgeDoDistance.jpg" alt="badge distance to an element is 8 pixels">
+		<img class="do" src="/images/lexicon/BadgeDoDistance.jpg" alt="badge distance to an element is 8 pixels">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/BadgeDontDistance.jpg" alt="don't place a badge closer than 8 pixels to any element in horizontal">
+		<img class="dont" src="/images/lexicon/BadgeDontDistance.jpg" alt="don't place a badge closer than 8 pixels to any element in horizontal">
 		<p class="dont">Don't</p>
 	</div>
 </div> -->
 
 ### Attributes
 
-![badge metrics](/lexicon/images/BadgesMetrics.jpg)
+![badge metrics](/images/lexicon/BadgesMetrics.jpg)
 
 -   Height: 18px
 -   Border: 1px

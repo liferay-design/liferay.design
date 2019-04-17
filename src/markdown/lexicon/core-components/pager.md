@@ -20,19 +20,19 @@ Pagers are commonly used in forms that are chucked because of their length.
 
 Use the default pager when you need a simple pagination pattern that does not require the page size to be changed.
 
-![pager default](/lexicon/images/pagerDefault.png)
+![pager default](/images/lexicon/pagerDefault.png)
 
 #### Aligned pager
 
 The aligned pager aligns the links to the left and right.
 
-![pager aligned](/lexicon/images/pagerAligned.png)
+![pager aligned](/images/lexicon/pagerAligned.png)
 
 ### States
 
 States inform the user where the process has its limits and where it can go. Make sure you disable and enable them properly according to the sequence.
 
-![pager aligned disable](/lexicon/images/pagerAlignedDisable.png)
+![pager aligned disable](/images/lexicon/pagerAlignedDisable.png)
 
 ### Sizes
 

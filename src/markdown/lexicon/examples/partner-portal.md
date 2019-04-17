@@ -9,7 +9,7 @@ order: 1
 <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">
         <span class="sticker-overlay">
-            <img alt="thumbnail" class="img-fluid" src="/lexicon/images/headshots/pentz-patrick.jpg">
+            <img alt="thumbnail" class="img-fluid" src="/images/lexicon/headshots/pentz-patrick.jpg">
         </span>
     </span>
     <span class="designer-info">
@@ -20,4 +20,4 @@ order: 1
 
 Liferay's Partner Portal is the one-stop shop for everything partners need to manage their Liferay business. The portal allows our partners to register and track sales opportunities, manage subscription renewals, request marketing development funds, stay up to date with partner news, and access a variety of Liferay business resources.
 
-![Partner Portal home page](/lexicon/images/examples/partnerPortal.jpg)
+![Partner Portal home page](/images/lexicon/examples/partnerPortal.jpg)

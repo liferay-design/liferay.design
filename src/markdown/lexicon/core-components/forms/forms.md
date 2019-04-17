@@ -11,7 +11,7 @@ order: 1
 
 ### Parts
 
-![lexicon default](/lexicon/images/FormParts.jpg)
+![lexicon default](/images/lexicon/FormParts.jpg)
 
 1. Title (Required)
 2. Description (Not required but very useful). It should describe the form usage.
@@ -31,11 +31,11 @@ When adding columns, remember that the reading direction for each column is left
 
 #### One single form
 
-![lexicon default](/lexicon/images/Form1Column.jpg)
+![lexicon default](/images/lexicon/Form1Column.jpg)
 
 #### Two columns form
 
-![lexicon default](/lexicon/images/Form2Columns.jpg)
+![lexicon default](/images/lexicon/Form2Columns.jpg)
 
 ### Attributes
 
@@ -57,18 +57,18 @@ As a general rule of thumb, use the following distances for spacing between form
 
 #### Title
 
-![form title style and measures](/lexicon/images/FormTitle.jpg)
+![form title style and measures](/images/lexicon/FormTitle.jpg)
 
 #### Sections
 
 First level sections can be collapsible. Note that second level sections, however, can never be collapsible.
 
-![form sections style and measures](/lexicon/images/FormSections.jpg)
+![form sections style and measures](/images/lexicon/FormSections.jpg)
 
 The layout must wrap long section titles.
 
-![form sections style and measures for long titles](/lexicon/images/FormSectionsLong.jpg)
+![form sections style and measures for long titles](/images/lexicon/FormSectionsLong.jpg)
 
 #### Paragraph
 
-![form paragraph style and measures](/lexicon/images/FormParagraph.jpg)
+![form paragraph style and measures](/images/lexicon/FormParagraph.jpg)

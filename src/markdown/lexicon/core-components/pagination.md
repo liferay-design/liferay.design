@@ -15,7 +15,7 @@ order: 1
 
 Use the default pagination when you need a simple pagination pattern for a page that will not change size.
 
-![simple pagination](/lexicon/images/Pagination.jpg)
+![simple pagination](/images/lexicon/Pagination.jpg)
 
 Pagination includes several mechanisms to move between pages:
 * Left arrow:
@@ -32,7 +32,7 @@ Pagination includes several mechanisms to move between pages:
 
 ### Pagination bar
 
-![pagination bar with a dropdown for page size and the simple pagination component](/lexicon/images/PaginationBar.jpg)
+![pagination bar with a dropdown for page size and the simple pagination component](/images/lexicon/PaginationBar.jpg)
 
 A pagination bar is pagination with the following features: 
 * A page size selector placed on the left side of the bar
@@ -43,7 +43,7 @@ Use the pagination bar when you need a complex pagination pattern that requires 
 
 Description:
 
-![pagination bar with parts descriptive with numbers for the description](/lexicon/images/PaginationBarParts.jpg)
+![pagination bar with parts descriptive with numbers for the description](/images/lexicon/PaginationBarParts.jpg)
 
 1. Entries dropdown to select the number of elements per page. You can configure the page size options.
 2. Descriptive text to clarify the dataset segment shown.
@@ -55,4 +55,4 @@ Description:
 
 ###### Pagination bar mobile
 
-![pagination bar with a dropdown for page size and the simple pagination component](/lexicon/images/PaginationBarMobile.jpg)
+![pagination bar with a dropdown for page size and the simple pagination component](/images/lexicon/PaginationBarMobile.jpg)

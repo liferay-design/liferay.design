@@ -17,20 +17,20 @@ This template works with several patterns, listed below, that can be directly ma
 
 ### Table view example
 
-![Dataset template Table example](/lexicon/images/DTTableView.jpg)
+![Dataset template Table example](/images/lexicon/DTTableView.jpg)
 
 ### List view example
 
-![Dataset template List template example](/lexicon/images/DTListView.jpg)
+![Dataset template List template example](/images/lexicon/DTListView.jpg)
 
 ### Card view example
 
-![Dataset template Card template example](/lexicon/images/DTCardView.jpg)
+![Dataset template Card template example](/images/lexicon/DTCardView.jpg)
 
 ### Empty state
 
-![Card View Search empty state](/lexicon/images/DTEmptyView.jpg)
+![Card View Search empty state](/images/lexicon/DTEmptyView.jpg)
 
 ### Empty state on search result
 
-![Card View Search Without Result](/lexicon/images/DTEmptySearch.jpg)
+![Card View Search Without Result](/images/lexicon/DTEmptySearch.jpg)

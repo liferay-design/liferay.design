@@ -18,15 +18,15 @@ Since this is a permanent action, you must trigger the user with a confirmation 
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-        <img class="do" src="/lexicon/images/Delete.jpg" alt="delete icon">
+        <img class="do" src="/images/lexicon/Delete.jpg" alt="delete icon">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/Trash.jpg" alt="trash icon">
+		<img class="dont" src="/images/lexicon/Trash.jpg" alt="trash icon">
 		<p class="dont">Don't</p>
 	</div>
 		<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/Cancel.jpg" alt="cancel icon">
+		<img class="dont" src="/images/lexicon/Cancel.jpg" alt="cancel icon">
 		<p class="dont">Don't</p>
 	</div>
 </div> -->
@@ -38,15 +38,15 @@ The action of sending an element or a set of elements to the recycle bin implies
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-        <img class="do" src="/lexicon/images/Trash.jpg" alt="trash icon">
+        <img class="do" src="/images/lexicon/Trash.jpg" alt="trash icon">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/Delete.jpg" alt="delete icon">
+		<img class="dont" src="/images/lexicon/Delete.jpg" alt="delete icon">
 		<p class="dont">Don't</p>
 	</div>
 		<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/Cancel.jpg" alt="cancel icon">
+		<img class="dont" src="/images/lexicon/Cancel.jpg" alt="cancel icon">
 		<p class="dont">Don't</p>
 	</div>
 </div> -->
@@ -58,15 +58,15 @@ Cancel and close differ much from deleting or sending to the Recycle Bin. You ca
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-        <img class="do" src="/lexicon/images/Cancel.jpg" alt="cancel icon">
+        <img class="do" src="/images/lexicon/Cancel.jpg" alt="cancel icon">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/Delete.jpg" alt="delete icon">
+		<img class="dont" src="/images/lexicon/Delete.jpg" alt="delete icon">
 		<p class="dont">Don't</p>
 	</div>
 		<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/Trash.jpg" alt="trash icon">
+		<img class="dont" src="/images/lexicon/Trash.jpg" alt="trash icon">
 		<p class="dont">Don't</p>
 	</div>
 </div>
@@ -79,11 +79,11 @@ The done action should be displayed as a primary button. Use this action in all 
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-		<img class="do" src="/lexicon/images/FormButtonPrimaryTextDo.jpg" alt="Primary button with text Done">
+		<img class="do" src="/images/lexicon/FormButtonPrimaryTextDo.jpg" alt="Primary button with text Done">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/FormButtonPrimaryTextDont.jpg" alt="Primary button with text Ok">
+		<img class="dont" src="/images/lexicon/FormButtonPrimaryTextDont.jpg" alt="Primary button with text Ok">
 		<p class="dont">Don't</p>
 	</div>
 </div> -->
@@ -97,11 +97,11 @@ Select means "to carefully choose"; it also means "to use a mouse or keystrokes 
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-		<img class="do" src="/lexicon/images/ActionsSelectDo.jpg" alt="Secondary button with text Select">
+		<img class="do" src="/images/lexicon/ActionsSelectDo.jpg" alt="Secondary button with text Select">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/ActionsSelectDont.jpg" alt="Secondary button with text Choose">
+		<img class="dont" src="/images/lexicon/ActionsSelectDont.jpg" alt="Secondary button with text Choose">
 		<p class="dont">Don't</p>
 	</div>
 </div> -->

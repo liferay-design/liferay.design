@@ -7,7 +7,7 @@ order: 1
 
 <div class="page-description">Confirmation messages inform the user that a situation is critical or an action is irreversible and they must confirm before proceeding.</div>
 
-![confirmation message](/lexicon/images/ConfirmationMessage.jpg)
+![confirmation message](/images/lexicon/ConfirmationMessage.jpg)
 
 ### Usage
 
@@ -36,7 +36,7 @@ Follow these guidelines to write a good confirmation message:
 * Provide exact information to your user, so there is no uncertainty on the action to be confirmed.
 * Address your questions and statements so they can be easily answered with "Ok" and "Cancel", as they are provided by the browser.
 
-![confirmation message](/lexicon/images/ConfirmationMessage.jpg)
+![confirmation message](/images/lexicon/ConfirmationMessage.jpg)
 
 ### Implementation
 Confirmation messages are browser native. Therefore, Lexicon does not style them. Browser native confirmation messages are accessible and work perfectly on every device.
