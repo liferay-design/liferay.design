@@ -3,7 +3,7 @@ title: "Heatmap Chart"
 titleLabel: "Pending"
 description: "The Heatmap Chart is a visual representation of the data using colors to indicate the values."
 layout: "guide"
-order: 3
+order: 227
 ---
 
 The Heatmap Chart is a visual representation of the data using colors to indicate the values.

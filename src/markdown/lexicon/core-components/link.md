@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/link.html"
 description: "Also known as a hyperlink, a link is a clickable (text or image) element used for navigation purposes."
 layout: "guide"
-order: 1
+order: 282
 ---
 
 Also known as a hyperlink, a link is a clickable (text or image) element used for navigation purposes.

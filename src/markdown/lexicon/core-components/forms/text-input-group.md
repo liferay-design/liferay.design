@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/forms/text-input-group.html"
 description: "A text field with added elements that provide a more complex input structure."
 layout: "guide"
-order: 4
+order: 266
 ---
 
 A text field with added elements that provide a more complex input structure.

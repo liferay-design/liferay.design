@@ -2,7 +2,7 @@
 title: 'Page Distribution'
 titleProject: 'LIFERAY DXP'
 layout: 'guide'
-order: 1
+order: 602
 ---
 
 <span>

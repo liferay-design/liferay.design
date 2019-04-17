@@ -2,7 +2,7 @@
 title: "Toolbar"
 description: "A toolbar is a set of actions related to a specific context that are grouped into a horizontal bar."
 layout: "guide"
-order: 1
+order: 361
 ---
 
 A toolbar is a set of actions related to a specific context that are grouped into a horizontal bar.

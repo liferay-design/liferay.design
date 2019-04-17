@@ -2,7 +2,7 @@
 title: "Accessibility"
 description: "Building an accessible design system"
 layout: "guide"
-order: 1
+order: 102
 hidden: yes
 ---
 

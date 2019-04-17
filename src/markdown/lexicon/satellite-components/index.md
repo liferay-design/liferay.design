@@ -3,7 +3,7 @@ title: 'Satellite Components'
 description: 'Keep updated.'
 layout: 'guide'
 icon: 'lexicon-site-news'
-order: 40
+order: 400
 ---
 
 ### Use and purpose

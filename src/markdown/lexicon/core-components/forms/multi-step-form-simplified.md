@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/forms/multi-step-form-simplified.html"
 description: "A progressive disclosure method to guide the user through a task divided into several steps."
 layout: "guide"
-order: 3
+order: 260
 ---
 
 A progressive disclosure method to guide the user through a task divided into several steps.

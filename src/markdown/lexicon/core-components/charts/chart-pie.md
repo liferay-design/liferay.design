@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/charts/basic/pie_chart.html"
 description: "A Pie chart divides data by numerical proportions of a total value (always 100%)."
 layout: "guide"
-order: 3
+order: 229
 ---
 
 A Pie chart divides data by numerical proportions of a total value (always 100%).

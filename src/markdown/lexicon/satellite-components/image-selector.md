@@ -3,7 +3,7 @@ title: 'Image Selector'
 titleLabel: 'Portal'
 description: 'The image selector lets the user select images from a grid, prioritizing over other metadata.'
 layout: 'guide'
-order: 10
+order: 402
 ---
 
 The image selector lets the user select images from a grid, prioritizing over other metadata.

@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/radio-check-toggle.html'
 description: 'Checkboxes, radios and toggles provide users with different selection and activation tools.'
 layout: 'guide'
-order: 3
+order: 256
 ---
 
 Checkboxes, radios and toggles provide users with different selection and activation tools.

@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/table/table.html'
 description: 'A table is a specific pattern for comparing datasets in a very direct and analytical way.'
 layout: 'guide'
-order: 1
+order: 341
 ---
 
 A table is a specific pattern for comparing datasets in a very direct and analytical way.

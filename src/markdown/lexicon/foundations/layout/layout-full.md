@@ -2,7 +2,7 @@
 title: "Full Box"
 description: "The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid."
 layout: "guide"
-order: 1
+order: 110
 ---
 
 The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid.

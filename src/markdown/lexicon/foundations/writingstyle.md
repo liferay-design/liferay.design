@@ -2,7 +2,7 @@
 title: 'Writing Style'
 description: 'Clarity, confidence, and consistency in messaging promotes product reliability.'
 layout: 'guide'
-order: 50
+order: 121
 ---
 
 Clarity, confidence, and consistency in messaging promotes product reliability.

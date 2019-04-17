@@ -2,7 +2,7 @@
 title: "Cards Layout"
 description: "The card layout is used to display cards in a dataset."
 layout: "guide"
-order: 2
+order: 110
 ---
 
 The card layout is used to display cards in a dataset.

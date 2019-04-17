@@ -3,7 +3,7 @@ title: "Sidebar"
 titleLabel: "Portal"
 description: "A vertical panel that appears from the right or the left side of the screen, triggered by a button."
 layout: "guide"
-order: 1
+order: 324
 ---
 
 A vertical panel that appears from the right or the left side of the screen, triggered by a button.

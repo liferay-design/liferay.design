@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/popovers.html'
 description: 'Popovers and Tooltips are patterns used to show helpful information in two different ways.'
 layout: 'guide'
-order: 1
+order: 322
 ---
 
 Popovers and Tooltips are patterns used to show helpful information in two different ways.

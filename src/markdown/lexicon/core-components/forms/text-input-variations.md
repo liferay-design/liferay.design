@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/text-input-variations.html'
 description: 'A description of the search, autocomplete, labels, date, numeric, and password input variations.'
 layout: 'guide'
-order: 4
+order: 268
 ---
 
 A description of the search, autocomplete, labels, date, numeric, and password input variations.

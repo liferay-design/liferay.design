@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/charts/advanced/predictive-forecasting.html"
 description: "The Predictive forecasting chart uses customer data to predict future data with a declared margin of error."
 layout: "guide"
-order: 3
+order: 226
 ---
 
 The Predictive forecasting chart uses customer data to predict future data with a declared margin of error.
