@@ -5,6 +5,12 @@ layout: 'guide'
 order: 1
 ---
 
+<span>
+    <i>By Patrick Pentz<br />
+    Product Designer, LA<br /><br /><br />
+    </i>
+</span>
+
 <!--
 <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">

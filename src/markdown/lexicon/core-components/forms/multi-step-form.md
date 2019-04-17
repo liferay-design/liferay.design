@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">A progress bar used to divide the main task into subtasks to help users complete long processes.</div>
+A progress bar used to divide the main task into subtasks to help users complete long processes.
 
 ![Multi step form](/images/lexicon/MultiStepForm7Steps.jpg)
 

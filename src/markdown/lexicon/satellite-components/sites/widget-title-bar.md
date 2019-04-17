@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">A bar that contains the widget's title and the tools that affect the widget.</div>
+A bar that contains the widget's title and the tools that affect the widget.
 
 ### Definition and Metrics
 

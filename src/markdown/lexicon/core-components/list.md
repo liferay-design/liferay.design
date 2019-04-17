@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+Lists are a visual representation of a dataset, based on groups of related content, that is organized vertically.
+
 ### Usage
 
 ![list entry in default state](/images/lexicon/ListViewDefault.jpg)

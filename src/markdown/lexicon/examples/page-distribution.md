@@ -5,6 +5,12 @@ layout: 'guide'
 order: 1
 ---
 
+<span>
+    <i>By Juan Antón<br />
+    Product Designer, Madrid<br /><br /><br />
+    </i>
+</span>
+
 <!--
 <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">

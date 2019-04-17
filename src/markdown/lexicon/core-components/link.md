@@ -7,7 +7,7 @@ layout: "guide"
 order: 1
 ---
 
-<div class="page-description">Also known as a hyperlink, a link is a clickable (text or image) element used for navigation purposes.</div>
+Also known as a hyperlink, a link is a clickable (text or image) element used for navigation purposes.
 
 ### Usage
 * Only use links for navigation. A link must not trigger another kind of action.

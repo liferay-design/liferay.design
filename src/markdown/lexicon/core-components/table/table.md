@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">A table is a specific pattern for comparing datasets in a very direct and analytical way.</div>
+A table is a specific pattern for comparing datasets in a very direct and analytical way.
 
 ### Usage
 

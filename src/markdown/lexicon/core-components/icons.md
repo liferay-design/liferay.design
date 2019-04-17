@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">Icons are a visual representation of an idea and/or action.</div>
+Icons are a visual representation of an idea and/or action.
 
 ### Usage
 

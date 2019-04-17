@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks.</div>
+The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks.
 
 This page contemplates the visual definition of the hierarchy and the measurements and the definition of the components that establish that hierarchy.
 

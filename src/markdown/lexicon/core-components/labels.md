@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">Labels are a visual pattern used to categorize information providing quick and easy recognition.</div>
+Labels are a visual pattern used to categorize information providing quick and easy recognition.
 
 ### Usage
 

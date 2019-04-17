@@ -6,7 +6,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">A table variation that lets users modify certain values of the entry without going to the detail page.</div>
+A table variation that lets users modify certain values of the entry without going to the detail page.
 
 ![table inline edition, view mode](/images/lexicon/TableInlineEdition.jpg)
 

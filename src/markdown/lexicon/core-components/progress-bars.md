@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">Progress bar indicates the percentage completed of a task.</div>
+Progress bar indicates the percentage completed of a task.
 
 ### Usage
 

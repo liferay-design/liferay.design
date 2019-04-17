@@ -6,7 +6,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">The loading indicator shows the user that an external process, like a connection, is being executed.</div>
+The loading indicator shows the user that an external process, like a connection, is being executed.
 
 ### Usage
 

@@ -8,7 +8,7 @@ order: 1
 hidden: yes
 ---
 
-<div class="page-description">Timelines represent an horizontal visualization of events along the time.</div>
+Timelines represent an horizontal visualization of events along the time.
 
 ### Usage
 

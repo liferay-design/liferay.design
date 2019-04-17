@@ -6,7 +6,7 @@ layout: 'guide'
 order: 30
 ---
 
-<div class="page-description">Miller columns is a visualization type that lets users move faster through several depth levels at same time.</div>
+Miller columns is a visualization type that lets users move faster through several depth levels at same time.
 
 ### Usage
 

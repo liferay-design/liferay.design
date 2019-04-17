@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">An alternative patterns that displays navigation items in a vertical menu.</div>
+An alternative patterns that displays navigation items in a vertical menu.
 
 ![vertical navigation](/images/lexicon/NavigationVertical.jpg)
 

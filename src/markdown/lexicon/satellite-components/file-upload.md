@@ -6,6 +6,8 @@ layout: 'guide'
 order: 00
 ---
 
+File Uploader is a pattern that lets users select and upload images to the system.
+
 ### Simple File Upload
 
 Simple file upload is used to upload a simple file element.

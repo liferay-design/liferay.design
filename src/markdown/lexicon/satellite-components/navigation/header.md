@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">Header is a toolbar that provides identification and lets the user navigate and perform actions.</div>
+Header is a toolbar that provides identification and lets the user navigate and perform actions.
 
 ### Usage
 

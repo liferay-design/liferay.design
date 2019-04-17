@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">A description of the basic expected interaction behaviors for all charts.</div>
+A description of the basic expected interaction behaviors for all charts.
 
 ### Interaction events
 
