@@ -7,7 +7,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">A Pie chart divides data by numerical proportions of a total value (always 100%).</div>
+A Pie chart divides data by numerical proportions of a total value (always 100%).
 
 ![Pie chart with 4 different elements](/images/lexicon/ChartPie.png)
 

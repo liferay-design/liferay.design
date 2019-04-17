@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">A set of button variations specifically designed for site environment widgets.</div>
+A set of button variations specifically designed for site environment widgets.
 
 ### Variations
 

@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">Upper toolbar is a guidance pattern to allow designers create their own toolbars for edition with preview pages.</div>
+Upper toolbar is a guidance pattern to allow designers create their own toolbars for edition with preview pages.
 
 This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
 

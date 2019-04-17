@@ -6,7 +6,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">The Slider control allows user to select and entry data from among a linear range of values.</div>
+The Slider control allows user to select and entry data from among a linear range of values.
 
 ### Usage
 

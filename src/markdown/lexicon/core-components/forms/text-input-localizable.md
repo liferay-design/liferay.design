@@ -7,7 +7,7 @@ layout: "guide"
 order: 4
 ---
 
-<div class="page-description">A text input variation used in fields that can be translated into multiple languages.</div>
+A text input variation used in fields that can be translated into multiple languages.
 
 ### Layout
 

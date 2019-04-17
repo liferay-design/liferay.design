@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-<div class="page-description">Forms obtain user data and transmit it to the system to either store the data, produce an action, or both.</div>
+Forms obtain user data and transmit it to the system to either store the data, produce an action, or both.
 
 ### Parts
 

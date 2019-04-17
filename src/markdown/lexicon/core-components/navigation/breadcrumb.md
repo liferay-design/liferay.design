@@ -7,7 +7,7 @@ layout: 'guide'
 order: 2
 ---
 
-<div class="page-description">Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.</div>
+Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.
 
 ![breadcrumb without collapsing](/images/lexicon/Breadcrumb.jpg)
 

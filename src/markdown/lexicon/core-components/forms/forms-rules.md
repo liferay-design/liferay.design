@@ -5,7 +5,7 @@ layout: 'guide'
 order: 2
 ---
 
-<div class="page-description">A set of rules and recommendations for using form patterns in portal.</div>
+A set of rules and recommendations for using form patterns in portal.
 
 ### Fields’ order
 

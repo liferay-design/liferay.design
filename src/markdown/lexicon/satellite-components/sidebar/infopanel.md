@@ -7,7 +7,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">An information container that displays additional data for the content displayed in the main visual area.</div>
+An information container that displays additional data for the content displayed in the main visual area.
 
 This sidebar always enters the screen from the right side of the viewport. It pushes the container in large viewports and slides over the container in small viewports. It usually shows detailed information for an element, without requiring the user to navigate deeper. See responsive behavior for more details.
 

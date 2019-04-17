@@ -6,6 +6,8 @@ layout: 'guide'
 order: 10
 ---
 
+The image selector lets the user select images from a grid, prioritizing over other metadata.
+
 ### Usage
 
 -   Only use this pattern for image selection.

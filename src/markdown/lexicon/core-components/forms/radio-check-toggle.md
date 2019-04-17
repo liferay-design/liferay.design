@@ -7,7 +7,7 @@ layout: 'guide'
 order: 3
 ---
 
-<div class="page-description">Checkboxes, radios and toggles provide users with different selection and activation tools.</div>
+Checkboxes, radios and toggles provide users with different selection and activation tools.
 
 ## Checkbox
 

@@ -7,6 +7,8 @@ layout: 'guide'
 order: 1
 ---
 
+A modal is a secondary window that communicates or provides an action inside the same process.
+
 ![modal window over a dark transparent background](/images/lexicon/Modal.jpg)
 
 ### Usage

@@ -7,7 +7,7 @@ layout: 'guide'
 order: 0
 ---
 
-<div class="page-description">Animations are used to transmit messages while capturing the user's attention in different ways.</div>
+Animations are used to transmit messages while capturing the user's attention in different ways.
 
 ### Usage
 

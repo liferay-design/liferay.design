@@ -5,7 +5,7 @@ layout: "guide"
 order: 2
 ---
 
-<div class="page-description">A description of how validation patterns must be displayed within form structures.</div>
+A description of how validation patterns must be displayed within form structures.
 
 ### Partial validation
 

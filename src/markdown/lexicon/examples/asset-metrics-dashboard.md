@@ -5,8 +5,14 @@ layout: 'guide'
 order: 1
 ---
 
-<!--
+
 <span>
+    <i>By Rafael Fernandes<br />
+    Product Designer, Recife<br /><br /><br />
+    </i>
+</span>
+
+<!-- <span>
     <span class="sticker sticker-primary rounded-circle sticker-xl">
         <span class="sticker-overlay">
             <img alt="thumbnail" class="img-fluid" src="/images/lexicon/headshots/fernandes-rafael.jpg">

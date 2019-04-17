@@ -6,7 +6,7 @@ layout: "guide"
 order: 3
 ---
 
-<div class="page-description">Date and Time pickers let users select a date and time for a form.</div>
+Date and Time pickers let users select a date and time for a form.
 
 **Note:** These components are meant to cover desktop browser needs. The OS native component must be used on mobile devices.
 

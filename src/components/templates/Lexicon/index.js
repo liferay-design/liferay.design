@@ -81,9 +81,6 @@ export default class Lexicon extends Component {
 
 												{!matches && <AuthContainer />}
 											</Flex>
-											<Flex>
-												<h2>{mdx.frontmatter.description}</h2>
-											</Flex>
 
 											<MDXRenderer className={styles.body}>
 												{mdx.code.body}
