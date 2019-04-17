@@ -64,7 +64,7 @@ const Lexicon = () => (
 										icon="whyBlueprints"
 										title="Get Started"
 										text="An onboarding section as an introduction to the project, its objectives and proposals"
-										to="/lexicon/patterns"
+										to="/lexicon/core-components"
 										cta="Learn More"
 									/>
 								</Grid.Item>
@@ -86,7 +86,7 @@ const Lexicon = () => (
 										direction="horizontal"
 										title="Components"
 										text="Explores the list of components and pattern that configure the building blocks of Lexicon system"
-										to="/lexicon/patterns"
+										to="/lexicon/core-components"
 										cta="Learn More"
 									/>
 								</Grid.Item>
@@ -95,7 +95,7 @@ const Lexicon = () => (
 										icon="faqs"
 										title="News & Updates"
 										text="Always up to date with the latest library updates and Lexicon project news"
-										to="/lexicon/news"
+										to="/lexicon/news/news"
 										cta="Learn More"
 									/>
 								</Grid.Item>
