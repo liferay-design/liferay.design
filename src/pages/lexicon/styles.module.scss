@@ -243,8 +243,10 @@ time {
 	margin-top: 2rem;
 	text-transform: uppercase;
 	color: $main-l3;
-	& + h3 {
+	& + p {
 		margin-top: 0.25rem;
+		font-size: 24px;
+		font-weight: 800;
 	}
 }
 
