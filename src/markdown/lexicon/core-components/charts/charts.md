@@ -15,7 +15,7 @@ Lexicon states a series of [basic behaviors](../chart-interaction) for all its c
 
 ### Collection
 
-The collection of charts grows as Liferay products require new chart configurations. Check back here for new charts, or follow our [news](./../../../news/News) to be updated.
+The collection of charts grows as Liferay products require new chart configurations. Check back here for new charts, or follow our [news](./../../../news/news) to be updated.
 
 <!--
 <div class="row">

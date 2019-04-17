@@ -54,7 +54,7 @@ The finished state indicates that the process is completed successfully when the
             <td>
                 <div class="d-flex align-items-center">
                     <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Never use it to communicate the progress of a user in a certain set of actions. For that you need a <a href="https://lexicondesign.io/docs/patterns/Forms/multiStepForm.html">multi step form type</a>.</span>
+                    <span>Never use it to communicate the progress of a user in a certain set of actions. For that you need a <a href="https://lexicondesign.io/docs/core-components/forms/multiStepForm.html">multi step form type</a>.</span>
                 </div>
             </td>
         </tr>

@@ -130,7 +130,7 @@ table img {
 }
 
 table {
-
+	border-collapse: collapse;
 	font-size: 0.875rem;
 	margin: 32px 0 24px;
 	text-align: left;
@@ -177,11 +177,21 @@ table {
 	}
 }
 
+li {
+	padding-left: $base-size;
+}
+
 ul {
 	margin-bottom: $base-size * 1;
 	padding-left: 18px;
 
+	li {
+		padding-left: 0;
+	}
+
 }
+
+
 
 h1, h2, h3 {
 	color: $main-l1;
@@ -233,8 +243,10 @@ time {
 	margin-top: 2rem;
 	text-transform: uppercase;
 	color: $main-l3;
-	& + h3 {
+	& + p {
 		margin-top: 0.25rem;
+		font-size: 24px;
+		font-weight: 800;
 	}
 }
 
