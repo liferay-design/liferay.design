@@ -2,7 +2,7 @@
 title: "Interaction"
 description: "A description of the basic expected interaction behaviors for all charts."
 layout: "guide"
-order: 2
+order: 223
 ---
 
 A description of the basic expected interaction behaviors for all charts.

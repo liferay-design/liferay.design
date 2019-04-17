@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 # titleLabelLink: 'https://clayui.com/docs/components/buttons.html'
 description: 'Buttons communicate an action to happen on user interaction.'
 layout: 'guide'
-order: 1
+order: 204
 ---
 
 Buttons communicate an action to happen on user interaction.

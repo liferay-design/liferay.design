@@ -2,7 +2,7 @@
 title: "Sidebar + Box"
 description: "A specific layout used when a left sidebar requires a vertical navigation."
 layout: "guide"
-order: 3
+order: 110
 ---
 
 A specific layout used when a left sidebar requires a vertical navigation.

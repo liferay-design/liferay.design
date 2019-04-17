@@ -3,7 +3,7 @@ title: 'Miller Columns'
 titleLabel: 'Portal'
 description: 'Miller columns is a visualization type that lets users move faster through several depth levels at same time.'
 layout: 'guide'
-order: 30
+order: 403
 ---
 
 Miller columns is a visualization type that lets users move faster through several depth levels at same time.

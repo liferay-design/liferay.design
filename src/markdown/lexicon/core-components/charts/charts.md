@@ -2,7 +2,7 @@
 title: 'Overview'
 description: 'This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.'
 layout: 'guide'
-order: 1
+order: 221
 ---
 
 This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.

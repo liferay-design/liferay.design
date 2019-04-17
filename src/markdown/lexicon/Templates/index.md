@@ -2,7 +2,7 @@
 title: 'Templates'
 description: 'Templates section'
 layout: 'guide'
-order: 5
+order: 500
 ---
 
 ## index file

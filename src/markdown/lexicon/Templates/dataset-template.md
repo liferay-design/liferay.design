@@ -2,7 +2,7 @@
 title: "Dataset Template"
 description: "A Dataset Template shows how a dataset is displayed using Lexicon patterns."
 layout: "guide"
-order: 1
+order: 501
 ---
 
 A Dataset Template shows how a dataset is displayed using Lexicon patterns.

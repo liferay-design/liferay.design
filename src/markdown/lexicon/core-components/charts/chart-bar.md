@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/charts/basic/bar_chart.html"
 description: "A graphical data representation based on rectangle bars with proportional lengths and heights."
 layout: "guide"
-order: 3
+order: 224
 ---
 
 A graphical data representation based on rectangle bars with proportional lengths and heights.

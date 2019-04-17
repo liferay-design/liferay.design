@@ -2,7 +2,7 @@
 title: 'Forms Rules'
 description: 'A set of rules and recommendations for using form patterns in portal.'
 layout: 'guide'
-order: 2
+order: 254
 ---
 
 A set of rules and recommendations for using form patterns in portal.

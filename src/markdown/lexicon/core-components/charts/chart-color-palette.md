@@ -2,7 +2,7 @@
 title: 'Colors'
 description: 'A specific color palette with the aim to provide the best charts user experience.'
 layout: 'guide'
-order: 2
+order: 222
 ---
 
 A specific color palette with the aim to provide the best charts user experience.

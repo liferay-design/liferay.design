@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/modals.html'
 description: 'A modal is a secondary window that communicates or provides an action inside the same process.'
 layout: 'guide'
-order: 1
+order: 301
 ---
 
 A modal is a secondary window that communicates or provides an action inside the same process.

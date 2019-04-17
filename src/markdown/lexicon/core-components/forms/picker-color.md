@@ -3,7 +3,7 @@ title: "Color Picker"
 titleLabel: "Pending"
 description: "Color picker lets users select a color from a predefined palette, specify a color via its hexadecimal value, sample a color, and explore color values to create a custom color variation."
 layout: "guide"
-order: 3
+order: 257
 ---
 
 Color picker lets users select a color from a predefined palette, specify a color via its hexadecimal value, sample a color, and explore color values to create a custom color variation.

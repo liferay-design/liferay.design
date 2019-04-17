@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/css-framework/satellites/navigation/header.html"
 description: "Header is a toolbar that provides identification and lets the user navigate and perform actions."
 layout: "guide"
-order: 2
+order: 412
 ---
 
 Header is a toolbar that provides identification and lets the user navigate and perform actions.
