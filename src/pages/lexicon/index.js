@@ -25,7 +25,7 @@ const Lexicon = () => (
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
 			cta="Get Started"
-			ctaLink="/blueprints/principles"
+			ctaLink="/lexicon/get-started"
 			section="Blueprints"
 			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg) center -6rem / cover fixed, #0b63ff"
 		/>
@@ -64,7 +64,7 @@ const Lexicon = () => (
 										icon="whyBlueprints"
 										title="Get Started"
 										text="An onboarding section as an introduction to the project, its objectives and proposals"
-										to="/lexicon/core-components"
+										to="/lexicon/get-started"
 										cta="Learn More"
 									/>
 								</Grid.Item>
