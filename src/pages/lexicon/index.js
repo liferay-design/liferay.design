@@ -25,9 +25,9 @@ const Lexicon = () => (
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
 			cta="Get Started"
-			ctaLink="/blueprints/principles"
-			section="Blueprints"
-			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg) center -6rem / cover fixed, #0b63ff"
+			ctaLink="/lexicon/get-started"
+			section="Lexicon"
+			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/lexicon/home/patternbg.svg) center -6rem / cover fixed, #0b63ff"
 		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
@@ -56,7 +56,7 @@ const Lexicon = () => (
 										type="p"
 										className={styles.vertical}
 									>
-										Explore Blueprints
+										Explore Lexicon
 									</Text>
 								</Grid.Item>
 								<Grid.Item area="tlc" marginTop="-8rem">
@@ -64,7 +64,7 @@ const Lexicon = () => (
 										icon="whyBlueprints"
 										title="Get Started"
 										text="An onboarding section as an introduction to the project, its objectives and proposals"
-										to="/lexicon/core-components"
+										to="/lexicon/get-started"
 										cta="Learn More"
 									/>
 								</Grid.Item>
@@ -123,7 +123,7 @@ const Lexicon = () => (
 									</Link>
 									<Link
 										className={styles.social}
-										to="https://twitter.com/liferaydesign"
+										to="https://twitter.com/Liferay_Lexicon"
 									>
 										<Icon fill="white" name="twitter" />
 									</Link>
@@ -151,7 +151,7 @@ const Lexicon = () => (
 						!
 					</Text>
 				)}
-				background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg) center/cover fixed"
+				background="linear-gradient(20deg, rgba(243, 243, 245, 0.9), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/patternbg.svg) center/cover fixed"
 			/>
 		</div>
 		<Footer />
