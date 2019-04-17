@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/css-framework/satellites/timelines.html"
 description: "Timelines represent an horizontal visualization of events along the time."
 layout: "guide"
-order: 1
+order: 370
 hidden: yes
 ---
 

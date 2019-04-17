@@ -2,7 +2,7 @@
 title: "Form Template"
 description: "The form template demonstrates how forms are built and composed using Lexicon patterns."
 layout: "guide"
-order: 1
+order: 502
 ---
 The form template demonstrates how forms are built and composed using Lexicon patterns.
 

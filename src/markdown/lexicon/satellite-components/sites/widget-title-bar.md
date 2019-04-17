@@ -2,7 +2,7 @@
 title: "Widget Title Bar"
 description: "A bar that contains the widget's title and the tools that affect the widget."
 layout: "guide"
-order: 2
+order: 436
 ---
 
 A bar that contains the widget's title and the tools that affect the widget.

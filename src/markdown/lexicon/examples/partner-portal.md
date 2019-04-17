@@ -2,7 +2,7 @@
 title: 'Partner Portal'
 titleProject: 'PARTNER PORTAL'
 layout: 'guide'
-order: 1
+order: 603
 ---
 
 <span>

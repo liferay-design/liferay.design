@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/icons.html'
 description: 'Icons are a visual representation of an idea and/or action.'
 layout: 'guide'
-order: 1
+order: 280
 ---
 
 Icons are a visual representation of an idea and/or action.

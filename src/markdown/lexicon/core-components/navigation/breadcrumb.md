@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/navigation/breadcrumbs.html'
 description: 'Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.'
 layout: 'guide'
-order: 2
+order: 311
 ---
 
 Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.

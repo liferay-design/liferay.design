@@ -3,7 +3,7 @@ title: "Slider"
 titleLabel: "Pending"
 description: "The Slider control allows user to select and entry data from among a linear range of values."
 layout: "guide"
-order: 3
+order: 262
 ---
 
 The Slider control allows user to select and entry data from among a linear range of values.

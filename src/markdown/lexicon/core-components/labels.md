@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/labels.html'
 description: 'Labels are a visual pattern used to categorize information providing quick and easy recognition.'
 layout: 'guide'
-order: 1
+order: 281
 ---
 
 Labels are a visual pattern used to categorize information providing quick and easy recognition.

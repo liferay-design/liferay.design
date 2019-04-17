@@ -3,7 +3,7 @@ title: 'File Upload'
 titleLabel: 'Portal'
 description: 'File Uploader is a pattern that lets users select and upload images to the system.'
 layout: 'guide'
-order: 00
+order: 401
 ---
 
 File Uploader is a pattern that lets users select and upload images to the system.

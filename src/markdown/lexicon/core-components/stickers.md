@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/stickers.html"
 description: "Stickers are a visual way to quickly identify content in a different way than badges and labels."
 layout: "guide"
-order: 1
+order: 325
 ---
 
 Stickers are a visual way to quickly identify content in a different way than badges and labels.

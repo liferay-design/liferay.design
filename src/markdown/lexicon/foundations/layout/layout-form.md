@@ -2,7 +2,7 @@
 title: "Form Box"
 description: "The basic layout used to contain form structures built based on 8/12 grid columns."
 layout: "guide"
-order: 2
+order: 110
 ---
 
 The basic layout used to contain form structures built based on 8/12 grid columns.

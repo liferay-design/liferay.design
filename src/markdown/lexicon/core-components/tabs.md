@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/components/tabs.html"
 description: "Tabs organize similar content together into individual sections in the same page."
 layout: "guide"
-order: 1
+order: 350
 ---
 
 Tabs organize similar content together into individual sections in the same page.

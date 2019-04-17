@@ -2,7 +2,7 @@
 title: 'Overview'
 description: "A tour through the basic patterns that make up the Classic theme that styles the Site's environment."
 layout: 'guide'
-order: 1
+order: 431
 ---
 
 A tour through the basic patterns that make up the Classic theme that styles the Site's environment.
