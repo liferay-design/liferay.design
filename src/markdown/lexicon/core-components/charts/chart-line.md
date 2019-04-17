@@ -13,7 +13,7 @@ The points in a Line Chart are spaced apart (typically by their x-axis value) an
 
 Line Charts can also be used to compare changes over the same period of time for more than one group.
 
-![Charts line example with different lines types and shape types](/lexicon/images/ChartLineAndShapeExample1.png)
+![Charts line example with different lines types and shape types](/images/lexicon/ChartLineAndShapeExample1.png)
 
 ### Color use
 
@@ -26,8 +26,8 @@ You can use either [Pattern](../charts) (line type or shape type) for Line Chart
 ### States
 
 #### Chart item interaction
-![Line chart with 4 datasets, the red line, circular dots, has one item selected](/lexicon/images/ChartLineItemSel.png)
+![Line chart with 4 datasets, the red line, circular dots, has one item selected](/images/lexicon/ChartLineItemSel.png)
 
 #### Legend item interaction
-![Line chart with 4 datasets, the red line, circular dots. Red line selected from the legend](/lexicon/images/ChartLineLegendSel.png)
+![Line chart with 4 datasets, the red line, circular dots. Red line selected from the legend](/images/lexicon/ChartLineLegendSel.png)
 

@@ -9,7 +9,7 @@ order: 1
 
 <div class="page-description">Tabs organize similar content together into individual sections in the same page.</div>
 
-![Tabs. On the left side classic variation on the right side modern variation](/lexicon/images/Tab.jpg)
+![Tabs. On the left side classic variation on the right side modern variation](/images/lexicon/Tab.jpg)
 
 
 ### Usage
@@ -26,16 +26,16 @@ order: 1
 * Remaining tabs must collapse below a "More" tab when they don't fit on the screen. This "More" dropdown tab should always be last.
 * Tab bars may need a visual aid to help give context. In this case, you may use a thin line under the tabs bar, as shown in the following example:
 
-    ![Classic tab with rounded corners at top corners](/lexicon/images/TabsAdvice.jpg)
+    ![Classic tab with rounded corners at top corners](/images/lexicon/TabsAdvice.jpg)
 
 ### Variations
 
 #### Classic tab
 Use the classic tab type inside forms.
 
-![Classic tab with rounded corners at top corners](/lexicon/images/TabsRounded.jpg)
+![Classic tab with rounded corners at top corners](/images/lexicon/TabsRounded.jpg)
 
 #### Modern tab
 Use the modern tab type together with dataset visualizations, such as the list view or card view.
 
-![Modern tab without background and underline in selected state](/lexicon/images/TabsLine.jpg)
+![Modern tab without background and underline in selected state](/images/lexicon/TabsLine.jpg)

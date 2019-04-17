@@ -18,9 +18,9 @@ The Base Grid is the main metric reference of our system from which the rest of 
 
 The grid is constructed from a base 8px module, so that both the dimensions of the elements and the distances between them will always be multiples of 8: 16, 24, 32, 40, 48 …
 
-![grid 8 pixels detail](/lexicon/images/Grid01.png)
+![grid 8 pixels detail](/images/lexicon/Grid01.png)
 
-![grid elements distribution](/lexicon/images/Grid02Part1.jpg) ![grid elements distribution with distances between elements](/lexicon/images/Grid02Part2.jpg)
+![grid elements distribution](/images/lexicon/Grid02Part1.jpg) ![grid elements distribution with distances between elements](/images/lexicon/Grid02Part2.jpg)
 
 This provides a common metric pattern that creates a visual coherence and consistency between the different elements of the system and their spatial relationships.
 
@@ -32,7 +32,7 @@ Values ​​less than 8 px are primarily associated with the anatomy of the int
 
 For example, see the molecule formed below (the 4px margin) by a label and a text input, or the one formed by a label, a text input, and helper text.
 
-![form element](/lexicon/images/Grid03Part1.jpg) ![grid elements distribution with distances between elements](/lexicon/images/Grid03Part2.jpg)
+![form element](/images/lexicon/Grid03Part1.jpg) ![grid elements distribution with distances between elements](/images/lexicon/Grid03Part2.jpg)
 
 To learn more about the 8 px grid, see the articles listed below that have served as reference and inspiration for us to adopt this pattern:
 
@@ -43,13 +43,13 @@ To learn more about the 8 px grid, see the articles listed below that have serve
 
 The column system is the main structural pattern for organizing and arranging elements on the page horizontally. It is not used to establish the distance between small elements, such as the icons or buttons in a toolbar, but rather it is a layout framework used to organize and establish divisions between medium and large blocks of content.
 
-![form element internal spacing](/lexicon/images/Grid04.jpg)
+![form element internal spacing](/images/lexicon/Grid04.jpg)
 
-![form element internal spacing](/lexicon/images/Grid05.jpg)
+![form element internal spacing](/images/lexicon/Grid05.jpg)
 
 Lexicon's column system is based on Bootstrap's twelve column CSS Grid, with an adjustment to the gutter to fit our base grid. The gutter of Lexicon's column system is 24px, the same value that is used throughout other basic structural references of the system.
 
-![form element internal spacing](/lexicon/images/Grid06.jpg)
+![form element internal spacing](/images/lexicon/Grid06.jpg)
 
 The columns are fluid, having a responsive width that conforms to the size of their parent container. The gutter's width, however, remains fixed when the viewport resizes.
 
@@ -57,15 +57,15 @@ The columns are fluid, having a responsive width that conforms to the size of th
 
 The 8px base grid is also used as a baseline to determine the vertical distance between elements. When determining the vertical distance between medium and large size structural blocks of elements, such as lengthy paragraphs, however, it is better to have a greater value as a baseline. This value borrows Bootstrap's variable name: "spacer-y". To keep a consistent vertical rhythm, we use the main system font style's line height, 24 px, as the reference for this value.
 
-![form element internal spacing](/lexicon/images/GridVertRhythm01.jpg)
+![form element internal spacing](/images/lexicon/GridVertRhythm01.jpg)
 
-![form element internal spacing](/lexicon/images/GridVertRhythm02.jpg)
+![form element internal spacing](/images/lexicon/GridVertRhythm02.jpg)
 
-![form element internal spacing](/lexicon/images/GridVertRhythm03.jpg)
+![form element internal spacing](/images/lexicon/GridVertRhythm03.jpg)
 
 For small viewports, we can make adjustments to optimize vertical space, while still respecting the base grid. In these cases, we use the 16px spacer-y, as we do for the gutter between columns and the lateral space of the container.
 
-![form element internal spacing](/lexicon/images/GridVertRhythm04.jpg)
+![form element internal spacing](/images/lexicon/GridVertRhythm04.jpg)
 
 Although this metric may not cover all vertical space requirements, it serves as a starting point that you can adjust to meet your needs.
 
@@ -77,17 +77,17 @@ Lexicon provides two types of containers: A fixed width container and a fluid co
 
 This container's width is responsive to the size of the viewport.
 
-![form element internal spacing](/lexicon/images/GridContainerFluid.jpg)
+![form element internal spacing](/images/lexicon/GridContainerFluid.jpg)
 
-![form element internal spacing](/lexicon/images/GridContainerFluidMetrics.jpg)
+![form element internal spacing](/images/lexicon/GridContainerFluidMetrics.jpg)
 
 #### Fixed width container
 
 This container defines a maximum width. This value adjusts to the viewport's size based on predefined breakpoints.
 
-![form element internal spacing](/lexicon/images/GridContainerFixed.jpg)
+![form element internal spacing](/images/lexicon/GridContainerFixed.jpg)
 
-![form element internal spacing](/lexicon/images/GridContainerFixedMetrics.jpg)
+![form element internal spacing](/images/lexicon/GridContainerFixedMetrics.jpg)
 
 ### Breakpoint table
 

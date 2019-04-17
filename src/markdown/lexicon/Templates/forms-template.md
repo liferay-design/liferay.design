@@ -8,8 +8,8 @@ order: 1
 
 ### Form without side navigation example
 
-![Form without side navigation example](/lexicon/images/FormRegular.jpg)
+![Form without side navigation example](/images/lexicon/FormRegular.jpg)
 
 ### Form with side navigation example
 
-![Form without side navigation example](/lexicon/images/FormVerticalNavigation.jpg)
+![Form without side navigation example](/images/lexicon/FormVerticalNavigation.jpg)

@@ -187,7 +187,7 @@ The use cases for each letter case are covered in the "Type Styles" section.
 
 To provide optimal reading conditions, we recommend that you use a line width within a range between 60 and 100 characters, including spacing, for medium and long text blocks. This gives a good flow to the reading and reduces the potential for straining the reader's eyes.
 
-![line length expalanatory image](/lexicon/images/LineLength.png)
+![line length expalanatory image](/images/lexicon/LineLength.png)
 
 ### Type styles
 
@@ -223,8 +223,8 @@ Content aligment is relevant for readability. Respecting some basic rules, 1rem 
 
 <!-- <p class="do">Do</p> -->
 
-![two buttons of same height in a row](/lexicon/images/ContentAlignmentDo.jpg)
+![two buttons of same height in a row](/images/lexicon/ContentAlignmentDo.jpg)
 
 <!-- <p class="dont">Don't</p> -->
 
-![two buttons of same height in a row](/lexicon/images/ContentAlignmentDont.jpg)
+![two buttons of same height in a row](/images/lexicon/ContentAlignmentDont.jpg)

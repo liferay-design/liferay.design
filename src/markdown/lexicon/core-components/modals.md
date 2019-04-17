@@ -7,7 +7,7 @@ layout: 'guide'
 order: 1
 ---
 
-![modal window over a dark transparent background](/lexicon/images/Modal.jpg)
+![modal window over a dark transparent background](/images/lexicon/Modal.jpg)
 
 ### Usage
 
@@ -73,13 +73,13 @@ order: 1
 
 Selecting multiple items in a modal must be done by selecting each desired element through the checkbox. The selection will be finished by clicking in Done button at the modal footer.
 
-![multiple selection from a table inside a modal is done by selecting elements and clicking in Done button to complete the selection](/lexicon/images/Modal-selection-multiple.jpg)
+![multiple selection from a table inside a modal is done by selecting elements and clicking in Done button to complete the selection](/images/lexicon/Modal-selection-multiple.jpg)
 
 #### Single selection inside a modal
 
 Single selection must be done by clicking directly on the desired element. In this case, the element must not have a Choose or Select button. The modal doesn't have footer as there is no need.
 
-![single selection from a table inside a modal is done by selecting the element directly](/lexicon/images/Modal-selection-single.jpg)
+![single selection from a table inside a modal is done by selecting the element directly](/images/lexicon/Modal-selection-single.jpg)
 
 #### Modal over modal
 
@@ -96,11 +96,11 @@ Modals are always displayed at the center of the screen and can be configured wi
 | Large      | 896px wide modal on screen sizes greater than 992px. 600px wide modal on screen sizes between 768px and 992px. |
 | Full width | A modal that stretches to fit the browser window, with 45px padding on every side.                             |
 
-![modal sizes](/lexicon/images/ModalSize.jpg)
+![modal sizes](/images/lexicon/ModalSize.jpg)
 
 ### Attributes
 
-![modal window parts](/lexicon/images/ModalParts.jpg)
+![modal window parts](/images/lexicon/ModalParts.jpg)
 
 1. Modal header
     1. Title
@@ -110,7 +110,7 @@ Modals are always displayed at the center of the screen and can be configured wi
 3. Footer
     1. Modal buttons
 
-![modal window metrics](/lexicon/images/ModalMetrics.jpg)
+![modal window metrics](/images/lexicon/ModalMetrics.jpg)
 
 ### Configurations
 
@@ -120,19 +120,19 @@ Lexicon allows your modal window to have different configurations related to you
 
 This is the classic composition of a modal window with its three main parts: header, body, and footer.
 
-![modal window over a dark transparent background](/lexicon/images/Modal.jpg)
+![modal window over a dark transparent background](/images/lexicon/Modal.jpg)
 
 #### Header and body
 
 This configuration is used when you don't need a footer bar to place your icons.
 
-![modal window over a dark transparent background only header and body](/lexicon/images/ModalFooterless.jpg)
+![modal window over a dark transparent background only header and body](/images/lexicon/ModalFooterless.jpg)
 
 #### Body and Footer
 
 Use this configuration when you just need to show text and buttons to agree or cancel.
 
-![modal window over a dark transparent background only body and footer](/lexicon/images/ModalBodyFooter.jpg)
+![modal window over a dark transparent background only body and footer](/images/lexicon/ModalBodyFooter.jpg)
 
 #### iframe in the body
 
@@ -150,10 +150,10 @@ Never remove the icon in the title, as it provides the modal with a better user 
 
 Always use direct and concrete titles.
 
-![info, success, warning, error modal configurations in headers](/lexicon/images/ModalStatus.jpg)
+![info, success, warning, error modal configurations in headers](/images/lexicon/ModalStatus.jpg)
 
 ### Mobile
 
 When a modal is viewed on a mobile device, its look and feel transforms to the one shown below to provide a mobile friendly user experience. The modal occupies the whole screen, drawing the user's attention.
 
-![modal window mobile version always full screen](/lexicon/images/ModalMobile.jpg)
+![modal window mobile version always full screen](/images/lexicon/ModalMobile.jpg)

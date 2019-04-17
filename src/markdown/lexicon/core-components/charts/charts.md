@@ -25,7 +25,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartBarCard.png">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartBarCard.png">
                         </label>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartDoughnutCard.png">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartDoughnutCard.png">
                         </label>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartHeatmapCard.png">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartHeatmapCard.png">
                         </label>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartLineCard.png">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartLineCard.png">
                         </label>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartPieCard.png">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartPieCard.png">
                         </label>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartPreditiveForecastCard.jpg">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartPreditiveForecastCard.jpg">
                         </label>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ The collection of charts grows as Liferay products require new chart configurati
                 <div class="aspect-ratio card-item-first">
                     <div class="custom-control custom-checkbox">
                         <label class="labelbg">
-                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/lexicon/images/ChartStackedBarCard.png">
+                            <img alt="thumbnail"class="aspect-ratio-item-center-middle aspect-ratio-item-fluid" src="/images/lexicon/ChartStackedBarCard.png">
                         </label>
                     </div>
                 </div>

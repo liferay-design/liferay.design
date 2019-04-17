@@ -12,7 +12,7 @@ The space is organized in 3 columns for the sidebar and 9 or 8 columns for the c
 ### 3+9 columns
 This is the default configuration for a table, a list, or any other content structure except a form.
 
-![layout sidebar and box, 1440px width screen](/lexicon/images/layoutSidebar.jpg)
+![layout sidebar and box, 1440px width screen](/images/lexicon/layoutSidebar.jpg)
 
 #### Responsive behavior
 
@@ -21,36 +21,36 @@ On viewport sizes equal to or less than 768px, we introduce two key changes to t
 * The the vertical navigation changes to a toggle top navigation, as is described in [Nested navigation](../../../patterns/Navigation/verticalNav).
 * The box changes from 9 to 12 columns.
 
-![layout sidebar + box responsive summary](/lexicon/images/layoutsidebarsummary.jpg)
+![layout sidebar + box responsive summary](/images/lexicon/layoutsidebarsummary.jpg)
 
 #### Attributes
 
-![layout sidebar + box metrics](/lexicon/images/layoutsidebarmetrics.jpg)
+![layout sidebar + box metrics](/images/lexicon/layoutsidebarmetrics.jpg)
 
 #### Example
 
-![layout sidebar + box example](/lexicon/images/layoutsidebarexample.jpg)
+![layout sidebar + box example](/images/lexicon/layoutsidebarexample.jpg)
 
 
 ### 3+8 columns (Forms)
 
 This configuration is used for forms. Form containers require less space than the 9 columns that the default layout provides, so the columns are reduced to 8.
 
-![layout sidebar and box 8 columns, 1440px width screen](/lexicon/images/layoutSidebarBox8.jpg)
+![layout sidebar and box 8 columns, 1440px width screen](/images/lexicon/layoutSidebarBox8.jpg)
 
 #### Responsive behavior
 
 Note that, to optimize space for content, the layout changes from 8 to 9 columns on viewport sizes equal to or less than 992px.
 
-![layout sidebar + box 8 columns responsive summary](/lexicon/images/layoutsidebarbox8summary.jpg)
+![layout sidebar + box 8 columns responsive summary](/images/lexicon/layoutsidebarbox8summary.jpg)
 
 #### Attributes
 
-![layout sidebar + box 8 columns metrics](/lexicon/images/layoutsidebarbox8metrics.jpg)
+![layout sidebar + box 8 columns metrics](/images/lexicon/layoutsidebarbox8metrics.jpg)
 
 #### Example
 
-![layout sidebar + box 8 columns example](/lexicon/images/layoutsidebarbox8example.jpg)
+![layout sidebar + box 8 columns example](/images/lexicon/layoutsidebarbox8example.jpg)
 
 ### Exceptions
 

@@ -9,15 +9,15 @@ order: 2
 
 <div class="page-description">Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.</div>
 
-![breadcrumb without collapsing](/lexicon/images/Breadcrumb.jpg)
+![breadcrumb without collapsing](/images/lexicon/Breadcrumb.jpg)
 
-![breadcrumb collapsing with a dropdown button on the left side](/lexicon/images/BreadcrumbDropdown.jpg)
+![breadcrumb collapsing with a dropdown button on the left side](/images/lexicon/BreadcrumbDropdown.jpg)
 
 ### Usage
 
 Breadcrumb works the same way across all viewport sizes. When there isn't enough space on the screen to display all the breadcrumbs, the first levels are collapsed into a dropdown menu. This allows the user to read and navigate to the previous closer levels, and also lets them navigate to other levels easily.
 
-![breadcrumb with a dropdown menu open](/lexicon/images/BreadcrumbDropdownExample.jpg)
+![breadcrumb with a dropdown menu open](/images/lexicon/BreadcrumbDropdownExample.jpg)
 
 -   The breadcrumb is always horizontal.
 -   Long crumbs can be reduced using ellipsis.
@@ -88,4 +88,4 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
 
 ### Attributes
 
-![breadcrumb metrics](/lexicon/images/BreadcrumbMetrics.jpg)
+![breadcrumb metrics](/images/lexicon/BreadcrumbMetrics.jpg)

@@ -9,7 +9,7 @@ order: 2
 
 This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
 
-![upper toolbar with different possible components described in usage section](/lexicon/images/ToolbarUpper.jpg)
+![upper toolbar with different possible components described in usage section](/images/lexicon/ToolbarUpper.jpg)
 
 
 ### Usage
@@ -33,14 +33,14 @@ This toolbar has two areas: left and right. These areas are inherited from [tool
 
 ### Attributes
 
-![upper toolbar with measures and distances between components](/lexicon/images/ToolbarUpperMeasures.jpg)
+![upper toolbar with measures and distances between components](/images/lexicon/ToolbarUpperMeasures.jpg)
 
 ### Examples of use
 
 #### Document Preview
 
-![Document Preview toolbar with title, buttons to move between documents, share, download and actions button](/lexicon/images/ToolbarUpperDocPreview.jpg)
+![Document Preview toolbar with title, buttons to move between documents, share, download and actions button](/images/lexicon/ToolbarUpperDocPreview.jpg)
 
 #### Segment Creation
 
-![Segment creation toolbar with title, number of users, preview, cancel and save buttons ](/lexicon/images/ToolbarUpperSegmentCreation.jpg)
+![Segment creation toolbar with title, number of users, preview, cancel and save buttons ](/images/lexicon/ToolbarUpperSegmentCreation.jpg)

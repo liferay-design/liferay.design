@@ -13,7 +13,7 @@ Stacked Bar Charts can either be displayed in vertical bars or horizontal bars. 
 
 This chart type is implemented using Bar Charts.
 
-![stacked bar chart vertical non-grouped](/lexicon/images/ChartStackedBar.png)
+![stacked bar chart vertical non-grouped](/images/lexicon/ChartStackedBar.png)
 
 ### Color use
 
@@ -22,10 +22,10 @@ The Stacked Bar Chart follows the same color order defined for charts. They must
 ### States
 
 #### Single bar item interaction
-![stacked bar chart vertical non-grouped](/lexicon/images/ChartStackedBarItemSel.png)
+![stacked bar chart vertical non-grouped](/images/lexicon/ChartStackedBarItemSel.png)
 
 #### Legend item interaction
-![stacked bar chart vertical non-grouped](/lexicon/images/ChartStackedBarLegendSel.png)
+![stacked bar chart vertical non-grouped](/images/lexicon/ChartStackedBarLegendSel.png)
 
 #### Axis legend interaction
-![stacked bar chart vertical non-grouped](/lexicon/images/ChartStackedBarAxisSel.png)
+![stacked bar chart vertical non-grouped](/images/lexicon/ChartStackedBarAxisSel.png)

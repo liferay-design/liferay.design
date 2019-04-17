@@ -11,12 +11,12 @@ The card layout adapts 100% to the width of the container, adjusting the size of
 
 #### Responsive behavior
 
-![layout full box responsive summary](/lexicon/images/layoutfbcardssummary.jpg)
+![layout full box responsive summary](/images/lexicon/layoutfbcardssummary.jpg)
 
 #### Attributes
 
-![layout full box cards metrics](/lexicon/images/layoutfbcardsmetrics.jpg)
+![layout full box cards metrics](/images/lexicon/layoutfbcardsmetrics.jpg)
 
 #### Example
 
-![layout full box cards example](/lexicon/images/layoutfbcardsexample.jpg)
+![layout full box cards example](/images/lexicon/layoutfbcardsexample.jpg)
