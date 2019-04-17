@@ -9,7 +9,7 @@ order: 3
 
 <div class="page-description">A Pie chart divides data by numerical proportions of a total value (always 100%).</div>
 
-![Pie chart with 4 different elements](/lexicon/images/ChartPie.png)
+![Pie chart with 4 different elements](/images/lexicon/ChartPie.png)
 
 ### Color use
 
@@ -18,4 +18,4 @@ The Pie Chart must follow the standard color order for charts: the first chart e
 ### States
 
 #### Chart item interaction
-![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/lexicon/images/ChartPieItemSel.png)
+![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/images/lexicon/ChartPieItemSel.png)

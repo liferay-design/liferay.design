@@ -9,7 +9,7 @@ order: 1
 
 This layout is used in the [Dataset Display](lexicon/patterns/dataset_display) template.
 
-![layout full box 1440px width screen](/lexicon/images/layoutfb01.jpg)
+![layout full box 1440px width screen](/images/lexicon/layoutfb01.jpg)
 
 #### Responsive behavior
 
@@ -17,15 +17,15 @@ The full box layout is fluid and occupies 100% of the container's width across t
 
 Note, however, that the lateral space is removed from the layout on displays smaller than 576 px.
 
-![layout full box responsive summary](/lexicon/images/layoutfbsummary.jpg)
+![layout full box responsive summary](/images/lexicon/layoutfbsummary.jpg)
 
 #### Attributes
 
-![layout full box metrics](/lexicon/images/layoutfbmetrics01.jpg)
+![layout full box metrics](/images/lexicon/layoutfbmetrics01.jpg)
 
 #### Example
 
-![layout full box example](/lexicon/images/layoutfbmetricsexample.jpg)
+![layout full box example](/images/lexicon/layoutfbmetricsexample.jpg)
 
 
 ### Cards
@@ -34,12 +34,12 @@ The card layout adapts 100% to the width of the container adjusting the size of 
 
 #### Responsive behavior
 
-![layout full box responsive summary](/lexicon/images/layoutfbcardssummary.jpg)
+![layout full box responsive summary](/images/lexicon/layoutfbcardssummary.jpg)
 
 #### Attributes
 
-![layout full box cards metrics](/lexicon/images/layoutfbcardsmetrics.jpg)
+![layout full box cards metrics](/images/lexicon/layoutfbcardsmetrics.jpg)
 
 #### Example
 
-![layout full box cards example](/lexicon/images/layoutfbcardsexample.jpg)
+![layout full box cards example](/images/lexicon/layoutfbcardsexample.jpg)

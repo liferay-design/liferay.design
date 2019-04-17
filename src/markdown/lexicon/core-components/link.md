@@ -19,7 +19,7 @@ order: 1
 
 Use an inline link when you need a link to flow naturally with a sentence or paragraph.
 
-![inline link example in a paragraph](/lexicon/images/LinkInline.jpg)
+![inline link example in a paragraph](/images/lexicon/LinkInline.jpg)
 
 Attributes:
 * Color: primary blue
@@ -30,7 +30,7 @@ Attributes:
 
 A single link is used for stand-alone hyperlinks. They can be text or an image.
 
-![single link example, text not surrounded](/lexicon/images/LinkSingle.jpg)
+![single link example, text not surrounded](/images/lexicon/LinkSingle.jpg)
 
 Attributes:
 * Primary Text Link
@@ -51,15 +51,15 @@ A title link is used for list item titles, such as Dataset Display (stacked list
 
 Example 1:
 
-![title link example in a table](/lexicon/images/LinkTitleTable.jpg)
+![title link example in a table](/images/lexicon/LinkTitleTable.jpg)
 
 Example 2:
 
-![title link example in a list](/lexicon/images/LinkTitleList.jpg)
+![title link example in a list](/images/lexicon/LinkTitleList.jpg)
 
 Example 3:
 
-![title link example in an asset](/lexicon/images/LinkTitleAsset.jpg)
+![title link example in an asset](/images/lexicon/LinkTitleAsset.jpg)
 
 Attributes:
 * Color: inherit
@@ -68,15 +68,15 @@ Attributes:
 
 The image below demonstrates all the available implementations:
 
-![link example in asset context with several pointers on hover](/lexicon/images/LinkExampleInContext.jpg)
+![link example in asset context with several pointers on hover](/images/lexicon/LinkExampleInContext.jpg)
 
 
 #### External Link
 
 Use external links to point to (target) external resources that are available on domains other than the current domain (source). Lexicon indicates this behavior with a tooltip. 
 
-![external link with tooltip on hover action](/lexicon/images/LinkExternalTooltip.jpg)
+![external link with tooltip on hover action](/images/lexicon/LinkExternalTooltip.jpg)
 
 For accessibility purposes, we also provide an icon to illustrate this behavior. This icon is visually hidden by default and only accessible on focus or when using assistive technologies such as screen readers.
 
-![external link with external link icon on focus action](/lexicon/images/LinkExternalFocus.jpg)
+![external link with external link icon on focus action](/images/lexicon/LinkExternalFocus.jpg)

@@ -18,32 +18,32 @@ Usually the components placed around the text field are buttons, split buttons, 
 
 #### Input group with button
 
-![input group with left button](/lexicon/images/InputGroupButtonLeft.jpg)
+![input group with left button](/images/lexicon/InputGroupButtonLeft.jpg)
 
-![input group with right button](/lexicon/images/InputGroupButtonRight.jpg)
+![input group with right button](/images/lexicon/InputGroupButtonRight.jpg)
 
 #### URL input group
 
-![input group for URL](/lexicon/images/InputGroupUrl.jpg)
+![input group for URL](/images/lexicon/InputGroupUrl.jpg)
 
 #### Input group with units
 
-![input group with mass on the left](/lexicon/images/InputGroupAddonLeftPlaceholder.jpg)
+![input group with mass on the left](/images/lexicon/InputGroupAddonLeftPlaceholder.jpg)
 
-![input group with mass on the right](/lexicon/images/InputGroupAddonRight.jpg)
+![input group with mass on the right](/images/lexicon/InputGroupAddonRight.jpg)
 
-![input group with mass on both sides](/lexicon/images/InputGroupAddonLeftAddonRight.jpg)
+![input group with mass on both sides](/images/lexicon/InputGroupAddonLeftAddonRight.jpg)
 
-![input group with mass in the middle and right side](/lexicon/images/InputGroupInsert.jpg)
+![input group with mass in the middle and right side](/images/lexicon/InputGroupInsert.jpg)
 
 
 #### Input group with radio or checkbox
 
-![input group with mass on the left](/lexicon/images/InputGroupCheckboxLeft.jpg)
+![input group with mass on the left](/images/lexicon/InputGroupCheckboxLeft.jpg)
 
-![input group with mass on the right](/lexicon/images/InputGroupCheckboxLeftActive.jpg)
+![input group with mass on the right](/images/lexicon/InputGroupCheckboxLeftActive.jpg)
 
-![input group with mass on both sides](/lexicon/images/InputGroupRadioLeft.jpg)
+![input group with mass on both sides](/images/lexicon/InputGroupRadioLeft.jpg)
 
-![input group with mass in the middle and right side](/lexicon/images/InputGroupRadioLeftActive.jpg)
+![input group with mass in the middle and right side](/images/lexicon/InputGroupRadioLeftActive.jpg)
 

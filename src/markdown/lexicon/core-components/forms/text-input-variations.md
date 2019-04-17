@@ -15,7 +15,7 @@ order: 4
 
 An autocomplete text field is an input that offers the user text suggestions while they type.
 
-![autocomple text field with list open](/lexicon/images/AutocompleteTextField.jpg)
+![autocomple text field with list open](/images/lexicon/AutocompleteTextField.jpg)
 
 ## Search field
 
@@ -31,21 +31,21 @@ A search field can have auto completion to display a list of options below the f
 -   The list must update its content as the user types.
 -   Characters in each entry must be semibold and marked in regular as the user types.
 
-![search field with autocompletion](/lexicon/images/AutocompleteTextField.jpg)
+![search field with autocompletion](/images/lexicon/AutocompleteTextField.jpg)
 
 ### States
 
 #### Default
 
-![search field default state](/lexicon/images/InputSearch.jpg)
+![search field default state](/images/lexicon/InputSearch.jpg)
 
 #### Focus
 
-![search field focus state](/lexicon/images/InputSearchFocus.jpg)
+![search field focus state](/images/lexicon/InputSearchFocus.jpg)
 
 #### Active
 
-![search field active state](/lexicon/images/InputSearchActive.jpg)
+![search field active state](/images/lexicon/InputSearchActive.jpg)
 
 ## Numeric field
 
@@ -53,7 +53,7 @@ A search field can have auto completion to display a list of options below the f
 
 Use numeric fields when you require the user to enter an integer or float value. Numeric fields provide the added bonus of letting the user increase and decrease the value via the arrow keys and internal field buttons.
 
-![numeric input field](/lexicon/images/InputNumeric.jpg)
+![numeric input field](/images/lexicon/InputNumeric.jpg)
 
 ## Password field
 
@@ -61,4 +61,4 @@ Use numeric fields when you require the user to enter an integer or float value.
 
 A password field input is used when the user needs to enter a password.
 
-![password field with masked text](/lexicon/images/InputPassword.jpg)
+![password field with masked text](/images/lexicon/InputPassword.jpg)

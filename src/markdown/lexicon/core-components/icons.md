@@ -19,7 +19,7 @@ Using an icon to communicate a concept is not always easy. If you are in this si
 
 Use a 16px box for icons of 16px.
 
-![Icon 16px box 16px](/lexicon/images/Icon16.jpg)
+![Icon 16px box 16px](/images/lexicon/Icon16.jpg)
 
 ### Size usage for developers
 

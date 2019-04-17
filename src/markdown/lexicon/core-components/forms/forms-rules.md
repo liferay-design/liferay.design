@@ -20,7 +20,7 @@ In mobile view ports field lengths should be half of the screen or full length.
 
 Fields can be mandatory/required to fill in a form. The way to mark a field as mandatory is:
 
-![example of mandatory field](/lexicon/images/InputMandatory.jpg)
+![example of mandatory field](/images/lexicon/InputMandatory.jpg)
 
 Try to place first as many mandatory fields when possible to make the user task short. Non mandatory fields should go in a second place as they are not so important and the user may like to skip them. In case non mandatory fields are in between mandatory fields the user would expend more time scanning the form.
 
@@ -40,7 +40,7 @@ This lets the user add blocks of the same type of content to a form. Sets of rep
 
 General form actions are always placed at the end of the form on the left side in the same order: Primary, Secondary, and Link. Form actions should always use the default button size.
 
-![button order. Primary, secondary, link](/lexicon/images/ButtonOrder.jpg)
+![button order. Primary, secondary, link](/images/lexicon/ButtonOrder.jpg)
 
 _Note: This order is reversed in modals in which buttons in the footer are right-aligned: Link, Secondary, Primary._
 
@@ -48,7 +48,7 @@ _Note: This order is reversed in modals in which buttons in the footer are right
 
 Interior form actions are not as widely used as general actions. Therefore, use the secondary button for interior form actions.
 
-![button primary default size defuault state](/lexicon/images/ButtonIconSecondary.jpg)
+![button primary default size defuault state](/images/lexicon/ButtonIconSecondary.jpg)
 
 #### Dos and Don'ts
 
@@ -57,11 +57,11 @@ Never use two primary buttons together. There must only be one primary button th
 <!--
 <div class="row">
 	<div class="dodont col-lg">
-		<img class="do" src="/lexicon/images/FormButtonPrimaryDo.jpg" alt="Two butons, primary and secondary.">
+		<img class="do" src="/images/lexicon/FormButtonPrimaryDo.jpg" alt="Two butons, primary and secondary.">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/FormButtonPrimaryDont.jpg" alt="Two butons, both primary">
+		<img class="dont" src="/images/lexicon/FormButtonPrimaryDont.jpg" alt="Two butons, both primary">
 		<p class="dont">Don't</p>
 	</div>
 </div>
@@ -70,11 +70,11 @@ Always use concrete words, rather than general words such as "Ok".
 
 <div class="row">
 	<div class="dodont col-lg">
-		<img class="do" src="/lexicon/images/FormButtonPrimaryTextDo.jpg" alt="Primary button with text Done">
+		<img class="do" src="/images/lexicon/FormButtonPrimaryTextDo.jpg" alt="Primary button with text Done">
 		<p class="do">Do</p>
 	</div>
 	<div class="dodont col-lg">
-		<img class="dont" src="/lexicon/images/FormButtonPrimaryTextDont.jpg" alt="Primary button with text Ok">
+		<img class="dont" src="/images/lexicon/FormButtonPrimaryTextDont.jpg" alt="Primary button with text Ok">
 		<p class="dont">Don't</p>
 	</div>
 </div> -->
@@ -86,4 +86,4 @@ Boolean situations are those yes/no situations usually solved with checkboxes.
 -   Try to always be as explicit as possible to let the user know what is the outcome of the decision.
 -   Do not hide helpful information to the user in popovers, alerts, or secondary text.
 
-![boolean situations solved with checkboxes, relevant information/help is explicit](/lexicon/images/FormBooleanSituations.jpg)
+![boolean situations solved with checkboxes, relevant information/help is explicit](/images/lexicon/FormBooleanSituations.jpg)

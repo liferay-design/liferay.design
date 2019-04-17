@@ -20,20 +20,20 @@ order: 10
 
 #### Default
 
-![image default state](/lexicon/images/ImageSelectorImageDefault.jpg)
+![image default state](/images/lexicon/ImageSelectorImageDefault.jpg)
 
 #### Hover
 
-![image hover state](/lexicon/images/ImageSelectorImageHover.jpg)
+![image hover state](/images/lexicon/ImageSelectorImageHover.jpg)
 
 #### Selected
 
-![image hover state](/lexicon/images/ImageSelectorImageSelected.jpg)
+![image hover state](/images/lexicon/ImageSelectorImageSelected.jpg)
 
 Image selector example on desktop:
 
-![image selector example in desktop size](/lexicon/images/ImageSelector.jpg)
+![image selector example in desktop size](/images/lexicon/ImageSelector.jpg)
 
 On mobile devices, since there is no hover state, images must always display their title.
 
-![image selector example in mobile size](/lexicon/images/ImageSelectorMobile.jpg)
+![image selector example in mobile size](/images/lexicon/ImageSelectorMobile.jpg)
