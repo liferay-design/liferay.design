@@ -37,6 +37,10 @@ Checkboxes are commonly grouped in forms to provide a set of options.
 
 Capitalize the checkbox's label.
 
+| Do | Don't |
+| -- | ----- |
+| ![checkbox text is capitalized](/images/lexicon/CheckboxCapitalizeDo.jpg) | ![checkbox text is not capitalized](/images/lexicon/CheckboxCapitalizeDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -51,6 +55,10 @@ Capitalize the checkbox's label.
 
 Use checkboxes for multiple choices in a set of options.
 
+| Do | Don't |
+| -- | ----- |
+| ![list of checkboxes to select options](/images/lexicon/CheckboxSwitchDo.jpg) | ![list of switches to select options](/images/lexicon/CheckboxSwitchDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -64,6 +72,10 @@ Use checkboxes for multiple choices in a set of options.
 </div> -->
 
 Use checkboxes when more than one option can be selected.
+
+| Do | Don't |
+| -- | ----- |
+| ![list of checkboxes to select options](/images/lexicon/CheckboxDo.jpg) | ![list of switches to select options](/images/lexicon/RadioDont.jpg) |
 
 <!--
 <div class="row">
@@ -129,6 +141,10 @@ It can be difficult to decide whether to use a radio or a dropdown menu when use
 
 Capitalize a radio button's label.
 
+| Do | Don't |
+| -- | ----- |
+| ![radio text is capitalized](/images/lexicon/RadioCapitalizeDo.jpg) | ![radio text is not capitalized](/images/lexicon/RadioCapitalizeDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -142,6 +158,10 @@ Capitalize a radio button's label.
 </div> -->
 
 Use radios when only one option can be selected.
+
+| Do | Don't |
+| -- | ----- |
+| ![radio group with one option selected](/images/lexicon/RadioDo.jpg) | ![radio group with two options selected](/images/lexicon/RadioDont.jpg) |
 
 <!--
 <div class="row">
@@ -176,6 +196,10 @@ A switch can be in one of four different states:
 
 Capitalize a toggle switch's label.
 
+| Do | Don't |
+| -- | ----- |
+| ![radio text is capitalized](/images/lexicon/SwitchCapitalizeDo.jpg) | ![radio text is not capitalized](/images/lexicon/SwitchCapitalizeDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -190,6 +214,10 @@ Capitalize a toggle switch's label.
 
 Use toogles for activation.
 
+| Do | Don't |
+| -- | ----- |
+| ![switch list one activated](/images/lexicon/SwitchRadioDo.jpg) | ![radio group one activated](/images/lexicon/SwitchRadioDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -203,6 +231,14 @@ Use toogles for activation.
 </div> -->
 
 Use checkboxes instead of toggles in confirmation messages.
+
+| Do |
+| -- |
+| ![checkbox to accept terms of use](/images/lexicon/SwitchCheckboxDo.jpg) | 
+
+| Don't |
+| ----- |
+| ![switch to accept terms of use](/images/lexicon/SwitchCheckboxDont.jpg) |
 
 <!--
 <div class="dodont">

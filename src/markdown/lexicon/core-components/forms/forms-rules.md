@@ -40,7 +40,7 @@ This lets the user add blocks of the same type of content to a form. Sets of rep
 
 General form actions are always placed at the end of the form on the left side in the same order: Primary, Secondary, and Link. Form actions should always use the default button size.
 
-![button order. Primary, secondary, link](/images/lexicon/ButtonOrder.jpg)
+![button order. Primary, secondary, link](/images/lexicon/ButtonOrder.png)
 
 _Note: This order is reversed in modals in which buttons in the footer are right-aligned: Link, Secondary, Primary._
 
@@ -48,11 +48,15 @@ _Note: This order is reversed in modals in which buttons in the footer are right
 
 Interior form actions are not as widely used as general actions. Therefore, use the secondary button for interior form actions.
 
-![button primary default size defuault state](/images/lexicon/ButtonIconSecondary.jpg)
+![button primary default size defuault state](/images/lexicon/ButtonIconSecondary.png)
 
 #### Dos and Don'ts
 
 Never use two primary buttons together. There must only be one primary button that represents the most important action.
+
+| Do | Don't |
+| -- | ----- |
+| ![Two butons, primary and secondary.](/images/lexicon/FormButtonPrimaryDo.jpg) | ![Two butons, both primary](/images/lexicon/FormButtonPrimaryDont.jpg) |
 
 <!--
 <div class="row">
@@ -64,10 +68,15 @@ Never use two primary buttons together. There must only be one primary button th
 		<img class="dont" src="/images/lexicon/FormButtonPrimaryDont.jpg" alt="Two butons, both primary">
 		<p class="dont">Don't</p>
 	</div>
-</div>
+</div> -->
 
 Always use concrete words, rather than general words such as "Ok".
 
+| Do | Don't |
+| -- | ----- |
+| ![Primary button with text Done](/images/lexicon/FormButtonPrimaryTextDo.jpg) | ![Primary button with text Ok](/images/lexicon/FormButtonPrimaryTextDont.jpg) |
+
+<!--
 <div class="row">
 	<div class="dodont col-lg">
 		<img class="do" src="/images/lexicon/FormButtonPrimaryTextDo.jpg" alt="Primary button with text Done">
