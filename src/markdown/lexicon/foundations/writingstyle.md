@@ -13,6 +13,11 @@ Words give meaning to your meticulously designed product. Without the proper mes
 
 Longer messaging is not always more helpful. Be concise; understand your user’s needs in a given situation, and provide them with just enough information to be successful. If an interaction is obvious, don’t add messaging. A wordy product is an eyesore.
 
+| Examples |  |
+| -------- | - |
+| **Do** | Initiates the process |
+| **Don't** | If you click this button, then you will initiate a process that does something. Doing something is essential for something else. |
+
 <!--
 <table>
     <thead>
@@ -44,6 +49,11 @@ Longer messaging is not always more helpful. Be concise; understand your user’
 
 Be bold! Take confidence in what you say! The way you provide information sets the tone for what users expect. Products that exude confidence put users at ease when making difficult decisions.
 
+| Examples |  |
+| -------- | - |
+| **Do** | Click this to save your work. |
+| **Don't** | Clicking this should save your work. |
+
 <!--
 <table>
     <thead>
@@ -74,6 +84,11 @@ Be bold! Take confidence in what you say! The way you provide information sets t
 ### Be Current
 
 Use present tense throughout product messaging. Promote the product as being alive; it helps you now, telling you what to do now. If you click a button, it won’t do something later; it accomplishes the task immediately.
+
+| Examples |  |
+| -------- | - |
+| **Do** | Saves the form |
+| **Don't** | This will save the form. |
 
 <!--
 <table>
@@ -116,6 +131,11 @@ Formulate the styling you want to use in your product and stick to it. For examp
 
 Tone, capitalization, and punctuation should follow a similar style on any given interface.
 
+| Examples |  |
+| -------- | - |
+| **Do** | Writing Style Do Example with checkboxes |
+| **Don't** | Writing Style Don't Example with checkboxes |
+
 <!--
 <table>
     <thead>
@@ -146,6 +166,11 @@ Tone, capitalization, and punctuation should follow a similar style on any given
 #### 2. Address Your Users the Same Way
 
 For example, don’t refer to them as we, the user, and you in the same context.
+
+| Examples |  |
+| -------- | - |
+| **Do** | Click the button to continue. You can select the other button at any time. |
+| **Don't** | Click the button so we can continue. The user can select the other button at any time. |
 
 <!--
 
