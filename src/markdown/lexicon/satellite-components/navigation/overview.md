@@ -1,5 +1,5 @@
 ---
-title: 'Overview'
+title: 'Navigation'
 description: 'This section provides basic use guidelines for the main navigation patterns of the system.'
 layout: 'guide'
 order: 411

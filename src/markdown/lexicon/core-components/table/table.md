@@ -1,5 +1,5 @@
 ---
-title: 'Overview'
+title: 'Table'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/table/table.html'
 description: 'A table is a specific pattern for comparing datasets in a very direct and analytical way.'
