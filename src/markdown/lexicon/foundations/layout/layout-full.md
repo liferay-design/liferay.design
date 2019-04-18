@@ -2,12 +2,12 @@
 title: "Full Box"
 description: "The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid."
 layout: "guide"
-order: 110
+order: 113
 ---
 
 The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid.
 
-This layout is used in the [Dataset Display](lexicon/core-components/dataset_display) template.
+This layout is used in the [dataset display](../../../core-components/dataset-display) template.
 
 ![layout full box 1440px width screen](/images/lexicon/layoutfb01.jpg)
 
@@ -30,7 +30,7 @@ Note, however, that the lateral space is removed from the layout on displays sma
 
 ### Cards
 
-The card layout adapts 100% to the width of the container adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is a layout that we can find in templates like [Dataset Display](../../../core-components/dataset_display).
+The card layout adapts 100% to the width of the container adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is a layout that we can find in templates like [dataset display](../../../core-components/dataset-display).
 
 #### Responsive behavior
 
