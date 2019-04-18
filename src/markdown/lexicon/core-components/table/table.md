@@ -122,6 +122,14 @@ Note that the actions menu has a limitation on the hover state. It is not possib
 
 Never hide an action in the table since both static actions in the row and quick actions are not compatible. Quick actions will always hover an action placed in the table row and it will be impossible to reach, as shown for the "Edit" button in the example below.
 
+| Do |
+| -- |
+| ![first, table view row default, second, table view row hover. There is no action to hover in the row. Correct.](/images/lexicon/TableRowInteractionDo.jpg) | 
+
+| Don't |
+| ----- |
+| ![first, table view row default, second, table view row hover. There is an action hovered in the row. Incorrect.](/images/lexicon/TableRowInteractionDont.jpg) |
+
 <!--
 <div class="dodont">
 	<img class="do" src="/images/lexicon/TableRowInteractionDo.jpg" alt="first, table view row default, second, table view row hover. There is no action to hover in the row. Correct.">
