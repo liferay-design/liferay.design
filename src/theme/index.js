@@ -39,7 +39,7 @@ const colors = {
 	infol2: '#eef2fa',
 	action: '#0B5FFF',
 	// chart colors
-	start: '#4b9fff',
+	stark: '#4b9fff',
 	mormont: '#ffb46e',
 	lannister: '#ff5f5f',
 	martell: '#50d2a0',
@@ -48,6 +48,14 @@ const colors = {
 	dothraki: '#af78ff',
 	kashtark: '#ffd76e',
 	tarly: '#5fc8ff',
+	starkd4: '#0065e4',
+	starkd3: '#0071fd',
+	starkd2: '#187fff',
+	starkd1: '#318dff',
+	starkl1: '#64a9ff',
+	starkl2: '#7eb7ff',
+	starkl3: '#95c5ff',
+	starkl4: '#b1d4ff',
 	// brand colors
 	brandPrimary: '#0b63CE',
 	brandSecondary: '#134194',
