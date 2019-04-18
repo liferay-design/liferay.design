@@ -5,8 +5,6 @@ layout: "guide"
 order: 435
 ---
 
-An element used to identify the author or owner and other related metadata of an asset in sites.
-
 ![Profile info types](/images/lexicon/sites/ProfileInfoTypes.jpg)
 
 ### Attributes

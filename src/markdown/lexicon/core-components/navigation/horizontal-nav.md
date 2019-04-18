@@ -7,8 +7,6 @@ layout: "guide"
 order: 312
 ---
 
-A navigation bar, navbar, is a horizontal bar that provides several access points to different parts of a system.
-
 ![navigation bar with 5 entries, first one seleted](/images/lexicon/Navbar.jpg)
 
 ### Usage

@@ -7,8 +7,6 @@ layout: "guide"
 order: 260
 ---
 
-A progressive disclosure method to guide the user through a task divided into several steps.
-
 ![Multi step form simplified](/images/lexicon/MultiStepFormSimplified.jpg)
 
 ### Usage

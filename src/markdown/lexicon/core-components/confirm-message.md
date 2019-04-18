@@ -5,8 +5,6 @@ layout: "guide"
 order: 240
 ---
 
-Confirmation messages inform the user that a situation is critical or an action is irreversible and they must confirm before proceeding.
-
 ![confirmation message](/images/lexicon/ConfirmationMessage.jpg)
 
 ### Usage

@@ -1,13 +1,11 @@
 ---
 title: 'Badges'
 titleLabel: 'Clay'
-# titleLabelLink: 'https://clayui.com/docs/components/badges.html'
+titleLabelLink: 'https://clayui.com/docs/components/badges.html'
 description: 'Badges help highlight important information, such as notifications or new and unread messages.'
 layout: 'guide'
 order: 203
 ---
-
-Badges help highlight important information, such as notifications or new and unread messages.
 
 Badges have circular borders and are only used to specify a number.
 

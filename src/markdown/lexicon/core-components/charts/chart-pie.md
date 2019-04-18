@@ -7,8 +7,6 @@ layout: "guide"
 order: 229
 ---
 
-A Pie chart divides data by numerical proportions of a total value (always 100%).
-
 ![Pie chart with 4 different elements](/images/lexicon/ChartPie.png)
 
 ### Color use

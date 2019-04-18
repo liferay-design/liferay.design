@@ -8,7 +8,6 @@ order: 370
 hidden: yes
 ---
 
-Timelines represent an horizontal visualization of events along the time.
 
 ### Usage
 

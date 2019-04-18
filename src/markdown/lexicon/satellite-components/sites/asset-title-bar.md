@@ -5,8 +5,6 @@ layout: "guide"
 order: 432
 ---
 
-A bar used to display an asset's title and its associated actions when specific ADTs are displayed.
-
 ![Asset Title Bar](/images/lexicon/sites/AssetTitleBar.jpg)
 
 ### Attributes

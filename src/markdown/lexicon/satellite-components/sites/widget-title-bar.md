@@ -5,8 +5,6 @@ layout: "guide"
 order: 436
 ---
 
-A bar that contains the widget's title and the tools that affect the widget.
-
 ### Definition and Metrics
 
 The Widget title bar pattern can be defined in different ways, depending on the needs of the application.

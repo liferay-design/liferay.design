@@ -5,8 +5,6 @@ layout: "guide"
 order: 501
 ---
 
-A Dataset Template shows how a dataset is displayed using Lexicon patterns.
-
 ### Layout
 This template works with several patterns, listed below, that can be directly mapped with the image:
 

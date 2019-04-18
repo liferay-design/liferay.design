@@ -44,30 +44,6 @@ h1, h2, h3, h4, h5, h6, p, a, div, ul, li, span {
 	}
 }
 
-div > p:first-child {
-	color: $main-l3;
-	font-size: 28px;
-	max-width: 700px;
-	margin-bottom: 80px;
-	line-height: 1.25;
-
-	@media (max-width: $grid-float-breakpoint - 1) {
-		font-size: 24px;
-		 margin-top: 8px;
-	}
-}
-
-div > p:first-child:after {
-	background-color: $action;
-	content: '';
-	display: block;
-	height: 0.25rem;
-	position: relative;
-	left: 0;
-	bottom: -24px;
-	width: 2rem;
- }
-
  div > span > i {
 	 color: $info;
 	 font-size: 0.875rem;
@@ -77,30 +53,6 @@ div > p:first-child:after {
 	 color: $success;
 	 font-weight: 700;
  }
-
-// p.page-description {
-// 	color: red;
-// 	font-size: 28px;
-// 	max-width: 700px;
-// 	margin-bottom: 80px;
-// 	line-height: 1.25;
-
-// 	@media (max-width: $grid-float-breakpoint - 1) {
-// 		font-size: 24px;
-// 		 margin-top: 8px;
-// 	}
-// }
-
-// p.page-description:after {
-// 	background-color: $action;
-// 	content: '';
-// 	display: block;
-// 	height: 0.25rem;
-// 	position: relative;
-// 	left: 0;
-// 	bottom: -24px;
-// 	width: 2rem;
-// }
 
 
 // .docs header {

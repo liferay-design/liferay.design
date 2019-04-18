@@ -79,8 +79,23 @@ export default class Lexicon extends Component {
 											>
 												<h1>{mdx.frontmatter.title}</h1>
 
+
 												{!matches && <AuthContainer />}
 											</Flex>
+
+											{mdx.frontmatter.titleLabelLink ? (
+												<span>
+													<a className={styles.labelLink} href={mdx.frontmatter.titleLabelLink} target="_blank">VIEW IN CLAY</a>
+												</span>
+											) : (
+												null
+											)}
+
+											{mdx.frontmatter.description ? (
+												<p className={styles.description}>{mdx.frontmatter.description}</p>
+											) :(
+												null
+											)}
 
 											<MDXRenderer className={styles.body}>
 												{mdx.code.body}
@@ -134,6 +149,7 @@ export const pageQuery = graphql`
 						order
 						title
 						description
+						titleLabelLink
 					}
 					fields {
 						slug
@@ -145,6 +161,8 @@ export const pageQuery = graphql`
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
 				title
+				description
+				titleLabelLink
 			}
 			code {
 				body

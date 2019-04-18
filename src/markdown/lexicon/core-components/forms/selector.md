@@ -7,8 +7,6 @@ layout: "guide"
 order: 261
 ---
 
-A form control element used to select from several provided options and enter data.
-
 ## Selector
 
 ![select default state](/images/lexicon/Selector.jpg)

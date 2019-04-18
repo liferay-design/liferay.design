@@ -7,8 +7,6 @@ layout: "guide"
 order: 412
 ---
 
-Control bar is a toolbar that provides identification and lets the user navigate and perform actions.
-
 ### Usage
 
 Header is always fixed to the top of the window.

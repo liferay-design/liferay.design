@@ -6,8 +6,6 @@ layout: "guide"
 order: 212
 ---
 
-Card for navigation is a visual component focused on providing navigation in distributive pages or discributive page sections.
-
 ![navigation card default state](/images/lexicon/CardNavDefault.jpg)
 
 ### Usage

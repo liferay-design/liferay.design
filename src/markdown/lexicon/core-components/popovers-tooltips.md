@@ -7,8 +7,6 @@ layout: 'guide'
 order: 322
 ---
 
-Popovers and Tooltips are patterns used to show helpful information in two different ways.
-
 ## Popovers
 
 ![four different popovers with the arrow to the left, or right or top or down](/images/lexicon/Popover.jpg)

@@ -5,8 +5,6 @@ layout: 'guide'
 order: 221
 ---
 
-This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.
-
 ### Color
 
 [Colors](../chart-color-palette) must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.

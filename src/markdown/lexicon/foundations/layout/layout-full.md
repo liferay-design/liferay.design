@@ -5,8 +5,6 @@ layout: "guide"
 order: 113
 ---
 
-The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid.
-
 This layout is used in the [dataset display](../../../core-components/dataset-display) template.
 
 ![layout full box 1440px width screen](/images/lexicon/layoutfb01.jpg)

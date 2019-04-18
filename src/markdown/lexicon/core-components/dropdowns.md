@@ -7,8 +7,6 @@ layout: "guide"
 order: 243
 ---
 
-A dropdown menu displays a list of options for the element that triggers it.
-
 ![default dropdown menu](/images/lexicon/Dropdown.jpg)
 
 ### Usage

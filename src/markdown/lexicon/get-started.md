@@ -1,6 +1,6 @@
 ---
 title: 'Get Started'
-description: 'User experience design language.'
+# description: 'User experience design language.'
 layout: 'guide'
 icon: 'lexicon-site-about'
 order: 1

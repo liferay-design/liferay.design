@@ -7,8 +7,6 @@ layout: "guide"
 order: 253
 ---
 
-Form navigation can be displayed in two different ways: a left navigation menu or a wizard.
-
 ### Left navigation menu
 
 A left navigation menu lets you simplify a form into smaller, more manageable forms. It's best to divide a form by context.

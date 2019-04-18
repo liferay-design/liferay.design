@@ -8,7 +8,6 @@ order: 320
 hidden: yes
 ---
 
-Pager allows navigation between pages of a process or task divided into subtasks (pages).
 
 ### Usage
 

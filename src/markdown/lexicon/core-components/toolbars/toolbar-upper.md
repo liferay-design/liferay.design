@@ -5,8 +5,6 @@ layout: "guide"
 order: 363
 ---
 
-Upper toolbar is a guidance pattern to allow designers create their own toolbars for edition with preview pages.
-
 This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
 
 ![upper toolbar with different possible components described in usage section](/images/lexicon/ToolbarUpper.jpg)

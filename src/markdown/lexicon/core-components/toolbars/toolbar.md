@@ -5,8 +5,6 @@ layout: "guide"
 order: 361
 ---
 
-A toolbar is a set of actions related to a specific context that are grouped into a horizontal bar.
-
 ### Usage
 
 A toolbar organizes actions into a horizontal bar that is responsive. Its height changes to accommodate the height of the elements it contains. The toolbar always maintains the vertical alignment.

@@ -39,3 +39,51 @@
 		display: flex !important;
 	}
 }
+
+
+.description {
+	color: $main-l3;
+	font-size: 28px;
+	max-width: 700px;
+	margin-bottom: 80px;
+	line-height: 1.25;
+
+	@media (max-width: $grid-float-breakpoint - 1) {
+		font-size: 24px;
+		 margin-top: 8px;
+	}
+}
+
+.description:after {
+	background-color: $action;
+	content: '';
+	display: block;
+	height: 0.25rem;
+	position: relative;
+	left: 0;
+	bottom: -24px;
+	width: 2rem;
+}
+
+.labelLink {
+	font-size: 10px;
+	font-weight: 300;
+	margin: 0 0 0 0;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #FFF;
+    border-color: #ff8f39;
+	color: #B95000;
+	border-radius: 0.125rem;
+    border-style: solid;
+    border-width: 0.0625rem;
+    display: inline-flex;
+	
+	position: relative;
+	top: -2.5rem;
+
+	@media (max-width: $grid-float-breakpoint - 1) {
+		margin-top: 1.5rem;
+	}
+}
+
