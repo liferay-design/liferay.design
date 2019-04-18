@@ -61,7 +61,7 @@ As we approached the foundational elements with simplification and standardizati
 
 Lexicon's type scale is based on an initial increase of 2px that grows to 4px in larger font sizes to favor contrast and improve readability. It follows a non-linear arithmetic progression that's understandable and easy to use in both simple and complex applications.
 
-<!-- <table>
+<table>
     <thead>
         <tr>
             <th>px</th>
@@ -73,60 +73,60 @@ Lexicon's type scale is based on an initial increase of 2px that grows to 4px in
         <tr>
             <td>10px</td>
             <td>0.625rem</td>
-            <td class="type-scale type-scale-10">Design matters</td>
+            <td style="font-size: 0.625rem;">Design matters</td>
         </tr>
         <tr>
             <td>12px</td>
             <td>0.75rem</td>
-            <td class="type-scale type-scale-12">Design matters</td>
+            <td style="font-size: 0.75rem;">Design matters</td>
         </tr>
         <tr>
             <td>14px</td>
             <td>0.875rem</td>
-            <td class="type-scale type-scale-14">Design matters</td>
+            <td style="font-size: 0.875rem;">Design matters</td>
         </tr>
         <tr>
             <td>16px</td>
             <td>1rem</td>
-            <td class="type-scale type-scale-16">Design matters</td>
+            <td style="font-size: 1rem;">Design matters</td>
         </tr>
         <tr>
             <td>18px</td>
             <td>1.125rem</td>
-            <td class="type-scale type-scale-18">Design matters</td>
+            <td style="font-size: 1.125rem;">Design matters</td>
         </tr>
         <tr>
             <td>20px</td>
             <td>1.25rem</td>
-            <td class="type-scale type-scale-20">Design matters</td>
+            <td style="font-size: 1.25rem;">Design matters</td>
         </tr>
         <tr>
             <td>24px</td>
             <td>1.5rem</td>
-            <td class="type-scale type-scale-24">Design matters</td>
+            <td style="font-size: 1.5rem;">Design matters</td>
         </tr>
         <tr>
             <td>28px</td>
             <td>1.75rem</td>
-            <td class="type-scale type-scale-28">Design matters</td>
+            <td style="font-size: 1.75rem;">Design matters</td>
         </tr>
         <tr>
             <td>32px</td>
             <td>2rem</td>
-            <td class="type-scale type-scale-32">Design matters</td>
+            <td style="font-size: 2rem;">Design matters</td>
         </tr>
         <tr>
             <td>36px</td>
             <td>2.25rem</td>
-            <td class="type-scale type-scale-36">Design matters</td>
+            <td style="font-size: 2.25rem;">Design matters</td>
         </tr>
         <tr>
             <td>40px</td>
             <td>2.5rem</td>
-            <td class="type-scale type-scale-40">Design matters</td>
+            <td style="font-size: 2.5rem;">Design matters</td>
         </tr>
     </tbody>
-</table> -->
+</table>
 
 ### Basic Formatting
 
@@ -151,7 +151,7 @@ Lexicon's Line height only applies to texts elements that run more than one line
 
 For efficiency and simplicity, Lexicon only incorporates three font weights for content:
 
-<!--
+
 <table>
     <thead>
         <tr>
@@ -162,18 +162,18 @@ For efficiency and simplicity, Lexicon only incorporates three font weights for 
     <tbody>
         <tr>
             <td>Regular</td>
-            <td class="type-scale type-scale-16 type-regular">400</td>
+            <td style="font-weight: 400">400</td>
         </tr>
         <tr>
             <td>Semibold</td>
-            <td class="type-scale type-scale-16 type-semibold">600</td>
+            <td style="font-weight: 600">600</td>
         </tr>
         <tr>
             <td>Bold</td>
-            <td class="type-scale type-scale-16 type-bold">700</td>
+            <td style="font-weight: 700">700</td>
         </tr>
     </tbody>
-</table> -->
+</table> 
 
 The use cases for each font weight are covered in the "Type Styles" section.
 
@@ -221,10 +221,10 @@ The Lexicon UI elements are styled using a combination of the format values desc
 
 Content aligment is relevant for readability. Respecting some basic rules, 1rem spacing, make your text easier to consume. Please follow the advices in the images:
 
-<!-- <p class="do">Do</p> -->
+| Do | 
+| -- | 
+| ![two buttons of same height in a row](/images/lexicon/ContentAlignmentDo.jpg) |
 
-![two buttons of same height in a row](/images/lexicon/ContentAlignmentDo.jpg)
-
-<!-- <p class="dont">Don't</p> -->
-
-![two buttons of same height in a row](/images/lexicon/ContentAlignmentDont.jpg)
+| Don't |
+| ----- | 
+| ![two buttons of same height in a row](/images/lexicon/ContentAlignmentDont.jpg) |
