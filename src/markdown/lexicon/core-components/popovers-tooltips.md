@@ -23,6 +23,10 @@ Popovers are used together with the question mark icon to communicate to the use
 
 For readability, keep a distance of 8px between text and the icon.
 
+| Do | Don't |
+| -- | ----- |
+| ![keep 8 pixels between title and help icon](/images/lexicon/PopoverTitleIconDo.jpg) | ![do not place it nearer than 8 pixels](/images/lexicon/PopoverTitleIconDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -36,6 +40,10 @@ For readability, keep a distance of 8px between text and the icon.
 </div> -->
 
 Keep a distance of 16px between text and the icon.
+
+| Do | Don't |
+| -- | ----- |
+| ![keep 16 pixels between a section title and help icon](/images/lexicon/PopoverSectionIconDo.jpg) | ![do not place it nearer than 16 pixels](/images/lexicon/PopoverSectionIconDont.jpg) |
 
 <!--
 <div class="row">
@@ -71,6 +79,10 @@ Tooltips are brief pieces of information that appear on hover state over an elem
 #### Dos and Don'ts
 
 Use tooltips on elements that trigger an action, such as button icons.
+
+| Do | Don't |
+| -- | ----- |
+| ![tooltip on button icon hover action](/images/lexicon/TooltipDo.jpg) | ![tooltip on plain text hover action](/images/lexicon/TooltipDont.jpg) |
 
 <!--
 <div class="row">
