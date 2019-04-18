@@ -38,6 +38,16 @@ const colors = {
 	infol1: '#89a7e0',
 	infol2: '#eef2fa',
 	action: '#0B5FFF',
+	// chart colors
+	start: '#4b9fff',
+	mormont: '#ffb46e',
+	lannister: '#ff5f5f',
+	martell: '#50d2a0',
+	tyrell: '#ff73c3',
+	targaryen: '#9ce269',
+	dothraki: '#af78ff',
+	kashtark: '#ffd76e',
+	tarly: '#5fc8ff',
 	// brand colors
 	brandPrimary: '#0b63CE',
 	brandSecondary: '#134194',
