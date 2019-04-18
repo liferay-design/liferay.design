@@ -1,7 +1,7 @@
 ---
 title: 'Alerts'
 titleLabel: 'Clay'
-# titleLabelLink: "https://clayui.com/docs/components/alerts.html"
+titleLabelLink: "https://clayui.com/docs/components/alerts.html"
 description: 'Alerts are used to capture the attention of the user in an intrusive way.'
 layout: 'guide'
 order: 202
