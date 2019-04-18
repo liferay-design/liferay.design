@@ -90,13 +90,13 @@ A text area is similar to a text field input, however, it supports several lines
 
 ### Usage
 
-* A text area's height can be resized by the user, allowing them to see more or less text as they please.
-* A text area has the same states and validation states as a text field.
-* Text areas can have help text. Lexicon provides two different mechanisms to provide help:
+*	A text area's height can be resized by the user, allowing them to see more or less text as they please.
+*	A text area has the same states and validation states as a text field.
+*	Text areas can have help text. Lexicon provides two different mechanisms to provide help:
 	* Help text below the field: Use it if you want to make your help text very clear to the user.
 	* Help text inside a popover triggered from a help icon next to the title: Use it when you only want to provide help text if the user requires help.
-* Placeholder text is not recommended since users can misinterpret it as final text. If you must use a placeholder, do not write help text in it. Just provide a text example.
-* A text area can be configured to expand on input change.
+*	Placeholder text is not recommended since users can misinterpret it as final text. If you must use a placeholder, do not write help text in it. Just provide a text example.
+*	A text area can be configured to expand on input change.
 	* It requires a min-height of 44px like a text field.
 	* The text area has a mid-height value set to 88px, equivalent to three lines of text.
 	* The text area has a max-height value set to 200px. From mid-height to max-height, the text area will grow in height. When it reaches the maximum, the text area stops growing and the vertical scroll bar becomes available.

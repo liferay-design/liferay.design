@@ -1,5 +1,5 @@
 ---
-title: 'Overview'
+title: 'Table'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/table/table.html'
 description: 'A table is a specific pattern for comparing datasets in a very direct and analytical way.'
@@ -15,7 +15,7 @@ A table view is useful for comparing entries that need exhaustive comparison. Ta
 
 A table entry or row doesn't support two different data types in the same column. The is due to potential comparison and sorting problems.
 
-When a table is used together with the management toolbar, the table entries must include a checkbox since the selection and actions are reflected in the management toolbar. See the [dataset display](../../dataset_display) for examples.
+When a table is used together with the management toolbar, the table entries must include a checkbox since the selection and actions are reflected in the management toolbar. See the [dataset display](../../dataset-display) for examples.
 
 ![table parts](/images/lexicon/TableParts.jpg)
 
@@ -103,8 +103,8 @@ Table rows on hover contain the following attributes (labeled in the image above
 -   You can add links to a row to navigate to other areas.
 -   A row can have related actions. If there is only one action for the row that can be represented by an icon, you don't need to use an actions menu. Otherwise, include an actions menu on the right side of the row.
 -   Use the main text as an action for the following use cases:
-    _ A Folder that navigates to the next level
-    _ A File that navigates to its detailed view
+    -	A Folder that navigates to the next level
+    -	A File that navigates to its detailed view
 -   Never use the row action to view a preview. This is always a secondary action placed inside the row's action menu.
 -   If the link drives the user out of the site, please identify visually that this link will open in a new page.
 -   A cell entry can include a button as the main action of a table entry. An example could be "Execute".

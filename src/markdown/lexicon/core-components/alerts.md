@@ -24,7 +24,7 @@ Alerts are used to capture the attention of the user in an intrusive way.
 
 ### Types
 
-![alert colors to define each type as the table below describes](/lexicon/images/AlertColors.jpg)
+![alert colors to define each type as the table below describes](/lexicon/images/AlertColors.png)
 
 | Type        | Usage                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,11 +33,11 @@ Alerts are used to capture the attention of the user in an intrusive way.
 | Warning     | The warning alert is Yellow. It lets users know that the action was completed, but there are some issues with it. (E.g. The item was created but with some issues). |
 | Information | The information alert is Blue. It provides relevant information while a user carries out a task.                                                                    |
 
-See the [colors page](../../designPrinciples/colors) to learn more about color definitions.
+See the [colors page](../../foundations/color) to learn more about color definitions.
 
 ### Attributes
 
-![info alert colors with numbers specifying each of its attributes](/lexicon/images/AlertParts.jpg)
+![info alert colors with numbers specifying each of its attributes](/lexicon/images/AlertParts.png)
 
 An alert has 4 different attributes:
 
@@ -48,30 +48,30 @@ An alert has 4 different attributes:
 
 The image below shows the metrics for an alert's design:
 
-![info alert colors with metrics stated to understand how it is built](/lexicon/images/AlertMetrics.jpg)
+![info alert colors with metrics stated to understand how it is built](/lexicon/images/AlertMetrics.png)
 
 ### Variations
 
 #### Toast
 
-![four different toast alert colors](/lexicon/images/AlertToast.jpg)
+![four different toast alert colors](/lexicon/images/AlertToast.png)
 
 This type of alert must appear at the bottom left side of the screen. There must be a 24px separation from the left and from the bottom. If the alert is temporary, it will disappear in 10 seconds.
 
 An example is shown below:
 
-![toast alert example. Placed to the top right in the screen and below the header](/lexicon/images/AlertToastExample.jpg)
+![toast alert example. Placed to the top right in the screen and below the header](/lexicon/images/AlertToastExample.png)
 
 Toasts can have actions associated. Actions are always represented by buttons while navigation is represented by links:
 
-![toast alert examples for each type with a button](/lexicon/images/AlertToastWithButton.jpg)
+![toast alert examples for each type with a button](/lexicon/images/AlertToastWithButton.png)
 
 #### Embedded
 
 Embedded alerts are meant for use in forms. Usually you will only need to use the information one. Its width depends on the width of the container it is placed in, always respecting the container margins to the content. The close action is not required for embedded alerts.
 
-![four different embedded alert colors](/lexicon/images/AlertEmbedded.jpg)
+![four different embedded alert colors](/lexicon/images/AlertEmbedded.png)
 
 An example is shown below:
 
-![embedded alert example. Placed inside a form.](/lexicon/images/AlertEmbeddedExample.jpg)
+![embedded alert example. Placed inside a form.](/lexicon/images/AlertEmbeddedExample.png)

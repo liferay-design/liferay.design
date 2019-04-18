@@ -57,15 +57,15 @@ Files can be in different states:
 
 -   Default state: when the file is already uploaded
 
-![file upload list row default state](/images/lexicon/FileUploadListDefault.png)
+    ![file upload list row default state](/images/lexicon/FileUploadListDefault.png)
 
 -   Upload state: during the upload process
 
-![file upload list row upload state](/images/lexicon/FileUploadListProgress.png)
+    ![file upload list row upload state](/images/lexicon/FileUploadListProgress.png)
 
 -   Error state: when the file upload has failed
 
-![file upload list row error state](/images/lexicon/FileUploadListError.png)
+    ![file upload list row error state](/images/lexicon/FileUploadListError.png)
 
 #### Image Uploader
 
@@ -84,16 +84,16 @@ Images can be in different states:
 
 -   Upload state: during the upload process. The default state is shown in the image on the left. The hover state is shown in the image on the right.
 
-![image upload, upload state](/images/lexicon/FileUploadImageStates.png)
+    ![image upload, upload state](/images/lexicon/FileUploadImageStates.png)
 
 -   Error state: when the file upload has failed
 
-![image upload error state](/images/lexicon/FileUploadImageStatesError.png)
+    ![image upload error state](/images/lexicon/FileUploadImageStatesError.png)
 
 -   Default and hover image states: when the file is already uploaded
 
-![image default and hover state](/images/lexicon/FileUploadImageStatesDefaultHover.png)
+    ![image default and hover state](/images/lexicon/FileUploadImageStatesDefaultHover.png)
 
 -   The image uploader may require a checked state for certain options:
 
-![image default and selected state](/images/lexicon/FileUploadImageStatesChecbox.png)
+    ![image default and selected state](/images/lexicon/FileUploadImageStatesChecbox.png)

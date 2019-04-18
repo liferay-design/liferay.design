@@ -144,7 +144,7 @@ Examples, along with images demonstrating the proper usage, have been added to t
 <time>January 3rd, 2018</time>
 <p>Sites</p>
 
-A full set of components is available in the [sites section](../satellite-components/sites/overview) for you to use to build your own site widgets. This lets you transform old widgets, by bringing them new life with a better information architecture, structure, and a refreshing design.
+A full set of components is available in the [sites section](../../satellite-components/sites/overview) for you to use to build your own site widgets. This lets you transform old widgets, by bringing them new life with a better information architecture, structure, and a refreshing design.
 
 <time>November 28th, 2017</time>
 <p>Layouts and Form Hierarchy</p>

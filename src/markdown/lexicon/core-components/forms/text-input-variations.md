@@ -15,7 +15,7 @@ A description of the search, autocomplete, labels, date, numeric, and password i
 
 An autocomplete text field is an input that offers the user text suggestions while they type.
 
-![autocomple text field with list open](/images/lexicon/AutocompleteTextField.jpg)
+![autocomple text field with list open](/images/lexicon/AutocompleteTextField.png)
 
 ## Search field
 
@@ -31,7 +31,7 @@ A search field can have auto completion to display a list of options below the f
 -   The list must update its content as the user types.
 -   Characters in each entry must be semibold and marked in regular as the user types.
 
-![search field with autocompletion](/images/lexicon/AutocompleteTextField.jpg)
+![search field with autocompletion](/images/lexicon/AutocompleteTextField.png)
 
 ### States
 

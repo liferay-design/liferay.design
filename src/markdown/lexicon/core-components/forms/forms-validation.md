@@ -13,7 +13,7 @@ This type of validation occurs on the fly, while the user fills in the form. It 
 
 #### Inline validation
 
-Forms have inline validation. All [form fields](../text_input) that can be checked against a set of rules while filling them in must show success or error state to the user.
+Forms have inline validation. All [form fields](../text-input) that can be checked against a set of rules while filling them in must show success or error state to the user.
 
 ![default error state](/images/lexicon/InputHelpTextError.jpg)
 
@@ -40,6 +40,6 @@ There may be a case when only one indeterminate field is required in a form or f
 
 Forms are validated when they are submitted via the "Save" action. When a form is completely validated, it first runs partial validation on all of the mandatory fields. If this is successful, a service is called.
 
-The example below communicates the return of that service call with an [embedded alert](../../alerts).
+The example below communicates the return of that service call with an [embedded alert](../../alerts/#embedded).
 
 ![push alert example. Placed right below the last horizontal navigation label](/images/lexicon/AlertEmbeddedExample.png)
