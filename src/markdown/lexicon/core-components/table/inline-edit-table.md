@@ -6,8 +6,6 @@ layout: "guide"
 order: 342
 ---
 
-A table variation that lets users modify certain values of the entry without going to the detail page.
-
 ![table inline edition, view mode](/images/lexicon/TableInlineEdition.jpg)
 
 ### Usage

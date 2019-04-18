@@ -7,7 +7,6 @@ layout: 'guide'
 order: 290
 ---
 
-Lists are a visual representation of a dataset, based on groups of related content, that is organized vertically.
 
 ### Usage
 

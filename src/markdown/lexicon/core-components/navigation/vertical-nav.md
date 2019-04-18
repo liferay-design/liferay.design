@@ -7,8 +7,6 @@ layout: "guide"
 order: 313
 ---
 
-An alternative patterns that displays navigation items in a vertical menu.
-
 ![vertical navigation](/images/lexicon/NavigationVertical.jpg)
 
 ### Usage

@@ -5,8 +5,6 @@ layout: 'guide'
 order: 411
 ---
 
-This section provides basic use guidelines for the main navigation patterns of the system.
-
 This section describes the main navigational patterns, although more patterns are available.
 
 ![navigation configuration DE](/images/lexicon/Navigation.jpg)

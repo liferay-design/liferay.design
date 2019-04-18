@@ -7,8 +7,6 @@ layout: "guide"
 order: 362
 ---
 
-Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset.
-
 ![state one of the management bar](/images/lexicon/ManagementBarState1.jpg)
 
 ![state two of the management bar](/images/lexicon/ManagementBarState2.jpg)

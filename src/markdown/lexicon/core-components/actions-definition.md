@@ -5,8 +5,6 @@ layout: 'guide'
 order: 201
 ---
 
-This page defines the use case for several common actions.
-
 ### Delete vs Send to Recycle Bin
 
 #### Delete

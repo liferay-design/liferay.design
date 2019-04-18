@@ -5,8 +5,6 @@ layout: "guide"
 order: 433
 ---
 
-A multi-purpose toolbar that can be located in different types of asset visualizations.
-
 ### Layout
 The asset toolbar's layout is flexible and adapts to different viewport sizes, as shown in the examples below:
 

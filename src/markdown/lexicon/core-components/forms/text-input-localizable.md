@@ -7,8 +7,6 @@ layout: "guide"
 order: 267
 ---
 
-A text input variation used in fields that can be translated into multiple languages.
-
 ### Layout
 
 This component contains two elements:

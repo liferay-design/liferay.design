@@ -5,8 +5,6 @@ layout: "guide"
 order: 255
 ---
 
-A description of how validation patterns must be displayed within form structures.
-
 ### Partial validation
 
 This type of validation occurs on the fly, while the user fills in the form. It doesn't require the user to fill in the entire form or the form to be submitted to see it.

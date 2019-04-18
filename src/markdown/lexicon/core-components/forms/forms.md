@@ -7,8 +7,6 @@ layout: 'guide'
 order: 251
 ---
 
-Forms obtain user data and transmit it to the system to either store the data, produce an action, or both.
-
 ### Parts
 
 ![lexicon default](/images/lexicon/FormParts.jpg)
