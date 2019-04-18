@@ -17,7 +17,15 @@ A modal is a secondary window that communicates or provides an action inside the
 -   We recommend that you do not use the full-width size, as it appears as though it's a completely new page. If you require this size, we recommend that you consider creating a new page instead of a modal.
 -   Modals belong to a screen, therefore a modal should not be triggered from another modal window (see the Modal over modal section below).
 -   When a modal has a footer, place the actions inside and align them to the left. Follow this order for your actions: Primary button (only one), secondary button, and button link.
-    <!--
+
+| Do | Don't |
+| -- | ----- |
+| Use it to draw the user's attention to something that is more important. | Do not use it for complex cases that require you to display a lot of information or to complete a long form. In these cases, use a new page instead. |
+| Use it for simple content cases. | Try not to trigger a modal window from another modal window. Modal windows are subordinate to pages. |
+| Use it if you need to interrupt the user flow to display concrete information or capture data from the user. | Never completely cover the page's information with the modal window. |
+
+
+<!--
     <table>
         <thead>
             <tr>
