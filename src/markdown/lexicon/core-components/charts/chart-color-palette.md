@@ -39,6 +39,14 @@ Colors help identify data and improve readability, but they must be chosen caref
 
 Using the proper shape and color order helps avoid color vibration and lets users, including color blind users, easily identify chart sections. A pie chart example is shown below:
 
+**Do**
+
+![colors must follow the order defined in the list and be separated in this case](/images/lexicon/ChartShapeOrderRight.png)
+
+**Don't**
+
+![colors in wrong order](/images/lexicon/ChartShapeOrderWrong.png)
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">

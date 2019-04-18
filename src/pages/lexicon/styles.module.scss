@@ -73,6 +73,11 @@ div > p:first-child:after {
 	 font-size: 0.875rem;
  }
 
+ p.do {
+	 color: $success;
+	 font-weight: 700;
+ }
+
 // p.page-description {
 // 	color: red;
 // 	font-size: 28px;

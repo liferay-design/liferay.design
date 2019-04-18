@@ -26,6 +26,10 @@ Use labels to organize groups of items in your application. Labels have rounded 
 
 Labels categorize information and provide quick recognition.
 
+| Do | Don't |
+| -- | ----- |
+| ![Simple label](/images/lexicon/LabelSmallDo.jpg) | ![Label with sticker inside](/images/lexicon/LabelSmallDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -40,6 +44,10 @@ Labels categorize information and provide quick recognition.
 
 Labels can only contain one line of text.
 
+| Do | Don't |
+| -- | ----- |
+| ![default label](/images/lexicon/LabelTextDo.jpg) | ![default label with 2 lines of text](/images/lexicon/LabelTextDontLines.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -53,6 +61,10 @@ Labels can only contain one line of text.
 </div> -->
 
 Never use ellipsis in labels.
+
+| Do | Don't |
+| -- | ----- |
+| ![default label](/images/lexicon/LabelTextDo.jpg) | ![default label with ellipsis](/images/lexicon/LabelTextDontEllipsis.jpg) |
 
 <!--
 <div class="row">

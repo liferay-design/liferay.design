@@ -28,6 +28,10 @@ Badges have circular borders and are only used to specify a number.
 
 Badges can be placed near text, but there must be a minimum distance of 8px between the two.
 
+| Do | Don't |
+| -- | ----- |
+| ![badge distance to an element is 8 pixels](/images/lexicon/BadgeDoDistance.jpg) | ![don't place a badge closer than 8 pixels to any element in horizontal](/images/lexicon/BadgeDontDistance.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">

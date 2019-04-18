@@ -65,6 +65,10 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 
 Use the same height for all the buttons that are in the same row.
 
+| Do | Don't |
+| -- | ----- |
+| ![two buttons of same height in a row](/images/lexicon/ButtonSizeDo.jpg) | ![two buttons of different height in a row](/images/lexicon/ButtonSizeDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -78,6 +82,10 @@ Use the same height for all the buttons that are in the same row.
 </div> -->
 
 Characters can not all be uppercase in a button.
+
+| Do | Don't |
+| -- | ----- |
+| ![button with no caps lock](/images/lexicon/ButtonCapitalizationDo.jpg) | ![button with caps lock](/images/lexicon/ButtonCapitalizationDont.jpg) |
 
 <!--
 <div class="row">
@@ -93,6 +101,10 @@ Characters can not all be uppercase in a button.
 
 Text can not wrap multiple lines. It must all be on one line.
 
+| Do | Don't |
+| -- | ----- |
+| ![button with text on one line](/images/lexicon/ButtonWrapDo.jpg) | ![button with text wrapped](/images/lexicon/ButtonWrapDont.jpg) |
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -106,6 +118,10 @@ Text can not wrap multiple lines. It must all be on one line.
 </div> -->
 
 A borderless button must be placed either before or after a set of bordered buttons.
+
+| Do | Don't |
+| -- | ----- |
+| ![borderless button, secondary button, primary button](/images/lexicon/ButtonIconDo.jpg) | ![secondary button, borderless button, primary button](/images/lexicon/ButtonIconDont.jpg) |
 
 <!--
 <div class="row">

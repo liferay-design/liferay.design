@@ -26,6 +26,13 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
 
 ### Dos and Don'ts
 
+| Do | Don't |
+| -- | ----- |
+| Only use it for hierarchical purposes. | Do not use it if there is only one navigation level. |
+| Use it when navigating through folders in tables or lists. | Do not use it in the first navigation level. |
+|  | Do not use it for cross application navigation. |
+|  | Never use more than one text line. |
+
 <!--
 <table>
     <thead>
