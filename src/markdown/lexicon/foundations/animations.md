@@ -11,7 +11,7 @@ Animations are used to transmit messages while capturing the user's attention in
 
 ### Usage
 
-Lexicon provides animations that you can use in your sites and apps. They should only be used to support a message. Specific examples can be found in [dataset display](lexicon/core-components/datasetdisplay).
+Lexicon provides animations that you can use in your sites and apps. They should only be used to support a message. Specific examples can be found in [dataset display](../core-components/dataset-display).
 
 #### Empty collection
 
