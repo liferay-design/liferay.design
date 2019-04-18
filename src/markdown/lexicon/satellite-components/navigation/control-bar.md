@@ -1,13 +1,13 @@
 ---
-title: "Header"
+title: "Control bar"
 titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/css-framework/satellites/navigation/header.html"
-description: "Header is a toolbar that provides identification and lets the user navigate and perform actions."
+description: "Control bar is a toolbar that provides identification and lets the user navigate and perform actions."
 layout: "guide"
 order: 412
 ---
 
-Header is a toolbar that provides identification and lets the user navigate and perform actions.
+Control bar is a toolbar that provides identification and lets the user navigate and perform actions.
 
 ### Usage
 
