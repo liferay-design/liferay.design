@@ -69,6 +69,12 @@ Image cards are used in image/document galleries.
 
 Images can vary in size. So no visual information is lost in the card, Lexicon maintains the original images aspect ratio within the image area's container.
 
+![Card Image Aspect Ratio 1](/images/lexicon/CardImageAspectRatio1.jpg)
+
+![Card Image Aspect Ratio 2](/images/lexicon/CardImageAspectRatio2.jpg)
+
+![Card Image Aspect Ratio 3](/images/lexicon/CardImageAspectRatio3.jpg)
+
 <!--
 <div class="row">
 	<div class="dodont col-lg">
@@ -103,6 +109,10 @@ Aspect ratio might be used when the content to represent in the card is a docume
 ### User card
 
 User cards represent users. The user can be represented by their user image or up to two initials extracted from their user name or name + surname.
+
+![User card without image but initials](/images/lexicon/CardUser.jpg)
+
+![User card with image](/images/lexicon/CardUserImage.jpg)
 
 <!--
 <div class="row">
