@@ -7,7 +7,6 @@ layout: 'guide'
 order: 280
 ---
 
-Icons are a visual representation of an idea and/or action.
 
 ### Usage
 

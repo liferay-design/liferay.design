@@ -7,8 +7,6 @@ layout: "guide"
 order: 259
 ---
 
-A progress bar used to divide the main task into subtasks to help users complete long processes.
-
 ![Multi step form](/images/lexicon/MultiStepForm7Steps.jpg)
 
 ### Usage

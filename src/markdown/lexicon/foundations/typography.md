@@ -7,8 +7,6 @@ layout: 'guide'
 order: 120
 ---
 
-A basic reference for the definition of the visual identity and the organization of the content.
-
 ### Font Stacks
 
 Lexicon uses two text styles exclusively: A sans serif one, which is the main style, and a monospaced one used to render code.

@@ -6,7 +6,6 @@ layout: 'guide'
 order: 300
 ---
 
-The loading indicator shows the user that an external process, like a connection, is being executed.
 
 ### Usage
 

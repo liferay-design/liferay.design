@@ -7,8 +7,6 @@ layout: 'guide'
 order: 211
 ---
 
-Cards are a specific form of data visualization focused mainly on displaying images.
-
 ![card with image default state](/images/lexicon/CardImage.jpg)
 
 ### Usage

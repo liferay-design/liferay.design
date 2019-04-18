@@ -81,6 +81,7 @@ export default class Lexicon extends Component {
 
 												{!matches && <AuthContainer />}
 											</Flex>
+											<p className={styles.description}>{mdx.frontmatter.description}</p>
 
 											<MDXRenderer className={styles.body}>
 												{mdx.code.body}
@@ -145,6 +146,7 @@ export const pageQuery = graphql`
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
 				title
+				description
 			}
 			code {
 				body

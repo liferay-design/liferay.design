@@ -5,8 +5,6 @@ layout: "guide"
 order: 242
 ---
 
-A pattern that lets users drag and drop elements in the interface. This can optionally perform an action, depending on the target the element is dropped onto.
-
 ### Events
 
 Drag and drop interaction is composed of a series of six events:

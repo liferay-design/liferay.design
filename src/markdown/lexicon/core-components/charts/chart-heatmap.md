@@ -6,8 +6,6 @@ layout: "guide"
 order: 227
 ---
 
-The Heatmap Chart is a visual representation of the data using colors to indicate the values.
-
 ![Heatmap chart](/images/lexicon/ChartHeatmap.png)
 
 ### Color use

@@ -7,7 +7,6 @@ layout: 'guide'
 order: 204
 ---
 
-Buttons communicate an action to happen on user interaction.
 
 ### Types
 

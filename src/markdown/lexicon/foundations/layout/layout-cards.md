@@ -5,8 +5,6 @@ layout: "guide"
 order: 111
 ---
 
-The card layout is used to display cards in a dataset.
-
 The card layout adapts 100% to the width of the container, adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is layout is used in the [Dataset Display](../../core-components/dataset-display) template.
 
 #### Responsive behavior

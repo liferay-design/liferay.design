@@ -6,7 +6,6 @@ layout: "guide"
 order: 324
 ---
 
-A vertical panel that appears from the right or the left side of the screen, triggered by a button.
 
 Lexicon defines two types of sidebars:
 * **Product Menu:** Lets the user navigate through different applications inside the Control Panel and the Site. See [product menu](../../satellite-components/sidebar/product-menu) for more information.

@@ -7,8 +7,6 @@ layout: 'guide'
 order: 256
 ---
 
-Checkboxes, radios and toggles provide users with different selection and activation tools.
-
 ## Checkbox
 
 A checkbox is a component that lets the user select the value that is written in its corresponding text label. A user can select multiple checkboxes from a group at the same time.

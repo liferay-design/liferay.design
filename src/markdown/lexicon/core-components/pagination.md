@@ -7,7 +7,6 @@ layout: "guide"
 order: 321
 ---
 
-Pagination provides horizontal navigation between chunks(pages) of a dataset.
 
 ### Variations
 

@@ -7,7 +7,6 @@ layout: "guide"
 order: 350
 ---
 
-Tabs organize similar content together into individual sections in the same page.
 
 ![Tabs. On the left side classic variation on the right side modern variation](/images/lexicon/Tab.jpg)
 

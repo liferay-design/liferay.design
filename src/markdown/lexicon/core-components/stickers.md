@@ -7,8 +7,6 @@ layout: "guide"
 order: 325
 ---
 
-Stickers are a visual way to quickly identify content in a different way than badges and labels.
-
 ![sticker types](/images/lexicon/Sticker32.jpg)
 
 ### Usage

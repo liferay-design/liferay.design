@@ -5,8 +5,6 @@ layout: "guide"
 order: 434
 ---
 
-A set of button variations specifically designed for site environment widgets.
-
 ### Variations
 
 #### Primary button icon with text

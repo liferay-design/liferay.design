@@ -7,7 +7,6 @@ layout: 'guide'
 order: 281
 ---
 
-Labels are a visual pattern used to categorize information providing quick and easy recognition.
 
 ### Usage
 

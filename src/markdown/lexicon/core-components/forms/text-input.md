@@ -7,8 +7,6 @@ layout: "guide"
 order: 265
 ---
 
-A description of the different text input types, including usage and validation states.
-
 ## Text Field
 
 A text field lets users enter data into the system to be processed.
