@@ -25,6 +25,6 @@ There are 2 types of wizards:
 
 ![Multi step form example](/images/lexicon/MultiStepFormExampleGrid.jpg)
 
-* A simplified Multi Step form simply displays the user's progression through a form in a much less intrusive manner. Below is an example of a simplified Multi Step form **used in a Modal**. See [Simplified Multi Step Form](../multiStepFormSimplified) for more information.
+* A simplified Multi Step form simply displays the user's progression through a form in a much less intrusive manner. Below is an example of a simplified Multi Step form **used in a Modal**. See [simplified multi step form](../multi-step-form-simplified) for more information.
 
 ![Simplified multi step form example of use inside a modal](/images/lexicon/MultiStepFormSimplifiedExample.jpg)
