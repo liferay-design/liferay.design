@@ -1,7 +1,7 @@
 ---
 title: 'Buttons'
 titleLabel: 'Clay'
-# titleLabelLink: 'https://clayui.com/docs/components/buttons.html'
+titleLabelLink: 'https://clayui.com/docs/components/buttons.html'
 description: 'Buttons communicate an action to happen on user interaction.'
 layout: 'guide'
 order: 204

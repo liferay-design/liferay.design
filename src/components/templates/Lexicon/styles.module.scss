@@ -64,3 +64,26 @@
 	bottom: -24px;
 	width: 2rem;
 }
+
+.labelLink {
+	font-size: 10px;
+	font-weight: 300;
+	margin: 0 0 0 0;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #FFF;
+    border-color: #ff8f39;
+	color: #B95000;
+	border-radius: 0.125rem;
+    border-style: solid;
+    border-width: 0.0625rem;
+    display: inline-flex;
+	
+	position: relative;
+	top: -2.5rem;
+
+	@media (max-width: $grid-float-breakpoint - 1) {
+		margin-top: 1.5rem;
+	}
+}
+
