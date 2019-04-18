@@ -27,7 +27,7 @@ const Lexicon = () => (
 			cta="Get Started"
 			ctaLink="/lexicon/get-started"
 			section="Lexicon"
-			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/lexicon/home/patternbg.svg) center -6rem / cover fixed, #0b63ff"
+			background="linear-gradient(20deg, rgba(11, 95, 255, 0.4), rgba(11, 95, 255, 0.6)), url(/images/lexicon/home/patternbg.svg) center -6rem / cover fixed, #0B5FFF"
 		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
@@ -142,7 +142,7 @@ const Lexicon = () => (
 					<Text size="large">
 						Head over to Jira and{' '}
 						<a
-							href="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17"
+							href="https://github.com/liferay-design/lexicon/issues"
 							target="_blank"
 							rel="noopener"
 						>
@@ -151,7 +151,7 @@ const Lexicon = () => (
 						!
 					</Text>
 				)}
-				background="linear-gradient(20deg, rgba(243, 243, 245, 0.9), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/patternbg.svg) center/cover fixed"
+				background="linear-gradient(20deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/patternbg.svg) center/cover fixed, #FFFFFF"
 			/>
 		</div>
 		<Footer />
