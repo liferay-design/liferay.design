@@ -34,7 +34,7 @@ Metrics are key to understanding how our forms are built and how vertical spacin
 
 #### Desktop
 
-As mentioned in the [grid section](../../../designPrinciples/grid), the main vertical spacing reference is 24px.
+As mentioned in the [grid section](../../../foundations/grid), the main vertical spacing reference is 24px.
 
 __Section blocks metrics__
 
@@ -50,7 +50,7 @@ __Metrics using explanatory texts associated to different section levels__
 
 #### Mobile
 
-In small viewports, as mentioned in the [grid section](../../../designPrinciples/grid), the main vertical spacing reference changes from 24px to 16px.
+In small viewports, as mentioned in the [grid section](../../../foundations/grid), the main vertical spacing reference changes from 24px to 16px.
 
 ![Inside sections metrics 2](/images/lexicon/FormHierarchySectionBlocksM.jpg)
 
