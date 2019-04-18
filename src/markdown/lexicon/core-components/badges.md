@@ -11,7 +11,7 @@ Badges help highlight important information, such as notifications or new and un
 
 Badges have circular borders and are only used to specify a number.
 
-![defualt size default color badge](/images/lexicon/Badges.jpg)
+![defualt size default color badge](/images/lexicon/Badges.png)
 
 ### Usage
 
@@ -30,7 +30,7 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 
 | Do | Don't |
 | -- | ----- |
-| ![badge distance to an element is 8 pixels](/images/lexicon/BadgeDoDistance.jpg) | ![don't place a badge closer than 8 pixels to any element in horizontal](/images/lexicon/BadgeDontDistance.jpg) |
+| ![badge distance to an element is 8 pixels](/images/lexicon/BadgeDoDistance.png) | ![don't place a badge closer than 8 pixels to any element in horizontal](/images/lexicon/BadgeDontDistance.png) |
 
 <!--
 <div class="row">
@@ -46,7 +46,7 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 
 ### Attributes
 
-![badge metrics](/images/lexicon/BadgesMetrics.jpg)
+![badge metrics](/images/lexicon/BadgesMetrics.png)
 
 -   Height: 18px
 -   Border: 1px
