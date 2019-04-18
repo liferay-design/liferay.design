@@ -9,7 +9,7 @@ order: 202
 
 Alerts are used to capture the attention of the user in an intrusive way.
 
-![info alert colors](/lexicon/images/Alert.jpg)
+![info alert colors](/lexicon/images/Alert.png)
 
 ### Usage
 
