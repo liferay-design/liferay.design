@@ -35,6 +35,10 @@ The finished state indicates that the process is completed successfully when the
 
 ### Dos and Don'ts
 
+| Do | Don't |
+| -- | ----- |
+| Use it for processes such as a file upload. | Never use it to communicate the progress of a user in a certain set of actions. For that you need a [multi step form type](../forms/multi-step-form). |
+
 <!--
 <table>
     <thead>
