@@ -5,7 +5,7 @@ layout: 'guide'
 order: 602
 ---
 
-<span>
+<span class="designerInfo">
     <i>By Juan Antón<br />
     Product Designer, Madrid<br /><br /><br />
     </i>
