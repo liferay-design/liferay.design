@@ -49,7 +49,7 @@ const ResourcesPage = () => (
 						cta="Help Us, Help You"
 					/>
 				</Grid.Item>
-				<Grid.Item>
+				{/* <Grid.Item>
 					<CardLexicon
 						dark
 						icon="fa_terminal"
@@ -58,7 +58,7 @@ const ResourcesPage = () => (
 						to="https://dashboard.liferay.design"
 						cta="Sneak a Peek"
 					/>
-				</Grid.Item>
+				</Grid.Item> */}
 			</Grid>
 		</Container>
 	</MainLayout>
