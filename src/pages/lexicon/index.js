@@ -27,7 +27,7 @@ const Lexicon = () => (
 			cta="Get Started"
 			ctaLink="/lexicon/get-started"
 			section="Lexicon"
-			background="linear-gradient(20deg, rgba(11, 95, 255, 0.4), rgba(11, 95, 255, 0.6)), url(/images/lexicon/home/patternbg.svg) center -6rem / cover fixed, #0B5FFF"
+			background="linear-gradient(20deg, rgba(11, 95, 255, 0.1), rgba(11, 95, 255, 1.0)), url(/images/lexicon/home/patternbg.svg) center -6rem / cover fixed, #0B5FFF"
 		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
@@ -70,23 +70,23 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="trc" marginTop="-8rem">
 									<CardLexicon
-										icon="principles02"
+										icon="principles"
 										title="Foundations"
 										text="The basic principles and guidelines that lay on the core of the pattern libray."
-										to="/lexicon/foundations"
+										to="/lexicon/foundations/grid"
 										cta="Learn More"
 									/>
 								</Grid.Item>
 								<Grid.Item area="m">
 									<CardLexicon
 										wide
-										icon="library03"
+										icon="library"
 										iconHeight="10rem"
 										iconWidth="11rem"
 										direction="horizontal"
 										title="Components"
 										text="Explores the list of components and pattern that configure the building blocks of Lexicon system"
-										to="/lexicon/core-components"
+										to="/lexicon/core-components/actions-definition"
 										cta="Learn More"
 									/>
 								</Grid.Item>
@@ -136,7 +136,7 @@ const Lexicon = () => (
 		</div>
 		<div className={styles.billboard}>
 			<Billboard
-				image="participate02"
+				image="participate"
 				heading="Want to contribute?"
 				Subtitle={() => (
 					<Text size="large">

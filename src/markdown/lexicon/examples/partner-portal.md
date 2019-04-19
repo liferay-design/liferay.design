@@ -5,7 +5,7 @@ layout: 'guide'
 order: 603
 ---
 
-<span>
+<span class="designerInfo">
     <i>By Patrick Pentz<br />
     Product Designer, LA<br /><br /><br />
     </i>

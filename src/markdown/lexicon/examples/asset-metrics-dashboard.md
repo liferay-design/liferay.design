@@ -5,8 +5,7 @@ layout: 'guide'
 order: 601
 ---
 
-
-<span>
+<span class="designerInfo">
     <i>By Rafael Fernandes<br />
     Product Designer, Recife<br /><br /><br />
     </i>
