@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import { Icon, Link } from 'components/atoms'
 import styles from './styles.module.scss'
 
 const PrinciplesHeader = () => {
 	return (
 		<div className={styles.circleHeader}>
-			<img src="/images/logos/liferay-waffle-white.svg" className={styles.headerBadge} />
+			<Link to="/resources">
+				<Icon className={styles.headerBadge} name="liferayDesicon" width="4rem"/></Link>
 			<div className={styles.headerText}>
 				{/* is this necessary? we have the waffle above <h4>Liferay</h4> */} 
 				<h1>Design Principles</h1>
