@@ -61,7 +61,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="tlc" marginTop="-8rem">
 									<CardLexicon
-										icon="whyBlueprints"
+										icon="what"
 										title="Get Started"
 										text="An onboarding section as an introduction to the project, its objectives and proposals"
 										to="/lexicon/get-started"
@@ -70,7 +70,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="trc" marginTop="-8rem">
 									<CardLexicon
-										icon="logos"
+										icon="principles02"
 										title="Foundations"
 										text="The basic principles and guidelines that lay on the core of the pattern libray."
 										to="/lexicon/foundations"
@@ -80,7 +80,7 @@ const Lexicon = () => (
 								<Grid.Item area="m">
 									<CardLexicon
 										wide
-										icon="resources"
+										icon="library03"
 										iconHeight="10rem"
 										iconWidth="11rem"
 										direction="horizontal"
@@ -92,7 +92,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="blc">
 									<CardLexicon
-										icon="faqs"
+										icon="news"
 										title="News & Updates"
 										text="Always up to date with the latest library updates and Lexicon project news"
 										to="/lexicon/news/news"
@@ -101,7 +101,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="brc">
 									<CardLexicon
-										icon="liferayDesign"
+										icon="folder"
 										title="Resources"
 										text="A set of tools links and downloads to learn Lexicon and use it in your projects"
 										to="/lexicon/resources"
@@ -136,17 +136,17 @@ const Lexicon = () => (
 		</div>
 		<div className={styles.billboard}>
 			<Billboard
-				image="jira"
-				heading="Need something?"
+				image="participate02"
+				heading="Want to contribute?"
 				Subtitle={() => (
 					<Text size="large">
-						Head over to Jira and{' '}
+						Head on over to the{' '}
 						<a
 							href="https://github.com/liferay-design/lexicon/issues"
 							target="_blank"
 							rel="noopener"
 						>
-							create an issue
+							GitHub repo
 						</a>
 						!
 					</Text>
