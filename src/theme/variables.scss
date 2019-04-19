@@ -19,11 +19,11 @@ $black-000: #13141f;
 $primary: #0b5fff;
 $secondary: #95bdff;
 
-$primary-d2: #004ad7; 
-$primary-d1: #0053f0; 
-$primary-l1: #80acff; 
-$primary-l2: #b3cdff; 
-$primary-l3: #f0f5ff; 
+$primary-d2: #004ad7;
+$primary-d1: #0053f0;
+$primary-l1: #80acff;
+$primary-l2: #b3cdff;
+$primary-l3: #f0f5ff;
 
 // Ye Olde Neutrals
 // $darkGrey: #353638;
@@ -81,7 +81,6 @@ $accent7: #503690;
 $accent8: #fdcc4a;
 $accent9: #47c6f5;
 
-
 /* ---------- Lexicon site --------- */
 $brand-primary: $action;
 
@@ -95,6 +94,8 @@ $text-color-light: $main-l3;
 
 $fontFamilyPrimary: 'Source Code Pro', 'Menlo', monospace;
 $fontFamilySecondary: 'Source Sans Pro', Tahoma, 'Trebuchet MS', sans-serif;
+$fontFamilySystem: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 /* ---------- Font sizes ---------- */
 
@@ -143,7 +144,7 @@ $output-bourbon-deprecation-warnings: false;
 
 $base-size: 24px; // 1.5rem aprox
 
-// Screen sizes 
+// Screen sizes
 $screen-md: 900px;
 $screen-sm: 900px;
 $screen-xs: 768px;

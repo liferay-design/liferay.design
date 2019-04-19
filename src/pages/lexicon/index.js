@@ -20,7 +20,7 @@ const WideCard = styled(Card)`
 // `
 
 const Lexicon = () => (
-	<div className={styles.sans}>
+	<div className={styles.lexicon}>
 		<Banner
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
