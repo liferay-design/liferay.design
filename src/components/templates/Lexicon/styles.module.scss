@@ -1,510 +1,512 @@
 @import '~theme/variables';
 
+// keeping everything inside the `.lexicon` selector helps prevent CSS bleed
+
 .lexicon {
 	font-family: $fontFamilySystem;
-}
-
-.mainContentWrapper {
-	background: $white;
-	min-height: 100vh;
-}
-
-.mobileNavbar {
-	align-items: center;
-	grid-area: nav;
-	background: #f7f8f9;
-	width: 100%;
-}
-
-.mobileMenuBar {
-	background: $black;
-	bottom: 0;
-	display: none !important;
-	left: 0;
-	position: fixed;
-	right: 0;
-	z-index: 10;
-
-	> * {
-		cursor: pointer;
-		margin: 1rem 1.5rem;
+	
+	.mainContentWrapper {
+		background: $white;
+		min-height: 100vh;
 	}
-}
-
-@media screen and (max-width: $screenMedium) {
+	
+	.mobileNavbar {
+		align-items: center;
+		grid-area: nav;
+		background: #f7f8f9;
+		width: 100%;
+	}
+	
 	.mobileMenuBar {
-		display: flex !important;
-	}
-}
-
-.description {
-	color: $main-l3;
-	font-size: 28px;
-	max-width: 700px;
-	margin-bottom: 80px;
-	line-height: 1.25;
-	margin-top: -1rem;
-
-	@media (max-width: $grid-float-breakpoint - 1) {
-		font-size: 24px;
-		margin-top: 8px;
-	}
-}
-
-.description:after {
-	background-color: $action;
-	content: '';
-	display: block;
-	height: 0.25rem;
-	position: relative;
-	left: 0;
-	bottom: -24px;
-	width: 2rem;
-}
-
-.labelLink {
-	font-size: 10px;
-	font-weight: 300;
-	margin: 0 0 0 0;
-	padding-left: 4px;
-	padding-right: 4px;
-	background-color: $white;
-	border-color: $warning-l1;
-	color: $warning;
-	border-radius: 0.125rem;
-	border-style: solid;
-	border-width: 0.0625rem;
-	display: inline-flex;
-
-	position: relative;
-	top: -2.5rem;
-
-	@media (max-width: $grid-float-breakpoint - 1) {
-		margin-top: 1.5rem;
-	}
-}
-
-p {
-	line-height: 1.5;
-	margin-bottom: $base-size * 0.5;
-
-	a {
-		color: $brand-primary;
-	}
-}
-
-// img {
-// 	margin: 12px 0;
-// 	max-width: 100%;
-// }
-
-// table img {
-// 	margin-bottom: 8px;
-// 	margin-top: 4px;
-// }
-
-table {
-	border-collapse: collapse;
-	font-size: 0.875rem;
-	margin: 32px 0 24px;
-	text-align: left;
-
-	& > tbody > tr > td,
-	& > thead > tr > th {
-		border-bottom: 1px solid $main-l5;
-		line-height: $base-size * 0, 75;
-		padding: $base-size / 2;
-		.lexicon-icon {
-			min-width: 1rem;
+		background: $black;
+		bottom: 0;
+		display: none !important;
+		left: 0;
+		position: fixed;
+		right: 0;
+		z-index: 10;
+	
+		> * {
+			cursor: pointer;
+			margin: 1rem 1.5rem;
 		}
 	}
-
-	thead > tr > th {
-		border-top-width: 0;
-		border-bottom-width: 1px;
-		color: $text-color;
-		font-weight: 700;
-		vertical-align: bottom;
-		background-color: #f7f8fa;
+	
+	@media screen and (max-width: $screenMedium) {
+		.mobileMenuBar {
+			display: flex !important;
+		}
 	}
-
-	td > p {
-		display: inline;
-
-		&.dotDone {
-			color: $success-l1;
+	
+	.description {
+		color: $main-l3;
+		font-size: 28px;
+		max-width: 700px;
+		margin-bottom: 80px;
+		line-height: 1.25;
+		margin-top: -1rem;
+	
+		@media (max-width: $grid-float-breakpoint - 1) {
+			font-size: 24px;
+			margin-top: 8px;
 		}
-
-		&.dotProgress {
-			color: $warning-l1;
+	}
+	
+	.description:after {
+		background-color: $action;
+		content: '';
+		display: block;
+		height: 0.25rem;
+		position: relative;
+		left: 0;
+		bottom: -24px;
+		width: 2rem;
+	}
+	
+	.labelLink {
+		font-size: 10px;
+		font-weight: 300;
+		margin: 0 0 0 0;
+		padding-left: 4px;
+		padding-right: 4px;
+		background-color: $white;
+		border-color: $warning-l1;
+		color: $warning;
+		border-radius: 0.125rem;
+		border-style: solid;
+		border-width: 0.0625rem;
+		display: inline-flex;
+	
+		position: relative;
+		top: -2.5rem;
+	
+		@media (max-width: $grid-float-breakpoint - 1) {
+			margin-top: 1.5rem;
 		}
-
-		&.dotWait {
-			color: $main-l4;
+	}
+	
+	p {
+		line-height: 1.5;
+		margin-bottom: $base-size * 0.5;
+	
+		a {
+			color: $brand-primary;
 		}
-
-		&.tableSection {
-			color: $main-l3;
-			font-size: 14px;
+	}
+	
+	// img {
+	// 	margin: 12px 0;
+	// 	max-width: 100%;
+	// }
+	
+	// table img {
+	// 	margin-bottom: 8px;
+	// 	margin-top: 4px;
+	// }
+	
+	table {
+		border-collapse: collapse;
+		font-size: 0.875rem;
+		margin: 32px 0 24px;
+		text-align: left;
+	
+		& > tbody > tr > td,
+		& > thead > tr > th {
+			border-bottom: 1px solid $main-l5;
+			line-height: $base-size * 0, 75;
+			padding: $base-size / 2;
+			.lexicon-icon {
+				min-width: 1rem;
+			}
+		}
+	
+		thead > tr > th {
+			border-top-width: 0;
+			border-bottom-width: 1px;
+			color: $text-color;
 			font-weight: 700;
-			text-transform: uppercase;
+			vertical-align: bottom;
+			background-color: #f7f8fa;
+		}
+	
+		td > p {
+			display: inline;
+	
+			&.dotDone {
+				color: $success-l1;
+			}
+	
+			&.dotProgress {
+				color: $warning-l1;
+			}
+	
+			&.dotWait {
+				color: $main-l4;
+			}
+	
+			&.tableSection {
+				color: $main-l3;
+				font-size: 14px;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
 		}
 	}
-}
-
-li {
-	padding-left: $base-size;
-}
-
-ul {
-	margin-bottom: $base-size * 1;
-	padding-left: 18px;
-
+	
 	li {
-		padding-left: 0;
+		padding-left: $base-size;
 	}
-}
-
-h1,
-h2,
-h3 {
-	color: $main-l1;
-	font-weight: 800;
-	margin: $base-size 0;
-	line-height: 1.25;
-	letter-spacing: 0.4px;
-	@media (min-width: $grid-float-breakpoint) {
-		margin-bottom: $base-size;
-		margin-top: $base-size * 2;
+	
+	ul {
+		margin-bottom: $base-size * 1;
+		padding-left: 18px;
+	
+		li {
+			padding-left: 0;
+		}
 	}
-}
-
-h1 {
-	font-size: 28px;
-	@media (min-width: $grid-float-breakpoint) {
-		font-size: 36px;
-		padding: 1.5rem 0 1rem;
-	}
-}
-
-h2 {
-	font-size: ($base-size * 1.33);
-	line-height: $base-size;
-	padding-bottom: 24px;
-}
-
-h3 {
-	font-size: $base-size;
-	& + h4 {
-		padding-top: 16px;
-	}
-}
-
-h4 {
-	font-size: $base-size * 0.675;
-	font-weight: 800;
-	line-height: 1.25;
-	padding: 24px 0 16px;
-}
-
-time {
-	display: inline-block;
-	font-size: 14px;
-	letter-spacing: 1px;
-	line-height: 20px;
-	margin-top: 2rem;
-	text-transform: uppercase;
-	color: $main-l3;
-	& + p {
-		margin-top: 0.25rem;
-		font-size: 24px;
+	
+	h1,
+	h2,
+	h3 {
+		color: $main-l1;
 		font-weight: 800;
+		margin: $base-size 0;
+		line-height: 1.25;
+		letter-spacing: 0.4px;
+		@media (min-width: $grid-float-breakpoint) {
+			margin-bottom: $base-size;
+			margin-top: $base-size * 2;
+		}
 	}
-}
-
-header {
-	margin: 0;
-
+	
+	h1 {
+		font-size: 28px;
+		@media (min-width: $grid-float-breakpoint) {
+			font-size: 36px;
+			padding: 1.5rem 0 1rem;
+		}
+	}
+	
+	h2 {
+		font-size: ($base-size * 1.33);
+		line-height: $base-size;
+		padding-bottom: 24px;
+	}
+	
+	h3 {
+		font-size: $base-size;
+		& + h4 {
+			padding-top: 16px;
+		}
+	}
+	
+	h4 {
+		font-size: $base-size * 0.675;
+		font-weight: 800;
+		line-height: 1.25;
+		padding: 24px 0 16px;
+	}
+	
+	time {
+		display: inline-block;
+		font-size: 14px;
+		letter-spacing: 1px;
+		line-height: 20px;
+		margin-top: 2rem;
+		text-transform: uppercase;
+		color: $main-l3;
+		& + p {
+			margin-top: 0.25rem;
+			font-size: 24px;
+			font-weight: 800;
+		}
+	}
+	
+	header {
+		margin: 0;
+	
+		@media (max-width: $grid-float-breakpoint - 1) {
+			margin-top: 80px;
+		}
+	
+		.container-fluid > h1 {
+			margin: 0;
+		}
+	}
+	
+	:global(.designerInfo) {
+		color: $info;
+		font-size: 0.875rem;
+	}
+	
+	// .dodont {
+	// 	margin-right: 32px;
+	// 	margin-bottom: 16px;
+	
+	// 	img {
+	// 		margin-bottom: 8px;
+	
+	// 		&.do {
+	// 			border-bottom: 4px solid $success;
+	// 		}
+	
+	// 		&.dont {
+	// 			border-bottom: 4px solid $error;
+	// 		}
+	// 	}
+	
+	// 	p {
+	// 		font-weight: 600;
+	// 	}
+	
+	// }
+	
+	// .do {
+	// 	color: $success;
+	// }
+	
+	// .dont {
+	// 	color: $error;
+	// }
+	
+	// .videoContainer {
+	// 	position: relative;
+	// 	width: 100%;
+	// 	height: 0;
+	// 	padding-bottom: 56.25%;
+	// 	margin-bottom: 40px;
+	// }
+	
+	// .video {
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// }
+	
+	// .label-link {
+	// 	color: $warning;
+	// }
+	
+	// .linkDecor {
+	// 	text-decoration: none;
+	// }
+	
+	// .labelbg {
+	// 	background: $white;
+	// }
+	
+	// .code-text {
+	// 	font-family: monospace;
+	// 	font-size: 16px;
+	// }
+	
+	// .type-scale {
+	// 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	
+	// 	&.type-scale-10 {
+	// 		font-size: 10px;
+	// 	}
+	
+	// 	&.type-scale-12 {
+	// 		font-size: 12px;
+	// 	}
+	
+	// 	&.type-scale-14 {
+	// 		font-size: 14px;
+	// 	}
+	
+	// 	&.type-scale-16 {
+	// 		font-size: 16px;
+	// 	}
+	
+	// 	&.type-scale-18 {
+	// 		font-size: 18px;
+	// 	}
+	
+	// 	&.type-scale-20 {
+	// 		font-size: 20px;
+	// 	}
+	
+	// 	&.type-scale-24 {
+	// 		font-size: 24px;
+	// 	}
+	
+	// 	&.type-scale-28 {
+	// 		font-size: 28px;
+	// 	}
+	
+	// 	&.type-scale-32 {
+	// 		font-size: 32px;
+	// 	}
+	
+	// 	&.type-scale-36 {
+	// 		font-size: 36px;
+	// 	}
+	
+	// 	&.type-scale-40 {
+	// 		font-size: 40px;
+	// 	}
+	
+	// 	&.type-regular {
+	// 		font-weight: $weight-regular;
+	// 	}
+	
+	// 	&.type-semibold {
+	// 		font-weight: $weight-semibold;
+	// 	}
+	
+	// 	&.type-bold {
+	// 		font-weight: $weight-bold;
+	// 	}
+	// }
+	
+	// .designer-info {
+	// 	display: inline-block;
+	// 	padding-left: 16px;
+	// 	margin-top:auto;
+	// 	margin-bottom:auto;
+	// 	vertical-align: middle;
+	// }
+	
+	// .designer-name {
+	// 	font-weight: 600;
+	// 	font-size: 14px;
+	// 	color: $black;
+	// 	margin-bottom: 0;
+	// }
+	
+	// .designer-detail {
+	// 	font-weight: 400;
+	// 	font-size: 14px;
+	// 	color: $main-l3;
+	// 	margin-bottom: 0;
+	// }
+	
+	// .project-name {
+	// 	font-weight: 600;
+	// 	font-size: 14px;
+	// 	color: $main-l3;
+	// 	margin-bottom: 48px;
+	// }
+	
+	h1.with-subtitle {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	
+	// .btn-primary {
+	// 	color: $white;
+	// }
+	
+	// .getstarted-card {
+	// 	display: flex;
+	// 	padding: $base-size;
+	// }
+	
+	// .getstarted-info {
+	// 	display: inline-block;
+	// 	padding-left: $base-size;
+	// 	margin-top: auto;
+	// 	margin-bottom: auto;
+	// 	vertical-align: middle;
+	// }
+	
+	// .getstarted-img {
+	// 	width: 120px;
+	// 	height:auto;
+	// }
+	
+	// .download-card {
+	// 	width: 200px;
+	// 	height: 200px;
+	// 	text-align: center;
+	// 	border: 1px $black;
+	// }
+	
+	// .download-card-img {
+	// 	height: 100px;
+	// 	width: auto;
+	// 	margin-bottom: $base-size;
+	// 	margin-bottom: $base-size;
+	// }
+	
+	// .download-card-text {
+	// 	color: $main-l3;
+	// 	font-size: 14px;
+	// 	text-align: center;
+	// 	margin-top: $base-size / 4;
+	// }
+	
 	@media (max-width: $grid-float-breakpoint - 1) {
 		margin-top: 80px;
 	}
-
-	.container-fluid > h1 {
-		margin: 0;
-	}
+	
+	// header {
+	// 	.label {
+	// 		font-size: 10px;
+	// 		margin: 2rem 0 0 0.5rem;
+	// 		padding-left: 4px;
+	// 		padding-right: 4px;
+	// 		@media (max-width: $grid-float-breakpoint - 1) {
+	// 			margin-top: 0.45rem;
+	// 		}
+	// 	}
+	// }
+	
+	// h2 + p > .label {
+	// 	position: relative;
+	// 	top: -2.5rem;
+	// }
+	
+	// .clay-link {
+	// 	font-size: 14px;
+	// 	margin-top: 64px;
+	
+	// 	@media (max-width: $grid-float-breakpoint - 1) {
+	// 		margin-top: 32px;
+	// 	}
+	
+	// 	a {
+	// 		font-weight: 600;
+	// 	}
+	// }
+	
+	// .carousel {
+	// 	min-height: 570px;
+	// 	background-color: $gray-bg;
+	// 	margin-top: 2rem;
+	// 	img.d-block {
+	// 		margin: 0;
+	// 	}
+	// 	.carousel-control-prev,
+	// 	.carousel-control-next {
+	// 		width: 7%;
+	// 		opacity: 0.5;
+	// 	.lexicon-icon {
+	// 		width: 16px;
+	// 		height: 16px;
+	// 		color: $main-l3;
+	// 		}
+	// 		&:hover {
+	// 			opacity: 1;
+	// 		}
+	// 	}
+	
+	// 	.carousel-indicators {
+	// 		li {
+	// 			background-color: $main-l4;
+	// 			&.active {
+	// 				background-color: $action;
+	// 			}
+	// 		}
+	// 	}
+	// }
+	
+	// .last-update {
+	// 	color: $success;
+	// 	margin-top: 2rem;
+	// }
 }
-
-:global(.designerInfo) {
-	color: $info;
-	font-size: 0.875rem;
-}
-
-// .dodont {
-// 	margin-right: 32px;
-// 	margin-bottom: 16px;
-
-// 	img {
-// 		margin-bottom: 8px;
-
-// 		&.do {
-// 			border-bottom: 4px solid $success;
-// 		}
-
-// 		&.dont {
-// 			border-bottom: 4px solid $error;
-// 		}
-// 	}
-
-// 	p {
-// 		font-weight: 600;
-// 	}
-
-// }
-
-// .do {
-// 	color: $success;
-// }
-
-// .dont {
-// 	color: $error;
-// }
-
-// .videoContainer {
-// 	position: relative;
-// 	width: 100%;
-// 	height: 0;
-// 	padding-bottom: 56.25%;
-// 	margin-bottom: 40px;
-// }
-
-// .video {
-// 	position: absolute;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100%;
-// 	height: 100%;
-// }
-
-// .label-link {
-// 	color: $warning;
-// }
-
-// .linkDecor {
-// 	text-decoration: none;
-// }
-
-// .labelbg {
-// 	background: $white;
-// }
-
-// .code-text {
-// 	font-family: monospace;
-// 	font-size: 16px;
-// }
-
-// .type-scale {
-// 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-// 	&.type-scale-10 {
-// 		font-size: 10px;
-// 	}
-
-// 	&.type-scale-12 {
-// 		font-size: 12px;
-// 	}
-
-// 	&.type-scale-14 {
-// 		font-size: 14px;
-// 	}
-
-// 	&.type-scale-16 {
-// 		font-size: 16px;
-// 	}
-
-// 	&.type-scale-18 {
-// 		font-size: 18px;
-// 	}
-
-// 	&.type-scale-20 {
-// 		font-size: 20px;
-// 	}
-
-// 	&.type-scale-24 {
-// 		font-size: 24px;
-// 	}
-
-// 	&.type-scale-28 {
-// 		font-size: 28px;
-// 	}
-
-// 	&.type-scale-32 {
-// 		font-size: 32px;
-// 	}
-
-// 	&.type-scale-36 {
-// 		font-size: 36px;
-// 	}
-
-// 	&.type-scale-40 {
-// 		font-size: 40px;
-// 	}
-
-// 	&.type-regular {
-// 		font-weight: $weight-regular;
-// 	}
-
-// 	&.type-semibold {
-// 		font-weight: $weight-semibold;
-// 	}
-
-// 	&.type-bold {
-// 		font-weight: $weight-bold;
-// 	}
-// }
-
-// .designer-info {
-// 	display: inline-block;
-// 	padding-left: 16px;
-// 	margin-top:auto;
-// 	margin-bottom:auto;
-// 	vertical-align: middle;
-// }
-
-// .designer-name {
-// 	font-weight: 600;
-// 	font-size: 14px;
-// 	color: $black;
-// 	margin-bottom: 0;
-// }
-
-// .designer-detail {
-// 	font-weight: 400;
-// 	font-size: 14px;
-// 	color: $main-l3;
-// 	margin-bottom: 0;
-// }
-
-// .project-name {
-// 	font-weight: 600;
-// 	font-size: 14px;
-// 	color: $main-l3;
-// 	margin-bottom: 48px;
-// }
-
-h1.with-subtitle {
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-
-// .btn-primary {
-// 	color: $white;
-// }
-
-// .getstarted-card {
-// 	display: flex;
-// 	padding: $base-size;
-// }
-
-// .getstarted-info {
-// 	display: inline-block;
-// 	padding-left: $base-size;
-// 	margin-top: auto;
-// 	margin-bottom: auto;
-// 	vertical-align: middle;
-// }
-
-// .getstarted-img {
-// 	width: 120px;
-// 	height:auto;
-// }
-
-// .download-card {
-// 	width: 200px;
-// 	height: 200px;
-// 	text-align: center;
-// 	border: 1px $black;
-// }
-
-// .download-card-img {
-// 	height: 100px;
-// 	width: auto;
-// 	margin-bottom: $base-size;
-// 	margin-bottom: $base-size;
-// }
-
-// .download-card-text {
-// 	color: $main-l3;
-// 	font-size: 14px;
-// 	text-align: center;
-// 	margin-top: $base-size / 4;
-// }
-
-@media (max-width: $grid-float-breakpoint - 1) {
-	margin-top: 80px;
-}
-
-// header {
-// 	.label {
-// 		font-size: 10px;
-// 		margin: 2rem 0 0 0.5rem;
-// 		padding-left: 4px;
-// 		padding-right: 4px;
-// 		@media (max-width: $grid-float-breakpoint - 1) {
-// 			margin-top: 0.45rem;
-// 		}
-// 	}
-// }
-
-// h2 + p > .label {
-// 	position: relative;
-// 	top: -2.5rem;
-// }
-
-// .clay-link {
-// 	font-size: 14px;
-// 	margin-top: 64px;
-
-// 	@media (max-width: $grid-float-breakpoint - 1) {
-// 		margin-top: 32px;
-// 	}
-
-// 	a {
-// 		font-weight: 600;
-// 	}
-// }
-
-// .carousel {
-// 	min-height: 570px;
-// 	background-color: $gray-bg;
-// 	margin-top: 2rem;
-// 	img.d-block {
-// 		margin: 0;
-// 	}
-// 	.carousel-control-prev,
-// 	.carousel-control-next {
-// 		width: 7%;
-// 		opacity: 0.5;
-// 	.lexicon-icon {
-// 		width: 16px;
-// 		height: 16px;
-// 		color: $main-l3;
-// 		}
-// 		&:hover {
-// 			opacity: 1;
-// 		}
-// 	}
-
-// 	.carousel-indicators {
-// 		li {
-// 			background-color: $main-l4;
-// 			&.active {
-// 				background-color: $action;
-// 			}
-// 		}
-// 	}
-// }
-
-// .last-update {
-// 	color: $success;
-// 	margin-top: 2rem;
-// }
