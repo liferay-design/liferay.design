@@ -1,5 +1,4 @@
 @import '~theme/variables';
-@import '~theme/blueprints';
 
 .lexicon {
 	font-family: $fontFamilySystem;
@@ -40,6 +39,17 @@
 		border-radius: 50%;
 		&:hover {
 			background: $primary;
+		}
+	}
+	.clayCard {
+		padding: $spacingLarge 0 0;
+		grid-template-columns: repeat(8, 1fr);
+		div {
+			a {
+				div {
+					border-radius: $spacingSmall;
+				}
+			}
 		}
 	}
 }

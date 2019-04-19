@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'components/atoms'
-import { Heading, Text, Icon, Flex } from 'components/atoms'
+import { Container, Heading, Text, Icon, Flex } from 'components/atoms'
 import { Billboard, CardLexicon } from 'components/molecules'
 import { Footer, Navbar, Banner } from 'components/organisms'
 import styles from './styles.module.scss'
@@ -154,6 +154,20 @@ const Lexicon = () => (
 				background="linear-gradient(20deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/patternbg.svg) center/cover fixed, #FFFFFF"
 			/>
 		</div>
+		<Container>
+			<Grid className={styles.clayCard}>
+				<Grid.Item columnStart="3" columnEnd="7">
+					<CardLexicon
+						dark
+						icon="clay"
+						title="Clay"
+						text="A web implementation of the Lexicon Design System."
+						to="https://clayui.com"
+						cta="Visit Clay"
+						/>
+				</Grid.Item>
+			</Grid>
+		</Container>
 		<Footer />
 	</div>
 )
