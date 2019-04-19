@@ -33,7 +33,7 @@ export default class Lexicon extends Component {
 		} = this.props
 
 		return (
-				<div className={styles.sans}>
+				<div className={styles.lexicon}>
 					<MediaQuery maxWidth={767}>
 						{matches => {
 							let gridTemplate = matches
