@@ -12,6 +12,16 @@ const ResourcesPage = () => (
 				<Grid.Item>
 					<CardLexicon
 						dark
+						icon="liferayDesicon"
+						title="Principles"
+						text="What does good design look like at Liferay?"
+						to="/principles"
+						cta="First Things First"
+					/>
+				</Grid.Item>
+				<Grid.Item>
+					<CardLexicon
+						dark
 						icon="whyBlueprints"
 						title="Blueprints"
 						text="Liferay's Brand Style Guidelines"
@@ -25,7 +35,7 @@ const ResourcesPage = () => (
 						icon="lexicon"
 						title="Lexicon"
 						text="Our Experience Language"
-						to="https://lexicondesign.io"
+						to="/lexicon"
 						cta="Get Started"
 					/>
 				</Grid.Item>
