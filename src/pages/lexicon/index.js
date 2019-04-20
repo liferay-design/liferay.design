@@ -95,7 +95,7 @@ const Lexicon = () => (
 										icon="news"
 										title="News & Updates"
 										text="Always up to date with the latest library updates and Lexicon project news"
-										to="/lexicon/news/news"
+										to="/lexicon/news/updates"
 										cta="Learn More"
 									/>
 								</Grid.Item>
