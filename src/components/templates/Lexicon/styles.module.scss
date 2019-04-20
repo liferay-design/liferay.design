@@ -8,6 +8,9 @@
 	.mainContentWrapper {
 		background: $white;
 		min-height: 100vh;
+		.lexiconSidebar {
+			background: red;
+		}
 	}
 	
 	.mobileNavbar {
@@ -150,19 +153,6 @@
 				font-weight: 700;
 				text-transform: uppercase;
 			}
-		}
-	}
-	
-	li {
-		padding-left: $base-size;
-	}
-	
-	ul {
-		margin-bottom: $base-size * 1;
-		padding-left: 18px;
-	
-		li {
-			padding-left: 0;
 		}
 	}
 	

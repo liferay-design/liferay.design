@@ -35,14 +35,14 @@ const SidebarContent = ({ path, tree }) => {
 	return orderBy(unorderedTree, 'key', 'asc')
 }
 
-export default function SidebarWrapper({ path, tree, isMobile, showSidebar, section }) {
+export default function SidebarWrapper({ path, tree, isMobile, showSidebar, section, lexicon }) {
 	return (
 		<Grid
 			columns="1fr"
 			rows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
 			className={`${styles.sidebar} ${
 				isMobile && showSidebar ? styles.onScreen : ''
-			} ${isMobile && !showSidebar ? styles.offScreen : ''}`}
+			} ${isMobile && !showSidebar ? styles.offScreen : ''} ${lexicon ? styles.lexicon : styles.sidebar}`}
 		>
 			{!isMobile && (
 				<Grid.Item>
