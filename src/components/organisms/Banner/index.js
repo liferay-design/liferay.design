@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import { Flex, Heading } from 'components/atoms'
-import { Button } from 'react-md'
+import { Button } from 'reakit'
 import { Link } from '@reach/router'
 import PropTypes from 'prop-types'
 import Navbar from 'components/organisms/Navbar'
