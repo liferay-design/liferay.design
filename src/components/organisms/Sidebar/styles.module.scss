@@ -86,6 +86,9 @@
 }
 
 .lexicon {
+	.section {
+			font-weight: $fontWeightBlack;
+	}
 	.leaf-link {
 		font-size: $fontSizeSmall;
 	}
