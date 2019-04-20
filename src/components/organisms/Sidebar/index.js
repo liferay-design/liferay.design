@@ -45,7 +45,7 @@ export default function SidebarWrapper({ path, tree, isMobile, showSidebar, sect
 			} ${isMobile && !showSidebar ? styles.offScreen : ''} ${lexicon ? styles.lexicon : styles.sidebar}`}
 		>
 			{!isMobile && (
-				<Grid.Item>
+				<Grid.Item className={styles.section}>
 					<SiteName section={section} dark />
 				</Grid.Item>
 			)}
