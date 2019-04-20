@@ -1,6 +1,6 @@
 ---
-title: 'News'
-description: 'Keep updated.'
+title: 'Updates'
+description: 'Keep up-to-date.'
 layout: 'guide'
 order: 701
 ---
