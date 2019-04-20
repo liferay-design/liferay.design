@@ -55,8 +55,9 @@ export default class Lexicon extends Component {
 											<AuthContainer />
 										</Flex>
 									)}
-
+									
 									<Sidebar
+										lexicon
 										path={pathname}
 										tree={buildSidebarTree(allMdx)}
 										isMobile={matches}
