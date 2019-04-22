@@ -1,29 +1,38 @@
+import { firebase } from '@firebase/app'
+import { Button, Flex, Heading } from 'components/atoms'
+import { AuthContainer } from 'components/molecules'
 import React, { Component } from 'react'
 import { Media, Paper } from 'react-md'
-import { AuthContainer } from 'components/molecules'
-import { Button, Flex, Heading } from 'components/atoms'
 import styles from './styles.module.scss'
 
 export default class PrivatePage extends Component {
 	state = {
-		authLoaded: false,
+		user: null,
 	}
 
 	componentDidMount() {
-		const { auth } = require('utils')
+		this.unsubscribe = firebase.auth().onAuthStateChanged(user => {
+			if (user) {
+				this.setUser(user)
+			}
+		})
+	}
 
-		this.auth = auth
+	componentWillUnmount() {
+		this.unsubscribe()
+	}
 
-		this.setState({ authLoaded: true })
+	setUser = user => {
+		this.setState({
+			user: user
+				? { email: user.email, avatar: user.photoURL, name: user.displayName }
+				: null,
+		})
 	}
 
 	renderPrivateContent() {
-		// if (this.auth.currentUser) {
-		// 	return this.props.children
-		// }
-
 		const authenticatedUsers = ['liferay.com', 'triblio.com', 'kyrodigital.com']
-		const currentUser = this.auth.currentUser
+		const currentUser = this.state.user
 
 		const isUserAuthenticated =
 			currentUser &&
@@ -64,7 +73,7 @@ export default class PrivatePage extends Component {
 	render() {
 		return (
 			<div>
-				{this.state.authLoaded ? (
+				{this.state.user ? (
 					this.renderPrivateContent()
 				) : (
 					<Paper>

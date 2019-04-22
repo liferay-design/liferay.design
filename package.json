@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "Ryan Garant <ryan.garant@liferay.com>",
 	"dependencies": {
-		"core-js": "^2.5.7",
+		"firebase": "^5.10.0",
 		"gatsby-plugin-brotli": "^1.0.0",
 		"gatsby-plugin-google-analytics": "^2.0.18",
 		"gatsby-plugin-manifest": "^2.0.26",
@@ -26,8 +26,7 @@
 		"react-slick": "^0.23.2",
 		"react-svg": "^6.0.15",
 		"reakit": "^0.14.5",
-		"slick-carousel": "^1.8.1",
-		"wedeploy": "^4.5.0"
+		"slick-carousel": "^1.8.1"
 	},
 	"devDependencies": {
 		"@mdx-js/mdx": "^0.15.5",
