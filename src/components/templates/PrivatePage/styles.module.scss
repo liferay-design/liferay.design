@@ -4,16 +4,16 @@
 	box-shadow: $elevation1;
 	border-radius: $spacingXSmall;
 	max-width: $screenSmall;
-	.loginButton {
-		padding: 0;
-		background: $primary;
-		border-color: $primary;
-		color: $white;
+	.loginButton button {
+		background: $primary !important;
+		border-color: $primary !important;
+		color: $white !important;
+		width: 100%;
 		&:hover {
-			background: darken($primary, 8%);
+			background: darken($primary, 8%) !important;
 		}
 		&:hover a {
-			color: $lightestGrey;
+			color: $lightestGrey !important;
 		}
 	}
 }

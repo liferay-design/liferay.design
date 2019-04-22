@@ -61,9 +61,9 @@ export default class PrivatePage extends Component {
 				>
 					<Flex direction="column">
 						<Heading margin="2rem">{this.props.message}</Heading>
-						<Button className={styles.loginButton}>
+						<div className={styles.loginButton}>
 							<AuthContainer />
-						</Button>
+						</div>
 					</Flex>
 				</Flex>
 			</Flex>
@@ -73,13 +73,7 @@ export default class PrivatePage extends Component {
 	render() {
 		return (
 			<div>
-				{this.state.user ? (
-					this.renderPrivateContent()
-				) : (
-					<Paper>
-						<Media src="https://react.semantic-ui.com/images/wireframe/paragraph.png" />
-					</Paper>
-				)}
+				{this.renderPrivateContent()}
 			</div>
 		)
 	}

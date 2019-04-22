@@ -36,6 +36,9 @@ export default class AuthContainer extends Component {
 
 	login = () => {
 		const provider = new firebase.auth.GoogleAuthProvider()
+		provider.setCustomParameters({
+			prompt: 'select_account'
+		   });
 
 		firebase
 			.auth()
