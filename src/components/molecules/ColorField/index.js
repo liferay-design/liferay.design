@@ -1,6 +1,6 @@
-import React from 'react'
 import { Flex, Text } from 'components/atoms'
 import PropTypes from 'prop-types'
+import React from 'react'
 import styles from './styles.module.scss'
 
 export default class ColorField extends React.Component {

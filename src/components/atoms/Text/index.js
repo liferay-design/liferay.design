@@ -1,7 +1,6 @@
-import { colors, fontSizes, fontWeights } from 'theme'
-
 import PropTypes from 'prop-types'
 import React from 'react'
+import { colors, fontSizes, fontWeights } from 'theme'
 
 const Text = ({
 	align,
@@ -25,7 +24,6 @@ const Text = ({
 		...(margin ? { marginBottom: fontSizes[margin] } : {}),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...(style ? { fontStyle: style } : {}),
-		// ...style,
 		...textAlign,
 		...(width ? { width } : {}),
 		...(weight ? { fontWeight: fontWeights[weight] } : {}),
@@ -46,7 +44,7 @@ Text.propTypes = {
 	margin: PropTypes.string,
 	style: PropTypes.string,
 	size: PropTypes.string,
-	type: PropTypes.oneOf(['p', 'span']),
+	type: PropTypes.string,
 	weight: PropTypes.string,
 	width: PropTypes.string,
 }

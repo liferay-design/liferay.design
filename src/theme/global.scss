@@ -1,5 +1,9 @@
 // @import '~theme/reset';
 @import '~theme/variables';
+
+// disable annoying warnings about colors not being part of material design palette
+$md-colors-warn-md: false;
+
 @import '~react-md/src/scss/react-md';
 
 // Liferay.Design Theme (overrides)

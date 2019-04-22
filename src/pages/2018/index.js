@@ -1,17 +1,16 @@
-import React from 'react'
-import { Link } from 'components/atoms'
-import { Helmet } from 'react-helmet'
-import { Flex, Heading, Image } from 'components/atoms'
-import styles from './styles.module.scss'
+import { Flex, Link } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Plx from 'react-plx'
 import {
+	BrandCarousel,
 	Designer,
 	IllustrationsCarousel,
-	BrandCarousel,
 	VanityMetric,
 } from 'pages/2018/components/_index'
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Helmet } from 'react-helmet'
+import Plx from 'react-plx'
+import styles from './styles.module.scss'
 
 //custom plx data
 const anchorLinks = [

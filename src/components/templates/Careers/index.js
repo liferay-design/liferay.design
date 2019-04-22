@@ -1,21 +1,18 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { Icon, Text } from 'components/atoms'
-import { styled, Button } from 'reakit'
+import { Flex, Icon, Text } from 'components/atoms'
 import { Footer, Navbar } from 'components/organisms'
-import { Flex } from 'components/atoms'
-import { withPrefix } from 'gatsby'
+import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import { colors, fontSizes, fontWeights } from 'theme'
+import React, { Component } from 'react'
+import { Button, styled } from 'reakit'
+import { colors, fontSizes } from 'theme'
+import styles from './styles.module.scss'
 
 const ApplyButton = styled(Button)`
-	background-color: ${colors["primary"]}
-	color: ${colors["white"]}
-	padding: ${fontSizes["medium"]} ${fontSizes["large"]}
+	background-color: ${colors['primary']}
+	color: ${colors['white']}
+	padding: ${fontSizes['medium']} ${fontSizes['large']}
 	height: 100%
 `
-
 
 export default class Careers extends Component {
 	render() {
@@ -27,10 +24,11 @@ export default class Careers extends Component {
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<div className={styles.largeContainer}>
-					<h1>{post.frontmatter.title} 
-						<span>{post.frontmatter.cityRegion} </span>
-					</h1>
-					{/* <div className={styles.role}>
+						<h1>
+							{post.frontmatter.title}
+							<span>{post.frontmatter.cityRegion} </span>
+						</h1>
+						{/* <div className={styles.role}>
 						<h2>{post.frontmatter.description}</h2>
 					</div> */}
 					</div>
@@ -45,9 +43,18 @@ export default class Careers extends Component {
 								opaque="false"
 								href={post.frontmatter.applyLink}
 							>
-								Apply on Jobvite <Icon name="externalLink" margin="0 .2rem 0 .1rem" height=".8rem" width=".8rem" fill="white" />
+								Apply on Jobvite{' '}
+								<Icon
+									name="externalLink"
+									margin="0 .2rem 0 .1rem"
+									height=".8rem"
+									width=".8rem"
+									fill="white"
+								/>
 							</ApplyButton>
-							<Text type="p" style="italic">(apologies in advance :grimacing:)</Text>
+							<Text type="p" style="italic">
+								(apologies in advance :grimacing:)
+							</Text>
 						</div>
 					</Flex>
 				</div>

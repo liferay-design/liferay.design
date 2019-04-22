@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
-import Slider from 'react-slick'
-import styles from './styles.module.scss'
-import Plx from 'react-plx'
-import PropTypes from 'prop-types'
 import { Link } from 'components/atoms'
+import PropTypes from 'prop-types'
+import React from 'react'
+import Plx from 'react-plx'
+import styles from './styles.module.scss'
 
 const Designer = ({
 	profileUrl,

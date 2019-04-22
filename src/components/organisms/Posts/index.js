@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
 import { CardGrid } from 'components/atoms'
 import { Post } from 'components/molecules'
+import React, { Component } from 'react'
 import postFeed from './post_feed'
 
 class Posts extends Component {

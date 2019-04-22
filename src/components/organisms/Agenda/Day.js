@@ -1,5 +1,4 @@
 import { Icon, Text } from 'components/atoms'
-
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'

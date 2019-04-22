@@ -1,12 +1,11 @@
-import { withPrefix, Link } from 'gatsby'
-import React from 'react'
-import styles from './styles.module.scss'
-import { Icon,Text } from 'components/atoms'
+import { Icon, Text } from 'components/atoms'
+import { Link, withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
-import { Avatar, Card, CardTitle, CardText, Media } from 'react-md'
+import React from 'react'
+import { Avatar, Card, CardText, CardTitle, Media } from 'react-md'
+import styles from './styles.module.scss'
 
 const CardDefault = ({
-	key,
 	imageURL,
 	icon,
 	title,
@@ -17,13 +16,15 @@ const CardDefault = ({
 	pill,
 	tag,
 }) => (
-	<Link key={key} className={styles.cardLink} to={link}>
+	<Link className={styles.cardLink} to={link}>
 		<Card className={styles.card}>
 			<Media aspectRatio="4-3" className={styles.null}>
 				<img src={withPrefix(`${imageURL}`)} />
 			</Media>
 			{pill ? (
-				<Text className={styles.pill} weight="black">{tag}</Text>
+				<Text className={styles.pill} weight="black">
+					{tag}
+				</Text>
 			) : null}
 			{avatarImage ? (
 				<Avatar className={styles.avatar} src={withPrefix(`${avatarImageURL}`)} />
@@ -42,7 +43,6 @@ const CardDefault = ({
 )
 
 CardDefault.propTypes = {
-	key: PropTypes.string,
 	imageURL: PropTypes.string,
 	avatarImageURL: PropTypes.string,
 	icon: PropTypes.string,

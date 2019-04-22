@@ -1,7 +1,7 @@
-import React from 'react'
 import { Flex, Text } from 'components/atoms'
 import { ColorField } from 'components/molecules'
 import PropTypes from 'prop-types'
+import React from 'react'
 import styles from './styles.module.scss'
 
 export default function ColorSwatchDigital({ hex, rgb, hsl, title, name }) {

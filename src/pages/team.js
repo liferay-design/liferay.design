@@ -1,7 +1,7 @@
-import React from 'react'
-import { MainLayout } from 'components/templates'
-import { Team } from 'components/organisms'
 import { Container, Heading } from 'components/atoms'
+import { Team } from 'components/organisms'
+import { MainLayout } from 'components/templates'
+import React from 'react'
 
 const TeamPage = () => (
 	<MainLayout section="Team">
