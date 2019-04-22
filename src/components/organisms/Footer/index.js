@@ -1,5 +1,5 @@
-import { Container, Flex, Heading, Text } from 'components/atoms'
-import { SocialIcons, SiteCredits } from 'components/molecules'
+import { Container, Flex, Heading } from 'components/atoms'
+import { SiteCredits, SocialIcons } from 'components/molecules'
 import React from 'react'
 import styles from './styles.module.scss'
 

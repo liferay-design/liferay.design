@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import styles from './styles.module.scss'
-
 import { colors } from 'theme'
+import styles from './styles.module.scss'
 
 const Heading = ({ align, bottomBorder, className, color, children, level, padding }) => {
 	const Header = `h${level}`

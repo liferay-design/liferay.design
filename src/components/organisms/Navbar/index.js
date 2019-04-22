@@ -1,9 +1,8 @@
-import React from 'react'
-import styles from './styles.module.scss'
 import { Container, SiteName } from 'components/atoms'
 import { NavItems } from 'components/organisms'
-
 import PropTypes from 'prop-types'
+import React from 'react'
+import styles from './styles.module.scss'
 
 const Navbar = ({ white, section }) => {
 	// TODO: Add custom nav items for events page

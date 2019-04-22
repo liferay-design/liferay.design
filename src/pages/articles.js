@@ -1,9 +1,8 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { MainLayout } from 'components/templates'
-import { Posts } from 'components/organisms'
-import { CardDefault } from 'components/molecules'
 import { CardGrid, Container, Heading } from 'components/atoms'
+import { CardDefault } from 'components/molecules'
+import { MainLayout } from 'components/templates'
+import { graphql } from 'gatsby'
+import React from 'react'
 
 export default ({ data }) => {
 	return (
@@ -31,29 +30,29 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					filter: { fileAbsolutePath: { regex: "/(articles)/" } }
-					sort: { order: DESC, fields: [frontmatter___date] }
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							frontmatter {
-								title
-								description
-								featuredImage
-								author
-								avatar
-								date(formatString: "MMMM DD, YYYY")
-							}
-							fields {
-								slug
-							}
-							excerpt
-						}
+	{
+		allMdx(
+			filter: { fileAbsolutePath: { regex: "/(articles)/" } }
+			sort: { order: DESC, fields: [frontmatter___date] }
+		) {
+			totalCount
+			edges {
+				node {
+					id
+					frontmatter {
+						title
+						description
+						featuredImage
+						author
+						avatar
+						date(formatString: "MMMM DD, YYYY")
 					}
+					fields {
+						slug
+					}
+					excerpt
 				}
 			}
-		`
+		}
+	}
+`

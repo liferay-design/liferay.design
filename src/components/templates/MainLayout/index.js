@@ -1,5 +1,5 @@
-import React from 'react'
 import { Footer, Navbar } from 'components/organisms'
+import React from 'react'
 
 export default ({ children, section }) => (
 	<>

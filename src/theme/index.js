@@ -17,7 +17,7 @@ const colors = {
 	mainl5: '#cdced9',
 	mainl6: '#e7e7ed',
 	primary: '#0B5FFF',
-	primaryd2: '#004ad7', 
+	primaryd2: '#004ad7',
 	primaryd1: '#0053f0',
 	primaryl1: '#80acff',
 	primaryl2: '#b3cdff',
@@ -76,7 +76,7 @@ const colors = {
 	accent6: '#19AB4F',
 	accent7: '#503690',
 	accent8: '#FDCC4A',
-	accent9: '#47C6F5'
+	accent9: '#47C6F5',
 }
 
 const fontSizes = {

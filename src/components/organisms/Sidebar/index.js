@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import styles from './styles.module.scss'
-import { Grid } from 'reakit'
-import { SiteName } from 'components/atoms'
+import { Link, SiteName } from 'components/atoms'
 import { Accordion, SiteCredits } from 'components/molecules'
 import { map, orderBy } from 'lodash'
-import { Link } from 'components/atoms'
+import React from 'react'
+import { Grid } from 'reakit'
+import styles from './styles.module.scss'
 
 const SidebarContent = ({ path, tree }) => {
 	const unorderedTree = map(tree, node => {
@@ -35,14 +34,23 @@ const SidebarContent = ({ path, tree }) => {
 	return orderBy(unorderedTree, 'key', 'asc')
 }
 
-export default function SidebarWrapper({ path, tree, isMobile, showSidebar, section, lexicon }) {
+export default function SidebarWrapper({
+	path,
+	tree,
+	isMobile,
+	showSidebar,
+	section,
+	lexicon,
+}) {
 	return (
 		<Grid
 			columns="1fr"
 			rows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
 			className={`${styles.sidebar} ${
 				isMobile && showSidebar ? styles.onScreen : ''
-			} ${isMobile && !showSidebar ? styles.offScreen : ''} ${lexicon ? styles.lexicon : styles.sidebar}`}
+			} ${isMobile && !showSidebar ? styles.offScreen : ''} ${
+				lexicon ? styles.lexicon : styles.sidebar
+			}`}
 		>
 			{!isMobile && (
 				<Grid.Item className={styles.section}>

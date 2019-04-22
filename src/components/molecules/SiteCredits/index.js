@@ -1,5 +1,5 @@
-import React from 'react'
 import { Flex, Text } from 'components/atoms'
+import React from 'react'
 import styles from './styles.module.scss'
 
 const SiteCredits = () => {

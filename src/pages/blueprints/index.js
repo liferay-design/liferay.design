@@ -1,10 +1,10 @@
-import { Icon, Link, Text } from 'components/atoms';
-import { Billboard, CardLexicon } from 'components/molecules';
-import { Banner, Footer } from 'components/organisms';
-import React from 'react';
-import MediaQuery from 'react-responsive';
-import { Grid } from 'reakit';
-import styles from './styles.module.scss';
+import { Icon, Link, Text } from 'components/atoms'
+import { Billboard, CardLexicon } from 'components/molecules'
+import { Banner, Footer } from 'components/organisms'
+import React from 'react'
+import MediaQuery from 'react-responsive'
+import { Grid } from 'reakit'
+import styles from './styles.module.scss'
 
 const Blueprints = () => (
 	<div className={styles.sans}>

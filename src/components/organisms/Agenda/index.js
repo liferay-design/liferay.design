@@ -1,12 +1,11 @@
 import { Flex, Heading, Text } from 'components/atoms'
+import moment from 'moment'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
-
 import Day from './Day'
-import Talk from './Talk'
-import styles from './styles.module.scss'
-import moment from 'moment'
 import scheduleArray from './scheduleData'
+import styles from './styles.module.scss'
+import Talk from './Talk'
 
 export class Agenda extends Component {
 	constructor() {

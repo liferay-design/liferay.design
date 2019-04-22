@@ -1,15 +1,12 @@
-import React, { StrictMode } from 'react'
-import PropTypes from 'prop-types'
 import LogRocket from 'logrocket'
-import { Helmet } from 'react-helmet'
+import PropTypes from 'prop-types'
+import React, { StrictMode } from 'react'
 
 export default class HTML extends React.Component {
 	render() {
-		LogRocket.init('vvepjf/liferaydesign');
+		LogRocket.init('vvepjf/liferaydesign')
 		return (
-			<html 
-				lang="en" 
-				{...this.props.htmlAttributes}>
+			<html lang="en" {...this.props.htmlAttributes}>
 				<head>
 					<link rel="icon" href="/images/favicon.ico?v=1.0" />
 					<meta charSet="utf-8" />
@@ -19,8 +16,8 @@ export default class HTML extends React.Component {
 						content="width=device-width, initial-scale=1, shrink-to-fit=no"
 					/>
 					<title>
-						Liferay Design | Articles, Events, and Resources for the
-						Open Source Design Community
+						Liferay Design | Articles, Events, and Resources for the Open
+						Source Design Community
 					</title>
 
 					{this.props.headComponents}

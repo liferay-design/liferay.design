@@ -1,24 +1,21 @@
-import React from 'react'
-import { Heading, Container, Flex, Text, Button, Link } from 'components/atoms'
-import styles from './styles.module.scss'
+import { Button, Container, Flex, Heading, Link, Text } from 'components/atoms'
 import PropTypes from 'prop-types'
+import React from 'react'
+import styles from './styles.module.scss'
 
 const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => {
 	return (
 		<Flex className={styles.wrapper} background={background}>
 			<Container>
 				<Flex className={styles.container}>
-					<Flex
-						className={styles.image}
-						backgroundImage={image}
-					/>
+					<Flex className={styles.image} backgroundImage={image} />
 					<Flex
 						className={styles.text}
 						direction="column"
 						align="flex-start"
 						justify="space-between"
 					>
-						<Heading className={styles.headline} level="2">
+						<Heading className={styles.headline} level={2}>
 							{heading}
 						</Heading>
 						<Text margin="xxLarge">{subtitle}</Text>
@@ -41,9 +38,9 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 BillboardAlt.propTypes = {
 	image: PropTypes.string,
 	heading: PropTypes.string,
-	subtitle: PropTypes.element,
-	cta: PropTypes.element,
-	ctaUrl: PropTypes.element,
+	subtitle: PropTypes.string,
+	cta: PropTypes.string,
+	ctaUrl: PropTypes.string,
 	background: PropTypes.string,
 }
 

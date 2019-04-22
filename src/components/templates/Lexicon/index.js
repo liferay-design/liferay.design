@@ -33,108 +33,107 @@ export default class Lexicon extends Component {
 		} = this.props
 
 		return (
-				<div className={styles.lexicon}>
-					<MediaQuery maxWidth={767}>
-						{matches => {
-							let gridTemplate = matches
-								? `"nav" 8rem "main" 1fr / 1fr`
-								: `"sidebar main" auto / 18rem 1fr`
+			<div className={styles.lexicon}>
+				<MediaQuery maxWidth={767}>
+					{matches => {
+						let gridTemplate = matches
+							? `"nav" 8rem "main" 1fr / 1fr`
+							: `"sidebar main" auto / 18rem 1fr`
 
-							return (
-								<Grid
-									template={gridTemplate}
-									className={styles.mainContentWrapper}
-								>
-									{matches && (
-										<Flex
-											className={styles.mobileNavbar}
-											justify="space-between"
-											padding="2rem 1.5rem"
-										>
-											<SiteName section="Lexicon" dark />
-											<AuthContainer />
-										</Flex>
-									)}
-									
-									<Sidebar
-										lexicon
-										path={pathname}
-										tree={buildSidebarTree(allMdx)}
-										isMobile={matches}
-										showSidebar={this.state.mobileSidebarVisible}
-										section="Lexicon"
-									/>
-
-									<div
-										className={styles.body}
-										isMobile={matches}
-										isMobileSidebarVisible={
-											this.state.mobileSidebarVisible
-										}
-									>
-										<ContainerMarkdown>
-											<Flex
-												justify="space-between"
-												align="baseline"
-												className={styles.header}
-											>
-												<h1>{mdx.frontmatter.title}</h1>
-
-
-												{!matches && <AuthContainer />}
-											</Flex>
-
-											{mdx.frontmatter.titleLabelLink ? (
-												<span>
-													<a className={styles.labelLink} href={mdx.frontmatter.titleLabelLink} target="_blank">VIEW IN CLAY</a>
-												</span>
-											) : (
-												null
-											)}
-
-											{mdx.frontmatter.description ? (
-												<p className={styles.description}>{mdx.frontmatter.description}</p>
-											) :(
-												null
-											)}
-
-											<MDXRenderer className={styles.body}>
-												{mdx.code.body}
-											</MDXRenderer>
-										</ContainerMarkdown>
-										<FooterMarkdown light />
-									</div>
-
+						return (
+							<Grid
+								template={gridTemplate}
+								className={styles.mainContentWrapper}
+							>
+								{matches && (
 									<Flex
-										align="center"
-										className={styles.mobileMenuBar}
+										className={styles.mobileNavbar}
 										justify="space-between"
+										padding="2rem 1.5rem"
 									>
-										<Icon name="logoDark" />
-
-										{this.state.mobileSidebarVisible ? (
-											<Icon
-												name="close"
-												onClick={
-													this.toggleMobileSidebarVisibility
-												}
-											/>
-										) : (
-											<Text
-												color="white"
-												onClick={
-													this.toggleMobileSidebarVisibility
-												}
-											>
-												Menu
-											</Text>
-										)}
+										<SiteName section="Lexicon" dark />
+										<AuthContainer />
 									</Flex>
-								</Grid>
-							)
-						}}
-					</MediaQuery>
-				</div>
+								)}
+
+								<Sidebar
+									lexicon
+									path={pathname}
+									tree={buildSidebarTree(allMdx)}
+									isMobile={matches}
+									showSidebar={this.state.mobileSidebarVisible}
+									section="Lexicon"
+								/>
+
+								<div
+									className={styles.body}
+									isMobile={matches}
+									isMobileSidebarVisible={
+										this.state.mobileSidebarVisible
+									}
+								>
+									<ContainerMarkdown>
+										<Flex
+											justify="space-between"
+											align="baseline"
+											className={styles.header}
+										>
+											<h1>{mdx.frontmatter.title}</h1>
+
+											{!matches && <AuthContainer />}
+										</Flex>
+
+										{mdx.frontmatter.titleLabelLink ? (
+											<span>
+												<a
+													className={styles.labelLink}
+													href={mdx.frontmatter.titleLabelLink}
+													target="_blank"
+												>
+													VIEW IN CLAY
+												</a>
+											</span>
+										) : null}
+
+										{mdx.frontmatter.description ? (
+											<p className={styles.description}>
+												{mdx.frontmatter.description}
+											</p>
+										) : null}
+
+										<MDXRenderer className={styles.body}>
+											{mdx.code.body}
+										</MDXRenderer>
+									</ContainerMarkdown>
+									<FooterMarkdown light />
+								</div>
+
+								<Flex
+									align="center"
+									className={styles.mobileMenuBar}
+									justify="space-between"
+								>
+									<Icon name="logoDark" />
+
+									{this.state.mobileSidebarVisible ? (
+										<Icon
+											name="close"
+											onClick={this.toggleMobileSidebarVisibility}
+										/>
+									) : (
+										<Text
+											color="white"
+											onClick={this.toggleMobileSidebarVisibility}
+										>
+											Menu
+										</Text>
+									)}
+								</Flex>
+							</Grid>
+						)
+					}}
+				</MediaQuery>
+			</div>
 		)
 	}
 }

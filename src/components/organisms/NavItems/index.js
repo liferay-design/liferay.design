@@ -1,9 +1,7 @@
-import React from 'react'
-import { Flex } from 'components/atoms'
+import { Flex, Link } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
 import PropTypes from 'prop-types'
-import { Link } from 'components/atoms'
-
+import React from 'react'
 import styles from './styles.module.scss'
 
 const NavItems = () => {
@@ -11,9 +9,9 @@ const NavItems = () => {
 		<Flex className={styles.entry} align="center">
 			<Flex className={styles.items}>
 				<Link to="/articles">Articles</Link>
-				
+
 				<Link to="/careers">Careers</Link>
-				
+
 				<Link to="/events">Events</Link>
 
 				<Link to="/team">Team</Link>
