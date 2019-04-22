@@ -1,6 +1,6 @@
+import { Flex, Icon } from 'components/atoms'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Icon, Flex } from 'components/atoms'
 
 export default class Accordion extends Component {
 	constructor(props) {

@@ -1,7 +1,7 @@
-import React from 'react'
-import { MainLayout } from 'components/templates'
 import { Container } from 'components/atoms'
 import { CardLexicon } from 'components/molecules'
+import { MainLayout } from 'components/templates'
+import React from 'react'
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 

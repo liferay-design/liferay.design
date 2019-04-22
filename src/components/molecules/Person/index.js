@@ -1,11 +1,10 @@
-import { withPrefix, Link } from 'gatsby'
-import React from 'react'
-import styles from './styles.module.scss'
 import { Icon } from 'components/atoms'
-import { Avatar, Card, CardTitle, CardText, Media } from 'react-md'
+import { Link, withPrefix } from 'gatsby'
+import React from 'react'
+import { Avatar, Card, CardText, CardTitle, Media } from 'react-md'
+import styles from './styles.module.scss'
 
 class Person extends React.Component {
-
 	constructor(props) {
 		super(props)
 
@@ -30,11 +29,28 @@ class Person extends React.Component {
 					onMouseLeave={this.onPersonMouseLeave.bind(this)}
 					className={styles.card}
 				>
-					<Media aspectRatio="4-3" className={styles[this.props.person.page]}><img src={withPrefix(this.state.imageUrl)} /></Media>
-					<Avatar className={styles.avatar} icon={<Icon fill='white' height='2rem' width='2rem' name={this.props.person.icon} />} />
+					<Media aspectRatio="4-3" className={styles[this.props.person.page]}>
+						<img src={withPrefix(this.state.imageUrl)} />
+					</Media>
+					<Avatar
+						className={styles.avatar}
+						icon={
+							<Icon
+								fill="white"
+								height="2rem"
+								width="2rem"
+								name={this.props.person.icon}
+							/>
+						}
+					/>
 					<div className={styles.copy}>
-						<CardTitle className={styles.title} title={this.props.person.name}/>
-						<CardText className={styles.text} >{this.props.person.title}</CardText>
+						<CardTitle
+							className={styles.title}
+							title={this.props.person.name}
+						/>
+						<CardText className={styles.text}>
+							{this.props.person.title}
+						</CardText>
 					</div>
 				</Card>
 			</Link>

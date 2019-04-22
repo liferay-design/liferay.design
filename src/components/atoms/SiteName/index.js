@@ -1,7 +1,7 @@
+import { Link } from 'components/atoms'
+import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
-import PropTypes from 'prop-types'
-import { Link } from 'components/atoms'
 
 const SiteName = ({ dark, section }) => {
 	var str = section
@@ -12,7 +12,7 @@ const SiteName = ({ dark, section }) => {
 	return (
 		<div className={`${styles.siteName} ${dark && styles.dark}`}>
 			<Link to="/">Liferay.Design</Link>
-			{section && <Link to={"/" + `${lowerCaseSection}`}> / {section}</Link>}
+			{section && <Link to={'/' + `${lowerCaseSection}`}> / {section}</Link>}
 		</div>
 	)
 }

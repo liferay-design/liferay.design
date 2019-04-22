@@ -8,7 +8,7 @@ export const FeaturedPost = () => {
 	}
 	const featuredPost = getRandomPost(postFeed.length - 1)
 
-	// featuring product designer opening effecitve Jan 31, 2019 
+	// featuring product designer opening effecitve Jan 31, 2019
 	return <HeroPost post={postFeed[3]} />
 	// this is the original post randomizer
 	// return <HeroPost post={postFeed[featuredPost]} />

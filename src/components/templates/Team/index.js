@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { cloneDeep, get, set } from 'lodash'
-import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
-import { withPrefix } from 'gatsby'
+import { Footer, Navbar } from 'components/organisms'
+import { graphql, withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { cloneDeep, get, set } from 'lodash'
+import React, { Component } from 'react'
+import styles from './styles.module.scss'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)

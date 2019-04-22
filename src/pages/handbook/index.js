@@ -1,10 +1,5 @@
+import { Banner, Footer } from 'components/organisms'
 import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { MainLayout } from 'components/templates'
-import { Footer, Navbar, Banner } from 'components/organisms'
-import { CardLexicon } from 'components/molecules'
-import { Container } from 'components/atoms'
-import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 
 const HandbookGuild = () => (

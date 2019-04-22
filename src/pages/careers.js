@@ -1,9 +1,8 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { MainLayout } from 'components/templates'
-import { Posts } from 'components/organisms'
-import { CardDefault } from 'components/molecules'
 import { CardGrid, Container, Heading } from 'components/atoms'
+import { CardDefault } from 'components/molecules'
+import { MainLayout } from 'components/templates'
+import { graphql } from 'gatsby'
+import React from 'react'
 
 export default ({ data }) => {
 	return (
