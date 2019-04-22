@@ -1,7 +1,7 @@
+import { Button, Flex, Text } from 'components/atoms'
 import React, { Component } from 'react'
 import { Avatar, Collapse } from 'react-md'
 import styles from './styles.module.scss'
-import { Button, Flex, Text } from 'components/atoms'
 
 export default class LogoutContainer extends Component {
 	state = { collapsed: true, panel: [] }
@@ -18,7 +18,7 @@ export default class LogoutContainer extends Component {
 	}
 
 	render() {
-		const { collapsed, panel } = this.state
+		const { collapsed } = this.state
 
 		return (
 			<div className={styles.relative}>
@@ -50,6 +50,7 @@ export default class LogoutContainer extends Component {
 									{this.props.user.email}
 								</Text>
 								<Button
+									textColor="black"
 									weight="heavy"
 									renderAs="button"
 									onClick={this.props.onClick}

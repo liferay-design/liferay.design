@@ -1,69 +1,87 @@
-import React, { Component } from 'react'
+import { firebase } from '@firebase/app'
+import { Button } from 'components/atoms'
 import { LogoutContainer } from 'components/molecules'
-import { navigate, Link } from 'gatsby'
+import 'firebase/auth'
+import { navigate } from 'gatsby'
+import React, { Component } from 'react'
 import styles from './styles.module.scss'
+
+// Not a security risk to expose key because we are not storing user data
+// https://stackoverflow.com/a/37484053/6502003
+const firebaseConfig = {
+	apiKey: 'AIzaSyCfdCUvteXD-3XPbDVOgj9FYbN-GNLTjk0',
+	authDomain: 'blueprints-5d81d.firebaseapp.com',
+	databaseURL: 'https://blueprints-5d81d.firebaseio.com',
+	projectId: 'blueprints-5d81d',
+	storageBucket: 'blueprints-5d81d.appspot.com',
+	messagingSenderId: '1001957931462',
+}
+
+firebase.initializeApp(firebaseConfig)
 
 export default class AuthContainer extends Component {
 	state = { user: null }
 
 	componentDidMount() {
-		// Because wedeploy references `window` we have to load auth in componentDidMount where it has access to `window`
-		// https://next.gatsbyjs.org/docs/debugging-html-builds/#debugging-html-builds
-		var { auth } = require('utils')
-
-		this.auth = auth
-
-		const user = auth.currentUser
-
-		if (user) {
-			this.setUser(user)
-		}
-
-		auth.onSignIn(user => {
-			this.setUser(user)
+		this.unsubscribe = firebase.auth().onAuthStateChanged(user => {
+			if (user) {
+				this.setUser(firebase.auth().currentUser)
+			}
 		})
+	}
 
-		auth.onSignIn(function() {
-			location.reload(true)
-		})
+	componentWillUnmount() {
+		this.unsubscribe()
 	}
 
 	login = () => {
-		var provider = new this.auth.provider.Google()
+		const provider = new firebase.auth.GoogleAuthProvider()
 
-		provider.setProviderScope('email')
-
-		this.auth.signInWithRedirect(provider)
+		firebase
+			.auth()
+			.signInWithPopup(provider)
+			.then(result => {
+				this.setUser(result.user)
+			})
+			.catch(error => {
+				console.error('error', error)
+			})
 	}
 
 	setUser = user => {
-		if (user) {
-			this.setState({
-				user: { email: user.email, avatar: user.photoUrl, name: user.name },
-			})
-		} else {
-			this.setState({ user: null })
-		}
+		this.setState({
+			user: user
+				? { email: user.email, avatar: user.photoURL, name: user.displayName }
+				: null,
+		})
 	}
 
-	logout = async () => {
-		try {
-			await this.auth.signOut()
-			this.setUser(null)
-
-			navigate('/')
-		} catch (e) {
-			console.log(`Error logging out ===> ${e}`)
-		}
+	logout = () => {
+		firebase
+			.auth()
+			.signOut()
+			.then(() => {
+				this.setUser(null)
+				navigate('/')
+			})
+			.catch(error => {
+				console.error('Sign out error', error)
+			})
 	}
 
 	render() {
 		return this.state.user ? (
 			<LogoutContainer user={this.state.user} onClick={this.logout} />
 		) : (
-			<Link to="#" className={styles.login} onClick={this.login}>
+			<Button
+				backgroundColor="white"
+				to="#"
+				className={styles.login}
+				onClick={this.login}
+				textColor="black"
+			>
 				Sign In
-			</Link>
+			</Button>
 		)
 	}
 }
