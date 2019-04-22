@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { Footer, Navbar } from 'components/organisms'
 import { Container, Flex } from 'components/atoms'
-import { withPrefix } from 'gatsby'
+import { Footer, Navbar } from 'components/organisms'
+import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import React, { Component } from 'react'
+import styles from './styles.module.scss'
 
 export default class Resources extends Component {
 	render() {
@@ -33,25 +32,25 @@ export default class Resources extends Component {
 }
 
 export const pageQuery = graphql`
-			query($slug: String!) {
-				mdx(fields: { slug: { eq: $slug } }) {
-					frontmatter {
-						author
-						authorLink
-						description
-						title
-						startDateTime
-						endDateTime
-						locationName
-						locationURL
-						heroImage
-						summary
-						bodyImage
-						ctaURL
-					}
-					code {
-						body
-					}
-				}
+	query($slug: String!) {
+		mdx(fields: { slug: { eq: $slug } }) {
+			frontmatter {
+				author
+				authorLink
+				description
+				title
+				startDateTime
+				endDateTime
+				locationName
+				locationURL
+				heroImage
+				summary
+				bodyImage
+				ctaURL
 			}
-		`
+			code {
+				body
+			}
+		}
+	}
+`

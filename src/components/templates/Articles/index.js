@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import styles from './styles.module.scss'
-import { Footer, Navbar } from 'components/organisms'
 import { Flex } from 'components/atoms'
-import { withPrefix } from 'gatsby'
+import { Footer, Navbar } from 'components/organisms'
+import { graphql, withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import moment from 'moment'
+import React, { Component } from 'react'
+import styles from './styles.module.scss'
 
 export default class Articles extends Component {
 	render() {
@@ -23,7 +22,8 @@ export default class Articles extends Component {
 							<a href={withPrefix(post.frontmatter.authorLink)}>
 								{post.frontmatter.author}
 							</a>
-							<br></br>on {moment(post.frontmatter.date).format("MMMM DD,YYYY")}
+							<br />on{' '}
+							{moment(post.frontmatter.date).format('MMMM DD,YYYY')}
 						</span>
 					</h1>
 					<div className={styles.role}>

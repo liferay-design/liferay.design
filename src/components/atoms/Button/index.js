@@ -1,7 +1,6 @@
-import { colors, fontSizes, fontWeights } from 'theme'
-import styles from './styles.module.scss'
 import PropTypes from 'prop-types'
 import React from 'react'
+import { colors, fontSizes, fontWeights } from 'theme'
 
 const Button = ({
 	align,

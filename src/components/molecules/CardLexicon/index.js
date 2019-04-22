@@ -1,9 +1,8 @@
-import React from 'react'
-import { Link } from 'components/atoms'
+import { Flex, Heading, Icon, Link, Text } from 'components/atoms'
+import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
+import React from 'react'
 import styles from './styles.module.scss'
-import { Flex, Heading, Text, Icon } from 'components/atoms'
-import { withPrefix } from 'gatsby';
 
 const CardLexicon = ({
 	title,
@@ -11,13 +10,13 @@ const CardLexicon = ({
 	cta,
 	to,
 	icon,
-	image, 
+	image,
 	imageUrl,
 	dark,
 	direction,
 	iconWidth,
 	iconHeight,
-	wide
+	wide,
 }) => {
 	const directionMap = {
 		vertical: 'column',
@@ -34,7 +33,6 @@ const CardLexicon = ({
 		horizontal: '50%',
 	}
 
-
 	return (
 		<Link to={to} className={styles.link}>
 			<Flex
@@ -45,11 +43,7 @@ const CardLexicon = ({
 				padding="0"
 			>
 				{image ? (
-					<Flex
-						className={styles.image}
-						align="center"
-						justify="center"
-					>
+					<Flex className={styles.image} align="center" justify="center">
 						<img src={withPrefix(`${imageUrl}`)} />
 					</Flex>
 				) : (

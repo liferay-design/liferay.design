@@ -1,6 +1,5 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const componentWithMDXScope = require('gatsby-mdx/component-with-mdx-scope')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
 	const { createNodeField } = actions
@@ -52,7 +51,7 @@ exports.createPages = ({ actions, graphql }) => {
 
 					createPage({
 						path: node.fields.slug,
-						component: componentWithMDXScope(templateFile, node.code.scope),
+						component: templateFile,
 						context: {
 							slug: node.fields.slug,
 						},
@@ -73,11 +72,11 @@ exports.onCreatePage = async ({ page, actions }) => {
 	const { createPage } = actions
 
 	var pageMap = {
-		[ "blueprints" ] : [ "blueprints" ],
-		[ "handbook" ] : [ "handbook" ],
+		['blueprints']: ['blueprints'],
+		['handbook']: ['handbook'],
 	}
 
-	for ( key in pageMap )
+	for (key in pageMap)
 		if (page.path.match(/^\/pageMap[key]/)) {
 			page.matchPath = '/key/*'
 

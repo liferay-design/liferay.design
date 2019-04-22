@@ -1,10 +1,10 @@
-import React from 'react'
-import styles from './styles.module.scss'
-import { Flex, Heading } from 'components/atoms'
-import { Button } from 'reakit'
 import { Link } from '@reach/router'
-import PropTypes from 'prop-types'
+import { Flex, Heading } from 'components/atoms'
 import Navbar from 'components/organisms/Navbar'
+import PropTypes from 'prop-types'
+import React from 'react'
+import { Button } from 'reakit'
+import styles from './styles.module.scss'
 
 const Banner = ({ headline, subtitle, cta, ctaLink, section, background }) => (
 	<Flex className={styles.container} style={{ background: `${background}` }}>

@@ -52,8 +52,6 @@ const Flexbox = ({
 Flexbox.defaultProps = {
 	direction: 'row',
 	flexWrap: 'nowrap',
-	// padding: '0',
-	// margin: '0',
 }
 
 Flexbox.propTypes = {

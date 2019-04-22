@@ -1,14 +1,12 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { MainLayout } from 'components/templates'
 import { CardGrid, Container, Heading } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
-import moment from 'moment'
+import { MainLayout } from 'components/templates'
+import { graphql } from 'gatsby'
+import React from 'react'
 
 export default ({ data }) => {
-
 	const cardData = data.allMdx.edges
-	
+
 	// // Prereqs for conditional date rendering
 	// const d1 = new Date(); // Get today's date
 	// const today = d1.getTime(); // convert to date object
@@ -44,43 +42,40 @@ export default ({ data }) => {
 							icon={node.frontmatter.author}
 						/>
 					))}
-					</CardGrid>
+				</CardGrid>
 			</Container>
 		</MainLayout>
 	)
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					filter: {
-						fileAbsolutePath: { regex: "/(events)/" }
-						frontmatter: { 
-							draft: { eq: false }
-						}
+	{
+		allMdx(
+			filter: {
+				fileAbsolutePath: { regex: "/(events)/" }
+				frontmatter: { draft: { eq: false } }
+			}
+			sort: { order: DESC, fields: [frontmatter___startDateTime] }
+		) {
+			totalCount
+			edges {
+				node {
+					id
+					frontmatter {
+						title
+						description
+						featuredImage
+						author
+						startDateTime
 					}
-					sort: { order: DESC, fields: [frontmatter___startDateTime] }
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							frontmatter {
-								title
-								description
-								featuredImage
-								author
-								startDateTime
-							}
-							fields {
-								slug
-							}
-							excerpt
-						}
+					fields {
+						slug
 					}
+					excerpt
 				}
 			}
-		`
-
+		}
+	}
+`
 
 // TODO: set up some filter so that past / future events are separated

@@ -1,70 +1,79 @@
-import React from 'react'
-import { Link } from 'components/atoms'
-import { Helmet } from 'react-helmet'
-import { Flex, Heading, Image } from 'components/atoms'
-import styles from './styles.module.scss'
+import { Flex } from 'components/atoms'
 import { Footer } from 'components/organisms'
+import { PrincipleCard, PrinciplesHeader } from 'pages/principles/components/_index'
+import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Plx from 'react-plx'
-import { PrinciplesHeader, PrincipleCard, PrinciplesFooter } from 'pages/principles/components/_index'
+import styles from './styles.module.scss'
 
 const questionsIntentional = [
-	<span>Are my designs passing <a target='_blank' rel='noopener noreferrer' href='https://www.nngroup.com/articles/ten-usability-heuristics/'>heuristics tests</a>?</span>,
-	"Are my designs reducing problem complexity by addressing simple and focused tasks?",
-	"Are my designs achieving the business goal?",
-	"Are my designs adding value to the system?",
-	"Can I articulate the value my design is adding to the user?"
-];
+	<span>
+		Are my designs passing{' '}
+		<a
+			target="_blank"
+			rel="noopener noreferrer"
+			href="https://www.nngroup.com/articles/ten-usability-heuristics/"
+		>
+			heuristics tests
+		</a>
+		?
+	</span>,
+	'Are my designs reducing problem complexity by addressing simple and focused tasks?',
+	'Are my designs achieving the business goal?',
+	'Are my designs adding value to the system?',
+	'Can I articulate the value my design is adding to the user?',
+]
 
-const descriptorsIntentional = [
-	"Simple",
-	"Intuitive",
-	"Effective"
-];
+const descriptorsIntentional = ['Simple', 'Intuitive', 'Effective']
 
 const questionsInclusive = [
-	<span>Are my designs passing <a target='_blank' rel='noopener noreferrer' href='https://www.w3.org/WAI/ER/tools/'>accessibility tests</a>?</span>,
-	"Am I designing in a non-discriminative way?",
-	"Am I empowering my users to do their tasks?",
-	"Are we contributing to the design community?",
-	"Do I know the groups and the people that my designs are for?"
-];
+	<span>
+		Are my designs passing{' '}
+		<a
+			target="_blank"
+			rel="noopener noreferrer"
+			href="https://www.w3.org/WAI/ER/tools/"
+		>
+			accessibility tests
+		</a>
+		?
+	</span>,
+	'Am I designing in a non-discriminative way?',
+	'Am I empowering my users to do their tasks?',
+	'Are we contributing to the design community?',
+	'Do I know the groups and the people that my designs are for?',
+]
 
-const descriptorsInclusive = [
-	"Universal",
-	"Open",
-	"Consistent"
-];
-
+const descriptorsInclusive = ['Universal', 'Open', 'Consistent']
 
 const questionsHonest = [
-	<span>Am I using the correct <a target='_blank' rel='noopener noreferrer' href='Am I using the correct affordances to solve the problem?'>affordances</a> to solve the problem?</span>,
-	"Are you testing and validating your designs with people?",
-	"Am I using dark patterns?",
-	"Are my designs ethical?",
-	"Am I working to continuously reduce the cognitive load for users?"
-];
+	<span>
+		Am I using the correct{' '}
+		<a
+			target="_blank"
+			rel="noopener noreferrer"
+			href="Am I using the correct affordances to solve the problem?"
+		>
+			affordances
+		</a>{' '}
+		to solve the problem?
+	</span>,
+	'Are you testing and validating your designs with people?',
+	'Am I using dark patterns?',
+	'Are my designs ethical?',
+	'Am I working to continuously reduce the cognitive load for users?',
+]
 
-const descriptorsHonest = [
-	"Affordant",
-	"Transparent",
-	"Human"
-];
+const descriptorsHonest = ['Affordant', 'Transparent', 'Human']
 
 const questionsPleasurable = [
-	"Am I spending time with users to understand their emotions?",
-	"Are people better for experiencing the work we do?",
-	"Do people find delight and joy when experiencing our designs?",
-	"Are my designs performant, functional, and usable?",
-	"Is my design authentic and based in timeless principles?"
-];
+	'Am I spending time with users to understand their emotions?',
+	'Are people better for experiencing the work we do?',
+	'Do people find delight and joy when experiencing our designs?',
+	'Are my designs performant, functional, and usable?',
+	'Is my design authentic and based in timeless principles?',
+]
 
-const descriptorsPleasurable = [
-	"Emotions",
-	"Genuine",
-	"Reliable"
-];
-
+const descriptorsPleasurable = ['Emotions', 'Genuine', 'Reliable']
 
 const Principles = () => {
 	return (
@@ -90,11 +99,18 @@ const Principles = () => {
 				</svg>
 			</AnchorLink>
 
-			<Flex direction="column" align="center" justify="center" className={styles.cardWrap} id="principles">
-				<PrincipleCard 
+			<Flex
+				direction="column"
+				align="center"
+				justify="center"
+				className={styles.cardWrap}
+				id="principles"
+			>
+				<PrincipleCard
 					symbol="/images/principles/symbol-intentional.svg"
-					name="Intentional" 
-					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the person's knowledge or concentration level." wordOne="Simple"
+					name="Intentional"
+					description="Eliminate unnecessary complexity. Be easy to understand, regardless of the person's knowledge or concentration level."
+					wordOne="Simple"
 					descriptors={descriptorsIntentional}
 					questions={questionsIntentional}
 					plxSide={styles.plxElementLeft}
@@ -103,9 +119,9 @@ const Principles = () => {
 				{/* <Plx className={styles.plxElementLeft} parallaxData={PlxUp3}>
 					<img src="/images/principles/plx-triangle.svg" />
 				</Plx> */}
-				<PrincipleCard 
+				<PrincipleCard
 					symbol="/images/principles/symbol-inclusive.svg"
-					name="Inclusive" 
+					name="Inclusive"
 					description="Design for real people, not stereotyped personas. Reflect reality; use expected, contextual patterns and natural metaphors."
 					descriptors={descriptorsInclusive}
 					questions={questionsInclusive}
@@ -115,9 +131,9 @@ const Principles = () => {
 				{/* <Plx className={styles.plxElementRight} parallaxData={PlxUp3}>
 					<img src="/images/principles/plx-doughnut.svg" />
 				</Plx> */}
-				<PrincipleCard 
+				<PrincipleCard
 					symbol="/images/principles/symbol-honest.svg"
-					name="Honest" 
+					name="Honest"
 					description="Be clear, transparent, and straightforward. Respect people’s needs and resources, like attention and time."
 					descriptors={descriptorsHonest}
 					questions={questionsHonest}
@@ -127,9 +143,9 @@ const Principles = () => {
 				{/* <Plx className={styles.plxElementLeft} parallaxData={PlxUp3}>
 					<img src="/images/principles/plx-square.svg" />
 				</Plx> */}
-				<PrincipleCard 
+				<PrincipleCard
 					symbol="/images/principles/symbol-pleasurable.svg"
-					name="Pleasurable" 
+					name="Pleasurable"
 					description="Design products that all people enjoy using. Intentionally produce your best, down to the minutiae."
 					descriptors={descriptorsPleasurable}
 					questions={questionsPleasurable}
