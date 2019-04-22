@@ -1,23 +1,10 @@
-import React from 'react'
-import { Link } from 'components/atoms'
-import { Heading, Text, Icon, Flex } from 'components/atoms'
-import { Billboard, CardLexicon } from 'components/molecules'
-import { Footer, Navbar, Banner } from 'components/organisms'
-import styles from './styles.module.scss'
-import { Card, CardTitle, CardText } from 'react-md'
-import { Grid, Button, styled } from 'reakit'
-import MediaQuery from 'react-responsive'
-
-const WideCard = styled(Card)`
-	display: flex;
-	text-align: left !important;
-`
-
-// const cardGrid = `
-// 	"tlg tlc trc rg" auto
-// 	"lg m m rg" auto
-// 	"lg blc brc brg" auto / 3rem 5fr 5fr 3rem
-// `
+import { Icon, Link, Text } from 'components/atoms';
+import { Billboard, CardLexicon } from 'components/molecules';
+import { Banner, Footer } from 'components/organisms';
+import React from 'react';
+import MediaQuery from 'react-responsive';
+import { Grid } from 'reakit';
+import styles from './styles.module.scss';
 
 const Blueprints = () => (
 	<div className={styles.sans}>
