@@ -13,6 +13,7 @@ const Button = ({
 	padding,
 	size,
 	style,
+	to,
 	weight,
 	width,
 	...props
@@ -34,7 +35,7 @@ const Button = ({
 	}
 
 	return (
-		<RenderAs className={className} style={styles} {...props}>
+		<RenderAs href={to} className={className} style={styles} {...props}>
 			{children}
 		</RenderAs>
 	)

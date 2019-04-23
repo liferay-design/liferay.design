@@ -19,15 +19,15 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 							{heading}
 						</Heading>
 						<Text margin="xxLarge">{subtitle}</Text>
-						<Link to={ctaUrl}>
-							<Button
-								size="medium"
-								weight="heavy"
-								className={styles.button}
-							>
-								{cta}
-							</Button>
-						</Link>
+						<Button
+							renderAs='a'
+							to={ctaUrl}
+							size="medium"
+							weight="heavy"
+							className={styles.button}
+						>
+							{cta}
+						</Button>
 					</Flex>
 				</Flex>
 			</Container>

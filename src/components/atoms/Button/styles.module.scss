@@ -1,10 +1,7 @@
 @import '~theme/variables';
 
 button {
-	font-family: $fontFamilyPrimary;
 	-webkit-appearance: button;
-	font-size: $fontSizeBase;
-	cursor: pointer;
 	color: $darkGrey;
 	background-color: $lightestGrey;
 	border-color: $lightestGrey;
@@ -12,4 +9,11 @@ button {
 	padding: $spacingXSmall;
 	border-radius: $spacingXSmall / 2;
 	margin-top: $spacingSmall;
+}
+
+button,
+a {
+	font-family: $fontFamilyPrimary;
+	font-size: $fontSizeBase;
+	cursor: pointer;
 }
