@@ -5,9 +5,13 @@ import React from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
+import { Helmet } from 'react-helmet'
 
 const Blueprints = () => (
 	<div className={styles.sans}>
+		<Helmet>
+			<title>Blueprints | Brand Guidelines for Liferay</title>
+		</Helmet>
 		<Banner
 			headline="Blueprints"
 			subtitle="Brand Guidelines for Liferay"
