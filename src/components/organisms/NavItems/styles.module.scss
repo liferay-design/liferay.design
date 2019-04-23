@@ -15,7 +15,7 @@
 		margin: 0;
 		padding: $spacingSmall;
 		position: relative;
-		font-size: $fontSizeSmall !important;
+		// font-size: $fontSizeSmall !important;
 		transition: color 0.2s ease-out;
 		&::after {
 			background: $white;
