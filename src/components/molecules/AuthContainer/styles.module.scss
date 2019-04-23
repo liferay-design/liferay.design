@@ -1,6 +1,9 @@
+@import '~theme/variables';
+
 .login {
 	cursor: pointer;
 	padding: 1rem 2rem;
-	// width: 11ch;
 	display: block;
+	font-weight: 600;
+	font-family: $fontFamilyPrimary;
 }
