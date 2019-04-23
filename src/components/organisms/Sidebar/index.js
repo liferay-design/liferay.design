@@ -44,8 +44,8 @@ export default function SidebarWrapper({
 }) {
 	return (
 		<Grid
-			columns="1fr"
-			rows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
+			templateColumns="1fr"
+			templateRows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
 			className={`${styles.sidebar} ${
 				isMobile && showSidebar ? styles.onScreen : ''
 			} ${isMobile && !showSidebar ? styles.offScreen : ''} ${
