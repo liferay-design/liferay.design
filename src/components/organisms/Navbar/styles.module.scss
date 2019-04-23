@@ -13,7 +13,7 @@ nav {
 }
 
 nav.white {
-	color: $white;
+	color: $white !important;
 
 	a {
 		&:after {
@@ -26,7 +26,8 @@ nav.white {
 			}
 		}
 	}
-	div > a {
+	div > a,
+	div > button {
 		color: $white;
 	}
 }
