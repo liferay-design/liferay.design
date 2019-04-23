@@ -19,7 +19,7 @@ const CardDefault = ({
 	<Link className={styles.cardLink} to={link}>
 		<Card className={styles.card}>
 			<Media aspectRatio="4-3" className={styles.null}>
-				<img src={withPrefix(`${imageURL}`)} />
+				<img alt={"image for " + `${title}`} src={withPrefix(`${imageURL}`)} />
 			</Media>
 			{pill ? (
 				<Text className={styles.pill} weight="black">
@@ -27,7 +27,7 @@ const CardDefault = ({
 				</Text>
 			) : null}
 			{avatarImage ? (
-				<Avatar className={styles.avatar} src={withPrefix(`${avatarImageURL}`)} />
+				<Avatar className={styles.avatar} alt={avatarImageURL} src={withPrefix(`${avatarImageURL}`)} />
 			) : (
 				<Avatar
 					className={styles.avatar}
