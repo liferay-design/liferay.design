@@ -44,6 +44,8 @@ export default function SidebarWrapper({
 }) {
 	return (
 		<Grid
+			// TODO put the bg style back in the scss file once we figure out how to get over the styled-components reset
+			background="#f7f8f9"
 			templateColumns="1fr"
 			templateRows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
 			className={`${styles.sidebar} ${
