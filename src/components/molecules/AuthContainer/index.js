@@ -36,9 +36,10 @@ export default class AuthContainer extends Component {
 
 	login = () => {
 		const provider = new firebase.auth.GoogleAuthProvider()
+
 		provider.setCustomParameters({
-			prompt: 'select_account'
-		   });
+			prompt: 'select_account',
+		})
 
 		firebase
 			.auth()
@@ -77,11 +78,9 @@ export default class AuthContainer extends Component {
 			<LogoutContainer user={this.state.user} onClick={this.logout} />
 		) : (
 			<Button
-				backgroundColor="white"
-				to="#"
+				backgroundColor="transparent"
 				className={styles.login}
 				onClick={this.login}
-				textColor="black"
 			>
 				Sign In
 			</Button>
