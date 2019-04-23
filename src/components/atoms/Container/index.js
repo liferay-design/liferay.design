@@ -2,12 +2,12 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-const CardGrid = ({ children }) => {
+const Container = ({ children }) => {
 	return <div className={styles.container}>{children}</div>
 }
 
-CardGrid.propTypes = {
+Container.propTypes = {
 	children: PropTypes.node,
 }
 
-export default CardGrid
+export default Container
