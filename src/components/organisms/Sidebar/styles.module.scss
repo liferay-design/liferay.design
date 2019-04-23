@@ -2,7 +2,8 @@
 @import '~theme/blueprints';
 
 .sidebar {
-	background: $neutral9;
+	// put bg in js for now
+	// background: $neutral9;
 	grid-area: sidebar;
 	height: 100%;
 	max-height: 100vh;
@@ -87,7 +88,7 @@
 
 .lexicon {
 	.section {
-			font-weight: $fontWeightBlack;
+		font-weight: $fontWeightBlack;
 	}
 	.leaf-link {
 		font-size: $fontSizeSmall;
