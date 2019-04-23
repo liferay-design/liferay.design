@@ -24,51 +24,99 @@ To achieve this goal, Lexicon uses Brad Frost's Atomic Design approach to interf
 
 This site explains the design specs and proper usage of Lexicon's system of components for designers, developers, and overall digital creators. While it is primarily for the Liferay community, it is open to anyone who wants to use its components or make contributions or suggestions to improving it.
 
-<Grid columns="1fr 4fr" autoRows="auto" gap="1rem">
+<Grid templateColumns="1fr 4fr" autoRows="auto" gap="1rem">
 	<Grid.Item>
-		<img style={{ marginTop:"1.5rem"}} src="/images/lexicon/getstarted/foundation.png" alt="" />
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/getstarted/foundation.png"
+			alt=""
+		/>
 	</Grid.Item>
 	<Grid.Item>
 		<h4>Foundations</h4>
-		<p>These are the principles that the design system is built on. Modifications to these principles affect the component's behavior. These include foundational elements such as colors, grid, and typography.</p>
+		<p>
+			These are the principles that the design system is built on. Modifications to
+			these principles affect the component's behavior. These include foundational
+			elements such as colors, grid, and typography.
+		</p>
 	</Grid.Item>
 	<Grid.Item>
-		<img style={{ marginTop:"1.5rem"}} src="/images/lexicon/getstarted/component.png" alt="" />
-	</Grid.Item>	
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/getstarted/component.png"
+			alt=""
+		/>
+	</Grid.Item>
 	<Grid.Item>
 		<h4>Core Components</h4>
-		<p>This section contains the common components that are essential to build interfaces. Each component defines its rules and behaviors. Each component's look and feel is based on the combination of the foundations mentioned above. Therefore, changes to the foundation principles propagate to the entire system. In our case, these components are implemented by [Clay](https://clayui.com/).</p>
-	</Grid.Item>	
+		<p>
+			This section contains the common components that are essential to build
+			interfaces. Each component defines its rules and behaviors. Each component's
+			look and feel is based on the combination of the foundations mentioned above.
+			Therefore, changes to the foundation principles propagate to the entire
+			system. In our case, these components are implemented by
+			[Clay](https://clayui.com/).
+		</p>
+	</Grid.Item>
 	<Grid.Item>
-		<img style={{ marginTop:"1.5rem"}} src="/images/lexicon/getstarted/satellite.png" alt="" />
-	</Grid.Item>	
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/getstarted/satellite.png"
+			alt=""
+		/>
+	</Grid.Item>
 	<Grid.Item>
 		<h4>Satellite Components</h4>
-		<p>These components are for the needs of specific products or applications. They are built using Lexicon's foundations and core components. They belong to the product or application that created them, rather than the design system itself.</p>
-	</Grid.Item>	
+		<p>
+			These components are for the needs of specific products or applications. They
+			are built using Lexicon's foundations and core components. They belong to the
+			product or application that created them, rather than the design system
+			itself.
+		</p>
+	</Grid.Item>
 	<Grid.Item>
-		<img style={{ marginTop:"1.5rem"}} src="/images/lexicon/getstarted/template.png" alt="" />
-	</Grid.Item>	
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/getstarted/template.png"
+			alt=""
+		/>
+	</Grid.Item>
 	<Grid.Item>
 		<h4>Templates</h4>
-		<p>Templates offer prebuilt solutions to tackle repetitive interface challenges. They speed up the design process, as they only require minor modifications to fit your use case and display your content.</p>
-	</Grid.Item>	
+		<p>
+			Templates offer prebuilt solutions to tackle repetitive interface challenges.
+			They speed up the design process, as they only require minor modifications to
+			fit your use case and display your content.
+		</p>
+	</Grid.Item>
 	<Grid.Item>
-		<img style={{ marginTop:"1.5rem"}} src="/images/lexicon/getstarted/example.png" alt="" />
-	</Grid.Item>	
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/getstarted/example.png"
+			alt=""
+		/>
+	</Grid.Item>
 	<Grid.Item>
 		<h4>Examples</h4>
-		<p>This section showcases practical designs by UX Designers that demonstrate how core components and satellite components are applied to create Lexicon interfaces that tackle specific scenarios.</p>
-		<p>The components in this site include the labels shown below, which indicate if the component links to its implementation or the product where you can find them. This lets you view the components in a real-world application and context.</p>
-	</Grid.Item>	
+		<p>
+			This section showcases practical designs by UX Designers that demonstrate how
+			core components and satellite components are applied to create Lexicon
+			interfaces that tackle specific scenarios.
+		</p>
+		<p>
+			The components in this site include the labels shown below, which indicate if
+			the component links to its implementation or the product where you can find
+			them. This lets you view the components in a real-world application and
+			context.
+		</p>
+	</Grid.Item>
 </Grid>
 
-
-| Label | Usage |
-| ---- | ----- |
-| VIEW IN CLAY | Links to the pattern implementation |
-| PRODUCT NAME | The pattern is used in a concrete product or application |
-| PENDING | The pattern has been designed and will be implemented either in Clay or a Product/Application. |
+| Label        | Usage                                                                                          |
+| ------------ | ---------------------------------------------------------------------------------------------- |
+| VIEW IN CLAY | Links to the pattern implementation                                                            |
+| PRODUCT NAME | The pattern is used in a concrete product or application                                       |
+| PENDING      | The pattern has been designed and will be implemented either in Clay or a Product/Application. |
 
 ### Implement Lexicon
 
