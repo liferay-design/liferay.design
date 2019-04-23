@@ -1,19 +1,21 @@
 @import '~theme/variables';
 
 .entry {
-	&:last-child > a {
+	&:last-child > a,
+	&:last-child > button {
 		padding: $spacingSmall 0 $spacingSmall $spacingBase;
 		&::after {
 			right: 0;
 			background: $primary;
 		}
 	}
-	a {
+	a,
+	button {
 		color: $grey;
 		margin: 0;
 		padding: $spacingSmall;
 		position: relative;
-		font-size: $fontSizeSmall;
+		font-size: $fontSizeSmall !important;
 		transition: color 0.2s ease-out;
 		&::after {
 			background: $white;
@@ -71,12 +73,14 @@
 	.entry {
 		min-width: 14ch;
 		justify-content: flex-end;
-		a {
+		a,
+		button {
 			padding: $spacingXSmall * 2;
 		}
 	}
 
-	.entry a {
+	.entry a,
+	.entry button {
 		&::after {
 			right: initial;
 			left: calc(50% - 1rem);
