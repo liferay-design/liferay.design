@@ -7,7 +7,7 @@ import styles from './styles.module.scss'
 const Billboard = ({ image, heading, Subtitle, background }) => {
 	return (
 		<section className={styles.wrapper} style={{ background: `${background}` }}>
-			<Grid columns="1fr 20rem 30rem 1fr" areas="'gutterL icon copy gutterR'">
+			<Grid templateColumns="1fr 20rem 30rem 1fr" areas="'gutterL icon copy gutterR'">
 				<Icon className={styles.icon} name={image} />
 
 				<div className={styles.copy}>
