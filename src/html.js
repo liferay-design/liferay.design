@@ -1,23 +1,22 @@
 import LogRocket from 'logrocket'
 import PropTypes from 'prop-types'
 import React, { StrictMode } from 'react'
+import { GoogleFont } from 'react-typography'
+import typography from 'utils/typography'
 
 export default class HTML extends React.Component {
 	render() {
 		LogRocket.init('vvepjf/liferaydesign')
-		return (
-			<html lang="en" {...this.props.htmlAttributes}>
+		return <html lang="en" {...this.props.htmlAttributes}>
 				<head>
 					<link rel="icon" href="/images/favicon.ico?v=1.0" />
 					<meta charSet="utf-8" />
 					<meta httpEquiv="x-ua-compatible" content="ie=edge" />
-					<meta
-						name="viewport"
-						content="width=device-width, initial-scale=1, shrink-to-fit=no"
-					/>
+					<GoogleFont typography={typography} />
+					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 					<title>
-						Liferay Design | Articles, Events, and Resources for the Open
-						Source Design Community
+						Liferay Design | Articles, Events, and Resources for the
+						Open Source Design Community
 					</title>
 
 					{this.props.headComponents}
@@ -26,17 +25,12 @@ export default class HTML extends React.Component {
 					<StrictMode>
 						{this.props.preBodyComponents}
 
-						<div
-							key={`body`}
-							id="___gatsby"
-							dangerouslySetInnerHTML={{ __html: this.props.body }}
-						/>
+						<div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
 
 						{this.props.postBodyComponents}
 					</StrictMode>
 				</body>
 			</html>
-		)
 	}
 }
 
