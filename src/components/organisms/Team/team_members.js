@@ -269,6 +269,15 @@ const teamMembers = [
 		page: 'null',
 	},
 	{
+		id: 280,
+		name: 'Jon Wood',
+		imageUrl: withPrefix(`${imageDir}/wood-jon.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/wood-jon-h.jpg`),
+		title: 'Product Designer',
+		icon: 'fa_keyboard',
+		page: '/team/wood-jon',
+	},
+	{
 		id: 300,
 		name: 'Emily Young',
 		imageUrl: withPrefix(`${imageDir}/young-emily.jpg`),
