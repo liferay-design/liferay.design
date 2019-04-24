@@ -16,7 +16,7 @@ Since this is a permanent action, you must trigger the user with a confirmation 
 
 | Do   | Don't    | Don't |
 | ------- | ------- | ------- |
-| ![times circled icon](/lexicon/images/Delete.jpg) | ![trash icon](/lexicon/images/Trash.jpg) | ![times icon](/lexicon/images/Cancel.png) |
+| ![times circled icon](/images/lexicon/Delete.jpg) | ![trash icon](/images/lexicon/Trash.jpg) | ![times icon](/images/lexicon/Cancel.png) |
 
 
 <!--
@@ -41,7 +41,7 @@ The action of sending an element or a set of elements to the recycle bin implies
 
 | Do   | Don't    | Don't   |
 | ------- | ------- | ------- |
-| ![Trash icon](/lexicon/images/Trash.jpg) | ![times circled icon](/lexicon/images/Delete.jpg) | ![times icon](/lexicon/images/Cancel.png) |
+| ![Trash icon](/images/lexicon/Trash.jpg) | ![times circled icon](/images/lexicon/Delete.jpg) | ![times icon](/images/lexicon/Cancel.png) |
 
 <!--
 <div class="row">
@@ -65,7 +65,7 @@ Cancel and close differ much from deleting or sending to the Recycle Bin. You ca
 
 | Do   | Don't    | Don't                                                                |
 | ------- | ------- | ------- |
-| ![times icon](/lexicon/images/Cancel.png) | ![times circled icon](/lexicon/images/Delete.jpg) | ![Trash icon](/lexicon/images/Trash.jpg) |
+| ![times icon](/images/lexicon/Cancel.png) | ![times circled icon](/images/lexicon/Delete.jpg) | ![Trash icon](/images/lexicon/Trash.jpg) |
 
 <!--
 <div class="row">
@@ -90,7 +90,7 @@ The done action should be displayed as a primary button. Use this action in all 
 
 | Do   | Don't    |
 | ------- | ------- | ------- |
-| ![Primary button with text Done](/lexicon/images/FormButtonPrimaryTextDo.jpg) | ![Primary button with text Ok](/lexicon/images/FormButtonPrimaryTextDont.jpg) | 
+| ![Primary button with text Done](/images/lexicon/FormButtonPrimaryTextDo.jpg) | ![Primary button with text Ok](/images/lexicon/FormButtonPrimaryTextDont.jpg) | 
 
 <!--
 <div class="row">
@@ -112,7 +112,7 @@ Select means "to carefully choose"; it also means "to use a mouse or keystrokes 
 
 | Do   | Don't    |
 | ------- | ------- | ------- |
-| ![Secondary button with text Select](/lexicon/images/ActionsSelectDo.jpg) | ![Secondary button with text Choose](/lexicon/images/ActionsSelectDont.png) |
+| ![Secondary button with text Select](/images/lexicon/ActionsSelectDo.jpg) | ![Secondary button with text Choose](/images/lexicon/ActionsSelectDont.png) |
 
 <!--
 <div class="row">
