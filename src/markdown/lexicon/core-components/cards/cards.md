@@ -73,21 +73,6 @@ Images can vary in size. So no visual information is lost in the card, Lexicon m
 
 ![Card Image Aspect Ratio 3](/images/lexicon/CardImageAspectRatio3.jpg)
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-        <img src="/images/lexicon/CardImageAspectRatio1.jpg" alt="Card Image Aspect Ratio 1">
-	</div>
-	<div class="dodont col-lg">
-		<img src="/images/lexicon/CardImageAspectRatio2.jpg" alt="Card Image Aspect Ratio 2">
-	</div>
-</div>
-<div class="row">
-	<div class="dodont col-lg">
-        <img src="/images/lexicon/CardImageAspectRatio3.jpg" alt="Card Image Aspect Ratio 3">
-	</div>
-</div> -->
-
 Aspect ratio might be used when the content to represent in the card is a document. The image can expand to fill the area.
 
 ### Attributes
@@ -112,15 +97,6 @@ User cards represent users. The user can be represented by their user image or u
 
 ![User card with image](/images/lexicon/CardUserImage.jpg)
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-        <img src="/images/lexicon/CardUser.jpg" alt="User card without image but initials">
-	</div>
-	<div class="dodont col-lg">
-		<img src="/images/lexicon/CardUserImage.jpg" alt="User card with image">
-	</div>
-</div> -->
 
 ### File card
 
