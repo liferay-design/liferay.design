@@ -26,13 +26,13 @@ The Header can have different configurations, as you can see in the examples bel
 
 The application title always appears in the header (Web Content in this example). The title remains in the header until the user navigates to a detail page or the user has finished configuring the asset. Related actions for the application may appear on the right side.
 
-![Application header](/images/lexicon/HeaderApplication.jpg)
+![Application header](/images/lexicon/HeaderUserMenu.jpg)
 
 #### Asset or element detail page header
 
 The asset or element title appears in the header. A back button is provided to navigate to the asset/element location in the application. Related actions for the asset/element may appear on the right side.
 
-![Application header](/images/lexicon/HeaderApplicationDetail.jpg)
+![Application header](/images/lexicon/HeaderUserMenuDetail.jpg)
 
 #### Main page header on site
 
