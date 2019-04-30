@@ -8,6 +8,9 @@ order: 320
 hidden: yes
 ---
 
+![pager default](/images/lexicon/pagerDefault.png)
+
+![pager aligned](/images/lexicon/pagerAligned.png)
 
 ### Usage
 
