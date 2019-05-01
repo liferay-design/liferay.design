@@ -16,10 +16,6 @@ A knife. Good for cutting food, carving wood, and basic survival.
 
 Keep snacks in your glove compartment. Kids are not the only ones who get hangry.
 
-### One thing you are getting better at?
-
-Playing the ukelele.
-
 ### If you weren't designing, what would you be doing?
 
 Perhaps something revolving around teaching kids.

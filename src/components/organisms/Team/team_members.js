@@ -36,12 +36,12 @@ const teamMembers = [
 	},
 	{
 		id: 20,
-		name: 'Julia Chan',
+		name: 'Julia Yang',
 		imageUrl: withPrefix(`${imageDir}/chan-julia.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/chan-julia-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_coffee',
-		page: 'null',
+		page: '/team/yang-julia',
 	},
 	{
 		id: 30,
@@ -185,7 +185,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/lee-jessica-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_pen_nib',
-		page: 'null',
+		page: '/team/lee-jessica',
 	},
 	{
 		id: 180,
@@ -261,12 +261,12 @@ const teamMembers = [
 	},
 	{
 		id: 270,
-		name: 'Sharon Wong',
+		name: 'Sharon Kim',
 		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_pen_fancy',
-		page: 'null',
+		page: '/team/kim-sharon',
 	},
 	{
 		id: 280,
@@ -284,7 +284,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/young-emily-h.jpg`),
 		title: 'Communication Design Manager',
 		icon: 'fa_stroopwafel',
-		page: 'null',
+		page: '/team/young-emily',
 	},
 	{
 		id: 310,
@@ -293,7 +293,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/yuan-rachel-h.jpg`),
 		title: 'Senior Communication Designer',
 		icon: 'fa_chess_queen',
-		page: 'null',
+		page: '/team/yuan-rachel',
 	},
 ]
 
