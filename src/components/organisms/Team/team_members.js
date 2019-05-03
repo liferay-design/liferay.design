@@ -293,7 +293,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/yuan-rachel-h.jpg`),
 		title: 'Senior Communication Designer',
 		icon: 'fa_chess_queen',
-		page: 'null',
+		page: '/team/yuan-rachel',
 	},
 ]
 
