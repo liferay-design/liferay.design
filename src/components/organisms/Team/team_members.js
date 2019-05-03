@@ -284,7 +284,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/young-emily-h.jpg`),
 		title: 'Communication Design Manager',
 		icon: 'fa_stroopwafel',
-		page: 'null',
+		page: '/team/young-emily',
 	},
 	{
 		id: 310,
