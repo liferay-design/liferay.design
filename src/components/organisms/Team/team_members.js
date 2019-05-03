@@ -158,7 +158,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/ho-bryan-h.jpg`),
 		title: 'Associate Communication Design Manager',
 		icon: 'fa_pencil_alt',
-		page: 'null',
+		page: '/team/ho-bryan',
 	},
 	{
 		id: 140,
