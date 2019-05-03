@@ -261,12 +261,12 @@ const teamMembers = [
 	},
 	{
 		id: 270,
-		name: 'Sharon Wong',
+		name: 'Sharon Kim',
 		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_pen_fancy',
-		page: 'null',
+		page: '/team/kim-sharon',
 	},
 	{
 		id: 280,
