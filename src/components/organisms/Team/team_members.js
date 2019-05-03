@@ -36,12 +36,12 @@ const teamMembers = [
 	},
 	{
 		id: 20,
-		name: 'Julia Chan',
+		name: 'Julia Yang',
 		imageUrl: withPrefix(`${imageDir}/chan-julia.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/chan-julia-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_coffee',
-		page: 'null',
+		page: '/team/yang-julia',
 	},
 	{
 		id: 30,
