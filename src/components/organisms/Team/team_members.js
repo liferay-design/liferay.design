@@ -185,7 +185,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/lee-jessica-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_pen_nib',
-		page: 'null',
+		page: '/team/lee-jessica',
 	},
 	{
 		id: 180,
