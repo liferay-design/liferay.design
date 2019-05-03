@@ -4,7 +4,7 @@ authorLink: '/team/connolly-ryan'
 date: '2019-05-03T17:12:33.962Z'
 title: 'Interview with a Designer: B2B Commerce'
 description: '4 Min Read'
-featuredImage: '/images/posts/interview-with-a-designer-b2-b-commerce'
+featuredImage: '/images/posts/interview-with-a-designer-b2-b-commerce.png'
 avatar: '/images/headshots/connolly-ryan-h.jpg'
 ---
 
