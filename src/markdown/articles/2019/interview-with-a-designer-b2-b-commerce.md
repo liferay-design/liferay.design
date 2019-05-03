@@ -4,12 +4,13 @@ authorLink: '/team/connolly-ryan'
 date: '2019-05-03T17:12:33.962Z'
 title: 'Interview with a Designer: B2B Commerce'
 description: '4 Min Read'
-featuredImage: '/images/posts/interview-with-a-designer-b2-b-commerce.svg'
+featuredImage: '/images/posts/interview-with-a-designer-b2-b-commerce'
 avatar: '/images/headshots/connolly-ryan-h.jpg'
 ---
 
 
-![](/images/posts/interview-with-a-designer-b2-b-commerce.svg)
+![](/images/posts/interview-with-a-designer-b2-b-commerce.png)
+
 <!-- # Interview with a Designer: B2B Commerce -->
 _Summary: Designer insight into the thinking and considerations that influenced  Liferay's newest commerce accelerator._
 
@@ -53,3 +54,4 @@ This was all possible thanks to Marco Leo and Ryan Connolly. Thanks Guys ;)
 –
 
 *I want to thank Andrea Censi for taking the time to answer these questions. If you have any questions that we didn't address in this quick interview then please feel free to email us at ryan.connolly@liferay.com*
+`
