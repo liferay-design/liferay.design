@@ -9,9 +9,10 @@ order: 265
 
 ## Text Field
 
-A text field lets users enter data into the system to be processed.
-
 ![default empty state](/images/lexicon/Input.jpg)
+<br/>
+
+A text field lets users enter data into the system to be processed.
 
 ### Usage
 Text fields can have help text. Lexicon provides two different mechanisms to provide help:
@@ -80,11 +81,12 @@ A text field, at the very least, contains these elements:
 
 ## Text area
 
-A text area is similar to a text field input, however, it supports several lines of text. For example, a user can use a text area to enter long product descriptions.
-
 ![text area](/images/lexicon/InputTextArea.jpg)
 
 ![text area](/images/lexicon/InputTextAreaHelpText.jpg)
+<br/>
+
+A text area is similar to a text field input, however, it supports several lines of text. For example, a user can use a text area to enter long product descriptions.
 
 ### Usage
 
