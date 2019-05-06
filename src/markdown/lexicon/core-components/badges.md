@@ -30,17 +30,6 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 | -- | ----- |
 | ![badge distance to an element is 8 pixels](/images/lexicon/BadgeDoDistance.png) | ![don't place a badge closer than 8 pixels to any element in horizontal](/images/lexicon/BadgeDontDistance.png) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/BadgeDoDistance.jpg" alt="badge distance to an element is 8 pixels">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/BadgeDontDistance.jpg" alt="don't place a badge closer than 8 pixels to any element in horizontal">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
 
 ### Attributes
 
