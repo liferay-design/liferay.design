@@ -179,6 +179,15 @@ const teamMembers = [
 		page: '/team/kim-david',
 	},
 	{
+		id: 160,
+		name: 'Sharon Kim',
+		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
+		title: 'Communication Designer',
+		icon: 'fa_pen_fancy',
+		page: '/team/kim-sharon',
+	},
+	{
 		id: 170,
 		name: 'Jessica Lee',
 		imageUrl: withPrefix(`${imageDir}/lee-jessica.jpg`),
@@ -258,15 +267,6 @@ const teamMembers = [
 		title: 'Product Designer',
 		icon: 'fa_archway',
 		page: '/team/vazquez-susana',
-	},
-	{
-		id: 270,
-		name: 'Sharon Kim',
-		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
-		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
-		title: 'Communication Designer',
-		icon: 'fa_pen_fancy',
-		page: '/team/kim-sharon',
 	},
 	{
 		id: 280,
