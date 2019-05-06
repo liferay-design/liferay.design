@@ -7,6 +7,8 @@ layout: "guide"
 order: 267
 ---
 
+![input localizable](/images/lexicon/InputLocalizable.jpg)
+
 ### Layout
 
 This component contains two elements:
