@@ -7,6 +7,7 @@ layout: 'guide'
 order: 204
 ---
 
+![set of three button types in default state](/images/lexicon/ButtonDefault.png)
 
 ### Types
 
