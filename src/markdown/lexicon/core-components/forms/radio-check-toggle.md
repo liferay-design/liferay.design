@@ -41,17 +41,7 @@ Capitalize the checkbox's label.
 | -- | ----- |
 | ![checkbox text is capitalized](/images/lexicon/CheckboxCapitalizeDo.jpg) | ![checkbox text is not capitalized](/images/lexicon/CheckboxCapitalizeDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/CheckboxCapitalizeDo.jpg" alt="checkbox text is capitalized">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/CheckboxCapitalizeDont.jpg" alt="checkbox text is not capitalized">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Use checkboxes for multiple choices in a set of options.
 
@@ -59,17 +49,7 @@ Use checkboxes for multiple choices in a set of options.
 | -- | ----- |
 | ![list of checkboxes to select options](/images/lexicon/CheckboxSwitchDo.jpg) | ![list of switches to select options](/images/lexicon/CheckboxSwitchDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/CheckboxSwitchDo.jpg" alt="list of checkboxes to select options">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/CheckboxSwitchDont.jpg" alt="list of switches to select options">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Use checkboxes when more than one option can be selected.
 
@@ -77,17 +57,6 @@ Use checkboxes when more than one option can be selected.
 | -- | ----- |
 | ![list of checkboxes to select options](/images/lexicon/CheckboxDo.jpg) | ![list of switches to select options](/images/lexicon/RadioDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/CheckboxDo.jpg" alt="list of checkboxes to select options">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/RadioDont.jpg" alt="list of switches to select options">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
 
 ## Radio
 
@@ -146,17 +115,7 @@ Capitalize a radio button's label.
 | -- | ----- |
 | ![radio text is capitalized](/images/lexicon/RadioCapitalizeDo.jpg) | ![radio text is not capitalized](/images/lexicon/RadioCapitalizeDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/RadioCapitalizeDo.jpg" alt="radio text is capitalized">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/RadioCapitalizeDont.jpg" alt="radio text is not capitalized">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Use radios when only one option can be selected.
 
@@ -164,17 +123,7 @@ Use radios when only one option can be selected.
 | -- | ----- |
 | ![radio group with one option selected](/images/lexicon/RadioDo.jpg) | ![radio group with two options selected](/images/lexicon/RadioDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/RadioDo.jpg" alt="radio group with one option selected">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/RadioDont.jpg" alt="radio group with two options selected">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 ## Toggle
 
@@ -203,17 +152,7 @@ Capitalize a toggle switch's label.
 | -- | ----- |
 | ![radio text is capitalized](/images/lexicon/SwitchCapitalizeDo.jpg) | ![radio text is not capitalized](/images/lexicon/SwitchCapitalizeDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/SwitchCapitalizeDo.jpg" alt="radio text is capitalized">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/SwitchCapitalizeDont.jpg" alt="radio text is not capitalized">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Use toogles for activation.
 
@@ -221,17 +160,7 @@ Use toogles for activation.
 | -- | ----- |
 | ![switch list one activated](/images/lexicon/SwitchRadioDo.jpg) | ![radio group one activated](/images/lexicon/SwitchRadioDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/SwitchRadioDo.jpg" alt="switch list one activated">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/SwitchRadioDont.jpg" alt="radio group one activated">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Use checkboxes instead of toggles in confirmation messages.
 
@@ -243,15 +172,7 @@ Use checkboxes instead of toggles in confirmation messages.
 | ----- |
 | ![switch to accept terms of use](/images/lexicon/SwitchCheckboxDont.jpg) |
 
-<!--
-<div class="dodont">
-    <img class="do" src="/images/lexicon/SwitchCheckboxDo.jpg" alt="checkbox to accept terms of use">
-    <p class="do">Do</p>
-</div>
-<div class="dodont">
-    <img class="dont" src="/images/lexicon/SwitchCheckboxDont.jpg" alt="switch to accept terms of use">
-    <p class="dont">Don't</p>
-</div> -->
+
 
 ### Variations
 
