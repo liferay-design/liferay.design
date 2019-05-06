@@ -7,9 +7,8 @@ layout: 'guide'
 order: 203
 ---
 
-Badges have circular borders and are only used to specify a number.
-
 ![defualt size default color badge](/images/lexicon/Badges.png)
+
 
 ### Usage
 
@@ -21,6 +20,7 @@ Badges have circular borders and are only used to specify a number.
     _ Notifications: These are always placed nearby a user profile or a Product menu option.
     _ Errors: These are used in tables and lists.
 -   Badges are not used for non-numeric values. If you have a non-numeric value, use labels instead.
+-   Badges have circular borders.
 
 ### Dos and Don'ts
 
