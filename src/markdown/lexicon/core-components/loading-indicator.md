@@ -5,7 +5,7 @@ description: 'The loading indicator shows the user that an external process, lik
 layout: 'guide'
 order: 300
 ---
-
+![loading indicator default size](/images/lexicon/LoadingIndicator.jpg)
 
 ### Usage
 
