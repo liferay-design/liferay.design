@@ -29,17 +29,7 @@ Labels categorize information and provide quick recognition.
 | -- | ----- |
 | ![Simple label](/images/lexicon/LabelSmallDo.jpg) | ![Label with sticker inside](/images/lexicon/LabelSmallDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/LabelSmallDo.jpg" alt="Simple label">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/LabelSmallDont.jpg" alt="Label with sticker inside">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Labels can only contain one line of text.
 
@@ -47,17 +37,7 @@ Labels can only contain one line of text.
 | -- | ----- |
 | ![default label](/images/lexicon/LabelTextDo.jpg) | ![default label with 2 lines of text](/images/lexicon/LabelTextDontLines.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/LabelTextDo.jpg" alt="default label">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/LabelTextDontLines.jpg" alt="default label with 2 lines of text">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
+
 
 Never use ellipsis in labels.
 
@@ -65,18 +45,7 @@ Never use ellipsis in labels.
 | -- | ----- |
 | ![default label](/images/lexicon/LabelTextDo.jpg) | ![default label with ellipsis](/images/lexicon/LabelTextDontEllipsis.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/LabelTextDo.jpg" alt="default label">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/LabelTextDontEllipsis.jpg" alt="default label with ellipsis">
-		<p class="dont">Don't</p>
-	</div>
-</div>
- -->
+
 
 ### Variations
 
