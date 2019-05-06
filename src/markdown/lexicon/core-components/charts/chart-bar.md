@@ -7,6 +7,8 @@ layout: "guide"
 order: 224
 ---
 
+ ![Bar Chart vertical grouped, 3 groups and 4 different datasets](/images/lexicon/chart-bar-grouped-vertical.png)
+
 ### Color use
 
 You can use colors in different ways in Bar Charts, but there are two main use cases in Lexicon:
