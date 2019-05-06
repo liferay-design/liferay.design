@@ -37,28 +37,4 @@ The finished state indicates that the process is completed successfully when the
 | -- | ----- |
 | Use it for processes such as a file upload. | Never use it to communicate the progress of a user in a certain set of actions. For that you need a [multi step form type](../forms/multi-step-form). |
 
-<!--
-<table>
-    <thead>
-        <tr>
-            <th>Dos</th>
-            <th>Don'ts</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
-                    <span>Use it for processes such as a file upload.</span>
-                </div>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Never use it to communicate the progress of a user in a certain set of actions. For that you need a <a href="https://lexicondesign.io/docs/core-components/forms/multiStepForm.html">multi step form type</a>.</span>
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table> -->
+
