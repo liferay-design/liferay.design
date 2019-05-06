@@ -9,9 +9,11 @@ order: 256
 
 ## Checkbox
 
-A checkbox is a component that lets the user select the value that is written in its corresponding text label. A user can select multiple checkboxes from a group at the same time.
-
 ![checkbox](/images/lexicon/CheckboxLabel.jpg)
+<br/>
+
+
+A checkbox is a component that lets the user select the value that is written in its corresponding text label. A user can select multiple checkboxes from a group at the same time.
 
 _Note: although we have visually defined the checkbox, we use the native checkbox as it is easier to identify by the end user using different web browsers._
 
@@ -89,9 +91,10 @@ Use checkboxes when more than one option can be selected.
 
 ## Radio
 
-A radio is a component that lets the user select the value that is written in its corresponding text label. Unlike checkboxes, a user can only select one radio button from a group at a time.
-
 ![radio](/images/lexicon/RadioButtonLabelActive.jpg)
+<br/>
+
+A radio is a component that lets the user select the value that is written in its corresponding text label. Unlike checkboxes, a user can only select one radio button from a group at a time.
 
 _Note: although we have visually defined the radio, we use the native radio button since it is easier to identify across different web browsers._
 
@@ -175,9 +178,11 @@ Use radios when only one option can be selected.
 
 ## Toggle
 
+![switch default state](/images/lexicon/SwitchLabelOn.jpg)
+<br/>
+
 A toggle is an interface element that, by its activation or deactivation, provokes an immediate action on the screen.
 
-![switch default state](/images/lexicon/SwitchLabelOn.jpg)
 
 ### States
 
