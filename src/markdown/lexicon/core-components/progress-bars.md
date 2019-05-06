@@ -7,6 +7,8 @@ layout: 'guide'
 order: 323
 ---
 
+![indeterminate progress bar](/images/lexicon/ProgressBar30.jpg)
+
 ### Usage
 
 Progress bars are used as a feedback mechanism for system tasks. As long as the process is running, the progress bar grows continuously from 0% to 100%. Use it for system processes.
