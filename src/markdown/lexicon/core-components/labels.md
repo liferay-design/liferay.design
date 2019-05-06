@@ -7,12 +7,12 @@ layout: 'guide'
 order: 281
 ---
 
+![default size default color label](/images/lexicon/Labels.jpg)
 
 ### Usage
 
 Use labels to organize groups of items in your application. Labels have rounded borders by default.
 
-![default size default color label](/images/lexicon/Labels.jpg)
 
 ### Sizes
 
