@@ -7,6 +7,14 @@ layout: "guide"
 order: 321
 ---
 
+![simple pagination](/images/lexicon/Pagination.jpg)
+<br/>
+<br/>
+<br/>
+
+![pagination bar with a dropdown for page size and the simple pagination component](/images/lexicon/PaginationBar.jpg)
+<br/>
+<br/>
 
 ### Variations
 
