@@ -4,7 +4,7 @@ titleLabel: "Clay"
 titleLabelLink: "https://clayui.com/docs/css-framework/satellites/timelines.html"
 description: "Timelines represent an horizontal visualization of events along the time."
 layout: "guide"
-order: 370
+order: 359
 hidden: yes
 ---
 
@@ -21,36 +21,36 @@ The point can be any kind of identifier. We recommend the default one, circle, b
 
 The icons are aligned to the left side of the screen.
 
-![default timeline left aligned](/images/lexicon/timelineDefault-new.png)
+![default timeline left aligned](/images/lexicon/TimelineDefault.jpg)
 
 #### Right timeline
 
 The icons are aligned to the right side of the screen.
 
-![timeline right aligned](/images/lexicon/timelineRight-new.png)
+![timeline right aligned](/images/lexicon/TimelineRightNew.jpg)
 
 #### Center timeline
 
 The icons are aligned to the center of the screen.
 
-![timeline center aligned](/images/lexicon/timelineCenter-new.png)
+![timeline center aligned](/images/lexicon/TimelineCenter.jpg)
 
 #### Even/odd timeline
 
 Being in the center the panel can appear in alternate positions starting on the left side for even configuration and starting on the right for odd configuration.
 
 ##### **Timeline Even**
-![timeline center aligned even order](/images/lexicon/timelineCenterEven-new.png)
+![timeline center aligned even order](/images/lexicon/TimelineCenterEven.jpg)
 
 ##### **Timeline Odd**
-![timeline center aligned odd order](/images/lexicon/timelineCenterOdd-new.png)
+![timeline center aligned odd order](/images/lexicon/TimelineCenterOdd.jpg)
 
 
 #### Right XS Timeline only
 
 On window resize to mobile viewport (<768), the timeline icon are always aligned to the left. In case you want to place on the right, it is also possible with this example.
 
-![timeline right aligned extra small ](/images/lexicon/timelineCenterRightXSOnly-new.png)
+![timeline right aligned extra small ](/images/lexicon/TimelineCenterRightXSOnly.jpg)
 
 #### Timeline Metric
-![timeline Metric ](/images/lexicon/timelineMetrics-new.png)
+![timeline Metric ](/images/lexicon/timelineMetrics.jpg)
