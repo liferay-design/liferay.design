@@ -14,8 +14,9 @@ Header is always fixed to the top of the window.
 The Header is used on almost every page in the system. The most common configuration is shown below:
 * Left area: Used for actions such as triggering the side menu and back navigation
 * Center area: Used for the page or application title and help
-* Right area: Used for actions. These are identified with an icon when possible and listed inside a kebab menu when an icon is not clear.
-    * These actions are application level actions
+* Right area: 
+    * Actions. These are identified with an icon when possible and listed inside a kebab menu when an icon is not clear.These actions are application level actions.
+    * User Sticker. It allows to display different options to which the user has access.
 
 The Header can have different configurations, as you can see in the examples below.
 
@@ -24,15 +25,15 @@ The Header can have different configurations, as you can see in the examples bel
 
 #### Application header
 
-The application title always appears in the header (Web Content in this example). The title remains in the header until the user navigates to a detail page or the user has finished configuring the asset. Related actions for the application may appear on the right side.
+The application title always appears in the header (Web Content in this example). The title remains in the header until the user navigates to a detail page or the user has finished configuring the asset. Related actions for the application may appear on the right side. At the end of the right side, it appears the user sticker.
 
-![Application header](/images/lexicon/HeaderApplication.jpg)
+![Application header](/images/lexicon/HeaderUserMenu.jpg)
 
 #### Asset or element detail page header
 
-The asset or element title appears in the header. A back button is provided to navigate to the asset/element location in the application. Related actions for the asset/element may appear on the right side.
+The asset or element title appears in the header. A back button is provided to navigate to the asset/element location in the application. Related actions for the asset/element may appear on the right side. At the end of the right side, it appears the user sticker.
 
-![Application header](/images/lexicon/HeaderApplicationDetail.jpg)
+![Application header](/images/lexicon/HeaderUserMenuDetail.jpg)
 
 #### Main page header on site
 
