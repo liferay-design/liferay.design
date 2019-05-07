@@ -7,9 +7,8 @@ layout: 'guide'
 order: 203
 ---
 
-Badges have circular borders and are only used to specify a number.
-
 ![defualt size default color badge](/images/lexicon/Badges.png)
+
 
 ### Usage
 
@@ -21,6 +20,7 @@ Badges have circular borders and are only used to specify a number.
     _ Notifications: These are always placed nearby a user profile or a Product menu option.
     _ Errors: These are used in tables and lists.
 -   Badges are not used for non-numeric values. If you have a non-numeric value, use labels instead.
+-   Badges have circular borders.
 
 ### Dos and Don'ts
 
@@ -30,17 +30,6 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 | -- | ----- |
 | ![badge distance to an element is 8 pixels](/images/lexicon/BadgeDoDistance.png) | ![don't place a badge closer than 8 pixels to any element in horizontal](/images/lexicon/BadgeDontDistance.png) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/BadgeDoDistance.jpg" alt="badge distance to an element is 8 pixels">
-		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/BadgeDontDistance.jpg" alt="don't place a badge closer than 8 pixels to any element in horizontal">
-		<p class="dont">Don't</p>
-	</div>
-</div> -->
 
 ### Attributes
 

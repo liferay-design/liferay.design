@@ -7,10 +7,9 @@ layout: 'guide'
 order: 290
 ---
 
+![list entry in default state](/images/lexicon/ListViewDefault.jpg)
 
 ### Usage
-
-![list entry in default state](/images/lexicon/ListViewDefault.jpg)
 
 A list is a visual representation of a dataset that provides more flexibility for arranging the data than a table and is less visually explicit than a card view. It's useful for comparing entries that don't require exhaustive comparison. If the dataset requires exhaustive comparison between entries, use the table view instead.
 
@@ -56,7 +55,7 @@ List sections organize content into separate divisions by a certain categorizati
 
 ![List section](/images/lexicon/ListViewGroupSeparator.jpg)
 
-#### Examples
+### Examples
 
 ![list view example with 3 different states in different entries](/images/lexicon/ListViewExample.jpg)
 

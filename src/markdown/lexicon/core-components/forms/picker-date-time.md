@@ -76,9 +76,9 @@ Lexicon provides a recommended area for extension points that is placed right at
 
 ## Time Picker
 
-The time picker lets a user select a time from a range of hours and minutes.
-
 ![Time picker](/images/lexicon/Picker-time.jpg)
+
+The time picker lets a user select a time from a range of hours and minutes.
 
 ### Usage
 

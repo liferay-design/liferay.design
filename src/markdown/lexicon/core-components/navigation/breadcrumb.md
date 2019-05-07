@@ -8,6 +8,8 @@ order: 311
 ---
 
 ![breadcrumb without collapsing](/images/lexicon/Breadcrumb.png)
+<br/>
+<br/>
 
 ![breadcrumb collapsing with a dropdown button on the left side](/images/lexicon/BreadcrumbDropdown.png)
 
