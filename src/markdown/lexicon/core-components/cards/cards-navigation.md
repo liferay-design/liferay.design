@@ -1,9 +1,9 @@
 ---
-title: "Cards for Navigation"
+title: "Card for Navigation"
 titleLabel: "Pending"
 description: "Card for navigation is a visual component focused on providing navigation in distributive pages or discributive page sections."
 layout: "guide"
-order: 212
+order: 213
 ---
 
 ![navigation card default state](/images/lexicon/CardNavDefault.jpg)
