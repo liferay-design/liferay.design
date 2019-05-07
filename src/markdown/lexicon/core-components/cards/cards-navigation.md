@@ -1,7 +1,7 @@
 ---
-title: "Card for Navigation"
+title: "Navigation Card"
 titleLabel: "Pending"
-description: "Card for navigation is a visual component focused on providing navigation in distributive pages or discributive page sections."
+description: "Navigation card is a visual component focused on providing navigation in distributive pages or discributive page sections."
 layout: "guide"
 order: 213
 ---
