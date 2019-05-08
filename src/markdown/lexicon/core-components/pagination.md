@@ -7,22 +7,12 @@ layout: "guide"
 order: 321
 ---
 
+
+## Pagination
+
 ![simple pagination](/images/lexicon/Pagination.jpg)
-<br/>
-<br/>
-<br/>
-
-![pagination bar with a dropdown for page size and the simple pagination component](/images/lexicon/PaginationBar.jpg)
-<br/>
-<br/>
-
-### Variations
-
-#### Pagination
 
 Use the default pagination when you need a simple pagination pattern for a page that will not change size.
-
-![simple pagination](/images/lexicon/Pagination.jpg)
 
 Pagination includes several mechanisms to move between pages:
 * Left arrow:
@@ -37,7 +27,7 @@ Pagination includes several mechanisms to move between pages:
     * Navigates forward one page
     * Disabled when the last page is selected
 
-### Pagination bar
+## Pagination bar
 
 ![pagination bar with a dropdown for page size and the simple pagination component](/images/lexicon/PaginationBar.jpg)
 
@@ -60,6 +50,6 @@ Description:
 6. Ellipsis to select intermediate pages through a dropdown menu. Since there are so many pages, it's impossible to view all the pages at once.
 7. Forth arrow
 
-###### Pagination bar mobile
+### Pagination bar mobile
 
 ![pagination bar with a dropdown for page size and the simple pagination component](/images/lexicon/PaginationBarMobile.jpg)
