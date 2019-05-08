@@ -4,7 +4,7 @@ draft: false #requried (true or false)
 #Event Card Fields
 author: 'fa_figma' #requried
 title: 'SGV UX: Impact of Culture on Design and Tech' #requried
-featuredImage: '/images/events/may-2019/sgv-ux-meetup-1.jpg' #requried
+featuredImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg' #requried
 description: 'Los Angeles 🇺🇸' #required
 
 #Event Details
@@ -16,8 +16,8 @@ summary: 'We hosted the third meetup of the San Gabriel Valley UX Group. We ate 
 locationName: 'Liferay, Inc – Diamond Bar, CA' #requried (yyyy-mm-ddThh:mm)
 locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
-heroImage: '/images/events/may-2019/sgv-ux-meetup-2.jpg'
-bodyImage: '/images/events/may-2019/design-for-enrichment.jpg'
+heroImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg'
+bodyImage: '/images/events/may-2019/great-turnout.jpg'
 # ctaURL: 'https://www.meetup.com/Figma-LA/events/259310410/'
 # tag: 'RSVP Now!'
 ---
@@ -28,18 +28,26 @@ We kicked off the event in the early afternoon — we opened up our cafeteria ar
 
 Once everyone had arrived for the main event at 7, we ate some kimbap and then took a quick tour of the Liferay office. Afterwards all the Liferay designers in attendance briefly introduced themselves and shared a little bit about what they work on.
 
+<!--
+![Great turnout!](/images/events/may-2019/great-turnout.jpg)
+_Listening intently_ -->
+
 The main event started around 8, Grace, a UX Architect at [PatientPop](https://www.patientpop.com/) started by talking about how different cultures view of death can shape technology. We discussed how Facebook's 'memorial page' feature is seen as good by some cultures, and very negative by others.
 
 George, a co-founder and advisor for [Comparably](https://comparably.com), shared a presentation on Western design trends — some standouts he identified were:
 
+1. Think about why, not just what
 1. Great design is about listening and thinking, not just doing
 1. There is no neutral design
 1. Design for enrichment, not engagement
 
-![Planets of Design](/images/events/may-2019/four-planets.jpg)
+![Planets of Design](/images/events/may-2019/great-design.jpg)
 _Automattic's '[The Four Planets of Design](https://automattic.design/2019/03/03/the-four-planets-of-design/)'_
 
-To close out the night, Jesse (a UX Designer also at PatientPop) shared about the importance of names in Latin cultures — and how her mother (whose name I still need to get spelled out for me), reacts when she has to fill out poorly designed forms that can't accomodate her family names.
+To close out the night, Jesse (a UX Designer also at PatientPop) shared about the importance of names in Latin cultures — and how her mother _(Julieta Helenita Guadalupe Justino Medina-Despard)_, reacts when she has to fill out poorly designed forms that can't accommodate her family names.
+
+![Importance of a name](/images/events/may-2019/jesse.jpg)
+_Jesse's enthusiastic presentation sans slides_
 
 Her presentation was a great reminder that we all have biases — and that the first step to overcoming them is to acknowledge their existence and work hard to compensate for them. If we do this, then we can design better, more inclusive experiences.
 
