@@ -2,7 +2,7 @@
 title: "Settings Template "
 description: "The settings template shows how a configuration screen is displayed using Lexicon patterns"
 layout: "guide"
-order: 503
+order: 504
 ---
 
 ### Layout
