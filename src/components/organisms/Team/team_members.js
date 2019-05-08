@@ -59,7 +59,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/cicero-emiliano-h.jpg`),
 		title: 'Product Designer',
 		icon: 'fa_bezier_curve',
-		page: 'null',
+		page: '/team/cicero-emiliano',
 	},
 	{
 		id: 40,
