@@ -10,6 +10,7 @@ A list item is a flexible component arranging the data in different ways. Here a
 
 ### Basic
 The most simple list item just showing the main text.
+
 ![A list item with the title "Liferay Site".](/images/lexicon/ListBasicItem.png)
 
 ### With description
