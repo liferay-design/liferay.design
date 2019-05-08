@@ -1,6 +1,6 @@
 ---
 title: Susana Vazquez'
-description: 'Associate Product Design'
+description: 'Product Designer'
 featuredImage: '/images/headshots/vazquez-susana.jpg'
 ---
 

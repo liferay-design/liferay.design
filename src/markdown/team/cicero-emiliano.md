@@ -1,6 +1,6 @@
 ---
 title: 'Emiliano Gastón Cicero aka "EC"'
-description: 'Product Design Manager'
+description: 'Product Designer'
 featuredImage: '/images/headshots/cicero-emiliano-h.jpg'
 ---
 
