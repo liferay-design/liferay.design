@@ -1,6 +1,6 @@
 ---
 title: 'Miriam Manso'
-description: 'Associate Product Design'
+description: 'Associate Product Designer'
 featuredImage: '/images/headshots/manso-miriam.jpg'
 ---
 
