@@ -2,7 +2,7 @@
 title: "Site Builder Template"
 description: "The Site Builder template demonstrates ."
 layout: "guide"
-order: 504
+order: 505
 ---
 ### Basic Components
 

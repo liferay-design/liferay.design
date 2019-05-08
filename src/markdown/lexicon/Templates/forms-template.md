@@ -2,7 +2,7 @@
 title: "Form Template"
 description: "The form template demonstrates how forms are built and composed using Lexicon patterns."
 layout: "guide"
-order: 502
+order: 503
 ---
 
 ### Form without side navigation example
