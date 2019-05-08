@@ -11,7 +11,10 @@ order: 602
     </i>
 </span>
 
-
+The Documents and Media library stores files. The documents preview allows the user to view, comment on, and share, download, edit files.
+Preview focuses on the display of content taking advantage of all available space, eliminating unnecessary distraction.  
+As well as having easy access to a tool that helps with collaboration at work.
+ 
 
 **Image preview default**
 
