@@ -222,9 +222,11 @@
 		}
 	}
 	
-	:global(.designerInfo) {
-		color: $info;
-		font-size: 0.875rem;
+	:global() {
+		.designerInfo {
+			color: $info;
+			font-size: 0.875rem;
+		}
 	}
 	
 	// .dodont {
@@ -496,4 +498,25 @@
 	// 	color: $success;
 	// 	margin-top: 2rem;
 	// }
+}
+
+:global(.designerInfo) {
+	color: $info;
+	font-size: 0.875rem;
+}
+
+:global(.dont) {
+	border-style: solid;
+	border-width: 4px 0px 0px 0px;
+	border-color: $error-l1;
+	color: $error;
+	font-weight: 600;  
+}
+
+:global(.do) {
+	border-style: solid;
+	border-width: 4px 0px 0px 0px;
+	border-color: $success-l1;
+	color: $success;
+	font-weight: 600;  
 }

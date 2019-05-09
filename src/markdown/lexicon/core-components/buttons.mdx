@@ -7,6 +7,8 @@ layout: 'guide'
 order: 204
 ---
 
+import { Grid } from 'reakit'
+
 ![set of three button types in default state](/images/lexicon/ButtonDefault.png)
 
 ### Types
@@ -69,17 +71,28 @@ Use the same height for all the buttons that are in the same row.
 | -- | ----- |
 | ![two buttons of same height in a row](/images/lexicon/ButtonSizeDo.png) | ![two buttons of different height in a row](/images/lexicon/ButtonSizeDont.png) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/ButtonSizeDo.png" alt="two buttons of same height in a row">
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/ButtonSizeDo.png"
+			alt=""
+		/>
 		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/ButtonSizeDont.png" alt="two buttons of different height in a row">
+	</Grid.Item>
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/ButtonSizeDont.png"
+			alt=""
+		/>
 		<p class="dont">Don't</p>
-	</div>
-</div> -->
+	</Grid.Item>
+</Grid>
+
+<br/>
+<br/>
 
 Characters can not all be uppercase in a button.
 
