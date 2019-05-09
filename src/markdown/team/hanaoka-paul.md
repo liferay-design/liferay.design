@@ -2,6 +2,8 @@
 title: 'Paul Hanaoka'
 description: 'Product Design Manager'
 featuredImage: '/images/headshots/hanaoka-paul-h.jpg'
+active: true
+icon: 'fa_terminal'
 ---
 
 ### Favorite tool?

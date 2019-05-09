@@ -2,6 +2,8 @@
 title: 'Juan Hidalgo'
 description: 'Design Director'
 featuredImage: '/images/headshots/hidalgo-juan-h.jpg'
+active: true
+icon: 'fa_heart'
 ---
 
 ### How did you get into design?

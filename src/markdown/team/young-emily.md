@@ -2,6 +2,8 @@
 title: 'Emily Young'
 description: 'Communication Design Manager'
 featuredImage: '/images/headshots/young-emily-h.jpg'
+active: true
+icon: 'fa_stroopwafel'
 ---
 
 ### How did you get into design?

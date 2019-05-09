@@ -2,6 +2,8 @@
 title: 'Julia Yang'
 description: 'Communication Designer'
 featuredImage: '/images/headshots/chan-julia-h.jpg'
+active: true
+icon: 'fa_coffee'
 ---
 
 ### How did you get into design?

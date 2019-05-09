@@ -2,6 +2,8 @@
 title: 'Duuriimaa Bargaid'
 description: 'Associate Product Designer'
 featuredImage: '/images/headshots/bargaid-duuriimaa.jpg'
+active: true
+icon: 'fa_drum'
 ---
 
 ### How did you get into design?

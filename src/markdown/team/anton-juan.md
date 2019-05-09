@@ -2,8 +2,8 @@
 title: 'Juan Antón'
 description: 'Senior Product Designer'
 featuredImage: '/images/headshots/anton-juan-h.jpg'
-icon: 'fa_palette'
 active: true
+icon: 'fa_palette'
 ---
 
 ### How did you get into design?

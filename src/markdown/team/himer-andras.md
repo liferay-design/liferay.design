@@ -2,6 +2,8 @@
 title: 'Andras Himer'
 description: 'Product Designer'
 featuredImage: '/images/headshots/-upside-down-face.png'
+active: true
+icon: 'fa_heart'
 ---
 
 ### How did you get into design?
