@@ -5,10 +5,6 @@ layout: "guide"
 order: 68
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 This pattern is created to include portal main navigation in portal. This navigation is divided is 3 main areas: Control panel, User, and the Site. Different applications are contained inside each of this sections.
 

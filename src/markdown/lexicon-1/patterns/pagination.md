@@ -5,10 +5,6 @@ layout: "guide"
 order: 63
 ---
 
-### Description
-
-{$page.description}
-
 ### Sizes
 
 | Size | Description |

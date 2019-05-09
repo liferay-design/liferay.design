@@ -5,10 +5,6 @@ layout: "guide"
 order: 61
 ---
 
-### Description
-
-{$page.description}
-
 ![navigation bar with 2 entries and a search field](/images/lexicon-1/Navbar.png)
 
 ### Usage
@@ -31,7 +27,7 @@ When the viewport resizes to smaller screen sizes the navbar entries collapse in
 
 ![navigation bar with 2 entries and a search field and on focus](/images/lexicon-1/NavbarFocusSearch.png)
 
-**Example 3:** Navbar with navigation options in dropdown and search. The second image corresponds to its responsive view. For more information about search, please visit [collapsible search](./collapsible_search.html)
+**Example 3:** Navbar with navigation options in dropdown and search. The second image corresponds to its responsive view. For more information about search, please visit [collapsible search](../collapsible-search)
 
 ![navbar in mobile viewport with some navigation options collpased in a dropdown](/images/lexicon-1/NavbarDropdown.png)
 

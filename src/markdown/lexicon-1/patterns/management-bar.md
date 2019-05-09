@@ -5,10 +5,6 @@ layout: "guide"
 order: 57
 ---
 
-### Description
-
-{$page.description}
-
 ![state one of the management bar](/images/lexicon-1/managementBarState1.png)
 
 ### Usage

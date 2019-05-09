@@ -5,10 +5,6 @@ layout: "guide"
 order: 1
 ---
 
-### Description
-
-Alerts are possible to define in 4 different colors, grey for the default type of message and four other corresponding to status colors.
-
 ### Types
 
 | Type | Usage |

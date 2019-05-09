@@ -5,10 +5,6 @@ layout: "guide"
 order: 93
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 Use a user icon to identify a user inside a context. User icons in Lexicon are always displayed inside a circle.

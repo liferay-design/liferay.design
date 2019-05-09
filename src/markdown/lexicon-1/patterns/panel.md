@@ -5,10 +5,6 @@ layout: "guide"
 order: 64
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 Panel are use to help separating content a making processes as reading or filling a form easier to the user. Panels are a way of chunking into smaller pieces.

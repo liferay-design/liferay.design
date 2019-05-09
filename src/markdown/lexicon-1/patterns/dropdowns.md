@@ -5,10 +5,6 @@ layout: "guide"
 order: 8
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 Dropdowns are used to list a set of options that are not easy to manage in the screen. This mechanism helps to clean-up the screen making everything more implicit.
 

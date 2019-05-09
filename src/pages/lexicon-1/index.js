@@ -14,7 +14,7 @@ const Lexicon = () => (
 			cta="Get Started"
 			ctaLink="/lexicon-1/get-started"
 			section="Lexicon 1"
-			background="linear-gradient(20deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1.0)), url(/images/lexicon/home/pattern-bg-black.svg) center -6rem / cover fixed, #000"
+			background="linear-gradient(20deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1.0)), url(/images/lexicon/home/pattern-bg.svg) center -6rem / cover fixed, #000"
 		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
@@ -48,7 +48,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="tlc" marginTop="-8rem">
 									<CardLexicon
-										icon="what-black"
+										icon="what"
 										title="Get Started"
 										text="A consistent design system to help you build beautiful web apps easily"
 										to="/lexicon-1/get-started"
@@ -57,7 +57,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="trc" marginTop="-8rem">
 									<CardLexicon
-										icon="principles-black"
+										icon="principles"
 										title="Patterns"
 										text="The basic principles and guidelines that lay on the core of the pattern libray."
 										to="/lexicon-1/patterns/alerts"
@@ -92,7 +92,7 @@ const Lexicon = () => (
 		</div>
 		<div className={styles.billboard}>
 			<Billboard
-				image="participate-black"
+				image="participate"
 				heading="Want to contribute?"
 				Subtitle={() => (
 					<Text size="large">
@@ -107,7 +107,7 @@ const Lexicon = () => (
 						!
 					</Text>
 				)}
-				background="linear-gradient(20deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/pattern-bg-black.svg) center/cover fixed, #FFFFFF"
+				background="linear-gradient(20deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/pattern-bg.svg) center/cover fixed, #FFFFFF"
 			/>
 		</div>
 		<Container>

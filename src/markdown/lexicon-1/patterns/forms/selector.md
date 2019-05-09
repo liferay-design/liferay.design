@@ -1,13 +1,13 @@
 ---
 title: "Selectors"
-description: "Selectors are frequently used as a part of forms. This elements are used when we need to select one or more within several options. These options are displayed in the button once selected. "
+description: "A form control element used to select from several provided options and enter data."
 layout: "guide"
 order: 43
 ---
 
 ## Selector
 
-{$page.description}
+Selectors are frequently used as a part of forms. This elements are used when we need to select one or more within several options. These options are displayed in the button once selected.
 
 ### Usage
 

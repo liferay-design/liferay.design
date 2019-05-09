@@ -5,10 +5,6 @@ layout: "guide"
 order: 58
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 * Modals can be build in different sizes and configurations. Depending on the amount of content you have you will decide one of them.

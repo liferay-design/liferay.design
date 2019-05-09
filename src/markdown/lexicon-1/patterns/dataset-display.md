@@ -7,7 +7,7 @@ order: 7
 
 ### Description
 
-A dataset display is the combination of a [management bar](./management_bar.html) with one or many data visualization types. The most common visualization types used are [table](./table.html), [list](./list.html) and [card](./card.html).
+A dataset display is the combination of a [management bar](../management_bar) with one or many data visualization types. The most common visualization types used are [table](../table), [list](../list) and [card](../card).
 
 ### Usage
 This pattern is used when the elements of the visualization require colective management, therefore the management bar becomes important as it has to facilitate the tools needed to work with the data set.

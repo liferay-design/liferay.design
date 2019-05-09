@@ -1,13 +1,13 @@
 ---
 title: "Text input"
-description: "A textfield is the most basic pattern for introducing text for a conversation between human and machine."
+description: " description of the different text input types, including usage and validation states."
 layout: "guide"
 order: 45
 ---
 
 ## Text field
 
-{$page.description}
+A textfield is the most basic pattern for introducing text for a conversation between human and machine.
 
 ### States
 

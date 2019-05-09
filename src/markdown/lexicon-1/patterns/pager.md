@@ -5,10 +5,6 @@ layout: "guide"
 order: 62
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 Pagers are commonly used in forms that are chucked because of their length.
