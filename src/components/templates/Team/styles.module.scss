@@ -66,3 +66,49 @@
 		}
 	}
 }
+
+@media screen and (max-width: $screenLarge) {
+	.markdownContainer {
+		padding: $spacingMedium $spacingMedium $spacingMedium;
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	.banner {
+		position: relative;
+		height: 54vh;
+		h1 {
+			font-size: $fontSizeXLarge;
+			position: absolute;
+			left: 0;
+			width: initial;
+			bottom: $spacingSmall;
+			max-width: 50%;
+			text-shadow: $elevationText0, $elevationText1, $elevationText3;
+		}
+		.role {
+			position: relative;
+			top: -($spacingMedium * 4);
+			z-index: 2;
+			width: initial;
+
+			h2 {
+				text-shadow: $elevationText0, $elevationText3;
+				transform: translateX($spacingLarge) rotate(-90deg);
+				color: $white;
+				width: initial;
+				text-align: initial;
+			}
+		}
+		img {
+			max-height: 50vh;
+			max-width: 77vw;
+			position: absolute;
+			top: 0;
+		}
+	}
+	.markdownContainer {
+		margin-top: -$spacingLarge;
+		padding: $spacingLarge $spacingSmall $spacingMedium;
+	}
+}
