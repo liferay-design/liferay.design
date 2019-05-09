@@ -2,7 +2,7 @@
 title: "Color palette"
 description: "Color palette defines a set of colors to be used in the system. Each of the colors has a meaning and a purpose to create a robust a design system."
 layout: "guide"
-order: 6
+order: 16
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Collapsible search"
 description: "Collapsible search provides a solution for the search text field in mobile resolution as the viewport size is reduced."
 layout: "guide"
-order: 5
+order: 15
 ---
 
 

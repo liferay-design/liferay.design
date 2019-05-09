@@ -2,7 +2,7 @@
 title: "Text input"
 description: " description of the different text input types, including usage and validation states."
 layout: "guide"
-order: 45
+order: 35
 ---
 
 ## Text field

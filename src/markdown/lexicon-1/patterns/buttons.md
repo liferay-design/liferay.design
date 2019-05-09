@@ -2,7 +2,7 @@
 title: "Buttons"
 description: "Buttons communicate an action to happen on user interaction."
 layout: "guide"
-order: 3
+order: 13
 ---
 
 ### Types
