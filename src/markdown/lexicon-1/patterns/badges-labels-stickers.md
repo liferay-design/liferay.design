@@ -2,7 +2,7 @@
 title: "Badges, Labels, and Stickers"
 description: "Badges, labels, and stickers are used to put extra emphasis on information."
 layout: "guide"
-order: 2
+order: 12
 ---
 
 ## Badges

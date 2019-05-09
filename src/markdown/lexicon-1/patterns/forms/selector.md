@@ -2,7 +2,7 @@
 title: "Selectors"
 description: "A form control element used to select from several provided options and enter data."
 layout: "guide"
-order: 43
+order: 33
 ---
 
 ## Selector
