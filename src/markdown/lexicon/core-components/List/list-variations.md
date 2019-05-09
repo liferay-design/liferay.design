@@ -2,35 +2,39 @@
 title: 'List Variations'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/list.html'
-description: 'We use different list cell types in our products'
+description: 'Different list cell types are used in our products'
 layout: 'guide'
 order: 285
 ---
-A list item is a flexible component arranging the data in different ways. Here are a few examples.
 
-### Basic
+## List basic item
+
+A list item is a flexible component arranging the data in different ways. In our case, all the variations you see below are possible with the same component. We encourage you to create more list cell components that fit your needs when this one doesn't cover your needs.
+
+### Only text
 The most simple list item just showing the main text.
 
 ![A list item with the title "Liferay Site".](/images/lexicon/ListBasicItem.png)
 
-### With description
+### Text and description
 A list item for versions. It shows its author and creation date. 
 
 ![A list item with the version name "Version 1.0". Author "Alejandro Tardín". And creation date "08/05/2019"](/images/lexicon/ListVersionItem.png)
 
-### User 
-A list item for users. If select multiple users is needed, place a checkbox on the left side.
+### User representation 
+A list item where the user is a relevant visual information. To select multiple users place a checkbox on the left side.
 
 ![A list item with the user icon. The user name "John Doe". And the nick name "@bigboo".](/images/lexicon/ListUserItem.png)
 
-### File
-A list item showing who last modified the file and when. Additionally, it has a status label.
+### File representation
+A list item where represting the file is important. In this case is done through an image, but it can be also done through a sticker that represents the file type or the element type. Additionally, we show that status labels are also possible.
 
 ![A list item with the thumbnail preview of the document. And the file name "Barysnikov.jpg".](/images/lexicon/ListFileItem.png)
 
 
 ### Notifications
-If a list item needs support for notifications, place an 8px width line on the left side of the row for an unread notification. The main text for a read notification must be regular. 
+
+Whenever a list item needs support for notifications, place an 8px width line on the left side of the row for an unread notification. The main text for a read notification must be regular. 
 <br />
 
 **Unread**
