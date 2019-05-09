@@ -7,7 +7,6 @@
 	h1 {
 		width: 200px;
 		font-size: $fontSizeDisplay;
-		line-height: 0.9;
 		color: $white;
 		z-index: 2;
 		font-weight: $fontWeightHeavy;
@@ -82,7 +81,7 @@
 			position: absolute;
 			left: 0;
 			width: initial;
-			bottom: $spacingSmall;
+			bottom: 0.2rem;
 			max-width: 50%;
 			text-shadow: $elevationText0, $elevationText1, $elevationText3;
 		}
