@@ -5,6 +5,7 @@ import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
+import { Helmet } from 'react-helmet'
 
 export default class Articles extends Component {
 	render() {
@@ -12,6 +13,19 @@ export default class Articles extends Component {
 
 		return (
 			<div>
+				<Helmet>
+					<title>
+						{post.frontmatter.title} &mdash; an article by{' '}
+						{post.frontmatter.author} on Liferay.Design
+					</title>
+					<meta property="og:image" content={post.frontmatter.featuredImage} />
+					{post.frontmatter.canonicalLink ? (
+						<link
+							href={post.frontmatter.canonicalLink}
+							rel="canonical"
+						/>
+					) : null}
+				</Helmet>
 				<Navbar section="Articles" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
@@ -22,7 +36,8 @@ export default class Articles extends Component {
 							<a href={withPrefix(post.frontmatter.authorLink)}>
 								{post.frontmatter.author}
 							</a>
-							<br />on{' '}
+							<br />
+							on{' '}
 							{moment(post.frontmatter.date).format('MMMM DD,YYYY')}
 						</span>
 					</h1>
@@ -48,6 +63,8 @@ export const pageQuery = graphql`
 				author
 				authorLink
 				description
+				featuredImage
+				canonicalLink
 				title
 				date
 			}
