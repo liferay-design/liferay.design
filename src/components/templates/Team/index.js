@@ -24,11 +24,11 @@ export default class Team extends Component {
 				<Navbar section="Team" />
 				<Container>
 					<Flex justify="center" align="center" className={styles.banner}>
-						<h1>{post.frontmatter.title}</h1>
+						<h1>{post.frontmatter.name}</h1>
 						<div className={styles.role}>
-							<h2>{post.frontmatter.description}</h2>
+							<h2>{post.frontmatter.title}</h2>
 						</div>
-						<img src={withPrefix(post.frontmatter.featuredImage)} />
+						<img src={withPrefix(post.frontmatter.headshotFun)} />
 					</Flex>
 				</Container>
 				<div className={styles.markdownContainer}>
@@ -49,9 +49,9 @@ export const pageQuery = graphql`
 			frontmatter {
 				author
 				authorLink
-				description
-				featuredImage
+				name
 				title
+				headshotFun
 			}
 			code {
 				body

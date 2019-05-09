@@ -1,6 +1,7 @@
 ---
 name: 'Juan Antón'
 title: 'Senior Product Designer'
+headshotPro: '/images/headshots/anton-juan.jpg'
 headshotFun: '/images/headshots/anton-juan-h.jpg'
 active: true
 icon: 'fa_palette'

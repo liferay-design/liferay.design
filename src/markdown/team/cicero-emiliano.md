@@ -1,6 +1,7 @@
 ---
 name: 'Emiliano Gastón Cicero aka "EC"'
 title: 'Product Designer'
+headshotPro: '/images/headshots/cicero-emiliano.jpg'
 headshotFun: '/images/headshots/cicero-emiliano-h.jpg'
 active: true
 icon: 'fa_bezier_curve'
