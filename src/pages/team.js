@@ -14,13 +14,12 @@ export default ({ data }) => {
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }) => (
 						<CardDefault
-							avatarImage
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={node.frontmatter.description}
-							avatarImageURL={node.frontmatter.avatar}
+							icon={node.frontmatter.icon}
 						/>
 					))}
 				</CardGrid>
@@ -47,7 +46,7 @@ export const query = graphql`
 								description
 								featuredImage
 								author
-								avatar
+								icon
 								date(formatString: "MMMM DD, YYYY")
 							}
 							fields {
