@@ -5,7 +5,8 @@ import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Container } from 'components/atoms';
+import { Container } from 'components/atoms'
+import MediaQuery from 'react-responsive'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -23,13 +24,19 @@ export default class Team extends Component {
 			<div>
 				<Navbar section="Team" />
 				<Container>
-					<Flex justify="center" align="center" className={styles.banner}>
-						<h1>{post.frontmatter.name}</h1>
-						<div className={styles.role}>
-							<h2>{post.frontmatter.title}</h2>
-						</div>
-						<img src={withPrefix(post.frontmatter.headshotFun)} />
-					</Flex>
+					<MediaQuery maxWidth={767}>
+						{matches => {
+							return (
+								<Flex justify={matches ? "center" : "center"} align={matches ? "center" : "center"} className={styles.banner}>
+									<h1>{post.frontmatter.name}</h1>
+									<div className={styles.role}>
+										<h2>{post.frontmatter.title}</h2>
+									</div>
+									<img src={withPrefix(post.frontmatter.headshotFun)} />
+								</Flex>
+							)
+						}}
+					</MediaQuery>
 				</Container>
 				<div className={styles.markdownContainer}>
 					<Flex margin="auto" direction="column" className={styles.wrapper}>
