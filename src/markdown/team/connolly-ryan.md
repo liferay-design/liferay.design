@@ -1,6 +1,7 @@
 ---
 name: 'Ryan Connolly'
 title: 'Product Design Manager'
+headshotPro: '/images/headshots/connolly-ryan.jpg'
 headshotFun: '/images/headshots/connolly-ryan-h.jpg'
 active: true
 icon: 'fa_pen'
