@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_figma' #requried
+author: 'fa_universal_access' #requried
 title: 'SGV UX: Impact of Culture on Design and Tech' #requried
 featuredImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg' #requried
 description: 'Los Angeles 🇺🇸' #required
@@ -28,6 +28,12 @@ We kicked off the event in the early afternoon — we opened up our cafeteria ar
 
 Once everyone had arrived for the main event at 7, we ate some kimbap and then took a quick tour of the Liferay office. Afterwards all the Liferay designers in attendance briefly introduced themselves and shared a little bit about what they work on.
 
+![Tour of Liferay](/images/events/may-2019/tour.jpg)
+_Tour de Liferay_
+
+![Liferay's Gameroom](/images/events/may-2019/gameroom.jpg)
+_Brief stop in the gameroom_
+
 <!--
 ![Great turnout!](/images/events/may-2019/great-turnout.jpg)
 _Listening intently_ -->
@@ -44,16 +50,20 @@ George, a co-founder and advisor for [Comparably](https://comparably.com), share
 ![Planets of Design](/images/events/may-2019/great-design.jpg)
 _Automattic's '[The Four Planets of Design](https://automattic.design/2019/03/03/the-four-planets-of-design/)'_
 
-To close out the night, Jesse (a UX Designer also at PatientPop) shared about the importance of names in Latin cultures — and how her mother _(Julieta Helenita Guadalupe Justino Medina-Despard)_, reacts when she has to fill out poorly designed forms that can't accommodate her family names.
+To close out the night, Jesse (a UX Researcher, also at PatientPop) shared about the importance of names in Latin cultures — and how her mother _(Julieta Helenita Guadalupe Justino Medina-Despard)_, reacts when she has to fill out poorly designed forms that can't accommodate her family names.
 
 ![Importance of a name](/images/events/may-2019/jesse.jpg)
-_Jesse's enthusiastic presentation sans slides_
+_Jesse's enthusiastic talk sans slides — photo courtesy of Grace Lau_
 
 Her presentation was a great reminder that we all have biases — and that the first step to overcoming them is to acknowledge their existence and work hard to compensate for them. If we do this, then we can design better, more inclusive experiences.
+
+Thanks to all who joined! For more photos, [check out Grace's album](https://photos.app.goo.gl/yvGPVVSjN9KzLXZEA).
 
 ## Shameless Plugs
 
 -   [Follow us](https://twitter.com/liferaydesign) and the [SGV UX group](https://twitter.com/thesgvux) to learn about more events in the LA area!
+-   [Liferay Design Principles](/principles)
+-   [Liferay Design 2018 Annual Report](/2018)
 
 ## Special Thanks To...
 
