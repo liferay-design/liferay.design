@@ -7,12 +7,12 @@ order: 114
 
 The space is organized in 3 columns for the sidebar and 9 or 8 columns for the content, depending on its type. This results in two different configurations: A 3+9 column layout and a 3+8 column layout. These configurations are covered in more detail below.
 
-### 3+9 columns
+## 3+9 columns
 This is the default configuration for a table, a list, or any other content structure except a form.
 
 ![layout sidebar and box, 1440px width screen](/images/lexicon/layoutSidebar.jpg)
 
-#### Responsive behavior
+### Responsive behavior
 
 On viewport sizes equal to or less than 768px, we introduce two key changes to the layout that optimize space for content:
 
@@ -21,36 +21,36 @@ On viewport sizes equal to or less than 768px, we introduce two key changes to t
 
 ![layout sidebar + box responsive summary](/images/lexicon/layoutsidebarsummary.jpg)
 
-#### Attributes
+### Attributes
 
 ![layout sidebar + box metrics](/images/lexicon/layoutsidebarmetrics.jpg)
 
-#### Example
+### Example
 
 ![layout sidebar + box example](/images/lexicon/layoutsidebarexample.jpg)
 
 
-### 3+8 columns (Forms)
+## 3+8 columns (Forms)
 
 This configuration is used for forms. Form containers require less space than the 9 columns that the default layout provides, so the columns are reduced to 8.
 
 ![layout sidebar and box 8 columns, 1440px width screen](/images/lexicon/layoutSidebarBox8.jpg)
 
-#### Responsive behavior
+### Responsive behavior
 
 Note that, to optimize space for content, the layout changes from 8 to 9 columns on viewport sizes equal to or less than 992px.
 
 ![layout sidebar + box 8 columns responsive summary](/images/lexicon/layoutsidebarbox8summary.jpg)
 
-#### Attributes
+### Attributes
 
 ![layout sidebar + box 8 columns metrics](/images/lexicon/layoutsidebarbox8metrics.jpg)
 
-#### Example
+### Example
 
 ![layout sidebar + box 8 columns example](/images/lexicon/layoutsidebarbox8example.jpg)
 
-### Exceptions
+## Exceptions
 
 The 3+9 column and 3+8 column layouts cover most Lexicon interfaces. There may, however, be a few edge cases that these layouts don't cover:
 * Scenario 1: A 3+9 columns configuration turns into 2+10 columns configuration.
