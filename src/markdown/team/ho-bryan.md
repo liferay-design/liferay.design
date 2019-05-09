@@ -1,7 +1,8 @@
 ---
-title: 'Bryan Ho'
-description: 'Associate Communication Design Manager'
-featuredImage: '/images/headshots/ho-bryan-h.jpg'
+name: 'Bryan Ho'
+title: 'Associate Communication Design Manager'
+headshotPro: '/images/headshots/ho-bryan.jpg'
+headshotFun: '/images/headshots/ho-bryan-h.jpg'
 active: true
 icon: 'fa_pencil_alt'
 ---

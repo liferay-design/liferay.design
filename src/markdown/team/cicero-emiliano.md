@@ -1,7 +1,7 @@
 ---
-title: 'Emiliano Gastón Cicero aka "EC"'
-description: 'Product Designer'
-featuredImage: '/images/headshots/cicero-emiliano-h.jpg'
+name: 'Emiliano Gastón Cicero aka "EC"'
+title: 'Product Designer'
+headshotFun: '/images/headshots/cicero-emiliano-h.jpg'
 active: true
 icon: 'fa_bezier_curve'
 ---

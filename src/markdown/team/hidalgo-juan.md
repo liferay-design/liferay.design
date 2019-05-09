@@ -1,7 +1,8 @@
 ---
-title: 'Juan Hidalgo'
-description: 'Design Director'
-featuredImage: '/images/headshots/hidalgo-juan-h.jpg'
+name: 'Juan Hidalgo'
+title: 'Design Director'
+headshotPro: '/images/headshots/hidalgo-juan.jpg'
+headshotFun: '/images/headshots/hidalgo-juan-h.jpg'
 active: true
 icon: 'fa_heart'
 ---

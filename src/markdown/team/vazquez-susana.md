@@ -1,7 +1,8 @@
 ---
-title: Susana Vazquez'
-description: 'Product Designer'
-featuredImage: '/images/headshots/vazquez-susana.jpg'
+name: Susana Vazquez'
+title: 'Product Designer'
+headshotPro: '/images/headshots/vazquez-susana.jpg'
+headshotFun: '/images/headshots/vazquez-susana-h.jpg'
 active: true
 icon: 'fa_archway'
 ---

@@ -1,7 +1,8 @@
 ---
-title: 'Andras Himer'
-description: 'Product Designer'
-featuredImage: '/images/headshots/-upside-down-face.png'
+name: 'Andras Himer'
+title: 'Product Designer'
+headshotPro: '/images/headshots/-upside-down-face.png'
+headshotFun: '/images/headshots/-upside-down-face.png'
 active: true
 icon: 'fa_heart'
 ---

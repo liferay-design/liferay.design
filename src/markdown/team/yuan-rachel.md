@@ -1,7 +1,8 @@
 ---
-title: 'Rachel Yuan'
-description: 'Senior Communication Designer'
-featuredImage: '/images/headshots/yuan-rachel-h.jpg'
+name: 'Rachel Yuan'
+title: 'Senior Communication Designer'
+headshotPro: '/images/headshots/yuan-rachel.jpg'
+headshotFun: '/images/headshots/yuan-rachel-h.jpg'
 active: true
 icon: 'fa_chess_queen'
 ---

@@ -1,7 +1,8 @@
 ---
-title: 'Jon Wood'
-description: 'Product Designer'
-featuredImage: '/images/headshots/wood-jon-h.jpg'
+name: 'Jon Wood'
+title: 'Product Designer'
+headshotPro: '/images/headshots/wood-jon.jpg'
+headshotFun: '/images/headshots/wood-jon-h.jpg'
 active: true
 icon: 'fa_keyboard'
 ---
