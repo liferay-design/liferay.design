@@ -4,7 +4,7 @@ title: 'Interaction and Information Designer'
 headshotPro: '/images/headshots/aragones-david.jpg'
 headshotFun: '/images/headshots/aragones-david-h.jpg'
 active: true
-icon: 'fa_universal_access',
+icon: 'fa_universal_access'
 ---
 
 ### How did you get into design?
