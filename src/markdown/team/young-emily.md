@@ -1,7 +1,8 @@
 ---
-title: 'Emily Young'
-description: 'Communication Design Manager'
-featuredImage: '/images/headshots/young-emily-h.jpg'
+name: 'Emily Young'
+title: 'Communication Design Manager'
+headshotPro: '/images/headshots/young-emily.jpg'
+headshotFun: '/images/headshots/young-emily-h.jpg'
 active: true
 icon: 'fa_stroopwafel'
 ---

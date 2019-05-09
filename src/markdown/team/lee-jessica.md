@@ -1,7 +1,8 @@
 ---
-title: 'Jessica Lee'
-description: 'Communication Designer'
-featuredImage: '/images/headshots/lee-jessica-h.jpg'
+name: 'Jessica Lee'
+title: 'Communication Designer'
+headshotPro: '/images/headshots/lee-jessica.jpg'
+headshotFun: '/images/headshots/lee-jessica-h.jpg'
 active: true
 icon: 'fa_pen_nib'
 ---

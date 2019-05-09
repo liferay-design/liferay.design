@@ -1,7 +1,7 @@
 ---
-title: 'Juan Antón'
-description: 'Senior Product Designer'
-featuredImage: '/images/headshots/anton-juan-h.jpg'
+name: 'Juan Antón'
+title: 'Senior Product Designer'
+headshotFun: '/images/headshots/anton-juan-h.jpg'
 active: true
 icon: 'fa_palette'
 ---

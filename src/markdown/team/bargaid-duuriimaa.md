@@ -1,7 +1,7 @@
 ---
-title: 'Duuriimaa Bargaid'
-description: 'Associate Product Designer'
-featuredImage: '/images/headshots/bargaid-duuriimaa.jpg'
+name: 'Duuriimaa Bargaid'
+title: 'Associate Product Designer'
+headshotFun: '/images/headshots/bargaid-duuriimaa.jpg'
 active: true
 icon: 'fa_drum'
 ---

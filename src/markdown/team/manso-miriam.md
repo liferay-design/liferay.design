@@ -1,7 +1,8 @@
 ---
-title: 'Miriam Manso'
-description: 'Associate Product Designer'
-featuredImage: '/images/headshots/manso-miriam.jpg'
+name: 'Miriam Manso'
+title: 'Associate Product Designer'
+headshotPro: '/images/headshots/manso-miriam.jpg'
+headshotFun: '/images/headshots/manso-miriam-h.jpg'
 active: true
 icon: 'fa_pointe_shoe'
 ---

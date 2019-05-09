@@ -1,7 +1,8 @@
 ---
-title: 'David Kim'
-description: 'Product Designer'
-featuredImage: '/images/headshots/kim-david-h.jpg'
+name: 'David Kim'
+title: 'Product Designer'
+headshotPro: '/images/headshots/kim-david.jpg'
+headshotFun: '/images/headshots/kim-david-h.jpg'
 active: true
 icon: 'fa_pastafarianism'
 ---

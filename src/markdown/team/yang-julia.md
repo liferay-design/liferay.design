@@ -1,7 +1,8 @@
 ---
-title: 'Julia Yang'
-description: 'Communication Designer'
-featuredImage: '/images/headshots/chan-julia-h.jpg'
+name: 'Julia Yang'
+title: 'Communication Designer'
+headshotPro: '/images/headshots/chan-julia.jpg'
+headshotFun: '/images/headshots/chan-julia-h.jpg'
 active: true
 icon: 'fa_coffee'
 ---

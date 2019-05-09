@@ -1,7 +1,8 @@
 ---
-title: 'James Lyons'
-description: 'Product Designer'
-featuredImage: '/images/headshots/-upside-down-face.png'
+name: 'James Lyons'
+title: 'Product Designer'
+headshotPro: '/images/headshots/lyons-james.jpg'
+headshotFun: '/images/headshots/lyons-james-h.jpg'
 active: true
 icon: 'fa_drum'
 ---
