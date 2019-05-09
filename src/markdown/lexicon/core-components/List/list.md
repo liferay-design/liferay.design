@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/list.html'
 description: 'Lists are a visual representation of a dataset, based on groups of related content, that is organized vertically.'
 layout: 'guide'
-order: 290
+order: 284
 ---
 
 ![list entry in default state](/images/lexicon/ListViewDefault.jpg)
@@ -66,13 +66,3 @@ See the [dataset template](../Templates/datasetTemplate.html) for more examples 
 -   Text elements can't fill more than two lines.
 -   When the entire content for a list can't be displayed, for instance on a smaller screen, it will be replaced with an ellipsis.
 -   If a list row contains tags, they can’t occupy more than one line. If a tag's row is longer, use an ellipsis.
-
-## Notifications
-
-<!-- <span class="label label-info">PORTAL</span> -->
-
-If a list entry needs support for notifications, place an 8px width line on the left side of the row.
-
-![list notification default state has a blue line on the left side of the row](/images/lexicon/ListNotificationDefault.jpg)
-![list notification active state has a blue line on the left side of the row](/images/lexicon/ListNotificationActive.jpg)
-![list notification hover state has a blue line on the left side of the row](/images/lexicon/ListNotificationHover.jpg)
