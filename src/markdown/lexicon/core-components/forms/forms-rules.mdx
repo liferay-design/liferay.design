@@ -5,6 +5,8 @@ layout: 'guide'
 order: 254
 ---
 
+import { Grid } from 'reakit'
+
 ### Fields’ order
 
 Laying out the fields of your form we recommend you to follow an order of importance. Try to place first as many mandatory fields when possible to make the user task short. Non mandatory fields should go in a second place as they are not so important and the user could like to skip them. In case non mandatory fields are in between mandatory fields the user would expend more time scanning the form.
@@ -49,42 +51,56 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 ![button primary default size defuault state](/images/lexicon/ButtonIconSecondary.png)
 
 #### Dos and Don'ts
+<br/>
 
-Never use two primary buttons together. There must only be one primary button that represents the most important action.
+1.	Never use two primary buttons together. There must only be one primary button that represents the most important action.
 
-| Do | Don't |
-| -- | ----- |
-| ![Two butons, primary and secondary.](/images/lexicon/FormButtonPrimaryDo.jpg) | ![Two butons, both primary](/images/lexicon/FormButtonPrimaryDont.jpg) |
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/FormButtonPrimaryDo.jpg" alt="Two butons, primary and secondary.">
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/FormButtonPrimaryDo.jpg"
+			alt="Two butons, primary and secondary."
+		/>
 		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/FormButtonPrimaryDont.jpg" alt="Two butons, both primary">
+	</Grid.Item>
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/FormButtonPrimaryDont.jpg"
+			alt="Two butons, both primary"
+		/>
 		<p class="dont">Don't</p>
-	</div>
-</div> -->
+	</Grid.Item>
+</Grid>
 
-Always use concrete words, rather than general words such as "Ok".
+<br/>
+<br/>
 
-| Do | Don't |
-| -- | ----- |
-| ![Primary button with text Done](/images/lexicon/FormButtonPrimaryTextDo.jpg) | ![Primary button with text Ok](/images/lexicon/FormButtonPrimaryTextDont.jpg) |
+2.	Always use concrete words, rather than general words such as "Ok".
 
-<!--
-<div class="row">
-	<div class="dodont col-lg">
-		<img class="do" src="/images/lexicon/FormButtonPrimaryTextDo.jpg" alt="Primary button with text Done">
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/FormButtonPrimaryTextDo.jpg"
+			alt="Primary button with text Done"
+		/>
 		<p class="do">Do</p>
-	</div>
-	<div class="dodont col-lg">
-		<img class="dont" src="/images/lexicon/FormButtonPrimaryTextDont.jpg" alt="Primary button with text Ok">
+	</Grid.Item>
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/FormButtonPrimaryTextDont.jpg"
+			alt="Primary button with text Ok"
+		/>
 		<p class="dont">Don't</p>
-	</div>
-</div> -->
+	</Grid.Item>
+</Grid>
+
+<br/>
+<br/>
 
 ### Boolean situations
 

@@ -1,7 +1,10 @@
 ---
-title: 'Naoki Hisamoto'
-description: 'Communication Designer'
-featuredImage: '/images/headshots/hisamoto-naoki-h.jpg'
+name: 'Naoki Hisamoto'
+title: 'Communication Designer'
+headshotPro: '/images/headshots/hisamoto-naoki.jpg'
+headshotFun: '/images/headshots/hisamoto-naoki-h.jpg'
+active: true
+icon: 'fa_check_double'
 ---
 
 ### How did you get into design?

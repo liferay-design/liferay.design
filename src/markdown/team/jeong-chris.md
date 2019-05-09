@@ -1,7 +1,10 @@
 ---
-title: 'Chris Jeong'
-description: 'Product Designer'
-featuredImage: '/images/headshots/jeong-chris.jpg'
+name: 'Chris Jeong'
+title: 'Product Designer'
+headshotPro: '/images/headshots/jeong-chris.jpg'
+headshotFun: '/images/headshots/jeong-chris-h.jpg'
+active: true
+icon: 'fa_glasses'
 ---
 
 ### Favorite tool?

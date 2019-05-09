@@ -2,7 +2,7 @@
 
 .banner {
 	padding-top: $spacingLarge;
-	height: 72vh;
+	height: 60vh;
 	max-height: $screenMedium;
 	h1 {
 		width: 200px;
@@ -12,6 +12,7 @@
 		z-index: 2;
 		font-weight: $fontWeightHeavy;
 		text-shadow: $elevation1;
+		display: inherit;
 	}
 	.role {
 		width: 200px;
@@ -40,7 +41,7 @@
 }
 
 .markdownContainer {
-	padding: 6rem 3rem;
+	padding: 20vh 3rem 6rem;
 	font-family: $fontFamilySecondary;
 	background: white;
 

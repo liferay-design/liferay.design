@@ -8,7 +8,6 @@ import Navbar from './Navbar'
 import NavItems from './NavItems'
 import Posts from './Posts'
 import Sidebar from './Sidebar'
-import Team from './Team'
 import Venue from './Venue'
 
 export {
@@ -22,6 +21,5 @@ export {
 	Navbar,
 	Posts,
 	Sidebar,
-	Team,
 	Venue,
 }

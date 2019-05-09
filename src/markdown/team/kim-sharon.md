@@ -1,7 +1,10 @@
 ---
-title: 'Sharon Kim'
-description: 'Communication Designer'
-featuredImage: '/images/headshots/wong-sharon-h.jpg'
+name: 'Sharon Kim'
+title: 'Communication Designer'
+headshotPro: '/images/headshots/wong-sharon.jpg'
+headshotFun: '/images/headshots/wong-sharon-h.jpg'
+active: true
+icon: 'fa_pen_fancy'
 ---
 
 ### How did you get into design?
@@ -26,4 +29,4 @@ All sorts of crafting!
 
 ### Most effective productivity booster?
 
-Listening to music 
+Listening to music

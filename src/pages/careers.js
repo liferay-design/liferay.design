@@ -30,24 +30,29 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-	{
-		allMdx(filter: { fileAbsolutePath: { regex: "/(careers)/" } }) {
-			totalCount
-			edges {
-				node {
-					id
-					frontmatter {
-						title
-						description
-						featuredImage
-						avatar
+			{
+				allMdx(
+					filter: {
+						fileAbsolutePath: { regex: "/(careers)/" }
+						frontmatter: { published: { eq: true } }
 					}
-					fields {
-						slug
+				) {
+					totalCount
+					edges {
+						node {
+							id
+							frontmatter {
+								title
+								description
+								featuredImage
+								avatar
+							}
+							fields {
+								slug
+							}
+							excerpt
+						}
 					}
-					excerpt
 				}
 			}
-		}
-	}
-`
+		`

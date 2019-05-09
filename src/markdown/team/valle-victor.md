@@ -1,7 +1,10 @@
 ---
-title: 'Victor Valle'
-description: 'Product Design Manager'
-featuredImage: '/images/headshots/valle-victor-h.jpg'
+name: 'Victor Valle'
+title: 'Product Design Manager'
+headshotPro: '/images/headshots/valle-victor.jpg'
+headshotFun: '/images/headshots/valle-victor-h.jpg'
+active: true
+icon: 'fa_fingerprint'
 ---
 
 ### Favorite tool? ✏️

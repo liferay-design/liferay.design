@@ -1,7 +1,10 @@
 ---
-title: 'Abel Hancock'
-description: 'Product Designer'
-featuredImage: '/images/headshots/hancock-abel-h.jpg'
+name: 'Abel Hancock'
+title: 'Product Designer'
+headshotPro: '/images/headshots/hancock-abel.jpg'
+headshotFun: '/images/headshots/hancock-abel-h.jpg'
+active: true
+icon: 'fa_code'
 ---
 
 ### Favorite tool? 🛠

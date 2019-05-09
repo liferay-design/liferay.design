@@ -9,11 +9,11 @@ export default ({ data }) => {
 	return (
 		<div>
 			<BillboardAlt
-				image="/images/posts/design-week-n.jpg"
+				image="/images/footer_tweet.jpg"
 				heading="Join Us!"
-				subtitle="We're hiring Graphic Designers and Product Designers in Frankfurt, Milan, and Los Angeles — check out our careers page to read about the openings!"
+				subtitle="We're hiring a Graphic Designer in Frankfurt, Germany! Check out the listing to learn more."
 				cta="See if we're a fit"
-				ctaUrl="careers"
+				ctaUrl="careers/emea/graphic-designer/"
 				background="white"
 			/>
 			<div

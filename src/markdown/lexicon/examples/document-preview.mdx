@@ -5,11 +5,22 @@ layout: 'guide'
 order: 602
 ---
 
-<span class="designerInfo">
-    <i>By Duuriimaa Bargaid<br />
-    Product Designer, Madrid<br /><br /><br />
-    </i>
-</span>
+import { Grid } from 'reakit'
+
+<Grid templateColumns="40px 1fr" autoRows="auto" gap="1rem">
+	<Grid.Item>
+		<img
+			class="designerImg"
+			src="/images/lexicon/headshots/bargaid-duuriimaa.jpg"
+			alt="duuriimaa bargaid"
+		/>
+	</Grid.Item>
+	<Grid.Item>
+		<i class="designerInfo">By Duuriimaa Bargaid<br />
+        Product Designer, Madrid<br /><br /><br />
+		</i>
+	</Grid.Item>
+</Grid>
 
 The Documents and Media library stores files. The documents preview allows the user to view, comment on, and share, download, edit files.
 Document preview focuses on the display of content taking advantage of all available space, eliminating unnecessary distraction. As well as having easy access to a tool that helps with collaboration at work.

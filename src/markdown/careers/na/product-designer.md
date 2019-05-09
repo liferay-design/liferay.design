@@ -6,6 +6,7 @@ title: 'Product Designer'
 description: 'Los Angeles 🇺🇸'
 featuredImage: '/images/posts/ux-designer.jpg'
 avatar: '/images/headshots/-nerd-face.png'
+published: false
 ---
 
 ## Who Designs at Liferay?
