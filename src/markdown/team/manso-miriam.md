@@ -2,6 +2,8 @@
 title: 'Miriam Manso'
 description: 'Associate Product Designer'
 featuredImage: '/images/headshots/manso-miriam.jpg'
+active: true
+icon: 'fa_pointe_shoe'
 ---
 
 ### How did you get into design?

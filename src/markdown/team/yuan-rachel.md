@@ -2,6 +2,8 @@
 title: 'Rachel Yuan'
 description: 'Senior Communication Designer'
 featuredImage: '/images/headshots/yuan-rachel-h.jpg'
+active: true
+icon: 'fa_chess_queen'
 ---
 
 ### How did you get into design?

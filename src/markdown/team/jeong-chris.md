@@ -2,6 +2,8 @@
 title: 'Chris Jeong'
 description: 'Product Designer'
 featuredImage: '/images/headshots/jeong-chris.jpg'
+active: true
+icon: 'fa_glasses'
 ---
 
 ### Favorite tool?

@@ -2,6 +2,8 @@
 title: 'Abel Hancock'
 description: 'Product Designer'
 featuredImage: '/images/headshots/hancock-abel-h.jpg'
+active: true
+icon: 'fa_code'
 ---
 
 ### Favorite tool? 🛠

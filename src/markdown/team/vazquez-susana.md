@@ -2,6 +2,8 @@
 title: Susana Vazquez'
 description: 'Product Designer'
 featuredImage: '/images/headshots/vazquez-susana.jpg'
+active: true
+icon: 'fa_archway'
 ---
 
 ### How did you get into design?

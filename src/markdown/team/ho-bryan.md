@@ -2,6 +2,8 @@
 title: 'Bryan Ho'
 description: 'Associate Communication Design Manager'
 featuredImage: '/images/headshots/ho-bryan-h.jpg'
+active: true
+icon: 'fa_pencil_alt'
 ---
 
 ### How did you get into design?
@@ -30,7 +32,7 @@ Taking a breath before answering questions.
 
 ### If you weren't designing, what would you be doing?
 
-Convincing you to join a pyramid scheme. 
+Convincing you to join a pyramid scheme.
 
 ### What does your desktop/home screen look like?
 

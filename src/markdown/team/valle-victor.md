@@ -2,6 +2,8 @@
 title: 'Victor Valle'
 description: 'Product Design Manager'
 featuredImage: '/images/headshots/valle-victor-h.jpg'
+active: true
+icon: 'fa_fingerprint'
 ---
 
 ### Favorite tool? ✏️
