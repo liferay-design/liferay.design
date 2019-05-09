@@ -5,9 +5,6 @@ layout: "guide"
 order: 59
 ---
 
-### Description
-
-{$page.description}
 
 ### Usage
 

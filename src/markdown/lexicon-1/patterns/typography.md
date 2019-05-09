@@ -5,9 +5,6 @@ layout: "guide"
 order: 92
 ---
 
-### Description
-
-{$page.description}
 
 ![helvetica neue example in regular, medium and bold](/images/lexicon-1/HelveticaNeue.png)
 

@@ -5,10 +5,6 @@ layout: "guide"
 order: 81
 ---
 
-### Description
-
-{$page.description}
-
 ### Structure
 This template counts with several patterns listed as follown that can be directly mapped with the image.
 

@@ -5,10 +5,6 @@ layout: "guide"
 order: 82
 ---
 
-### Description
-
-{$page.description}
-
 ### Structure
 A form template count with several patterns that shape this pattern:
 

@@ -5,10 +5,6 @@ layout: "guide"
 order: 70
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 A table view is useful for comparing entries among them that need exhaustive comparison. Tables are very heavy in text display, if you need to display images we recommend you to take a look at lists and cards.

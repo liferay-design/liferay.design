@@ -5,15 +5,11 @@ layout: "guide"
 order: 52
 ---
 
-### Description
-
-{$page.description}
-
 ### Liferay icon library
 
 Liferay has its own icon library created for the porpuses of the projects that use Lexicon.
 
-<ul class="lexicon-icon-list list-unstyled">
+<!-- <ul class="lexicon-icon-list list-unstyled">
 {foreach $icon in $page.icons}
 	<li>
 		<svg class="lexicon-icon lexicon-icon-{$icon}">
@@ -22,7 +18,7 @@ Liferay has its own icon library created for the porpuses of the projects that u
 		<span>{$icon}</span>
 	</li>
 {/foreach}
-</ul>
+</ul> -->
 
 #### Language flags
 
@@ -30,7 +26,7 @@ People tend to have pretty strong opinions on whether flags should be used as a 
 
 While we understand that reasoning, we've found that the times they are actually needed (when a user is not familiar with the currently displayed language) somewhat eliminates using other mechanisms, such as the name of the language (since the current language could be in an entirely different character set). Given this, there is often at least some familiarity with the identity of a country that speaks a shared language.
 
-<ul class="lexicon-icon-list list-unstyled">
+<!-- <ul class="lexicon-icon-list list-unstyled">
 {foreach $flag in $page.flags}
 	<li>
 		<svg class="lexicon-icon lexicon-icon-{$flag}">
@@ -39,7 +35,7 @@ While we understand that reasoning, we've found that the times they are actually
 		<span>{$page.flagData[$flag]} ({$flag})</span>
 	</li>
 {/foreach}
-</ul>
+</ul> -->
 
 #### Other icon libraries
 

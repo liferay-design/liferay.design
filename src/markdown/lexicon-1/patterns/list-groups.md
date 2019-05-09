@@ -5,10 +5,6 @@ layout: "guide"
 order: 55
 ---
 
-### Introduction
-
-{$page.description}
-
 ### Usage
 
 ![list entry in default state](/images/lexicon-1/listItem.png)

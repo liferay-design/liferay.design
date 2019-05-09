@@ -1,13 +1,13 @@
 ---
 title: "Popovers and Tooltips"
-description: "Popovers are short helpful and/or descriptive pieces of information that appear on hover state."
+description: "Popovers and Tooltips are patterns used to show helpful information in two different ways."
 layout: "guide"
 order: 65
 ---
 
 ## Popovers
 
-{$page.description}
+Popovers are short helpful and/or descriptive pieces of information that appear on hover state.
 
 ![four different popovers with the arrow to the left, or right or top or down](/images/lexicon-1/popovers.png)
 

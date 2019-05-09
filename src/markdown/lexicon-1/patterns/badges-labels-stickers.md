@@ -1,6 +1,6 @@
 ---
-title: "Badges, Labels and Stickers"
-description: "Badges help highlight important information such as notifications or new and unread messages. Badges have circular borders by default."
+title: "Badges, Labels, and Stickers"
+description: "Badges, labels, and stickers are used to put extra emphasis on information."
 layout: "guide"
 order: 2
 ---
@@ -9,7 +9,7 @@ order: 2
 
 ### Description
 
-{$page.description}
+Badges help highlight important information such as notifications or new and unread messages. Badges have circular borders by default.
 
 ### Sizes
 

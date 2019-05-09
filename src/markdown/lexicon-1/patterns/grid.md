@@ -5,10 +5,6 @@ layout: "guide"
 order: 50
 ---
 
-### Description
-
-{$page.description}
-
 ### 4px grid
 
 ![form distances to build up forms using Lexicon](/images/lexicon-1/Grid.png)

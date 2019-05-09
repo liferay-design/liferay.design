@@ -5,10 +5,6 @@ layout: "guide"
 order: 41
 ---
 
-### Description
-
-{$page.description}
-
 ### Structure
 
 Forms can be created in one single column or two columns. If your form is divided in several sections that are stacked consider not changing the internal layout between sections, it can affect the experience of filling the whole form.
@@ -17,7 +13,7 @@ When applying columns take into account that the reading directions is left-righ
 
 ### Sections
 
-Sections help users to fill a form by chunking the form is smaller pieces. A form section is identified with an [accordion](./panel.html). There is no limitation in the number of accordions to use.
+Sections help users to fill a form by chunking the form is smaller pieces. A form section is identified with an [accordion](../panel). There is no limitation in the number of accordions to use.
 
 ### Fields’ order
 

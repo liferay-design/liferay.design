@@ -5,10 +5,6 @@ layout: "guide"
 order: 91
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 A toolbar is a generic bar that helps grouping actions in a way that they are visually organized for any context of use in Lexicon. Its height changes depending on the heigth of the elements it contains. The toolbat always maintais the vertical alignment.

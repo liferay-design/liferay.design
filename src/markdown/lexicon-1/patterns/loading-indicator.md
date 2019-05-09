@@ -5,10 +5,6 @@ layout: "guide"
 order: 56
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 This feedback mechanism is essential for the user to understand that something is happening. Please remember to include it when there is a connection to a server and at the same screen shows the answer to the user.

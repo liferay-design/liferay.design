@@ -5,10 +5,6 @@ layout: "guide"
 order: 66
 ---
 
-### Description
-
-{$page.description}
-
 ### Usage
 
 Progress bars can be classified in two groups:

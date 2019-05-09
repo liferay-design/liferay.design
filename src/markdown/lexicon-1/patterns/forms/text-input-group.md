@@ -5,10 +5,6 @@ layout: "guide"
 order: 44
 ---
 
-### Description
-
-{$page.description}
-
 ### Layout
 The layout of an input has a bit of freedom. You are allowed to configure elements on the left or the right side of the field or both at same time.
 
