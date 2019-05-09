@@ -1,6 +1,6 @@
 ---
 title: 'Juan Hidalgo'
-description: 'UX Director'
+description: 'Design Director'
 featuredImage: '/images/headshots/hidalgo-juan-h.jpg'
 ---
 

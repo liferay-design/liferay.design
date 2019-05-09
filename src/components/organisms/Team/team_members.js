@@ -36,12 +36,12 @@ const teamMembers = [
 	},
 	{
 		id: 20,
-		name: 'Julia Chan',
+		name: 'Julia Yang',
 		imageUrl: withPrefix(`${imageDir}/chan-julia.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/chan-julia-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_coffee',
-		page: 'null',
+		page: '/team/yang-julia',
 	},
 	{
 		id: 30,
@@ -59,7 +59,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/cicero-emiliano-h.jpg`),
 		title: 'Product Designer',
 		icon: 'fa_bezier_curve',
-		page: 'null',
+		page: '/team/cicero-emiliano',
 	},
 	{
 		id: 40,
@@ -158,7 +158,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/ho-bryan-h.jpg`),
 		title: 'Associate Communication Design Manager',
 		icon: 'fa_pencil_alt',
-		page: 'null',
+		page: '/team/ho-bryan',
 	},
 	{
 		id: 140,
@@ -179,13 +179,22 @@ const teamMembers = [
 		page: '/team/kim-david',
 	},
 	{
+		id: 160,
+		name: 'Sharon Kim',
+		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
+		title: 'Communication Designer',
+		icon: 'fa_pen_fancy',
+		page: '/team/kim-sharon',
+	},
+	{
 		id: 170,
 		name: 'Jessica Lee',
 		imageUrl: withPrefix(`${imageDir}/lee-jessica.jpg`),
 		imageHoverUrl: withPrefix(`${imageDir}/lee-jessica-h.jpg`),
 		title: 'Communication Designer',
 		icon: 'fa_pen_nib',
-		page: 'null',
+		page: '/team/lee-jessica',
 	},
 	{
 		id: 180,
@@ -260,13 +269,13 @@ const teamMembers = [
 		page: '/team/vazquez-susana',
 	},
 	{
-		id: 270,
-		name: 'Sharon Wong',
-		imageUrl: withPrefix(`${imageDir}/wong-sharon.jpg`),
-		imageHoverUrl: withPrefix(`${imageDir}/wong-sharon-h.jpg`),
-		title: 'Communication Designer',
-		icon: 'fa_pen_fancy',
-		page: 'null',
+		id: 280,
+		name: 'Jon Wood',
+		imageUrl: withPrefix(`${imageDir}/wood-jon.jpg`),
+		imageHoverUrl: withPrefix(`${imageDir}/wood-jon-h.jpg`),
+		title: 'Product Designer',
+		icon: 'fa_keyboard',
+		page: '/team/wood-jon',
 	},
 	{
 		id: 300,
@@ -275,7 +284,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/young-emily-h.jpg`),
 		title: 'Communication Design Manager',
 		icon: 'fa_stroopwafel',
-		page: 'null',
+		page: '/team/young-emily',
 	},
 	{
 		id: 310,
@@ -284,7 +293,7 @@ const teamMembers = [
 		imageHoverUrl: withPrefix(`${imageDir}/yuan-rachel-h.jpg`),
 		title: 'Senior Communication Designer',
 		icon: 'fa_chess_queen',
-		page: 'null',
+		page: '/team/yuan-rachel',
 	},
 ]
 

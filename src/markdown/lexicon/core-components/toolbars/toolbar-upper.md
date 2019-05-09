@@ -5,10 +5,9 @@ layout: "guide"
 order: 363
 ---
 
-This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
-
 ![upper toolbar with different possible components described in usage section](/images/lexicon/ToolbarUpper.jpg)
 
+This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
 
 ### Usage
 

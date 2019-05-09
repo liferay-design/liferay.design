@@ -5,7 +5,7 @@ description: 'The loading indicator shows the user that an external process, lik
 layout: 'guide'
 order: 300
 ---
-
+![loading indicator default size](/images/lexicon/LoadingIndicator.jpg)
 
 ### Usage
 
@@ -13,7 +13,6 @@ Use the loading indicator to inform the user that there is pending content from 
 
 Please don’t use loading indicators inside buttons. If you need a loading indicator for an action triggered by a button, place the loading indicator on one of the sides of the button.
 
-<!-- <div class="loading-icon loading-icon-md"></div> -->
 
 ### Types
 

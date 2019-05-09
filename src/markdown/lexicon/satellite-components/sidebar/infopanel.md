@@ -15,7 +15,7 @@ Below are two examples for the "Documents and Media" application:
 
 ![SideBar Example for Documents and Media, versions tab selected](/images/lexicon/SidebarInfoPanelHeight2.jpg) 
 
-#### Components
+## Components
 
 The components used in the “Info Panel” can vary depending on the application. Following the same example used above, these images show the components used in the “Documents and Media” application:
 
@@ -32,7 +32,7 @@ The components used in the “Info Panel” can vary depending on the applicatio
     - Versions tab:
         5. Versions list
 
-#### Sidebar Height
+## Sidebar Height
 The sidebar adjusts to the maximum height of the viewport: 
 
 ![sidebar height lot of content to see it in the panel](/images/lexicon/SidebarInfoPanelHeight1.jpg) 
@@ -41,14 +41,14 @@ The sidebar adjusts to the maximum height of the viewport:
 
 ![sidebar with scroll bar](/images/lexicon/SidebarInfoPanelHeight3.jpg) 
 
-### Item Selection and Navigation
+## Item Selection and Navigation
 
-#### Single item selection
+### Single item selection
 When a single item is selected, the item's information is displayed in the sidebar:
 
 ![first card in visualization selected, infor from first card loaded in the info panel](/images/lexicon/SidebarInfoPanelSelectionSingle.jpg) 
 
-#### Multiple item selection
+### Multiple item selection
 When multiple items are selected, the information of the item selected last is displayed in the sidebar:
 
 ![first, second, seventh cards selected in the visualization and the seventh displayed in the info panel](/images/lexicon/SidebarInfoPanelSelectionMulti1.jpg) 
@@ -59,24 +59,24 @@ If you deselect one item, the info of the next selected item in the list will be
 
 ![once unselected the first card, the next one in the buffer is the second one, which is show in the info panel](/images/lexicon/SidebarInfoPanelSelectionMulti3.jpg) 
 
-#### Item Carousel
+### Item Carousel
 
 When there is more than one item selected, you can switch between each item's information using the previous and next carousel buttons at the top of the panel.
 
 ![The info panel has a carousel to navigate through the selected list](/images/lexicon/SidebarInfoPanelCarousel1.jpg) 
 
-### Responsive Behavior
+## Responsive Behavior
 
 The examples below show the behavior of the “Info Panel” on different viewport sizes, based on the established breakpoints.
 
 They also illustrate the grid of card's behavior on each viewport size, as well as the sidebar's behavior when it is visible at the same time as the “Product Menu”.
 
-#### No Sidebar Opened
+### No Sidebar Opened
 
 ![responsive schema of the card view with the panel closed](/images/lexicon/SidebarInfoPanelRespIPClose.jpg) 
 
 
-#### Info Panel opened
+### Info Panel opened
 On viewport sizes less than 768px in width, the “Info Panel” slides over the container, instead of pushing it.
 
 ![responsive schema of the card view with the panel open](/images/lexicon/SidebarInfoPanelRespIPOpen.jpg) 
