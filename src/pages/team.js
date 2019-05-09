@@ -30,29 +30,32 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-	{
-		allMdx(
-			filter: { fileAbsolutePath: { regex: "/(/team/)/" } }
-			sort: { order: ASC, fields: [fields___slug] }
-		) {
-			totalCount
-			edges {
-				node {
-					id
-					frontmatter {
-						title
-						description
-						featuredImage
-						author
-						avatar
-						date(formatString: "MMMM DD, YYYY")
+			{
+				allMdx(
+					filter: {
+						fileAbsolutePath: { regex: "/(/team/)/" }
+						frontmatter: { active: { eq: true } }
 					}
-					fields {
-						slug
+					sort: { order: ASC, fields: [fields___slug] }
+				) {
+					totalCount
+					edges {
+						node {
+							id
+							frontmatter {
+								title
+								description
+								featuredImage
+								author
+								avatar
+								date(formatString: "MMMM DD, YYYY")
+							}
+							fields {
+								slug
+							}
+							excerpt
+						}
 					}
-					excerpt
 				}
 			}
-		}
-	}
-`
+		`
