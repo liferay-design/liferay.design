@@ -15,10 +15,10 @@ export default ({ data }) => {
 					{data.allMdx.edges.map(({ node }) => (
 						<CardDefault
 							key={node.id}
-							imageURL={node.frontmatter.featuredImage}
+							imageURL={node.frontmatter.headshotPro}
 							link={node.fields.slug}
-							title={node.frontmatter.title}
-							subtitle={node.frontmatter.description}
+							title={node.frontmatter.name}
+							subtitle={node.frontmatter.title}
 							icon={node.frontmatter.icon}
 						/>
 					))}
@@ -42,12 +42,15 @@ export const query = graphql`
 						node {
 							id
 							frontmatter {
+								name
 								title
-								description
-								featuredImage
-								author
+								headshotPro
+								headshotFun
+								dribbble
+								instagram
+								twitter
+								unsplash
 								icon
-								date(formatString: "MMMM DD, YYYY")
 							}
 							fields {
 								slug
