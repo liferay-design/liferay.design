@@ -6,6 +6,7 @@ title: 'Graphic Designer'
 description: 'Frankfurt 🇩🇪'
 featuredImage: '/images/posts/graphic-designer.jpg'
 avatar: '/images/headshots/-heart-eyes-cat.png'
+published: true
 ---
 
 ## Who Designs at Liferay?
