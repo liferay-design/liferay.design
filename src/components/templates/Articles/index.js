@@ -21,8 +21,15 @@ export default class Articles extends Component {
 					<meta
 						property="og:image"
 						content={
-							'https://liferay.design' +
+							'https://liferay.design/' +
 							post.frontmatter.featuredImage
+						}
+					/>
+					<meta
+						property="og:title"
+						content={
+							post.frontmatter.title + ' — an article by ' + 
+						post.frontmatter.author + ' on Liferay.Design'
 						}
 					/>
 					{post.frontmatter.canonicalLink ? (
