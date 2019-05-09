@@ -5,6 +5,7 @@ import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
+import { Container } from 'components/atoms';
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -21,14 +22,15 @@ export default class Team extends Component {
 		return (
 			<div>
 				<Navbar section="Team" />
-
-				<Flex justify="center" align="center" className={styles.banner}>
-					<h1>{post.frontmatter.title}</h1>
-					<div className={styles.role}>
-						<h2>{post.frontmatter.description}</h2>
-					</div>
-					<img src={withPrefix(post.frontmatter.featuredImage)} />
-				</Flex>
+				<Container>
+					<Flex justify="center" align="center" className={styles.banner}>
+						<h1>{post.frontmatter.title}</h1>
+						<div className={styles.role}>
+							<h2>{post.frontmatter.description}</h2>
+						</div>
+						<img src={withPrefix(post.frontmatter.featuredImage)} />
+					</Flex>
+				</Container>
 				<div className={styles.markdownContainer}>
 					<Flex margin="auto" direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>
