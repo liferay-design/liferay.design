@@ -7,6 +7,8 @@ layout: 'guide'
 order: 203
 ---
 
+import { Grid } from 'reakit'
+
 ![defualt size default color badge](/images/lexicon/Badges.png)
 
 
@@ -26,10 +28,29 @@ order: 203
 
 Badges can be placed near text, but there must be a minimum distance of 8px between the two.
 
-| Do | Don't |
-| -- | ----- |
-| ![badge distance to an element is 8 pixels](/images/lexicon/BadgeDoDistance.png) | ![don't place a badge closer than 8 pixels to any element in horizontal](/images/lexicon/BadgeDontDistance.png) |
 
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/BadgeDoDistance.png"
+			alt="badge distance to an element is 8 pixels"
+		/>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<img
+			style={{ marginTop: '1.5rem' }}
+			src="/images/lexicon/BadgeDontDistance.png"
+			alt="don't place a badge closer than 8 pixels to any element in horizontal"
+		/>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
+<br/>
+<br/>
 
 ### Attributes
 
