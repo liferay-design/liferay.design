@@ -107,3 +107,23 @@
 		}
 	}
 }
+
+@media screen and (max-width: $screenSmall) {
+	.banner {
+		h1 {
+			order: 0;
+			font-size: $fontSizeLarge;
+			padding-right: $spacingBase;
+			div {
+				left: 0.7rem;
+			}
+		}
+		.role {
+			width: 2ch;
+		}
+	}
+	.markdownContainer {
+		overflow: hidden;
+		padding: $spacingLarge $spacingSmall $spacingMedium;
+	}
+}
