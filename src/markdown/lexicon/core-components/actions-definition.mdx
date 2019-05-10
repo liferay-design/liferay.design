@@ -1,0 +1,173 @@
+---
+title: 'Actions Definition'
+description: 'This page defines the use case for several common actions.'
+layout: 'guide'
+order: 201
+---
+import { Grid } from 'reakit'
+
+### Delete vs Send to Recycle Bin
+
+#### Delete
+
+The action of deleting an element or a set of elements implies that the element(s) will be completely removed, and it is not possible to recover the element(s) after deletion. The delete icon shown below can also be used for clearing actions, such as clearing input field content.
+
+Since this is a permanent action, you must trigger the user with a confirmation message. This message must be native and without Lexicon styling.
+
+
+<Grid templateColumns="1fr 1fr 1fr" autoRows="auto" gap="4rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/Delete.jpg"
+				alt="times circled icon"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/Trash.jpg"
+			alt="trash icon"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/Cancel.png"
+			alt="times icon"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
+
+#### Send to Recycle Bin
+
+The action of sending an element or a set of elements to the recycle bin implies that the element(s) will not be completely removed and can be recovered.
+
+<Grid templateColumns="1fr 1fr 1fr" autoRows="auto" gap="4rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/Trash.jpg"
+				alt="Trash icon"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/Delete.jpg"
+			alt="times circled icon"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/Cancel.png"
+			alt="times icon"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
+
+#### Cancel
+
+Cancel and close differ much from deleting or sending to the Recycle Bin. You can find this action in the top right corner of modals.
+
+
+<Grid templateColumns="1fr 1fr 1fr" autoRows="auto" gap="4rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/Cancel.png"
+				alt="times icon"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/Delete.jpg"
+			alt="times circled icon"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/Trash.jpg"
+			alt="Trash icon"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
+### Done
+
+The done action should be displayed as a primary button. Use this action in all modals that display a table, list, or a card view. This can be used for one or several elements.
+
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/FormButtonPrimaryTextDo.jpg"
+				alt="Primary button with text Done"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/FormButtonPrimaryTextDont.jpg"
+			alt="Primary button with text Ok"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
+
+### Select vs Choose
+
+The convention in Lexicon is to use **Select** instead of Choose, as Select is a more formal word.
+
+Select means "to carefully choose"; it also means "to use a mouse or keystrokes to mark something on a computer screen". Choose doesn't convey the true intention of the action for us.
+
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/ActionsSelectDo.jpg"
+				alt="Secondary button with text Select"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/ActionsSelectDont.png"
+			alt="Secondary button with text Choose"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
