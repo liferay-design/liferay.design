@@ -6,6 +6,7 @@ description: 'Labels are a visual pattern used to categorize information providi
 layout: 'guide'
 order: 281
 ---
+import { Grid } from 'reakit'
 
 ![default size default color label](/images/lexicon/Labels.jpg)
 
@@ -23,28 +24,79 @@ Use labels to organize groups of items in your application. Labels have rounded 
 
 ### Dos and Don'ts
 
-Labels categorize information and provide quick recognition.
+1.	Labels categorize information and provide quick recognition.
 
-| Do | Don't |
-| -- | ----- |
-| ![Simple label](/images/lexicon/LabelSmallDo.jpg) | ![Label with sticker inside](/images/lexicon/LabelSmallDont.jpg) |
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/LabelSmallDo.jpg"
+				alt="Simple label"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+		<img
+			src="/images/lexicon/LabelSmallDont.jpg"
+			alt="Label with sticker inside"
+		/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+<br/>
+<br/>
+
+2.	Labels can only contain one line of text.
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/LabelTextDo.jpg"
+				alt="default label"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/LabelTextDontLines.jpg"
+				alt="default label with 2 lines of text"
+			/>
+			</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+<br/>
+<br/>
+
+3.	Never use ellipsis in labels.
 
 
-
-Labels can only contain one line of text.
-
-| Do | Don't |
-| -- | ----- |
-| ![default label](/images/lexicon/LabelTextDo.jpg) | ![default label with 2 lines of text](/images/lexicon/LabelTextDontLines.jpg) |
-
-
-
-Never use ellipsis in labels.
-
-| Do | Don't |
-| -- | ----- |
-| ![default label](/images/lexicon/LabelTextDo.jpg) | ![default label with ellipsis](/images/lexicon/LabelTextDontEllipsis.jpg) |
-
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/LabelTextDo.jpg"
+				alt="default label"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/LabelTextDontEllipsis.jpg"
+				alt="default label with ellipsis"
+			/>
+			</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
 
 
 ### Variations
