@@ -57,7 +57,7 @@ _Jesse's enthusiastic talk sans slides — photo courtesy of Grace Lau_
 
 Her presentation was a great reminder that we all have biases — and that the first step to overcoming them is to acknowledge their existence and work hard to compensate for them. If we do this, then we can design better, more inclusive experiences.
 
-Thanks to all who joined! For more photos, [check out Grace's album](https://photos.app.goo.gl/yvGPVVSjN9KzLXZEA).
+Thanks to all who joined! For more photos [check out Grace's album](https://photos.app.goo.gl/yvGPVVSjN9KzLXZEA) and check out [her recap on Medium](https://medium.com/thesgvux-chronicles/telling-stories-about-the-impact-of-culture-on-design-and-tech-at-sgvux3-ceac63c4df4)!
 
 ## Shameless Plugs
 
