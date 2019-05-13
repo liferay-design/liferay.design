@@ -17,7 +17,7 @@
 			display: block;
 			font-size: $fontSizeLarge;
 			color: $grey;
-			line-height: 2;
+			padding-top: 1rem;
 		}
 	}
 }
@@ -99,5 +99,25 @@
 		font-size: $fontSizeSmall;
 		text-align: center;
 		display: inherit;
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	.banner {
+		h1 {
+			order: 0;
+			font-size: $fontSizeLarge;
+			padding-right: $spacingBase;
+			div {
+				left: 0.7rem;
+			}
+		}
+		.role {
+			width: 2ch;
+		}
+	}
+	.mdxWrapper {
+		overflow: hidden;
+		padding: $spacingLarge $spacingSmall $spacingMedium;
 	}
 }
