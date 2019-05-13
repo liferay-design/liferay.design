@@ -1,0 +1,225 @@
+@import '~theme/variables';
+
+// keeping everything inside the `.lexicon` selector helps prevent CSS bleed
+
+.lexicon {
+	font-family: $fontFamilySystem;
+	
+	.mainContentWrapper {
+		background: $white;
+		min-height: 100vh;
+	}
+	
+	.mobileNavbar {
+		align-items: center;
+		grid-area: nav;
+		background: #f7f8f9;
+		width: 100%;
+	}
+	
+	.mobileMenuBar {
+		background: $black;
+		bottom: 0;
+		display: none !important;
+		left: 0;
+		position: fixed;
+		right: 0;
+		z-index: 10;
+	
+		> * {
+			cursor: pointer;
+			margin: 1rem 1.5rem;
+		}
+	}
+	
+	@media screen and (max-width: $screenMedium) {
+		.mobileMenuBar {
+			display: flex !important;
+		}
+	}
+	
+	.description {
+		color: $main-l3;
+		font-size: 28px;
+		max-width: 700px;
+		margin-bottom: 80px;
+		line-height: 1.25;
+		margin-top: -1rem;
+	
+		@media (max-width: $grid-float-breakpoint - 1) {
+			font-size: 24px;
+			margin-top: 8px;
+		}
+	}
+	
+	.description:after {
+		background-color: $action;
+		content: '';
+		display: block;
+		height: 0.25rem;
+		position: relative;
+		left: 0;
+		bottom: -24px;
+		width: 2rem;
+	}
+	
+	.labelLink {
+		font-size: 10px;
+		font-weight: 600;
+		margin: 0 0 0 0;
+		padding-left: 4px;
+		padding-right: 4px;
+		background-color: $white;
+		border-color: $warning-l1;
+		color: $warning;
+		border-radius: 0.125rem;
+		border-style: solid;
+		border-width: 0.0625rem;
+		display: inline-flex;
+	
+		position: relative;
+		top: -2.5rem;
+	
+		@media (max-width: $grid-float-breakpoint - 1) {
+			margin-top: 1.5rem;
+		}
+	}
+	
+	p {
+		line-height: 1.5;
+		margin-bottom: $base-size * 0.5;
+	
+		a {
+			color: $brand-primary;
+		}
+	}
+	
+	table {
+		border-collapse: collapse;
+		font-size: 0.875rem;
+		margin: 32px 0 24px;
+		text-align: left;
+	
+		& > tbody > tr > td,
+		& > thead > tr > th {
+			border-bottom: 1px solid $main-l5;
+			line-height: $base-size * 0, 75;
+			padding: $base-size / 2;
+			.lexicon-icon {
+				min-width: 1rem;
+			}
+		}
+	
+		thead > tr > th {
+			border-top-width: 0;
+			border-bottom-width: 1px;
+			color: $text-color;
+			font-weight: 700;
+			vertical-align: bottom;
+			background-color: #f7f8fa;
+		}
+	
+		td > p {
+			display: inline;
+	
+			&.dotDone {
+				color: $success-l1;
+			}
+	
+			&.dotProgress {
+				color: $warning-l1;
+			}
+	
+			&.dotWait {
+				color: $main-l4;
+			}
+	
+			&.tableSection {
+				color: $main-l3;
+				font-size: 14px;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+		}
+	}
+	
+	h1,
+	h2,
+	h3 {
+		color: $main-l1;
+		font-weight: 800;
+		margin: $base-size 0;
+		line-height: 1.25;
+		letter-spacing: 0.4px;
+		@media (min-width: $grid-float-breakpoint) {
+			margin-bottom: $base-size;
+			margin-top: $base-size * 2;
+		}
+	}
+	
+	h1 {
+		font-size: 28px;
+		@media (min-width: $grid-float-breakpoint) {
+			font-size: 36px;
+			padding: 1.5rem 0 1rem;
+		}
+	}
+	
+	h2 {
+		font-size: ($base-size * 1.33);
+		line-height: $base-size;
+		padding-bottom: 24px;
+	}
+	
+	h3 {
+		font-size: $base-size;
+		& + h4 {
+			padding-top: 16px;
+		}
+	}
+	
+	h4 {
+		font-size: $base-size * 0.675;
+		font-weight: 800;
+		line-height: 1.25;
+		padding: 24px 0 16px;
+	}
+	
+	time {
+		display: inline-block;
+		font-size: 14px;
+		letter-spacing: 1px;
+		line-height: 20px;
+		margin-top: 2rem;
+		text-transform: uppercase;
+		color: $main-l3;
+		& + p {
+			margin-top: 0.25rem;
+			font-size: 24px;
+			font-weight: 800;
+		}
+	}
+	
+	header {
+		margin: 0;
+	
+		@media (max-width: $grid-float-breakpoint - 1) {
+			margin-top: 80px;
+		}
+	
+		.container-fluid > h1 {
+			margin: 0;
+		}
+	}
+	
+	h1.with-subtitle {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	
+	@media (max-width: $grid-float-breakpoint - 1) {
+		margin-top: 80px;
+	}
+	
+}
+
