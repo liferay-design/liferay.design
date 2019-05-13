@@ -1,5 +1,5 @@
 ---
-name: 'Emiliano Gastón Cicero aka "EC"'
+name: 'Emiliano Cicero'
 title: 'Product Designer'
 headshotPro: '/images/headshots/cicero-emiliano.jpg'
 headshotFun: '/images/headshots/cicero-emiliano-h.jpg'
@@ -9,10 +9,10 @@ icon: 'fa_bezier_curve'
 
 ### How did you get into design? 🚀
 
-I went to a basic graphic design school where I started using photoshop 7, it was the starting point of my curiosity about design that helped me to became self-taught about it and seek for knowledge. 
+I went to a basic graphic design school where I started using photoshop 7, it was the starting point of my curiosity about design that helped me to became self-taught about it and seek for knowledge.
 
-I’ve got my first job related to design when I was 16, for Eko, an Italian company that builds musical instruments and needed help with its 800 pages catalog. 
-Fun fact: my first check was a guitar and an amplifier. 
+I’ve got my first job related to design when I was 16, for Eko, an Italian company that builds musical instruments and needed help with its 800 pages catalog.
+Fun fact: my first check was a guitar and an amplifier.
 
 ### Favorite tool? ✏️
 
