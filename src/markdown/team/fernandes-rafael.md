@@ -7,7 +7,7 @@ dribbble: '' # your dribbble username
 instagram: '' # your instagram username
 twitter: '' # your twitter username
 unsplash: '' # your unsplash username
-active: true # are you an active member of the team?
+active: false # are you an active member of the team?
 icon: 'fa_rocket' # add your desired icon here
 ---
 
