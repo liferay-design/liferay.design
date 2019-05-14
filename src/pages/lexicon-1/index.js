@@ -116,10 +116,10 @@ const Lexicon = () => (
 					<CardLexicon
 						dark
 						icon="clay"
-						title="Clay"
+						title="Lexicon CSS"
 						text="A web implementation of the Lexicon Design System."
-						to="https://clayui.com"
-						cta="Visit Clay"
+						to="https://liferay.github.io/lexiconcss/"
+						cta="Visit Lexicon CSS"
 					/>
 				</Grid.Item>
 			</Grid>
