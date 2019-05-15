@@ -1,13 +1,13 @@
 ---
-title: "Timelines"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/css-framework/satellites/timelines.html"
-description: "Timelines represent an horizontal visualization of events along the time."
-layout: "guide"
+title: 'Timelines'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/css-framework/satellites/timelines.html'
+description: 'Timelines represent an horizontal visualization of events along the time.'
+layout: 'guide'
 order: 359
 hidden: yes
+draft: false
 ---
-
 
 ### Usage
 
@@ -40,11 +40,12 @@ The icons are aligned to the center of the screen.
 Being in the center the panel can appear in alternate positions starting on the left side for even configuration and starting on the right for odd configuration.
 
 ##### **Timeline Even**
+
 ![timeline center aligned even order](/images/lexicon/TimelineCenterEven.jpg)
 
 ##### **Timeline Odd**
-![timeline center aligned odd order](/images/lexicon/TimelineCenterOdd.jpg)
 
+![timeline center aligned odd order](/images/lexicon/TimelineCenterOdd.jpg)
 
 #### Right XS Timeline only
 
@@ -53,4 +54,5 @@ On window resize to mobile viewport (<768), the timeline icon are always aligned
 ![timeline right aligned extra small ](/images/lexicon/TimelineCenterRightXSOnly.jpg)
 
 #### Timeline Metric
+
 ![timeline Metric ](/images/lexicon/timelineMetrics.jpg)

@@ -1,10 +1,11 @@
 ---
-title: "Vertical Navigation"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/navigation/vertical-navigation.html"
-description: "An alternative patterns that displays navigation items in a vertical menu."
-layout: "guide"
+title: 'Vertical Navigation'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/navigation/vertical-navigation.html'
+description: 'An alternative patterns that displays navigation items in a vertical menu.'
+layout: 'guide'
 order: 313
+draft: false
 ---
 
 ![vertical navigation](/images/lexicon/NavigationVertical.jpg)
@@ -16,7 +17,6 @@ This pattern is always vertical and placed to the left of the form. It provides 
 This pattern is used in form templates. We recommend that you split long forms into smaller forms to make the task easier. This navigation pattern is used to access the different forms.
 
 ![vertical navigation nested levels open](/images/lexicon/NavigationVerticalOpen.jpg)
-
 
 ### Mobile
 

@@ -3,6 +3,7 @@ title: 'Status'
 description: 'Lexicon upcoming site status'
 layout: 'guide'
 order: 702
+draft: false
 ---
 
 ## status page is commented out for now

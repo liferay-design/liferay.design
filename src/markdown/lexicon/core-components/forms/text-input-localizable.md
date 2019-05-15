@@ -1,10 +1,11 @@
 ---
-title: "Text Input Localizable"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/forms/text-input-localizable.html"
-description: "A text input variation used in fields that can be translated into multiple languages."
-layout: "guide"
+title: 'Text Input Localizable'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/forms/text-input-localizable.html'
+description: 'A text input variation used in fields that can be translated into multiple languages.'
+layout: 'guide'
 order: 267
+draft: false
 ---
 
 ![input localizable](/images/lexicon/InputLocalizable.jpg)
@@ -13,18 +14,19 @@ order: 267
 
 This component contains two elements:
 
-* The input field: a text input, text area, or text input group (only specific cases).
-* The localization button: displays a dropdown menu to select a language.
+-   The input field: a text input, text area, or text input group (only specific cases).
+-   The localization button: displays a dropdown menu to select a language.
 
 ![input localizable](/images/lexicon/InputLocalizable.jpg)
 
 The dropdown menu must always contain these items in each entry:
-* Country flag
-* ISO 639-1 code
-* Status:
-    * Default: the default language. It is always the first in the list.
-    * Translated: the user has provided a text that differs from the default input text.
-    * Not translated: the input text does not differ from the original text.
+
+-   Country flag
+-   ISO 639-1 code
+-   Status:
+    -   Default: the default language. It is always the first in the list.
+    -   Translated: the user has provided a text that differs from the default input text.
+    -   Not translated: the input text does not differ from the original text.
 
 ![input localizable with dropdown open](/images/lexicon/InputLocalizableOpen.jpg)
 
@@ -42,7 +44,6 @@ This field is usually placed in a form with other localizable fields. Selecting 
 2. Localizable button
 
 ![input localizable metrics](/images/lexicon/InputLocalizableMetrics.jpg)
-
 
 ### Variations
 

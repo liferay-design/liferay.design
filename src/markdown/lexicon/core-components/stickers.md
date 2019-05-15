@@ -1,15 +1,17 @@
 ---
-title: "Stickers"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/stickers.html"
-description: "Stickers are a visual way to quickly identify content in a different way than badges and labels."
-layout: "guide"
+title: 'Stickers'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/stickers.html'
+description: 'Stickers are a visual way to quickly identify content in a different way than badges and labels.'
+layout: 'guide'
 order: 325
+draft: false
 ---
 
 ![sticker types](/images/lexicon/Sticker32.jpg)
 
 ### Usage
+
 Use stickers to visually identify elements in a dataset that are part of the same group. Stickers can be any color.
 
 ### Sizes
@@ -47,6 +49,7 @@ Use the 48px size sticker to identify the user in a blog entry or article in sit
 ![metrics for sticker 48x rounded](/images/lexicon/Sticker48Metrics.jpg)
 
 ### Colors
+
 Stickers can be any color, and the default color for stickers is #6B6C7E, which corresponds to Main Lighten 28% desat 5%.
 
 ![sticker color legend](/images/lexicon/StickerColorLegend.jpg)
@@ -70,6 +73,7 @@ Only use the circle sticker to identify people. You can places up to two charact
 ![rounded sticker](/images/lexicon/StickerRounded.jpg)
 
 ### Position
+
 You can place a sticker of any type in an Card. Its position is always bottom left, as shown in the example below:
 
 ![sticker position example in Card Image](/images/lexicon/CardImage.jpg)

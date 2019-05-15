@@ -1,11 +1,13 @@
 ---
-title: "Asset Toolbar"
-description: "A multi-purpose toolbar that can be located in different types of asset visualizations."
-layout: "guide"
+title: 'Asset Toolbar'
+description: 'A multi-purpose toolbar that can be located in different types of asset visualizations.'
+layout: 'guide'
 order: 433
+draft: false
 ---
 
 ### Layout
+
 The asset toolbar's layout is flexible and adapts to different viewport sizes, as shown in the examples below:
 
 #### 8 columns
@@ -54,7 +56,7 @@ The examples below show the asset toolbar's behavior on mobile viewports:
 
 ![Asset publisher asset toolbar](/images/lexicon/sites/AssetToolbarCommentsM.jpg)
 
-The asset toolbar can contain tools, links, or informative elements. 
+The asset toolbar can contain tools, links, or informative elements.
 
 The toolbar is organized into two different groups of tools or informative elements. Most of the tools and content are grouped on the left, and the social tools are grouped on the right.
 

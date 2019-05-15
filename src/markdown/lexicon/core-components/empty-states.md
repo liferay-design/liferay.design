@@ -1,9 +1,10 @@
 ---
-title: "Empty States"
-titleLabel: "Portal"
-description: "Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state."
-layout: "guide"
+title: 'Empty States'
+titleLabel: 'Portal'
+description: 'Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.'
+layout: 'guide'
 order: 244
+draft: false
 ---
 
 ### Usage
@@ -43,11 +44,11 @@ These attributes are used for an animation:
 1. Animation
 2. Text: limited to one line
 3. Message: limited, but we recommend to use a maximum of 30 words
-	* Do not make messages personal, unless they are preferable for the context.
-	* Do not leave one word alone on a line.
-	* Do not use "your".
-	* Do not use exclamation marks.
-	* Use common language and not jargon.
+    - Do not make messages personal, unless they are preferable for the context.
+    - Do not leave one word alone on a line.
+    - Do not use "your".
+    - Do not use exclamation marks.
+    - Use common language and not jargon.
 4. Button: secondary button
 
 ![satellite navigating in the space](/images/lexicon/EmptyStateMetrics.jpg)

@@ -1,11 +1,12 @@
 ---
-title: "Pager"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/pagination.html"
-description: "Pager allows navigation between pages of a process or task divided into subtasks (pages)."
-layout: "guide"
+title: 'Pager'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/pagination.html'
+description: 'Pager allows navigation between pages of a process or task divided into subtasks (pages).'
+layout: 'guide'
 order: 320
 hidden: yes
+draft: false
 ---
 
 ![pager default](/images/lexicon/pagerDefault.png)
@@ -43,8 +44,8 @@ States inform the user where the process has its limits and where it can go. Mak
 
 When deciding a size to use, consider the available space and the hierarchical importance:
 
-| Size | Description |
-| ---- | ----------- |
-| Small | The font-size is 12px and the proportions are smaller. |
+| Size    | Description                                            |
+| ------- | ------------------------------------------------------ |
+| Small   | The font-size is 12px and the proportions are smaller. |
 | Default | The font-size is 16px and the proportions are smaller. |
-| Large | The font-size is 18px and the proportions are bigger. |
+| Large   | The font-size is 18px and the proportions are bigger.  |

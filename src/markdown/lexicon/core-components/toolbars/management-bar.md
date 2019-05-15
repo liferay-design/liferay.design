@@ -1,17 +1,18 @@
 ---
-title: "Management Toolbar"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/toolbars/management-toolbar.html"
-description: "Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset."
-layout: "guide"
+title: 'Management Toolbar'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/toolbars/management-toolbar.html'
+description: 'Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset.'
+layout: 'guide'
 order: 362
+draft: false
 ---
 
 ![state one of the management bar](/images/lexicon/ManagementBarState1.jpg)
 
 ![state two of the management bar](/images/lexicon/ManagementBarState2.jpg)
 
-*Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height.*
+_Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height._
 
 ### Usage
 
@@ -19,7 +20,7 @@ The Management Toolbar is always part of a bigger structure that works along wit
 
 The Management Toolbar has two main states:
 
-#### State 1 
+#### State 1
 
 It is the default state.
 
@@ -50,22 +51,23 @@ The background color changes to reflect the change of state.
 
 ### Requirements
 
-* The Management Toolbar has to be fixed to the page header so it can always be visible during the vertical scroll.
-* In the default state of the toolbar, filter and order tools always have to be on the left side, and visualization and information tools have to be on the right side.
-* In the second state, the tools for selected items always appear on the right side of the toolbar and vary according to the items selected.
-* The Management Toolbar only displays the tools that the type of data displayed requires for a specific context.
-* A user can only sort and filter by the elements that are visible in the current visualization.
+-   The Management Toolbar has to be fixed to the page header so it can always be visible during the vertical scroll.
+-   In the default state of the toolbar, filter and order tools always have to be on the left side, and visualization and information tools have to be on the right side.
+-   In the second state, the tools for selected items always appear on the right side of the toolbar and vary according to the items selected.
+-   The Management Toolbar only displays the tools that the type of data displayed requires for a specific context.
+-   A user can only sort and filter by the elements that are visible in the current visualization.
 
 ### Examples
 
 #### Selection
 
 The Management Toolbar follows these rules for selection:
-* State 1: A click on the checkbox, off state, selects all the elements on the current page.
-* State 1 and 2: The checkbox is marked with a dash when only some of the items are selected in the whole dataset.
-* State 2: Even if only some of the items are selected, clicking the checkbox selects all elements on the page.
-* State 2: There is a "Select all" that selects all elements in the dataset.
-* State 2: Unselecting the checkbox deselects all selected items in the dataset.
+
+-   State 1: A click on the checkbox, off state, selects all the elements on the current page.
+-   State 1 and 2: The checkbox is marked with a dash when only some of the items are selected in the whole dataset.
+-   State 2: Even if only some of the items are selected, clicking the checkbox selects all elements on the page.
+-   State 2: There is a "Select all" that selects all elements in the dataset.
+-   State 2: Unselecting the checkbox deselects all selected items in the dataset.
 
 #### Filter and order
 
@@ -97,8 +99,8 @@ When a management Toolbar contains a search field, and it is used to filter elem
 
 ![state one after typing](/images/lexicon/ManagementBarResults.jpg)
 
-
 #### Layout Variations
+
 The functionalities that are not required disappear. The Search field expands to fill the remaining space, as shown below.
 
 This example displays all the features:
@@ -124,11 +126,13 @@ Last but not least, a very common case, and aforementioned in the View Case sect
 ### Mobile
 
 #### State 1
+
 On mobile devices, all actions are transformed into icons to conserve space and condense the toolbar to only one line. This provides more space for content, rather than tools.
 
 ![state one of the management bar mobile](/images/lexicon/ManagementBarMobileState1.jpg)
 
 #### State 2
+
 In contrast to the desktop version, no actions are available outside of the actions menu.
 
 ![state two of the management bar mobile](/images/lexicon/ManagementBarMobileState2.jpg)
@@ -139,13 +143,13 @@ The magnifying glass icon triggers the Management Toolbar to switch to the searc
 
 ![state two of the management bar mobile](/images/lexicon/ManagementBarMobileSearch.jpg)
 
-#### Search results 
+#### Search results
 
 Tap the entry in the search field to view the results. The Management Toolbar returns to state 1 with a summary of the results found.
 
 ![state two of the management bar mobile](/images/lexicon/ManagementBarMobileResults.jpg)
 
-#### Mobile Layout Variations 
+#### Mobile Layout Variations
 
 The search field grows to fill the remaining space leftover from features that were removed from the Management Toolbar.
 
@@ -169,4 +173,4 @@ The most common configuration includes all options, except the ability to change
 
 ![state six of the management bar mobile without change view](/images/lexicon/ManagementBarMobileState6.jpg)
 
-*Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height.*
+_Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height._

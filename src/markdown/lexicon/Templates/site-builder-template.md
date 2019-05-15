@@ -1,13 +1,14 @@
 ---
-title: "Site Builder Template"
-description: "The Site Builder template demonstrates ."
-layout: "guide"
+title: 'Site Builder Template'
+description: 'The Site Builder template demonstrates .'
+layout: 'guide'
 order: 505
+draft: false
 ---
+
 ### Basic Components
 
 ![basic components](/images/lexicon/SiteBuilderBasicComponents.jpg)
-
 
 ### Basic Sections
 

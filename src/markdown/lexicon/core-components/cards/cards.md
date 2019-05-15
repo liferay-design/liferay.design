@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/cards.html'
 description: 'Cards are a specific form of data visualization focused mainly on displaying images.'
 layout: 'guide'
 order: 211
+draft: false
 ---
 
 ![card with image default state](/images/lexicon/CardImage.jpg)
@@ -60,7 +61,6 @@ The only required element for a card is the image. Everything else can be remove
 #### Empty
 
 ![card with image empty state, no image, gray background grid](/images/lexicon/CardImageEmpty.jpg)
-
 
 ### Attributes
 

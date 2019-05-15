@@ -3,6 +3,7 @@ title: 'Sites'
 description: "A tour through the basic patterns that make up the Classic theme that styles the Site's environment."
 layout: 'guide'
 order: 431
+draft: false
 ---
 
 Building a well-structured site is key to a user properly consuming its information. Well-structured widgets help users consume and understand information faster. In this section, we cover the widget structure pattern that our Asset Display Templates (ADTs) use, as well as some smaller patterns that are used throughout ADTs, so that you can understand how to build and configure ADTs properly.

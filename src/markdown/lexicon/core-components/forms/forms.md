@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/forms/form-elements.html'
 description: 'Forms obtain user data and transmit it to the system to either store the data, produce an action, or both.'
 layout: 'guide'
 order: 251
+draft: false
 ---
 
 ### Parts
@@ -14,11 +15,11 @@ order: 251
 1. Title (Required)
 2. Description (Not required but very useful). It should describe the form usage.
 3. Form Elements:
-	1. Text input. See [text input](../text-input) for more information. 
-	2. Text input localizable. See [text input localizable](../text-input-localizable) for more information.
-	3. Selector. See [selectors](../selector) for more information. 
-	4. Radio button. See [checkbox, radio, and toggle](../radio-check-toggle) for more information
-	5. Checkbox. See [checkbox, radio, and toggle](../radio-check-toggle) for more information. 	
+    1. Text input. See [text input](../text-input) for more information.
+    2. Text input localizable. See [text input localizable](../text-input-localizable) for more information.
+    3. Selector. See [selectors](../selector) for more information.
+    4. Radio button. See [checkbox, radio, and toggle](../radio-check-toggle) for more information
+    5. Checkbox. See [checkbox, radio, and toggle](../radio-check-toggle) for more information.
 4. Section. Sections are identified with a 14px size primary text that is always in uppercase letters. Some forms may require a full width underline for a better visual separation of content. This is usually used in configuration forms.
 5. Buttons. Visit Actions to learn how buttons are used in forms.
 

@@ -5,12 +5,12 @@ titleLabelLink: 'https://clayui.com/docs/components/badges.html'
 description: 'Badges help highlight important information, such as notifications or new and unread messages.'
 layout: 'guide'
 order: 203
+draft: false
 ---
 
 import { Grid } from 'reakit'
 
 ![defualt size default color badge](/images/lexicon/Badges.png)
-
 
 ### Usage
 
@@ -28,24 +28,22 @@ import { Grid } from 'reakit'
 
 Badges can be placed near text, but there must be a minimum distance of 8px between the two.
 
-
-
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/BadgeDoDistance.png"
-			alt="badge distance to an element is 8 pixels"
-		/>
+			<img
+				src="/images/lexicon/BadgeDoDistance.png"
+				alt="badge distance to an element is 8 pixels"
+			/>
 		</div>
 		<p class="do">Do</p>
 	</Grid.Item>
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/BadgeDontDistance.png"
-			alt="don't place a badge closer than 8 pixels to any element in horizontal"
-		/>
+			<img
+				src="/images/lexicon/BadgeDontDistance.png"
+				alt="don't place a badge closer than 8 pixels to any element in horizontal"
+			/>
 		</div>
 		<p class="dont">Don't</p>
 	</Grid.Item>

@@ -4,7 +4,9 @@ titleLabel: 'Portal'
 description: 'The loading indicator shows the user that an external process, like a connection, is being executed.'
 layout: 'guide'
 order: 300
+draft: false
 ---
+
 ![loading indicator default size](/images/lexicon/LoadingIndicator.jpg)
 
 ### Usage
@@ -12,7 +14,6 @@ order: 300
 Use the loading indicator to inform the user that there is pending content from the server that will load where the indicator is displayed. Without this indicator, the user can feel lost or navigate away from the page prematurely.
 
 Please don’t use loading indicators inside buttons. If you need a loading indicator for an action triggered by a button, place the loading indicator on one of the sides of the button.
-
 
 ### Types
 

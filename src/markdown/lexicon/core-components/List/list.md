@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/list.html'
 description: 'Lists are a visual representation of a dataset, based on groups of related content, that is organized vertically.'
 layout: 'guide'
 order: 284
+draft: false
 ---
 
 ![list entry in default state](/images/lexicon/ListViewDefault.jpg)

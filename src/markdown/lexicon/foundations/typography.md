@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/layout/typography.html'
 description: 'A basic reference for the definition of the visual identity and the organization of the content.'
 layout: 'guide'
 order: 120
+draft: false
 ---
 
 ### Font Stacks
@@ -149,7 +150,6 @@ Lexicon's Line height only applies to texts elements that run more than one line
 
 For efficiency and simplicity, Lexicon only incorporates three font weights for content:
 
-
 <table>
     <thead>
         <tr>
@@ -171,7 +171,7 @@ For efficiency and simplicity, Lexicon only incorporates three font weights for 
             <td style="font-weight: 700">700</td>
         </tr>
     </tbody>
-</table> 
+</table>
 
 The use cases for each font weight are covered in the "Type Styles" section.
 
@@ -219,10 +219,10 @@ The Lexicon UI elements are styled using a combination of the format values desc
 
 Content aligment is relevant for readability. Respecting some basic rules, 1rem spacing, make your text easier to consume. Please follow the advices in the images:
 
-| Do | 
-| -- | 
+| Do                                                                             |
+| ------------------------------------------------------------------------------ |
 | ![two buttons of same height in a row](/images/lexicon/ContentAlignmentDo.jpg) |
 
-| Don't |
-| ----- | 
+| Don't                                                                            |
+| -------------------------------------------------------------------------------- |
 | ![two buttons of same height in a row](/images/lexicon/ContentAlignmentDont.jpg) |

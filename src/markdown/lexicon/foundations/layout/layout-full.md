@@ -1,8 +1,9 @@
 ---
-title: "Full Box"
+title: 'Full Box'
 description: "The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid."
-layout: "guide"
+layout: 'guide'
 order: 113
+draft: false
 ---
 
 ![layout full box 1440px width screen](/images/lexicon/layoutfb01.jpg)

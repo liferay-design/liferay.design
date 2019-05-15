@@ -1,8 +1,9 @@
 ---
-title: "Builder Template"
-description: "Builder Template is guidance pattern to allow designers to create their own builder pages."
-layout: "guide"
+title: 'Builder Template'
+description: 'Builder Template is guidance pattern to allow designers to create their own builder pages.'
+layout: 'guide'
 order: 501
+draft: false
 ---
 
 ### Layout
@@ -17,21 +18,19 @@ Builder has 3 main areas:
 2.  Side panel
     1.  Vertical tabbar: only needed if you have multiple panels.
     2.  Panel: where to place tools that will allow you to create or enrich the canvas areas.
-3. Canvas
-
-
+3.  Canvas
 
 ### Examples
 
 This template is applied in Liferay DXP in several applications so you can be inspired by following the examples.
 
-#### Document preview 
+#### Document preview
 
 <br/>
 
 ![Document preview example](/images/lexicon/BuilderTemplateDocumentPreview.jpg)
 
-#### Segmentation 
+#### Segmentation
 
 <br/>
 

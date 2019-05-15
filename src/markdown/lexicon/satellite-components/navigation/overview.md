@@ -3,6 +3,7 @@ title: 'Navigation'
 description: 'This section provides basic use guidelines for the main navigation patterns of the system.'
 layout: 'guide'
 order: 411
+draft: false
 ---
 
 This section describes the main navigational patterns, although more patterns are available.

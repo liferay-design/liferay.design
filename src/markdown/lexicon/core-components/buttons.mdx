@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/buttons.html'
 description: 'Buttons communicate an action to happen on user interaction.'
 layout: 'guide'
 order: 204
+draft: false
 ---
 
 import { Grid } from 'reakit'
@@ -64,11 +65,10 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 ![button primary default size disable state](/images/lexicon/ButtonPrimarySmall.png)
 
 ### Dos and Don'ts
-<br/>
 
-1.	Use the same height for all the buttons that are in the same row.
+<br />
 
-
+1. Use the same height for all the buttons that are in the same row.
 
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
@@ -82,10 +82,10 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 	</Grid.Item>
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonSizeDont.png"
-			alt="two buttons of different height in a row"
-		/>
+			<img
+				src="/images/lexicon/ButtonSizeDont.png"
+				alt="two buttons of different height in a row"
+			/>
 		</div>
 		<p class="dont">Don't</p>
 	</Grid.Item>
@@ -95,53 +95,24 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 <br/>
 <br/>
 
-2.	Characters can not all be uppercase in a button.
-
-
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
-		<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonCapitalizationDo.png"
-			alt="button with no caps lock"
-		/>
-		</div>
-		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
-			<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonCapitalizationDont.png"
-			alt="button with caps lock"
-		/>
-		</div>
-		<p class="dont">Don't</p>
-	</Grid.Item>
-</Grid>
-
-<br/>
-<br/>
-<br/>
-
-3.	Text can not wrap multiple lines. It must all be on one line.
-
+2. Characters can not all be uppercase in a button.
 
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonWrapDo.png"
-			alt="button with text on one line"
-		/>
+			<img
+				src="/images/lexicon/ButtonCapitalizationDo.png"
+				alt="button with no caps lock"
+			/>
 		</div>
 		<p class="do">Do</p>
 	</Grid.Item>
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonWrapDont.png"
-			alt="button with text wrapped"
-		/>
+			<img
+				src="/images/lexicon/ButtonCapitalizationDont.png"
+				alt="button with caps lock"
+			/>
 		</div>
 		<p class="dont">Don't</p>
 	</Grid.Item>
@@ -151,32 +122,57 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 <br/>
 <br/>
 
-4.	A borderless button must be placed either before or after a set of bordered buttons.
-
+3. Text can not wrap multiple lines. It must all be on one line.
 
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonIconDo.png"
-			alt="borderless button, secondary button, primary button"
-		/>
+			<img
+				src="/images/lexicon/ButtonWrapDo.png"
+				alt="button with text on one line"
+			/>
 		</div>
 		<p class="do">Do</p>
 	</Grid.Item>
 	<Grid.Item>
 		<div class="image-container">
-		<img
-			src="/images/lexicon/ButtonIconDont.png"
-			alt="secondary button, borderless button, primary button"
-		/>
+			<img
+				src="/images/lexicon/ButtonWrapDont.png"
+				alt="button with text wrapped"
+			/>
 		</div>
 		<p class="dont">Don't</p>
 	</Grid.Item>
 </Grid>
 
 <br/>
+<br/>
+<br/>
 
+4. A borderless button must be placed either before or after a set of bordered buttons.
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/ButtonIconDo.png"
+				alt="borderless button, secondary button, primary button"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/ButtonIconDont.png"
+				alt="secondary button, borderless button, primary button"
+			/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+
+<br />
 
 ### Variations
 

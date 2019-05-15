@@ -1,8 +1,9 @@
 ---
-title: "Buttons"
-description: "A set of button variations specifically designed for site environment widgets."
-layout: "guide"
+title: 'Buttons'
+description: 'A set of button variations specifically designed for site environment widgets.'
+layout: 'guide'
 order: 434
+draft: false
 ---
 
 ### Variations
@@ -56,7 +57,6 @@ This variation only appears for logged in users that have editing permissions fo
 **Active**
 
 ![Button site active and button site active borderless](/images/lexicon/sites/ButtonSitesBlueActive.jpg)
-
 
 When these buttons are associated with an asset, a blog entry, a knowledge base article, or a comment, they only appear when hovering over the associated item. See the [Asset Title Bar documentation](./assetTitleBar) for more information about this behavior.
 

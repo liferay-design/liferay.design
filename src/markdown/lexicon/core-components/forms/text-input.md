@@ -1,10 +1,11 @@
 ---
-title: "Text Input"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/forms/text-input.html"
-description: "A description of the different text input types, including usage and validation states."
-layout: "guide"
+title: 'Text Input'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/forms/text-input.html'
+description: 'A description of the different text input types, including usage and validation states.'
+layout: 'guide'
 order: 265
+draft: false
 ---
 
 ## Text Field
@@ -15,9 +16,11 @@ order: 265
 A text field lets users enter data into the system to be processed.
 
 ### Usage
+
 Text fields can have help text. Lexicon provides two different mechanisms to provide help:
-* Help text below the field: Use it if you want to make your help text very clear to the user.
-* Help text inside a popover triggered from a help icon next to the title: Use it when you only want to provide help text if the user requires help. Placeholder text is not recommended since users can misinterpret it as final text. If you must use a placeholder, do not write help text in it. Just provide a text example.
+
+-   Help text below the field: Use it if you want to make your help text very clear to the user.
+-   Help text inside a popover triggered from a help icon next to the title: Use it when you only want to provide help text if the user requires help. Placeholder text is not recommended since users can misinterpret it as final text. If you must use a placeholder, do not write help text in it. Just provide a text example.
 
 ### States
 
@@ -70,11 +73,12 @@ Validation text for a field is placed right below the field box, just before the
 ![input field parts](/images/lexicon/InputParts.jpg)
 
 A text field, at the very least, contains these elements:
+
 1. Label
 2. Text field box
 3. Placeholder
 4. Status message
-5. Help text 
+5. Help text
 
 ![input field metrics without error](/images/lexicon/InputMetrics.jpg)
 ![input field metrics with error](/images/lexicon/InputErrorMetrics.jpg)
@@ -90,14 +94,14 @@ A text area is similar to a text field input, however, it supports several lines
 
 ### Usage
 
-*	A text area's height can be resized by the user, allowing them to see more or less text as they please.
-*	A text area has the same states and validation states as a text field.
-*	Text areas can have help text. Lexicon provides two different mechanisms to provide help:
-	* Help text below the field: Use it if you want to make your help text very clear to the user.
-	* Help text inside a popover triggered from a help icon next to the title: Use it when you only want to provide help text if the user requires help.
-*	Placeholder text is not recommended since users can misinterpret it as final text. If you must use a placeholder, do not write help text in it. Just provide a text example.
-*	A text area can be configured to expand on input change.
-	* It requires a min-height of 44px like a text field.
-	* The text area has a mid-height value set to 88px, equivalent to three lines of text.
-	* The text area has a max-height value set to 200px. From mid-height to max-height, the text area will grow in height. When it reaches the maximum, the text area stops growing and the vertical scroll bar becomes available.
-	* We recommend that you configure the min-height with the same value as the mid-height, since three lines is the recommendation for the text size.
+-   A text area's height can be resized by the user, allowing them to see more or less text as they please.
+-   A text area has the same states and validation states as a text field.
+-   Text areas can have help text. Lexicon provides two different mechanisms to provide help:
+    -   Help text below the field: Use it if you want to make your help text very clear to the user.
+    -   Help text inside a popover triggered from a help icon next to the title: Use it when you only want to provide help text if the user requires help.
+-   Placeholder text is not recommended since users can misinterpret it as final text. If you must use a placeholder, do not write help text in it. Just provide a text example.
+-   A text area can be configured to expand on input change.
+    -   It requires a min-height of 44px like a text field.
+    -   The text area has a mid-height value set to 88px, equivalent to three lines of text.
+    -   The text area has a max-height value set to 200px. From mid-height to max-height, the text area will grow in height. When it reaches the maximum, the text area stops growing and the vertical scroll bar becomes available.
+    -   We recommend that you configure the min-height with the same value as the mid-height, since three lines is the recommendation for the text size.
