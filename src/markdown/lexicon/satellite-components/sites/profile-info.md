@@ -1,8 +1,9 @@
 ---
-title: "Profile Info"
-description: "An element used to identify the author or owner and other related metadata of an asset in sites."
-layout: "guide"
+title: 'Profile Info'
+description: 'An element used to identify the author or owner and other related metadata of an asset in sites.'
+layout: 'guide'
 order: 435
+draft: false
 ---
 
 ![Profile info types](/images/lexicon/sites/ProfileInfoTypes.jpg)

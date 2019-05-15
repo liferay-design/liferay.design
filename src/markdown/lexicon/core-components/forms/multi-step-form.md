@@ -1,10 +1,11 @@
 ---
-title: "Multi Step Form"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/forms/multi-step-form.html"
-description: "A progress bar used to divide the main task into subtasks to help users complete long processes."
-layout: "guide"
+title: 'Multi Step Form'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/forms/multi-step-form.html'
+description: 'A progress bar used to divide the main task into subtasks to help users complete long processes.'
+layout: 'guide'
 order: 259
+draft: false
 ---
 
 ![Multi step form](/images/lexicon/MultiStepForm7Steps.jpg)
@@ -13,20 +14,21 @@ order: 259
 
 A Multi step form is used when a major or big task has to be divided into smaller task, with the aim of letting the user breath in the process and providing them with a sense of progression.
 
-* Each step can have three different states: Disabled, selected, or done.
-* Use it to divide long and/or complicated tasks into smaller chunks that are easier for the user to complete.
-* Use it to guide a user through a new or unfamiliar process.
-* Use it when there is a specific sequence required to complete the form.
-* Make chunks that are not overwhelming.
-* Step names must be clear, short, and express the content below them. Use two words maximum.
+-   Each step can have three different states: Disabled, selected, or done.
+-   Use it to divide long and/or complicated tasks into smaller chunks that are easier for the user to complete.
+-   Use it to guide a user through a new or unfamiliar process.
+-   Use it when there is a specific sequence required to complete the form.
+-   Make chunks that are not overwhelming.
+-   Step names must be clear, short, and express the content below them. Use two words maximum.
 
 A multi step form must have a minimum of two steps:
 
 ![Multi step form two steps](/images/lexicon/MultiStepForm2Steps.jpg)
 
 We recommend a maximum of seven steps for two key reasons:
-* Seven is an easy number of elements to remember
-* Seven is a good threshold for touch interaction on mobile devices
+
+-   Seven is an easy number of elements to remember
+-   Seven is a good threshold for touch interaction on mobile devices
 
 ![Multi step form](/images/lexicon/MultiStepForm7Steps.jpg)
 
@@ -35,7 +37,6 @@ If you add more than seven steps, the remaining steps should be grouped in a dro
 ![Multi step form two steps](/images/lexicon/MultiStepFormNSteps.jpg)
 
 A Multi step form is most commonly used to guide the user in the process of filling in a complex or long form. Some processes may require you to navigate backwards through the process. For those cases, make sure to set up links in the multi step form elements.
-
 
 #### Example
 

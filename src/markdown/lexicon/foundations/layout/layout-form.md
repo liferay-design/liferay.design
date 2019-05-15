@@ -1,8 +1,9 @@
 ---
-title: "Form Box"
-description: "The basic layout used to contain form structures built based on 8/12 grid columns."
-layout: "guide"
+title: 'Form Box'
+description: 'The basic layout used to contain form structures built based on 8/12 grid columns.'
+layout: 'guide'
 order: 112
+draft: false
 ---
 
 The Form Box is the most basic layout used to contain form structures. This layout is composed of a box that occupies 8 columns of the grid, with 2 offset columns on both sides.

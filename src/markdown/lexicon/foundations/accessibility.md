@@ -1,11 +1,11 @@
 ---
-title: "Accessibility"
-description: "Building an accessible design system"
-layout: "guide"
+title: 'Accessibility'
+description: 'Building an accessible design system'
+layout: 'guide'
 order: 102
 hidden: yes
+draft: false
 ---
-
 
 ### What is accessibility?
 
@@ -19,6 +19,5 @@ Accessibility brings independence to people with disabilities. It offers the sam
 
 Accessibility may also be a legal requirement for your business. Some countries have strict regulations on accessibility, and they may enforce standards, which vary depending on the country, that you must follow. Some of these standards are listed below:
 
-* [Web Content Accessibility Guidelines (WCAG) from W3C](https://www.w3.org/WAI/intro/wcag)
-* [Section 508 of the U.S. Rehabilitation Act](https://www.section508.gov/section-508-of-the-rehabilitation-act)
-
+-   [Web Content Accessibility Guidelines (WCAG) from W3C](https://www.w3.org/WAI/intro/wcag)
+-   [Section 508 of the U.S. Rehabilitation Act](https://www.section508.gov/section-508-of-the-rehabilitation-act)

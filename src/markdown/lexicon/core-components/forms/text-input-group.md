@@ -1,13 +1,15 @@
 ---
-title: "Text Input Group"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/forms/text-input-group.html"
-description: "A text field with added elements that provide a more complex input structure."
-layout: "guide"
+title: 'Text Input Group'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/forms/text-input-group.html'
+description: 'A text field with added elements that provide a more complex input structure.'
+layout: 'guide'
 order: 266
+draft: false
 ---
 
 ### Layout
+
 An input field's layout is flexible. You can add elements on either side of the field.
 
 Usually the components placed around the text field are buttons, split buttons, and/or help labels. Help labels are placed to clarify values such as currency, unit of measurement, digits, email addresses, etc.
@@ -34,7 +36,6 @@ Usually the components placed around the text field are buttons, split buttons, 
 
 ![input group with mass in the middle and right side](/images/lexicon/InputGroupInsert.jpg)
 
-
 #### Input group with radio or checkbox
 
 ![input group with mass on the left](/images/lexicon/InputGroupCheckboxLeft.jpg)
@@ -44,4 +45,3 @@ Usually the components placed around the text field are buttons, split buttons, 
 ![input group with mass on both sides](/images/lexicon/InputGroupRadioLeft.jpg)
 
 ![input group with mass in the middle and right side](/images/lexicon/InputGroupRadioLeftActive.jpg)
-

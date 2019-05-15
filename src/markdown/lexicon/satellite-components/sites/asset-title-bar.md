@@ -1,8 +1,9 @@
 ---
-title: "Asset Title Bar"
+title: 'Asset Title Bar'
 description: "A bar used to display an asset's title and its associated actions when specific ADTs are displayed."
-layout: "guide"
+layout: 'guide'
 order: 432
+draft: false
 ---
 
 ![Asset Title Bar](/images/lexicon/sites/AssetTitleBar.jpg)
@@ -22,7 +23,6 @@ Blog entry example:
 Blog entry metrics:
 
 ![Blog Entry Title metrics](/images/lexicon/sites/BlogEntryTitleMetrics.jpg)
-
 
 ### Example in Context
 

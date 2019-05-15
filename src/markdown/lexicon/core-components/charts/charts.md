@@ -3,6 +3,7 @@ title: 'Charts overview'
 description: 'This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.'
 layout: 'guide'
 order: 221
+draft: false
 ---
 
 ### Color
@@ -17,14 +18,13 @@ Lexicon states a series of [basic behaviors](../chart-interaction) for all its c
 
 The collection of charts grows as Liferay products require new chart configurations. Check back here for new charts, or follow our [news](./../../../news/news) to be updated.
 
-* [Bar Chart](../chart-bar)
-* [Donut Chart](../chart-doughnut)
-* [Forecast Chart](../chart-forecast)
-* [Heatmap Chart](../chart-heatmap)
-* [Line Chart](../chart-line)
-* [Pie Chart](../chart-pie)
-* [Stacked Bar Chart](../chart-stacked-bar)
-
+-   [Bar Chart](../chart-bar)
+-   [Donut Chart](../chart-doughnut)
+-   [Forecast Chart](../chart-forecast)
+-   [Heatmap Chart](../chart-heatmap)
+-   [Line Chart](../chart-line)
+-   [Pie Chart](../chart-pie)
+-   [Stacked Bar Chart](../chart-stacked-bar)
 
 <!--
 <div class="row">

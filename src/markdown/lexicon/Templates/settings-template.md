@@ -1,8 +1,9 @@
 ---
-title: "Settings Template "
-description: "The settings template shows how a configuration screen is displayed using Lexicon patterns"
-layout: "guide"
+title: 'Settings Template '
+description: 'The settings template shows how a configuration screen is displayed using Lexicon patterns'
+layout: 'guide'
 order: 504
+draft: false
 ---
 
 ### Layout

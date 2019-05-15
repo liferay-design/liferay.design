@@ -1,24 +1,24 @@
 ---
-title: "Date & Time Pickers"
-titleLabel: "Pending"
-description: "Date and Time pickers let users select a date and time for a form."
-layout: "guide"
+title: 'Date & Time Pickers'
+titleLabel: 'Pending'
+description: 'Date and Time pickers let users select a date and time for a form.'
+layout: 'guide'
 order: 258
+draft: false
 ---
 
 **Note:** These components are meant to cover desktop browser needs. The OS native component must be used on mobile devices.
 
-This page describes the date and time patterns separately and then describes a 
+This page describes the date and time patterns separately and then describes a
 pattern that combines the two functionalities:
 
-* [Date Picker](#date-picker)
-* [Time Picker](#time-picker)
-* [Date and Time Picker](#date-and-time-picker)
+-   [Date Picker](#date-picker)
+-   [Time Picker](#time-picker)
+-   [Date and Time Picker](#date-and-time-picker)
 
 ## Date Picker
 
 ![Date picker](/images/lexicon/Picker-date.jpg)
-
 
 ### Usage
 
@@ -27,14 +27,13 @@ pattern that combines the two functionalities:
 1. Month selector: provides the twelve months of the year
 2. Year selector: provides the available years. This needs to be open so users can select past, present, future, or all dates.
 3. Back arrow button: selects the previous month on the calendar
-    * When displaying the first month of the year (eg: January 2019), this selects the last month of the previous year (eg: December 2018)
+    - When displaying the first month of the year (eg: January 2019), this selects the last month of the previous year (eg: December 2018)
 4. Dot button: selects current date
 5. Next arrow button: selects the next month on the calendar
-    * When displaying the last month of the year (eg: December 2019), this selects the first month of the next year (eg: January 2020) 
+    - When displaying the last month of the year (eg: December 2019), this selects the first month of the next year (eg: January 2020)
 6. Days panel
-    * Note that the abbreviated week day labels are not interactive 
-    * The day number must be interactive so the user can select the date
-
+    - Note that the abbreviated week day labels are not interactive
+    - The day number must be interactive so the user can select the date
 
 ### Calendar day states
 
@@ -85,7 +84,6 @@ The time picker lets a user select a time from a range of hours and minutes.
 You can specify the time zone in the text label on the right side of the time picker.
 
 ![Time picker](/images/lexicon/Picker-time-zone.jpg)
-
 
 ## Date and Time Picker
 

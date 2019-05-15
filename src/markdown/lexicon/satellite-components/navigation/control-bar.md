@@ -1,10 +1,11 @@
 ---
-title: "Control bar"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/css-framework/satellites/navigation/header.html"
-description: "Control bar is a toolbar that provides identification and lets the user navigate and perform actions."
-layout: "guide"
+title: 'Control bar'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/css-framework/satellites/navigation/header.html'
+description: 'Control bar is a toolbar that provides identification and lets the user navigate and perform actions.'
+layout: 'guide'
 order: 412
+draft: false
 ---
 
 ### Usage
@@ -12,14 +13,14 @@ order: 412
 Header is always fixed to the top of the window.
 
 The Header is used on almost every page in the system. The most common configuration is shown below:
-* Left area: Used for actions such as triggering the side menu and back navigation
-* Center area: Used for the page or application title and help
-* Right area: 
-    * Actions: They are identified with an icon when existing, and listed inside an actions menu when an icon is not clear. These actions are application level actions.
-    * User Sticker: It allows displaying different navigation options and actions to which the user has access.
+
+-   Left area: Used for actions such as triggering the side menu and back navigation
+-   Center area: Used for the page or application title and help
+-   Right area:
+    -   Actions: They are identified with an icon when existing, and listed inside an actions menu when an icon is not clear. These actions are application level actions.
+    -   User Sticker: It allows displaying different navigation options and actions to which the user has access.
 
 The Header can have different configurations, as you can see in the examples below.
-
 
 ### Examples
 

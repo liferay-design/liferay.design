@@ -1,8 +1,9 @@
 ---
-title: "Interaction"
-description: "A description of the basic expected interaction behaviors for all charts."
-layout: "guide"
+title: 'Interaction'
+description: 'A description of the basic expected interaction behaviors for all charts.'
+layout: 'guide'
 order: 223
+draft: false
 ---
 
 ### Interaction events
@@ -12,21 +13,25 @@ If you need to create your own chart, it's useful to know how our events are def
 #### Mouse events
 
 **Mouse hover**
-* Show popover
+
+-   Show popover
 
 **Mouse out**
-* Dismiss popover
+
+-   Dismiss popover
 
 **Mouse click**
-* If an element is not selected, the following behaviors are expected:
-    * Selects the element. Grays out the remaining elements with a 40% opacity.
-    * Show popover
-* If an element is selected, the following behaviors are expected (the click can be in the element itself or any other part of the chart, except the popover):
-    * Unselects the element
-    * Dismisses the popover
-    * Resets the chart to its default state
+
+-   If an element is not selected, the following behaviors are expected:
+    -   Selects the element. Grays out the remaining elements with a 40% opacity.
+    -   Show popover
+-   If an element is selected, the following behaviors are expected (the click can be in the element itself or any other part of the chart, except the popover):
+    -   Unselects the element
+    -   Dismisses the popover
+    -   Resets the chart to its default state
 
 #### Touch events
+
 Same as mouse click events.
 
 ### Interaction items
@@ -49,16 +54,16 @@ The popover must be shown next to the axis item without hovering the chart.
 
 Sometimes there will only be one axis. Sometimes the chart will not provide interaction on both axis. This is perfectly normal.
 
-*Example: Vertical stacked bar*
-* An interaction in the x-axis item will show a popover with information for each of the items.
-* An interaction in the y-axis item will show nothing.
+_Example: Vertical stacked bar_
+
+-   An interaction in the x-axis item will show a popover with information for each of the items.
+-   An interaction in the y-axis item will show nothing.
 
 #### Legend item
 
 Highlight all items of this legend type in the chart.
 The popover must show information related to this specific item summary for that legend type.
 The popover must be shown on top of the legend item.
-
 
 ### Chart popover
 

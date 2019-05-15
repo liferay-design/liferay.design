@@ -5,8 +5,8 @@ titleLabelLink: 'https://clayui.com/docs/components/icons.html'
 description: 'Icons are a visual representation of an idea and/or action.'
 layout: 'guide'
 order: 280
+draft: false
 ---
-
 
 ### Usage
 

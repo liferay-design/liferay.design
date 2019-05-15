@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/modals.html'
 description: 'A modal is a secondary window that communicates or provides an action inside the same process.'
 layout: 'guide'
 order: 301
+draft: false
 ---
 
 import { Grid } from 'reakit'
@@ -17,28 +18,39 @@ import { Grid } from 'reakit'
 -   We recommend that you do not use the full-width size, as it appears as though it's a completely new page. If you require this size, we recommend that you consider creating a new page instead of a modal.
 -   Modals belong to a screen, therefore a modal should not be triggered from another modal window (see the Modal over modal section below).
 -   When a modal has a footer, place the actions inside and align them to the left. Follow this order for your actions: Primary button (only one), secondary button, and button link.
-<br/>
-<br/>
+    <br/>
+    <br />
 
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
 		<p class="do-table">Do</p>
-        <ul>
-            <li>Use it to draw the user's attention to something that is more important.</li>
-            <li>Use it for simple content cases.</li>
-            <li>Use it if you need to interrupt the user flow to display concrete information or capture data from the user.</li>
-        </ul>
+		<ul>
+			<li>
+				Use it to draw the user's attention to something that is more important.
+			</li>
+			<li>Use it for simple content cases.</li>
+			<li>
+				Use it if you need to interrupt the user flow to display concrete
+				information or capture data from the user.
+			</li>
+		</ul>
 	</Grid.Item>
 	<Grid.Item>
 		<p class="dont-table">Don't</p>
-        <ul>
-            <li>Do not use it for complex cases that require you to display a lot of information or to complete a long form. In these cases, use a new page instead.</li>
-            <li>Try not to trigger a modal window from another modal window. Modal windows are subordinate to pages.</li>
-            <li>Never completely cover the page's information with the modal window.</li>
-        </ul>
+		<ul>
+			<li>
+				Do not use it for complex cases that require you to display a lot of
+				information or to complete a long form. In these cases, use a new page
+				instead.
+			</li>
+			<li>
+				Try not to trigger a modal window from another modal window. Modal windows
+				are subordinate to pages.
+			</li>
+			<li>Never completely cover the page's information with the modal window.</li>
+		</ul>
 	</Grid.Item>
 </Grid>
-
 
 #### Multiple selection inside a modal
 

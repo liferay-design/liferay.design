@@ -1,11 +1,13 @@
 ---
-title: "Dataset Template"
-description: "A Dataset Template shows how a dataset is displayed using Lexicon patterns."
-layout: "guide"
+title: 'Dataset Template'
+description: 'A Dataset Template shows how a dataset is displayed using Lexicon patterns.'
+layout: 'guide'
 order: 502
+draft: false
 ---
 
 ### Layout
+
 This template works with several patterns, listed below, that can be directly mapped with the image:
 
 1. Management toolbar

@@ -5,6 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/progress-bars.html'
 description: 'Progress bar indicates the percentage completed of a task.'
 layout: 'guide'
 order: 323
+draft: false
 ---
 
 ![indeterminate progress bar](/images/lexicon/ProgressBar30.jpg)
@@ -35,8 +36,6 @@ The finished state indicates that the process is completed successfully when the
 
 ### Dos and Don'ts
 
-| Do | Don't |
-| -- | ----- |
+| Do                                          | Don't                                                                                                                                                 |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Use it for processes such as a file upload. | Never use it to communicate the progress of a user in a certain set of actions. For that you need a [multi step form type](../forms/multi-step-form). |
-
-

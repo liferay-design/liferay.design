@@ -1,10 +1,11 @@
 ---
-title: "Forms Hierarchy"
-titleLabel: "Clay"
-titleLabelLink: "https://clayui.com/docs/components/forms/forms-hierarchy.html"
-description: "The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks."
-layout: "guide"
+title: 'Forms Hierarchy'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/forms/forms-hierarchy.html'
+description: 'The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks.'
+layout: 'guide'
 order: 252
+draft: false
 ---
 
 This page contemplates the visual definition of the hierarchy and the measurements and the definition of the components that establish that hierarchy.
@@ -12,6 +13,7 @@ This page contemplates the visual definition of the hierarchy and the measuremen
 ### Layout
 
 There are three main elements used to define the form hierarchy:
+
 1. Form title
 2. First level section header. This can be one of two options:
     1. The header of a fixed section
@@ -34,15 +36,15 @@ Metrics are key to understanding how our forms are built and how vertical spacin
 
 As mentioned in the [grid section](../../../foundations/grid), the main vertical spacing reference is 24px.
 
-__Section blocks metrics__
+**Section blocks metrics**
 
 ![Section blocks metrics](/images/lexicon/FormHierarchySectionBlocks.jpg)
 
-__Inside sections metrics__
+**Inside sections metrics**
 
 ![Inside sections metrics](/images/lexicon/FormHierarchySections.jpg)
 
-__Metrics using explanatory texts associated to different section levels__
+**Metrics using explanatory texts associated to different section levels**
 
 ![Metrics using explanatory texts associated to different section levels](/images/lexicon/FormHierarchySectionTexts.jpg)
 
