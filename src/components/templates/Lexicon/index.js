@@ -140,7 +140,7 @@ export default class Lexicon extends Component {
 
 export const pageQuery = graphql`
 	query($slug: String!) {
-		allMdx(filter: { fields: { slug: { regex: "/lexicon/" } } }) {
+		allMdx(filter: { fields: { slug: { regex: "/(/lexicon/)/" } } }) {
 			totalCount
 			edges {
 				node {
