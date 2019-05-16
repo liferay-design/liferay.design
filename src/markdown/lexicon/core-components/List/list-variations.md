@@ -10,7 +10,11 @@ draft: false
 
 ## List basic item
 
-A list item is a flexible component arranging the data in different ways. In our case, all the variations you see below are possible with the same component. We encourage you to create more list cell components that fit your needs when this one doesn't cover your needs.
+A list item is a flexible component arranging the data in different ways. Here, we present our basic list item used to achieve many different list item configurations. These configurations that you see below are possible with the same component. 
+
+![List metrics](/images/lexicon/ListMetrics.jpg)
+
+We encourage you to create more list cell variations with its different configurations that fit your needs when this one doesn't cover them.
 
 ### Only text
 
