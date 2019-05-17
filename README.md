@@ -35,7 +35,7 @@
 
 The online presence of Liferay's Design Teams!
 
-Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [WeDeploy](https://wedeploy.com).
+Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [Netlify](https://Netlify.com).
 
 <br />
 <br />
@@ -145,8 +145,7 @@ Stylesheets and other theme-related files.
 
 ##### utils
 
-[Auth](https://wedeploy.com/docs/auth/getting-started/) is our only utility &mdash; but it's so great it gets its own folder.
-[TODO: Replace WeDeploy Auth](https://github.com/liferay-design/liferay.design/issues/280)
+`generateIcons.js` will take any svg in the `static / images / icons` folder and add it to the `icons` component.
 
 #### static/images
 
@@ -174,7 +173,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── package-lock.json
     ├── package.json
     ├── README.md
-    └── wedeploy.json
 
 1. **`/node_modules`**: The directory where all of the modules of code that your project depends on (npm packages) are automatically installed.
 
@@ -199,14 +197,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
-
-13. **`wedeploy.json`**: [WeDeploy](https://wedeploy.com/) takes care of deploying and hosting our site! It's pretty great. The ~3 lines of code basically:
-
-    1. tell which project we're working on
-    2. what kind of thing we're doing (in this case, hosting files)
-    3. which files to serve.
-
-    Amazing.
 
 <br />
 <br />
