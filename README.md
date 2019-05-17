@@ -1,3 +1,18 @@
+# Liferay.Design
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2922843-0ae6-4361-bdb2-6e26329da68a/deploy-status)](https://app.netlify.com/sites/happy-jackson-1b6bb8/deploys)
+
+## About
+
+The online presence of Liferay's Design Teams!
+
+Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [Netlify](https://Netlify.com).
+
+<br />
+<br />
+
+## Table of Contents
+
 -   [Liferay.Design](#liferaydesign)
     -   [About](#about)
     -   [👾 Getting started](#-getting-started)
@@ -27,19 +42,6 @@
         -   [Step 4: The Clone Wars _(2 min)_](#step-4-the-clone-wars-2-min)
         -   [Notes](#notes)
 
-# Liferay.Design
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b2922843-0ae6-4361-bdb2-6e26329da68a/deploy-status)](https://app.netlify.com/sites/happy-jackson-1b6bb8/deploys)
-
-## About
-
-The online presence of Liferay's Design Teams!
-
-Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [Netlify](https://Netlify.com).
-
-<br />
-<br />
-
 ## 👾 Getting started
 
 ### If you don't have a dev environment
@@ -66,9 +68,12 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
     npm run dev
     ```
 
-1. Open up your [favorite browser](https://opera.com), type `localhost:7777` into the nav bar, and watch your work magically appear!
+1. Your [favorite browser](https://opera.com) should open automatically showing the site at `http://0.0.0.0:localhost:7777`!
 
-1. See the [Contributing Guidelines](/blob/master/CONTRIBUTING.md) for what to do after you make some improvements!
+    - It will also be accessible on your network at `your.local.ip:7777` — usually this will be something like `192.168.1.160:7777` — the command line prompt will specify your address.
+    - _This makes mobile development easier, since you can check the site out on any device that's on your network._
+
+1. See the [Contributing Guidelines](/CONTRIBUTING.md) for what to do after you make some improvements!
 
 <br />
 <br />
@@ -82,6 +87,8 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 Work and submit pull requests from the `master` branch.
 
 #### Dev
+
+_Note: The `Dev` branch is no longer being actively used — the use-case for it is no longer necessary thanks to [Netlify's Deploy Previews](https://app.netlify.com/sites/happy-jackson-1b6bb8/deploys?filter=deploy+previews)._
 
 Currently live on [dev.liferay.design](https://dev.liferay.design). This is our pre-production environment, best not to send pull requests to it unless there's a special scenario.
 
