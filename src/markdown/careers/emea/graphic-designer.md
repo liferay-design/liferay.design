@@ -2,9 +2,9 @@
 cityRegion: 'Eschborn (Taunus), Germany'
 applyLink: 'https://jobs.jobvite.com/liferay/job/oPun8fwy/apply'
 date: '2019-02-28'
-title: 'Graphic Designer'
+title: 'Communication Designer'
 description: 'Frankfurt 🇩🇪'
-featuredImage: '/images/posts/graphic-designer.jpg'
+featuredImage: '/images/events/ldsf-2017-markus.jpg'
 avatar: '/images/headshots/-heart-eyes-cat.png'
 published: true
 ---
