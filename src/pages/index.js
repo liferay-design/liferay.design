@@ -11,9 +11,9 @@ export default ({ data }) => {
 			<BillboardAlt
 				image="/images/footer_tweet.jpg"
 				heading="Join Us!"
-				subtitle="We're hiring a Graphic Designer in Frankfurt, Germany! Check out the listing to learn more."
+				subtitle="We're hiring Designers in Frankfurt and Recife! Check out our careers page to learn more."
 				cta="See if we're a fit"
-				ctaUrl="careers/emea/graphic-designer/"
+				ctaUrl="careers"
 				background="white"
 			/>
 			<div
