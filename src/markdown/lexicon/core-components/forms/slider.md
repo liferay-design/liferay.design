@@ -5,6 +5,7 @@ description: 'The slider control allows user to select and entry data from among
 layout: 'guide'
 order: 262
 draft: false
+devStatus: 'PENDING'
 ---
 
 ![slider](/images/lexicon/Slider.jpg)
