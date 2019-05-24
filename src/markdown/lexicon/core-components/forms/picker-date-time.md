@@ -1,10 +1,10 @@
 ---
 title: 'Date & Time Pickers'
-titleLabel: 'Pending'
 description: 'Date and Time pickers let users select a date and time for a form.'
 layout: 'guide'
 order: 258
 draft: false
+devStatus: 'PENDING'
 ---
 
 **Note:** These components are meant to cover desktop browser needs. The OS native component must be used on mobile devices.
