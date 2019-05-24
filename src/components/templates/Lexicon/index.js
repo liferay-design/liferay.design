@@ -106,13 +106,13 @@ export default class Lexicon extends Component {
 											</span>
 										) : null}
 
-										{mdx.frontmatter.pending ? (
+										{mdx.frontmatter.devStatus ? (
 											<span>
 												<a
 													className={styles.labelDraft}
 													target="_blank"
 												>
-													PENDING
+													{mdx.frontmatter.devStatus}
 												</a>
 											</span>
 										) : null}
@@ -177,7 +177,7 @@ export const pageQuery = graphql`
 						title
 						description
 						titleLabelLink
-						pending
+						devStatus
 						productName
 					}
 					fields {
@@ -192,7 +192,7 @@ export const pageQuery = graphql`
 				title
 				description
 				titleLabelLink
-				pending
+				devStatus
 				productName
 			}
 			code {

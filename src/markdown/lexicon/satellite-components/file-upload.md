@@ -5,7 +5,7 @@ layout: 'guide'
 order: 401
 draft: false
 productName: 'PORTAL'
-pending: yes
+devStatus: 'PENDING'
 ---
 
 ### Simple File Upload

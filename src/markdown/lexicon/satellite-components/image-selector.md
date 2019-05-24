@@ -4,7 +4,7 @@ description: 'The image selector lets the user select images from a grid, priori
 layout: 'guide'
 order: 402
 draft: false
-pending: yes
+devStatus: 'PENDING'
 productName: 'PORTAL'
 ---
 
