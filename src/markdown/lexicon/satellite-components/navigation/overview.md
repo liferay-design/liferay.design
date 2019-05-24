@@ -4,6 +4,7 @@ description: 'This section provides basic use guidelines for the main navigation
 layout: 'guide'
 order: 411
 draft: false
+productName: 'PORTAL'
 ---
 
 This section describes the main navigational patterns, although more patterns are available.

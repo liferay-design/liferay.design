@@ -6,6 +6,7 @@ description: 'An information container that displays additional data for the con
 layout: 'guide'
 order: 422
 draft: false
+productName: 'PORTAL'
 ---
 
 This sidebar always enters the screen from the right side of the viewport. It pushes the container in large viewports and slides over the container in small viewports. It usually shows detailed information for an element, without requiring the user to navigate deeper. See responsive behavior for more details.

@@ -1,10 +1,10 @@
 ---
 title: 'Sidebar'
-titleLabel: 'Portal'
 description: 'A vertical panel that appears from the right or the left side of the screen, triggered by a button.'
 layout: 'guide'
 order: 324
 draft: false
+productName: 'PORTAL'
 ---
 
 Lexicon defines two types of sidebars:
