@@ -86,11 +86,33 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
 												<a
-													className={styles.labelLink}
+													className={styles.labelWarning}
 													href={mdx.frontmatter.titleLabelLink}
 													target="_blank"
 												>
 													VIEW IN CLAY
+												</a>
+											</span>
+										) : null}
+
+										{mdx.frontmatter.productName ? (
+											<span>
+												<a
+													className={styles.labelInfo}
+													target="_blank"
+												>
+													{mdx.frontmatter.productName}
+												</a>
+											</span>
+										) : null}
+
+										{mdx.frontmatter.pending ? (
+											<span>
+												<a
+													className={styles.labelDraft}
+													target="_blank"
+												>
+													PENDING
 												</a>
 											</span>
 										) : null}
@@ -155,6 +177,8 @@ export const pageQuery = graphql`
 						title
 						description
 						titleLabelLink
+						pending
+						productName
 					}
 					fields {
 						slug
@@ -168,6 +192,8 @@ export const pageQuery = graphql`
 				title
 				description
 				titleLabelLink
+				pending
+				productName
 			}
 			code {
 				body

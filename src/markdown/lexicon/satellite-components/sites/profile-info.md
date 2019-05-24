@@ -4,6 +4,7 @@ description: 'An element used to identify the author or owner and other related 
 layout: 'guide'
 order: 435
 draft: false
+productName: 'PORTAL'
 ---
 
 ![Profile info types](/images/lexicon/sites/ProfileInfoTypes.jpg)

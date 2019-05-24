@@ -6,6 +6,7 @@ description: 'Control bar is a toolbar that provides identification and lets the
 layout: 'guide'
 order: 412
 draft: false
+productName: 'PORTAL'
 ---
 
 ### Usage

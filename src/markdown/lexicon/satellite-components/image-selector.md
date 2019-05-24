@@ -1,10 +1,11 @@
 ---
 title: 'Image Selector'
-titleLabel: 'Portal'
 description: 'The image selector lets the user select images from a grid, prioritizing over other metadata.'
 layout: 'guide'
 order: 402
 draft: false
+pending: yes
+productName: 'PORTAL'
 ---
 
 ### Usage

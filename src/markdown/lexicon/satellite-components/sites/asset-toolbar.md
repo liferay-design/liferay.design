@@ -4,6 +4,7 @@ description: 'A multi-purpose toolbar that can be located in different types of 
 layout: 'guide'
 order: 433
 draft: false
+productName: 'PORTAL'
 ---
 
 ### Layout

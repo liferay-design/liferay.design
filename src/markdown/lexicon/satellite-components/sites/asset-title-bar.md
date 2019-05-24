@@ -4,6 +4,7 @@ description: "A bar used to display an asset's title and its associated actions 
 layout: 'guide'
 order: 432
 draft: false
+productName: 'PORTAL'
 ---
 
 ![Asset Title Bar](/images/lexicon/sites/AssetTitleBar.jpg)
