@@ -248,129 +248,10 @@
 		}
 	}
 	
-	
-	// }
-	
-	// .videoContainer {
-	// 	position: relative;
-	// 	width: 100%;
-	// 	height: 0;
-	// 	padding-bottom: 56.25%;
-	// 	margin-bottom: 40px;
-	// }
-	
-	// .video {
-	// 	position: absolute;
-	// 	top: 0;
-	// 	left: 0;
-	// 	width: 100%;
-	// 	height: 100%;
-	// }
-	
-	// .label-link {
-	// 	color: $warning;
-	// }
-	
-	// .linkDecor {
-	// 	text-decoration: none;
-	// }
-	
-	// .labelbg {
-	// 	background: $white;
-	// }
-	
-	// .code-text {
-	// 	font-family: monospace;
-	// 	font-size: 16px;
-	// }
-	
-	// .type-scale {
-	// 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	
-	// 	&.type-scale-10 {
-	// 		font-size: 10px;
-	// 	}
-	
-	// 	&.type-scale-12 {
-	// 		font-size: 12px;
-	// 	}
-	
-	// 	&.type-scale-14 {
-	// 		font-size: 14px;
-	// 	}
-	
-	// 	&.type-scale-16 {
-	// 		font-size: 16px;
-	// 	}
-	
-	// 	&.type-scale-18 {
-	// 		font-size: 18px;
-	// 	}
-	
-	// 	&.type-scale-20 {
-	// 		font-size: 20px;
-	// 	}
-	
-	// 	&.type-scale-24 {
-	// 		font-size: 24px;
-	// 	}
-	
-	// 	&.type-scale-28 {
-	// 		font-size: 28px;
-	// 	}
-	
-	// 	&.type-scale-32 {
-	// 		font-size: 32px;
-	// 	}
-	
-	// 	&.type-scale-36 {
-	// 		font-size: 36px;
-	// 	}
-	
-	// 	&.type-scale-40 {
-	// 		font-size: 40px;
-	// 	}
-	
-	// 	&.type-regular {
-	// 		font-weight: $weight-regular;
-	// 	}
-	
-	// 	&.type-semibold {
-	// 		font-weight: $weight-semibold;
-	// 	}
-	
-	// 	&.type-bold {
-	// 		font-weight: $weight-bold;
-	// 	}
-	// }
-
-	
 	h1.with-subtitle {
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
-	
-	// .btn-primary {
-	// 	color: $white;
-	// }
-	
-	// .getstarted-card {
-	// 	display: flex;
-	// 	padding: $base-size;
-	// }
-	
-	// .getstarted-info {
-	// 	display: inline-block;
-	// 	padding-left: $base-size;
-	// 	margin-top: auto;
-	// 	margin-bottom: auto;
-	// 	vertical-align: middle;
-	// }
-	
-	// .getstarted-img {
-	// 	width: 120px;
-	// 	height:auto;
-	// }
 	
 	// .download-card {
 	// 	width: 200px;
@@ -396,36 +277,6 @@
 	@media (max-width: $grid-float-breakpoint - 1) {
 		margin-top: 80px;
 	}
-	
-	// header {
-	// 	.label {
-	// 		font-size: 10px;
-	// 		margin: 2rem 0 0 0.5rem;
-	// 		padding-left: 4px;
-	// 		padding-right: 4px;
-	// 		@media (max-width: $grid-float-breakpoint - 1) {
-	// 			margin-top: 0.45rem;
-	// 		}
-	// 	}
-	// }
-	
-	// h2 + p > .label {
-	// 	position: relative;
-	// 	top: -2.5rem;
-	// }
-	
-	// .clay-link {
-	// 	font-size: 14px;
-	// 	margin-top: 64px;
-	
-	// 	@media (max-width: $grid-float-breakpoint - 1) {
-	// 		margin-top: 32px;
-	// 	}
-	
-	// 	a {
-	// 		font-weight: 600;
-	// 	}
-	// }
 	
 	// .carousel {
 	// 	min-height: 570px;
