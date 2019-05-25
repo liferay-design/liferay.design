@@ -6,10 +6,7 @@ order: 702
 draft: false
 ---
 
-## status page is commented out for now
-
-<!--
-<p class="last-update">Last Update January 2nd, 2019</p>
+<p class="last-update">Last Update: May 25th, 2019</p>
 
 
 | Legend |
@@ -35,7 +32,7 @@ draft: false
 | Page | Lexicon | Clay CSS | Clay Component |
 | ---- | ----- | ----- |----- |
 | <p class="tableSection">ACTIONS DEFINITION</p> |
-| Actions definition | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Actions definition | <p class="dotDone">&#9679;</p> | NA | NA |
 | <p class="tableSection">ALERT</p> |
 | Alert Toast | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Alert Embedded | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
@@ -48,10 +45,11 @@ draft: false
 | Button dropdown | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Button group | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">CARD</p> |
-| Card image | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
-| Card user | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
-| Card file | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
-| Card folder | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Card Variation > Card image | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Card Variation > Card user | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Card Variation > Card file | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Card Variation > Card folder | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Navigation Card | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | <p class="tableSection">CHART</p> |
 | Bar chart | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Donut chart | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
@@ -85,7 +83,7 @@ draft: false
 | Text Input | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Text Input Group | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Text Input Localizable | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
-| Text Input Variation > Autocomplete text field | <p class="dotDone">&#9679;</p> | <p class="dotProgress">&#9679;</p> | <p class="dotWait">&#9679;</p> |
+| Text Input Variation > Autocomplete text field | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Text Input Variation > Search field | <p class="dotDone">&#9679;</p> | <p class="dotProgress">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | Text Input Variation > Numeric field | <p class="dotDone">&#9679;</p> | <p class="dotProgress">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | Text Input Variation > Password field | <p class="dotDone">&#9679;</p> | <p class="dotProgress">&#9679;</p> | <p class="dotWait">&#9679;</p> |
@@ -120,9 +118,12 @@ draft: false
 | Inline Edit Table | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | <p class="tableSection">TABS</p> |
 | Tabs | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
+| <p class="tableSection">TIMELINE</p> |
+| Timeline | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
 | <p class="tableSection">TOOLBAR</p> |
 | Toolbar | <p class="dotDone">&#9679;</p> | NA | NA |
 | Management toolbar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Upper toolbar | <p class="dotDone">&#9679;</p> | NA | NA |
 
 
 ## Satellite Components
@@ -137,4 +138,4 @@ draft: false
 | Miller columns | <p class="dotDone">&#9679;</p> | NA | NA  |
 | <p class="tableSection">SIDEBAR</p> |
 | Info panel | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
-| Product menu | <p class="dotDone">&#9679;</p> | NA | NA | -->
+| Product menu | <p class="dotDone">&#9679;</p> | NA | NA | 
