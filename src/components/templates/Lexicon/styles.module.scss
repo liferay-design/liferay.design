@@ -152,7 +152,7 @@
 	table {
 		border-collapse: collapse;
 		font-size: 0.875rem;
-		margin: 32px 0 24px;
+		margin: 1.5rem 0 4rem;
 		text-align: left;
 	
 		& > tbody > tr > td,
@@ -383,14 +383,17 @@
 
 :global(.dotDone) {
 	color: $success-l1;
+	margin-right: 0.5rem;
 }
 
 :global(.dotProgress) {
 	color: $warning-l1;
+	margin-right: 0.5rem;
 }
 
 :global(.dotWait) {
 	color: $main-l4;
+	margin-right: 0.5rem;
 }
 
 :global(.tableSection) {
@@ -398,4 +401,9 @@
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+:global(.last-update){
+	color: $success;
+	font-weight: 600;
 }
