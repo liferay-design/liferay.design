@@ -1,13 +1,13 @@
 ---
 title: 'Status'
-description: 'Lexicon upcoming site status'
+description: 'Check the status of our design system and its implementation'
 layout: 'guide'
 order: 702
 draft: false
 ---
 
 <p class="last-update">Last Update: May 25th, 2019</p>
-
+<br/>
 
 | Legend |
 | ---- |
