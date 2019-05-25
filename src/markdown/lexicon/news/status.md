@@ -6,10 +6,7 @@ order: 702
 draft: false
 ---
 
-## status page is commented out for now
-
-<!--
-<p class="last-update">Last Update January 2nd, 2019</p>
+<p class="last-update">Last Update May 25th, 2019</p>
 
 
 | Legend |
@@ -137,4 +134,4 @@ draft: false
 | Miller columns | <p class="dotDone">&#9679;</p> | NA | NA  |
 | <p class="tableSection">SIDEBAR</p> |
 | Info panel | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
-| Product menu | <p class="dotDone">&#9679;</p> | NA | NA | -->
+| Product menu | <p class="dotDone">&#9679;</p> | NA | NA | 
