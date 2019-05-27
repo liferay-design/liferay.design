@@ -6,7 +6,7 @@ order: 702
 draft: false
 ---
 
-<p class="last-update">Last Update: May 25th, 2019</p>
+<p class="last-update">Last Update: May 27th, 2019</p>
 <br/>
 
 | Legend |
@@ -63,11 +63,11 @@ draft: false
 | <p class="tableSection">DATASET DISPLAY</p> |
 | Dataset display | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | <p class="tableSection">DRAG AND DROP</p> |
-| Drag and drop | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
+| Drag and drop | <p class="dotDone">&#9679;</p> | NA | NA |
 | <p class="tableSection">DROPDOWN MENU</p> |
 | Dropdown menu | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">EMPTY STATES</p> |
-| Empty States | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Empty States | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
 | <p class="tableSection">FORM</p> |
 | Checkbox, Radio, Toggle | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Color Picker > Not restricted | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
@@ -94,7 +94,7 @@ draft: false
 | <p class="tableSection">LINK</p> |
 | Link | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">LIST</p> |
-| List | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
+| List Variations | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | <p class="tableSection">LOADING INDICATOR</p> |
 | Loading indicator | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">MODALS</p> |
@@ -136,6 +136,15 @@ draft: false
 | Image selector | <p class="dotDone">&#9679;</p> | NA | NA  |
 | <p class="tableSection">MILLER COLUMNS</p> |
 | Miller columns | <p class="dotDone">&#9679;</p> | NA | NA  |
+| <p class="tableSection">NAVIGATION</p> |
+| Navigation | <p class="dotDone">&#9679;</p> | NA | NA  |
+| Control bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">SIDEBAR</p> |
-| Info panel | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
+| Info panel | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Product menu | <p class="dotDone">&#9679;</p> | NA | NA | 
+| <p class="tableSection">SITES</p> |
+| Asset title bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
+| Asset toolbar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
+| Buttons | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
+| Profile info | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
+| Widget title bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |

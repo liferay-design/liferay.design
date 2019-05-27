@@ -6,6 +6,15 @@ order: 701
 draft: false
 ---
 
+<time>May 27th, 2019</time>
+
+<p>General update</p>
+
+-   Page distribution update on Core components to make the documentation a bit more flexible
+-   Status page updated
+-   Templates adde for: Seeting Template and Site Builder Template
+-   Examples added for: Document Preview and Site builder
+
 <time>March 11th, 2019</time>
 
 <p>Cards for navigation and Alerts with action</p>
