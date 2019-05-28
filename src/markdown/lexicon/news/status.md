@@ -107,7 +107,7 @@ draft: false
 | Pagination | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Pagination bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">POPOVER & TOOLTIPS</p> |
-| Popover | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Popover | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | Tooltips | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">PROGRESS BAR</p> |
 | Progress bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
