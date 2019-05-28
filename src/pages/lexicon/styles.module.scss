@@ -41,6 +41,11 @@
 			background: $primary;
 		}
 	}
+
+	.claySection {
+		background-color: $main-l2;
+	}
+
 	.clayCard {
 		padding: $spacingLarge 0 0;
 		grid-template-columns: repeat(8, 1fr);
