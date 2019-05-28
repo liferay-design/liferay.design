@@ -17,6 +17,7 @@ footer.light {
 
 // Dark footer i.e. dark background
 footer.dark {
+	background-color: $main-l1;
 	color: $white;
 	svg {
 		fill: $white;
