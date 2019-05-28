@@ -141,20 +141,22 @@ const Lexicon = () => (
 				background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
 			/>
 		</div>
-		<Container>
-			<Grid className={styles.clayCard}>
-				<Grid.Item columnStart="3" columnEnd="7">
-					<CardLexicon
-						dark
-						icon="clay"
-						title="Clay"
-						text="A web implementation of the Lexicon Design System."
-						to="https://clayui.com"
-						cta="Visit Clay"
-					/>
-				</Grid.Item>
-			</Grid>
-		</Container>
+		<div className={styles.claySection}>
+			<Container>
+				<Grid className={styles.clayCard}>
+					<Grid.Item columnStart="3" columnEnd="7">
+						<CardLexicon
+							dark
+							icon="clay"
+							title="Clay"
+							text="A web implementation of the Lexicon Design System."
+							to="https://clayui.com"
+							cta="Visit Clay"
+						/>
+					</Grid.Item>
+				</Grid>
+			</Container>
+		</div>
 		<Footer />
 	</div>
 )
