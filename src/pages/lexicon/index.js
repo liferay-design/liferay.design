@@ -138,7 +138,7 @@ const Lexicon = () => (
 						!
 					</Text>
 				)}
-				background="linear-gradient(20deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/patternbg.svg) center/cover fixed, #FFFFFF"
+				background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
 			/>
 		</div>
 		<Container>
