@@ -407,3 +407,25 @@
 	color: $success;
 	font-weight: 600;
 }
+
+:global(.labelDraft) {
+	border-color: $main-l4;
+	color: $main-l3;
+	font-size: 10px;
+	font-weight: 600;
+	margin: 0 0.5rem 0 0;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: $white;
+	border-radius: 0.125rem;
+	border-style: solid;
+	border-width: 0.0625rem;
+	display: inline-flex;
+
+	position: relative;
+	top: -2.5rem;
+
+	@media (max-width: $grid-float-breakpoint - 1) {
+		margin-top: 1.5rem;
+	}
+}
