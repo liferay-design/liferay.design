@@ -156,8 +156,8 @@ const Lexicon = () => (
 					</Grid.Item>
 				</Grid>
 			</Container>
-		<Footer />
 		</section>
+		<Footer background="#30313f" />
 	</div>
 )
 
