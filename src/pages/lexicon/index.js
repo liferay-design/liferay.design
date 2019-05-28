@@ -14,7 +14,7 @@ const Lexicon = () => (
 			cta="Get Started"
 			ctaLink="/lexicon/get-started"
 			section="Lexicon"
-			background="linear-gradient(20deg, rgba(11, 95, 255, 0.1), rgba(11, 95, 255, 1.0)), url(/images/lexicon/home/patternbg.svg) center -6rem / cover fixed, #0B5FFF"
+			background="url(/images/lexicon/home/patternbg.svg) center fixed, #0B5FFF"
 		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
