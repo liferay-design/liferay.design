@@ -40,6 +40,7 @@ export default ({ data }) => {
 							<span className={styles.fancyInput}>
 								<input
 									type="submit"
+									name="submit"
 									value="Subscribe Now"
 									className="special"
 								/>
@@ -47,7 +48,7 @@ export default ({ data }) => {
 						</li>
 					</ul>
 					<input type="hidden" name="bot-field" />
-					<input type="hidden" name="form-name" value="contact" />
+					<input type="hidden" name="form-name" value="newsletter" />
 				</form>
 			</Container>
 			<Container background="#fff" padding="8rem 0 8rem">
