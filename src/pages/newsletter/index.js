@@ -15,12 +15,13 @@ export default ({ data }) => {
 			</Helmet>
 			<Navbar />
 			<Container padding="4rem 0 0">
-				<Heading color="white" level="1">
+				<Heading align="center" color="white" level="1">
 					Get Updates from Liferay's Design Team!
 				</Heading>
 				<FormNewsletter
 					placeholderText="Your Email Address"
-					submitText="Subscribe Now" />
+					submitText="Subscribe Now"
+				/>
 			</Container>
 			<Container background="#fff" padding="8rem 0 8rem">
 				<Heading level={2} color="black" padding="4rem">
