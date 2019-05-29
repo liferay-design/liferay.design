@@ -1,0 +1,68 @@
+@import '~theme/variables';
+
+form {
+	display: flex;
+	padding: $spacingMedium 0 $spacingLarge;
+	.fancyInput {
+		position: relative;
+		input {
+			&:focus {
+				outline: none;
+			}
+		}
+		// &:after {
+		// 	content: '';
+		// 	bottom: $spacingXSmall;
+		// 	left: 0;
+		// 	z-index: 1;
+		// 	display: block;
+		// 	background: red;
+		// 	height: $spacingXSmall;
+		// 	width: 100%;
+		// 	position: relative;
+		// }
+	}
+	.field {
+		position: relative;
+		label {
+			position: absolute;
+			top: -2rem;
+			left: 0;
+			color: $grey;
+		}
+		input[type='text'] {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: none;
+			border: none;
+			border-bottom: solid $spacingXSmall $darkGrey;
+			padding: $spacingBase $spacingMedium;
+			color: $white;
+			&:focus {
+				background: lighten($darkGrey, 4%);
+			}
+		}
+	}
+	ul {
+		margin: 0;
+		input[type='submit'] {
+			border: none;
+			border-bottom: solid $spacingXSmall $primary;
+			font-weight: $fontWeightBlack;
+			padding: $spacingBase $spacingMedium;
+			color: $primary;
+			background: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			&:focus {
+				color: $white;
+				background: lighten($primary, 4%);
+			}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}
