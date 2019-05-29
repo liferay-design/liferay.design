@@ -3,6 +3,7 @@
 form {
 	display: flex;
 	padding: $spacingMedium 0 $spacingLarge;
+	justify-content: center;
 	.fancyInput {
 		position: relative;
 		input {
@@ -10,17 +11,6 @@ form {
 				outline: none;
 			}
 		}
-		// &:after {
-		// 	content: '';
-		// 	bottom: $spacingXSmall;
-		// 	left: 0;
-		// 	z-index: 1;
-		// 	display: block;
-		// 	background: red;
-		// 	height: $spacingXSmall;
-		// 	width: 100%;
-		// 	position: relative;
-		// }
 	}
 	.field {
 		position: relative;
