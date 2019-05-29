@@ -10,6 +10,7 @@ import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import DoDont from './DoDont'
 import FeaturedPost from './FeaturedPost'
+import FormNewsletter from './FormNewsletter'
 import HeroPost from './HeroPost'
 import ImageDownload from './ImageDownload'
 import LogoutContainer from './LogoutContainer'
@@ -31,6 +32,7 @@ export {
 	ColorField,
 	DoDont,
 	FeaturedPost,
+	FormNewsletter,
 	HeroPost,
 	ImageDownload,
 	LogoutContainer,
