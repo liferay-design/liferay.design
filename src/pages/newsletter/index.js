@@ -19,6 +19,7 @@ export default ({ data }) => {
 					Get Updates from Liferay's Design Team!
 				</Heading>
 				<form
+					netlify
 					method="post"
 					action="#"
 					name="newsletter"
