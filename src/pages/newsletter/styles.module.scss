@@ -46,6 +46,9 @@ form {
 	}
 	ul {
 		margin: 0;
+		li {
+			list-style: none;
+		}
 		input[type='submit'] {
 			border: none;
 			border-bottom: solid $spacingXSmall $primary;
