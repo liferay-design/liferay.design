@@ -1,5 +1,5 @@
 import { CardGrid, Icon, Link, Heading, Text, Container } from 'components/atoms'
-import { CardDefault } from 'components/molecules'
+import { CardDefault, FormNewsletter } from 'components/molecules'
 import { Banner, Footer, Navbar } from 'components/organisms'
 import React from 'react'
 import MediaQuery from 'react-responsive'
@@ -18,38 +18,9 @@ export default ({ data }) => {
 				<Heading color="white" level="1">
 					Get Updates from Liferay's Design Team!
 				</Heading>
-				<form
-					method="POST"
-					name="newsletter"
-					data-netlify="true"
-					data-netlify-honeypot="bot-field"
-				>
-					<div className={styles.field}>
-						{/* <label htmlFor="email">Email</label> */}
-						<span className={styles.fancyInput}>
-							<input
-								type="text"
-								name="email"
-								id="email"
-								placeholder="Your Email Address"
-							/>
-						</span>
-					</div>
-					<ul className="actions">
-						<li>
-							<span className={styles.fancyInput}>
-								<input
-									type="submit"
-									name="submit"
-									value="Subscribe Now"
-									className="special"
-								/>
-							</span>
-						</li>
-					</ul>
-					<input type="hidden" name="bot-field" />
-					<input type="hidden" name="form-name" value="newsletter" />
-				</form>
+				<FormNewsletter
+					placeholderText="Your Email Address"
+					submitText="Subscribe Now" />
 			</Container>
 			<Container background="#fff" padding="8rem 0 8rem">
 				<Heading level={2} color="black" padding="4rem">
