@@ -19,11 +19,8 @@ export default ({ data }) => {
 					Get Updates from Liferay's Design Team!
 				</Heading>
 				<form
-					netlify
-					method="post"
-					action="#"
+					method="POST"
 					name="newsletter"
-					method="post"
 					data-netlify="true"
 					data-netlify-honeypot="bot-field"
 				>
