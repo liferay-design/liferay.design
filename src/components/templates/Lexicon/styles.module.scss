@@ -408,9 +408,7 @@
 	font-weight: 600;
 }
 
-:global(.labelDraft) {
-	border-color: $main-l4;
-	color: $main-l3;
+:global(.labelTag) {
 	font-size: 10px;
 	font-weight: 600;
 	margin: 0 0.5rem 0 0;
@@ -421,7 +419,26 @@
 	border-style: solid;
 	border-width: 0.0625rem;
 	display: inline-flex;
+	line-height: 1rem;
+	white-space: nowrap;
+}
 
+:global(.labelDraft) {
+	border-color: $main-l4;
+	color: $main-l3;
+}
+
+:global(.labelInfo) {
+	border-color: $info-l1;
+	color: $info;
+}
+
+:global(.labelWarning) {
+	border-color: $warning-l1;
+	color: $warning;
+}
+
+:global(.labelCorrection) {
 	position: relative;
 	top: -2.5rem;
 
