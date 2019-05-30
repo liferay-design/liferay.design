@@ -34,66 +34,6 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
 |                                                            | Do not use it for cross application navigation.      |
 |                                                            | Never use more than one text line.                   |
 
-<!--
-<table>
-    <thead>
-        <tr>
-            <th>Dos</th>
-            <th>Don'ts</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
-                    <span>Only use it for hierarchical purposes.</span>
-                </div>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Do not use it if there is only one navigation level.</span>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-check do mr-3"><use xlink:href="/vendor/lexicon/icons.svg#check"></use></svg>
-                    <span>Use it when navigating through folders in tables or lists.</span>
-                </div>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Do not use it in the first navigation level.</span>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Do not use it for cross application navigation.</span>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            </td>
-            <td>
-                <div class="d-flex align-items-center">
-                    <svg class="lexicon-icon lexicon-icon-times dont mr-3"><use xlink:href="/vendor/lexicon/icons.svg#times"></use></svg>
-                    <span>Never use more than one text line.</span>
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table> -->
-
 ### Attributes
 
 ![breadcrumb metrics](/images/lexicon/BreadcrumbMetrics.png)

@@ -10,15 +10,11 @@ draft: false
 
 ## Autocomplete text field
 
-<!-- <span class="label label-secondary">PENDING</span> -->
-
 An autocomplete text field is an input that offers the user text suggestions while they type.
 
 ![autocomple text field with list open](/images/lexicon/AutocompleteTextField.png)
 
 ## Search field
-
-<!-- <span class="label label-secondary">PENDING</span> -->
 
 A search field is pretty similar to an autocomplete text field, but the field states are defined to reflect search results.
 
@@ -48,15 +44,11 @@ A search field can have auto completion to display a list of options below the f
 
 ## Numeric field
 
-<!-- <span class="label label-secondary">PENDING</span> -->
-
 Use numeric fields when you require the user to enter an integer or float value. Numeric fields provide the added bonus of letting the user increase and decrease the value via the arrow keys and internal field buttons.
 
 ![numeric input field](/images/lexicon/InputNumeric.jpg)
 
 ## Password field
-
-<!-- <span class="label label-secondary">PENDING</span> -->
 
 A password field input is used when the user needs to enter a password.
 

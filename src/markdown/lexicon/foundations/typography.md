@@ -31,11 +31,6 @@ For sans serif style, using Bootstrap's native font stack as inspiration, we als
 | Basic web fallbacks | Arial, Helvetica Neue, sans-serif                  |
 | Emoji Fonts         | Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol |
 
-<!--
-<p class="code-text">
-system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-</p>
- -->
 
 #### Monospaced
 
@@ -48,9 +43,6 @@ For monospaced style, we also follow the same approach as Bootstrap:
 | Chrome OS & Android | Roboto                  |
 | Basic web fallback  | Courier New, monospaced |
 
-<!-- <p class="code-text">
-SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-</p> -->
 
 Since Mac OS is the most widely used operating system for design tasks in Liferay and in general, we have decided to use the San Francisco font family for the visual examples in both the technical documentation and in the Lexicon Site.
 
