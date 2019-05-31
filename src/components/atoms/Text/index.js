@@ -22,7 +22,7 @@ const Text = ({
 
 	const styles = {
 		color: colors[color],
-		...(margin ? { marginBottom: fontSizes[margin] } : { margin: '0 auto' }),
+		...(margin ? { marginBottom: fontSizes[margin] } : { marginRight: 'auto', marginLeft: 'auto' }),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...(style ? { fontStyle: style } : {}),
 		...textAlign,
