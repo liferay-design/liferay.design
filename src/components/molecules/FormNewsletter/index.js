@@ -16,6 +16,7 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 					name="email"
 					id="email"
 					placeholder={placeholderText}
+					required
 				/>
 				<label className={styles.label} htmlFor="email">Email Address</label>
 				<input
