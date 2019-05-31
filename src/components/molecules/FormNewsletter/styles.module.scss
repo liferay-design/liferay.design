@@ -2,60 +2,69 @@
 
 form {
 	display: flex;
-	padding: $spacingBase;
+	padding: $spacingBase 0;
 	margin: 0;
 	justify-content: center;
-	.fancyInput {
-		position: relative;
-		input {
-			&:focus {
-				outline: none;
-			}
+	input {
+		padding: $spacingBase $spacingMedium;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		border: none;
+		&:focus {
+			outline: none;
 		}
 	}
 	.field {
 		position: relative;
 		label {
 			position: absolute;
-			top: -2rem;
-			left: 0;
-			color: $grey;
+			top: $spacingXSmall;
+			left: $spacingMedium;
+			color: $lightGrey;
+			transform: translateY($spacingBase);
+			transition: all 0.4s cubic-bezier(0.075, 1.2, 0.165, 1);
+			opacity: 0;
 		}
 		input[type='text'] {
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			appearance: none;
-			background: none;
-			border: none;
+			background: darken($darkGrey, 8%);
 			border-bottom: solid $spacingXSmall $darkGrey;
-			padding: $spacingBase $spacingMedium;
 			color: $white;
-			&:focus {
+			&:focus,
+			&:hover {
 				background: lighten($darkGrey, 4%);
+			}
+			&:focus ~ input[type='submit'] {
+				color: $white;
+			}
+			&:focus ~ label.label {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+		input[type='submit'] {
+			border-bottom: solid $spacingXSmall $primary;
+			font-weight: $fontWeightBlack;
+			color: $primary;
+			background: darken($primary, 8%);
+			&:focus,
+			&:hover {
+				color: $white;
+				background: lighten($primary, 4%);
+				cursor: pointer;
 			}
 		}
 	}
-	ul {
-		margin: 0;
-		li {
-			list-style: none;
+}
+
+@media screen and (max-width: $screenSmall) {
+	form {
+		input {
+			padding: $spacingBase $spacingSmall;
 		}
-		input[type='submit'] {
-			border: none;
-			border-bottom: solid $spacingXSmall $primary;
-			font-weight: $fontWeightBlack;
-			padding: $spacingBase $spacingMedium;
-			color: $primary;
-			background: none;
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			appearance: none;
-			&:focus {
+		.field {
+			input[type='submit'] {
 				color: $white;
-				background: lighten($primary, 4%);
-			}
-			&:hover {
-				cursor: pointer;
 			}
 		}
 	}
