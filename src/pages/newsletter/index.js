@@ -18,9 +18,9 @@ export default ({ data }) => {
 			<Navbar />
 			<Container padding="4rem 0 0">
 				<Heading align="center" color="white" level="1">
-					Get Updates from Liferay's Design Team!
+					Receive Monthly Updates
 				</Heading>
-				<Text align="center" size="medium" color="lightGrey">
+				<Text align="center" width='54ch' size="medium" color="lightGrey">
 					No mystery meat here! We share a monthly roundup of cool links, articles, job
 					listings, and more.
 				</Text>
