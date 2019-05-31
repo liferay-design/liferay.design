@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 
 const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => {
 	return (
-		<Flex className={styles.wrapper} background={background}>
+		<div className={styles.wrapper} style={{background:`${background}`}}>
 			<Container>
 				<Flex className={styles.container}>
 					<Flex className={styles.image} backgroundImage={image} />
@@ -31,7 +31,7 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 					</Flex>
 				</Flex>
 			</Container>
-		</Flex>
+		</div>
 	)
 }
 
