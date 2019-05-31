@@ -3,8 +3,9 @@
 form {
 	display: flex;
 	padding: $spacingBase 0;
-	margin: 0;
+	margin: 0 auto;
 	justify-content: center;
+	width: 60%;
 	input {
 		padding: $spacingBase $spacingMedium;
 		-webkit-appearance: none;
@@ -18,6 +19,7 @@ form {
 	.field {
 		position: relative;
 		display: flex;
+		flex-grow: 1;
 		label {
 			position: absolute;
 			top: $spacingXSmall;
@@ -31,6 +33,7 @@ form {
 			background: darken($darkGrey, 8%);
 			border-bottom: solid $spacingXSmall $darkGrey;
 			color: $white;
+			flex-grow: 1;
 			&:focus,
 			&:hover {
 				background: lighten($darkGrey, 4%);
@@ -48,6 +51,7 @@ form {
 			font-weight: $fontWeightBlack;
 			color: $primary;
 			background: darken($primary, 8%);
+			flex-grow: 0.4;
 			&:focus,
 			&:hover {
 				color: $white;
