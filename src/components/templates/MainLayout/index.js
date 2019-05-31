@@ -11,7 +11,7 @@ export default ({ children, section }) => (
 
 		<Container>
 			<Heading align='center' color='white' level={2}>Sign up for our newsletter!</Heading>
-			<Text align='center' color="lightGrey">No mystery meat here! Once a month we share links, articles, job listings, and more.</Text>
+			<Text align='center' color="lightGrey" margin='base'>No mystery meat here! Once a month we share links, articles, job listings, and more.</Text>
 			<FormNewsletter placeholderText='Your Email Address' submitText='Subscribe' />
 		</Container>
 		<Footer />
