@@ -11,17 +11,25 @@ export default ({ data }) => {
 	return (
 		<div>
 			<Helmet>
-				<title>Newsletter | Brand Guidelines for Liferay</title>
+				<title>
+					Newsletter | Get Monthly Email Updates from Liferay's Design Team!
+				</title>
 			</Helmet>
 			<Navbar />
 			<Container padding="4rem 0 0">
 				<Heading align="center" color="white" level="1">
 					Get Updates from Liferay's Design Team!
 				</Heading>
-				<FormNewsletter
+				<Text align="center" size="medium" color="lightGrey">
+					No mystery meat here! We share a monthly roundup of cool links, articles, job
+					listings, and more.
+				</Text>
+				<div className={styles.coolForm}>
+					<FormNewsletter
 					placeholderText="Your Email Address"
-					submitText="Subscribe Now"
+					submitText="Subscribe"
 				/>
+				</div>
 			</Container>
 			<Container background="#fff" padding="8rem 0 8rem">
 				<Heading level={2} color="black" padding="4rem">
