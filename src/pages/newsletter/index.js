@@ -20,7 +20,7 @@ export default ({ data }) => {
 				<Heading align="center" color="white" level="1">
 					Receive Monthly Updates
 				</Heading>
-				<Text align="center" width='54ch' size="medium" color="lightGrey">
+				<Text align="center" maxWidth='54ch' size="medium" color="lightGrey">
 					No mystery meat here! We share a monthly roundup of cool links, articles, job
 					listings, and more.
 				</Text>
