@@ -1,7 +1,5 @@
-import { Heading, Icon } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 
 const FormNewsletter = ({ placeholderText, submitText }) => {
