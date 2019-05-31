@@ -67,6 +67,7 @@
 	}
 	@media screen and (max-width: $screenSmall) {
 		.container {
+			display: flex;
 			flex-direction: column !important;
 			.image {
 				width: 100%;
