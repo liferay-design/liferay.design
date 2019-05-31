@@ -21,7 +21,7 @@ const Text = ({
 
 	const styles = {
 		color: colors[color],
-		...(margin ? { marginBottom: fontSizes[margin] } : {}),
+		...(margin ? { marginBottom: fontSizes[margin] } : { margin: '0 auto' }),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...(style ? { fontStyle: style } : {}),
 		...textAlign,
