@@ -13,6 +13,7 @@ const Text = ({
 	type,
 	weight,
 	width,
+	maxWidth,
 	...props
 }) => {
 	const Type = type
@@ -26,6 +27,7 @@ const Text = ({
 		...(style ? { fontStyle: style } : {}),
 		...textAlign,
 		...(width ? { width } : {}),
+		...(maxWidth ? { maxWidth } : {}),
 		...(weight ? { fontWeight: fontWeights[weight] } : {}),
 	}
 
@@ -47,6 +49,7 @@ Text.propTypes = {
 	type: PropTypes.string,
 	weight: PropTypes.string,
 	width: PropTypes.string,
+	maxWidth: PropTypes.string,
 }
 
 Text.defaultProps = {
