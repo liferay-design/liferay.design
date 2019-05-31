@@ -13,28 +13,20 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 			data-netlify-honeypot="bot-field"
 		>
 			<div className={styles.field}>
-				{/* <label htmlFor="email">Email</label> */}
-				<span className={styles.fancyInput}>
-					<input
-						type="text"
-						name="email"
-						id="email"
-						placeholder={placeholderText}
-					/>
-				</span>
+				<input
+					type="text"
+					name="email"
+					id="email"
+					placeholder={placeholderText}
+				/>
+				<label className={styles.label} htmlFor="email">Email Address</label>
+				<input
+					type="submit"
+					name="submit"
+					value={submitText}
+					className="special"
+				/>
 			</div>
-			<ul className="actions">
-				<li>
-					<span className={styles.fancyInput}>
-						<input
-							type="submit"
-							name="submit"
-							value={submitText}
-							className="special"
-						/>
-					</span>
-				</li>
-			</ul>
 			<input type="hidden" name="bot-field" />
 			<input type="hidden" name="form-name" value="newsletter" />
 		</form>
