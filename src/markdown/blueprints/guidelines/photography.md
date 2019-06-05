@@ -54,25 +54,43 @@ Line art, graphics, or images with transparent backgrounds
 
 ## Examples
 
-_These examples presuppose that they are in line with guideline #4_
+_These examples presuppose that they are in line with guidelines given above._
+
+![Woman working on laptop](/images/blueprints/photography/do-1.jpg)
+_**Why it’s good**: authentic, human, clear – shows a real human in a believable scenario._
 
 ![Woman holding phone awkwardly](/images/blueprints/photography/dont-1.jpg)
 _**Why it’s no good**: overly staged, lack of emotion, not authentic – that's not how people use phones._
 
+![Dirt desk and phone](/images/blueprints/photography/do-2.jpg)
+_**Why it’s good**: human, genuine, realistic scene._
+
 ![Dirt desk and phone](/images/blueprints/photography/dont-2.jpg)
 _**Why it’s no good**: overly staged yet cluttered, not authentic._
+
+![Woman at retail counter](/images/blueprints/photography/do-3.jpg)
+_**Why it’s good**: Authentic setting, emotions._
 
 ![Woman holding phone](/images/blueprints/photography/dont-3.jpg)
 _**Why it’s no good**: lacking in harmony and clarity, overly styled/staged, perpetuates a stereotypical persona._
 
+![Olaf at Unconference](/images/blueprints/photography/do-4.jpg)
+_**Why it’s good**: Interesting composition._
+
 ![man holding tablet awkwardly](/images/blueprints/photography/dont-4.jpg)
 _**Why it’s no good**: overly styled/staged, perpetuates a stereotypical persona._
 
-![man drawing lame diagram](/images/blueprints/photography/dont-5.jpg)
-_**Why it’s no good**: Why it’s bad: Does not reflect reality, is overly Photoshopped._
+![Veronica at pre-retreat 2017](/images/blueprints/photography/do-5.jpg)
+_**Why it’s good**: Good composition, strong emotions, genuine feeling._
 
-![Jon at his desk](/images/blueprints/photography/dont-6.jpg)
-_**Why it’s ok**: Good composition, but lacks emotion._
+![man drawing lame diagram](/images/blueprints/photography/dont-5.jpg)
+_**Why it’s no good**:Does not reflect reality, is overly Photoshopped._
+
+![Josh at Partner Conference](/images/blueprints/photography/do-6.jpg)
+_**Why it’s ok**: Good composition, good emotion — slightly blurry, and could use some editing on the sign._
 
 ![Jen and Justin posing awkardly](/images/blueprints/photography/dont-7.jpg)
 _**Why it’s no good**: overly staged, feels awkward, neutral emotions._
+
+![Jon at his desk](/images/blueprints/photography/dont-6.jpg)
+_**Why it’s ok**: Good composition, but lacks emotion._
