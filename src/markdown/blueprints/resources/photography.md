@@ -4,6 +4,8 @@ description: 'Resources for Liferay Photos'
 order: 4
 ---
 
+Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photography)!
+
 ## Editing
 
 -   Resize images: [birme.net](http://birme.net/) — quality 80-95%

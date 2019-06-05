@@ -39,7 +39,7 @@ _Always Be Optimizing._ See the [Photography Resources](/blueprints/resources/ph
 Generally anything photographic — i.e. that has a wide variety of colors and shades
 
 ![Phil posing in the parking log](/images/blueprints/photography/jpg-1.jpg)
-_Generally, most photos are best left as jpegs._
+_Generally, most photos are best left as jpegs, or in this case, not taken at all._
 
 ![Dashboard](/images/blueprints/photography/jpg-2.jpg)
 _Initially, you'd think this would be better as a PNG or GIF since it's mostly graphical, however there is quite a range of colors, and a gradient so even though it won't render as nicely as a PNG, JPEG is the better choice because it will be significantly smaller._
