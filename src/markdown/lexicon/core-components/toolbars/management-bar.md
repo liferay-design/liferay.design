@@ -32,8 +32,9 @@ It displays tools focused on filtering, sorting, and data visualization.
 2. Filter and Order: dropdown with dropdown menu associated. See [dropdown with groups](../../dropdowns) for more information.
 3. Sort toggle button: The arrow identifies the sorting order, depending on the selected option inside the Filter and Order dropdown. The main attribute, usually the name, states the default sort parameter.
 4. Search bar to filter out the current dataset
-5. Visualization button to select the desired visualization
-6. Plus button to add content and folders into the dataset
+5. Info toggle button: displays/hides the info panel.
+6. Visualization button to select the desired visualization
+7. Plus button to add content and folders into the dataset
 
 #### State 2
 
