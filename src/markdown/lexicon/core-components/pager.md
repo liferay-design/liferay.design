@@ -5,8 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/pagination.html'
 description: 'Pager allows navigation between pages of a process or task divided into subtasks (pages).'
 layout: 'guide'
 order: 320
-hidden: yes
-draft: false
+draft: true
 ---
 
 ![pager default](/images/lexicon/pagerDefault.png)
