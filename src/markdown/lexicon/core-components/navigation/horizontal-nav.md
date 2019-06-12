@@ -40,10 +40,10 @@ When the number of tabs exceeds the navbar's size, the overflowing tabs are coll
 
 The positive navigation bar is defined for Sites. It displays navigation items in a light background with dark text.
 
-![navigation bar with four entries, first one selected](/images/lexicon/NavbarPositive.jpg)
+![navigation bar with four entries, first one selected](/images/lexicon/NavbarDefault.png)
 
 #### Inverted
 
 The negative navigation bar is defined for Admin controls. It displays navigation items in a dark background with light text. It is always placed right below the header.
 
-![navigation bar with four entries, first one selected](/images/lexicon/Navbar.jpg)
+![navigation bar with four entries, first one selected](/images/lexicon/NavbarInverted.png)
