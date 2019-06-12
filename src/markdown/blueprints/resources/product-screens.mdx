@@ -5,29 +5,43 @@ order: 60
 ---
 
 import { Grid } from 'reakit'
-import { ImageDownload } from 'components/molecules'
+import { Accordion, ImageDownload } from 'components/molecules'
+import styles from './styles.module.scss'
+import { Heading } from 'components/atoms'
 
 Screenshots from our suite of products.
 
 ## Digital Experience Platform
-
-<ImageDownload altText="Screenshot of Liferay DXP Collaboration" title="Liferay DXP Collaboration" source="/images/products/dxp/liferay-dxp-collaboration.jpg" downloadName="liferay-dxp-collaboration.jpg" />
-<ImageDownload altText="Screenshot of Liferay DXP Content Management" title="Liferay DXP Content Management" source="/images/products/dxp/liferay-dxp-content-management.jpg" downloadName="liferay-dxp-content-management.jpg" />
-<ImageDownload altText="Screenshot of Liferay DXP Dam Efss" title="Liferay DXP Dam Efss" source="/images/products/dxp/liferay-dxp-dam-efss.jpg" downloadName="liferay-dxp-dam-efss.jpg" />
-<ImageDownload altText="Screenshot of Liferay DXP Developer Tools" title="Liferay DXP Developer Tools" source="/images/products/dxp/liferay-dxp-developer-tools.jpg" downloadName="liferay-dxp-developer-tools.jpg" />
-<ImageDownload altText="Screenshot of Liferay DXP Forms Business Automation" title="Liferay DXP Forms Business Automation" source="/images/products/dxp/liferay-dxp-forms-business-automation.png" downloadName="liferay-dxp-forms-business-automation.png" />
-<ImageDownload altText="Screenshot of Liferay DXP Horizontal Portal" title="Liferay DXP Horizontal Portal" source="/images/products/dxp/liferay-dxp-horizontal-portal.jpg" downloadName="liferay-dxp-horizontal-portal.jpg" />
-<ImageDownload altText="Screenshot of Liferay DXP Mobile Experience" title="Liferay DXP Mobile Experience" source="/images/products/dxp/liferay-dxp-mobile-experience.png" downloadName="liferay-dxp-mobile-experience.png" />
+<Accordion
+	title={<Heading level={3}>7.1 — July 2018</Heading>}
+	className={styles.blueprintsAccordion}
+>
+    <ImageDownload altText="Screenshot of Liferay DXP Collaboration" title="Liferay DXP Collaboration" source="/images/products/dxp/liferay-dxp-collaboration.jpg" downloadName="liferay-dxp-collaboration.jpg" />
+    <ImageDownload altText="Screenshot of Liferay DXP Content Management" title="Liferay DXP Content Management" source="/images/products/dxp/liferay-dxp-content-management.jpg" downloadName="liferay-dxp-content-management.jpg" />
+    <ImageDownload altText="Screenshot of Liferay DXP Dam Efss" title="Liferay DXP Dam Efss" source="/images/products/dxp/liferay-dxp-dam-efss.jpg" downloadName="liferay-dxp-dam-efss.jpg" />
+    <ImageDownload altText="Screenshot of Liferay DXP Developer Tools" title="Liferay DXP Developer Tools" source="/images/products/dxp/liferay-dxp-developer-tools.jpg" downloadName="liferay-dxp-developer-tools.jpg" />
+    <ImageDownload altText="Screenshot of Liferay DXP Forms Business Automation" title="Liferay DXP Forms Business Automation" source="/images/products/dxp/liferay-dxp-forms-business-automation.png" downloadName="liferay-dxp-forms-business-automation.png" />
+    <ImageDownload altText="Screenshot of Liferay DXP Horizontal Portal" title="Liferay DXP Horizontal Portal" source="/images/products/dxp/liferay-dxp-horizontal-portal.jpg" downloadName="liferay-dxp-horizontal-portal.jpg" />
+    <ImageDownload altText="Screenshot of Liferay DXP Mobile Experience" title="Liferay DXP Mobile Experience" source="/images/products/dxp/liferay-dxp-mobile-experience.png" downloadName="liferay-dxp-mobile-experience.png" />
+</Accordion>
 
 ## DXP Cloud
-
-<ImageDownload altText="Screenshot of Liferay DXP Cloud Advanced Monitoring" title="Liferay DXP Cloud Advanced Monitoring" source="/images/products/dxp-cloud/liferay-dxp-cloud-advanced-monitoring.png" downloadName="liferay-dxp-cloud-advanced-monitoring.png" />
-<ImageDownload altText="Screenshot of Liferay DXP Cloud Overview" title="Liferay DXP Cloud Overview" source="/images/products/dxp-cloud/liferay-dxp-cloud-overview.png" downloadName="liferay-dxp-cloud-overview.png" />
-<ImageDownload altText="Screenshot of Liferay DXP Cloud Services" title="Liferay DXP Cloud Services" source="/images/products/dxp-cloud/liferay-dxp-cloud-services.png" downloadName="liferay-dxp-cloud-services.png" />
-<ImageDownload altText="Screenshot of Liferay DXP Cloud Vpn" title="Liferay DXP Cloud Vpn" source="/images/products/dxp-cloud/liferay-dxp-cloud-vpn.png" downloadName="liferay-dxp-cloud-vpn.png" />
+<Accordion
+	title={<Heading level={3}>Beta — October 2018</Heading>}
+	className={styles.blueprintsAccordion}
+>
+    <ImageDownload altText="Screenshot of Liferay DXP Cloud Advanced Monitoring" title="Liferay DXP Cloud Advanced Monitoring" source="/images/products/dxp-cloud/liferay-dxp-cloud-advanced-monitoring.png" downloadName="liferay-dxp-cloud-advanced-monitoring.png" />
+    <ImageDownload altText="Screenshot of Liferay DXP Cloud Overview" title="Liferay DXP Cloud Overview" source="/images/products/dxp-cloud/liferay-dxp-cloud-overview.png" downloadName="liferay-dxp-cloud-overview.png" />
+    <ImageDownload altText="Screenshot of Liferay DXP Cloud Services" title="Liferay DXP Cloud Services" source="/images/products/dxp-cloud/liferay-dxp-cloud-services.png" downloadName="liferay-dxp-cloud-services.png" />
+    <ImageDownload altText="Screenshot of Liferay DXP Cloud Vpn" title="Liferay DXP Cloud Vpn" source="/images/products/dxp-cloud/liferay-dxp-cloud-vpn.png" downloadName="liferay-dxp-cloud-vpn.png" />
+</Accordion>
 
 
 ## Commerce
+<Accordion
+	title={<Heading level={3}>1.0 — June 2018</Heading>}
+	className={styles.blueprintsAccordion}
+>
 
 <ImageDownload
     altText="Screenshot of Liferay Commerce Catalog Management"
@@ -82,10 +96,14 @@ Screenshots from our suite of products.
     title="Liferay Commerce Minium Product Details"
     source="/images/products/commerce/liferay-commerce-minium-product-details.png"
     downloadName="liferay-commerce-minium-product-details.png" />
-
+</Accordion> 
 
 ## Analytics Cloud
-
-<ImageDownload altText="Screenshot of Liferay Analytics Cloud Segment Interest Score" title="Liferay Analytics Cloud Segment Interest Score" source="/images/products/analytics-cloud/analytics-cloud-interest-score.png" downloadName="liferay-analytics-cloud-segment-interest-score.png" />
-<ImageDownload altText="Screenshot of Liferay Analytics Cloud Segment Profile" title="Liferay Analytics Cloud Segment Profile" source="/images/products/analytics-cloud/analytics-cloud-segment-profile.png" downloadName="liferay-analytics-cloud-segment-profile.png" />
-<ImageDownload altText="Screenshot of Liferay Analytics Cloud Single Customer View" title="Liferay Analytics Cloud Single Customer View" source="/images/products/analytics-cloud/analytics-cloud-single-customer-view.png" downloadName="liferay-analytics-cloud-single-customer-view.png" />
+<Accordion
+	title={<Heading level={3}>GA — October 2018</Heading>}
+	className={styles.blueprintsAccordion}
+>
+    <ImageDownload altText="Screenshot of Liferay Analytics Cloud Segment Interest Score" title="Liferay Analytics Cloud Segment Interest Score" source="/images/products/analytics-cloud/analytics-cloud-interest-score.png" downloadName="liferay-analytics-cloud-segment-interest-score.png" />
+    <ImageDownload altText="Screenshot of Liferay Analytics Cloud Segment Profile" title="Liferay Analytics Cloud Segment Profile" source="/images/products/analytics-cloud/analytics-cloud-segment-profile.png" downloadName="liferay-analytics-cloud-segment-profile.png" />
+    <ImageDownload altText="Screenshot of Liferay Analytics Cloud Single Customer View" title="Liferay Analytics Cloud Single Customer View" source="/images/products/analytics-cloud/analytics-cloud-single-customer-view.png" downloadName="liferay-analytics-cloud-single-customer-view.png" />
+</Accordion>
