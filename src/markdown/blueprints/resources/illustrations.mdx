@@ -5,7 +5,9 @@ order: 55
 ---
 
 import { Grid } from 'reakit'
-import { ImageDownload } from 'components/molecules'
+import styles from './styles.module.scss'
+import { Accordion, ImageDownload } from 'components/molecules'
+import { Heading } from 'components/atoms'
 
 Custom illustrations elevate and support the content &mdash; they are not meant to replace good copywriting nor are they to capture a complete idea down to the very last detail. They are used to create a mood for a specific piece of content. To that end, we need to take care to preserve the impact that they have by not **over-using illustrations for pieces they were not specifically designed for**.
 
@@ -15,12 +17,47 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 
 ### Hero Illustrations
 
-<ImageDownload altText="Homepage Hero Illustration" title="Homepage Hero" source="/images/illustrations/liferay-dot-com/hero-homepage.png" downloadName="Homepage Hero Illustration.png" />
-<ImageDownload altText="Analytics Cloud Hero Illustration" title="Analytics Cloud Hero" source="/images/illustrations/liferay-dot-com/hero-analytics-cloud.png" downloadName="Analytics Cloud Hero Illustration.png" />
-<ImageDownload altText="Commerce Hero Illustration" title="Commerce Hero" source="/images/illustrations/liferay-dot-com/hero-commerce.png" downloadName="Commerce Hero Illustration.png" />
-<ImageDownload altText="DXP Hero Illustration" title="DXP Hero" source="/images/illustrations/liferay-dot-com/hero-dxp.png" downloadName="DXP Hero Illustration.png" />
-<ImageDownload altText="DXP Cloud Hero Illustration" title="DXP Cloud Hero" source="/images/illustrations/liferay-dot-com/hero-dxp-cloud.png" downloadName="DXP Cloud Hero Illustration.png" />
-<ImageDownload altText="Liferay Resources Hero Illustration" title="Liferay Resources Hero" source="/images/illustrations/liferay-dot-com/hero-liferay-resources.png" downloadName="Liferay Resources Hero Illustration.png" />
+<Accordion
+	title={<Heading level="3">Hero Illustrations</Heading>}
+	className={styles.blueprintsAccordion}
+>
+	<ImageDownload
+		altText="Homepage Hero Illustration"
+		title="Homepage Hero"
+		source="/images/illustrations/liferay-dot-com/hero-homepage.png"
+		downloadName="Homepage Hero Illustration.png"
+	/>
+	<ImageDownload
+		altText="Analytics Cloud Hero Illustration"
+		title="Analytics Cloud Hero"
+		source="/images/illustrations/liferay-dot-com/hero-analytics-cloud.png"
+		downloadName="Analytics Cloud Hero Illustration.png"
+	/>
+	<ImageDownload
+		altText="Commerce Hero Illustration"
+		title="Commerce Hero"
+		source="/images/illustrations/liferay-dot-com/hero-commerce.png"
+		downloadName="Commerce Hero Illustration.png"
+	/>
+	<ImageDownload
+		altText="DXP Hero Illustration"
+		title="DXP Hero"
+		source="/images/illustrations/liferay-dot-com/hero-dxp.png"
+		downloadName="DXP Hero Illustration.png"
+	/>
+	<ImageDownload
+		altText="DXP Cloud Hero Illustration"
+		title="DXP Cloud Hero"
+		source="/images/illustrations/liferay-dot-com/hero-dxp-cloud.png"
+		downloadName="DXP Cloud Hero Illustration.png"
+	/>
+	<ImageDownload
+		altText="Liferay Resources Hero Illustration"
+		title="Liferay Resources Hero"
+		source="/images/illustrations/liferay-dot-com/hero-liferay-resources.png"
+		downloadName="Liferay Resources Hero Illustration.png"
+	/>
+</Accordion>
 
 ### Spot Illustrations
 
