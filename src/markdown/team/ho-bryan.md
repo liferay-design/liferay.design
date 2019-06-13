@@ -3,7 +3,7 @@ name: 'Bryan Ho'
 title: 'Associate Communication Design Manager'
 headshotPro: '/images/headshots/ho-bryan.jpg'
 headshotFun: '/images/headshots/ho-bryan-h.jpg'
-active: true
+active: false
 icon: 'fa_pencil_alt'
 ---
 
