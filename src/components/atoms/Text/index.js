@@ -4,6 +4,7 @@ import { colors, fontSizes, fontWeights } from 'theme'
 
 const Text = ({
 	align,
+	center,
 	className,
 	children,
 	color,
@@ -22,7 +23,8 @@ const Text = ({
 
 	const styles = {
 		color: colors[color],
-		...(margin ? { marginBottom: fontSizes[margin] } : { marginRight: 'auto', marginLeft: 'auto' }),
+		...(margin ? { marginBottom: fontSizes[margin] } : {}),
+		...(center ? { marginRight: 'auto', marginLeft: 'auto' } : {}),
 		...(size ? { fontSize: fontSizes[size] } : {}),
 		...(style ? { fontStyle: style } : {}),
 		...textAlign,
