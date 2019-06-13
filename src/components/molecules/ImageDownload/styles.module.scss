@@ -5,17 +5,21 @@
 		display: inline-block;
 		bottom: $spacingBase;
 		right: $spacingBase;
-		height: $spacingBase + 0.2rem;
-		width: $spacingBase + 0.2rem;
+		height: $spacingBase + 0.2rem;;
 		padding: $spacingXSmall;
 		background: $neutral9;
 		transform: translateY(0);
 		transition: transform 0.2s ease-in-out;
 		border-radius: $spacingXSmall;
+		box-shadow: $elevation3;
 		&:hover {
 			box-shadow: $elevation1;
 			transform: translateY(0.2rem);
 			transition: transform 0.2s ease-in-out;
+		}
+		span {
+			vertical-align: top;
+			padding-left: $spacingXSmall * 1.5;
 		}
 	}
 
@@ -25,8 +29,6 @@
 		p {
 			vertical-align: super;
 			font-style: italic;
-			display: inline;
-			padding-right: $spacingSmall;
 		}
 	}
 

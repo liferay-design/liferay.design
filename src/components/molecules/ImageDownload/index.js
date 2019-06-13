@@ -1,4 +1,4 @@
-import { Flex, Icon, Text } from 'components/atoms'
+import { Flex, Icon, Text, Link } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
@@ -28,9 +28,10 @@ export default function ImageDownload({
 				<Text type="p" color="grey" weight="regular" size="base">
 					{title}
 				</Text>
-				<a className={styles.download} href={source} download={downloadName}>
-					<Icon name="keyboardArrowDown" />
-				</a>
+				<Link className={styles.download} href={source} download={downloadName}>
+					<Text weight='heavy' color='neutral5'>Download</Text>
+					<Icon fill='neutral4' name="keyboardArrowDown" />
+				</Link>
 			</div>
 		</Flex>
 	)
