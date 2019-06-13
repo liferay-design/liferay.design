@@ -28,7 +28,7 @@ export default class Team extends Component {
 						{matches => {
 							return (
 								<Flex justify={matches ? "center" : "center"} align={matches ? "center" : "center"} className={styles.banner}>
-									<h1>{post.frontmatter.name}</h1>
+									<h1>{post.frontmatter.name} { post.frontmatter.startYear ? <span className={styles.startYear}>Designing at Liferay since {post.frontmatter.startYear}</span> : null}</h1>
 									<div className={styles.role}>
 										<h2>{post.frontmatter.title}</h2>
 									</div>
@@ -57,6 +57,7 @@ export const pageQuery = graphql`
 				author
 				authorLink
 				name
+				startYear
 				title
 				headshotFun
 			}
