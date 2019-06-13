@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/cicero-emiliano.jpg'
 headshotFun: '/images/headshots/cicero-emiliano-h.jpg'
 active: true
+startYear: '2016'
 icon: 'fa_bezier_curve'
 ---
 

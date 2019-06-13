@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/lyons-james.jpg'
 headshotFun: '/images/headshots/lyons-james-h.jpg'
 active: true
+startYear: '2018'
 icon: 'fa_drum'
 ---
 

@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/jeong-chris.jpg'
 headshotFun: '/images/headshots/jeong-chris-h.jpg'
 active: true
+startYear: '2017'
 icon: 'fa_glasses'
 ---
 

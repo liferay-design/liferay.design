@@ -4,6 +4,7 @@ title: 'Associate Product Designer'
 headshotPro: '/images/headshots/manso-miriam.jpg'
 headshotFun: '/images/headshots/manso-miriam-h.jpg'
 active: true
+startYear: '2018'
 icon: 'fa_pointe_shoe'
 ---
 

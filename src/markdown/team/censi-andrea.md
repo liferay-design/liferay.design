@@ -8,6 +8,7 @@ instagram: '' # your instagram username
 twitter: '' # your twitter username
 unsplash: '' # your unsplash username
 active: true # are you an active member of the team?
+startYear: 2018 
 icon: 'fa_headphones_alt' # add your desired icon here
 ---
 

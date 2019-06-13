@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/-upside-down-face.png'
 headshotFun: '/images/headshots/-upside-down-face.png'
 active: true
+startYear: '2018'
 icon: 'fa_heart'
 ---
 

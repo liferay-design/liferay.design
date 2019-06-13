@@ -4,6 +4,7 @@ title: 'Associate Product Designer'
 headshotPro: '/images/headshots/bargaid-duuriimaa.jpg'
 headshotFun: '/images/headshots/bargaid-duuriimaa-h.jpg'
 active: true
+startYear: '2018'
 icon: 'fa_drum'
 ---
 
