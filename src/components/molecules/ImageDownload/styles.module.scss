@@ -9,7 +9,6 @@
 		width: $spacingBase + 0.2rem;
 		padding: $spacingXSmall;
 		background: $neutral9;
-		opacity: 0.9;
 		transform: translateY(0);
 		transition: transform 0.2s ease-in-out;
 		border-radius: $spacingXSmall;
@@ -27,7 +26,7 @@
 			vertical-align: super;
 			font-style: italic;
 			display: inline;
-			margin-right: $spacingXSmall;
+			padding-right: $spacingSmall;
 		}
 	}
 
