@@ -4,6 +4,7 @@ title: 'Design Director'
 headshotPro: '/images/headshots/hidalgo-juan.jpg'
 headshotFun: '/images/headshots/hidalgo-juan-h.jpg'
 active: true
+startYear: '2012'
 icon: 'fa_heart'
 ---
 

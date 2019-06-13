@@ -4,6 +4,7 @@ title: 'Senior Product Designer'
 headshotPro: '/images/headshots/anton-juan.jpg'
 headshotFun: '/images/headshots/anton-juan-h.jpg'
 active: true
+startYear: '2016'
 icon: 'fa_palette'
 ---
 

@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/wood-jon.jpg'
 headshotFun: '/images/headshots/wood-jon-h.jpg'
 active: true
+startYear: '2019'
 icon: 'fa_keyboard'
 ---
 

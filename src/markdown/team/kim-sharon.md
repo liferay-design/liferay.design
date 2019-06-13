@@ -4,6 +4,7 @@ title: 'Communication Designer'
 headshotPro: '/images/headshots/wong-sharon.jpg'
 headshotFun: '/images/headshots/wong-sharon-h.jpg'
 active: true
+startYear: '2014'
 icon: 'fa_pen_fancy'
 ---
 

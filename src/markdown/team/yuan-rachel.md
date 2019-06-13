@@ -4,6 +4,7 @@ title: 'Senior Communication Designer'
 headshotPro: '/images/headshots/yuan-rachel.jpg'
 headshotFun: '/images/headshots/yuan-rachel-h.jpg'
 active: true
+startYear: '2013'
 icon: 'fa_chess_queen'
 ---
 

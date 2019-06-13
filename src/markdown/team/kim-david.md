@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/kim-david.jpg'
 headshotFun: '/images/headshots/kim-david-h.jpg'
 active: true
+startYear: '2018'
 icon: 'fa_pastafarianism'
 ---
 

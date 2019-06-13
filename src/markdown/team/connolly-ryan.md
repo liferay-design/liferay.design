@@ -4,6 +4,7 @@ title: 'Product Design Manager'
 headshotPro: '/images/headshots/connolly-ryan.jpg'
 headshotFun: '/images/headshots/connolly-ryan-h.jpg'
 active: true
+startYear: '2017'
 icon: 'fa_pen'
 ---
 

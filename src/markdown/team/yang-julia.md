@@ -4,6 +4,7 @@ title: 'Communication Designer'
 headshotPro: '/images/headshots/chan-julia.jpg'
 headshotFun: '/images/headshots/chan-julia-h.jpg'
 active: true
+startYear: '2017'
 icon: 'fa_coffee'
 ---
 

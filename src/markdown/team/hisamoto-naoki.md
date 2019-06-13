@@ -4,6 +4,7 @@ title: 'Communication Designer'
 headshotPro: '/images/headshots/hisamoto-naoki.jpg'
 headshotFun: '/images/headshots/hisamoto-naoki-h.jpg'
 active: true
+startYear: '2017'
 icon: 'fa_check_double'
 ---
 

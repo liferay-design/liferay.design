@@ -4,6 +4,7 @@ title: 'Communication Design Manager'
 headshotPro: '/images/headshots/young-emily.jpg'
 headshotFun: '/images/headshots/young-emily-h.jpg'
 active: true
+startYear: '2008'
 icon: 'fa_stroopwafel'
 ---
 

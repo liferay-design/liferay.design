@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/hancock-abel.jpg'
 headshotFun: '/images/headshots/hancock-abel-h.jpg'
 active: true
+startYear: '2017'
 icon: 'fa_code'
 ---
 

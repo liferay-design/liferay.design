@@ -4,6 +4,7 @@ title: 'Product Design Manager'
 headshotPro: '/images/headshots/hanaoka-paul.jpg'
 headshotFun: '/images/headshots/hanaoka-paul-h.jpg'
 active: true
+startYear: '2014'
 icon: 'fa_terminal'
 ---
 
