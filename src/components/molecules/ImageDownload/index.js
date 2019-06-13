@@ -5,13 +5,17 @@ import styles from './styles.module.scss'
 
 export default function ImageDownload({
 	source,
-	altText,
+	type,
 	title,
 	width,
-	downloadName,
 	imageWidth,
 }) {
+
+	const altText = `${title + ' ' + type}`
+	const downloadName = `${title}`
+
 	return (
+
 		<Flex
 			className={styles.container}
 			direction="column"
@@ -24,7 +28,7 @@ export default function ImageDownload({
 				<Text type="p" color="grey" weight="regular" size="base">
 					{title}
 				</Text>
-				<a className={styles.download} href={source} download={title}>
+				<a className={styles.download} href={source} download={downloadName}>
 					<Icon name="keyboardArrowDown" />
 				</a>
 			</div>
@@ -32,11 +36,14 @@ export default function ImageDownload({
 	)
 }
 
+ImageDownload.defaultProps = {
+	type: 'Image',
+}
+
 ImageDownload.propTypes = {
 	source: PropTypes.string.isRequired,
-	altText: PropTypes.string.isRequired,
-	downloadName: PropTypes.string.isRequired,
 	title: PropTypes.string,
+	type: PropTypes.string,
 	imageWidth: PropTypes.string,
 	width: PropTypes.string,
 }
