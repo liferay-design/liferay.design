@@ -11,7 +11,17 @@
 		z-index: 2;
 		font-weight: $fontWeightHeavy;
 		text-shadow: $elevation1;
+		position: relative;
 		display: inherit;
+		.startYear {
+			position: absolute;
+			width: 100%;
+			left: 0;
+			bottom: -$spacingMedium;
+			font-size: $fontSizeBase;
+			color: $neutral3;
+			text-shadow: none;
+		}
 	}
 	.role {
 		width: 200px;

@@ -4,6 +4,7 @@ title: 'Product Designer'
 headshotPro: '/images/headshots/vazquez-susana.jpg'
 headshotFun: '/images/headshots/vazquez-susana-h.jpg'
 active: true
+startYear: '2017'
 icon: 'fa_archway'
 ---
 
