@@ -1,6 +1,6 @@
 ---
 name: 'Vitor Fernandes' # what is your name
-title: 'Product Design Manager' # what is your title?
+title: 'Product Designer' # what is your title?
 headshotPro: '/images/headshots/fernandes-vitor.jpg' # put your headshot here
 headshotFun: '/images/headshots/fernandes-vitor-h.jpg' # put your headshot here
 dribbble: '' # your dribbble username

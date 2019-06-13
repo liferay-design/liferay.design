@@ -1,5 +1,5 @@
 ---
-name: Susana Vazquez'
+name: 'Susana Vazquez'
 title: 'Product Designer'
 headshotPro: '/images/headshots/vazquez-susana.jpg'
 headshotFun: '/images/headshots/vazquez-susana-h.jpg'
