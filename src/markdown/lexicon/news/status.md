@@ -1,7 +1,6 @@
 ---
 title: 'Status'
 description: 'Check the status of our design system and its implementation'
-layout: 'guide'
 order: 702
 draft: false
 ---

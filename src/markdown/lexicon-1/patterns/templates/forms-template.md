@@ -1,7 +1,6 @@
 ---
 title: "Form template"
 description: "Form template helps you to understand how forms are built and composed using Lexicon. This template will allow you to understand how to create any form."
-layout: "guide"
 order: 82
 ---
 

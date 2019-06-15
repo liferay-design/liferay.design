@@ -1,7 +1,6 @@
 ---
 title: "Cards"
 description: "Cards are a visual representation of data"
-layout: "guide"
 order: 14
 ---
 

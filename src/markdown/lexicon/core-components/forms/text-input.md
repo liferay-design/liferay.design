@@ -3,7 +3,6 @@ title: 'Text Input'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/text-input.html'
 description: 'A description of the different text input types, including usage and validation states.'
-layout: 'guide'
 order: 265
 draft: false
 ---

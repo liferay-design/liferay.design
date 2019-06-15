@@ -3,7 +3,6 @@ title: 'Selectors'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/selector.html'
 description: 'A form control element used to select from several provided options and enter data.'
-layout: 'guide'
 order: 261
 draft: false
 ---

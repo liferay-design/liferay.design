@@ -1,7 +1,6 @@
 ---
 title: 'Cards Layout'
 description: 'The card layout is used to display cards in a dataset.'
-layout: 'guide'
 order: 111
 draft: false
 ---

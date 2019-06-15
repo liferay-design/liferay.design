@@ -3,7 +3,6 @@ title: 'Typography'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/layout/typography.html'
 description: 'A basic reference for the definition of the visual identity and the organization of the content.'
-layout: 'guide'
 order: 120
 draft: false
 ---

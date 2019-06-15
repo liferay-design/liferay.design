@@ -3,7 +3,6 @@ title: 'Pagination'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/pagination.html'
 description: 'Pagination provides horizontal navigation between chunks(pages) of a dataset.'
-layout: 'guide'
 order: 321
 draft: false
 ---

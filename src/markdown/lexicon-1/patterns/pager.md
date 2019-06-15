@@ -1,7 +1,6 @@
 ---
 title: "Pager"
 description: "Pager allows navigation between pages of a process or task divided in subtasks or also called pages."
-layout: "guide"
 order: 62
 ---
 

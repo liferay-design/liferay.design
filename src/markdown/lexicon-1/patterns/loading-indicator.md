@@ -1,7 +1,6 @@
 ---
 title: "Loading indicator"
 description: "Loading indicator shows the user that an external process, like a connection, is being executed."
-layout: "guide"
 order: 56
 ---
 

@@ -3,7 +3,6 @@ title: 'Overview'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/form-elements.html'
 description: 'Forms obtain user data and transmit it to the system to either store the data, produce an action, or both.'
-layout: 'guide'
 order: 251
 draft: false
 ---

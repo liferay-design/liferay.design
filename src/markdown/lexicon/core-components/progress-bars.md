@@ -3,7 +3,6 @@ title: 'Progress Bar'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/progress-bars.html'
 description: 'Progress bar indicates the percentage completed of a task.'
-layout: 'guide'
 order: 323
 draft: false
 ---

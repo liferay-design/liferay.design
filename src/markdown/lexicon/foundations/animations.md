@@ -3,7 +3,6 @@ title: 'Animations'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/'
 description: "Animations are used to transmit messages while capturing the user's attention in different ways."
-layout: 'guide'
 order: 103
 draft: false
 ---

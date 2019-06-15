@@ -3,7 +3,6 @@ title: 'Text Input Localizable'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/text-input-localizable.html'
 description: 'A text input variation used in fields that can be translated into multiple languages.'
-layout: 'guide'
 order: 267
 draft: false
 ---

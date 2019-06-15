@@ -1,7 +1,6 @@
 ---
 title: "Panel"
 description: "Panels separate your content."
-layout: "guide"
 order: 64
 ---
 

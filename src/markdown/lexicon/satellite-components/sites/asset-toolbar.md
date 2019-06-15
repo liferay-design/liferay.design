@@ -1,7 +1,6 @@
 ---
 title: 'Asset Toolbar'
 description: 'A multi-purpose toolbar that can be located in different types of asset visualizations.'
-layout: 'guide'
 order: 433
 draft: false
 productName: 'PORTAL'

@@ -1,7 +1,6 @@
 ---
 title: 'Upper Toolbar'
 description: 'Upper toolbar is a guidance pattern to allow designers create their own toolbars for edition with preview pages.'
-layout: 'guide'
 order: 363
 draft: false
 ---

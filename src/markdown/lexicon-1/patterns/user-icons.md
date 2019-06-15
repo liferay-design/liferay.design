@@ -1,7 +1,6 @@
 ---
 title: "User icons"
 description: "User icons are used to visually identify users in the system."
-layout: "guide"
 order: 93
 ---
 

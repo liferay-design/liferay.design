@@ -1,7 +1,6 @@
 ---
 title: "Timelines"
 description: "Timelines visually represent events along the time."
-layout: "guide"
 order: 90
 ---
 

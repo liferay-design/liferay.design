@@ -1,9 +1,7 @@
 ---
 title: 'Accessibility'
 description: 'Building an accessible design system'
-layout: 'guide'
 order: 102
-hidden: yes
 draft: true
 ---
 

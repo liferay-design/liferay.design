@@ -3,7 +3,6 @@ title: 'Text Input Group'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/forms/text-input-group.html'
 description: 'A text field with added elements that provide a more complex input structure.'
-layout: 'guide'
 order: 266
 draft: false
 ---

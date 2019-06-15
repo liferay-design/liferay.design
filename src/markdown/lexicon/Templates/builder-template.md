@@ -1,7 +1,6 @@
 ---
 title: 'Builder Template'
 description: 'Builder Template is guidance pattern to allow designers to create their own builder pages.'
-layout: 'guide'
 order: 501
 draft: false
 ---

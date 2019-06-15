@@ -1,7 +1,6 @@
 ---
 title: 'Dataset Template'
 description: 'A Dataset Template shows how a dataset is displayed using Lexicon patterns.'
-layout: 'guide'
 order: 502
 draft: false
 ---

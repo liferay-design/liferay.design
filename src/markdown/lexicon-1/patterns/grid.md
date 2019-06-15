@@ -1,7 +1,6 @@
 ---
 title: "Grid"
 description: "Lexicon uses a 4px grid as the minimum unit of measure in terms of distance and space. 4px is a right decision as it allows as scalling with accuracy in alignment. Visual order and cleaness is one of the aims of this system."
-layout: "guide"
 order: 50
 ---
 

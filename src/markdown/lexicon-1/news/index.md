@@ -1,7 +1,6 @@
 ---
 title: "News"
 description: "Keep updated."
-layout: "guide"
 icon: "lexicon-site-news"
 weight: 20
 ---

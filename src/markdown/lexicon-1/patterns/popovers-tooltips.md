@@ -1,7 +1,6 @@
 ---
 title: "Popovers and Tooltips"
 description: "Popovers and Tooltips are patterns used to show helpful information in two different ways."
-layout: "guide"
 order: 65
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Date & Time Pickers'
 description: 'Date and Time pickers let users select a date and time for a form.'
-layout: 'guide'
 order: 258
 draft: false
 devStatus: 'PENDING'
