@@ -1,7 +1,6 @@
 ---
 title: "Toolbar"
 description: "A toolbar is a set of actions related to a context grouped in a bar."
-layout: "guide"
 order: 91
 ---
 

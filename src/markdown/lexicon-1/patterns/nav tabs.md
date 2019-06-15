@@ -1,7 +1,6 @@
 ---
 title: "Nav tabs"
 description: "Tabs let the user move around parallel content in a same context."
-layout: "guide"
 order: 59
 ---
 

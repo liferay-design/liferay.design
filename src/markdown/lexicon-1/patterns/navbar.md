@@ -1,7 +1,6 @@
 ---
 title: "Navbar"
 description: "A navigation bar, navbar, is an horizontal bar that provides several access points to different parts of a system."
-layout: "guide"
 order: 61
 ---
 

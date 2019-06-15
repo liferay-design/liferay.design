@@ -1,7 +1,6 @@
 ---
 title: 'Site Builder Template'
 description: 'The Site Builder template demonstrates .'
-layout: 'guide'
 order: 505
 draft: false
 ---

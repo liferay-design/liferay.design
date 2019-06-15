@@ -1,7 +1,6 @@
 ---
 title: 'Forms Validation'
 description: 'A description of how validation patterns must be displayed within form structures.'
-layout: 'guide'
 order: 255
 draft: false
 ---

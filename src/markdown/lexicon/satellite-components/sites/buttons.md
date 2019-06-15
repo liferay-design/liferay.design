@@ -1,7 +1,6 @@
 ---
 title: 'Buttons'
 description: 'A set of button variations specifically designed for site environment widgets.'
-layout: 'guide'
 order: 434
 draft: false
 productName: 'PORTAL'

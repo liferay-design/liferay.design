@@ -1,7 +1,6 @@
 ---
 title: "Management bar"
 description: "Management Bar is an extension of Navbar. Combine different management-bar components to create a toolbar that fits your needs."
-layout: "guide"
 order: 57
 ---
 

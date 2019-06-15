@@ -1,7 +1,6 @@
 ---
 title: "Text input group"
 description: "A text input group is a text field with extra elements that makes the pattern more complete for a common or frequent use case."
-layout: "guide"
 order: 34
 ---
 

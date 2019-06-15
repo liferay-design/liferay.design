@@ -1,7 +1,6 @@
 ---
 title: "Nav"
 description: "Nav is the pattern that defines the navigation pattern."
-layout: "guide"
 order: 60
 ---
 

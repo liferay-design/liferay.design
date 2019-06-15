@@ -1,7 +1,6 @@
 ---
 title: 'Updates'
 description: 'Keep up-to-date.'
-layout: 'guide'
 order: 701
 draft: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'Empty States'
 description: 'Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.'
-layout: 'guide'
 order: 244
 draft: false
 productName: 'PORTAL'

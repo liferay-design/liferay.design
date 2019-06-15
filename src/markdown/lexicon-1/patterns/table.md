@@ -1,7 +1,6 @@
 ---
 title: "Table"
 description: "A table is a specific pattern for comparing datasets in a very direct an analytical way."
-layout: "guide"
 order: 70
 ---
 

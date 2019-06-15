@@ -1,7 +1,6 @@
 ---
 title: "Side nav"
 description: "Side navigation pattern brings a panel from the leftmost or rightmost side of the screen pushing the content."
-layout: "guide"
 order: 68
 ---
 

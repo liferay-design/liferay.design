@@ -1,7 +1,6 @@
 ---
 title: "Checkbox, Radio button, Toggle"
 description: "Checkboxes, radios and toggles provide users with different selection and activation tools."
-layout: "guide"
 order: 32
 ---
 

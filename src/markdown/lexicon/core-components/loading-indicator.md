@@ -2,7 +2,6 @@
 title: 'Loading Indicator'
 titleLabelLink: 'https://clayui.com/docs/components/loading-indicator.html'
 description: 'The loading indicator shows the user that an external process, like a connection, is being executed.'
-layout: 'guide'
 order: 300
 draft: false
 ---

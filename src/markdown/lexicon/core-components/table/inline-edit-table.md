@@ -2,7 +2,6 @@
 title: 'Inline Edit Table'
 titleLabel: 'Pending'
 description: 'A table variation that lets users modify certain values of the entry without going to the detail page.'
-layout: 'guide'
 order: 342
 draft: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Header toolbar"
 description: "Header toolbar is a Toolbar based component used in headings for portlets, mobile pages, and page sections."
-layout: "guide"
 order: 51
 ---
 

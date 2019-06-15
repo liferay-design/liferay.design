@@ -1,7 +1,6 @@
 ---
 title: 'Asset Title Bar'
 description: "A bar used to display an asset's title and its associated actions when specific ADTs are displayed."
-layout: 'guide'
 order: 432
 draft: false
 productName: 'PORTAL'

@@ -1,7 +1,6 @@
 ---
 title: "Pagination"
 description: "Pagination allows navigation between chunks, also denominated pages, of a dataset."
-layout: "guide"
 order: 63
 ---
 

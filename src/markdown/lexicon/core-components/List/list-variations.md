@@ -3,7 +3,6 @@ title: 'List Variations'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/list.html'
 description: 'Different list cell types are used in our products'
-layout: 'guide'
 order: 285
 draft: false
 ---

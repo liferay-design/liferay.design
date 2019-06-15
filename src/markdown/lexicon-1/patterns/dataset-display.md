@@ -1,7 +1,6 @@
 ---
 title: "Dataset display"
 description: "Relation between management bar and dataset visualization."
-layout: "guide"
 order: 17
 ---
 

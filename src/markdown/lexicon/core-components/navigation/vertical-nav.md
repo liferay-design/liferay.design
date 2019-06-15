@@ -3,7 +3,6 @@ title: 'Vertical Navigation'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/navigation/vertical-navigation.html'
 description: 'An alternative patterns that displays navigation items in a vertical menu.'
-layout: 'guide'
 order: 313
 draft: false
 ---

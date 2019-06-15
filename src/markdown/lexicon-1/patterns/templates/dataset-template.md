@@ -1,7 +1,6 @@
 ---
 title: "Dataset template"
 description: "Dataset template shows how a dataset is displayed using Lexicon."
-layout: "guide"
 order: 81
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Typography"
 description: "Lexicon uses Helvetica Neue as the default font face. You can use the font face you consider more appropiate for your system."
-layout: "guide"
 order: 92
 ---
 

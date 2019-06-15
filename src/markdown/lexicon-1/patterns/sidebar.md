@@ -1,7 +1,6 @@
 ---
 title: "Sidebar"
 description: "Sidebar is a vertical panel that appears from the right side of the screen on interactions like the info button."
-layout: "guide"
 order: 67
 ---
 

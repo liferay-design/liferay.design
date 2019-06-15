@@ -2,7 +2,6 @@
 title: 'Slider'
 titleLabel: 'Pending'
 description: 'The slider control allows user to select and entry data from among a linear range of values.'
-layout: 'guide'
 order: 262
 draft: false
 devStatus: 'PENDING'

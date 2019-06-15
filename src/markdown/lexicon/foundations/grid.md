@@ -3,7 +3,6 @@ title: 'Grid'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/layout/grid.html'
 description: 'The main structural pattern that underlies the construction and positioning of all system components.'
-layout: 'guide'
 order: 105
 draft: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Icons"
 description: "Icon is a visual metaphor representing a concept that lies behind the idea and/or action."
-layout: "guide"
 order: 52
 ---
 

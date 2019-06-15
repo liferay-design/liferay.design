@@ -1,7 +1,6 @@
 ---
 title: "Alerts"
 description: "Alerts are used to capture the attention of the user in an intrusive way. Sometimes just to say that something went right, others to say that something needs to be reviewed."
-layout: "guide"
 order: 11
 ---
 

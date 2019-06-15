@@ -1,7 +1,6 @@
 ---
 title: 'Widget Title Bar'
 description: "A bar that contains the widget's title and the tools that affect the widget."
-layout: 'guide'
 order: 436
 draft: false
 productName: 'PORTAL'

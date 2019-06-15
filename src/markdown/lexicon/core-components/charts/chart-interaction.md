@@ -1,7 +1,6 @@
 ---
 title: 'Interaction'
 description: 'A description of the basic expected interaction behaviors for all charts.'
-layout: 'guide'
 order: 223
 draft: false
 ---

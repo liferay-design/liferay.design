@@ -1,7 +1,6 @@
 ---
 title: "Progress bars"
 description: "Progress bar is a progress indicator used to show the completion percentage of a task."
-layout: "guide"
 order: 66
 ---
 
