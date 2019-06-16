@@ -2,8 +2,9 @@ import { Link } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
+import Blueprints from 'pages/blueprints';
 
-const SiteName = ({ dark, section }) => {
+const SiteName = ({ dark, section, underlineColor }) => {
 	var str = section
 	if (str !== undefined) {
 		var lowerCaseSection = str.toLowerCase()
@@ -11,7 +12,7 @@ const SiteName = ({ dark, section }) => {
 
 	return (
 		<div className={`${styles.siteName} ${dark && styles.dark}`}>
-			<Link to="/">Liferay.Design</Link>
+			<Link to="/">Liferay.Design<span style={{background:`${underlineColor}`}} className={styles.underline}></span></Link>
 			{section && <Link to={'/' + `${lowerCaseSection}`}> / {section}</Link>}
 		</div>
 	)
@@ -20,6 +21,7 @@ const SiteName = ({ dark, section }) => {
 SiteName.propTypes = {
 	dark: PropTypes.bool,
 	section: PropTypes.string,
+	underlineColor: PropTypes.string,
 }
 
 export default SiteName
