@@ -4,11 +4,12 @@
 	font-size: $fontSizeMedium;
 	padding-bottom: 0;
 	line-height: 1.6;
+	position: relative;
 	a {
 		color: $white;
 	}
-	&:after {
-		content: '';
+	.underline {
+		position: absolute;
 		width: $spacingBase;
 		height: 3px;
 		background: $primary;
@@ -18,7 +19,7 @@
 
 	&.dark {
 		color: $black;
-		 a {
+		a {
 			color: $black;
 			&:hover {
 				color: $primary;
