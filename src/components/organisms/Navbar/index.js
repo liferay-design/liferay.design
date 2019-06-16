@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-const Navbar = ({ white, section }) => {
+const Navbar = ({ white, section, underlineColor }) => {
 	// TODO: Add custom nav items for events page
 	// const navItems = ['agenda', 'blueprints', 'dashboard', 'team', 'venue']
 
@@ -17,7 +17,7 @@ const Navbar = ({ white, section }) => {
 	return (
 		<Container>
 			<nav className={white ? styles.white : styles.default}>
-				<SiteName section={section} />
+				<SiteName underlineColor={underlineColor} section={section} />
 
 				<NavItems />
 			</nav>
@@ -28,6 +28,7 @@ const Navbar = ({ white, section }) => {
 Navbar.propTypes = {
 	href: PropTypes.string,
 	selected: PropTypes.string,
+	underlineColor: PropTypes.string,
 }
 
 export default Navbar
