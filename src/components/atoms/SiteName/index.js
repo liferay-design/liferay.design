@@ -12,8 +12,12 @@ const SiteName = ({ dark, section, underlineColor }) => {
 
 	return (
 		<div className={`${styles.siteName} ${dark && styles.dark}`}>
-			<Link to="/">Liferay.Design<span style={{background:`${underlineColor}`}} className={styles.underline}></span></Link>
+			<Link to="/">Liferay.Design</Link>
 			{section && <Link to={'/' + `${lowerCaseSection}`}> / {section}</Link>}
+			<span
+				style={{ background: `${underlineColor}` }}
+				className={styles.underline}
+			/>
 		</div>
 	)
 }
