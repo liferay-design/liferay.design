@@ -19,6 +19,7 @@ const Blueprints = () => (
 			ctaLink="/blueprints/principles"
 			section="Blueprints"
 			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg) center -6rem / cover fixed, #0b63ff"
+			underlineColor="#134194"
 		/>
 		<div className={styles.background}>
 			<div className={styles.container}>
