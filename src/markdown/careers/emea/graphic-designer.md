@@ -1,9 +1,9 @@
 ---
-cityRegion: 'Eschborn (Taunus), Germany'
+cityRegion: 'Madrid, Spain'
 applyLink: 'https://jobs.jobvite.com/liferay/job/oPun8fwy/apply'
 date: '2019-02-28'
 title: 'Communication Designer'
-description: 'Frankfurt 🇩🇪'
+description: 'Madrid 🇪🇸'
 featuredImage: '/images/events/ldsf-2017-markus.jpg'
 avatar: '/images/headshots/-heart-eyes-cat.png'
 published: true
@@ -17,7 +17,7 @@ To learn more about who you'd be working with, get acquainted with [the team](/t
 
 ## Who Are We Looking For?
 
-A designer to work with our EU Marketing and Regional Marketing teams in our wonderful office just outside of Frankfurt AM in Germany. You will do things like:
+A communication designer to work with our EU Marketing and Regional Marketing teams in our wonderful office in Madrid, Spain. You will do things like:
 
 -   Contribute to building, improving and furthering Liferay's brand locally and globally
 -   Be a [Whole Designer](https://medium.com/@jamesh_str/becoming-a-whole-designer-99d46b9a81)™️
@@ -39,7 +39,7 @@ Four Words: Integrated Lead-Generation Campaigns
 
 ### Important bullet points we’re looking for:
 
--   Must speak German & English fluently
+-   Must speak English fluently
 -   College degree in Graphic Design and 3-4 years professional experience, preferred
 -   Experience in taking a project from concept phase to production
 -   Experience in working with printers/vendors
