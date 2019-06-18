@@ -14,7 +14,7 @@ const Lexicon = () => (
 			cta="Get Started"
 			ctaLink="/lexicon-1/get-started"
 			section="Lexicon 1"
-			background="linear-gradient(20deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1.0)), url(/images/lexicon/home/pattern-bg-black.svg) center -6rem / cover fixed, #000"
+			background="url(/images/lexicon/home/pattern-bg-black.svg) center fixed, #000"
 			underlineColor="#c96678"
 		/>
 		<div className={styles.background}>
@@ -108,7 +108,7 @@ const Lexicon = () => (
 						!
 					</Text>
 				)}
-				background="linear-gradient(20deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url(/images/lexicon/home/pattern-bg-black.svg) center/cover fixed, #FFFFFF"
+				background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
 			/>
 		</div>
 		<Container>
