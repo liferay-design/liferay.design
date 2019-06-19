@@ -29,8 +29,8 @@ export default function ImageDownload({
 					{title}
 				</Text>
 				<Link className={styles.download} href={source} download={downloadName}>
-					<Text weight='heavy' color='neutral5'>Download</Text>
-					<Icon fill='neutral4' name="keyboardArrowDown" />
+					<Text weight='heavy'>Download</Text>
+					<Icon name="download" width="16" height="16" />
 				</Link>
 			</div>
 		</Flex>
