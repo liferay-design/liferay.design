@@ -32,7 +32,8 @@
 		}
 		span {
 			vertical-align: top;
-			padding: 0 $spacingXSmall * 1.5;
+			padding-left: $spacingXSmall * 1.5;
+			padding-right: $spacingXSmall;
 		}
 	}
 
