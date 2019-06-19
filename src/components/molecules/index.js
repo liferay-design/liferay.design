@@ -18,6 +18,7 @@ import Person from './Person'
 import Post from './Post'
 import SiteCredits from './SiteCredits'
 import SocialIcons from './SocialIcons'
+import VideoDownload from './videoDownload'
 
 export {
 	Accordion,
@@ -40,4 +41,5 @@ export {
 	Post,
 	SiteCredits,
 	SocialIcons,
+	VideoDownload,
 }
