@@ -5,14 +5,14 @@ order: 70
 ---
 
 import { Grid } from 'reakit'
-import { Accordion, ImageDownload, VideoDownload } from 'components/molecules'
+import { AssetsAccordion, VideoDownload } from 'components/molecules'
 import styles from './styles.module.scss'
 import { Heading } from 'components/atoms'
 
 Animations from our suite of products.
 
 ## Digital Experience Platform
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>7.2 — June 2019</Heading>}
 	className={styles.blueprintsAccordion}
 >
@@ -46,4 +46,4 @@ Animations from our suite of products.
     title="Speed Up Development" 
     source="/videos/dxp/speed-up-development.mp4" 
     />
-</Accordion>
+</AssetsAccordion>
