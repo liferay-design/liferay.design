@@ -1,4 +1,5 @@
 import Accordion from './Accordion'
+import AssetsAccordion from './AssetsAccordion'
 import AuthContainer from './AuthContainer'
 import Billboard from './Billboard'
 import BillboardAlt from './BillboardAlt'
@@ -22,6 +23,7 @@ import VideoDownload from './videoDownload'
 
 export {
 	Accordion,
+	AssetsAccordion,
 	AuthContainer,
 	Billboard,
 	BillboardAlt,
