@@ -6,7 +6,7 @@ order: 55
 
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
-import { Accordion, ImageDownload } from 'components/molecules'
+import { AssetsAccordion, ImageDownload } from 'components/molecules'
 import { Heading } from 'components/atoms'
 
 Custom illustrations elevate and support the content &mdash; they are not meant to replace good copywriting nor are they to capture a complete idea down to the very last detail. They are used to create a mood for a specific piece of content. To that end, we need to take care to preserve the impact that they have by not **over-using illustrations for pieces they were not specifically designed for**.
@@ -17,7 +17,7 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 
 ### June 2019
 
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>Hero Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
@@ -56,13 +56,12 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 		title="Commerce 2.0"
 		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/hero-2-point-0.png"
 	/>
-</Accordion>
+</AssetsAccordion>
 
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>Spot Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
-	<Grid templateColumns="repeat( auto-fit, minmax(340px, 1fr) )" autoRows="auto">
 		<ImageDownload
 			type="Spot Illustration"
 			title="Cohesive Customer Journey"
@@ -153,12 +152,11 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 			title="Customer Service Spot"
 			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-tailored-for-b2b.png"
 		/>
-	</Grid>
-</Accordion>
+</AssetsAccordion>
 
 ### July 2018
 
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>Hero Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
@@ -192,13 +190,12 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 		title="Liferay Resources Hero"
 		source="/images/illustrations/liferay-dot-com/q3-2018/hero-liferay-resources.png"
 	/>
-</Accordion>
+</AssetsAccordion>
 
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>Spot Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
-	<Grid templateColumns="repeat( auto-fit, minmax(200px, 1fr) )" autoRows="auto">
 		<ImageDownload
 			type="Illustration"
 			title="Digital Workplace Spot"
@@ -209,32 +206,29 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 			title="Web Experiences Spot"
 			source="/images/illustrations/liferay-dot-com/q3-2018/spot-web-experiences.png"
 		/>
-	</Grid>
 	<ImageDownload
-		width="60%"
 		type="Illustration"
 		title="Customer Service Spot"
 		source="/images/illustrations/liferay-dot-com/q3-2018/spot-customer-service.png"
 	/>
-</Accordion>
+</AssetsAccordion>
 
 ## Liferay University
 
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>Spot Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
 	<ImageDownload
-		width="50%"
 		type="Illustration"
 		title="LMS Laptop Spot"
 		source="/images/illustrations/liferay-university/spot-lms-laptop.png"
 	/>
-</Accordion>
+</AssetsAccordion>
 
 ## Partner Portal
 
-<Accordion
+<AssetsAccordion
 	title={<Heading level={3}>Hero Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
@@ -263,4 +257,4 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 		title="Technical Hero"
 		source="/images/illustrations/partner-portal/hero-technical.jpg"
 	/>
-</Accordion>
+</AssetsAccordion>
