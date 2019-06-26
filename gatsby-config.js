@@ -35,6 +35,7 @@ module.exports = {
 				// dataLayerName: "YOUR_DATA_LAYER_NAME",
 			},
 		},
+		`gatsby-plugin-netlify-cms`,
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-resolve-src',
 		{
