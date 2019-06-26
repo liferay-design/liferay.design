@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import React from 'react'
 
 export default ({ data }) => {
+	// console.log(data.allMdx.edges.fields.slug)
 	return (
 		<MainLayout section="Articles">
 			<Container>
@@ -17,7 +18,7 @@ export default ({ data }) => {
 							avatarImage
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
-							link={node.fields.slug}
+							// link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={node.frontmatter.description}
 							avatarImageURL={node.frontmatter.avatar}

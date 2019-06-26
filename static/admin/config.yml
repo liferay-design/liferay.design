@@ -1,6 +1,6 @@
 backend:
     name: git-gateway
-    branch: master
+    branch: netlify-cms
 
 media_folder: static/uploads
 public_folder: uploads
@@ -10,7 +10,7 @@ collections:
       label: Articles # used in the CMS UI
       folder: 'src/markdown/articles' # the path to the folder where the documents are stored
       create: true # allow users to create new documents here
-      slug: '{{slug}}' # optional — customize the slug, default is the title
+      # slug: '{{slug}}' # optional — customize the slug, default is the title
       fields: # basically the frontmatter for each doc — see https://www.netlifycms.org/docs/add-to-your-site/#collections for more details
           - {
                 label: 'Author',
