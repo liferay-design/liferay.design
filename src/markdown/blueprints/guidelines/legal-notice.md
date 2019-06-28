@@ -20,9 +20,13 @@ Indicated by the symbol ©, copyrights protect our exclusive rights of creations
 
 For more information on copyrights, see our [internal policy for marking our source code](https://grow.liferay.com/share/Liferay+Policy+for+Marking+Our+Own+Source+Code) or our [internal copyright FAQ](https://grow.liferay.com/share/Internal+Liferay+Copyright+%3CAMPERSAND%3E+Licensing+FAQ).
 
-## Status Information | August 2018
+## Status Information | June 2019
 
 ### We Have Registered The Following Trademarks In The United States And Can Use The &reg; Symbol
+
+Special form drawings (word and logo combo):
+
+-   Liferay _(Registered May 21, 2019)_
 
 Standard Character Marks (word trademarks):
 
@@ -46,12 +50,12 @@ Standard Character Marks (word trademarks):
 
 Special form drawings (word and logo combo):
 
--   Liferay
 -   Liferay Digital Experience Platform
 -   Liferay Commerce
 -   Liferay Analytics Cloud
-    If you are interested in other territories [please let us know](mailto:paul.hanaoka@liferay.com).
+
+If you are interested in other territories [please let us know](mailto:paul.hanaoka@liferay.com).
 
 We have various trademarks registrations and applications elsewhere around the world.
 
-This information is accurate as of December 2018.
+_This information is accurate as of June 2019._
