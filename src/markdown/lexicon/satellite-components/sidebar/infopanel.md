@@ -23,7 +23,7 @@ The components used in the “Info Panel” can vary depending on the applicatio
 ![Sidebar Info Panel Components information](/images/lexicon/SidebarInfoPanelComponents.jpg)
 
 1. Items carousel
-2. Item title and file type
+2. File title and file type
 3. Content divided by tabs. Information examples:
     - Details tab:
         1. Image
@@ -32,6 +32,15 @@ The components used in the “Info Panel” can vary depending on the applicatio
         4. Related assets
     - Versions tab:
         5. Versions list
+
+### Semantics
+
+The tag hierarchy is important in combination with a good content structure of headings, paragraphs and lists.
+
+| File             | Tag                   |
+| ---------------- | --------------------- |
+| Title            | H1                    |
+| Type             | H2                    |
 
 ## Sidebar Height
 
