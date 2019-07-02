@@ -44,3 +44,7 @@ File cards represent files other than images.
 Folder cards display horizontal representations of information. They have the same amount of elements as the other cards previously explained on this page. The main purpose of this card is to represent folders, therefore the image is removed in this card type. In this case, only the checkbox is used to select.
 
 ![folder card, similar to a stripe card](/images/lexicon/CardFolder.jpg)
+
+## Blogs card
+
+Blog cards use images keeping the vertical aspect ratio, wrapping all the area, giving a visual clue to identify blog entries.   
