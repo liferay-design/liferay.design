@@ -47,4 +47,5 @@ Folder cards display horizontal representations of information. They have the sa
 
 ## Blogs card
 
-Blog cards use images keeping the vertical aspect ratio, wrapping all the area, giving a visual clue to identify blog entries.   
+Blog cards use images keeping the vertical aspect ratio, wrapping all the area, giving a visual clue to identify blog entries.
+![Blogs card uses all the space available for the cover image](/images/lexicon/CardBlogs.png)   
