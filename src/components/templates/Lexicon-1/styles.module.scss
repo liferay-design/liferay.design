@@ -216,6 +216,14 @@
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
+
+	//caption styling
+	img + em {
+		color: $main-l3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+		display: inherit;
+	}
 	
 	@media (max-width: $grid-float-breakpoint - 1) {
 		margin-top: 80px;

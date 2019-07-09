@@ -252,6 +252,14 @@
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
+
+	//caption styling
+	img + em {
+		color: $main-l3;
+		font-size: $fontSizeSmall;
+		text-align: center;
+		display: inherit;
+	}
 	
 	// .download-card {
 	// 	width: 200px;
