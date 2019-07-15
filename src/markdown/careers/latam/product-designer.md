@@ -6,7 +6,7 @@ title: 'Product Designer'
 description: 'Recife 🇧🇷'
 featuredImage: '/images/posts/design-week-n.jpg'
 avatar: '/images/headshots/-nerd-face.png'
-published: true
+published: false
 ---
 
 ## Who Designs at Liferay?
