@@ -3,6 +3,9 @@ name: 'Naoki Hisamoto'
 title: 'Communication Designer'
 headshotPro: '/images/headshots/hisamoto-naoki.jpg'
 headshotFun: '/images/headshots/hisamoto-naoki-h.jpg'
+dribbble: 'naoki_hisamoto' # your dribbble username
+instagram: 'naoki.hisamoto' # your instagram username
+twitter: 'NaokiHisamoto' # your twitter username
 active: true
 startYear: '2017'
 icon: 'fa_check_double'
@@ -54,7 +57,7 @@ Be humble. Keep learning. Always listen.
 
 ### Last book you read?
 
-The Bible. (Currently: Hebrews)
+The Bible. (Currently: 2 Corinthians)
 
 ### Most effective productivity booster?
 
