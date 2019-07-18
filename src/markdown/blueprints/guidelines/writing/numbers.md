@@ -2,6 +2,7 @@
 title: 'Numbers'
 description: 'One, two, three, four'
 order: 4
+publish: true
 ---
 
 ## Cardinal and Ordinal Numbers

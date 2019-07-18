@@ -130,33 +130,38 @@ export default class Blueprints extends Component {
 }
 
 export const pageQuery = graphql`
-	query($slug: String!) {
-		allMdx(filter: { fields: { slug: { regex: "/blueprints/" } } }) {
-			totalCount
-			edges {
-				node {
-					id
+			query($slug: String!) {
+				allMdx(
+					filter: {
+						fields: { slug: { regex: "/blueprints/" } }
+						frontmatter: { publish: { eq: true } }
+					}
+				) {
+					totalCount
+					edges {
+						node {
+							id
+							frontmatter {
+								order
+								title
+							}
+							fields {
+								slug
+							}
+						}
+					}
+				}
+
+				mdx(fields: { slug: { eq: $slug } }) {
 					frontmatter {
-						order
 						title
 					}
-					fields {
-						slug
+					code {
+						body
 					}
 				}
 			}
-		}
-
-		mdx(fields: { slug: { eq: $slug } }) {
-			frontmatter {
-				title
-			}
-			code {
-				body
-			}
-		}
-	}
-`
+		`
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)

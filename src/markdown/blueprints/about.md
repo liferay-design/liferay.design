@@ -2,6 +2,7 @@
 title: 'About'
 description: "Liferay's Brand Guidelines"
 order: 1
+publish: true
 ---
 
 ## Why Blueprints?

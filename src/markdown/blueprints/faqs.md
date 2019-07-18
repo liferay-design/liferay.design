@@ -2,6 +2,7 @@
 title: 'FAQ'
 description: 'Frequently Asked Questions'
 order: 5
+publish: true
 ---
 
 ## What is a brand?
