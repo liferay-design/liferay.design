@@ -2,6 +2,7 @@
 title: 'Photography'
 description: 'Resources for Liferay Photos'
 order: 4
+publish: true
 ---
 
 Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photography)!

@@ -2,6 +2,7 @@
 title: 'Guidelines'
 description: 'Our basic rules for written style'
 order: 1
+publish: true
 ---
 
 ## Vision

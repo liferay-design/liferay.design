@@ -2,6 +2,7 @@
 title: 'Commonly Troublesome Words'
 description: 'The "E" in E-commerce stands for "easy"'
 order: 5
+publish: true
 ---
 
 Some tech terms are new enough that there’s no consensus on a correct spelling yet. The below list covers Liferay’s preferred spelling for the more common terms you might have to use. If it’s not listed below, check how we’ve written the word elsewhere (on Liferay.com, other collateral, etc.). If you can’t find an example, go with Merriam-Webster’s spelling.

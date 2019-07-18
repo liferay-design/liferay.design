@@ -2,6 +2,7 @@
 title: 'Principles'
 description: "Liferay's Brand Principles"
 order: 2
+publish: true
 ---
 
 1.  **Confident** &mdash; _Business done well will improve the world._

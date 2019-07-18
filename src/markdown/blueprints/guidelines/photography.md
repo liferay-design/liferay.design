@@ -2,6 +2,7 @@
 title: 'Photography'
 description: 'Use Images Good (and do other stuff good too)'
 order: 5
+publish: true
 ---
 
 ## Why Use Photography?

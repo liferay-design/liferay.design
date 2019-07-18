@@ -2,6 +2,7 @@
 title: 'Color'
 description: 'Using color at Liferay'
 order: 3
+publish: true
 ---
 
 ### Using Color
