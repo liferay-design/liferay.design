@@ -2,6 +2,7 @@
 title: 'Principles'
 description: 'A framework for the decisions we make'
 order: 10
+publish: true
 ---
 
 ## Why Principles?
