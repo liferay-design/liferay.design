@@ -2,6 +2,7 @@
 title: 'Organization'
 description: 'How we are organized'
 order: 1
+publish: true
 ---
 
 There is no better example of Liferay’s rapid growth than the 5 year period from 2012 to 2017, User Experience Team grew from 2 designers to over 30. It goes without saying that what works for 2 designers probably doesn’t easily scale well for 30 designers. Adding another designer is more complicated than adding another Design Tool.

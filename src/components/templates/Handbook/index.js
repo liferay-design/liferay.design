@@ -124,33 +124,38 @@ export default class Handbook extends Component {
 }
 
 export const pageQuery = graphql`
-	query($slug: String!) {
-		allMdx(filter: { fileAbsolutePath: { regex: "/(handbook)/" } }) {
-			totalCount
-			edges {
-				node {
-					id
+			query($slug: String!) {
+				allMdx(
+					filter: {
+						fileAbsolutePath: { regex: "/(handbook)/" }
+						frontmatter: { publish: { eq: true } }
+					}
+				) {
+					totalCount
+					edges {
+						node {
+							id
+							frontmatter {
+								order
+								title
+							}
+							fields {
+								slug
+							}
+						}
+					}
+				}
+
+				mdx(fields: { slug: { eq: $slug } }) {
 					frontmatter {
-						order
 						title
 					}
-					fields {
-						slug
+					code {
+						body
 					}
 				}
 			}
-		}
-
-		mdx(fields: { slug: { eq: $slug } }) {
-			frontmatter {
-				title
-			}
-			code {
-				body
-			}
-		}
-	}
-`
+		`
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)

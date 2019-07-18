@@ -2,6 +2,7 @@
 title: 'Definition, Responsibilities, and Roles'
 description: 'What is UX Design?'
 order: 3
+publish: true
 ---
 
 ## What is UX Design?

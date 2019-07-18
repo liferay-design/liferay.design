@@ -2,6 +2,7 @@
 title: 'Onboarding'
 description: 'Onboarding'
 order: 1
+publish: true
 ---
 
 This document will introduce you to Liferay as an employee and more specifically to Liferay UX Team. The goal is to get familiar with the time and not in one day with all this information.
