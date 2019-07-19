@@ -1,11 +1,9 @@
 ---
-region: 'CA'
 jobId: 'oqKh9fwk'
 date: '2018-12-10'
 title: 'Product Designer'
-office: 'Los Angeles'
+office: 'Diamond Bar'
 featuredImage: '/images/posts/ux-designer.jpg'
-regionIcon: '/images/headshots/-nerd-face.png'
 published: false
 ---
 

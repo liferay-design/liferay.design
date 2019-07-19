@@ -1,11 +1,9 @@
 ---
-region: 'Spain'
 jobId: 'oPun8fwy'
 date: '2019-02-28'
 title: 'Communication Designer'
 office: 'Madrid'
 featuredImage: '/images/events/ldsf-2017-markus.jpg'
-regionIcon: '/images/headshots/-heart-eyes-cat.png'
 published: true
 ---
 

@@ -1,11 +1,9 @@
 ---
-region: 'Italy'
 jobId: 'oxqi9fw8'
 date: '2019-02-28'
 title: 'Product Designer'
 office: 'Milan'
 featuredImage: '/images/posts/design-week-n.jpg'
-regionIcon: '/images/headshots/-sunglasses.png'
 published: false
 ---
 

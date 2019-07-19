@@ -1,10 +1,8 @@
 ---
 title: 'Product Designer'
 office: 'Recife'
-region: 'Brazil'
 jobId: 'oEG79fwk'
 featuredImage: '/images/posts/design-week-n.jpg'
-regionIcon: '/images/headshots/-nerd-face.png'
 date: '2019-05-05'
 published: false
 ---
