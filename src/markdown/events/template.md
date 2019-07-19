@@ -1,9 +1,9 @@
 <!-- ---
-draft: true #requried (true or false)
+draft: true #required boolean (true or false)
 
 #Event Card Fields
-title: 'Design Systems Meetup' #requried
-featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #requried
+title: 'Design Systems Meetup' #required
+featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #required
 office: 'Diamond Bar' #required
 
 #Event Details
