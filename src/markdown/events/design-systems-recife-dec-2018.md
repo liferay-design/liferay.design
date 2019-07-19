@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_sketch' #requried
+avatarIcon: 'fa_sketch' #requried
 title: 'Sketch and Design Systems' #requried
 featuredImage: '/images/events/recife-dec-2018-01.jpg' #requried
 description: 'Recife 🇧🇷' #required
