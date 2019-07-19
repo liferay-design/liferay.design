@@ -1,14 +1,5 @@
 ---
-name: 'First Last' # what is your name
-title: 'desc' # what is your title?
-headshotPro: '/images/headshots/last-first.jpg' # put your headshot here
-headshotFun: '/images/headshots/last-first.jpg' # put your headshot here
-dribbble: '' # your dribbble username
-instagram: '' # your instagram username
-twitter: '' # your twitter username
-unsplash: '' # your unsplash username
-active: false # are you an active member of the team?
-icon: 'fa_palette' # add your desired icon here
+author: # what is your name
 ---
 
 ### How did you get into design?

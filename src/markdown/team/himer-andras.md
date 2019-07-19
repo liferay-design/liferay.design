@@ -1,11 +1,6 @@
 ---
-name: 'Andras Himer'
-title: 'Product Designer'
-headshotPro: '/images/headshots/-upside-down-face.png'
-headshotFun: '/images/headshots/-upside-down-face.png'
-active: true
+author: 'András Himer'
 startYear: '2018'
-icon: 'fa_heart'
 ---
 
 ### How did you get into design?

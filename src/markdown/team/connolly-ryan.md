@@ -1,11 +1,6 @@
 ---
-name: 'Ryan Connolly'
-title: 'Product Design Manager'
-headshotPro: '/images/headshots/connolly-ryan.jpg'
-headshotFun: '/images/headshots/connolly-ryan-h.jpg'
-active: true
+author: 'Ryan Connolly'
 startYear: '2017'
-icon: 'fa_pen'
 ---
 
 ### How did you get into design?

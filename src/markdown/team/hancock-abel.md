@@ -1,11 +1,6 @@
 ---
-name: 'Abel Hancock'
-title: 'Product Designer'
-headshotPro: '/images/headshots/hancock-abel.jpg'
-headshotFun: '/images/headshots/hancock-abel-h.jpg'
-active: true
+author: 'Abel Hancock'
 startYear: '2017'
-icon: 'fa_code'
 ---
 
 ### Favorite tool? 🛠

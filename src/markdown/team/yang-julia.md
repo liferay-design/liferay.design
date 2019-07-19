@@ -1,11 +1,6 @@
 ---
-name: 'Julia Yang'
-title: 'Communication Designer'
-headshotPro: '/images/headshots/chan-julia.jpg'
-headshotFun: '/images/headshots/chan-julia-h.jpg'
-active: true
+author: 'Julia Yang'
 startYear: '2017'
-icon: 'fa_coffee'
 ---
 
 ### How did you get into design?

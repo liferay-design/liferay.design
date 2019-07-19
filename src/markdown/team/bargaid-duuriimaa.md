@@ -1,11 +1,6 @@
 ---
-name: 'Duuriimaa Bargaid'
-title: 'Associate Product Designer'
-headshotPro: '/images/headshots/bargaid-duuriimaa.jpg'
-headshotFun: '/images/headshots/bargaid-duuriimaa-h.jpg'
-active: true
+author: 'Duuriimaa Bargaid'
 startYear: '2018'
-icon: 'fa_drum'
 ---
 
 ### How did you get into design?

@@ -15,11 +15,11 @@ export default ({ data }) => {
 					{data.allMdx.edges.map(({ node }) => (
 						<CardDefault
 							key={node.id}
-							imageURL={node.frontmatter.headshotPro}
-							link={node.fields.slug}
-							title={node.frontmatter.name}
-							subtitle={node.frontmatter.title}
-							icon={node.frontmatter.icon}
+							imageURL={node.frontmatter.author.headshot}
+							link={'/team/'+`${node.frontmatter.author.slug}`}
+							title={node.frontmatter.author.id}
+							subtitle={node.frontmatter.author.title}
+							icon={node.frontmatter.author.icon}
 						/>
 					))}
 				</CardGrid>
@@ -33,7 +33,7 @@ export const query = graphql`
 				allMdx(
 					filter: {
 						fileAbsolutePath: { regex: "/(/team/)/" }
-						frontmatter: { active: { eq: true } }
+						frontmatter: { author: { active: { eq: true } } }
 					}
 					sort: { order: ASC, fields: [fields___slug] }
 				) {
@@ -42,15 +42,14 @@ export const query = graphql`
 						node {
 							id
 							frontmatter {
-								name
-								title
-								headshotPro
-								headshotFun
-								dribbble
-								instagram
-								twitter
-								unsplash
-								icon
+								author {
+									id
+									title
+									avatar
+									headshot
+									icon
+									slug
+								}
 							}
 							fields {
 								slug
