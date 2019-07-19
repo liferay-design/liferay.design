@@ -30,9 +30,6 @@ export default class Careers extends Component {
 							{post.frontmatter.title}
 							<span>{post.frontmatter.office}, {post.frontmatter.region} </span>
 						</h1>
-						{/* <div className={styles.role}>
-						<h2>{post.frontmatter.description}</h2>
-					</div> */}
 					</div>
 				</Flex>
 				<div className={styles.mdxWrapper}>
