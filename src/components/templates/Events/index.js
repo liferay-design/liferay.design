@@ -90,7 +90,7 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				author
+				author {}
 				authorLink
 				description
 				title

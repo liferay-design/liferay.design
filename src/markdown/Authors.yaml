@@ -1,0 +1,405 @@
+- id: Juan Anton
+  title: Senior Product Designer
+  slug: anton-juan
+  active: true
+  icon: fa_palette
+  startDate: 2016-08-18
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: David Aragones
+  title: Senior Product Designer
+  slug: aragones-david
+  active: true
+  icon: fa_universal_access
+  startDate: 2016-08-22
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Duuriimaa Bargaid
+  title: Associate Product Designer
+  slug: bargaid-duuriimaa
+  active: true
+  icon: fa_drum
+  startDate: 2018-02-08
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Andrea Censi
+  title: Associate Product Designer
+  slug: censi-andrea
+  active: true
+  icon: fa_headphones_alt
+  startDate: 2018-05-14
+  office: Vimercate
+  country: Italy
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Julia Yang
+  title: Communication Designer
+  slug: yang-julia
+  active: true
+  icon: fa_coffee
+  startDate: 2017-01-09
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Emiliano Cicero
+  title: Product Designer
+  slug: cicero-emiliano
+  active: true
+  icon: fa_bezier_curve
+  startDate: 2016-08-10
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Ryan Connolly
+  title: Manager, Product Design
+  slug: connolly-ryan
+  active: true
+  icon: fa_pen
+  startDate: 2017-04-24
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Vitor Fernandes
+  title: Manager, Product Design
+  slug: fernandes-vitor
+  active: true
+  icon: fa_rocket
+  startDate: 2018-03-12
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Markus Hammer
+  title: Senior Communication Designer
+  slug: hammer-markus
+  active: true
+  icon: fa_gavel
+  startDate: 2016-09-15
+  office: Eschborn
+  country: Germany
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Paul Hanaoka
+  title: Manager, Product Design NA
+  slug: hanaoka-paul
+  active: true
+  icon: fa_terminal
+  startDate: 2014-08-25
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Abel Hancock
+  title: Product Designer
+  slug: hancock-abel
+  active: true
+  icon: fa_code
+  startDate: 2017-09-18
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Juan Hidalgo Reina
+  title: Director, Design
+  slug: Hidalgo reina-juan
+  active: true
+  icon: fa_heart
+  startDate: 2016-10-17
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: András Himer
+  title: Product Designer
+  slug: himer-andrás
+  active: true
+  icon: fa_heart
+  startDate: 2018-05-07
+  office: Budapest
+  country: Hungary
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Naoki Hisamoto
+  title: Communication Designer
+  slug: hisamoto-naoki
+  active: true
+  icon: fa_check_double
+  startDate: 2017-04-18
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Christopher Jeong
+  title: Product Designer
+  slug: jeong-christopher
+  active: true
+  icon: fa_glasses
+  startDate: 2017-10-16
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: David Kim
+  title: Product Designer
+  slug: kim-david
+  active: true
+  icon: fa_pastafarianism
+  startDate: 2018-09-17
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Sharon Kim
+  title: Communication Designer
+  slug: kim-sharon
+  active: true
+  icon: fa_pen_fancy
+  startDate: 2014-07-21
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Karolina Kolodziej
+  title: Associate Product Designer
+  slug: kolodziej-karolina
+  active: true
+  icon: fa_map_marked_alt
+  startDate: 2019-05-06
+  office: Vimercate
+  country: Italy
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Jessica Lee
+  title: Communication Designer
+  slug: lee-jessica
+  active: true
+  icon: fa_pen_nib
+  startDate: 2017-07-10
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: James Lyons
+  title: Product Designer
+  slug: lyons-james
+  active: true
+  icon: fa_drum
+  startDate: 2018-09-10
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Miriam Manso
+  title: Associate Product Designer
+  slug: manso-miriam
+  active: true
+  icon: fa_pointe_shoe
+  startDate: 2018-10-15
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Nathália Moura
+  title: Product Designer
+  slug: moura-nathália
+  active: true
+  icon: fa_map_marked_alt
+  startDate: 2016-11-07
+  office: Recife
+  country: Brazil
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Patrick Pentz
+  title: Product Designer
+  slug: pentz-patrick
+  active: true
+  icon: fa_camera
+  startDate: 2017-08-07
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Felipe Pires
+  title: Senior Product Designer
+  slug: pires-felipe
+  active: true
+  icon: fa_dumbbell
+  startDate: 2015-09-01
+  office: Recife
+  country: Brazil
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Victor Valle
+  title: Manager, Product Design EMEA
+  slug: valle-victor
+  active: true
+  icon: fa_fingerprint
+  startDate: 2016-08-18
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Susana Vázquez
+  title: Product Designer
+  slug: vázquez-susana
+  active: true
+  icon: fa_archway
+  startDate: 2017-10-18
+  office: Madrid
+  country: Spain
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Jon Wood
+  title: Product Designer
+  slug: wood-jon
+  active: true
+  icon: fa_keyboard
+  startDate: 2019-04-15
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Emily Young
+  title: Manager, Communication Design
+  slug: young-emily
+  active: true
+  icon: fa_stroopwafel
+  startDate: 2008-08-01
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
+
+- id: Rachel Yuan
+  title: Senior Communication Designer
+  slug: yuan-rachel
+  active: true
+  icon: fa_chess_queen
+  startDate: 2013-10-07
+  office: Diamond Bar
+  country: USA
+  website:
+  dribbble:
+  instagram:
+  twitter:
+  unsplash:
