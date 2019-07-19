@@ -4,6 +4,7 @@ date: '2019-03-22T17:12:33.962Z'
 title: 'Creating Atomic Components That Will Blow Your Mind'
 readTime: '7 Min Read'
 featuredImage: '/images/posts/atomic-components.jpg'
+publish: true
 ---
 
 ![Atomic Figma Components](/images/posts/atomic-components.jpg)

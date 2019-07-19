@@ -4,6 +4,7 @@ date: '2018-12-10'
 title: '90 Days of UX at Liferay'
 readTime: '3 Min Read'
 featuredImage: '/images/headshots/lyons-james-h.jpg'
+publish: true
 ---
 
 # 90 Days of UX at Liferay

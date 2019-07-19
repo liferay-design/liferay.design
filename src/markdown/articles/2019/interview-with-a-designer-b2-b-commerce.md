@@ -4,6 +4,7 @@ date: '2019-05-03T17:12:33.962Z'
 title: 'Interview with a Designer: B2B Commerce'
 readTime: '4 Min Read'
 featuredImage: '/images/posts/interview-with-a-designer-b2-b-commerce.png'
+publish: true
 ---
 
 ![](/images/posts/interview-with-a-designer-b2-b-commerce.png)

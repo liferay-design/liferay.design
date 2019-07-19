@@ -4,6 +4,7 @@ date: '2018-11-27T17:12:33.962Z'
 title: 'New Team, Assemble!'
 readTime: '3 Min Read'
 featuredImage: '/images/posts/assemble.jpg'
+publish: true
 ---
 
 The beginning of November marked my first year as Liferay's UX Design Manager for North America. As Design organizations are wont to do, we restructured and consolidated some designers from marketing and engineering into a fledgling User Experience team based out of our office in ~~Diamond Bar~~ Los Angeles.
