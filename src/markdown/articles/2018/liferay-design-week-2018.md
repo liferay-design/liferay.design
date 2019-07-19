@@ -1,11 +1,9 @@
 ---
 author: 'Juan Hidalgo'
-authorLink: '/team/hidalgo-juan'
 date: '2018-04-27'
 title: 'Liferay Design Week 2018 is over'
-description: '5 Min Read'
+readTime: '5 Min Read'
 featuredImage: '/images/posts/design-week-team.jpeg'
-avatar: '/images/headshots/hidalgo-juan.jpg'
 ---
 
 Over 5 days, 31 Designers from (Diamond Bar, Frankfurt, Madrid, Recife, and San Diego) attended 21 Talks, 6 Workshops, and Group Activities. The week was intense and a challenge to synchronize our projects with our deadlines — it was awesome.

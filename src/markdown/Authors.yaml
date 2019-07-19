@@ -30,6 +30,17 @@
   twitter:
   unsplash:
 
+- id: Cassandra Balbas
+  title: UX Design Intern
+  slug: balbas-cassandra
+  headshot: /images/headshots/balbas-cassandra.jpg
+  avatar: /images/headshots/balbas-cassandra-h.jpg
+  active: false
+  icon: fa_drum
+  startDate: 2018-01-03
+  office: Diamond Bar
+  country: USA
+
 - id: Duuriimaa Bargaid
   title: Associate Product Designer
   slug: bargaid-duuriimaa
@@ -174,9 +185,9 @@
   twitter:
   unsplash:
 
-- id: Juan Hidalgo Reina
+- id: Juan Hidalgo
   title: Director, Design
-  slug: Hidalgo reina-juan
+  slug: hidalgo-juan
   headshot: /images/headshots/reina-juan.jpg
   avatar: /images/headshots/reina-juan-h.jpg
   active: true

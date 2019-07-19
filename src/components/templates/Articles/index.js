@@ -16,7 +16,7 @@ export default class Articles extends Component {
 				<Helmet>
 					<title>
 						{post.frontmatter.title} &mdash; an article by{' '}
-						{post.frontmatter.author} on Liferay.Design
+						{post.frontmatter.author.id} on Liferay.Design
 					</title>
 					<meta
 						property="og:image"
@@ -29,7 +29,7 @@ export default class Articles extends Component {
 						property="og:title"
 						content={
 							post.frontmatter.title + ' — an article by ' + 
-						post.frontmatter.author + ' on Liferay.Design'
+						post.frontmatter.author.id + ' on Liferay.Design'
 						}
 					/>
 					{post.frontmatter.canonicalLink ? (
@@ -46,8 +46,8 @@ export default class Articles extends Component {
 						{post.frontmatter.title}{' '}
 						<span>
 							by{' '}
-							<a href={withPrefix(post.frontmatter.authorLink)}>
-								{post.frontmatter.author}
+							<a href={withPrefix('/team/' + `${post.frontmatter.author.slug}`)}>
+								{post.frontmatter.author.id}
 							</a>
 							<br />
 							on{' '}
@@ -55,7 +55,7 @@ export default class Articles extends Component {
 						</span>
 					</h1>
 					<div className={styles.role}>
-						<h2>{post.frontmatter.description}</h2>
+						<h2>{post.frontmatter.readTime}</h2>
 					</div>
 				</Flex>
 				<div className={styles.markdownContainer}>
@@ -77,8 +77,7 @@ export const pageQuery = graphql`
 					id
 					slug
 				}
-				authorLink
-				description
+				readTime
 				featuredImage
 				canonicalLink
 				title

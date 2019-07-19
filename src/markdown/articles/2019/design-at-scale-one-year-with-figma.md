@@ -1,11 +1,9 @@
 ---
 author: 'Paul Hanaoka'
-authorLink: '/team/hanaoka-paul'
 date: '2019-05-08T17:12:33.962Z'
 title: 'Design At Scale: One Year With Figma'
-description: '15 Min Read'
+readTime: '15 Min Read'
 featuredImage: '/images/posts/design-at-scale-one-year-with-figma/dam-at-liferay.jpeg'
-avatar: '/images/headshots/hanaoka-paul.jpg'
 canonicalLink: 'https://www.smashingmagazine.com/2019/04/design-scale-figma/'
 ---
 
