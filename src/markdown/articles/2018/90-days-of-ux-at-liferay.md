@@ -1,11 +1,9 @@
 ---
 author: 'James Lyons'
-authorLink: '/team/lyons-james'
 date: '2018-12-10'
 title: '90 Days of UX at Liferay'
-description: '3 Min Read'
+readTime: '3 Min Read'
 featuredImage: '/images/headshots/lyons-james-h.jpg'
-avatar: '/images/headshots/lyons-james.jpg'
 ---
 
 # 90 Days of UX at Liferay

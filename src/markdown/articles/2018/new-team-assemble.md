@@ -1,11 +1,9 @@
 ---
 author: 'Paul Hanaoka'
-authorLink: '/team/hanaoka-paul'
 date: '2018-11-27T17:12:33.962Z'
 title: 'New Team, Assemble!'
-description: '3 Min Read'
+readTime: '3 Min Read'
 featuredImage: '/images/posts/assemble.jpg'
-avatar: '/images/headshots/hanaoka-paul.jpg'
 ---
 
 The beginning of November marked my first year as Liferay's UX Design Manager for North America. As Design organizations are wont to do, we restructured and consolidated some designers from marketing and engineering into a fledgling User Experience team based out of our office in ~~Diamond Bar~~ Los Angeles.

@@ -1,11 +1,9 @@
 ---
 author: 'Cassandra Balbas'
-# authorLink: '/team/lyons-james'
 date: '2018-04-25'
 title: '(81) Days of Liferay'
-description: '3 Min Read'
+readTime: '3 Min Read'
 featuredImage: '/images/headshots/balbas-cassandra-h.jpg'
-avatar: '/images/headshots/balbas-cassandra.jpg'
 ---
 
 ## How did you hear about Liferay?

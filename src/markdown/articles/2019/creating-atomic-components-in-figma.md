@@ -1,11 +1,9 @@
 ---
 author: 'Paul Hanaoka'
-authorLink: '/team/hanaoka-paul'
 date: '2019-03-22T17:12:33.962Z'
 title: 'Creating Atomic Components That Will Blow Your Mind'
-description: '7 Min Read'
+readTime: '7 Min Read'
 featuredImage: '/images/posts/atomic-components.jpg'
-avatar: '/images/headshots/hanaoka-paul.jpg'
 ---
 
 ![Atomic Figma Components](/images/posts/atomic-components.jpg)

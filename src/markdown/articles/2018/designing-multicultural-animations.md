@@ -1,11 +1,9 @@
 ---
 author: 'Susana Vázquez'
-authorLink: '/team/vazquez-susana'
 date: '2018-07-23'
 title: 'Designing animations for a multicultural product'
-description: '5 Min Read'
+readTime: '5 Min Read'
 featuredImage: '/images/posts/multicultural-animations.jpeg'
-avatar: '/images/headshots/vazquez-susana.jpg'
 ---
 
 The world is big and diverse. Right now there are around 7.6 billion people in the world, 4 billion with an internet access. When you’re improving a Design System for a product used worldwide, like Lexicon for Liferay, you should take this simple statement into account. Cultural, religious and regional concerns need to be considered. It may sound obvious, but the true fact is that we sometimes forget about it.
