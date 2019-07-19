@@ -1,11 +1,11 @@
 ---
-cityRegion: 'Milan, Italy'
-applyLink: 'https://jobs.jobvite.com/liferay/job/oxqi9fw8/apply'
+region: 'Italy'
+jobId: 'oxqi9fw8'
 date: '2019-02-28'
 title: 'Product Designer'
-description: 'Milan 🇮🇹'
+office: 'Milan'
 featuredImage: '/images/posts/design-week-n.jpg'
-avatar: '/images/headshots/-sunglasses.png'
+regionIcon: '/images/headshots/-sunglasses.png'
 published: false
 ---
 

@@ -19,8 +19,8 @@ export default ({ data }) => {
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
-							subtitle={node.frontmatter.description}
-							avatarImageURL={node.frontmatter.avatar}
+							subtitle={node.frontmatter.office}
+							avatarImageURL={node.frontmatter.regionIcon}
 						/>
 					))}
 				</CardGrid>
@@ -43,9 +43,9 @@ export const query = graphql`
 							id
 							frontmatter {
 								title
-								description
+								office
 								featuredImage
-								avatar
+								regionIcon
 							}
 							fields {
 								slug
