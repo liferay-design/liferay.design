@@ -92,5 +92,7 @@ module.exports = {
 	mapping: {
 		'MarkdownRemark.frontmatter.author': `AuthorsYaml`,
 		'Mdx.frontmatter.author': `AuthorsYaml`,
+		'MarkdownRemark.frontmatter.office': `OfficesYaml`,
+		'Mdx.frontmatter.office': `OfficesYaml`,
 	},
 }

@@ -1,0 +1,42 @@
+- id: Madrid
+  regionIcon: /images/headshots/-nerd-face.png
+  city: Madrid
+  region: Spain
+  country: Spain
+  mapURL: https://goo.gl/maps/JQZZugSQ5iG2
+  # photo: /images/offices/madrid.jpg
+- id: Diamond Bar
+  regionIcon: /images/headshots/-nerd-face.png
+  city: Los Angeles
+  region: California
+  country: USA
+  mapURL: https://goo.gl/maps/q1BzwoswY112
+  # photo: /images/offices/diamond-bar.jpg
+- id: Concorezzo
+  regionIcon: /images/headshots/-nerd-face.png
+  city: Milan
+  region: Italy
+  country: Italy
+  mapURL: https://g.page/liferay-italia
+  # photo: /images/offices/milan.jpg
+- id: Recife
+  regionIcon: /images/headshots/-nerd-face.png
+  city: Recife
+  region: Pernambuco
+  country: Brazil
+  mapURL: https://goo.gl/maps/gdSLtTExUZ2hkWhr9
+  # photo: /images/offices/recife.jpg
+- id: Eschborn
+  regionIcon: /images/headshots/-nerd-face.png
+  city: Frankfurt
+  region: Germany
+  country: Germany
+  mapURL: https://goo.gl/maps/yeBHRXzZGndiAREm9
+  # photo: /images/offices/eschborn.jpg
+- id: Budapest
+  regionIcon: /images/headshots/-nerd-face.png
+  city: Budapeset
+  region: Hungary
+  country: Hungary
+  mapURL: https://goo.gl/maps/7myccADWQnNkyqny7
+  # photo: /images/offices/budapest.jpg
