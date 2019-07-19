@@ -2,19 +2,15 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-avatarIcon: 'fa_figma' #requried
 title: 'Design at Scale' #requried
 featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #requried
-description: 'Madrid 🇪🇸' #required
+office: 'Madrid' #required
 
 #Event Details
 startDateTime: '2019-02-12T00:00' #required (yyyy-mm-ddThh:mm)
 endDateTime: ''
 
 summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'
-
-locationName: 'Liferay Madrid, Spain'
-locationURL: 'https://goo.gl/maps/JQZZugSQ5iG2'
 
 heroImage: ''
 bodyImage: '/images/events/design-at-scale-madrid-2019.jpg'

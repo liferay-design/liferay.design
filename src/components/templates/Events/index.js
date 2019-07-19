@@ -46,8 +46,8 @@ export default class Events extends Component {
 								</span>
 							)}
 							<span className={styles.locationName}>
-								<a href={post.frontmatter.locationURL} target="_blank">
-									{post.frontmatter.locationName}
+								<a href={post.frontmatter.office.mapURL} target="_blank">
+									{post.frontmatter.office.id}, {post.frontmatter.office.region}
 								</a>
 							</span>
 						</h2>
@@ -90,12 +90,15 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				description
 				title
+				office {
+					id
+					city
+					region
+					mapURL
+				}
 				startDateTime
 				endDateTime
-				locationName
-				locationURL
 				heroImage
 				summary
 				bodyImage

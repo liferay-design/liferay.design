@@ -2,19 +2,15 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-avatarIcon: 'fa_universal_access' #requried
 title: 'SGV UX: Impact of Culture on Design and Tech' #requried
 featuredImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg' #requried
-description: 'Los Angeles 🇺🇸' #required
+office: 'Diamond Bar' #required
 
 #Event Details
 startDateTime: '2019-05-07T19:00' #required (yyyy-mm-dd)
 endDateTime: '2019-05-07T22:30'
 
 summary: 'We hosted the third meetup of the San Gabriel Valley UX Group. We ate kimbap, toured the office, and had a great discussion about the impact of culture in design and tech.'
-
-locationName: 'Liferay, Inc – Diamond Bar, CA' #requried (yyyy-mm-ddThh:mm)
-locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
 heroImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg'
 bodyImage: '/images/events/may-2019/great-turnout.jpg'

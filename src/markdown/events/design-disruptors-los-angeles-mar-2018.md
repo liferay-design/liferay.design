@@ -2,19 +2,15 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-avatarIcon: 'fa_film' #requried
 title: 'Design Disruptors Screening' #requried
 featuredImage: '/images/events/design-disruptors-viewing.jpg' #requried
-description: 'Los Angeles 🇺🇸' #required
+office: 'Diamond Bar' #required
 
 #Event Details
 startDateTime: '2018-03-13T18:30' #required (yyyy-mm-ddThh:mm)
 endDateTime: ''
 
 summary: 'It was a rainy day in Southern California so of course traffic was terrible. That probably impacted our attendance, but those who made it out had a great time!'
-
-locationName: 'Liferay, Inc – Diamond Bar, CA' #requried
-locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
 heroImage: ''
 bodyImage: '/images/events/design-disruptors-viewing.jpg'
