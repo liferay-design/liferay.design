@@ -8,11 +8,6 @@
   startDate: 2016-08-18
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: David Aragonés
   title: Senior Product Designer
@@ -24,11 +19,6 @@
   startDate: 2016-08-22
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Cassandra Balbas
   title: UX Design Intern
@@ -84,11 +74,6 @@
   startDate: 2018-02-08
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Andrea Censi
   title: Associate Product Designer
@@ -100,11 +85,6 @@
   startDate: 2018-05-14
   office: Vimercate
   country: Italy
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Julia Yang
   title: Communication Designer
@@ -116,11 +96,6 @@
   startDate: 2017-01-09
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Emiliano Cicero
   title: Product Designer
@@ -132,11 +107,6 @@
   startDate: 2016-08-10
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Ryan Connolly
   title: Manager, Product Design
@@ -148,11 +118,6 @@
   startDate: 2017-04-24
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Vitor Fernandes
   title: Manager, Product Design
@@ -164,11 +129,6 @@
   startDate: 2018-03-12
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Markus Hammer
   title: Senior Communication Designer
@@ -180,11 +140,6 @@
   startDate: 2016-09-15
   office: Eschborn
   country: Germany
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Paul Hanaoka
   title: Manager, Product Design NA
@@ -196,11 +151,12 @@
   startDate: 2014-08-25
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
+  website: https://paul.hanaoka.co
+  dribbble: '@plhnk'
+  instagram: '@plhnk'
+  twitter: '@plhnk'
+  unsplash: '@paul_'
+  medium: '@plhnk'
 
 - id: Abel Hancock
   title: Product Designer
@@ -212,11 +168,6 @@
   startDate: 2017-09-18
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Juan Hidalgo
   title: Director, Design
@@ -228,11 +179,6 @@
   startDate: 2016-10-17
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: András Himer
   title: Product Designer
@@ -244,11 +190,6 @@
   startDate: 2018-05-07
   office: Budapest
   country: Hungary
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Naoki Hisamoto
   title: Communication Designer
@@ -260,11 +201,6 @@
   startDate: 2017-04-18
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Christopher Jeong
   title: Product Designer
@@ -276,11 +212,6 @@
   startDate: 2017-10-16
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: David Kim
   title: Product Designer
@@ -292,11 +223,6 @@
   startDate: 2018-09-17
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Sharon Kim
   title: Communication Designer
@@ -308,11 +234,6 @@
   startDate: 2014-07-21
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Karolina Kolodziej
   title: Associate Product Designer
@@ -324,11 +245,6 @@
   startDate: 2019-05-06
   office: Vimercate
   country: Italy
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Jessica Lee
   title: Communication Designer
@@ -340,11 +256,6 @@
   startDate: 2017-07-10
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: James Lyons
   title: Product Designer
@@ -356,11 +267,6 @@
   startDate: 2018-09-10
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Miriam Manso
   title: Associate Product Designer
@@ -372,11 +278,6 @@
   startDate: 2018-10-15
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Nathália Moura
   title: Product Designer
@@ -388,11 +289,6 @@
   startDate: 2016-11-07
   office: Recife
   country: Brazil
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Patrick Pentz
   title: Product Designer
@@ -404,11 +300,6 @@
   startDate: 2017-08-07
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Felipe Pires
   title: Senior Product Designer
@@ -420,11 +311,6 @@
   startDate: 2015-09-01
   office: Recife
   country: Brazil
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Victor Valle
   title: Manager, Product Design EMEA
@@ -436,11 +322,6 @@
   startDate: 2016-08-18
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Susana Vázquez
   title: Product Designer
@@ -452,11 +333,6 @@
   startDate: 2017-10-18
   office: Madrid
   country: Spain
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Jon Wood
   title: Product Designer
@@ -468,11 +344,6 @@
   startDate: 2019-04-15
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Emily Young
   title: Manager, Communication Design
@@ -484,11 +355,6 @@
   startDate: 2008-08-01
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
 
 - id: Rachel Yuan
   title: Senior Communication Designer
@@ -500,8 +366,20 @@
   startDate: 2013-10-07
   office: Diamond Bar
   country: USA
-  website:
-  dribbble:
-  instagram:
-  twitter:
-  unsplash:
+# Copy, uncomment, and fill out the lines below to add yourself to the site!
+# - id: Your Name (as you'd like to have it — should be accurate with Loop, etc)
+#   title: Your job title
+#   slug: lastname-firstname
+#   headshot: /images/headshots/lastname-firstname.jpg
+#   avatar: /images/headshots/lastname-firstname-h.jpg
+#   active: boolean (true or false) — ideally its true, but maybe not?
+#   icon: either use an existing icon (in static/images/icons), or add one
+#   startDate: yyyy-mm-dd — your start date
+#   office: the office you're based out of
+#   country: what country you live in
+#   website: do you have a personal site?
+#   dribbble: '@handle'
+#   instagram: '@handle'
+#   twitter: '@handle'
+#   unsplash: '@handle'
+#   medium: '@handle'
