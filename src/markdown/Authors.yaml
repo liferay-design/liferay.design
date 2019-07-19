@@ -1,6 +1,8 @@
 - id: Juan Anton
   title: Senior Product Designer
   slug: anton-juan
+  headshot: /images/headshots/anton-juan.jpg
+  avatar: /images/headshots/anton-juan-h.jpg
   active: true
   icon: fa_palette
   startDate: 2016-08-18
@@ -15,6 +17,8 @@
 - id: David Aragones
   title: Senior Product Designer
   slug: aragones-david
+  headshot: /images/headshots/aragones-david.jpg
+  avatar: /images/headshots/aragones-david-h.jpg
   active: true
   icon: fa_universal_access
   startDate: 2016-08-22
@@ -29,6 +33,8 @@
 - id: Duuriimaa Bargaid
   title: Associate Product Designer
   slug: bargaid-duuriimaa
+  headshot: /images/headshots/bargaid-duuriimaa.jpg
+  avatar: /images/headshots/bargaid-duuriimaa-h.jpg
   active: true
   icon: fa_drum
   startDate: 2018-02-08
@@ -43,6 +49,8 @@
 - id: Andrea Censi
   title: Associate Product Designer
   slug: censi-andrea
+  headshot: /images/headshots/censi-andrea.jpg
+  avatar: /images/headshots/censi-andrea-h.jpg
   active: true
   icon: fa_headphones_alt
   startDate: 2018-05-14
@@ -57,6 +65,8 @@
 - id: Julia Yang
   title: Communication Designer
   slug: yang-julia
+  headshot: /images/headshots/yang-julia.jpg
+  avatar: /images/headshots/yang-julia-h.jpg
   active: true
   icon: fa_coffee
   startDate: 2017-01-09
@@ -71,6 +81,8 @@
 - id: Emiliano Cicero
   title: Product Designer
   slug: cicero-emiliano
+  headshot: /images/headshots/cicero-emiliano.jpg
+  avatar: /images/headshots/cicero-emiliano-h.jpg
   active: true
   icon: fa_bezier_curve
   startDate: 2016-08-10
@@ -85,6 +97,8 @@
 - id: Ryan Connolly
   title: Manager, Product Design
   slug: connolly-ryan
+  headshot: /images/headshots/connolly-ryan.jpg
+  avatar: /images/headshots/connolly-ryan-h.jpg
   active: true
   icon: fa_pen
   startDate: 2017-04-24
@@ -99,6 +113,8 @@
 - id: Vitor Fernandes
   title: Manager, Product Design
   slug: fernandes-vitor
+  headshot: /images/headshots/fernandes-vitor.jpg
+  avatar: /images/headshots/fernandes-vitor-h.jpg
   active: true
   icon: fa_rocket
   startDate: 2018-03-12
@@ -113,6 +129,8 @@
 - id: Markus Hammer
   title: Senior Communication Designer
   slug: hammer-markus
+  headshot: /images/headshots/hammer-markus.jpg
+  avatar: /images/headshots/hammer-markus-h.jpg
   active: true
   icon: fa_gavel
   startDate: 2016-09-15
@@ -127,6 +145,8 @@
 - id: Paul Hanaoka
   title: Manager, Product Design NA
   slug: hanaoka-paul
+  headshot: /images/headshots/hanaoka-paul.jpg
+  avatar: /images/headshots/hanaoka-paul-h.jpg
   active: true
   icon: fa_terminal
   startDate: 2014-08-25
@@ -141,6 +161,8 @@
 - id: Abel Hancock
   title: Product Designer
   slug: hancock-abel
+  headshot: /images/headshots/hancock-abel.jpg
+  avatar: /images/headshots/hancock-abel-h.jpg
   active: true
   icon: fa_code
   startDate: 2017-09-18
@@ -155,6 +177,8 @@
 - id: Juan Hidalgo Reina
   title: Director, Design
   slug: Hidalgo reina-juan
+  headshot: /images/headshots/reina-juan.jpg
+  avatar: /images/headshots/reina-juan-h.jpg
   active: true
   icon: fa_heart
   startDate: 2016-10-17
@@ -169,6 +193,8 @@
 - id: András Himer
   title: Product Designer
   slug: himer-andrás
+  headshot: /images/headshots/himer-andrás.jpg
+  avatar: /images/headshots/himer-andrás-h.jpg
   active: true
   icon: fa_heart
   startDate: 2018-05-07
@@ -183,6 +209,8 @@
 - id: Naoki Hisamoto
   title: Communication Designer
   slug: hisamoto-naoki
+  headshot: /images/headshots/hisamoto-naoki.jpg
+  avatar: /images/headshots/hisamoto-naoki-h.jpg
   active: true
   icon: fa_check_double
   startDate: 2017-04-18
@@ -197,6 +225,8 @@
 - id: Christopher Jeong
   title: Product Designer
   slug: jeong-christopher
+  headshot: /images/headshots/jeong-christopher.jpg
+  avatar: /images/headshots/jeong-christopher-h.jpg
   active: true
   icon: fa_glasses
   startDate: 2017-10-16
@@ -211,6 +241,8 @@
 - id: David Kim
   title: Product Designer
   slug: kim-david
+  headshot: /images/headshots/kim-david.jpg
+  avatar: /images/headshots/kim-david-h.jpg
   active: true
   icon: fa_pastafarianism
   startDate: 2018-09-17
@@ -225,6 +257,8 @@
 - id: Sharon Kim
   title: Communication Designer
   slug: kim-sharon
+  headshot: /images/headshots/kim-sharon.jpg
+  avatar: /images/headshots/kim-sharon-h.jpg
   active: true
   icon: fa_pen_fancy
   startDate: 2014-07-21
@@ -239,6 +273,8 @@
 - id: Karolina Kolodziej
   title: Associate Product Designer
   slug: kolodziej-karolina
+  headshot: /images/headshots/kolodziej-karolina.jpg
+  avatar: /images/headshots/kolodziej-karolina-h.jpg
   active: true
   icon: fa_map_marked_alt
   startDate: 2019-05-06
@@ -253,6 +289,8 @@
 - id: Jessica Lee
   title: Communication Designer
   slug: lee-jessica
+  headshot: /images/headshots/lee-jessica.jpg
+  avatar: /images/headshots/lee-jessica-h.jpg
   active: true
   icon: fa_pen_nib
   startDate: 2017-07-10
@@ -267,6 +305,8 @@
 - id: James Lyons
   title: Product Designer
   slug: lyons-james
+  headshot: /images/headshots/lyons-james.jpg
+  avatar: /images/headshots/lyons-james-h.jpg
   active: true
   icon: fa_drum
   startDate: 2018-09-10
@@ -281,6 +321,8 @@
 - id: Miriam Manso
   title: Associate Product Designer
   slug: manso-miriam
+  headshot: /images/headshots/manso-miriam.jpg
+  avatar: /images/headshots/manso-miriam-h.jpg
   active: true
   icon: fa_pointe_shoe
   startDate: 2018-10-15
@@ -295,6 +337,8 @@
 - id: Nathália Moura
   title: Product Designer
   slug: moura-nathália
+  headshot: /images/headshots/moura-nathália.jpg
+  avatar: /images/headshots/moura-nathália-h.jpg
   active: true
   icon: fa_map_marked_alt
   startDate: 2016-11-07
@@ -309,6 +353,8 @@
 - id: Patrick Pentz
   title: Product Designer
   slug: pentz-patrick
+  headshot: /images/headshots/pentz-patrick.jpg
+  avatar: /images/headshots/pentz-patrick-h.jpg
   active: true
   icon: fa_camera
   startDate: 2017-08-07
@@ -323,6 +369,8 @@
 - id: Felipe Pires
   title: Senior Product Designer
   slug: pires-felipe
+  headshot: /images/headshots/pires-felipe.jpg
+  avatar: /images/headshots/pires-felipe-h.jpg
   active: true
   icon: fa_dumbbell
   startDate: 2015-09-01
@@ -337,6 +385,8 @@
 - id: Victor Valle
   title: Manager, Product Design EMEA
   slug: valle-victor
+  headshot: /images/headshots/valle-victor.jpg
+  avatar: /images/headshots/valle-victor-h.jpg
   active: true
   icon: fa_fingerprint
   startDate: 2016-08-18
@@ -351,6 +401,8 @@
 - id: Susana Vázquez
   title: Product Designer
   slug: vázquez-susana
+  headshot: /images/headshots/vázquez-susana.jpg
+  avatar: /images/headshots/vázquez-susana-h.jpg
   active: true
   icon: fa_archway
   startDate: 2017-10-18
@@ -365,6 +417,8 @@
 - id: Jon Wood
   title: Product Designer
   slug: wood-jon
+  headshot: /images/headshots/wood-jon.jpg
+  avatar: /images/headshots/wood-jon-h.jpg
   active: true
   icon: fa_keyboard
   startDate: 2019-04-15
@@ -379,6 +433,8 @@
 - id: Emily Young
   title: Manager, Communication Design
   slug: young-emily
+  headshot: /images/headshots/young-emily.jpg
+  avatar: /images/headshots/young-emily-h.jpg
   active: true
   icon: fa_stroopwafel
   startDate: 2008-08-01
@@ -393,6 +449,8 @@
 - id: Rachel Yuan
   title: Senior Communication Designer
   slug: yuan-rachel
+  headshot: /images/headshots/yuan-rachel.jpg
+  avatar: /images/headshots/yuan-rachel-h.jpg
   active: true
   icon: fa_chess_queen
   startDate: 2013-10-07
