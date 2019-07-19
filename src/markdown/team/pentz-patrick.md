@@ -1,24 +1,15 @@
 ---
-name: 'Patrick Pentz' # what is your name
-title: 'Product Designer' # what is your title?
-headshotPro: '/images/headshots/pentz-patrick.jpg' # put your headshot here
-headshotFun: '/images/headshots/pentz-patrick-h.jpg' # put your headshot here
-dribbble: '' # your dribbble username
-instagram: '' # your instagram username
-twitter: '' # your twitter username
-unsplash: '' # your unsplash username
-active: true # are you an active member of the team?
+author: 'Patrick Pentz' # what is your name
 startYear: '2017'
-icon: 'fa_camera' # add your desired icon here
 ---
 
 ### How did you get into design?
 
-I started designing when my asked me to sell fanwear to his youtube audience. At the time, I couldn't find any anyone to design the graphics so I thought I'd give it a try myself. I discovered that I liked doing it and decided to pursue a career in design. 
+I started designing when my asked me to sell fanwear to his youtube audience. At the time, I couldn't find any anyone to design the graphics so I thought I'd give it a try myself. I discovered that I liked doing it and decided to pursue a career in design.
 
 ### Why are you at Liferay?
 
-I'm working at Liferay to further my design career and to help the company grow. 
+I'm working at Liferay to further my design career and to help the company grow.
 
 ### Favorite tool?
 
@@ -33,7 +24,7 @@ Take Emergen-C when you start to get a cold. If you don't like the taste, mix it
 Instagram
 Dribbble
 Awwwards
-Behance 
+Behance
 Outside when riding my bike
 
 ### One thing you are getting better at?
@@ -42,7 +33,7 @@ Communication
 
 ### One misconception about design you try to clear up?
 
-Designers don't only make things beautiful; at the core, they solve problems for people. 
+Designers don't only make things beautiful; at the core, they solve problems for people.
 
 ### If you weren’t designing, what would you be doing?
 
@@ -66,11 +57,11 @@ Practice by doing personal projects.
 
 ### Most effective productivity booster?
 
-Plan your day, every morning. 
+Plan your day, every morning.
 
 ### What keeps you up at night?
 
-A challenging project 
+A challenging project
 
 ### Shameless plug?
 

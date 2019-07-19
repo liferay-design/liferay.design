@@ -28,11 +28,11 @@ export default class Team extends Component {
 						{matches => {
 							return (
 								<Flex justify={matches ? "center" : "center"} align={matches ? "center" : "center"} className={styles.banner}>
-									<h1>{post.frontmatter.name} { post.frontmatter.startYear ? <span className={styles.startYear}>Designing at Liferay since {post.frontmatter.startYear}</span> : null}</h1>
+									<h1>{post.frontmatter.author.id} { post.frontmatter.startYear ? <span className={styles.startYear}>Designing at Liferay since {post.frontmatter.startYear}</span> : null}</h1>
 									<div className={styles.role}>
-										<h2>{post.frontmatter.title}</h2>
+										<h2>{post.frontmatter.author.title}</h2>
 									</div>
-									<img src={withPrefix(post.frontmatter.headshotFun)} />
+									<img src={withPrefix(post.frontmatter.author.avatar)} />
 								</Flex>
 							)
 						}}
@@ -59,12 +59,9 @@ export const pageQuery = graphql`
 					slug
 					startDate
 					title
+					avatar
 				}
-				authorLink
-				name
 				startYear
-				title
-				headshotFun
 			}
 			code {
 				body

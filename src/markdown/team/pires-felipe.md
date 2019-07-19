@@ -1,14 +1,6 @@
 ---
-name: 'Felipe Pires' # what is your name
-title: 'Product Design Manager'
-headshotPro: '/images/headshots/pires-felipe.jpg' 
-headshotFun: '/images/headshots/pires-felipe-h.jpg' 
-dribbble: 'felipepires' 
-instagram: '@felippires' 
-twitter: '@felipeapiress' 
-active: true 
+author: 'Felipe Pires' # what is your name
 startYear: '2015'
-icon: 'fa_dumbbell' 
 ---
 
 ### How did you get into design?
@@ -58,4 +50,3 @@ Why I would exchange my night of sleep by anything else? I don't want to keep me
 ### Shameless plug?
 
 I love to read music lyrics in my menu bar with [LyricsX](https://apps.apple.com/us/app/lyricsx/id1254743014?mt=12).
-

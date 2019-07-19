@@ -1,11 +1,6 @@
 ---
-name: 'Jon Wood'
-title: 'Product Designer'
-headshotPro: '/images/headshots/wood-jon.jpg'
-headshotFun: '/images/headshots/wood-jon-h.jpg'
-active: true
+author: 'Jon Wood'
 startYear: '2019'
-icon: 'fa_keyboard'
 ---
 
 ### How did you get into design?

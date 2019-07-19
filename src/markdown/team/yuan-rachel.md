@@ -1,11 +1,6 @@
 ---
-name: 'Rachel Yuan'
-title: 'Senior Communication Designer'
-headshotPro: '/images/headshots/yuan-rachel.jpg'
-headshotFun: '/images/headshots/yuan-rachel-h.jpg'
-active: true
+author: 'Rachel Yuan'
 startYear: '2013'
-icon: 'fa_chess_queen'
 ---
 
 ### How did you get into design?

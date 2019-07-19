@@ -1,11 +1,6 @@
 ---
-name: 'Susana Vazquez'
-title: 'Product Designer'
-headshotPro: '/images/headshots/vazquez-susana.jpg'
-headshotFun: '/images/headshots/vazquez-susana-h.jpg'
-active: true
+author: 'Susana Vázquez'
 startYear: '2017'
-icon: 'fa_archway'
 ---
 
 ### How did you get into design?

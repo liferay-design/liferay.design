@@ -1,4 +1,4 @@
-- id: Juan Anton
+- id: Juan Antón
   title: Senior Product Designer
   slug: anton-juan
   headshot: /images/headshots/anton-juan.jpg
@@ -14,7 +14,7 @@
   twitter:
   unsplash:
 
-- id: David Aragones
+- id: David Aragonés
   title: Senior Product Designer
   slug: aragones-david
   headshot: /images/headshots/aragones-david.jpg
@@ -37,6 +37,39 @@
   avatar: /images/headshots/balbas-cassandra-h.jpg
   active: false
   icon: fa_drum
+  startDate: 2018-01-03
+  office: Diamond Bar
+  country: USA
+
+- id: Jadson Dantas
+  title: Product Designer
+  slug: dantas-jadson
+  headshot: /images/headshots/dantas-jadson.jpg
+  avatar: /images/headshots/dantas-jadson-h.jpg
+  active: false
+  icon: fa_music
+  startDate: 2018-01-03
+  office: Recife
+  country: Brazil
+
+- id: Rafael Fernandes
+  title: Product Designer
+  slug: fernandes-rafael
+  headshot: /images/headshots/fernandes-rafael.jpg
+  avatar: /images/headshots/fernandes-rafael-h.jpg
+  active: false
+  icon: fa_music
+  startDate: 2018-01-03
+  office: Recife
+  country: Brazil
+
+- id: Bryan Ho
+  title: Associate Communication Design Manager
+  slug: ho-bryan
+  headshot: /images/headshots/ho-bryan.jpg
+  avatar: /images/headshots/ho-bryan-h.jpg
+  active: false
+  icon: fa_music
   startDate: 2018-01-03
   office: Diamond Bar
   country: USA
@@ -76,8 +109,8 @@
 - id: Julia Yang
   title: Communication Designer
   slug: yang-julia
-  headshot: /images/headshots/yang-julia.jpg
-  avatar: /images/headshots/yang-julia-h.jpg
+  headshot: /images/headshots/chan-julia.jpg
+  avatar: /images/headshots/chan-julia-h.jpg
   active: true
   icon: fa_coffee
   startDate: 2017-01-09
@@ -188,8 +221,8 @@
 - id: Juan Hidalgo
   title: Director, Design
   slug: hidalgo-juan
-  headshot: /images/headshots/reina-juan.jpg
-  avatar: /images/headshots/reina-juan-h.jpg
+  headshot: /images/headshots/hidalgo-juan.jpg
+  avatar: /images/headshots/hidalgo-juan-h.jpg
   active: true
   icon: fa_heart
   startDate: 2016-10-17
@@ -203,9 +236,9 @@
 
 - id: András Himer
   title: Product Designer
-  slug: himer-andrás
-  headshot: /images/headshots/himer-andrás.jpg
-  avatar: /images/headshots/himer-andrás-h.jpg
+  slug: himer-andras
+  headshot: /images/headshots/-upside-down-face.png
+  avatar: /images/headshots/-upside-down-face.png
   active: true
   icon: fa_heart
   startDate: 2018-05-07
@@ -235,9 +268,9 @@
 
 - id: Christopher Jeong
   title: Product Designer
-  slug: jeong-christopher
-  headshot: /images/headshots/jeong-christopher.jpg
-  avatar: /images/headshots/jeong-christopher-h.jpg
+  slug: jeong-chris
+  headshot: /images/headshots/jeong-chris.jpg
+  avatar: /images/headshots/jeong-chris-h.jpg
   active: true
   icon: fa_glasses
   startDate: 2017-10-16
@@ -268,8 +301,8 @@
 - id: Sharon Kim
   title: Communication Designer
   slug: kim-sharon
-  headshot: /images/headshots/kim-sharon.jpg
-  avatar: /images/headshots/kim-sharon-h.jpg
+  headshot: /images/headshots/wong-sharon.jpg
+  avatar: /images/headshots/wong-sharon-h.jpg
   active: true
   icon: fa_pen_fancy
   startDate: 2014-07-21
@@ -347,9 +380,9 @@
 
 - id: Nathália Moura
   title: Product Designer
-  slug: moura-nathália
-  headshot: /images/headshots/moura-nathália.jpg
-  avatar: /images/headshots/moura-nathália-h.jpg
+  slug: moura-nathalia
+  headshot: /images/headshots/moura-nathalia.jpg
+  avatar: /images/headshots/moura-nathalia-h.jpg
   active: true
   icon: fa_map_marked_alt
   startDate: 2016-11-07
@@ -411,9 +444,9 @@
 
 - id: Susana Vázquez
   title: Product Designer
-  slug: vázquez-susana
-  headshot: /images/headshots/vázquez-susana.jpg
-  avatar: /images/headshots/vázquez-susana-h.jpg
+  slug: vazquez-susana
+  headshot: /images/headshots/vazquez-susana.jpg
+  avatar: /images/headshots/vazquez-susana-h.jpg
   active: true
   icon: fa_archway
   startDate: 2017-10-18

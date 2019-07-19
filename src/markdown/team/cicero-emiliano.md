@@ -1,11 +1,6 @@
 ---
-name: 'Emiliano Cicero'
-title: 'Product Designer'
-headshotPro: '/images/headshots/cicero-emiliano.jpg'
-headshotFun: '/images/headshots/cicero-emiliano-h.jpg'
-active: true
+author: 'Emiliano Cicero'
 startYear: '2016'
-icon: 'fa_bezier_curve'
 ---
 
 ### How did you get into design? 🚀

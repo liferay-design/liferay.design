@@ -1,11 +1,6 @@
 ---
-name: 'Juan Hidalgo'
-title: 'Design Director'
-headshotPro: '/images/headshots/hidalgo-juan.jpg'
-headshotFun: '/images/headshots/hidalgo-juan-h.jpg'
-active: true
+author: 'Juan Hidalgo'
 startYear: '2012'
-icon: 'fa_heart'
 ---
 
 ### How did you get into design?

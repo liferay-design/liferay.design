@@ -1,11 +1,6 @@
 ---
-name: 'James Lyons'
-title: 'Product Designer'
-headshotPro: '/images/headshots/lyons-james.jpg'
-headshotFun: '/images/headshots/lyons-james-h.jpg'
-active: true
+author: 'James Lyons'
 startYear: '2018'
-icon: 'fa_drum'
 ---
 
 ### Favorite tool?

@@ -1,11 +1,6 @@
 ---
-name: 'Emily Young'
-title: 'Communication Design Manager'
-headshotPro: '/images/headshots/young-emily.jpg'
-headshotFun: '/images/headshots/young-emily-h.jpg'
-active: true
+author: 'Emily Young'
 startYear: '2008'
-icon: 'fa_stroopwafel'
 ---
 
 ### How did you get into design?

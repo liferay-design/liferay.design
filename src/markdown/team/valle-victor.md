@@ -1,11 +1,6 @@
 ---
-name: 'Victor Valle'
-title: 'Product Design Manager'
-headshotPro: '/images/headshots/valle-victor.jpg'
-headshotFun: '/images/headshots/valle-victor-h.jpg'
-active: true
+author: 'Victor Valle'
 startYear: '2016'
-icon: 'fa_fingerprint'
 ---
 
 ### Favorite tool? ✏️
