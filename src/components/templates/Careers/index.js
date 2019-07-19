@@ -28,7 +28,7 @@ export default class Careers extends Component {
 					<div className={styles.largeContainer}>
 						<h1>
 							{post.frontmatter.title}
-							<span>{post.frontmatter.office}, {post.frontmatter.region} </span>
+							<span>{post.frontmatter.office.city}, {post.frontmatter.office.region} </span>
 						</h1>
 					</div>
 				</Flex>
@@ -67,9 +67,11 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				region
 				jobId
-				office
+				office {
+					city
+					region
+				}
 				title
 			}
 			code {
