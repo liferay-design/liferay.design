@@ -65,7 +65,7 @@ export const query = graphql`
 						title
 						description
 						featuredImage
-						author
+						author {}
 						startDateTime
 					}
 					fields {

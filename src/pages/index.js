@@ -68,7 +68,9 @@ export const query = graphql`
 						title
 						description
 						featuredImage
-						author
+						author {
+							slug
+						}
 						avatar
 						date(formatString: "MMMM DD, YYYY")
 					}

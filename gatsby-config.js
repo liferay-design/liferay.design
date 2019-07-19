@@ -23,7 +23,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-tagmanager`,
 			options: {
-				id: "GTM-WWQK8ZR",
+				id: 'GTM-WWQK8ZR',
 
 				// Include GTM in development.
 				// Defaults to false meaning GTM will only be loaded in production.
@@ -44,11 +44,11 @@ module.exports = {
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
-		{		  
+		{
 			resolve: `gatsby-plugin-typography`,
 			options: {
-			pathToConfigModule: `src/utils/typography`,
-			}
+				pathToConfigModule: `src/utils/typography`,
+			},
 		},
 		{
 			resolve: 'gatsby-source-filesystem',
@@ -64,6 +64,7 @@ module.exports = {
 				name: 'images',
 			},
 		},
+		`gatsby-transformer-yaml`,
 		{
 			resolve: 'gatsby-mdx',
 			options: {
@@ -88,4 +89,8 @@ module.exports = {
 			},
 		},
 	],
+	mapping: {
+		'MarkdownRemark.frontmatter.author': `AuthorsYaml`,
+		'Mdx.frontmatter.author': `AuthorsYaml`,
+	},
 }
