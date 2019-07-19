@@ -7,7 +7,6 @@
   icon: fa_palette
   startDate: 2016-08-18
   office: Madrid
-  country: Spain
 
 - id: David Aragonés
   title: Senior Product Designer
@@ -18,7 +17,6 @@
   icon: fa_universal_access
   startDate: 2016-08-22
   office: Madrid
-  country: Spain
 
 - id: Cassandra Balbas
   title: UX Design Intern
@@ -29,7 +27,6 @@
   icon: fa_drum
   startDate: 2018-01-03
   office: Diamond Bar
-  country: USA
 
 - id: Jadson Dantas
   title: Product Designer
@@ -40,7 +37,6 @@
   icon: fa_music
   startDate: 2018-01-03
   office: Recife
-  country: Brazil
 
 - id: Rafael Fernandes
   title: Product Designer
@@ -51,7 +47,6 @@
   icon: fa_music
   startDate: 2018-01-03
   office: Recife
-  country: Brazil
 
 - id: Bryan Ho
   title: Associate Communication Design Manager
@@ -62,7 +57,6 @@
   icon: fa_music
   startDate: 2018-01-03
   office: Diamond Bar
-  country: USA
 
 - id: Duuriimaa Bargaid
   title: Associate Product Designer
@@ -73,7 +67,6 @@
   icon: fa_drum
   startDate: 2018-02-08
   office: Madrid
-  country: Spain
 
 - id: Andrea Censi
   title: Associate Product Designer
@@ -83,8 +76,7 @@
   active: true
   icon: fa_headphones_alt
   startDate: 2018-05-14
-  office: Vimercate
-  country: Italy
+  office: Concorezzo
 
 - id: Julia Yang
   title: Communication Designer
@@ -95,7 +87,6 @@
   icon: fa_coffee
   startDate: 2017-01-09
   office: Diamond Bar
-  country: USA
 
 - id: Emiliano Cicero
   title: Product Designer
@@ -106,7 +97,6 @@
   icon: fa_bezier_curve
   startDate: 2016-08-10
   office: Madrid
-  country: Spain
 
 - id: Ryan Connolly
   title: Manager, Product Design
@@ -117,7 +107,6 @@
   icon: fa_pen
   startDate: 2017-04-24
   office: Diamond Bar
-  country: USA
 
 - id: Vitor Fernandes
   title: Manager, Product Design
@@ -128,7 +117,6 @@
   icon: fa_rocket
   startDate: 2018-03-12
   office: Diamond Bar
-  country: USA
 
 - id: Markus Hammer
   title: Senior Communication Designer
@@ -139,7 +127,6 @@
   icon: fa_gavel
   startDate: 2016-09-15
   office: Eschborn
-  country: Germany
 
 - id: Paul Hanaoka
   title: Manager, Product Design NA
@@ -150,7 +137,6 @@
   icon: fa_terminal
   startDate: 2014-08-25
   office: Diamond Bar
-  country: USA
   website: https://paul.hanaoka.co
   dribbble: '@plhnk'
   instagram: '@plhnk'
@@ -167,7 +153,6 @@
   icon: fa_code
   startDate: 2017-09-18
   office: Diamond Bar
-  country: USA
 
 - id: Juan Hidalgo
   title: Director, Design
@@ -178,7 +163,6 @@
   icon: fa_heart
   startDate: 2016-10-17
   office: Diamond Bar
-  country: USA
 
 - id: András Himer
   title: Product Designer
@@ -189,7 +173,6 @@
   icon: fa_heart
   startDate: 2018-05-07
   office: Budapest
-  country: Hungary
 
 - id: Naoki Hisamoto
   title: Communication Designer
@@ -200,7 +183,6 @@
   icon: fa_check_double
   startDate: 2017-04-18
   office: Diamond Bar
-  country: USA
 
 - id: Christopher Jeong
   title: Product Designer
@@ -211,7 +193,6 @@
   icon: fa_glasses
   startDate: 2017-10-16
   office: Diamond Bar
-  country: USA
 
 - id: David Kim
   title: Product Designer
@@ -222,7 +203,6 @@
   icon: fa_pastafarianism
   startDate: 2018-09-17
   office: Diamond Bar
-  country: USA
 
 - id: Sharon Kim
   title: Communication Designer
@@ -233,7 +213,6 @@
   icon: fa_pen_fancy
   startDate: 2014-07-21
   office: Diamond Bar
-  country: USA
 
 - id: Karolina Kolodziej
   title: Associate Product Designer
@@ -243,8 +222,7 @@
   active: true
   icon: fa_map_marked_alt
   startDate: 2019-05-06
-  office: Vimercate
-  country: Italy
+  office: Concorezzo
 
 - id: Jessica Lee
   title: Communication Designer
@@ -255,7 +233,6 @@
   icon: fa_pen_nib
   startDate: 2017-07-10
   office: Diamond Bar
-  country: USA
 
 - id: James Lyons
   title: Product Designer
@@ -266,7 +243,6 @@
   icon: fa_drum
   startDate: 2018-09-10
   office: Diamond Bar
-  country: USA
 
 - id: Miriam Manso
   title: Associate Product Designer
@@ -277,7 +253,6 @@
   icon: fa_pointe_shoe
   startDate: 2018-10-15
   office: Madrid
-  country: Spain
 
 - id: Nathália Moura
   title: Product Designer
@@ -288,7 +263,6 @@
   icon: fa_map_marked_alt
   startDate: 2016-11-07
   office: Recife
-  country: Brazil
 
 - id: Patrick Pentz
   title: Product Designer
@@ -299,7 +273,6 @@
   icon: fa_camera
   startDate: 2017-08-07
   office: Diamond Bar
-  country: USA
 
 - id: Felipe Pires
   title: Senior Product Designer
@@ -310,7 +283,6 @@
   icon: fa_dumbbell
   startDate: 2015-09-01
   office: Recife
-  country: Brazil
 
 - id: Victor Valle
   title: Manager, Product Design EMEA
@@ -321,7 +293,6 @@
   icon: fa_fingerprint
   startDate: 2016-08-18
   office: Madrid
-  country: Spain
 
 - id: Susana Vázquez
   title: Product Designer
@@ -332,7 +303,6 @@
   icon: fa_archway
   startDate: 2017-10-18
   office: Madrid
-  country: Spain
 
 - id: Jon Wood
   title: Product Designer
@@ -343,7 +313,6 @@
   icon: fa_keyboard
   startDate: 2019-04-15
   office: Diamond Bar
-  country: USA
 
 - id: Emily Young
   title: Manager, Communication Design
@@ -354,7 +323,6 @@
   icon: fa_stroopwafel
   startDate: 2008-08-01
   office: Diamond Bar
-  country: USA
 
 - id: Rachel Yuan
   title: Senior Communication Designer
@@ -365,7 +333,6 @@
   icon: fa_chess_queen
   startDate: 2013-10-07
   office: Diamond Bar
-  country: USA
 # Copy, uncomment, and fill out the lines below to add yourself to the site!
 # - id: Your Name (as you'd like to have it — should be accurate with Loop, etc)
 #   title: Your job title
@@ -376,7 +343,7 @@
 #   icon: either use an existing icon (in static/images/icons), or add one
 #   startDate: yyyy-mm-dd — your start date
 #   office: the office you're based out of
-#   country: what country you live in
+#
 #   website: do you have a personal site?
 #   dribbble: '@handle'
 #   instagram: '@handle'
