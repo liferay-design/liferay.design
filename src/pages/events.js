@@ -32,14 +32,15 @@ export default ({ data }) => {
 				<CardGrid>
 					{cardData.map(({ node }) => (
 						<CardDefault
+							avatarImage
 							pill
 							// tag={node.frontmatter.tag}
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
-							subtitle={node.frontmatter.description}
-							icon={node.frontmatter.avatarIcon}
+							subtitle={node.frontmatter.office.city}
+							avatarImageURL={node.frontmatter.office.regionIcon}
 						/>
 					))}
 				</CardGrid>
@@ -63,9 +64,11 @@ export const query = graphql`
 					id
 					frontmatter {
 						title
-						description
+						office {
+							city
+							regionIcon
+						}
 						featuredImage
-						avatarIcon
 						startDateTime
 					}
 					fields {

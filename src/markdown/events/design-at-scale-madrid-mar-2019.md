@@ -2,19 +2,15 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-avatarIcon: 'fa_check_double' #requried
 title: 'Design at Scale' #requried
 featuredImage: '/images/events/angulo-meetup.jpeg' #requried
-description: 'Madrid 🇪🇸' #required
+office: 'Madrid' #required
 
 #Event Details
 startDateTime: '2019-03-28T19:00' #required (yyyy-mm-ddThh:mm)
 endDateTime: '2019-03-28T22:00'
 
 summary: 'De la teoría a la práctica: cómo habitar un sistema de diseño conducido por Antonio Angulo'
-
-locationName: 'Liferay Madrid, Spain'
-locationURL: 'https://goo.gl/maps/JQZZugSQ5iG2'
 
 heroImage: ''
 bodyImage: '/images/events/mad-meetup.jpg'

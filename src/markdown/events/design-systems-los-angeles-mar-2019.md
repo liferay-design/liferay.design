@@ -2,19 +2,15 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-avatarIcon: 'fa_figma' #requried
 title: 'Figma LA: Design Systems Meetup' #requried
 featuredImage: '/images/events/lr-figma-la-design-systems-31.jpg' #requried
-description: 'Los Angeles 🇺🇸' #required
+office: 'Diamond Bar' #required
 
 #Event Details
 startDateTime: '2019-03-26T18:30' #required (yyyy-mm-dd)
 endDateTime: '2019-03-26T20:30'
 
 summary: 'Liferay’s Design Team hosted the first meetup of the Figma LA User Group. It was an evening of fun, best practices, and practical examples for components and team libraries in the context of design systems.'
-
-locationName: 'Liferay, Inc – Diamond Bar, CA' #requried (yyyy-mm-ddThh:mm)
-locationURL: 'https://goo.gl/maps/q1BzwoswY112'
 
 heroImage: '/images/events/design-systems-recap-march-2019.jpg'
 bodyImage: '/images/events/lr-figma-la-design-systems-6.jpg'

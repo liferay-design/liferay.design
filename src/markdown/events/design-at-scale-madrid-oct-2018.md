@@ -2,19 +2,15 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-avatarIcon: 'fa_object_group' #requried
 title: 'Design at Scale' #requried
 featuredImage: '/images/events/design-at-scale-madrid-2018.jpg' #requried
-description: 'Madrid 🇪🇸' #required
+office: 'Madrid' #required
 
 #Event Details
 startDateTime: '2018-10-10T19:30' #required (yyyy-mm-dd)
 endDateTime: ''
 
 summary: 'The evening started with a brief introduction to design ops from Ale M. Later, Alfonso Morcuende made an immersion into design tokens by guiding the talk through Realized design system Thonet.'
-
-locationName: 'Liferay Madrid, Spain'
-locationURL: 'https://goo.gl/maps/JQZZugSQ5iG2'
 
 heroImage: ''
 bodyImage: '/images/events/design-at-scale-madrid-2018.jpg'
