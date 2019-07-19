@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_check_double' #requried
+avatarIcon: 'fa_check_double' #requried
 title: 'Design at Scale' #requried
 featuredImage: '/images/events/angulo-meetup.jpeg' #requried
 description: 'Madrid 🇪🇸' #required

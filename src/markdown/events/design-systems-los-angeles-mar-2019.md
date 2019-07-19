@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_figma' #requried
+avatarIcon: 'fa_figma' #requried
 title: 'Figma LA: Design Systems Meetup' #requried
 featuredImage: '/images/events/lr-figma-la-design-systems-31.jpg' #requried
 description: 'Los Angeles 🇺🇸' #required

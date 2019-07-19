@@ -90,8 +90,6 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				author {}
-				authorLink
 				description
 				title
 				startDateTime

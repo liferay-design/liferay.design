@@ -39,7 +39,7 @@ export default ({ data }) => {
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={node.frontmatter.description}
-							icon={node.frontmatter.author}
+							icon={node.frontmatter.avatarIcon}
 						/>
 					))}
 				</CardGrid>
@@ -65,7 +65,7 @@ export const query = graphql`
 						title
 						description
 						featuredImage
-						author {}
+						avatarIcon
 						startDateTime
 					}
 					fields {

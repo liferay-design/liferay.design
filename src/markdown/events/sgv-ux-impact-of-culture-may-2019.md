@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_universal_access' #requried
+avatarIcon: 'fa_universal_access' #requried
 title: 'SGV UX: Impact of Culture on Design and Tech' #requried
 featuredImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg' #requried
 description: 'Los Angeles 🇺🇸' #required

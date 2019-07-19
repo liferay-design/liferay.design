@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_object_group' #requried
+avatarIcon: 'fa_object_group' #requried
 title: 'Design at Scale' #requried
 featuredImage: '/images/events/design-at-scale-madrid-2018.jpg' #requried
 description: 'Madrid 🇪🇸' #required

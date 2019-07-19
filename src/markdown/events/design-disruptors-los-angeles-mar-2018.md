@@ -2,7 +2,7 @@
 draft: false #requried (true or false)
 
 #Event Card Fields
-author: 'fa_film' #requried
+avatarIcon: 'fa_film' #requried
 title: 'Design Disruptors Screening' #requried
 featuredImage: '/images/events/design-disruptors-viewing.jpg' #requried
 description: 'Los Angeles 🇺🇸' #required
