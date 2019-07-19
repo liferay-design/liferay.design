@@ -1,11 +1,11 @@
 ---
-cityRegion: 'Los Angeles, CA'
-applyLink: 'https://app.jobvite.com/j?aj=oqKh9fwk&s=liferay-dot-design'
+region: 'CA'
+jobId: 'oqKh9fwk'
 date: '2018-12-10'
 title: 'Product Designer'
-description: 'Los Angeles 🇺🇸'
+office: 'Los Angeles'
 featuredImage: '/images/posts/ux-designer.jpg'
-avatar: '/images/headshots/-nerd-face.png'
+regionIcon: '/images/headshots/-nerd-face.png'
 published: false
 ---
 
@@ -41,7 +41,7 @@ You’ll have plenty of variety, sometimes the projects are flashy and exciting 
 -   Do you have demonstrable passion for usability?
 -   Can you design sans ego?
 -   Are you a [T-shaped designer](https://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoaes-collaborative-culture__trashed/)?
--   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-description/) should cover it :)
+-   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-office/) should cover it :)
 
 ## How Do Liferay’s Core Values Look in the Design Team?
 

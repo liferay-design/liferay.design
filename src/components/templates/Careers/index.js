@@ -17,6 +17,8 @@ const ApplyButton = styled(Button)`
 export default class Careers extends Component {
 	render() {
 		const post = this.props.data.mdx
+		const applyLink =
+			'https://app.jobvite.com/j?aj='+`${post.frontmatter.jobId}`+'&s=liferay-dot-design'
 
 		return (
 			<div>
@@ -26,7 +28,7 @@ export default class Careers extends Component {
 					<div className={styles.largeContainer}>
 						<h1>
 							{post.frontmatter.title}
-							<span>{post.frontmatter.cityRegion} </span>
+							<span>{post.frontmatter.office}, {post.frontmatter.region} </span>
 						</h1>
 						{/* <div className={styles.role}>
 						<h2>{post.frontmatter.description}</h2>
@@ -41,7 +43,7 @@ export default class Careers extends Component {
 								as="a"
 								target="new"
 								opaque="false"
-								href={post.frontmatter.applyLink}
+								href={applyLink}
 							>
 								Apply on Jobvite{' '}
 								<Icon
@@ -68,9 +70,9 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
-				cityRegion
-				applyLink
-				description
+				region
+				jobId
+				office
 				title
 			}
 			code {

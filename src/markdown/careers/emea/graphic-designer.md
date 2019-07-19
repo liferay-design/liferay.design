@@ -1,11 +1,11 @@
 ---
-cityRegion: 'Madrid, Spain'
-applyLink: 'https://jobs.jobvite.com/liferay/job/oPun8fwy/apply'
+region: 'Spain'
+jobId: 'oPun8fwy'
 date: '2019-02-28'
 title: 'Communication Designer'
-description: 'Madrid 🇪🇸'
+office: 'Madrid'
 featuredImage: '/images/events/ldsf-2017-markus.jpg'
-avatar: '/images/headshots/-heart-eyes-cat.png'
+regionIcon: '/images/headshots/-heart-eyes-cat.png'
 published: true
 ---
 
@@ -53,7 +53,7 @@ Four Words: Integrated Lead-Generation Campaigns
 
 -   Are you a highly effective person?
 -   Can you design sans ego?
--   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-description/) should cover it :)
+-   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-office/) should cover it :)
 
 ## How Do Liferay’s Core Values Look in the Design Team?
 
