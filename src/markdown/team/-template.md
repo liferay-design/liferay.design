@@ -1,5 +1,5 @@
 ---
-author: # what is your name
+author: Juan Hidalgo # what is your name
 ---
 
 ### How did you get into design?
