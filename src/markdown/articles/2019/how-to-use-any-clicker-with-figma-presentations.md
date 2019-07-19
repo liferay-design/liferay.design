@@ -4,6 +4,7 @@ date: '2019-03-27T17:12:33.962Z'
 title: 'How To Use Any Clicker With Figma Presentations (mac)'
 readTime: '3 Min Read'
 featuredImage: '/images/posts/figma-clicker/cover.png'
+publish: true
 ---
 
 Hey friends. No time for chit-chat today. You are trying present slides in Figma and your clicker isn't... clicking. Good news, this is an easy fix!

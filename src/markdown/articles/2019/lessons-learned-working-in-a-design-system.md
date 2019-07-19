@@ -4,6 +4,7 @@ date: '2019-07-08T14:00:00.000Z'
 title: 'Lessons Learned Working in a Design System'
 readTime: '6 Min Read'
 featuredImage: '/images/posts/library.jpg'
+publish: true
 ---
 
 For the last 2.5 years I've been working in [Lexicon](https://liferay.design/lexicon). It is Liferay's design system, not only for our applications but for everyone to use and extend. I have learned and will continue learning a lot in this project. I hope by sharing my experience can help you too.

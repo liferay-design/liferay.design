@@ -4,6 +4,7 @@ date: '2018-12-06'
 title: 'Reflecting on My First Year Designing at Liferay'
 readTime: '9 Min Read'
 featuredImage: '/images/posts/pj-first-year.jpeg'
+publish: true
 ---
 
 _Learning to work across different teams as a UX Designer_

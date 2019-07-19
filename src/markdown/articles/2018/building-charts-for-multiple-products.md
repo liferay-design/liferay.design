@@ -4,6 +4,7 @@ date: '2018-09-10T17:12:33.962Z'
 title: 'Building Charts for Multiple Products'
 readTime: '4 Min Read'
 featuredImage: '/images/posts/building-charts.jpeg'
+publish: true
 ---
 
 _With Liferay releasing new products such as Analytics Cloud and Commerce we decided to cover the need for charts by providing an open source library._

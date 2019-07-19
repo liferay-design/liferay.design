@@ -4,6 +4,7 @@ date: '2018-04-25'
 title: '(81) Days of Liferay'
 readTime: '3 Min Read'
 featuredImage: '/images/headshots/balbas-cassandra-h.jpg'
+publish: true
 ---
 
 ## How did you hear about Liferay?

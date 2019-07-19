@@ -4,6 +4,7 @@ date: '2019-04-07T17:12:33.962Z'
 title: 'Netlify vs. Zeit vs. Github Pages'
 readTime: '5 Min Read'
 featuredImage: '/images/posts/netlify-vs-zeit-vs-github-pages.png'
+publish: true
 ---
 
 The Liferay Design team made regular use of Liferay’s developer-centric deployment platform, WeDeploy. Static sites like [our primary domain](/)(this site) and [Lexicon](https://lexicondesign.io), as well as standalone apps like our [NA team dashboard](https://dashboard.liferay.design) and our [Career Path tool](https://path.liferay.design) (a work in progress), and small pages like our [web assets repo](https://assets-liferaydotdesign.wedeploy.io/) page (very much a #wip).

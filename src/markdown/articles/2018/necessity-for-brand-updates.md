@@ -4,6 +4,7 @@ date: '2018-12-10'
 title: 'Brand Updates at Liferay'
 readTime: '6 Min Read'
 featuredImage: '/images/posts/dribbble-coaster.jpg'
+publish: true
 ---
 
 What is Liferay DXP? I’m sure you’ve asked yourself this question. I’m even more sure you’ve heard someone else ask this question.

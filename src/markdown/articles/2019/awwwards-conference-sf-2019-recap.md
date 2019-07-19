@@ -4,6 +4,7 @@ date: '2019-05-30T14:00:00.000Z'
 title: 'Awwwards Conference SF 2019 Recap'
 readTime: '10 Min Read'
 featuredImage: '/images/posts/awwwards-conf/awwwards-banner.png'
+publish: true
 ---
 
 ![Awwwards Conference San Francisco 2019](/images/posts/awwwards-conf/awwwards-sf-banner-png.png)
