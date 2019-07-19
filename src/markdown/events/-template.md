@@ -1,4 +1,4 @@
-<!-- ---
+---
 draft: true #required boolean (true or false)
 
 #Event Card Fields
@@ -18,4 +18,4 @@ bodyImage: 'https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=r
 ctaURL: 'example.com'
 ---
 
-markdown content -->
+markdown content
