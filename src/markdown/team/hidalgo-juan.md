@@ -1,6 +1,5 @@
 ---
 author: 'Juan Hidalgo'
-startYear: '2012'
 ---
 
 ### How did you get into design?

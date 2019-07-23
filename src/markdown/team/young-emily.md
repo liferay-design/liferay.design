@@ -1,6 +1,5 @@
 ---
 author: 'Emily Young'
-startYear: '2008'
 ---
 
 ### How did you get into design?

@@ -1,6 +1,5 @@
 ---
 author: 'Emiliano Cicero'
-startYear: '2016'
 ---
 
 ### How did you get into design? 🚀

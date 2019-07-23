@@ -7,6 +7,7 @@ import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import { Container } from 'components/atoms'
 import MediaQuery from 'react-responsive'
+import moment from 'moment'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -28,7 +29,7 @@ export default class Team extends Component {
 						{matches => {
 							return (
 								<Flex justify={matches ? "center" : "center"} align={matches ? "center" : "center"} className={styles.banner}>
-									<h1>{post.frontmatter.author.id} { post.frontmatter.startYear ? <span className={styles.startYear}>Designing at Liferay since {post.frontmatter.startYear}</span> : null}</h1>
+									<h1>{post.frontmatter.author.id} { post.frontmatter.author.startDate ? <span className={styles.startYear}>Designing at Liferay since {moment(post.frontmatter.author.startDate).format('YYYY')}</span> : null}</h1>
 									<div className={styles.role}>
 										<h2>{post.frontmatter.author.title}</h2>
 									</div>
@@ -61,7 +62,6 @@ export const pageQuery = graphql`
 					title
 					avatar
 				}
-				startYear
 			}
 			code {
 				body

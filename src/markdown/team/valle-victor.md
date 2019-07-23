@@ -1,6 +1,5 @@
 ---
 author: 'Victor Valle'
-startYear: '2016'
 ---
 
 ### Favorite tool? ✏️

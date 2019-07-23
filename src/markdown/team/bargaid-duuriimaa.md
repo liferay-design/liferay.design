@@ -1,6 +1,5 @@
 ---
 author: 'Duuriimaa Bargaid'
-startYear: '2018'
 ---
 
 ### How did you get into design?

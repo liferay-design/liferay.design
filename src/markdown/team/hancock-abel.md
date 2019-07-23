@@ -1,6 +1,5 @@
 ---
 author: 'Abel Hancock'
-startYear: '2017'
 ---
 
 ### Favorite tool? 🛠

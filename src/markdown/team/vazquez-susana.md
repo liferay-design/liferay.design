@@ -1,6 +1,5 @@
 ---
 author: 'Susana Vázquez'
-startYear: '2017'
 ---
 
 ### How did you get into design?

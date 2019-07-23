@@ -1,6 +1,5 @@
 ---
 author: 'Sharon Kim'
-startYear: '2014'
 ---
 
 ### How did you get into design?
