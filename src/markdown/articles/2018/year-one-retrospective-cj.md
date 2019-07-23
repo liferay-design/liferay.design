@@ -2,7 +2,6 @@
 author: 'Christopher Jeong'
 date: '2018-11-29'
 title: 'Year 1 Retrospective'
-readTime: '5 Min Read'
 featuredImage: '/images/posts/cj-change.jpeg'
 publish: true
 ---

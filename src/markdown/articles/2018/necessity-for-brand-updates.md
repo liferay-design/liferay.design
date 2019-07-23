@@ -2,7 +2,6 @@
 author: 'Paul Hanaoka'
 date: '2018-12-10'
 title: 'Brand Updates at Liferay'
-readTime: '6 Min Read'
 featuredImage: '/images/posts/dribbble-coaster.jpg'
 publish: true
 ---

@@ -2,7 +2,6 @@
 author: 'Juan Hidalgo'
 date: '2018-04-27'
 title: 'Liferay Design Week 2018 is over'
-readTime: '5 Min Read'
 featuredImage: '/images/posts/design-week-team.jpeg'
 publish: true
 ---

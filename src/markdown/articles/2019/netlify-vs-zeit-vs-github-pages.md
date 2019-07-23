@@ -2,7 +2,6 @@
 author: 'Paul Hanaoka'
 date: '2019-04-07T17:12:33.962Z'
 title: 'Netlify vs. Zeit vs. Github Pages'
-readTime: '5 Min Read'
 featuredImage: '/images/posts/netlify-vs-zeit-vs-github-pages.png'
 publish: true
 ---
