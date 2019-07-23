@@ -20,15 +20,21 @@ export default ({ data }) => {
 				<Heading align="center" color="white" level="1">
 					Receive Monthly Updates
 				</Heading>
-				<Text align="center" maxWidth='54ch' size="medium" color="lightGrey" center>
-					No mystery meat here! We share a monthly roundup of cool links, articles, job
-					listings, and more.
+				<Text
+					align="center"
+					maxWidth="54ch"
+					size="medium"
+					color="lightGrey"
+					center
+				>
+					No mystery meat here! We share a monthly roundup of cool links,
+					articles, job listings, and more.
 				</Text>
 				<div className={styles.coolForm}>
 					<FormNewsletter
-					placeholderText="Your Email Address"
-					submitText="Subscribe"
-				/>
+						placeholderText="Your Email Address"
+						submitText="Subscribe"
+					/>
 				</div>
 			</Container>
 			<Container background="#fff" padding="8rem 0 8rem">
@@ -43,7 +49,7 @@ export default ({ data }) => {
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
-							subtitle={node.frontmatter.description}
+							subtitle={`${node.timeToRead}` + ' Min Read'}
 							avatarImageURL={node.frontmatter.author.avatar}
 						/>
 					))}
@@ -64,9 +70,9 @@ export const query = graphql`
 			edges {
 				node {
 					id
+					timeToRead
 					frontmatter {
 						title
-						description
 						featuredImage
 						author {
 							slug
