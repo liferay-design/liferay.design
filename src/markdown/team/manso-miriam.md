@@ -1,6 +1,5 @@
 ---
 author: 'Miriam Manso'
-startYear: '2018'
 ---
 
 ### How did you get into design?

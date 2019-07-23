@@ -1,6 +1,5 @@
 ---
 author: 'Felipe Pires' # what is your name
-startYear: '2015'
 ---
 
 ### How did you get into design?

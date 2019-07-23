@@ -1,6 +1,5 @@
 ---
 author: 'James Lyons'
-startYear: '2018'
 ---
 
 ### Favorite tool?

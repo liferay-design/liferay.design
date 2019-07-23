@@ -1,6 +1,5 @@
 ---
 author: 'Jon Wood'
-startYear: '2019'
 ---
 
 ### How did you get into design?

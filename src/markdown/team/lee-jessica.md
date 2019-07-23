@@ -1,6 +1,5 @@
 ---
 author: 'Jessica Lee'
-startYear: '2017'
 ---
 
 ### How did you get into design?

@@ -1,6 +1,5 @@
 ---
 author: 'Rachel Yuan'
-startYear: '2013'
 ---
 
 ### How did you get into design?

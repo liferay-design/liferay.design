@@ -1,6 +1,5 @@
 ---
 author: 'Paul Hanaoka'
-startYear: '2014'
 ---
 
 ### Favorite tool?

@@ -1,6 +1,5 @@
 ---
 author: 'Christopher Jeong'
-startYear: '2017'
 ---
 
 ### Favorite tool?
