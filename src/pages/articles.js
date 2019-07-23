@@ -19,7 +19,7 @@ export default ({ data }) => {
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
-							subtitle={node.frontmatter.readTime}
+							subtitle={`${node.timeToRead}` + ' Min Read'}
 							avatarImageURL={node.frontmatter.author.avatar}
 						/>
 					))}
@@ -42,9 +42,9 @@ export const query = graphql`
 					edges {
 						node {
 							id
+							timeToRead
 							frontmatter {
 								title
-								readTime
 								featuredImage
 								author {
 									id
