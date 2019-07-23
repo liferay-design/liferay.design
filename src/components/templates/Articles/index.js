@@ -55,7 +55,7 @@ export default class Articles extends Component {
 						</span>
 					</h1>
 					<div className={styles.role}>
-						<h2>{post.frontmatter.readTime}</h2>
+						<h2>{post.timeToRead} Min Read</h2>
 					</div>
 				</Flex>
 				<div className={styles.markdownContainer}>
@@ -72,12 +72,12 @@ export default class Articles extends Component {
 export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
+			timeToRead
 			frontmatter {
 				author {
 					id
 					slug
 				}
-				readTime
 				featuredImage
 				canonicalLink
 				title
