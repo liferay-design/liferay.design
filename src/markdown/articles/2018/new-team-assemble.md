@@ -2,7 +2,6 @@
 author: 'Paul Hanaoka'
 date: '2018-11-27T17:12:33.962Z'
 title: 'New Team, Assemble!'
-readTime: '3 Min Read'
 featuredImage: '/images/posts/assemble.jpg'
 publish: true
 ---

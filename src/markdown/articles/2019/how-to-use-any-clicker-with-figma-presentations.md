@@ -2,7 +2,6 @@
 author: 'Abel Hancock'
 date: '2019-03-27T17:12:33.962Z'
 title: 'How To Use Any Clicker With Figma Presentations (mac)'
-readTime: '3 Min Read'
 featuredImage: '/images/posts/figma-clicker/cover.png'
 publish: true
 ---

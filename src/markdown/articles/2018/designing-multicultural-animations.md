@@ -2,7 +2,6 @@
 author: 'Susana Vázquez'
 date: '2018-07-23'
 title: 'Designing animations for a multicultural product'
-readTime: '5 Min Read'
 featuredImage: '/images/posts/multicultural-animations.jpeg'
 publish: true
 ---

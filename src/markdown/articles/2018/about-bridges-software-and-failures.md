@@ -2,7 +2,6 @@
 author: 'Juan Hidalgo'
 date: '2018-09-14T17:12:33.962Z'
 title: 'About Bridges, Software, and Failures'
-readTime: '3 Min Read'
 featuredImage: '/images/posts/about-bridges.jpeg'
 publish: true
 ---

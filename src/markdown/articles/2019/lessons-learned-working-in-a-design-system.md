@@ -2,7 +2,6 @@
 author: 'Victor Valle'
 date: '2019-07-08T14:00:00.000Z'
 title: 'Lessons Learned Working in a Design System'
-readTime: '6 Min Read'
 featuredImage: '/images/posts/library.jpg'
 publish: true
 ---
