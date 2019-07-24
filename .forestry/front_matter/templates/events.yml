@@ -2,38 +2,30 @@
 label: Event
 hide_body: false
 fields:
-    - type: text
-      name: title
-      label: Title
-    - type: file
-      name: featuredImage
-      label: Featured Image
-    - type: datetime
-      name: startDateTime
-      label: Start Date & Time
-    - type: text
-      name: endDateTime
-      label: End Date & Time
-    - type: textarea
-      name: summary
-      label: Event Summary
-    - type: text
-      name: office
-      label: Office
-    - type: text
-      name: heroImage
-      label: Hero Image
-    - type: file
-      name: bodyImage
-      label: Main Body Image
-    - type: boolean
-      name: draft
-      label: Publish
-pages:
-    - src/markdown/events/event-of-the-century.md
-    - src/markdown/events/test-event-1.md
-    - src/markdown/events/design-at-scale-test.md
-    - src/markdown/events/test-event.md
-    - src/markdown/events/wanderlust-and-all-that-nature-stuff.md
-    - src/markdown/events/this-is-my-first-event.md
-    - src/markdown/events/design-event.md
+- type: text
+  name: title
+  label: Title
+- type: file
+  name: featuredImage
+  label: Featured Image
+- type: datetime
+  name: startDateTime
+  label: Start Date & Time
+- type: text
+  name: endDateTime
+  label: End Date & Time
+- type: textarea
+  name: summary
+  label: Event Summary
+- type: text
+  name: office
+  label: Office
+- type: text
+  name: heroImage
+  label: Hero Image
+- type: file
+  name: bodyImage
+  label: Main Body Image
+- type: boolean
+  name: draft
+  label: Publish

@@ -3,26 +3,26 @@ label: Job Posting
 hide_body: false
 display_field: title
 fields:
-    - type: text
-      name: title
-      label: Job Title
-    - type: text
-      name: jobId
-      label: Jobvite ID
-    - type: text
-      name: office
-      label: Office
-    - type: file
-      name: featuredImage
-      label: Featured Image
-    - type: datetime
-      name: date
-      label: Date
-    - type: boolean
-      name: published
-      label: Publish
+- type: text
+  name: title
+  label: Job Title
+- type: text
+  name: jobId
+  label: Jobvite ID
+- type: text
+  name: office
+  label: Office
+- type: file
+  name: featuredImage
+  label: Featured Image
+- type: datetime
+  name: date
+  label: Date
+- type: boolean
+  name: published
+  label: Publish
 pages:
-    - src/markdown/careers/emea/graphic-designer.md
-    - src/markdown/careers/emea/product-designer.md
-    - src/markdown/careers/latam/product-designer.md
-    - src/markdown/careers/na/product-designer.md
+- src/markdown/careers/na/product-designer.md
+- src/markdown/careers/latam/product-designer.md
+- src/markdown/careers/emea/product-designer.md
+- src/markdown/careers/emea/graphic-designer.md

@@ -1,8 +1,8 @@
 ---
 label: Teammate
 hide_body: false
-display_field: name
+display_field: author
 fields:
-    - type: text
-      name: author
-      label: Name
+- type: text
+  name: author
+  label: Name
