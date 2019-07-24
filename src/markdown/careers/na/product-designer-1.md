@@ -4,7 +4,7 @@ date: 2019-07-24T07:00:00Z
 title: Product Designer
 office: Diamond Bar
 featuredImage: "/static/images/images/posts/pj-first-year.jpeg"
-published: false
+published: true
 
 ---
 ## Who Designs at Liferay?
