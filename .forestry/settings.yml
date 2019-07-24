@@ -81,7 +81,7 @@ build:
   publish_command: gatsby build
   preview_output_directory: public
   output_directory: public
-  instant_preview_command: gatsby develop -H 0.0.0.0 -p 7777 -o
+  instant_preview_command: gatsby develop -p 8080 -H 0.0.0.0
   install_dependencies_command: npm install
   preview_docker_image: node:10
   mount_path: "/srv"
