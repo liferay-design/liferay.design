@@ -70,6 +70,16 @@ sections:
   match: "**/*"
   templates:
   - teammate
+- type: heading
+  label: Configuration
+- type: document
+  path: src/markdown/Authors.yaml
+  label: Authors
+  match: "**/*"
+- type: document
+  path: src/markdown/Offices.yaml
+  label: Offices
+  match: "**/*"
 upload_dir: static
 public_path: "/static/images"
 front_matter_path: ''
