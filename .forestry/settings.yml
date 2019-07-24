@@ -71,7 +71,7 @@ sections:
   templates:
   - teammate
 upload_dir: static
-public_path: ''
+public_path: "/static/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
