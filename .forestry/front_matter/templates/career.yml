@@ -22,6 +22,7 @@ fields:
   name: published
   label: Publish
 pages:
+- src/markdown/careers/na/product-designer-1.md
 - src/markdown/careers/na/product-designer.md
 - src/markdown/careers/latam/product-designer.md
 - src/markdown/careers/emea/product-designer.md
