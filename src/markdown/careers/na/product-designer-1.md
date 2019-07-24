@@ -1,9 +1,9 @@
 ---
-jobId: oqKh9fwk
-date: 2018-12-10
+jobId: otdBafwb
+date: 2019-07-24T07:00:00Z
 title: Product Designer
 office: Diamond Bar
-featuredImage: "/images/posts/ux-designer.jpg"
+featuredImage: "/static/images/images/posts/pj-first-year.jpeg"
 published: false
 
 ---
