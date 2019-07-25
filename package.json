@@ -57,6 +57,7 @@
 	"scripts": {
 		"build": "gatsby build",
 		"dev": "gatsby develop -H 0.0.0.0 -p 7777 -o",
+		"forestry:preview": "gatsby develop -H 0.0.0.0 - p 8080",
 		"format": "prettier --write 'src/**/*.js'",
 		"icons": "node src/utils/generateIcons.js"
 	},
