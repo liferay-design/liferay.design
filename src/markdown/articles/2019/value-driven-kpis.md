@@ -4,7 +4,7 @@ date: '2019-04-3T11:21:00.000Z'
 title: 'Value-Driven KPIs'
 featuredImage: '/images/posts/dbp/1554315582303webupload_00387385.png'
 publish: true
-tags: ['Best Practices', 'strategy']
+tags: ['Best Practices', 'Strategy']
 ---
 
 **Summary** - Key Performance Indicators have a lot of influence over how teams prioritize, design and build features and products. Poorly defined KPIs could result in building a solution for the wrong problem which, in turn, dilutes a user’s experience with superficial engagement, leading to negative outcomes for the business.

@@ -4,7 +4,7 @@ date: '2019-07-29T00:00:00.000Z'
 title: 'Sharing the Design Process'
 featuredImage: '/images/posts/dbp/placeholder.jpg'
 publish: true
-tags: ['Best Practices', 'Design']
+tags: ['Best Practices']
 ---
 
 **Summary** – [Design processes](https://loop.liferay.com/home/-/loop/feed/18080085) guide designers and design teams to thoroughly create more effective solutions. Since design is only one aspect of building a product or service, it's critical to see how design processes converge cross-functionally with business and engineering processes.

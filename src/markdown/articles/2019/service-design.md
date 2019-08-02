@@ -4,7 +4,7 @@ date: '2019-06-13T12:02:00.000Z'
 title: 'Service Design'
 featuredImage: '/images/posts/dbp/placeholder.jpg'
 publish: true
-tags: ['Best Practices', 'Design']
+tags: ['Best Practices']
 ---
 
 **Summary** – Service Design is an interdisciplinary approach that combines a variety of methods and tools. Its characterizing principles are: user focus, creative cooperation, service sequencing, the need for documentation (visualization of the intangible) and a holistic approach. This field is still very new and evolving, hence it has quite a broad definition.

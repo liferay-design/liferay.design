@@ -4,7 +4,7 @@ date: '2019-05-07T8:23:00.000Z'
 title: 'Giving Feedback'
 featuredImage: '/images/posts/dbp/1557242479728webupload_00093739.png'
 publish: true
-tags: ['Best Practices', 'psychology']
+tags: ['Best Practices', 'Psychology']
 ---
 
 **Summary** – When giving feedback, there are certain guidelines you should follow to ensure that you are making the best use of the opportunity afforded to you. Firstly, remember that everyone handles constructive feedback differently. As long as you deliver feedback with humility and a genuine concern and care for both the recipient and the work itself then you will find yourself in a successful exchange more often than not. And better still, you will find you are asked for your opinion more often, too. The single most important thing to follow when giving feedback is that you must understand both the recipient and what problems they are trying to solve.

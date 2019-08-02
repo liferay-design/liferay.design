@@ -4,7 +4,7 @@ date: '2019-04-11T10:18:00.000Z'
 title: 'Do People Scroll?'
 featuredImage: '/images/posts/dbp/1555003083274webupload_00859290.png'
 publish: true
-tags: ['Best Practices', 'usability']
+tags: ['Best Practices', 'Usability']
 ---
 
 **Summary** – It is commonly believed that users do not scroll down long-content pages.

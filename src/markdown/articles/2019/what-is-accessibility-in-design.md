@@ -4,7 +4,7 @@ date: '2019-04-23T10:09:00.000Z'
 title: 'What is Accessibility in Design?'
 featuredImage: '/images/posts/dbp/$image.jpg'
 publish: true
-tags: ['Best Practices', 'accessibility']
+tags: ['Best Practices', 'Accessibility']
 ---
 
 **Summary** – Accessibility in design means considering every user’s ability to access your site’s content and being inclusive of their needs in the project planning, design, and development process. Users can have a diverse range of hearing, movement, sight, and cognitive ability.
