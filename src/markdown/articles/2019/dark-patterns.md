@@ -7,9 +7,11 @@ publish: true
 tags: ['Best Practices', 'Interaction Design', 'Ethics']
 ---
 
-**Summary** – Dark Patterns are unethical design tricks that try to take advantage of human psychology to get users to do things they don't really want to do. Companies utilize dark partners in websites and apps, and there are 11 types known according to darkpatterns.org: Sneak into Basket, Roach Motel, Privacy Zuckering, Price Comparison Prevention, Misdirection, Hidden Costs, Bait & Switch, Confirmshaming, Disguised Ads, Forced Continuity and Friend Spam, that will be explained in future posts. For example, when airline apps include travel insurance by default and hide the deselect option or when unexpected charges appear in the last step of the checkout.
+## Summary
+Dark Patterns are unethical design tricks that try to take advantage of human psychology to get users to do things they don't really want to do. Companies utilize dark partners in websites and apps, and there are 11 types known according to darkpatterns.org: Sneak into Basket, Roach Motel, Privacy Zuckering, Price Comparison Prevention, Misdirection, Hidden Costs, Bait & Switch, Confirmshaming, Disguised Ads, Forced Continuity and Friend Spam, that will be explained in future posts. For example, when airline apps include travel insurance by default and hide the deselect option or when unexpected charges appear in the last step of the checkout.
 
-**Takeaway** – To not become a victim of dark paterns, it's important to be aware of the dark patterns that are out there to be able to recognize when companies use them. Businesses that practice these deceptive methods should get shamed. In Harry Brignull words: ""Dark patterns are not bad design are evil design,"" because in dark UX color theory is manipulated to misdirect, language is used to confuse rather than to clarify, and the user is exploited to boost company reach or profits.
+## Takeaway
+To not become a victim of dark paterns, it's important to be aware of the dark patterns that are out there to be able to recognize when companies use them. Businesses that practice these deceptive methods should get shamed. In Harry Brignull words: ""Dark patterns are not bad design are evil design,"" because in dark UX color theory is manipulated to misdirect, language is used to confuse rather than to clarify, and the user is exploited to boost company reach or profits.
 
 • [Dark Patterns Org](https://www.darkpatterns.org/)
 

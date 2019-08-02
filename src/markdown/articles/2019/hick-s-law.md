@@ -7,7 +7,9 @@ publish: true
 tags: ['Best Practices', 'Psychology']
 ---
 
-**Summary** – Delivering a good user experience requires  
+## Summary
+
+Delivering a good user experience requires  
 a. Find out the functionalities that will answer their needs  
 b. Guide them through specific to-dos
 
@@ -17,7 +19,9 @@ The application of Hick's Law is simple, reduce the number of stimuli and get a 
 
 To Illustrate this idea, the "Payment process" would be a practical example. Instead of showing everything at once, you can break it down. Show the screen with shopping cart details, another with delivery information, then account creation, and so on.
 
-**Takeaway** –
+## Takeaway
+
+–
 
 -   Narrow down big volumes of information without overloading the user.
 -   Simplify choices for the user by breaking down complex tasks into smaller steps.

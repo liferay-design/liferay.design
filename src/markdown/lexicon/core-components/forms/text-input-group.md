@@ -27,7 +27,7 @@ Usually the components placed around the text field are buttons, split buttons, 
 
 #### Input group with units
 
-![input group with mass on the left](/images/lexicon/InputGroupAddonLeftPlaceholder.jpg)
+![input group with mass on the left](/images/lexicon/InputGroupAddonLeftplaceholder.png)
 
 ![input group with mass on the right](/images/lexicon/InputGroupAddonRight.jpg)
 

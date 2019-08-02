@@ -7,9 +7,11 @@ publish: true
 tags: ['Best Practices', 'Psychology']
 ---
 
-**Summary** – Memory retrieval can be a fickle thing. How and when information is attained, along with other factors, all affect how well a person can recall that information. Many simple tasks have evolved from requiring information recall to simple recognition. Tasks used to be done through command line interfaces without the use of menus and buttons. Imagine opening a downloaded image. In the past, you would need to recall the retrieval command, the directory path to the download, and the file name and type. Thankfully today, we just point and click on the downloaded file conveniently docked on the bottom of the browser without the need to recall any commands.
+## Summary
+Memory retrieval can be a fickle thing. How and when information is attained, along with other factors, all affect how well a person can recall that information. Many simple tasks have evolved from requiring information recall to simple recognition. Tasks used to be done through command line interfaces without the use of menus and buttons. Imagine opening a downloaded image. In the past, you would need to recall the retrieval command, the directory path to the download, and the file name and type. Thankfully today, we just point and click on the downloaded file conveniently docked on the bottom of the browser without the need to recall any commands.
 
-**Takeaway** – When possible, eliminate the need for a user to recall information while traversing your digital experience. When information recall is necessary, provide contextual clues that aid users and reduce cognitive load. This can be done on both a content and interface level.
+## Takeaway
+When possible, eliminate the need for a user to recall information while traversing your digital experience. When information recall is necessary, provide contextual clues that aid users and reduce cognitive load. This can be done on both a content and interface level.
 
 • [Memory Recognition and Recall in User Interfaces](https://www.nngroup.com/articles/recognition-and-recall/)
 

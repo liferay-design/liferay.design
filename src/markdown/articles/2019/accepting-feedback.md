@@ -7,9 +7,13 @@ publish: true
 tags: ['Best Practices', 'Psychology']
 ---
 
-**Summary** – Your work, design or otherwise, is not an extension of yourself - falling into this mindset is damaging to your emotional well-being and quality of your work. The problem is that people often see taking advice from others as weakening their own expert position. The truth is that a person’s ability to recognize value from other people provides them group brain power. There is a maturity in being humble and accepting help. Lastly, gaining perspective on others’ ideas can only help your work; the onus is on YOU what you will incorporate into your design and what you won’t.
+## Summary
 
-**Takeaway** – Be gracious and humble when accepting feedback. Always remember that you are in control of how others make you feel so extract what you can from their feedback and maintain this mentality: what doesn't kill me can only make my work stronger.
+Your work, design or otherwise, is not an extension of yourself - falling into this mindset is damaging to your emotional well-being and quality of your work. The problem is that people often see taking advice from others as weakening their own expert position. The truth is that a person’s ability to recognize value from other people provides them group brain power. There is a maturity in being humble and accepting help. Lastly, gaining perspective on others’ ideas can only help your work; the onus is on YOU what you will incorporate into your design and what you won’t.
+
+## Takeaway
+
+Be gracious and humble when accepting feedback. Always remember that you are in control of how others make you feel so extract what you can from their feedback and maintain this mentality: what doesn't kill me can only make my work stronger.
 
 • [Hey, Designer! Why So Fragile?](https://uxdesign.cc/hey-designer-why-so-fragile-57e7292c0a51)
 
