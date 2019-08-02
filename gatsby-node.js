@@ -1,5 +1,6 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const _ = require("lodash")
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
 	const { createNodeField } = actions
@@ -29,6 +30,9 @@ exports.createPages = ({ actions, graphql }) => {
 								fields {
 									slug
 								}
+								frontmatter {
+									tags
+								}
 								code {
 									scope
 								}
@@ -41,8 +45,9 @@ exports.createPages = ({ actions, graphql }) => {
 					console.log('Error creating pages in `createPages` call ==>', errors)
 					reject(errors)
 				}
-
-				data.allMdx.edges.forEach(({ node }) => {
+				
+				const pages = data.allMdx.edges
+				pages.forEach(({ node }) => {
 					const template = node.fields.slug.split('/')[1]
 
 					const templateFile = path.resolve(
@@ -54,6 +59,27 @@ exports.createPages = ({ actions, graphql }) => {
 						component: templateFile,
 						context: {
 							slug: node.fields.slug,
+						},
+					})
+				})
+				const tagTemplate = path.resolve('src/components/templates/Tags/index.js')
+				// Tag pages:
+				let tags = []
+				// Iterate through each post, putting all found tags into `tags`
+				_.each(pages, edge => {
+					if (_.get(edge, "node.frontmatter.tags")) {
+						tags = tags.concat(edge.node.frontmatter.tags)
+					}
+				})
+				// Eliminate duplicate tags
+				tags = _.uniq(tags)
+				// Make tag pages
+				tags.forEach(tag => {
+					createPage({
+						path:`/tags/${_.kebabCase(tag)}/`,
+						component: tagTemplate,
+						context: {
+							tag,
 						},
 					})
 				})
