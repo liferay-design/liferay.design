@@ -50,7 +50,6 @@ export const query = graphql`
 									id
 									avatar
 								}
-								date(formatString: "MMMM DD, YYYY")
 							}
 							fields {
 								slug
