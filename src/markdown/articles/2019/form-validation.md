@@ -1,5 +1,5 @@
 ---
-author: 'David Aragones'
+author: 'David Aragonés'
 date: '2019-06-26T7:06:00.000Z'
 title: 'Form Validation'
 featuredImage: '/images/posts/dbp/placeholder.jpg'

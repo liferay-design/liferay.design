@@ -1,5 +1,5 @@
 ---
-author: 'Juan Anton'
+author: 'Juan Antón'
 date: '2019-07-24T5:26:00.000Z'
 title: 'Pareto Principle'
 featuredImage: '/images/posts/dbp/placeholder.jpg'
