@@ -1,33 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// Components
 import { Link, graphql } from 'gatsby'
+import { CardGrid, Container, Heading } from 'components/atoms'
+import { CardDefault } from 'components/molecules'
+import { MainLayout } from 'components/templates'
+
 const Tags = ({ pageContext, data }) => {
 	const { tag } = pageContext
 	const { edges, totalCount } = data.allMdx
 	const tagHeader = `${totalCount} post${
 		totalCount === 1 ? '' : 's'
-	} tagged with "${tag}"`
+	} tagged with “${tag}”`
 	return (
-		<div>
-			<h1>{tagHeader}</h1>
-			<ul>
-				{edges.map(({ node }) => {
-					const { slug } = node.fields
-					const { title } = node.frontmatter
-					return (
-						<li key={slug}>
-							<Link to={slug}>{title}</Link>
-						</li>
-					)
-				})}
-			</ul>
-			{/*
-              This links to a page that does not yet exist.
-              We'll come back to it!
-            */}
-			<Link to="/tags">All tags</Link>
-		</div>
+		<MainLayout section="Tags">
+			<Container>
+				<Heading level={1} color="white" padding="4rem">
+					{tagHeader}
+				</Heading>
+				<CardGrid>
+					{data.allMdx.edges.map(({ node }) => (
+						<CardDefault
+							avatarImage
+							key={node.id}
+							imageURL={node.frontmatter.featuredImage}
+							link={node.fields.slug}
+							title={node.frontmatter.title}
+							subtitle={`${node.timeToRead}` + ' Min Read'}
+							avatarImageURL={node.frontmatter.author.avatar}
+						/>
+					))}
+				</CardGrid>
+			</Container>
+		</MainLayout>
 	)
 }
 Tags.propTypes = {
@@ -54,23 +58,29 @@ Tags.propTypes = {
 }
 export default Tags
 export const pageQuery = graphql`
-	query($tag: String) {
-		allMdx(
-			limit: 2000
-			sort: { fields: [frontmatter___date], order: DESC }
-			filter: { frontmatter: { tags: { in: [$tag] } } }
-		) {
-			totalCount
-			edges {
-				node {
-					fields {
-						slug
-					}
-					frontmatter {
-						title
+			query($tag: String) {
+				allMdx(
+					limit: 2000
+					sort: { fields: [frontmatter___date], order: DESC }
+					filter: { frontmatter: { tags: { in: [$tag] } } }
+				) {
+					totalCount
+					edges {
+						node {
+							timeToRead
+							fields {
+								slug
+							}
+							frontmatter {
+								title
+								featuredImage
+								author {
+									id
+									avatar
+								}
+							}
+						}
 					}
 				}
 			}
-		}
-	}
-`
+		`
