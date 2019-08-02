@@ -78,7 +78,6 @@ export const query = graphql`
 							slug
 							avatar
 						}
-						date(formatString: "MMMM DD, YYYY")
 					}
 					fields {
 						slug
