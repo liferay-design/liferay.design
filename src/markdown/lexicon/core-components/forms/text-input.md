@@ -31,7 +31,7 @@ Text fields can be simple:
 
 Although they can include placeholder text, we don't recommend it since users can misinterpret it as final content.
 
-![default empty state](/images/lexicon/InputPlaceholder.jpg)
+![default empty state](/images/lexicon/Inputplaceholder.png)
 
 Text fields can also have help text placed right below the text field.
 

@@ -2,18 +2,22 @@
 author: 'David Kim'
 date: '2019-04-30T10:34:00.000Z'
 title: 'Data-Driven vs. Data-Informed Design'
-featuredImage: '/images/posts/dbp/placeholder.jpg'
+featuredImage: '/images/posts/dbp/placeholder.png'
 publish: true
 tags: ['Best Practices', 'Research']
 ---
 
-**Summary** - The great thing about data is that it can show us what people do. The not-so-great thing about data (both qualitative and quantitative ones) is that it can’t tell us accurately about context, motivations, and intent of users.
+## Summary
+
+-   The great thing about data is that it can show us what people do. The not-so-great thing about data (both qualitative and quantitative ones) is that it can’t tell us accurately about context, motivations, and intent of users.
 
 In data-driven design, data is at the center of the design decisions. It’s the primary (and sometimes, the only) input. Data-driven design looks to ship fast, optimize at every step and let the data drive many of the design decisions.
 
 In data-informed design, data is a key input among many other variables. You use the data to build a deeper understanding of what value you are providing to the users. You combine data with qualitative feedback and your design intuition to produce iterations of successful products. Your expertise and understanding of information plays as great a role in your decisions as the information itself.
 
-**Takeaway** - Designing with data has to go beyond algorithms, automation, A/B testing, and analytics. Rather, the goal is to use all the data to develop a better understanding of everyday experience.
+## Takeaway
+
+-   Designing with data has to go beyond algorithms, automation, A/B testing, and analytics. Rather, the goal is to use all the data to develop a better understanding of everyday experience.
 
 Good product design comes from striking the right balance between data, empathy and intuition.
 

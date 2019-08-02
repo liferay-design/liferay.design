@@ -7,11 +7,15 @@ publish: true
 tags: ['Best Practices', 'Strategy']
 ---
 
-**Summary** - Key Performance Indicators have a lot of influence over how teams prioritize, design and build features and products. Poorly defined KPIs could result in building a solution for the wrong problem which, in turn, dilutes a user’s experience with superficial engagement, leading to negative outcomes for the business.
+## Summary
+
+-   Key Performance Indicators have a lot of influence over how teams prioritize, design and build features and products. Poorly defined KPIs could result in building a solution for the wrong problem which, in turn, dilutes a user’s experience with superficial engagement, leading to negative outcomes for the business.
 
 Good design is not about higher CTRs (click-through-rates) or pageviews. It’s about delivering value to your business by serving your customers. Therefore, establish KPIs that align with the value you offer, instead of tracking superficial metrics.
 
-**Takeaway** - To set value-driven KPIs:
+## Takeaway
+
+-   To set value-driven KPIs:
 
 1.  Clearly define user goals before determining the metrics.
 2.  Identify user behaviors that signal the defined goals.

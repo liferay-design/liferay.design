@@ -7,7 +7,8 @@ publish: true
 tags: ['Best Practices', 'Usability']
 ---
 
-**Summary** – It is commonly believed that users do not scroll down long-content pages.
+## Summary
+It is commonly believed that users do not scroll down long-content pages.
 
 What does the research say?
 
@@ -16,7 +17,8 @@ What does the research say?
 -   Another eye-tracking study shows that people scroll as long as designs follow best practices.
 -   Users read long-content pages faster than paginated or segmented ones.
 
-**Takeaway** – The research shows that people are more inclined to scroll today than ever before. However, users still pay more attention to the content positioned in the top part of the page. Due to this fact, it's essential that designers follow best practices for scrolling.
+## Takeaway
+The research shows that people are more inclined to scroll today than ever before. However, users still pay more attention to the content positioned in the top part of the page. Due to this fact, it's essential that designers follow best practices for scrolling.
 
 -   Prioritize content with the most important items at the top.
 -   Optimize web-pages for easy scanning.
