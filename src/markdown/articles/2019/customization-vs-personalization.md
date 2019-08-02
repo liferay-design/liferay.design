@@ -4,7 +4,7 @@ date: '2019-05-16T11:21:00.000Z'
 title: 'Customization vs. Personalization'
 featuredImage: '/images/posts/dbp/1558030699507webupload_00236068.png'
 publish: true
-tags: ['Best Practices', 'strategy']
+tags: ['Best Practices', 'Strategy']
 ---
 
 **Summary**

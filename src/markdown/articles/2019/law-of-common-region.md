@@ -4,7 +4,7 @@ date: '2019-07-08T5:37:00.000Z'
 title: 'Law of Common Region'
 featuredImage: '/images/posts/dbp/1562172506864webupload_01585515.png'
 publish: true
-tags: ['Best Practices', 'VisualDesign']
+tags: ['Best Practices', 'Visual Design']
 ---
 
 **Summary** – Law of common regions: We have a strong tendency to perceive items as grouped when they are within the same region of space.  

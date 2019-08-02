@@ -4,7 +4,7 @@ date: '2019-07-02T10:35:00.000Z'
 title: 'Isolation Effect'
 featuredImage: '/images/posts/dbp/1562088642589webupload_01510959.png'
 publish: true
-tags: ['Best Practices', 'psychology']
+tags: ['Best Practices', 'Psychology']
 ---
 
 **Summary** – When multiple similar objects are presented together we are most likely to remember the object that is most different from the rest. This is a simple but powerful effect know as the Isolation Effect or the Von Restorff effect. This effect was studied with lists of words containing one "isolated item" but applies to any objects that "envoke reactions of bizarreness, vividness, distinctiveness, surprise, and the like." This means the effect could apply visual elements, words, sounds, tastes, and really any stimulus.

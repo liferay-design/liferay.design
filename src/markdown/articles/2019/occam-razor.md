@@ -4,7 +4,7 @@ date: '2019-07-17T7:42:00.000Z'
 title: "Occam's Razor"
 featuredImage: '/images/posts/dbp/1563374304638webupload_02214671.png'
 publish: true
-tags: ['Best Practices', 'VisualDesign']
+tags: ['Best Practices', 'Visual Design']
 ---
 
 **Summary** – Occam’s Razor is a problem-solving principle that states that simplicity is better than complexity. We can adopt Occam’s Razor as a guiding principle that informs our decisions and keeps us from reaching for a complex solution when a simpler one is sufficient.  

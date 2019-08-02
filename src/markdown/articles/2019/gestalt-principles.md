@@ -4,7 +4,7 @@ date: '2019-07-12T2:20:00.000Z'
 title: 'Gestalt Principles'
 featuredImage: '/images/posts/dbp/1562923097376webupload_02005287.jpg'
 publish: true
-tags: ['Best Practices', 'psychology']
+tags: ['Best Practices', 'Psychology']
 ---
 
 **Summary** – Gestalt psychology (1912, Berlin School of experimental psychology: Wertheimer, Koffka, Khöler) is an important school of thought about visual perception. There are two basic principles in the Gestalt theory:

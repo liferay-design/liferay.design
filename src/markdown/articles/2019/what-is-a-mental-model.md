@@ -4,7 +4,7 @@ date: '2019-03-29T10:03:00.000Z'
 title: 'What Is a Mental Model'
 featuredImage: '/images/posts/dbp/placeholder.jpg'
 publish: true
-tags: ['psychology', 'Best Practices']
+tags: ['Psychology', 'Best Practices']
 ---
 
 **Summary** – Mental models are the user's assumptions about how the system should work. Failure to complete a task could stem from basic assumptions that will go inexplicably unexamined.

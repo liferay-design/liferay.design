@@ -4,7 +4,7 @@ date: '2019-07-24T5:26:00.000Z'
 title: 'Pareto Principle'
 featuredImage: '/images/posts/dbp/placeholder.jpg'
 publish: true
-tags: ['Best Practices', 'strategy']
+tags: ['Best Practices', 'Strategy']
 ---
 
 **Summary** – Basically Pareto principle raises a general rule by which 80% of the effects come from 20% of causes.

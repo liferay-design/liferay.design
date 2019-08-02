@@ -4,7 +4,7 @@ date: '2019-04-09T12:19:00.000Z'
 title: 'Accepting Feedback'
 featuredImage: '/images/posts/dbp/1554837593379webupload_00731080.jpg'
 publish: true
-tags: ['Best Practices', 'psychology']
+tags: ['Best Practices', 'Psychology']
 ---
 
 **Summary** – Your work, design or otherwise, is not an extension of yourself - falling into this mindset is damaging to your emotional well-being and quality of your work. The problem is that people often see taking advice from others as weakening their own expert position. The truth is that a person’s ability to recognize value from other people provides them group brain power. There is a maturity in being humble and accepting help. Lastly, gaining perspective on others’ ideas can only help your work; the onus is on YOU what you will incorporate into your design and what you won’t.
