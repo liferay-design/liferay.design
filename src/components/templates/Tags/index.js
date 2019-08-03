@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import { CardGrid, Container, Heading } from 'components/atoms'
+import { CardGrid, Container, Heading, Flex } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { MainLayout } from 'components/templates'
+import { colors, fontSizes, fontWeights } from 'theme'
 
 const Tags = ({ pageContext, data }) => {
 	const { tag } = pageContext
@@ -12,11 +13,30 @@ const Tags = ({ pageContext, data }) => {
 		totalCount === 1 ? '' : 's'
 	} tagged with “${tag}”`
 	return (
-		<MainLayout section="Tags">
+		<MainLayout section="Articles">
 			<Container>
-				<Heading level={1} color="white" padding="4rem">
-					{tagHeader}
-				</Heading>
+				<Flex direction="row" justify="space-between">
+					<Heading level={1} color="white" padding="4rem">
+						{tagHeader}
+					</Heading>
+					<Link
+						style={{
+							alignSelf: 'baseline',
+							background: colors.black,
+							borderRadius: fontSizes.micro,
+							padding: fontSizes.micro,
+							textTransform: 'uppercase',
+							color: colors.lightGrey,
+							fontWeight: fontWeights.black,
+							letterSpacing: '1px',
+							fontSize: fontSizes.small,
+							margin: '1rem 0',
+						}}
+						to={`/articles`}
+					>
+						All Posts
+					</Link>
+				</Flex>
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }) => (
 						<CardDefault

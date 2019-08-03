@@ -1,6 +1,6 @@
 ---
 author: 'Miriam Manso'
-date: '2019-07-12T2:20:00.000Z'
+date: '2019-07-12T02:20:00.000Z'
 title: 'Gestalt Principles'
 featuredImage: '/images/posts/dbp/1562923097376webupload_02005287.jpg'
 publish: true
@@ -8,6 +8,7 @@ tags: ['Best Practices', 'Psychology']
 ---
 
 ## Summary
+
 Gestalt psychology (1912, Berlin School of experimental psychology: Wertheimer, Koffka, Khöler) is an important school of thought about visual perception. There are two basic principles in the Gestalt theory:
 
 1.  A form or structure is defined, perceived and remembered by the pattern of relations between its elements or parts, and not reducible to them.
@@ -24,6 +25,7 @@ In short, how the human brain works in terms of perception and cognition.
 Knowing how our brains work, gives us a powerful weapon for our designs to influence the perception and attention of our users.
 
 ## Takeaway
+
 Gestalt tips to design:
 
 • Law of Simplicity: Group and separate the most important areas of your screen to provide the user with a clear and simple perception of the visual concept

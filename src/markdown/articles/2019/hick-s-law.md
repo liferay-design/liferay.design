@@ -1,6 +1,6 @@
 ---
 author: 'Duuriimaa Bargaid'
-date: '2019-06-28T3:44:00.000Z'
+date: '2019-06-28T03:44:00.000Z'
 title: "Hick's Law"
 featuredImage: '/images/posts/dbp/1561718277595webupload_01325585.png'
 publish: true
