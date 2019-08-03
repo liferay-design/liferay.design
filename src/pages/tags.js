@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { colors, fontSizes, fontWeights } from 'theme'
 // Utilities
 import kebabCase from 'lodash/kebabCase'
 // Components
@@ -20,7 +21,19 @@ const TagsPage = ({
 			<ul>
 				{group.map(tag => (
 					<li key={tag.fieldValue}>
-						<Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+						<Link
+							style={{
+								background: colors.black,
+								borderRadius: fontSizes.micro,
+								padding: fontSizes.micro,
+								textTransform: 'uppercase',
+								color: colors.lightGrey,
+								fontWeight: fontWeights.black,
+								letterSpacing: '1px',
+								fontSize: fontSizes.small,
+							}}
+							to={`/tags/${kebabCase(tag.fieldValue.toLowerCase())}`}
+						>
 							{tag.fieldValue} ({tag.totalCount})
 						</Link>
 					</li>
