@@ -1,12 +1,13 @@
-import { Container, Flex } from 'components/atoms'
+import { Container, Flex, Link } from 'components/atoms'
 import { Tags } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
-import { graphql, withPrefix, Link } from 'gatsby'
+import { graphql, withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import { Helmet } from 'react-helmet'
+import { colors } from 'theme'
 
 export default class Articles extends Component {
 	render() {
@@ -44,28 +45,30 @@ export default class Articles extends Component {
 				</Helmet>
 				<Navbar section="Articles" />
 				<Container>
+					<Tags tags={post.frontmatter.tags} />
 					<Flex
 						justify="center"
 						align="center"
 						className={styles.banner}
 					>
-						<Tags tags={post.frontmatter.tags} />
 						<h1>
 							{post.frontmatter.title}{' '}
 							<span>
 								by{' '}
-								<a
-									href={withPrefix(
+								<Link 
+									style = {{
+										color:colors.primaryl3,
+										textDecoration:"underline",
+										textDecorationColor:colors.primary,
+									}}
+									to={withPrefix(
 										'/team/' +
 											`${post.frontmatter.author.slug}`,
 									)}
-								>
-									{post.frontmatter.author.id}
-								</a>
-								<br />
-								on{' '}
+								>{post.frontmatter.author.id}</Link>
+								&nbsp;on {' '}
 								{moment(post.frontmatter.date).format(
-									'MMMM DD,YYYY',
+									'MMMM DD, YYYY',
 								)}
 							</span>
 						</h1>
