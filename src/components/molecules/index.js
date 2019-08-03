@@ -19,6 +19,7 @@ import Person from './Person'
 import Post from './Post'
 import SiteCredits from './SiteCredits'
 import SocialIcons from './SocialIcons'
+import Tags from './Tags'
 import VideoDownload from './videoDownload'
 
 export {
@@ -43,5 +44,6 @@ export {
 	Post,
 	SiteCredits,
 	SocialIcons,
+	Tags,
 	VideoDownload,
 }

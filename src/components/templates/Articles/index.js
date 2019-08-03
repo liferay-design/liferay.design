@@ -1,6 +1,7 @@
 import { Container, Flex } from 'components/atoms'
+import { Tags } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
-import { graphql, withPrefix } from 'gatsby'
+import { graphql, withPrefix, Link } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import moment from 'moment'
 import React, { Component } from 'react'
@@ -48,6 +49,7 @@ export default class Articles extends Component {
 						align="center"
 						className={styles.banner}
 					>
+						<Tags tags={post.frontmatter.tags} />
 						<h1>
 							{post.frontmatter.title}{' '}
 							<span>
@@ -73,7 +75,10 @@ export default class Articles extends Component {
 					</Flex>
 				</Container>
 				<div className={styles.markdownContainer}>
-					<img className={styles.featuredImage} src={post.frontmatter.featuredImage} />
+					<img
+						className={styles.featuredImage}
+						src={post.frontmatter.featuredImage}
+					/>
 					<Flex direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>
 					</Flex>
@@ -97,6 +102,7 @@ export const pageQuery = graphql`
 				canonicalLink
 				title
 				date
+				tags
 			}
 			code {
 				body
