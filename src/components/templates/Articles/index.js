@@ -1,4 +1,4 @@
-import { Flex } from 'components/atoms'
+import { Container, Flex } from 'components/atoms'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
@@ -28,8 +28,10 @@ export default class Articles extends Component {
 					<meta
 						property="og:title"
 						content={
-							post.frontmatter.title + ' — an article by ' + 
-						post.frontmatter.author.id + ' on Liferay.Design'
+							post.frontmatter.title +
+							' — an article by ' +
+							post.frontmatter.author.id +
+							' on Liferay.Design'
 						}
 					/>
 					{post.frontmatter.canonicalLink ? (
@@ -40,25 +42,38 @@ export default class Articles extends Component {
 					) : null}
 				</Helmet>
 				<Navbar section="Articles" />
-
-				<Flex justify="center" align="center" className={styles.banner}>
-					<h1>
-						{post.frontmatter.title}{' '}
-						<span>
-							by{' '}
-							<a href={withPrefix('/team/' + `${post.frontmatter.author.slug}`)}>
-								{post.frontmatter.author.id}
-							</a>
-							<br />
-							on{' '}
-							{moment(post.frontmatter.date).format('MMMM DD,YYYY')}
-						</span>
-					</h1>
-					<div className={styles.role}>
-						<h2>{post.timeToRead} Min Read</h2>
-					</div>
-				</Flex>
+				<Container>
+					<Flex
+						justify="center"
+						align="center"
+						className={styles.banner}
+					>
+						<h1>
+							{post.frontmatter.title}{' '}
+							<span>
+								by{' '}
+								<a
+									href={withPrefix(
+										'/team/' +
+											`${post.frontmatter.author.slug}`,
+									)}
+								>
+									{post.frontmatter.author.id}
+								</a>
+								<br />
+								on{' '}
+								{moment(post.frontmatter.date).format(
+									'MMMM DD,YYYY',
+								)}
+							</span>
+						</h1>
+						<div className={styles.role}>
+							<h2>{post.timeToRead} Min Read</h2>
+						</div>
+					</Flex>
+				</Container>
 				<div className={styles.markdownContainer}>
+					<img className={styles.featuredImage} src={post.frontmatter.featuredImage} />
 					<Flex direction="column" className={styles.wrapper}>
 						<MDXRenderer>{post.code.body}</MDXRenderer>
 					</Flex>
