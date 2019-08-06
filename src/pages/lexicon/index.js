@@ -128,14 +128,14 @@ const Lexicon = () => (
 				heading="Want to contribute?"
 				Subtitle={() => (
 					<Text size="large">
-						Head on over to the{' '}
-						<a
-							href="https://github.com/liferay-design/lexicon/issues"
+						Check out some issues in {' '}
+						<Link
+							href="https://github.com/liferay-design/liferay.design/labels/lexicon"
 							target="_blank"
 							rel="noopener"
 						>
-							GitHub repo
-						</a>
+							GitHub
+						</Link>
 						!
 					</Text>
 				)}
