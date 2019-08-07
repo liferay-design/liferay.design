@@ -16,6 +16,8 @@ heroImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg'
 bodyImage: '/images/events/may-2019/great-turnout.jpg'
 # ctaURL: 'https://www.meetup.com/Figma-LA/events/259310410/'
 # tag: 'RSVP Now!'
+
+author: 'Paul Hanaoka'
 ---
 
 ## Brief Recap

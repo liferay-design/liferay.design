@@ -77,6 +77,14 @@ export default class Events extends Component {
 				) : null}
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
+						{post.frontmatter.author ? (
+							// <Author id={post.frontmatter.author.id} />
+							<Author 
+								id={post.frontmatter.author.id} 
+								avatar={post.frontmatter.author.avatar} 
+								slug={post.frontmatter.author.slug} 
+								/>
+						) : null}
 						<MDXRenderer>{post.code.body}</MDXRenderer>
 					</Flex>
 				</div>
@@ -98,6 +106,11 @@ export const pageQuery = graphql`
 					mapURL
 				}
 				startDateTime
+				author {
+					id
+					avatar
+					slug		
+				}
 				endDateTime
 				heroImage
 				summary
