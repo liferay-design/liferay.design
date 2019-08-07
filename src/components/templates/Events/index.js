@@ -1,4 +1,5 @@
 import { Flex } from 'components/atoms'
+import { Author } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
@@ -78,7 +79,6 @@ export default class Events extends Component {
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						{post.frontmatter.author ? (
-							// <Author id={post.frontmatter.author.id} />
 							<Author 
 								id={post.frontmatter.author.id} 
 								avatar={post.frontmatter.author.avatar} 
