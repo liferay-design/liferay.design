@@ -14,6 +14,8 @@ summary: 'Nessa primeita edição, vamos conversar sobre lições e aprendizados
 
 heroImage: ''
 bodyImage: '/images/events/recife-dec-2018-02.jpg'
+
+author: 'Felipe Pires'
 ---
 
 Nessa primeita edição, vamos conversar sobre lições e aprendizados na construção de design system no Sketch.

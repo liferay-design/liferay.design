@@ -16,6 +16,8 @@ heroImage: '/images/events/design-systems-recap-march-2019.jpg'
 bodyImage: '/images/events/lr-figma-la-design-systems-6.jpg'
 # ctaURL: 'https://www.meetup.com/Figma-LA/events/259310410/'
 # tag: 'RSVP Now!'
+
+author: 'David Kim'
 ---
 
 The agenda for the night was 3 lightning talks:

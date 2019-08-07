@@ -14,6 +14,8 @@ summary: 'The evening started with a brief introduction to design ops from Ale M
 
 heroImage: ''
 bodyImage: '/images/events/design-at-scale-madrid-2018.jpg'
+
+author: 'Victor Valle'
 ---
 
 ## Biggest Takeaway
