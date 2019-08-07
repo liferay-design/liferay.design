@@ -12,6 +12,7 @@ fields:
   name: order
   label: order
 pages:
+- src/markdown/blueprints/documentation/easil/creating-from-a-template.md,.mdx
 - src/markdown/blueprints/documentation/easil/easil-s-user-interface.md,.mdx
 - src/markdown/blueprints/documentation/easil/workflows.md,.mdx
 - src/markdown/blueprints/documentation/easil/introduction.md,.mdx
