@@ -12,4 +12,5 @@ fields:
   name: order
   label: order
 pages:
+- src/markdown/blueprints/documentation/easil/workflows.md,.mdx
 - src/markdown/blueprints/documentation/easil/introduction.md,.mdx
