@@ -11,3 +11,5 @@ fields:
 - type: number
   name: order
   label: order
+pages:
+- src/markdown/blueprints/documentation/easil/introduction.md,.mdx
