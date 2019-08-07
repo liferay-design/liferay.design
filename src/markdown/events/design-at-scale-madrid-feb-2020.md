@@ -14,6 +14,8 @@ summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to bu
 
 heroImage: ''
 bodyImage: '/images/events/design-at-scale-madrid-2019.jpg'
+
+author: 'Emiliano Cicero'
 ---
 
 ## Biggest Takeaway

@@ -14,6 +14,8 @@ summary: 'It was a rainy day in Southern California so of course traffic was ter
 
 heroImage: ''
 bodyImage: '/images/events/design-disruptors-viewing.jpg'
+
+author: 'Paul Hanaoka'
 ---
 
 ## Brief Summary
