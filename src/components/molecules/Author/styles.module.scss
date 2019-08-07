@@ -1,0 +1,11 @@
+@import '~theme/variables';
+
+.author {
+	margin-left: -$spacingMedium - $spacingBase;
+	.avatar {
+		height: $spacingMedium;
+		width: $spacingMedium !important;
+		border-radius: 100%;
+		margin: $spacingSmall;
+	}
+}

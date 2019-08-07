@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 export const Image = ({ imgSrc, alt, ...props }) => {
-	return <img imgSrc={`url(${withPrefix({ src })}`} />
+	return <img {...props} src={`${withPrefix(`${imgSrc}`)}`} />
 }
 
 Image.propTypes = {
