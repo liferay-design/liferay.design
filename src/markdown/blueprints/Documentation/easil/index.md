@@ -1,7 +1,7 @@
 ---
-title: 'Guidelines'
+title: 'Easil'
 description: 'Need to fill this in'
-order: 30
+order: 1
 publish: true
 ---
 

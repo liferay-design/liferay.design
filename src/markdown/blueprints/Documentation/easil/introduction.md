@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: An introduction to the Easil app.
+title: 'Introduction'
+description: 'An introduction to the Easil app.'
 order: 1
 publish: true
 ---

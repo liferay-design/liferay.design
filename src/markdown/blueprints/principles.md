@@ -1,7 +1,7 @@
 ---
 title: 'Principles'
 description: "Liferay's Brand Principles"
-order: 2
+order: 10
 publish: true
 ---
 
