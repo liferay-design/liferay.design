@@ -1,6 +1,6 @@
 ---
-title: 'Easil's User Interface'
-description: 'An Introduction to Easil's UI.'
+title: 'Easil’s User Interface'
+description: 'An Introduction to Easil’s UI.'
 order: 3
 publish: true
 ---
