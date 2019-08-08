@@ -5,9 +5,7 @@ order: 4
 publish: true
 ---
 
-## Creating From a Template
-
-### [Selecting a Template & Renaming It](https://educate.liferay.com/design-tool-easil/363494 'Selecting a Template & Renaming It')
+## [Selecting a Template & Renaming It](https://educate.liferay.com/design-tool-easil/363494 'Selecting a Template & Renaming It')
 
 Once you click on a template, it will open as a copy in your Workspace. If you close it (by clicking on the “E” logo in upper left), you’ll see that it’s located in your Workspace with the original file name.
 
@@ -38,7 +36,7 @@ Next, select the Page variation that best suits your needs.
 
 ![](/Delete Page.png)
 
-### Gathering Assets
+## Gathering Assets
 
 Before you begin, please note the following:
 
@@ -53,7 +51,7 @@ Depending on the template you choose, you may need to gather some visual assets,
 -   **Blue BG 1-3 (Pages 1-2 only)** - speaker headshot (does not need to be in a circle shape, as it will be cropped to a circle via Easil)
 -   **Co-branding (any template)** - requires a white, transparent PNG. JPEG logos will not work.
 
-### [Uploading & Placing Assets](https://educate.liferay.com/design-tool-easil/363495 'Uploading & Placing Assets')
+## [Uploading & Placing Assets](https://educate.liferay.com/design-tool-easil/363495 'Uploading & Placing Assets')
 
 Navigate to the Images panel from the vertical icon menu.
 
@@ -65,7 +63,7 @@ To upload your assets, click on the button to the right of the Search bar and se
 
 ![](/Upload Image.png)
 
-#### Background Photo
+### Background Photo
 
 To insert a background photo, delete the template one, then click on or drag your desired image onto the Page.
 
@@ -85,7 +83,7 @@ If you want to enlarge and crop, use the **corners** to resize the image, then d
 
 For tips on composition, please refer to Best Practices/Photography.
 
-#### Adding a Speaker Headshot
+### Adding a Speaker Headshot
 
 _This only applies to Pages with a green circle._
 
@@ -111,7 +109,7 @@ The cropped image should now appear in the circle. Delete/hide the pink instruct
 
 ![](/Speaker 6.png)
 
-#### [Co-branded Logo](https://educate.liferay.com/design-tool-easil/363497 'Co-branded Logo')
+### [Co-branded Logo](https://educate.liferay.com/design-tool-easil/363497 'Co-branded Logo')
 
 Some designs will require the inclusion of a second logo, such as partner-related materials or joint event promotions. For these co-branding needs, each template has a hidden layer named **COBRAND**.
 
@@ -139,7 +137,7 @@ After the size and position are finalized, delete the pink rectangle and pink te
 
 ![](/Cobrand 3.png)
 
-### [Editing Text Fields](https://educate.liferay.com/design-tool-easil/363498 'Editing Text Fields')
+## [Editing Text Fields](https://educate.liferay.com/design-tool-easil/363498 'Editing Text Fields')
 
 Before you begin, please keep in mind:
 
@@ -178,7 +176,7 @@ This version below works because it has even spacing between the lines yet maint
 
 ![](/Edit Text 6.png)
 
-### [Exporting Images](https://educate.liferay.com/design-tool-easil/363499 'Exporting Images')
+## [Exporting Images](https://educate.liferay.com/design-tool-easil/363499 'Exporting Images')
 
 To export images, click on the **Download** button in the upper-right corner. Select a file type to export (we recommend **PNG**).
 
