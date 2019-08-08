@@ -5,11 +5,9 @@ order: 3
 publish: true
 ---
 
-## Easil's User Interface
-
 Easil has two main sections: **Templates** and **Workspace**.
 
-### Templates
+## Templates
 
 ![](/Template Thumbnails.png)
 
@@ -27,7 +25,7 @@ Each Liferay-branded template has several variations, known as Pages. They inclu
 
 ![](/Page Variations.png)
 
-### Workspace
+## Workspace
 
 ![](/Workspace View.png)
 
