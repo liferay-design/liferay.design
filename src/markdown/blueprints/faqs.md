@@ -1,7 +1,7 @@
 ---
 title: 'FAQ'
 description: 'Frequently Asked Questions'
-order: 5
+order: 60
 publish: true
 ---
 

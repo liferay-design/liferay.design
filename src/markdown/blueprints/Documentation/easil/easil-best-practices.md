@@ -1,6 +1,6 @@
 ---
-title: Best Practices
-description: Follow these best practices for optimal designs.
+title: 'Best Practices'
+description: 'Follow these best practices for optimal designs.'
 order: 5
 publish: true
 ---

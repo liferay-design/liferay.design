@@ -1,6 +1,6 @@
 ---
-title: Creating From a Template
-description: Step-by-step instructions on how to create your own design from a template.
+title: 'Creating From a Template'
+description: 'Step-by-step instructions on how to create your own design from a template.'
 order: 4
 publish: true
 ---

@@ -1,6 +1,6 @@
 ---
-title: Workflows
-description: Workflows and processes for Marketers and Designers.
+title: 'Workflows'
+description: 'Workflows and processes for Marketers and Designers.'
 order: 2
 publish: true
 ---
