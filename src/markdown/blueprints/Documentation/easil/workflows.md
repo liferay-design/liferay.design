@@ -1,9 +1,10 @@
 ---
 title: Workflows
 description: Workflows and processes for Marketers and Designers.
-order: '2'
-
+order: 2
+publish: true
 ---
+
 ## Workflows
 
 ### Design Workflow

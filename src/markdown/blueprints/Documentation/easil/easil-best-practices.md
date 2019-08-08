@@ -1,18 +1,19 @@
 ---
 title: Best Practices
 description: Follow these best practices for optimal designs.
-order: '5'
-
+order: 5
+publish: true
 ---
+
 ## Best Practices
 
 ### Photography
 
 #### Free Stock Photo Sites
 
-* [Rawpixel](https://www.rawpixel.com/free-images "Rawpixel")
-* [Unsplash](https://unsplash.com/ "Unsplash")
-* [Pexels](https://www.pexels.com/ "Pexels")
+-   [Rawpixel](https://www.rawpixel.com/free-images 'Rawpixel')
+-   [Unsplash](https://unsplash.com/ 'Unsplash')
+-   [Pexels](https://www.pexels.com/ 'Pexels')
 
 #### Selection
 
@@ -21,17 +22,17 @@ order: '5'
 
 #### Cropping & Framing
 
-1. **Try not to crop people at any joints** (knees, waist, elbows, toes, fingers, ankles, or wrists), as well as eyes and chin. Check out [this infographic](http://media.digitalcameraworld.com/wp-content/uploads/sites/123/2012/03/Digital_Camera_World_portrait_photography_crop_guide1.png "this infographic") for more details.
+1. **Try not to crop people at any joints** (knees, waist, elbows, toes, fingers, ankles, or wrists), as well as eyes and chin. Check out [this infographic](http://media.digitalcameraworld.com/wp-content/uploads/sites/123/2012/03/Digital_Camera_World_portrait_photography_crop_guide1.png 'this infographic') for more details.
 2. **Crop out distracting elements** on the edges wherever possible.
 
 #### Resources
 
-Please refer to these [photography guidelines](https://liferay.design/blueprints/guidelines/photography/ "photography guidelines"), written by our very own designers. :)
+Please refer to these [photography guidelines](https://liferay.design/blueprints/guidelines/photography/ 'photography guidelines'), written by our very own designers. :)
 
 Two helpful articles (also linked in above article):
 
-* [11 Thoughts: An Introduction to Photographic Composition](https://www.bhphotovideo.com/explora/photography/tips-and-solutions/11-thoughts-introduction-photographic-composition "11 Thoughts: An Introduction to Photographic Composition")
-* [Simply Beautiful Photos: Composition](https://www.nationalgeographic.com/photography/photo-tips/composition-tips-simply-beautiful-photos/ "Simply Beautiful Photos: Composition")
+-   [11 Thoughts: An Introduction to Photographic Composition](https://www.bhphotovideo.com/explora/photography/tips-and-solutions/11-thoughts-introduction-photographic-composition '11 Thoughts: An Introduction to Photographic Composition')
+-   [Simply Beautiful Photos: Composition](https://www.nationalgeographic.com/photography/photo-tips/composition-tips-simply-beautiful-photos/ 'Simply Beautiful Photos: Composition')
 
 ### Cobranded Logos
 
@@ -49,10 +50,10 @@ Keep the partner logo left-aligned to the pink box. This will ensure that the wh
 
 The visual weight of a logo is determined by many factors, some of which include:
 
-* Font weight (bold, regular, light)
-* Length of word / number of characters
-* The amount of negative space vs. filled-in space
-* Number of colors (if not using a single-color version)
+-   Font weight (bold, regular, light)
+-   Length of word / number of characters
+-   The amount of negative space vs. filled-in space
+-   Number of colors (if not using a single-color version)
 
 With these things in mind, adjust the size your partner logo so that it appears balanced in relation to the Liferay logo. This might mean making it slightly larger or smaller than the pink box.
 
