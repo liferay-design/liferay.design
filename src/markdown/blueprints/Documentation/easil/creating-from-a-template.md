@@ -42,7 +42,7 @@ Before you begin, please note the following:
 
 * **NEVER use images taken from Google Image searches!** We could be heavily penalized for using copyrighted images without permission ($1000 or more)
 * ONLY use photos from certified free stock photo sites: [Rawpixel](https://www.rawpixel.com/free-images "Rawpixel"), [Unsplash](https://unsplash.com/ "Unsplash"), [Pexels](https://www.pexels.com/ "Pexels")
-* If you need a partner logo, or need a logo to be formatted as white PNG, please request it in the Slack channel with hashtag #logoRequest and say specifically what you need.
+* If you need a partner logo, or need a logo to be formatted as white PNG, please request it in the Slack channel with hashtag **#logoRequest** and say specifically what you need.
 
 Depending on the template you choose, you may need to gather some visual assets, such as background photos, speaker headshots or logos. Based on template type, this is what you’ll need:
 
