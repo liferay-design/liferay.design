@@ -1,14 +1,15 @@
 ---
 title: Introduction
 description: An introduction to the Easil app.
-order: '1'
-
+order: 1
+publish: true
 ---
+
 ## Introduction
 
 To meet the growing demand for social media and email banner assets across our global offices, we’ve undertaken to streamline the design process by empowering marketers to create their own assets from Liferay-branded templates.
 
-Enter [Easil](http://app.easil.com "Easil"): it’s a powerful web-browser that app allows you to create social media and email graphics from Liferay-branded templates in a variety of export sizes.
+Enter [Easil](http://app.easil.com 'Easil'): it’s a powerful web-browser that app allows you to create social media and email graphics from Liferay-branded templates in a variety of export sizes.
 
 ### Set Up
 

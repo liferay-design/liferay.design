@@ -1,0 +1,22 @@
+---
+label: Generic Content
+hide_body: false
+fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+    - type: number
+      name: order
+      label: order
+    - type: boolean
+      name: publish
+      label: published
+pages:
+    - src/markdown/blueprints/documentation/easil/easil-best-practices.md
+    - src/markdown/blueprints/documentation/easil/creating-from-a-template.md
+    - src/markdown/blueprints/documentation/easil/easil-s-user-interface.md
+    - src/markdown/blueprints/documentation/easil/workflows.md
+    - src/markdown/blueprints/documentation/easil/introduction.md
