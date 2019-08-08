@@ -38,11 +38,11 @@ Two helpful articles (also linked in above article):
 
 The Liferay logo is always on the left, and the partner logo on the right.
 
-![](/Cobrand 5.png)
+![image](/images/easil/cobrand-5.png)
 
 Keep the partner logo left-aligned to the pink box. This will ensure that the white divider line is evenly spaced between both logos.
 
-![](/Cobrand 4.png)
+![image](/images/easil/cobrand-4.png)
 
 ### Visual Weight and Balance
 
@@ -61,14 +61,14 @@ With these things in mind, adjust the size your partner logo so that it appears 
 
 Since vertical logos are much shorter in length, we compensate by making them slightly larger than the pink box on top and bottom.
 
-![](/Cobrand 6.png)
+![image](/images/easil/cobrand-6.png)
 
-![](/Cobrand 7.png)
+![image](/images/easil/cobrand-7.png)
 
 #### Too Large
 
 Even though the text sizes seem similar, the Cat Nap logo is too large because the font is bold and has uppercase letters, whereas the Liferay logo has a lighter weight font and has mostly lowercase letters.
 
-![](/Cobrand 8.png)
+![image](/images/easil/cobrand-8.png)
 
-![](/Cobrand 9.png)
+![image](/images/easil/cobrand-9.png)
