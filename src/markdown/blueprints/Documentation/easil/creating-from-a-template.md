@@ -1,11 +1,11 @@
 ---
-title: 'Creating From a Template'
-description: 'Step-by-step instructions on how to create your own design from a template.'
-order: 4
+title: Creating From a Template
+description: Step-by-step instructions on how to create your own design from a template.
+order: "4"
 publish: true
----
 
-## [Selecting a Template & Renaming It](https://educate.liferay.com/design-tool-easil/363494 'Selecting a Template & Renaming It')
+---
+## [Selecting a Template & Renaming It](https://educate.liferay.com/design-tool-easil/363494 "Selecting a Template & Renaming It")
 
 Once you click on a template, it will open as a copy in your Workspace. If you close it (by clicking on the “E” logo in upper left), you’ll see that it’s located in your Workspace with the original file name.
 
@@ -21,8 +21,8 @@ We recommend the following naming convention, and that you put the same informat
 
 Examples:
 
--   19-Devcon-Diamond Sponsors Confirmed-Email-v2
--   19-NA-Living with Humans Webinar-Tw-v1
+* 19-Devcon-Diamond Sponsors Confirmed-Email-v2
+* 19-NA-Living with Humans Webinar-Tw-v1
 
 **Pro Tip:** We DO NOT recommended using the other two buttons in the Home panel (Resize, Duplicate), as this will resize your backgrounds automatically. Instead, to create another image with different sizing, go back to Templates/Team and select from there each time.
 
@@ -40,18 +40,18 @@ Next, select the Page variation that best suits your needs.
 
 Before you begin, please note the following:
 
--   **NEVER use images taken from Google Image searches!** We could be heavily penalized for using copyrighted images without permission (\$1000 or more)
--   ONLY use photos from certified free stock photo sites: Rawpixel, Unsplash, Pexels
--   If you need a partner logo, or need a logo to be formatted as white PNG, please request it in the Slack channel with hashtag #logoRequest and say specifically what you need.
+* **NEVER use images taken from Google Image searches!** We could be heavily penalized for using copyrighted images without permission ($1000 or more)
+* ONLY use photos from certified free stock photo sites: Rawpixel, Unsplash, Pexels
+* If you need a partner logo, or need a logo to be formatted as white PNG, please request it in the Slack channel with hashtag #logoRequest and say specifically what you need.
 
 Depending on the template you choose, you may need to gather some visual assets, such as background photos, speaker headshots or logos. Based on template type, this is what you’ll need:
 
--   **Blue Overlay 1-6** - background photo, minimum 1200 px wide
-    -   Refer to Photography Best Practices below for more tips on selecting a suitable background image
--   **Blue BG 1-3 (Pages 1-2 only)** - speaker headshot (does not need to be in a circle shape, as it will be cropped to a circle via Easil)
--   **Co-branding (any template)** - requires a white, transparent PNG. JPEG logos will not work.
+* **Blue Overlay 1-6** - background photo, minimum 1200 px wide
+  * Refer to Photography Best Practices below for more tips on selecting a suitable background image
+* **Blue BG 1-3 (Pages 1-2 only)** - speaker headshot (does not need to be in a circle shape, as it will be cropped to a circle via Easil)
+* **Co-branding (any template)** - requires a white, transparent PNG. JPEG logos will not work.
 
-## [Uploading & Placing Assets](https://educate.liferay.com/design-tool-easil/363495 'Uploading & Placing Assets')
+## [Uploading & Placing Assets](https://educate.liferay.com/design-tool-easil/363495 "Uploading & Placing Assets")
 
 Navigate to the Images panel from the vertical icon menu.
 
@@ -109,7 +109,7 @@ The cropped image should now appear in the circle. Delete/hide the pink instruct
 
 ![image](/images/easil/speaker-6.png)
 
-### [Co-branded Logo](https://educate.liferay.com/design-tool-easil/363497 'Co-branded Logo')
+### [Co-branded Logo](https://educate.liferay.com/design-tool-easil/363497 "Co-branded Logo")
 
 Some designs will require the inclusion of a second logo, such as partner-related materials or joint event promotions. For these co-branding needs, each template has a hidden layer named **COBRAND**.
 
@@ -137,12 +137,12 @@ After the size and position are finalized, delete the pink rectangle and pink te
 
 ![image](/images/easil/cobrand-3.png)
 
-## [Editing Text Fields](https://educate.liferay.com/design-tool-easil/363498 'Editing Text Fields')
+## [Editing Text Fields](https://educate.liferay.com/design-tool-easil/363498 "Editing Text Fields")
 
 Before you begin, please keep in mind:
 
--   All visual components (text boxes, buttons/CTA, speaker headshots) should be either left- or center-aligned to the Liferay logo, depending on the layout.
--   DO NOT move visual components left and right, only up and down
+* All visual components (text boxes, buttons/CTA, speaker headshots) should be either left- or center-aligned to the Liferay logo, depending on the layout.
+* DO NOT move visual components left and right, only up and down
 
 Double-click on a text field to start editing. Highlight the sample text, then type or paste in your text.
 
@@ -176,7 +176,7 @@ This version below works because it has even spacing between the lines yet maint
 
 ![image](/images/easil/edit-text-6.png)
 
-## [Exporting Images](https://educate.liferay.com/design-tool-easil/363499 'Exporting Images')
+## [Exporting Images](https://educate.liferay.com/design-tool-easil/363499 "Exporting Images")
 
 To export images, click on the **Download** button in the upper-right corner. Select a file type to export (we recommend **PNG**).
 
