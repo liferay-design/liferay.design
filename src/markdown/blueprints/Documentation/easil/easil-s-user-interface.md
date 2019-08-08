@@ -9,11 +9,11 @@ Easil has two main sections: **Templates** and **Workspace**.
 
 ## Templates
 
-![](/Template Thumbnails.png)
+![image](/images/easil/template-thumbnails.png)
 
 This is your starting point for each project. Here you will find a library of all current Liferay-branded templates. You can also search by tag or image size.
 
-![](/Size Dropdown.png)
+![image](/images/easil/size-dropdown.png)
 
 You can filter your view by selecting a size from the dropdown on the right. Available sizes:
 
@@ -23,10 +23,10 @@ You can filter your view by selecting a size from the dropdown on the right. Ava
 
 Each Liferay-branded template has several variations, known as Pages. They include things like: co-branded logos, CTA buttons, speaker headshot circles, etc.
 
-![](/Page Variations.png)
+![image](/images/easil/page-variations.png)
 
 ## Workspace
 
-![](/Workspace View.png)
+![image](/images/easil/workspace-view.png)
 
 This is your own personal space to work on specific designs and store previous ones. **Any templates that you click on in the Templates section will automatically open as copies in your Workspace.**
