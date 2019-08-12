@@ -4,7 +4,7 @@ date: '2019-02-28'
 title: 'Communication Designer'
 office: 'Madrid'
 featuredImage: '/images/events/ldsf-2017-markus.jpg'
-published: true
+published: false
 ---
 
 ## Who Designs at Liferay?
