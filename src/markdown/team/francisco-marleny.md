@@ -1,5 +1,5 @@
 ---
-author: Marleny Fransisco
+author: Marleny Francisco
 ---
 
 ### How did you get into design?

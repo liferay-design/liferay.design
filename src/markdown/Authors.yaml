@@ -1,9 +1,9 @@
 ---
-- id: Marleny Fransisco
+- id: Marleny Francisco
   title: Communication Designer
-  slug: fransisco-marleny
-  headshot: '/images/headshots/fransisco-marleny.jpg'
-  avatar: '/images/headshots/fransisco-marleny.jpg'
+  slug: francisco-marleny
+  headshot: '/images/headshots/francisco-marleny.jpg'
+  avatar: '/images/headshots/francisco-marleny.jpg'
   active: true
   icon: fa_headphones_alt
   startDate: 2019-08-12T07:00:00Z

@@ -3,8 +3,8 @@ label: Teammate
 hide_body: false
 display_field: author
 fields:
-- type: text
-  name: author
-  label: Name
+    - type: text
+      name: author
+      label: Name
 pages:
-- src/markdown/team/fransisco-marleny.md
+    - src/markdown/team/francisco-marleny.md
