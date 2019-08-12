@@ -6,3 +6,5 @@ fields:
 - type: text
   name: author
   label: Name
+pages:
+- src/markdown/team/fransisco-marleny.md
