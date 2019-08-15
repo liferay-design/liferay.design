@@ -38,7 +38,7 @@ export default class Lexicon extends Component {
 					{matches => {
 						let gridTemplate = matches
 							? `"nav" 8rem "main" 1fr / 1fr`
-							: `"sidebar main" auto / 18rem 1fr`
+							: `"sidebar main" auto / 20rem 1fr`
 
 						return (
 							<Grid
