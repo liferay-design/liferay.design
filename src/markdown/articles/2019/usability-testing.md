@@ -7,11 +7,15 @@ title: 'Usability Testing'
 featuredImage: '/images/posts/dbp/placeholder.png'
 ---
 
-**Summary** – Usability testing is one of the most common techniques for evaluating how a product performs from a human centered perspective. By observing real users attempting a task you can gain insights to problem areas of your product and gather user feedback. If a product is considered difficult to use, it creates obstacles for users trying to complete their goals and can have a negative impact on the business and on the overall user experience.
+## Summary
+
+Usability testing is one of the most common techniques for evaluating how a product performs from a human centered perspective. By observing real users attempting a task you can gain insights to problem areas of your product and gather user feedback. If a product is considered difficult to use, it creates obstacles for users trying to complete their goals and can have a negative impact on the business and on the overall user experience.
 
 A key aspect of this technique is that it focuses on the user's actions, and for that reason, helps reduce biases and assumptions and also check if the design solves the user's real problems while fulfilling the business goals.
 
-**Takeaway** – There are different ways to apply usability tests and also different moments when you can run it during a project life cycle. Some benefits are:
+## Takeaway
+
+There are different ways to apply usability tests and also different moments when you can run it during a project life cycle. Some benefits are:
 
 -   Determine what success looks like when the project is finished;
 -   Reduce the risk of building the wrong thing;
@@ -19,7 +23,7 @@ A key aspect of this technique is that it focuses on the user's actions, and for
 -   Find improvement areas that can be worked on next;
 -   Gain insights by observing users and collecting feedback.
 
-**Read More**
+## Read More
 
 • [Usability testing: what is it and how to do it?](https://uxdesign.cc/usability-testing-what-is-it-how-to-do-it-51356e5de5d)
 

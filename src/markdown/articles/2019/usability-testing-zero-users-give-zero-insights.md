@@ -7,7 +7,9 @@ date: '2019-08-13T00:00:00.000Z'
 publish: true
 ---
 
-**Summary** – Which is more productive: testing five users or five hundred?
+## Summary
+
+Which is more productive: testing five users or five hundred?
 
 Jacob Nielsen answers, “The best results come from testing no more than 5 users and running as many small tests as you can afford. \[...\] Testing with 5 people lets you find almost as many usability problems as you'd find using many more test participants”.
 
@@ -18,9 +20,11 @@ Let’s look at the numbers:
 
 Below you can see the table in which Nielsen shows the percentage of problems detected as the number of users tested increases.
 
-**Takeaway** – The giant, Google, has promoted Usability Testing with no more than 5 users in the design of their applications — the same ones that we use daily here in Liferay.
+## Takeaway
 
-**Read More**
+The giant, Google, has promoted Usability Testing with no more than 5 users in the design of their applications — the same ones that we use daily here in Liferay.
+
+## Read More
 
 • [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
 
