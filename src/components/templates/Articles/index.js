@@ -28,6 +28,7 @@ export default class Articles extends Component {
 							post.frontmatter.featuredImage
 						}
 					/>
+					<meta name="keyword" content={"Liferay, Design, Liferay Design, open source design, " + `${post.frontmatter.tags}`} />
 					<meta property="og:description" content={post.excerpt}/>
 					<meta
 						property="og:title"
