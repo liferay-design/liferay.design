@@ -7,7 +7,9 @@ date: '2019-08-14T00:00:00.000Z'
 publish: true
 ---
 
-**Summary** – Before starting a usability test, it is important to define the goals of user testing. The best way to do this is to conduct a kick-off meeting. Meet with the task stakeholders to determine what they want to learn, to discover or to verify by identifying questions, concerns, areas of interest, and purpose of the research.
+## Summary
+
+Before starting a usability test, it is important to define the goals of user testing. The best way to do this is to conduct a kick-off meeting. Meet with the task stakeholders to determine what they want to learn, to discover or to verify by identifying questions, concerns, areas of interest, and purpose of the research.
 
 Discussion topics that a kick-off meeting should cover:
 
@@ -17,9 +19,11 @@ Discussion topics that a kick-off meeting should cover:
 
 The business project scope, vision, goals and target audience, are also important topics to address in a kickoff meeting.
 
-**Takeaway** – Define the goals will determine which research methodology to choose. Beside that, the kick-off allows us to go straight to achieve the goals during the User Testing.
+## Takeaway
 
-**Read More**
+Define the goals will determine which research methodology to choose. Beside that, the kick-off allows us to go straight to achieve the goals during the User Testing.
+
+## Read More
 
 • [Checklist for planning usability studies](https://www.nngroup.com/articles/usability-test-checklist/)
 
