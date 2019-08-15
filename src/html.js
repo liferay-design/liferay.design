@@ -7,13 +7,21 @@ import typography from 'utils/typography'
 export default class HTML extends React.Component {
 	render() {
 		LogRocket.init('vvepjf/liferaydesign')
-		return <html lang="en" {...this.props.htmlAttributes}>
+		return (
+			<html
+				lang="en"
+				prefix="og: http://ogp.me/ns#"
+				{...this.props.htmlAttributes}
+			>
 				<head>
 					<link rel="icon" href="/images/favicon.ico?v=1.0" />
 					<meta charSet="utf-8" />
 					<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 					<GoogleFont typography={typography} />
-					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+					<meta
+						name="viewport"
+						content="width=device-width, initial-scale=1, shrink-to-fit=no"
+					/>
 					<title>
 						Liferay Design | Articles, Events, and Resources for the
 						Open Source Design Community
@@ -25,12 +33,17 @@ export default class HTML extends React.Component {
 					<StrictMode>
 						{this.props.preBodyComponents}
 
-						<div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
+						<div
+							key={`body`}
+							id="___gatsby"
+							dangerouslySetInnerHTML={{ __html: this.props.body }}
+						/>
 
 						{this.props.postBodyComponents}
 					</StrictMode>
 				</body>
 			</html>
+		)
 	}
 }
 
