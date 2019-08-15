@@ -20,6 +20,7 @@ export default class Articles extends Component {
 						{post.frontmatter.title} &mdash; an article by{' '}
 						{post.frontmatter.author.id} on Liferay.Design
 					</title>
+					<meta property="og:type" content="article" />
 					<meta
 						property="og:image"
 						content={
@@ -27,6 +28,7 @@ export default class Articles extends Component {
 							post.frontmatter.featuredImage
 						}
 					/>
+					<meta property="og:description" content={post.excerpt}/>
 					<meta
 						property="og:title"
 						content={
@@ -107,6 +109,7 @@ export const pageQuery = graphql`
 				date
 				tags
 			}
+			excerpt
 			code {
 				body
 			}
