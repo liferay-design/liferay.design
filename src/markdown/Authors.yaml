@@ -206,9 +206,9 @@
 - id: Karolina Kolodziej
   title: Associate Product Designer
   slug: kolodziej-karolina
-  headshot: '/images/headshots/kolodziej-karolina.jpg'
-  avatar: '/images/headshots/kolodziej-karolina-h.jpg'
-  active: true
+  headshot: '/images/headshots/-sunglasses.png'
+  avatar: '/images/headshots/-sunglasses.png'
+  active: false
   icon: fa_map_marked_alt
   startDate: 2019-05-06
   office: Concorezzo
