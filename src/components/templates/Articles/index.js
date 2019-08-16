@@ -24,7 +24,7 @@ export default class Articles extends Component {
 					<meta
 						property="og:image"
 						content={
-							'https://liferay.design/' +
+							'https://liferay.design' +
 							post.frontmatter.featuredImage
 						}
 					/>
