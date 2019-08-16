@@ -33,7 +33,7 @@ export default class Handbook extends Component {
 		} = this.props
 
 		return (
-					<MediaQuery maxWidth={767}>
+				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
 							? `"nav" 8rem "main" 1fr / 1fr`
