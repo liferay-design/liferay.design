@@ -1,7 +1,6 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
-import { PrivatePage } from 'components/templates'
 import { graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { cloneDeep, get, set } from 'lodash'
@@ -34,11 +33,7 @@ export default class Handbook extends Component {
 		} = this.props
 
 		return (
-			<PrivatePage
-				message="You must be a Liferay Employee to view this page"
-				section="Handbook"
-			>
-				<MediaQuery maxWidth={767}>
+					<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
 							? `"nav" 8rem "main" 1fr / 1fr`
@@ -118,7 +113,6 @@ export default class Handbook extends Component {
 						)
 					}}
 				</MediaQuery>
-			</PrivatePage>
 		)
 	}
 }
