@@ -25,7 +25,6 @@
 		}
 	}
 	.content {
-		margin-top: 4.3rem;
 		text-align: center;
 		h1 {
 			font-size: $fontSizeDisplay * 1.2;
@@ -51,5 +50,10 @@
 				font-size: $fontSizeMedium;
 			}
 		}
+	}
+}
+@media screen and (min-width: $screenXLarge) {
+	.container {
+		max-height: $screenLarge;
 	}
 }
