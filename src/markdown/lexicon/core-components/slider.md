@@ -6,7 +6,7 @@ draft: false
 productName: 'PORTAL'
 ---
 
-![A horizontal bar with a handler is a Slider](/images/lexicon/SliderActive.png)
+![A horizontal bar with a handler is a Slider](/images/lexicon/SliderBase.png)
 
 ### Usage
 Use a Slider when you need a selection from a range of values where we want the user to play with the possible values. A popular use is changing the contrast color value for an image. Other uses could be: setting the volume of audio, the reproduction bar of a video or adjusting a filter in a faceted search, etc.
