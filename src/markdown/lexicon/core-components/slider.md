@@ -6,7 +6,7 @@ draft: false
 productName: 'PORTAL'
 ---
 
-![sticker types](/images/lexicon/SliderActive.png)
+![A horizontal bar with a handler is a Slider](/images/lexicon/SliderActive.png)
 
 ### Usage
 Use a Slider when you need a selection from a range of values where we want the user to play with the possible values. A popular use is changing the contrast color value for an image. Other uses could be: setting the volume of audio, the reproduction bar of a video or adjusting a filter in a faceted search, etc.
@@ -20,7 +20,7 @@ Layout
 
 ### Layout
 
-![sticker types](/images/lexicon/SliderLayout.png)  
+![A schema with three points showing the Slider](/images/lexicon/SliderLayout.png)  
 
 1.   **Progress**, this shows the value of the range selected. Can be transparent.
 2.   **Thumb**, this is used as a knob to select a specific value from the range.  
@@ -30,20 +30,20 @@ Layout
 
 **Active**
 
-![sticker types](/images/lexicon/SliderActive.png)
+![A Slider with blue progress](/images/lexicon/SliderActive.png)
 
 **Hover**
 
-![sticker types](/images/lexicon/SliderHover.png)
+![A Slider with blue progress and mouse cursor: pointer](/images/lexicon/SliderHover.png)
 _The browser will determine the cursor to display based on the current context_
 
 **Disabled**
 
-![sticker types](/images/lexicon/SliderDisabled.png)
+![A Slider with progress and track dimmed](/images/lexicon/SliderDisabled.png)
 
 **Focused**
 
-![sticker types](/images/lexicon/SliderFocused.png)
+![The thumb has a blue line coating it](/images/lexicon/SliderFocused.png)
 
 ### Interaction
 
@@ -57,17 +57,17 @@ _The browser will determine the cursor to display based on the current context_
 
 It shows the current slider value. Showing the tooltip is optional as a slider can be combined with other components (inputs, labels, etc). It’s shown when the user hovers over the thumb. 
 
-![sticker types](/images/lexicon/SliderTooltip.png)
+![The number 87 is shown on top of the thumb](/images/lexicon/SliderTooltip.png)
 
 **Drag and Drop**
 
 The Thumb only moves horizontally so It can be dragged and dropped from right to left and left to right.
 
-![Thumb Hover](/images/lexicon/SliderThumbHover.png)
+![The thumb has a subtle blue color](/images/lexicon/SliderThumbHover.png)
 _Thumb Hover_
 
 
-![Thumb Drag](/images/lexicon/SliderThumbDrag.png)
+![The thumb has a subtle blue color and it's coated with a blue line](/images/lexicon/SliderThumbDrag.png)
 _Thumb Drag_
 
 #### KEYBOARD
