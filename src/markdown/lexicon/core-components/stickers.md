@@ -3,7 +3,7 @@ title: 'Stickers'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/stickers.html'
 description: 'Stickers are a visual way to quickly identify content in a different way than badges and labels.'
-order: 325
+order: 326
 draft: false
 ---
 
