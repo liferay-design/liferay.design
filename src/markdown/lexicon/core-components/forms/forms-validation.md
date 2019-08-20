@@ -12,19 +12,29 @@ Sometimes errors are unavoidable even though they are not expected. When an erro
 
 Using an honest and clear language.
 
+![An empty input field with the label "Email". It has an error message below: "This field is empty"](/images/lexicon/ErrorMessageDescribeProblem.png) 
+
 **Supply enough information to minimize mistakes**
 
 Providing examples with hints or explicit help to eliminate the possibility of errors.
 
+![An empty input field with the label "Full Name". The hint within is "e.g. John Doe". Below the input it has an error message: "This field is empty, please introduce a valid name with at least two characters"](/images/lexicon/ErrorMessageMinimizeMistakes.png) 
+
 **Be given in real time**
 
-Solutions appear as the user is typing.
+Solutions appear as the user is typing. 
+
+![An input field with the label "New Password". It has a masked string within. There is a warning message below: "Weak password"](/images/lexicon/ErrorMessageRealTime.png)
 
 **Inform about valid format rules**
+
+![An input field with the label "Nick" and the content "Boton#". There is an error message below: "Valid characters are A-Z a-z 0-9 . _ -"](/images/lexicon/ErrorMessageFormatRules.png)
 
 **Prevent reiteration**
 
 Describing how to fix the error committed.
+
+![A calendar field with the label "End Date" and the content "1960-07-04". There is an error message below: "End date should not be earlier than start date"](/images/lexicon/ErrorMessagePreventReiteration.png)
 
 ### Partial validation
 
@@ -33,8 +43,6 @@ This type of validation occurs on the fly, while the user fills in the form. It 
 #### INLINE
 
 Forms can have inline validation. All [form fields](../text-input) that can be checked against a set of rules while filling them in must show success or error state to the user.
-
-![default error state](/images/lexicon/InputHelpTextError.jpg)
 
 #### AT LEAST ONE FIELD REQUIRED
 
@@ -68,6 +76,9 @@ If errors occur after triggering a full form validation. List them at the top of
 - Include an in-page link to the corresponding form control to make access easier for the users.
 
 Additionally, when the submit action is triggered the focus must be located on the Summary. Consecutively, each time tab is pressed, focus must go through each link error.
+
+
+![A form with an error summary on top describing the errors below](/images/lexicon/FormValidationSummary.png)
 
 **Semantics**
 
