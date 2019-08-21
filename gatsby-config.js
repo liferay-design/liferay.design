@@ -39,6 +39,13 @@ module.exports = {
 		'gatsby-plugin-resolve-src',
 		{
 			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: `Liferay Design`,
+				short_name: `Liferay.Design`,
+				background_color: `#FFF`,
+				theme_color: `#0b5fff`,
+				icon: `src/images/favicon.svg`,
+			},
 		},
 		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
