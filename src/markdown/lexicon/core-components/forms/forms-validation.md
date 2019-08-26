@@ -52,17 +52,17 @@ There may be a case when only one indeterminate field is required in a form or f
 2. It is recommended to include a short help text below the title. Ex: "Please enter at least one of the following fields."
 3. All fields must be marked with the corresponding validation color.
 
-1. Only one validation message is shown for one of the input fields in the group, preferably the first. A good help message specifies the error to the user and explains how to solve it.
+    1. Only one validation message is shown for one of the input fields in the group, preferably the first. A good help message specifies the error to the user and explains how to solve it.
 
-![Form At Least One Field](/images/lexicon/FormAtLeastOneField.jpg)
+    ![Form At Least One Field](/images/lexicon/FormAtLeastOneField.jpg)
 
-2. Once the validation conditions are met, the alert message disappears.
+    2. Once the validation conditions are met, the alert message disappears.
 
-![Form At Least One Field Validation](/images/lexicon/FormAtLeastOneFieldValidation.jpg)
+    ![Form At Least One Field Validation](/images/lexicon/FormAtLeastOneFieldValidation.jpg)
 
-3. Losing focus triggers validation, unless a field in the group is already focused.
+    3. Losing focus triggers validation, unless a field in the group is already focused.
 
-![Form At Least One Field Validation](/images/lexicon/FormAtLeastOneFieldSuccess.jpg)
+    ![Form At Least One Field Validation](/images/lexicon/FormAtLeastOneFieldSuccess.jpg)
 
 ### Full validation
 
