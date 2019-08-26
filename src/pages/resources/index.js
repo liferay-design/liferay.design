@@ -32,6 +32,16 @@ const ResourcesPage = () => (
 				<Grid.Item>
 					<CardLexicon
 						dark
+						icon="fa_figma"
+						title="Figma Resources"
+						text="Open Source Design Projects"
+						to="/resources/figma"
+						cta="Help Us, Help You"
+					/>
+				</Grid.Item>
+				<Grid.Item>
+					<CardLexicon
+						dark
 						icon="lexicon"
 						title="Lexicon"
 						text="Our Experience Language"
@@ -42,11 +52,21 @@ const ResourcesPage = () => (
 				<Grid.Item>
 					<CardLexicon
 						dark
-						icon="fa_figma"
-						title="Figma Resources"
-						text="Open Source Design Projects"
-						to="/resources/figma"
-						cta="Help Us, Help You"
+						icon="faqs"
+						title="Help Center"
+						text="Documentation and how-to's for Liferay-ers"
+						to="https://help.liferay.design"
+						cta="Get Help"
+					/>
+				</Grid.Item>
+				<Grid.Item>
+					<CardLexicon
+						dark
+						icon="waffle"
+						title="Style"
+						text="Digital Marketing Styleguide"
+						to="https://style.liferay.design"
+						cta="Get in Style"
 					/>
 				</Grid.Item>
 				{/* <Grid.Item>
