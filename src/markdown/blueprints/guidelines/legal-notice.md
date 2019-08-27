@@ -28,13 +28,15 @@ For more information on copyrights, see our [internal policy for marking our sou
 Special form drawings (word and logo combo):
 
 -   Liferay _(Registered May 21, 2019)_
+-   Liferay Digital Experience Platform _(Registered July 30, 2019)_
+-   Liferay Commerce _(Registered July 30, 2019)_
 
 Standard Character Marks (word trademarks):
 
 -   Liferay
 -   Liferay DXP
--   Liferay Digital Experience Platform
 -   WeDeploy
+-   Liferay Analytics Cloud
 
 ### In The United States The Following Trademarks Are Still Work In Progress
 
@@ -42,8 +44,6 @@ _It takes some time to get a trademark registration from the USPTO._
 
 Standard Character Marks (word trademarks):
 
--   Liferay Commerce
--   Liferay Analytics Cloud
 -   Liferay Experience Cloud
 -   Apio
 -   Mapo
@@ -51,8 +51,6 @@ Standard Character Marks (word trademarks):
 
 Special form drawings (word and logo combo):
 
--   Liferay Digital Experience Platform
--   Liferay Commerce
 -   Liferay Analytics Cloud
 
 If you are interested in other territories [please let us know](mailto:paul.hanaoka@liferay.com).
