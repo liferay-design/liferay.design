@@ -14,5 +14,3 @@ fields:
 - type: boolean
   name: publish
   label: published
-pages:
-- src/markdown/blueprints/Documentation/slide deck/slide-deck-documentation.md
