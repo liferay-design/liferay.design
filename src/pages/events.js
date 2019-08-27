@@ -15,6 +15,7 @@ export default ({ data }) => {
 
 	// // Separate current and past events
 	// const pastEvents = cardData.filter(({ node }) => false)
+	// https://stackoverflow.com/questions/53822545/how-do-i-display-a-list-of-upcoming-events-in-gatsby
 
 	return (
 		<MainLayout section="Events">
