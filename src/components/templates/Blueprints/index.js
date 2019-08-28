@@ -1,4 +1,4 @@
-import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
@@ -91,12 +91,31 @@ export default class Blueprints extends Component {
 											<MDXRenderer className={styles.body}>
 												{mdx.code.body}
 											</MDXRenderer>
-											<Text style="italic">
-												Last updated on&nbsp;
-												{moment(mdx.parent.mtime).format(
-													'YYYY.MM.DD',
-												)}
-											</Text>
+											<Flex justify="space-between">
+												<Text style="italic">
+													Last modified on{' '}
+													<Link
+														target="_new"
+														to={
+															'https://github.com/liferay-design/liferay.design/commits/master/src/' +
+															`${mdx.parent.relativePath}`
+														}
+													>
+														{moment(mdx.parent.mtime).format(
+															'YYYY.MM.DD',
+														)}
+													</Link>
+												</Text>
+												<Link
+													target="_new"
+													to={
+														'https://github.com/liferay-design/liferay.design/tree/master/src/' +
+														`${mdx.parent.relativePath}`
+													}
+												>
+													Edit on GitHub
+												</Link>
+											</Flex>
 										</ContainerMarkdown>
 										<FooterMarkdown light />
 									</div>
@@ -174,6 +193,7 @@ export const pageQuery = graphql`
 			parent {
 				... on File {
 					mtime
+					relativePath
 				}
 			}
 		}
