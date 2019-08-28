@@ -14,7 +14,7 @@ summary: ''
 
 # heroImage: '/images/events/javier-canada-meetup.png'
 bodyImage: '/images/events/javier-canada-meetup.png'
-ctaURL: 'https://www.eventbrite.es/e/entradas-presentacion-del-instituto-tramontana-70740337253'
+ctaURL: 'https://www.eventbrite.es/e/entradas-disenar-productos-entre-la-utilidad-y-el-deleite-70740337253'
 tag: 'RSVP Now!'
 
 author: 'Víctor Valle'
