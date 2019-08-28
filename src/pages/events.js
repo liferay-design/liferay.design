@@ -35,7 +35,7 @@ export default ({ data }) => {
 						<CardDefault
 							avatarImage
 							pill
-							// tag={node.frontmatter.tag}
+							tag={node.frontmatter.tag}
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
@@ -64,6 +64,7 @@ export const query = graphql`
 				node {
 					id
 					frontmatter {
+						tag
 						title
 						office {
 							city
