@@ -49,116 +49,77 @@ export default class Blueprints extends Component {
 							return (
 								<Grid
 									template={gridTemplate}
-									className={
-										styles.mainContentWrapper
-									}
+									className={styles.mainContentWrapper}
 								>
 									{matches && (
 										<Flex
-											className={
-												styles.mobileNavbar
-											}
+											className={styles.mobileNavbar}
 											justify="space-between"
 											padding="2rem 1.5rem"
 										>
-											<SiteName
-												section="Blueprints"
-												dark
-											/>
+											<SiteName section="Blueprints" dark />
 											<AuthContainer />
 										</Flex>
 									)}
 
 									<Sidebar
 										path={pathname}
-										tree={buildSidebarTree(
-											allMdx,
-										)}
+										tree={buildSidebarTree(allMdx)}
 										isMobile={matches}
-										showSidebar={
-											this.state
-												.mobileSidebarVisible
-										}
+										showSidebar={this.state.mobileSidebarVisible}
 										section="Blueprints"
 									/>
 
 									<div
-										className={
-											styles.body
-										}
+										className={styles.body}
 										isMobile={matches}
 										isMobileSidebarVisible={
-											this.state
-												.mobileSidebarVisible
+											this.state.mobileSidebarVisible
 										}
 									>
 										<ContainerMarkdown>
 											<Flex
 												justify="space-between"
 												align="baseline"
-												className={
-													styles.header
-												}
+												className={styles.header}
 											>
-												<h1>
-													{
-														mdx
-															.frontmatter
-															.title
-													}
-												</h1>
+												<h1>{mdx.frontmatter.title}</h1>
 
-												{!matches && (
-													<AuthContainer />
-												)}
+												{!matches && <AuthContainer />}
 											</Flex>
 
-											<MDXRenderer
-												className={
-													styles.body
-												}
-											>
-												{
-													mdx.code
-														.body
-												}
+											<MDXRenderer className={styles.body}>
+												{mdx.code.body}
 											</MDXRenderer>
-											<Text style="italic">Last updated on&nbsp;
-												{moment
-(													mdx.parent
-														.mtime).format('YYYY.MM.DD')
-												}
+											<Text style="italic">
+												Last updated on&nbsp;
+												{moment(mdx.parent.mtime).format(
+													'YYYY.MM.DD',
+												)}
 											</Text>
 										</ContainerMarkdown>
-										<FooterMarkdown
-											light
-										/>
+										<FooterMarkdown light />
 									</div>
 
 									<Flex
 										align="center"
-										className={
-											styles.mobileMenuBar
-										}
+										className={styles.mobileMenuBar}
 										justify="space-between"
 									>
 										<Icon name="logoDark" />
 
-										{this.state
-											.mobileSidebarVisible ? (
+										{this.state.mobileSidebarVisible ? (
 											<Icon
 												name="close"
 												onClick={
-													this
-														.toggleMobileSidebarVisibility
+													this.toggleMobileSidebarVisibility
 												}
 											/>
 										) : (
 											<Text
 												color="white"
 												onClick={
-													this
-														.toggleMobileSidebarVisibility
+													this.toggleMobileSidebarVisibility
 												}
 											>
 												Menu
@@ -176,39 +137,23 @@ export default class Blueprints extends Component {
 }
 
 export const pageQuery = graphql`
-			query($slug: String!) {
-				allMdx(
-					filter: {
-						fields: { slug: { regex: "/blueprints/" } }
-						frontmatter: { publish: { eq: true } }
-					}
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							frontmatter {
-								order
-								title
-							}
-							fields {
-								slug
-							}
-							parent {
-								... on File {
-									mtime
-								}
-							}
-						}
-					}
-				}
-				
-				mdx(fields: { slug: { eq: $slug } }) {
+	query($slug: String!) {
+		allMdx(
+			filter: {
+				fields: { slug: { regex: "/blueprints/" } }
+				frontmatter: { publish: { eq: true } }
+			}
+		) {
+			totalCount
+			edges {
+				node {
+					id
 					frontmatter {
+						order
 						title
 					}
-					code {
-						body
+					fields {
+						slug
 					}
 					parent {
 						... on File {
@@ -217,7 +162,23 @@ export const pageQuery = graphql`
 					}
 				}
 			}
-		`
+		}
+
+		mdx(fields: { slug: { eq: $slug } }) {
+			frontmatter {
+				title
+			}
+			code {
+				body
+			}
+			parent {
+				... on File {
+					mtime
+				}
+			}
+		}
+	}
+`
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
