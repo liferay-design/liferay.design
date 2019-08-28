@@ -21,7 +21,7 @@ Indicated by the symbol ©, copyrights protect our exclusive rights of creations
 
 For more information on copyrights, see our [internal policy for marking our source code](https://grow.liferay.com/share/Liferay+Policy+for+Marking+Our+Own+Source+Code) or our [internal copyright FAQ](https://grow.liferay.com/share/Internal+Liferay+Copyright+%3CAMPERSAND%3E+Licensing+FAQ).
 
-## Status Information | June 2019
+## Status Information | August 2019
 
 ### We Have Registered The Following Trademarks In The United States And Can Use The &reg; Symbol
 
@@ -57,4 +57,4 @@ If you are interested in other territories [please let us know](mailto:paul.hana
 
 We have various trademarks registrations and applications elsewhere around the world.
 
-_This information is accurate as of June 2019._
+_This information is accurate as of August 2019._
