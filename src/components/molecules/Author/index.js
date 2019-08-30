@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 const Author = ({ id, avatar, slug }) => {
 	return (
 		<Flex align="center" className={styles.author}>
-			<Image imgSrc={avatar} className={styles.avatar} />
+			<Image src={avatar} className={styles.avatar} />
 			<Text>
 				by {''}
 				<Link to={'/team/' + `${slug}`}>{id}</Link>
