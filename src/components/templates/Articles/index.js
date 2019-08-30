@@ -1,8 +1,7 @@
 import { Container, Flex, Link } from 'components/atoms'
-import { Tags } from 'components/molecules'
+import { Tags, GlobalMdx } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
@@ -86,7 +85,7 @@ export default class Articles extends Component {
 						src={post.frontmatter.featuredImage}
 					/>
 					<Flex direction="column" className={styles.wrapper}>
-						<MDXRenderer>{post.code.body}</MDXRenderer>
+						<GlobalMdx>{post.code.body}</GlobalMdx>
 					</Flex>
 				</div>
 				<Footer light />

@@ -1,7 +1,7 @@
 import { Flex, Icon, Text } from 'components/atoms'
+import { GlobalMdx } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import React, { Component } from 'react'
 import { Button, styled } from 'reakit'
 import { colors, fontSizes } from 'theme'
@@ -34,7 +34,7 @@ export default class Careers extends Component {
 				</Flex>
 				<div className={styles.mdxWrapper}>
 					<Flex direction="column" className={styles.largeContainer}>
-						<MDXRenderer>{post.code.body}</MDXRenderer>
+						<GlobalMdx>{post.code.body}</GlobalMdx>
 						<div className={styles.applyContainer}>
 							<ApplyButton
 								as="a"
