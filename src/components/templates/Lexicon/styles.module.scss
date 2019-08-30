@@ -4,19 +4,19 @@
 
 .lexicon {
 	font-family: $fontFamilySystem;
-	
+
 	.mainContentWrapper {
 		background: $white;
 		min-height: 100vh;
 	}
-	
+
 	.mobileNavbar {
 		align-items: center;
 		grid-area: nav;
 		background: #f7f8f9;
 		width: 100%;
 	}
-	
+
 	.mobileMenuBar {
 		background: $black;
 		bottom: 0;
@@ -25,19 +25,19 @@
 		position: fixed;
 		right: 0;
 		z-index: 10;
-	
+
 		> * {
 			cursor: pointer;
 			margin: 1rem 1.5rem;
 		}
 	}
-	
+
 	@media screen and (max-width: $screenMedium) {
 		.mobileMenuBar {
 			display: flex !important;
 		}
 	}
-	
+
 	.description {
 		color: $main-l3;
 		font-size: 28px;
@@ -45,13 +45,13 @@
 		margin-bottom: 80px;
 		line-height: 1.25;
 		margin-top: -1rem;
-	
+
 		@media (max-width: $grid-float-breakpoint - 1) {
 			font-size: 24px;
 			margin-top: 8px;
 		}
 	}
-	
+
 	.description:after {
 		background-color: $action;
 		content: '';
@@ -62,7 +62,6 @@
 		bottom: -24px;
 		width: 2rem;
 	}
-
 
 	.labelWarning {
 		border-color: $warning-l1;
@@ -77,10 +76,10 @@
 		border-style: solid;
 		border-width: 0.0625rem;
 		display: inline-flex;
-	
+
 		position: relative;
 		top: -2.5rem;
-	
+
 		@media (max-width: $grid-float-breakpoint - 1) {
 			margin-top: 1.5rem;
 		}
@@ -99,10 +98,10 @@
 		border-style: solid;
 		border-width: 0.0625rem;
 		display: inline-flex;
-	
+
 		position: relative;
 		top: -2.5rem;
-	
+
 		@media (max-width: $grid-float-breakpoint - 1) {
 			margin-top: 1.5rem;
 		}
@@ -121,40 +120,40 @@
 		border-style: solid;
 		border-width: 0.0625rem;
 		display: inline-flex;
-	
+
 		position: relative;
 		top: -2.5rem;
-	
+
 		@media (max-width: $grid-float-breakpoint - 1) {
 			margin-top: 1.5rem;
 		}
 	}
-	
+
 	p {
 		line-height: 1.5;
 		margin-bottom: $base-size * 0.5;
-	
+
 		a {
 			color: $brand-primary;
 		}
 	}
-	
+
 	// img {
 	// 	margin: 12px 0;
 	// 	max-width: 100%;
 	// }
-	
+
 	// table img {
 	// 	margin-bottom: 8px;
 	// 	margin-top: 4px;
 	// }
-	
+
 	table {
 		border-collapse: collapse;
 		font-size: 0.875rem;
 		margin: 1.5rem 0 4rem;
 		text-align: left;
-	
+
 		& > tbody > tr > td,
 		& > thead > tr > th {
 			border-bottom: 1px solid $main-l5;
@@ -164,7 +163,7 @@
 				min-width: 1rem;
 			}
 		}
-	
+
 		thead > tr > th {
 			border-top-width: 0;
 			border-bottom-width: 1px;
@@ -173,12 +172,12 @@
 			vertical-align: bottom;
 			background-color: #f7f8fa;
 		}
-	
+
 		td > p {
 			display: inline;
 		}
 	}
-	
+
 	h1,
 	h2,
 	h3 {
@@ -192,7 +191,7 @@
 			margin-top: $base-size * 2;
 		}
 	}
-	
+
 	h1 {
 		font-size: 28px;
 		@media (min-width: $grid-float-breakpoint) {
@@ -200,27 +199,27 @@
 			padding: 1.5rem 0 1rem;
 		}
 	}
-	
+
 	h2 {
 		font-size: ($base-size * 1.33);
 		line-height: $base-size;
 		padding-bottom: 24px;
 	}
-	
+
 	h3 {
 		font-size: $base-size;
 		& + h4 {
 			padding-top: 16px;
 		}
 	}
-	
+
 	h4 {
 		font-size: $base-size * 0.675;
 		font-weight: 800;
 		line-height: 1.25;
 		padding: 24px 0 16px;
 	}
-	
+
 	time {
 		display: inline-block;
 		font-size: 14px;
@@ -235,19 +234,19 @@
 			font-weight: 800;
 		}
 	}
-	
+
 	header {
 		margin: 0;
-	
+
 		@media (max-width: $grid-float-breakpoint - 1) {
 			margin-top: 80px;
 		}
-	
+
 		.container-fluid > h1 {
 			margin: 0;
 		}
 	}
-	
+
 	h1.with-subtitle {
 		padding-bottom: 0;
 		margin-bottom: 0;
@@ -258,34 +257,34 @@
 		color: $main-l3;
 		font-size: $fontSizeSmall;
 		text-align: center;
-		display: inherit;		
+		display: inherit;
 	}
-	
+
 	// .download-card {
 	// 	width: 200px;
 	// 	height: 200px;
 	// 	text-align: center;
 	// 	border: 1px $black;
 	// }
-	
+
 	// .download-card-img {
 	// 	height: 100px;
 	// 	width: auto;
 	// 	margin-bottom: $base-size;
 	// 	margin-bottom: $base-size;
 	// }
-	
+
 	// .download-card-text {
 	// 	color: $main-l3;
 	// 	font-size: 14px;
 	// 	text-align: center;
 	// 	margin-top: $base-size / 4;
 	// }
-	
+
 	@media (max-width: $grid-float-breakpoint - 1) {
 		margin-top: 80px;
 	}
-	
+
 	// .carousel {
 	// 	min-height: 570px;
 	// 	background-color: $gray-bg;
@@ -306,7 +305,7 @@
 	// 			opacity: 1;
 	// 		}
 	// 	}
-	
+
 	// 	.carousel-indicators {
 	// 		li {
 	// 			background-color: $main-l4;
@@ -316,7 +315,7 @@
 	// 		}
 	// 	}
 	// }
-	
+
 	// .last-update {
 	// 	color: $success;
 	// 	margin-top: 2rem;
@@ -328,18 +327,12 @@
 	font-size: 0.875rem;
 }
 
-:global(.designerImg) {
-	border-radius: 50%;
-	margin-top: 2px;
-}
-
-
 :global(.do) {
 	border-style: solid;
 	border-width: 4px 0px 0px 0px;
 	border-color: $success-l1;
 	color: $success;
-	font-weight: 600;  
+	font-weight: 600;
 }
 
 :global(.dont) {
@@ -347,7 +340,7 @@
 	border-width: 4px 0px 0px 0px;
 	border-color: $error-l1;
 	color: $error;
-	font-weight: 600;  
+	font-weight: 600;
 }
 
 :global(.do-text) {
@@ -411,7 +404,7 @@
 	text-transform: uppercase;
 }
 
-:global(.last-update){
+:global(.last-update) {
 	color: $success;
 	font-weight: 600;
 }
