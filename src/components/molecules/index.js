@@ -12,6 +12,7 @@ import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import DoDont from './DoDont'
 import FormNewsletter from './FormNewsletter'
+import GlobalMdx from './GlobalMdx'
 import ImageDownload from './ImageDownload'
 import LogoutContainer from './LogoutContainer'
 import SiteCredits from './SiteCredits'
@@ -34,6 +35,7 @@ export {
 	ColorField,
 	DoDont,
 	FormNewsletter,
+	GlobalMdx,
 	ImageDownload,
 	LogoutContainer,
 	SiteCredits,
