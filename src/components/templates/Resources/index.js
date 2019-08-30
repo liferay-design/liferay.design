@@ -1,7 +1,7 @@
 import { Container, Flex } from 'components/atoms'
+import { GlobalMdx } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 
@@ -21,7 +21,7 @@ export default class Resources extends Component {
 				<div className={styles.markdownContainer}>
 					<Container>
 						<Flex direction="column" className={styles.wrapper}>
-							<MDXRenderer>{post.code.body}</MDXRenderer>
+							<GlobalMdx>{post.code.body}</GlobalMdx>
 						</Flex>
 					</Container>
 				</div>

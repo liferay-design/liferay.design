@@ -3,7 +3,6 @@ import { AuthContainer } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
 import { graphql } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
@@ -88,9 +87,9 @@ export default class Blueprints extends Component {
 												{!matches && <AuthContainer />}
 											</Flex>
 
-											<MDXRenderer className={styles.body}>
+											<GlobalMdx className={styles.body}>
 												{mdx.code.body}
-											</MDXRenderer>
+											</GlobalMdx>
 											<Flex justify="space-between">
 												<Text style="italic">
 													Last modified on{' '}

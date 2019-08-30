@@ -1,11 +1,10 @@
-import { Flex } from 'components/atoms'
+import { Container, Flex } from 'components/atoms'
+import { GlobalMdx } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Container } from 'components/atoms'
 import MediaQuery from 'react-responsive'
 import moment from 'moment'
 
@@ -41,7 +40,7 @@ export default class Team extends Component {
 				</Container>
 				<div className={styles.markdownContainer}>
 					<Flex margin="auto" direction="column" className={styles.wrapper}>
-						<MDXRenderer>{post.code.body}</MDXRenderer>
+						<GlobalMdx>{post.code.body}</GlobalMdx>
 					</Flex>
 				</div>
 
