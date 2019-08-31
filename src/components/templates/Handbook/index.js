@@ -1,5 +1,5 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
-import { AuthContainer } from 'components/molecules'
+import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
