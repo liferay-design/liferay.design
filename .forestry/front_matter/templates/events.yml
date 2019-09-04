@@ -9,7 +9,7 @@ fields:
   name: featuredImage
   label: Featured Image
 - type: datetime
-  name: startDateTime
+  name: date
   label: Start Date & Time
 - type: text
   name: endDateTime

@@ -7,7 +7,7 @@ featuredImage: '/images/events/design-at-scale-madrid-2018.jpg' #requried
 office: 'Madrid' #required
 
 #Event Details
-startDateTime: '2018-10-10T19:30' #required (yyyy-mm-dd)
+date: '2018-10-10T19:30' #required (yyyy-mm-dd)
 endDateTime: ''
 
 summary: 'The evening started with a brief introduction to design ops from Ale M. Later, Alfonso Morcuende made an immersion into design tokens by guiding the talk through Realized design system Thonet.'

@@ -13,7 +13,7 @@ export default class Events extends Component {
 		// Prereqs for conditional date rendering
 		const d1 = new Date() // Get today's date
 		const today = d1.getTime() // convert to date object
-		const d2 = new Date(moment(post.frontmatter.startDateTime).format('YYYY/MM/DD')) // get the date from the frontmatter
+		const d2 = new Date(moment(post.frontmatter.date).format('YYYY/MM/DD')) // get the date from the frontmatter
 		const eventDate = d2.getTime() // convert the event's date to a date object
 
 		return (
@@ -26,18 +26,18 @@ export default class Events extends Component {
 							<Flex justify="center" align="center" direction="column">
 								<span>
 									{' '}
-									{moment(post.frontmatter.startDateTime).format('MMM')}
+									{moment(post.frontmatter.date).format('MMM')}
 								</span>
 								<span>
 									{' '}
-									{moment(post.frontmatter.startDateTime).format('DD')}
+									{moment(post.frontmatter.date).format('DD')}
 								</span>
 							</Flex>
 							{post.frontmatter.title}{' '}
 						</h1>
 						<h2>
 							<span className={styles.startTime}>
-								{moment(post.frontmatter.startDateTime).format('h:mma')}
+								{moment(post.frontmatter.date).format('h:mma')}
 							</span>
 							{post.frontmatter.endDateTime && (
 								<span className={styles.endTime}>
@@ -104,7 +104,7 @@ export const pageQuery = graphql`
 					region
 					mapURL
 				}
-				startDateTime
+				date
 				author {
 					id
 					avatar
