@@ -7,7 +7,7 @@ featuredImage: '/images/events/lr-figma-la-design-systems-31.jpg' #requried
 office: 'Diamond Bar' #required
 
 #Event Details
-startDateTime: '2019-03-26T18:30' #required (yyyy-mm-dd)
+date: '2019-03-26T18:30' #required (yyyy-mm-dd)
 endDateTime: '2019-03-26T20:30'
 
 summary: 'Liferay’s Design Team hosted the first meetup of the Figma LA User Group. It was an evening of fun, best practices, and practical examples for components and team libraries in the context of design systems.'

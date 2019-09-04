@@ -7,7 +7,7 @@ featuredImage: '/images/events/recife-dec-2018-01.jpg' #requried
 office: 'Recife' #required
 
 #Event Details
-startDateTime: '2018-12-06T19:00' #required (yyyy-mm-ddThh:mm)
+date: '2018-12-06T19:00' #required (yyyy-mm-ddThh:mm)
 endDateTime: '2018-12-06T21:00'
 
 summary: 'Nessa primeita edição, vamos conversar sobre lições e aprendizados na construção de design system no Sketch.'

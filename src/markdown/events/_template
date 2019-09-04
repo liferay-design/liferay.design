@@ -7,7 +7,7 @@ featuredImage: '/images/events/design-at-scale-madrid-2019.jpg' #required
 office: 'Diamond Bar' #required
 
 #Event Details
-startDateTime: '2019-01-26T19:30' #required (yyyy-mm-ddThh:mm) *use military time
+date: '2019-01-26T19:30' #required (yyyy-mm-ddThh:mm) *use military time
 endDateTime: '2019-01-26T21:30'
 
 summary: 'Emiliano Cicero and Danny Saltaren shared their knowledge on how to build a component library in Figma, and on processes, tools and learnings respectively.'

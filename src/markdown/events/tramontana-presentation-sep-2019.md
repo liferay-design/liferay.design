@@ -7,7 +7,7 @@ featuredImage: '/images/events/javier-canada-meetup-front.png' #requried
 office: 'Madrid' #required
 
 #Event Details
-startDateTime: '2019-09-05T19:00' #required (yyyy-mm-dd)
+date: '2019-09-05T19:00' #required (yyyy-mm-dd)
 endDateTime: '2019-05-05T21:00'
 
 summary: ''

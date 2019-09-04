@@ -7,7 +7,7 @@ featuredImage: '/images/events/design-disruptors-viewing.jpg' #requried
 office: 'Diamond Bar' #required
 
 #Event Details
-startDateTime: '2018-03-13T18:30' #required (yyyy-mm-ddThh:mm)
+date: '2018-03-13T18:30' #required (yyyy-mm-ddThh:mm)
 endDateTime: ''
 
 summary: 'It was a rainy day in Southern California so of course traffic was terrible. That probably impacted our attendance, but those who made it out had a great time!'

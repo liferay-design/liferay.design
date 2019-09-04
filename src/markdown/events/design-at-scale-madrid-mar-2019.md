@@ -7,7 +7,7 @@ featuredImage: '/images/events/angulo-meetup.jpeg' #requried
 office: 'Madrid' #required
 
 #Event Details
-startDateTime: '2019-03-28T19:00' #required (yyyy-mm-ddThh:mm)
+date: '2019-03-28T19:00' #required (yyyy-mm-ddThh:mm)
 endDateTime: '2019-03-28T22:00'
 
 summary: 'De la teoría a la práctica: cómo habitar un sistema de diseño conducido por Antonio Angulo'

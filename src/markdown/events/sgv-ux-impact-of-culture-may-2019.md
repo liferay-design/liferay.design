@@ -7,7 +7,7 @@ featuredImage: '/images/events/may-2019/sgv-ux-crowd-at-liferay.jpg' #requried
 office: 'Diamond Bar' #required
 
 #Event Details
-startDateTime: '2019-05-07T19:00' #required (yyyy-mm-dd)
+date: '2019-05-07T19:00' #required (yyyy-mm-dd)
 endDateTime: '2019-05-07T22:30'
 
 summary: 'We hosted the third meetup of the San Gabriel Valley UX Group. We ate kimbap, toured the office, and had a great discussion about the impact of culture in design and tech.'

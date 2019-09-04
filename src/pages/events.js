@@ -10,7 +10,7 @@ export default ({ data }) => {
 	// // Prereqs for conditional date rendering
 	// const d1 = new Date(); // Get today's date
 	// const today = d1.getTime(); // convert to date object
-	// const d2 = new Date(moment(cardData.node.frontmatter.startDateTime).format("YYYY/MM/DD")); // get the date from the frontmatter
+	// const d2 = new Date(moment(cardData.node.frontmatter.date).format("YYYY/MM/DD")); // get the date from the frontmatter
 	// const eventDate = d2.getTime(); // convert the event's date to a date object
 
 	// // Separate current and past events
@@ -57,7 +57,7 @@ export const query = graphql`
 				fileAbsolutePath: { regex: "/(events)/" }
 				frontmatter: { draft: { eq: false } }
 			}
-			sort: { order: DESC, fields: [frontmatter___startDateTime] }
+			sort: { order: DESC, fields: [frontmatter___date] }
 		) {
 			totalCount
 			edges {
@@ -71,7 +71,7 @@ export const query = graphql`
 							regionIcon
 						}
 						featuredImage
-						startDateTime
+						date
 					}
 					fields {
 						slug
