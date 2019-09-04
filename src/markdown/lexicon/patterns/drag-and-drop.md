@@ -1,7 +1,7 @@
 ---
 title: 'Drag and Drop'
 description: 'A pattern that lets users drag and drop elements in the interface. This can optionally perform an action, depending on the target the element is dropped onto.'
-order: 242
+order: 2002
 draft: false
 ---
 
