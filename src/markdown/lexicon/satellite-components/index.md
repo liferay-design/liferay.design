@@ -1,5 +1,5 @@
 ---
-title: 'Satellite Components'
+title: 'Satellites'
 description: 'Keep updated.'
 icon: 'lexicon-site-news'
 order: 400
