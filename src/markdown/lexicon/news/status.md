@@ -5,7 +5,7 @@ order: 702
 draft: false
 ---
 
-<p class="last-update">Last Update: May 27th, 2019</p>
+<p class="last-update">Last Update: September 4th 2019</p>
 <br/>
 
 | Legend |
@@ -26,12 +26,19 @@ draft: false
 | Typography | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | Writing style | <p class="dotDone">&#9679;</p> | NA | NA |
 
-## Core Components
+## Patterns
 
 | Page | Lexicon | Clay CSS | Clay Component |
 | ---- | ----- | ----- |----- |
 | <p class="tableSection">ACTIONS DEFINITION</p> |
 | Actions definition | <p class="dotDone">&#9679;</p> | NA | NA |
+| <p class="tableSection">DRAG AND DROP</p> |
+| Drag and drop | <p class="dotDone">&#9679;</p> | NA | NA |
+
+## Components
+
+| Page | Lexicon | Clay CSS | Clay Component |
+| ---- | ----- | ----- |----- |
 | <p class="tableSection">ALERT</p> |
 | Alert Toast | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Alert Embedded | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
@@ -61,8 +68,6 @@ draft: false
 | Confirmation Message | <p class="dotDone">&#9679;</p> | NA | NA |
 | <p class="tableSection">DATASET DISPLAY</p> |
 | Dataset display | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
-| <p class="tableSection">DRAG AND DROP</p> |
-| Drag and drop | <p class="dotDone">&#9679;</p> | NA | NA |
 | <p class="tableSection">DROPDOWN MENU</p> |
 | Dropdown menu | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">EMPTY STATES</p> |
@@ -125,7 +130,7 @@ draft: false
 | Upper toolbar | <p class="dotDone">&#9679;</p> | NA | NA |
 
 
-## Satellite Components
+## Satellites
 
 | Page | Lexicon | Clay CSS | Clay Component |
 | ---- | ----- | ----- |----- |
