@@ -1,7 +1,7 @@
 ---
 title: 'File Upload'
 description: 'File Uploader is a pattern that lets users select and upload images to the system.'
-order: 401
+order: 501
 draft: false
 productName: 'PORTAL'
 devStatus: 'PENDING'

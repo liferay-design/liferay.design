@@ -1,7 +1,7 @@
 ---
 title: 'Sites'
 description: "A tour through the basic patterns that make up the Classic theme that styles the Site's environment."
-order: 431
+order: 531
 draft: false
 ---
 

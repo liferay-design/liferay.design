@@ -1,7 +1,7 @@
 ---
 title: 'Sidebar'
 description: 'Sidebar section'
-order: 420
+order: 520
 draft: false
 ---
 

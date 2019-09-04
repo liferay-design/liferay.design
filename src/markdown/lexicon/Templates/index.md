@@ -1,7 +1,7 @@
 ---
 title: 'Templates'
 description: 'Templates section'
-order: 500
+order: 400
 draft: false
 ---
 
