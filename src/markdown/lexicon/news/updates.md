@@ -5,6 +5,16 @@ order: 701
 draft: false
 ---
 
+
+<time>September 4th, 2019</time>
+
+<p>Structural update</p>
+
+-   Patterns extracted from Components and added to a new section named Patterns
+-   "Core Components" renamed to "Components"
+-   "Satellite Components" renamed to "Satellites"
+-   Site menu order changed to place together Foundations, Patterns, Componentes and Templates, which receive support from Clay. Satellites and Examples do not have support from the system as they are just inspiration for consumers.
+
 <time>May 27th, 2019</time>
 
 <p>General update</p>
