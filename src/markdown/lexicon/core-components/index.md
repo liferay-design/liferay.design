@@ -1,5 +1,5 @@
 ---
-title: 'Core Components'
+title: 'Components'
 description: 'Keep updated.'
 icon: 'lexicon-site-principles'
 order: 200
