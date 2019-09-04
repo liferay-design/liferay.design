@@ -1,7 +1,7 @@
 ---
 title: 'Sites'
 description: 'Sites section'
-order: 430
+order: 530
 draft: false
 productName: 'PORTAL'
 ---

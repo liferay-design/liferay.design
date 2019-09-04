@@ -1,7 +1,7 @@
 ---
 title: 'Settings Template '
 description: 'The settings template shows how a configuration screen is displayed using Lexicon patterns'
-order: 504
+order: 404
 draft: false
 ---
 

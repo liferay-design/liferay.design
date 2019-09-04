@@ -3,7 +3,7 @@ title: 'Info Panel'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/sidebar/info-panel.html'
 description: 'An information container that displays additional data for the content displayed in the main visual area.'
-order: 422
+order: 522
 draft: false
 productName: 'PORTAL'
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Patterns'
 description: 'Interaction Patterns'
-order: 2001
+order: 130
 draft: false
 ---
 

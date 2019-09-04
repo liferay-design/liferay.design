@@ -1,7 +1,7 @@
 ---
 title: 'Form Template'
 description: 'The form template demonstrates how forms are built and composed using Lexicon patterns.'
-order: 503
+order: 403
 draft: false
 ---
 
