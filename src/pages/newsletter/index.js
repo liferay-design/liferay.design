@@ -1,13 +1,13 @@
 import { CardGrid, Icon, Link, Heading, Text, Container } from 'components/atoms'
 import { CardDefault, FormNewsletter } from 'components/molecules'
-import { Banner, Footer, Navbar } from 'components/organisms'
+import { Banner, Footer, Navbar, TopBlogPosts } from 'components/organisms'
 import React from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 import { Helmet } from 'react-helmet'
 
-export default ({ data }) => {
+export default() => {
 	return (
 		<div>
 			<Helmet>
@@ -41,50 +41,8 @@ export default ({ data }) => {
 				<Heading level={2} color="black" padding="4rem">
 					More musings
 				</Heading>
-				<CardGrid>
-					{data.allMdx.edges.map(({ node }) => (
-						<CardDefault
-							avatarImage
-							key={node.id}
-							imageURL={node.frontmatter.featuredImage}
-							link={node.fields.slug}
-							title={node.frontmatter.title}
-							subtitle={`${node.timeToRead}` + ' Min Read'}
-							avatarImageURL={node.frontmatter.author.avatar}
-						/>
-					))}
-				</CardGrid>
+				<TopBlogPosts />
 			</Container>
 			<Footer />
 		</div>
 	)}
-
-export const query = graphql`
-	{
-		allMdx(
-			limit: 3
-			filter: { fileAbsolutePath: { regex: "/(articles)/" } }
-			sort: { order: DESC, fields: [frontmatter___date] }
-		) {
-			totalCount
-			edges {
-				node {
-					id
-					timeToRead
-					frontmatter {
-						title
-						featuredImage
-						author {
-							slug
-							avatar
-						}
-					}
-					fields {
-						slug
-					}
-					excerpt
-				}
-			}
-		}
-	}
-`
