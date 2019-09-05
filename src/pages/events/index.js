@@ -3,6 +3,7 @@ import { CardDefault } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
+import PastEvents from './components/PastEvents'
 
 export default ({ data }) => {
 	const cardData = data.allMdx.edges
@@ -23,11 +24,13 @@ export default ({ data }) => {
 				{/* <Heading level={1} color="white" padding="4rem">
 					Upcoming Events
 				</Heading>
-
+				*/}{' '}
 				<Heading level={1} color="white" padding="4rem">
 					Past Events
-				</Heading> */}
-				<Heading level={1} color="white" padding="4rem">
+				</Heading>
+				<PastEvents />
+				
+				{/* <Heading level={1} color="white" padding="4rem">
 					We Love to Host!
 				</Heading>
 				<CardGrid>
@@ -44,7 +47,7 @@ export default ({ data }) => {
 							avatarImageURL={node.frontmatter.office.regionIcon}
 						/>
 					))}
-				</CardGrid>
+				</CardGrid> */}
 			</Container>
 		</MainLayout>
 	)
