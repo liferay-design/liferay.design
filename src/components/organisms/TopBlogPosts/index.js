@@ -1,9 +1,38 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import { CardGrid } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 
-export default ({ data }) => {
+export default () => {
+	const data = useStaticQuery(graphql`
+		{
+			allMdx(
+				limit: 3
+				filter: { fileAbsolutePath: { regex: "/(articles)/" } }
+				sort: { order: DESC, fields: [frontmatter___date] }
+			) {
+				totalCount
+				edges {
+					node {
+						id
+						timeToRead
+						frontmatter {
+							title
+							featuredImage
+							author {
+								slug
+								avatar
+							}
+						}
+						fields {
+							slug
+						}
+						excerpt
+					}
+				}
+			}
+		}
+	`)
 	return (
 		<CardGrid>
 			{data.allMdx.edges.map(({ node }) => (
@@ -19,33 +48,3 @@ export default ({ data }) => {
 			))}
 		</CardGrid>
 )}
-
-export const query = graphql`
-	{
-		allMdx(
-			limit: 3
-			filter: { fileAbsolutePath: { regex: "/(articles)/" } }
-			sort: { order: DESC, fields: [frontmatter___date] }
-		) {
-			totalCount
-			edges {
-				node {
-					id
-					timeToRead
-					frontmatter {
-						title
-						featuredImage
-						author {
-							slug
-							avatar
-						}
-					}
-					fields {
-						slug
-					}
-					excerpt
-				}
-			}
-		}
-	}
-`
