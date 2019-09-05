@@ -54,11 +54,15 @@ export default () => {
 			/>
 		))
 	return (
-		<Container>
-			<Heading level={1} color="white" padding="4rem">
-				Upcoming Events
-			</Heading>
-			<CardGrid>{Events}</CardGrid>
-		</Container>
+		<div>
+			{Events.length>0 ? 
+			<Container>
+				<Heading level={1} color="white" padding="4rem">
+					Upcoming Events
+				</Heading>
+				<CardGrid>{Events}</CardGrid>
+			</Container>
+			: null}
+		</div>
 	)
 }
