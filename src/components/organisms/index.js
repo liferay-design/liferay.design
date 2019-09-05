@@ -7,6 +7,7 @@ import HeroBanner from './HeroBanner'
 import Navbar from './Navbar'
 import NavItems from './NavItems'
 import Sidebar from './Sidebar'
+import TopBlogPosts from './TopBlogPosts'
 import Venue from './Venue'
 
 export {
@@ -19,5 +20,6 @@ export {
 	NavItems,
 	Navbar,
 	Sidebar,
+	TopBlogPosts,
 	Venue,
 }
