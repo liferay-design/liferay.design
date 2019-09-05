@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { CardGrid } from 'components/atoms'
+import { Container, CardGrid, Heading } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import moment from 'moment'
 
@@ -39,7 +39,7 @@ export default () => {
 	`)
 
 	const Events = data.allMdx.edges
-		.filter(edgeItem => moment(edgeItem.node.frontmatter.date).toDate() < Date.now())
+		.filter(edgeItem => moment(edgeItem.node.frontmatter.date).toDate() > Date.now())
 		.map(({ node }) => (
 			<CardDefault
 				avatarImage
@@ -54,7 +54,11 @@ export default () => {
 			/>
 		))
 	return (
-		<CardGrid>
-			{Events}
-		</CardGrid>
-	)}
+		<Container>
+			<Heading level={1} color="white" padding="4rem">
+				Upcoming Events
+			</Heading>
+			<CardGrid>{Events}</CardGrid>
+		</Container>
+	)
+}
