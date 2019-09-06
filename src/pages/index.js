@@ -39,7 +39,7 @@ export default ({ data }) => {
 						<Heading level={2} color="black" padding="4rem">
 							Resources
 						</Heading>
-						<CardGrid>
+						<CardGrid two>
 							<CardDefault 
 								imageURL='/images/resources/lexicon-cover.png'
 								icon='lexicon'
