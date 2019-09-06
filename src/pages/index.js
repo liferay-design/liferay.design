@@ -1,4 +1,4 @@
-import { CardGrid, Container, Heading } from 'components/atoms'
+import { CardGrid, Container, Heading, Link } from 'components/atoms'
 import { BillboardAlt, CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
@@ -33,7 +33,29 @@ export default ({ data }) => {
 							What's New
 						</Heading>
 						<TopBlogPosts />
-						{/* <Link to="/articles">More Articles</Link> */}
+						<Link to="/articles">More Articles</Link>
+					</Container>
+					<Container background="white">
+						<Heading level={2} color="black" padding="4rem">
+							Resources
+						</Heading>
+						<CardGrid>
+							<CardDefault 
+								imageURL='/images/resources/lexicon-cover.png'
+								icon='lexicon'
+								title='Lexicon: An Experience Language for Crafting Beautiful UI'
+								subtitle='Our open-source Design Language for Enterprise Software'
+								link='/lexicon'
+							/>
+							<CardDefault 
+								imageURL='/images/resources/figma-utilities.png'
+								icon='figma'
+								title='Figma Files'
+								subtitle='Our open-source library of Figma resources.'
+								link='/resources/figma'
+							/>
+						</CardGrid>
+						<Link to="/resources">Resources</Link>
 					</Container>
 				</MainLayout>
 			</div>
