@@ -2,11 +2,10 @@ import { CardGrid, Container, Heading, Link } from 'components/atoms'
 import { BillboardAlt, CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
-import { graphql } from 'gatsby'
 import React from 'react'
-import { fontSizes, colors } from 'theme'
+import { spacing, colors } from 'theme'
 
-export default ({ data }) => {
+export default () => {
 	return (
 		<div>
 			<BillboardAlt
@@ -29,7 +28,11 @@ export default ({ data }) => {
 			>
 				<MainLayout>
 					<HeroBanner />
-					<Container>
+					<Container
+						padding={
+							`${spacing.small}` + ' 0 ' + `${spacing.large}`
+						}
+					>
 						<Heading level={2} color="white" padding="4rem">
 							What's New
 						</Heading>
@@ -38,13 +41,16 @@ export default ({ data }) => {
 					</Container>
 					<Container
 						padding={
-							`${fontSizes.display}` + ' 0 ' + `${fontSizes.medium}`
+							`${spacing.large}` + ' 0 ' + `${spacing.small}`
 						}
 						background={
 							'linear-gradient(to bottom, ' +
-							`${colors.white}` + ', ' +
-							`${colors.white}` + ' 50%, ' + 
-							`${colors.black}` +  ' 50%)'
+							`${colors.white}` +
+							', ' +
+							`${colors.white}` +
+							' 50%, ' +
+							`${colors.black}` +
+							' 50%)'
 						}
 					>
 						<Heading level={2} color="black" padding="4rem">
@@ -75,33 +81,3 @@ export default ({ data }) => {
 		</div>
 	)
 }
-
-export const query = graphql`
-	{
-		allMdx(
-			limit: 3
-			filter: { fileAbsolutePath: { regex: "/(articles)/" } }
-			sort: { order: DESC, fields: [frontmatter___date] }
-		) {
-			totalCount
-			edges {
-				node {
-					id
-					timeToRead
-					frontmatter {
-						title
-						featuredImage
-						author {
-							slug
-							avatar
-						}
-					}
-					fields {
-						slug
-					}
-					excerpt
-				}
-			}
-		}
-	}
-`

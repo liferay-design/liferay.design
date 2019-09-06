@@ -106,4 +106,14 @@ const sizes = {
 	xLarge: '1920px', 	// 120rem
 }
 
-export { colors, fontWeights, fontSizes, sizes }
+const spacing = {
+	xSmall: '0.4rem',
+	small: '1rem',
+	base: '2rem',
+	medium: '3rem',
+	large: '8rem',
+	xLarge: '16rem',
+	xxLarge: '32rem',
+}
+
+export { colors, fontWeights, fontSizes, sizes, spacing}
