@@ -4,6 +4,7 @@ import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
+import { Media } from 'react-md'
 
 export default ({ data }) => {
 	return (
@@ -41,6 +42,7 @@ export default ({ data }) => {
 						</Heading>
 						<CardGrid two>
 							<CardDefault 
+								aspectRatio="16-9"
 								imageURL='/images/resources/lexicon-cover.png'
 								icon='lexicon'
 								title='Lexicon: An Experience Language for Crafting Beautiful UI'
@@ -48,6 +50,7 @@ export default ({ data }) => {
 								link='/lexicon'
 							/>
 							<CardDefault 
+								aspectRatio="16-9"
 								imageURL='/images/resources/figma-utilities.png'
 								icon='fa_figma'
 								title='Figma Files'

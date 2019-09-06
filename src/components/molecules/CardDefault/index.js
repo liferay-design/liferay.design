@@ -15,11 +15,12 @@ const CardDefault = ({
 	avatarImageURL,
 	pill,
 	tag,
+	...props
 }) => (
 	<Link className={styles.cardLink} to={link}>
 		<Card className={styles.card}>
-			<Media aspectRatio="4-3" className={styles.null}>
-				<img alt={"image for " + `${title}`} src={withPrefix(`${imageURL}`)} />
+			<Media aspectRatio="4-3" className={styles.null} {...props}>
+				<img alt={'image for ' + `${title}`} src={withPrefix(`${imageURL}`)} />
 			</Media>
 			{pill ? (
 				<Text className={styles.pill} weight="black">
@@ -27,7 +28,11 @@ const CardDefault = ({
 				</Text>
 			) : null}
 			{avatarImage ? (
-				<Avatar className={styles.avatar} alt={avatarImageURL} src={withPrefix(`${avatarImageURL}`)} />
+				<Avatar
+					className={styles.avatar}
+					alt={avatarImageURL}
+					src={withPrefix(`${avatarImageURL}`)}
+				/>
 			) : (
 				<Avatar
 					className={styles.avatar}
