@@ -3,7 +3,7 @@ draft: false #requried (true or false)
 
 #Event Card Fields
 title: 'Diseñar productos, entre la utilidad y el deleite.' #requried
-featuredImage: '/images/events/javier-canada-meetup-front.png' #requried
+featuredImage: '/images/events/javier-canada-thumb.jpg' #requried
 office: 'Madrid' #required
 
 #Event Details
@@ -13,7 +13,7 @@ endDateTime: '2019-05-05T21:00'
 summary: ''
 
 # heroImage: '/images/events/javier-canada-meetup.png'
-bodyImage: '/images/events/javier-canada-meetup.png'
+bodyImage: '/images/events/javier-canada-meetup.jpg'
 ctaURL: 'https://www.eventbrite.es/e/entradas-disenar-productos-entre-la-utilidad-y-el-deleite-70740337253'
 tag: ''
 
