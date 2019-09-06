@@ -29,33 +29,31 @@ export default () => {
 				<MainLayout>
 					<HeroBanner />
 					<Container
+						heading="What's New"
 						padding={
 							`${spacing.small}` + ' 0 ' + `${spacing.large}`
 						}
 					>
-						<Heading level={2} color="white" padding="4rem">
-							What's New
-						</Heading>
 						<TopBlogPosts />
-						<Link to="/articles">More Articles</Link>
 					</Container>
 					<Container
+						heading="Resources"
+						color="black"
 						padding={
 							`${spacing.large}` + ' 0 ' + `${spacing.small}`
 						}
+						linkText="Get More"
+						linkDestination="/resources"
 						background={
 							'linear-gradient(to bottom, ' +
 							`${colors.white}` +
 							', ' +
 							`${colors.white}` +
-							' 50%, ' +
+							' 70%, ' +
 							`${colors.black}` +
-							' 50%)'
+							' 70%)'
 						}
 					>
-						<Heading level={2} color="black" padding="4rem">
-							Resources
-						</Heading>
 						<CardGrid two>
 							<CardDefault
 								aspectRatio="16-9"
@@ -74,7 +72,6 @@ export default () => {
 								link="/resources/figma"
 							/>
 						</CardGrid>
-						<Link to="/resources">Resources</Link>
 					</Container>
 				</MainLayout>
 			</div>
