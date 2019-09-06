@@ -11,7 +11,7 @@ export default () => {
 			<UpcomingEvents />		
 			<Container>
 				<Heading level={1} color="white" padding="4rem">
-					Past Events
+					Event Recaps
 				</Heading>
 				<PastEvents />
 			</Container>
