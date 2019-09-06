@@ -1,5 +1,7 @@
 import { Link as GatsbyLink } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import React from 'react'
+import {colors} from 'theme'
 
 // Since DOM elements <a> cannot receive activeClassName,
 // destructure the prop here and pass it only to GatsbyLink
@@ -12,9 +14,16 @@ const Link = ({ children, to, activeClassName, ...other }) => {
 	// Use Gatsby Link for internal links, and <a> for others
 	if (internal) {
 		return (
-			<GatsbyLink to={to} activeClassName={activeClassName} {...other}>
+			<AniLink
+				fade
+				bg="red"
+				duration={.5}
+				to={to}
+				activeClassName={activeClassName}
+				{...other}
+			>
 				{children}
-			</GatsbyLink>
+			</AniLink>
 		)
 	}
 	return (
