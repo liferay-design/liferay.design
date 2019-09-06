@@ -4,7 +4,6 @@ import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
-import { Media } from 'react-md'
 
 export default ({ data }) => {
 	return (
@@ -36,26 +35,26 @@ export default ({ data }) => {
 						<TopBlogPosts />
 						<Link to="/articles">More Articles</Link>
 					</Container>
-					<Container background="white">
+					<Container background="linear-gradient(to bottom, #fff, #fff 50%, #13141f 50%">
 						<Heading level={2} color="black" padding="4rem">
 							Resources
 						</Heading>
 						<CardGrid two>
-							<CardDefault 
+							<CardDefault
 								aspectRatio="16-9"
-								imageURL='/images/resources/lexicon-cover.png'
-								icon='lexicon'
-								title='Lexicon: An Experience Language for Crafting Beautiful UI'
-								subtitle='Our open-source Design Language for Enterprise Software'
-								link='/lexicon'
+								imageURL="/images/resources/lexicon-cover.png"
+								icon="lexicon"
+								title="Lexicon: An Experience Language for Crafting Beautiful UI"
+								subtitle="Our open-source Design Language for Enterprise Software"
+								link="/lexicon"
 							/>
-							<CardDefault 
+							<CardDefault
 								aspectRatio="16-9"
-								imageURL='/images/resources/figma-utilities.png'
-								icon='fa_figma'
-								title='Figma Files'
-								subtitle='Our open-source library of Figma resources.'
-								link='/resources/figma'
+								imageURL="/images/resources/figma-utilities.png"
+								icon="fa_figma"
+								title="Figma Files"
+								subtitle="Our open-source library of Figma resources."
+								link="/resources/figma"
 							/>
 						</CardGrid>
 						<Link to="/resources">Resources</Link>
