@@ -4,6 +4,7 @@ import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
+import { fontSizes, colors } from 'theme'
 
 export default ({ data }) => {
 	return (
@@ -19,7 +20,7 @@ export default ({ data }) => {
 			<div
 				style={{
 					backgroundAttachment: 'fixed',
-					backgroundColor: '#13141f',
+					backgroundColor: `${colors.black}`,
 					backgroundImage: 'url("/images/diamond-bar-topography.png")',
 					backgroundRpeat: 'noRepeat repeat',
 					backgroundSize: '100%',
@@ -35,7 +36,17 @@ export default ({ data }) => {
 						<TopBlogPosts />
 						<Link to="/articles">More Articles</Link>
 					</Container>
-					<Container background="linear-gradient(to bottom, #fff, #fff 50%, #13141f 50%">
+					<Container
+						padding={
+							`${fontSizes.display}` + ' 0 ' + `${fontSizes.medium}`
+						}
+						background={
+							'linear-gradient(to bottom, ' +
+							`${colors.white}` + ', ' +
+							`${colors.white}` + ' 50%, ' + 
+							`${colors.black}` +  ' 50%)'
+						}
+					>
 						<Heading level={2} color="black" padding="4rem">
 							Resources
 						</Heading>
