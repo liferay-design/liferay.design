@@ -12,11 +12,19 @@ const Container = ({ children, background, padding, linkDestination, linkText, h
 		>
 			<div className={styles.container}>
 				<Flex justify="space-between">
-					<Heading color="white" level={2} padding={spacing.medium}{...props}>
-						{heading}
-					</Heading>
+					{heading ? (
+						<Heading
+							color="white"
+							level={2}
+							padding={spacing.medium}
+							{...props}
+						>
+							{heading}
+						</Heading>
+					) : null}
 					{linkText ? (
-					<NiceLink to={linkDestination}>{linkText}</NiceLink> ): null }
+						<NiceLink to={linkDestination}>{linkText}</NiceLink>
+					) : null}
 				</Flex>
 				{children}
 			</div>
