@@ -49,7 +49,7 @@ export default ({ data }) => {
 							/>
 							<CardDefault 
 								imageURL='/images/resources/figma-utilities.png'
-								icon='figma'
+								icon='fa_figma'
 								title='Figma Files'
 								subtitle='Our open-source library of Figma resources.'
 								link='/resources/figma'
