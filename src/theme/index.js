@@ -1,9 +1,9 @@
 // Colors are same as in variables.module.scss
 const colors = {
 	secondary: '#95BDFF',
-	grey: '#a4a4a4',
+	grey: '#6b6c7e',
 	white: '#FFF',
-	black: '#1C1B1B',
+	black: '#13141f',
 	dark: '#204589',
 	light: '#f2f6ff',
 	lightGrey: '#c0c0c0',
