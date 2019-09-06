@@ -7,6 +7,7 @@ import Heading from './Heading'
 import Icon from './Icon'
 import Image from './Image'
 import Link from './Link'
+import NiceLink from './NiceLink'
 import SiteName from './SiteName'
 import Text from './Text'
 
@@ -17,6 +18,7 @@ export {
 	Icon,
 	Image,
 	Link,
+	NiceLink,
 	Text,
 	Container,
 	ContainerMarkdown,
