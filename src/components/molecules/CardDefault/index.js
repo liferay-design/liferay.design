@@ -1,5 +1,5 @@
-import { Icon, Text } from 'components/atoms'
-import { Link, withPrefix } from 'gatsby'
+import { Icon, Text, Link } from 'components/atoms'
+import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Avatar, Card, CardText, CardTitle, Media } from 'react-md'
