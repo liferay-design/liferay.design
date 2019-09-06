@@ -74,7 +74,7 @@ const Lexicon = () => (
 										direction="horizontal"
 										title="Components"
 										text="Explores the list of components and pattern that configure the building blocks of Lexicon system"
-										to="/lexicon/core-components/actions-definition"
+										to="/lexicon/core-components/alerts"
 										cta="Learn More"
 									/>
 								</Grid.Item>
