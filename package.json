@@ -16,6 +16,7 @@
 		"gatsby-plugin-typography": "^2.2.13",
 		"gatsby-transformer-sharp": "~2.1.18",
 		"gatsby-transformer-yaml": "^2.2.3",
+		"gsap": "^2.1.3",
 		"lodash": "^4.17.14",
 		"logrocket": "~0.6.20",
 		"react": "~16.8.6",
