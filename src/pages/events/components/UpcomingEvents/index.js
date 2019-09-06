@@ -31,7 +31,6 @@ export default () => {
 						fields {
 							slug
 						}
-						excerpt
 					}
 				}
 			}
