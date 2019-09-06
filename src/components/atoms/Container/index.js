@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
-import { Heading, Flex, Link } from 'components/atoms'
+import { Heading, Flex, NiceLink } from 'components/atoms'
 import { spacing } from 'theme'
 
 const Container = ({ children, background, padding, linkDestination, linkText, heading, ...props }) => {
@@ -15,7 +15,7 @@ const Container = ({ children, background, padding, linkDestination, linkText, h
 					<Heading color="white" level={2} padding={spacing.medium}{...props}>
 						{heading}
 					</Heading>
-					<Link to={linkDestination}>{linkText}</Link>
+					<NiceLink to={linkDestination}>{linkText}</NiceLink>
 				</Flex>
 				{children}
 			</div>
