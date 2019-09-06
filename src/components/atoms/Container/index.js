@@ -15,7 +15,8 @@ const Container = ({ children, background, padding, linkDestination, linkText, h
 					<Heading color="white" level={2} padding={spacing.medium}{...props}>
 						{heading}
 					</Heading>
-					<NiceLink to={linkDestination}>{linkText}</NiceLink>
+					{linkText ? (
+					<NiceLink to={linkDestination}>{linkText}</NiceLink> ): null }
 				</Flex>
 				{children}
 			</div>
