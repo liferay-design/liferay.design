@@ -49,9 +49,9 @@ export default () => {
 							`${colors.white}` +
 							', ' +
 							`${colors.white}` +
-							' 70%, ' +
+							' 80%, ' +
 							`${colors.black}` +
-							' 70%)'
+							' 80%)'
 						}
 					>
 						<CardGrid two>
@@ -59,8 +59,8 @@ export default () => {
 								aspectRatio="16-9"
 								imageURL="/images/resources/lexicon-cover.png"
 								icon="lexicon"
-								title="Lexicon: An Experience Language for Crafting Beautiful UI"
-								subtitle="Our open-source Design Language for Enterprise Software"
+								title="Lexicon Design System"
+								subtitle="Our open-source system for designing enterprise software"
 								link="/lexicon"
 							/>
 							<CardDefault
@@ -68,7 +68,7 @@ export default () => {
 								imageURL="/images/resources/figma-utilities.png"
 								icon="fa_figma"
 								title="Figma Files"
-								subtitle="Our open-source library of Figma resources."
+								subtitle="Utilities and components to help you speed up your workflow"
 								link="/resources/figma"
 							/>
 						</CardGrid>
