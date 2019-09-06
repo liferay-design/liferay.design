@@ -18,9 +18,16 @@ $md-typography-extended: false;
 
 @include react-md-everything;
 
-html,
+html {
+	height: initial;
+}
+
 body {
 	height: 100%;
+}
+
+html,
+body {
 	background-attachment: fixed;
 	background-color: $black;
 	background-image: url(/images/diamond-bar-topography.png);
