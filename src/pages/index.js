@@ -1,4 +1,4 @@
-import { CardGrid, Container, Heading, Link } from 'components/atoms'
+import { CardGrid, Container } from 'components/atoms'
 import { BillboardAlt, CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
