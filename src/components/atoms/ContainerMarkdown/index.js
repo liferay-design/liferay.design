@@ -9,7 +9,6 @@ const ContainerMarkdown = ({ isMobile, isMobileSidebarVisible, children }) => {
 				isMobile && isMobileSidebarVisible ? styles.hide : ''
 			} ${isMobile ? styles.mobile : ''}`}
 		>
-			<div className="another-class" />
 			{children}
 		</div>
 	)
