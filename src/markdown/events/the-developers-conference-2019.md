@@ -3,17 +3,17 @@ draft: false #required boolean (true or false)
 
 #Event Card Fields
 title: 'Design Systems: Unificando o Mindset entre Designers and Devs' #required
-featuredImage: '/images/events/the-developers-conference-logo.png' #required
+featuredImage: '/images/events/felipe-the-developers-conference-thumb.jpg' #required
 office: 'Recife' #required
 
 #Event Details
-startDateTime: '2019-10-11T10:10' #required (yyyy-mm-ddThh:mm) *use military time
+date: '2019-10-11T10:10' #required (yyyy-mm-ddThh:mm) *use military time
 endDateTime: '2019-10-11T11:00'
 
 summary: 'Como a unificação de um pensamento sistemático compartilhado entre designers e desenvolvedores é fundamental na construção de sistemas de design eficientes.'
 
 heroImage: ''
-bodyImage: '/images/events/the-developers-conference-logo.png'
+bodyImage: '/images/events/felipe-the-developers-conference.jpg'
 
 ctaURL: 'http://thedevconf.com.br/tdc/2019/recife/trilha-ux-e-design-thinking'
 ---
