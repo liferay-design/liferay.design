@@ -7,6 +7,7 @@ import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
+import documentation from 'theme/documentation.module.scss'
 
 export default class Lexicon extends Component {
 	constructor(props) {
@@ -32,7 +33,7 @@ export default class Lexicon extends Component {
 		} = this.props
 
 		return (
-			<div className={lexicon.theme}>
+			<div className={`${lexicon.theme} ${documentation.theme}`}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -85,8 +86,13 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
 												<a
-													className={lexicon.labelWarning}
-													href={mdx.frontmatter.titleLabelLink}
+													className={
+														lexicon.labelWarning
+													}
+													href={
+														mdx.frontmatter
+															.titleLabelLink
+													}
 													target="_blank"
 												>
 													VIEW IN CLAY
@@ -139,12 +145,16 @@ export default class Lexicon extends Component {
 									{this.state.mobileSidebarVisible ? (
 										<Icon
 											name="close"
-											onClick={this.toggleMobileSidebarVisibility}
+											onClick={
+												this.toggleMobileSidebarVisibility
+											}
 										/>
 									) : (
 										<Text
 											color="white"
-											onClick={this.toggleMobileSidebarVisibility}
+											onClick={
+												this.toggleMobileSidebarVisibility
+											}
 										>
 											Menu
 										</Text>
