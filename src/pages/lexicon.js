@@ -5,9 +5,10 @@ import React from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
+import documentation from 'theme/documentation.module.scss'
 
 const Lexicon = () => (
-	<div className={lexicon.theme}>
+	<div className={`${lexicon.theme} ${documentation.theme}`}>
 		<Banner
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
@@ -17,8 +18,8 @@ const Lexicon = () => (
 			background="url(/images/lexicon/home/patternbg.svg) center fixed, #0B5FFF"
 			underlineColor="#5fe5c1"
 		/>
-		<div className={lexicon.background}>
-			<div className={lexicon.container}>
+		<div className={documentation.background}>
+			<div className={documentation.container}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -32,22 +33,30 @@ const Lexicon = () => (
 								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
 						return (
 							<Grid
-								className={lexicon.teasers}
+								className={documentation.teasers}
 								gap="2rem"
 								template={gridTemplate}
 							>
-								<Grid.Item area="tlg" marginTop="-8rem">
+								<Grid.Item
+									area="tlg"
+									marginTop="-8rem"
+								>
 									<Text
 										color="#c4cacb"
 										weight="700"
 										size="12px"
 										type="p"
-										className={lexicon.vertical}
+										className={
+											lexicon.vertical
+										}
 									>
 										Explore Lexicon
 									</Text>
 								</Grid.Item>
-								<Grid.Item area="tlc" marginTop="-8rem">
+								<Grid.Item
+									area="tlc"
+									marginTop="-8rem"
+								>
 									<CardLexicon
 										icon="what"
 										title="Get Started"
@@ -56,7 +65,10 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="trc" marginTop="-8rem">
+								<Grid.Item
+									area="trc"
+									marginTop="-8rem"
+								>
 									<CardLexicon
 										icon="principles"
 										title="Foundations"
@@ -96,24 +108,36 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="brg" marginTop="2rem">
+								<Grid.Item
+									area="brg"
+									marginTop="2rem"
+								>
 									<Link
-										className={lexicon.social}
+										className={documentation.social}
 										to="https://github.com/liferay-design"
 									>
-										<Icon fill="white" name="github" />
+										<Icon
+											fill="white"
+											name="github"
+										/>
 									</Link>
 									<Link
-										className={lexicon.social}
+										className={documentation.social}
 										to="https://dribbble.com/liferay"
 									>
-										<Icon fill="white" name="dribbble" />
+										<Icon
+											fill="white"
+											name="dribbble"
+										/>
 									</Link>
 									<Link
-										className={lexicon.social}
+										className={documentation.social}
 										to="https://twitter.com/Liferay_Lexicon"
 									>
-										<Icon fill="white" name="twitter" />
+										<Icon
+											fill="white"
+											name="twitter"
+										/>
 									</Link>
 								</Grid.Item>
 							</Grid>
@@ -122,26 +146,24 @@ const Lexicon = () => (
 				</MediaQuery>
 			</div>
 		</div>
-		<div className={lexicon.billboard}>
-			<Billboard
-				image="participate"
-				heading="Want to contribute?"
-				Subtitle={() => (
-					<Text size="large">
-						Check out some issues in {' '}
-						<Link
-							href="https://github.com/liferay-design/liferay.design/labels/lexicon"
-							target="_blank"
-							rel="noopener"
-						>
-							GitHub
-						</Link>
-						!
-					</Text>
-				)}
-				background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
-			/>
-		</div>
+		<Billboard
+			image="participate"
+			heading="Want to contribute?"
+			Subtitle={() => (
+				<Text size="large">
+					Check out some issues in{' '}
+					<Link
+						href="https://github.com/liferay-design/liferay.design/labels/lexicon"
+						target="_blank"
+						rel="noopener"
+					>
+						GitHub
+					</Link>
+					!
+				</Text>
+			)}
+			background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
+		/>
 		<section className={lexicon.claySection}>
 			<Container>
 				<Grid className={lexicon.clayCard}>
