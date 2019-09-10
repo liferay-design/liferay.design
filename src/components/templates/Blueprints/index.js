@@ -71,7 +71,6 @@ export default class Blueprints extends Component {
 									/>
 
 									<div
-										className={documentation.body}
 										isMobile={matches}
 										isMobileSidebarVisible={
 											this.state.mobileSidebarVisible
@@ -81,16 +80,13 @@ export default class Blueprints extends Component {
 											<Flex
 												justify="space-between"
 												align="baseline"
-												className={documentation.header}
 											>
 												<h1>{mdx.frontmatter.title}</h1>
 
 												{!matches && <AuthContainer />}
 											</Flex>
 
-											<GlobalMdx className={documentation.body}>
-												{mdx.code.body}
-											</GlobalMdx>
+											<GlobalMdx>{mdx.code.body}</GlobalMdx>
 											<Flex justify="space-between">
 												<Text style="italic">
 													Last modified on{' '}

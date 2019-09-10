@@ -43,11 +43,11 @@ export default class Lexicon extends Component {
 						return (
 							<Grid
 								template={gridTemplate}
-								className={lexicon.mainContentWrapper}
+								className={documentation.mainContentWrapper}
 							>
 								{matches && (
 									<Flex
-										className={lexicon.mobileNavbar}
+										className={documentation.mobileNavbar}
 										justify="space-between"
 										padding="2rem 1.5rem"
 									>
@@ -66,18 +66,13 @@ export default class Lexicon extends Component {
 								/>
 
 								<div
-									className={lexicon.body}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
 									}
 								>
 									<ContainerMarkdown>
-										<Flex
-											justify="space-between"
-											align="baseline"
-											className={lexicon.header}
-										>
+										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>
 
 											{!matches && <AuthContainer />}
@@ -123,16 +118,14 @@ export default class Lexicon extends Component {
 											</p>
 										) : null}
 
-										<GlobalMdx className={lexicon.body}>
-											{mdx.code.body}
-										</GlobalMdx>
+										<GlobalMdx>{mdx.code.body}</GlobalMdx>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
 								</div>
 
 								<Flex
 									align="center"
-									className={lexicon.mobileMenuBar}
+									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
 									<Icon name="logoDark" />
