@@ -7,7 +7,8 @@ import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
-import styles from './styles.module.scss'
+import blueprints from 'theme/blueprints.module.scss'
+import documentation from 'theme/documentation.module.scss'
 import moment from 'moment'
 
 export default class Blueprints extends Component {
@@ -38,7 +39,7 @@ export default class Blueprints extends Component {
 				message="You must be a Liferay Employee to view this page"
 				section="Blueprints"
 			>
-				<div className={styles.sans}>
+				<div className={`${blueprints.theme} ${documentation.theme}`}>
 					<MediaQuery maxWidth={767}>
 						{matches => {
 							let gridTemplate = matches
@@ -48,11 +49,11 @@ export default class Blueprints extends Component {
 							return (
 								<Grid
 									template={gridTemplate}
-									className={styles.mainContentWrapper}
+									className={blueprints.mainContentWrapper}
 								>
 									{matches && (
 										<Flex
-											className={styles.mobileNavbar}
+											className={blueprints.mobileNavbar}
 											justify="space-between"
 											padding="2rem 1.5rem"
 										>
@@ -70,7 +71,7 @@ export default class Blueprints extends Component {
 									/>
 
 									<div
-										className={styles.body}
+										className={blueprints.body}
 										isMobile={matches}
 										isMobileSidebarVisible={
 											this.state.mobileSidebarVisible
@@ -80,14 +81,14 @@ export default class Blueprints extends Component {
 											<Flex
 												justify="space-between"
 												align="baseline"
-												className={styles.header}
+												className={blueprints.header}
 											>
 												<h1>{mdx.frontmatter.title}</h1>
 
 												{!matches && <AuthContainer />}
 											</Flex>
 
-											<GlobalMdx className={styles.body}>
+											<GlobalMdx className={blueprints.body}>
 												{mdx.code.body}
 											</GlobalMdx>
 											<Flex justify="space-between">
@@ -121,7 +122,7 @@ export default class Blueprints extends Component {
 
 									<Flex
 										align="center"
-										className={styles.mobileMenuBar}
+										className={blueprints.mobileMenuBar}
 										justify="space-between"
 									>
 										<Icon name="logoDark" />
