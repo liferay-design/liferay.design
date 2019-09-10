@@ -4,10 +4,10 @@ import { Banner, Footer } from 'components/organisms'
 import React from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
-import styles from './styles.module.scss'
+import lexicon from 'theme/lexicon.module.scss'
 
 const Lexicon = () => (
-	<div className={styles.lexicon}>
+	<div className={lexicon.theme}>
 		<Banner
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
@@ -17,8 +17,8 @@ const Lexicon = () => (
 			background="url(/images/lexicon/home/patternbg.svg) center fixed, #0B5FFF"
 			underlineColor="#5fe5c1"
 		/>
-		<div className={styles.background}>
-			<div className={styles.container}>
+		<div className={lexicon.background}>
+			<div className={lexicon.container}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -32,7 +32,7 @@ const Lexicon = () => (
 								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
 						return (
 							<Grid
-								className={styles.teasers}
+								className={lexicon.teasers}
 								gap="2rem"
 								template={gridTemplate}
 							>
@@ -42,7 +42,7 @@ const Lexicon = () => (
 										weight="700"
 										size="12px"
 										type="p"
-										className={styles.vertical}
+										className={lexicon.vertical}
 									>
 										Explore Lexicon
 									</Text>
@@ -98,19 +98,19 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="brg" marginTop="2rem">
 									<Link
-										className={styles.social}
+										className={lexicon.social}
 										to="https://github.com/liferay-design"
 									>
 										<Icon fill="white" name="github" />
 									</Link>
 									<Link
-										className={styles.social}
+										className={lexicon.social}
 										to="https://dribbble.com/liferay"
 									>
 										<Icon fill="white" name="dribbble" />
 									</Link>
 									<Link
-										className={styles.social}
+										className={lexicon.social}
 										to="https://twitter.com/Liferay_Lexicon"
 									>
 										<Icon fill="white" name="twitter" />
@@ -122,7 +122,7 @@ const Lexicon = () => (
 				</MediaQuery>
 			</div>
 		</div>
-		<div className={styles.billboard}>
+		<div className={lexicon.billboard}>
 			<Billboard
 				image="participate"
 				heading="Want to contribute?"
@@ -142,9 +142,9 @@ const Lexicon = () => (
 				background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
 			/>
 		</div>
-		<section className={styles.claySection}>
+		<section className={lexicon.claySection}>
 			<Container>
-				<Grid className={styles.clayCard}>
+				<Grid className={lexicon.clayCard}>
 					<Grid.Item columnStart="3" columnEnd="7">
 						<CardLexicon
 							dark

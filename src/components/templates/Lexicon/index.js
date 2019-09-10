@@ -6,7 +6,7 @@ import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
-import styles from './styles.module.scss'
+import lexicon from 'theme/lexicon.module.scss'
 
 export default class Lexicon extends Component {
 	constructor(props) {
@@ -32,7 +32,7 @@ export default class Lexicon extends Component {
 		} = this.props
 
 		return (
-			<div className={styles.lexicon}>
+			<div className={lexicon.theme}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -42,11 +42,11 @@ export default class Lexicon extends Component {
 						return (
 							<Grid
 								template={gridTemplate}
-								className={styles.mainContentWrapper}
+								className={lexicon.mainContentWrapper}
 							>
 								{matches && (
 									<Flex
-										className={styles.mobileNavbar}
+										className={lexicon.mobileNavbar}
 										justify="space-between"
 										padding="2rem 1.5rem"
 									>
@@ -65,7 +65,7 @@ export default class Lexicon extends Component {
 								/>
 
 								<div
-									className={styles.body}
+									className={lexicon.body}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
@@ -75,7 +75,7 @@ export default class Lexicon extends Component {
 										<Flex
 											justify="space-between"
 											align="baseline"
-											className={styles.header}
+											className={lexicon.header}
 										>
 											<h1>{mdx.frontmatter.title}</h1>
 
@@ -85,7 +85,7 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
 												<a
-													className={styles.labelWarning}
+													className={lexicon.labelWarning}
 													href={mdx.frontmatter.titleLabelLink}
 													target="_blank"
 												>
@@ -97,7 +97,7 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.productName ? (
 											<span>
 												<a
-													className={styles.labelInfo}
+													className={lexicon.labelInfo}
 													target="_blank"
 												>
 													{mdx.frontmatter.productName}
@@ -108,7 +108,7 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.devStatus ? (
 											<span>
 												<a
-													className={styles.labelDraft}
+													className={lexicon.labelDraft}
 													target="_blank"
 												>
 													{mdx.frontmatter.devStatus}
@@ -117,12 +117,12 @@ export default class Lexicon extends Component {
 										) : null}
 
 										{mdx.frontmatter.description ? (
-											<p className={styles.description}>
+											<p className={lexicon.description}>
 												{mdx.frontmatter.description}
 											</p>
 										) : null}
 
-										<GlobalMdx className={styles.body}>
+										<GlobalMdx className={lexicon.body}>
 											{mdx.code.body}
 										</GlobalMdx>
 									</ContainerMarkdown>
@@ -131,7 +131,7 @@ export default class Lexicon extends Component {
 
 								<Flex
 									align="center"
-									className={styles.mobileMenuBar}
+									className={lexicon.mobileMenuBar}
 									justify="space-between"
 								>
 									<Icon name="logoDark" />
