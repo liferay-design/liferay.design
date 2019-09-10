@@ -5,10 +5,11 @@ import React from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import blueprints from 'theme/blueprints.module.scss'
+import documentation from 'theme/documentation.module.scss'
 import { Helmet } from 'react-helmet'
 
 const Blueprints = () => (
-	<div className={blueprints.theme}>
+	<div className={`${blueprints.theme} ${documentation.theme}`}>
 		<Helmet>
 			<title>Blueprints | Brand Guidelines for Liferay</title>
 		</Helmet>
@@ -21,8 +22,8 @@ const Blueprints = () => (
 			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg) center -6rem / cover fixed, #0b63ff"
 			underlineColor="#134194"
 		/>
-		<div className={blueprints.background}>
-			<div className={blueprints.container}>
+		<div className={documentation.background}>
+			<div className={documentation.container}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -36,7 +37,7 @@ const Blueprints = () => (
 								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
 						return (
 							<Grid
-								className={blueprints.teasers}
+								className={documentation.teasers}
 								gap="2rem"
 								template={gridTemplate}
 							>
@@ -106,19 +107,19 @@ const Blueprints = () => (
 								</Grid.Item>
 								<Grid.Item area="brg" marginTop="2rem">
 									<Link
-										className={blueprints.social}
+										className={documentation.social}
 										to="https://github.com/liferay-design"
 									>
 										<Icon fill="white" name="github" />
 									</Link>
 									<Link
-										className={blueprints.social}
+										className={documentation.social}
 										to="https://dribbble.com/liferay"
 									>
 										<Icon fill="white" name="dribbble" />
 									</Link>
 									<Link
-										className={blueprints.social}
+										className={documentation.social}
 										to="https://twitter.com/liferaydesign"
 									>
 										<Icon fill="white" name="twitter" />
