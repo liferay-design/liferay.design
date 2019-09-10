@@ -1,5 +1,4 @@
-import { Link } from '@reach/router'
-import { Flex, Heading } from 'components/atoms'
+import { Flex, Heading, Link } from 'components/atoms'
 import Navbar from 'components/organisms/Navbar'
 import PropTypes from 'prop-types'
 import React from 'react'
