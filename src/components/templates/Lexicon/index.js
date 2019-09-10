@@ -86,13 +86,8 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
 												<a
-													className={
-														lexicon.labelWarning
-													}
-													href={
-														mdx.frontmatter
-															.titleLabelLink
-													}
+													className={lexicon.labelWarning}
+													href={mdx.frontmatter.titleLabelLink}
 													target="_blank"
 												>
 													VIEW IN CLAY
@@ -145,16 +140,12 @@ export default class Lexicon extends Component {
 									{this.state.mobileSidebarVisible ? (
 										<Icon
 											name="close"
-											onClick={
-												this.toggleMobileSidebarVisibility
-											}
+											onClick={this.toggleMobileSidebarVisibility}
 										/>
 									) : (
 										<Text
 											color="white"
-											onClick={
-												this.toggleMobileSidebarVisibility
-											}
+											onClick={this.toggleMobileSidebarVisibility}
 										>
 											Menu
 										</Text>
@@ -172,9 +163,9 @@ export default class Lexicon extends Component {
 export const pageQuery = graphql`
 	query($slug: String!) {
 		allMdx(
-			filter: { 
+			filter: {
 				fields: { slug: { regex: "/(/lexicon/)/" } }
-				frontmatter: { draft: { eq: false } } 
+				frontmatter: { draft: { eq: false } }
 			}
 		) {
 			totalCount
