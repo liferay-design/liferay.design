@@ -34,6 +34,13 @@
 	.mainContentWrapper {
 		background: $white;
 		min-height: 100vh;
+		img + em {
+			color: $main-l3;
+			font-size: $fontSizeSmall;
+			text-align: center;
+			display: inherit;
+			margin-bottom: $spacingLarge;
+		}
 	}
 
 	.mobileNavbar {

@@ -49,11 +49,11 @@ export default class Blueprints extends Component {
 							return (
 								<Grid
 									template={gridTemplate}
-									className={blueprints.mainContentWrapper}
+									className={documentation.mainContentWrapper}
 								>
 									{matches && (
 										<Flex
-											className={blueprints.mobileNavbar}
+											className={documentation.mobileNavbar}
 											justify="space-between"
 											padding="2rem 1.5rem"
 										>
@@ -71,7 +71,7 @@ export default class Blueprints extends Component {
 									/>
 
 									<div
-										className={blueprints.body}
+										className={documentation.body}
 										isMobile={matches}
 										isMobileSidebarVisible={
 											this.state.mobileSidebarVisible
@@ -81,14 +81,14 @@ export default class Blueprints extends Component {
 											<Flex
 												justify="space-between"
 												align="baseline"
-												className={blueprints.header}
+												className={documentation.header}
 											>
 												<h1>{mdx.frontmatter.title}</h1>
 
 												{!matches && <AuthContainer />}
 											</Flex>
 
-											<GlobalMdx className={blueprints.body}>
+											<GlobalMdx className={documentation.body}>
 												{mdx.code.body}
 											</GlobalMdx>
 											<Flex justify="space-between">
@@ -122,7 +122,7 @@ export default class Blueprints extends Component {
 
 									<Flex
 										align="center"
-										className={blueprints.mobileMenuBar}
+										className={documentation.mobileMenuBar}
 										justify="space-between"
 									>
 										<Icon name="logoDark" />
