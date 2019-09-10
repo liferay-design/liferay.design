@@ -1,0 +1,90 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+.theme {
+	font-family: $fontFamilySecondary;
+	a {
+		font-weight: $fontWeightBlack;
+	}
+
+	//blueprints homepage
+	.background {
+		background: $white;
+	}
+
+	.teasers {
+		transform: translateY($spacingBase * 2);
+	}
+
+	.container {
+		max-width: 960px;
+		background-color: $white;
+		margin: 0 auto;
+	}
+
+	.vertical {
+		color: $neutral7;
+		font-size: $fontSizeXSmall;
+		font-weight: $fontWeightBlack;
+		letter-spacing: 2px;
+		margin-top: $spacingMedium * 4;
+		text-transform: uppercase;
+		transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
+		white-space: nowrap;
+	}
+
+	.social {
+		height: $spacingMedium;
+		width: $spacingMedium;
+		display: flex;
+		margin: $spacingSmall $spacingXSmall;
+		justify-content: center;
+		align-items: center;
+		background: $lightestGrey;
+		border-radius: 50%;
+		&:hover {
+			background: $primary;
+		}
+	}
+	// documentation side
+	.mainContentWrapper {
+		background: $white;
+		min-height: 100vh;
+		//caption styling
+		img + em {
+			color: $main-l3;
+			font-size: $fontSizeSmall;
+			text-align: center;
+			display: inherit;
+			margin-bottom: $spacingLarge;
+		}
+	}
+
+	.mobileNavbar {
+		align-items: center;
+		grid-area: nav;
+		background: #f7f8f9;
+		width: 100%;
+	}
+
+	.mobileMenuBar {
+		background: $black;
+		bottom: 0;
+		display: none !important;
+		left: 0;
+		position: fixed;
+		right: 0;
+		z-index: 10;
+
+		> * {
+			cursor: pointer;
+			margin: 1rem 1.5rem;
+		}
+	}
+
+	@media screen and (max-width: $screenMedium) {
+		.mobileMenuBar {
+			display: flex !important;
+		}
+	}
+}
