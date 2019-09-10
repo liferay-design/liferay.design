@@ -1,5 +1,5 @@
 ---
-draft: false #required boolean (true or false)
+draft: true #required boolean (true or false)
 
 #Event Card Fields
 title: 'Design Systems: Unificando o Mindset entre Designers and Devs' #required
@@ -17,7 +17,6 @@ bodyImage: '/images/events/felipe-the-developers-conference.jpg'
 
 ctaURL: 'http://thedevconf.com.br/tdc/2019/recife/trilha-ux-e-design-thinking'
 ---
-
 
 Nosso designer de produto, Felipe Pires, falará sobre "Design Systems: Unificando o Mindset entre Designers and Devs" das 10h10 às 11h do dia 11 de outubro.
 
