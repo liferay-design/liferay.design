@@ -131,32 +131,30 @@ const Blueprints = () => (
 				</MediaQuery>
 			</div>
 		</div>
-		<div className={blueprints.billboard}>
-			<Billboard
-				image="jira"
-				heading="Need something?"
-				Subtitle={() => (
-					<Text size="large">
-						Visit the {' '} 
-						<a
-							href="https://liferay-design.zendesk.com/hc"
-							target="_blank"
-							rel="noopener"
-						>
-							Design Help Center
-						</a> for more documentation or to {' '}
-						<a 
-							href="https://liferay-design.zendesk.com/hc/en-us/community/topics/360001284492-Design-Requests"
-							target="_blank"
-							rel="noopener"
-						>
-							create a request</a>
-							.
-					</Text>
-				)}
-				background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg) center/cover fixed"
-			/>
-		</div>
+		<Billboard
+			image="jira"
+			heading="Need something?"
+			Subtitle={() => (
+				<Text size="large">
+					Visit the {' '} 
+					<a
+						href="https://liferay-design.zendesk.com/hc"
+						target="_blank"
+						rel="noopener"
+					>
+						Design Help Center
+					</a> for more documentation or to {' '}
+					<a 
+						href="https://liferay-design.zendesk.com/hc/en-us/community/topics/360001284492-Design-Requests"
+						target="_blank"
+						rel="noopener"
+					>
+						create a request</a>
+						.
+				</Text>
+			)}
+			background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg) center/cover fixed"
+		/>
 		<Footer />
 	</div>
 )
