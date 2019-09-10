@@ -6,7 +6,8 @@ import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
-import styles from './styles.module.scss'
+import lexicon from 'theme/lexicon.module.scss'
+import documentation from 'theme/documentation.module.scss'
 
 export default class Lexicon extends Component {
 	constructor(props) {
@@ -32,7 +33,7 @@ export default class Lexicon extends Component {
 		} = this.props
 
 		return (
-			<div className={styles.lexicon}>
+			<div className={`${lexicon.theme} ${documentation.theme}`}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -42,11 +43,11 @@ export default class Lexicon extends Component {
 						return (
 							<Grid
 								template={gridTemplate}
-								className={styles.mainContentWrapper}
+								className={documentation.mainContentWrapper}
 							>
 								{matches && (
 									<Flex
-										className={styles.mobileNavbar}
+										className={documentation.mobileNavbar}
 										justify="space-between"
 										padding="2rem 1.5rem"
 									>
@@ -65,18 +66,13 @@ export default class Lexicon extends Component {
 								/>
 
 								<div
-									className={styles.body}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
 									}
 								>
 									<ContainerMarkdown>
-										<Flex
-											justify="space-between"
-											align="baseline"
-											className={styles.header}
-										>
+										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>
 
 											{!matches && <AuthContainer />}
@@ -85,7 +81,7 @@ export default class Lexicon extends Component {
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
 												<a
-													className={styles.labelLink}
+													className={lexicon.labelLink}
 													href={mdx.frontmatter.titleLabelLink}
 													target="_blank"
 												>
@@ -95,21 +91,19 @@ export default class Lexicon extends Component {
 										) : null}
 
 										{mdx.frontmatter.description ? (
-											<p className={styles.description}>
+											<p className={lexicon.description}>
 												{mdx.frontmatter.description}
 											</p>
 										) : null}
 
-										<GlobalMdx className={styles.body}>
-											{mdx.code.body}
-										</GlobalMdx>
+										<GlobalMdx>{mdx.code.body}</GlobalMdx>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
 								</div>
 
 								<Flex
 									align="center"
-									className={styles.mobileMenuBar}
+									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
 									<Icon name="logoDark" />
