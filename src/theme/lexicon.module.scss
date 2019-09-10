@@ -5,6 +5,7 @@
 	height: 100vh;
 	overflow: auto;
 
+	// lexicon homepage
 	.background {
 		background: $white;
 	}
@@ -59,6 +60,7 @@
 			}
 		}
 	}
+
 	// documentation part
 	.mainContentWrapper {
 		background: $white;
@@ -193,16 +195,6 @@
 		}
 	}
 
-	// img {
-	// 	margin: 12px 0;
-	// 	max-width: 100%;
-	// }
-
-	// table img {
-	// 	margin-bottom: 8px;
-	// 	margin-top: 4px;
-	// }
-
 	table {
 		border-collapse: collapse;
 		font-size: 0.875rem;
@@ -315,66 +307,9 @@
 		display: inherit;
 	}
 
-	// .download-card {
-	// 	width: 200px;
-	// 	height: 200px;
-	// 	text-align: center;
-	// 	border: 1px $black;
-	// }
-
-	// .download-card-img {
-	// 	height: 100px;
-	// 	width: auto;
-	// 	margin-bottom: $base-size;
-	// 	margin-bottom: $base-size;
-	// }
-
-	// .download-card-text {
-	// 	color: $main-l3;
-	// 	font-size: 14px;
-	// 	text-align: center;
-	// 	margin-top: $base-size / 4;
-	// }
-
 	@media (max-width: $grid-float-breakpoint - 1) {
 		margin-top: 80px;
 	}
-
-	// .carousel {
-	// 	min-height: 570px;
-	// 	background-color: $gray-bg;
-	// 	margin-top: 2rem;
-	// 	img.d-block {
-	// 		margin: 0;
-	// 	}
-	// 	.carousel-control-prev,
-	// 	.carousel-control-next {
-	// 		width: 7%;
-	// 		opacity: 0.5;
-	// 	.lexicon-icon {
-	// 		width: 16px;
-	// 		height: 16px;
-	// 		color: $main-l3;
-	// 		}
-	// 		&:hover {
-	// 			opacity: 1;
-	// 		}
-	// 	}
-
-	// 	.carousel-indicators {
-	// 		li {
-	// 			background-color: $main-l4;
-	// 			&.active {
-	// 				background-color: $action;
-	// 			}
-	// 		}
-	// 	}
-	// }
-
-	// .last-update {
-	// 	color: $success;
-	// 	margin-top: 2rem;
-	// }
 }
 
 :global(.designerInfo) {
