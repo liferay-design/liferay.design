@@ -6,7 +6,8 @@ import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
-import styles from './styles.module.scss'
+import documentation from 'theme/documentation.module.scss'
+import blueprints from 'theme/blueprints.module.scss'
 
 export default class Handbook extends Component {
 	constructor(props) {
@@ -32,6 +33,7 @@ export default class Handbook extends Component {
 		} = this.props
 
 		return (
+			<div className={`${blueprints.theme} ${documentation.theme}`}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -41,11 +43,11 @@ export default class Handbook extends Component {
 						return (
 							<Grid
 								template={gridTemplate}
-								className={styles.mainContentWrapper}
+								className={documentation.mainContentWrapper}
 							>
 								{matches && (
 									<Flex
-										className={styles.mobileNavbar}
+										className={documentation.mobileNavbar}
 										justify="space-between"
 										padding="2rem 1.5rem"
 									>
@@ -63,33 +65,26 @@ export default class Handbook extends Component {
 								/>
 
 								<div
-									className={styles.body}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
 									}
 								>
 									<ContainerMarkdown>
-										<Flex
-											justify="space-between"
-											align="baseline"
-											className={styles.header}
-										>
+										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>
 
 											{!matches && <AuthContainer />}
 										</Flex>
 
-										<GlobalMdx className={styles.body}>
-											{mdx.code.body}
-										</GlobalMdx>
+										<GlobalMdx>{mdx.code.body}</GlobalMdx>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
 								</div>
 
 								<Flex
 									align="center"
-									className={styles.mobileMenuBar}
+									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
 									<Icon name="logoDark" />
@@ -112,43 +107,44 @@ export default class Handbook extends Component {
 						)
 					}}
 				</MediaQuery>
+			</div>
 		)
 	}
 }
 
 export const pageQuery = graphql`
-			query($slug: String!) {
-				allMdx(
-					filter: {
-						fileAbsolutePath: { regex: "/(handbook)/" }
-						frontmatter: { publish: { eq: true } }
-					}
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							frontmatter {
-								order
-								title
-							}
-							fields {
-								slug
-							}
-						}
-					}
-				}
-
-				mdx(fields: { slug: { eq: $slug } }) {
+	query($slug: String!) {
+		allMdx(
+			filter: {
+				fileAbsolutePath: { regex: "/(handbook)/" }
+				frontmatter: { publish: { eq: true } }
+			}
+		) {
+			totalCount
+			edges {
+				node {
+					id
 					frontmatter {
+						order
 						title
 					}
-					code {
-						body
+					fields {
+						slug
 					}
 				}
 			}
-		`
+		}
+
+		mdx(fields: { slug: { eq: $slug } }) {
+			frontmatter {
+				title
+			}
+			code {
+				body
+			}
+		}
+	}
+`
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
