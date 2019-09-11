@@ -2,7 +2,7 @@
 author: 'David Aragonés'
 date: '2019-06-26T17:06:00.000Z'
 title: 'Form Validation'
-featuredImage: '/images/posts/dbp/placeholder.png'
+featuredImage: '/images/posts/dbp/form-validation.png'
 publish: true
 tags: ['Best Practices', 'Interaction Design']
 ---

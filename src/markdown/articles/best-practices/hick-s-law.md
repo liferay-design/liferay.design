@@ -2,7 +2,7 @@
 author: 'Duuriimaa Bargaid'
 date: '2019-06-28T03:44:00.000Z'
 title: "Hick's Law"
-featuredImage: '/images/posts/dbp/1561718277595webupload_01325585.png'
+featuredImage: '/images/posts/dbp/hicks-law.png'
 publish: true
 tags: ['Best Practices', 'Psychology']
 ---
@@ -19,15 +19,13 @@ The application of Hick's Law is simple, reduce the number of stimuli and get a 
 
 To Illustrate this idea, the "Payment process" would be a practical example. Instead of showing everything at once, you can break it down. Show the screen with shopping cart details, another with delivery information, then account creation, and so on.
 
-## Takeaway
+![image-description](/images/posts/dbp/1561718277595webupload_01325585.png)
 
-–
+## Takeaway
 
 -   Narrow down big volumes of information without overloading the user.
 -   Simplify choices for the user by breaking down complex tasks into smaller steps.
 
 • [Hick’s Law: Making the choice easier for users](https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users)
-
 • [Hick’s Law](https://lawsofux.com/hicks-law.html)
-
 • [Quick decision making](https://uxplanet.org/design-principles-hicks-law-quick-decision-making-3dcc1b1a0632)

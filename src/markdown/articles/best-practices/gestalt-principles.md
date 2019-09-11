@@ -2,7 +2,7 @@
 author: 'Miriam Manso'
 date: '2019-07-12T02:20:00.000Z'
 title: 'Gestalt Principles'
-featuredImage: '/images/posts/dbp/1562923097376webupload_02005287.jpg'
+featuredImage: '/images/posts/dbp/gestalt-principles.png'
 publish: true
 tags: ['Best Practices', 'Psychology']
 ---
@@ -23,6 +23,8 @@ Many people still think that the application of the Gestalt principles it is som
 In short, how the human brain works in terms of perception and cognition.
 
 Knowing how our brains work, gives us a powerful weapon for our designs to influence the perception and attention of our users.
+
+![image-description](/images/posts/dbp/1562923097376webupload_02005287.jpg)
 
 ## Takeaway
 

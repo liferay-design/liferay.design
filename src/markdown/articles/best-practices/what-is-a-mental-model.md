@@ -2,7 +2,7 @@
 author: 'Christopher Jeong'
 date: '2019-03-29T10:03:00.000Z'
 title: 'What Is a Mental Model'
-featuredImage: '/images/posts/dbp/placeholder.png'
+featuredImage: '/images/posts/dbp/what-is-a-mental-model.png'
 publish: true
 tags: ['Psychology', 'Best Practices']
 ---

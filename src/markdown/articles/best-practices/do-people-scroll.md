@@ -2,12 +2,13 @@
 author: 'Patrick Pentz'
 date: '2019-04-11T10:18:00.000Z'
 title: 'Do People Scroll?'
-featuredImage: '/images/posts/dbp/1555003083274webupload_00859290.png'
+featuredImage: '/images/posts/dbp/do-people-scroll.png'
 publish: true
 tags: ['Best Practices', 'Usability']
 ---
 
 ## Summary
+
 It is commonly believed that users do not scroll down long-content pages.
 
 What does the research say?
@@ -17,7 +18,10 @@ What does the research say?
 -   Another eye-tracking study shows that people scroll as long as designs follow best practices.
 -   Users read long-content pages faster than paginated or segmented ones.
 
+![image-description](/images/posts/dbp/1555003083274webupload_00859290.png)
+
 ## Takeaway
+
 The research shows that people are more inclined to scroll today than ever before. However, users still pay more attention to the content positioned in the top part of the page. Due to this fact, it's essential that designers follow best practices for scrolling.
 
 -   Prioritize content with the most important items at the top.

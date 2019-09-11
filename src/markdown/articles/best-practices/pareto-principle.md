@@ -2,7 +2,7 @@
 author: 'Juan Antón'
 date: '2019-07-24T05:26:00.000Z'
 title: 'Pareto Principle'
-featuredImage: '/images/posts/dbp/placeholder.png'
+featuredImage: '/images/posts/dbp/pareto-principle.png'
 publish: true
 tags: ['Best Practices', 'Strategy']
 ---
