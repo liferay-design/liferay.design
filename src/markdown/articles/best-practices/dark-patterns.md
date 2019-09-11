@@ -2,7 +2,7 @@
 author: 'Susana Vázquez'
 date: '2019-06-21T12:12:00.000Z'
 title: 'Dark Patterns'
-featuredImage: '/images/posts/dbp/1561108298337webupload_00977406.jpg'
+featuredImage: '/images/posts/dbp/dark-patterns.png'
 publish: true
 tags: ['Best Practices', 'Interaction Design', 'Ethics']
 ---

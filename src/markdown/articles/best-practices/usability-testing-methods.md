@@ -4,10 +4,8 @@ date: '2019-09-02T00:00:00.000Z'
 publish: true
 tags: ['Best Practices', 'Usability']
 title: 'Remote Moderated and Unmoderated Usability Testing'
-featuredImage: '/images/posts/dbp/placeholder.png'
+featuredImage: '/images/posts/dbp/remote-moderated-and-unmoderated-usability-testing.png'
 ---
-
-[`#DesignBestPractices`](/web/guest/home/-/loop/topics/_designbestpractices)
 
 ## Summary
 

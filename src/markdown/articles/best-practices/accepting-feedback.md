@@ -2,7 +2,7 @@
 author: 'Ryan Connolly'
 date: '2019-04-09T12:19:00.000Z'
 title: 'Accepting Feedback'
-featuredImage: '/images/posts/dbp/1554837593379webupload_00731080.jpg'
+featuredImage: '/images/posts/dbp/accepting-feedback.png'
 publish: true
 tags: ['Best Practices', 'Psychology']
 ---

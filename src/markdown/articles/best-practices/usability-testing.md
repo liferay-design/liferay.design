@@ -4,7 +4,7 @@ date: '2019-08-08T00:00:00.000Z'
 publish: true
 tags: ['Best Practices', 'Usability']
 title: 'Usability Testing'
-featuredImage: '/images/posts/dbp/placeholder.png'
+featuredImage: '/images/posts/dbp/usability-testing.png'
 ---
 
 ## Summary

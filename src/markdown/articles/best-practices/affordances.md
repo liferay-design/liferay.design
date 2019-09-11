@@ -2,7 +2,7 @@
 author: 'Victor Valle'
 date: '2019-05-13T12:08:00.000Z'
 title: 'Affordances'
-featuredImage: '/images/posts/dbp/1557731118571webupload_00389265.png'
+featuredImage: '/images/posts/dbp/affordances.png'
 publish: true
 tags: ['Best Practices', 'Interaction Design']
 ---
