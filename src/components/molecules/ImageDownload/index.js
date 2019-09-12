@@ -1,4 +1,4 @@
-import { Flex, Icon, Text, Link } from 'components/atoms'
+import { Flex, Icon, Text, Link, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
@@ -23,7 +23,7 @@ export default function ImageDownload({
 			padding="3rem 0"
 			width={width}
 		>
-			<img src={source} alt={altText} width={imageWidth} />
+			<Image src={source} alt={altText} width={imageWidth} />
 			<div className={styles.caption}>
 				<Text type="p" color="grey" weight="regular" size="base">
 					{title}
