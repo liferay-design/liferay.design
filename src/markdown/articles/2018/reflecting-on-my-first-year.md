@@ -36,6 +36,7 @@ In my experience, those add-on features are usually "nice to have" but can cause
 Dieter Rams' 10th principle of good design is,
 
 > “Good design is as little design as possible. Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials. Back to purity, back to simplicity.”
+> <cite>Dieter Rams</cite>
 
 ## Redesigning Liferay's Customer Portal
 
