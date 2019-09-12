@@ -53,15 +53,17 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 				src={`${withPrefix(`${src}`)}`}
 				loading="lazy"
 			/>
-			<figcaption
-				style={{
-					color: colors.mainl3,
-					fontStyle: 'italic',
-					textAlign: 'center',
-				}}
-			>
-				{caption}
-			</figcaption>
+			{caption ? (
+				<figcaption
+					style={{
+						color: colors.mainl3,
+						fontStyle: 'italic',
+						textAlign: 'center',
+					}}
+				>
+					{caption}
+				</figcaption>
+			) : null}
 		</figure>
 	)
 }
