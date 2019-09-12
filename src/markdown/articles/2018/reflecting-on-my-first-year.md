@@ -6,10 +6,6 @@ featuredImage: '/images/posts/pj-first-year.jpeg'
 publish: true
 ---
 
-_Learning to work across different teams as a UX Designer_
-
-![Reflecting on my first year](/images/posts/pj-first-year.jpeg)
-
 For me, being a UX designer is like going on a long distance bike ride. I can't wait to begin because I know how enjoyable it is to cycle through scenic trails and how rewarding it feels to finish. However, I don't think about the hills to climb or the unexpected obstacles that can occur. What I'm trying to say is, designing isn't always as you expect it to be, but that shouldn't stop you. It's in the struggle where we grow and evolve.
 Alongside experienced teammates, I've had the opportunity to ship software at an enterprise level. Now that I've gone through a few product life-cycles with the addition of some small side projects, I've learned a lot about what to do and what not to do. For designers getting ready to start their career, here are some life learning experiences from my journey to becoming a more well rounded UX designer.
 
@@ -53,7 +49,7 @@ _By being transparent early on, it allowed my team to make adjustments to their 
 In addition to telling my teammates about the areas I needed more help in, I expressed my determination to produce a great user experience. I explained that we are all designers and I would educate them on best practices as we carried out the UX process. Having more UX exposure increases the chances of success because it empowers us to make better design decisions.
 
 > “Focus on helping every contributing influencer of your designs become a consciously competent designer themselves.”
-> - Jared Spool
+> <cite> Jared Spool</cite>
 
 While in the design phase, the company made a final decision to use a third party software for the support ticketing system and product documentation. The software benefited the company in many ways but also presented other challenges we didn't expect. For example, to organize content on the documentation side of the site we had to follow the organization hierarchy tree:
 
