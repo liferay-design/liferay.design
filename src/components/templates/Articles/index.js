@@ -1,4 +1,4 @@
-import { Container, Flex, Link } from 'components/atoms'
+import { Container, Flex, Link, Image } from 'components/atoms'
 import { Tags, GlobalMdx } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
@@ -80,7 +80,7 @@ export default class Articles extends Component {
 					</Flex>
 				</Container>
 				<div className={styles.markdownContainer}>
-					<img
+					<Image
 						className={styles.featuredImage}
 						src={post.frontmatter.featuredImage}
 					/>
