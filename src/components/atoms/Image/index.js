@@ -51,6 +51,7 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 				}}
 				alt={alt}
 				src={`${withPrefix(`${src}`)}`}
+				loading="lazy"
 			/>
 			<figcaption
 				style={{
