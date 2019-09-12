@@ -18,6 +18,16 @@ const CardDefault = ({
 	...props
 }) => (
 	<Link className={styles.cardLink} to={link}>
+		<Media style={{
+			position: "absolute",
+			top: "0",
+			bottom: "0",
+			right: "0",
+			left: "0",
+			overflow: "visible",
+		}} aspectRatio="4-3" className={styles.sexyShadow} {...props}>
+			<Image alt="shadow for image" src={imageURL} />
+		</Media>
 		<Card className={styles.card}>
 			<Media aspectRatio="4-3" className={styles.null} {...props}>
 				<Image alt={'image for ' + `${title}`} src={imageURL} />
