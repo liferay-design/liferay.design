@@ -25,7 +25,7 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 	
 	const figureStyles = {
 		...(size ? { width: sizes[size] } : {} ),
-		...(margin ? { margin: [margin] } : { margin:`${fontSizes.xLarge}` } ),
+		...(margin ? { margin: [margin] } : {margin: 0} ),
 		...(align ? alignments[align] : { marginLeft:'auto', marginRight:'auto' }), // center images by default
 	}
 
