@@ -1,4 +1,4 @@
-import { Icon, Text, Link } from 'components/atoms'
+import { Icon, Text, Link, Image } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
@@ -20,7 +20,7 @@ const CardDefault = ({
 	<Link className={styles.cardLink} to={link}>
 		<Card className={styles.card}>
 			<Media aspectRatio="4-3" className={styles.null} {...props}>
-				<img alt={'image for ' + `${title}`} src={withPrefix(`${imageURL}`)} />
+				<Image alt={'image for ' + `${title}`} src={imageURL} />
 			</Media>
 			{pill ? (
 				<Text className={styles.pill} weight="black">
