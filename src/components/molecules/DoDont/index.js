@@ -1,4 +1,4 @@
-import { Flex, Text } from 'components/atoms'
+import { Flex, Text, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
@@ -12,7 +12,7 @@ export default function DoDont({ good, bad }) {
 			width="100%"
 		>
 			<Flex direction="column" width="40%">
-				<img src={good} />
+				<Image src={good} />
 				<Text
 					className={styles.do}
 					type="p"
@@ -24,7 +24,7 @@ export default function DoDont({ good, bad }) {
 				</Text>
 			</Flex>
 			<Flex direction="column" width="40%">
-				<img src={bad} />
+				<Image src={bad} />
 				<Text
 					className={styles.dont}
 					type="p"
