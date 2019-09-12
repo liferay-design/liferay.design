@@ -51,7 +51,6 @@ module.exports = {
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
-		`gatsby-plugin-transition-link`,
 		{
 			resolve: `gatsby-plugin-typography`,
 			options: {
