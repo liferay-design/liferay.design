@@ -1,5 +1,4 @@
-import { Flex, Heading, Icon, Link, Text } from 'components/atoms'
-import { withPrefix } from 'gatsby'
+import { Flex, Heading, Icon, Link, Text, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
@@ -44,7 +43,7 @@ const CardLexicon = ({
 			>
 				{image ? (
 					<Flex className={styles.image} align="center" justify="center">
-						<img src={withPrefix(`${imageUrl}`)} />
+						<Image src={imageUrl} />
 					</Flex>
 				) : (
 					<Flex
