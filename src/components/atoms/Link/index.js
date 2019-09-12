@@ -1,4 +1,4 @@
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import { Link as GatsbyLink } from 'gatsby'
 import React from 'react'
 
 // Since DOM elements <a> cannot receive activeClassName,
@@ -12,15 +12,9 @@ const Link = ({ children, to, activeClassName, ...other }) => {
 	// Use Gatsby Link for internal links, and <a> for others
 	if (internal) {
 		return (
-			<AniLink
-				fade
-				duration={.4}
-				to={to}
-				activeClassName={activeClassName}
-				{...other}
-			>
+			<GatsbyLink to={to} activeClassName={activeClassName} {...other}>
 				{children}
-			</AniLink>
+			</GatsbyLink>
 		)
 	}
 	return (
