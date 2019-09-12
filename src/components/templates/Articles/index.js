@@ -27,8 +27,14 @@ export default class Articles extends Component {
 							post.frontmatter.featuredImage
 						}
 					/>
-					<meta name="keyword" content={"Liferay, Design, Liferay Design, open source design, " + `${post.frontmatter.tags}`} />
-					<meta property="og:description" content={post.excerpt}/>
+					<meta
+						name="keyword"
+						content={
+							'Liferay, Design, Liferay Design, open source design, ' +
+							`${post.frontmatter.tags}`
+						}
+					/>
+					<meta property="og:description" content={post.excerpt} />
 					<meta
 						property="og:title"
 						content={
@@ -57,18 +63,20 @@ export default class Articles extends Component {
 							{post.frontmatter.title}{' '}
 							<span>
 								by{' '}
-								<Link 
-									style = {{
-										color:colors.primaryl3,
-										textDecoration:"underline",
-										textDecorationColor:colors.primary,
+								<Link
+									style={{
+										color: colors.primaryl3,
+										textDecoration: 'underline',
+										textDecorationColor: colors.primary,
 									}}
 									to={withPrefix(
 										'/team/' +
 											`${post.frontmatter.author.slug}`,
 									)}
-								>{post.frontmatter.author.id}</Link>
-								&nbsp;on {' '}
+								>
+									{post.frontmatter.author.id}
+								</Link>
+								&nbsp;on{' '}
 								{moment(post.frontmatter.date).format(
 									'MMMM DD, YYYY',
 								)}
@@ -81,6 +89,7 @@ export default class Articles extends Component {
 				</Container>
 				<div className={styles.markdownContainer}>
 					<Image
+						alt={'featured image for ' + `${post.frontmatter.title}`}
 						className={styles.featuredImage}
 						src={post.frontmatter.featuredImage}
 					/>
