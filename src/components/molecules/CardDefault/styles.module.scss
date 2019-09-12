@@ -1,5 +1,19 @@
 @import '~theme/variables';
 
+.cardLink {
+	position: relative;
+	&:hover {
+		.sexyShadow {
+			opacity: 0.64;
+			transition: opacity 0.2s ease-in-out;
+		}
+	}
+	.sexyShadow {
+		filter: blur($spacingMedium);
+		transition: opacity 0.15s ease-in-out;
+		opacity: 0;
+	}
+}
 .card {
 	color: $white;
 	background: $darkGrey;
@@ -11,7 +25,7 @@
 	&:hover {
 		transform: translateY(-0.2rem);
 		transition: all 0.2s ease-in-out;
-		box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.5);
+		box-shadow: 0 0.5rem 8rem -0.5rem rgba(0, 0, 0, 0.4);
 		background: $darkestGrey;
 		.null {
 			img {
@@ -32,7 +46,6 @@
 			width: 100%;
 		}
 	}
-
 	.null {
 		img {
 			transition: filter 200ms ease-in-out;
