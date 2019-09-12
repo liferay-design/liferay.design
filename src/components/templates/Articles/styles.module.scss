@@ -115,7 +115,8 @@
 
 		blockquote {
 			margin: $spacingMedium (-1 * $spacingMedium);
-			p {
+			p,
+			cite {
 				font-family: $fontFamilyPrimary;
 				font-size: $fontSizeLarge;
 				font-weight: $fontWeightHeavy;
@@ -131,6 +132,11 @@
 				height: 2px;
 				border-radius: 1px;
 				margin: $spacingMedium auto;
+			}
+			cite {
+				display: block;
+				font-style: italic;
+				color: $main-l5;
 			}
 		}
 	}
