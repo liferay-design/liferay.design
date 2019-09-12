@@ -42,7 +42,7 @@ const CardLexicon = ({
 				padding="0"
 			>
 				{image ? (
-					<Flex className={styles.image} align="center" justify="center">
+					<Flex className={styles.image} align={wide ? "stretch" : "center"} justify="center">
 						<Image src={imageUrl} />
 					</Flex>
 				) : (
