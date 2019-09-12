@@ -112,6 +112,27 @@
 			text-align: center;
 			display: inherit;
 		}
+
+		blockquote {
+			margin: $spacingMedium (-1 * $spacingMedium);
+			p {
+				font-family: $fontFamilyPrimary;
+				font-size: $fontSizeLarge;
+				font-weight: $fontWeightHeavy;
+				color: $main-l3;
+				text-align: center;
+			}
+			&::before,
+			&::after {
+				content: '';
+				display: block;
+				width: 32%;
+				background: $main-l6;
+				height: 2px;
+				border-radius: 1px;
+				margin: $spacingMedium auto;
+			}
+		}
 	}
 }
 
