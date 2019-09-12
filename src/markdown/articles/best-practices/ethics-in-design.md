@@ -12,7 +12,7 @@ tags: ['Best Practices', 'Ethics']
 Ethics in design involves taking human values into consideration throughout the entire design process to avoid unintended or negative outcomes and to influence positive outcomes. Design ethics is a wide topic ranging from the kind of data a company collects and its security, to the environmental effect of a system, to the impact a product has on a user's attention span and wellbeing.
 
 > A computer will do what you tell it to do, but that may be much different from what you had in mind.  
-> Joseph Weizenbaum
+> <cite>Joseph Weizenbaum</cite>
 
 ## Takeaway
 

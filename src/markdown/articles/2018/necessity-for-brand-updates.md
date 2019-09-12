@@ -52,7 +52,8 @@ We don’t want to force customers to build things a certain way; we want to emp
 
 This is what we mean when we say “make technology useful for people.”
 
-> “Without requirements or design, programming is the art of adding bugs to an empty text file.” &mdash; Louis Srygley
+> “Without requirements or design, programming is the art of adding bugs to an empty text file.”
+> <cite>Louis Srygley</cite>
 
 Liferay’s core product, DXP, is what people use to build websites, and then to integrate them with other sites, systems or connected devices. That sounds really vague because people can build practically anything with it. Part of the reason we changed the name from “Liferay Portal” to “Liferay DXP” is to better communicate that it is a broad platform that can support a lot of different use cases _(“digital experiences”)_ instead of just portals.
 
