@@ -1,5 +1,5 @@
 ---
-draft: true #required boolean (true or false)
+draft: false #required boolean (true or false)
 
 #Event Card Fields
 title: 'Design Systems: Unificando o Mindset entre Designers and Devs' #required
