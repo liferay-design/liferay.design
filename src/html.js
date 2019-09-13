@@ -7,6 +7,8 @@ import typography from 'utils/typography'
 export default class HTML extends React.Component {
 	render() {
 		LogRocket.init('vvepjf/liferaydesign')
+
+		const seoDescription = "Liferay Design | Articles, Events, and Resources for the Open Source Design Community"
 		return (
 			<html
 				lang="en"
@@ -14,6 +16,7 @@ export default class HTML extends React.Component {
 				{...this.props.htmlAttributes}
 			>
 				<head>
+					<meta name="Description" content={seoDescription}></meta>
 					<meta charSet="utf-8" />
 					<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 					<GoogleFont typography={typography} />
@@ -21,10 +24,7 @@ export default class HTML extends React.Component {
 						name="viewport"
 						content="width=device-width, initial-scale=1, shrink-to-fit=no"
 					/>
-					<title>
-						Liferay Design | Articles, Events, and Resources for the
-						Open Source Design Community
-					</title>
+					<title>{seoDescription}</title>
 
 					{this.props.headComponents}
 				</head>
