@@ -11,14 +11,12 @@ import { colors } from 'theme'
 export default class Articles extends Component {
 	render() {
 		const post = this.props.data.mdx
+		const seoDescription = `${post.frontmatter.title}` + '&mdash; an article by' + `${post.frontmatter.author.id}` + 'on Liferay.Design'
 
 		return (
 			<div>
 				<Helmet>
-					<title>
-						{post.frontmatter.title} &mdash; an article by{' '}
-						{post.frontmatter.author.id} on Liferay.Design
-					</title>
+					<title>{seoDescription}</title>
 					<meta property="og:type" content="article" />
 					<meta
 						property="og:image"
@@ -34,6 +32,7 @@ export default class Articles extends Component {
 						}
 					/>
 					<meta property="og:description" content={post.excerpt} />
+					<meta name="Description" content={seoDescription}></meta>
 					<meta
 						property="og:title"
 						content={
