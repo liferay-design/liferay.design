@@ -8,6 +8,8 @@ import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
 import documentation from 'theme/documentation.module.scss'
+import { Helmet } from 'react-helmet'
+
 
 export default class Lexicon extends Component {
 	constructor(props) {
@@ -32,8 +34,44 @@ export default class Lexicon extends Component {
 			location: { pathname },
 		} = this.props
 
+		const post = this.props.data.mdx
+		const seoDescription = `${post.frontmatter.title}` + ' on Lexicon by Liferay.Design'
+		const seoImage = 'https://liferay.design/images/resources/lexicon-cover.png'
+
 		return (
 			<div className={`${lexicon.theme} ${documentation.theme}`}>
+				<Helmet>
+					<title>{seoDescription}</title>
+					<meta property="og:type" content="article" />
+					<meta
+						property="og:image"
+						content={seoImage}
+					/>
+					<meta
+						name="keyword"
+						content={
+							'Liferay, Design, Liferay Design, open source design, ' +
+							`${post.frontmatter.tags}`
+						}
+					/>
+					<meta property="og:description" content={post.excerpt} />
+					<meta name="Description" content={seoDescription}></meta>
+					<meta
+						property="og:title"
+						content={
+							post.frontmatter.title +
+							' — Lexicon by Liferay.Design'
+						}
+					/>
+
+					<meta name="twitter:card" content="summary_large_image" />
+					<meta name="twitter:site" content="@Liferay_Lexicon" />
+					<meta name="twitter:title" content={seoDescription} />
+					<meta name="twitter:description" content={post.frontmatter.description} />
+					<meta name="twitter:image" content={seoImage} />
+  					<meta name="twitter:creator" content="@Liferay_Lexicon" />
+
+				</Helmet>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
