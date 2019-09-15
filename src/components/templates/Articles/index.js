@@ -42,7 +42,7 @@ export default class Articles extends Component {
 						}
 					/>
 					<meta name="twitter:card" content="summary_large_image" />
-					<meta name="twitter:site" content="@Liferay_Lexicon" />
+					<meta name="twitter:site" content="@liferaydesign" />
 					<meta name="twitter:title" content={post.frontmatter.title} />
 					<meta name="twitter:description" content={'An article by ' + `${post.frontmatter.author.id}` + ' on Liferay.Design'} />
 					<meta name="twitter:image" content={seoImage} />
