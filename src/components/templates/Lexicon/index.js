@@ -50,11 +50,11 @@ export default class Lexicon extends Component {
 					<meta
 						name="keyword"
 						content={
-							'Liferay, Design, Liferay Design, open source design, ' +
+							'Lexicon, Experience Design Language, Design System, Design at Scale, Liferay, Design, Liferay Design, open source design, ' +
 							`${post.frontmatter.tags}`
 						}
 					/>
-					<meta property="og:description" content={post.excerpt} />
+					<meta property="og:description" content={post.frontmatter.description} />
 					<meta name="Description" content={seoDescription}></meta>
 					<meta
 						property="og:title"
