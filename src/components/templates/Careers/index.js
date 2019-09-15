@@ -6,6 +6,8 @@ import React, { Component } from 'react'
 import { Button, styled } from 'reakit'
 import { colors, fontSizes } from 'theme'
 import styles from './styles.module.scss'
+import { Helmet } from 'react-helmet'
+
 
 const ApplyButton = styled(Button)`
 	background-color: ${colors['primary']}
@@ -19,9 +21,41 @@ export default class Careers extends Component {
 		const post = this.props.data.mdx
 		const applyLink =
 			'https://app.jobvite.com/j?aj='+`${post.frontmatter.jobId}`+'&s=liferay-dot-design'
+		const seoDescription = `${post.frontmatter.title}` + ', ' + `${post.frontmatter.office.city}`
+		const seoImage = 'https://liferay.design' + post.frontmatter.featuredImage
 
 		return (
 			<div>
+				<Helmet>
+					<title>{seoDescription}</title>
+					<meta property="og:type" content="article" />
+					<meta
+						property="og:image"
+						content={seoImage}
+					/>
+					<meta
+						name="keyword"
+						content={
+							'Liferay, Design, Liferay Design, open source design, ' +
+							`${post.frontmatter.tags}`
+						}
+					/>
+					<meta property="og:description" content={post.excerpt} />
+					<meta name="Description" content={seoDescription}></meta>
+					<meta
+						property="og:title"
+						content={seoDescription}
+					/>
+					<meta name="twitter:card" content="summary_large_image" />
+					<meta name="twitter:site" content="@Liferay_Lexicon" />
+					<meta name="twitter:title" content={seoDescription} />
+					<meta name="twitter:description" content={'A career opportunity at Liferay.Design'} />
+					<meta name="twitter:image" content={seoImage} />
+  					<meta name="twitter:creator" content="@Liferay_Lexicon" />
+					{applyLink ? (
+						<link href={applyLink} rel="canonical" />
+					) : null}
+				</Helmet>
 				<Navbar section="Careers" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
@@ -73,6 +107,7 @@ export const pageQuery = graphql`
 					region
 				}
 				title
+				featuredImage
 			}
 			code {
 				body
