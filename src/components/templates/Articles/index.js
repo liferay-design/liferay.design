@@ -11,7 +11,7 @@ import { colors } from 'theme'
 export default class Articles extends Component {
 	render() {
 		const post = this.props.data.mdx
-		const seoDescription = `${post.frontmatter.title}` + ' - an article by ' + `${post.frontmatter.author.id}` + ' on Liferay.Design'
+		const seoDescription = `${post.frontmatter.title}` + '&mdash; an article by' + `${post.frontmatter.author.id}` + 'on Liferay.Design'
 		const seoImage = 'https://liferay.design' + post.frontmatter.featuredImage
 
 		return (
@@ -43,8 +43,8 @@ export default class Articles extends Component {
 					/>
 					<meta name="twitter:card" content="summary_large_image" />
 					<meta name="twitter:site" content="@Liferay_Lexicon" />
-					<meta name="twitter:title" content={post.frontmatter.title} />
-					<meta name="twitter:description" content={'An article by ' + `${post.frontmatter.author.id}` + ' on Liferay.Design'} />
+					<meta name="twitter:title" content={seoDescription} />
+					<meta name="twitter:description" content={seoDescription} />
 					<meta name="twitter:image" content={seoImage} />
   					<meta name="twitter:creator" content={post.frontmatter.author.id} />
 					{post.frontmatter.canonicalLink ? (
