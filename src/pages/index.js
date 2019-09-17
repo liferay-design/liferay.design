@@ -1,5 +1,5 @@
 import { CardGrid, Container } from 'components/atoms'
-import { BillboardAlt, CardDefault } from 'components/molecules'
+import { CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { MainLayout } from 'components/templates'
 import React from 'react'
@@ -8,14 +8,6 @@ import { spacing, colors } from 'theme'
 export default () => {
 	return (
 		<div>
-			<BillboardAlt
-				image="/images/banner/0.jpg"
-				heading="Join Us!"
-				subtitle="We're hiring Product Designers! Check out our careers page to learn more."
-				cta="See if we're a fit"
-				ctaUrl="careers/"
-				background="white"
-			/>
 			<div
 				style={{
 					backgroundAttachment: 'fixed',

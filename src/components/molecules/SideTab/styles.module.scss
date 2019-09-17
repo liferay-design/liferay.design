@@ -11,6 +11,7 @@
 		align-items: center;
 		.image {
 			height: 100%;
+			transform: scaleX(-1);
 			width: 8rem;
 			margin: 0;
 			object-fit: cover;
@@ -31,28 +32,6 @@
 			}
 			&:hover {
 				background: darken($action, 8%);
-				transform: translateY(-$spacingXSmall);
-				box-shadow: $elevation3;
-				transition: all 0.2s ease-in-out;
-			}
-		}
-
-		@keyframes backgroundAnimate {
-			0% {
-				transform: translateX(-20vw);
-			}
-			100% {
-				transform: translateX(0);
-			}
-		}
-		@keyframes contentAnimate {
-			0% {
-				transform: translateX(-4vw);
-				opacity: 0;
-			}
-			100% {
-				transform: translateX(0);
-				opacity: 1;
 			}
 		}
 	}
