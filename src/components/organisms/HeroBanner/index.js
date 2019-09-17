@@ -1,4 +1,5 @@
 import { Flex, Text } from 'components/atoms'
+import { SideTab } from 'components/molecules'
 import React from 'react'
 import styles from './styles.module.scss'
 
@@ -11,6 +12,7 @@ const HeroBanner = () => (
 			</Text>
 			designers.
 		</Text>
+		<SideTab cta="Join Us" ctaUrl="/careers" image="/images/banner/0.jpg" />
 	</Flex>
 )
 
