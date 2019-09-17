@@ -17,6 +17,7 @@ import ImageDownload from './ImageDownload'
 import LogoutContainer from './LogoutContainer'
 import SiteCredits from './SiteCredits'
 import SocialIcons from './SocialIcons'
+import SideTab from './SideTab'
 import Tags from './Tags'
 import VideoDownload from './videoDownload'
 
@@ -40,6 +41,7 @@ export {
 	LogoutContainer,
 	SiteCredits,
 	SocialIcons,
+	SideTab,
 	Tags,
 	VideoDownload,
 }
