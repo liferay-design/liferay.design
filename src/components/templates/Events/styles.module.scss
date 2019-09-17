@@ -8,7 +8,7 @@
 	position: relative;
 	font-family: $fontFamilySecondary;
 	.bannerContent {
-		max-width: 44rem;
+		max-width: $screenMedium;
 		h1 {
 			font-size: $fontSizeDisplay;
 			color: $white;
