@@ -1,11 +1,14 @@
 import { Container, Flex, Heading } from 'components/atoms'
 import { SiteCredits, SocialIcons } from 'components/molecules'
-import React from 'react'
+import React, { Component } from 'react'
 import styles from './styles.module.scss'
 
 export const Footer = ({ light, background }) => {
 	return (
-		<footer className={light ? styles.light : styles.dark} style={{ background: `${background}` }}>
+		<footer
+			className={light ? styles.light : styles.dark}
+			style={{ background: `${background}` }}
+		>
 			<Container>
 				<Flex
 					className={styles.textContainer}

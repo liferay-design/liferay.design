@@ -1,5 +1,5 @@
 import { Footer, Navbar } from 'components/organisms'
-import { FormNewsletter } from 'components/molecules'
+import { FormNewsletter, FancyFooter } from 'components/molecules'
 import React from 'react'
 import { Container, Heading, Text } from 'components/atoms';
 
@@ -15,5 +15,6 @@ export default ({ children, section }) => (
 			<FormNewsletter placeholderText='Your Email Address' submitText='Subscribe' />
 		</Container>
 		<Footer />
+		<FancyFooter />
 	</>
 )
