@@ -1,3 +1,5 @@
+@import '~theme/variables';
+
 .fancyFooter {
 	width: 100vw;
 	height: 50vh;
@@ -8,5 +10,17 @@
 		object-fit: cover;
 		position: absolute;
 		bottom: 0;
+		.stroke {
+			stroke-width: 6;
+		}
+		.primaryStroke {
+			stroke: $primary;
+		}
+		.whiteStroke {
+			stroke: $white;
+		}
+		.darkStroke {
+			stroke: $black;
+		}
 	}
 }
