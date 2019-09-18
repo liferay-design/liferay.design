@@ -12,6 +12,7 @@ import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
 import DoDont from './DoDont'
 import FormNewsletter from './FormNewsletter'
+import FancyFooter from './FancyFooter'
 import GlobalMdx from './GlobalMdx'
 import ImageDownload from './ImageDownload'
 import LogoutContainer from './LogoutContainer'
@@ -36,6 +37,7 @@ export {
 	ColorField,
 	DoDont,
 	FormNewsletter,
+	FancyFooter,
 	GlobalMdx,
 	ImageDownload,
 	LogoutContainer,

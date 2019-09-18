@@ -1,0 +1,12 @@
+.fancyFooter {
+	width: 100vw;
+	height: 50vh;
+	bottom: 0;
+	position: fixed;
+	z-index: -1;
+	svg {
+		object-fit: cover;
+		position: absolute;
+		bottom: 0;
+	}
+}
