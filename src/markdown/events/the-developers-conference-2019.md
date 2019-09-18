@@ -3,7 +3,7 @@ draft: false #required boolean (true or false)
 
 #Event Card Fields
 title: 'Design Systems: Unificando o Mindset entre Designers and Devs' #required
-featuredImage: '/images/events/felipe-the-developers-conference-thumb.jpg' #required
+featuredImage: '/images/headshots/pires-felipe.jpg' #required
 office: 'Recife' #required
 
 #Event Details
