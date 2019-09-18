@@ -50,7 +50,7 @@
 }
 
 .markdownContainer {
-	padding: 20vh 3rem 6rem;
+	padding: $spacingMedium $spacingMedium $spacingMedium;
 	font-family: $fontFamilySecondary;
 	background: white;
 
@@ -73,12 +73,6 @@
 				margin-top: $spacingSmall;
 			}
 		}
-	}
-}
-
-@media screen and (max-width: $screenLarge) {
-	.markdownContainer {
-		padding: $spacingMedium $spacingMedium $spacingMedium;
 	}
 }
 
@@ -115,9 +109,5 @@
 			position: absolute;
 			top: 0;
 		}
-	}
-	.markdownContainer {
-		margin-top: -$spacingLarge;
-		padding: $spacingLarge $spacingSmall $spacingMedium;
 	}
 }

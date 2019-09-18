@@ -23,7 +23,7 @@ export default class Team extends Component {
 		return (
 			<div>
 				<Navbar section="Team" />
-				<Container>
+				<Container banner>
 					<MediaQuery maxWidth={767}>
 						{matches => {
 							return (

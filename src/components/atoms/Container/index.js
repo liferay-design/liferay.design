@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 import { Heading, Flex, NiceLink } from 'components/atoms'
 import { spacing } from 'theme'
 
-const Container = ({ children, background, padding, linkDestination, linkText, heading, ...props }) => {
+const Container = ({ banner, children, background, padding, linkDestination, linkText, heading, ...props }) => {
 	return (
 		<div
 			className={styles.wrapper}
@@ -28,6 +28,7 @@ const Container = ({ children, background, padding, linkDestination, linkText, h
 				</Flex>
 				{children}
 			</div>
+			{banner ? <div style={{background:"white", padding:`${spacing.medium}`}} ></div> : null}
 		</div>
 	)
 }
