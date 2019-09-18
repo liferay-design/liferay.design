@@ -22,5 +22,12 @@
 		.darkStroke {
 			stroke: $black;
 		}
+		defs {
+			clipPath {
+				path {
+					fill: $white;
+				}
+			}
+		}
 	}
 }
