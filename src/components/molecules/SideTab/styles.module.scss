@@ -3,22 +3,29 @@
 .link {
 	position: fixed;
 	right: 0;
+	z-index: $top;
 	.tab {
 		height: $screenSmall;
 		overflow: hidden;
 		align-items: center;
 		.image {
+			animation: animateIn 1s 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 			height: 100%;
-			transform: scaleX(-1);
+			// note that scaleX is just for the picture of PJ b/c he's facing the wrong way
+			transform: translateY(-200px) scaleX(-1);
 			width: 8rem;
 			margin: 0;
+			opacity: 0;
 			object-fit: cover;
 		}
 		.button {
+			animation: growIn 1s 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+			transform-origin: top;
 			height: 100%;
 			background: $action;
 			transition: all 0.4s ease-in-out;
 			display: flex;
+			opacity: 0;
 			span {
 				justify-self: center;
 				align-self: center;
@@ -34,6 +41,29 @@
 		}
 	}
 }
+
+@keyframes animateIn {
+	from {
+		transform: translateY(-200px) scaleX(-1);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0) scaleX(-1);
+		opacity: 1;
+	}
+}
+
+@keyframes growIn {
+	from {
+		transform: scaleY(0);
+		opacity: 0;
+	}
+	to {
+		transform: scaleY(1);
+		opacity: 1;
+	}
+}
+
 @media screen and (max-width: $screenMedium) {
 	.link {
 		display: none;

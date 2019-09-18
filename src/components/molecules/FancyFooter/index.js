@@ -19,16 +19,28 @@ export default class FancyFooter extends Component {
 							<path d="M0 0h1440v720H0z" />
 						</clipPath>
 						<clipPath id="clip1">
-							<path transform="rotate(-180 240 120)" d="M0 0h240v240H0z" />
+							<path
+								transform="rotate(-180 240 120)"
+								d="M0 0h240v240H0z"
+							/>
 						</clipPath>
 						<clipPath id="clip2">
-							<path transform="rotate(-180 720 240)" d="M0 0h240v240H0z" />
+							<path
+								transform="rotate(-180 720 240)"
+								d="M0 0h240v240H0z"
+							/>
 						</clipPath>
 						<clipPath id="clip3">
-							<path transform="rotate(-90 960 -240)" d="M0 0h240v240H0z" />
+							<path
+								transform="rotate(-90 960 -240)"
+								d="M0 0h240v240H0z"
+							/>
 						</clipPath>
 						<clipPath id="clip4">
-							<path transform="translate(960 480)" d="M0 0h240v240H0z" />
+							<path
+								transform="translate(960 480)"
+								d="M0 0h240v240H0z"
+							/>
 						</clipPath>
 						<pattern id="dots" x="0" y="0" width=".083" height=".083">
 							<circle fill="#353747" cx="8.3" cy="8.3" r="2" />
@@ -83,7 +95,10 @@ export default class FancyFooter extends Component {
 						/>
 						<g className={styles.stroke}>
 							{' '}
-							<path className={styles.primaryStroke} d="M130 120h110" />
+							<path
+								className={styles.primaryStroke}
+								d="M130 120h110"
+							/>
 							<path
 								className={styles.whiteStroke}
 								d="M1310 360h-110M350 120H240M1310 600h-110"
@@ -92,7 +107,10 @@ export default class FancyFooter extends Component {
 								className={styles.darkStroke}
 								d="M1090 600h110M1090 360h110"
 							/>
-							<path className={styles.primaryStroke} d="M360 350V240" />
+							<path
+								className={styles.primaryStroke}
+								d="M360 350V240"
+							/>
 							<circle
 								cx="120"
 								cy="120"
@@ -163,7 +181,12 @@ export default class FancyFooter extends Component {
 								/>
 							</g>
 							<g clip-path="url(#clip4)">
-								<circle cx="1200" cy="480" r="120" stroke="#232225" />
+								<circle
+									cx="1200"
+									cy="480"
+									r="120"
+									stroke="#232225"
+								/>
 							</g>
 						</g>
 						<path
@@ -191,7 +214,12 @@ export default class FancyFooter extends Component {
 							<circle cx="150" cy="690" r="4" />
 							<circle cx="90" cy="690" r="4" />
 						</g>
-						<path fill="#13141F" />
+						<path
+							d="M736 360L 1056 360"
+							stroke="#13141F"
+							stroke-width="6"
+							stroke-dasharray="3 12"
+						/>
 						<rect
 							x="1204"
 							y="36"
