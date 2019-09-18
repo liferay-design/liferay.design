@@ -9,7 +9,7 @@ const CardGrid = ({ children, two, three }) => {
 			templateColumns:"repeat(auto-fill, minmax(18rem, 1fr))"
 				} : {}),
 		...(two ? {
-			templateColumns:"repeat(auto-fill, minmax(36rem, 1fr))"
+			templateColumns:"repeat(auto-fit, minmax(18rem, 1fr))"
 				} : {}),
 	}
 
