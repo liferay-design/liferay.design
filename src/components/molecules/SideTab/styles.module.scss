@@ -42,6 +42,17 @@
 	}
 }
 
+// .wrapper {
+// 	position: relative;
+// 	&:hover .banner {
+// 		transform: translateX(-100vw);
+// 	}
+// 	.banner {
+// 		position: absolute;
+// 		right: -100vw;
+// 	}
+// }
+
 @keyframes animateIn {
 	from {
 		transform: translateY(-200px) scaleX(-1);
