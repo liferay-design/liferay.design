@@ -31,3 +31,11 @@
 		}
 	}
 }
+
+@media screen and (max-width: $screenSmall) {
+	.fancyFooter {
+		svg {
+			height: 80vh;
+		}
+	}
+}
