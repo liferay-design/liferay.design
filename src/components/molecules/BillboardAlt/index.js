@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => {
+const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl, ...props }) => {
 	return (
-		<div className={styles.wrapper} style={{background:`${background}`}}>
+		<div {...props} className={styles.wrapper} style={{background:`${background}`}}>
 			<Container>
 				<Flex className={styles.container}>
 					{image ? <Flex className={styles.image} backgroundImage={image} /> : null }
