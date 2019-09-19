@@ -1,13 +1,13 @@
 @import '~theme/variables';
 
-.link {
+.joinUs {
 	position: fixed;
-	right: 0;
+	right: -435px;
 	z-index: $top;
-	transform: translateX(1040px);
+	transform: translateX(0);
 	transition: all 0.4s ease-in-out;
 	&:hover {
-		transform: translateX(0);
+		transform: translateX(-435px);
 		transition: all 0.4s ease-in-out;
 	}
 	.banner {
@@ -51,17 +51,6 @@
 		}
 	}
 }
-
-// .wrapper {
-// 	position: relative;
-// 	&:hover .banner {
-// 		transform: translateX(-100vw);
-// 	}
-// 	.banner {
-// 		position: absolute;
-// 		right: -100vw;
-// 	}
-// }
 
 @keyframes animateIn {
 	from {

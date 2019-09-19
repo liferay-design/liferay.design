@@ -26,8 +26,8 @@
 		.text {
 			opacity: 0;
 			animation: contentAnimate 1s cubic-bezier(0.4, -0.2, 0.2, 1.4) forwards 0.2s;
-			margin: $spacingBase $spacingSmall $spacingMedium ($spacingMedium * 2);
-			width: 60ch;
+			margin: $spacingMedium;
+			width: 32ch;
 		}
 		.button {
 			padding: 1rem 3rem;

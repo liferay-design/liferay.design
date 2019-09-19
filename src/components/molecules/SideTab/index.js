@@ -8,8 +8,9 @@ import { Grid } from 'reakit'
 const SideTab = ({ image, cta, ctaUrl }) => {
 	const gridTemplate = `"link banner" auto / 8rem 1fr`
 	return (
-			<Link to={ctaUrl} className={styles.link}>
-				<Grid template={gridTemplate}>
+		<div className={styles.joinUs}>
+			<Grid template={gridTemplate}>
+				<Link to={ctaUrl}>
 					<Grid
 						className={styles.tab}
 						templateRows="10rem auto"
@@ -24,15 +25,17 @@ const SideTab = ({ image, cta, ctaUrl }) => {
 							</Text>
 						</Grid.Item>
 					</Grid>
-					<BillboardAlt 
-						heading="We're Hiring!"
-						subtitle="Read the job descriptions and apply to be a part of the team."
-						cta="See Openings"
-						ctaUrl="/careers"
-						background="white"
-					/>
-				</Grid>
-			</Link>
+				</Link>
+				<BillboardAlt
+					heading="We're Hiring!"
+					subtitle="Read the job descriptions and apply to be a part of the team."
+					cta="See Openings"
+					ctaUrl={ctaUrl}
+					background="white"
+					style={{ maxWidth: '34ch' }}
+				/>
+			</Grid>
+		</div>
 	)
 }
 
