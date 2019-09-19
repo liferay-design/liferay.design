@@ -6,28 +6,33 @@ import styles from './styles.module.scss'
 import { Grid } from 'reakit'
 
 const SideTab = ({ image, cta, ctaUrl }) => {
+	const gridTemplate = `"link banner" auto / 8rem 1fr`
 	return (
-		// <div className={styles.wrapper}>
 			<Link to={ctaUrl} className={styles.link}>
-				<Grid
-					templateRows="10rem auto"
-					templateColumns="1fr"
-					className={styles.tab}
-				>
-					<Grid.Item>
-						<Image src={image} className={styles.image} />
-					</Grid.Item>
-					<Grid.Item className={styles.button}>
-						<Text color="white" size="medium" weight="black">
-							{cta}
-						</Text>
-					</Grid.Item>
+				<Grid template={gridTemplate}>
+					<Grid
+						className={styles.tab}
+						templateRows="10rem auto"
+						// templateColumns="1fr 10fr"
+					>
+						<Grid.Item>
+							<Image src={image} className={styles.image} />
+						</Grid.Item>
+						<Grid.Item className={styles.button}>
+							<Text color="white" size="medium" weight="black">
+								{cta}
+							</Text>
+						</Grid.Item>
+					</Grid>
+					<BillboardAlt 
+						heading="We're Hiring!"
+						subtitle="Read the job descriptions and apply to be a part of the team."
+						cta="See Openings"
+						ctaUrl="/careers"
+						background="white"
+					/>
 				</Grid>
 			</Link>
-		// 	{/* <div className={styles.banner}>
-		// 		<BillboardAlt />
-		// 	</div>
-		// </div> */}
 	)
 }
 

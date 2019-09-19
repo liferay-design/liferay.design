@@ -4,6 +4,16 @@
 	position: fixed;
 	right: 0;
 	z-index: $top;
+	transform: translateX(1040px);
+	transition: all 0.4s ease-in-out;
+	&:hover {
+		transform: translateX(0);
+		transition: all 0.4s ease-in-out;
+	}
+	.banner {
+		width: 50vw;
+		background: antiquewhite;
+	}
 	.tab {
 		height: $screenSmall;
 		overflow: hidden;
