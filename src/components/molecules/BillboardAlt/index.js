@@ -8,7 +8,7 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 		<div className={styles.wrapper} style={{background:`${background}`}}>
 			<Container>
 				<Flex className={styles.container}>
-					<Flex className={styles.image} backgroundImage={image} />
+					{image ? <Flex className={styles.image} backgroundImage={image} /> : null }
 					<Flex
 						className={styles.text}
 						direction="column"
