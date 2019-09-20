@@ -6,6 +6,7 @@
 	z-index: $top;
 	transform: translateX(0);
 	transition: all 0.4s ease-in-out;
+	animation: fadeIn 0.8s ease-in-out forwards;
 	&:hover {
 		transform: translateX(-435px);
 		transition: all 0.4s ease-in-out;
@@ -22,7 +23,7 @@
 			animation: animateIn 1s 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 			height: 100%;
 			// note that scaleX is just for the picture of PJ b/c he's facing the wrong way
-			transform: translateY(-200px) scaleX(-1);
+			transform: translateY(-200px);
 			width: 8rem;
 			margin: 0;
 			opacity: 0;
@@ -54,11 +55,11 @@
 
 @keyframes animateIn {
 	from {
-		transform: translateY(-200px) scaleX(-1);
+		transform: translateY(-200px);
 		opacity: 0;
 	}
 	to {
-		transform: translateY(0) scaleX(-1);
+		transform: translateY(0);
 		opacity: 1;
 	}
 }
@@ -70,6 +71,17 @@
 	}
 	to {
 		transform: scaleY(1);
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
 		opacity: 1;
 	}
 }

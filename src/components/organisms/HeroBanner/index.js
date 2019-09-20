@@ -12,7 +12,7 @@ const HeroBanner = () => (
 			</Text>
 			designers.
 		</Text>
-		<SideTab cta="Join Us" ctaUrl="/careers" image="/images/banner/0.jpg" />
+		<SideTab cta="Join Us" ctaUrl="/careers" image="/images/components/pj-thumb.jpg" />
 	</Flex>
 )
 
