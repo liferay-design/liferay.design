@@ -1,0 +1,56 @@
+---
+title: 'lpn'
+description: 'Using Liferay Portal Docker Images'
+order: 40
+publish: true
+---
+
+## What is lpn
+_[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fast and flexible CLI for managing Liferay Portal's Docker images._
+
+## Install lpn
+
+1.  Install docker [https://docs.docker.com/docker-for-mac/install/](https://www.google.com/url?q=https://docs.docker.com/docker-for-mac/install/&sa=D&ust=1569351364893000)
+2.  Change docker preferences to have 6Gb memory
+
+<Grid>
+    <Grid.Item></Grid.Item>
+    <Image size="small" float="left" rounded dropShadow src="/images/handbook/tools/lpn/docker-preferences.png" />
+    <Image size="small" float="right" rounded dropShadow src="/images/handbook/tools/lpn/docker-memory.png" />
+</Grid>
+
+3.  Install lpn [https://releases-lpn.wedeploy.io/#releasesSection](https://www.google.com/url?q=https://releases-lpn.wedeploy.io/%23releasesSection&sa=D&ust=1569351364894000)
+4.  Go to last release, open the panel and download darwin - amd64 (if you are on mac)
+5.  Open your terminal and go to where the file has been downloaded. By default Downloads folder.
+
+cd Download
+
+6.  Move the file to bin folder
+
+mv lpn /usr/local/bin
+
+7.  Go to that folder
+
+chmod +x /usr/local/bin
+
+8.  By this point you should have lpn running in your computer. Now you can run images as shown in next section.
+
+## Running images
+
+To run master
+
+lpn run nightly -p 8081 -t 20180426
+
+To run a 7.0
+
+lpn run release -t 7-ce-ga6-tomcat-hsql -p 8888
+
+To run commerce
+
+lpn run commerce -p 8081 -t 20180426
+
+Note:
+
+*   Commerce images are private, you need special access to run them
+*   Create a [Docker Hub](https://www.google.com/url?q=https://hub.docker.com/&sa=D&ust=1569351364896000) account
+*   Send a LRIT ticket to Jeff with copy to Marco so he approves your access. Add your Docker Hub username in the ticket.
