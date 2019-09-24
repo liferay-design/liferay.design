@@ -36,22 +36,22 @@ export default class Careers extends Component {
 					<meta
 						name="keyword"
 						content={
-							'Liferay, Design, Liferay Design, open source design, ' +
+							'Careers, Liferay, Design, Liferay Design, open source design, ' +
 							`${post.frontmatter.tags}`
 						}
 					/>
-					<meta property="og:description" content={post.excerpt} />
+					<meta property="og:description" content={'A career opportunity at Liferay.Design'} />
 					<meta name="Description" content={seoDescription}></meta>
 					<meta
 						property="og:title"
 						content={seoDescription}
 					/>
 					<meta name="twitter:card" content="summary_large_image" />
-					<meta name="twitter:site" content="@Liferay_Lexicon" />
+					<meta name="twitter:site" content="@liferaydesign" />
 					<meta name="twitter:title" content={seoDescription} />
 					<meta name="twitter:description" content={'A career opportunity at Liferay.Design'} />
 					<meta name="twitter:image" content={seoImage} />
-  					<meta name="twitter:creator" content="@Liferay_Lexicon" />
+  					<meta name="twitter:creator" content="@liferaydesign" />
 					{applyLink ? (
 						<link href={applyLink} rel="canonical" />
 					) : null}
