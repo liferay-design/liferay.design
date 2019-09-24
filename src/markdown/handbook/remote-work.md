@@ -1,5 +1,5 @@
 ---
-title: 'Remote Work Policy'
+title: 'Remote Work'
 description: 'How to be successful working remotely'
 order: 40
 publish: true
