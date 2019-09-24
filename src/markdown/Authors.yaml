@@ -163,7 +163,7 @@
   slug: himer-andras
   headshot: '/images/headshots/-upside-down-face.png'
   avatar: '/images/headshots/-upside-down-face.png'
-  active: true
+  active: false
   icon: fa_heart
   startDate: 2018-05-07
   office: Budapest
