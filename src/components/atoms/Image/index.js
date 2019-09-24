@@ -71,7 +71,7 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 Image.propTypes = {
 	align: PropTypes.string,
 	alt: PropTypes.string.isRequired,
-	caption: PropTypes.string,
+	caption: PropTypes.object,
 	circle: PropTypes.boolean,
 	dropShadow: PropTypes.boolean,
 	margin: PropTypes.string,
