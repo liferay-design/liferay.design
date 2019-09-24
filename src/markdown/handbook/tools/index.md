@@ -5,4 +5,4 @@ order: 20
 publish: true
 ---
 
-## TODO: Design EMEA Handbook Homepage
+## TODO: Tools index
