@@ -1,7 +1,7 @@
 ---
 title: 'Share'
 description: 'Sharing Content as a Liferay Designer'
-order: 30
+order: 40
 publish: true
 ---
 
