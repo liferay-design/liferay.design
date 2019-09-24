@@ -92,6 +92,12 @@ module.exports = {
 							aliases: {},
 						},
 					},
+					{
+						resolve: 'gatsby-remark-autolink-headers',
+						options: {
+							offsetY:`100`,
+						},
+					},
 				],
 			},
 		},
