@@ -55,6 +55,10 @@ h5,
 h6,
 p {
 	margin-bottom: 1em;
+	&:hover .nice-anchor {
+		opacity: 1;
+		transition: opacity .2s ease-in-out;
+	}
 }
 
 h1 {
@@ -86,4 +90,12 @@ img {
 		max-width: 230px;
 		width: 33%;
 	}
+}
+
+.nice-anchor {
+	float: left;
+	margin-left: -$spacingBase;
+	padding-right: $spacingSmall;
+	opacity: 0;
+	transition: opacity .2s ease-in-out;
 }
