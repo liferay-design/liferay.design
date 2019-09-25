@@ -5,6 +5,10 @@ export default class FancyFooter extends Component {
 	componentDidMount() {
 		document.body.style.marginBottom = '100vh'
 	}
+	
+	componentWillUnmount() {
+		document.body.style.marginBottom = '0'
+	}
 
 	render() {
 		return (
