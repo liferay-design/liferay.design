@@ -2,6 +2,8 @@ import { Flex, Text } from 'components/atoms'
 import { SideTab } from 'components/molecules'
 import React from 'react'
 import styles from './styles.module.scss'
+import MediaQuery from 'react-responsive'
+import {sizes } from 'theme'
 
 const HeroBanner = () => (
 	<Flex className={styles.container} align="center" justify="center">
@@ -12,7 +14,9 @@ const HeroBanner = () => (
 			</Text>
 			designers.
 		</Text>
-		<SideTab cta="Join Us" ctaUrl="/careers" image="/images/components/pj-thumb.jpg" />
+		<MediaQuery minWidth={sizes.medium}>
+			<SideTab cta="Join Us" ctaUrl="/careers" image="/images/components/pj-thumb.jpg" />
+		</MediaQuery>
 	</Flex>
 )
 

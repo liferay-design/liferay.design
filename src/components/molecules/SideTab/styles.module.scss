@@ -2,15 +2,10 @@
 
 .joinUs {
 	position: fixed;
-	right: -435px;
 	z-index: $top;
 	transform: translateX(0);
 	transition: all 0.4s ease-in-out;
 	animation: fadeIn 0.8s ease-in-out forwards;
-	&:hover {
-		transform: translateX(-435px);
-		transition: all 0.4s ease-in-out;
-	}
 	.banner {
 		width: 50vw;
 		background: antiquewhite;
@@ -86,8 +81,18 @@
 	}
 }
 
-@media screen and (max-width: $screenMedium) {
-	.link {
-		display: none;
+@media screen and (min-width: $screenLarge) {
+	.joinUs {
+		right: -435px;
+		&:hover {
+			transform: translateX(-435px);
+			transition: all 0.4s ease-in-out;
+		}
+	}
+}
+
+@media screen and (min-width: $screenMedium) and (max-width: $screenLarge) {
+	.joinUs {
+		right: 0;
 	}
 }
