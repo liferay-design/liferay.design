@@ -35,6 +35,7 @@
 			transition: all 0.4s ease-in-out;
 			display: flex;
 			opacity: 0;
+			position: relative;
 			span {
 				justify-self: center;
 				align-self: center;
@@ -42,7 +43,8 @@
 				text-align: center;
 				letter-spacing: 0.3rem;
 				transform: rotate(90deg);
-				margin-left: 0.5rem;
+				margin-left: -2rem;
+				position: absolute;
 			}
 			&:hover {
 				background: darken($action, 8%);
@@ -104,7 +106,7 @@
 		.tab {
 			.button {
 				span {
-					margin-left: -0.9rem;
+					margin-left: -3.4rem;
 				}
 			}
 		}
