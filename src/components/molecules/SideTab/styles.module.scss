@@ -94,5 +94,12 @@
 @media screen and (min-width: $screenMedium) and (max-width: $screenLarge) {
 	.joinUs {
 		right: 0;
+		.tab {
+			.button {
+				span {
+					margin-left: -0.9rem;
+				}
+			}
+		}
 	}
 }
