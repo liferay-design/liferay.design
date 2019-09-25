@@ -16,6 +16,7 @@
 			width: 100%;
 			left: 0;
 			top: 14rem;
+			margin-top: $spacingBase;
 			font-size: $fontSizeBase;
 			color: $neutral6;
 			text-shadow: none;
@@ -142,7 +143,7 @@
 	}
 }
 
-@media screen and (max-width: $screenSmall) {
+@media screen and (max-width: $screenMedium) {
 	.banner {
 		h1 {
 			order: 0;
@@ -157,7 +158,12 @@
 		}
 	}
 	.markdownContainer {
-		overflow: hidden;
 		padding: $spacingLarge $spacingSmall $spacingMedium;
+		.featuredImage {
+			max-width: 100%;
+			height: 40vh;
+			max-height: $screenSmall;
+			margin: -10rem auto -6rem;
+		}
 	}
 }
