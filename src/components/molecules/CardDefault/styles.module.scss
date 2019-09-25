@@ -14,6 +14,14 @@
 		opacity: 0;
 	}
 }
+
+@-moz-document url-prefix() {
+	.cardLink {
+		.sexyShadow {
+			display: none;
+		}
+	}
+}
 .card {
 	color: $white;
 	background: $darkGrey;
