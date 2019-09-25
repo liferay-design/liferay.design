@@ -4,14 +4,15 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 import { Grid } from 'reakit'
-import {MediaQuery, useMediaQuery} from 'react-responsive'
+import { useMediaQuery} from 'react-responsive'
+import MediaQuery from 'react-responsive'
 import {sizes} from 'theme'
 
 const SideTab = ({ image, cta, ctaUrl }) => {
 	const gridTemplate = `"link banner" auto / 8rem 1fr`
 	const gridTemplateSmall = `"link banner" auto / 5rem 1fr`
 
-	const isLarge = useMediaQuery({query:'(min-width:1280px)'})
+	const isLarge = useMediaQuery({ query: '(min-device-width: 1280px)' })
 
 	return (
 		<div className={styles.joinUs}>
