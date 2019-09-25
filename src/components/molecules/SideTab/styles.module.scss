@@ -14,10 +14,13 @@
 		height: $screenSmall;
 		overflow: hidden;
 		align-items: center;
+		.imageWrapper {
+			transform: scaleX(1);
+			transition: all 0.4s ease-in-out;
+		}
 		.image {
 			animation: animateIn 1s 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 			height: 100%;
-			// note that scaleX is just for the picture of PJ b/c he's facing the wrong way
 			transform: translateY(-200px);
 			width: 8rem;
 			margin: 0;
@@ -87,6 +90,10 @@
 		&:hover {
 			transform: translateX(-435px);
 			transition: all 0.4s ease-in-out;
+			.imageWrapper {
+				transform: scaleX(-1);
+				transition: all 0.4s ease-in-out;
+			}
 		}
 	}
 }

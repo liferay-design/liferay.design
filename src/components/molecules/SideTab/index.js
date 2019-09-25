@@ -22,7 +22,7 @@ const SideTab = ({ image, cta, ctaUrl }) => {
 						className={styles.tab}
 						templateRows="10rem auto"
 					>
-						<Grid.Item>
+						<Grid.Item className={styles.imageWrapper}>
 							<Image src={image} className={styles.image} />
 						</Grid.Item>
 						<Grid.Item className={styles.button}>
