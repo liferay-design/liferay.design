@@ -12,7 +12,7 @@ const SideTab = ({ image, cta, ctaUrl }) => {
 	const gridTemplate = `"link banner" auto / 8rem 1fr`
 	const gridTemplateSmall = `"link banner" auto / 5rem 1fr`
 
-	const isLarge = useMediaQuery({ query: '(min-device-width: 1280px)' })
+	const isLarge = useMediaQuery({ query: '(min-width: 1280px)' })
 
 	return (
 		<div className={styles.joinUs}>
