@@ -1,6 +1,7 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
@@ -77,7 +78,9 @@ export default class Handbook extends Component {
 											{!matches && <AuthContainer />}
 										</Flex>
 
-										<GlobalMdx>{mdx.code.body}</GlobalMdx>
+										<GlobalMdx>
+											<MDXRenderer>{mdx.code.body}</MDXRenderer>
+										</GlobalMdx>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
 								</div>
