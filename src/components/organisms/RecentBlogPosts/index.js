@@ -10,7 +10,6 @@ export default ( {teammate} ) => {
 				filter: { fileAbsolutePath: { regex: "/(articles)/" } }
 				sort: { order: DESC, fields: [frontmatter___date] }
 			) {
-				totalCount
 				edges {
 					node {
 						id
