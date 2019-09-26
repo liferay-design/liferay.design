@@ -1,6 +1,6 @@
 import { Container, Flex, Link, Image } from 'components/atoms'
 import { Tags, GlobalMdx } from 'components/molecules'
-import { Footer, Navbar } from 'components/organisms'
+import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
@@ -19,10 +19,7 @@ export default class Articles extends Component {
 				<Helmet>
 					<title>{seoDescription}</title>
 					<meta property="og:type" content="article" />
-					<meta
-						property="og:image"
-						content={seoImage}
-					/>
+					<meta property="og:image" content={seoImage} />
 					<meta
 						name="keyword"
 						content={
@@ -31,7 +28,7 @@ export default class Articles extends Component {
 						}
 					/>
 					<meta property="og:description" content={post.excerpt} />
-					<meta name="Description" content={seoDescription}></meta>
+					<meta name="Description" content={seoDescription} />
 					<meta
 						property="og:title"
 						content={
@@ -44,17 +41,34 @@ export default class Articles extends Component {
 					<meta name="twitter:card" content="summary_large_image" />
 					<meta name="twitter:site" content="@liferaydesign" />
 					<meta name="twitter:title" content={post.frontmatter.title} />
-					<meta name="twitter:description" content={'An article by ' + `${post.frontmatter.author.id}` + ' on Liferay.Design'} />
+					<meta
+						name="twitter:description"
+						content={
+							'An article by ' +
+							`${post.frontmatter.author.id}` +
+							' on Liferay.Design'
+						}
+					/>
 					<meta name="twitter:image" content={seoImage} />
-  					<meta name="twitter:creator" content={post.frontmatter.author.id} />
+					<meta
+						name="twitter:creator"
+						content={post.frontmatter.author.id}
+					/>
 					{post.frontmatter.canonicalLink ? (
-						<link href={post.frontmatter.canonicalLink} rel="canonical" />
+						<link
+							href={post.frontmatter.canonicalLink}
+							rel="canonical"
+						/>
 					) : null}
 				</Helmet>
 				<Navbar section="Articles" />
 				<Container>
 					<Tags tags={post.frontmatter.tags} />
-					<Flex justify="center" align="center" className={styles.banner}>
+					<Flex
+						justify="center"
+						align="center"
+						className={styles.banner}
+					>
 						<h1>
 							{post.frontmatter.title}{' '}
 							<span>
@@ -66,13 +80,16 @@ export default class Articles extends Component {
 										textDecorationColor: colors.primary,
 									}}
 									to={withPrefix(
-										'/team/' + `${post.frontmatter.author.slug}`,
+										'/team/' +
+											`${post.frontmatter.author.slug}`,
 									)}
 								>
 									{post.frontmatter.author.id}
 								</Link>
 								&nbsp;on{' '}
-								{moment(post.frontmatter.date).format('MMMM DD, YYYY')}
+								{moment(post.frontmatter.date).format(
+									'MMMM DD, YYYY',
+								)}
 							</span>
 						</h1>
 						<div className={styles.role}>
@@ -90,6 +107,14 @@ export default class Articles extends Component {
 						<GlobalMdx>{post.code.body}</GlobalMdx>
 					</Flex>
 				</div>
+				<Container
+					color="black"
+					heading={'More posts by ' + `${post.frontmatter.author.id}`}
+					background="#fff"
+					padding="4rem 0 4rem"
+				>
+					<RecentBlogPosts teammate={post.frontmatter.author.slug} currentPost={post.id} />
+				</Container>
 				<Footer light />
 			</div>
 		)
@@ -99,6 +124,7 @@ export default class Articles extends Component {
 export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(fields: { slug: { eq: $slug } }) {
+			id
 			timeToRead
 			frontmatter {
 				author {

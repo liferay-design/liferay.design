@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import { CardGrid } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 
-export default ( {teammate} ) => {
+export default ( {teammate, currentPost} ) => {
 	const data = useStaticQuery(graphql`
 		{
 			allMdx(
@@ -33,7 +33,7 @@ export default ( {teammate} ) => {
 	`)
 
 	const Posts = data.allMdx.edges
-		.filter(edges => edges.node.frontmatter.author.slug === teammate )
+		.filter(edges => edges.node.frontmatter.author.slug === teammate && edges.node.id !== currentPost)
 		.slice(0,3)
 		.map(({ node }) => (
 			<CardDefault
