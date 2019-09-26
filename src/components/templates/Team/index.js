@@ -69,14 +69,10 @@ export default class Team extends Component {
 						</GlobalMdx>
 					</Flex>
 				</div>
-				<Container
-					color="black"
+				<RecentBlogPosts
 					heading={'Recent posts by ' + `${post.frontmatter.author.id}`}
-					background="#fff"
-					padding="4rem 0 4rem"
-				>
-					<RecentBlogPosts teammate={post.frontmatter.author.slug} />
-				</Container>
+					teammate={post.frontmatter.author.slug}
+				/>
 				<Footer light />
 			</div>
 		)

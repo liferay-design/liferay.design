@@ -1,9 +1,9 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { CardGrid } from 'components/atoms'
+import { CardGrid, Text, Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 
-export default ( {teammate, currentPost} ) => {
+export default ( {teammate, currentPost, ...props} ) => {
 	const data = useStaticQuery(graphql`
 		{
 			allMdx(
@@ -48,8 +48,19 @@ export default ( {teammate, currentPost} ) => {
 		))
 
 	return (
-		<CardGrid>
-			{Posts}
-		</CardGrid>
-)}
+		<div>
+			{Posts.length >= 1 ? (
+				<Container
+					{...props} 
+					color="black"
+					background="#fff"
+					padding="4rem 0 4rem"
+				>
+					<CardGrid>{Posts}</CardGrid>
+				</Container>
+			) : (
+				null
+			)}
+		</div>
+	)}
 
