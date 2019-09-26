@@ -5,11 +5,21 @@ order: 40
 publish: true
 ---
 
+import { Image } from 'components/atoms'
+
 ## What is lpn
+
 _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fast and flexible CLI for managing Liferay Portal's Docker images._
 
 ## Install lpn
-<Image size="small" align="right" rounded dropShadow src="/images/handbook/tools/lpn/docker-memory.png" />
+
+<Image
+	size="small"
+	align="right"
+	rounded
+	dropShadow
+	src="/images/handbook/tools/lpn/docker-memory.png"
+/>
 
 1.  [Install docker](https://docs.docker.com/docker-for-mac/install/)
 1.  Change docker preferences to have 6Gb memory
@@ -32,17 +42,23 @@ _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fas
 ## Running images
 
 To run master
+
 ```
 lpn run nightly -p 8081 -t 20180426
 ```
+
 To run 7.0
+
 ```
 lpn run release -t 7-ce-ga6-tomcat-hsql -p 8888
 ```
+
 To run commerce
+
 ```
 lpn run commerce -p 8081 -t 20180426
 ```
+
 ## For Commerce Images
 
 _Commerce images are private, you need special access to run them._
