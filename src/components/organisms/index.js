@@ -6,6 +6,7 @@ import FooterMarkdown from './FooterMarkdown'
 import HeroBanner from './HeroBanner'
 import Navbar from './Navbar'
 import NavItems from './NavItems'
+import RecentBlogPosts from './RecentBlogPosts'
 import Sidebar from './Sidebar'
 import TopBlogPosts from './TopBlogPosts'
 import Venue from './Venue'
@@ -19,6 +20,7 @@ export {
 	HeroBanner,
 	NavItems,
 	Navbar,
+	RecentBlogPosts,
 	Sidebar,
 	TopBlogPosts,
 	Venue,
