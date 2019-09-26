@@ -55,15 +55,25 @@ export default class Articles extends Component {
 						}
 					/>
 					<meta name="twitter:image" content={seoImage} />
-					<meta name="twitter:creator" content={post.frontmatter.author.id} />
+					<meta
+						name="twitter:creator"
+						content={post.frontmatter.author.id}
+					/>
 					{post.frontmatter.canonicalLink ? (
-						<link href={post.frontmatter.canonicalLink} rel="canonical" />
+						<link
+							href={post.frontmatter.canonicalLink}
+							rel="canonical"
+						/>
 					) : null}
 				</Helmet>
 				<Navbar section="Articles" />
 				<Container>
 					<Tags tags={post.frontmatter.tags} />
-					<Flex justify="center" align="center" className={styles.banner}>
+					<Flex
+						justify="center"
+						align="center"
+						className={styles.banner}
+					>
 						<h1>
 							{post.frontmatter.title}{' '}
 							<span>
@@ -75,13 +85,16 @@ export default class Articles extends Component {
 										textDecorationColor: colors.primary,
 									}}
 									to={withPrefix(
-										'/team/' + `${post.frontmatter.author.slug}`,
+										'/team/' +
+											`${post.frontmatter.author.slug}`,
 									)}
 								>
 									{post.frontmatter.author.id}
 								</Link>
 								&nbsp;on{' '}
-								{moment(post.frontmatter.date).format('MMMM DD, YYYY')}
+								{moment(post.frontmatter.date).format(
+									'MMMM DD, YYYY',
+								)}
 							</span>
 						</h1>
 						<div className={styles.role}>
@@ -101,17 +114,11 @@ export default class Articles extends Component {
 						</GlobalMdx>
 					</Flex>
 				</div>
-				<Container
-					color="black"
+				<RecentBlogPosts
 					heading={'More posts by ' + `${post.frontmatter.author.id}`}
-					background="#fff"
-					padding="4rem 0 4rem"
-				>
-					<RecentBlogPosts
-						teammate={post.frontmatter.author.slug}
-						currentPost={post.id}
-					/>
-				</Container>
+					teammate={post.frontmatter.author.slug}
+					currentPost={post.id}
+				/>
 				<Footer light />
 			</div>
 		)
