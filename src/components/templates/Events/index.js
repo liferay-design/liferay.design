@@ -1,5 +1,6 @@
 import { Flex } from 'components/atoms'
 import { Author, GlobalMdx } from 'components/molecules'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
 import moment from 'moment'
@@ -28,10 +29,7 @@ export default class Events extends Component {
 									{' '}
 									{moment(post.frontmatter.date).format('MMM')}
 								</span>
-								<span>
-									{' '}
-									{moment(post.frontmatter.date).format('DD')}
-								</span>
+								<span> {moment(post.frontmatter.date).format('DD')}</span>
 							</Flex>
 							{post.frontmatter.title}{' '}
 						</h1>
@@ -47,7 +45,8 @@ export default class Events extends Component {
 							)}
 							<span className={styles.locationName}>
 								<a href={post.frontmatter.office.mapURL} target="_blank">
-									{post.frontmatter.office.id}, {post.frontmatter.office.region}
+									{post.frontmatter.office.id},{' '}
+									{post.frontmatter.office.region}
 								</a>
 							</span>
 						</h2>
@@ -78,13 +77,15 @@ export default class Events extends Component {
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>
 						{post.frontmatter.author ? (
-							<Author 
-								id={post.frontmatter.author.id} 
-								avatar={post.frontmatter.author.avatar} 
-								slug={post.frontmatter.author.slug} 
-								/>
+							<Author
+								id={post.frontmatter.author.id}
+								avatar={post.frontmatter.author.avatar}
+								slug={post.frontmatter.author.slug}
+							/>
 						) : null}
-						<GlobalMdx>{post.code.body}</GlobalMdx>
+						<GlobalMdx>
+							<MDXRenderer>{post.code.body}</MDXRenderer>
+						</GlobalMdx>
 					</Flex>
 				</div>
 				<Footer light />
@@ -108,7 +109,7 @@ export const pageQuery = graphql`
 				author {
 					id
 					avatar
-					slug		
+					slug
 				}
 				endDateTime
 				heroImage

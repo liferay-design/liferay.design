@@ -1,4 +1,5 @@
 import { Container, Flex, Link, Image } from 'components/atoms'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Tags, GlobalMdx } from 'components/molecules'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
@@ -11,7 +12,11 @@ import { colors } from 'theme'
 export default class Articles extends Component {
 	render() {
 		const post = this.props.data.mdx
-		const seoDescription = `${post.frontmatter.title}` + ' - an article by ' + `${post.frontmatter.author.id}` + ' on Liferay.Design'
+		const seoDescription =
+			`${post.frontmatter.title}` +
+			' - an article by ' +
+			`${post.frontmatter.author.id}` +
+			' on Liferay.Design'
 		const seoImage = 'https://liferay.design' + post.frontmatter.featuredImage
 
 		return (
@@ -50,25 +55,15 @@ export default class Articles extends Component {
 						}
 					/>
 					<meta name="twitter:image" content={seoImage} />
-					<meta
-						name="twitter:creator"
-						content={post.frontmatter.author.id}
-					/>
+					<meta name="twitter:creator" content={post.frontmatter.author.id} />
 					{post.frontmatter.canonicalLink ? (
-						<link
-							href={post.frontmatter.canonicalLink}
-							rel="canonical"
-						/>
+						<link href={post.frontmatter.canonicalLink} rel="canonical" />
 					) : null}
 				</Helmet>
 				<Navbar section="Articles" />
 				<Container>
 					<Tags tags={post.frontmatter.tags} />
-					<Flex
-						justify="center"
-						align="center"
-						className={styles.banner}
-					>
+					<Flex justify="center" align="center" className={styles.banner}>
 						<h1>
 							{post.frontmatter.title}{' '}
 							<span>
@@ -80,16 +75,13 @@ export default class Articles extends Component {
 										textDecorationColor: colors.primary,
 									}}
 									to={withPrefix(
-										'/team/' +
-											`${post.frontmatter.author.slug}`,
+										'/team/' + `${post.frontmatter.author.slug}`,
 									)}
 								>
 									{post.frontmatter.author.id}
 								</Link>
 								&nbsp;on{' '}
-								{moment(post.frontmatter.date).format(
-									'MMMM DD, YYYY',
-								)}
+								{moment(post.frontmatter.date).format('MMMM DD, YYYY')}
 							</span>
 						</h1>
 						<div className={styles.role}>
@@ -104,7 +96,9 @@ export default class Articles extends Component {
 						src={post.frontmatter.featuredImage}
 					/>
 					<Flex direction="column" className={styles.wrapper}>
-						<GlobalMdx>{post.code.body}</GlobalMdx>
+						<GlobalMdx>
+							<MDXRenderer>{post.code.body}</MDXRenderer>
+						</GlobalMdx>
 					</Flex>
 				</div>
 				<Container
@@ -113,7 +107,10 @@ export default class Articles extends Component {
 					background="#fff"
 					padding="4rem 0 4rem"
 				>
-					<RecentBlogPosts teammate={post.frontmatter.author.slug} currentPost={post.id} />
+					<RecentBlogPosts
+						teammate={post.frontmatter.author.slug}
+						currentPost={post.id}
+					/>
 				</Container>
 				<Footer light />
 			</div>

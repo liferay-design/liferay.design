@@ -1,5 +1,6 @@
 import { Container, Flex } from 'components/atoms'
 import { GlobalMdx } from 'components/molecules'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
@@ -63,7 +64,9 @@ export default class Team extends Component {
 						direction="column"
 						className={styles.wrapper}
 					>
-						<GlobalMdx>{post.code.body}</GlobalMdx>
+						<GlobalMdx>
+							<MDXRenderer>{post.code.body}</MDXRenderer>
+						</GlobalMdx>
 					</Flex>
 				</div>
 				<Container

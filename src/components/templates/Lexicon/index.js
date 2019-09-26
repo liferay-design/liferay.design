@@ -1,4 +1,5 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
+import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
@@ -9,7 +10,6 @@ import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import { Helmet } from 'react-helmet'
-
 
 export default class Lexicon extends Component {
 	constructor(props) {
@@ -35,7 +35,8 @@ export default class Lexicon extends Component {
 		} = this.props
 
 		const post = this.props.data.mdx
-		const seoDescription = `${post.frontmatter.title}` + ' on Lexicon by Liferay.Design'
+		const seoDescription =
+			`${post.frontmatter.title}` + ' on Lexicon by Liferay.Design'
 		const seoImage = 'https://liferay.design/images/resources/lexicon-cover.png'
 
 		return (
@@ -43,10 +44,7 @@ export default class Lexicon extends Component {
 				<Helmet>
 					<title>{seoDescription}</title>
 					<meta property="og:type" content="article" />
-					<meta
-						property="og:image"
-						content={seoImage}
-					/>
+					<meta property="og:image" content={seoImage} />
 					<meta
 						name="keyword"
 						content={
@@ -54,23 +52,25 @@ export default class Lexicon extends Component {
 							`${post.frontmatter.tags}`
 						}
 					/>
-					<meta property="og:description" content={post.frontmatter.description} />
-					<meta name="Description" content={seoDescription}></meta>
+					<meta
+						property="og:description"
+						content={post.frontmatter.description}
+					/>
+					<meta name="Description" content={seoDescription} />
 					<meta
 						property="og:title"
-						content={
-							post.frontmatter.title +
-							' — Lexicon by Liferay.Design'
-						}
+						content={post.frontmatter.title + ' — Lexicon by Liferay.Design'}
 					/>
 
 					<meta name="twitter:card" content="summary_large_image" />
 					<meta name="twitter:site" content="@Liferay_Lexicon" />
 					<meta name="twitter:title" content={seoDescription} />
-					<meta name="twitter:description" content={post.frontmatter.description} />
+					<meta
+						name="twitter:description"
+						content={post.frontmatter.description}
+					/>
 					<meta name="twitter:image" content={seoImage} />
-  					<meta name="twitter:creator" content="@Liferay_Lexicon" />
-
+					<meta name="twitter:creator" content="@Liferay_Lexicon" />
 				</Helmet>
 				<MediaQuery maxWidth={767}>
 					{matches => {
@@ -156,7 +156,9 @@ export default class Lexicon extends Component {
 											</p>
 										) : null}
 
-										<GlobalMdx>{mdx.code.body}</GlobalMdx>
+										<GlobalMdx>
+											<MDXRenderer>{mdx.code.body}</MDXRenderer>
+										</GlobalMdx>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
 								</div>
