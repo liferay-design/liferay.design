@@ -4,7 +4,7 @@ date: 2019-09-11T07:00:00Z
 title: Junior Product Designer
 office: Madrid
 featuredImage: "/images/posts/madrid-team-event.jpg"
-published: true
+published: false
 
 ---
 ## Who Designs at Liferay?
