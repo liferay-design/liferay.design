@@ -116,6 +116,7 @@
 
 		blockquote {
 			margin: $spacingMedium;
+			position: relative;
 			p, cite {
 				font-size: $fontSizeMedium;
 				color: $main-l1;
@@ -129,20 +130,21 @@
 				content: '“';
 				display: block;
 				position: absolute;
-				font-size: $
+				font-size: $fontSizeDisplay * 2;
+				top: $fontSizeDisplay * -.9;
+				left: $fontSizeDisplay * -1;
+				color: $main-l8;
+				font-weight: $fontWeightBlack;
 			}
 		}
 
 		aside {
 			margin: $spacingMedium (-1 * $spacingMedium);
-			p,
-			cite {
-				font-family: $fontFamilyPrimary;
-				font-size: $fontSizeLarge;
-				font-weight: $fontWeightHeavy;
-				color: $main-l3;
-				text-align: center;
-			}
+			font-family: $fontFamilyPrimary;
+			font-size: $fontSizeLarge;
+			font-weight: $fontWeightHeavy;
+			color: $main-l3;
+			text-align: center;
 			&::before,
 			&::after {
 				content: '';
@@ -152,11 +154,6 @@
 				height: 2px;
 				border-radius: 1px;
 				margin: $spacingMedium auto;
-			}
-			cite {
-				display: block;
-				font-style: italic;
-				color: $main-l5;
 			}
 		}
 	}
@@ -184,11 +181,13 @@
 			max-height: $screenSmall;
 			margin: -10rem auto -6rem;
 		}
-	}
-	.wrapper {
-		aside {
-			margin: initial;
+		.wrapper {
+			aside {
+				margin: initial;
+			}
+			blockquote {
+				margin: $spacingSmall;
+			}
 		}
-
 	}
 }
