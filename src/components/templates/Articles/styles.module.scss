@@ -115,6 +115,25 @@
 		}
 
 		blockquote {
+			margin: $spacingMedium;
+			p, cite {
+				font-size: $fontSizeMedium;
+				color: $main-l1;
+			}
+			cite {
+				display: block;
+				font-style: italic;
+				color: $main-l3;
+			}
+			&::before {
+				content: '“';
+				display: block;
+				position: absolute;
+				font-size: $
+			}
+		}
+
+		aside {
 			margin: $spacingMedium (-1 * $spacingMedium);
 			p,
 			cite {
@@ -165,5 +184,11 @@
 			max-height: $screenSmall;
 			margin: -10rem auto -6rem;
 		}
+	}
+	.wrapper {
+		aside {
+			margin: initial;
+		}
+
 	}
 }
