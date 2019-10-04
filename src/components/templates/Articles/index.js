@@ -108,11 +108,11 @@ export default class Articles extends Component {
 						className={styles.featuredImage}
 						src={post.frontmatter.featuredImage}
 					/>
-					<Flex direction="column" className={styles.wrapper}>
+					<div className={styles.wrapper}>
 						<GlobalMdx>
 							<MDXRenderer>{post.code.body}</MDXRenderer>
 						</GlobalMdx>
-					</Flex>
+					</div>
 				</div>
 				<RecentBlogPosts
 					heading={'More posts by ' + `${post.frontmatter.author.id}`}
