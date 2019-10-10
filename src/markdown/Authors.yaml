@@ -1,4 +1,13 @@
 ---
+- id: Laura Garcia
+  title: Associate Product Designer
+  slug: garcia-laura
+  headshot: '/images/headshots/garcia-laura.jpg'
+  avatar: '/images/headshots/garcia-laura-h.jpg'
+  active: false
+  icon: fa_spa
+  startDate: 2019-10-12T07:00:00Z
+  office: Madrid
 - id: Marleny Francisco
   title: Communication Designer
   slug: francisco-marleny
@@ -67,7 +76,7 @@
   slug: bargaid-duuriimaa
   headshot: '/images/headshots/bargaid-duuriimaa.jpg'
   avatar: '/images/headshots/bargaid-duuriimaa-h.jpg'
-  active: true
+  active: false
   icon: fa_drum
   startDate: 2018-02-08
   office: Madrid
