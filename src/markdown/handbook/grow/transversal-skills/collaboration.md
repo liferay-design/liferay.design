@@ -1,6 +1,6 @@
 ---
 title: 'Collaboration'
-description: 'Collaboration is more than just working with others. It's about sharing skills, methods, and perspectives with colleagues.'
+description: 'Collaboration is more than just working with others. It&rsquo;s about sharing skills, methods, and perspectives with colleagues.'
 order: 20
 publish: true
 ---
