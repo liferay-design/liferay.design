@@ -87,7 +87,7 @@
 			@media screen and (max-width: $screenMedium) {
 				box-shadow: none;
 				border-radius: none;
-				width: calc(100% + ($spacingXSmall * 2));
+				width: calc(100% + 0.8rem);
 				margin-left: -$spacingXSmall;
 				th:first-child,
 				td:first-child,
