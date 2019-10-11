@@ -1,7 +1,7 @@
 ---
 title: 'Career Paths'
 description: 'How to advance in your career in Liferay Design'
-order: 60
+order: 20
 publish: true
 ---
 
