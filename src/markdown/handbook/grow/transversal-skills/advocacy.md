@@ -1,7 +1,7 @@
 ---
 title: 'Advocacy'
 description: 'The passionate education and coordination of people/principles/practices throughout an organization, using various levers and switches (social, political, economic, technological, etc.), while respecting people’s needs and organizational goals.'
-order: 40
+order: 50
 publish: true
 ---
 

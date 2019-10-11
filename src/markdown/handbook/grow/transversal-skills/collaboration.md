@@ -1,7 +1,7 @@
 ---
 title: 'Collaboration'
 description: 'Collaboration is more than just working with others. It&rsquo;s about sharing skills, methods, and perspectives with colleagues.'
-order: 20
+order: 30
 publish: true
 ---
 
