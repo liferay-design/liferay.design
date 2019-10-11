@@ -16,36 +16,6 @@
 			box-shadow: $elevation1;
 			margin: 0;
 			font-family: $fontFamilyPrimary;
-			div {
-				background: rgba(255, 255, 255, 0.04);
-				width: 2ch;
-				height: 2ch;
-				position: absolute;
-				left: 0;
-				top: 3rem;
-				@media only screen and (max-width: $screenLarge) {
-					left: 3rem;
-				}
-				span {
-					&:nth-of-type(1) {
-						display: block;
-						font-size: $fontSizeBase;
-						color: $white;
-						opacity: 0.3;
-						text-transform: uppercase;
-						letter-spacing: 0.7em;
-						margin-right: -0.7em;
-						padding-bottom: 0.5em;
-					}
-					&:nth-of-type(2) {
-						display: block;
-						font-size: $fontSizeXXLarge;
-						color: $white;
-						text-transform: uppercase;
-						opacity: 1;
-					}
-				}
-			}
 		}
 		@media only screen and (max-width: 1040px) {
 			max-width: 100%;
@@ -56,26 +26,6 @@
 				left: 0;
 				margin-bottom: 2rem;
 			}
-		}
-		.heroImage {
-			width: 90vw;
-			position: relative;
-			left: calc(-50vw + 50%);
-			max-height: 80vh;
-			margin: 8rem 0 4rem;
-		}
-		.summary {
-			font-size: $fontSizeLarge;
-			color: $white;
-			font-weight: $fontWeightLight;
-		}
-		.bodyImage {
-			width: 90vw;
-			height: 40vw;
-			position: relative;
-			left: calc(-45vw + 50%);
-			margin-top: 4rem;
-			margin-bottom: calc(-20vw - 4rem);
 		}
 	}
 }
@@ -95,52 +45,12 @@
 	.wrapper {
 		max-width: 960px;
 		margin: 0 auto;
-		p,
-		ol > li,
-		ul > li {
-			font-size: $fontSizeMedium;
-			line-height: 1.6;
-			font-weight: $fontWeightRegular;
-			color: $darkGrey;
-			margin-bottom: 1rem;
-			-webkit-font-smoothing: antialiased !important;
-			-moz-osx-font-smoothing: grayscale !important;
-			img {
-				margin: 3rem 0 0 -20%;
-				max-height: 64vh;
-				width: 140%;
-			}
-			img + strong {
-				@include small-caps;
-				color: $grey;
-				font-size: $fontSizeSmall;
-				transform: translate(80%, -$spacingXLarge) rotate(90deg);
-				display: block;
-			}
-		}
-		ol,
-		ul {
-			padding-left: $fontSizeMedium;
-		}
-
-		h2,
-		h3 {
-			margin-top: 3em;
-			&:first-child {
-				margin-top: $spacingSmall;
-			}
-		}
 
 		img {
 			width: 100%;
 		}
-
-		//caption styling
-		img + em {
-			color: $main-l3;
-			font-size: $fontSizeSmall;
-			text-align: center;
-			display: inherit;
-		}
+	}
+	@media screen and (max-width: $screenMedium) {
+		padding: $spacingSmall;
 	}
 }
