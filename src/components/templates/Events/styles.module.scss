@@ -165,9 +165,7 @@
 				width: 140%;
 			}
 			img + strong {
-				text-transform: uppercase;
-				letter-spacing: 0.5ch;
-				font-weight: $fontWeightHeavy;
+				@include small-caps;
 				color: $grey;
 				font-size: $fontSizeSmall;
 				transform: translate(80%, -$spacingXLarge) rotate(90deg);

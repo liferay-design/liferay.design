@@ -27,12 +27,10 @@
 		width: 200px;
 		order: 3;
 		h2 {
+			@include small-caps;
 			transform: translateX(-$spacingLarge) rotate(-90deg);
-			font-weight: $fontWeightHeavy;
 			font-size: $fontSizeXSmall;
-			text-transform: uppercase;
 			color: $grey;
-			letter-spacing: 0.5ch;
 			width: 60ch;
 			text-align: center;
 		}
