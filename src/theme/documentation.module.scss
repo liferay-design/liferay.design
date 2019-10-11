@@ -130,3 +130,11 @@
 		}
 	}
 }
+
+:global(.footnotes) {
+	ol {
+		li {
+			position: relative;
+		}
+	}
+}

@@ -13,7 +13,7 @@ _While Liferay’s Core Values don’t map 1:1 with traditional Design skills, t
 
 | Liferay Core Values                                                                                                                                                                              | Transversal Skills                                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Produce Excellence** <br/> We give our best efforts to get excellent results that stand in the market. But the process is also important: we won't betray our values just to get the job done. | **Excellence** <br/> Achieving a high level of customer[^1] value without compromising [our principles](/principles).                                                        |
+| **Produce Excellence** <br/> We give our best efforts to get excellent results that stand in the market. But the process is also important: we won't betray our values just to get the job done. | **Excellence** <br/> Achieving a high level of customer[^2] value without compromising [our principles](/principles).                                                        |
 | **Lead by Serving** <br/> Leadership is a calling to serve others and stay humble. Our people lead by example, regardless of position or title.                                                  | **Influence** <br/> Telling people what to do is easy — uncovering people’s talents and inspiring them to do something better than you could have imagined — is not so easy. |
 | **Value People** <br/> People are inherently valuable. Therefore, we respect people, invest in relationships, and celebrate one another.                                                         | **Collaboration** <br/> Effectively involving the right people, synthesizing insights and expertise.                                                                         |
 | **Grow & Get Better** <br/> It's not about being better than someone else, but being better than you were yesterday. We seek to learn and grow from every single experience.                     | **Impact** <br/> Beyond "making it pretty" — good design impacts the bottom line. Difficult to measure at times, but there nonetheless.                                      |
@@ -53,4 +53,5 @@ The passionate education and coordination of people/principles/practices through
 
 ## _Footnotes_
 
-[^1]: The person who your design is serving.
+[^1]: Published in 2015, 11 years after we were founded
+[^2]: The person who your design is serving.

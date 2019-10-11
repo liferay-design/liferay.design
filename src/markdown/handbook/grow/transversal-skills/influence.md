@@ -51,5 +51,3 @@ _Leadership skills are required to guide individuals, teams, or an entire organi
 -   Decisions impact all levels, internally and externally
 -   Focus is far-reaching and long-reaching. It’s not just about tomorrow; it’s about years in the future
 -   Successful career as proven Leader, managing multi-teams (products, countries, etc) in a diverse range of Companies.
-
-TODO: Add footnote
