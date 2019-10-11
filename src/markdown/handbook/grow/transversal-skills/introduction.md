@@ -11,7 +11,13 @@ _As we discussed the core skills that we want to see in the Design Department, w
 
 _While Liferay’s Core Values don’t map 1:1 with traditional Design skills, there are commonalities we wanted to articulate in order to contribute to the maturation of Liferay’s Core Values and the legitimization of our department’s core skills._
 
-TODO: Add Core Values Table
+| Liferay Core Values                                                                                                                                                                              | Transversal Skills                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Produce Excellence** <br/> We give our best efforts to get excellent results that stand in the market. But the process is also important: we won't betray our values just to get the job done. | **Excellence** <br/> Achieving a high level of customer[^1] value without compromising [our principles](/principles).                                                        |
+| **Lead by Serving** <br/> Leadership is a calling to serve others and stay humble. Our people lead by example, regardless of position or title.                                                  | **Influence** <br/> Telling people what to do is easy — uncovering people’s talents and inspiring them to do something better than you could have imagined — is not so easy. |
+| **Value People** <br/> People are inherently valuable. Therefore, we respect people, invest in relationships, and celebrate one another.                                                         | **Collaboration** <br/> Effectively involving the right people, synthesizing insights and expertise.                                                                         |
+| **Grow & Get Better** <br/> It's not about being better than someone else, but being better than you were yesterday. We seek to learn and grow from every single experience.                     | **Impact** <br/> Beyond "making it pretty" — good design impacts the bottom line. Difficult to measure at times, but there nonetheless.                                      |
+| **Stay Nerdy** <br/>We enjoy the unique personalities that we have at Liferay. We encourage our people to share their interests, have fun, and be comfortable being themselves.                  | **Advocacy** <br/> Successful Designers are often very passionate people. Sharing expertise, resources, thoughts, feelings, emotions is second nature.                       |
 
 ## Verticals
 
@@ -20,6 +26,12 @@ TODO: Add Core Values Table
 Producing excellence starts with paying attention to details, in your personal efforts as well as the team as a whole. This track measures your ability to produce high-quality outcomes in your daily work consistently
 
 [Read all Excellence milestones](.././excellence)
+
+### Influence
+
+Leadership skills are required to guide individuals, teams, or an entire organization to reach a shared goal. As the company grows and the number of people and teams increases, it’s important that some individuals assume additional responsibilities serving people and teams effectively.
+
+[Read all Influence milestones](.././influence)
 
 ### Collaboration
 
@@ -39,8 +51,6 @@ The passionate education and coordination of people/principles/practices through
 
 [Read all Advocacy milestones](.././advocacy)
 
-### Influence
+## _Footnotes_
 
-Leadership skills are required to guide individuals, teams, or an entire organization to reach a shared goal. As the company grows and the number of people and teams increases, it’s important that some individuals assume additional responsibilities serving people and teams effectively.
-
-[Read all Influence milestones](.././influence)
+[^1]: The person who your design is serving.

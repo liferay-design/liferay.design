@@ -1,7 +1,7 @@
 ---
 title: 'Impact'
 description: 'Combining initiative with accountability — impact is seeing opportunities and taking effective action to achieve positive results that contribute to the long-term success of the organization.'
-order: 30
+order: 40
 publish: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Influence'
 description: 'Leadership skills are required to guide individuals, teams, or an entire organization to reach a shared goal. As the company grows and the number of people and teams increases, it’s important that some individuals assume additional responsibilities serving people and teams effectively.'
-order: 50
+order: 20
 publish: true
 ---
 
