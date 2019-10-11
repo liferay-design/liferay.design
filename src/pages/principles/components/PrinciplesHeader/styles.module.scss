@@ -23,7 +23,7 @@
 		height: 60vh;
 		border-bottom-right-radius: 50vw * 2;
 		border-bottom-left-radius: 50vw * 2;
-	  }
+	}
 
 	.header-badge {
 		width: $spacingMedium * 2;
@@ -36,23 +36,13 @@
 		max-width: $screenSmall;
 		margin-bottom: 10vw;
 		text-align: center;
-		// removed h4 from page
-		// h4 {
-		// 	margin-top: $spacingSmall;
-		// 	letter-spacing: $spacingSmall / 2;
-		// 	text-transform: uppercase;
-		// 	font-size: $fontSizeSmall;
-		// 	font-weight: bold;
-		// 	line-height: normal;
-		// 	color: lighten($brandPrimary, 40%);
-		// }
 		h1 {
 			margin-top: 0;
 			margin-bottom: 1rem;
 			font-size: $fontSizeXXLarge;
 			@media screen and (max-width: $screenSmall) {
 				font-size: $fontSizeXLarge;
-			  }
+			}
 		}
 		p {
 			padding: 0px 1rem;
@@ -64,7 +54,7 @@
 			@media screen and (max-width: $screenSmall) {
 				padding: 0px 1.25rem 1.5rem 1.25rem;
 				font-size: $fontSizeSmall;
-			  }
+			}
 		}
 	}
 }

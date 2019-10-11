@@ -3,13 +3,13 @@
 $accent-color: #006de7;
 
 button {
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  color: inherit;
-  border: 0;
-  outline: 0;
-  background: transparent;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	color: inherit;
+	border: 0;
+	outline: 0;
+	background: transparent;
 }
 
 .card-section {
@@ -22,7 +22,7 @@ button {
 
 	@media screen and (max-width: $screenSmall) {
 		height: 100vh;
-	  }
+	}
 }
 
 .card {
@@ -40,13 +40,13 @@ button {
 	max-height: 640px;
 	// margin-bottom: 220px;
 	background-color: #fff;
-	box-shadow: 0 2rem 5rem rgba(58, 56, 68, 0.1), 0 .5rem 3rem rgba(58, 56, 68, 0.1);
+	box-shadow: 0 2rem 5rem rgba(58, 56, 68, 0.1), 0 0.5rem 3rem rgba(58, 56, 68, 0.1);
 	contain: content;
 
 	@media screen and (max-width: $screenSmall) {
 		width: 90vw;
 		height: 90vh;
-	  }
+	}
 
 	//Principle Card Content
 	.card-content-principle {
@@ -110,7 +110,7 @@ button {
 			@media screen and (max-width: $screenSmall) {
 				flex-direction: column;
 				width: 100%;
-			  }
+			}
 
 			li {
 				font-size: $fontSizeBase;
@@ -118,7 +118,7 @@ button {
 				padding: 0px 1rem;
 				@media screen and (max-width: $screenSmall) {
 					margin-bottom: 12px;
-				  }
+				}
 			}
 		}
 	}
@@ -149,8 +149,7 @@ button {
 			opacity: 0;
 			@media screen and (max-width: $screenSmall) {
 				width: 50%;
-			  }
-
+			}
 		}
 
 		ul {
@@ -162,7 +161,7 @@ button {
 				margin-right: auto;
 				margin-left: auto;
 				padding: 1.5rem;
-			  }
+			}
 
 			li {
 				transition: all 0.25s ease;
@@ -177,15 +176,15 @@ button {
 
 					font-size: $fontSizeMedium;
 					line-height: 130%;
-				  }
+				}
 
-					a {
-						overflow: hidden;
-						text-decoration: underline;
-						color: $white;
-						background-color: $brandPrimary;
-						font-weight: $fontWeightHeavy;
-					}
+				a {
+					overflow: hidden;
+					text-decoration: underline;
+					color: $white;
+					background-color: $brandPrimary;
+					font-weight: $fontWeightHeavy;
+				}
 			}
 		}
 	}
@@ -202,10 +201,10 @@ button {
 
 		opacity: 0.5;
 
-		@media screen and (max-width: $screenSmall) { 
+		@media screen and (max-width: $screenSmall) {
 			right: 42%; //trying to optically center
 			margin: auto;
-		  }
+		}
 
 		button {
 			display: flex;
@@ -215,20 +214,19 @@ button {
 			svg {
 				transform: rotate(-90deg);
 				path {
-				transition: fill 0.5s ease;
-	
-				fill: $brandPrimary;
+					transition: fill 0.5s ease;
+
+					fill: $brandPrimary;
 				}
 			}
-	
+
 			span {
-				letter-spacing: 4px;
-				text-transform: uppercase;
+				@include small-caps;
 				font-size: $fontSizeSmall;
 				@media screen and (max-width: $screenSmall) {
 					font-size: $fontSizeXSmall;
-				  }
-			  }
+				}
+			}
 
 			span:nth-of-type(1) {
 				display: inline;
@@ -236,7 +234,7 @@ button {
 			}
 
 			span:nth-of-type(2) {
-				display:none;
+				display: none;
 				transform: rotate(180deg);
 				color: $white;
 			}
@@ -264,7 +262,6 @@ button {
 .card.show-questions {
 	//Principle Card Content
 	.card-content-principle {
-
 		.shape {
 			transition-delay: 0s;
 			transform: translateX(-50%);
@@ -323,7 +320,6 @@ button {
 
 	.toggle-button {
 		transform: rotate(180deg);
-		
 
 		button {
 			display: flex;
@@ -332,22 +328,21 @@ button {
 
 			svg {
 				path {
-				fill: $white;
+					fill: $white;
 				}
 			}
-	
+
 			span {
-				letter-spacing: 4px;
-				text-transform: uppercase;
+				@include small-caps;
 				font-size: $fontSizeSmall;
-			  }
+			}
 
 			span:nth-of-type(1) {
 				display: none;
 			}
 
 			span:nth-of-type(2) {
-				display:inline;
+				display: inline;
 			}
 		}
 	}

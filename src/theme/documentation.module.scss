@@ -42,6 +42,32 @@
 			display: inherit;
 			margin-bottom: $spacingLarge;
 		}
+		table {
+			tr:nth-child(even) {
+				background: $gray-bg-l1;
+			}
+			& > tbody > tr > td,
+			& > thead > tr > th {
+				border: none;
+			}
+			thead {
+				@include small-caps;
+				background: $main-l5;
+				border-radius: $spacingXSmall 0;
+				color: $main-l3;
+			}
+			th:first-child,
+			td:first-child,
+			th:last-child,
+			td:last-child {
+				padding: $spacingSmall;
+			}
+			@media screen and (min-width: $screenLarge) {
+				width: 120%;
+				margin-left: -10%;
+			}
+			// styles
+		}
 	}
 
 	.mobileNavbar {

@@ -29,12 +29,10 @@
 	.role {
 		width: 100px;
 		h2 {
+			@include small-caps;
 			transform: translateX(-$spacingLarge) rotate(-90deg);
-			font-weight: $fontWeightHeavy;
 			font-size: $fontSizeXSmall;
-			text-transform: uppercase;
 			color: $grey;
-			letter-spacing: 0.5ch;
 			width: 35ch;
 			text-align: center;
 		}
@@ -73,9 +71,7 @@
 				width: 140%;
 			}
 			img + strong {
-				text-transform: uppercase;
-				letter-spacing: 0.5ch;
-				font-weight: $fontWeightHeavy;
+				@include small-caps;
 				color: $grey;
 				font-size: $fontSizeSmall;
 				transform: translate(80%, -$spacingXLarge) rotate(90deg);

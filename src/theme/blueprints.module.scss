@@ -9,12 +9,10 @@
 
 	//blueprints homepage
 	.vertical {
+		@include small-caps;
 		color: $neutral7;
 		font-size: $fontSizeXSmall;
-		font-weight: $fontWeightBlack;
-		letter-spacing: 2px;
 		margin-top: $spacingMedium * 4;
-		text-transform: uppercase;
 		transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
 		white-space: nowrap;
 	}

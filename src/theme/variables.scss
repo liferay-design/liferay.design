@@ -171,3 +171,11 @@ $margin-top-body: $base-size * 4;
 $weight-regular: 400;
 $weight-semibold: 600;
 $weight-bold: 700;
+
+/* ---------- Mixins ----------- */
+
+@mixin small-caps {
+	text-transform: uppercase;
+	letter-spacing: 0.25ch;
+	font-weight: $fontWeightBlack;
+}
