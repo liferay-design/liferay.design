@@ -1,5 +1,5 @@
 ---
-title: 'Global Policies'
+title: 'Work'
 description: 'Policies and best practices applicable to the whole department'
 order: 10
 publish: true
