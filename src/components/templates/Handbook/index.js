@@ -1,5 +1,5 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
-import { AuthContainer, GlobalMdx } from 'components/molecules'
+import { AuthContainer, GlobalMdx, SEO } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { graphql } from 'gatsby'
@@ -35,6 +35,12 @@ export default class Handbook extends Component {
 
 		return (
 			<div className={`${blueprints.theme} ${documentation.theme}`}>
+				<SEO 
+					description={mdx.excerpt}
+					keywords='Liferay Design Handbook, handbook, designer handbook'
+					pageTitle={mdx.frontmatter.title}
+					contentType='article'
+					/>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -145,6 +151,7 @@ export const pageQuery = graphql`
 			code {
 				body
 			}
+			excerpt
 		}
 	}
 `
