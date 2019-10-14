@@ -1,5 +1,5 @@
 import { Flex } from 'components/atoms'
-import { Author, GlobalMdx } from 'components/molecules'
+import { Author, GlobalMdx, SEO } from 'components/molecules'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
@@ -19,17 +19,31 @@ export default class Events extends Component {
 
 		return (
 			<div>
+				<SEO
+					description={post.excerpt}
+					previewImage={post.frontmatter.heroImage}
+					keywords={'event, events in ' + `${post.frontmatter.office.id}` }
+					pageTitle={`${post.frontmatter.title}` + '| Event in' + `${post.frontmatter.office.id}`}
+					contentType='event'
+				/>
 				<Navbar section="Events" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<Flex direction="column" className={styles.bannerContent}>
 						<h1>
-							<Flex justify="center" align="center" direction="column">
+							<Flex
+								justify="center"
+								align="center"
+								direction="column"
+							>
 								<span>
 									{' '}
 									{moment(post.frontmatter.date).format('MMM')}
 								</span>
-								<span> {moment(post.frontmatter.date).format('DD')}</span>
+								<span>
+									{' '}
+									{moment(post.frontmatter.date).format('DD')}
+								</span>
 							</Flex>
 							{post.frontmatter.title}{' '}
 						</h1>
@@ -40,11 +54,16 @@ export default class Events extends Component {
 							{post.frontmatter.endDateTime && (
 								<span className={styles.endTime}>
 									&nbsp; – &nbsp;
-									{moment(post.frontmatter.endDateTime).format('h:mma')}
+									{moment(post.frontmatter.endDateTime).format(
+										'h:mma',
+									)}
 								</span>
 							)}
 							<span className={styles.locationName}>
-								<a href={post.frontmatter.office.mapURL} target="_blank">
+								<a
+									href={post.frontmatter.office.mapURL}
+									target="_blank"
+								>
 									{post.frontmatter.office.id},{' '}
 									{post.frontmatter.office.region}
 								</a>
@@ -56,7 +75,9 @@ export default class Events extends Component {
 								src={post.frontmatter.heroImage}
 							/>
 						)}
-						<p className={styles.summary}>{post.frontmatter.summary}</p>
+						<p className={styles.summary}>
+							{post.frontmatter.summary}
+						</p>
 						{post.frontmatter.bodyImage && (
 							<img
 								className={styles.bodyImage}
@@ -120,6 +141,7 @@ export const pageQuery = graphql`
 			code {
 				body
 			}
+			excerpt
 		}
 	}
 `
