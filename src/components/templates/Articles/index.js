@@ -12,60 +12,36 @@ import { colors } from 'theme'
 export default class Articles extends Component {
 	render() {
 		const post = this.props.data.mdx
-		const seoDescription =
-			`${post.frontmatter.title}` +
-			' - an article by ' +
-			`${post.frontmatter.author.id}` +
-			' on Liferay.Design'
-		const seoImage = 'https://liferay.design' + post.frontmatter.featuredImage
 
 		return (
 			<div>
-				<Helmet>
-					<title>{seoDescription}</title>
-					<meta property="og:type" content="article" />
-					<meta property="og:image" content={seoImage} />
-					<meta
-						name="keyword"
-						content={
-							'Liferay, Design, Liferay Design, open source design, ' +
-							`${post.frontmatter.tags}`
-						}
-					/>
-					<meta property="og:description" content={post.excerpt} />
-					<meta name="Description" content={seoDescription} />
-					<meta
-						property="og:title"
-						content={
-							post.frontmatter.title +
-							' — an article by ' +
-							post.frontmatter.author.id +
-							' on Liferay.Design'
-						}
-					/>
-					<meta name="twitter:card" content="summary_large_image" />
-					<meta name="twitter:site" content="@liferaydesign" />
-					<meta name="twitter:title" content={post.frontmatter.title} />
-					<meta
-						name="twitter:description"
-						content={
-							'An article by ' +
-							`${post.frontmatter.author.id}` +
-							' on Liferay.Design'
-						}
-					/>
-					<meta name="twitter:image" content={seoImage} />
-					<meta
-						name="twitter:creator"
-						content={post.frontmatter.author.id}
-					/>
-					{post.frontmatter.canonicalLink ? (
-						<link
-							href={post.frontmatter.canonicalLink}
-							rel="canonical"
-						/>
-					) : null}
-				</Helmet>
+				<SEO
+					description={
+						`${post.frontmatter.title}` +
+						' - an article by ' +
+						`${post.frontmatter.author.id}` +
+						' on Liferay.Design'
+					}
+					previewImage={
+						'https://liferay.design' + post.frontmatter.featuredImage
+					}
+					keywords={post.frontmatter.tags}
+					pageTitle={post.frontmatter.title}
+					twitterHandle={
+						post.frontmatter.author.twitter
+							? post.frontmatter.author.twitter
+							: null
+					}
+					canonicalLink={
+						post.frontmatter.canonicalLink ? (
+							<link
+								href={post.frontmatter.canonicalLink}
+								rel="canonical"
+							/>
+						) : null
+					}
+					contentType="article"
+				/>
 				<Navbar section="Articles" />
 				<Container>
 					<Tags tags={post.frontmatter.tags} />
