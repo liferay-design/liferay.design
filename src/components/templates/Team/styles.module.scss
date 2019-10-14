@@ -59,14 +59,14 @@
 			font-size: $fontSizeMedium;
 			font-weight: $fontWeightRegular;
 			color: $darkGrey;
-			margin-bottom: 1rem;
+			margin-bottom: 2em;
 			-webkit-font-smoothing: antialiased !important;
 			-moz-osx-font-smoothing: grayscale !important;
 		}
 
+		h2,
 		h3 {
-			margin-top: $spacingMedium * 2;
-			// font-size: $fontSizeXLarge;
+			margin-top: $spacingMedium;
 			&:first-child {
 				margin-top: $spacingSmall;
 			}
