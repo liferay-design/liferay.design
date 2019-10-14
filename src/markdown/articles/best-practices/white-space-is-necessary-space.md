@@ -7,6 +7,7 @@ tags:
 - Visual Design
 title: White Space is Necessary Space
 featuredImage: "/images/posts/dbp/white-space-is-necessary-space.png"
+published: true
 
 ---
 ## Summary
