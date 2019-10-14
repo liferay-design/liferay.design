@@ -1,5 +1,5 @@
 import { Container, Flex } from 'components/atoms'
-import { GlobalMdx } from 'components/molecules'
+import { GlobalMdx, SEO } from 'components/molecules'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
@@ -23,6 +23,14 @@ export default class Team extends Component {
 
 		return (
 			<div>
+				<SEO
+					description={post.excerpt}
+					previewImage={withPrefix(post.frontmatter.author.avatar)}
+					keywords='designer, profile'
+					pageTitle={'Profile page for ' + `${post.frontmatter.author}` + '| Designing at Liferay since' + `${moment(post.frontmatter.author.startDate,).format('YYYY')}`}
+					twitterHandle={post.frontmatter.author.twitter}
+					contentType='profile'
+				/>
 				<Navbar section="Team" />
 				<Container banner>
 					<MediaQuery maxWidth={767}>
@@ -89,11 +97,13 @@ export const pageQuery = graphql`
 					startDate
 					title
 					avatar
+					twitter
 				}
 			}
 			code {
 				body
 			}
+			excerpt
 		}
 	}
 `
