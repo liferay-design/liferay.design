@@ -4,7 +4,7 @@
   slug: garcia-laura
   headshot: '/images/headshots/garcia-laura.jpg'
   avatar: '/images/headshots/garcia-laura-h.jpg'
-  active: false
+  active: true
   icon: fa_spa
   startDate: 2019-10-12T07:00:00Z
   office: Madrid
@@ -121,7 +121,7 @@
   slug: fernandes-vitor
   headshot: '/images/headshots/fernandes-vitor.jpg'
   avatar: '/images/headshots/fernandes-vitor-h.jpg'
-  active: true
+  active: false
   icon: fa_rocket
   startDate: 2018-03-12
   office: Diamond Bar
