@@ -110,6 +110,7 @@ export const pageQuery = graphql`
 				author {
 					id
 					slug
+					twitter
 				}
 				featuredImage
 				canonicalLink
