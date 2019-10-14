@@ -121,7 +121,7 @@
   slug: fernandes-vitor
   headshot: '/images/headshots/fernandes-vitor.jpg'
   avatar: '/images/headshots/fernandes-vitor-h.jpg'
-  active: false
+  active: true
   icon: fa_rocket
   startDate: 2018-03-12
   office: Diamond Bar

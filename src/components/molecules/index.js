@@ -19,6 +19,7 @@ import LogoutContainer from './LogoutContainer'
 import SiteCredits from './SiteCredits'
 import SocialIcons from './SocialIcons'
 import SideTab from './SideTab'
+import SEO from './SEO'
 import Tags from './Tags'
 import VideoDownload from './videoDownload'
 
@@ -44,6 +45,7 @@ export {
 	SiteCredits,
 	SocialIcons,
 	SideTab,
+	SEO,
 	Tags,
 	VideoDownload,
 }
