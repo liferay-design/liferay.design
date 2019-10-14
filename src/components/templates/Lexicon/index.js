@@ -87,7 +87,7 @@ export default class Lexicon extends Component {
 									<Flex
 										className={documentation.mobileNavbar}
 										justify="space-between"
-										padding="2rem 1.5rem"
+										padding="2rem 1rem"
 									>
 										<SiteName section="Lexicon" dark />
 										<AuthContainer />
