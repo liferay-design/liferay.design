@@ -1,0 +1,7 @@
+@import '~theme/variables';
+
+@media screen and (max-width: $screenMedium) {
+	figure {
+		max-width: 100vw;
+	}
+}

@@ -2,6 +2,7 @@ import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import {colors, fontSizes } from 'theme'
+import styles from './styles.module.scss'
 
 export const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, ...props }) => {
 
