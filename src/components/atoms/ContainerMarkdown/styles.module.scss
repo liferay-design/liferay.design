@@ -7,6 +7,10 @@
 	padding: $spacingMedium $spacingSmall $spacingMedium;
 	margin: 0 auto;
 
+	@media screen and (max-width: $screenMedium) {
+		overflow: hidden;
+	}
+
 	&.mobile {
 		padding-bottom: $spacingLarge;
 	}
