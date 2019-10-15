@@ -4,11 +4,12 @@ import styles from './styles.module.scss'
 import { Heading, Flex, NiceLink } from 'components/atoms'
 import { spacing } from 'theme'
 
-const Container = ({ banner, children, background, padding, linkDestination, linkText, heading, ...props }) => {
+const Container = ({ style, banner, children, background, padding, linkDestination, linkText, heading, ...props }) => {
 	return (
 		<div
 			className={styles.wrapper}
-			style={{ background: `${background}`, padding: `${padding}` }}
+			style={
+				{ background: `${background}`, padding: `${padding}`, ...style }}
 		>
 			<div className={styles.container}>
 				<Flex justify="space-between">
@@ -28,7 +29,9 @@ const Container = ({ banner, children, background, padding, linkDestination, lin
 				</Flex>
 				{children}
 			</div>
-			{banner ? <div style={{background:"white", padding:`${spacing.medium}`}} ></div> : null}
+			{banner ? (
+				<div style={{ background: 'white', padding: `${spacing.medium}` }} />
+			) : null}
 		</div>
 	)
 }
