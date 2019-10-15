@@ -53,7 +53,7 @@ const SEO = ({ description, previewImage, keywords, pageTitle, twitterHandle,can
 }
 
 SEO.propTypes = {
-	description: PropTypes.object,
+	description: PropTypes.string,
 	previewImage: PropTypes.string,
 	keywords: PropTypes.string,
 	pageTitle: PropTypes.string,

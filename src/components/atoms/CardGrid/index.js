@@ -30,8 +30,8 @@ CardGrid.defaultProps = {
 
 CardGrid.propTypes = {
 	children: PropTypes.node,
-	two: PropTypes.boolean,
-	three: PropTypes.boolean,
+	two: PropTypes.bool,
+	three: PropTypes.bool,
 }
 
 export default CardGrid

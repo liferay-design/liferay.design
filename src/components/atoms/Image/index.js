@@ -73,10 +73,10 @@ Image.propTypes = {
 	align: PropTypes.string,
 	alt: PropTypes.string.isRequired,
 	caption: PropTypes.object,
-	circle: PropTypes.boolean,
-	dropShadow: PropTypes.boolean,
+	circle: PropTypes.bool,
+	dropShadow: PropTypes.bool,
 	margin: PropTypes.string,
-	rounded: PropTypes.boolean,
+	rounded: PropTypes.bool,
 	size: PropTypes.string,
 	src: PropTypes.string,
 }
