@@ -1,5 +1,5 @@
-import { Container, Icon, Link, Text, Heading } from 'components/atoms'
-import { Billboard, CardLexicon, FancyFooter } from 'components/molecules'
+import { Container, Icon, Flex, Text, Heading, Link } from 'components/atoms'
+import { CardLexicon, FancyFooter } from 'components/molecules'
 import { Banner, Footer } from 'components/organisms'
 import React from 'react'
 import MediaQuery from 'react-responsive'
@@ -41,36 +41,87 @@ const Lexicon = () => (
 								gap="2rem"
 								template={gridTemplate}
 							>
-								<Grid.Item area="a" marginTop="-8rem">
+								<Grid.Item
+									area="a"
+									marginTop="-8rem"
+								>
 									<CardLexicon
 										title="Principles"
 										text="These principles guide our work, and provide standards for what good design means at Liferay."
 										to="/handbook/principles"
 									/>
 								</Grid.Item>
-								<Grid.Item area="b" marginTop="-8rem">
+								<Grid.Item
+									area="b"
+									marginTop="-8rem"
+								>
 									<CardLexicon
 										title="Work"
 										text="Policies, guidelines, and best-practices for creating value in Liferay’s Design Department."
 										to="/handbook/work/remotely"
 									/>
 								</Grid.Item>
-								<Grid.Item area="c" marginTop="-8rem">
+								<Grid.Item
+									area="c"
+									marginTop="-8rem"
+								>
 									<CardLexicon
 										title="Grow"
 										text="A core trait of a Liferay Designer is a desire for growth — see what that looks like and how we do it."
 										to="/handbook/grow/introduction"
 									/>
 								</Grid.Item>
-								<Grid.Item area="d" className={styles.bottomCards}>
+								<Grid.Item
+									area="d"
+									className={styles.bottomCards}
+								>
 									<Heading level="2">
-                                        Been here before?
-                                    </Heading>
+										Been here before?
+									</Heading>
+									<Grid>
+										<Grid.Item>
+											<Flex className={styles.flexItem}>
+                                                <Link to="#">
+                                                    <Icon width="1em" margin=".5em" fill="primary" name="fa_terminal" />
+                                                    <Text size="medium">
+                                                        Updates to
+                                                        Product Design
+                                                        Growth Plan
+												    </Text>
+                                                </Link>
+											</Flex>
+										</Grid.Item>
+										<Grid.Item>
+											<Flex className={styles.flexItem}>
+                                                <Link to="#">
+                                                    <Icon width="1em" margin=".5em" fill="primary" name="fa_pencil_alt" />
+                                                    <Text size="medium">
+                                                        New Slack
+                                                        Guidelines!
+                                                    </Text>
+                                                </Link>
+											</Flex>
+										</Grid.Item>
+										<Grid.Item>
+											<Flex className={styles.flexItem}>
+                                                <Link to="#">
+                                                    <Icon width="1em" margin=".5em" fill="primary" name="fa_check_double" />
+                                                    <Text size="medium">
+                                                        Changes to
+                                                        Design Forum
+                                                    </Text>
+                                                </Link>
+											</Flex>
+										</Grid.Item>
+									</Grid>
 								</Grid.Item>
-								<Grid.Item area="e" className={styles.bottomCards}>
+								<Grid.Item
+									area="e"
+									className={styles.bottomCards}
+								>
 									<CardLexicon
-                                        dark
-                                        wide
+										dark
+										wide
 										title="First Time?"
 										text="Start Here"
 										to="/handbook/welcome"
