@@ -11,7 +11,7 @@ import { colors } from 'theme'
 const Lexicon = () => (
 	<div className={`${blueprints.theme} ${documentation.theme}`}>
 		<Banner
-            textLeft
+			textLeft
 			headline="Welcome!"
 			subtitle="How to be a good designer and do other things good too."
 			section="Handbook"
@@ -20,7 +20,7 @@ const Lexicon = () => (
 		/>
 		<div className={documentation.background}>
 			<div className={documentation.container}>
-				<MediaQuery maxWidth={767}> 
+				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
 							? `	"tlg" auto // first is mobile
@@ -28,27 +28,19 @@ const Lexicon = () => (
 								"m" auto
 								"blc" auto
 								"brc" auto / auto-fit, minmax(200px, 1fr)`
-							: `	"tlg tlc trc rg" auto
-								"lg m m rg" auto
-								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
+                            : `	"a a . . . ." 
+                                "a a b b . ." 
+                                "a a b b c c" 
+                                ". . b b c c" 
+                                ". . . . c c" 
+                                "d d d e e e"`
 						return (
 							<Grid
 								className={documentation.teasers}
 								gap="2rem"
 								template={gridTemplate}
 							>
-								<Grid.Item area="tlg" marginTop="-8rem">
-									<Text
-										color="#c4cacb"
-										weight="700"
-										size="12px"
-										type="p"
-										className={blueprints.vertical}
-									>
-										Explore Lexicon
-									</Text>
-								</Grid.Item>
-								<Grid.Item area="tlc" marginTop="-8rem">
+								<Grid.Item area="a" marginTop="-8rem">
 									<CardLexicon
 										icon="what"
 										title="Get Started"
@@ -57,7 +49,16 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="trc" marginTop="-8rem">
+								<Grid.Item area="b" marginTop="-8rem">
+									<CardLexicon
+										icon="what"
+										title="Get Started"
+										text="An onboarding section as an introduction to the project, its objectives and proposals"
+										to="/lexicon/get-started"
+										cta="Learn More"
+									/>
+								</Grid.Item>
+								<Grid.Item area="c" marginTop="-8rem">
 									<CardLexicon
 										icon="principles"
 										title="Foundations"
@@ -66,56 +67,11 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="m">
-									<CardLexicon
-										wide
-										icon="library"
-										iconHeight="10rem"
-										iconWidth="11rem"
-										direction="horizontal"
-										title="Components"
-										text="Explores the list of components and pattern that configure the building blocks of Lexicon system"
-										to="/lexicon/core-components/alerts"
-										cta="Learn More"
-									/>
+								<Grid.Item area="d">
+									<div>new? start here</div>>
 								</Grid.Item>
-								<Grid.Item area="blc">
-									<CardLexicon
-										icon="news"
-										title="News & Updates"
-										text="Always up to date with the latest library updates and Lexicon project news"
-										to="/lexicon/news/updates"
-										cta="Learn More"
-									/>
-								</Grid.Item>
-								<Grid.Item area="brc">
-									<CardLexicon
-										icon="folder"
-										title="Resources"
-										text="A set of tools links and downloads to learn Lexicon and use it in your projects"
-										to="/lexicon/resources"
-										cta="Learn More"
-									/>
-								</Grid.Item>
-								<Grid.Item area="brg" marginTop="2rem">
-									<Link
-										className={documentation.social}
-										to="https://github.com/liferay-design"
-									>
-										<Icon fill="white" name="github" />
-									</Link>
-									<Link
-										className={documentation.social}
-										to="https://dribbble.com/liferay"
-									>
-										<Icon fill="white" name="dribbble" />
-									</Link>
-									<Link
-										className={documentation.social}
-										to="https://twitter.com/Liferay_Lexicon"
-									>
-										<Icon fill="white" name="twitter" />
-									</Link>
+								<Grid.Item area="e">
+									<div>update feed</div>
 								</Grid.Item>
 							</Grid>
 						)
