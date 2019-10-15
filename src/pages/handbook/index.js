@@ -11,6 +11,7 @@ import { colors } from 'theme'
 const Lexicon = () => (
 	<div className={`${blueprints.theme} ${documentation.theme}`}>
 		<Banner
+            textLeft
 			headline="Welcome!"
 			subtitle="How to be a good designer and do other things good too."
 			section="Handbook"
