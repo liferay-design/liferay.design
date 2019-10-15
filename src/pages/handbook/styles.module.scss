@@ -5,6 +5,9 @@
 		transform: translateY($spacingBase * -3);
 		.bottomCards {
 			margin: $spacingLarge 0;
+			.flexItem {
+				margin: 1rem auto;
+			}
 		}
 	}
 	.date {
