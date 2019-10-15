@@ -5,18 +5,19 @@ import { GoogleFont } from 'react-typography'
 import typography from 'utils/typography'
 
 export default class HTML extends React.Component {
+	onClientEntry() {
+		LogRocket.init('yhl3jg/liferaydesign')
+		console.log('hi world')
+	}
+	
 	render() {
-		exports.onClientEntry = () => {
-			console.log("We've started!")
-			LogRocket.init('yhl3jg/liferaydesign')
-		}
-
+		
 		const seoDescription = "Liferay Design | Articles, Events, and Resources for the Open Source Design Community"
 		return (
 			<html
-				lang="en"
-				prefix="og: http://ogp.me/ns#"
-				{...this.props.htmlAttributes}
+			lang="en"
+			prefix="og: http://ogp.me/ns#"
+			{...this.props.htmlAttributes}
 			>
 				<head>
 					<meta name="Description" content={seoDescription}></meta>
