@@ -8,6 +8,7 @@ const CardLexicon = ({
 	text,
 	cta,
 	to,
+	handbook,
 	icon,
 	image,
 	imageUrl,
@@ -16,6 +17,7 @@ const CardLexicon = ({
 	iconWidth,
 	iconHeight,
 	wide,
+	preTitle,
 }) => {
 	const directionMap = {
 		vertical: 'column',
@@ -33,7 +35,7 @@ const CardLexicon = ({
 	}
 
 	return (
-		<Link to={to} className={styles.link}>
+		<Link to={to} className={`${styles.link} ${handbook ? styles.handbook : null}`}>
 			<Flex
 				direction={directionMap[direction]}
 				className={`${styles.card} ${dark ? styles.dark : styles.light} ${
@@ -69,6 +71,7 @@ const CardLexicon = ({
 						alignSelf: 'center',
 					}}
 				>
+					{preTitle ? <Heading className={styles.preTitle}>{preTitle}</Heading> : null}
 					<Heading level={2} className={styles.title}>
 						{title}
 					</Heading>
