@@ -1,0 +1,21 @@
+@import 'theme/variables.scss';
+
+.handbook {
+	.teasers {
+		transform: translateY($spacingBase * -3);
+		.bottomCards {
+			margin: $spacingLarge 0;
+		}
+	}
+	.date {
+		@include small-caps;
+	}
+	.gagb {
+		margin-left: $spacingXSmall * -1.5;
+		font-size: $fontSizeDisplay * 1.5;
+		font-weight: $fontWeightBlack;
+		span {
+			color: $primary;
+		}
+	}
+}

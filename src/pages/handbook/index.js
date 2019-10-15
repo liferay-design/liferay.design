@@ -1,15 +1,16 @@
-import { Container, Icon, Link, Text } from 'components/atoms'
-import { Billboard, CardLexicon } from 'components/molecules'
+import { Container, Icon, Link, Text, Heading } from 'components/atoms'
+import { Billboard, CardLexicon, FancyFooter } from 'components/molecules'
 import { Banner, Footer } from 'components/organisms'
 import React from 'react'
 import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
+import styles from './styles.module.scss'
 import { colors } from 'theme'
 
 const Lexicon = () => (
-	<div className={`${blueprints.theme} ${documentation.theme}`}>
+	<div className={`${blueprints.theme} ${documentation.theme} ${styles.handbook}`}>
 		<Banner
 			textLeft
 			headline="Welcome!"
@@ -19,7 +20,7 @@ const Lexicon = () => (
 			underlineColor={colors.primary}
 		/>
 		<div className={documentation.background}>
-			<div className={documentation.container}>
+			<Container>
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
@@ -28,92 +29,67 @@ const Lexicon = () => (
 								"m" auto
 								"blc" auto
 								"brc" auto / auto-fit, minmax(200px, 1fr)`
-                            : `	"a a . . . ." 
+							: `	"a a . . . ." 
                                 "a a b b . ." 
                                 "a a b b c c" 
                                 ". . b b c c" 
                                 ". . . . c c" 
-                                "d d d e e e"`
+                                "d d d e e e" auto / 1fr 1fr 1fr 1fr 1fr 1fr`
 						return (
 							<Grid
-								className={documentation.teasers}
+								className={styles.teasers}
 								gap="2rem"
 								template={gridTemplate}
 							>
 								<Grid.Item area="a" marginTop="-8rem">
 									<CardLexicon
-										icon="what"
-										title="Get Started"
-										text="An onboarding section as an introduction to the project, its objectives and proposals"
-										to="/lexicon/get-started"
-										cta="Learn More"
+										title="Principles"
+										text="These principles guide our work, and provide standards for what good design means at Liferay."
+										to="/handbook/principles"
 									/>
 								</Grid.Item>
 								<Grid.Item area="b" marginTop="-8rem">
 									<CardLexicon
-										icon="what"
-										title="Get Started"
-										text="An onboarding section as an introduction to the project, its objectives and proposals"
-										to="/lexicon/get-started"
-										cta="Learn More"
+										title="Work"
+										text="Policies, guidelines, and best-practices for creating value in Liferay’s Design Department."
+										to="/handbook/work/remotely"
 									/>
 								</Grid.Item>
 								<Grid.Item area="c" marginTop="-8rem">
 									<CardLexicon
-										icon="principles"
-										title="Foundations"
-										text="The basic principles and guidelines that lay on the core of the pattern libray."
-										to="/lexicon/foundations/grid"
-										cta="Learn More"
+										title="Grow"
+										text="A core trait of a Liferay Designer is a desire for growth — see what that looks like and how we do it."
+										to="/handbook/grow/introduction"
 									/>
 								</Grid.Item>
-								<Grid.Item area="d">
-									<div>new? start here</div>>
+								<Grid.Item area="d" className={styles.bottomCards}>
+									<Heading level="2">
+                                        Been here before?
+                                    </Heading>
 								</Grid.Item>
-								<Grid.Item area="e">
-									<div>update feed</div>
+								<Grid.Item area="e" className={styles.bottomCards}>
+									<CardLexicon
+                                        dark
+                                        wide
+										title="First Time?"
+										text="Start Here"
+										to="/handbook/welcome"
+									/>
 								</Grid.Item>
 							</Grid>
 						)
 					}}
 				</MediaQuery>
-			</div>
-		</div>
-		<Billboard
-			image="participate"
-			heading="Want to contribute?"
-			Subtitle={() => (
-				<Text size="large">
-					Check out some issues in{' '}
-					<Link
-						href="https://github.com/liferay-design/liferay.design/labels/lexicon"
-						target="_blank"
-						rel="noopener"
-					>
-						GitHub
-					</Link>
-					!
-				</Text>
-			)}
-			background="url(/images/lexicon/home/patternbg-white.svg) center / 100% fixed, #f7f7f9"
-		/>
-		<section className={blueprints.claySection}>
-			<Container>
-				<Grid className={blueprints.clayCard}>
-					<Grid.Item columnStart="3" columnEnd="7">
-						<CardLexicon
-							dark
-							icon="clay"
-							title="Clay"
-							text="A web implementation of the Lexicon Design System."
-							to="https://clayui.com"
-							cta="Visit Clay"
-						/>
-					</Grid.Item>
-				</Grid>
+				<Text color="lightGrey" weight="inherit" className={styles.date}>Since 2004</Text>
+				<Heading className={styles.gagb}>
+					Growing &amp; <br />
+					Getting Better. <br />
+					<span>Together.</span>
+				</Heading>
 			</Container>
-		</section>
-		<Footer background="#30313f" />
+		</div>
+		<Footer light />
+		<FancyFooter />
 	</div>
 )
 
