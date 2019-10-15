@@ -44,7 +44,7 @@
             }
         </style>
     </defs>
-    <g transform="scale(.5) rotate(90 1440 720) translate(720, -840)" clip-path="url(#clip0)">
+    <g transform="scale(.6667) rotate(90 720 720) translate(-356, -836)" clip-path="url(#clip0)">
         <path fill="#13141F" d="M0 0h1440v720H0z"></path>
         <path fill="#13141f" d="M0 240h240v240H0zM240 480h240v240H240zM960 480h480v240H960zM480 240h720v240H480z"></path>
         <path fill="#232225" d="M0 480h240v240H0zM240 0h240v240H240zM480 480h240v240H480z"></path>
