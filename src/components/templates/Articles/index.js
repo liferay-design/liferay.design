@@ -1,12 +1,11 @@
 import { Container, Flex, Link, Image } from 'components/atoms'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import { Tags, GlobalMdx } from 'components/molecules'
+import { SEO, Tags, GlobalMdx } from 'components/molecules'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { Helmet } from 'react-helmet'
 import { colors } from 'theme'
 
 export default class Articles extends Component {
