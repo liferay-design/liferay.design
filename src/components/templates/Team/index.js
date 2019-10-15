@@ -27,7 +27,7 @@ export default class Team extends Component {
 					description={post.excerpt}
 					previewImage={withPrefix(post.frontmatter.author.avatar)}
 					keywords='designer, profile'
-					pageTitle={'Profile page for ' + `${post.frontmatter.author}` + '| Designing at Liferay since' + `${moment(post.frontmatter.author.startDate,).format('YYYY')}`}
+					pageTitle={`${post.frontmatter.author.id}` + ' | Designing at Liferay since ' + `${moment(post.frontmatter.author.startDate,).format('YYYY')}`}
 					twitterHandle={post.frontmatter.author.twitter}
 					contentType='profile'
 				/>
