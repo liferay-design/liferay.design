@@ -9,7 +9,7 @@ Historically, ‘remote work’ at Liferay has not been widely discussed or prom
 
 The ironic thing is that — if you think about it, **we’re all _already_ remote**. Designers working in Los Angeles need to collaborate remotely with engineers in Spain and Brazil. The CEO works remotely with general managers, salespeople, and others all over the world.
 
-Our goal, as a Design Department is to operationalize effective remote practices to lower costs (fewer face-to-face meetings) and higher revenue (increased productivity).
+Our goal, as a Design Department is to operationalize effective remote practices to reduce costs (fewer face-to-face meetings) and grow revenue (increased productivity).
 
 Too often, we focus on the _“remote”_ aspect, dealing with problems that have long since been solved by software and processes. In our experience, what we actually need to be focused more on is the _“work”_ aspect. If we empower our teammates to **work effectively**, _where_ they do it is not that important. By strengthening the culture for remote teammates, we can exponentially expand the talent pool _and_ provide our existing team with better opportunities to reach their full potential to serve others.
 
