@@ -6,7 +6,10 @@ import typography from 'utils/typography'
 
 export default class HTML extends React.Component {
 	render() {
-		LogRocket.init('vvepjf/liferaydesign')
+		exports.onClientEntry = () => {
+			console.log("We've started!")
+			LogRocket.init('yhl3jg/liferaydesign')
+		}
 
 		const seoDescription = "Liferay Design | Articles, Events, and Resources for the Open Source Design Community"
 		return (
