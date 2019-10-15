@@ -46,6 +46,8 @@ const Lexicon = () => (
 									marginTop="-8rem"
 								>
 									<CardLexicon
+                                        handbook
+                                        preTitle="First Things First"
 										title="Principles"
 										text="These principles guide our work, and provide standards for what good design means at Liferay."
 										to="/handbook/principles"
@@ -56,6 +58,8 @@ const Lexicon = () => (
 									marginTop="-8rem"
 								>
 									<CardLexicon
+                                        handbook
+                                        preTitle="Get Things Done"
 										title="Work"
 										text="Policies, guidelines, and best-practices for creating value in Liferay’s Design Department."
 										to="/handbook/work/remotely"
@@ -66,6 +70,8 @@ const Lexicon = () => (
 									marginTop="-8rem"
 								>
 									<CardLexicon
+                                        handbook
+                                        preTitle="Better Every Day"
 										title="Grow"
 										text="A core trait of a Liferay Designer is a desire for growth — see what that looks like and how we do it."
 										to="/handbook/grow/introduction"

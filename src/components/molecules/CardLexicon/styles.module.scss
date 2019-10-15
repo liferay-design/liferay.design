@@ -5,6 +5,21 @@
 	text-decoration: none !important;
 }
 
+.handbook {
+	.card {
+		border-radius: 0;
+		padding: $spacingLarge $spacingSmall $spacingSmall;
+		h2.title {
+			font-size: $fontSizeDisplay * 0.8;
+		}
+	}
+}
+
+.preTitle {
+	@include small-caps;
+	font-size: $fontSizeSmall;
+}
+
 .card.dark {
 	color: $white !important;
 	background-color: $darkGrey;
