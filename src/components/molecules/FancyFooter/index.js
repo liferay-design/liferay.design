@@ -53,7 +53,7 @@ export default class FancyFooter extends Component {
 							<circle fill="#0058ff" cx="20" cy="20" r="4" />
 						</pattern>
 					</defs>
-					<g clip-path="url(#clip0)">
+					<g clipPath="url(#clip0)">
 						<path fill="#13141F" d="M0 0h1440v720H0z" />
 						<path
 							fill="#fff"
@@ -157,7 +157,7 @@ export default class FancyFooter extends Component {
 								r="9"
 								className={styles.primaryStroke}
 							/>
-							<g clip-path="url(#clip1)">
+							<g clipPath="url(#clip1)">
 								<circle
 									cx="240"
 									cy="240"
@@ -166,7 +166,7 @@ export default class FancyFooter extends Component {
 									stroke="#fff"
 								/>
 							</g>
-							<g clip-path="url(#clip2)">
+							<g clipPath="url(#clip2)">
 								<circle
 									cx="1200"
 									cy="480"
@@ -175,7 +175,7 @@ export default class FancyFooter extends Component {
 									stroke="#fff"
 								/>
 							</g>
-							<g clip-path="url(#clip3)">
+							<g clipPath="url(#clip3)">
 								<circle
 									cx="1200"
 									cy="480"
@@ -184,7 +184,7 @@ export default class FancyFooter extends Component {
 									stroke="#fff"
 								/>
 							</g>
-							<g clip-path="url(#clip4)">
+							<g clipPath="url(#clip4)">
 								<circle
 									cx="1200"
 									cy="480"
@@ -197,7 +197,7 @@ export default class FancyFooter extends Component {
 							fill="#0058FF"
 							d="M248 128h-16v-16h16zM368 248h-16v-16h16zM1208 368h-16v-16h16zM1328 488h-16v-16h16zM1192 592h16v16h-16zM1072 472h16v16h-16z"
 						/>
-						<g fill="#0058ff" class="dot-circle">
+						<g fill="#0058ff" className={styles.dotCircle}>
 							<rect
 								x="40"
 								y="520"
@@ -221,8 +221,8 @@ export default class FancyFooter extends Component {
 						<path
 							d="M736 360L 1056 360"
 							stroke="#13141F"
-							stroke-width="6"
-							stroke-dasharray="3 12"
+							strokeWidth="6"
+							strokeDasharray="3 12"
 						/>
 						<rect
 							x="1204"
