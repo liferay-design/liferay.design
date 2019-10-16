@@ -64,7 +64,7 @@ const Blueprints = () => (
 								</Grid.Item>
 								<Grid.Item area="trc" marginTop="-8rem">
 									<CardLexicon
-									delay='0.4s'
+									delay='0.1s'
 										icon="logos"
 										title="Just the Logos, Please"
 										text="We know what you’re looking for, and we respect that.
@@ -75,7 +75,7 @@ const Blueprints = () => (
 								</Grid.Item>
 								<Grid.Item area="m">
 									<CardLexicon
-									delay='0.8s'
+									delay='0.2s'
 										wide
 										icon="resources"
 										iconHeight="10rem"
@@ -90,7 +90,7 @@ const Blueprints = () => (
 								</Grid.Item>
 								<Grid.Item area="blc">
 									<CardLexicon
-									delay='1.2s'
+									delay='.4s'
 										icon="faqs"
 										title="FAQ"
 										text="Have a question? We have frequently given answers."

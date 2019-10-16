@@ -60,7 +60,7 @@ const Handbook = () => {
 									</Grid.Item>
 									<Grid.Item area="b" marginTop="-8rem">
 										<CardLexicon
-											delay="0.4s"
+											delay="0.1s"
 											handbook
 											preTitle="Get Things Done"
 											title="Work"
@@ -70,7 +70,7 @@ const Handbook = () => {
 									</Grid.Item>
 									<Grid.Item area="c" marginTop="-8rem">
 										<CardLexicon
-											delay="0.8s"
+											delay="0.2s"
 											handbook
 											preTitle="Better Every Day"
 											title="Grow"
