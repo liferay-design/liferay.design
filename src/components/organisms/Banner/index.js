@@ -13,7 +13,7 @@ const Banner = ({
 	ctaLink,
 	section,
 	background,
-	textLeft
+	textAlign
 }) => (
 	<Grid
 		templateRows="8rem 1fr"
@@ -24,8 +24,7 @@ const Banner = ({
 		<Container style={{alignSelf:'center'}}>
 			<Flex
 				direction="column"
-				align="center"
-				style={textLeft ? {textAlign:'left'} : {textAlign:'center'}}
+				align={textAlign}
 				className={styles.content}
 			>
 				<Heading color="white" level={1}>
@@ -53,6 +52,11 @@ Banner.propTypes = {
 	cta: PropTypes.string,
 	ctaLink: PropTypes.string,
 	background: PropTypes.string,
+	textAlign: PropTypes.string,
+}
+
+Banner.defaultProps = {
+	textAlign: 'center',
 }
 
 export default Banner
