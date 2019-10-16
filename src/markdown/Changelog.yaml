@@ -41,7 +41,7 @@
   title: Design Principles
   titleUrl: '/principles'
   longSummary: Our Principles page — now live at liferay.design/principles.
-  contributors: ['Ryan Connolly', 'James Lyons', 'Paul Hanaoka']
+  contributors: ['Ryan Connolly', 'Victor Valle', 'Juan Hidalgo', 'Paul Hanaoka']
 - id: '2018-11-27'
   gitUrl: '/pull/170'
   author: Abel Hancock
