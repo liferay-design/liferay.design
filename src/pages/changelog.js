@@ -13,7 +13,7 @@ const Changelog = () =>
 					</Heading>
 				</Flex>
 				<Flex direction="column">
-					<ChangelogFeed items="4"/>
+					<ChangelogFeed items="50" />
 				</Flex>
 			</Container>
 		</MainLayout>

@@ -96,17 +96,15 @@ const Handbook = () => {
 										<Heading level="2">
 											Been here before?
 										</Heading>
-										<Grid>
-											<Grid.Item>
-												<Flex
-													className={
-														styles.flexItem
-													}
-												>
-													<ChangelogFeed items="3" />
-												</Flex>
-											</Grid.Item>
-										</Grid>
+											<Flex
+											direction="column"
+												className={
+													styles.flexItem
+												}
+											>
+												<ChangelogFeed items="3" />
+												<Link to="/changelog">See full changelog</Link>
+											</Flex>
 									</Grid.Item>
 									<Grid.Item
 										area="e"
