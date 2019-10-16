@@ -320,3 +320,9 @@
   icon: fa_chess_queen
   startDate: 2013-10-07
   office: Diamond Bar
+- id: Angelo Youn
+  headshot: '/images/headshots/youn-angelo.jpg'
+  active: false
+- id: Ryan Garant
+  headshot: '/images/headshots/youn-angelo.jpg'
+  active: false
