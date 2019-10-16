@@ -1,65 +1,77 @@
 ---
 # - id: date in 'yyyy-mm-dd' format
-#   url: link to Github Tag, PR, or commit (don't include https://github.com/liferay-design/liferay.design)
 #   author: who is posting this update
 #   title: Summary of changes (140 char or less)
+#   gitUrl: link to Github Tag, PR, or commit (don't include https://github.com/liferay-design/liferay.design)title  gitUrl: link to Github Tag, PR, or commit (don't include https://github.com/liferay-design/liferay.design)
 #   icon: Optional icon to represent something
 #   longSummary: Optional longer description of the updates (500 char or less)
 #   contributors: Other people who helped
 #   buildPreview: link to Netlify preview
 - id: '2019-08-02'
-  url: '/pull/494'
+  gitUrl: '/pull/494'
   author: Paul Hanaoka
   title: Launch Design Best Practices
+  titleUrl: '/tags/best-practices'
   longSummary: Migrate best-practice content from our intranet to our public-facing site!
   buildPreview: 'https://5d452465d0218c000898d624--happy-jackson-1b6bb8.netlify.com'
   icon: desicon
+  contributors: ['Ryan Connolly', 'Abel Hancock', 'Naoki Hisamoto']
 - id: '2019-07-23'
-  url: '/pull/484'
+  gitUrl: '/pull/484'
   author: Paul Hanaoka
   title: CMS for Liferay.Design
   longSummary: Set up Forestry.io as a CMS for the site.
+  contributors: ['Jon Wood', 'Naoki Hisamoto']
 - id: '2019-04-17'
-  url: '/pull/296'
+  gitUrl: '/pull/296'
   author: Victor Valle
   title: Liferay.Design/Lexicon
+  titleUrl: '/lexicon'
   longSummary: Migrate lexicondesign.io from Electric.js (:drake_no:) to Liferay.Design (:drake_yes:)!
+  contributors: ['David Aragonés', 'Duuriimaa Bargaid', 'Paul Hanaoka']
 - id: '2019-04-09'
-  url: '/pull/281'
+  gitUrl: '/pull/281'
   author: Paul Hanaoka
   title: Netliferay.Design
+  titleUrl: '/articles/2019/netlify-vs-zeit-vs-github-pages/'
   longSummary: Migrate our site to Netlify!
 - id: '2019-02-07'
-  url: '/pull/236'
+  gitUrl: '/pull/236'
   author: James Lyons
   title: Design Principles
+  titleUrl: '/principles'
   longSummary: Our Principles page — now live at liferay.design/principles.
+  contributors: ['Ryan Connolly', 'James Lyons', 'Paul Hanaoka']
 - id: '2018-11-27'
-  url: '/pull/170'
+  gitUrl: '/pull/170'
   author: Abel Hancock
   title: 2018 Annual Report
+  titleUrl: '/2018'
   longSummary: Our first Annual Report — now live at liferay.design/2018.
-  contributors: ['James Lyons', 'Paul Hanaoka']
+  contributors: ['Ryan Connolly', 'James Lyons', 'Paul Hanaoka']
 - id: '2018-10-05'
-  url: '/pull/107'
+  gitUrl: '/pull/107'
   author: Paul Hanaoka
   title: The Great Gatsby
   longSummary: The second version of the Design Site is now live! Using Gatsby is amazing.
+  contributors: ['Ryan Garant']
 - id: '2018-04-24'
-  url: '/pull/45'
+  gitUrl: '/pull/45'
   author: Paul Hanaoka
   title: Blog Alpha
   longSummary: The first version of the Design Site is now live! Homepage with links to our blog posts on Medium.
+  contributors: ['Ryan Garant']
 - id: '2018-01-03'
-  url: '/pull/13'
+  gitUrl: '/pull/13'
   author: Ryan Garant
   title: Design Week Launch
   longSummary: Our microsite for Design Week 2018 is live! Agenda and other content for Liferay's designers
+  contributors: ['Paul Hanaoka']
 - id: '2017-12-27'
-  url: '/commit/bed7aeb13715b61700305c96bdf19006ad31b92b'
+  gitUrl: '/commit/bed7aeb13715b61700305c96bdf19006ad31b92b'
   author: Ryan Garant
   title: Atomic Design Setup
 - id: '2017-12-19'
-  url: '/commit/bed7aeb13715b61700305c96bdf19006ad31b92b'
+  gitUrl: '/commit/bed7aeb13715b61700305c96bdf19006ad31b92b'
   author: Angelo Youn
   title: Hello World

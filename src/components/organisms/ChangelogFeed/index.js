@@ -1,7 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Heading, Text, Flex, Link, Icon } from 'components/atoms'
-import Changelog from 'pages/changelog'
 import PropTypes from 'prop-types'
 import {Avatar} from 'react-md'
 
@@ -13,7 +12,8 @@ export default function ChangelogFeed ({ items, ...props }) {
 				edges {
 					node {
 						id
-						url
+						gitUrl
+						titleUrl
 						author {
 							id
 							headshot
@@ -32,36 +32,53 @@ export default function ChangelogFeed ({ items, ...props }) {
 		}
 	`)
 
-	const Feed = data.allChangelogYaml.edges
-		.slice(0, `${items}`)
-		.map(({ node }) => (
-			<Flex margin="4rem 0" direction="column" key={node.id}>
-				{node.icon ? <Icon name={node.icon} /> : ''}
-				<Link to={node.url}>
-					<Heading level="2">
-						{node.title}
-						<Icon name="externalLink" width=".6em" margin="0 0 0 .5em" />
-					</Heading>
-				</Link>
-				{node.longSummary ? <Text>{node.longSummary}</Text> : ''}
-				<Text>{node.id}</Text>
-				<Text>{node.url}</Text>
-				Updated by: <Text>{node.author.id}</Text>
-				<Avatar src={node.author.headshot} />
+	const Feed = data.allChangelogYaml.edges.slice(0, `${items}`).map(({ node }) => (
+		<Flex margin="4rem 0" direction="column" key={node.id}>
+			{node.icon ? <Icon name={node.icon} /> : ''}
+			<Link to={node.titleUrl}>
+				<Heading level="2">
+					{node.title}{' '}
+					{node.titleUrl ? (
+						<Icon name="externalLink" width=".6em" />
+					) : null}
+				</Heading>{' '}
+			</Link>
+			{node.longSummary ? <Text>{node.longSummary}</Text> : ''}
+			<Text>{node.id}</Text>
+			<Link
+				to={
+					'https://github.com/liferay-design/liferay.design' +
+					`${node.gitUrl}`
+				}
+			>
+				<Icon name="github" width="1em" margin="0 0 0 .5em" />
+				<Text>See full details on Github.</Text>
+			</Link>
+			<Text>Author: {node.author.id}</Text>
+			<Flex>
+				<Avatar
+					src={node.author.headshot}
+					title={node.author.id}
+					alt={`${node.author.id}` + '‘s headshot'}
+				/>
 				{node.contributors ? (
-					<Text>
-						With contributions from:{' '}
+					<>
 						{node.contributors.map(i => (
 							<div>
-								<Avatar title={i.id} src={i.headshot} alt={i.id} />
+								<Avatar
+									title={i.id}
+									src={i.headshot}
+									alt={`${i.id}` + '‘s headshot'}
+								/>
 							</div>
 						))}
-					</Text>
+					</>
 				) : (
 					''
 				)}
 			</Flex>
-		))
+		</Flex>
+	))
 
 	return <div>{Feed}</div>
 }
