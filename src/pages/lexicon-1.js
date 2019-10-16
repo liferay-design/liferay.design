@@ -37,18 +37,26 @@ const Lexicon = () => (
 								gap="2rem"
 								template={gridTemplate}
 							>
-								<Grid.Item area="tlg" marginTop="-8rem">
+								<Grid.Item
+									area="tlg"
+									marginTop="-8rem"
+								>
 									<Text
 										color="#c4cacb"
 										weight="600"
 										size="12px"
 										type="p"
-										className={lexicon.vertical}
+										className={
+											lexicon.vertical
+										}
 									>
 										Explore Lexicon
 									</Text>
 								</Grid.Item>
-								<Grid.Item area="tlc" marginTop="-8rem">
+								<Grid.Item
+									area="tlc"
+									marginTop="-8rem"
+								>
 									<CardLexicon
 										icon="whatBlack"
 										title="Get Started"
@@ -57,8 +65,12 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="trc" marginTop="-8rem">
+								<Grid.Item
+									area="trc"
+									marginTop="-8rem"
+								>
 									<CardLexicon
+										delay="0.4s"
 										icon="principlesBlack"
 										title="Patterns"
 										text="The basic principles and guidelines that lay on the core of the pattern libray."
@@ -66,24 +78,42 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="brg" marginTop="2rem">
+								<Grid.Item
+									area="brg"
+									marginTop="2rem"
+								>
 									<Link
-										className={documentation.social}
+										className={
+											documentation.social
+										}
 										to="https://github.com/liferay-design"
 									>
-										<Icon fill="white" name="github" />
+										<Icon
+											fill="white"
+											name="github"
+										/>
 									</Link>
 									<Link
-										className={documentation.social}
+										className={
+											documentation.social
+										}
 										to="https://dribbble.com/liferay"
 									>
-										<Icon fill="white" name="dribbble" />
+										<Icon
+											fill="white"
+											name="dribbble"
+										/>
 									</Link>
 									<Link
-										className={documentation.social}
+										className={
+											documentation.social
+										}
 										to="https://twitter.com/Liferay_Lexicon"
 									>
-										<Icon fill="white" name="twitter" />
+										<Icon
+											fill="white"
+											name="twitter"
+										/>
 									</Link>
 								</Grid.Item>
 							</Grid>

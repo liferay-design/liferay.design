@@ -70,6 +70,7 @@ const Lexicon = () => (
 									marginTop="-8rem"
 								>
 									<CardLexicon
+										delay='0.4s'
 										icon="principles"
 										title="Foundations"
 										text="The basic principles and guidelines that lay on the core of the pattern libray."
@@ -79,6 +80,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="m">
 									<CardLexicon
+										delay='0.8s'
 										wide
 										icon="library"
 										iconHeight="10rem"
