@@ -109,5 +109,6 @@ module.exports = {
 		'AuthorsYaml.office': `OfficesYaml.id`,
 		'MarkdownRemark.frontmatter.office': `OfficesYaml`,
 		'Mdx.frontmatter.office': `OfficesYaml`,
+		'ChangelogYaml.author': `AuthorsYaml.id`,
 	},
 }
