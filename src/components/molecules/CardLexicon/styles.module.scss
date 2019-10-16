@@ -8,7 +8,7 @@
 .handbook {
 	.card {
 		border-radius: 0;
-		padding: $spacingLarge $spacingSmall $spacingSmall;
+		padding: 0;
 		h2.title {
 			font-size: $fontSizeDisplay * 0.8;
 		}
@@ -63,6 +63,9 @@
 	min-height: 100%;
 	transition: all 0.4s;
 	overflow: hidden;
+	animation: animateIn 0.8s cubic-bezier(0.4, -0.2, 0.2, 1.8) forwards;
+	opacity: 0;
+	transform: translateY(5rem);
 	&:hover {
 		background-color: $lightestBlue;
 		box-shadow: $elevation2;
@@ -104,5 +107,16 @@
 @media screen and (max-width: $screenMedium) {
 	.card {
 		padding: 0;
+	}
+}
+
+@keyframes animateIn {
+	0% {
+		transform: translateY(5rem);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
 	}
 }

@@ -18,6 +18,7 @@ const CardLexicon = ({
 	iconHeight,
 	wide,
 	preTitle,
+	delay,
 }) => {
 	const directionMap = {
 		vertical: 'column',
@@ -42,6 +43,7 @@ const CardLexicon = ({
 					wide ? styles.wide : 'null'
 				} `}
 				padding="0"
+				style={ delay ? {animationDelay:`${delay}`} : null}
 			>
 				{image ? (
 					<Flex className={styles.image} align={wide ? "stretch" : "center"} justify="center">
@@ -98,6 +100,8 @@ CardLexicon.propTypes = {
 	text: PropTypes.string,
 	title: PropTypes.string,
 	to: PropTypes.string,
+	delay: PropTypes.string,
+	handbook: PropTypes.bool,
 }
 
 CardLexicon.defaultProps = {

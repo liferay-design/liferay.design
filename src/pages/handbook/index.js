@@ -58,6 +58,7 @@ const Lexicon = () => (
 									marginTop="-8rem"
 								>
 									<CardLexicon
+										delay='0.4s'
                                         handbook
                                         preTitle="Get Things Done"
 										title="Work"
@@ -70,6 +71,7 @@ const Lexicon = () => (
 									marginTop="-8rem"
 								>
 									<CardLexicon
+										delay='0.8s'
                                         handbook
                                         preTitle="Better Every Day"
 										title="Grow"
