@@ -33,8 +33,7 @@ export default function ChangelogFeed ({ items, ...props }) {
 	`)
 
 	const Feed = data.allChangelogYaml.edges
-		// .filter(edges => edges.node.frontmatter.author.slug === teammate && edges.node.id !== currentPost)
-		.slice(0, `${items}` )
+		.slice(0, `${items}`)
 		.map(({ node }) => (
 			<Flex margin="4rem 0" direction="column" key={node.id}>
 				{node.icon ? <Icon name={node.icon} /> : ''}
@@ -65,10 +64,6 @@ export default function ChangelogFeed ({ items, ...props }) {
 		))
 
 	return <div>{Feed}</div>
-}
-
-Changelog.defaultProps = {
-	items: 'Infinity',
 }
 
 ChangelogFeed.propTypes = {
