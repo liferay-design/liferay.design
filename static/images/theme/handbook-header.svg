@@ -20,45 +20,54 @@
             <circle fill="#353747" cx="8.3" cy="8.3" r="2"></circle>
         </pattern>
         <pattern id="blueDots" x="0" y="0" width=".2" height=".2">
-            <circle fill="#0058ff" cx="20" cy="20" r="4"></circle>
+            <circle fill="var(--primary)" cx="20" cy="20" r="4"></circle>
         </pattern>
         <style>
+            svg {
+                --primary: #0b5fff;
+                --main: #272833;
+                --white: #fff;
+                --black: #13141f;
+                --main-l5: #cdced9;
+                --secondary: #95bdff;
+            }
             .stroke {
                 stroke-width: 6;
             }
             .primaryStroke {
-                stroke: #0b5fff;
+                stroke: var(--primary);
             }
             .whiteStroke {
-                stroke: white;
+                stroke: var(--white);
             }
             .darkStroke {
-                stroke: #13141f;
+                stroke: var(--black);
             }
             defs {
                 clipPath {
                     path {
-                        fill: white;
+                        fill: var(--white);
                     }
                 }
             }
         </style>
     </defs>
-    <g transform="scale(.6667) rotate(90 720 720) translate(-356, -836)" clip-path="url(#clip0)">
-        <path fill="#13141F" d="M0 0h1440v720H0z"></path>
-        <path fill="#13141f" d="M0 240h240v240H0zM240 480h240v240H240zM960 480h480v240H960zM480 240h720v240H480z"></path>
-        <path fill="#232225" d="M0 480h240v240H0zM240 0h240v240H240zM480 480h240v240H480z"></path>
-        <path fill="#0058FF" d="M720 480h240v240H720zM960 0h240v240H960z"></path>
-        <path d="M480 480v240H240c0-132.548 107.452-240 240-240z" fill="#EEE"></path>
-        <path d="M960 480h240v240c-132.55 0-240-107.452-240-240z" fill="#C4C4C4"></path>
-        <rect x="720" y="240" width="480" height="240" fill="white" />
-        <path d="M1440 240h-240v480c132.55 0 240-107.452 240-240V240zM720 480c-132.548 0-240-107.452-240-240S587.452 0 720 0s240 107.452 240 240H720v240z" fill="#232225"></path>
-        <path d="M240 480H0V240c132.548 0 240 107.452 240 240z" fill="#0058FF"></path>
-        <circle cx="120" cy="120" r="60" fill="#232225"></circle>
-        <circle cx="840" cy="600" r="48" fill="#232225"></circle>
-        <path d="M600 240c0-66.274 53.726-120 120-120v240c-66.274 0-120-53.726-120-120z" fill="#0058FF"></path>
-        <path d="M840 240H720V120c66.274 0 120 53.726 120 120z" fill="#0084FF"></path>
-        <path d="M80 480H0v-80c44.183 0 80 35.817 80 80z" fill="#232225"></path>
+    <!-- <g transform="scale(.6667) rotate(90 720 720) translate(-356, -836)" clip-path="url(#clip0)"> -->
+    <g clip-path="url(#clip0)">
+        <path fill="var(--black)" d="M0 0h1440v720H0z"></path>
+        <path fill="var(--black)" d="M0 240h240v240H0zM240 480h240v240H240zM960 480h480v240H960zM480 240h720v240H480z"></path>
+        <path fill="var(--main)" d="M0 480h240v240H0zM240 0h240v240H240zM480 480h240v240H480z"></path>
+        <path fill="var(--primary)" d="M720 480h240v240H720zM960 0h240v240H960z"></path>
+        <path d="M480 480v240H240c0-132.548 107.452-240 240-240z" fill="var(--primary)"></path>
+        <path d="M960 480h240v240c-132.55 0-240-107.452-240-240z" fill="var(--main-l5)"></path>
+        <rect x="720" y="240" width="480" height="240" fill="var(--white)" />
+        <path d="M1440 240h-240v480c132.55 0 240-107.452 240-240V240zM720 480c-132.548 0-240-107.452-240-240S587.452 0 720 0s240 107.452 240 240H720v240z" fill="var(--main)"></path>
+        <path d="M240 480H0V240c132.548 0 240 107.452 240 240z" fill="var(--primary)"></path>
+        <circle cx="120" cy="120" r="60" fill="var(--main)"></circle>
+        <circle cx="840" cy="600" r="48" fill="var(--main)"></circle>
+        <path d="M600 240c0-66.274 53.726-120 120-120v240c-66.274 0-120-53.726-120-120z" fill="var(--primary)"></path>
+        <path d="M840 240H720V120c66.274 0 120 53.726 120 120z" fill="var(--secondary)"></path>
+        <path d="M80 480H0v-80c44.183 0 80 35.817 80 80z" fill="var(--main)"></path>
         <g class="stroke">
             <path class="primaryStroke" d="M130 120h110"></path>
             <path class="whiteStroke" d="M1310 360h-110M350 120H240M1310 600h-110"></path>
@@ -72,20 +81,20 @@
             <circle cx="1320" cy="600" r="9" class="primaryStroke"></circle>
             <circle cx="1080" cy="600" r="9" class="primaryStroke"></circle>
             <g clip-path="url(#clip1)">
-                <circle cx="240" cy="240" r="120" transform="rotate(-180 240 240)" stroke="#fff"></circle>
+                <circle cx="240" cy="240" r="120" transform="rotate(-180 240 240)" stroke="var(--white)"></circle>
             </g>
             <g clip-path="url(#clip2)">
-                <circle cx="1200" cy="480" r="120" transform="rotate(-180 1200 480)" stroke="#fff"></circle>
+                <circle cx="1200" cy="480" r="120" transform="rotate(-180 1200 480)" stroke="var(--white)"></circle>
             </g>
             <g clip-path="url(#clip3)">
-                <circle cx="1200" cy="480" r="120" transform="rotate(-90 1200 480)" stroke="#fff"></circle>
+                <circle cx="1200" cy="480" r="120" transform="rotate(-90 1200 480)" stroke="var(--white)"></circle>
             </g>
             <g clip-path="url(#clip4)">
-                <circle cx="1200" cy="480" r="120" stroke="#232225"></circle>
+                <circle cx="1200" cy="480" r="120" stroke="var(--main)"></circle>
             </g>
         </g>
-        <path fill="#0058FF" d="M248 128h-16v-16h16zM368 248h-16v-16h16zM1208 368h-16v-16h16zM1328 488h-16v-16h16zM1192 592h16v16h-16zM1072 472h16v16h-16z"></path>
-        <g fill="#0058ff">
+        <path fill="var(--primary)" d="M248 128h-16v-16h16zM368 248h-16v-16h16zM1208 368h-16v-16h16zM1328 488h-16v-16h16zM1192 592h16v16h-16zM1072 472h16v16h-16z"></path>
+        <g fill="var(--primary)">
             <rect x="40" y="520" width="150" height="150" fill="url(#blueDots)"></rect>
             <circle cx="120" cy="510" r="4"></circle>
             <circle cx="150" cy="510" r="4"></circle>
@@ -100,7 +109,7 @@
             <circle cx="150" cy="690" r="4"></circle>
             <circle cx="90" cy="690" r="4"></circle>
         </g>
-        <path d="M736 360L 1056 360" stroke="#13141F" stroke-width="6" stroke-dasharray="3 12"></path>
+        <path d="M736 360L 1056 360" stroke="var(--black)" stroke-width="6" stroke-dasharray="3 12"></path>
         <rect x="1204" y="36" fill="url(#dots)" width="240" height="200"></rect>
     </g>
 </svg>
