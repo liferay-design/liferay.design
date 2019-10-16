@@ -1,6 +1,6 @@
 import { Container, Icon, Flex, Text, Heading, Link } from 'components/atoms'
 import { CardLexicon, FancyFooter } from 'components/molecules'
-import { Banner, Footer } from 'components/organisms'
+import { Banner, Footer, ChangelogFeed } from 'components/organisms'
 import React from 'react'
 import MediaQuery, {useMediaQuery} from 'react-responsive'
 import { Grid } from 'reakit'
@@ -49,7 +49,10 @@ const Handbook = () => {
 									gap="2rem"
 									template={gridTemplate}
 								>
-									<Grid.Item area="a" marginTop="-8rem">
+									<Grid.Item
+										area="a"
+										marginTop="-8rem"
+									>
 										<CardLexicon
 											handbook
 											preTitle="First Things First"
@@ -58,7 +61,10 @@ const Handbook = () => {
 											to="/handbook/principles"
 										/>
 									</Grid.Item>
-									<Grid.Item area="b" marginTop="-8rem">
+									<Grid.Item
+										area="b"
+										marginTop="-8rem"
+									>
 										<CardLexicon
 											delay="0.1s"
 											handbook
@@ -68,7 +74,10 @@ const Handbook = () => {
 											to="/handbook/work/remotely"
 										/>
 									</Grid.Item>
-									<Grid.Item area="c" marginTop="-8rem">
+									<Grid.Item
+										area="c"
+										marginTop="-8rem"
+									>
 										<CardLexicon
 											delay="0.2s"
 											handbook
@@ -80,61 +89,30 @@ const Handbook = () => {
 									</Grid.Item>
 									<Grid.Item
 										area="d"
-										className={styles.bottomCards}
+										className={
+											styles.bottomCards
+										}
 									>
-										<Heading level="2">Been here before?</Heading>
+										<Heading level="2">
+											Been here before?
+										</Heading>
 										<Grid>
 											<Grid.Item>
-												<Flex className={styles.flexItem}>
-													<Link to="#">
-														<Icon
-															width="1em"
-															margin=".5em"
-															fill="primary"
-															name="fa_terminal"
-														/>
-														<Text size="medium">
-															Updates to Product Design
-															Growth Plan
-														</Text>
-													</Link>
-												</Flex>
-											</Grid.Item>
-											<Grid.Item>
-												<Flex className={styles.flexItem}>
-													<Link to="#">
-														<Icon
-															width="1em"
-															margin=".5em"
-															fill="primary"
-															name="fa_pencil_alt"
-														/>
-														<Text size="medium">
-															New Slack Guidelines!
-														</Text>
-													</Link>
-												</Flex>
-											</Grid.Item>
-											<Grid.Item>
-												<Flex className={styles.flexItem}>
-													<Link to="#">
-														<Icon
-															width="1em"
-															margin=".5em"
-															fill="primary"
-															name="fa_check_double"
-														/>
-														<Text size="medium">
-															Changes to Design Forum
-														</Text>
-													</Link>
+												<Flex
+													className={
+														styles.flexItem
+													}
+												>
+													<ChangelogFeed items="3" />
 												</Flex>
 											</Grid.Item>
 										</Grid>
 									</Grid.Item>
 									<Grid.Item
 										area="e"
-										className={styles.bottomCards}
+										className={
+											styles.bottomCards
+										}
 									>
 										<CardLexicon
 											dark
