@@ -35,8 +35,10 @@ export default ({ data }) => {
 							<Avatar src={node.author.headshot} />
 							{node.contributors ? (
 								<Text>
-									With contributions from: {node.contributors.map(({i}) => (
-										<Text>{i.contributors}</Text>
+									With contributions from: {node.contributors.map((i) => (
+										<div>
+											<Avatar title={i.id} src={i.headshot} alt={i.id} />
+										</div>
 									))}
 								</Text>
 							) : (
@@ -65,7 +67,10 @@ export const query = graphql`
 							title
 							icon
 							longSummary
-							contributors
+							contributors {
+								id
+								headshot
+							}
 							buildPreview
 						}
 					}
