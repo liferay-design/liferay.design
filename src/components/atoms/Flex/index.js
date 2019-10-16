@@ -17,9 +17,11 @@ const Flexbox = ({
 	padding,
 	position,
 	width,
+	style,
 	...props
 }) => {
 	const styles = {
+		...style,
 		alignItems: align,
 		background: background,
 		boxSizing: 'border-box',
@@ -68,8 +70,8 @@ Flexbox.propTypes = {
 	margin: PropTypes.string,
 	name: PropTypes.string,
 	padding: PropTypes.string,
-	padding: PropTypes.string,
 	position: PropTypes.string,
+	style: PropTypes.object,
 	width: PropTypes.string,
 }
 

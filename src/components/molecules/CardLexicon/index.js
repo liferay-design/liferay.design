@@ -4,21 +4,21 @@ import React from 'react'
 import styles from './styles.module.scss'
 
 const CardLexicon = ({
-	title,
-	text,
 	cta,
-	to,
+	dark,
+	delay,
+	direction,
 	handbook,
 	icon,
+	iconHeight,
+	iconWidth,
 	image,
 	imageUrl,
-	dark,
-	direction,
-	iconWidth,
-	iconHeight,
-	wide,
 	preTitle,
-	delay,
+	text,
+	title,
+	to,
+	wide,
 }) => {
 	const directionMap = {
 		vertical: 'column',
@@ -43,7 +43,7 @@ const CardLexicon = ({
 					wide ? styles.wide : 'null'
 				} `}
 				padding="0"
-				style={ delay ? {animationDelay:`${delay}`} : null}
+				style={ delay ? {animationDelay:`${delay}`} : null }
 			>
 				{image ? (
 					<Flex className={styles.image} align={wide ? "stretch" : "center"} justify="center">
