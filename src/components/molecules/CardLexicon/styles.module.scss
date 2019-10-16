@@ -63,7 +63,7 @@
 	min-height: 100%;
 	transition: all 0.4s;
 	overflow: hidden;
-	animation: animateIn 0.8s cubic-bezier(0.4, -0.2, 0.2, 1.8) forwards;
+	animation: animateIn 0.5s cubic-bezier(0.5, 1.35, 0.5, 1) forwards;
 	opacity: 0;
 	transform: translateY(5rem);
 	&:hover {

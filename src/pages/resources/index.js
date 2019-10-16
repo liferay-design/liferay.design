@@ -21,7 +21,7 @@ const ResourcesPage = () => (
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
-						delay='0.4s'
+						delay='0.1s'
 						dark
 						icon="liferayDesicon"
 						title="Principles"
@@ -32,7 +32,7 @@ const ResourcesPage = () => (
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
-						delay='0.8s'
+						delay='0.2s'
 						dark
 						icon="whyBlueprints"
 						title="Blueprints"
@@ -43,7 +43,7 @@ const ResourcesPage = () => (
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
-						delay='1.2s'
+						delay='.3s'
 						dark
 						icon="fa_figma"
 						title="Figma Resources"
@@ -55,7 +55,7 @@ const ResourcesPage = () => (
 
 				<Grid.Item>
 					<CardLexicon
-						delay='1.6s'
+						delay='.4s'
 						dark
 						icon="faqs"
 						title="Help Center"
@@ -66,7 +66,7 @@ const ResourcesPage = () => (
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
-						delay='2.0s'
+						delay='.5s'
 						dark
 						icon="waffle"
 						title="Style"
