@@ -12,6 +12,8 @@
   author: Paul Hanaoka
   title: Launch Design Best Practices
   longSummary: Migrate best-practice content from our intranet to our public-facing site!
+  buildPreview: 'https://5d452465d0218c000898d624--happy-jackson-1b6bb8.netlify.com'
+  icon: desicon
 - id: '2019-07-23'
   url: '/pull/484'
   author: Paul Hanaoka
@@ -37,6 +39,7 @@
   author: Abel Hancock
   title: 2018 Annual Report
   longSummary: Our first Annual Report — now live at liferay.design/2018.
+  contributors: ['James Lyons', 'Paul Hanaoka']
 - id: '2018-10-05'
   url: '/pull/107'
   author: Paul Hanaoka
