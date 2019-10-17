@@ -1,24 +1,20 @@
 @import 'theme/variables.scss';
 
 .handbook {
-	.teasers {
-		transform: translateY($spacingBase * -3);
-		.bottomCards {
-			margin: $spacingLarge 0;
-			.flexItem {
-				margin: 1rem auto;
-			}
+	.wrapper {
+		margin-top: $spacingBase * -1;
+		background: #fff url('/images/theme/handbook-frame.svg') top center/contain
+			no-repeat;
+		.date {
+			@include small-caps;
 		}
-	}
-	.date {
-		@include small-caps;
-	}
-	.gagb {
-		margin-left: $spacingXSmall * -1.5;
-		font-size: $fontSizeDisplay * 1.5;
-		font-weight: $fontWeightBlack;
-		span {
-			color: $primary;
+		.gagb {
+			margin-left: $spacingXSmall * -1.5;
+			font-size: $fontSizeDisplay * 1.5;
+			font-weight: $fontWeightBlack;
+			span {
+				color: $primary;
+			}
 		}
 	}
 }

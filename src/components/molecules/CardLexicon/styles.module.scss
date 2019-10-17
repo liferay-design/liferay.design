@@ -8,7 +8,9 @@
 .handbook {
 	.card {
 		border-radius: 0;
-		padding: 0;
+		padding: $spacingBase 0 !important;
+		box-shadow: 0 2rem 8rem rgba($black, 0.24);
+
 		h2.title {
 			font-size: $fontSizeDisplay * 0.8;
 		}
@@ -84,9 +86,6 @@
 		max-height: 300px;
 		overflow: hidden;
 		margin-bottom: $spacingMedium;
-		// img {
-		// 	max-height: 100%;
-		// }
 	}
 	h2.title {
 		color: $darkGrey;

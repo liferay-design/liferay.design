@@ -7,7 +7,7 @@ import { Grid } from 'reakit'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import styles from './styles.module.scss'
-import { colors } from 'theme'
+import { colors, spacing } from 'theme'
 
 const Handbook = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1100px)' })
@@ -18,16 +18,14 @@ const Handbook = () => {
 			}`}
 		>
 			<Banner
-				textAlign="left"
-				headline="Welcome!"
+				preTitle="Liferay"
+				headline="Design Handbook!"
 				subtitle="How to be a good designer and do other things good too."
 				section="Handbook"
-				background={
-					'#13141F url(/images/theme/handbook-header.svg) center 800%/contain no-repeat'
-				}
+				background='#13141F'
 				underlineColor={colors.primary}
 			/>
-			<div className={documentation.background}>
+			<div className={styles.wrapper}>
 				<Container>
 					<MediaQuery maxWidth={767}>
 						{matches => {
@@ -41,8 +39,8 @@ const Handbook = () => {
                                 "a a b b . ." 
                                 "a a b b c c" 
                                 ". . b b c c" 
-                                ". . . . c c" 
-                                "d d d e e e" auto / 1fr 1fr 1fr 1fr 1fr 1fr`
+                                ". . . . c c" auto / 1fr 1fr 1fr 1fr 1fr 1fr`
+                                // "d d d e e e" 
 							return (
 								<Grid
 									className={styles.teasers}
@@ -87,51 +85,20 @@ const Handbook = () => {
 											to="/handbook/grow/introduction"
 										/>
 									</Grid.Item>
-									<Grid.Item
-										area="d"
-										className={
-											styles.bottomCards
-										}
-									>
-										<Heading level="2">
-											Been here before?
-										</Heading>
-											<Flex
-											direction="column"
-												className={
-													styles.flexItem
-												}
-											>
-												<ChangelogFeed items="3" />
-												<Link to="/changelog">See full changelog</Link>
-											</Flex>
-									</Grid.Item>
-									<Grid.Item
-										area="e"
-										className={
-											styles.bottomCards
-										}
-									>
-										<CardLexicon
-											dark
-											wide
-											title="First Time?"
-											text="Start Here"
-											to="/handbook/welcome"
-										/>
-									</Grid.Item>
 								</Grid>
 							)
 						}}
 					</MediaQuery>
-					<Text color="lightGrey" weight="inherit" className={styles.date}>
-						Since 2004
-					</Text>
-					<Heading className={styles.gagb}>
-						Growing &amp; <br />
-						Getting Better. <br />
-						<span>Together.</span>
-					</Heading>
+					<div style={{marginTop:spacing.xxLarge}}>
+						<Text color="lightGrey" weight="inherit" className={styles.date}>
+							Since 2004
+						</Text>
+						<Heading className={styles.gagb}>
+							Growing &amp; <br />
+							Getting Better. <br />
+							<span>Together.</span>
+						</Heading>
+					</div>
 				</Container>
 			</div>
 			<Footer light />
