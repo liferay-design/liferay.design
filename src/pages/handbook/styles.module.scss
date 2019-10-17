@@ -15,6 +15,9 @@
 			span {
 				color: $primary;
 			}
+			@media screen and (max-width: $screenMedium) {
+				font-size: $fontSizeDisplay;
+			}
 		}
 	}
 }

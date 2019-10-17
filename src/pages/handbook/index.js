@@ -57,7 +57,7 @@ const Handbook = () => {
 											preTitle="First Things First"
 											title="Principles"
 											text="These principles guide our work, and provide standards for what good design means at Liferay."
-											to="/hadbook/principles"
+											to="/handbook/welcome"
 										/>
 									</Grid.Item>
 									<Grid.Item
