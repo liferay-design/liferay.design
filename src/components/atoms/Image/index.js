@@ -49,6 +49,7 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 				style={{
 					...imgStyles,
 					display: 'block',
+					width: '100%',
 				}}
 				alt={alt}
 				src={`${withPrefix(`${src}`)}`}
