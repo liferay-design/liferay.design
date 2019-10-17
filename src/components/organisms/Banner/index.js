@@ -13,20 +13,25 @@ const Banner = ({
 	ctaLink,
 	section,
 	background,
-	textAlign
+	textAlign,
+	preTitle,
+	...props
 }) => (
 	<Grid
 		templateRows="8rem 1fr"
 		className={styles.container}
 		style={{ background: `${background}` }}
 	>
-		<Navbar underlineColor={underlineColor} white section={section} />
+		<Navbar {...props} underlineColor={underlineColor} white />
 		<Container style={{alignSelf:'center'}}>
 			<Flex
 				direction="column"
 				align={textAlign}
 				className={styles.content}
 			>
+				{preTitle ? <div className={styles.preTitle}>
+					{preTitle}
+				</div> : null}
 				<Heading color="white" level={1}>
 					{headline}
 				</Heading>
@@ -47,6 +52,7 @@ const Banner = ({
 
 Banner.propTypes = {
 	headline: PropTypes.string,
+	preTitle: PropTypes.string,
 	underlineColor: PropTypes.string,
 	subtitle: PropTypes.string,
 	cta: PropTypes.string,

@@ -1,10 +1,11 @@
-import { Container, SiteName } from 'components/atoms'
+import { Container, SiteName, Icon, Link } from 'components/atoms'
 import { NavItems } from 'components/organisms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
+import { AuthContainer } from 'components/molecules'
 
-const Navbar = ({ white, section, underlineColor }) => {
+const Navbar = ({ white, section, underlineColor, simpleNav }) => {
 	// TODO: Add custom nav items for events page
 	// const navItems = ['agenda', 'blueprints', 'dashboard', 'team', 'venue']
 
@@ -17,9 +18,15 @@ const Navbar = ({ white, section, underlineColor }) => {
 	return (
 		<Container>
 			<nav className={white ? styles.white : styles.default}>
-				<SiteName underlineColor={underlineColor} section={section} />
+				{simpleNav ? (
+					<Link style={{alignSelf:'center', marginLeft:'-.2rem'}} to="/">
+						<Icon name="liferayDesicon" fill="white" height="2rem" width="2rem" />
+					</Link>
+				) : (
+					<SiteName underlineColor={underlineColor} section={section} />
+				)}
 
-				<NavItems />
+				{simpleNav ? <AuthContainer /> : <NavItems />}
 			</nav>
 		</Container>
 	)

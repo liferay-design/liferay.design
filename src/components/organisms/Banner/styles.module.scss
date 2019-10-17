@@ -37,6 +37,13 @@
 			margin-top: 0.4rem;
 			font-weight: 700;
 		}
+		.preTitle {
+			@include small-caps;
+			color: $primary;
+			letter-spacing: $spacingXSmall;
+			margin-bottom: $spacingSmall;
+			font-size: $fontSizeMedium;
+		}
 	}
 }
 
