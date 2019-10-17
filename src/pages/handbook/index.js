@@ -1,5 +1,5 @@
 import { Container, Icon, Flex, Text, Heading, Link } from 'components/atoms'
-import { CardLexicon, FancyFooter } from 'components/molecules'
+import { CardLexicon, FancyFooter, FormNewsletter } from 'components/molecules'
 import { Banner, Footer, ChangelogFeed } from 'components/organisms'
 import React from 'react'
 import MediaQuery, {useMediaQuery} from 'react-responsive'
@@ -18,8 +18,9 @@ const Handbook = () => {
 			}`}
 		>
 			<Banner
-				preTitle="Liferay"
-				headline="Design Handbook!"
+				simpleNav
+				preTitle="Liferay.Design"
+				headline="Handbook"
 				subtitle="How to be a good designer and do other things good too."
 				section="Handbook"
 				background='#13141F'
