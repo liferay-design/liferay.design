@@ -27,6 +27,7 @@ const Banner = ({
 			<Flex
 				direction="column"
 				align={textAlign}
+				style={{textAlign:`${textAlign}`}}
 				className={styles.content}
 			>
 				{preTitle ? <div className={styles.preTitle}>
