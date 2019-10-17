@@ -13,8 +13,9 @@
 	}
 }
 
-@media screen and (max-width: $screenSmall) {
+@media screen and (max-width: $screenMedium) {
 	.container {
-		padding: $spacingMedium $spacingSmall $spacingMedium;
+		max-width: 100vw;
+		padding: $spacingMedium $spacingBase $spacingMedium;
 	}
 }
