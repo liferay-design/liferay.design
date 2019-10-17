@@ -68,7 +68,7 @@ iframe {
 	}
 }
 
-@media screen and (max-width: $screenSmall) {
+@media screen and (max-width: $screenMedium) {
 	.markdown-container {
 		padding: $spacingMedium $spacingSmall $spacingMedium;
 	}
