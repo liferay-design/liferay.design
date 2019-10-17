@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" fill="none">
+    <g clip-path="url(#clip0)">
+        <path fill="#fff" d="M1440 720H0V0h1440z"/>
+        <path fill="#13141F" d="M1440 480H720V240h720z"/>
+        <path fill="#0B5FFF" d="M1200 720H960V480h240z"/>
+        <path fill="#13141F" d="M1440 240H480V0h960z"/>
+        <path fill="#072252" d="M720 480H480V240h240z"/>
+        <path fill="#13141F" d="M720 720H480V480h240z"/>
+        <path fill="#004AD7" d="M240 480H0V240h240zM960 720H480V480h480z"/>
+        <path fill="#13141F" d="M240 720H0V480h240z"/>
+        <circle cx="120" cy="600" r="120" fill="#22242B" transform="rotate(-180 120 600)"/>
+        <circle cx="120" cy="600" r="48" fill="#0B5FFF" transform="rotate(-180 120 600)"/>
+        <path fill="#004AD7" d="M240 480h240v240c-132.548 0-240-107.452-240-240z"/>
+        <path fill="#13141F" d="M0 0h240v240C107.452 240 0 132.548 0 0z"/>
+        <path fill="#0B5FFF" d="M480 0v160c44.183 0 80 35.817 80 80s-35.817 80-80 80v160c132.548 0 240-107.452 240-240S612.548 0 480 0z"/>
+        <path fill="#004AD7" d="M480 480V320c-44.183 0-80-35.817-80-80s35.817-80 80-80V0C347.452 0 240 107.452 240 240s107.452 240 240 240z"/>
+        <path fill="#13141F" d="M1440 480h-240c132.55 0 240 107.452 240 240V480zM240 480h240c-132.548 0-240-107.452-240-240v240z"/>
+        <path fill="#072252" d="M1440 480V240c0 132.548-107.45 240-240 240h240z"/>
+        <path fill="#004AD7" fill-rule="evenodd" d="M1200 240H960c0 132.548 107.45 240 240 240V240z" clip-rule="evenodd"/>
+        <path fill="#0B5FFF" d="M960 240h240V0c-132.55 0-240 107.452-240 240z"/>
+        <path fill="#072252" fill-rule="evenodd" d="M1200 240h240c0-132.548-107.45-240-240-240v240z" clip-rule="evenodd"/>
+        <path fill="#13141F" d="M240 0v240C240 107.452 347.452 0 480 0H240zM1120 240c0 44.183 35.82 80 80 80s80-35.817 80-80h-160z"/>
+        <path fill="#004AD7" d="M1280 240c0-44.183-35.82-80-80-80s-80 35.817-80 80h160z"/>
+    </g>
+    <defs>
+        <clipPath id="clip0">
+            <path fill="#fff" d="M0 0h1440v720H0z" transform="rotate(-180 720 360)"/>
+        </clipPath>
+    </defs>
+</svg>
