@@ -2,14 +2,4 @@
 @import '~theme/variables';
 
 .wrapper {
-	.date {
-		background: $primary-l2;
-		padding: $spacingBase;
-		width: $spacingMedium;
-		height: $spacingMedium;
-		border-radius: $spacingXSmall;
-		span {
-			@include small-caps;
-		}
-	}
 }

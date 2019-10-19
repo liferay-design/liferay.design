@@ -10,6 +10,7 @@ import CardLexicon from './CardLexicon'
 import ColorField from './ColorField'
 import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
+import Date from './Date'
 import DoDont from './DoDont'
 import FormNewsletter from './FormNewsletter'
 import FancyFooter from './FancyFooter'
@@ -35,6 +36,7 @@ export {
 	CardLexicon,
 	ColorSwatch,
 	ColorSwatchDigital,
+	Date,
 	ColorField,
 	DoDont,
 	FormNewsletter,
