@@ -1,5 +1,5 @@
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
@@ -81,13 +81,12 @@ export default class Lexicon extends Component {
 
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
-												<a
+												<Link
 													className={lexicon.labelLink}
-													href={mdx.frontmatter.titleLabelLink}
-													target="_blank"
+													to={mdx.frontmatter.titleLabelLink}
 												>
 													VIEW IN CLAY
-												</a>
+												</Link>
 											</span>
 										) : null}
 

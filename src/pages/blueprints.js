@@ -140,19 +140,15 @@ const Blueprints = () => (
 			Subtitle={() => (
 				<Text size="large">
 					Visit the {' '} 
-					<a
-						href="https://liferay-design.zendesk.com/hc"
-						target="_blank"
-						rel="noopener"
+					<Link
+						to="https://liferay-design.zendesk.com/hc"
 					>
 						Design Help Center
-					</a> for more documentation or to {' '}
-					<a 
-						href="https://liferay-design.zendesk.com/hc/en-us/community/topics/360001284492-Design-Requests"
-						target="_blank"
-						rel="noopener"
+					</Link> for more documentation or to {' '}
+					<Link 
+						to="https://liferay-design.zendesk.com/hc/en-us/community/topics/360001284492-Design-Requests"
 					>
-						create a request</a>
+						create a request</Link>
 						.
 				</Text>
 			)}

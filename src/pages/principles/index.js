@@ -1,4 +1,4 @@
-import { Flex } from 'components/atoms'
+import { Flex, Link } from 'components/atoms'
 import { Footer } from 'components/organisms'
 import { PrincipleCard, PrinciplesHeader } from 'pages/principles/components/_index'
 import React from 'react'
@@ -8,13 +8,11 @@ import styles from './styles.module.scss'
 const questionsIntentional = [
 	<span>
 		Are my designs passing{' '}
-		<a
-			target="_blank"
-			rel="noopener noreferrer"
-			href="https://www.nngroup.com/articles/ten-usability-heuristics/"
+		<Link
+			to="https://www.nngroup.com/articles/ten-usability-heuristics/"
 		>
 			heuristics tests
-		</a>
+		</Link>
 		?
 	</span>,
 	'Are my designs reducing problem complexity by addressing simple and focused tasks?',
@@ -28,13 +26,11 @@ const descriptorsIntentional = ['Simple', 'Intuitive', 'Effective']
 const questionsInclusive = [
 	<span>
 		Are my designs passing{' '}
-		<a
-			target="_blank"
-			rel="noopener noreferrer"
-			href="https://www.w3.org/WAI/ER/tools/"
+		<Link
+			to="https://www.w3.org/WAI/ER/tools/"
 		>
 			accessibility tests
-		</a>
+		</Link>
 		?
 	</span>,
 	'Am I designing in a non-discriminative way?',
@@ -48,13 +44,11 @@ const descriptorsInclusive = ['Universal', 'Open', 'Consistent']
 const questionsHonest = [
 	<span>
 		Am I using the correct{' '}
-		<a
-			target="_blank"
-			rel="noopener noreferrer"
-			href="Am I using the correct affordances to solve the problem?"
+		<Link
+			to="Am I using the correct affordances to solve the problem?"
 		>
 			affordances
-		</a>{' '}
+		</Link>{' '}
 		to solve the problem?
 	</span>,
 	'Are you testing and validating your designs with people?',
@@ -116,9 +110,6 @@ const Principles = () => {
 					plxSide={styles.plxElementLeft}
 					plxElement="/images/principles/plx-triangle.svg"
 				/>
-				{/* <Plx className={styles.plxElementLeft} parallaxData={PlxUp3}>
-					<img src="/images/principles/plx-triangle.svg" />
-				</Plx> */}
 				<PrincipleCard
 					symbol="/images/principles/symbol-inclusive.svg"
 					name="Inclusive"
@@ -128,9 +119,6 @@ const Principles = () => {
 					plxSide={styles.plxElementRight}
 					plxElement="/images/principles/plx-doughnut.svg"
 				/>
-				{/* <Plx className={styles.plxElementRight} parallaxData={PlxUp3}>
-					<img src="/images/principles/plx-doughnut.svg" />
-				</Plx> */}
 				<PrincipleCard
 					symbol="/images/principles/symbol-honest.svg"
 					name="Honest"
@@ -140,9 +128,6 @@ const Principles = () => {
 					plxSide={styles.plxElementLeft}
 					plxElement="/images/principles/plx-square.svg"
 				/>
-				{/* <Plx className={styles.plxElementLeft} parallaxData={PlxUp3}>
-					<img src="/images/principles/plx-square.svg" />
-				</Plx> */}
 				<PrincipleCard
 					symbol="/images/principles/symbol-pleasurable.svg"
 					name="Pleasurable"
@@ -151,7 +136,6 @@ const Principles = () => {
 					questions={questionsPleasurable}
 				/>
 			</Flex>
-			{/* <PrinciplesFooter /> */}
 			<Footer light />
 		</div>
 	)

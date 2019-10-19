@@ -37,26 +37,18 @@ const Lexicon = () => (
 								gap="2rem"
 								template={gridTemplate}
 							>
-								<Grid.Item
-									area="tlg"
-									marginTop="-8rem"
-								>
+								<Grid.Item area="tlg" marginTop="-8rem">
 									<Text
 										color="#c4cacb"
 										weight="700"
 										size="12px"
 										type="p"
-										className={
-											lexicon.vertical
-										}
+										className={lexicon.vertical}
 									>
 										Explore Lexicon
 									</Text>
 								</Grid.Item>
-								<Grid.Item
-									area="tlc"
-									marginTop="-8rem"
-								>
+								<Grid.Item area="tlc" marginTop="-8rem">
 									<CardLexicon
 										icon="what"
 										title="Get Started"
@@ -65,12 +57,9 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item
-									area="trc"
-									marginTop="-8rem"
-								>
+								<Grid.Item area="trc" marginTop="-8rem">
 									<CardLexicon
-										delay='0.1s'
+										delay="0.1s"
 										icon="principles"
 										title="Foundations"
 										text="The basic principles and guidelines that lay on the core of the pattern libray."
@@ -80,7 +69,7 @@ const Lexicon = () => (
 								</Grid.Item>
 								<Grid.Item area="m">
 									<CardLexicon
-										delay='0.2s'
+										delay="0.2s"
 										wide
 										icon="library"
 										iconHeight="10rem"
@@ -110,36 +99,24 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item
-									area="brg"
-									marginTop="2rem"
-								>
+								<Grid.Item area="brg" marginTop="2rem">
 									<Link
 										className={documentation.social}
 										to="https://github.com/liferay-design"
 									>
-										<Icon
-											fill="white"
-											name="github"
-										/>
+										<Icon fill="white" name="github" />
 									</Link>
 									<Link
 										className={documentation.social}
 										to="https://dribbble.com/liferay"
 									>
-										<Icon
-											fill="white"
-											name="dribbble"
-										/>
+										<Icon fill="white" name="dribbble" />
 									</Link>
 									<Link
 										className={documentation.social}
 										to="https://twitter.com/Liferay_Lexicon"
 									>
-										<Icon
-											fill="white"
-											name="twitter"
-										/>
+										<Icon fill="white" name="twitter" />
 									</Link>
 								</Grid.Item>
 							</Grid>
@@ -154,11 +131,7 @@ const Lexicon = () => (
 			Subtitle={() => (
 				<Text size="large">
 					Check out some issues in{' '}
-					<Link
-						href="https://github.com/liferay-design/liferay.design/labels/lexicon"
-						target="_blank"
-						rel="noopener"
-					>
+					<Link to="https://github.com/liferay-design/liferay.design/labels/lexicon">
 						GitHub
 					</Link>
 					!

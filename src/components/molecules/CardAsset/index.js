@@ -1,4 +1,4 @@
-import { Flex, Text } from 'components/atoms'
+import { Flex, Text, Link } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
@@ -18,14 +18,9 @@ export default function CardAsset({ asset, title, preview, link, cta, letter }) 
 					{title}
 				</Text>
 
-				<a
-					className={styles.primaryAction}
-					href={link}
-					target="_blank"
-					rel="noopener"
-				>
+				<Link className={styles.primaryAction} to={link}>
 					{cta}
-				</a>
+				</Link>
 			</Flex>
 		</Flex>
 	)

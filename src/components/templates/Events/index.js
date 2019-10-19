@@ -2,6 +2,7 @@ import { Flex } from 'components/atoms'
 import { Author, GlobalMdx, SEO } from 'components/molecules'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Footer, Navbar } from 'components/organisms'
+import { Link } from 'components/atoms'
 import { graphql } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
@@ -60,13 +61,12 @@ export default class Events extends Component {
 								</span>
 							)}
 							<span className={styles.locationName}>
-								<a
-									href={post.frontmatter.office.mapURL}
-									target="_blank"
+								<Link
+									to={post.frontmatter.office.mapURL}
 								>
 									{post.frontmatter.office.id},{' '}
 									{post.frontmatter.office.region}
-								</a>
+								</Link>
 							</span>
 						</h2>
 						{post.frontmatter.heroImage && (
@@ -87,13 +87,12 @@ export default class Events extends Component {
 					</Flex>
 				</Flex>
 				{today < eventDate ? (
-					<a
-						href={post.frontmatter.ctaURL}
+					<Link
+						to={post.frontmatter.ctaURL}
 						className={styles.ctaButton}
-						target="_blank"
 					>
 						RSVP
-					</a>
+					</Link>
 				) : null}
 				<div className={styles.markdownContainer}>
 					<Flex direction="column" className={styles.wrapper}>

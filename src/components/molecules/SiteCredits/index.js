@@ -1,4 +1,4 @@
-import { Flex, Text } from 'components/atoms'
+import { Flex, Text, Link } from 'components/atoms'
 import React from 'react'
 import styles from './styles.module.scss'
 
@@ -7,16 +7,16 @@ const SiteCredits = () => {
 		<Flex className={styles.credits} justify="space-between" flexWrap="wrap">
 			<Text size="small">
 				Part of{' '}
-				<a target="_blank" rel="noopener" href="https://liferay.com">
+				<Link to="https://liferay.com">
 					Liferay, Inc
-				</a>
+				</Link>
 			</Text>
 			<Text size="small">
 				Powered by{' '}
-				<a target="_blank" rel="noopener" href="http://gatsbyjs.org/">
+				<Link to="http://gatsbyjs.org/">
 					Gatsby
-				</a>{' '}
-				and <a href="https://netlify.com">Netlify</a>
+				</Link>{' '}
+				and <Link to="https://netlify.com">Netlify</Link>
 			</Text>
 		</Flex>
 	)
