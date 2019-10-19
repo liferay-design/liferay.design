@@ -16,41 +16,19 @@
 			box-shadow: $elevation1;
 			margin: 0;
 			font-family: $fontFamilyPrimary;
-			div {
-				background: rgba(255, 255, 255, 0.04);
-				width: 2ch;
-				height: 2ch;
+			.date {
 				position: absolute;
 				left: 0;
 				top: 3rem;
 				@media only screen and (max-width: $screenLarge) {
 					left: 3rem;
 				}
-				span {
-					&:nth-of-type(1) {
-						display: block;
-						font-size: $fontSizeBase;
-						color: $white;
-						opacity: 0.3;
-						text-transform: uppercase;
-						letter-spacing: 0.7em;
-						margin-right: -0.7em;
-						padding-bottom: 0.5em;
-					}
-					&:nth-of-type(2) {
-						display: block;
-						font-size: $fontSizeXXLarge;
-						color: $white;
-						text-transform: uppercase;
-						opacity: 1;
-					}
-				}
 			}
 		}
 		@media only screen and (max-width: 1040px) {
 			max-width: 100%;
 			padding: 0 2rem;
-			h1 div {
+			h1 .date {
 				position: relative;
 				top: 0;
 				left: 0;

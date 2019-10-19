@@ -1,5 +1,5 @@
 import { Flex } from 'components/atoms'
-import { Author, GlobalMdx, SEO } from 'components/molecules'
+import { Author, GlobalMdx, SEO, Date as NiceDate } from 'components/molecules'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { Footer, Navbar } from 'components/organisms'
 import { Link } from 'components/atoms'
@@ -7,6 +7,7 @@ import { graphql } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
+import { colors } from 'theme/'
 
 export default class Events extends Component {
 	render() {
@@ -32,20 +33,12 @@ export default class Events extends Component {
 				<Flex justify="center" align="center" className={styles.banner}>
 					<Flex direction="column" className={styles.bannerContent}>
 						<h1>
-							<Flex
-								justify="center"
-								align="center"
-								direction="column"
-							>
-								<span>
-									{' '}
-									{moment(post.frontmatter.date).format('MMM')}
-								</span>
-								<span>
-									{' '}
-									{moment(post.frontmatter.date).format('DD')}
-								</span>
-							</Flex>
+							<NiceDate large dark
+								size="3rem"
+								className={styles.date}
+								color='mainl3'
+								month={moment(post.frontmatter.date).format('MMM')} day={moment(post.frontmatter.date).format('DD')}
+							/>
 							{post.frontmatter.title}{' '}
 						</h1>
 						<h2>

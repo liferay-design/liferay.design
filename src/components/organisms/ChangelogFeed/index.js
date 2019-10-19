@@ -5,6 +5,8 @@ import PropTypes from 'prop-types'
 import { Avatar } from 'react-md'
 import moment from 'moment'
 import styles from './styles.module.scss'
+import { Date } from 'components/molecules'
+import { colors } from 'theme/'
 
 export default function ChangelogFeed({ items, ...props }) {
 	const data = useStaticQuery(graphql`
@@ -36,16 +38,12 @@ export default function ChangelogFeed({ items, ...props }) {
 
 	const Feed = data.allChangelogYaml.edges.slice(0, `${items}`).map(({ node }) => (
 		<Flex className={styles.wrapper}>
-			<Flex
-				className={styles.date}
-				justify="center"
-				align="center"
-				direction="column"
-			>
-				{' '}
-				<Text weight="heavy">{moment(node.id).format('MMM')}</Text>
-				<Text weight="heavy">{moment(node.id).format('DD')}</Text>
-			</Flex>
+			<Date
+				size='2rem'
+				color={colors.primaryd2}
+				month={moment(node.id).format('MMM')}
+				day={moment(node.id).format('DD')}
+			/>
 			<Flex margin="4rem 0" direction="column" key={node.id}>
 				<Link to={node.titleUrl}>
 					<Heading level="2">
