@@ -102,6 +102,9 @@ module.exports = {
 					{
 						resolve: 'gatsby-remark-external-links',
 					},
+					{
+						resolve: `gatsby-plugin-catch-links`,
+					},
 				],
 			},
 		},
