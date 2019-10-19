@@ -2,4 +2,33 @@
 @import '~theme/variables';
 
 .wrapper {
+	max-width: 64ch;
+	h2,
+	h2 > span {
+		padding-bottom: $spacingXSmall;
+	}
+	h2 > span {
+		line-height: 1.4;
+		display: inline-block;
+	}
+	a {
+		display: block;
+	}
+	.avatarWrapper {
+		& > div:not(:last-child) {
+			margin-left: $spacingXSmall * -2;
+		}
+		.avatar {
+			height: $spacingMedium;
+			width: $spacingMedium;
+			border-radius: 50%;
+			border: solid 2px $white;
+		}
+	}
+	.github {
+		margin-top: $spacingXSmall;
+		background: $main-l6;
+		border-radius: $spacingXSmall / 2;
+		padding: $spacingXSmall ($spacingXSmall * 2) $spacingXSmall $spacingXSmall;
+	}
 }
