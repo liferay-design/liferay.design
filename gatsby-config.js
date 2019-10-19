@@ -99,6 +99,9 @@ module.exports = {
 							className: `nice-anchor`,
 						},
 					},
+					{
+						resolve: 'gatsby-remark-external-links',
+					},
 				],
 			},
 		},
