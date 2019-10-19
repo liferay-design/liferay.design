@@ -1084,9 +1084,7 @@ const TwentyEighteen = () => {
 				<Plx className={styles.title} parallaxData={PlxUp2}>
 					<div className={styles.pie} />
 					<h2 className={styles.f2}>
-						<a href="https://dribbble.com/liferay" target="_blank">
-							Dribbble
-						</a>
+						<Link href="https://dribbble.com/liferay">Dribbble</Link>
 					</h2>
 				</Plx>
 				<Plx className={styles.p} parallaxData={PlxUp1}>

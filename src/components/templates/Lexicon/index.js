@@ -1,4 +1,4 @@
-import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
@@ -118,35 +118,32 @@ export default class Lexicon extends Component {
 
 										{mdx.frontmatter.titleLabelLink ? (
 											<span>
-												<a
+												<Link
 													className={lexicon.labelWarning}
-													href={mdx.frontmatter.titleLabelLink}
-													target="_blank"
+													to={mdx.frontmatter.titleLabelLink}
 												>
 													VIEW IN CLAY
-												</a>
+												</Link>
 											</span>
 										) : null}
 
 										{mdx.frontmatter.productName ? (
 											<span>
-												<a
+												<Link
 													className={lexicon.labelInfo}
-													target="_blank"
 												>
 													{mdx.frontmatter.productName}
-												</a>
+												</Link>
 											</span>
 										) : null}
 
 										{mdx.frontmatter.devStatus ? (
 											<span>
-												<a
+												<Link
 													className={lexicon.labelDraft}
-													target="_blank"
 												>
 													{mdx.frontmatter.devStatus}
-												</a>
+												</Link>
 											</span>
 										) : null}
 
