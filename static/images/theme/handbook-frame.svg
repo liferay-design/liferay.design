@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" fill="none">
     <g clip-path="url(#clip0)">
         <path fill="#fff" d="M1440 720H0V0h1440z"/>
+        <path d="M1440 0H0C0 132.548 107.452 240 240 240H0V720H240V480C240 612.548 347.452 720 480 720H1200V480C1332.55 480 1440 587.452 1440 720V0Z" fill="#13141F"/>
         <path fill="#13141F" d="M1440 480H720V240h720z"/>
         <path fill="#0B5FFF" d="M1200 720H960V480h240z"/>
         <path fill="#13141F" d="M1440 240H480V0h960z"/>
