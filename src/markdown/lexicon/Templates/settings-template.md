@@ -7,7 +7,7 @@ draft: false
 
 ### Layout
 
-This temaplate consists on a series of rows that classify access to different setting items represented by icons.
+This template consists on a series of rows that classify access to different setting items represented by icons.
 
 <br/>
 
