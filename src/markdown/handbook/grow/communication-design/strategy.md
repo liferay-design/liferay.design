@@ -1,6 +1,6 @@
 ---
 title: 'Strategy'
-description: 'Business in the context of design is the ability to understand the market, contribute to business goals to solve problems and create tools to improve the design lifecycle.'
+description: 'Business in the context of design is the ability to understand the market, contribute to business goals to solve problems and create tools to improve the design lifecycle. Areas of influence include branding, marketing campaigns and advertising, project management, content creation and copywriting.'
 order: 10
 publish: true
 ---
