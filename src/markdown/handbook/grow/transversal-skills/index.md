@@ -1,7 +1,7 @@
 ---
 title: 'Transversal Skills'
 description: 'Skills for all designers at Liferay'
-order: 30
+order: 20
 publish: true
 ---
 
