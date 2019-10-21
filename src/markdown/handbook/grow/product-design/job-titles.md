@@ -14,5 +14,5 @@ _Note these titles are specific to the Product Design Department._
 | 1     | Associate Product Designer | -                      |
 | 2     | Product Designer           | Product Design Manager |
 | 3     | Senior Product Designer    | Product Design Manager |
-| 4     | Senior Product Designer    | -                      |
+| 4     | Staff Product Designer     | -                      |
 | 5     | Principal Product Designer | -                      |
