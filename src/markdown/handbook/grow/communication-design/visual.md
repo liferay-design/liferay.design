@@ -1,40 +1,56 @@
 ---
-title: 'Visual'
-description: 'Visual design shapes the product experience through artifacts like illustrations, photography, typography, color and more to improve the usability of products.'
+title: 'Brand Identity'
+description: 'Brand Identity is the visual aspects that form part of the overall brand. Creating and maintaining this visual representation effectively results in people associating it with a high level of credibility and quality.'
 order: 40
 publish: true
 ---
 
-_Visual design shapes the product experience through artifacts like illustrations, photography, typography, color and more to improve the usability of products._
+_Brand Identity is the visual aspects that form part of the overall brand. Creating and maintaining this visual representation effectively results in people associating it with a high level of credibility and quality._
 
 ## Support
 
--   Strong graphic design foundation: grid, typography, color theory
--   Have a strong visual background in print or digital media, advertising, illustration, fine arts, architecture, motion, film, etc
--   Becoming familiar with the limitations and requirements of designing in products and digital scenarios, knowledge and familiarity of designing within systems
--   Creating visual elements (motion, icons, illustration, etc) within an established system
--   Creation of libraries; Icons, Illustrations, Style guide (Visual kit).
--   Applying the visual layer for products or projects
+_Someone with little or no professional experience in the track_
+
+-   Understands the difference, and relationship, between brand and brand identity
+-   Familiar with the market and company strategy
+-   Reads and shares articles on best practices, industry activity
+-   Strong graphic design foundation: composition, visual hierarchy, typography, color theory
+-   Strong visual background in print or digital media, advertising, illustration, fine arts, architecture, motion, film, etc.
+-   Creates visual elements within an established system
+-   Familiar with the requirements and limitations of designing for print vs. digital
+-   Understands how to illustrate a narrative
+-   Supports the design for projects/campaigns
 
 ## Build
 
--   Designing the complete visual layer at an individual project or product level
--   Strong understanding of interaction principles (accessibility, usability) and able to thrive within those constraints
--   Deep understanding of brand and applying in a product
+_Employee with mature knowledge to build and create, starting to help others to grow._
+
+-   Designs at an individual level, and is able to work with stakeholders independently
+-   Deep understanding of the company’s brand and applying in a project
 -   Able to synthesize business strategy with a visual direction
--   Creating and defining new brands for products or projects
+-   Contributes to asset libraries within established systems
+-   Creating and defining new branding identities for projects
 
 ## Lead
 
--   Coordinating visual strategy for all products
--   Leading the visual direction for products across multiple teams
+_Employee who can lead teams or projects, driving culture and processes at Liferay_
+
+-   Coordinates brand identity for campaigns
+-   Leads the visual and creative direction for campaigns in cross-functional teams
+-   Creates and maintains style guides and resources
+-   Trains others on best practices and methods
 
 ## Strategize
 
--   Leading visuals at an organizational level
+_Employee who has proven success internally and, starting to become noticed in the industry._
+
+-   Leads brand identity efforts at an organizational level
+-   Communicates to the company, and advocates, the value of consistency in branding
+-   Creates tools/methods to empower non-designers to do work that adheres to the company’s brand identity
 
 ## Architect
 
--   You are a recognized, industry expert in Visual Design.
--   Design Architect with successful products in the market, creating and leading the visual standard, creating trends
--   [Tobias Van Schneider](https://www.vanschneider.com/), [Mike (Creative Mints](https://www.creativemints.com/))
+_Helping to shape the industry. We try to take the best designer in the market doing it. With this, we set the bar for expectations._
+
+-   A recognized industry expert in Brand Identity
+-   Demonstrated success in the market, creating and leading the visual standard, creating trends
