@@ -1,0 +1,71 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+.cardHidden {
+	text-decoration: none !important;
+
+	.card {
+		border-radius: 0;
+		padding: $spacingBase 0 !important;
+		background-color: $white;
+		transition: all 0.4s;
+		overflow: hidden;
+		animation: animateIn 0.5s cubic-bezier(0.5, 1.35, 0.5, 1) forwards;
+		opacity: 0;
+		transform: translateY(5rem);
+		height: 100%;
+		&:hover {
+			// background-color: $lightestBlue;
+			box-shadow: 0 2rem 8rem rgba($black, 0.24);
+			transform: translateY(-($spacingXSmall / 2));
+			p.cta {
+				color: $primary;
+			}
+			h2.title {
+				color: $primary;
+				transform: scale(1.04);
+				transform-origin: left;
+				transition: all 0.4s;
+			}
+		}
+		.copy {
+			padding: $spacingXSmall;
+		}
+		.icon {
+			padding: $spacingXSmall;
+		}
+
+		p.text {
+			font-weight: $fontWeightRegular;
+			color: $main-l4;
+			font-size: $fontSizeMedium;
+			margin: 0 0 $fontSizeXLarge;
+		}
+
+		p.cta {
+			color: lighten($main-l4, 16%);
+		}
+		h2.title {
+			font-size: $fontSizeLarge;
+			font-weight: $fontWeightBlack;
+			color: $main-l4;
+			transition: all 0.4s;
+			transform: scale(1);
+			transform-origin: left;
+		}
+	}
+}
+
+@media screen and (max-width: $screenMedium) {
+}
+
+@keyframes animateIn {
+	0% {
+		transform: translateY(5rem);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
