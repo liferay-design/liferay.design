@@ -1,5 +1,5 @@
-import { Container, Icon, Flex, Text, Heading, Link } from 'components/atoms'
-import { CardLexicon, FancyFooter, FormNewsletter } from 'components/molecules'
+import { Container, Text, Heading } from 'components/atoms'
+import { CardLexicon, CardHidden, FancyFooter, FormNewsletter } from 'components/molecules'
 import { Banner, Footer, ChangelogFeed } from 'components/organisms'
 import React from 'react'
 import MediaQuery, {useMediaQuery} from 'react-responsive'
@@ -19,6 +19,12 @@ const Handbook = () => {
 	const mobileGridTemplate = `"a" 
                                 "b" 
                                 "c" auto / 1fr `
+	const resourcesGridTemplate = `auto / 1fr 1fr 1fr`
+	const mobileResourcesGridTemplate = `"a" 
+                                "b" 
+                                "c" auto / 1fr `
+
+
 	return (
 		<div
 			className={`${blueprints.theme} ${documentation.theme} ${
@@ -31,7 +37,7 @@ const Handbook = () => {
 				headline="Handbook"
 				subtitle="How to be a good designer and do other things good too."
 				section="Handbook"
-				background='#13141F'
+				background="#13141F"
 				underlineColor={colors.primary}
 			/>
 			<div className={styles.wrapper}>
@@ -39,11 +45,11 @@ const Handbook = () => {
 					<Grid
 						className={styles.teasers}
 						gap="2rem"
-						template={isTabletOrMobile ? mobileGridTemplate : gridTemplate}
+						template={
+							isTabletOrMobile ? mobileGridTemplate : gridTemplate
+						}
 					>
-						<Grid.Item
-							area="a"
-						>
+						<Grid.Item area="a">
 							<CardLexicon
 								handbook
 								preTitle="First Things First"
@@ -52,9 +58,7 @@ const Handbook = () => {
 								to="/handbook/welcome"
 							/>
 						</Grid.Item>
-						<Grid.Item
-							area="b"
-						>
+						<Grid.Item area="b">
 							<CardLexicon
 								delay="0.1s"
 								handbook
@@ -64,9 +68,7 @@ const Handbook = () => {
 								to="/handbook/work/remotely"
 							/>
 						</Grid.Item>
-						<Grid.Item
-							area="c"
-						>
+						<Grid.Item area="c">
 							<CardLexicon
 								delay="0.2s"
 								handbook
@@ -77,8 +79,91 @@ const Handbook = () => {
 							/>
 						</Grid.Item>
 					</Grid>
+				</Container>
+				<Container padding="4rem 0">
+					<Grid
+						className={styles.resources}
+						template={
+							isTabletOrMobile
+								? mobileResourcesGridTemplate
+								: resourcesGridTemplate
+						}
+						gap="2rem"
+					>
+						<Grid.Item>
+							<CardHidden
+								handbook
+								icon="lexicon"
+								title="Lexicon"
+								text="Our Experience Language"
+								to="/lexicon"
+								cta="Get Started"
+							/>
+						</Grid.Item>
+						<Grid.Item>
+							<CardHidden
+								handbook
+								delay="0.2s"
+								icon="whyBlueprints"
+								title="Blueprints"
+								text="Liferay's Brand Style Guidelines"
+								to="/blueprints"
+								cta="The Blue Abides"
+							/>
+						</Grid.Item>
+						<Grid.Item>
+							<CardHidden
+								handbook
+								delay=".3s"
+								icon="fa_figma"
+								title="Figma Resources"
+								text="Open Source Design Projects"
+								to="/resources/figma"
+								cta="Help Us, Help You"
+							/>
+						</Grid.Item>
+						<Grid.Item>
+							<CardHidden
+								handbook
+								delay=".4s"
+								icon="faqs"
+								title="Help Center"
+								text="Documentation and how-to's for Liferay-ers"
+								to="https://help.liferay.design"
+								cta="Get Help"
+							/>
+						</Grid.Item>
+						<Grid.Item>
+							<CardHidden
+								handbook
+								delay=".5s"
+								icon="waffle"
+								title="Style"
+								text="Digital Marketing Styleguide"
+								to="https://style.liferay.design"
+								cta="Get in Style"
+							/>
+						</Grid.Item>
+						<Grid.Item>
+							<CardHidden
+								handbook
+								delay=".6s"
+								icon="fa_terminal"
+								title="Dashboard"
+								text="A dynamic slideshow to make working areas more pleasant"
+								to="https://dashboard.liferay.design"
+								cta="Sneak a Peek"
+							/>
+						</Grid.Item>
+					</Grid>
+				</Container>
+				<Container>
 					<div className={styles.gagb}>
-						<Text color="lightGrey" weight="inherit" className={styles.date}>
+						<Text
+							color="lightGrey"
+							weight="inherit"
+							className={styles.date}
+						>
 							Since 2004
 						</Text>
 						<Heading>

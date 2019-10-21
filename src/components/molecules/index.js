@@ -7,6 +7,7 @@ import BillboardAlt from './BillboardAlt'
 import CardAsset from './CardAsset'
 import CardDefault from './CardDefault'
 import CardLexicon from './CardLexicon'
+import CardHidden from './CardHidden'
 import ColorField from './ColorField'
 import ColorSwatch from './ColorSwatch'
 import ColorSwatchDigital from './ColorSwatchDigital'
@@ -34,6 +35,7 @@ export {
 	CardAsset,
 	CardDefault,
 	CardLexicon,
+	CardHidden,
 	ColorSwatch,
 	ColorSwatchDigital,
 	Date,

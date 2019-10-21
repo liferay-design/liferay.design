@@ -3,7 +3,8 @@
 .handbook {
 	.wrapper {
 		margin-top: $spacingBase * -1;
-		background: #fff url('/images/theme/handbook-frame.svg') top center/contain no-repeat;
+		background: #fff url('/images/theme/handbook-frame.svg') top center/contain
+			no-repeat;
 		.teasers {
 			margin-top: -8rem;
 		}
@@ -11,15 +12,15 @@
 			@include small-caps;
 		}
 		.gagb {
-			margin-top: 24vw;
- 			h3 {
-			margin-left: $spacingXSmall * -1.5;
-			font-size: $fontSizeDisplay * 1.5;
-			font-weight: $fontWeightBlack;
-			@media screen and (max-width: $screenMedium) {
-				font-size: $fontSizeDisplay;
+			// margin-top: 24vw;
+			h3 {
+				margin-left: $spacingXSmall * -1.5;
+				font-size: $fontSizeDisplay * 1.5;
+				font-weight: $fontWeightBlack;
+				@media screen and (max-width: $screenMedium) {
+					font-size: $fontSizeDisplay;
+				}
 			}
-		}
 			span {
 				color: $primary;
 			}

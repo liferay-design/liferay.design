@@ -26,7 +26,7 @@ const Navbar = ({ white, section, underlineColor, simpleNav }) => {
 					<SiteName underlineColor={underlineColor} section={section} />
 				)}
 
-				{simpleNav ? <AuthContainer /> : <NavItems />}
+				<NavItems />
 			</nav>
 		</Container>
 	)
