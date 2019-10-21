@@ -21,7 +21,16 @@
   author: Paul Hanaoka
   title: CMS for Liferay.Design
   longSummary: Set up Forestry.io as a CMS for the site.
-  contributors: ['Jon Wood', 'Naoki Hisamoto']
+  contributors:
+      [
+          'Jon Wood',
+          'Naoki Hisamoto',
+          'Markus Hammer',
+          'Karolina Kolodziej',
+          'Christopher Jeong',
+          'David Aragonés',
+          'Patrick Pentz',
+      ]
 - id: '2019-04-17'
   gitUrl: '/pull/296'
   author: Victor Valle
@@ -55,18 +64,24 @@
   title: The Great Gatsby
   longSummary: The second version of the Design Site is now live! Using Gatsby is amazing.
   contributors: ['Ryan Garant']
+- id: '2018-08-27'
+  gitUrl: '/pull/54'
+  author: Ryan Garant
+  title: Migrate Blueprints to Liferay.Design
+  longSummary: The official Liferay Brand Guidelines have been moved to liferay.design due to the deprecation of Electric.
+  contributors: ['Paul Hanaoka']
 - id: '2018-04-24'
   gitUrl: '/pull/45'
   author: Paul Hanaoka
   title: Blog Alpha
   longSummary: The first version of the Design Site is now live! Homepage with links to our blog posts on Medium.
-  contributors: ['Ryan Garant']
+  contributors: ['Ryan Connolly', 'Ryan Garant']
 - id: '2018-01-03'
   gitUrl: '/pull/13'
   author: Ryan Garant
   title: Design Week Launch
   longSummary: Our microsite for Design Week 2018 is live! Agenda and other content for Liferay's designers
-  contributors: ['Paul Hanaoka']
+  contributors: ['Ryan Connolly', 'Paul Hanaoka']
 - id: '2017-12-27'
   gitUrl: '/commit/bed7aeb13715b61700305c96bdf19006ad31b92b'
   author: Ryan Garant
@@ -75,3 +90,4 @@
   gitUrl: '/commit/bed7aeb13715b61700305c96bdf19006ad31b92b'
   author: Angelo Youn
   title: Hello World
+  contributors: ['Ryan Connolly', 'Paul Hanaoka']
