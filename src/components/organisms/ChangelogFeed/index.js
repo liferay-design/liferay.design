@@ -39,8 +39,9 @@ export default function ChangelogFeed({ items, ...props }) {
 	const Feed = data.allChangelogYaml.edges.slice(0, `${items}`).map(({ node }) => (
 		<Flex margin="4rem 0" key={node.id} className={styles.wrapper}>
 			<Date
+				className={styles.date}
 				size="2rem"
-				color={colors.primaryd2}
+				color={colors.grey}
 				month={moment(node.id).format('MMM')}
 				day={moment(node.id).format('DD')}
 			/>
