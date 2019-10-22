@@ -6,18 +6,15 @@
 	max-width: 64ch;
 	.date {
 		font-family: $fontFamilyPrimary;
-		
 	}
 	h2,
-	h2 > span {
+	p {
 		padding-bottom: $spacingXSmall;
 	}
-	h2 > span {
-		line-height: 1.4;
-		display: inline-block;
-	}
+
 	a {
 		display: block;
+		color: $black;
 	}
 	.avatarWrapper {
 		& > div:not(:last-child) {
@@ -32,8 +29,19 @@
 	}
 	.github {
 		margin-top: $spacingXSmall;
-		background: $main-l6;
+		background: $main-l8;
+		color: $main-l3;
 		border-radius: $spacingXSmall / 2;
 		padding: $spacingXSmall ($spacingXSmall * 2) $spacingXSmall $spacingXSmall;
+		& svg {
+			fill: $main-l4;
+		}
+		&:hover {
+			background: $main-l6;
+			color: $black;
+			svg {
+				fill: $main-l3;
+			}
+		}
 	}
 }
