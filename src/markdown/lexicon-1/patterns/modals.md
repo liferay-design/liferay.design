@@ -9,7 +9,10 @@ order: 58
 * Modals can be build in different sizes and configurations. Depending on the amount of content you have you will decide one of them.
 * Lexicon recommends to not use full-width size as it will be like a complete new page. If you are in this situation please consider creating a new page instead of a modal.
 * Modals belong to a screen, therefore a modal window must never be triggered from another modal window.
-* When a modal has footer, the actions are placed inside and aligned to the left. There is an order of importance and the sequence is: Primary button (only one), secondary button, and button link.
+* When a modal has footer, the actions are placed inside and aligned to the right. There is an order of importance and the sequence is:    
+    1. Button link
+    2. Secondary button
+    3. Primary button (only one)
 
 ### Size
 
