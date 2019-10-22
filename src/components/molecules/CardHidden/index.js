@@ -25,7 +25,7 @@ const CardHidden = ({
 					className={styles.icon}
 				>
 					<Icon
-						fill={colors.secondary}
+						fill='primary'
 						className={styles.icon}
 						name={icon}
 						height='4em'
