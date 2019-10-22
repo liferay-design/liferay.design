@@ -2,14 +2,12 @@ import { Flex, Heading, Icon, Link, Text, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
+import {colors } from 'theme'
 
 const CardHidden = ({
 	cta,
 	delay,
 	icon,
-	image,
-	imageUrl,
-	preTitle,
 	text,
 	title,
 	to,
@@ -27,9 +25,11 @@ const CardHidden = ({
 					className={styles.icon}
 				>
 					<Icon
+						fill={colors.secondary}
+						className={styles.icon}
 						name={icon}
-						width='4em'
 						height='4em'
+						width='4em'
 						margin=".5rem"
 					/>
 				</Flex>
