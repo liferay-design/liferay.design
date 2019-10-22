@@ -16,7 +16,7 @@ const NavItems = () => {
 
 				<Link to="/team">Team</Link>
 
-				<Link to="/resources">Resources</Link>
+				<Link to="/handbook">Handbook</Link>
 			</Flex>
 
 			<AuthContainer />
