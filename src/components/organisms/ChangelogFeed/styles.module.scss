@@ -2,7 +2,12 @@
 @import '~theme/variables';
 
 .wrapper {
+	font-family: $fontFamilySecondary;
 	max-width: 64ch;
+	.date {
+		font-family: $fontFamilyPrimary;
+		
+	}
 	h2,
 	h2 > span {
 		padding-bottom: $spacingXSmall;

@@ -22,9 +22,9 @@ const Date = ({ month, day, size, dark, className, large, style, color, ...props
 				</Text>
 				<Text
 					className={styles.day}
-					color={dark ? 'white' : 'primaryd1'}
+					color={dark ? 'white' : `${color}`}
 					size="inherit"
-					weight={dark ? 'black' : 'heavy'}
+					weight='black'
 				>
 					{day}
 				</Text>
