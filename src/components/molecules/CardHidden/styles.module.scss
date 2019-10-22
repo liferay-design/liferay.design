@@ -14,10 +14,25 @@
 		opacity: 0;
 		transform: translateY(5rem);
 		height: 100%;
-		&:hover {
-			// background-color: $lightestBlue;
+		overflow: visible;
+		&:after {
+			content: '';
+			width: 100%;
+			transition: all 0.4s;
+			height: 100%;
+			display: inline;
 			box-shadow: 0 2rem 8rem rgba($black, 0.24);
+			opacity: 0;
+			left: 0;
+			top: 0;
+			position: absolute;
+		}
+		&:hover {
 			transform: translateY(-($spacingXSmall / 2));
+			&:after {
+				transition: all 0.4s;
+				opacity: 1;
+			}
 			p.cta {
 				color: $primary;
 			}
