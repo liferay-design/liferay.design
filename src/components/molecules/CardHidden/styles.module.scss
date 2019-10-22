@@ -46,15 +46,13 @@
 			.icon svg {
 				filter: grayscale(0);
 				transition: all 0.4s;
-				// transform: translateX(-2em) scale(1.4);
 			}
 		}
 		.copy {
 			padding: $spacingSmall $spacingXSmall 0;
 		}
 		.icon svg {
-			// transition: all 0.4s;
-			// transform: translateX(0) scale(1);
+			transition: all 0.4s;
 			filter: grayscale(1);
 			padding: $spacingXSmall * 1.5;
 		}
