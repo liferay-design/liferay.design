@@ -52,10 +52,10 @@ export default function ChangelogFeed({ items, ...props }) {
 						{node.titleUrl ? (
 							<Icon name="externalLink" width=".6em" />
 						) : null}
-						{node.longSummary ? <Text>{node.longSummary}</Text> : ''}
 					</Heading>{' '}
+						{node.longSummary ? <Text type="p">{node.longSummary}</Text> : ''}
 				</Link>
-				<Flex justify="space-between">
+				<Flex justify="space-between" flexWrap="wrap">
 					<Flex direction='row-reverse' className={styles.avatarWrapper}>
 						{node.contributors ? (
 							<>
@@ -90,7 +90,7 @@ export default function ChangelogFeed({ items, ...props }) {
 					>
 						<Flex align="center" className={styles.github}>
 							<Icon name="github" width="1em" margin="0 .5em" />
-							<Text>View on Github</Text>
+							<Text weight="heavy">View on Github</Text>
 						</Flex>
 					</Link>
 				</Flex>
