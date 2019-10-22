@@ -6,8 +6,9 @@ import { ChangelogFeed } from 'components/organisms'
 const Changelog = () => 
 (
 		<MainLayout section="Changelog">
-			<Container heading='The Changelog' color='black' level={1} background="white">
-				<Flex direction="column">
+			<Container background="white">
+				<Flex align="center" direction="column">
+					<Heading level={1}>The Changelog</Heading>
 					<ChangelogFeed items="50" />
 				</Flex>
 			</Container>
