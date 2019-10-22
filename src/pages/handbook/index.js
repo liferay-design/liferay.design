@@ -128,9 +128,9 @@ const Handbook = () => {
 								delay=".4s"
 								icon="faqs"
 								title="Help Center"
-								text="Documentation and how-to's for Liferay-ers"
+								text="Design docs for Liferay-ers"
 								to="https://help.liferay.design"
-								cta="Get Help"
+								cta="Read the manual"
 							/>
 						</Grid.Item>
 						<Grid.Item>
@@ -150,7 +150,7 @@ const Handbook = () => {
 								delay=".6s"
 								icon="fa_terminal"
 								title="Dashboard"
-								text="A dynamic slideshow to make working areas more pleasant"
+								text="A Liferay.Design slideshow"
 								to="https://dashboard.liferay.design"
 								cta="Sneak a Peek"
 							/>

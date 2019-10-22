@@ -21,7 +21,7 @@
 			transition: all 0.4s;
 			height: 100%;
 			display: inline;
-			box-shadow: 0 2rem 8rem rgba($black, 0.24);
+			box-shadow: 0 2rem 8rem -2rem rgba($black, 0.24);
 			opacity: 0;
 			left: 0;
 			top: 0;
@@ -35,6 +35,7 @@
 			}
 			p.cta {
 				color: $primary;
+				transition: all 0.4s;
 			}
 			h2.title {
 				color: $primary;
@@ -54,11 +55,12 @@
 			font-weight: $fontWeightRegular;
 			color: $main-l4;
 			font-size: $fontSizeMedium;
-			margin: 0 0 $fontSizeXLarge;
+			margin: 0 0 1em;
 		}
 
 		p.cta {
 			color: lighten($main-l4, 16%);
+			transition: all 0.4s;
 		}
 		h2.title {
 			font-size: $fontSizeLarge;
