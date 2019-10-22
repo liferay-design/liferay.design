@@ -221,55 +221,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## Starting Phresh
 
-This is written for people who generally try to avoid the terminal &mdash; it can be scary, but Liferay.Design is a lot like Zelda (you don't have to go alone 🥁)!
-
-Any of the [designers here](https://github.com/orgs/liferay-design/people) can help you, or at least point you to someone who can.
-
-Set aside about 45 &mdash; 60 min to get set up.
-
-<br />
-<br />
-
-### Step 1: Create a Github Account _(3 min)_
-
-1. [Set up a personal account](https://github.com/join)
-1. Choose the "free" plan
-1. Tailor your experience &mdash; if you'd like, this can be helpful
-
-### Step 2: Familiarize yourself with Git and Github _(20 min)_
-
-1. Read [Hello World](https://guides.github.com/activities/hello-world/) and complete the tutorial. _(10 min)_
-    - If you really, really, really aren't interested in this "technical" stuff, then this tutorial covers everything you'll need to create your bio page.
-1. Read [Chris' post on Git Commit Messages](https://chris.beams.io/posts/git-commit/) &mdash; this will help you avoid Paul-like commit messages.
-1. Read the [Git Handbook](https://guides.github.com/introduction/git-handbook/) _(10 min)_ for a good overview on the theory behind Git and GitHub.
-    - **_NB_** This is important and helpful information to understand at a high level because Liferay uses Git.
-1. Check out the [GitHub's resources](https://try.github.io/), and the [team's Trello cards](https://trello.com/b/500Ghgdu/development) on Git.
-
-### Step 3: Let's git it started™ _(20 min)_
-
-1. Congratulate Paul on that amazing section title 👆
-1. Visit our [Phresh-N-Clean](https://github.com/liferay-design/phresh-n-clean) guide &mdash; this whole thing is pretty helpful for setting up your computer in a way that it can quickly and easily be reformatted and restored will help your computer stay faster, better, longer. (So you can `work it`.)
-1. Complete steps [1](https://github.com/liferay-design/phresh-n-clean#1-homebrew-link), [2](https://github.com/liferay-design/phresh-n-clean#2-node--npm-link), [4](https://github.com/liferay-design/phresh-n-clean#4-homebrew-cask-link), and [6](https://github.com/liferay-design/phresh-n-clean#6-git--github-link) of the [Set Up](https://github.com/liferay-design/phresh-n-clean#set-up) portion
-1. Install a code editor — [Sublime Text](https://www.sublimetext.com/) or [VSCode](https://code.visualstudio.com/).
-    - `brew cask install sublime-text` or `brew cask isntall visual-studio-code`
-
-### Step 4: The Clone Wars _(2 min)_
-
-1. Pat yourself on the back, you're almost done &mdash; the last thing to do is get a local copy (code on your computer) of the site repository (repo for short).
-1. Orient yourself
-    1. Open your Terminal and type `ls` and hit Enter &mdash; this command will list the files and folders of the current directory (folder)
-    1. Type `open .` and hit Enter &mdash; this will open up Finder to the current directory.
-    1. Type `mkdir github` and hit Enter &mdash; now look at your Finder, you should now see a new folder labeled 'github' in your Home directory (`~/`)
-    1. Type `cd github` and hit Enter &mdash; you've now navigated to the github folder in your Terminal!
-    - _Note that this is our suggested method for organizing your repos, feel free to organize differently._
-1. Now that your Terminal is open to your github folder, it's time to clone the repo! <img src="https://github.com/liferay-design/liferay.design/blob/dev/static/images/documentation/clone-repo.png@2x.png?raw=true" style="width:400px; float: right;"/>
-1. Copy the url to your clipboard (there's a handy little button 📋)
-1. Type `git clone`, paste the repo url and hit Enter &mdash; cloning should take about 10 seconds.
-1. Now you need to navigate to the folder &mdash; type `cd life` and hit Tab, it should autocomplete to `liferay.design` &mdash; if it does, hit enter, if not, finish typing it out
-1. Take your fingers off the keyboard, and give yourself a hand, you're now ready to [begin development](#quick-start)!
-
-<br />
-<br />
+_See our [GitHub Setup Guide](https://liferay.design/handbook/work/tools/github/setup/)_
 
 ### Notes
 
