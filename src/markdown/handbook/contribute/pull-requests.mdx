@@ -1,0 +1,44 @@
+---
+title: 'Pull Requests'
+description: 'How to request updates or new features in Liferay Design Handbook'
+order: 20
+publish: true
+---
+
+_See full the full [Contributing](https://github.com/liferay-design/liferay.design/blob/master/CONTRIBUTING.md#best-practices) guidelines for a more exhaustive process._
+
+### 1. Before starting any new work
+
+If you don't have a pull-request in review, so that you are using the freshest code, pull the latest from upstream:
+
+```
+ git pull upstream master
+```
+
+If you're prompted to do a merge commit (you probably will be), hit `:wq` to close the merge comment, and then do a hard reset so that your local matches what is upstream:
+
+```
+  git reset --hard upstream/master
+```
+
+### 2. Before your pull-request is merged
+
+Continue to push your commits up to your origin — they will automatically get added to your open pull-request.
+
+### 3. After your pull-request is merged
+
+Be sure to follow step #1 — pull fresh from upstream and do a hard reset (shortcut: `git pull upstream master && git reset --hard upstream/master`) — this ensures that your next pull-request will only include new commits.
+
+If you don't pull from upstream after your PR gets merged; you will get errors because the commit hashes change one they are merged into upstream.
+
+## Pushing to Production
+
+_This is only for those with admin permissions._
+
+If you have `write` permissions to the repo, once you ensure the site works using Netlify's deploy previews, you can push to production.
+
+1. Ensure what you have locally is even with what is on upstream/master: `git pull upstream master && git reset --hard upstream/master`
+1. Rename your local `master` branch to `production`: `git branch -m production`
+1. Use the force, and push your local `production` branch to upstream: `git push upstream production --force`
+
+That's it! In 2-4 minutes, the site will be built, deployed, and all updates will be reflected live on [liferay.design](https://liferay.design).
