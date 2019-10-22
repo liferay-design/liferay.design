@@ -30,7 +30,7 @@ const CardHidden = ({
 						name={icon}
 						height='4em'
 						width='4em'
-						margin=".5rem"
+						margin="0 .5rem 0 1.5rem"
 					/>
 				</Flex>
 				<Flex direction="column" className={styles.copy} >
