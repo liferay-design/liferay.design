@@ -1,8 +1,7 @@
-import { Flex, Heading, Icon, Link, Text, Image } from 'components/atoms'
+import { Flex, Heading, Icon, Link, Text } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
-import {colors } from 'theme'
 
 const CardHidden = ({
 	cta,
@@ -51,23 +50,11 @@ const CardHidden = ({
 
 CardHidden.propTypes = {
 	cta: PropTypes.string,
-	direction: PropTypes.string,
+	delay: PropTypes.string,
 	icon: PropTypes.string,
-	imageUrl: PropTypes.string,
-	iconWidth: PropTypes.string,
-	iconHeight: PropTypes.string,
-	styles: PropTypes.string,
 	text: PropTypes.string,
 	title: PropTypes.string,
 	to: PropTypes.string,
-	delay: PropTypes.string,
-	handbook: PropTypes.bool,
-}
-
-CardHidden.defaultProps = {
-	direction: 'vertical',
-	iconWidth: '6rem',
-	iconHeight: '6rem',
 }
 
 export default CardHidden
