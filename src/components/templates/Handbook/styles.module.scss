@@ -1,0 +1,19 @@
+@import '~theme/variables';
+
+.github {
+	margin-top: $spacingXSmall;
+	background: $main-l8;
+	color: $main-l3;
+	border-radius: $spacingXSmall / 2;
+	padding: $spacingXSmall ($spacingXSmall * 2) $spacingXSmall $spacingXSmall;
+	& svg {
+		fill: $main-l4;
+	}
+	&:hover {
+		background: $main-l6;
+		color: $black;
+		svg {
+			fill: $main-l3;
+		}
+	}
+}
