@@ -1,4 +1,4 @@
-import { ContainerMarkdown, Flex, Icon, SiteName, Text } from 'components/atoms'
+import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer, GlobalMdx, SEO } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
@@ -9,6 +9,8 @@ import MediaQuery from 'react-responsive'
 import { Grid } from 'reakit'
 import documentation from 'theme/documentation.module.scss'
 import blueprints from 'theme/blueprints.module.scss'
+import moment from 'moment'
+import styles from './styles.module.scss'
 
 export default class Handbook extends Component {
 	constructor(props) {
@@ -50,63 +52,148 @@ export default class Handbook extends Component {
 						return (
 							<Grid
 								template={gridTemplate}
-								className={documentation.mainContentWrapper}
+								className={
+									documentation.mainContentWrapper
+								}
 							>
 								{matches && (
 									<Flex
-										className={documentation.mobileNavbar}
+										className={
+											documentation.mobileNavbar
+										}
 										justify="space-between"
 										padding="2rem 1rem"
 									>
-										<SiteName section="Handbook" dark />
+										<SiteName
+											section="Handbook"
+											dark
+										/>
 										<AuthContainer />
 									</Flex>
 								)}
 
 								<Sidebar
 									path={pathname}
-									tree={buildSidebarTree(allMdx)}
+									tree={buildSidebarTree(
+										allMdx,
+									)}
 									isMobile={matches}
-									showSidebar={this.state.mobileSidebarVisible}
+									showSidebar={
+										this.state
+											.mobileSidebarVisible
+									}
 									section="Handbook"
 								/>
 
 								<div
 									isMobile={matches}
 									isMobileSidebarVisible={
-										this.state.mobileSidebarVisible
+										this.state
+											.mobileSidebarVisible
 									}
 								>
 									<ContainerMarkdown>
-										<Flex justify="space-between" align="baseline">
-											<h1>{mdx.frontmatter.title}</h1>
+										<Flex
+											justify="space-between"
+											align="baseline"
+										>
+											<h1>
+												{
+													mdx
+														.frontmatter
+														.title
+												}
+											</h1>
 
-											{!matches && <AuthContainer />}
+											{!matches && (
+												<AuthContainer />
+											)}
 										</Flex>
 
 										<GlobalMdx>
-											<MDXRenderer>{mdx.code.body}</MDXRenderer>
+											<MDXRenderer>
+												{mdx.code.body}
+											</MDXRenderer>
 										</GlobalMdx>
+										<Flex align="center" justify="space-between">
+											<Text style="italic">
+												Last modified on{' '}
+												<Link
+													target="_new"
+													to={
+														'https://github.com/liferay-design/liferay.design/commits/master/src/' +
+														`${
+															mdx
+																.parent
+																.relativePath
+														}`
+													}
+												>
+													{moment(
+														mdx.parent
+															.mtime,
+													).format(
+														'YYYY.MM.DD',
+													)}
+												</Link>
+											</Text>
+											<Link
+												target="_new"
+												to={
+													'https://github.com/liferay-design/liferay.design/tree/master/src/' +
+													`${
+														mdx.parent
+															.relativePath
+													}`
+												}
+											>
+												<Flex
+													align="center"
+													className={
+														styles.github
+													}
+												>
+													<Icon
+														name="github"
+														width="1em"
+														margin="0 .5em"
+													/>
+													<Text weight="heavy">
+														Edit on
+														Github
+													</Text>
+												</Flex>
+											</Link>
+										</Flex>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
 								</div>
 
 								<Flex
 									align="center"
-									className={documentation.mobileMenuBar}
+									className={
+										documentation.mobileMenuBar
+									}
 									justify="space-between"
 								>
 									<Icon name="logoDark" />
 
-									{this.state.mobileSidebarVisible ? (
+									{this.state
+										.mobileSidebarVisible ? (
 										<Icon
 											name="close"
-											onClick={this.toggleMobileSidebarVisibility}
+											onClick={
+												this
+													.toggleMobileSidebarVisibility
+											}
 										/>
 									) : (
 										<Text
 											color="white"
-											onClick={this.toggleMobileSidebarVisibility}
+											onClick={
+												this
+													.toggleMobileSidebarVisibility
+											}
 										>
 											Menu
 										</Text>
@@ -152,6 +239,12 @@ export const pageQuery = graphql`
 				body
 			}
 			excerpt
+			parent {
+				... on File {
+					mtime
+					relativePath
+				}
+			}
 		}
 	}
 `
