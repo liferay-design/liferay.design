@@ -1,7 +1,7 @@
 ---
 title: 'Remotely'
 description: 'How to be successful working remotely'
-order: 1
+order: 10
 publish: true
 ---
 

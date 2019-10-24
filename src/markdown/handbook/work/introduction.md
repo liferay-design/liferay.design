@@ -1,9 +1,11 @@
 ---
-title: 'Effectively'
+title: 'Introduction'
 description: 'Some ways to work increase your effectiveness'
-order: 10
+order: 1
 publish: true
 ---
+
+## Working Effectively
 
 _Libraries are filled with books on how to work better. One of the best ones is ‘[7 Habits of Highly Effective People](https://www.franklincovey.com/the-7-habits.html)’. Liferay invested significantly in the 7 Habits training for offices in Hungary and Diamond Bar, and this investment will scale as Human Resources can coordinate the efforts. We encourage everyone to read this book, as it is something you can expense._
 
