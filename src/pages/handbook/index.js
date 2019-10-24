@@ -35,10 +35,12 @@ const Handbook = () => {
 				simpleNav
 				preTitle="Liferay.Design"
 				headline="Handbook"
-				subtitle="How to be a good designer and do other things good too."
+				subtitle="We Not Me"
 				section="Handbook"
 				background="#13141F"
 				underlineColor={colors.primary}
+				cta="Get Started"
+				ctaLink='/handbook/welcome'
 			/>
 			<div className={styles.wrapper}>
 				<Container>
@@ -55,7 +57,7 @@ const Handbook = () => {
 								preTitle="First Things First"
 								title="Principles"
 								text="These principles guide our work, and provide standards for what good design means at Liferay."
-								to="/handbook/welcome"
+								to="/handbook/principles"
 							/>
 						</Grid.Item>
 						<Grid.Item area="b">
