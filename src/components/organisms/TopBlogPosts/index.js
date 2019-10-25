@@ -34,7 +34,7 @@ export default () => {
 	`)
 	return (
 		<CardGrid>
-			{data.allMdx.edges.map(({ node }) => (
+			{ data.allMdx.edges.map(({ node }) => (
 				<CardDefault
 					avatarImage
 					key={node.id}
