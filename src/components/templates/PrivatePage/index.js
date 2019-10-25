@@ -31,7 +31,7 @@ export default class PrivatePage extends Component {
 	}
 
 	renderPrivateContent() {
-		const authenticatedUsers = ['liferay.com', 'triblio.com', 'kyrodigital.com']
+		const authenticatedUsers = ['liferay.com', 'triblio.com', 'kyrodigital.com', 'thebuzzlab.com']
 		const currentUser = this.state.user
 
 		const isUserAuthenticated =
