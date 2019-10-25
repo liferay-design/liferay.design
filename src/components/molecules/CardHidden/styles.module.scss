@@ -9,9 +9,6 @@
 		background-color: $white;
 		transition: all 0.4s;
 		overflow: hidden;
-		animation: animateIn 0.5s cubic-bezier(0.5, 1.35, 0.5, 1) forwards;
-		opacity: 0;
-		transform: translateY(5rem);
 		height: 100%;
 		overflow: visible;
 		&:after {
@@ -81,19 +78,5 @@
 			margin: 0 0 $spacingSmall 0;
 			padding: 0;
 		}
-	}
-}
-
-@media screen and (max-width: $screenMedium) {
-}
-
-@keyframes animateIn {
-	0% {
-		transform: translateY(5rem);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
 	}
 }
