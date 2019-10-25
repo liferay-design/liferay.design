@@ -34,9 +34,10 @@ export default () => {
 	`)
 	return (
 		<CardGrid>
-			{ data.allMdx.edges.map(({ node }) => (
+			{ data.allMdx.edges.map(({ node }, index) => (
 				<CardDefault
 					avatarImage
+					delay={`${index}` * .1 + 's'}
 					key={node.id}
 					imageURL={node.frontmatter.featuredImage}
 					link={node.fields.slug}
