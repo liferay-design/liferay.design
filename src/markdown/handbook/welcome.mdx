@@ -5,7 +5,7 @@ order: 1
 publish: true
 ---
 
-import { Flex, Heading, Text, Link } from 'components/atoms'
+import { CardHidden } from 'components/molecules'
 import { Grid } from 'reakit'
 
 ## How To Use This Handbook
@@ -18,59 +18,59 @@ _See the [Contribute page](././contribute) for more details._
 
 ## Structure
 
-<Grid template="auto / 1fr 1fr 1fr" gap="2rem">
+<Grid template="auto / 1fr 1fr" gap="2rem">
 	<Grid.Item>
-		<Link to=".././work/remotely">
-			<Flex direction="column">
-				<Heading>Work</Heading>
-				<Text>General policies and best practices for how we do work.</Text>
-			</Flex>
-		</Link>
+		<CardHidden
+			handbook
+			title="Work"
+			text="General policies and best practices for how we do work."
+			to=".././work/remotely"
+		/>
 	</Grid.Item>
 	<Grid.Item>
-		<Link to=".././tools/figma">
-			<Flex direction="column">
-				<Heading>Tools</Heading>
-				<Text>Guides for the applications and programs that we use.</Text>
-			</Flex>
-		</Link>
+		<CardHidden
+			handbook
+			delay="0.2s"
+			title="Tools"
+			text="Guides for the applications and programs that we use."
+			to=".././tools/figma"
+		/>
 	</Grid.Item>
 	<Grid.Item>
-		<Link to=".././collaborate/update">
-			<Flex direction="column">
-				<Heading>Collaborate</Heading>
-				<Text>
-					Methods for working together &mdash; standups, critiques, and more.
-				</Text>
-			</Flex>
-		</Link>
+		<CardHidden
+			handbook
+			delay=".3s"
+			title="Collaborate"
+			text="Methods for working together &mdash; standups, critiques, and more."
+			to=".././collaborate/update"
+		/>
 	</Grid.Item>
 	<Grid.Item>
-		<Link to=".././advocate/overview">
-			<Flex direction="column">
-				<Heading>Advocate</Heading>
-				<Text>How and where we promote and share each other's work.</Text>
-			</Flex>
-		</Link>
+		<CardHidden
+			handbook
+			delay=".4s"
+			title="Advocate"
+			text="How and where we promote and share each other's work."
+			to=".././advocate/overview"
+		/>
 	</Grid.Item>
 	<Grid.Item>
-		<Link to=".././grow/introduction">
-			<Flex direction="column">
-				<Heading>Grow</Heading>
-				<Text>
-					Career paths, skill maps, job titles and more &mdash; grow and get
-					better!
-				</Text>
-			</Flex>
-		</Link>
+		<CardHidden
+			handbook
+			delay=".5s"
+			title="Grow"
+			text="Career paths, skill maps, job titles and more &mdash; grow and get better!"
+			to=".././grow/introduction"
+		/>
 	</Grid.Item>
 	<Grid.Item>
-		<Link to=".././contribute/introduction">
-			<Flex direction="column">
-				<Heading>Contribute</Heading>
-				<Text>How to contribute to this living guide for Liferay Design.</Text>
-			</Flex>
-		</Link>
+		<CardHidden
+			handbook
+			delay=".6s"
+			title="Contribute"
+			text="How to contribute to this living guide for Liferay Design."
+			to=".././contribute/introduction"
+		/>
 	</Grid.Item>
 </Grid>
 
