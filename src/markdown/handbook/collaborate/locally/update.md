@@ -16,7 +16,7 @@ We recommend a weekly standup, ideally it would be at the beginning of the week.
     1. What you worked on last week
     1. What you're working on this week
     1. Any issues that you could use help with
-1. Do a team cheer
+1. Do a team cheer _(optional)_
 
 ## Figma Weeklys
 
