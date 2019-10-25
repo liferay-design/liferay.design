@@ -6,7 +6,6 @@
 
 	.card {
 		border-radius: 0;
-		padding: $spacingBase 0 !important;
 		background-color: $white;
 		transition: all 0.4s;
 		overflow: hidden;
@@ -55,12 +54,12 @@
 			transition: all 0.4s;
 			filter: grayscale(1);
 			padding: $spacingXSmall * 1.5;
+			padding-right: 0;
 		}
 
 		p.text {
 			font-weight: $fontWeightRegular;
 			color: $main-l4;
-			font-size: $fontSizeMedium;
 			margin: 0 0 1em;
 		}
 
@@ -71,11 +70,16 @@
 		h2.title {
 			font-size: $fontSizeLarge;
 			font-weight: $fontWeightBlack;
-			color: $main-l4;
+			color: $main-l2;
 			transition: all 0.4s;
 			transform: scale(1);
 			transform-origin: left;
 			margin-top: 0;
+		}
+		h3.title {
+			color: $main-l2;
+			margin: 0 0 $spacingSmall 0;
+			padding: 0;
 		}
 	}
 }
