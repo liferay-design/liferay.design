@@ -1,3 +1,4 @@
+import AnimateIn from './AnimateIn'
 import Button from './Button'
 import CardGrid from './CardGrid'
 import Container from './Container'
@@ -12,6 +13,7 @@ import SiteName from './SiteName'
 import Text from './Text'
 
 export {
+	AnimateIn,
 	Button,
 	Flex,
 	Heading,

@@ -65,9 +65,6 @@
 	min-height: 100%;
 	transition: all 0.4s;
 	overflow: hidden;
-	animation: animateIn 0.5s cubic-bezier(0.5, 1.35, 0.5, 1) forwards;
-	opacity: 0;
-	transform: translateY(5rem);
 	&:hover {
 		background-color: $lightestBlue;
 		box-shadow: $elevation2;
@@ -106,16 +103,5 @@
 @media screen and (max-width: $screenMedium) {
 	.card {
 		padding: 0;
-	}
-}
-
-@keyframes animateIn {
-	0% {
-		transform: translateY(5rem);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
 	}
 }
