@@ -15,33 +15,31 @@ const CardHidden = ({
 		<Link to={to} className={styles.cardHidden}>
 			<Flex
 				className={styles.card}
-				padding="2rem"
+				padding={icon ? "2rem 0" : ".5rem"}
 				style={delay ? { animationDelay: `${delay}` } : null}
 			>
-				<Flex
-					align="flex-start"
-					justify="center"
-					className={styles.icon}
-				>
-					<Icon
-						fill='primary'
-						className={styles.icon}
-						name={icon}
-						height='4em'
-						width='4em'
-						margin="0 .5rem 0 1.5rem"
-					/>
-				</Flex>
-				<Flex direction="column" className={styles.copy} >
-					<Heading level={2} className={styles.title}>
+				{icon ? (
+					<Flex align="flex-start" justify="center" className={styles.icon}>
+						<Icon
+							fill="primary"
+							className={styles.icon}
+							name={icon}
+							height="4em"
+							width="4em"
+							margin="0 .5rem 0 1.5rem"
+						/>
+					</Flex>
+				) : null}
+				<Flex direction="column" className={styles.copy}>
+					<Heading level={icon ? `${2}` : `${3}`} className={styles.title}>
 						{title}
 					</Heading>
-					<Text type="p" size="medium" className={styles.text}>
+					<Text type="p" size={icon ? "medium" : "base"} className={styles.text}>
 						{text}
 					</Text>
-					<Text type="p" size="base" weight="black" className={styles.cta}>
+					{cta ? <Text type="p" size="base" weight="black" className={styles.cta}>
 						{cta}
-					</Text>
+					</Text> : null}
 				</Flex>
 			</Flex>
 		</Link>
