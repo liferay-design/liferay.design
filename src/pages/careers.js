@@ -12,8 +12,9 @@ export default ({ data }) => {
 					Join the Team!
 				</Heading>
 				<CardGrid>
-					{data.allMdx.edges.map(({ node }) => (
+					{data.allMdx.edges.map(({ node }, index) => (
 						<CardDefault
+							delay={`${index}` * 0.1 + 's'}
 							avatarImage
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}

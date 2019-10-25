@@ -38,9 +38,12 @@ export default () => {
 	`)
 
 	const Events = data.allMdx.edges
-		.filter(edgeItem => moment(edgeItem.node.frontmatter.date).toDate() < Date.now())
-		.map(({ node }) => (
+		.filter(
+			edgeItem => moment(edgeItem.node.frontmatter.date).toDate() < Date.now(),
+		)
+		.map(({ node }, index) => (
 			<CardDefault
+				delay={`${index}` * 0.1 + 's'}
 				avatarImage
 				pill
 				tag={node.frontmatter.tag}

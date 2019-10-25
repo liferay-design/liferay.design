@@ -12,11 +12,12 @@ export default ({ data }) => {
 					The Squad
 				</Heading>
 				<CardGrid>
-					{data.allMdx.edges.map(({ node }) => (
+					{data.allMdx.edges.map(({ node }, index) => (
 						<CardDefault
+							delay={`${index}` * 0.1 + 's'}
 							key={node.id}
 							imageURL={node.frontmatter.author.headshot}
-							link={'/team/'+`${node.frontmatter.author.slug}`}
+							link={'/team/' + `${node.frontmatter.author.slug}`}
 							title={node.frontmatter.author.id}
 							subtitle={node.frontmatter.author.title}
 							icon={node.frontmatter.author.icon}
