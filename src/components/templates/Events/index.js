@@ -1,6 +1,6 @@
 import { Flex } from 'components/atoms'
 import { Author, GlobalMdx, SEO, Date as NiceDate } from 'components/molecules'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Footer, Navbar } from 'components/organisms'
 import { Link } from 'components/atoms'
 import { graphql } from 'gatsby'
@@ -97,7 +97,7 @@ export default class Events extends Component {
 							/>
 						) : null}
 						<GlobalMdx>
-							<MDXRenderer>{post.code.body}</MDXRenderer>
+							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
 					</Flex>
 				</div>
@@ -130,9 +130,7 @@ export const pageQuery = graphql`
 				bodyImage
 				ctaURL
 			}
-			code {
 				body
-			}
 			excerpt
 		}
 	}

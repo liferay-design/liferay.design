@@ -33,9 +33,7 @@ exports.createPages = ({ actions, graphql }) => {
 								frontmatter {
 									tags
 								}
-								code {
-									scope
-								}
+								body
 							}
 						}
 					}

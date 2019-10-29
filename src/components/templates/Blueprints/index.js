@@ -1,5 +1,5 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
@@ -88,7 +88,7 @@ export default class Blueprints extends Component {
 											</Flex>
 
 											<GlobalMdx>
-												<MDXRenderer>{mdx.code.body}</MDXRenderer>
+												<MDXRenderer>{mdx.body}</MDXRenderer>
 											</GlobalMdx>
 											<Flex justify="space-between">
 												<Text style="italic">
@@ -186,9 +186,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 			}
-			code {
 				body
-			}
 			parent {
 				... on File {
 					mtime

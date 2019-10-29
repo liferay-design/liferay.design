@@ -1,5 +1,5 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
@@ -154,7 +154,7 @@ export default class Lexicon extends Component {
 										) : null}
 
 										<GlobalMdx>
-											<MDXRenderer>{mdx.code.body}</MDXRenderer>
+											<MDXRenderer>{mdx.body}</MDXRenderer>
 										</GlobalMdx>
 									</ContainerMarkdown>
 									<FooterMarkdown light />
@@ -225,9 +225,7 @@ export const pageQuery = graphql`
 				devStatus
 				productName
 			}
-			code {
 				body
-			}
 		}
 	}
 `
