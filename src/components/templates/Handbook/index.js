@@ -1,7 +1,7 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer, GlobalMdx, SEO } from 'components/molecules'
 import { FooterMarkdown, Sidebar } from 'components/organisms'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
@@ -112,7 +112,7 @@ export default class Handbook extends Component {
 
 										<GlobalMdx>
 											<MDXRenderer>
-												{mdx.code.body}
+												{mdx.body}
 											</MDXRenderer>
 										</GlobalMdx>
 										<Flex align="center" justify="space-between">
@@ -235,9 +235,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 			}
-			code {
 				body
-			}
 			excerpt
 			parent {
 				... on File {

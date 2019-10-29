@@ -1,6 +1,6 @@
 import { Container, Flex } from 'components/atoms'
 import { GlobalMdx, SEO } from 'components/molecules'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
@@ -73,7 +73,7 @@ export default class Team extends Component {
 						className={styles.wrapper}
 					>
 						<GlobalMdx>
-							<MDXRenderer>{post.code.body}</MDXRenderer>
+							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
 					</Flex>
 				</div>
@@ -100,9 +100,7 @@ export const pageQuery = graphql`
 					twitter
 				}
 			}
-			code {
-				body
-			}
+			body
 			excerpt
 		}
 	}

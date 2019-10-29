@@ -1,5 +1,5 @@
 import { Container, Flex } from 'components/atoms'
-import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import { GlobalMdx } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
@@ -23,7 +23,7 @@ export default class Resources extends Component {
 					<Container>
 						<Flex direction="column" className={styles.wrapper}>
 							<GlobalMdx>
-								<MDXRenderer>{post.code.body}</MDXRenderer>
+								<MDXRenderer>{post.body}</MDXRenderer>
 							</GlobalMdx>
 						</Flex>
 					</Container>
@@ -42,9 +42,7 @@ export const pageQuery = graphql`
 				description
 				order
 			}
-			code {
 				body
-			}
 		}
 	}
 `
