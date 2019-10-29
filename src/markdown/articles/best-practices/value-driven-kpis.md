@@ -1,6 +1,6 @@
 ---
 author: 'David Kim'
-date: '2019-04-3T11:21:00.000Z'
+date: '2019-04-03T11:21:00.000Z'
 title: 'Value-Driven KPIs'
 featuredImage: '/images/posts/dbp/value-driven-kpis.png'
 publish: true
