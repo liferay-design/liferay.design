@@ -67,7 +67,7 @@ const Handbook = () => {
 								preTitle="Get Things Done"
 								title="Work"
 								text="Policies, guidelines, and best-practices for creating value in Liferay’s Design Department."
-								to="/handbook/work/remotely"
+								to="/handbook/work/introduction"
 							/>
 						</Grid.Item>
 						<Grid.Item area="c">
