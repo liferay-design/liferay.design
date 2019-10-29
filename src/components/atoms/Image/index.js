@@ -4,7 +4,7 @@ import React from 'react'
 import {colors, fontSizes } from 'theme'
 import styles from './styles.module.scss'
 
-const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, ...props }) => {
+export const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, ...props }) => {
 
 	const sizes = {
 		small: '50%',
