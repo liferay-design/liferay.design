@@ -33,7 +33,8 @@
 				color: $primary;
 				transition: all 0.4s;
 			}
-			h2.title {
+			h2.title,
+			h3.title {
 				color: $primary;
 				transform: scale(1.04);
 				transform-origin: left;
@@ -64,17 +65,20 @@
 			color: lighten($main-l4, 16%);
 			transition: all 0.4s;
 		}
-		h2.title {
-			font-size: $fontSizeLarge;
-			font-weight: $fontWeightBlack;
+
+		h2.title,
+		h3.title {
 			color: $main-l2;
 			transition: all 0.4s;
 			transform: scale(1);
 			transform-origin: left;
+		}
+		h2.title {
+			font-size: $fontSizeLarge;
+			font-weight: $fontWeightBlack;
 			margin-top: 0;
 		}
 		h3.title {
-			color: $main-l2;
 			margin: 0 0 $spacingSmall 0;
 			padding: 0;
 		}
