@@ -1,5 +1,5 @@
 ---
-name: '\U0001f537 Lexicon issue'
+name: ':large_blue_diamond: Lexicon issue'
 about: Create an issue for Lexicon
 assignees: drakonux
 labels: lexicon

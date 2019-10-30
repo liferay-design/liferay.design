@@ -1,5 +1,5 @@
 ---
-name: '\u25d0 Feature request'
+name: ':black_circle: Feature request'
 about: Suggest an idea for this project
 ---
 
