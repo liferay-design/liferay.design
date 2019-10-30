@@ -32,7 +32,7 @@ export default class Handbook extends Component {
 	render() {
 		const {
 			data: { allMdx, mdx },
-			location: { pathname },
+			location: { pathname }, 
 		} = this.props
 
 		return (
@@ -41,6 +41,7 @@ export default class Handbook extends Component {
 					description={mdx.excerpt}
 					keywords='Liferay Design Handbook, handbook, designer handbook'
 					pageTitle={mdx.frontmatter.title}
+					previewImage='https://liferay.design/images/handbook/handbook.png'
 					contentType='article'
 					/>
 				<MediaQuery maxWidth={767}>
