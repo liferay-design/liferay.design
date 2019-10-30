@@ -35,7 +35,7 @@ const Handbook = () => {
 				simpleNav
 				preTitle="Liferay.Design"
 				headline="Handbook"
-				subtitle="We Not Me"
+				subtitle="We, Not Me"
 				section="Handbook"
 				background="#13141F"
 				underlineColor={colors.primary}

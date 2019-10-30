@@ -221,7 +221,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## Starting Phresh
 
-_See our [GitHub Setup Guide](https://liferay.design/handbook/work/tools/github/setup/)_
+_See our [GitHub Setup Guide](https://liferay.design/handbook/tools/github/introduction/)_
 
 ### Notes
 
