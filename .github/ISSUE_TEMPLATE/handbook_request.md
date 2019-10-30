@@ -1,5 +1,5 @@
 ---
-name: Handbook request ":notebook:"
+name: '\U0001f4d3 Handbook request'
 about: Make a request for liferay.design/handbook
 assignees: plhnk
 labels: handbook

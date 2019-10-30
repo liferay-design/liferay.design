@@ -1,5 +1,5 @@
 ---
-name: Bug report ":bug:"
+name: '\U0001f41b Bug report'
 about: Create a report to help us improve
 ---
 

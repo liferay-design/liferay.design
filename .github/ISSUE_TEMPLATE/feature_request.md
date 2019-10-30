@@ -1,7 +1,6 @@
 ---
-name: Feature request
+name: '\u25d0 Feature request'
 about: Suggest an idea for this project
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
