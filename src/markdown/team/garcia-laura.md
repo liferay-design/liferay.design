@@ -1,5 +1,5 @@
 ---
-author: Laura Garcia
+author: Laura García
 ---
 
 ## How did you get into design? 👀
@@ -45,7 +45,7 @@ Be curious, never stop learning, don’t get comfortable and keep doing things.
 
 ## Last book you read? 📖
 
-The Urban Monk by Pedram Shojai
+The Urban Monk by Pedram Shojai.
 
 ## Most effective productivity booster? 🧘🏻‍♀️
 
