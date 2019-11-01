@@ -1,5 +1,5 @@
 import { Container, Icon, Link, Text } from 'components/atoms'
-import { Billboard, CardLexicon } from 'components/molecules'
+import { Billboard, CardLexicon, SEO } from 'components/molecules'
 import { Banner, Footer } from 'components/organisms'
 import React from 'react'
 import MediaQuery from 'react-responsive'
@@ -9,6 +9,10 @@ import documentation from 'theme/documentation.module.scss'
 
 const Lexicon = () => (
 	<div className={`${lexicon.theme} ${documentation.theme}`}>
+		<SEO
+			description="Lexicon is a design language that provides a common framework for building interfaces within the Liferay product ecosystem."
+			pageTitle="Liferay Lexicon | An Experience Language for Crafting Beautiful UI"
+		/>
 		<Banner
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
