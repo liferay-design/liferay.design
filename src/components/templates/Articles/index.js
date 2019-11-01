@@ -15,17 +15,17 @@ export default class Articles extends Component {
 		return (
 			<div>
 				<SEO
-					description={
+					description={post.excerpt}
+					previewImage={
+						'https://liferay.design' + post.frontmatter.featuredImage
+					}
+					keywords={post.frontmatter.tags}
+					pageTitle={
 						`${post.frontmatter.title}` +
 						' - an article by ' +
 						`${post.frontmatter.author.id}` +
 						' on Liferay.Design'
 					}
-					previewImage={
-						'https://liferay.design' + post.frontmatter.featuredImage
-					}
-					keywords={post.frontmatter.tags}
-					pageTitle={post.frontmatter.title}
 					twitterHandle={
 						post.frontmatter.author.twitter
 							? post.frontmatter.author.twitter
