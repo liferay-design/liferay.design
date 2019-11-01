@@ -6,7 +6,7 @@ import React from 'react'
 const SEO = ({ description, previewImage, keywords, pageTitle, twitterHandle,canonicalLink, contentType }) => {
 	return (
 		<Helmet>
-			<title>{description}</title>
+			<title>{pageTitle}</title>
 			{contentType ? (
 				<meta property="og:type" content={contentType} />
 			) : (
