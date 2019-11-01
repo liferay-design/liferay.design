@@ -1,5 +1,5 @@
 import { CardGrid, Container, Heading, Link, Flex } from 'components/atoms'
-import { CardDefault } from 'components/molecules'
+import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { colors, fontSizes, fontWeights } from 'theme'
 import { graphql } from 'gatsby'
@@ -8,6 +8,10 @@ import React from 'react'
 export default ({ data }) => {
 	return (
 		<MainLayout section="Articles">
+			<SEO
+				description="Articles, posts, best practices, how-to's and more from Liferay's Design Team"
+				pageTitle="Liferay.Design | Articles"
+			/>
 			<Container>
 				<Flex direction="row" justify="space-between">
 					<Heading level={1} color="white" padding="4rem">

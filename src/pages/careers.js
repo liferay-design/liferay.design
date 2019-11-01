@@ -1,5 +1,5 @@
 import { CardGrid, Container, Heading } from 'components/atoms'
-import { CardDefault } from 'components/molecules'
+import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
@@ -7,6 +7,10 @@ import React from 'react'
 export default ({ data }) => {
 	return (
 		<MainLayout section="Careers">
+			<SEO
+				description="Liferay is looking for designers who are passionate about open source technology — apply today!"
+				pageTitle="Liferay.Design | Careers"
+			/>
 			<Container>
 				<Heading level={1} color="white" padding="4rem">
 					Join the Team!

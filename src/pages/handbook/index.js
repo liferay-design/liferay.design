@@ -1,5 +1,5 @@
 import { Container, Text, Heading } from 'components/atoms'
-import { CardLexicon, CardHidden, FancyFooter, FormNewsletter } from 'components/molecules'
+import { CardLexicon, CardHidden, FancyFooter, FormNewsletter, SEO } from 'components/molecules'
 import { Banner, Footer, ChangelogFeed } from 'components/organisms'
 import React from 'react'
 import MediaQuery, {useMediaQuery} from 'react-responsive'
@@ -26,11 +26,11 @@ const Handbook = () => {
 
 
 	return (
-		<div
-			className={`${blueprints.theme} ${documentation.theme} ${
-				styles.handbook
-			}`}
-		>
+		<div className={`${blueprints.theme} ${documentation.theme} ${styles.handbook}`}>
+			<SEO
+				description="The open source handbook for Liferay's Design Department"
+				pageTitle="Liferay.Design | Handbook"
+			/>
 			<Banner
 				simpleNav
 				preTitle="Liferay.Design"
@@ -40,16 +40,14 @@ const Handbook = () => {
 				background="#13141F"
 				underlineColor={colors.primary}
 				cta="Get Started"
-				ctaLink='/handbook/welcome'
+				ctaLink="/handbook/welcome"
 			/>
 			<div className={styles.wrapper}>
 				<Container>
 					<Grid
 						className={styles.teasers}
 						gap="2rem"
-						template={
-							isTabletOrMobile ? mobileGridTemplate : gridTemplate
-						}
+						template={isTabletOrMobile ? mobileGridTemplate : gridTemplate}
 					>
 						<Grid.Item area="a">
 							<CardLexicon
@@ -161,11 +159,7 @@ const Handbook = () => {
 				</Container>
 				<Container>
 					<div className={styles.gagb}>
-						<Text
-							color="lightGrey"
-							weight="inherit"
-							className={styles.date}
-						>
+						<Text color="lightGrey" weight="inherit" className={styles.date}>
 							Since 2004
 						</Text>
 						<Heading>
