@@ -25,7 +25,7 @@ export default class Events extends Component {
 					description={post.excerpt}
 					previewImage={post.frontmatter.heroImage}
 					keywords={'event, events in ' + `${post.frontmatter.office.id}` }
-					pageTitle={`${post.frontmatter.title}` + '| Event in' + `${post.frontmatter.office.id}`}
+					pageTitle={`${post.frontmatter.title}` + ' | Liferay.Design Event in ' + `${post.frontmatter.office.id}`}
 					contentType='event'
 				/>
 				<Navbar section="Events" />
