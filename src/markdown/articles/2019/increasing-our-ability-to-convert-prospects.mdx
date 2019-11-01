@@ -1,28 +1,28 @@
 ---
 author: 'Abel Hancock'
 date: '2019-10-30'
-title: 'Enable Liferay to Convert Prospects'
-featuredImage: '/images/posts/ah-enable-liferay-to-convert-prospects-lrdc.png'
+title: 'Increasing Our Ability to Convert Prospects'
+featuredImage: '/images/posts/ah-enable-liferay-marketing.png'
 publish: true
 ---
 
-import { Image } from 'components/atoms'
+import { Image, Link } from 'components/atoms'
 
 ### A look at how 5 developers and 1 designer have scaled up their ability to support marketing operations while being forced to scale down their team size.
 
-_<small>Disclaimer: This is a piece written from a designer’s perspective on projects that focus on supporting the marketing department. It is by no means the extent of the work done by the web team this year and does not focus on customer-centric projects, rather internal value projects.</small>_
+_<small>Disclaimer: This is a piece written from a designer’s perspective on projects that focus on supporting the marketing department. It is by no means the extent of the work done by the web team this year.</small>_
 
-Last year the web team had 9 developers working on liferay.com. In 2017 there were 4.5 designers dedicated to liferay.com. Since then, we have steadily decreased the team down to 5 developers and 1 designer, __making the current team less than half the size that it was previously__. However, we are able to meet the demands of marketing more effectively than ever before.
+Last year the web team had 9 developers and 1.5 designers working on liferay.com. In the months since, we have steadily decreased the team down to 5 developers and 1 designer, **making the current team about half the size that it was**. However, we are able to meet the demands of a growing marketing organization more effectively than ever before.
 
 A primary focus in 2019 has been to create tools and infrastructure to support marketing self-service. As our product evolves to enable business user self-service we are evolving as an internal marketing organization. This allows us to spend less time and effort on small-scale, but necessary, production tasks and more time evaluating and optimizing liferay.com holistically as a tool for generating quality leads and helping retain successful customers.
 
 ## Landing Page Builder
 
-__<small style="margin-bottom: 2em;">Implementing a new landing page on liferay.com moved from being a developer task that took up to 3 weeks to be prioritized to an on-demand marketer task with an immediate turnaround and increased landing page functionality.</small>__
+**<small style="margin-bottom: 2em;">Implementing a new landing page on liferay.com moved from being a developer task that took up to 3 weeks to be prioritized to an on-demand marketer task with an immediate turnaround and increased landing page functionality.</small>**
 
 <br />
 
-<a href="https://www.figma.com/proto/lFwAROvThZPyZuugayk1Ro/landing-page-project?node-id=1895%3A249&viewport=817%2C1492%2C0.1658020317554474&scaling=scale-down" target="_blank">
+<Link to="https://www.figma.com/proto/lFwAROvThZPyZuugayk1Ro/landing-page-project?node-id=1895%3A249&viewport=817%2C1492%2C0.1658020317554474&scaling=scale-down">
 	<Image
 		src="images/posts/ah-enable-liferay-to-convert-prospects-landing-page.png"
 		rounded
@@ -32,44 +32,39 @@ __<small style="margin-bottom: 2em;">Implementing a new landing page on liferay.
 		margin="0 0 6rem 2rem"
 		caption="Landing page template example"
 	/>
-</a>
+</Link>
 
-The design and development resources available to marketing have historically been insufficient to produce the amount of content required by marketing operations, even when the team was much larger. The first step to alleviate the unattainable demand was our Events Sites Template project in 2017/18 which has been highly successful at freeing up developer resources. Next, for phase 1 of this landing page project, we implemented a static (single layout) landing page template to __unify our landing page design, optimize conversion, and reduce development and design overhead__ per page produced. 
+The design and development resources available to marketing have historically been insufficient to produce the amount of content required by marketing operations, even when the team was much larger. The first step to alleviate the unattainable demand was our Events Sites Template project in 2017/18 which has been highly successful at freeing up developer resources. Next, for phase 1 of this landing page project, we implemented a static (single layout) landing page template to **unify our landing page design, optimize conversion, and reduce development and design overhead** per page produced.
 
-For phase 2, we implemented a full self-service landing page builder that __enables marketers to create, customize, publish, test, and optimize landing pages__ with almost zero involvement from design or development. This brought the involvement from design and development to almost zero, while providing marketing with a much more robust solution to capture leads.
+For phase 2, we implemented a full self-service landing page builder that **enables marketers to create, customize, publish, test, and optimize landing pages** with almost zero involvement from design or development. This brought the involvement from design and development to almost zero, while providing marketing with a much more robust solution to capture leads.
 
-Available to marketers today are __18 landing page templates__ optimized for conversion in various use cases and __30+ configurable fragments__ to customize the pages with.
-
+Available to marketers today are **18 landing page templates** optimized for conversion in various use cases and **30+ configurable fragments** to customize the pages with.
 
 ## Product Launch Support
 
-
 | 2018                  | 2019                         | 2020 (estimated) |
-|-----------------------|------------------------------|------------------|
+| --------------------- | ---------------------------- | ---------------- |
 | 7 developers          | 2 developers (+3 for 1 week) | 2 developers     |
 | 3 designers           | 1 designer                   | 1 designer       |
 | 6 new pages/templates | 6 new pages/templates        |                  |
 | 8 weeks               | 7 weeks                      | 2 weeks          |
 | 100+ hours overtime   | ~32 hours overtime           | 0 hours overtime |
 
-
-
 #### MSB Migration
 
 To enable full marketer self-service on liferay.com the next step from creating a landing page builder has been to move all of liferay.com to modern site building. This involves rebuilding liferay.com using fragments and content pages. In the process, we have also implemented a modular component architecture, Liferay Marketing Design System, which significantly reduces the overhead of maintaining the site and creating new fragments.
 
-While moving the entirety of liferay.com to MSB will be a process, the majority of our __new pages moving forward will be built out by marketers using MSB with little support needed from design and development.__ This means when we launch DXP/Commerce in 2020 we expect minimal designer & developer involvement.
-
+While moving the entirety of liferay.com to MSB will be a process, the majority of our **new pages moving forward will be built out by marketers using MSB with little support needed from design and development.** This means when we launch DXP/Commerce in 2020 we expect minimal designer & developer involvement.
 
 ## Liferay Marketing Design System
 
-__<small>To support and maintain the growing autonomy of marketers and create stability and maintainability across our domains, we created the Liferay Marketing Design System.</small>__
+**<small>To support and maintain the growing autonomy of marketers and create stability and maintainability across our domains, we created the Liferay Marketing Design System.</small>**
 
 <br />
 
 #### Design Components
 
-<a href="https://www.figma.com/file/LG6yyu4QJJSSHpbuX0vkgo/liferay-marketing?node-id=31%3A676&viewport=3110%2C-1335%2C1.0286442041397095" target="_blank">
+<Link to="https://www.figma.com/file/LG6yyu4QJJSSHpbuX0vkgo/liferay-marketing?node-id=31%3A676&viewport=3110%2C-1335%2C1.0286442041397095">
 	<Image
 		src="images/posts/ah-enable-liferay-to-convert-prospects-component-library.png"
 		rounded
@@ -79,7 +74,7 @@ __<small>To support and maintain the growing autonomy of marketers and create st
 		margin="0 0 6rem 2rem"
 		caption="Figma component library"
 	/>
-</a>
+</Link>
 
 Creating a solid component architecture for liferay.com both in development and design means less developer and designer involvement today and exponentially long-term. We have created a full component library in our design tool, Figma, consisting of 470+ ready to use components which significantly reduce the turnaround time to create new designs and enables design consistency across the site.
 
@@ -90,7 +85,7 @@ Creating a solid component architecture for liferay.com both in development and 
 
 #### Documentation
 
-<a href="https://style.liferay.design" target="_blank">
+<Link to="https://style.liferay.design">
 	<Image
 		src="images/posts/ah-enable-liferay-to-convert-prospects-style-site.png"
 		rounded
@@ -100,13 +95,13 @@ Creating a solid component architecture for liferay.com both in development and 
 		margin="0 0 6rem 2rem"
 		caption="style.liferay.design"
 	/>
-</a>
+</Link>
 
 Thorough documentation of components for designers, developers, and marketers enables proper implementation and consistency across our site with minimal effort. The design system is also available for any other Liferay team or project to implement quickly and easily, maintaining brand consistency and reducing turnaround and overhead for new sites/projects.
 
 ## Documentation Site
 
-__<small>Centralized documentation for the entire marketing department reduces errors, increases effectiveness, and optimizes processes.</small>__
+**<small>Centralized documentation for the entire marketing department reduces errors, increases effectiveness, and optimizes processes.</small>**
 
 <br />
 
@@ -114,7 +109,7 @@ As part of our goal to enable marketers to work effectively we centralized all m
 
 ## Product Feedback Loop
 
-__<small>We are able to provide value to our customers and marketers by providing product feedback from a real-world application.</small>__
+**<small>We are able to provide value to our customers and marketers by providing product feedback from a real-world application.</small>**
 
 <br />
 
@@ -129,9 +124,9 @@ __<small>We are able to provide value to our customers and marketers by providin
 
 Much of the increased efficiency made this year would not be possible without the significant product improvements in DXP 7.2. To continue making these product improvements and adding value to our customers and marketers we are now in a consistent and structured feedback loop with the Echo team. This is the first time a team with a real-world application of DXP is providing continual feedback directly to the product team. Thanks to Brian Chan for pushing this to happen. Both teams are finding this communication invaluable and our marketing team is directly benefiting from functionality and fixes being released.
 
-## Smaller Projects 
+## Smaller Projects
 
-#### Triblio Templates
+### Triblio Templates
 
 <Image
 	src="images/posts/ah-enable-liferay-to-convert-prospects-triblio.png"
@@ -146,32 +141,21 @@ We have created 5 Liferay branded Triblio overlay templates in use by marketers 
 
 ## Summary
 
-#### So what about all that time we’re saving?
+### So what about all that time we’re saving?
 
 This year has seen better than expected progress in enabling marketers to do their job with significantly reduced involvement from design and development. As we continue to reduce design and developer involvement in the operational work of marketing we can increase the focus on improving and optimizing our buyer’s experience, retaining existing customers and helping them succeed, and improving the integrity of our systems.
 
-<br />
-
-#### All this and more…
+### All this and more…
 
 All the projects and successes mentioned have been accomplished while still:
 
-*   Launching [Customer Success](https://www.liferay.com/services/success/journey/dxp-cloud)
-*   Upgrading from 7.0 to 7.1 to 7.2 to sp1
-*   Initiating [#DesignBestPractices](https://liferay.design/tags/best-practices)
-*   Researching our buyer’s journey
-*   Refreshing our [Gartner](https://www.liferay.com/company/gartner/magic-quadrant-digital-experience-platforms), Contact Sales, [Global Services](https://www.liferay.com/consulting), and [404](https://www.liferay.com/404) pages
-*   Redesigning our [solutions pages](https://www.liferay.com/solutions/industries/insurance)
-*   Implementing IDIO across the site
-*   Implementing Hubspot embed across the site
-*   Supporting 10+ events
-*   Keeping everyone generally happy:)
-
-<br />
-
-#### Thank you, and thank them
-
-It’s been a long, great year and your web team is working extremely hard to support the growing needs of the marketing department and Liferay as a whole. If you get a chance, thank Justin, Johanna, Emir, Allan, Emily, and Ryan and realize that every customer we win or retain is in part due to the dedication of those six extremely hard workers.
-
-
-* This article is written with the assumpion that we will complete the projects slated for completion by Jan 1, 2020.
+-   Launching [Customer Success](https://www.liferay.com/services/success/journey/dxp-cloud)
+-   Upgrading from 7.0 to 7.1 to 7.2 to sp1
+-   Initiating [#DesignBestPractices](/tags/best-practices)
+-   Researching our buyer’s journey
+-   Refreshing our [Gartner](https://www.liferay.com/company/gartner/magic-quadrant-digital-experience-platforms), Contact Sales, [Global Services](https://www.liferay.com/consulting), and [404](https://www.liferay.com/404) pages
+-   Redesigning our [solutions pages](https://www.liferay.com/solutions/industries/insurance)
+-   Implementing IDIO across the site
+-   Implementing Hubspot embed across the site
+-   Supporting 10+ events
+-   Keeping everyone generally happy:)
