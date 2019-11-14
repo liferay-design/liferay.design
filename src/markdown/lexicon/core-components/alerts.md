@@ -73,3 +73,13 @@ Embedded alerts are meant for use in forms. Usually you will only need to use th
 An example is shown below:
 
 ![embedded alert example. Placed inside a form.](/images/lexicon/AlertEmbeddedExample.png)
+
+#### Stripe
+
+Stripe alerts can be an alternative solution for embedded and toast alerts because they save vertical space. They are usually placed closer to form sections and headers.
+
+![the four stripe alerts: success, error, info and warning](/images/lexicon/AlertStripe.png)
+
+A modal window with an information stripe alert:
+
+![an info stripe alert within a modal windows](/images/lexicon/AlertStripeExample.png)
