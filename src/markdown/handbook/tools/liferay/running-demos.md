@@ -29,19 +29,19 @@ You don’t need to run all demos. Just run the ones you need to have data in Po
 
 Example from `liferay-portal` folder
 
-```sh
+```bash
 cd modules/apps/journal/journal-demo
 ```
 
 Once there run
 
-```sh
+```bash
 gradle deploy
 ```
 
 If you don’t have gradlew configured in your bash you will need to run something like:
 
-```sh
+```bash
 /Users/victorvalle/liferay/liferay-portal/gradlew deploy
 ```
 

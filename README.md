@@ -56,7 +56,7 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
     - open Terminal and type:
 
-    ```sh
+    ```bash
     npm install
     ```
 
@@ -64,7 +64,7 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 1. **Start up the dev server**
 
-    ```sh
+    ```bash
     npm run dev
     ```
 
