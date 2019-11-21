@@ -6,6 +6,7 @@ featuredImage: '/images/posts/2019-evp/intro-post-hero.png'
 publish: true
 ---
 
+import { FormNewsletter } from 'components/molecules'
 import { Flex, Image, Heading, Text, Link } from 'components/atoms'
 import { Grid } from 'reakit'
 
@@ -43,7 +44,7 @@ This year, we put our heads together and thought it would be great if there was 
 
 ## About the Organization
 
-Underground Writing serves at-risk communities in the greater Seattle area in Washington by providing a creative workshops exposing people to the power that reading and writing can have to improve their lives and communities.
+Underground Writing serves at-risk communities in Skagit County, Washington by providing a creative workshops exposing people to the power that reading and writing can have to improve their lives and communities.
 
 > We are a literature-based creative writing program serving migrant, incarcerated, recovery, and other at-risk communities in northern Washington through literacy and personal transformation.
 >
@@ -55,39 +56,42 @@ _An exciting aspect about working with Underground Writing, aside from an abilit
 
 ## About the Work
 
-<Image src="/images/posts/2019-evp/intro-tech-stack.png" rounded size="small" align="right" margin="2rem 0 0 2rem" />
 
 _After an initial discovery call, we learned that there were 4 areas that we could focus on:_
 
+<Image src="/images/posts/2019-evp/intro-tech-stack.png" rounded size="small" align="right" margin="2rem 0 0 2rem" caption='Drake says "Dropbox is so 2017"' />
+
 ### Tech Stack
 
-UW is currently using a few different SaaS products (Zoho, Dropbox, probably others) — we’ll have the opportunity to set them up with Google Apps for Business using Google’s free-for-nonprofit option, as well as uncover new opportunities as we go.
+UW is currently using a few different SaaS products (Zoho, Dropbox, probably others) — they were on free or small pricing tiers, but after our brief analysis we discovered that they had yet to leverage their official status as a nonprofit [for various discounts](https://katieallred.com/nonprofit-discounts/).
 
-<br />
-<br />
-<br />
+A few of us have experience setting up [Google's various offerings for nonprofits](https://www.google.com/nonprofits/), which was somethign that the UW team was very excited for.
+
+Additionally, we uncovered a few other areas where operations could be streamlined by adding or subtracting technology.
 
 <div style="float:right; width:180px;">
-    <Image src="/images/posts/2019-evp/intro-logo.png" rounded align="right" margin="0 0 2rem 2rem" caption="The Underground Writing logo" />
+    <Image src="/images/posts/2019-evp/intro-logo.png" rounded align="right" margin="2rem 0 2rem 2rem" caption="The Underground Writing logo" />
 </div>
 
 ### Branding
 
-They have a logo they really love, but didn't really have anything else as far as a documented brand. We aimed to provide more documentation around their brand to start, there’s a lot of other opportunities here, but we ended up prioritizing infrastructure for our first foray with them.
+They have a logo they really love, but that was really the extend of their documented brand. We aimed to provide more documentation around their brand to start &mdash; opportunities included providing additional brand guidelines around messaging, color palettes, iconography, and other sub-brands. 
+
+There are still more opportunities which we'll touch on in later posts, but we definitely had to prioritize and deliver a MVB _(Minimum Viable Brand — its a thing, trust us, don't google it)_.
 
 ### Website
 
 [Undergroundwriting.org](https://undergroundwriting.org) was originally a Squarespace site that Matt put together. It was quite limited and he wasn't able to prioritize a custom site, so we built him one in Webflow.
 
-<Image src="/images/posts/2019-evp/intro-website.jpg" margin="2rem 0" caption="Undergroundwriting.org before we began the project." />
+<Image src="/images/posts/2019-evp/intro-website.jpg" margin="2rem 0" caption="Undergroundwriting.org before we began the project." size="large" />
 
-It was a tall task, there were a number of integrations and features — Donorbox, Mailchimp, a storefront, and a podcast — we definitely had our work cut out for us there, but our team rose to the challenge.
+It was a tall task, there were a number of integrations and features we had to account for — Donorbox, Mailchimp, a storefront, a podcast, and probably others. We definitely had our work cut out for us there, but our team rose to the challenge.
 
 ### Service Design
 
-We saw a huge opportunity to connect their workshops, students, teachers, and administrators to their website via their tech stack.
+We saw a huge opportunity to connect their workshops, students, teachers, and administrators via a unified technology stack.
 
-Instead of a manual, time-consuming process filling out spreadsheets and uploading to Dropbox, if they could do it all through the website or using Google Forms, it would be a huge benefit to them.
+For example, it would be hugely beneficial if they could obviate the need for filling out spreadsheets and uploading them to Dropbox by leveraging a Google Forms to Sheets and Docs app.
 
 ## Meet the Team
 
@@ -98,7 +102,7 @@ Instead of a manual, time-consuming process filling out spreadsheets and uploadi
         </Grid.Item>
         <Grid.Item>
             <Link to="/team/connolly-ryan"><Heading level="3">Ryan Connolly</Heading></Link> 
-            <Text>Branding is Ryan’s specialty, his agency background really shines when he gets his hands on a raw, new brand.</Text>
+            <Text>In addition to dentistry, branding is one of Ryan’s passions. He has been prevented from practicing the former by numerous medical boards, thankfully he has diverted his energy to the latter. His agency background really shines when he gets his hands on a raw, new brand.</Text>
         </Grid.Item>
         <Grid.Item>
             <Image src="images/headshots/hancock-abel.jpg" circle margin=".5rem 0" />
@@ -162,4 +166,10 @@ Instead of a manual, time-consuming process filling out spreadsheets and uploadi
 
 ## Coming Up...
 
-In Part 2, we'll take a look at how we approached and executed on making changes to an organization's IT infrastructure. It's gonna be great!
+In Part 2, James will share how we revitalized Underground Writing's IT infrastructure. It's gonna be great!
+
+## Smash that Like button!
+
+Kidding &mdash; we haven't finished gamifying the site yet &mdash; but we do have a newsletter you can sign up for to receive the latest when it drops.
+
+<FormNewsletter/>
