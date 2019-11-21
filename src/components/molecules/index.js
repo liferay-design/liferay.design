@@ -2,6 +2,7 @@ import Accordion from './Accordion'
 import AssetsAccordion from './AssetsAccordion'
 import AuthContainer from './AuthContainer'
 import Author from './Author'
+import Avatar from './Avatar'
 import Billboard from './Billboard'
 import BillboardAlt from './BillboardAlt'
 import CardAsset from './CardAsset'
@@ -30,6 +31,7 @@ export {
 	AssetsAccordion,
 	AuthContainer,
 	Author,
+	Avatar,
 	Billboard,
 	BillboardAlt,
 	CardAsset,

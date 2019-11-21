@@ -92,8 +92,7 @@ export default class Events extends Component {
 						{post.frontmatter.author ? (
 							<Author
 								id={post.frontmatter.author.id}
-								avatar={post.frontmatter.author.avatar}
-								slug={post.frontmatter.author.slug}
+								margin="0 0 2rem -3.5rem"
 							/>
 						) : null}
 						<GlobalMdx>

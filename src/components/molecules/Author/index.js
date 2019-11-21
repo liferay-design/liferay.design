@@ -1,22 +1,40 @@
-import { Text, Link, Image, Flex } from 'components/atoms'
-import PropTypes from 'prop-types'
 import React from 'react'
-import styles from './styles.module.scss'
+import { useStaticQuery, graphql } from 'gatsby'
+import { Image, Link, Text, Flex } from 'components/atoms'
 
-const Author = ({ id, avatar, slug }) => {
+export default ( {id, guest, ...props} ) => {
+	const data = useStaticQuery(graphql`
+		{
+            allAuthorsYaml {
+                edges {
+                    node {
+                        id
+                        slug
+                        headshot
+                    }
+                }
+            }
+        }
+	`)
+
+	const author = data.allAuthorsYaml.edges
+        .filter(edges => edges.node.id === id)
+        .map(({ node }) => (
+			<Flex {...props} align="center">
+				<Link to={'/team/' + `${node.slug}`}> 
+					<div
+						style={{marginRight:'.5rem', width:'3rem'}}
+					>
+						<Image circle src={node.headshot} />
+					</div>
+				</Link>
+				<Text size="medium" color="grey" >
+	 				by {''}
+	 				<Link to={'/team/' + `${node.slug}`}>{id}</Link>
+	 			</Text>
+			</Flex>
+        ))
+
 	return (
-		<Flex align="center" className={styles.author}>
-			<Image src={avatar} className={styles.avatar} />
-			<Text>
-				by {''}
-				<Link to={'/team/' + `${slug}`}>{id}</Link>
-			</Text>
-		</Flex>
-	)
-}
-
-Author.propTypes = {
-	id: PropTypes.string,
-}
-
-export default Author
+        <div>{author}</div>
+	)}
