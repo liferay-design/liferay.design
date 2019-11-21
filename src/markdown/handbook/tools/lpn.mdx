@@ -26,15 +26,15 @@ _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fas
 1.  [Install lpn](https://github.com/mdelapenya/lpn#installation)
 1.  Go to last release, open the panel and download darwin - amd64 (if you are on mac)
 1.  Open your terminal and go to where the file has been downloaded. By default Downloads folder.
-    ```sh
+    ```bash
     cd Download
     ```
 1.  Move the file to bin folder
-    ```sh
+    ```bash
     mv lpn /usr/local/bin
     ```
 1.  Go to that folder
-    ```sh
+    ```bash
     chmod +x /usr/local/bin
     ```
 1.  By this point you should have lpn running in your computer. Now you can run images as shown in next section.
@@ -43,19 +43,19 @@ _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fas
 
 To run master
 
-```sh
+```bash
 lpn run nightly -p 8081 -t 20180426
 ```
 
 To run 7.0
 
-```sh
+```bash
 lpn run release -t 7-ce-ga6-tomcat-hsql -p 8888
 ```
 
 To run commerce
 
-```sh
+```bash
 lpn run commerce -p 8081 -t 20180426
 ```
 

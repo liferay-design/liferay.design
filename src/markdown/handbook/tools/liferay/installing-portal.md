@@ -13,7 +13,7 @@ If you are a product designer working in a Liferay DXP related project this guid
 
 Make sure you have brew installed in your machine. For that type in your terminal
 
-```sh
+```bash
 brew -v
 ```
 
@@ -27,7 +27,7 @@ Make sure you have brew installed in your machine. For that type in your termina
 
 Otherwise
 
-```sh
+```bash
 brew install gradle
 ```
 
@@ -35,7 +35,7 @@ brew install gradle
 
 Open your terminal and go to the place in your machine where you want to have the code. There type
 
-```sh
+```bash
 git clone https://github.com/liferay/liferay-portal
 ```
 
@@ -53,7 +53,7 @@ _Note: you need to [install mysql](https://dev.mysql.com/doc/refman/5.6/en/osx-i
 
 Just type
 
-```sh
+```bash
 	../bundles/tomcat-9.0.17/bin/catalina.sh run
 ```
 
@@ -63,7 +63,7 @@ _Note: you will need to install **ant → `brew install ant`**_
 
 I personally run these 2 commands every morning when I arrive to the office to get the latest changes in the repo.
 
-```sh
+```bash
 git pull
 ant all
 ```
