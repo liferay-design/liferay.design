@@ -26,12 +26,13 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 	
 	const figureStyles = {
 		...(size ? { width: sizes[size] } : {} ),
+		...(circle ? { position: 'relative', paddingTop:'100%' } : {} ),
 		...(margin ? { margin: [margin] } : {margin: 0} ),
 		...(align ? alignments[align] : { marginLeft:'auto', marginRight:'auto' }), // center images by default
 	}
 
 	const imgStyles = {
-		...(circle ? { borderRadius: '50%' } : {}),
+		...(circle ? { borderRadius: '50%', position: 'absolute', top:'0', height:'100%' } : {}),
 		...(rounded ? { borderRadius: `${fontSizes.micro}` } : {}),
 		...(dropShadow
 			? { boxShadow: '0 0.5rem 8rem -0.5rem rgba(48, 49, 63, 0.16)' }
