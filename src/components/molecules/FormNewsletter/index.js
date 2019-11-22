@@ -9,6 +9,7 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 			name="newsletter"
 			data-netlify="true"
 			data-netlify-honeypot="bot-field"
+			data-netlify-recaptcha="true"
 		>
 			<div className={styles.field}>
 				<input
@@ -18,7 +19,9 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 					placeholder={placeholderText}
 					required
 				/>
-				<label className={styles.label} htmlFor="email">Email Address</label>
+				<label className={styles.label} htmlFor="email">
+					Email Address
+				</label>
 				<input
 					type="submit"
 					name="submit"
@@ -28,6 +31,7 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 			</div>
 			<input type="hidden" name="bot-field" />
 			<input type="hidden" name="form-name" value="newsletter" />
+			<div data-netlify-recaptcha="true"></div>
 		</form>
 	)
 }
