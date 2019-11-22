@@ -8,7 +8,10 @@ export default () => {
 		{
 			allMdx(
 				limit: 3
-				filter: { fileAbsolutePath: { regex: "/(articles)/" } }
+				filter: { 
+					fileAbsolutePath: { regex: "/(articles)/" } 
+					frontmatter: { publish: {eq: true}}
+			}
 				sort: { order: DESC, fields: [frontmatter___date] }
 			) {
 				totalCount
