@@ -88,7 +88,7 @@ export default class Events extends Component {
 					</Link>
 				) : null}
 				<div className={styles.markdownContainer}>
-					<Flex direction="column" className={styles.wrapper}>
+					<div className={styles.wrapper}>
 						{post.frontmatter.author ? (
 							<Author
 								id={post.frontmatter.author.id}
@@ -98,7 +98,7 @@ export default class Events extends Component {
 						<GlobalMdx>
 							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
-					</Flex>
+					</div>
 				</div>
 				<Footer light />
 			</div>
