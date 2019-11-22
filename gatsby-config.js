@@ -117,5 +117,6 @@ module.exports = {
 		'Mdx.frontmatter.office': `OfficesYaml`,
 		'ChangelogYaml.author': `AuthorsYaml.id`,
 		'ChangelogYaml.contributors': `AuthorsYaml.id`,
+		'Mdx.frontmatter.contributors': `AuthorsYaml.id`,
 	},
 }
