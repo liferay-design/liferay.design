@@ -42,9 +42,10 @@ export default class Events extends Component {
 							{post.frontmatter.title}{' '}
 						</h1>
 						<h2>
+							{`${moment(post.frontmatter.date).format('h:mma')}` === '12:00am' ? null : 
 							<span className={styles.startTime}>
 								{moment(post.frontmatter.date).format('h:mma')}
-							</span>
+							</span>}
 							{post.frontmatter.endDateTime && (
 								<span className={styles.endTime}>
 									&nbsp; – &nbsp;
