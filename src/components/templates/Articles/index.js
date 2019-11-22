@@ -58,6 +58,26 @@ export default class Articles extends Component {
 								>
 									{post.frontmatter.author.id}
 								</Link>
+								{post.frontmatter.contributors ? (
+									<>
+										{' '} and {' '} 
+											{post.frontmatter.contributors.map(i => (
+<Link
+											style={{
+												color: colors.primaryl3,
+												textDecoration: 'underline',
+												textDecorationColor: colors.primary,
+											}}
+											to={withPrefix(
+												'/team/' +
+													`${i.slug}`,
+											)}
+										>
+											{i.id}
+										</Link>
+										))}
+									</>
+								) : null}
 								&nbsp;on{' '}
 								{moment(post.frontmatter.date).format('MMMM DD, YYYY')}
 							</span>
@@ -106,6 +126,11 @@ export const pageQuery = graphql`
 				title
 				date
 				tags
+				contributors {
+					id
+					slug
+					headshot
+				}
 			}
 			excerpt
 			body
