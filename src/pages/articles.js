@@ -17,23 +17,40 @@ export default ({ data }) => {
 					<Heading level={1} color="white" padding="4rem">
 						The Latest Posts
 					</Heading>
-					<Link
-						style={{
-							alignSelf: 'baseline',
-							background: colors.black,
-							borderRadius: fontSizes.micro,
-							padding: fontSizes.micro,
-							textTransform: 'uppercase',
-							color: colors.lightGrey,
-							fontWeight: fontWeights.black,
-							letterSpacing: '1px',
-							fontSize: fontSizes.small,
-							margin: '1rem 0',
-						}}
-						to={`/tags/best-practices`}
-					>
-						Best Practices
-					</Link>
+					<div style={{alignSelf:'baseline', marginTop:'1.8rem'}}>
+						<Link
+							style={{
+								background: colors.black,
+								borderRadius: fontSizes.micro,
+								padding: fontSizes.micro,
+								textTransform: 'uppercase',
+								color: colors.lightGrey,
+								fontWeight: fontWeights.black,
+								letterSpacing: '1px',
+								fontSize: fontSizes.small,
+								margin: '1rem',
+							}}
+							to={`/tags/best-practices`}
+						>
+							Best Practices
+						</Link>
+						<Link
+							style={{
+								background: colors.black,
+								borderRadius: fontSizes.micro,
+								padding: fontSizes.micro,
+								textTransform: 'uppercase',
+								color: colors.lightGrey,
+								fontWeight: fontWeights.black,
+								letterSpacing: '1px',
+								fontSize: fontSizes.small,
+								margin: '1rem 0',
+							}}
+							to={`/tags/talks`}
+						>
+							Talks
+						</Link>
+					</div>
 				</Flex>
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }, index) => (
@@ -61,6 +78,7 @@ export const query = graphql`
 						fileAbsolutePath: { regex: "/(articles)/" }
 						frontmatter: { publish: { eq: true } }
 						frontmatter: { tags: { ne: "Best Practices" }}
+						frontmatter: { tags: { ne: "Talks" }}
 					}
 					sort: { order: DESC, fields: [frontmatter___date] }
 				) {
