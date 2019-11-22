@@ -75,11 +75,12 @@ export const query = graphql`
 			{
 				allMdx(
 					filter: {
-						fileAbsolutePath: { regex: "/(articles)/" }
-						frontmatter: { publish: { eq: true } }
-						frontmatter: { tags: { ne: "Best Practices" }}
-						frontmatter: { tags: { ne: "Talks" }}
-					}
+						fileAbsolutePath: { regex: "/(articles)/" },
+						frontmatter: {
+							publish: {eq: true}, 
+							tags: {nin: ["Talks", "Best Practices"]}
+						},
+					},
 					sort: { order: DESC, fields: [frontmatter___date] }
 				) {
 					totalCount
