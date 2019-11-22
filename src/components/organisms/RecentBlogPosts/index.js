@@ -7,7 +7,10 @@ export default ( {teammate, currentPost, ...props} ) => {
 	const data = useStaticQuery(graphql`
 		{
 			allMdx(
-				filter: { fileAbsolutePath: { regex: "/(articles)/" } }
+				filter: { 
+					fileAbsolutePath: { regex: "/(articles)/" } 
+					frontmatter: { publish: {eq: true}}
+				}
 				sort: { order: DESC, fields: [frontmatter___date] }
 			) {
 				edges {
