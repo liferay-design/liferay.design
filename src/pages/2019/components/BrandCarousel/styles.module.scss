@@ -1,0 +1,46 @@
+.wrapper {
+	position: relative;
+	width: 100vw;
+	left: -10vw;
+	:global(.slick-slide) {
+		width: auto !important;
+	}
+	.imgWrapper {
+		padding: 2vw 6vw;
+		opacity: 0.2;
+		transition: opacity 0.15s;
+		width: auto !important;
+		&:hover {
+			opacity: 0.8;
+		}
+		&:focus {
+			outline: none !important;
+		}
+		.image {
+			cursor: pointer;
+			max-height: 36vw;
+			max-width: 50vw;
+			object-fit: contain;
+			&:focus {
+				outline: none !important;
+			}
+		}
+	}
+	:global(.slick-track) {
+		display: flex;
+		align-items: center;
+	}
+	:global(.slick-active) .imgWrapper {
+		opacity: 1;
+		p {
+			opacity: 0.7;
+		}
+	}
+	p {
+		font-weight: 400;
+		color: #d5d5d5;
+		opacity: 0;
+		text-align: center;
+		transition: opacity 0.2s;
+	}
+}
