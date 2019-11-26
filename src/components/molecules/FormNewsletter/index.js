@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 const FormNewsletter = ({ placeholderText, submitText }) => {
+	const recaptchaRef = React.createRef()
+
 	return (
 		<form
 			method="POST"
@@ -10,6 +13,9 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 			data-netlify="true"
 			data-netlify-honeypot="bot-field"
 			data-netlify-recaptcha="true"
+			onSubmit={() => {
+				recaptchaRef.current.execute()
+			}}
 		>
 			<div className={styles.field}>
 				<input
@@ -29,6 +35,11 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 					className="special"
 				/>
 			</div>
+			<ReCAPTCHA
+				ref={recaptchaRef}
+				size="invisible"
+				sitekey={process.env.GATSBY_RECAPTCHA_KEY}
+			/>
 			<input type="hidden" name="bot-field" />
 			<input type="hidden" name="form-name" value="newsletter" />
 			<div data-netlify-recaptcha="true"></div>
