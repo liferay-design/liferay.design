@@ -4,7 +4,6 @@ import styles from './styles.module.scss'
 import ReCAPTCHA from 'react-google-recaptcha'
 
 const FormNewsletter = ({ placeholderText, submitText }) => {
-	const recaptchaRef = React.createRef()
 
 	return (
 		<form
@@ -13,9 +12,6 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 			data-netlify="true"
 			data-netlify-honeypot="bot-field"
 			data-netlify-recaptcha="true"
-			onSubmit={() => {
-				recaptchaRef.current.execute()
-			}}
 		>
 			<div className={styles.field}>
 				<input
@@ -34,15 +30,12 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 					value={submitText}
 					className="special"
 				/>
+				<div className={styles.captcha}>
+					<ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
+				</div>
 			</div>
-			<ReCAPTCHA
-				ref={recaptchaRef}
-				size="invisible"
-				sitekey={process.env.GATSBY_RECAPTCHA_KEY}
-			/>
 			<input type="hidden" name="bot-field" />
 			<input type="hidden" name="form-name" value="newsletter" />
-			<div data-netlify-recaptcha="true"></div>
 		</form>
 	)
 }

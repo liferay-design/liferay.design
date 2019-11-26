@@ -20,6 +20,18 @@ form {
 		position: relative;
 		display: flex;
 		flex-grow: 1;
+		.captcha {
+			position: absolute;
+			top: 1.3rem;
+			left: 40ch;
+			overflow: hidden;
+			width: 160px;
+			height: 48px;
+			border-radius: 2px;
+			div {
+				margin-top: -13px;
+			}
+		}
 		label {
 			position: absolute;
 			top: $spacingXSmall;
@@ -51,7 +63,7 @@ form {
 			font-weight: $fontWeightBlack;
 			color: $primary;
 			background: darken($primary, 8%);
-			flex-grow: 0.4;
+			flex-grow: 0;
 			&:focus,
 			&:hover {
 				color: $white;
