@@ -1,0 +1,78 @@
+@import '~theme/variables';
+
+.hired {
+	position: relative;
+	padding-bottom: 6vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	.birthRay {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		margin: 4vw 0;
+		width: 11vw;
+		font-weight: $fontWeightRegular;
+		.month {
+			color: $white;
+			opacity: 0.6;
+			display: inline;
+			padding-right: 0.2em;
+			font-size: 2.2vw;
+		}
+		.day {
+			color: $white;
+			opacity: 0.2;
+			display: inline;
+			font-size: 2.2vw;
+		}
+	}
+	.date {
+		position: relative;
+		margin: 4vw 0;
+		width: 11vw;
+		.month {
+			text-align: center;
+			width: 100%;
+			color: $white;
+			font-size: 2.2vw;
+		}
+		.day {
+			opacity: 0.04;
+			font-size: 10vw; //150px
+			position: absolute;
+			color: $white;
+			width: 100%;
+			text-align: center;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	.designerHeadshot {
+		width: 1vw;
+		height: 1vw;
+		border-radius: 50%;
+		margin: 0 8vw;
+		border: 0.5vw solid #006de7;
+		position: relative;
+		transition: 0.2s ease-out;
+		opacity: 0.8;
+		&:global(.Plx--active) {
+			width: 4vw;
+			height: 4vw;
+			border: 0;
+			margin: 0 6.5vw;
+			opacity: 1;
+		}
+	}
+	h4.pLarge {
+		margin: 0;
+		font-size: 2.2vw;
+		color: $white;
+		font-weight: $fontWeightRegular;
+		span {
+			opacity: 0.4;
+			font-weight: $fontWeightLight;
+		}
+	}
+}
