@@ -24,15 +24,15 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 				<label className={styles.label} htmlFor="email">
 					Email Address
 				</label>
+				<div className={styles.captcha}>
+					<ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
+				</div>
 				<input
 					type="submit"
 					name="submit"
 					value={submitText}
 					className="special"
 				/>
-				<div className={styles.captcha}>
-					<ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
-				</div>
 			</div>
 			<input type="hidden" name="bot-field" />
 			<input type="hidden" name="form-name" value="newsletter" />

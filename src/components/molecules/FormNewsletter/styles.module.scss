@@ -6,6 +6,7 @@ form {
 	margin: 0 auto;
 	justify-content: center;
 	width: 60%;
+	min-width: 600px;
 	input {
 		padding: $spacingBase $spacingMedium;
 		-webkit-appearance: none;
@@ -23,7 +24,7 @@ form {
 		.captcha {
 			position: absolute;
 			top: 1.3rem;
-			left: 40ch;
+			right: calc(182px + 1.3rem);
 			overflow: hidden;
 			width: 160px;
 			height: 48px;
@@ -74,12 +75,36 @@ form {
 	}
 }
 
-@media screen and (max-width: $screenSmall) {
+@media screen and (max-width: $screenMedium) {
 	form {
+		width: 100%;
+		min-width: initial;
 		input {
 			padding: $spacingBase $spacingSmall;
 		}
 		.field {
+			color: red !important;
+			flex-direction: column;
+			.captcha {
+				right: 1.3rem;
+			}
+			input[type='submit'] {
+				color: $white;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $screenSmall) {
+	form {
+		.field {
+			flex-direction: column;
+			.captcha {
+				position: relative;
+				left: initial;
+				align-self: flex-end;
+				margin: 0.5rem 0 3rem;
+			}
 			input[type='submit'] {
 				color: $white;
 			}
