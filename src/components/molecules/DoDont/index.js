@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-export default function DoDont({ good, bad }) {
+export default function DoDont({ good, avoid, bad }) {
 	return (
 		<Flex
 			className={styles.container}
@@ -35,6 +35,18 @@ export default function DoDont({ good, bad }) {
 					Don't
 				</Text>
 			</Flex>
+			<Flex direction="column" width="40%">
+                <Image src={avoid} />
+                <Text
+                className={styles.avoid}
+                type="p"
+                weight="black"
+                size="medium"
+                color="warning"
+                >
+                    Avoid
+                </Text>
+   			</Flex>
 		</Flex>
 	)
 }
@@ -42,4 +54,5 @@ export default function DoDont({ good, bad }) {
 DoDont.propTypes = {
 	good: PropTypes.string.isRequired,
 	bad: PropTypes.string.isRequired,
+	avoid: PropTypes.string.isRequired,
 }
