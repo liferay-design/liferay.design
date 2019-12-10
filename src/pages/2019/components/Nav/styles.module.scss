@@ -129,9 +129,10 @@ $twentyNineteenBlue: #006DE7;
 					opacity: 0;
 				}
 			}
-			&:hover {
+			&:hover,
+			&:focus {
 				.anchorText {
-					background: #fff;
+					background: #fff !important;
 					color: $lightBlack;
 					&:before {
 						opacity: 1;
@@ -143,4 +144,7 @@ $twentyNineteenBlue: #006DE7;
 			opacity: 1;
 		}
 	}
+}
+a .anchorText {
+	opacity: 1 !important;
 }

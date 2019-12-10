@@ -391,17 +391,20 @@ $breakpoint-for-large-desktop-up: 1800px;
 						opacity: 0;
 					}
 				}
-				&:hover {
+				&:hover,
+				&:focus {
 					.anchorText {
 						background: #fff;
 						color: $lightBlack;
+						opacity: 1 !important;
 						&:before {
 							opacity: 1;
 						}
 					}
 				}
 			}
-			&:hover a .anchorText {
+			&:hover a .anchorText,
+			&:focus-within a .anchorText {
 				opacity: 1;
 			}
 		}

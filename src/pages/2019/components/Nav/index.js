@@ -32,14 +32,6 @@ export default class Nav extends Component {
     }
 
 	render() {
-		// if(this.state.navOpen) {
-
-		// }
-		// else {
-		// 	this.state.menuButton = {}
-		// 	this.state.span = {}
-		// 	this.state.close = {}
-		// }
 		return (
 			<Plx id="nav" className={`${styles.anchorLinks} ${this.state.navOpen ? "navOpen" : ""}`} >
 				<button className={styles.menuButton} onClick={this.toggle}>
@@ -62,12 +54,12 @@ export default class Nav extends Component {
 							Team
 						</Plx>
 					</AnchorLink>
-					<AnchorLink href="#growth">
+					<AnchorLink href="#initiatives">
 						<Plx
 							className={styles.anchorBlock}
 						/>
 						<Plx className={styles.anchorText}>
-							Growth
+							Initiatives
 						</Plx>
 					</AnchorLink>
 					<AnchorLink offset="200" href="#projects">
