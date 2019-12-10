@@ -140,13 +140,8 @@ const TwentyNineteen = () => {
 
 			{/* ---------- TEAM ----------- */}
 			{/* HEADER - TEAM */}
-			<Plx className={styles.sectionHeader} id="team" parallaxData={PlxUp1}>
-				<Image src="/images/2019/header-team.png" />
-				<svg width="30" height="2" viewBox="0 0 30 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="1" cy="1" r="1" fill="white"/>
-					<circle cx="15" cy="1" r="1" fill="white"/>
-					<circle cx="29" cy="1" r="1" fill="white"/>
-				</svg>
+			<Plx tagName="h2" className={styles.sectionHeader} id="team" parallaxData={PlxUp1}>
+				Team
 			</Plx>
 
 			{/* DEPARTMENT */}
@@ -176,6 +171,12 @@ const TwentyNineteen = () => {
 				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
 			
+			{/* ---------- INITIATIVES ----------- */}
+			{/* HEADER - INITIATIVES */}
+			<Plx tagName="h2" className={styles.sectionHeader} id="initiatives" parallaxData={PlxUp1}>
+				Inititatives
+			</Plx>
+
 			{/* CHARITY DESIGN */}
 			<section id="charityDesign" className={styles.charityDesign}>
 				<div className={styles.fiftyFifty}>
@@ -278,6 +279,18 @@ const TwentyNineteen = () => {
 					</Flex>
 				</div>
 			</section>
+			
+			{/* ---------- PROJECTS ----------- */}
+			{/* HEADER - PROJECTS */}
+			<Plx tagName="h2" className={styles.sectionHeader} id="projects" parallaxData={PlxUp1}>
+				Projects
+			</Plx>
+
+			{/* ---------- OPS ----------- */}
+			{/* HEADER - OPS */}
+			<Plx tagName="h2" className={styles.sectionHeader} id="ops" parallaxData={PlxUp1}>
+				Ops
+			</Plx>
 			<Footer />
 		</div>
 	)
