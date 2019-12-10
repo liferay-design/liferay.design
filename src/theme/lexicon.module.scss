@@ -265,6 +265,14 @@
 	font-weight: 600;
 }
 
+:global(.avoid) {
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: $warning-l1;
+    color: $warning;
+    font-weight: 600;
+}
+
 :global(.do-text) {
 	color: $success;
 	font-weight: 600;
