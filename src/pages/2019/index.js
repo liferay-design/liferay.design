@@ -177,7 +177,7 @@ const TwentyNineteen = () => {
 				<div className={styles.preHeader}>New Faces</div>
 				<Heading level="2" className={styles.f2}>Designer Timeline</Heading>
 				<p className={styles.p}>
-				The team gets stronger each year as we embrace new additions, hit milestones, and gain more experience. We’ve hired 3 new designers and had 11 birthdays.
+				The team gets stronger each year as we embrace new additions, hit milestones, and gain more experience. We’ve hired 3 new designers and had 11 birthRays.
 				</p>
 				<Flex
 					direction="column"
@@ -385,8 +385,8 @@ ethics and much more!</p>
 			<section id="community" className={styles.ourEvents}>
 				<div className={styles.preHeader}>Community</div>
 				<Heading level="2" className={styles.f2}>Our Events</Heading>
-				<p className={styles.p}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan, ultrices aliquam amet. Vitae commodo rhoncus lectus morbi non. Netus aliquet.
+				<p className={styles.p}>Ideas meet makers. Makers meet comrades.<br />
+These events sparked inspirations, gave ideas momentum, and put makers in action.
 				</p>
 				<div className={styles.cardGrid}>
 					<SimpleCard
