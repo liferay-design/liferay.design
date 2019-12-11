@@ -356,7 +356,8 @@ const TwentyNineteen = () => {
 					<div>
 						<div className={styles.preHeader}>Thought Leadership</div>
 						<Heading level="2" className={styles.f2}>Design Best Practices</Heading>
-						<p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum mi in tempus facilisi. Placerat gravida porttitor urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis commodo nunc lobortis aliquam pretium sed tellus. Laoreet ut viverra sit cras viverra. Faucibus pretium egestas ac vel sed.</p>
+						<p className={styles.p}>Over the last 9 months we have invested in sharing our research, thoughts, and work with you. We have shared over 40 posts covering topics such as accessibility, psychology, research, strategy, visual design,
+ethics and much more!</p>
 						<a href="/tags/best-practices" className={styles.link}>Browse Best Practices Articles</a>
 					</div>
 					<div className={styles.dbpGrid}>
