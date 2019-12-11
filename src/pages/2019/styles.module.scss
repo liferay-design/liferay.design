@@ -558,9 +558,12 @@ section.hero {
 			position: relative;
 			.line {
 				position: absolute;
-				left: 65px;
+				left: 50%;
 				width: 1px;
 				height: 100%;
+				@include for-tablet-portrait-up {
+					left: 65px;
+				}
 			}
 		}
 }
