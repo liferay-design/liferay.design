@@ -171,6 +171,52 @@ const TwentyNineteen = () => {
 				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
 			
+			{/* COMMUNITY */}
+			<section id="growth" className={styles.growth}>
+				<div className={styles.preHeader}>Growth</div>
+				<Heading level="2" className={styles.f2}>Design Paths</Heading>
+				<p className={styles.p}>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan, ultrices aliquam amet. Vitae commodo rhoncus lectus morbi non. Netus aliquet.
+				</p>
+				<Flex
+					direction="column"
+					align="center"
+					className={styles.recentPromotions}>
+					<img className={styles.growTool} src="/images/2019/path-tool.png" />
+					<Heading level="2" className={styles.f3}>
+						Recent Promotions
+					</Heading>
+					<div>
+						<div className={styles.promotionCard}>
+							<img src="/images/headshots/connolly-ryan.jpg"/>
+							<div>
+								<Heading level="3" className={styles.f3Large}>
+									Ryan <span>Connolly</span>
+								</Heading>
+								<span>3 years with Liferay</span>
+							</div>
+							<div>
+								<Heading level="4" className={styles.f4}>Warrior Princess</Heading>
+								<span>Previous: Product Design Manager</span>
+							</div>
+						</div>
+						<div className={styles.promotionCard}>
+							<img src="/images/headshots/jeong-chris.jpg"/>
+							<div>
+								<Heading level="3" className={styles.f3Large}>
+									Chris <span>Jeong</span>
+								</Heading>
+								<span>2 years with Liferay</span>
+							</div>
+							<div>
+								<Heading level="4" className={styles.f4}>Senior Product Designer</Heading>
+								<span>Previous: Product Designer</span>
+							</div>
+						</div>
+					</div>
+				</Flex>
+			</section>
+
 			{/* ---------- INITIATIVES ----------- */}
 			{/* HEADER - INITIATIVES */}
 			<Plx tagName="h2" className={styles.sectionHeader} id="initiatives" parallaxData={PlxUp1}>

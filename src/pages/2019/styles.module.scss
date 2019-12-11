@@ -111,12 +111,9 @@ $breakpoint-for-large-desktop-up: 1800px;
 		font-weight: $fontWeightBlack;
 		padding: 0;
 		margin: 0;
-	}
-	.f1 {
 		color: $white;
 	}
 	.f2 {
-		color: $white;
 		line-height: 120%;
 		font-size: 11vw;
 		@include for-tablet-landscape-up {
@@ -124,8 +121,11 @@ $breakpoint-for-large-desktop-up: 1800px;
 		}
 	}
 	.f3Large {
-		font-size: 5.8vw; //100px
+		font-size: 8vw;
 		line-height: 100%;
+		@include for-tablet-landscape-up {
+			font-size: 2.875vw; //48px
+		}
 	}
 	.f3 {
 		line-height: 100%;
@@ -152,6 +152,13 @@ $breakpoint-for-large-desktop-up: 1800px;
 			font-size: 20px;
 		}
 	}
+	.pLarge,
+	.p,
+	.pSmall,
+	div,
+	span {
+		color: $grayParagraph;
+	}
 	.pLarge {
 		font-size: 2.2vw;
 	}
@@ -165,6 +172,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 	.pSmall {
 		font-size: 16px;
 		font-weight: 400;
+		color: $grayParagraph;
 	}
 	.link {
 		font-size: 20px;
@@ -381,7 +389,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 					right: unset;
 					left: 0;
 					background: transparent;
-					color: #fff;
+					color: $white;
 					padding: 4px 16px 4px 24px;
 					opacity: 0;
 					&:before {
@@ -488,7 +496,6 @@ section.hero {
 		display: flex;
 		flex-flow: column wrap;
 		.f4 {
-			color: #fff;
 			font-weight: 700;
 			margin-bottom: 0.4em;
 			padding-bottom: 0;
@@ -498,7 +505,7 @@ section.hero {
 			}
 		}
 		.pSmall {
-			color: #fff;
+			color: $white;
 			opacity: 0.5;
 		}
 		div {
@@ -528,6 +535,72 @@ section.hero {
 		}
 		.departmentNames {
 			flex-flow: row;
+		}
+	}
+}
+
+//GROWTH
+.growth {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	.recentPromotions {
+		background: $darkBlack;
+		margin-top: 128px;
+		padding: 0 40px 80px;
+		.growTool {
+			width: 100%;
+			margin-top: -64px;
+		}
+		.f3 {
+			padding: 40px 0;
+		}
+	}
+	.promotionCard {
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		row-gap: 40px;
+		padding: 48px;
+		margin: 24px 0;
+		background: $lightBlack;
+		img {
+			width: 240px;
+			height: 240px;
+			object-fit: cover;
+			margin: 0;
+		}
+		.f3Large {
+			padding: 8px 0;
+			span {
+				color: $grayParagraph;
+			}
+		}
+		.f4 {
+			padding: 8px 0;
+		}
+		span {
+			font-weight: 400;
+		}
+	}
+}
+@include for-tablet-landscape-up {
+	.growth {
+		.growTool {
+			width: 50%;
+		}
+		.promotionCard {
+			justify-items: left;
+			flex-direction: row;
+			text-align: left;
+			grid-auto-flow: column;
+			grid-template-columns: auto 1fr 1fr;
+			column-gap: 64px;
+			img {
+				width: 160px;
+				height: 160px;
+			}
 		}
 	}
 }
