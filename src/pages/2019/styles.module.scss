@@ -648,14 +648,23 @@ section.hero {
 	}
 	.services {
 		padding: 48px 0;
-		li {
-			color: #fff;
+		ul {
+			min-width: 225px;
+			li {
+				color: $white;
+			}
 		}
-		.p>span {
-			color: #fff;
-			font-weight: 700;
-			padding: 0 32px 0 0;
+		.p {
+			max-width: none;
+			padding-bottom: 40px;
+			&>span {
+				color: $white;
+				font-weight: 700;
+				padding: 0 32px 0 0;
+				width: 240px;
+			}
 		}
+			
 	}
 }
 @include for-tablet-landscape-up {
@@ -663,7 +672,7 @@ section.hero {
 		.fiftyFifty {
 			flex-flow: row;
 			.left {
-				padding-right: 20px;
+				padding-right: 96px;
 				width: 50%;
 			}
 			img {

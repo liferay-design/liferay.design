@@ -324,26 +324,34 @@ const TwentyNineteen = () => {
 			{/* CHARITY DESIGN */}
 			<section id="charityDesign" className={styles.charityDesign}>
 				<div className={styles.fiftyFifty}>
-					<div className={styles.left}>
+					<Flex direction="column" justify="center" className={styles.left}>
 						<div className={styles.preHeader}>Charity Design</div>
 						<Heading level="2" className={styles.f2}>Underground Writing</Heading>
 						<p className={styles.p}>
-						We are a literature-based creative writing program serving migrant, incarcerated, recovery, and other at-risk communities in northern Washington through literacy and personal transformation.
+						This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy. 
 						<br /> <br />
-						We facilitate generative readings of literature spanning the tradition—from ancient texts to those written in our workshops. Honoring the transforming power of the word, we believe that attentive reading leads to attentive writing, and that attentive writing has the power to assist in the restoration of communities, the imagination, and individual lives.
+						Liferay designers spent some time at the end of the year to give Underground Writing a top to down make-over. This included a brand new website, completely revamped tech stack, and service design optimizations.
 						</p>
-					</div>
+					</Flex>
 					<img src="/images/2019/underground-writing.png" />
 				</div>
 				<div className={styles.services}>
 					<Flex flexWrap="wrap" className={styles.p}>
-						<span>Services Provided:</span>
+						<span>Services Provided</span>
 						<ul>
-							<li>Web Design</li>
 							<li>Branding</li>
-							<li>Service Design</li>
 							<li>Development</li>
-							<li>Other</li>
+							<li>Service Design</li>
+							<li>Web Design</li>
+						</ul>
+					</Flex>
+					<Flex flexWrap="wrap" className={styles.p}>
+						<span>Technologies Used</span>
+						<ul>
+							<li>Anchor.fm</li>
+							<li>Donorbox</li>
+							<li>Google Suite for Nonprofits</li>
+							<li>Webflow</li>
 						</ul>
 					</Flex>
 				</div>
