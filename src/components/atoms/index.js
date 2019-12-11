@@ -9,6 +9,7 @@ import Icon from './Icon'
 import Image from './Image'
 import Link from './Link'
 import NiceLink from './NiceLink'
+import ScrollProgress from './ScrollProgress'
 import SiteName from './SiteName'
 import Text from './Text'
 
@@ -25,5 +26,6 @@ export {
 	Container,
 	ContainerMarkdown,
 	CardGrid,
+	ScrollProgress,
 	SiteName,
 }

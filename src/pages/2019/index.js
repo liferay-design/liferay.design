@@ -1,4 +1,4 @@
-import { Flex, Image, Heading, Text, Icon } from 'components/atoms'
+import { Flex, Image, Heading, Text, Icon, ScrollProgress } from 'components/atoms'
 import { Footer } from 'components/organisms'
 import { Designer, SimpleCard, ProjectsCarousel, Nav } from 'pages/2019/components/_index'
 import React from 'react'
@@ -8,20 +8,6 @@ import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { SEO } from 'components/molecules'
 
-// CUSTOM PLX DATA
-const scrollProgress = [
-	{
-		start: 0,
-		end: 'footer',
-		properties: [
-			{
-				startValue: 0,
-				endValue: 1,
-				property: 'scaleX',
-			}
-		]
-	}
-]
 
 //   constant plx data
 // const InView = [
@@ -140,9 +126,7 @@ const TwentyNineteen = () => {
 			</Helmet>
 
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
-			<Plx
-				parallaxData={scrollProgress}
-				className={styles.scrollProgress} />
+			<ScrollProgress />
 			
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />
