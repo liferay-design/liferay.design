@@ -547,6 +547,23 @@ section.hero {
 	}
 }
 
+// NEW FACES
+.newFaces {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: $darkBlack;
+	padding: 80px 40px;
+		.timeline {
+			position: relative;
+			.line {
+				position: absolute;
+				left: 65px;
+				width: 1px;
+				height: 100%;
+			}
+		}
+}
 //GROWTH
 .growth {
 	display: flex;
@@ -595,8 +612,10 @@ section.hero {
 }
 @include for-tablet-landscape-up {
 	.growth {
-		.growTool {
-			width: 50%;
+		.recentPromotions {
+			.growTool {
+				width: 50%;
+			}
 		}
 		.promotionCard {
 			justify-items: left;

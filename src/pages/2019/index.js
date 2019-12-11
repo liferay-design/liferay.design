@@ -171,7 +171,105 @@ const TwentyNineteen = () => {
 				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
 			
-			{/* COMMUNITY */}
+			{/* FRESH FISH */}
+			<section id="new-faces">
+				<div className={styles.newFaces}>
+				<div className={styles.preHeader}>New Faces</div>
+				<Heading level="2" className={styles.f2}>Designer Timeline</Heading>
+				<p className={styles.p}>
+				The team gets stronger each year as we embrace new additions, hit milestones, and gain more experience. We’ve hired 3 new designers and had 11 birthdays.
+				</p>
+				<Flex
+					direction="column"
+					justify="space-between"
+					className={styles.timeline}
+				>
+					<div className={styles.line}>
+						<svg
+							width="100%"
+							height="calc(100% + 5vw)"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<line
+								x1="0.5"
+								y1="0"
+								x2="0.5"
+								y2="100%"
+								stroke="#006DE7"
+								stroke-linejoin="round"
+								stroke-dasharray="1 10"
+							/>
+						</svg>
+					</div>
+					<Designer
+						profileUrl="/team/wood-jon"
+						month="April"
+						day="15"
+						headshot="/images/headshots/wood-jon.jpg"
+						name="Jon"
+						detail="firstDay"
+						country="California"
+					/>
+					<Designer
+						profileUrl="/team/censi-andrea"
+						month="May"
+						day="14"
+						headshot="/images/headshots/censi-andrea.jpg"
+						name="Andrea"
+						detail="birthRay"
+						birthRay
+					/>
+					<Designer
+						profileUrl="/team/francisco-marleny"
+						month="Aug"
+						day="12"
+						headshot="/images/headshots/francisco-marleny.jpg"
+						name="Marleny"
+						detail="firstDay"
+						country="Spain"
+					/>
+					<Designer
+						profileUrl="/team/lyons-james"
+						month="Sep"
+						day="10"
+						headshot="/images/headshots/lyons-james.jpg"
+						name="James"
+						detail="birthRay"
+						birthRay
+					/>
+					<Designer
+						profileUrl="/team/kim-david"
+						month="Sep"
+						day="17"
+						headshot="/images/headshots/kim-david.jpg"
+						name="David"
+						detail="birthRay"
+						birthRay
+					/>
+					<Designer
+						profileUrl="/team/garcia-laura"
+						month="Oct"
+						day="14"
+						headshot="/images/headshots/garcia-laura.jpg"
+						name="Laura"
+						detail="firstDay"
+						country="Spain"
+					/>
+					<Designer
+						profileUrl="/team/manso-miriam"
+						month="Oct"
+						day="15"
+						headshot="/images/headshots/manso-miriam.jpg"
+						name="Miriam"
+						detail="birthRay"
+						birthRay
+					/>
+				</Flex>
+				</div>
+			</section>
+
+			{/* GROW */}
 			<section id="growth" className={styles.growth}>
 				<div className={styles.preHeader}>Growth</div>
 				<Heading level="2" className={styles.f2}>Design Paths</Heading>
