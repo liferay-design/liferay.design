@@ -8,6 +8,21 @@ import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { SEO } from 'components/molecules'
 
+// CUSTOM PLX DATA
+const scrollProgress = [
+	{
+		start: 0,
+		end: 'footer',
+		properties: [
+			{
+				startValue: 0,
+				endValue: 1,
+				property: 'scaleX',
+			}
+		]
+	}
+]
+
 //   constant plx data
 // const InView = [
 // 	{
@@ -123,6 +138,11 @@ const TwentyNineteen = () => {
 				/>
 				<title>Liferay Design | 2019 Annual Report</title>
 			</Helmet>
+
+			{/* ----------- SCROLL PROGRESS BAR ---------- */}
+			<Plx
+				parallaxData={scrollProgress}
+				className={styles.scrollProgress} />
 			
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />

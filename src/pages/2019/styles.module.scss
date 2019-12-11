@@ -226,6 +226,18 @@ $breakpoint-for-large-desktop-up: 1800px;
 	}
 }
 
+// SCROLL PROGRESS BAR
+.scrollProgress {
+	width: 100vw;
+	height: 6px;
+	background: $twentyNineteenBlue;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	transform-origin: left;
+}
+
 // ANCHOR LINKS
 .anchorLinks {
 	position: fixed;
