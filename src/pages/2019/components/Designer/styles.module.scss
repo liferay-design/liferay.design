@@ -108,4 +108,11 @@ $twentyNineteenBlue: #006DE7;
 			background-repeat: no-repeat;
 		}
 	}
+	@media (max-width: 599px) {
+		flex-direction: column;
+		padding-bottom: 80px;
+		.designerHeadshot {
+			display: none;
+		}
+	}
 }
