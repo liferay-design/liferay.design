@@ -252,8 +252,12 @@ $breakpoint-for-large-desktop-up: 1800px;
 			letter-spacing: 0.3em;
 			color: $twentyNineteenBlue;
 		}
-		.close {
-			
+		&:focus {
+			background: $twentyNineteenBlue;
+			border: 1px solid $white;
+			span {
+				color: $white;
+			}
 		}
 	}
 	.linkWrapper {
@@ -341,6 +345,10 @@ $breakpoint-for-large-desktop-up: 1800px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+		&:focus {
+			background: $white;
+			border: 2px solid $twentyNineteenBlue;
 		}
 	}
 	.linkWrapper {
