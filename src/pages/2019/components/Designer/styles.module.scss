@@ -1,4 +1,10 @@
 @import '~theme/variables';
+// COLORS
+$darkBlack: #1B1C1E;
+$lightBlack: #1F2123;
+$grayHeader: #555E68;
+$grayParagraph: #888B9B;
+$twentyNineteenBlue: #006DE7;
 
 .hired {
 	position: relative;
@@ -6,7 +12,7 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	.birthRay {
+	/*.birthRay {
 		position: relative;
 		display: flex;
 		justify-content: center;
@@ -26,28 +32,39 @@
 			display: inline;
 			font-size: 2.2vw;
 		}
-	}
-	.date {
+	}*/
+	.date,
+	.birthRay {
 		position: relative;
 		margin: 4vw 0;
-		width: 11vw;
+		width: 130px;
+		height: 130px;
+		background: $lightBlack;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
 		.month {
-			text-align: center;
-			width: 100%;
-			color: $white;
-			font-size: 2.2vw;
+			color: $grayParagraph;
+			font-size: 18px;
+			line-height: 18px;
+			text-transform: uppercase;
+			letter-spacing: 0.3em;
+			margin-right: -0.3em;
 		}
 		.day {
-			opacity: 0.04;
-			font-size: 10vw; //150px
-			position: absolute;
+			font-size: 50px;
 			color: $white;
-			width: 100%;
-			text-align: center;
-			top: 50%;
-			transform: translateY(-50%);
+			letter-spacing: -0.05em;
+			line-height: 50px;
 		}
 	}
+	.birthRay ~ .pLarge:after {
+		background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/birthday-cake_1f382.png);
+		width: 0.65em;
+	}
+
 	.designerHeadshot {
 		width: 1vw;
 		height: 1vw;
@@ -69,10 +86,26 @@
 		margin: 0;
 		font-size: 2.2vw;
 		color: $white;
-		font-weight: $fontWeightRegular;
+		font-weight: 500;
+		position: relative;
 		span {
-			opacity: 0.4;
+			color: $grayHeader;
 			font-weight: $fontWeightLight;
+		}
+		@media (max-width: 900px) {
+			font-size: 40px;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			right: -0.2em;
+			transform: translateX(100%);
+			width: 0.5em;
+			height: 1em;
+			background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/party-popper_1f389.png);
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
 		}
 	}
 }
