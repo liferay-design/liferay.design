@@ -1,0 +1,57 @@
+title: Annual Report
+subtitle: This was a big year for design at Liferay. We continued to scale, moving designers from Product Management, Marketing, and Engineering to form a Design department at Liferay. Our second annual report shares highlights about our organization, the work we've done for customers, our local communities, and the design community at large.
+departmentSection:
+    pretitle: Department
+    title: Organization
+    content:
+        While we recognize that there are differences in each team’s skills, there are also similarities in what makes a “designer” of any profession, a designer. As a department, we want to steward and attract designers that add to Liferay’s culture.
+        The Design Department is comprised of three teams; Communication, Product, and Research. Each of those teams determines the skills required to be a designer on that team. These skills should be relevant to the market and also reflect the ways in which we’re adding value to the company.
+    desicon:
+        title: Our Desicon
+        subtitle: '"Design" + "Icon" — get it?'
+    subDepartments:
+        - subDepartment:
+              title: Product Design
+              subtitle: Interaction Design
+        - subDepartment:
+              title: Communication Design
+              subtitle: Brand Consist
+        - subDepartment:
+              title: Design Research
+              subtitle: User Testing
+timelineSection:
+    pretitle: Milestones
+    title: New Faces & Birthrays
+    subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience. We’ve hired 3 new designers and had 11 birthRays.
+careerSection:
+    pretitle: Grow & Get Better
+    title: Design Careers
+    subtitle: We recognize that not everyone wants to manage people — and that's great — we need to ensure there’s room for all to grow. We have designed a dual-track path, one for people management and one for individual contribution.
+givingSection:
+    pretitle: Giving Back
+    title: Underground Writing
+    subtitle:
+        This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy.
+
+        Liferay designers spent some time at the end of the year to give Underground Writing a top to down make-over. This included a brand new website, completely revamped tech stack, and service design optimizations.
+    what:
+        title: Services Provided
+        services: ['Branding', 'Development', 'Service Design', 'Web Design']
+    how:
+        title: Technologies Used
+        technologies: ['Anchor.fm', 'Donorbox', 'Google Suite for Nonprofits', 'Webflow']
+    link:
+        title: View Full Case Study
+        url: /articles/2019/unlocking-creative-potential/
+designPractice:
+    pretitle: &#35;ThoughtLeadership
+    title: Design Best Practices
+    subtitle: Over the last 9 months we have invested in sharing our research, thoughts, and work with you. We have shared over 40 posts covering topics such as accessibility, psychology, research, strategy, visual design, ethics and much more!
+    link:
+        title: Browse Best Practices Articles
+        url: /tags/best-practices
+designCommunity:
+    pretitle: Community
+    title: Our Events
+    subtitle: Ideas meet makers. Makers meet comrades.
+        These events sparked inspirations, gave ideas momentum, and put makers in action.
