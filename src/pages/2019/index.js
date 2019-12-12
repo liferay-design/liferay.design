@@ -1,8 +1,7 @@
 import { Flex, Image, Heading, Text, Icon, ScrollProgress } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import { Designer, SimpleCard, ProjectsCarousel, Nav } from 'pages/2019/components/_index'
+import { SimpleCard, Nav } from 'pages/2019/components/_index'
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
@@ -125,9 +124,12 @@ const TwentyNineteen = () => {
 				<title>Liferay Design | 2019 Annual Report</title>
 			</Helmet>
 
+<<<<<<< HEAD
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
 			<ScrollProgress />
 			
+=======
+>>>>>>> b148567... add content to intro and department sections
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />
 
@@ -135,45 +137,104 @@ const TwentyNineteen = () => {
 			<section id="top" className={styles.hero}>
 				<img src="/images/2019/hero-image.png" />
 				<Heading level="1" className={styles.f2}>
-					Design <span>Report</span>
+					Annual <span>Report</span>
 				</Heading>
 				<p className={styles.p}>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum mi in tempus facilisi. Placerat gravida porttitor urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis commodo nunc lobortis.
+					This was a big year for design at Liferay. We continued to scale,
+					moving designers from Product Management, Marketing, and Engineering
+					to form a Design department at Liferay. Our second annual report
+					shares highlights about our organization, the work we've done for
+					customers, our local communities, and the design community at large.
 				</p>
 			</section>
 
 			{/* ---------- TEAM ----------- */}
 			{/* HEADER - TEAM */}
+<<<<<<< HEAD
 			<Plx tagName="h2" className={styles.sectionHeader} id="team" parallaxData={PlxUp1}>
 				Team
+=======
+			<Plx className={styles.sectionHeader} id="team" parallaxData={PlxUp1}>
+				<Image src="/images/2019/header-team.png" />
+				<svg
+					width="30"
+					height="2"
+					viewBox="0 0 30 2"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<circle cx="1" cy="1" r="1" fill="white" />
+					<circle cx="15" cy="1" r="1" fill="white" />
+					<circle cx="29" cy="1" r="1" fill="white" />
+				</svg>
+>>>>>>> b148567... add content to intro and department sections
 			</Plx>
 
 			{/* DEPARTMENT */}
 			<section id="department">
-				<Flex direction="column" align="center" justify="center" className={styles.department}>
-					<div className={styles.preHeader}>Department</div>
-					<Heading level="2" className={styles.f2}>Organization</Heading>
+				<Flex
+					direction="column"
+					align="center"
+					justify="center"
+					className={styles.department}
+				>
 					<div className={styles.organizationContent}>
-						<Icon name="liferayDesicon" fill="white" height="7.25vw" width="7.25vw" />
-						<p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum mi in tempus facilisi. Placerat gravida porttitor urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis commodo nunc lobortis aliquam pretium sed tellus. Laoreet ut viverra sit cras viverra. Faucibus pretium egestas ac vel sed. </p>
+						<div>
+							<div className={styles.preHeader}>Department</div>
+							<Heading level="2" className={styles.f2}>
+								Organization
+							</Heading>
+							<p className={styles.p}>
+								While we recognize that there are differences in each
+								team’s skills, there are also similarities in what makes a
+								“designer” of any profession, a designer. As a department,
+								we want to steward and attract designers that add to
+								Liferay’s culture.
+							</p>
+							<p className={styles.p}>
+								The Design Department is comprised of three teams;
+								Communication, Product, and Research. Each of those teams
+								determines the skills required to be a designer on that
+								team. These skills should be relevant to the market and
+								also reflect the ways in which we’re adding value to the
+								company.
+							</p>
+						</div>
+						<div>
+							<Icon
+								name="liferayDesicon"
+								fill="white"
+								height="7.25vw"
+								width="7.25vw"
+							/>
+							<p className={styles.p}>Our Desicon</p>
+							<p className={styles.p}>"Design" + "Icon" &mdash; get it?</p>
+						</div>
 					</div>
 					<div className={styles.departmentNames}>
 						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>Product <span>Design</span></Heading>
+							<Heading level="3" className={styles.f4}>
+								Product <span>Design</span>
+							</Heading>
 							<span className={styles.pSmall}>Interaction Design</span>
 						</Flex>
 						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>Communication <span>Design</span></Heading>
+							<Heading level="3" className={styles.f4}>
+								Communication <span>Design</span>
+							</Heading>
 							<span className={styles.pSmall}>Brand Consistency</span>
 						</Flex>
 						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>Research <span>Design</span></Heading>
+							<Heading level="3" className={styles.f4}>
+								Research <span>Design</span>
+							</Heading>
 							<span className={styles.pSmall}>User Testing</span>
 						</Flex>
 					</div>
 				</Flex>
 				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
+<<<<<<< HEAD
 			
 			{/* FRESH FISH */}
 			<section id="new-faces">
@@ -324,17 +385,36 @@ const TwentyNineteen = () => {
 			<Plx tagName="h2" className={styles.sectionHeader} id="initiatives" parallaxData={PlxUp1}>
 				Inititatives
 			</Plx>
+=======
+>>>>>>> b148567... add content to intro and department sections
 
 			{/* CHARITY DESIGN */}
 			<section id="charityDesign" className={styles.charityDesign}>
 				<div className={styles.fiftyFifty}>
 					<Flex direction="column" justify="center" className={styles.left}>
 						<div className={styles.preHeader}>Charity Design</div>
-						<Heading level="2" className={styles.f2}>Underground Writing</Heading>
+						<Heading level="2" className={styles.f2}>
+							Underground Writing
+						</Heading>
 						<p className={styles.p}>
+<<<<<<< HEAD
 						This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy. 
 						<br /> <br />
 						Liferay designers spent some time at the end of the year to give Underground Writing a top to down make-over. This included a brand new website, completely revamped tech stack, and service design optimizations.
+=======
+							We are a literature-based creative writing program serving
+							migrant, incarcerated, recovery, and other at-risk communities
+							in northern Washington through literacy and personal
+							transformation.
+							<br /> <br />
+							We facilitate generative readings of literature spanning the
+							tradition—from ancient texts to those written in our
+							workshops. Honoring the transforming power of the word, we
+							believe that attentive reading leads to attentive writing, and
+							that attentive writing has the power to assist in the
+							restoration of communities, the imagination, and individual
+							lives.
+>>>>>>> b148567... add content to intro and department sections
 						</p>
 					</Flex>
 					<img src="/images/2019/underground-writing.png" />
@@ -359,7 +439,9 @@ const TwentyNineteen = () => {
 						</ul>
 					</Flex>
 				</div>
-				<a href="#" className={styles.link}>View Full Case Study</a>
+				<a href="#" className={styles.link}>
+					View Full Case Study
+				</a>
 			</section>
 
 			{/* THOUGHT LEADERSHIP */}
@@ -367,10 +449,27 @@ const TwentyNineteen = () => {
 				<div className={styles.dbp}>
 					<div>
 						<div className={styles.preHeader}>Thought Leadership</div>
+<<<<<<< HEAD
 						<Heading level="2" className={styles.f2}>Design Best Practices</Heading>
 						<p className={styles.p}>Over the last 9 months we have invested in sharing our research, thoughts, and work with you. We have shared over 40 posts covering topics such as accessibility, psychology, research, strategy, visual design,
 ethics and much more!</p>
 						<a href="/tags/best-practices" className={styles.link}>Browse Best Practices Articles</a>
+=======
+						<Heading level="2" className={styles.f2}>
+							Design Best Practices
+						</Heading>
+						<p className={styles.p}>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Bibendum mi in tempus facilisi. Placerat gravida porttitor
+							urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in
+							tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis
+							commodo nunc lobortis aliquam pretium sed tellus. Laoreet ut
+							viverra sit cras viverra. Faucibus pretium egestas ac vel sed.
+						</p>
+						<a href="/tags/best-practices" className={styles.link}>
+							Browse Best Practices Articles
+						</a>
+>>>>>>> b148567... add content to intro and department sections
 					</div>
 					<div className={styles.dbpGrid}>
 						<img src="/images/2019/dbp/law-of-common-region.png" />
@@ -392,13 +491,23 @@ ethics and much more!</p>
 					</div>
 				</div>
 			</section>
-			
+
 			{/* COMMUNITY */}
 			<section id="community" className={styles.ourEvents}>
 				<div className={styles.preHeader}>Community</div>
+<<<<<<< HEAD
 				<Heading level="2" className={styles.f2}>Our Events</Heading>
 				<p className={styles.p}>Ideas meet makers. Makers meet comrades.<br />
 These events sparked inspirations, gave ideas momentum, and put makers in action.
+=======
+				<Heading level="2" className={styles.f2}>
+					Our Events
+				</Heading>
+				<p className={styles.p}>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
+					quis nunc quis sit accumsan, ultrices aliquam amet. Vitae commodo
+					rhoncus lectus morbi non. Netus aliquet.
+>>>>>>> b148567... add content to intro and department sections
 				</p>
 				<div className={styles.cardGrid}>
 					<SimpleCard
@@ -406,33 +515,35 @@ These events sparked inspirations, gave ideas momentum, and put makers in action
 						title="Digital thinkers Conference"
 						subtitle="San Francisco"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="The Creativity Conference"
 						subtitle="Los Angeles"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="UX Training Conferences"
 						subtitle="Madrid"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="EuroIA 2019 Impact"
 						subtitle="Berlin"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="Figma Meetup Los Angeles"
 						subtitle="Diamond Bar"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<Flex justify="center" align="center" className={styles.seeMoreCard}>
-						<a href="/events" className={styles.link}>See More Events</a>
+						<a href="/events" className={styles.link}>
+							See More Events
+						</a>
 					</Flex>
 				</div>
 			</section>
