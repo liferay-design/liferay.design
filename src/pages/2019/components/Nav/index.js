@@ -209,7 +209,7 @@ export default class Nav extends Component {
 							Top
 						</div>
 					</AnchorLink>
-					<AnchorLink offset="100" href="#team">
+					<AnchorLink offset="-100" href="#department">
 						<Plx
 							parallaxData={team}
 							className={styles.anchorBlock}
