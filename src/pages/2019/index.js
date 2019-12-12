@@ -6,24 +6,8 @@ import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { SEO } from 'components/molecules'
+import data from  'markdown/annual-reports/TwentyNineteen.yaml'
 
-
-//   constant plx data
-// const InView = [
-// 	{
-// 		start: 'self',
-// 		duration: 1,
-// 		properties: [],
-// 	},
-// ]
-// const InView10 = [
-// 	{
-// 		start: 'self',
-// 		duration: 1,
-// 		startOffset: '10vh',
-// 		properties: [],
-// 	},
-// ]
 const PlxUp1 = [
 	{
 		start: 'self',
@@ -37,72 +21,6 @@ const PlxUp1 = [
 		],
 	},
 ]
-const PlxUp2 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 100,
-				endValue: -100,
-				property: 'translateY',
-			},
-		],
-	},
-]
-const PlxUp3 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 150,
-				endValue: -150,
-				property: 'translateY',
-			},
-		],
-	},
-]
-// const PlxDown1 = [
-// 	{
-// 		start: 'self',
-// 		duration: '200vh',
-// 		properties: [
-// 			{
-// 				startValue: -50,
-// 				endValue: 50,
-// 				property: 'translateY',
-// 			},
-// 		],
-// 	},
-// ]
-// const PlxDown2 = [
-// 	{
-// 		start: 'self',
-// 		duration: '200vh',
-// 		properties: [
-// 			{
-// 				startValue: -100,
-// 				endValue: 100,
-// 				property: 'translateY',
-// 			},
-// 		],
-// 	},
-// ]
-// const PlxDown3 = [
-// 	{
-// 		start: 'self',
-// 		duration: '200vh',
-// 		properties: [
-// 			{
-// 				startValue: -150,
-// 				endValue: 150,
-// 				property: 'translateY',
-// 			},
-// 		],
-// 	},
-// ]
-
 
 const TwentyNineteen = () => {
 	return (
@@ -134,15 +52,9 @@ const TwentyNineteen = () => {
 			<section id="top" className={styles.hero}>
 				<img src="/images/2019/hero-image.png" />
 				<Heading level="1" className={styles.f2}>
-					Annual <span>Report</span>
+					{data.title}
 				</Heading>
-				<p className={styles.p}>
-					This was a big year for design at Liferay. We continued to scale,
-					moving designers from Product Management, Marketing, and Engineering
-					to form a Design department at Liferay. Our second annual report
-					shares highlights about our organization, the work we've done for
-					customers, our local communities, and the design community at large.
-				</p>
+				<p className={styles.p}>{data.subtitle}</p>
 			</section>
 
 			{/* DEPARTMENT */}
@@ -155,25 +67,13 @@ const TwentyNineteen = () => {
 				>
 					<div className={styles.organizationContent}>
 						<div>
-							<div className={styles.preHeader}>Department</div>
+							<div className={styles.preHeader}>
+								{data.departmentSection.pretitle}
+							</div>
 							<Heading level="2" className={styles.f2}>
-								Organization
+								{data.departmentSection.title}
 							</Heading>
-							<p className={styles.p}>
-								While we recognize that there are differences in each
-								team’s skills, there are also similarities in what makes a
-								“designer” of any profession, a designer. As a department,
-								we want to steward and attract designers that add to
-								Liferay’s culture.
-							</p>
-							<p className={styles.p}>
-								The Design Department is comprised of three teams;
-								Communication, Product, and Research. Each of those teams
-								determines the skills required to be a designer on that
-								team. These skills should be relevant to the market and
-								also reflect the ways in which we’re adding value to the
-								company.
-							</p>
+							<p className={styles.p}>{data.departmentSection.content}</p>
 						</div>
 						<div>
 							<Icon
@@ -182,29 +82,27 @@ const TwentyNineteen = () => {
 								height="7.25vw"
 								width="7.25vw"
 							/>
-							<p className={styles.p}>Our Desicon</p>
-							<p className={styles.p}>"Design" + "Icon" &mdash; get it?</p>
+							<p className={styles.p}>
+								{data.departmentSection.desicon.title}
+							</p>
+							<p className={styles.p}>
+								{data.departmentSection.desicon.subtitle}
+							</p>
 						</div>
 					</div>
 					<div className={styles.departmentNames}>
-						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>
-								Product <span>Design</span>
-							</Heading>
-							<span className={styles.pSmall}>Interaction Design</span>
-						</Flex>
-						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>
-								Communication <span>Design</span>
-							</Heading>
-							<span className={styles.pSmall}>Brand Consistency</span>
-						</Flex>
-						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>
-								Research <span>Design</span>
-							</Heading>
-							<span className={styles.pSmall}>User Testing</span>
-						</Flex>
+						{data.departmentSection.subDepartments.map(
+							({ subDepartment }) => (
+								<Flex direction="column" align="center" justify="center">
+									<Heading level="3" className={styles.f4}>
+										{subDepartment.title}
+									</Heading>
+									<span className={styles.pSmall}>
+										{subDepartment.subtitle}
+									</span>
+								</Flex>
+							),
+						)}
 					</div>
 				</Flex>
 				{/* <img src="/images/2019/dots-large.svg"/> */}
@@ -213,15 +111,13 @@ const TwentyNineteen = () => {
 			{/* FRESH FISH */}
 			<section id="new-faces">
 				<div className={styles.newFaces}>
-					<div className={styles.preHeader}>Milestones</div>
+					<div className={styles.preHeader}>
+						{data.timelineSection.pretitle}
+					</div>
 					<Heading level="2" className={styles.f2}>
-						New Faces &amp; Birthrays
+						{data.timelineSection.title}
 					</Heading>
-					<p className={styles.p}>
-						The team gets stronger each year as we embrace new additions,
-						celebrate anniversaries, and gain more experience. We’ve hired 3
-						new designers and had 11 birthRays.
-					</p>
+					<p className={styles.p}>{data.timelineSection.subtitle}</p>
 					<Flex
 						direction="column"
 						justify="space-between"
@@ -314,16 +210,11 @@ const TwentyNineteen = () => {
 
 			{/* GROW */}
 			<section id="growth" className={styles.growth}>
-				<div className={styles.preHeader}>Grow &amp; Get Better</div>
+				<div className={styles.preHeader}>{data.careerSection.pretitle}</div>
 				<Heading level="2" className={styles.f2}>
-					Design Careers
+					{data.careerSection.title}
 				</Heading>
-				<p className={styles.p}>
-					We recognize that not everyone wants to manage people — and that's
-					great — we need to ensure there’s room for all to grow. We have
-					designed a dual-track path, one for people management and one for
-					individual contribution.
-				</p>
+				<p className={styles.p}>{data.careerSection.subtitle}</p>
 				<Flex
 					direction="column"
 					align="center"
@@ -383,49 +274,36 @@ const TwentyNineteen = () => {
 			<section id="charityDesign" className={styles.charityDesign}>
 				<div className={styles.fiftyFifty}>
 					<Flex direction="column" justify="center" className={styles.left}>
-						<div className={styles.preHeader}>Giving Back</div>
+						<div className={styles.preHeader}>
+							{data.givingSection.pretitle}
+						</div>
 						<Heading level="2" className={styles.f2}>
-							Underground Writing
+							{data.givingSection.title}
 						</Heading>
-						<p className={styles.p}>
-							This year Design for Life(ray) served Underground Writing, an
-							organization that runs creative workshops that empowers
-							personal transformation in migrant, incarcerated, recovery,
-							and other at-risk communities through literacy.
-							<br /> <br />
-							Liferay designers spent some time at the end of the year to
-							give Underground Writing a top to down make-over. This
-							included a brand new website, completely revamped tech stack,
-							and service design optimizations.
-						</p>
+						<p className={styles.p}>{data.givingSection.subtitle}</p>
 					</Flex>
 					<img src="/images/2019/underground-writing.png" />
 				</div>
 				<div className={styles.services}>
 					<Flex flexWrap="wrap" className={styles.p}>
-						<span>Services Provided</span>
+						<span>{data.givingSection.what.title}</span>
 						<ul>
-							<li>Branding</li>
-							<li>Development</li>
-							<li>Service Design</li>
-							<li>Web Design</li>
+							{data.givingSection.what.services.map(i => (
+								<li>{i}</li>
+							))}
 						</ul>
 					</Flex>
 					<Flex flexWrap="wrap" className={styles.p}>
-						<span>Technologies Used</span>
+						<span>{data.givingSection.how.title}</span>
 						<ul>
-							<li>Anchor.fm</li>
-							<li>Donorbox</li>
-							<li>Google Suite for Nonprofits</li>
-							<li>Webflow</li>
+							{data.givingSection.how.technologies.map(i => (
+								<li>{i}</li>
+							))}
 						</ul>
 					</Flex>
 				</div>
-				<a
-					href="/articles/2019/unlocking-creative-potential/"
-					className={styles.link}
-				>
-					View Full Case Study
+				<a href={data.givingSection.link.url} className={styles.link}>
+					{data.givingSection.link.title}
 				</a>
 			</section>
 
@@ -433,18 +311,15 @@ const TwentyNineteen = () => {
 			<section id="thoughtLeadership">
 				<div className={styles.dbp}>
 					<div>
-						<div className={styles.preHeader}>&#35;ThoughtLeadership</div>
+						<div className={styles.preHeader}>
+							{data.designPractice.pretitle}
+						</div>
 						<Heading level="2" className={styles.f2}>
-							Design Best Practices
+							{data.designPractice.title}
 						</Heading>
-						<p className={styles.p}>
-							Over the last 9 months we have invested in sharing our
-							research, thoughts, and work with you. We have shared over 40
-							posts covering topics such as accessibility, psychology,
-							research, strategy, visual design, ethics and much more!
-						</p>
-						<a href="/tags/best-practices" className={styles.link}>
-							Browse Best Practices Articles
+						<p className={styles.p}>{data.designPractice.subtitle}</p>
+						<a href={data.designPractice.link.url} className={styles.link}>
+							{data.designPractice.link.title}
 						</a>
 					</div>
 					<div className={styles.dbpGrid}>
@@ -462,16 +337,11 @@ const TwentyNineteen = () => {
 
 			{/* COMMUNITY */}
 			<section id="community" className={styles.ourEvents}>
-				<div className={styles.preHeader}>Community</div>
+				<div className={styles.preHeader}>{data.designCommunity.pretitle}</div>
 				<Heading level="2" className={styles.f2}>
-					Our Events
+					{data.designCommunity.title}
 				</Heading>
-				<p className={styles.p}>
-					Ideas meet makers. Makers meet comrades.
-					<br />
-					These events sparked inspirations, gave ideas momentum, and put makers
-					in action.
-				</p>
+				<p className={styles.p}>{data.designCommunity.subtitle}</p>
 				<div className={styles.cardGrid}>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2-4.png"
