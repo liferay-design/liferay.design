@@ -21,16 +21,9 @@ const SocialIcons = () => {
 
 			<Link
 				aria-label="Liferay.Design on instagram"
-				to="https://www.instagram.com/liferay_ux/"
+				to="https://www.instagram.com/liferaydesign/"
 			>
 				<Icon name="instagram" />
-			</Link>
-
-			<Link
-				aria-label="Liferay.Design on linkedin"
-				to="https://www.linkedin.com/company/83609"
-			>
-				<Icon name="linkedin" />
 			</Link>
 
 			<Link
