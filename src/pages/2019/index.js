@@ -1,8 +1,7 @@
 import { Flex, Image, Heading, Text, Icon, ScrollProgress } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import { Designer, SimpleCard, ProjectsCarousel, Nav } from 'pages/2019/components/_index'
+import { SimpleCard, Nav } from 'pages/2019/components/_index'
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
@@ -135,10 +134,14 @@ const TwentyNineteen = () => {
 			<section id="top" className={styles.hero}>
 				<img src="/images/2019/hero-image.png" />
 				<Heading level="1" className={styles.f2}>
-					Design <span>Report</span>
+					Annual <span>Report</span>
 				</Heading>
 				<p className={styles.p}>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum mi in tempus facilisi. Placerat gravida porttitor urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis commodo nunc lobortis.
+					This was a big year for design at Liferay. We continued to scale,
+					moving designers from Product Management, Marketing, and Engineering
+					to form a Design department at Liferay. Our second annual report
+					shares highlights about our organization, the work we've done for
+					customers, our local communities, and the design community at large.
 				</p>
 			</section>
 
@@ -150,24 +153,62 @@ const TwentyNineteen = () => {
 
 			{/* DEPARTMENT */}
 			<section id="department">
-				<Flex direction="column" align="center" justify="center" className={styles.department}>
-					<div className={styles.preHeader}>Department</div>
-					<Heading level="2" className={styles.f2}>Organization</Heading>
+				<Flex
+					direction="column"
+					align="center"
+					justify="center"
+					className={styles.department}
+				>
 					<div className={styles.organizationContent}>
-						<Icon name="liferayDesicon" fill="white" height="7.25vw" width="7.25vw" />
-						<p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum mi in tempus facilisi. Placerat gravida porttitor urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis commodo nunc lobortis aliquam pretium sed tellus. Laoreet ut viverra sit cras viverra. Faucibus pretium egestas ac vel sed. </p>
+						<div>
+							<div className={styles.preHeader}>Department</div>
+							<Heading level="2" className={styles.f2}>
+								Organization
+							</Heading>
+							<p className={styles.p}>
+								While we recognize that there are differences in each
+								team’s skills, there are also similarities in what makes a
+								“designer” of any profession, a designer. As a department,
+								we want to steward and attract designers that add to
+								Liferay’s culture.
+							</p>
+							<p className={styles.p}>
+								The Design Department is comprised of three teams;
+								Communication, Product, and Research. Each of those teams
+								determines the skills required to be a designer on that
+								team. These skills should be relevant to the market and
+								also reflect the ways in which we’re adding value to the
+								company.
+							</p>
+						</div>
+						<div>
+							<Icon
+								name="liferayDesicon"
+								fill="white"
+								height="7.25vw"
+								width="7.25vw"
+							/>
+							<p className={styles.p}>Our Desicon</p>
+							<p className={styles.p}>"Design" + "Icon" &mdash; get it?</p>
+						</div>
 					</div>
 					<div className={styles.departmentNames}>
 						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>Product <span>Design</span></Heading>
+							<Heading level="3" className={styles.f4}>
+								Product <span>Design</span>
+							</Heading>
 							<span className={styles.pSmall}>Interaction Design</span>
 						</Flex>
 						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>Communication <span>Design</span></Heading>
+							<Heading level="3" className={styles.f4}>
+								Communication <span>Design</span>
+							</Heading>
 							<span className={styles.pSmall}>Brand Consistency</span>
 						</Flex>
 						<Flex direction="column" align="center" justify="center">
-							<Heading level="3" className={styles.f4}>Research <span>Design</span></Heading>
+							<Heading level="3" className={styles.f4}>
+								Research <span>Design</span>
+							</Heading>
 							<span className={styles.pSmall}>User Testing</span>
 						</Flex>
 					</div>
@@ -330,7 +371,9 @@ const TwentyNineteen = () => {
 				<div className={styles.fiftyFifty}>
 					<Flex direction="column" justify="center" className={styles.left}>
 						<div className={styles.preHeader}>Charity Design</div>
-						<Heading level="2" className={styles.f2}>Underground Writing</Heading>
+						<Heading level="2" className={styles.f2}>
+							Underground Writing
+						</Heading>
 						<p className={styles.p}>
 						This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy. 
 						<br /> <br />
@@ -359,7 +402,9 @@ const TwentyNineteen = () => {
 						</ul>
 					</Flex>
 				</div>
-				<a href="#" className={styles.link}>View Full Case Study</a>
+				<a href="#" className={styles.link}>
+					View Full Case Study
+				</a>
 			</section>
 
 			{/* THOUGHT LEADERSHIP */}
@@ -392,7 +437,7 @@ ethics and much more!</p>
 					</div>
 				</div>
 			</section>
-			
+
 			{/* COMMUNITY */}
 			<section id="community" className={styles.ourEvents}>
 				<div className={styles.preHeader}>Community</div>
@@ -406,33 +451,35 @@ These events sparked inspirations, gave ideas momentum, and put makers in action
 						title="Digital thinkers Conference"
 						subtitle="San Francisco"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="The Creativity Conference"
 						subtitle="Los Angeles"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="UX Training Conferences"
 						subtitle="Madrid"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="EuroIA 2019 Impact"
 						subtitle="Berlin"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<SimpleCard
 						image="/images/2019/logos/awwwards-logo 2.png"
 						title="Figma Meetup Los Angeles"
 						subtitle="Diamond Bar"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-						/>
+					/>
 					<Flex justify="center" align="center" className={styles.seeMoreCard}>
-						<a href="/events" className={styles.link}>See More Events</a>
+						<a href="/events" className={styles.link}>
+							See More Events
+						</a>
 					</Flex>
 				</div>
 			</section>
