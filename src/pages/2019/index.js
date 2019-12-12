@@ -1,6 +1,6 @@
 import { Flex, Image, Heading, Text, Icon, ScrollProgress } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import { SimpleCard, Nav } from 'pages/2019/components/_index'
+import { SimpleCard, Nav, Designer } from 'pages/2019/components/_index'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
@@ -124,12 +124,9 @@ const TwentyNineteen = () => {
 				<title>Liferay Design | 2019 Annual Report</title>
 			</Helmet>
 
-<<<<<<< HEAD
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
 			<ScrollProgress />
-			
-=======
->>>>>>> b148567... add content to intro and department sections
+
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />
 
@@ -147,28 +144,6 @@ const TwentyNineteen = () => {
 					customers, our local communities, and the design community at large.
 				</p>
 			</section>
-
-			{/* ---------- TEAM ----------- */}
-			{/* HEADER - TEAM */}
-<<<<<<< HEAD
-			<Plx tagName="h2" className={styles.sectionHeader} id="team" parallaxData={PlxUp1}>
-				Team
-=======
-			<Plx className={styles.sectionHeader} id="team" parallaxData={PlxUp1}>
-				<Image src="/images/2019/header-team.png" />
-				<svg
-					width="30"
-					height="2"
-					viewBox="0 0 30 2"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<circle cx="1" cy="1" r="1" fill="white" />
-					<circle cx="15" cy="1" r="1" fill="white" />
-					<circle cx="29" cy="1" r="1" fill="white" />
-				</svg>
->>>>>>> b148567... add content to intro and department sections
-			</Plx>
 
 			{/* DEPARTMENT */}
 			<section id="department">
@@ -234,124 +209,133 @@ const TwentyNineteen = () => {
 				</Flex>
 				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
-<<<<<<< HEAD
-			
+
 			{/* FRESH FISH */}
 			<section id="new-faces">
 				<div className={styles.newFaces}>
-				<div className={styles.preHeader}>New Faces</div>
-				<Heading level="2" className={styles.f2}>Designer Timeline</Heading>
-				<p className={styles.p}>
-				The team gets stronger each year as we embrace new additions, hit milestones, and gain more experience. We’ve hired 3 new designers and had 11 birthRays.
-				</p>
-				<Flex
-					direction="column"
-					justify="space-between"
-					className={styles.timeline}
-				>
-					<div className={styles.line}>
-						<svg
-							width="100%"
-							height="calc(100% + 5vw)"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<line
-								x1="0.5"
-								y1="0"
-								x2="0.5"
-								y2="100%"
-								stroke="#006DE7"
-								stroke-linejoin="round"
-								stroke-dasharray="1 10"
-							/>
-						</svg>
-					</div>
-					<Designer
-						profileUrl="/team/wood-jon"
-						month="April"
-						day="15"
-						headshot="/images/headshots/wood-jon.jpg"
-						name="Jon"
-						detail="firstDay"
-						country="California"
-					/>
-					<Designer
-						profileUrl="/team/censi-andrea"
-						month="May"
-						day="14"
-						headshot="/images/headshots/censi-andrea.jpg"
-						name="Andrea"
-						detail="birthRay"
-						birthRay
-					/>
-					<Designer
-						profileUrl="/team/francisco-marleny"
-						month="Aug"
-						day="12"
-						headshot="/images/headshots/francisco-marleny.jpg"
-						name="Marleny"
-						detail="firstDay"
-						country="Spain"
-					/>
-					<Designer
-						profileUrl="/team/lyons-james"
-						month="Sep"
-						day="10"
-						headshot="/images/headshots/lyons-james.jpg"
-						name="James"
-						detail="birthRay"
-						birthRay
-					/>
-					<Designer
-						profileUrl="/team/kim-david"
-						month="Sep"
-						day="17"
-						headshot="/images/headshots/kim-david.jpg"
-						name="David"
-						detail="birthRay"
-						birthRay
-					/>
-					<Designer
-						profileUrl="/team/garcia-laura"
-						month="Oct"
-						day="14"
-						headshot="/images/headshots/garcia-laura.jpg"
-						name="Laura"
-						detail="firstDay"
-						country="Spain"
-					/>
-					<Designer
-						profileUrl="/team/manso-miriam"
-						month="Oct"
-						day="15"
-						headshot="/images/headshots/manso-miriam.jpg"
-						name="Miriam"
-						detail="birthRay"
-						birthRay
-					/>
-				</Flex>
+					<div className={styles.preHeader}>Milestones</div>
+					<Heading level="2" className={styles.f2}>
+						New Faces &amp; Birthrays
+					</Heading>
+					<p className={styles.p}>
+						The team gets stronger each year as we embrace new additions,
+						celebrate anniversaries, and gain more experience. We’ve hired 3
+						new designers and had 11 birthRays.
+					</p>
+					<Flex
+						direction="column"
+						justify="space-between"
+						className={styles.timeline}
+					>
+						<div className={styles.line}>
+							<svg
+								width="100%"
+								height="calc(100% + 5vw)"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<line
+									x1="0.5"
+									y1="0"
+									x2="0.5"
+									y2="100%"
+									stroke="#006DE7"
+									stroke-linejoin="round"
+									stroke-dasharray="1 10"
+								/>
+							</svg>
+						</div>
+						<Designer
+							profileUrl="/team/wood-jon"
+							month="April"
+							day="15"
+							headshot="/images/headshots/wood-jon.jpg"
+							name="Jon"
+							detail="firstDay"
+							country="California"
+						/>
+						<Designer
+							profileUrl="/team/censi-andrea"
+							month="May"
+							day="14"
+							headshot="/images/headshots/censi-andrea.jpg"
+							name="Andrea"
+							detail="birthRay"
+							birthRay
+						/>
+						<Designer
+							profileUrl="/team/francisco-marleny"
+							month="Aug"
+							day="12"
+							headshot="/images/headshots/francisco-marleny.jpg"
+							name="Marleny"
+							detail="firstDay"
+							country="Spain"
+						/>
+						<Designer
+							profileUrl="/team/lyons-james"
+							month="Sep"
+							day="10"
+							headshot="/images/headshots/lyons-james.jpg"
+							name="James"
+							detail="birthRay"
+							birthRay
+						/>
+						<Designer
+							profileUrl="/team/kim-david"
+							month="Sep"
+							day="17"
+							headshot="/images/headshots/kim-david.jpg"
+							name="David"
+							detail="birthRay"
+							birthRay
+						/>
+						<Designer
+							profileUrl="/team/garcia-laura"
+							month="Oct"
+							day="14"
+							headshot="/images/headshots/garcia-laura.jpg"
+							name="Laura"
+							detail="firstDay"
+							country="Spain"
+						/>
+						<Designer
+							profileUrl="/team/manso-miriam"
+							month="Oct"
+							day="15"
+							headshot="/images/headshots/manso-miriam.jpg"
+							name="Miriam"
+							detail="birthRay"
+							birthRay
+						/>
+					</Flex>
 				</div>
 			</section>
 
 			{/* GROW */}
 			<section id="growth" className={styles.growth}>
-				<div className={styles.preHeader}>Growth</div>
-				<Heading level="2" className={styles.f2}>Design Paths</Heading>
+				<div className={styles.preHeader}>Grow &amp; Get Better</div>
+				<Heading level="2" className={styles.f2}>
+					Design Careers
+				</Heading>
 				<p className={styles.p}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan, ultrices aliquam amet. Vitae commodo rhoncus lectus morbi non. Netus aliquet.
+					We recognize that not everyone wants to manage people — and that's
+					great — we need to ensure there’s room for all to grow. We have
+					designed a dual-track path, one for people management and one for
+					individual contribution.
 				</p>
 				<Flex
 					direction="column"
 					align="center"
-					className={styles.recentPromotions}>
+					className={styles.recentPromotions}
+				>
 					<img className={styles.growTool} src="/images/2019/path-tool.png" />
-					<Heading level="2" className={styles.f3}>
+					{/* <Heading level="2" className={styles.f3}>
 						Recent Promotions
 					</Heading>
 					<div>
 						<div className={styles.promotionCard}>
-							<img src="/images/headshots/connolly-ryan.jpg"/>
+							<img src="/images/headshots/connolly-ryan.jpg" />
 							<div>
 								<Heading level="3" className={styles.f3Large}>
 									Ryan <span>Connolly</span>
@@ -359,12 +343,14 @@ const TwentyNineteen = () => {
 								<span>3 years with Liferay</span>
 							</div>
 							<div>
-								<Heading level="4" className={styles.f4}>Warrior Princess</Heading>
+								<Heading level="4" className={styles.f4}>
+									Warrior Princess
+								</Heading>
 								<span>Previous: Product Design Manager</span>
 							</div>
 						</div>
 						<div className={styles.promotionCard}>
-							<img src="/images/headshots/jeong-chris.jpg"/>
+							<img src="/images/headshots/jeong-chris.jpg" />
 							<div>
 								<Heading level="3" className={styles.f3Large}>
 									Chris <span>Jeong</span>
@@ -372,49 +358,45 @@ const TwentyNineteen = () => {
 								<span>2 years with Liferay</span>
 							</div>
 							<div>
-								<Heading level="4" className={styles.f4}>Senior Product Designer</Heading>
+								<Heading level="4" className={styles.f4}>
+									Senior Product Designer
+								</Heading>
 								<span>Previous: Product Designer</span>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</Flex>
 			</section>
 
 			{/* ---------- INITIATIVES ----------- */}
 			{/* HEADER - INITIATIVES */}
-			<Plx tagName="h2" className={styles.sectionHeader} id="initiatives" parallaxData={PlxUp1}>
+			<Plx
+				tagName="h2"
+				className={styles.sectionHeader}
+				id="initiatives"
+				parallaxData={PlxUp1}
+			>
 				Inititatives
 			</Plx>
-=======
->>>>>>> b148567... add content to intro and department sections
 
 			{/* CHARITY DESIGN */}
 			<section id="charityDesign" className={styles.charityDesign}>
 				<div className={styles.fiftyFifty}>
 					<Flex direction="column" justify="center" className={styles.left}>
-						<div className={styles.preHeader}>Charity Design</div>
+						<div className={styles.preHeader}>Giving Back</div>
 						<Heading level="2" className={styles.f2}>
 							Underground Writing
 						</Heading>
 						<p className={styles.p}>
-<<<<<<< HEAD
-						This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy. 
-						<br /> <br />
-						Liferay designers spent some time at the end of the year to give Underground Writing a top to down make-over. This included a brand new website, completely revamped tech stack, and service design optimizations.
-=======
-							We are a literature-based creative writing program serving
-							migrant, incarcerated, recovery, and other at-risk communities
-							in northern Washington through literacy and personal
-							transformation.
+							This year Design for Life(ray) served Underground Writing, an
+							organization that runs creative workshops that empowers
+							personal transformation in migrant, incarcerated, recovery,
+							and other at-risk communities through literacy.
 							<br /> <br />
-							We facilitate generative readings of literature spanning the
-							tradition—from ancient texts to those written in our
-							workshops. Honoring the transforming power of the word, we
-							believe that attentive reading leads to attentive writing, and
-							that attentive writing has the power to assist in the
-							restoration of communities, the imagination, and individual
-							lives.
->>>>>>> b148567... add content to intro and department sections
+							Liferay designers spent some time at the end of the year to
+							give Underground Writing a top to down make-over. This
+							included a brand new website, completely revamped tech stack,
+							and service design optimizations.
 						</p>
 					</Flex>
 					<img src="/images/2019/underground-writing.png" />
@@ -439,7 +421,10 @@ const TwentyNineteen = () => {
 						</ul>
 					</Flex>
 				</div>
-				<a href="#" className={styles.link}>
+				<a
+					href="/articles/2019/unlocking-creative-potential/"
+					className={styles.link}
+				>
 					View Full Case Study
 				</a>
 			</section>
@@ -448,44 +433,27 @@ const TwentyNineteen = () => {
 			<section id="thoughtLeadership">
 				<div className={styles.dbp}>
 					<div>
-						<div className={styles.preHeader}>Thought Leadership</div>
-<<<<<<< HEAD
-						<Heading level="2" className={styles.f2}>Design Best Practices</Heading>
-						<p className={styles.p}>Over the last 9 months we have invested in sharing our research, thoughts, and work with you. We have shared over 40 posts covering topics such as accessibility, psychology, research, strategy, visual design,
-ethics and much more!</p>
-						<a href="/tags/best-practices" className={styles.link}>Browse Best Practices Articles</a>
-=======
+						<div className={styles.preHeader}>&#35;ThoughtLeadership</div>
 						<Heading level="2" className={styles.f2}>
 							Design Best Practices
 						</Heading>
 						<p className={styles.p}>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Bibendum mi in tempus facilisi. Placerat gravida porttitor
-							urna ut. Sed ullamcorper eget maecenas elit erat vestibulum in
-							tellus. Amet nibh amet, nibh in feugiat nunc aenean mi. Quis
-							commodo nunc lobortis aliquam pretium sed tellus. Laoreet ut
-							viverra sit cras viverra. Faucibus pretium egestas ac vel sed.
+							Over the last 9 months we have invested in sharing our
+							research, thoughts, and work with you. We have shared over 40
+							posts covering topics such as accessibility, psychology,
+							research, strategy, visual design, ethics and much more!
 						</p>
 						<a href="/tags/best-practices" className={styles.link}>
 							Browse Best Practices Articles
 						</a>
->>>>>>> b148567... add content to intro and department sections
 					</div>
 					<div className={styles.dbpGrid}>
-						<img src="/images/2019/dbp/law-of-common-region.png" />
 						<img src="/images/2019/dbp/the-design-process.png" />
-						<img src="/images/2019/dbp/pareto-principle.png" />
-						<img src="/images/2019/dbp/zero-users-give-zero-insights.png" />
 						<img src="/images/2019/dbp/Service-Design.png" />
-						<img src="/images/2019/dbp/aesthetic-usability.png" />
-						<img src="/images/2019/dbp/customization-vs-personalization.png" />
-						<img src="/images/2019/dbp/value-driven-kpis.png" />
-						<img src="/images/2019/dbp/what-is-accessibility-in-design.png" />
 						<img src="/images/2019/dbp/ethics-in-design.png" />
 						<img src="/images/2019/dbp/data-driven-vs-data-infomred.png" />
 						<img src="/images/2019/dbp/giving-feedback.png" />
 						<img src="/images/2019/dbp/affordances.png" />
-						<img src="/images/2019/dbp/design-for-recognition-not-recall.png" />
 						<img src="/images/2019/dbp/banner-blindness.png" />
 						<img src="/images/2019/dbp/what-is-a-mental-model.png" />
 					</div>
@@ -495,19 +463,14 @@ ethics and much more!</p>
 			{/* COMMUNITY */}
 			<section id="community" className={styles.ourEvents}>
 				<div className={styles.preHeader}>Community</div>
-<<<<<<< HEAD
-				<Heading level="2" className={styles.f2}>Our Events</Heading>
-				<p className={styles.p}>Ideas meet makers. Makers meet comrades.<br />
-These events sparked inspirations, gave ideas momentum, and put makers in action.
-=======
 				<Heading level="2" className={styles.f2}>
 					Our Events
 				</Heading>
 				<p className={styles.p}>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
-					quis nunc quis sit accumsan, ultrices aliquam amet. Vitae commodo
-					rhoncus lectus morbi non. Netus aliquet.
->>>>>>> b148567... add content to intro and department sections
+					Ideas meet makers. Makers meet comrades.
+					<br />
+					These events sparked inspirations, gave ideas momentum, and put makers
+					in action.
 				</p>
 				<div className={styles.cardGrid}>
 					<SimpleCard
@@ -547,16 +510,26 @@ These events sparked inspirations, gave ideas momentum, and put makers in action
 					</Flex>
 				</div>
 			</section>
-			
+
 			{/* ---------- PROJECTS ----------- */}
 			{/* HEADER - PROJECTS */}
-			<Plx tagName="h2" className={styles.sectionHeader} id="projects" parallaxData={PlxUp1}>
+			<Plx
+				tagName="h2"
+				className={styles.sectionHeader}
+				id="projects"
+				parallaxData={PlxUp1}
+			>
 				Projects
 			</Plx>
 
 			{/* ---------- OPS ----------- */}
 			{/* HEADER - OPS */}
-			<Plx tagName="h2" className={styles.sectionHeader} id="ops" parallaxData={PlxUp1}>
+			<Plx
+				tagName="h2"
+				className={styles.sectionHeader}
+				id="ops"
+				parallaxData={PlxUp1}
+			>
 				Ops
 			</Plx>
 			<Footer />
