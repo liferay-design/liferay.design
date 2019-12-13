@@ -481,19 +481,17 @@ section.hero {
 	padding: 180px 0 0;
 	position: relative;
 	.organizationContent {
-		padding: 20px;
-		max-width: 960px;
-		display: flex;
-		flex-flow: column wrap;
-		justify-content: center;
-		align-items: center;
+		padding: 40px;
 		svg {
 			min-width: 116px;
 			min-height: 116px;
 			flex: 0 0 7.25vw;
 		}
-		p {
-			padding-top: 40px;
+		.pLarge {
+			margin-bottom: 0;
+		}
+		.desicon {
+			text-align: center;
 		}
 	}
 	&:before {
@@ -542,10 +540,7 @@ section.hero {
 @include for-tablet-landscape-up {
 	.department {
 		.organizationContent {
-			flex-flow: row;
-			padding: 40px;
 			.p {
-				padding: 0 0 0 40px;
 			}
 		}
 		.departmentNames {
