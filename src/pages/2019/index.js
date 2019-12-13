@@ -1,6 +1,6 @@
 import { Flex, Image, Heading, Text, Icon, ScrollProgress } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import { SimpleCard, Nav, Designer } from 'pages/2019/components/_index'
+import { SimpleCard, Nav, Designer, KeyArt } from 'pages/2019/components/_index'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
@@ -53,7 +53,7 @@ const TwentyNineteen = () => {
 			<section id="top" className={styles.hero}>
 				<Grid gap="4rem" templateColumns="1fr 40% 1fr">
 					<Grid.Item area="1 / 2 / 2 / 3">
-						<img src="/images/2019/2019.svg" />
+						<KeyArt />
 					</Grid.Item>
 					<Grid.Item area="1 / 3 / 2 / 4" className={styles.f2}>
 						<Heading level="1" className={styles.f2}>
