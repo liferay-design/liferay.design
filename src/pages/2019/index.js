@@ -7,6 +7,7 @@ import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { SEO } from 'components/molecules'
 import data from  'markdown/annual-reports/TwentyNineteen.yaml'
+import { Grid } from 'reakit'
 
 const PlxUp1 = [
 	{
@@ -50,11 +51,19 @@ const TwentyNineteen = () => {
 
 			{/* --------- HERO ---------- */}
 			<section id="top" className={styles.hero}>
-				<img src="/images/2019/2019.svg" />
-				<Heading level="1" className={styles.f2}>
-					{data.title}
-				</Heading>
-				<p className={styles.p}>{data.subtitle}</p>
+				<Grid gap="4rem" templateColumns="1fr 40% 1fr">
+					<Grid.Item area="1 / 2 / 2 / 3">
+						<img src="/images/2019/2019.svg" />
+					</Grid.Item>
+					<Grid.Item area="1 / 3 / 2 / 4" className={styles.f2}>
+						<Heading level="1" className={styles.f2}>
+							{data.title}
+						</Heading>
+					</Grid.Item>
+					<Grid.Item area="2 / 1 / 3 / 4">
+						<p className={styles.pLarge}>{data.subtitle}</p>
+					</Grid.Item>
+				</Grid>
 			</section>
 
 			{/* DEPARTMENT */}
