@@ -74,8 +74,8 @@ const TwentyNineteen = () => {
 					justify="center"
 					className={styles.department}
 				>
-					<div className={styles.organizationContent}>
-						<div>
+					<Grid templateColumns="1fr 1fr" className={styles.organizationContent}>
+						<Grid.Item>
 							<div className={styles.preHeader}>
 								{data.departmentSection.pretitle}
 							</div>
@@ -83,22 +83,22 @@ const TwentyNineteen = () => {
 								{data.departmentSection.title}
 							</Heading>
 							<p className={styles.p}>{data.departmentSection.content}</p>
-						</div>
-						<div>
+						</Grid.Item>
+						<Grid.Item className={styles.desicon}>
 							<Icon
 								name="liferayDesicon"
 								fill="white"
 								height="7.25vw"
 								width="7.25vw"
 							/>
-							<p className={styles.p}>
+							<p className={styles.pLarge}>
 								{data.departmentSection.desicon.title}
 							</p>
 							<p className={styles.p}>
 								{data.departmentSection.desicon.subtitle}
 							</p>
-						</div>
-					</div>
+						</Grid.Item>
+					</Grid>
 					<div className={styles.departmentNames}>
 						{data.departmentSection.subDepartments.map(
 							({ subDepartment }) => (
