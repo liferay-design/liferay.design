@@ -1,11 +1,11 @@
 @import '~theme/variables';
 
 // COLORS
-$darkBlack: #1B1C1E;
-$lightBlack: #1F2123;
-$grayHeader: #555E68;
-$grayParagraph: #888B9B;
-$twentyNineteenBlue: #006DE7;
+$darkBlack: #1b1c1e;
+$lightBlack: #1f2123;
+$grayHeader: #555e68;
+$grayParagraph: #888b9b;
+$twentyNineteenBlue: #006de7;
 
 // FONT
 @font-face {
@@ -69,7 +69,6 @@ $breakpoint-for-large-desktop-up: 1800px;
 	}
 }
 
-
 // GLOBAL KEYFRAMES
 @keyframes fadeIn100 {
 	to {
@@ -95,10 +94,9 @@ $breakpoint-for-large-desktop-up: 1800px;
 	}
 }
 
-
 // GLOBAL STYLES
 .pagestyles {
-	background: #1F2123;
+	background: #1f2123;
 	font-family: 'SourceSans', sans-serif;
 	font-weight: $fontWeightBlack;
 	overflow-x: hidden;
@@ -290,19 +288,19 @@ $breakpoint-for-large-desktop-up: 1800px;
 		transform: translateX(100%);
 		transition: ease-out;
 		&:nth-of-type(5) {
-			transition-duration: 0.3s; 
+			transition-duration: 0.3s;
 		}
 		&:nth-of-type(4) {
-			transition-duration: 0.25s; 
+			transition-duration: 0.25s;
 		}
 		&:nth-of-type(3) {
-			transition-duration: 0.2s; 
+			transition-duration: 0.2s;
 		}
 		&:nth-of-type(2) {
-			transition-duration: 0.15s; 
+			transition-duration: 0.15s;
 		}
 		&:nth-of-type(1) {
-			transition-duration: 0.1s; 
+			transition-duration: 0.1s;
 		}
 		.anchorBlock {
 			width: 6px;
@@ -335,55 +333,55 @@ $breakpoint-for-large-desktop-up: 1800px;
 	}
 	// NAV OPEN STYLES
 	&:global(.navOpen) {
-	.menuButton {
-		border-radius: 50%;
-		width: 64px;
-		height: 64px;
-		bottom: 16px;
-		right: 16px;
-		span {
-			opacity: 0;
+		.menuButton {
+			border-radius: 50%;
+			width: 64px;
+			height: 64px;
+			bottom: 16px;
+			right: 16px;
+			span {
+				opacity: 0;
+			}
+			&:before {
+				content: '';
+				background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M24.293 25.7071L13.0001 14.4142L1.70718 25.7071L0.292969 24.2929L11.5859 13L0.292969 1.70712L1.70718 0.292908L13.0001 11.5858L24.293 0.292908L25.7072 1.70712L14.4143 13L25.7072 24.2929L24.293 25.7071Z' fill='%23006DE7'/%3E%3C/svg%3E%0A");
+				background-position: center;
+				background-repeat: no-repeat;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			&:focus {
+				background: $white;
+				border: 2px solid $twentyNineteenBlue;
+			}
 		}
-		&:before {
-			content: "";
-			background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M24.293 25.7071L13.0001 14.4142L1.70718 25.7071L0.292969 24.2929L11.5859 13L0.292969 1.70712L1.70718 0.292908L13.0001 11.5858L24.293 0.292908L25.7072 1.70712L14.4143 13L25.7072 24.2929L24.293 25.7071Z' fill='%23006DE7'/%3E%3C/svg%3E%0A");
-			background-position: center;
-			background-repeat: no-repeat;
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		&:focus {
-			background: $white;
-			border: 2px solid $twentyNineteenBlue;
-		}
-	}
-	.linkWrapper {
-		transform: translateX(0);
-		a {
+		.linkWrapper {
 			transform: translateX(0);
-			&:nth-of-type(1) {
-				transition-duration: 0.3s; 
-			}
-			&:nth-of-type(2) {
-				transition-duration: 0.25s; 
-			}
-			&:nth-of-type(3) {
-				transition-duration: 0.2s; 
-			}
-			&:nth-of-type(4) {
-				transition-duration: 0.15s; 
-			}
-			&:nth-of-type(5) {
-				transition-duration: 0.1s; 
+			a {
+				transform: translateX(0);
+				&:nth-of-type(1) {
+					transition-duration: 0.3s;
+				}
+				&:nth-of-type(2) {
+					transition-duration: 0.25s;
+				}
+				&:nth-of-type(3) {
+					transition-duration: 0.2s;
+				}
+				&:nth-of-type(4) {
+					transition-duration: 0.15s;
+				}
+				&:nth-of-type(5) {
+					transition-duration: 0.1s;
+				}
 			}
 		}
-	}
 	}
 }
 
@@ -443,30 +441,27 @@ section.hero {
 	min-height: 100vh;
 	width: 100vw;
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	padding-top: 0;
 	img {
-		width: 90vw;
-		max-width: 100vh;
-		margin: 10vh 0;
+		width: 90%;
+		margin: 10vh 5%;
 	}
 	.f2 {
-		margin-bottom: 0.2em;
+		align-self: center;
 		span {
 			color: $grayHeader;
 		}
 	}
 	p {
 		color: $grayParagraph;
-		max-width: 840px;
+		max-width: 48ch;
+		font-weight: $fontWeightRegular;
 		text-align: center;
+		margin: 0 auto;
 	}
 }
 
-// SECTION HEADER 
+// SECTION HEADER
 .sectionHeader {
 	padding: 10vh;
 	img {
@@ -480,7 +475,7 @@ section.hero {
 	}
 }
 
-// DEPARTMENT 
+// DEPARTMENT
 .department {
 	background: $darkBlack;
 	padding: 180px 0 0;
@@ -533,13 +528,13 @@ section.hero {
 			height: 160px;
 
 			&:nth-of-type(1) {
-				background: #0A44B4;
+				background: #0a44b4;
 			}
 			&:nth-of-type(2) {
-				background: #0A3A97;
+				background: #0a3a97;
 			}
 			&:nth-of-type(3) {
-				background: #072B71;
+				background: #072b71;
 			}
 		}
 	}
@@ -566,18 +561,18 @@ section.hero {
 	align-items: center;
 	background: $darkBlack;
 	padding: 80px 40px;
-		.timeline {
-			position: relative;
-			.line {
-				position: absolute;
-				left: 50%;
-				width: 1px;
-				height: 100%;
-				@include for-tablet-portrait-up {
-					left: 65px;
-				}
+	.timeline {
+		position: relative;
+		.line {
+			position: absolute;
+			left: 50%;
+			width: 1px;
+			height: 100%;
+			@include for-tablet-portrait-up {
+				left: 65px;
 			}
 		}
+	}
 }
 //GROWTH
 .growth {
@@ -647,7 +642,7 @@ section.hero {
 	}
 }
 
-// CHARITY DESIGN 
+// CHARITY DESIGN
 .charityDesign {
 	.fiftyFifty {
 		width: 100%;
@@ -669,14 +664,13 @@ section.hero {
 		.p {
 			max-width: none;
 			padding-bottom: 40px;
-			&>span {
+			& > span {
 				color: $white;
 				font-weight: 700;
 				padding: 0 32px 0 0;
 				width: 240px;
 			}
 		}
-			
 	}
 }
 @include for-tablet-landscape-up {
@@ -768,7 +762,7 @@ section.hero {
 @include for-tablet-landscape-up {
 	.ourEvents {
 		.cardGrid {
-			width: 100%; 
+			width: 100%;
 			grid-auto-flow: row;
 			grid-template-columns: 1fr 1fr 1fr;
 		}
