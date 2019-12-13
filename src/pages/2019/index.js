@@ -50,7 +50,7 @@ const TwentyNineteen = () => {
 
 			{/* --------- HERO ---------- */}
 			<section id="top" className={styles.hero}>
-				<img src="/images/2019/hero-image.png" />
+				<img src="/images/2019/2019.svg" />
 				<Heading level="1" className={styles.f2}>
 					{data.title}
 				</Heading>
