@@ -1,0 +1,72 @@
+@import '../../styles.module.scss';
+
+// IDs for animation
+
+#two {
+}
+
+#zero {
+}
+
+#one {
+}
+
+#nine {
+}
+
+#dotsTwo {
+}
+
+#dotsZero {
+}
+
+#dotsOne {
+}
+
+#dotsNine {
+}
+
+// Utility classes for final styles
+
+.blueStroke {
+	stroke: $twentyNineteenBlue;
+}
+
+.blueFill {
+	fill: $twentyNineteenBlue;
+}
+
+.lightBlack {
+	stroke: $lightBlack;
+}
+
+.whiteStroke {
+	stroke: $white;
+}
+.whiteFill {
+	fill: $white;
+}
+
+.grayFill {
+	fill: $grayHeader;
+}
+
+.thickestStroke {
+	stroke-width: 88;
+}
+
+.thickerStroke {
+	stroke-width: 84;
+}
+
+.thickStroke {
+	stroke-width: 82;
+}
+
+.thinStroke {
+	stroke-width: 16;
+}
+
+.thinnestStroke {
+	stroke-width: 8;
+}
