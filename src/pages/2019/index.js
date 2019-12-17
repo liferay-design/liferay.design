@@ -74,7 +74,7 @@ const TwentyNineteen = () => {
 					justify="center"
 					className={styles.department}
 				>
-					<Grid templateColumns="1fr 1fr" className={styles.organizationContent}>
+					<Grid templateRows="auto 1fr" rowGap="48px" className={styles.organizationContent}>
 						<Grid.Item>
 							<div className={styles.preHeader}>
 								{data.departmentSection.pretitle}
