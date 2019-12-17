@@ -349,31 +349,31 @@ const TwentyNineteen = () => {
 				<p className={styles.p}>{data.designCommunity.subtitle}</p>
 				<div className={styles.cardGrid}>
 					<SimpleCard
-						image="/images/2019/logos/awwwards-logo 2-4.png"
+						image="/images/2019/logos/logo-awwwards.png"
 						title="Digital thinkers Conference"
 						subtitle="San Francisco"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
 					/>
 					<SimpleCard
-						image="/images/2019/logos/awwwards-logo 2.png"
+						image="/images/2019/logos/logo-max.png"
 						title="The Creativity Conference"
 						subtitle="Los Angeles"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
 					/>
 					<SimpleCard
-						image="/images/2019/logos/awwwards-logo 2.png"
+						image="/images/2019/logos/logo-nng.png"
 						title="UX Training Conferences"
 						subtitle="Madrid"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
 					/>
 					<SimpleCard
-						image="/images/2019/logos/awwwards-logo 2.png"
+						image="/images/2019/logos/logo-eia.png"
 						title="EuroIA 2019 Impact"
 						subtitle="Berlin"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
 					/>
 					<SimpleCard
-						image="/images/2019/logos/awwwards-logo 2.png"
+						image="/images/2019/logos/logo-figma.png"
 						title="Figma Meetup Los Angeles"
 						subtitle="Diamond Bar"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
