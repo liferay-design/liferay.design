@@ -16,7 +16,13 @@ export default class KeyArt extends Component {
 						height="16"
 						patternUnits="userSpaceOnUse"
 					>
-						<circle fill="white" cx="8" cy="8" r="1.5" />
+						<circle
+							className={styles.dots}
+							fill="white"
+							cx="8"
+							cy="8"
+							r="1.5"
+						/>
 					</pattern>
 					<mask id="dots" x="0" y="0" width="1" height="1">
 						<rect
@@ -27,11 +33,16 @@ export default class KeyArt extends Component {
 							fill="url(#dotMask)"
 						/>
 					</mask>
+					<mask id="desicon">
+						<path
+							fill="white"
+							d="M492 178c12.15 0 22-9.85 22-22s-9.85-22-22-22v44z"
+						/>
+					</mask>
 				</defs>
 				<g id={styles.two}>
 					<polygon
-						id={styles.dotsTwo}
-						className={styles.grayFill}
+						className={`${styles.grayFill} ${styles.dots}`}
 						points="0, 16 96,16 96,160 176,160 176,208 0,208"
 						mask="url(#dots)"
 						transform="translate(-8,0)"
@@ -53,18 +64,19 @@ export default class KeyArt extends Component {
 						className={`${styles.whiteStroke} ${styles.thickStroke}`}
 					/>
 					<path
-						id="desicon"
-						className={styles.whiteFill}
-						d="M492 178c12.15 0 22-9.85 22-22s-9.85-22-22-22v44z"
+						mask="url(#desicon)"
+						id={styles.desicon}
+						className={styles.whiteStroke}
+						strokeWidth="44"
+						d="M492 178c12.15 0 22-9.85 22-22s-9.85-22-22-22"
 					/>
 					<path
 						className={`${styles.blueStroke} ${styles.thickStroke}`}
 						d="M605 156c0 62.408-50.592 113-113 113s-113-50.592-113-113"
 					/>
 					<polygon
-						id={styles.dotsZero}
 						points="336, 32 392,32 364,64 336, 118"
-						className={styles.whiteFill}
+						className={`${styles.whiteFill} ${styles.dots}`}
 						mask="url(#dots)"
 						transform="translate(-8,3)"
 					/>
@@ -78,7 +90,7 @@ export default class KeyArt extends Component {
 						className={`${styles.whiteStroke} ${styles.thickestStroke}`}
 						d="M140 398c0 72.902-59.098 132-132 132"
 					/>
-					<g id={styles.dotsOne}>
+					<g className={styles.dots}>
 						<rect
 							x="136"
 							y="570"
@@ -99,8 +111,7 @@ export default class KeyArt extends Component {
 				</g>
 				<g id={styles.nine}>
 					<polygon
-						id={styles.dotsNineBottom}
-						className={styles.grayFill}
+						className={`${styles.grayFill} ${styles.dots}`}
 						transform="translate(8,4)"
 						points="496,300 520,332 580,464 644, 480 644,300"
 						mask="url(#dots)"
@@ -150,8 +161,7 @@ export default class KeyArt extends Component {
 						d="M454 341c6.627 0 12 5.373 12 12s-5.373 12-12 12"
 					/>
 					<rect
-						id={styles.dotsNineTop}
-						className={styles.grayFill}
+						className={`${styles.grayFill} ${styles.dots}`}
 						transform="translate(0, 4)"
 						x="468"
 						y="500"
@@ -159,12 +169,11 @@ export default class KeyArt extends Component {
 						width="178"
 						height="48"
 					/>
-					<circle
+					<path
+						className={styles.blueStroke}
 						id={styles.nineDot}
-						className={styles.blueFill}
-						cx="454"
-						cy="499"
-						r="42"
+						strokeWidth="40"
+						d="M452 482c11 0 20 9 20 20s-9 20-20 20-20-9-20-20 9-20 20-20z"
 					/>
 				</g>
 			</svg>
