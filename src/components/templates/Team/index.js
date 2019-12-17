@@ -1,4 +1,4 @@
-import { Container, Flex } from 'components/atoms'
+import { Container, Flex, ScrollProgress } from 'components/atoms'
 import { GlobalMdx, SEO } from 'components/molecules'
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
@@ -23,6 +23,7 @@ export default class Team extends Component {
 
 		return (
 			<div>
+				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
 					previewImage={withPrefix(post.frontmatter.author.avatar)}
