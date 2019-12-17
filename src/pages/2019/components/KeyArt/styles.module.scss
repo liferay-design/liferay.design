@@ -155,3 +155,36 @@
 .thinnestStroke {
 	stroke-width: 8;
 }
+
+// wrapping div
+.keyArt {
+	width: 100%;
+	height: 100%;
+	// replay button styles
+	button {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 200%);
+		display: flex;
+		align-items: center;
+		color: $primary !important;
+		cursor: pointer;
+		opacity: 0;
+		animation: button 0.2s 4s forwards;
+		svg {
+			width: 16px;
+			height: 16px;
+			margin: 6px;
+		}
+	}
+}
+@keyframes button {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+// replay toggle
+:global(.replay) {
+	display: none;
+}
