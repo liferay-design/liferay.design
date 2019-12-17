@@ -51,18 +51,14 @@ const TwentyNineteen = () => {
 
 			{/* --------- HERO ---------- */}
 			<section id="top" className={styles.hero}>
-				<Grid gap="4rem" templateColumns="1fr 40% 1fr">
-					<Grid.Item area="1 / 2 / 2 / 3">
+				<Grid className={styles.heroGrid}>
+					<div className={styles.keyArt}>
 						<KeyArt />
-					</Grid.Item>
-					<Grid.Item area="1 / 3 / 2 / 4" className={styles.f2}>
-						<Heading level="1" className={styles.f2}>
-							{data.title}
-						</Heading>
-					</Grid.Item>
-					<Grid.Item area="2 / 1 / 3 / 4">
-						<p className={styles.pLarge}>{data.subtitle}</p>
-					</Grid.Item>
+					</div>
+					<Heading level="1" className={styles.f2}>
+						{data.title}
+					</Heading>
+					<p className={styles.pLarge}>{data.subtitle}</p>
 				</Grid>
 			</section>
 

@@ -445,22 +445,52 @@ section.hero {
 	width: 100vw;
 	position: relative;
 	padding-top: 0;
-	svg {
-		width: 90%;
-		margin: 10vh 5%;
-	}
-	.f2 {
-		align-self: center;
-		span {
-			color: $grayHeader;
+	.heroGrid {
+		margin-top: 80px;
+		grid-template-rows: 70vh auto auto;
+		gap: 2rem;
+		.keyArt {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			svg {
+				width: 100%;
+				max-height: 100%;
+			}
+		}
+		.f2 {
+			text-align: center;
+			span {
+				color: $grayHeader;
+			}
+		}
+		.pLarge {
+			color: $grayParagraph;
+			max-width: 48ch;
+			font-weight: $fontWeightRegular;
+			text-align: center;
+			margin: 0 auto;
 		}
 	}
-	p {
-		color: $grayParagraph;
-		max-width: 48ch;
-		font-weight: $fontWeightRegular;
-		text-align: center;
-		margin: 0 auto;
+}
+@include for-tablet-landscape-up {
+	section.hero {
+		.heroGrid {
+			grid-template-columns: 1fr 50% 1fr;
+			grid-template-rows: calc(100vh - 150px) auto;
+			gap: 4rem;
+			.keyArt {
+				grid-area: 1 / 2 / 2 / 3;
+			}
+			.f2 {
+				grid-area: 1 / 3 / 2 / 4;
+				align-self: center;
+			}
+			.pLarge {
+				grid-area: 2 / 1 / 3 / 4;
+
+			}
+		}
 	}
 }
 
