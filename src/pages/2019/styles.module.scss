@@ -838,9 +838,8 @@ section.hero {
 	position: relative;
 	overflow: hidden;
 	.cardImage {
-		background-size: contain;
-		background-position: center;
-		background-repeat: no-repeat;
+		object-fit: contain;
+		margin: 0;
 		width: 40%;
 		height: 40px;
 	}
