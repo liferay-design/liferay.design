@@ -1,4 +1,4 @@
-import { Flex } from 'components/atoms'
+import { Flex, ScrollProgress } from 'components/atoms'
 import { Author, GlobalMdx, SEO, Date as NiceDate } from 'components/molecules'
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Footer, Navbar } from 'components/organisms'
@@ -21,6 +21,7 @@ export default class Events extends Component {
 
 		return (
 			<div>
+				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
 					previewImage={post.frontmatter.heroImage}
