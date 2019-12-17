@@ -5,7 +5,7 @@ $darkBlack: #1b1c1e;
 $lightBlack: #1f2123;
 $grayHeader: #555e68;
 $grayParagraph: #888b9b;
-$twentyNineteenBlue: #006de7;
+$twentyNineteenBlue: $primary;
 
 // FONT
 @font-face {
@@ -442,7 +442,7 @@ section.hero {
 	width: 100vw;
 	position: relative;
 	padding-top: 0;
-	img {
+	svg {
 		width: 90%;
 		margin: 10vh 5%;
 	}

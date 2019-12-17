@@ -5,7 +5,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
-import { SEO } from 'components/molecules'
+import { SEO, FancyFooter } from 'components/molecules'
 import data from  'markdown/annual-reports/TwentyNineteen.yaml'
 import { Grid } from 'reakit'
 
@@ -412,6 +412,7 @@ const TwentyNineteen = () => {
 				Ops
 			</Plx>
 			<Footer />
+			<FancyFooter/>
 		</div>
 	)
 }

@@ -1,29 +1,114 @@
 @import '../../styles.module.scss';
 
+// Mixins for consistency
+
+@mixin animation {
+	animation-name: drawIn;
+	animation-duration: 2s;
+	animation-timing-function: cubic-bezier(0, 0.8, 0.5, 0.9);
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+}
+
 // IDs for animation
 
-#two {
+#two .blueStroke {
+	@include animation;
+	stroke-dasharray: 750;
+	stroke-dashoffset: 750;
+	animation-duration: 1s;
 }
 
-#zero {
+#two .whiteStroke {
+	@include animation;
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
 }
 
-#one {
+#zero .blueStroke {
+	@include animation;
+	animation-delay: 2.2s;
+	stroke-dasharray: 360;
+	stroke-dashoffset: 360;
+	animation-duration: 1s;
 }
 
-#nine {
+#zero .whiteStroke {
+	@include animation;
+	stroke-dasharray: 800;
+	stroke-dashoffset: 800;
+	animation-duration: 1s;
 }
 
-#dotsTwo {
+#zero #desicon {
+	@include animation;
+	animation-delay: 2.4s;
+	animation-duration: 1s;
+	stroke-dasharray: 70;
+	stroke-dashoffset: 70;
 }
 
-#dotsZero {
+#one .blueStroke {
+	@include animation;
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
 }
 
-#dotsOne {
+#one .whiteStroke {
+	@include animation;
+	stroke-dasharray: 210;
+	stroke-dashoffset: 210;
+	animation-duration: 1.6s;
 }
 
-#dotsNine {
+#nine .blueStroke {
+	@include animation;
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+}
+#nine .whiteStroke {
+	@include animation;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+}
+
+#nine #nineDot.blueStroke {
+	animation: intro 3s ease forwards;
+	stroke-dashoffset: 130;
+	stroke-dasharray: 130;
+}
+
+.dots {
+	animation: dots 0.5s ease-in-out 2.8s forwards;
+	r: 0;
+}
+
+@keyframes drawIn {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes intro {
+	0% {
+		transform: translate(-20%, -15%);
+	}
+	55% {
+		stroke-dashoffset: 0;
+	}
+	60% {
+		transform: translate(-20%, -15%);
+	}
+	100% {
+		transform: translate(0, 0);
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes dots {
+	to {
+		r: 1.5;
+	}
 }
 
 // Utility classes for final styles
