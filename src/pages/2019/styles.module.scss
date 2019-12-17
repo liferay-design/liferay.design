@@ -478,20 +478,26 @@ section.hero {
 // DEPARTMENT
 .department {
 	background: $darkBlack;
-	padding: 180px 0 0;
+	padding: 80px 0 0;
 	position: relative;
+	text-align: center;
 	.organizationContent {
 		padding: 40px;
+		.p {
+			text-align: left;
+		}
 		svg {
 			min-width: 116px;
 			min-height: 116px;
 			flex: 0 0 7.25vw;
 		}
-		.pLarge {
-			margin-bottom: 0;
-		}
 		.desicon {
 			text-align: center;
+			grid-row-start: 1;
+			.p, .pLarge {
+				text-align: center;
+				margin-bottom: 0;
+			}
 		}
 	}
 	&:before {
@@ -539,12 +545,21 @@ section.hero {
 }
 @include for-tablet-landscape-up {
 	.department {
-		.organizationContent {
-			.p {
-			}
-		}
 		.departmentNames {
 			flex-flow: row;
+		}
+	}
+}
+@include for-desktop-up {
+	.department {
+		padding: 120px 0 0;
+		.organizationContent {
+			text-align: left;
+			grid-template-columns: 1fr 1fr;
+			.desicon {
+				grid-column-start: 2;
+				align-self: center;
+			}
 		}
 	}
 }
