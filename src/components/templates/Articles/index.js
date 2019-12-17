@@ -1,4 +1,4 @@
-import { Container, Flex, Link, Image } from 'components/atoms'
+import { Container, Flex, Link, Image, ScrollProgress } from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { SEO, Tags, GlobalMdx } from 'components/molecules'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
@@ -14,6 +14,7 @@ export default class Articles extends Component {
 
 		return (
 			<div>
+				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
 					previewImage={
