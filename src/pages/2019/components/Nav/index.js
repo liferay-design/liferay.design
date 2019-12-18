@@ -9,8 +9,8 @@ const top = [
 		end: '#team',
 		properties: [
 			{
-				startValue: '#006DE7',
-				endValue: '#006DE7',
+				startValue: '#0B5FFF',
+				endValue: '#0B5FFF',
 				property: 'backgroundColor',
 			},
 			{
@@ -26,7 +26,7 @@ const top = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#006DE7',
+				startValue: '#0B5FFF',
 				endValue: '#6B6C7E',
 				property: 'backgroundColor',
 			},
@@ -46,7 +46,7 @@ const team = [
 		properties: [
 			{
 				startValue: '#6b6c7e',
-				endValue: '#006DE7',
+				endValue: '#0B5FFF',
 				property: 'backgroundColor',
 			},
 			{
@@ -62,7 +62,7 @@ const team = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#006DE7',
+				startValue: '#0B5FFF',
 				endValue: '#6B6C7E',
 				property: 'backgroundColor',
 			},
@@ -82,7 +82,7 @@ const initiatives = [
 		properties: [
 			{
 				startValue: '#6b6c7e',
-				endValue: '#006DE7',
+				endValue: '#0B5FFF',
 				property: 'backgroundColor',
 			},
 			{
@@ -98,7 +98,7 @@ const initiatives = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#006DE7',
+				startValue: '#0B5FFF',
 				endValue: '#6B6C7E',
 				property: 'backgroundColor',
 			},
@@ -118,7 +118,7 @@ const projects = [
 		properties: [
 			{
 				startValue: '#6b6c7e',
-				endValue: '#006DE7',
+				endValue: '#0B5FFF',
 				property: 'backgroundColor',
 			},
 			{
@@ -134,7 +134,7 @@ const projects = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#006DE7',
+				startValue: '#0B5FFF',
 				endValue: '#6B6C7E',
 				property: 'backgroundColor',
 			},
@@ -154,7 +154,7 @@ const ops = [
 		properties: [
 			{
 				startValue: '#6b6c7e',
-				endValue: '#006DE7',
+				endValue: '#0B5FFF',
 				property: 'backgroundColor',
 			},
 			{
