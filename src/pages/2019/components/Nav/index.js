@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
 import styles from '../../styles.module.scss'
+import { colors } from 'theme/'
 
 const top = [
 	{
@@ -9,8 +10,8 @@ const top = [
 		end: '#team',
 		properties: [
 			{
-				startValue: '#0B5FFF',
-				endValue: '#0B5FFF',
+				startValue: colors.primary,
+				endValue: colors.primary,
 				property: 'backgroundColor',
 			},
 			{
@@ -26,8 +27,8 @@ const top = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#0B5FFF',
-				endValue: '#6B6C7E',
+				startValue: colors.primary,
+				endValue: colors.neutral4,
 				property: 'backgroundColor',
 			},
 			{
@@ -45,8 +46,8 @@ const team = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#6b6c7e',
-				endValue: '#0B5FFF',
+				startValue: colors.neutral4,
+				endValue: colors.primary,
 				property: 'backgroundColor',
 			},
 			{
@@ -62,8 +63,8 @@ const team = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#0B5FFF',
-				endValue: '#6B6C7E',
+				startValue: colors.primary,
+				endValue: colors.neutral4,
 				property: 'backgroundColor',
 			},
 			{
@@ -81,8 +82,8 @@ const initiatives = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#6b6c7e',
-				endValue: '#0B5FFF',
+				startValue: colors.neutral4,
+				endValue: colors.primary,
 				property: 'backgroundColor',
 			},
 			{
@@ -98,8 +99,8 @@ const initiatives = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#0B5FFF',
-				endValue: '#6B6C7E',
+				startValue: colors.primary,
+				endValue: colors.neutral4,
 				property: 'backgroundColor',
 			},
 			{
@@ -117,8 +118,8 @@ const projects = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#6b6c7e',
-				endValue: '#0B5FFF',
+				startValue: colors.neutral4,
+				endValue: colors.primary,
 				property: 'backgroundColor',
 			},
 			{
@@ -134,8 +135,8 @@ const projects = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#0B5FFF',
-				endValue: '#6B6C7E',
+				startValue: colors.primary,
+				endValue: colors.neutral4,
 				property: 'backgroundColor',
 			},
 			{
@@ -153,8 +154,8 @@ const ops = [
 		startOffset: '25vh',
 		properties: [
 			{
-				startValue: '#6b6c7e',
-				endValue: '#0B5FFF',
+				startValue: colors.neutral4,
+				endValue: colors.primary,
 				property: 'backgroundColor',
 			},
 			{
