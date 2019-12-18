@@ -1,4 +1,4 @@
-import { Flex, Image, Heading, Text, Icon, ScrollProgress } from 'components/atoms'
+import { Flex, Image, Heading, Text, Icon, ScrollProgress, ScrollArrow } from 'components/atoms'
 import { Footer } from 'components/organisms'
 import { SimpleCard, Nav, Designer, KeyArt } from 'pages/2019/components/_index'
 import React from 'react'
@@ -45,6 +45,7 @@ const TwentyNineteen = () => {
 
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
 			<ScrollProgress />
+			<ScrollArrow />
 
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />
