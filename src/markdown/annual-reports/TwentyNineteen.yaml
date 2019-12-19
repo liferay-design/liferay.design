@@ -23,6 +23,49 @@ timelineSection:
     pretitle: Milestones
     title: New Faces & Birthrays
     subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience. We’ve hired 3 new designers and had 11 birthRays.
+    designers:
+        - designer:
+              url: wood-jon
+              startDate: 2019-04-15
+              name: Jon
+              detail: firstDay
+              country: California
+        - designer:
+              url: censi-andrea
+              startDate: 2018-05-14
+              name: Andrea
+              detail: birthRay
+              country: ''
+        - designer:
+              url: francisco-marleny
+              startDate: 2019-08-12
+              name: Marleny
+              detail: firstDay
+              country: Spain
+        - designer:
+              url: lyons-james
+              startDate: 2018-09-10
+              name: James
+              detail: birthRay
+              country: ''
+        - designer:
+              url: kim-david
+              startDate: 2018-09-17
+              name: David
+              detail: birthRay
+              country: ''
+        - designer:
+              url: garcia-laura
+              startDate: 2019-10-12
+              name: Laura
+              detail: firstDay
+              country: Spain
+        - designer:
+              url: manso-miriam
+              startDate: 2018-10-15
+              name: Miriam
+              detail: birthRay
+              country: ''
 careerSection:
     pretitle: Grow & Get Better
     title: Design Careers
@@ -87,7 +130,7 @@ designCommunity:
               description: 'A number of us travelled to Riga for Europe’s premier Information Architecture & User Experience conference'
         - event:
               image: '/images/2019/logos/logo-figma.png'
-              title: Figma LA Usergroup
+              title: Figma LA User &#nbsp; Group
               city: 'Los Angeles'
               description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
     seeMore:
