@@ -333,11 +333,9 @@ const TwentyNineteen = () => {
 						</a>
 					</div>
 					<div className={styles.dbpGrid}>
-						{data.designPractice.images.map(
-							({ image }) => (
-								<img src={image} />
-							),
-						)}
+						{data.designPractice.images.map(({ image }) => (
+							<img src={image} />
+						))}
 					</div>
 				</div>
 			</section>
@@ -350,39 +348,20 @@ const TwentyNineteen = () => {
 				</Heading>
 				<p className={styles.p}>{data.designCommunity.subtitle}</p>
 				<div className={styles.cardGrid}>
-					<SimpleCard
-						image="/images/2019/logos/logo-awwwards.png"
-						title="Digital thinkers Conference"
-						subtitle="San Francisco"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-					/>
-					<SimpleCard
-						image="/images/2019/logos/logo-max.png"
-						title="The Creativity Conference"
-						subtitle="Los Angeles"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-					/>
-					<SimpleCard
-						image="/images/2019/logos/logo-nng.png"
-						title="UX Training Conferences"
-						subtitle="Madrid"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-					/>
-					<SimpleCard
-						image="/images/2019/logos/logo-eia.png"
-						title="EuroIA 2019 Impact"
-						subtitle="Berlin"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-					/>
-					<SimpleCard
-						image="/images/2019/logos/logo-figma.png"
-						title="Figma Meetup Los Angeles"
-						subtitle="Diamond Bar"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis quis nunc quis sit accumsan."
-					/>
+					{data.designCommunity.events.map(({ event }) => (
+						<SimpleCard
+							image={event.image}
+							title={event.title}
+							subtitle={event.city}
+							description={event.description}
+						/>
+					))}
 					<Flex justify="center" align="center" className={styles.seeMoreCard}>
-						<a href="/events" className={styles.link}>
-							See More Events
+						<a
+							href={data.designCommunity.seeMore.url}
+							className={styles.link}
+						>
+							{data.designCommunity.seeMore.title}
 						</a>
 					</Flex>
 				</div>
