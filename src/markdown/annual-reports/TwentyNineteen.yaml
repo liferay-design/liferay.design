@@ -143,6 +143,37 @@ designProjects:
     pretitle: Projects
     title: Get 'er Done
     subtitle: Our blood, sweat, & tears. Our pride and joy. Where countless hours of deep thoughts, iterations upon iterations, and creative victories all come together.
+    projects:
+        - project:
+              image: '/images/2019/logos/logo-awwwards.png'
+              title: 'Project 1'
+              designer: 'Paul Hanaoka'
+              description: 'David spent 2 days in SF listening to design leaders from AirBnb, Dropbox, Github, and more!'
+        - project:
+              image: '/images/2019/logos/logo-max.png'
+              title: 'Project 2'
+              designer: 'Abel Hancock'
+              description: 'M. Night Shyamalan and Billie Eilish were a couple of Ryan’s favorites at this year’s Adobe Max.'
+        - project:
+              image: '/images/2019/logos/logo-nng.png'
+              title: 'Project 3'
+              designer: 'Ryan Connolly & PJ Pentz'
+              description: 'Victor leveled up this year, NN/g courses helped him start to understand how to empathize with humans.'
+        - project:
+              image: '/images/2019/logos/logo-eia.png'
+              title: 'Project 4'
+              designer: 'Chris Jeong'
+              description: 'A number of us travelled to Riga for Europe’s premier Information Architecture & User Experience conference'
+        - project:
+              image: '/images/2019/logos/logo-figma.png'
+              title: 'Project 5'
+              designer: 'Thomas Young'
+              description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
+        - project:
+              image: '/images/2019/logos/logo-figma.png'
+              title: 'Project 6'
+              designer: 'Jon Wood'
+              description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
 globalServices:
     pretitle: Todo
     title: Global Services
