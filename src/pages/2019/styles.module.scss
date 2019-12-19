@@ -825,6 +825,7 @@ section.hero {
 	background: $darkBlack;
 	padding: 80px 20px;
 }
+
 @include for-tablet-landscape-up {
 	.globalServices {
 		padding: 120px 40px;
