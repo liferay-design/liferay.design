@@ -64,3 +64,32 @@ designCommunity:
     title: Our Events
     subtitle: Ideas meet makers. Makers meet comrades.
         These events sparked inspirations, gave ideas momentum, and put makers in action.
+    events:
+        - event:
+              image: '/images/2019/logos/logo-awwwards.png'
+              title: 'Building the Future of the Internet'
+              city: 'San Francisco'
+              description: 'David spent 2 days in SF listening to design leaders from AirBnb, Dropbox, Github, and more!'
+        - event:
+              image: '/images/2019/logos/logo-max.png'
+              title: 'The Creativity Conference'
+              city: 'Los Angeles'
+              description: 'M. Night Shyamalan and Billie Eilish were a couple of Ryan’s favorites at this year’s Adobe Max.'
+        - event:
+              image: '/images/2019/logos/logo-nng.png'
+              title: 'UX Training Conferences'
+              city: 'Berlin'
+              description: 'Victor leveled up this year, NN/g courses helped him start to understand how to empathize with humans.'
+        - event:
+              image: '/images/2019/logos/logo-eia.png'
+              title: 'EuroIA 2019 Impact'
+              city: 'Latvia'
+              description: 'A number of us travelled to Riga for Europe’s premier Information Architecture & User Experience conference'
+        - event:
+              image: '/images/2019/logos/logo-figma.png'
+              title: Figma LA Usergroup
+              city: 'Los Angeles'
+              description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
+    seeMore:
+        title: See all events
+        url: '/events'
