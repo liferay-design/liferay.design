@@ -1,4 +1,12 @@
-import { Flex, Image, Heading, Text, Icon, ScrollProgress, ScrollArrow } from 'components/atoms'
+import {
+	Flex,
+	Image,
+	Heading,
+	Text,
+	Icon,
+	ScrollProgress,
+	ScrollArrow,
+} from 'components/atoms'
 import { Footer } from 'components/organisms'
 import { SimpleCard, Nav, Designer, KeyArt } from 'pages/2019/components/_index'
 import React from 'react'
@@ -6,7 +14,7 @@ import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { SEO, FancyFooter } from 'components/molecules'
-import data from  'markdown/annual-reports/TwentyNineteen.yaml'
+import data from 'markdown/annual-reports/TwentyNineteen.yaml'
 import { Grid } from 'reakit'
 import moment from 'moment'
 
@@ -50,10 +58,9 @@ const TwentyNineteen = () => {
 
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />
-
 			{/* --------- HERO ---------- */}
 			<section id="top" className={styles.hero}>
-				<Grid className={styles.heroGrid}>
+				<Grid alignItems="center" className={styles.heroGrid}>
 					<div className={styles.keyArt}>
 						<KeyArt />
 					</div>
@@ -320,7 +327,6 @@ const TwentyNineteen = () => {
 					</Flex>
 				</div>
 			</section>
-
 			{/* ---------- PROJECTS ----------- */}
 			{/* HEADER - PROJECTS */}
 			<Plx
