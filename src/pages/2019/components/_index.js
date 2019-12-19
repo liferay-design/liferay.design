@@ -1,4 +1,5 @@
 import Carousel from './Carousel'
+import Content from './Content'
 import CarouselSlide from './CarouselSlide'
 import Designer from './Designer'
 import KeyArt from './KeyArt'
@@ -7,6 +8,7 @@ import SimpleCard from './SimpleCard'
 
 export { 
     Carousel,
+    Content,
     CarouselSlide, 
     Designer, 
     KeyArt, 
