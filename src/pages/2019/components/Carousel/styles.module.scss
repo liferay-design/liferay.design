@@ -5,7 +5,7 @@
     .primaryCarousel {
         width: 60vw;
         max-width: 106.66vh;
-        margin-bottom: 40px;
+        margin: 0 auto 40px;
         // 4:3 image ratio
         // .fourToThree 
         :global(.slick-slide) img {
@@ -34,8 +34,16 @@
                 height: 39.375vw;
             }
         }
-
+        @media (max-width: 900px) {
+            .slide {
+                padding: 0 40px;
+            }
+            :global(.slick-next),
+            :global(.slick-prev) {
+                display: none !important;
+            }
         }
+    }
     .navCarousel {
         :global(.slick-next),
         :global(.slick-prev) {
@@ -48,6 +56,7 @@
         :global(.slick-track) {
             display: flex;
             justify-content: center;
+            overflow: scroll;
             transform: translate3d(0, 0, 0) !important;
         }
         :global(.slick-current) {
@@ -70,7 +79,7 @@
             justify-content: center;
             align-items: center;
             outline: none;
-        }           
+        }
         img {
             width: unset;
             height: unset;
@@ -78,6 +87,26 @@
             max-height:100%;
             margin: auto;
             width: 96px;
+        }
+        @media (max-width: 900px) {
+            :global(.slick-slide) {
+                max-width: 8px;
+                height: 8px;
+                border-radius: 4px;
+                background: $neutral4;
+            }
+            :global(.slick-current) {
+                background: $primary;
+                outline: none !important;
+                padding: 0;
+            }
+            .slide {
+                width: 12px;
+                height: 12px;
+            }
+            img {
+                display: none;
+            }
         }
         p {
             display: none;
