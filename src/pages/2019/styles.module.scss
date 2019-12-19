@@ -819,3 +819,14 @@ section.hero {
 		padding: 120px 40px;
 	}
 }
+
+// GLOBAL SERVICES
+.globalServices {
+	background: $darkBlack;
+	padding: 80px 20px;
+}
+@include for-tablet-landscape-up {
+	.globalServices {
+		padding: 120px 40px;
+	}
+}
