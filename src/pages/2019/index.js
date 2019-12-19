@@ -8,6 +8,7 @@ import styles from './styles.module.scss'
 import { SEO, FancyFooter } from 'components/molecules'
 import data from  'markdown/annual-reports/TwentyNineteen.yaml'
 import { Grid } from 'reakit'
+import moment from 'moment'
 
 const PlxUp1 = [
 	{
@@ -151,69 +152,22 @@ const TwentyNineteen = () => {
 								/>
 							</svg>
 						</div>
-						<Designer
-							profileUrl="/team/wood-jon"
-							month="April"
-							day="15"
-							headshot="/images/headshots/wood-jon.jpg"
-							name="Jon"
-							detail="firstDay"
-							country="California"
-						/>
-						<Designer
-							profileUrl="/team/censi-andrea"
-							month="May"
-							day="14"
-							headshot="/images/headshots/censi-andrea.jpg"
-							name="Andrea"
-							detail="birthRay"
-							birthRay
-						/>
-						<Designer
-							profileUrl="/team/francisco-marleny"
-							month="Aug"
-							day="12"
-							headshot="/images/headshots/francisco-marleny.jpg"
-							name="Marleny"
-							detail="firstDay"
-							country="Spain"
-						/>
-						<Designer
-							profileUrl="/team/lyons-james"
-							month="Sep"
-							day="10"
-							headshot="/images/headshots/lyons-james.jpg"
-							name="James"
-							detail="birthRay"
-							birthRay
-						/>
-						<Designer
-							profileUrl="/team/kim-david"
-							month="Sep"
-							day="17"
-							headshot="/images/headshots/kim-david.jpg"
-							name="David"
-							detail="birthRay"
-							birthRay
-						/>
-						<Designer
-							profileUrl="/team/garcia-laura"
-							month="Oct"
-							day="14"
-							headshot="/images/headshots/garcia-laura.jpg"
-							name="Laura"
-							detail="firstDay"
-							country="Spain"
-						/>
-						<Designer
-							profileUrl="/team/manso-miriam"
-							month="Oct"
-							day="15"
-							headshot="/images/headshots/manso-miriam.jpg"
-							name="Miriam"
-							detail="birthRay"
-							birthRay
-						/>
+						{data.timelineSection.designers.map(({ designer }) => (
+							<Designer
+								profileUrl={'/team/' + `${designer.url}`}
+								month={moment(designer.startDate).format('MMM')}
+								day={moment(designer.startDate).format('DD')}
+								headshot={
+									'/images/headshots/' + `${designer.url}` + '.jpg'
+								}
+								name={designer.name}
+								detail={designer.detail}
+								country={designer.country}
+								birthRay={
+									designer.detail == 'birthRay' ? 'birthRay' : null
+								}
+							/>
+						))}
 					</Flex>
 				</div>
 			</section>
