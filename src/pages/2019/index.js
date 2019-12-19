@@ -239,7 +239,7 @@ const TwentyNineteen = () => {
 			</Plx>
 
 			{/* CHARITY DESIGN */}
-			<section id="charityDesign" className={styles.charityDesign}>
+			<section id="charityDesign" className={styles.mediaSection}>
 				<div className={styles.fiftyFifty}>
 					<Content
 						pretitle={data.givingSection.pretitle}
@@ -324,8 +324,7 @@ const TwentyNineteen = () => {
 			</section>
 
 			{/* DRIBBBLE */}
-						{/* DRIBBBLE */}
-						<section id="dribbble">
+			<section id="dribbble">
 				<div  className={styles.dribbble}>
 					<Content
 						pretitle={data.dribbbleSection.pretitle}
@@ -443,6 +442,24 @@ const TwentyNineteen = () => {
 			>
 				Ops
 			</Plx>
+
+			{/* SLACK */}
+			<section id="slack" className={styles.mediaSection}>
+				<div className={styles.fiftyFifty}>
+					<Content
+						pretitle={data.slackSection.pretitle}
+						title={data.slackSection.title}
+						copy={data.slackSection.content}
+						align="left"
+						justify="center"
+					/>
+					<img src="/images/2019/underground-writing.png" />
+				</div>
+				<a href={data.givingSection.link.url} className={styles.link}>
+					{data.givingSection.link.title}
+				</a>
+			</section>
+
 			<Footer />
 			<FancyFooter />
 		</div>
