@@ -453,7 +453,7 @@ const TwentyNineteen = () => {
 						align="left"
 						justify="center"
 					/>
-					<img src="/images/2019/underground-writing.png" />
+					<img src="/images/2019/slack.png" />
 				</div>
 				<a href={data.givingSection.link.url} className={styles.link}>
 					{data.givingSection.link.title}
