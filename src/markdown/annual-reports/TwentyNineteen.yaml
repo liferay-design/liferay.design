@@ -142,19 +142,15 @@ dribbbleSection:
 designProjects:
     pretitle: Projects
     title: Get 'er Done
-    content: Our blood, sweat, & tears. Our pride and joy. Where countless hours of deep thoughts, iterations upon iterations, and creative victories all come together.
+    subtitle: Our blood, sweat, & tears. Our pride and joy. Where countless hours of deep thoughts, iterations upon iterations, and creative victories all come together.
 globalServices:
     pretitle: Todo
     title: Global Services
 slackSection:
     pretitle: slackin' off
     title: Company-wide Communication
-    content: Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    
-    Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
+    content: Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
 damSection:
     pretitle: DAMN
     title: Digital Asset Management
-    content: Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    
-    Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
+    content: Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
