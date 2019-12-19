@@ -400,6 +400,37 @@ const TwentyNineteen = () => {
 					))}
 				</div>
 			</section>
+
+			{/* GLOBAL SERVICES */}
+			<section id="globalServices">
+				<div  className={styles.globalServices}>
+					<Content
+						pretitle={data.globalServices.pretitle}
+						title={data.globalServices.title}
+						align="center"
+					/>
+					<Carousel ratio="sixteenToNine">
+						<CarouselSlide
+							image="/images/2019/global-services/global-services1.png"
+							description="description" />
+						<CarouselSlide
+							image="/images/2019/global-services/global-services2.png"
+							description="description" />
+						<CarouselSlide
+							image="/images/2019/global-services/global-services3.png"
+							description="description" />
+						<CarouselSlide
+							image="/images/2019/global-services/global-services4.png"
+							description="description" />
+						<CarouselSlide
+							image="/images/2019/global-services/global-services5.png"
+							description="description" />
+						<CarouselSlide
+							image="/images/2019/global-services/global-services6s.png"
+							description="description" />
+					</Carousel>
+				</div>
+			</section>
 			
 
 			{/* ---------- OPS ----------- */}
