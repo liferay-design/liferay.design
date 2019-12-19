@@ -162,26 +162,31 @@
 	height: 100%;
 	// replay button styles
 	button {
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		transform: translate(-50%, 200%);
 		display: flex;
 		align-items: center;
-		color: $primary !important;
+		color: $main-l2 !important;
 		cursor: pointer;
 		opacity: 0;
 		animation: button 0.2s 4s forwards;
+		margin: $spacingBase auto;
+		padding: $spacingBase;
 		svg {
 			width: 16px;
 			height: 16px;
 			margin: 6px;
 		}
+		&:hover {
+			color: $primary !important;
+		}
 	}
 }
 @keyframes button {
-	0% {opacity: 0;}
-	100% {opacity: 1}
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 // replay toggle
