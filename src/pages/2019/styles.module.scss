@@ -102,22 +102,13 @@ $breakpoint-for-large-desktop-up: 1800px;
 	font-weight: $fontWeightBlack;
 	overflow-x: hidden;
 	.f1,
-	.f2,
 	.f3,
 	.f3Large,
-	.f4,
-	.preHeader {
+	.f4 {
 		font-weight: $fontWeightBlack;
 		padding: 0;
 		margin: 0;
 		color: $white;
-	}
-	.f2 {
-		line-height: 120%;
-		font-size: 11vw;
-		@include for-tablet-landscape-up {
-			font-size: 4.37vw; //70px
-		}
 	}
 	.f3Large {
 		font-size: 8vw;
@@ -140,17 +131,6 @@ $breakpoint-for-large-desktop-up: 1800px;
 			font-size: 2vw; //32px
 		}
 	}
-	.preHeader {
-		line-height: 150%;
-		letter-spacing: 0.5em;
-		text-transform: uppercase;
-		color: $twentyNineteenBlue;
-		margin-bottom: 0.6em;
-		font-size: 16px;
-		@include for-tablet-landscape-up {
-			font-size: 20px;
-		}
-	}
 	.pLarge,
 	.p,
 	.pSmall,
@@ -163,13 +143,6 @@ $breakpoint-for-large-desktop-up: 1800px;
 		@include for-tablet-landscape-up {
 			font-size: 2.2vw;
 		}
-	}
-	.p {
-		font-size: 20px;
-		line-height: 168%;
-		color: $grayParagraph;
-		font-weight: 400;
-		max-width: 840px;
 	}
 	.pSmall {
 		font-size: 16px;
@@ -496,9 +469,6 @@ section.hero {
 	text-align: center;
 	.organizationContent {
 		padding: 40px;
-		.p {
-			text-align: left;
-		}
 		svg {
 			min-width: 116px;
 			min-height: 116px;
@@ -603,7 +573,6 @@ section.hero {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	text-align: center;
 	.recentPromotions {
 		background: $darkBlack;
 		margin-top: 128px;

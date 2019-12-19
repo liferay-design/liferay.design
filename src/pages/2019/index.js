@@ -8,7 +8,7 @@ import {
 	ScrollArrow,
 } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import { SimpleCard, Nav, Designer, KeyArt } from 'pages/2019/components/_index'
+import { SimpleCard, Nav, Designer, KeyArt, Content } from 'pages/2019/components/_index'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
@@ -84,15 +84,12 @@ const TwentyNineteen = () => {
 						rowGap="48px"
 						className={styles.organizationContent}
 					>
-						<Grid.Item>
-							<div className={styles.preHeader}>
-								{data.departmentSection.pretitle}
-							</div>
-							<Heading level="2" className={styles.f2}>
-								{data.departmentSection.title}
-							</Heading>
-							<p className={styles.p}>{data.departmentSection.content}</p>
-						</Grid.Item>
+						<Content
+							pretitle={data.departmentSection.pretitle}
+							title={data.departmentSection.title}
+							copy={data.departmentSection.content}
+							align="left"
+						/>
 						<Grid.Item className={styles.desicon}>
 							<Icon
 								name="liferayDesicon"
@@ -129,13 +126,12 @@ const TwentyNineteen = () => {
 			{/* FRESH FISH */}
 			<section id="new-faces">
 				<div className={styles.newFaces}>
-					<div className={styles.preHeader}>
-						{data.timelineSection.pretitle}
-					</div>
-					<Heading level="2" className={styles.f2}>
-						{data.timelineSection.title}
-					</Heading>
-					<p className={styles.p}>{data.timelineSection.subtitle}</p>
+					<Content
+						pretitle={data.timelineSection.pretitle}
+						title={data.timelineSection.title}
+						copy={data.timelineSection.subtitle}
+						align="center"
+					/>
 					<Flex
 						direction="column"
 						justify="space-between"
@@ -181,11 +177,12 @@ const TwentyNineteen = () => {
 
 			{/* GROW */}
 			<section id="growth" className={styles.growth}>
-				<div className={styles.preHeader}>{data.careerSection.pretitle}</div>
-				<Heading level="2" className={styles.f2}>
-					{data.careerSection.title}
-				</Heading>
-				<p className={styles.p}>{data.careerSection.subtitle}</p>
+				<Content
+					pretitle={data.careerSection.pretitle}
+					title={data.careerSection.title}
+					copy={data.careerSection.subtitle}
+					align="center"
+				/>
 				<Flex
 					direction="column"
 					align="center"
@@ -244,15 +241,12 @@ const TwentyNineteen = () => {
 			{/* CHARITY DESIGN */}
 			<section id="charityDesign" className={styles.charityDesign}>
 				<div className={styles.fiftyFifty}>
-					<Flex direction="column" justify="center" className={styles.left}>
-						<div className={styles.preHeader}>
-							{data.givingSection.pretitle}
-						</div>
-						<Heading level="2" className={styles.f2}>
-							{data.givingSection.title}
-						</Heading>
-						<p className={styles.p}>{data.givingSection.subtitle}</p>
-					</Flex>
+					<Content
+						pretitle={data.givingSection.pretitle}
+						title={data.givingSection.title}
+						copy={data.givingSection.subtitle}
+						align="left"
+					/>
 					<img src="/images/2019/underground-writing.png" />
 				</div>
 				<div className={styles.services}>
@@ -282,13 +276,12 @@ const TwentyNineteen = () => {
 			<section id="thoughtLeadership">
 				<div className={styles.dbp}>
 					<div>
-						<div className={styles.preHeader}>
-							{data.designPractice.pretitle}
-						</div>
-						<Heading level="2" className={styles.f2}>
-							{data.designPractice.title}
-						</Heading>
-						<p className={styles.p}>{data.designPractice.subtitle}</p>
+						<Content
+							pretitle={data.designPractice.pretitle}
+							title={data.designPractice.title}
+							copy={data.designPractice.subtitle}
+							align="center"
+						/>
 						<a href={data.designPractice.link.url} className={styles.link}>
 							{data.designPractice.link.title}
 						</a>
@@ -303,11 +296,12 @@ const TwentyNineteen = () => {
 
 			{/* COMMUNITY */}
 			<section id="community" className={styles.ourEvents}>
-				<div className={styles.preHeader}>{data.designCommunity.pretitle}</div>
-				<Heading level="2" className={styles.f2}>
-					{data.designCommunity.title}
-				</Heading>
-				<p className={styles.p}>{data.designCommunity.subtitle}</p>
+				<Content
+					pretitle={data.designCommunity.pretitle}
+					title={data.designCommunity.title}
+					copy={data.designCommunity.subtitle}
+					align="center"
+				/>
 				<div className={styles.cardGrid}>
 					{data.designCommunity.events.map(({ event }) => (
 						<SimpleCard
