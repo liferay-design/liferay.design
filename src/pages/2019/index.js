@@ -71,7 +71,11 @@ const TwentyNineteen = () => {
 					justify="center"
 					className={styles.department}
 				>
-					<Grid templateRows="auto 1fr" rowGap="48px" className={styles.organizationContent}>
+					<Grid
+						templateRows="auto 1fr"
+						rowGap="48px"
+						className={styles.organizationContent}
+					>
 						<Grid.Item>
 							<div className={styles.preHeader}>
 								{data.departmentSection.pretitle}
@@ -329,14 +333,11 @@ const TwentyNineteen = () => {
 						</a>
 					</div>
 					<div className={styles.dbpGrid}>
-						<img src="/images/2019/dbp/the-design-process.png" />
-						<img src="/images/2019/dbp/Service-Design.png" />
-						<img src="/images/2019/dbp/ethics-in-design.png" />
-						<img src="/images/2019/dbp/data-driven-vs-data-infomred.png" />
-						<img src="/images/2019/dbp/giving-feedback.png" />
-						<img src="/images/2019/dbp/affordances.png" />
-						<img src="/images/2019/dbp/banner-blindness.png" />
-						<img src="/images/2019/dbp/what-is-a-mental-model.png" />
+						{data.designPractice.images.map(
+							({ image }) => (
+								<img src={image} />
+							),
+						)}
 					</div>
 				</div>
 			</section>
@@ -409,7 +410,7 @@ const TwentyNineteen = () => {
 				Ops
 			</Plx>
 			<Footer />
-			<FancyFooter/>
+			<FancyFooter />
 		</div>
 	)
 }
