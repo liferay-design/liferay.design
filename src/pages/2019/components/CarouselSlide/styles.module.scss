@@ -1,27 +1,11 @@
 @import '~theme/variables';
 @import '../../styles.module.scss';
 .slide {
-    .fourToThree img {
-        width: 60vw;
-        height: 45vw; //set ratio to 4:3
-        max-width: 106.66vh; //set ratio to 4:3
-        max-height: 80vh;
-        margin: 0;
-        object-fit: contain;
-    }
-    .sixteenToNine img {
-        width: 70vw;
-        height: 39.375vw; //set ratio to 16:9
-        max-width: 142.22vh; //set ratio to 16:9
-        max-height: 80vh;
-        margin: 0;
-        object-fit: contain;
-    }
     .p {
-        background: $lightBlack;
-        padding: 24px 160px;
+        padding: 24px;
+        margin: auto;
+        max-width: 800px;
         text-align: center;
         font-weight: 400;
-        z-index: 2;
     }
 }

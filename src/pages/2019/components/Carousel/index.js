@@ -24,9 +24,17 @@ export default class Carousel extends Component {
 			speed: 500,
 			slidesToShow: 1,
 			slidesToScroll: 1,
-			fade: 500,
-
+			fade: true,
+			responsive: [
+				{
+				  breakpoint: 900,
+				  settings: {
+					fade: false,
+				  }
+				},
+			]
 		};
+		
 		var navSettings = {
 			infinite: true,
 			slidesToShow: 1,
