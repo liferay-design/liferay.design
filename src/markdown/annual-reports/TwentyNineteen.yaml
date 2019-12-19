@@ -50,6 +50,15 @@ designPractice:
     link:
         title: Browse Best Practices Articles
         url: /tags/best-practices
+    images:
+        - image: '/images/2019/dbp/the-design-process.png'
+        - image: '/images/2019/dbp/Service-Design.png'
+        - image: '/images/2019/dbp/ethics-in-design.png'
+        - image: '/images/2019/dbp/data-driven-vs-data-infomred.png'
+        - image: '/images/2019/dbp/giving-feedback.png'
+        - image: '/images/2019/dbp/affordances.png'
+        - image: '/images/2019/dbp/banner-blindness.png'
+        - image: '/images/2019/dbp/what-is-a-mental-model.png'
 designCommunity:
     pretitle: Community
     title: Our Events
