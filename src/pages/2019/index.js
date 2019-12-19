@@ -372,14 +372,35 @@ const TwentyNineteen = () => {
 
 			{/* ---------- PROJECTS ----------- */}
 			{/* HEADER - PROJECTS */}
-			<Plx
+			{/* <Plx
 				tagName="h2"
 				className={styles.sectionHeader}
 				id="projects"
 				parallaxData={PlxUp1}
 			>
 				Projects
-			</Plx>
+			</Plx> */}
+
+			{/* PROJECTS */}
+			<section id="projects" className={styles.ourEvents}>
+				<Content
+					pretitle={data.designProjects.pretitle}
+					title={data.designProjects.title}
+					copy={data.designProjects.subtitle}
+					align="center"
+				/>
+				<div className={styles.cardGrid}>
+					{data.designProjects.projects.map(({ project }) => (
+						<SimpleCard
+							image={project.image}
+							title={project.title}
+							subtitle={project.designer}
+							description={project.description}
+						/>
+					))}
+				</div>
+			</section>
+			
 
 			{/* ---------- OPS ----------- */}
 			{/* HEADER - OPS */}
