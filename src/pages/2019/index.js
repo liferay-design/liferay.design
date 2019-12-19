@@ -8,7 +8,7 @@ import {
 	ScrollArrow,
 } from 'components/atoms'
 import { Footer } from 'components/organisms'
-import { SimpleCard, Nav, Designer, KeyArt, Content } from 'pages/2019/components/_index'
+import { SimpleCard, Nav, Designer, KeyArt, Content, Carousel, CarouselSlide } from 'pages/2019/components/_index'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
@@ -246,11 +246,12 @@ const TwentyNineteen = () => {
 						title={data.givingSection.title}
 						copy={data.givingSection.subtitle}
 						align="left"
+						justify="center"
 					/>
 					<img src="/images/2019/underground-writing.png" />
 				</div>
 				<div className={styles.services}>
-					<Flex flexWrap="wrap" className={styles.p}>
+					<Flex flexWrap="wrap" align="center" className={styles.p}>
 						<span>{data.givingSection.what.title}</span>
 						<ul>
 							{data.givingSection.what.services.map(i => (
@@ -321,6 +322,54 @@ const TwentyNineteen = () => {
 					</Flex>
 				</div>
 			</section>
+
+			{/* DRIBBBLE */}
+						{/* DRIBBBLE */}
+						<section id="dribbble">
+				<div  className={styles.dribbble}>
+					<Content
+						pretitle={data.dribbbleSection.pretitle}
+						title={data.dribbbleSection.title}
+						align="center"
+					/>
+					<Carousel ratio="fourToThree">
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble1.png"
+							description="This is a set of custom graphic t-shirt designs I put together for Liferay's event in Austin, TX.
+
+							Check out the shirt being printed live at the event!
+							https://twitter.com/Liferay/status/1134203613771907072" />
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble2.png"
+							description="- Redesign Project -
+							Take a look a the attachments to see the transformation. In collaboration with @Ryan Connolly" />
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble3.png"
+							description="Hey Dribbblers. Just exploring some more transitions for our upcoming Commerce accelerators. This concept is for a furniture distributor. Let us know your feedback or if you have any ideas we can add! Thanks" />
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble4.png"
+							description="Hey Dribbble!
+
+							This is a new feature that's coming soon to Liferay to provide comments, create threads, resolve tasks and review the work done.
+							
+							This was all done by using patterns from our design language Lexicon and components from its Figma Library: https://liferay.design/lexicon/
+							
+							I'll be also posting the construction soon." />
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble5.png"
+							description="Hey Dribbble!
+
+							Here's another Lexicon component I've been working on, it's a color picker with an optional panel of the RGB color selection.
+							
+							It also has a simpler variation with a HEX input, maybe I'll be posting that soon too. 🖖" />
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble6.png"
+							description="Hey Team! I wanted to share a simple 404 illustration I made for our public-facing site. I'm attaching the current (old) page and an idea of the newer-looking page. Since 404 pages are a pain-point for Users we thought it would be nice to add some delight to this page. Adding mouse-activated movement, as well! What do you all think?" />
+					</Carousel>
+				</div>
+			</section>
+
+
 			{/* ---------- PROJECTS ----------- */}
 			{/* HEADER - PROJECTS */}
 			<Plx
