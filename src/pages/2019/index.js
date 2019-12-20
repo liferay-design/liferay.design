@@ -71,6 +71,10 @@ const TwentyNineteen = () => {
 				</Grid>
 			</section>
 
+			{/* ---------- TEAM ----------- */}
+			{/* HEADER - TEAM */}
+			<div id="team" />
+
 			{/* DEPARTMENT */}
 			<section id="department">
 				<Flex
@@ -229,14 +233,7 @@ const TwentyNineteen = () => {
 
 			{/* ---------- INITIATIVES ----------- */}
 			{/* HEADER - INITIATIVES */}
-			<Plx
-				tagName="h2"
-				className={styles.sectionHeader}
-				id="initiatives"
-				parallaxData={PlxUp1}
-			>
-				Inititatives
-			</Plx>
+			<div id="initiatives" />
 
 			{/* CHARITY DESIGN */}
 			<section id="charityDesign" className={styles.mediaSection}>
@@ -371,17 +368,10 @@ const TwentyNineteen = () => {
 
 			{/* ---------- PROJECTS ----------- */}
 			{/* HEADER - PROJECTS */}
-			{/* <Plx
-				tagName="h2"
-				className={styles.sectionHeader}
-				id="projects"
-				parallaxData={PlxUp1}
-			>
-				Projects
-			</Plx> */}
+			<div id="projects" />
 
 			{/* PROJECTS */}
-			<section id="projects" className={styles.ourEvents}>
+			<section id="teamProjects" className={styles.ourEvents}>
 				<Content
 					pretitle={data.designProjects.pretitle}
 					title={data.designProjects.title}
@@ -434,14 +424,7 @@ const TwentyNineteen = () => {
 
 			{/* ---------- OPS ----------- */}
 			{/* HEADER - OPS */}
-			<Plx
-				tagName="h2"
-				className={styles.sectionHeader}
-				id="ops"
-				parallaxData={PlxUp1}
-			>
-				Ops
-			</Plx>
+			<div id="ops" />
 
 			{/* SLACK */}
 			<section id="slack" className={styles.mediaSection}>
