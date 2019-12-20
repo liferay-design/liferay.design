@@ -248,7 +248,7 @@ const TwentyNineteen = () => {
 					<img src="/images/2019/underground-writing.png" />
 				</div>
 				<div className={styles.services}>
-					<Flex flexWrap="wrap" align="center" className={styles.p}>
+					<Flex flexWrap="wrap" className={styles.p}>
 						<span>{data.givingSection.what.title}</span>
 						<ul>
 							{data.givingSection.what.services.map(i => (
