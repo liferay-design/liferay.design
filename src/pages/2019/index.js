@@ -463,7 +463,7 @@ const TwentyNineteen = () => {
 				title={data.subscribe.title}
 				copy={data.subscribe.subtitle}
 				align="center"
-					/>
+				/>
 			<FormNewsletter submitText='Subscribe' />
 			<Footer />
 			<FancyFooter />
