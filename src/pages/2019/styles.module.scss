@@ -829,13 +829,13 @@ section.hero {
 }
 
 // GLOBAL SERVICES
-.globalServices {
+.ops {
 	background: $darkBlack;
 	padding: 80px 20px;
 }
 
 @include for-tablet-landscape-up {
-	.globalServices {
+	.ops {
 		padding: 120px 40px;
 	}
 }
