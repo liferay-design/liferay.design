@@ -164,6 +164,42 @@ const ops = [
 				property: 'scale',
 			},
 		],
+	},
+	{
+		start: '#subscribe',
+		duration: 100,
+		startOffset: '25vh',
+		properties: [
+			{
+				startValue: colors.primary,
+				endValue: colors.neutral4,
+				property: 'backgroundColor',
+			},
+			{
+				startValue: 2.5,
+				endValue: 1,
+				property: 'scale',
+			},
+		],
+	},
+]
+const subscribe = [
+	{
+		start: '#subscribe',
+		duration: 100,
+		startOffset: '25vh',
+		properties: [
+			{
+				startValue: colors.neutral4,
+				endValue: colors.primary,
+				property: 'backgroundColor',
+			},
+			{
+				startValue: 1,
+				endValue: 2.5,
+				property: 'scale',
+			},
+		],
 	}
 ]
 export default class Nav extends Component {
@@ -201,7 +237,7 @@ export default class Nav extends Component {
 					<span>Menu</span>
 				</button>
 				<div className={styles.linkWrapper} >
-					<AnchorLink href="#top" >
+					<AnchorLink offset="80" href="#top">
 						<Plx
 							parallaxData={top}
 							className={styles.anchorBlock}
@@ -210,7 +246,7 @@ export default class Nav extends Component {
 							Top
 						</div>
 					</AnchorLink>
-					<AnchorLink offset="-100" href="#department">
+					<AnchorLink offset="100" href="#department">
 						<Plx
 							parallaxData={team}
 							className={styles.anchorBlock}
@@ -244,6 +280,15 @@ export default class Nav extends Component {
 						/>
 						<div className={styles.anchorText}>
 							Ops
+						</div>
+					</AnchorLink>
+					<AnchorLink offset="200" href="#subscribe">
+						<Plx
+							parallaxData={subscribe}
+							className={styles.anchorBlock}
+						/>
+						<div className={styles.anchorText}>
+							Subscribe
 						</div>
 					</AnchorLink>
 				</div>
