@@ -392,33 +392,39 @@ const TwentyNineteen = () => {
 
 			{/* GLOBAL SERVICES */}
 			<section id="globalServices">
-				<div  className={styles.globalServices}>
-					<Content
-						pretitle={data.globalServices.pretitle}
-						title={data.globalServices.title}
-						align="center"
-					/>
-					<Carousel ratio="sixteenToNine">
-						<CarouselSlide
-							image="/images/2019/global-services/global-services1.png"
-							description="description" />
-						<CarouselSlide
-							image="/images/2019/global-services/global-services2.png"
-							description="description" />
-						<CarouselSlide
-							image="/images/2019/global-services/global-services3.png"
-							description="description" />
-						<CarouselSlide
-							image="/images/2019/global-services/global-services4.png"
-							description="description" />
-						<CarouselSlide
-							image="/images/2019/global-services/global-services5.png"
-							description="description" />
-						<CarouselSlide
-							image="/images/2019/global-services/global-services6.png"
-							description="description" />
-					</Carousel>
-				</div>
+				<Flex
+					direction="column"
+					align="center"
+					justify="center"
+					className={styles.department}
+				>
+					<Grid
+						templateRows="auto 1fr"
+						rowGap="48px"
+						className={styles.organizationContent}
+					>
+						<Content
+							pretitle={data.globalServices.pretitle}
+							title={data.globalServices.title}
+							copy={data.globalServices.content}
+							align="left"
+							justify="center"
+						/>
+						<Grid.Item className={styles.desicon}>
+							<img src="images/2019/global-services/gs0.png" />
+						</Grid.Item>
+					</Grid>
+					<div className={styles.departmentNames}>
+						{data.globalServices.images.map(
+							({ image }) => (
+								<Flex direction="column" align="center" justify="center">
+									<img src={image} />
+								</Flex>
+							),
+						)}
+					</div>
+				</Flex>
+				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
 			
 
