@@ -189,3 +189,7 @@ globalServices:
 opsSection:
     pretitle: Operations
     title: Company & Team Operations
+subscribe:
+      pretitle: Want more?
+      title: '#LikeAndSubscribe<3'
+      subtitle: Sign up for our newsletter. Once a month we share links, articles, job listings, and more.
