@@ -150,35 +150,35 @@ designProjects:
     subtitle: Our blood, sweat, & tears. Our pride and joy. Where countless hours of deep thoughts, iterations upon iterations, and creative victories all come together.
     projects:
         - project:
-              image: '/images/2019/logos/logo-awwwards.png'
-              title: 'Project 1'
-              designer: 'Paul Hanaoka'
-              description: 'David spent 2 days in SF listening to design leaders from AirBnb, Dropbox, Github, and more!'
+              image: '/images/headshots/pires-felipe.jpg'
+              title: 'App Builder'
+              designer: 'Felipe Pires'
+              description: 'App Builder is a brand new tool on Liferay DXP that allows business people to build a business application without any coding skills.'
         - project:
-              image: '/images/2019/logos/logo-max.png'
-              title: 'Project 2'
+              image: '/images/headshots/hancock-abel.jpg'
+              title: 'Landing Page Builder'
               designer: 'Abel Hancock'
-              description: 'M. Night Shyamalan and Billie Eilish were a couple of Ryan’s favorites at this year’s Adobe Max.'
+              description: 'Enable our marketing team to self-service and build landing pages without designer or developer involvement.'
         - project:
-              image: '/images/2019/logos/logo-nng.png'
-              title: 'Project 3'
-              designer: 'Ryan Connolly & PJ Pentz'
-              description: 'Victor leveled up this year, NN/g courses helped him start to understand how to empathize with humans.'
+              image: '/images/logos/liferay-analytics-cloud-icon.png'
+              title: 'Analytics Cloud'
+              designer: 'Chris Jeong & James Lyons'
+              description: 'Released AB testing, Improved Segmentation, Site-wide Reporting, Improved Onboarding  and Individuals Dashboards.'
         - project:
-              image: '/images/2019/logos/logo-eia.png'
-              title: 'Project 4'
-              designer: 'Chris Jeong'
-              description: 'A number of us travelled to Riga for Europe’s premier Information Architecture & User Experience conference'
-        - project:
-              image: '/images/2019/logos/logo-figma.png'
-              title: 'Project 5'
-              designer: 'Thomas Young'
-              description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
-        - project:
-              image: '/images/2019/logos/logo-figma.png'
-              title: 'Project 6'
+              image: '/images/headshots/wood-jon.jpg'
+              title: 'Workflow Metrics'
               designer: 'Jon Wood'
-              description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
+              description: 'Workflow performance can now be measured and instances can be managed based on Service Level Agreements.'
+        - project:
+              image: '/images/headshots/kim-david.jpg'
+              title: 'DXP 7.3: B2B Account Management'
+              designer: 'David Kim'
+              description: 'Designed an account management feature that natively supports business account entities to implement account-based experiences.'
+        - project:
+              image: '/images/headshots/vazquez-susana.jpg'
+              title: 'Segments Criteria Editor'
+              designer: 'Susana Vázquez'
+              description: 'Editor for defining User Segments based on user, organization and session properties through a drag and drop interface'
 globalServices:
     pretitle: Todo
     title: Global Services
