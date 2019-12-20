@@ -660,6 +660,7 @@ section.hero {
 			min-width: 225px;
 			li {
 				color: $white;
+				font-weight: $fontWeightRegular;
 			}
 		}
 		.p {
@@ -695,6 +696,7 @@ section.hero {
 			li {
 				display: inline-block;
 				padding: 0 28px;
+				margin: 0;
 				&:first-of-type {
 					padding-left: 0;
 				}
