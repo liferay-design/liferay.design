@@ -457,6 +457,7 @@ const TwentyNineteen = () => {
 			{/* ---------- SUBSCRIBE ----------- */}
 			{/* HEADER - SUBSCRIBE */}
 			<div id="subscribe" />
+
 			<section>
 				<Content
 					pretitle={data.subscribe.pretitle}
@@ -466,6 +467,7 @@ const TwentyNineteen = () => {
 					/>
 				<FormNewsletter submitText='Subscribe' />
 			</section>
+			
 			<Footer />
 			<FancyFooter />
 		</div>
