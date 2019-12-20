@@ -448,7 +448,7 @@ const TwentyNineteen = () => {
 							image="/images/2019/damn.jpeg"
 							description="dam description" />
 						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble3.png"
+							image="/images/2019/handbook.png"
 							description="handbook description" />
 					</Carousel>
 				</div>
