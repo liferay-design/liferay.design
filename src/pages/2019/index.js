@@ -432,46 +432,28 @@ const TwentyNineteen = () => {
 			{/* HEADER - OPS */}
 			<div id="ops" />
 
-			{/* SLACK */}
-			<section id="slack" className={styles.mediaSection}>
-				<div className={styles.fiftyFifty}>
+			{/* OPERATIONS */}
+			<section id="operations">
+				<div  className={styles.ops}>
 					<Content
-						pretitle={data.slackSection.pretitle}
-						title={data.slackSection.title}
-						copy={data.slackSection.content}
-						align="left"
-						justify="center"
+						pretitle={data.opsSection.pretitle}
+						title={data.opsSection.title}
+						align="center"
 					/>
-					<img src="/images/2019/slack.png" />
+					<Carousel ratio="fourToThree">
+						<CarouselSlide
+							image="/images/2019/slack.png"
+							description="slack description" />
+						<CarouselSlide
+							image="/images/2019/damn.jpeg"
+							description="dam description" />
+						<CarouselSlide
+							image="/images/2019/dribbble-shots/dribbble3.png"
+							description="handbook description" />
+					</Carousel>
 				</div>
-				<a href={data.givingSection.link.url} className={styles.link}>
-					{data.givingSection.link.title}
-				</a>
 			</section>
 
-			{/* DAM */}
-			<section id="dam" className={styles.mediaSection}>
-				<div className={styles.fiftyFifty}>
-					<Content
-						pretitle={data.damSection.pretitle}
-						title={data.damSection.title}
-						copy={data.damSection.content}
-						align="left"
-						justify="center"
-					/>
-					<img src="/images/2019/damn.jpeg" />
-				</div>
-				<div className={styles.services}>
-					<Flex flexWrap="wrap" align="center" className={styles.p}>
-						<span>{data.damSection.why.title}</span>
-						<ul>
-							{data.damSection.why.services.map(i => (
-								<li>{i}</li>
-							))}
-						</ul>
-					</Flex>
-				</div>
-			</section>
 			<Content
 						pretitle="subscribe"
 						title="#LikeAndSubscribe<3"
