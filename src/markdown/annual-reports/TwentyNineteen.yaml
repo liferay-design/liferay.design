@@ -177,6 +177,11 @@ designProjects:
 globalServices:
     pretitle: Todo
     title: Global Services
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
+    images:
+        - image: '/images/2019/global-services/gs1.png'
+        - image: '/images/2019/global-services/gs2.png'
+        - image: '/images/2019/global-services/gs3.png'
 slackSection:
     pretitle: slackin' off
     title: Company-wide Communication
