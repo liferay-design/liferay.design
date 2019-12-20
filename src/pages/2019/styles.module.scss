@@ -425,13 +425,16 @@ section.hero {
 			text-align: center;
 			margin: 0 auto;
 		}
+		.keyArt {
+			height: 100%;
+		}
 	}
 }
 @include for-tablet-landscape-up {
 	section.hero {
 		.heroGrid {
 			grid-template-columns: 1fr 50% 1fr;
-			grid-template-rows: calc(100vh - 150px) auto;
+			grid-template-rows: calc(100vh - 80px) auto;
 			gap: 4rem;
 			.keyArt {
 				grid-area: 1 / 2 / 2 / 3;
