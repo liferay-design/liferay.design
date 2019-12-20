@@ -465,9 +465,6 @@ const TwentyNineteen = () => {
 						</ul>
 					</Flex>
 				</div>
-				<a href={data.damSection.link.url} className={styles.link}>
-					{data.damSection.link.title}
-				</a>
 			</section>
 
 			<Footer />
