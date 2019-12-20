@@ -455,8 +455,9 @@ const TwentyNineteen = () => {
 			</section>
 
 			<Content
-						pretitle="subscribe"
-						title="#LikeAndSubscribe<3"
+						pretitle={data.subscribe.pretitle}
+						title={data.subscribe.title}
+						subtitle={data.subscribe.subtitle}
 						align="center"
 					/>
 			<FormNewsletter submitText='Subscribe' />
