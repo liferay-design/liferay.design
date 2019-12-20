@@ -188,3 +188,6 @@ damSection:
     pretitle: DAMN
     title: Digital Asset Management
     content: Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
+    why:
+        title: Benefits
+        services: ['Brand Consistency', 'Lorem', 'Ipsum']
