@@ -7,7 +7,7 @@
 	animation-duration: 2s;
 	animation-timing-function: cubic-bezier(0, 0.8, 0.5, 0.9);
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 1.4s;
 }
 
 // IDs for animation
@@ -27,7 +27,7 @@
 
 #zero .blueStroke {
 	@include animation;
-	animation-delay: 2.2s;
+	animation-delay: 1.6s;
 	stroke-dasharray: 360;
 	stroke-dashoffset: 360;
 	animation-duration: 1s;
@@ -42,7 +42,7 @@
 
 #zero #desicon {
 	@include animation;
-	animation-delay: 2.4s;
+	animation-delay: 2s;
 	animation-duration: 1s;
 	stroke-dasharray: 70;
 	stroke-dashoffset: 70;
@@ -73,13 +73,13 @@
 }
 
 #nine #nineDot.blueStroke {
-	animation: intro 3s ease forwards;
+	animation: intro 2.4s ease forwards;
 	stroke-dashoffset: 130;
 	stroke-dasharray: 130;
 }
 
 .dots {
-	animation: dots 0.5s ease-in-out 2.8s forwards;
+	animation: dots 0.5s ease-in-out 2.4s forwards;
 	r: 0;
 }
 
@@ -93,10 +93,10 @@
 	0% {
 		transform: translate(-20%, -15%);
 	}
-	55% {
+	40% {
 		stroke-dashoffset: 0;
 	}
-	60% {
+	43% {
 		transform: translate(-20%, -15%);
 	}
 	100% {
