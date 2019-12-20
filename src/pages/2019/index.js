@@ -65,7 +65,8 @@ const TwentyNineteen = () => {
 						<KeyArt />
 					</div>
 					<Heading level="1" className={styles.f2}>
-						{data.title}
+						<span>{data.design}</span>
+						<span>{data.report}</span>
 					</Heading>
 					<p className={styles.pLarge}>{data.subtitle}</p>
 				</Grid>
