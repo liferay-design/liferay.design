@@ -13,7 +13,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
-import { SEO, FancyFooter } from 'components/molecules'
+import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
 import data from 'markdown/annual-reports/TwentyNineteen.yaml'
 import { Grid } from 'reakit'
 import moment from 'moment'
@@ -449,11 +449,11 @@ const TwentyNineteen = () => {
 					<Content
 						pretitle={data.damSection.pretitle}
 						title={data.damSection.title}
-						copy={data.damSection.subtitle}
+						copy={data.damSection.content}
 						align="left"
 						justify="center"
 					/>
-					<img src="/images/2019/damn.jpg" />
+					<img src="/images/2019/damn.jpeg" />
 				</div>
 				<div className={styles.services}>
 					<Flex flexWrap="wrap" align="center" className={styles.p}>
@@ -466,7 +466,12 @@ const TwentyNineteen = () => {
 					</Flex>
 				</div>
 			</section>
-
+			<Content
+						pretitle="subscribe"
+						title="#LikeAndSubscribe<3"
+						align="center"
+					/>
+			<FormNewsletter submitText='Subscribe' />
 			<Footer />
 			<FancyFooter />
 		</div>
