@@ -193,7 +193,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 	section {
 		width: 100vw;
 		margin: 0 auto;
-		max-width: $screenXLarge;
+		max-width: 1440px;
 		position: relative;
 		padding: $spacingXLarge 20px;
 		@include for-tablet-portrait-up {
