@@ -719,7 +719,8 @@ section.hero {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 16px;
 		row-gap: 16px;
-		padding: 80px 0;
+		padding-top: 80px;
+		position: relative;
 		img {
 			width: 100%;
 			border: 8px solid $lightBlack;
@@ -727,6 +728,16 @@ section.hero {
 			&:nth-of-type(odd) {
 				display: none;
 			}
+		}
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 40%;
+			background: linear-gradient(180deg, rgba(27, 28, 30, 0) 20%, $darkBlack 100%);
+			z-index: 1;
 		}
 	}
 }

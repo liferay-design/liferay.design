@@ -102,6 +102,10 @@ designPractice:
         - image: '/images/2019/dbp/affordances.png'
         - image: '/images/2019/dbp/banner-blindness.png'
         - image: '/images/2019/dbp/what-is-a-mental-model.png'
+        - image: '/images/2019/dbp/pareto-principle.png'
+        - image: '/images/2019/dbp/value-driven-kpis.png'
+        - image: '/images/2019/dbp/zero-users-give-zero-insights.png'
+        - image: '/images/2019/dbp/what-is-accessibility-in-design.png'
 designCommunity:
     pretitle: Community
     title: Our Events
