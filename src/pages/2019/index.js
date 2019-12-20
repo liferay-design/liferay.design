@@ -460,6 +460,33 @@ const TwentyNineteen = () => {
 				</a>
 			</section>
 
+			{/* DAM */}
+			<section id="dam" className={styles.mediaSection}>
+				<div className={styles.fiftyFifty}>
+					<Content
+						pretitle={data.damSection.pretitle}
+						title={data.damSection.title}
+						copy={data.damSection.subtitle}
+						align="left"
+						justify="center"
+					/>
+					<img src="/images/2019/damn.jpg" />
+				</div>
+				<div className={styles.services}>
+					<Flex flexWrap="wrap" align="center" className={styles.p}>
+						<span>{data.damSection.why.title}</span>
+						<ul>
+							{data.damSection.why.services.map(i => (
+								<li>{i}</li>
+							))}
+						</ul>
+					</Flex>
+				</div>
+				<a href={data.damSection.link.url} className={styles.link}>
+					{data.damSection.link.title}
+				</a>
+			</section>
+
 			<Footer />
 			<FancyFooter />
 		</div>
