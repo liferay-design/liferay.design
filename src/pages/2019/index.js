@@ -457,14 +457,15 @@ const TwentyNineteen = () => {
 			{/* ---------- SUBSCRIBE ----------- */}
 			{/* HEADER - SUBSCRIBE */}
 			<div id="subscribe" />
-
-			<Content
-				pretitle={data.subscribe.pretitle}
-				title={data.subscribe.title}
-				copy={data.subscribe.subtitle}
-				align="center"
-				/>
-			<FormNewsletter submitText='Subscribe' />
+			<section>
+				<Content
+					pretitle={data.subscribe.pretitle}
+					title={data.subscribe.title}
+					copy={data.subscribe.subtitle}
+					align="center"
+					/>
+				<FormNewsletter submitText='Subscribe' />
+			</section>
 			<Footer />
 			<FancyFooter />
 		</div>
