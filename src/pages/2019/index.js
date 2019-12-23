@@ -1,6 +1,7 @@
 import {
 	Flex,
 	Image,
+	Link,
 	Heading,
 	Text,
 	Icon,
@@ -194,9 +195,9 @@ const TwentyNineteen = () => {
 					className={styles.recentPromotions}
 				>
 					<img className={styles.growTool} src="/images/2019/path-tool.png" />
-					<a href={data.careerSection.link.url} className={styles.link}>
+					<Link to={data.careerSection.link.url} className={styles.link}>
 						{data.careerSection.link.title}
-					</a>
+					</Link>
 				</Flex>
 			</section>
 
@@ -234,9 +235,9 @@ const TwentyNineteen = () => {
 						</ul>
 					</Flex>
 				</div>
-				<a href={data.givingSection.link.url} className={styles.link}>
+				<Link to={data.givingSection.link.url} className={styles.link}>
 					{data.givingSection.link.title}
-				</a>
+				</Link>
 			</section>
 
 			{/* THOUGHT LEADERSHIP */}
@@ -249,9 +250,9 @@ const TwentyNineteen = () => {
 							copy={data.designPractice.subtitle}
 							align="center"
 						/>
-						<a href={data.designPractice.link.url} className={styles.link}>
+						<Link to={data.designPractice.link.url} className={styles.link}>
 							{data.designPractice.link.title}
-						</a>
+						</Link>
 					</div>
 					<div className={styles.dbpGrid}>
 						{data.designPractice.images.map(({ image }) => (
@@ -279,19 +280,19 @@ const TwentyNineteen = () => {
 						/>
 					))}
 					<Flex justify="center" align="center" className={styles.seeMoreCard}>
-						<a
-							href={data.designCommunity.seeMore.url}
+						<Link
+							to={data.designCommunity.seeMore.url}
 							className={styles.link}
 						>
 							{data.designCommunity.seeMore.title}
-						</a>
+						</Link>
 					</Flex>
 				</div>
 			</section>
 
 			{/* DRIBBBLE */}
 			<section id="dribbble">
-				<div className={styles.dribbble}>
+				<Flex direction="column" align="center" justify="center" className={styles.dribbble}>
 					<Content
 						pretitle={data.dribbbleSection.pretitle}
 						title={data.dribbbleSection.title}
@@ -305,7 +306,10 @@ const TwentyNineteen = () => {
 							/>
 						))}
 					</Carousel>
-				</div>
+					<Link to={data.dribbbleSection.link.url} className={styles.link}>
+						{data.dribbbleSection.link.title}
+					</Link>
+				</Flex>
 			</section>
 
 			{/* ---------- PROJECTS ----------- */}
