@@ -180,17 +180,17 @@ designProjects:
               designer: 'Susana Vázquez'
               description: 'Editor for defining User Segments based on user, organization and session properties through a drag and drop interface'
 globalServices:
-    pretitle: Todo
-    title: Global Services
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.
+    pretitle: Design as a Service
+    title: Consulting
+    content: 2019 was a big year for design work in Liferay's Global Services Department. We contributed to countless RFPs and created designs for some big clients. Most of it is very hush-hush, but as the projects get developed we'll share more.
     images:
         - image: '/images/2019/global-services/gs1.png'
         - image: '/images/2019/global-services/gs2.png'
         - image: '/images/2019/global-services/gs3.png'
 opsSection:
     pretitle: Operations
-    title: Company & Team Operations
+    title: Design at Scale
 subscribe:
-      pretitle: Want more?
-      title: '#LikeAndSubscribe<3'
-      subtitle: Sign up for our newsletter. Once a month we share links, articles, job listings, and more.
+    pretitle: Want more?
+    title: '#LikeAndSubscribe<3'
+    subtitle: Sign up for our newsletter. Once a month we share links, articles, job listings, and more.
