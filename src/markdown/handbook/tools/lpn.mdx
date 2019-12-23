@@ -11,6 +11,9 @@ import { Image } from 'components/atoms'
 
 _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fast and flexible CLI for managing Liferay Portal's Docker images._
 
+## Why is it important
+Lpn allows us going back to the past and check specific scenarios. Imagine you want to check previous versions to see the product evolution, or you just have to solve a bug in a certain product release. This tool will allow you making that in few minutes.
+
 ## Install lpn
 
 <Image
@@ -23,8 +26,8 @@ _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fas
 
 1.  [Install docker](https://docs.docker.com/docker-for-mac/install/)
 1.  Change docker preferences to have 6Gb memory
-1.  [Install lpn](https://github.com/mdelapenya/lpn#installation)
-1.  Go to last release, open the panel and download darwin - amd64 (if you are on mac)
+1.  Download the last [lpn](https://mdelapenya.github.io/lpn/releases.html) release (darwin64 if you are using a mac).
+1.  You might need to rename your downloaded file to just 'lpn'.
 1.  Open your terminal and go to where the file has been downloaded. By default Downloads folder.
     ```bash
     cd Download
@@ -39,31 +42,17 @@ _[Liferay Portal Nook (lpn)](https://mdelapenya.github.io/lpn/index.html), a fas
     ```
 1.  By this point you should have lpn running in your computer. Now you can run images as shown in next section.
 
+## Where to get Liferay official images
+
+Just visit our [docker hub tags page](https://hub.docker.com/r/liferay/portal/tags).
+
 ## Running images
 
 To run master
 
 ```bash
-lpn run nightly -p 8081 -t 20180426
+lpn run ce -t 7.0.6-ga7 -p 9050
 ```
 
-To run 7.0
-
-```bash
-lpn run release -t 7-ce-ga6-tomcat-hsql -p 8888
-```
-
-To run commerce
-
-```bash
-lpn run commerce -p 8081 -t 20180426
-```
-
-## For Commerce Images
-
-_Commerce images are private, you need special access to run them._
-
-1. Create a [Docker Hub](https://hub.docker.com/signup) account
-1. Create an LRIT ticket
-    1. Add Marco Leo as a watcher, he'll approve your access.
-    1. Add your Docker Hub username in the ticket.
+## Running other images
+Each team might have their own images. Ask the team lead how to run them.
