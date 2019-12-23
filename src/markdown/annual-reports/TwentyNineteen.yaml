@@ -166,6 +166,9 @@ dribbbleSection:
         - slide:
               image: '/images/2019/dribbble-shots/dribbble6.png'
               description: Since 404s are a pain-point for users we thought it would be nice to make some small improvements on this page on liferay.com
+    link:
+        url: https://dribbble.com/liferay
+        title: Show us some ❤️ on Dribbble!
 designProjects:
     pretitle: Projects
     title: Get 'er Done
