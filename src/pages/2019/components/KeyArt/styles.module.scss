@@ -16,7 +16,7 @@
 	@include animation;
 	stroke-dasharray: 750;
 	stroke-dashoffset: 750;
-	animation-duration: 1s;
+	animation-duration: 1.6s;
 }
 
 #two .whiteStroke {
@@ -83,6 +83,37 @@
 	r: 0;
 }
 
+#firstPoint,
+#secondPoint {
+	@include animation;
+	stroke-dashoffset: 70;
+	stroke-dasharray: 70;
+	animation-delay: 2s;
+	animation-duration: 1s;
+}
+
+#firstPoint > .thinnestStroke {
+	@include animation;
+	stroke-dashoffset: 80;
+	stroke-dasharray: 80;
+	animation-delay: 1.2s;
+	animation-duration: 1s;
+}
+
+#secondPoint > .thinnestStroke {
+	@include animation;
+	stroke-dashoffset: 80;
+	stroke-dasharray: 80;
+	animation-delay: 2s;
+	animation-duration: 1.4s;
+}
+
+#ninePath.blueStroke {
+	@include animation;
+	animation-delay: 1.6s;
+	animation-duration: 1.8s;
+}
+
 @keyframes drawIn {
 	to {
 		stroke-dashoffset: 0;
@@ -92,16 +123,25 @@
 @keyframes intro {
 	0% {
 		transform: translate(-20%, -15%);
+		opacity: 1;
 	}
 	40% {
 		stroke-dashoffset: 0;
+		opacity: 1;
 	}
 	43% {
 		transform: translate(-20%, -15%);
 	}
+	60% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
 	100% {
 		transform: translate(0, 0);
 		stroke-dashoffset: 0;
+		opacity: 1;
 	}
 }
 
