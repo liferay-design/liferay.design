@@ -222,9 +222,10 @@ section.hero {
 			text-align: center;
 			span {
 				opacity: 0;
-				animation: designReport 0.6s linear forwards;
+				animation: designReport 0.6s ease-in-out forwards;
 				color: $white;
 				animation-delay: 2s;
+				transform: translateY($spacingMedium);
 				&:first-of-type {
 					color: $grayHeader;
 					padding-right: 0.2em;
@@ -270,6 +271,7 @@ section.hero {
 @keyframes designReport {
 	to {
 		opacity: 1;
+		transform: translateY(0);
 	}
 }
 
