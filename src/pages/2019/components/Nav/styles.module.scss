@@ -212,7 +212,7 @@
 	@for $i from 1 through 5 {
 		.linkWrapper > a {
 			&:nth-child(#{$i}) {
-				animation-delay: 2s + ($i * (1s / 10));
+				animation-delay: 1.6s + ($i * (1s / 10));
 			}
 		}
 	}
