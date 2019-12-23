@@ -323,49 +323,22 @@ const TwentyNineteen = () => {
 
 			{/* DRIBBBLE */}
 			<section id="dribbble">
-				<div  className={styles.dribbble}>
+				<div className={styles.dribbble}>
 					<Content
 						pretitle={data.dribbbleSection.pretitle}
 						title={data.dribbbleSection.title}
 						align="center"
 					/>
 					<Carousel ratio="fourToThree">
-						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble1.png"
-							description="This is a set of custom graphic t-shirt designs I put together for Liferay's event in Austin, TX.
-
-							Check out the shirt being printed live at the event!
-							https://twitter.com/Liferay/status/1134203613771907072" />
-						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble2.png"
-							description="- Redesign Project -
-							Take a look a the attachments to see the transformation. In collaboration with @Ryan Connolly" />
-						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble3.png"
-							description="Hey Dribbblers. Just exploring some more transitions for our upcoming Commerce accelerators. This concept is for a furniture distributor. Let us know your feedback or if you have any ideas we can add! Thanks" />
-						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble4.png"
-							description="Hey Dribbble!
-
-							This is a new feature that's coming soon to Liferay to provide comments, create threads, resolve tasks and review the work done.
-							
-							This was all done by using patterns from our design language Lexicon and components from its Figma Library: https://liferay.design/lexicon/
-							
-							I'll be also posting the construction soon." />
-						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble5.png"
-							description="Hey Dribbble!
-
-							Here's another Lexicon component I've been working on, it's a color picker with an optional panel of the RGB color selection.
-							
-							It also has a simpler variation with a HEX input, maybe I'll be posting that soon too. 🖖" />
-						<CarouselSlide
-							image="/images/2019/dribbble-shots/dribbble6.png"
-							description="Hey Team! I wanted to share a simple 404 illustration I made for our public-facing site. I'm attaching the current (old) page and an idea of the newer-looking page. Since 404 pages are a pain-point for Users we thought it would be nice to add some delight to this page. Adding mouse-activated movement, as well! What do you all think?" />
+						{data.dribbbleSection.slides.map(({ slide }) => (
+							<CarouselSlide
+								image={slide.image}
+								description={slide.description}
+							/>
+						))}
 					</Carousel>
 				</div>
 			</section>
-
 
 			{/* ---------- PROJECTS ----------- */}
 			{/* HEADER - PROJECTS */}
@@ -416,18 +389,15 @@ const TwentyNineteen = () => {
 						</Grid.Item>
 					</Grid>
 					<div className={styles.departmentNames}>
-						{data.globalServices.images.map(
-							({ image }) => (
-								<Flex direction="column" align="center" justify="center">
-									<img src={image} />
-								</Flex>
-							),
-						)}
+						{data.globalServices.images.map(({ image }) => (
+							<Flex direction="column" align="center" justify="center">
+								<img src={image} />
+							</Flex>
+						))}
 					</div>
 				</Flex>
 				{/* <img src="/images/2019/dots-large.svg"/> */}
 			</section>
-			
 
 			{/* ---------- OPS ----------- */}
 			{/* HEADER - OPS */}
@@ -435,22 +405,19 @@ const TwentyNineteen = () => {
 
 			{/* OPERATIONS */}
 			<section id="operations">
-				<div  className={styles.ops}>
+				<div className={styles.ops}>
 					<Content
 						pretitle={data.opsSection.pretitle}
 						title={data.opsSection.title}
 						align="center"
 					/>
 					<Carousel ratio="fourToThree">
-						<CarouselSlide
-							image="/images/2019/slack.png"
-							description="slack description" />
-						<CarouselSlide
-							image="/images/2019/damn.jpeg"
-							description="dam description" />
-						<CarouselSlide
-							image="/images/2019/handbook.png"
-							description="handbook description" />
+						{data.opsSection.slides.map(({ slide }) => (
+							<CarouselSlide
+								image={slide.image}
+								description={slide.description}
+							/>
+						))}
 					</Carousel>
 				</div>
 			</section>
@@ -465,10 +432,10 @@ const TwentyNineteen = () => {
 					title={data.subscribe.title}
 					copy={data.subscribe.subtitle}
 					align="center"
-					/>
-				<FormNewsletter submitText='Subscribe' />
+				/>
+				<FormNewsletter submitText="Subscribe" />
 			</section>
-			
+
 			<Footer />
 			<FancyFooter />
 		</div>
