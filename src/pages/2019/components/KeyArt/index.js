@@ -187,7 +187,7 @@ export default class KeyArt extends Component {
 						<path
 							className={styles.blueStroke}
 							id={styles.nineDot}
-							strokeWidth="40"
+							// strokeWidth="20"
 							d="M452 482c11 0 20 9 20 20s-9 20-20 20-20-9-20-20 9-20 20-20z"
 						/>
 					</g>
