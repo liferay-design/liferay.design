@@ -418,6 +418,7 @@ section.hero {
 		grid-template-rows: 70vh auto auto;
 		gap: 2rem;
 		.f2 {
+			font-weight: $fontWeightBlack;
 			text-align: center;
 			span {
 				opacity: 0;
