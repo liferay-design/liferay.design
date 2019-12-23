@@ -194,41 +194,9 @@ const TwentyNineteen = () => {
 					className={styles.recentPromotions}
 				>
 					<img className={styles.growTool} src="/images/2019/path-tool.png" />
-					{/* <Heading level="2" className={styles.f3}>
-						Recent Promotions
-					</Heading>
-					<div>
-						<div className={styles.promotionCard}>
-							<img src="/images/headshots/connolly-ryan.jpg" />
-							<div>
-								<Heading level="3" className={styles.f3Large}>
-									Ryan <span>Connolly</span>
-								</Heading>
-								<span>3 years with Liferay</span>
-							</div>
-							<div>
-								<Heading level="4" className={styles.f4}>
-									Warrior Princess
-								</Heading>
-								<span>Previous: Product Design Manager</span>
-							</div>
-						</div>
-						<div className={styles.promotionCard}>
-							<img src="/images/headshots/jeong-chris.jpg" />
-							<div>
-								<Heading level="3" className={styles.f3Large}>
-									Chris <span>Jeong</span>
-								</Heading>
-								<span>2 years with Liferay</span>
-							</div>
-							<div>
-								<Heading level="4" className={styles.f4}>
-									Senior Product Designer
-								</Heading>
-								<span>Previous: Product Designer</span>
-							</div>
-						</div>
-					</div> */}
+					<a href={data.careerSection.link.url} className={styles.link}>
+						{data.careerSection.link.title}
+					</a>
 				</Flex>
 			</section>
 

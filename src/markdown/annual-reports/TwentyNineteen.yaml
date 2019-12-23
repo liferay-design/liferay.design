@@ -70,7 +70,10 @@ timelineSection:
 careerSection:
     pretitle: Grow & Get Better
     title: Design Careers
-    subtitle: We recognize that not everyone wants to manage people — and that's great — we need to ensure there’s room for all to grow. We have designed a dual-track path, one for people management and one for individual contribution.
+    subtitle: We designed and implemented a dual-track career path, one for people management and one for individual contributors.
+    link:
+        title: Read about it in our Handbook
+        url: /handbook/grow/career-paths/overview/
 givingSection:
     pretitle: Giving Back
     title: Underground Writing
