@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
-import styles from '../../styles.module.scss'
+import styles from './styles.module.scss'
 import { colors } from 'theme/'
 
 const top = [
