@@ -104,7 +104,7 @@ export default class KeyArt extends Component {
 							<rect
 								x="136"
 								y="570"
-								className={styles.whiteFill}
+								className={`${styles.whiteFill} ${styles.dots}`}
 								mask="url(#dots)"
 								width="48"
 								height="192"
@@ -112,7 +112,7 @@ export default class KeyArt extends Component {
 							<rect
 								x="184"
 								y="522"
-								className={styles.grayFill}
+								className={`${styles.grayFill} ${styles.dots}`}
 								mask="url(#dots)"
 								width="136"
 								height="240"
