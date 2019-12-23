@@ -243,7 +243,7 @@ export default class Nav extends Component {
 							className={styles.anchorBlock}
 						/>
 						<div className={styles.anchorText}>
-							Top
+							2019
 						</div>
 					</AnchorLink>
 					<AnchorLink offset="100" href="#department">
@@ -252,7 +252,7 @@ export default class Nav extends Component {
 							className={styles.anchorBlock}
 						/>
 						<div className={styles.anchorText}>
-							Team
+							Design
 						</div>
 					</AnchorLink>
 					<AnchorLink href="#initiatives">
@@ -280,15 +280,6 @@ export default class Nav extends Component {
 						/>
 						<div className={styles.anchorText}>
 							Ops
-						</div>
-					</AnchorLink>
-					<AnchorLink offset="200" href="#subscribe">
-						<Plx
-							parallaxData={subscribe}
-							className={styles.anchorBlock}
-						/>
-						<div className={styles.anchorText}>
-							Subscribe
 						</div>
 					</AnchorLink>
 				</div>
