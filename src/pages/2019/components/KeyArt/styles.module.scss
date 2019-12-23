@@ -1,5 +1,15 @@
 @import '../../styles.module.scss';
 
+// Remove fill on dots for Safari so it doesnt look so bad
+
+@media not all and (min-resolution: 0.001dpcm) {
+	@supports (-webkit-appearance: none) {
+		.dots {
+			fill: none !important;
+		}
+	}
+}
+
 // Mixins for consistency
 
 @mixin animation {
