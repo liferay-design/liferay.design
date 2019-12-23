@@ -152,13 +152,15 @@
 }
 
 @include for-tablet-portrait-up {
+	.linkWrapper > a {
+		animation: animateIn 1s ease-in-out forwards;
+		opacity: 0;
+		left: -$spacingMedium;
+	}
 	.anchorLinks {
 		left: 22px;
 		right: unset;
 		top: 50vh;
-		animation: animateIn 1s ease-in-out 2s forwards;
-		opacity: 0;
-		transform: translateX(-$spacingMedium);
 		.menuButton {
 			display: none;
 		}
@@ -207,11 +209,18 @@
 			}
 		}
 	}
+	@for $i from 1 through 5 {
+		.linkWrapper > a {
+			&:nth-child(#{$i}) {
+				animation-delay: 2s + ($i * (1s / 10));
+			}
+		}
+	}
 }
 
 @keyframes animateIn {
 	to {
 		opacity: 1;
-		transform: translateX(0);
+		left: 0;
 	}
 }
