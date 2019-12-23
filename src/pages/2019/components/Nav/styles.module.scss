@@ -68,11 +68,12 @@
 			transition-duration: 0.1s;
 		}
 		.anchorBlock {
-			width: 6px;
-			height: 6px;
-			border-radius: 4px;
-			background: $main-l3;
-			position: relative;
+			--size: 4px;
+			width: var(--size);
+			height: var(--size);
+			border-radius: calc(var(--size) / 2);
+			background: $grayHeader;
+			position: absolute;
 		}
 		.anchorText {
 			position: absolute;
@@ -152,9 +153,12 @@
 
 @include for-tablet-portrait-up {
 	.anchorLinks {
-		left: 24px;
+		left: 22px;
 		right: unset;
 		top: 50vh;
+		animation: animateIn 1s ease-in-out 2s forwards;
+		opacity: 0;
+		transform: translateX(-$spacingMedium);
 		.menuButton {
 			display: none;
 		}
@@ -166,15 +170,18 @@
 			transform: translateY(-50%);
 			a {
 				margin: 0;
-				width: 32px;
 				transform: translateX(0);
+				.anchorBlock {
+					left: $spacingSmall;
+				}
 				.anchorText {
 					right: unset;
-					left: 0;
+					left: $spacingXSmall * 2;
 					background: transparent;
-					color: $white;
-					padding: 4px 16px 4px 24px;
-					opacity: 0;
+					color: $grayParagraph;
+					padding: ($spacingSmall / 4) $spacingSmall ($spacingSmall / 4)
+						($spacingSmall + $spacingXSmall);
+					// opacity: 0;
 					&:before {
 						left: 12px;
 						right: unset;
@@ -199,5 +206,12 @@
 				opacity: 1;
 			}
 		}
+	}
+}
+
+@keyframes animateIn {
+	to {
+		opacity: 1;
+		transform: translateX(0);
 	}
 }
