@@ -211,14 +211,14 @@ opsSection:
     title: Design at Scale
     slides:
         - slide:
-              image: '/images/2019/slack.png'
-              description: Slack description
+              image: '/images/2019/handbook.png'
+              description: We developed and launched our global design handbook with contributions from designers in Los Angeles, Madrid, and Recife. Our 2020 goal is for everyone in the department to contribute in some way!
         - slide:
               image: '/images/2019/slack.png'
-              description: Slack description
+              description: Liferay went all-in on Slack in 2019, rolling it out globally to all employees. Our Design Ops team was part of a cross-functional group tasked with developing policies, guidelines, and best-practices for communication across the whole company.
         - slide:
               image: '/images/2019/slack.png'
-              description: Slack description
+              description: We worked closely with Marketing Operations and Information Services to develop requirements, research, test, and procure a Digital Asset Management solution to serve our rapidly growing Marketing and Sales organization.
 subscribe:
     pretitle: Want more?
     title: '#LikeAndSubscribe<3'
