@@ -415,7 +415,6 @@ section.hero {
 	position: relative;
 	padding-top: 0;
 	.heroGrid {
-		margin-top: 80px;
 		grid-template-rows: 70vh auto auto;
 		gap: 2rem;
 		.f2 {
@@ -449,7 +448,7 @@ section.hero {
 	section.hero {
 		.heroGrid {
 			grid-template-columns: 1fr 50% 1fr;
-			grid-template-rows: calc(100vh - 80px) auto;
+			grid-template-rows: 100vh auto;
 			gap: 4rem;
 			.keyArt {
 				grid-area: 1 / 2 / 2 / 3;

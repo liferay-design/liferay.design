@@ -3,29 +3,7 @@ import { Flex } from 'components/atoms'
 import styles from './styles.module.scss'
 
 export default class KeyArt extends Component {
-	constructor(props) {
-        super(props);
-
-        this.state = {
-			replay: false,
-        };
-
-        this.toggle = this.toggle.bind(this);
-    }
-
-    toggle() {
-        this.setState({replay: !this.state.replay})
-	}
-	
 	render() {
-		if (this.state.replay !== undefined) {
-			setTimeout(() => {
-				this.setState({
-				replay: false
-			  })
-			}, 1);
-		  }
-		let replayStyles = this.state.replay ? "replay" : ""
 		return (
 			<Flex
 				align="center"
@@ -37,7 +15,6 @@ export default class KeyArt extends Component {
 					fill="none"
 					viewBox="0 0 652 851"
 					xmlns="http://www.w3.org/2000/svg"
-					className={replayStyles}
 				>
 					<defs>
 						<pattern
@@ -215,19 +192,6 @@ export default class KeyArt extends Component {
 						/>
 					</g>
 				</svg>
-				<button onClick={this.toggle}>
-					<svg
-						viewBox="0 0 18 18"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M15.995 12.982l.866.5.012-.021.012-.022-.89-.457zM13.25 2.737l.5-.866-.5.866zm2.887 3l-.043.999.973.042.067-.972-.997-.07zm-1.008 6.745a6.5 6.5 0 0 1-8.879 2.38l-1 1.731a8.5 8.5 0 0 0 11.611-3.111l-1.732-1zm-8.879 2.38a6.5 6.5 0 0 1-2.38-8.88l-1.731-1A8.5 8.5 0 0 0 5.25 16.593l1-1.732zm-2.38-8.88a6.5 6.5 0 0 1 8.88-2.38l1-1.731A8.5 8.5 0 0 0 2.139 4.982l1.732 1zm8.88-2.38a6.465 6.465 0 0 1 2.502 2.6l1.77-.93A8.465 8.465 0 0 0 13.75 1.87l-1 1.732zm4.384 2.204l.364-5.237-1.996-.138-.363 5.237 1.995.138zm-.954-1.068l-5.07-.22-.086 1.999 5.07.219.086-1.998zm-.185 8.244a125.527 125.527 0 0 0 .89.456l.001-.002.002-.003.004-.008.01-.02a2.73 2.73 0 0 0 .106-.25c.06-.158.136-.38.209-.667.146-.574.283-1.403.283-2.488h-2c0 .915-.115 1.578-.222 1.994a4.027 4.027 0 0 1-.178.543l.001-.003.002-.004.001-.002.001-.002.89.456z"
-							fill="currentColor"
-						/>
-					</svg>{' '}
-					replay{' '}
-				</button>
 			</Flex>
 		)
 	}
