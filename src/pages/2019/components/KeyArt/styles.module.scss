@@ -134,6 +134,7 @@
 	0% {
 		transform: translate(-20%, -15%);
 		opacity: 1;
+		stroke-width: 16;
 	}
 	40% {
 		stroke-dashoffset: 0;
@@ -141,14 +142,17 @@
 	}
 	43% {
 		transform: translate(-20%, -15%);
+		stroke-width: 16;
 	}
 	60% {
 		opacity: 0;
 	}
 	80% {
 		opacity: 0;
+		stroke-width: 40;
 	}
 	100% {
+		stroke-width: 40;
 		transform: translate(0, 0);
 		stroke-dashoffset: 0;
 		opacity: 1;
