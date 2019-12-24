@@ -138,7 +138,7 @@ designCommunity:
               description: 'A number of us travelled to Riga for Europe’s premier Information Architecture & User Experience conference'
         - event:
               image: '/images/2019/logos/logo-figma.png'
-              title: Figma LA User \_ Group
+              title: Figma User Group
               city: 'Los Angeles'
               description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
     seeMore:
