@@ -170,40 +170,53 @@ dribbbleSection:
         url: https://dribbble.com/liferay
         title: Show us some ❤️ on Dribbble!
 designProjects:
-    pretitle: Projects
-    title: Get 'er Done
-    subtitle: Our blood, sweat, & tears. Our pride and joy. Where countless hours of deep thoughts, iterations upon iterations, and creative victories all come together.
+    pretitle: Project Stories
+    title: Sharing is Caring
+    subtitle: A huge part of our work is sharing what we've learned — taking time to reflect on the successes and miss-steps helps future us make better decisions.
     projects:
         - project:
-              image: '/images/headshots/pires-felipe.jpg'
-              title: 'App Builder'
-              designer: 'Felipe Pires'
-              description: 'App Builder is a brand new tool on Liferay DXP that allows business people to build a business application without any coding skills.'
+              image: '/images/headshots/francisco-marleny.jpg'
+              title: 'Liferay Events'
+              designer: 'Marleny Francisco & Rachel Yuan'
+              description: The Liferay Symposium in Spain was our biggest event ever — we learned a lot and are looking forward to making 2020's events even better!
+              link:
+                  title: Read the full post
+                  url: /articles/2019/6-things-we-learned-about-designing-for-a-conference/
         - project:
               image: '/images/headshots/hancock-abel.jpg'
               title: 'Landing Page Builder'
               designer: 'Abel Hancock'
               description: 'Enable our marketing team to self-service and build landing pages without designer or developer involvement.'
+              link:
+                  title: Read the full post
+                  url: /articles/2019/increasing-our-ability-to-convert-prospects/
         - project:
-              image: '/images/logos/liferay-analytics-cloud-icon.png'
+              image: '/images/headshots/jeong-chris.jpg'
               title: 'Analytics Cloud'
               designer: 'Chris Jeong & James Lyons'
               description: 'Released AB testing, Improved Segmentation, Site-wide Reporting, Improved Onboarding  and Individuals Dashboards.'
+              link:
+                  title: Read the full post
+                  url: /articles/2019/is-now-the-right-time-for-redesign/
         - project:
-              image: '/images/headshots/wood-jon.jpg'
-              title: 'Workflow Metrics'
-              designer: 'Jon Wood'
-              description: 'Workflow performance can now be measured and instances can be managed based on Service Level Agreements.'
+              image: '/images/headshots/valle-victor.jpg'
+              title: 'Lexicon'
+              designer: 'Victor Valle'
+              description: Working in Liferay's Design System isn't a cakewalk, but Victor managed it very well, he wrote a few things to share with the team.
+              link:
+                  title: Read the full post
+                  url: /articles/2019/lessons-learned-working-in-a-design-system/
         - project:
-              image: '/images/headshots/kim-david.jpg'
-              title: 'DXP 7.3: B2B Account Management'
-              designer: 'David Kim'
-              description: 'Designed an account management feature that natively supports business account entities to implement account-based experiences.'
-        - project:
-              image: '/images/headshots/vazquez-susana.jpg'
-              title: 'Segments Criteria Editor'
-              designer: 'Susana Vázquez'
-              description: 'Editor for defining User Segments based on user, organization and session properties through a drag and drop interface'
+              image: '/images/headshots/connolly-ryan.jpg'
+              title: 'Liferay Commerce'
+              designer: 'Ryan Connolly & Andrea Censei'
+              description: Our Commerce offering made huge strides in 2019 thanks in no small part to the tireless efforts of Ryan and Andrea.
+              link:
+                  title: Read the full post
+                  url: /articles/2019/interview-with-a-designer-b2-b-commerce/
+    seeMore:
+        title: Read all articles
+        url: '/articles'
 globalServices:
     pretitle: Design as a Service
     title: Consulting

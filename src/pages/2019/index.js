@@ -292,7 +292,12 @@ const TwentyNineteen = () => {
 
 			{/* DRIBBBLE */}
 			<section id="dribbble">
-				<Flex direction="column" align="center" justify="center" className={styles.dribbble}>
+				<Flex
+					direction="column"
+					align="center"
+					justify="center"
+					className={styles.dribbble}
+				>
 					<Content
 						pretitle={data.dribbbleSection.pretitle}
 						title={data.dribbbleSection.title}
@@ -327,12 +332,23 @@ const TwentyNineteen = () => {
 				<div className={styles.cardGrid}>
 					{data.designProjects.projects.map(({ project }) => (
 						<SimpleCard
+							avatarImage
 							image={project.image}
 							title={project.title}
 							subtitle={project.designer}
 							description={project.description}
+							link={project.link.title}
+							url={project.link.url}
 						/>
 					))}
+					<Flex justify="center" align="center" className={styles.seeMoreCard}>
+						<Link
+							to={data.designProjects.seeMore.url}
+							className={styles.link}
+						>
+							{data.designProjects.seeMore.title}
+						</Link>
+					</Flex>
 				</div>
 			</section>
 

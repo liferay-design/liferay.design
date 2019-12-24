@@ -1,22 +1,37 @@
 import { withPrefix } from 'gatsby'
-import { Flex, Heading } from 'components/atoms'
+import { Flex, Heading, Link } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from '../../styles.module.scss'
+import { Avatar } from 'react-md'
 
 
-const SimpleCard = ({ image, title, subtitle, description }) => {
+const SimpleCard = ({ image, title, subtitle, description, link, url, avatarImage }) => {
 	return (
-        <Flex 
-            direction="column"
-            justify="center"
-            align="center"
-            className={styles.simpleCard}>
-                <img src={`${withPrefix(`${image}`)}`} className={styles.cardImage} />
-                <Heading level="3" className={styles.f3}>{title}</Heading>
-                <span className={styles.pSmall}>{subtitle}</span>
-                <p className={styles.p}>{description}</p>
-        </Flex>
+		<Flex
+			direction="column"
+			justify="flex-start"
+			align="center"
+			className={styles.simpleCard}
+		>
+			{avatarImage ? (
+				<Avatar
+					className={styles.avatar}
+					alt={subtitle}
+					src={withPrefix(`${image}`)}
+				/>
+			) : (
+				<img src={`${withPrefix(`${image}`)}`} className={styles.cardImage} />
+			)}
+			<Heading level="3" className={styles.f3}>
+				{title}
+			</Heading>
+			<span className={styles.pSmall}>{subtitle}</span>
+			<div className={styles.p}>
+				{description}
+				{link ? <Link className={styles.link} to={url}>{link}</Link> : null}
+			</div>
+		</Flex>
 	)
 }
 
