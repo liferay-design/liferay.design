@@ -25,8 +25,8 @@ const PlxUp1 = [
 		duration: '200vh',
 		properties: [
 			{
-				startValue: 50,
-				endValue: -50,
+				startValue: 100,
+				endValue: -80,
 				property: 'translateY',
 			},
 		],
@@ -54,7 +54,7 @@ const PlxUp3 = [
 		properties: [
 			{
 				startValue: 150,
-				endValue: -150,
+				endValue: -100,
 				property: 'translateY',
 			},
 		],
@@ -438,20 +438,9 @@ const TwentyNineteen = () => {
 				</div>
 			</section>
 			<section id="thankyou" className={styles.thankyou}>
-				<h2 className={styles.f1}>Thank you for a great year</h2>
-				<p className={styles.pLarge}>From el Director</p>
-				<p className={styles.p}>
-					This has been an incredible year of opportunity and growth for the
-					User Experience Department at Liferay. It&nbsp;has been a pleasure to
-					see our design culture evolve this year.
-				</p>
-				<p className={styles.p}>
-					I want to applaud the efforts of the entire team and thank everyone at
-					Liferay for helping us grow, get better and spread design-thinking at
-					this company. We’re excited to do even more next year.
-				</p>
-				<p className={styles.p}>Thank you all.</p>
-
+				<h2 className={styles.f1}>{data.thankYou.title}</h2>
+				<p className={styles.pLarge}>{data.thankYou.subtitle}</p>
+				<p className={styles.p}>{data.thankYou.message}</p>
 				<Plx parallaxData={PlxUp2} className={styles.p}>
 					Juan Hidalgo
 					<Plx
