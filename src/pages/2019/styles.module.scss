@@ -296,7 +296,7 @@ section.hero {
 	position: relative;
 	text-align: center;
 	.organizationContent {
-		padding: 40px;
+		padding: $spacingBase * 2;
 		svg {
 			min-width: 116px;
 			min-height: 116px;
@@ -593,10 +593,10 @@ section.hero {
 		display: grid;
 		grid-auto-flow: column;
 		grid-auto-columns: 60vw;
-		column-gap: 20px;
-		row-gap: 20px;
+		column-gap: $spacingBase;
+		row-gap: $spacingBase * 1.1;
 		width: 100vw;
-		padding: 80px 20px;
+		padding: $spacingMedium 0;
 		overflow: scroll;
 	}
 }
@@ -695,7 +695,6 @@ section.hero {
 		padding: 120px 40px;
 	}
 }
-
 
 // THANK YOU
 .thankyou {
