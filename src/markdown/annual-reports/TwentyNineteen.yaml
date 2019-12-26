@@ -236,7 +236,10 @@ opsSection:
               image: '/images/2019/slack.png'
               description: Liferay went all-in on Slack in 2019, rolling it out globally to all employees. Our Design Ops team was part of a cross-functional group tasked with developing policies, guidelines, and best-practices for communication across the whole company.
         - slide:
-              image: '/images/2019/slack.png'
+              image: '/images/2019/easil.png'
+              description: We needed to put more power in the hands of marketers to do their business on social media when it happens in their time zones, while maintaining a level of brand consistency.
+        - slide:
+              image: '/images/2019/dam.png'
               description: We worked closely with Marketing Operations and Information Services to develop requirements, research, test, and procure a Digital Asset Management solution to serve our rapidly growing Marketing and Sales organization.
 subscribe:
     pretitle: Want more?
