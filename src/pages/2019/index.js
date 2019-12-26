@@ -438,9 +438,12 @@ const TwentyNineteen = () => {
 				</div>
 			</section>
 			<section id="thankyou" className={styles.thankyou}>
-				<h2 className={styles.f1}>{data.thankYou.title}</h2>
-				<p className={styles.pLarge}>{data.thankYou.subtitle}</p>
-				<p className={styles.p}>{data.thankYou.message}</p>
+				<Content 
+					pretitle={data.thankYou.subtitle}
+					title={data.thankYou.title}
+					copy={data.thankYou.message}
+					align="left"
+				/>
 				<Plx parallaxData={PlxUp2} className={styles.p}>
 					Juan Hidalgo
 					<Plx
