@@ -241,6 +241,15 @@ opsSection:
         - slide:
               image: '/images/2019/dam.png'
               description: We worked closely with Marketing Operations and Information Services to develop requirements, research, test, and procure a Digital Asset Management solution to serve our rapidly growing Marketing and Sales organization.
+thankYou:
+    title: Thank you for a great year
+    subtitle: From el Director
+    message:
+        Design at Liferay is maturing and growing at an amazing rate. From Communication, to Product, to Research — all of our departments are finding new ways to contribute to the bottom line.
+
+        We have lofty goals for 2020 and I'm very excited to see us continue to scale and serve each other, our various business units, and our local and global communities.
+
+        Thank you all.
 subscribe:
     pretitle: Want more?
     title: '#LikeAndSubscribe<3'
