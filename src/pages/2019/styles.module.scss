@@ -695,3 +695,52 @@ section.hero {
 		padding: 120px 40px;
 	}
 }
+
+
+// THANK YOU
+.thankyou {
+	width: 100vw;
+	padding: 10vw;
+	margin: auto;
+	max-width: calc(80rem + 20vw - 2rem);
+	font-size: 20px;
+	.f1 {
+	}
+	.pLarge {
+		color: $grayParagraph;
+	}
+	.p {
+		color: $white;
+		opacity: 0.6;
+		width: 40vw;
+		font-weight: $fontWeightRegular;
+	}
+	div.p {
+		color: $white;
+		position: relative;
+		padding: 2vw 0;
+		padding-left: 6vw;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		width: 20vw;
+		font-weight: $fontWeightHeavy;
+		opacity: 1;
+		font-size: 20px;
+		.headshot {
+			position: absolute;
+			top: -2vw;
+			left: 0;
+			height: 4vw;
+			width: 4vw;
+			border-radius: 50%;
+		}
+		.signature {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 15vw;
+			opacity: 0.06;
+		}
+	}
+}
