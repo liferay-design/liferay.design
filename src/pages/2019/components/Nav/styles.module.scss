@@ -9,9 +9,7 @@
 
 // Desicon
 .desicon {
-	position: fixed;
-	top: $spacingBase;
-	left: $spacingBase - 0.5rem;
+	display: none;
 }
 
 // ANCHOR LINKS
@@ -165,6 +163,13 @@
 }
 
 @include for-tablet-portrait-up {
+	.desicon {
+		display: initial;
+		position: fixed;
+		top: $spacingBase;
+		left: $spacingBase - 0.5rem;
+	}
+
 	.linkWrapper > a {
 		animation: animateIn 1s ease-in-out forwards;
 		opacity: 0;
