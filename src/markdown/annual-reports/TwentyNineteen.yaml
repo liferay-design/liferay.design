@@ -23,7 +23,7 @@ departmentSection:
 timelineSection:
     pretitle: Milestones
     title: New Faces & Birthrays
-    subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience. We’ve hired 3 new designers and had 11 birthRays.
+    subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience. 
     designers:
         - designer:
               url: wood-jon
