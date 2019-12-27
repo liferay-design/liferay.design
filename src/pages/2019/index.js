@@ -8,9 +8,11 @@ import { Footer } from 'components/organisms'
 import Plx from 'react-plx'
 import { Grid } from 'reakit'
 import moment from 'moment'
+import MediaQuery from 'react-responsive'
 
 import { SimpleCard, Nav, Designer, KeyArt, Content, Carousel, CarouselSlide } from 'pages/2019/components/_index'
 import styles from './styles.module.scss'
+import { sizes } from 'theme'
 import data from 'markdown/annual-reports/TwentyNineteen.yaml'
 
 const PlxUp1 = [
@@ -77,7 +79,9 @@ const TwentyNineteen = () => {
 
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
 			<ScrollProgress />
-			<ScrollArrow />
+			<MediaQuery minWidth={sizes.medium}>
+				<ScrollArrow />
+			</MediaQuery>
 
 			{/* ----------- ANCHOR LINKS ---------- */}
 			<Nav />
