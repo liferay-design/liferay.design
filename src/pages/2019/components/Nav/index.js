@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import { Icon, Link } from 'components/atoms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
-import { colors } from 'theme/'
+import { colors, spacing } from 'theme/'
 
 const top = [
 	{
@@ -183,25 +184,7 @@ const ops = [
 		],
 	},
 ]
-const subscribe = [
-	{
-		start: '#subscribe',
-		duration: 100,
-		startOffset: '25vh',
-		properties: [
-			{
-				startValue: colors.neutral4,
-				endValue: colors.primary,
-				property: 'backgroundColor',
-			},
-			{
-				startValue: 1,
-				endValue: 2.5,
-				property: 'scale',
-			},
-		],
-	}
-]
+
 export default class Nav extends Component {
 	constructor(props) {
         super(props);
@@ -232,58 +215,63 @@ export default class Nav extends Component {
 
 	render() {
 		return (
-			<Plx id="nav" className={`${styles.anchorLinks} ${this.state.navOpen ? "navOpen" : ""}`} >
-				<button className={styles.menuButton} onClick={this.toggle}>
-					<span>Menu</span>
-				</button>
-				<div className={styles.linkWrapper} >
-					<AnchorLink offset="80" href="#top">
-						<Plx
-							parallaxData={top}
-							className={styles.anchorBlock}
-						/>
-						<div className={styles.anchorText}>
-							2019
-						</div>
-					</AnchorLink>
-					<AnchorLink offset="100" href="#department">
-						<Plx
-							parallaxData={team}
-							className={styles.anchorBlock}
-						/>
-						<div className={styles.anchorText}>
-							Design
-						</div>
-					</AnchorLink>
-					<AnchorLink href="#initiatives">
-						<Plx
-							parallaxData={initiatives}
-							className={styles.anchorBlock}
-						/>
-						<div className={styles.anchorText}>
-							Initiatives
-						</div>
-					</AnchorLink>
-					<AnchorLink offset="200" href="#projects">
-						<Plx
-							parallaxData={projects}
-							className={styles.anchorBlock}
-						/>
-						<div className={styles.anchorText}>
-							Projects
-						</div>
-					</AnchorLink>
-					<AnchorLink href="#ops">
-						<Plx
-							parallaxData={ops}
-							className={styles.anchorBlock}
-						/>
-						<div className={styles.anchorText}>
-							Ops
-						</div>
-					</AnchorLink>
-				</div>
-			</Plx>
+			<div>
+				<Link to="/">	
+					<Icon fill="dark" name="liferayDesicon" width={spacing.base} className={styles.desicon} />
+				</Link>
+				<Plx id="nav" className={`${styles.anchorLinks} ${this.state.navOpen ? "navOpen" : ""}`} >
+					<button className={styles.menuButton} onClick={this.toggle}>
+						<span>Menu</span>
+					</button>
+					<div className={styles.linkWrapper} >
+						<AnchorLink offset="80" href="#top">
+							<Plx
+								parallaxData={top}
+								className={styles.anchorBlock}
+							/>
+							<div className={styles.anchorText}>
+								2019
+							</div>
+						</AnchorLink>
+						<AnchorLink offset="100" href="#department">
+							<Plx
+								parallaxData={team}
+								className={styles.anchorBlock}
+							/>
+							<div className={styles.anchorText}>
+								Design
+							</div>
+						</AnchorLink>
+						<AnchorLink href="#initiatives">
+							<Plx
+								parallaxData={initiatives}
+								className={styles.anchorBlock}
+							/>
+							<div className={styles.anchorText}>
+								Initiatives
+							</div>
+						</AnchorLink>
+						<AnchorLink offset="200" href="#projects">
+							<Plx
+								parallaxData={projects}
+								className={styles.anchorBlock}
+							/>
+							<div className={styles.anchorText}>
+								Projects
+							</div>
+						</AnchorLink>
+						<AnchorLink href="#ops">
+							<Plx
+								parallaxData={ops}
+								className={styles.anchorBlock}
+							/>
+							<div className={styles.anchorText}>
+								Ops
+							</div>
+						</AnchorLink>
+					</div>
+				</Plx>
+			</div>
 		)
 	}
 }

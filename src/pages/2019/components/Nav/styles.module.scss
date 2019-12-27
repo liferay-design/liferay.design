@@ -7,6 +7,13 @@
 	}
 }
 
+// Desicon
+.desicon {
+	position: fixed;
+	top: $spacingBase;
+	left: $spacingBase - 0.5rem;
+}
+
 // ANCHOR LINKS
 .anchorLinks {
 	position: fixed;
@@ -164,7 +171,7 @@
 		left: -$spacingMedium;
 	}
 	.anchorLinks {
-		left: 22px;
+		left: $spacingBase - 0.625rem;
 		right: unset;
 		top: 50vh;
 		.menuButton {
