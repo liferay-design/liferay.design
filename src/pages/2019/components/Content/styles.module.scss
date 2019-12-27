@@ -15,6 +15,7 @@
 	font-weight: $fontWeightBlack;
 	line-height: 120%;
 	font-size: 11vw;
+	margin-left: -0.16ch;
 	@include for-tablet-landscape-up {
 		font-size: 4.37vw; //70px
 	}
