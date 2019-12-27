@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 import { Grid } from 'reakit'
 import { useMediaQuery} from 'react-responsive'
 import MediaQuery from 'react-responsive'
-import {sizes} from 'theme'
+import {sizes, colors} from 'theme'
 
 const SideTab = ({ image, cta, ctaUrl, innerCta, subtitle }) => {
 	const gridTemplate = `"link banner" auto / 8rem 1fr`
@@ -38,7 +38,7 @@ const SideTab = ({ image, cta, ctaUrl, innerCta, subtitle }) => {
 						subtitle={subtitle}
 						cta={innerCta}
 						ctaUrl={ctaUrl}
-						background="white"
+						background={colors.main}
 						style={{ maxWidth: '34ch' }}
 					/>
 				</MediaQuery>

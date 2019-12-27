@@ -92,10 +92,11 @@
 		&:hover {
 			transform: translateX(-435px);
 			transition: all 0.4s ease-in-out;
-			.imageWrapper {
-				transform: scaleX(-1);
-				transition: all 0.4s ease-in-out;
-			}
+			// disable image flip for the 2019 report
+			// .imageWrapper {
+			// 	transform: scaleX(-1);
+			// 	transition: all 0.4s ease-in-out;
+			// }
 		}
 	}
 }
