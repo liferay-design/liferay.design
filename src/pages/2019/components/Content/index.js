@@ -14,7 +14,6 @@ const Content = ({ pretitle, title, copy, align, justify }) => {
 			{copy && copy.split("\n\n").map((paragraph, i) => (
 				<Text type="p" key={i} align={align} size="medium" className={styles.p}>{paragraph}</Text>
                 ))}
-            {/* <Text align={align} size="medium" className={styles.p}>{copy}</Text> */}
 		</Flex>
 	)
 }

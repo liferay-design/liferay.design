@@ -1,5 +1,4 @@
-design: Design
-report: Report
+title: Design Report
 subtitle: Our second annual report shares highlights about our organization, the work we've done for customers, our local communities, and the design community at large.
 departmentSection:
     pretitle: Department
@@ -17,7 +16,7 @@ departmentSection:
               subtitle: Interaction Design
         - subDepartment:
               title: Communication Design
-              subtitle: Brand Consist
+              subtitle: Brand Excellence
         - subDepartment:
               title: Design Research
               subtitle: User Testing

@@ -88,8 +88,9 @@ const TwentyNineteen = () => {
 						<KeyArt />
 					</div>
 					<Heading level="1" className={styles.f2}>
-						<span>{data.design}</span>
-						<span>{data.report}</span>
+						{data.title.split(' ').map((title, i) => (<span key={i}
+							className={styles.firstWhite}>{title}
+						</span>))}
 					</Heading>
 					<p className={styles.pLarge}>{data.subtitle}</p>
 				</Grid>
@@ -138,7 +139,11 @@ const TwentyNineteen = () => {
 							({ subDepartment }) => (
 								<Flex direction="column" align="center" justify="center">
 									<Heading level="3" className={styles.f4}>
-										{subDepartment.title}
+										{subDepartment.title
+											.split(' ')
+											.map((title, i) => (
+												<span className={styles.firstWhite} key={i}>{title}</span>
+											))}
 									</Heading>
 									<span className={styles.pSmall}>
 										{subDepartment.subtitle}
@@ -432,7 +437,7 @@ const TwentyNineteen = () => {
 				</div>
 			</section>
 			<section id="thankyou" className={styles.thankyou}>
-				<Content 
+				<Content
 					pretitle={data.thankYou.subtitle}
 					title={data.thankYou.title}
 					copy={data.thankYou.message}
