@@ -401,6 +401,26 @@ section.hero {
 				left: 65px;
 			}
 		}
+		&::before {
+			content: '';
+			background: linear-gradient($darkBlack, rgba(0, 0, 0, 0));
+			width: 50%;
+			height: 6rem;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+		&::after {
+			content: '';
+			background: linear-gradient(rgba(0, 0, 0, 0), $darkBlack);
+			width: 50%;
+			height: 6rem;
+			position: absolute;
+			bottom: -5rem;
+			left: 0;
+			z-index: 1;
+		}
 	}
 }
 //GROWTH

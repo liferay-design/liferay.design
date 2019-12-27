@@ -182,7 +182,7 @@ const TwentyNineteen = () => {
 									x1="0.5"
 									y1="0"
 									x2="0.5"
-									y2="100%"
+									y2="99%"
 									stroke="#006DE7"
 									stroke-linejoin="round"
 									stroke-dasharray="1 10"
