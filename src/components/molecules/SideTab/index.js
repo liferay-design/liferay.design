@@ -8,7 +8,7 @@ import { useMediaQuery} from 'react-responsive'
 import MediaQuery from 'react-responsive'
 import {sizes} from 'theme'
 
-const SideTab = ({ image, cta, ctaUrl }) => {
+const SideTab = ({ image, cta, ctaUrl, innerCta, subtitle }) => {
 	const gridTemplate = `"link banner" auto / 8rem 1fr`
 	const gridTemplateSmall = `"link banner" auto / 5rem 1fr`
 
@@ -34,9 +34,9 @@ const SideTab = ({ image, cta, ctaUrl }) => {
 				</Link>
 				<MediaQuery minWidth={sizes.large}>
 					<BillboardAlt
-						heading="We're Hiring!"
-						subtitle="Read the job descriptions and apply to be a part of the team."
-						cta="See Openings"
+						heading={cta}
+						subtitle={subtitle}
+						cta={innerCta}
 						ctaUrl={ctaUrl}
 						background="white"
 						style={{ maxWidth: '34ch' }}

@@ -15,7 +15,13 @@ const HeroBanner = () => (
 			designers.
 		</Text>
 		<MediaQuery minWidth={sizes.medium}>
-			<SideTab cta="We're&nbsp;Hiring" ctaUrl="/careers" image="/images/components/pj-thumb.jpg" />
+			<SideTab
+				cta="We're&nbsp;Hiring"
+				ctaUrl="/careers"
+				image="/images/components/pj-thumb.jpg"
+				innerCta="See Openings"
+				subtitle="Read the job descriptions and apply to be a part of the team."
+			/>
 		</MediaQuery>
 	</Flex>
 )
