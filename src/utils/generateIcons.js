@@ -30,6 +30,7 @@ async function convertSvgsIntoReactComponents() {
 			.replace(`import React from 'react'`, '')
 			.replace(/\n/g, ' ')
 			.replace(/\t/g, '')
+			.replace(/;/g, '')
 			.replace(/  /g, ' ')
 
 		svgComponentMap[svgName] = svgWithoutImportOrExport
