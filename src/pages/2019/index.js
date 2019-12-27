@@ -1,23 +1,17 @@
-import {
-	Flex,
-	Image,
-	Link,
-	Heading,
-	Text,
-	Icon,
-	ScrollProgress,
-	ScrollArrow,
-} from 'components/atoms'
-import { Footer } from 'components/organisms'
-import { SimpleCard, Nav, Designer, KeyArt, Content, Carousel, CarouselSlide } from 'pages/2019/components/_index'
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Plx from 'react-plx'
-import styles from './styles.module.scss'
+
+import { Flex, Link, Heading, Icon, ScrollProgress,	ScrollArrow } from 'components/atoms'
 import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
-import data from 'markdown/annual-reports/TwentyNineteen.yaml'
+import { Footer } from 'components/organisms'
+
+import Plx from 'react-plx'
 import { Grid } from 'reakit'
 import moment from 'moment'
+
+import { SimpleCard, Nav, Designer, KeyArt, Content, Carousel, CarouselSlide } from 'pages/2019/components/_index'
+import styles from './styles.module.scss'
+import data from 'markdown/annual-reports/TwentyNineteen.yaml'
 
 const PlxUp1 = [
 	{
