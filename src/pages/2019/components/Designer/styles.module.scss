@@ -1,10 +1,5 @@
 @import '~theme/variables';
-// COLORS
-$darkBlack: #1B1C1E;
-$lightBlack: #1F2123;
-$grayHeader: #555E68;
-$grayParagraph: #888B9B;
-$twentyNineteenBlue: #006DE7;
+@import '../../styles.module.scss';
 
 .hired {
 	position: relative;
@@ -12,27 +7,6 @@ $twentyNineteenBlue: #006DE7;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	/*.birthRay {
-		position: relative;
-		display: flex;
-		justify-content: center;
-		margin: 4vw 0;
-		width: 11vw;
-		font-weight: $fontWeightRegular;
-		.month {
-			color: $white;
-			opacity: 0.6;
-			display: inline;
-			padding-right: 0.2em;
-			font-size: 2.2vw;
-		}
-		.day {
-			color: $white;
-			opacity: 0.2;
-			display: inline;
-			font-size: 2.2vw;
-		}
-	}*/
 	.date,
 	.birthRay {
 		position: relative;
@@ -66,8 +40,8 @@ $twentyNineteenBlue: #006DE7;
 	}
 
 	.designerHeadshot {
-		width: 1vw;
-		height: 1vw;
+		width: $spacingXSmall;
+		height: $spacingXSmall;
 		border-radius: 50%;
 		margin: 0 8vw;
 		border: 0.5vw solid #006de7;
