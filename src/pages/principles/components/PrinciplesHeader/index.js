@@ -6,7 +6,7 @@ const PrinciplesHeader = () => {
 	return (
 		<div className={styles.circleHeader}>
 			<Link to="/resources">
-				<Icon className={styles.headerBadge} name="liferayDesicon" width="4rem" />
+				<Icon className={styles.headerBadge} fill="white" name="liferayDesicon" width="4rem" />
 			</Link>
 			<div className={styles.headerText}>
 				{/* is this necessary? we have the waffle above <h4>Liferay</h4> */}
