@@ -1,6 +1,12 @@
 @import '~theme/variables';
 @import '../../styles.module.scss';
 
+@mixin for-small-desktop {
+	@media screen and (max-width: 1360px) and (min-width: 600px) {
+		@content;
+	}
+}
+
 // ANCHOR LINKS
 .anchorLinks {
 	position: fixed;
@@ -183,7 +189,9 @@
 					color: $grayParagraph;
 					padding: ($spacingSmall / 4) $spacingSmall ($spacingSmall / 4)
 						($spacingSmall + $spacingXSmall);
-					// opacity: 0;
+					@include for-small-desktop() {
+						opacity: 0;
+					}
 					&:before {
 						left: 12px;
 						right: unset;
@@ -206,6 +214,12 @@
 			&:hover a .anchorText,
 			&:focus-within a .anchorText {
 				opacity: 1;
+			}
+			@include for-small-desktop {
+				&:hover {
+					background: rgba($darkBlack, 0.8);
+					box-shadow: 0 0 8rem 8rem rgba($darkBlack, 0.8);
+				}
 			}
 		}
 	}

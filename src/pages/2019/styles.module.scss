@@ -19,7 +19,7 @@ $twentyNineteenBlue: $primary;
 $breakpoint-for-phone-only: 599px;
 $breakpoint-for-tablet-portrait-up: 600px;
 $breakpoint-for-tablet-landscape-up: 900px;
-$breakpoint-for-desktop-up: 1200px;
+$breakpoint-for-desktop-up: 1400px;
 $breakpoint-for-large-desktop-up: 1800px;
 
 @mixin for-phone-only {
@@ -204,6 +204,9 @@ $breakpoint-for-large-desktop-up: 1800px;
 		padding: $spacingXLarge 20px;
 		@include for-tablet-portrait-up {
 			padding: $spacingXLarge 96px;
+		}
+		@media screen and (max-width: 1500px) {
+			max-width: $screenLarge;
 		}
 	}
 }
