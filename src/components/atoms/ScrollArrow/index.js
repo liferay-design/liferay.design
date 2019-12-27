@@ -45,7 +45,7 @@ export default class ScrollArrow extends Component {
         render() {
             var onClick = function() {
                 window.scroll({
-                    top: window.innerHeight,
+                    top: `${ window.scrollY < 800 ? window.innerHeight : 0}`,
                     left: 0,
                     behavior: 'smooth',
                 })
