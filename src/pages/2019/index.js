@@ -437,27 +437,30 @@ const TwentyNineteen = () => {
 				</div>
 			</section>
 			<section id="thankyou" className={styles.thankyou}>
-				<Content
-					pretitle={data.thankYou.subtitle}
-					title={data.thankYou.title}
-					copy={data.thankYou.message}
-					align="left"
-				/>
-				<Plx parallaxData={PlxUp2} className={styles.p}>
-					Juan Hidalgo
-					<Plx
-						parallaxData={PlxUp3}
-						tagName="img"
-						src="/images/2018/jh-signature.svg"
-						className={styles.signature}
+				<div>
+					<Content
+						pretitle={data.thankYou.subtitle}
+						title={data.thankYou.title}
+						copy={data.thankYou.message}
+						align="left"
 					/>
-					<Plx
-						parallaxData={PlxUp1}
-						tagName="img"
-						src="/images/headshots/small/hidalgo-juan.jpg"
-						className={styles.headshot}
-					/>
-				</Plx>
+					<Plx className={styles.p}>
+						Juan Hidalgo
+						<Plx
+							//parallaxData={PlxUp2}
+							tagName="img"
+							src="/images/2018/jh-signature.svg"
+							className={styles.signature}
+						/>
+						<Plx
+							//parallaxData={PlxUp2}
+							tagName="img"
+							src="/images/headshots/small/hidalgo-juan.jpg"
+							className={styles.headshot}
+						/>
+					</Plx>
+				</div>
+				
 			</section>
 
 			{/* ---------- SUBSCRIBE ----------- */}
