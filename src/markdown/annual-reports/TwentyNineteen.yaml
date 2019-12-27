@@ -4,12 +4,13 @@ subtitle: Our second annual report shares highlights about our organization, the
 departmentSection:
     pretitle: Department
     title: Organization
-    content:
+    content: |
         While we recognize that there are differences in each team’s skills, there are also similarities in what makes a “designer” of any profession, a designer. As a department, we want to steward and attract designers that add to Liferay’s culture.
+
         The Design Department is comprised of three teams; Communication, Product, and Research. Each of those teams determines the skills required to be a designer on that team. These skills should be relevant to the market and also reflect the ways in which we’re adding value to the company.
     desicon:
         title: Our Desicon
-        subtitle: '"Design" + "Icon" — get it?'
+        subtitle: Design + Icon — get it?
     subDepartments:
         - subDepartment:
               title: Product Design
@@ -77,7 +78,7 @@ careerSection:
 givingSection:
     pretitle: Giving Back
     title: Underground Writing
-    subtitle:
+    subtitle: |
         This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy.
 
         Liferay designers spent some time at the end of the year to give Underground Writing a top to down make-over. This included a brand new website, completely revamped tech stack, and service design optimizations.
@@ -244,7 +245,7 @@ opsSection:
 thankYou:
     title: Thank you for a great year
     subtitle: From el Director
-    message:
+    message: |
         Design at Liferay is maturing and growing at an amazing rate. From Communication, to Product, to Research — all of our departments are finding new ways to contribute to the bottom line.
 
         We have lofty goals for 2020 and I'm very excited to see us continue to scale and serve each other, our various business units, and our local and global communities.
