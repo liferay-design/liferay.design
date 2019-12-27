@@ -746,11 +746,11 @@ section.hero {
 		color: $white;
 		position: relative;
 		padding: 2vw 0;
-		padding-left: 6vw;
+		padding-left: 74px;
 		display: flex;
 		justify-content: left;
 		align-items: center;
-		width: 20vw;
+		width: 220px;
 		font-weight: $fontWeightHeavy;
 		opacity: 1;
 		font-size: 20px;
@@ -758,15 +758,15 @@ section.hero {
 			position: absolute;
 			top: 1vw;
 			left: 0;
-			height: 4vw;
-			width: 4vw;
+			height: 50px;
+			width: 50px;
 			border-radius: 50%;
 		}
 		.signature {
 			position: absolute;
 			top: 4vw;
 			left: 0;
-			width: 15vw;
+			width: 220px;
 			opacity: 0.06;
 		}
 	}
