@@ -29,22 +29,39 @@ const scrollArrow = [
 ]
 
 export default class ScrollArrow extends Component {
-	render() {
-        var onClick = function() {
-            window.scroll({
-                top: window.innerHeight,
-                left: 0,
-            behavior: 'smooth'});
-          }.bind(this);
-		return (
-            <Plx
-                parallaxData={scrollArrow}
-                className={styles.scrollArrow}
-                tagName="button"
-                onClick={onClick}>
-                    <div>scroll</div>
-                    <Icon name="scrollArrow" />
-            </Plx>
-		)
-	}
-}
+        state = {
+        	isTop: true,
+        }
+
+        componentDidMount() {
+        	document.addEventListener('scroll', () => {
+        		const isTop = window.scrollY < 800
+        		if (isTop !== this.state.isTop) {
+        			this.setState({ isTop })
+        		}
+        	})
+        }
+
+        render() {
+            var onClick = function() {
+                window.scroll({
+                    top: window.innerHeight,
+                    left: 0,
+                    behavior: 'smooth',
+                })
+            }.bind(this)
+            return (
+				<Plx
+					parallaxData={scrollArrow}
+					className={`${styles.scrollArrow} ${
+						this.state.isTop ? null : styles.up
+					}`}
+					tagName="button"
+					onClick={onClick}
+				>
+					<div>scroll</div>
+					<Icon name="scrollArrow" />
+				</Plx>
+			)
+        }
+    }
