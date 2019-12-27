@@ -5,7 +5,7 @@
 	@include small-caps;
 	line-height: 150%;
 	letter-spacing: 0.5em;
-	margin-bottom: 0.6em;
+	margin-bottom: 0.2em;
 	@include for-tablet-landscape-up {
 		font-size: $fontSizeMedium !important;
 	}
