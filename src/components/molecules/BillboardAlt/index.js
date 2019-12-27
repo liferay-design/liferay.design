@@ -5,22 +5,33 @@ import styles from './styles.module.scss'
 
 const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => {
 	return (
-		<div className={styles.wrapper} style={{background:`${background}`}}>
+		<div className={styles.wrapper} style={{ background: `${background}` }}>
 			<Container>
 				<Flex className={styles.container}>
-					{image ? <Flex className={styles.image} backgroundImage={image} /> : null }
+					{image ? (
+						<Flex className={styles.image} backgroundImage={image} />
+					) : null}
 					<Flex
 						className={styles.text}
 						direction="column"
 						align="flex-start"
 						justify="space-between"
 					>
-						<Heading className={styles.headline} level={2}>
+						<Heading
+							color={background == 'colors.white' ? 'black' : 'white'}
+							className={styles.headline}
+							level={2}
+						>
 							{heading}
 						</Heading>
-						<Text margin="xxLarge">{subtitle}</Text>
+						<Text
+							color={background == 'colors.white' ? 'black' : 'white'}
+							margin="xxLarge"
+						>
+							{subtitle}
+						</Text>
 						<Button
-							renderAs='a'
+							renderAs="a"
 							to={ctaUrl}
 							size="medium"
 							weight="heavy"
