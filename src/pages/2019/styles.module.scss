@@ -406,7 +406,7 @@ section.hero {
 		}
 		&::before {
 			content: '';
-			background: linear-gradient($darkBlack, rgba(0, 0, 0, 0));
+			background: linear-gradient($darkBlack, rgba($darkBlack, 0));
 			width: 50%;
 			height: 6rem;
 			position: absolute;
@@ -416,7 +416,7 @@ section.hero {
 		}
 		&::after {
 			content: '';
-			background: linear-gradient(rgba(0, 0, 0, 0), $darkBlack);
+			background: linear-gradient(rgba($darkBlack, 0), $darkBlack);
 			width: 50%;
 			height: 6rem;
 			position: absolute;
@@ -563,6 +563,7 @@ section.hero {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 	div {
 		text-align: center;
 	}
@@ -573,6 +574,7 @@ section.hero {
 		row-gap: 16px;
 		padding-top: 80px;
 		position: relative;
+		margin-bottom: -$spacingMedium * 2;
 		img {
 			width: 100%;
 			border: 8px solid $lightBlack;
@@ -586,16 +588,16 @@ section.hero {
 			position: absolute;
 			left: 0;
 			right: 0;
-			bottom: 0;
+			bottom: $spacingMedium * 2;
 			height: 40%;
-			background: linear-gradient(180deg, rgba(27, 28, 30, 0) 20%, $darkBlack 100%);
+			background: linear-gradient(180deg, rgba($darkBlack, 0) 20%, $darkBlack 100%);
 			z-index: 1;
 		}
 	}
 }
 @include for-tablet-landscape-up {
 	.dbp {
-		padding: 120px 40px;
+		padding: $spacingLarge $spacingMedium 0;
 		.dbpGrid {
 			grid-template-columns: 1fr 1fr 1fr 1fr;
 			img:nth-of-type(odd) {
@@ -703,7 +705,7 @@ section.hero {
 }
 @include for-tablet-landscape-up {
 	.dribbble {
-		padding: 120px 40px;
+		padding: $spacingLarge $spacingMedium;
 	}
 }
 
@@ -715,7 +717,7 @@ section.hero {
 
 @include for-tablet-landscape-up {
 	.ops {
-		padding: 120px 40px;
+		padding: $spacingLarge $spacingMedium;
 	}
 }
 
