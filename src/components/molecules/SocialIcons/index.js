@@ -39,6 +39,14 @@ const SocialIcons = () => {
 			>
 				<Icon name="twitter" />
 			</Link>
+
+			<Link
+				aria-label="Liferay.Design on youtube"
+				to="https://www.youtube.com/playlist?list=PLFNUy_HrVhPsBRvotF2sj2sBaTXlIlNgm"
+			>
+				<Icon name="youtube" />
+			</Link>
+			
 		</Flex>
 	)
 }
