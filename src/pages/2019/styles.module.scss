@@ -209,6 +209,10 @@ $breakpoint-for-large-desktop-up: 1800px;
 			max-width: $screenLarge;
 		}
 	}
+	.firstWhite:nth-child(1) {
+		font-weight: $fontWeightBlack;
+		color: $white !important;
+	}
 }
 
 // HERO
@@ -223,10 +227,10 @@ section.hero {
 		.f2 {
 			font-weight: $fontWeightBlack;
 			text-align: center;
+			color: $grayHeader;
 			span {
 				opacity: 0;
 				animation: designReport 1s ease-in-out forwards;
-				color: $white;
 				animation-delay: 2.6s;
 				transform: translateY($spacingMedium);
 				&:first-of-type {
@@ -333,12 +337,11 @@ section.hero {
 		display: flex;
 		flex-flow: column wrap;
 		.f4 {
-			font-weight: 700;
+			font-weight: $fontWeightRegular;
 			margin-bottom: 0.4em;
 			padding-bottom: 0;
 			span {
-				opacity: 0.7;
-				font-weight: 400;
+				color: rgba($white, 0.5);
 			}
 		}
 		.pSmall {
