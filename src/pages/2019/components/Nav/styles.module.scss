@@ -167,7 +167,10 @@
 		display: initial;
 		position: fixed;
 		top: $spacingBase;
-		left: $spacingBase - 0.5rem;
+		transform: translateX($spacingBase - 0.5rem);
+		animation: animateIn 0.8s ease-in-out 1.5s forwards;
+		opacity: 0;
+		left: -$spacingMedium;
 	}
 
 	.linkWrapper > a {
