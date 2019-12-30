@@ -61,8 +61,8 @@ const TwentyNineteen = () => {
 	return (
 		<div className={styles.pagestyles}>
 			<SEO
-				pageTitle="Liferay.Design 2019 Annual Report | Stories, achievements, and more"
-				description="TODO:Description"
+				pageTitle="Liferay Design | 2019 Annual Report"
+				description="Highlights, case studies, and more from Communication Design, Product Design, and Design Research at Liferay."
 				previewImage="/images/2019/2019-open-graph.png"
 				twitterHandle="@liferaydesign"
 			/>
@@ -74,7 +74,6 @@ const TwentyNineteen = () => {
 					type="font/woff2"
 					crossorigin=""
 				/>
-				<title>Liferay Design | 2019 Annual Report</title>
 			</Helmet>
 
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
@@ -92,9 +91,11 @@ const TwentyNineteen = () => {
 						<KeyArt />
 					</div>
 					<Heading level="1" className={styles.f2}>
-						{data.title.split(' ').map((title, i) => (<span key={i}
-							className={styles.firstWhite}>{title}
-						</span>))}
+						{data.title.split(' ').map((title, i) => (
+							<span key={i} className={styles.firstWhite}>
+								{title}
+							</span>
+						))}
 					</Heading>
 					<p className={styles.pLarge}>{data.subtitle}</p>
 				</Grid>
@@ -146,7 +147,12 @@ const TwentyNineteen = () => {
 										{subDepartment.title
 											.split(' ')
 											.map((title, i) => (
-												<span className={styles.firstWhite} key={i}>{title}</span>
+												<span
+													className={styles.firstWhite}
+													key={i}
+												>
+													{title}
+												</span>
 											))}
 									</Heading>
 									<span className={styles.pSmall}>
@@ -464,7 +470,6 @@ const TwentyNineteen = () => {
 						/>
 					</Plx>
 				</div>
-				
 			</section>
 
 			{/* ---------- SUBSCRIBE ----------- */}
