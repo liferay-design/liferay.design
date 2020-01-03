@@ -18,7 +18,7 @@
 			height: 80%;
 		}
 
-		@media (max-width: $screenXLarge) {
+		@media (min-width: $screenXLarge) {
 			max-width: $screenLarge;
 		}
 		@media (max-width: 900px) {
