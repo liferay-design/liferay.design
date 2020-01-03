@@ -201,7 +201,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 		margin: 0 auto;
 		max-width: 1440px;
 		position: relative;
-		padding: $spacingXLarge 20px;
+		padding: $spacingLarge 20px;
 		@include for-tablet-portrait-up {
 			padding: $spacingXLarge 96px;
 		}
@@ -303,7 +303,7 @@ section.hero {
 	position: relative;
 	text-align: center;
 	.organizationContent {
-		padding: $spacingBase * 2;
+		padding: $spacingSmall;
 		svg {
 			min-width: 116px;
 			min-height: 116px;
@@ -373,6 +373,9 @@ section.hero {
 		.departmentNames {
 			flex-flow: row;
 		}
+		.organizationContent {
+			padding: $spacingBase * 2;
+		}
 	}
 }
 @include for-desktop-up {
@@ -394,6 +397,7 @@ section.hero {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	background: $darkBlack;
 	padding: 80px 40px;
 	.timeline {
@@ -509,21 +513,23 @@ section.hero {
 	}
 	.services {
 		padding: 48px 0;
+		display: flex;
+		align-items: baseline;
 		ul {
-			min-width: 225px;
+			list-style-type: none;
+			margin: $spacingBase 0 0 0;
 			li {
 				color: $white;
 				font-weight: $fontWeightRegular;
 			}
 		}
 		.p {
-			max-width: none;
+			flex: 1 auto 0;
 			padding-bottom: 40px;
 			& > span {
 				color: $white;
 				font-weight: 700;
-				padding: 0 32px 0 0;
-				width: 240px;
+				padding: 0 $spacingBase 0 0;
 			}
 		}
 	}
@@ -543,8 +549,10 @@ section.hero {
 			}
 		}
 		.services {
+			display: inline;
 			ul {
 				margin: 0;
+				width: initial;
 			}
 			li {
 				display: inline-block;
@@ -552,6 +560,11 @@ section.hero {
 				margin: 0;
 				&:first-of-type {
 					padding-left: 0;
+				}
+			}
+			.p {
+				span {
+					width: 30ch;
 				}
 			}
 		}
@@ -567,6 +580,17 @@ section.hero {
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 40%;
+		background: linear-gradient(180deg, rgba($darkBlack, 0) 20%, $darkBlack 100%);
+		z-index: 1;
+	}
 	div {
 		text-align: center;
 	}
@@ -585,16 +609,6 @@ section.hero {
 			&:nth-of-type(odd) {
 				display: none;
 			}
-		}
-		&:before {
-			content: '';
-			position: absolute;
-			left: 0;
-			right: 0;
-			bottom: $spacingMedium * 2;
-			height: 40%;
-			background: linear-gradient(180deg, rgba($darkBlack, 0) 20%, $darkBlack 100%);
-			z-index: 1;
 		}
 	}
 }
@@ -624,7 +638,7 @@ section.hero {
 		column-gap: $spacingBase;
 		row-gap: $spacingBase * 1.1;
 		width: 100vw;
-		padding: $spacingMedium 0;
+		padding: $spacingMedium;
 		overflow: scroll;
 	}
 }
@@ -634,6 +648,7 @@ section.hero {
 			width: 100%;
 			grid-auto-flow: row;
 			grid-template-columns: 1fr 1fr 1fr;
+			padding: $spacingMedium 0;
 		}
 	}
 }
@@ -702,23 +717,13 @@ section.hero {
 }
 
 // DRIBBBLE
-.dribbble {
-	background: $darkBlack;
-	padding: 80px 20px;
-}
-@include for-tablet-landscape-up {
-	.dribbble {
-		padding: $spacingLarge $spacingMedium;
-	}
-}
-
-// GLOBAL SERVICES
+.dribbble,
 .ops {
 	background: $darkBlack;
 	padding: 80px 20px;
 }
-
 @include for-tablet-landscape-up {
+	.dribbble,
 	.ops {
 		padding: $spacingLarge $spacingMedium;
 	}
