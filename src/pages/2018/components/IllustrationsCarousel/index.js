@@ -16,25 +16,22 @@ const IllustrationsCarousel = () => {
 			stopOnHover={false}
 		>
 			<div>
-				<img src="/images/illustrations/liferay-dot-com/hero-analytics-cloud.png" />
+				<img src="/images/illustrations/liferay-dot-com/q3-2018/hero-analytics-cloud.png" />
 			</div>
 			<div>
-				<img src="/images/illustrations/liferay-dot-com/hero-commerce.png" />
+				<img src="/images/illustrations/liferay-dot-com/q3-2018/hero-commerce.png" />
 			</div>
 			<div>
-				<img src="/images/illustrations/liferay-dot-com/hero-dxp-cloud.png" />
+				<img src="/images/illustrations/liferay-dot-com/q3-2018/hero-dxp-cloud.png" />
 			</div>
 			<div>
-				<img src="/images/illustrations/liferay-dot-com/hero-dxp.png" />
-			</div>
-			{/* <div>
-                    <img src="/images/illustrations/liferay-dot-com/hero-subscriptions.png" />
-                </div> */}
-			<div>
-				<img src="/images/illustrations/liferay-dot-com/hero-homepage.png" />
+				<img src="/images/illustrations/liferay-dot-com/q3-2018/hero-dxp.png" />
 			</div>
 			<div>
-				<img src="/images/illustrations/liferay-dot-com/hero-liferay-resources.png" />
+				<img src="/images/illustrations/liferay-dot-com/q3-2018/hero-homepage.png" />
+			</div>
+			<div>
+				<img src="/images/illustrations/liferay-dot-com/q3-2018/hero-liferay-resources.png" />
 			</div>
 			<div>
 				<img src="/images/illustrations/partner-portal/hero-marketing.png" />
