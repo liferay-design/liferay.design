@@ -3,7 +3,7 @@ author: 'David Kim'
 date: '2019-12-30T14:00:00.000Z'
 title: '15 Months at Liferay'
 featuredImage: '/images/posts/15-month-recap/main-photo.jpg'
-publish: true
+publish: false
 ---
 
 After a short but wonderful 15 months at Liferay, I'm moving on to the next adventure, mainly to spend more time with family.
