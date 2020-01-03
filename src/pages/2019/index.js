@@ -289,7 +289,6 @@ const TwentyNineteen = () => {
 				<Flex
 					direction="column"
 					align="center"
-					justify="center"
 					className={styles.dribbble}
 				>
 					<Content
@@ -387,7 +386,11 @@ const TwentyNineteen = () => {
 
 			{/* OPERATIONS */}
 			<section id="operations">
-				<div className={styles.ops}>
+				<Flex
+					direction="column"
+					align="center"
+					className={styles.ops}
+				>
 					<Content
 						pretitle={data.opsSection.pretitle}
 						title={data.opsSection.title}
@@ -401,7 +404,7 @@ const TwentyNineteen = () => {
 							/>
 						))}
 					</Carousel>
-				</div>
+				</Flex>
 			</section>
 			<section id="thankyou" className={styles.thankyou}>
 				<div>
