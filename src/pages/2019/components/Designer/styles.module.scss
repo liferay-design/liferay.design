@@ -72,8 +72,7 @@
 		&:after {
 			content: '';
 			position: absolute;
-			right: -0.2em;
-			transform: translateX(100%);
+			margin: ($spacingXSmall / 2) $spacingXSmall;
 			width: 0.5em;
 			height: 1em;
 			background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/party-popper_1f389.png);
@@ -87,6 +86,9 @@
 		padding-bottom: 80px;
 		.designerHeadshot {
 			display: none;
+		}
+		h4.pLarge {
+			text-align: center;
 		}
 	}
 }
