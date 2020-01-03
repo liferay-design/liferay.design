@@ -1,11 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import { Flex, Link, Heading, Icon, ScrollProgress,	ScrollArrow } from 'components/atoms'
+import { Flex, Link, Heading, Image, Icon, ScrollProgress,	ScrollArrow } from 'components/atoms'
 import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 
-import Plx from 'react-plx'
 import { Grid } from 'reakit'
 import moment from 'moment'
 import MediaQuery from 'react-responsive'
@@ -14,48 +13,6 @@ import { SimpleCard, Nav, Designer, KeyArt, Content, Carousel, CarouselSlide } f
 import styles from './styles.module.scss'
 import { sizes } from 'theme'
 import data from 'markdown/annual-reports/TwentyNineteen.yaml'
-
-const PlxUp1 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 100,
-				endValue: -80,
-				property: 'translateY',
-			},
-		],
-	},
-]
-
-const PlxUp2 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 100,
-				endValue: -100,
-				property: 'translateY',
-			},
-		],
-	},
-]
-
-const PlxUp3 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 150,
-				endValue: -100,
-				property: 'translateY',
-			},
-		],
-	},
-]
 
 const TwentyNineteen = () => {
 	return (
@@ -454,21 +411,17 @@ const TwentyNineteen = () => {
 						copy={data.thankYou.message}
 						align="left"
 					/>
-					<Plx className={styles.p}>
+					<div className={styles.p}>
 						Juan Hidalgo
-						<Plx
-							//parallaxData={PlxUp2}
-							tagName="img"
+						<Image
 							src="/images/2018/jh-signature.svg"
 							className={styles.signature}
 						/>
-						<Plx
-							//parallaxData={PlxUp2}
-							tagName="img"
+						<Image
 							src="/images/headshots/small/hidalgo-juan.jpg"
 							className={styles.headshot}
 						/>
-					</Plx>
+					</div>
 				</div>
 			</section>
 
