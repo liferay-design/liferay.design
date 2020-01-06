@@ -18,6 +18,7 @@
 		"gatsby-remark-external-links": "0.0.4",
 		"gatsby-transformer-sharp": "~2.3.1",
 		"gatsby-transformer-yaml": "^2.2.15",
+		"googleapis": "^46.0.0",
 		"lodash": "^4.17.15",
 		"logrocket": "~1.0.3",
 		"react": "~16.11.0",
@@ -31,6 +32,7 @@
 		"react-responsive-carousel": "~3.1.51",
 		"react-slick": "~0.25.2",
 		"react-typography": "^0.16.19",
+		"readline-sync": "^1.4.10",
 		"reakit": "~0.16.0",
 		"slick-carousel": "~1.8.1",
 		"typography": "^0.16.19"
