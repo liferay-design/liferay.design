@@ -1,4 +1,7 @@
-require('dotenv').config()
+require('dotenv').config({
+	path: `.env.${process.env.NODE_ENV}`,
+})
+
 const fs = require('fs')
 const readline = require('readline-sync')
 const { google } = require('googleapis')
@@ -11,7 +14,7 @@ const SCOPES = [
 	'https://www.googleapis.com/auth/drive.metadata.readonly',
 ]
 
-const TOKEN_PATH = `${process.cwd()}/token.json`
+const TOKEN_PATH = `${__dirname}/token.json`
 
 /* Program Init */
 // TODO: Add Communication Team Docs
@@ -22,7 +25,7 @@ fetchRows('1SSXTk-tmV89v7EzGpK81PHLlUcbZKehYkVcjvEgnsbY', 'live')
 		}, {})
 
 		fs.writeFileSync(
-			`${__dirname}/markdown/pathTracks.json`,
+			`../../pathTracks.json`,
 			`${JSON.stringify(tracksObject, null, 4)}`,
 		)
 	})
@@ -87,25 +90,25 @@ async function fetchRows(sheetId, tabName) {
  * given callback function.
  */
 async function authorize() {
-	const { CLIENT_SECRET } = process.env
+	// const { CLIENT_SECRET } = process.env.GATSBY_CLIENT_SECRET
 
-	if (!CLIENT_SECRET) {
-		console.log('No client secret. Will not pull updated tracks from Google Doc.')
-		process.exit(0)
-	}
+	// if (!CLIENT_SECRET) {
+	// 	console.log('No client secret. Will not pull updated tracks from Google Doc.')
+	// 	process.exit(0)
+    // }
 
 	const credentials = {
 		client_id:
-			'750375359602-r4f7m7r3u50vess49odeih2u9fft75t1.apps.googleusercontent.com',
-		project_id: 'project-id-6639741798488717549',
+			'655698641995-7ndk7eafer91crt2sph6ra323bqfe3rs.apps.googleusercontent.com',
+		project_id: 'liferay-design-264322',
 		auth_uri: 'https://accounts.google.com/o/oauth2/auth',
 		token_uri: 'https://oauth2.googleapis.com/token',
 		auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
-		client_secret: CLIENT_SECRET,
+		client_secret: process.env.GATSBY_CLIENT_SECRET,
 		redirect_uris: [
 			'urn:ietf:wg:oauth:2.0:oob',
 			'http://localhost',
-			'https://kind-ride-4caa5a.netlify.com/',
+			// 'https://kind-ride-4caa5a.netlify.com/', // TODO
 		],
 	}
 
@@ -125,8 +128,6 @@ async function authorize() {
 		console.log('Token stored to', TOKEN_PATH)
 	} else {
 		var tokens = JSON.parse(fs.readFileSync(TOKEN_PATH))
-		// can you upload the token to netlify?
-		// in the .env file?
 	}
 
 	oAuth2Client.setCredentials(tokens)
