@@ -90,12 +90,12 @@ async function fetchRows(sheetId, tabName) {
  * given callback function.
  */
 async function authorize() {
-	// const { CLIENT_SECRET } = process.env.GATSBY_CLIENT_SECRET
+	const { CLIENT_SECRET } = process.env.GATSBY_CLIENT_SECRET
 
-	// if (!CLIENT_SECRET) {
-	// 	console.log('No client secret. Will not pull updated tracks from Google Doc.')
-	// 	process.exit(0)
-    // }
+	if (!CLIENT_SECRET) {
+		console.log('No client secret. Will not pull updated tracks from Google Doc.')
+		process.exit(0)
+    }
 
 	const credentials = {
 		client_id:
@@ -104,11 +104,11 @@ async function authorize() {
 		auth_uri: 'https://accounts.google.com/o/oauth2/auth',
 		token_uri: 'https://oauth2.googleapis.com/token',
 		auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
-		client_secret: process.env.GATSBY_CLIENT_SECRET,
+		client_secret: CLIENT_SECRET,
 		redirect_uris: [
 			'urn:ietf:wg:oauth:2.0:oob',
 			'http://localhost',
-			// 'https://kind-ride-4caa5a.netlify.com/', // TODO
+			'https://happy-jackson-1b6bb8.netlify.com/',
 		],
 	}
 
