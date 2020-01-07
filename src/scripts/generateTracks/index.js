@@ -25,7 +25,7 @@ fetchRows('1SSXTk-tmV89v7EzGpK81PHLlUcbZKehYkVcjvEgnsbY', 'live')
 		}, {})
 
 		fs.writeFileSync(
-			`../../pathTracks.json`,
+			`../../src/markdown/pathTracks.json`,
 			`${JSON.stringify(tracksObject, null, 4)}`,
 		)
 	})
