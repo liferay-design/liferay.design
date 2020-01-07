@@ -1,6 +1,4 @@
-require('dotenv').config({
-	path: `.env.${process.env.NODE_ENV}`,
-})
+// require('dotenv').config({ path: '../../.env' })
 
 const fs = require('fs')
 const readline = require('readline-sync')
@@ -17,7 +15,6 @@ const SCOPES = [
 const TOKEN_PATH = `${__dirname}/token.json`
 
 /* Program Init */
-// TODO: Add Communication Team Docs
 fetchRows('1SSXTk-tmV89v7EzGpK81PHLlUcbZKehYkVcjvEgnsbY', 'live')
 	.then(({ data }) => {
 		const tracksObject = data.map(mapHtmlToTracks).reduce((prev, curr) => {
@@ -90,12 +87,14 @@ async function fetchRows(sheetId, tabName) {
  * given callback function.
  */
 async function authorize() {
-	const { CLIENT_SECRET } = process.env.GATSBY_CLIENT_SECRET
+	// TODO figure out how to get the key working
+	// const CLIENT_SECRET = `${process.env.GATSBY_CLIENT_SECRET}`
 
-	if (!CLIENT_SECRET) {
-		console.log('No client secret. Will not pull updated tracks from Google Doc.')
-		process.exit(0)
-    }
+	// if (!CLIENT_SECRET) {
+	// 	console.log('No client secret. Will not pull updated tracks from Google Doc.')
+	// 	process.exit(0)
+    // }
+	// console.log(process.env.development.GATSBY_CLIENT_SECRET)
 
 	const credentials = {
 		client_id:

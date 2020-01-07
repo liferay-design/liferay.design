@@ -249,52 +249,51 @@
         "description": "Leadership skills are required to guide individuals, teams, or an entire organization to reach a shared goal. As the company grows and the number of people and teams increases, it’s important that some individuals assume additional responsibilities serving people and teams effectively."
     },
     "STRATEGY": {
-        "department": "PR",
+        "department": "CO",
         "displayName": "STRATEGY",
         "milestones": [
             {
                 "summary": "Support",
                 "signals": [
-                    "Familiar with the market and company strategy. ",
-                    "Reading and sharing analyst and industry reports",
-                    "Can support the design strategy for one project/product"
+                    "Familiar with the market and company strategy.",
+                    "Reads and shares articles on best practices, industry activity",
+                    "Supports the design strategy for projects/campaigns"
                 ]
             },
             {
                 "summary": "Build",
                 "signals": [
-                    "Can build the design strategy for one project/product"
+                    "Understands business goals for projects/campaigns and builds the design/creative strategy accordingly",
+                    "Defines level of effort + time and coordinates resources",
+                    "Able to work with stakeholders independently"
                 ]
             },
             {
                 "summary": "Lead",
                 "signals": [
                     "Relevant industry experience",
-                    "Can coordinate the design strategy for all products in the company",
-                    "Produces company wide design decisions",
-                    "Find solutions to big picture challenges. Can envision design solutions taking into account the product environment, influence from other company products, and competitors."
+                    "Coordinates design/creative efforts and process for projects across the company",
+                    "Produces company-wide design/creative and process decisions",
+                    "Finds solutions to big-picture challenges. Can envision design solutions, taking into account the medium, audience, influence from other campaigns, and competitors."
                 ]
             },
             {
                 "summary": "Strategize",
                 "signals": [
-                    "Can envision the design strategy for all products in the company",
-                    "Connects dots from existing products to envisioned products.",
-                    "Discover new markets",
-                    "Proto-persona: Alen Fjalic, Bobby Ghoshal"
+                    "Can envision the design/creative strategy for global campaigns in the company",
+                    "Connects dots from existing project/campaigns to envisioned ones"
                 ]
             },
             {
                 "summary": "Architect",
                 "signals": [
-                    "You are a recognized industry expert in Design Strategy.",
-                    "Demonstrated success in the market.",
-                    "Generating significant business value for the company in terms of new verticals, new sources of revenue, etc.",
-                    "Designer-founders: Tom Kelly, Clark Valberg, Des Traynor, Brian Chesky"
+                    "A recognized industry expert in Design Strategy",
+                    "Demonstrated success in the market",
+                    "Generates significant business value for the company, in terms of new verticals, new sources or revenue, etc."
                 ]
             }
         ],
-        "description": "Business in the context of design is the ability to understand the market, contribute to business goals to solve problems and create tools to improve the design lifecycle."
+        "description": ""
     },
     "RESEARCH": {
         "department": "PR",
@@ -523,5 +522,217 @@
             }
         ],
         "description": "Engineering in the context of design is the ability to understand and contribute to the various technologies and frameworks that are used in the designer’s context. "
+    },
+    "ENVIRONMENTAL": {
+        "department": "CO",
+        "displayName": "ENVIRONMENTAL",
+        "milestones": [
+            {
+                "summary": "Support",
+                "signals": [
+                    "Understands designing within print specifications",
+                    "Learns best practices regarding accessibility, visibility, industry activity",
+                    "Supports the design for projects"
+                ]
+            },
+            {
+                "summary": "Build",
+                "signals": [
+                    "Understands business goals for projects, designing accordingly",
+                    "Able to work with stakeholders and vendors independently",
+                    "Can propose solutions to problems, and offer improvements to copy and design",
+                    "Able to propose and build designs within marketing budgets",
+                    "Able to design within vendor requirements"
+                ]
+            },
+            {
+                "summary": "Lead",
+                "signals": [
+                    "Strong communication and the ability to lead projects",
+                    "Manages the design and process for multi-faceted projects",
+                    "Leads discussions and proposals in cross-functional teams",
+                    "Contributes to cross-functional planning and post-mortems"
+                ]
+            },
+            {
+                "summary": "Strategize",
+                "signals": [
+                    "An organized leader and performer who pushes convention and drives change",
+                    "Identifies problem areas and streamlines process, facilitating efforts across teams",
+                    "Understands the psychology of how people interact with environments"
+                ]
+            },
+            {
+                "summary": "Architect",
+                "signals": [
+                    "A recognized industry expert in Environmental Design",
+                    "Has driven innovative efforts that uncover new value with new kinds of experiences",
+                    "Successful designs in the market, creating and leading the standard, creating trends"
+                ]
+            }
+        ],
+        "description": "Design that exists in the physical world, taking into consideration interaction and behavior, managing foot traffic and floorspace, tangible obstacles and limitations. Areas of influence include entire events, individual booth setups, and office environments."
+    },
+    "PRODUCTION": {
+        "department": "CO",
+        "displayName": "PRODUCTION",
+        "milestones": [
+            {
+                "summary": "Support",
+                "signals": [
+                    "Understands the difference between designing within print and digital specifications",
+                    "Strong graphic design foundation: composition, visual hierarchy, typography, color theory",
+                    "Able to create visual components within design systems(logos, icons, illustrations, motion, etc.)",
+                    "Supports the artwork for projects",
+                    "Collects, processes, and uploads files"
+                ]
+            },
+            {
+                "summary": "Build",
+                "signals": [
+                    "Is meticulous, has a keen eye for detail and technical know-how",
+                    "Reviews final copy, layouts, and content in print and digital form",
+                    "Is accurate, fast, patient, and a good listener, as responsibilities often complete the last step in a rushed process",
+                    "Troubleshoots problems that may arise with a project and comes up with solutions to make sure things happen as planned",
+                    "Collaborates with other designers and works with vendors to format artwork and execute pre-press production"
+                ]
+            },
+            {
+                "summary": "Lead",
+                "signals": [
+                    "Relevant industry experience",
+                    "Has extensive knowledge of pre-press and printing standards through a variety of methods",
+                    "Is an excellent communicator and collaborator in cross-functional teams",
+                    "Creates art standards/guides and templates for consistency from project to project",
+                    "Makes sure all designers working on the projects adhere to the same process and file organization"
+                ]
+            },
+            {
+                "summary": "Strategize",
+                "signals": [
+                    "Proven track record",
+                    "Creates standards regarding all projects, so process is similar across the board",
+                    "Has knowledge of web development languages, like Javascript and HTML, and expertise with digital interfaces",
+                    "Provides non-designers with tools/guides to self serve"
+                ]
+            },
+            {
+                "summary": "Architect",
+                "signals": [
+                    "Expertise in the tips and tools used in graphic design",
+                    "Well-known in the industry",
+                    "Improves and redefines the way the company requests and processes artwork"
+                ]
+            }
+        ],
+        "description": "The actions and logistics of turning concepts into finished products happen here. A combination of technical and creative skills, and a variety of design programs are utilized to ensure deliverables are produced on time and executed accordingly."
+    },
+    "BRAND IDENTITY": {
+        "department": "CO",
+        "displayName": "BRAND IDENTITY",
+        "milestones": [
+            {
+                "summary": "Support",
+                "signals": [
+                    "Understands the difference, and relationship, between brand and brand identity",
+                    "Familiar with the market and company strategy",
+                    "Reads and shares articles on best practices, industry activity",
+                    "Strong graphic design foundation: composition, visual hierarchy, typography, color theory",
+                    "Strong visual background in print or digital media, advertising,  illustration, fine arts, architecture, motion, film, etc.",
+                    "Creates visual elements within an established system",
+                    "Familiar with the requirements and limitations of designing for print vs. digital",
+                    "Understands how to illustrate a narrative",
+                    "Supports the design for projects/campaigns"
+                ]
+            },
+            {
+                "summary": "Build",
+                "signals": [
+                    "Designs at an individual level, and is able to work with stakeholders independently",
+                    "Deep understanding of the company’s brand and applying in a project",
+                    "Able to synthesize business strategy with a visual direction",
+                    "Contributes to asset libraries within established systems",
+                    "Creating and defining new branding identities for projects"
+                ]
+            },
+            {
+                "summary": "Lead",
+                "signals": [
+                    "Coordinates brand identity for campaigns",
+                    "Leads the visual and creative direction for campaigns in cross-functional teams",
+                    "Creates and maintains style guides and resources",
+                    "Trains others on best practices and methods"
+                ]
+            },
+            {
+                "summary": "Strategize",
+                "signals": [
+                    "Leads brand identity efforts at an organizational level",
+                    "Communicates to the company, and advocates, the value of consistency in branding",
+                    "Creates tools/methods to empower non-designers to do work that adheres to the company’s brand identity"
+                ]
+            },
+            {
+                "summary": "Architect",
+                "signals": [
+                    "A recognized industry expert in Brand Identity",
+                    "Demonstrated success in the market, creating and leading the visual standard, creating trends"
+                ]
+            }
+        ],
+        "description": "Brand Identity is the visual aspects that form part of the overall brand. Creating and maintaining this visual representation effectively results in people associating it with a high level of credibility and quality."
+    },
+    "MEDIA": {
+        "department": "CO",
+        "displayName": "MEDIA",
+        "milestones": [
+            {
+                "summary": "Support",
+                "signals": [
+                    "A supporting-level player who is honing their craft and working to understand its use in the organizational context",
+                    "Understands how to illustrate a narrative through their craft",
+                    "Familiar with company and campaign strategies",
+                    "Understands and uses the established design system",
+                    "Reads and shares articles on best practices, industry activity/trends"
+                ]
+            },
+            {
+                "summary": "Build",
+                "signals": [
+                    "Able to use craft(s) to contribute to projects/campaigns",
+                    "Able to expand design systems to include different media",
+                    "Recognizes business goals and technical constraints",
+                    "Identifies places where specific media can be effectively used to help meet business goals",
+                    "Able to work with stakeholders independently"
+                ]
+            },
+            {
+                "summary": "Lead",
+                "signals": [
+                    "A high-level performer with ability to lead projects",
+                    "Trains others to strengthen same skill(s)",
+                    "Contributes to multiple projects",
+                    "Expertise on the skill and process informs decisions on whether to contract out or keep it inhouse",
+                    "Trains others to strengthen same skill(s)",
+                    "Develops the process/approach for executing specific media in cross-functional teams"
+                ]
+            },
+            {
+                "summary": "Strategize",
+                "signals": [
+                    "An organized leader and performer who pushes convention and drives change",
+                    "Leads and delivers successful work, meeting business goals",
+                    "Initiates ideas and projects in order to enhance public engagement with the company’s communication efforts"
+                ]
+            },
+            {
+                "summary": "Architect",
+                "signals": [
+                    "A recognized industry expert in your craft",
+                    "Demonstrated success in the market, creating and leading the visual standard, creating trends"
+                ]
+            }
+        ],
+        "description": "Media in the context of design is the understanding and use of various specialized skills and technologies to support the creative vision. Such skills include illustration, photography, videography, motion graphics, 3D rendering, and fine arts, among others."
     }
 }
