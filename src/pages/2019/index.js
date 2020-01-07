@@ -273,7 +273,8 @@ const TwentyNineteen = () => {
 							description={event.description}
 						/>
 					))}
-					<Flex justify="center" align="center" className={styles.seeMoreCard}>
+				</div>
+					<Flex justify="center" align="center">
 						<Link
 							to={data.designCommunity.seeMore.url}
 							className={styles.link}
@@ -281,7 +282,6 @@ const TwentyNineteen = () => {
 							{data.designCommunity.seeMore.title}
 						</Link>
 					</Flex>
-				</div>
 			</section>
 
 			{/* DRIBBBLE */}

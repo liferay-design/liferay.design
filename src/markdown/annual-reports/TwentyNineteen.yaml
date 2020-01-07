@@ -23,7 +23,7 @@ departmentSection:
 timelineSection:
     pretitle: Milestones
     title: New Faces & Birthrays
-    subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience. 
+    subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience.
     designers:
         - designer:
               url: wood-jon
@@ -141,6 +141,11 @@ designCommunity:
               title: Figma User Group
               city: 'Los Angeles'
               description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
+        - event:
+              image: '/images/2019/logos/logo-sgvux.png'
+              title: San Gabriel Valley UX
+              city: 'Los Angeles'
+              description: We hosted a couple meetings from one of LA's newest User Experience groups.
     seeMore:
         title: See all events
         url: '/events'
