@@ -103,7 +103,7 @@ async function authorize() {
 		auth_uri: 'https://accounts.google.com/o/oauth2/auth',
 		token_uri: 'https://oauth2.googleapis.com/token',
 		auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
-		client_secret: CLIENT_SECRET,
+		client_secret: 'jnlFECFclzwMITQpAJ2DICUA',
 		redirect_uris: [
 			'urn:ietf:wg:oauth:2.0:oob',
 			'http://localhost',
@@ -161,43 +161,42 @@ function mapHtmlToTracks({ doc: html }) {
 
 	const $ = cheerio.load(extractedHtml)
 
-	let currentCategory = ''
+	let skill = ''
 
 	// TODO: Add 'h1' as "category"
-	const department = $('h1').text()
+	const vertical = $('h1').text()
 
 	$('h1')
 		.siblings()
 		.map(function(i, el) {
 			if (el.name === 'h2') {
-				currentCategory = $(this)
+				skill = $(this)
 					.find('span')
 					.text()
-					.toUpperCase()
 
-				tracks[currentCategory] = {
-					department: department.substring(0, 2).toUpperCase(),
-					displayName: currentCategory.trim(),
-					milestones: [],
+				tracks[skill] = {
+					vertical: vertical,
+					label: skill,
+					levels: [],
 				}
 			} else if (el.attribs.class === 'subtitle') {
 				const subtitle = $(this)
 					.find('span')
 					.text()
 
-				tracks[currentCategory].description = subtitle
+				tracks[skill].description = subtitle
 			} else if (el.name === 'h3') {
 				const summary = $(this)
 					.find('span')
 					.text()
 
 				summary.length > 0 &&
-					tracks[currentCategory].milestones.push({
+					tracks[skill].levels.push({
 						summary,
 					})
 			} else if (el.name === 'ul') {
-				const milestoneLen = tracks[currentCategory].milestones.length - 1
-				tracks[currentCategory].milestones[milestoneLen].signals = []
+				const milestoneLen = tracks[skill].levels.length - 1
+				tracks[skill].levels[milestoneLen].signals = []
 
 				$(this)
 					.find('li')
@@ -207,7 +206,7 @@ function mapHtmlToTracks({ doc: html }) {
 							.text()
 
 						signal.length > 0 &&
-							tracks[currentCategory].milestones[milestoneLen].signals.push(
+							tracks[skill].levels[milestoneLen].signals.push(
 								signal,
 							)
 					})
