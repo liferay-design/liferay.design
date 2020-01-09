@@ -54,6 +54,7 @@ module.exports = {
 		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
+		`gatsby-transformer-json`,
 		'gatsby-transformer-sharp',
 		{
 			resolve: `gatsby-plugin-typography`,
