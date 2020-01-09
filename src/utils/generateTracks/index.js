@@ -19,9 +19,7 @@ fetchRows('1SSXTk-tmV89v7EzGpK81PHLlUcbZKehYkVcjvEgnsbY', 'live')
 	.then(({ data }) => {
 		const reducer = (accum, current) => accum.concat(current)
 
-		const tracksObject = {
-			skills: data.map(mapHtmlToTracks).reduce(reducer),
-		}
+		const tracksObject = data.map(mapHtmlToTracks).reduce(reducer)
 
 		fs.writeFileSync(
 			`../../src/markdown/handbook/grow/career-paths/pathTracks.json`,
