@@ -17,9 +17,11 @@ const TOKEN_PATH = `${__dirname}/token.json`
 /* Program Init */
 fetchRows('1SSXTk-tmV89v7EzGpK81PHLlUcbZKehYkVcjvEgnsbY', 'live')
 	.then(({ data }) => {
-		const tracksObject = data.map(mapHtmlToTracks).reduce((prev, curr) => {
-			return { ...prev, ...curr }
-		}, {})
+		const reducer = (accum, current) => accum.concat(current)
+
+		const tracksObject = {
+			skills: data.map(mapHtmlToTracks).reduce(reducer),
+		}
 
 		fs.writeFileSync(
 			`../../src/markdown/pathTracks.json`,
@@ -93,7 +95,7 @@ async function authorize() {
 	// if (!CLIENT_SECRET) {
 	// 	console.log('No client secret. Will not pull updated tracks from Google Doc.')
 	// 	process.exit(0)
-    // }
+	// }
 	// console.log(process.env.development.GATSBY_CLIENT_SECRET)
 
 	const credentials = {
@@ -154,7 +156,9 @@ function getNewToken(oAuth2Client) {
 
 function mapHtmlToTracks({ doc: html }) {
 	const cheerio = require('cheerio')
-	const tracks = {}
+	let tracks = []
+
+	let currentTrack = {}
 
 	const regex = /(<body.*>)(<h1.*)(<\/body>)/
 	const extractedHtml = regex.exec(html)[2]
@@ -163,18 +167,25 @@ function mapHtmlToTracks({ doc: html }) {
 
 	let skill = ''
 
-	// TODO: Add 'h1' as "category"
+	let first = true
+
 	const vertical = $('h1').text()
 
 	$('h1')
 		.siblings()
 		.map(function(i, el) {
 			if (el.name === 'h2') {
+				if (first) {
+					first = false
+				} else if (!first) {
+					tracks.push(currentTrack)
+				}
+
 				skill = $(this)
 					.find('span')
 					.text()
 
-				tracks[skill] = {
+				currentTrack = {
 					vertical: vertical,
 					label: skill,
 					levels: [],
@@ -184,19 +195,19 @@ function mapHtmlToTracks({ doc: html }) {
 					.find('span')
 					.text()
 
-				tracks[skill].description = subtitle
+				currentTrack.description = subtitle
 			} else if (el.name === 'h3') {
 				const summary = $(this)
 					.find('span')
 					.text()
 
 				summary.length > 0 &&
-					tracks[skill].levels.push({
+					currentTrack.levels.push({
 						summary,
 					})
 			} else if (el.name === 'ul') {
-				const milestoneLen = tracks[skill].levels.length - 1
-				tracks[skill].levels[milestoneLen].signals = []
+				const milestoneLen = currentTrack.levels.length - 1
+				currentTrack.levels[milestoneLen].signals = []
 
 				$(this)
 					.find('li')
@@ -206,12 +217,14 @@ function mapHtmlToTracks({ doc: html }) {
 							.text()
 
 						signal.length > 0 &&
-							tracks[skill].levels[milestoneLen].signals.push(
-								signal,
-							)
+							currentTrack.levels[milestoneLen].signals.push(signal)
 					})
 			}
 		})
+
+	if (tracks.length === 4) {
+		tracks.push(currentTrack)
+	}
 
 	return tracks
 }
