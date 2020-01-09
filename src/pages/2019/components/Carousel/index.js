@@ -20,7 +20,7 @@ export default class Carousel extends Component {
 	  }
 	render() {
 		var primarySettings = {
-			infinite: true,
+			infinite: false,
 			speed: 500,
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -36,7 +36,7 @@ export default class Carousel extends Component {
 		};
 		
 		var navSettings = {
-			infinite: true,
+			infinite: false,
 			slidesToShow: 1,
 			focusOnSelect: true,
 		};
