@@ -20,7 +20,7 @@ export default class Carousel extends Component {
 	  }
 	render() {
 		var primarySettings = {
-			infinite: false,
+			infinite: true,
 			speed: 500,
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -30,15 +30,24 @@ export default class Carousel extends Component {
 				  breakpoint: 900,
 				  settings: {
 					fade: false,
+					infinite: false,
 				  }
 				},
 			]
 		};
 		
 		var navSettings = {
-			infinite: false,
+			infinite: true,
 			slidesToShow: 1,
 			focusOnSelect: true,
+			responsive: [
+				{
+				  breakpoint: 900,
+				  settings: {
+					infinite: false,
+				  }
+				},
+			]
 		};
 		return (
 			<div className={styles.carousel}>
