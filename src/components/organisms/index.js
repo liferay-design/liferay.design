@@ -1,6 +1,7 @@
 import Agenda from './Agenda'
 import Banner from './Banner'
 import CapitalizationTool from './CapitalizationTool'
+import CareerPathTracks from './CareerPathTracks'
 import ChangelogFeed from './ChangelogFeed'
 import Footer from './Footer'
 import FooterMarkdown from './FooterMarkdown'
@@ -16,6 +17,7 @@ export {
 	Agenda,
 	Banner,
 	CapitalizationTool,
+	CareerPathTracks,
 	ChangelogFeed,
 	Footer,
 	FooterMarkdown,
