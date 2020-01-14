@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import { CardGrid, Text, Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 
-export default ( {teammate, currentPost, ...props} ) => {
+export default ({ teammate, currentPost, ...props }) => {
 	const data = useStaticQuery(graphql`
 		{
 			allPathTracksJson {
@@ -23,35 +23,24 @@ export default ( {teammate, currentPost, ...props} ) => {
 		}
 	`)
 
-	const Tracks = data.allPathTracksJson.edges
-		.map(( {node} ) => (
-			<>
-				<h2>
-					{node.vertical}
-				</h2>
-				<p>
-					{node.description}
-				</p>
-			</>
+	const Tracks = data.allPathTracksJson.edges.map(({ node }) => (
+		<>
+			<h2>{node.label}</h2>
+			<p>{node.description}</p>
+			<div>
+				{node.levels.map(level => (
+					<div>
+						<p>{level.summary}</p>
+						<ul>
+							{level.signals.map(signal => (
+								<li>{signal}</li>
+							))}
+						</ul>
+					</div>
+				))}
+			</div>
+		</>
+	))
 
-		))
-		// .filter(edges => edges.node.frontmatter.author.slug === teammate && edges.node.id !== currentPost)
-		// .slice(0,3)
-		// .map(({ node }) => (
-		// 	<CardDefault
-		// 		avatarImage
-		// 		key={node.id}
-		// 		imageURL={node.frontmatter.featuredImage}
-		// 		link={node.fields.slug}
-		// 		title={node.frontmatter.title}
-		// 		subtitle={`${node.timeToRead}` + ' Min Read'}
-		// 		avatarImageURL={node.frontmatter.author.avatar}
-		// 	/>
-		// ))
-
-	return (
-		<div>
-			{Tracks}
-		</div>
-	)}
-
+	return <div>{Tracks}</div>
+}
