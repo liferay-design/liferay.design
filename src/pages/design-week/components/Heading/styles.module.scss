@@ -1,0 +1,12 @@
+@import '~theme/variables';
+
+.f1 {
+	text-transform: uppercase;
+	font-weight: $fontWeightBlack;
+	font-size: 12.5vw;
+	letter-spacing: 0.64ch;
+	background: -webkit-linear-gradient(transparent, transparent),
+		url('/images/design-week/bg.jpg') center/cover no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
