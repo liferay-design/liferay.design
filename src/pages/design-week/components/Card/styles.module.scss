@@ -9,6 +9,7 @@
 	background: $white;
 	height: 100%;
 	padding: $spacingBase * 3;
+	min-width: $screenSmall;
 	.details .heading,
 	div a button {
 		@include small-caps;
@@ -46,5 +47,9 @@
 				opacity: 0.9;
 			}
 		}
+	}
+	@media screen and (max-width: $screenMedium) {
+		padding: $spacingBase;
+		min-width: initial;
 	}
 }
