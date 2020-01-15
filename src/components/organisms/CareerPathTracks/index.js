@@ -9,6 +9,7 @@ export const CareerPathTracks = ({
 	summary,
 	signals,
 	title,
+	track,
 	...props
 }) => {
 	const data = useStaticQuery(graphql`
@@ -31,7 +32,8 @@ export const CareerPathTracks = ({
 	`)
 
 	const Tracks = data.allPathTracksJson.edges
-		.filter(edgeItem => edgeItem.node.vertical === vertical)
+		// .filter(edgeItem => edgeItem.node.label === track)
+		.filter(edgeItem => edgeItem.node.vertical === vertical || edgeItem.node.label === track)
 		.map(({ node }) => (
 			<>
 				<h3>{node.label}</h3>
@@ -80,6 +82,7 @@ CareerPathTracks.propTypes = {
 	description: PropTypes.bool,
 	signals: PropTypes.bool,
 	title: PropTypes.bool,
+	track: PropTypes.string,
 	summary: PropTypes.bool,
 }
 
