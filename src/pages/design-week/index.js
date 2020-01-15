@@ -11,25 +11,35 @@ import { sizes } from 'theme'
 
 const DesignWeek = () => {
 	return (
-        <>
+		<>
 			<SEO
 				pageTitle="Design Week 2020 | Liferay Design"
 				description="Liferay's Design Department Gathering"
 				previewImage="/images/design-week/open-graph.png"
 				twitterHandle="@liferaydesign"
 			/>
-
-			<body className={styles.page}>
-				<Grid className={styles.grid}>
-					<Heading title="Design Week" />
-					<Card 
-                        location="Los Angeles, CA"
-                        date="Mar 21—27"
-                        cta="R.S.V.P."
-                        ctaUrl="https://forms.liferay.com"
-                    />
-				</Grid>
-			</body>
+			<MediaQuery maxWidth={sizes.medium}>
+				{matches => {
+					let gridTemplate = matches ? `mobileGrid` : `"hero hero sidebar" auto / 2fr 2fr 1fr`
+					return (
+						<div className={styles.page}>
+							<Grid template={gridTemplate} className={styles.grid}>
+								<Grid.Item area="hero">
+									<Heading title="Design Week" />
+								</Grid.Item>
+								<Grid.Item area="sidebar">
+									<Card
+										location="Los Angeles, CA"
+										date="Mar 21—27"
+										cta="R.S.V.P."
+										ctaUrl="https://forms.liferay.com"
+									/>
+								</Grid.Item>
+							</Grid>
+						</div>
+					)
+				}}
+			</MediaQuery>
 		</>
 	)
 }
