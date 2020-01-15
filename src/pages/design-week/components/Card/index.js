@@ -1,6 +1,6 @@
 import { Text, Link, AnimateIn, Flex, Button } from 'components/atoms'
 import PropTypes from 'prop-types'
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import styles from './styles.module.scss'
 
 export class Card extends Component {
@@ -12,15 +12,15 @@ export class Card extends Component {
 	}
 
 	render() {
-        const { location, date, ctaUrl, cta } = this.props
-        
-        const baseDelay = '.2'
+		const { location, date, ctaUrl, cta } = this.props
+
+		const baseDelay = '.2'
 
 		return (
-			<AnimateIn delay={`${baseDelay}` + 's'}>
-				<Flex className={styles.wrapper}>
+			<Flex direction="column" justify="flex-end" className={styles.wrapper}>
+				<AnimateIn delay={`${baseDelay}` + 's'}>
 					<div>
-						<AnimateIn  delay={`${baseDelay}` * 2 + 's'}>
+						<AnimateIn delay={`${baseDelay}` * 2 + 's'}>
 							<Text>{location}</Text>
 						</AnimateIn>
 						<AnimateIn delay={`${baseDelay}` * 3 + 's'}>
@@ -32,8 +32,8 @@ export class Card extends Component {
 							<Button>{cta}</Button>
 						</Link>
 					</AnimateIn>
-				</Flex>
-			</AnimateIn>
+				</AnimateIn>
+			</Flex>
 		)
 	}
 }
