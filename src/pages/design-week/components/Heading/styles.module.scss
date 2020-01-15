@@ -8,9 +8,14 @@
 		font-weight: $fontWeightBlack;
 		font-size: 12.5vw;
 		letter-spacing: 0.64ch;
-		background: -webkit-linear-gradient(transparent, transparent),
-			url('/images/design-week/bg.jpg') center/cover no-repeat;
+		background: -webkit-linear-gradient(30deg, rgba($white, 0.2), transparent),
+			url('/images/design-week/bg.jpg') 50% 60% / cover no-repeat;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+	@media screen and (max-width: $screenMedium) {
+		.f1 {
+			padding-left: $spacingBase;
+		}
 	}
 }

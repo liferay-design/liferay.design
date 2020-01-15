@@ -21,7 +21,10 @@ const DesignWeek = () => {
 			/>
 			<MediaQuery maxWidth={sizes.medium}>
 				{matches => {
-					let gridTemplate = matches ? `mobileGrid` : `"hero hero sidebar" 100vh / 1fr 1fr 1fr`
+                    let gridTemplate = matches 
+                    ? ` "hero" 50%
+                        "sidebar" auto / 1fr` 
+                    : `"hero hero sidebar" 100vh / 1fr 1fr 1fr`
 					return (
 						<Flex className={styles.page}>
 							<Grid template={gridTemplate} className={styles.grid}>
