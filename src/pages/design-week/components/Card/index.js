@@ -1,4 +1,4 @@
-import { Text, Link, AnimateIn, Flex, Button } from 'components/atoms'
+import { Heading, Link, AnimateIn, Flex, Button } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
@@ -19,17 +19,17 @@ export class Card extends Component {
 		return (
 			<Flex direction="column" justify="flex-end" className={styles.wrapper}>
 				<AnimateIn delay={`${baseDelay}` + 's'}>
-					<div>
+					<div className={styles.details}>
 						<AnimateIn delay={`${baseDelay}` * 2 + 's'}>
-							<Text>{location}</Text>
+							<Heading color="mainl2" className={styles.heading} level={2}>{location}</Heading>
 						</AnimateIn>
 						<AnimateIn delay={`${baseDelay}` * 3 + 's'}>
-							<Text>{date}</Text>
+							<Heading color='mainl5' className={styles.heading}  level={2}>{date}</Heading>
 						</AnimateIn>
 					</div>
 					<AnimateIn delay={`${baseDelay}` * 4 + 's'}>
 						<Link to={ctaUrl}>
-							<Button>{cta}</Button>
+							<Button padding="base" className={styles.button} size="initial">{cta}</Button>
 						</Link>
 					</AnimateIn>
 				</AnimateIn>

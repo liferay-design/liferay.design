@@ -1,6 +1,49 @@
 @import '~theme/variables';
 
+@mixin smoothTransition {
+	transition: all 0.2s ease-in-out;
+}
+
 .wrapper {
+	font-family: $fontFamilySecondary;
 	background: $white;
 	height: 100%;
+	padding: $spacingBase * 3;
+	.details .heading,
+	div a button {
+		@include small-caps;
+		font-size: $fontSizeMedium;
+		font-weight: $fontWeightHeavy;
+	}
+	.button {
+		cursor: pointer;
+		background: linear-gradient(to right, #48668f, #71a3ac);
+		color: #ffdabe;
+		width: 100%;
+		margin: $spacingBase 0;
+		border-radius: $fontSizeXSmall / 4;
+		position: relative;
+		@include smoothTransition;
+		&::after {
+			content: '';
+			position: absolute;
+			background: linear-gradient(to right, #48668f, #71a3ac);
+			filter: blur($spacingBase);
+			width: 80%;
+			height: 80%;
+			left: 10%;
+			top: $spacingBase;
+			z-index: -1;
+			opacity: 1;
+			@include smoothTransition;
+		}
+		&:hover {
+			transform: translateY(-$spacingXSmall);
+			@include smoothTransition;
+			&::after {
+				@include smoothTransition;
+				opacity: 0.9;
+			}
+		}
+	}
 }
