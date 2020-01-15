@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Flex } from 'components/atoms'
 import { SEO } from 'components/molecules'
 
 import { Grid } from 'reakit'
@@ -20,12 +21,12 @@ const DesignWeek = () => {
 			/>
 			<MediaQuery maxWidth={sizes.medium}>
 				{matches => {
-					let gridTemplate = matches ? `mobileGrid` : `"hero hero sidebar" auto / 2fr 2fr 1fr`
+					let gridTemplate = matches ? `mobileGrid` : `"hero hero sidebar" 100vh / 2fr 1fr 1fr`
 					return (
-						<div className={styles.page}>
+						<Flex className={styles.page}>
 							<Grid template={gridTemplate} className={styles.grid}>
 								<Grid.Item area="hero">
-									<Heading title="Design Week" />
+									    <Heading title="Design Week" />
 								</Grid.Item>
 								<Grid.Item area="sidebar">
 									<Card
@@ -36,7 +37,7 @@ const DesignWeek = () => {
 									/>
 								</Grid.Item>
 							</Grid>
-						</div>
+						</Flex>
 					)
 				}}
 			</MediaQuery>
