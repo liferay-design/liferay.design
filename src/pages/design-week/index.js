@@ -21,20 +21,20 @@ const DesignWeek = () => {
 			/>
 			<MediaQuery maxWidth={sizes.medium}>
 				{matches => {
-					let gridTemplate = matches ? `mobileGrid` : `"hero hero sidebar" 100vh / 2fr 1fr 1fr`
+					let gridTemplate = matches ? `mobileGrid` : `"hero hero sidebar" 100vh / 1fr 1fr 1fr`
 					return (
 						<Flex className={styles.page}>
 							<Grid template={gridTemplate} className={styles.grid}>
-								<Grid.Item area="hero">
-									    <Heading title="Design Week" />
-								</Grid.Item>
 								<Grid.Item area="sidebar">
 									<Card
 										location="Los Angeles, CA"
 										date="Mar 21—27"
-										cta="R.S.V.P."
+										cta="RSVP"
 										ctaUrl="https://forms.liferay.com"
 									/>
+								</Grid.Item>
+								<Grid.Item area="hero">
+									    <Heading title="Design Week" />
 								</Grid.Item>
 							</Grid>
 						</Flex>

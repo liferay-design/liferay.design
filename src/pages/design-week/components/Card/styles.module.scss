@@ -23,6 +23,7 @@
 		margin: $spacingBase 0;
 		border-radius: $fontSizeXSmall / 4;
 		position: relative;
+		letter-spacing: 1ch;
 		@include smoothTransition;
 		&::after {
 			content: '';
