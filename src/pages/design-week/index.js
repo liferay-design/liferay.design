@@ -12,6 +12,7 @@ import { sizes, spacing } from 'theme'
 
 const DesignWeek = () => {
 	const baseDelay = '1.6'
+	const bgImage = '/images/design-week/bg.jpg'
 	return (
 		<>
 			<SEO
@@ -20,6 +21,7 @@ const DesignWeek = () => {
 				previewImage="/images/design-week/open-graph.png"
 				twitterHandle="@liferaydesign"
 			/>
+			<LoadingAnimation size={spacing.xLarge} />
 			<MediaQuery maxWidth={sizes.medium}>
 				{matches => {
 					let gridTemplate = matches
@@ -39,14 +41,13 @@ const DesignWeek = () => {
 									/>
 								</Grid.Item>
 								<Grid.Item area="hero">
-									<Heading delay={baseDelay} title="Design Week" />
+									<Heading bgImage={bgImage} delay={baseDelay} title="Design Week" />
 								</Grid.Item>
 							</Grid>
 						</Flex>
 					)
 				}}
 			</MediaQuery>
-			<LoadingAnimation size={spacing.xLarge} />
 		</>
 	)
 }
