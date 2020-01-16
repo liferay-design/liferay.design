@@ -8,7 +8,7 @@ import MediaQuery from 'react-responsive'
 
 import { Card, Heading, LoadingAnimation } from 'pages/design-week/components/_index'
 import styles from './styles.module.scss'
-import { sizes } from 'theme'
+import { sizes, spacing } from 'theme'
 
 const DesignWeek = () => {
 	return (
@@ -44,7 +44,7 @@ const DesignWeek = () => {
 					)
 				}}
 			</MediaQuery>
-			<LoadingAnimation />
+			<LoadingAnimation size={spacing.xLarge} />
 		</>
 	)
 }
