@@ -29,7 +29,7 @@ export class Card extends Component {
 					</div>
 					<AnimateIn delay={`${baseDelay}` * 4 + 's'}>
 						<Link to={ctaUrl}>
-							<Button padding="base" className={styles.button} size="initial">{cta}</Button>
+							<Button padding="medium" className={styles.button} size="initial">{cta}</Button>
 						</Link>
 					</AnimateIn>
 				</AnimateIn>

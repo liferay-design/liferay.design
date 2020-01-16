@@ -36,15 +36,17 @@
 			left: 10%;
 			top: $spacingBase;
 			z-index: -1;
-			opacity: 1;
+			opacity: 0.8;
 			@include smoothTransition;
 		}
 		&:hover {
-			transform: translateY(-$spacingXSmall);
+			background: linear-gradient(to right, #48668f, #48668f);
+			transform: translateY($spacingXSmall * 0.5);
 			@include smoothTransition;
 			&::after {
 				@include smoothTransition;
-				opacity: 0.9;
+				opacity: 1;
+				top: $spacingBase * 1.2;
 			}
 		}
 	}
