@@ -15,7 +15,7 @@ const AnimateIn = ({
 }
 
 AnimateIn.propTypes = {
-	delay: PropTypes.string,
+	delay: PropTypes.any,
 }
 
 export default AnimateIn

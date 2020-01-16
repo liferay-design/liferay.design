@@ -30,7 +30,7 @@ const DesignWeek = () => {
 							<Grid template={gridTemplate} className={styles.grid}>
 								<Grid.Item area="sidebar">
 									<Card
-										location="Los Angeles, CA"
+										place="Los Angeles, CA"
 										date="Mar 21—27"
 										cta="RSVP"
 										ctaUrl="https://forms.gle/PSkzN2vNmwjLz2B37"
