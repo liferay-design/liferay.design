@@ -31,7 +31,7 @@ const DesignWeek = () => {
 								<Grid.Item area="sidebar">
 									<Card
 										place="Los Angeles, CA"
-										date="Mar 21—27"
+										date="Mar 23—27"
 										cta="RSVP"
 										ctaUrl="https://forms.gle/PSkzN2vNmwjLz2B37"
 									/>
