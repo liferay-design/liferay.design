@@ -1,7 +1,7 @@
-@import '~theme/variables';
+@import '../../styles.module.scss';
 
 @mixin smoothTransition {
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s $loadingAnimationDuration ease-in-out;
 }
 
 .wrapper {

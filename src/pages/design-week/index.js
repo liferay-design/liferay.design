@@ -6,7 +6,7 @@ import { SEO } from 'components/molecules'
 import { Grid } from 'reakit'
 import MediaQuery from 'react-responsive'
 
-import { Card, Heading } from 'pages/design-week/components/_index'
+import { Card, Heading, LoadingAnimation } from 'pages/design-week/components/_index'
 import styles from './styles.module.scss'
 import { sizes } from 'theme'
 
@@ -21,10 +21,10 @@ const DesignWeek = () => {
 			/>
 			<MediaQuery maxWidth={sizes.medium}>
 				{matches => {
-                    let gridTemplate = matches 
-                    ? ` "hero" 50%
-                        "sidebar" auto / 1fr` 
-                    : `"hero hero sidebar" 100vh / 1fr 1fr 1fr`
+					let gridTemplate = matches
+						? ` "hero" 67%
+                        "sidebar" auto / 1fr`
+						: `"hero hero sidebar" 100vh / 1fr 1fr 1fr`
 					return (
 						<Flex className={styles.page}>
 							<Grid template={gridTemplate} className={styles.grid}>
@@ -44,6 +44,7 @@ const DesignWeek = () => {
 					)
 				}}
 			</MediaQuery>
+			<LoadingAnimation />
 		</>
 	)
 }

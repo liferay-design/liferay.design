@@ -1,10 +1,22 @@
 @import '~theme/variables';
 
+$loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
+
+html,
 body {
-	background: white url('/images/design-week/bg.jpg') 50% 30% / cover no-repeat;
+	background: initial; // reset the page background so there's no flash onload
 }
 
 .page {
+	background: white 50% 20% / cover no-repeat;
 	height: 100vh;
 	width: 100vw;
+	animation: backgroundAnimateIn $loadingAnimationDuration
+		($loadingAnimationDuration / 2) ease-in-out forwards;
+}
+
+@keyframes backgroundAnimateIn {
+	to {
+		background: white url('/images/design-week/bg.jpg') 50% 30% / cover no-repeat;
+	}
 }
