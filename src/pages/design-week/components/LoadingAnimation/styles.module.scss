@@ -1,0 +1,24 @@
+@import '../../styles.module.scss';
+
+.wrapper {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: $white;
+	opacity: 0;
+	animation: animateIn $loadingAnimationDuration ease-in-out forwards;
+	.icon {
+		margin-bottom: 4vh;
+	}
+}
+
+@keyframes animateIn {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
