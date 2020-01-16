@@ -11,6 +11,7 @@ import styles from './styles.module.scss'
 import { sizes, spacing } from 'theme'
 
 const DesignWeek = () => {
+	const baseDelay = '1.6'
 	return (
 		<>
 			<SEO
@@ -34,10 +35,11 @@ const DesignWeek = () => {
 										date="Mar 23—27"
 										cta="RSVP"
 										ctaUrl="https://forms.gle/PSkzN2vNmwjLz2B37"
+										delay={baseDelay}
 									/>
 								</Grid.Item>
 								<Grid.Item area="hero">
-									<Heading title="Design Week" />
+									<Heading delay={baseDelay} title="Design Week" />
 								</Grid.Item>
 							</Grid>
 						</Flex>
