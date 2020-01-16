@@ -7,18 +7,27 @@ export default class DWHeading extends React.Component {
 	static propTypes = {
 		title: PropTypes.string,
 		delay: PropTypes.string,
+		bgImage: PropTypes.string,
 	}
 
 	render() {
-		const { delay, title } = this.props
+		const { delay, title, bgImage } = this.props
 		return (
-            <Flex align="center" className={styles.wrapper}>
+			<Flex align="center" className={styles.wrapper}>
 				<AnimateIn delay={delay + 's'}>
-					<Heading className={styles.f1} level={1}>
+					<Heading
+						className={styles.f1}
+						level={1}
+						additionalStyles={{
+							backgroundImage: `${'-webkit-linear-gradient(30deg, rgba(255,255,255, 0.9) 40%, transparent), url("' +
+								bgImage +
+								'"'}`,
+						}}
+					>
 						{title}
 					</Heading>
 				</AnimateIn>
-            </Flex>
+			</Flex>
 		)
 	}
 }
