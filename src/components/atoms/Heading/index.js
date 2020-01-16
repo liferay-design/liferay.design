@@ -3,11 +3,12 @@ import React from 'react'
 import { colors } from 'theme'
 import styles from './styles.module.scss'
 
-const Heading = ({ align, bottomBorder, className, color, children, level, padding }) => {
+const Heading = ({ additionalStyles, align, bottomBorder, className, color, children, level, padding }) => {
 	const Header = `h${level}`
 	const borderClass = bottomBorder ? styles.bottomBorder : ''
 
 	var style = {
+		...additionalStyles,
 		color: colors[color],
 		textAlign: align,
 	}
