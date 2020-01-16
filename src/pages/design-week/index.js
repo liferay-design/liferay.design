@@ -33,11 +33,11 @@ const DesignWeek = () => {
 										location="Los Angeles, CA"
 										date="Mar 21—27"
 										cta="RSVP"
-										ctaUrl="https://forms.liferay.com"
+										ctaUrl="https://forms.gle/PSkzN2vNmwjLz2B37"
 									/>
 								</Grid.Item>
 								<Grid.Item area="hero">
-									    <Heading title="Design Week" />
+									<Heading title="Design Week" />
 								</Grid.Item>
 							</Grid>
 						</Flex>

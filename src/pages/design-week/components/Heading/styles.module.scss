@@ -8,8 +8,8 @@
 		font-weight: $fontWeightBlack;
 		font-size: 12.5vw;
 		letter-spacing: 0.64ch;
-		background: -webkit-linear-gradient(30deg, rgba($white, 0.2), transparent),
-			url('/images/design-week/bg.jpg') 50% 60% / cover no-repeat;
+		background: -webkit-linear-gradient(30deg, rgba($white, 0.9) 40%, transparent),
+			url('/images/design-week/bg.jpg') 90% 60% / 100% no-repeat;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
