@@ -10,16 +10,26 @@ export default class DWHeading extends React.Component {
 		bgImage: PropTypes.string,
 	}
 
-	render() {
-		const { delay, title, bgImage } = this.props
-
+	componentDidMount() {
 		let page = document.documentElement
 		page.addEventListener('mousemove', e => {
 			let ow = page.offsetWidth
 			let oh = page.offsetHeight
-			page.style.setProperty('--mouseX', 16 + ((e.clientX * 16) / ( ow * 1)) + '%')
-			page.style.setProperty('--mouseY', 48 + ((e.clientY * 10) / ( oh * 1)) + '%')
+			page.style.setProperty('--mouseX', 16 + (e.clientX * 16) / (ow * 1) + '%')
+			page.style.setProperty('--mouseY', 48 + (e.clientY * 10) / (oh * 1) + '%')
 		})
+	}
+
+	render() {
+		const { delay, title, bgImage } = this.props
+
+		// let page = document.documentElement
+		// page.addEventListener('mousemove', e => {
+		// 	let ow = page.offsetWidth
+		// 	let oh = page.offsetHeight
+		// 	page.style.setProperty('--mouseX', 16 + ((e.clientX * 16) / ( ow * 1)) + '%')
+		// 	page.style.setProperty('--mouseY', 48 + ((e.clientY * 10) / ( oh * 1)) + '%')
+		// })
 
 
 		return (
