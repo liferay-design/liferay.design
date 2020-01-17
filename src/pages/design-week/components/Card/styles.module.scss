@@ -1,7 +1,7 @@
 @import '../../styles.module.scss';
 
 @mixin smoothTransition {
-	transition: all 0.2s $loadingAnimationDuration ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .wrapper {
@@ -18,7 +18,7 @@
 	}
 	.button {
 		cursor: pointer;
-		background: linear-gradient(to right, #48668f, #71a3ac);
+		background: linear-gradient(to right, #48668f 0%, #71a3ac);
 		color: #ffdabe;
 		width: 100%;
 		margin: $spacingBase 0;
@@ -29,7 +29,7 @@
 		&::after {
 			content: '';
 			position: absolute;
-			background: linear-gradient(to right, #48668f, #71a3ac);
+			background: linear-gradient(to right, #48668f 0%, #71a3ac);
 			filter: blur($spacingBase);
 			width: 80%;
 			height: 80%;
@@ -40,7 +40,7 @@
 			@include smoothTransition;
 		}
 		&:hover {
-			background: linear-gradient(to right, #48668f, #48668f);
+			background: linear-gradient(to right, #48668f 30%, #71a3ac);
 			transform: translateY($spacingXSmall * 0.5);
 			@include smoothTransition;
 			&::after {
