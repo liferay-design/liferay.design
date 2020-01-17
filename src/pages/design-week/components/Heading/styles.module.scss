@@ -1,5 +1,10 @@
 @import '~theme/variables';
 
+:root {
+	--mouseX: 50%;
+	--mouseY: 50%;
+}
+
 .wrapper {
 	height: 100%;
 	.f1 {
@@ -9,8 +14,8 @@
 		font-size: 12.5vw;
 		letter-spacing: 0.64ch;
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: 50% 40%;
+		background-size: 120%;
+		background-position: var(--mouseX) var(--mouseY);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
