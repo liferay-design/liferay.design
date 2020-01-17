@@ -6,7 +6,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: $white;
+	// background: $white;
 	opacity: 0;
 	animation: animateIn $loadingAnimationDuration ease-in-out forwards;
 	.icon {
