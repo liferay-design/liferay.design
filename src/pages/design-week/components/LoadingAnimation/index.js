@@ -18,6 +18,7 @@ export default class LoadingAnimation extends React.Component {
 						width: `${size}`,
 						height: `${size}`,
 						position: 'relative',
+						marginBottom: '2%',
 					}}
 				>
 					<Icon
