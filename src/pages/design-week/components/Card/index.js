@@ -19,14 +19,16 @@ export class Card extends Component {
 			<Flex direction="column" justify="flex-end" className={styles.wrapper}>
 				<AnimateIn delay={delay * 1.1 + 's'}>
 					<AnimateIn delay={delay * 1.05 + 's'}>
-						<Icon
-							name="liferayDesicon"
-							height="3rem"
-							width="3rem"
-							fill="neutral7"
-							margin="0 0 2rem -.2rem"
-							className={styles.icon}
-						/>
+						<Link to="/">
+							<Icon
+								name="liferayDesicon"
+								height="3rem"
+								width="3rem"
+								fill="neutral7"
+								margin="0 0 2rem -.2rem"
+								className={styles.icon}
+							/>
+						</Link>
 					</AnimateIn>
 					<div className={styles.details}>
 						<AnimateIn delay={delay * 1.2 + 's'}>
