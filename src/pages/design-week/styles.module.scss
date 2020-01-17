@@ -7,16 +7,27 @@ body {
 	background: initial; // reset the page background so there's no flash onload
 }
 
-.page {
-	background: white 50% 20% / cover no-repeat;
+.page,
+.bgImage {
 	height: 100vh;
 	width: 100vw;
-	animation: backgroundAnimateIn $loadingAnimationDuration
-		($loadingAnimationDuration / 2) ease-in-out forwards;
 }
 
-@keyframes backgroundAnimateIn {
+.bgImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: -1;
+	animation: animateIn ($loadingAnimationDuration / 2) $loadingAnimationDuration
+		ease-in-out forwards;
+	opacity: 0;
+	transform: translateX(-$spacingLarge);
+}
+
+@keyframes animateIn {
 	to {
-		background: white url('/images/design-week/bg.jpg') 50% 30% / cover no-repeat;
+		opacity: 1;
+		transform: translateX(0);
 	}
 }

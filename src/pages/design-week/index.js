@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Flex } from 'components/atoms'
+import { Flex, Image } from 'components/atoms'
 import { SEO } from 'components/molecules'
 
 import { Grid } from 'reakit'
@@ -30,6 +30,7 @@ const DesignWeek = () => {
 						: `"hero hero sidebar" 100vh / 1fr 1fr 1fr`
 					return (
 						<Flex className={styles.page}>
+							<Image src={bgImage} className={styles.bgImage} />
 							<Grid template={gridTemplate} className={styles.grid}>
 								<Grid.Item area="sidebar">
 									<Card
@@ -41,7 +42,11 @@ const DesignWeek = () => {
 									/>
 								</Grid.Item>
 								<Grid.Item area="hero">
-									<Heading bgImage={bgImage} delay={baseDelay} title="Design Week" />
+									<Heading
+										bgImage={bgImage}
+										delay={baseDelay}
+										title="Design Week"
+									/>
 								</Grid.Item>
 							</Grid>
 						</Flex>
