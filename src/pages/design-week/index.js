@@ -45,7 +45,7 @@ const DesignWeek = () => {
 					</Link>
 				</AnimateIn>
 				<Grid className={styles.grid}>
-					<Grid.Item area="sidebar">
+					<Grid.Item area="sidebar" className={styles.sidebar}>
 						<Card
 							place="Los Angeles, CA"
 							date="Mar 23—27"
@@ -54,7 +54,7 @@ const DesignWeek = () => {
 							delay={baseDelay}
 						/>
 					</Grid.Item>
-					<Grid.Item area="hero">
+					<Grid.Item area="hero" style={{zIndex:'2'}}>
 						<Heading
 							bgImage={bgImage}
 							delay={baseDelay}

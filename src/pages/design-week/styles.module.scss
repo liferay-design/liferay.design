@@ -2,11 +2,6 @@
 
 $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
 
-html,
-body {
-	background: initial; // reset the page background so there's no flash onload
-}
-
 .page,
 .bgImage {
 	height: 100vh;
@@ -17,12 +12,20 @@ body {
 	grid-template: 'hero hero sidebar' 100vh / 1fr 1fr 1fr;
 }
 
+.sidebar {
+	animation: animateIn ($loadingAnimationDuration / 2) $loadingAnimationDuration
+		ease-in-out forwards;
+	background: white;
+	z-index: 2;
+	transform: translateX(100%);
+	transform-origin: right;
+}
+
 .bgImage {
 	position: absolute;
 	top: 0;
 	left: 0;
 	margin: 0;
-	z-index: -1;
 	animation: animateIn ($loadingAnimationDuration / 2) $loadingAnimationDuration
 		ease-in-out forwards;
 	opacity: 0;
