@@ -50,8 +50,14 @@
 			}
 		}
 	}
+	.icon {
+		display: inline;
+	}
 	@media screen and (max-width: $screenMedium) {
 		padding: $spacingBase;
 		min-width: initial;
+		.icon {
+			display: none;
+		}
 	}
 }

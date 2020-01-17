@@ -19,7 +19,7 @@ export default class DWHeading extends React.Component {
 						className={styles.f1}
 						level={1}
 						additionalStyles={{
-							backgroundImage: `${'-webkit-linear-gradient(30deg, rgba(255,255,255, 0.9) 40%, transparent), url("' +
+							backgroundImage: `${'-webkit-linear-gradient(30deg, rgba(255,255,255, 0.8) 40%, transparent), url("' +
 								bgImage +
 								'"'}`,
 						}}

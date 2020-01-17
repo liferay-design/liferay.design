@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Flex, Image } from 'components/atoms'
+import { Flex, Image, AnimateIn, Icon, Link } from 'components/atoms'
 import { SEO } from 'components/molecules'
 
 import { Grid } from 'reakit'
@@ -20,7 +20,7 @@ const DesignWeek = () => {
 	const randomImage = getRandomBgImage(6)
 
 	const bgImage = '/images/design-week/bg-' + randomImage + '.jpg'
-	
+
 	return (
 		<>
 			<SEO
@@ -39,6 +39,18 @@ const DesignWeek = () => {
 					return (
 						<Flex className={styles.page}>
 							<Image src={bgImage} className={styles.bgImage} />
+							<AnimateIn delay={baseDelay * 1.05 + 's'}>
+								<Link to="/">
+									<Icon
+										name="liferayDesicon"
+										height="2rem"
+										width="2rem"
+										fill="white"
+										margin="0 0 2rem -.2rem"
+										className={styles.navIcon}
+									/>
+								</Link>
+							</AnimateIn>
 							<Grid template={gridTemplate} className={styles.grid}>
 								<Grid.Item area="sidebar">
 									<Card
