@@ -31,3 +31,16 @@ body {
 		transform: translateX(0);
 	}
 }
+
+.navIcon {
+	display: none;
+}
+
+@media screen and (max-width: $screenMedium) {
+	.navIcon {
+		display: inline;
+		position: absolute;
+		top: $spacingBase * 1.2;
+		left: $spacingBase * 1.2;
+	}
+}
