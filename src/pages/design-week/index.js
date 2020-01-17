@@ -12,7 +12,15 @@ import { sizes, spacing } from 'theme'
 
 const DesignWeek = () => {
 	const baseDelay = '1.6'
-	const bgImage = '/images/design-week/bg.jpg'
+
+	function getRandomBgImage(max) {
+		return Math.floor(Math.random() * Math.floor(max))
+	}
+
+	const randomImage = getRandomBgImage(6)
+
+	const bgImage = '/images/design-week/bg-' + randomImage + '.jpg'
+	
 	return (
 		<>
 			<SEO
