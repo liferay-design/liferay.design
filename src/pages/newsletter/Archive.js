@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 import { Date } from 'components/molecules'
 import { colors } from 'theme/'
 
-export default ({ }) => {
+export default ({}) => {
 	const data = useStaticQuery(graphql`
 		{
 			allNewsletters(
@@ -23,8 +23,8 @@ export default ({ }) => {
 							subject_line
 							preview_text
 						}
-                        emails_sent
-                        send_time
+						emails_sent
+						send_time
 					}
 				}
 			}
@@ -32,28 +32,24 @@ export default ({ }) => {
 	`)
 
 	const Newsletters = data.allNewsletters.edges.map(({ node }) => (
-		<Flex margin="2rem auto" className={styles.wrapper}>
-			<Date
-				className={styles.date}
-				size="2rem"
-				color={colors.grey}
-				month={moment(node.send_time).format('MMM')}
-				day={moment(node.send_time).format('DD')}
-			/>
-			<Flex direction="column" margin="0 1rem" width="100%">
-				<Link to={node.archive_url}>
+		<Link to={node.archive_url}>
+			<Flex margin="2rem auto" className={styles.wrapper}>
+				<Date
+					className={styles.date}
+					size="2rem"
+					color={colors.grey}
+					month={moment(node.send_time).format('MMM')}
+					day={moment(node.send_time).format('DD')}
+				/>
+				<Flex direction="column" margin="0 1rem" width="100%">
 					<Heading level={2}>
 						{node.settings.title} <Icon name="externalLink" width=".6em" />
 					</Heading>{' '}
 					<Text type="p">{node.settings.subject_line}</Text>
-				</Link>
+				</Flex>
 			</Flex>
-		</Flex>
+		</Link>
 	))
 
-	return (
-		<div>
-			{Newsletters}
-		</div>
-	)
+	return <div>{Newsletters}</div>
 }

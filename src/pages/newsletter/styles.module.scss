@@ -5,6 +5,10 @@
 	transform: translateY(calc(8rem - 2px));
 }
 
+a {
+	color: $black;
+}
+
 .wrapper {
 	max-width: 60ch;
 	border-radius: $spacingXSmall;
@@ -41,10 +45,5 @@
 	h2,
 	p {
 		padding-bottom: $spacingXSmall;
-	}
-
-	a {
-		display: block;
-		color: $black;
 	}
 }
