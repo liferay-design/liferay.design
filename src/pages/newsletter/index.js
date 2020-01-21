@@ -1,11 +1,10 @@
-import { CardGrid, Icon, Link, Heading, Text, Container } from 'components/atoms'
-import { CardDefault, FormNewsletter } from 'components/molecules'
-import { Banner, Footer, Navbar, TopBlogPosts } from 'components/organisms'
+import { Heading, Text, Container } from 'components/atoms'
+import { FormNewsletter } from 'components/molecules'
+import { Footer, Navbar } from 'components/organisms'
 import React from 'react'
-import MediaQuery from 'react-responsive'
-import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 import { Helmet } from 'react-helmet'
+import Archive from './Archive'
 
 export default() => {
 	return (
@@ -37,11 +36,8 @@ export default() => {
 					/>
 				</div>
 			</Container>
-			<Container background="#fff" padding="8rem 0 8rem">
-				<Heading level={2} color="black" padding="4rem">
-					More musings
-				</Heading>
-				<TopBlogPosts />
+			<Container background="#fff" padding="4rem 0 8rem">
+				<Archive />
 			</Container>
 			<Footer />
 		</div>
