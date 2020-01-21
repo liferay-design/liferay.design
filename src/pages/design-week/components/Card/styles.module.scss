@@ -16,6 +16,9 @@
 		font-size: $fontSizeMedium;
 		font-weight: $fontWeightHeavy;
 	}
+	a {
+		display: block;
+	}
 	.button {
 		cursor: pointer;
 		background: linear-gradient(to right, #48668f 0%, #71a3ac);
