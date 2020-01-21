@@ -62,7 +62,7 @@ module.exports = {
 					'campaigns.settings.title',
 					'campaigns.settings.subject_line',
 					'campaigns.settings.preview_text',
-					'campaigns.parent_campaign_id',
+					'campaigns.send_time',
 					'campaigns.emails_sent',
 				],
 				nodeType: 'Newsletters',
