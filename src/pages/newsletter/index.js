@@ -1,4 +1,4 @@
-import { Heading, Text, Container } from 'components/atoms'
+import { Flex, Heading, Text, Container } from 'components/atoms'
 import { FormNewsletter } from 'components/molecules'
 import { Footer, Navbar } from 'components/organisms'
 import React from 'react'
@@ -37,7 +37,9 @@ export default() => {
 				</div>
 			</Container>
 			<Container background="#fff" padding="4rem 0 8rem">
-				<Archive />
+				<Flex className={styles.customContainer}>
+					<Archive />
+				</Flex>
 			</Container>
 			<Footer />
 		</div>

@@ -1,6 +1,11 @@
 @import '~theme/variables';
 @import '~theme/animations';
 
+.customContainer {
+	max-width: 60ch;
+	margin: 0 auto;
+}
+
 .coolForm {
 	transform: translateY(calc(8rem - 2px));
 }
@@ -10,7 +15,6 @@ a {
 }
 
 .wrapper {
-	max-width: 60ch;
 	border-radius: $spacingXSmall;
 	background-color: $white;
 	transition: all 0.4s;
