@@ -54,6 +54,22 @@ module.exports = {
 		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
+		{
+			resolve: 'gatsby-source-mailchimp',
+			options: {
+				campaignFields: [
+					'campaigns.archive_url',
+					'campaigns.settings.title',
+					'campaigns.settings.subject_line',
+					'campaigns.settings.preview_text',
+					'campaigns.parent_campaign_id',
+					'campaigns.emails_sent',
+				],
+				nodeType: 'Newsletters',
+				key: process.env.MAILCHIMP_KEY,
+				rootURL: 'https://us7.api.mailchimp.com/3.0',
+			},
+		},
 		`gatsby-transformer-json`,
 		'gatsby-transformer-sharp',
 		{
