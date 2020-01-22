@@ -33,7 +33,7 @@ export default class DesignWeek extends React.Component {
 				<LoadingAnimation size={spacing.xLarge} />
 
 				<Flex className={styles.page}>
-					<Image src={bgImage} className={styles.bgImage} />
+					<div className={styles.bgImage} style={{backgroundImage:`${'url("'+ bgImage + '")'}`}} />
 					<AnimateIn delay={baseDelay * 1.05 + 's'}>
 						<Link to="/">
 							<Icon
@@ -48,19 +48,21 @@ export default class DesignWeek extends React.Component {
 					</AnimateIn>
 					<Grid className={styles.grid}>
 						<Grid.Item area="sidebar" className={styles.sidebar}>
+						</Grid.Item>
+						<Grid.Item area="hero">
+							<Heading
+								bgImage={bgImage}
+								delay={baseDelay}
+								title="Design Week"
+							/>
+						</Grid.Item>
+						<Grid.Item area="sidebar" className={styles.cta}>
 							<Card
 								place="Los Angeles, CA"
 								date="Mar 23—27"
 								cta="RSVP"
 								ctaUrl="https://forms.gle/PSkzN2vNmwjLz2B37"
 								delay={baseDelay}
-							/>
-						</Grid.Item>
-						<Grid.Item area="hero" style={{ zIndex: '2' }}>
-							<Heading
-								bgImage={bgImage}
-								delay={baseDelay}
-								title="Design Week"
 							/>
 						</Grid.Item>
 					</Grid>
