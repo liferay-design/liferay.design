@@ -39,19 +39,6 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 	animation: keepAnimating 24s $bgTransitionDelay linear forwards;
 	opacity: 0;
 	transform: translateX(-$spacingLarge);
-	&::after {
-		content: '';
-		height: 100%;
-		width: 100%;
-		top: 0;
-		left: 100vw;
-		display: block;
-		background: $black;
-		position: absolute;
-		transform: translateX(-100vw);
-		animation: animateIn $bgTransitionTiming $loadingAnimationDuration
-			$cubicTransition forwards;
-	}
 }
 
 @keyframes animateIn {
