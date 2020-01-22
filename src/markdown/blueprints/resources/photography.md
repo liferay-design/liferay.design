@@ -18,6 +18,7 @@ Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photo
 
 ## Liferay Events Etc
 
+-   [Americas Partner Summmit, Miami 2019](https://photos.app.goo.gl/3nCBATEsKPXkJhrg9)
 -   [North America Symposium, New Orleans 2018](https://photos.app.goo.gl/1BokV7mREGDntdycA)
 -   [Design Week, Diamond Bar 2018](https://photos.app.goo.gl/h8nzVLpd4fCCGGYF2)
 -   [Symposium, Milan 2018](https://photos.app.goo.gl/3VpXSCv3C5EALrJu7)
