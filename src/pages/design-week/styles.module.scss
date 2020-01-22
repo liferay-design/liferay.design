@@ -5,10 +5,11 @@ $cubicTransition: cubic-bezier(0, 0.85, 0.5, 1); // easier to reuse
 $bgTransitionDelay: $loadingAnimationDuration * 0.8;
 $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 
-.page,
-.bgImage {
+.page {
 	height: 100vh;
 	width: 100vw;
+	position: relative;
+	overflow: hidden;
 }
 
 .grid {
@@ -16,21 +17,41 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 }
 
 .sidebar {
-	animation: animateIn $bgTransitionTiming $bgTransitionDelay $cubicTransition forwards;
+	height: 100%;
+	width: 100%;
 	background: white;
-	z-index: 2;
+}
+
+.cta,
+.sidebar {
+	animation: animateIn $bgTransitionTiming $loadingAnimationDuration $cubicTransition
+		forwards;
 	transform: translateX(100%);
 	transform-origin: right;
 }
 
 .bgImage {
+	height: 100%;
+	width: 100%;
 	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
+	background-position: left center;
+	background-size: cover;
 	animation: keepAnimating 24s $bgTransitionDelay linear forwards;
 	opacity: 0;
 	transform: translateX(-$spacingLarge);
+	&::after {
+		content: '';
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 100vw;
+		display: block;
+		background: $black;
+		position: absolute;
+		transform: translateX(-100vw);
+		animation: animateIn $bgTransitionTiming $loadingAnimationDuration
+			$cubicTransition forwards;
+	}
 }
 
 @keyframes animateIn {
