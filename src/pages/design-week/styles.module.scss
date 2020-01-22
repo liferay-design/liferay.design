@@ -2,7 +2,6 @@
 
 $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
 $cubicTransition: cubic-bezier(0, 0.85, 0.5, 1); // easier to reuse
-$bgTransitionDelay: $loadingAnimationDuration * 0.8;
 $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 
 .page {
@@ -14,12 +13,6 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 
 .grid {
 	grid-template: 'hero hero sidebar' 100vh / 1fr 1fr 1fr;
-}
-
-.sidebar {
-	height: 100%;
-	width: 100%;
-	background: white;
 }
 
 .cta,
@@ -36,7 +29,7 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 	position: absolute;
 	background-position: left center;
 	background-size: cover;
-	animation: keepAnimating 24s $bgTransitionDelay linear forwards;
+	animation: keepAnimating 24s $loadingAnimationDuration linear forwards;
 	opacity: 0;
 	transform: translateX(-$spacingLarge);
 }

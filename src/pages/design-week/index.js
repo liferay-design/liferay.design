@@ -47,7 +47,7 @@ export default class DesignWeek extends React.Component {
 						</Link>
 					</AnimateIn>
 					<Grid className={styles.grid}>
-						<Grid.Item area="sidebar" className={styles.sidebar}>
+						<Grid.Item area="sidebar" style={{background:'white', height:'100%', width:'100%'}} className={styles.sidebar}>
 						</Grid.Item>
 						<Grid.Item area="hero">
 							<Heading
