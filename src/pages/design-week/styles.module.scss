@@ -1,6 +1,9 @@
 @import '~theme/variables';
 
 $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
+$cubicTransition: cubic-bezier(0, 0.85, 0.5, 1); // easier to reuse
+$bgTransitionDelay: $loadingAnimationDuration * 0.8;
+$bgTransitionTiming: $loadingAnimationDuration * 1.4;
 
 .page,
 .bgImage {
@@ -13,8 +16,7 @@ $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
 }
 
 .sidebar {
-	animation: animateIn ($loadingAnimationDuration / 2) $loadingAnimationDuration
-		ease-in-out forwards;
+	animation: animateIn $bgTransitionTiming $bgTransitionDelay $cubicTransition forwards;
 	background: white;
 	z-index: 2;
 	transform: translateX(100%);
@@ -26,8 +28,7 @@ $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
 	top: 0;
 	left: 0;
 	margin: 0;
-	animation: animateIn ($loadingAnimationDuration / 2) $loadingAnimationDuration
-		ease-in-out forwards;
+	animation: keepAnimating 24s $bgTransitionDelay linear forwards;
 	opacity: 0;
 	transform: translateX(-$spacingLarge);
 }
@@ -36,6 +37,19 @@ $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
 	to {
 		opacity: 1;
 		transform: translateX(0);
+	}
+}
+@keyframes keepAnimating {
+	0% {
+		opacity: 0;
+		transform: scale(1) translateX(-$spacingLarge);
+	}
+	1% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1.2) translateX($spacingMedium);
 	}
 }
 
