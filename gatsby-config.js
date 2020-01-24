@@ -65,6 +65,9 @@ module.exports = {
 					'campaigns.send_time',
 					'campaigns.emails_sent',
 				],
+				contentFields: [
+					'archive_html',
+				],
 				nodeType: 'Newsletters',
 				key: process.env.MAILCHIMP_KEY,
 				rootURL: 'https://us7.api.mailchimp.com/3.0',
