@@ -5,6 +5,7 @@ import Lexicon from './Lexicon'
 import MainLayout from './MainLayout'
 import PrivatePage from './PrivatePage'
 import Resources from './Resources'
+import Newsletters from './Newsletters'
 
 export {
 	ArticlesLayout,
@@ -15,4 +16,5 @@ export {
 	MainLayout,
 	PrivatePage,
 	Resources,
+	Newsletters,
 }
