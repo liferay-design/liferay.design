@@ -17,13 +17,11 @@ export default ({}) => {
 			) {
 				edges {
 					node {
-						archive_url
 						settings {
 							title
 							subject_line
 							preview_text
 						}
-						emails_sent
 						send_time
 					}
 				}
@@ -32,7 +30,7 @@ export default ({}) => {
 	`)
 
 	const Newsletters = data.allNewsletters.edges.map(({ node }) => (
-		<Link to={node.archive_url}>
+		<Link to={`${'/newsletter/' + moment(node.send_time).format('YYYY-MM')}`}>
 			<Flex margin="2rem auto" className={styles.wrapper}>
 				<Date
 					className={styles.date}
@@ -43,7 +41,7 @@ export default ({}) => {
 				/>
 				<Flex direction="column" margin="0 1rem" width="100%">
 					<Heading level={2}>
-						{node.settings.title} <Icon name="externalLink" width=".6em" />
+						{node.settings.title} 
 					</Heading>{' '}
 					<Text type="p">{node.settings.subject_line}</Text>
 				</Flex>
