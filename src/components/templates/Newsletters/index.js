@@ -28,14 +28,7 @@ export default class Newsletters extends Component {
 export const pageQuery = graphql`
 	query($send_time: Date) {
 		newsletters(send_time: { eq: $send_time }) {
-			id
 			archive_html
-			settings {
-				preview_text
-				subject_line
-				title
-			}
-			send_time(formatString: "YYYY-MM")
 		}
 	}
 `
