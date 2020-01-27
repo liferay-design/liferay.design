@@ -46,11 +46,11 @@ export default function ColorSwatch({ hex, rgb, hsl, title, name, cmyk, pms }) {
 }
 
 ColorSwatch.propTypes = {
-	hex: PropTypes.string.isRequired,
 	name: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
-	rgb: PropTypes.string.isRequired,
-	hsl: PropTypes.string.isRequired,
-	cmyk: PropTypes.string.isRequired,
-	pms: PropTypes.string.isRequired,
+	hex: PropTypes.string,
+	rgb: PropTypes.string,
+	hsl: PropTypes.string,
+	cmyk: PropTypes.string,
+	pms: PropTypes.string,
 }
