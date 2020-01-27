@@ -3,8 +3,13 @@ import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
+const { kebabCase } = require(`lodash`)
 
 export default ({ data }) => {
+
+	const authorID = node.frontmatter.author.id.reverse().join('')
+	const authorSlug = kebabCase(authorID)
+
 	return (
 		<MainLayout section="Team">
 			<SEO
@@ -20,8 +25,8 @@ export default ({ data }) => {
 						<CardDefault
 							delay={`${index}` * 0.1 + 's'}
 							key={node.id}
-							imageURL={node.frontmatter.author.headshot}
-							link={'/team/' + `${node.frontmatter.author.slug}`}
+							imageURL={'/images/headshots/' + authorSlug + '.jpg'}
+							link={'/team/' + authorSlug}
 							title={node.frontmatter.author.id}
 							subtitle={node.frontmatter.author.title}
 							icon={node.frontmatter.author.icon}
@@ -50,10 +55,7 @@ export const query = graphql`
 								author {
 									id
 									title
-									avatar
-									headshot
 									icon
-									slug
 								}
 							}
 							fields {
