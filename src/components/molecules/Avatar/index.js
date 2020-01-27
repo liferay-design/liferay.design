@@ -21,7 +21,7 @@ export default ( {name, guest, ...props} ) => {
 		.map(({ node }) => (
 			<Link to={'/team/' + `${kebabCase(node.id)}`}>
 				<div style={{ width: '3rem' }}>
-					<Image circle src={'/images/headshots/' + kebabCase(node.id)} />
+					<Image circle src={'/images/headshots/' + kebabCase(node.id) + '.jpg'} />
 				</div>
 			</Link>
 		))
