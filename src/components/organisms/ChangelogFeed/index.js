@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Heading, Text, Flex, Link, Icon, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
-import { Avatar } from 'react-md'
+const { kebabCase } = require(`lodash`)
 import moment from 'moment'
 import styles from './styles.module.scss'
 import { Date } from 'components/molecules'
@@ -20,14 +20,12 @@ export default function ChangelogFeed({ items, ...props }) {
 						titleUrl
 						author {
 							id
-							headshot
 						}
 						title
 						icon
 						longSummary
 						contributors {
 							id
-							headshot
 						}
 						buildPreview
 					}
@@ -35,6 +33,8 @@ export default function ChangelogFeed({ items, ...props }) {
 			}
 		}
 	`)
+
+	const imagePath = '/images/headshots/'
 
 	const Feed = data.allChangelogYaml.edges.slice(0, `${items}`).map(({ node }) => (
 		<Flex margin="4rem 0" key={node.id} className={styles.wrapper}>
@@ -49,23 +49,25 @@ export default function ChangelogFeed({ items, ...props }) {
 				<Link to={node.titleUrl}>
 					<Heading level={2}>
 						{node.title}{' '}
-						{node.titleUrl ? (
-							<Icon name="externalLink" width=".6em" />
-						) : null}
+						{node.titleUrl ? <Icon name="externalLink" width=".6em" /> : null}
 					</Heading>{' '}
-						{node.longSummary ? <Text type="p">{node.longSummary}</Text> : ''}
+					{node.longSummary ? <Text type="p">{node.longSummary}</Text> : ''}
 				</Link>
 				<Flex justify="space-between" flexWrap="wrap">
-					<Flex direction='row-reverse' className={styles.avatarWrapper}>
+					<Flex direction="row-reverse" className={styles.avatarWrapper}>
 						{node.contributors ? (
 							<>
 								{node.contributors.map(i => (
 									<div>
 										<Image
 											className={styles.avatar}
-											role='presentation'
+											role="presentation"
 											title={i.id}
-											src={i.headshot}
+											src={
+												imagePath +
+												kebabCase(i.id) +
+												'.jpg'
+											}
 											alt={`${i.id}` + '‘s headshot'}
 										/>
 									</div>
@@ -76,8 +78,8 @@ export default function ChangelogFeed({ items, ...props }) {
 						)}
 						<Image
 							className={styles.avatar}
-							role='presentation'
-							src={node.author.headshot}
+							role="presentation"
+							src={imagePath + kebabCase(node.author.id) + '.jpg'}
 							title={node.author.id}
 							alt={`${node.author.id}` + '‘s headshot'}
 						/>
