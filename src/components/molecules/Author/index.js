@@ -22,14 +22,14 @@ export default ( {id, guest, ...props} ) => {
 		.filter(edges => edges.node.id === id)
 		.map(({ node }) => (
 			<Flex {...props} align="center">
-				<Link to={'/team/' + `${kebabCase(node.id)}`}>
+				<Link to={'/team/' + kebabCase(node.id)}>
 					<div style={{ marginRight: '.5rem', width: '3rem' }}>
-						<Image circle src={imagePath + kebabCase(node.id)} />
+						<Image circle src={imagePath + kebabCase(node.id) + '.jpg'} />
 					</div>
 				</Link>
 				<Text size="medium" color="grey">
 					by {''}
-					<Link to={'/team/' + `${kebabCase(node.id)}`}>{id}</Link>
+					<Link to={'/team/' + kebabCase(node.id)}>{id}</Link>
 				</Text>
 			</Flex>
 		))
