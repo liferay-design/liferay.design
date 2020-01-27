@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { CardGrid, Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
-const { kebabCase } = require(`lodash`)
+import {makeAuthorSlug, avatarPath} from 'utils'
 
 export default ( {teammate, currentPost, ...props} ) => {
 	const data = useStaticQuery(graphql`
@@ -35,7 +35,7 @@ export default ( {teammate, currentPost, ...props} ) => {
 	`)
 
 	const Posts = data.allMdx.edges
-		.filter(edges => kebabCase(edges.node.frontmatter.author.id) === teammate && edges.node.id !== currentPost)
+		.filter(edges => makeAuthorSlug(edges.node.frontmatter.author.id) === teammate && edges.node.id !== currentPost)
 		.slice(0,3)
 		.map(({ node }) => (
 			<CardDefault
@@ -45,7 +45,7 @@ export default ( {teammate, currentPost, ...props} ) => {
 				link={node.fields.slug}
 				title={node.frontmatter.title}
 				subtitle={`${node.timeToRead}` + ' Min Read'}
-				avatarImageURL={`${'/images/headshots/' + kebabCase(node.frontmatter.author.id) + '-h.jpg'}`}
+				avatarImageURL={avatarPath(node.frontmatter.author.id)}
 			/>
 		))
 
