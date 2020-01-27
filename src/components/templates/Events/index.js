@@ -7,7 +7,6 @@ import { graphql } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { colors } from 'theme/'
 
 export default class Events extends Component {
 	render() {
@@ -122,8 +121,6 @@ export const pageQuery = graphql`
 				date
 				author {
 					id
-					avatar
-					slug
 				}
 				endDateTime
 				heroImage

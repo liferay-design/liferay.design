@@ -5,6 +5,7 @@ import { CardGrid, Container, Heading, Flex } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { colors, fontSizes, fontWeights } from 'theme'
+import {avatarPath} from 'utils'
 
 const Tags = ({ pageContext, data }) => {
 	const { tag } = pageContext
@@ -46,7 +47,7 @@ const Tags = ({ pageContext, data }) => {
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={`${node.timeToRead}` + ' Min Read'}
-							avatarImageURL={node.frontmatter.author.avatar}
+							avatarImageURL={avatarPath(node.frontmatter.author.id)}
 						/>
 					))}
 				</CardGrid>
@@ -96,7 +97,6 @@ export const pageQuery = graphql`
 								featuredImage
 								author {
 									id
-									avatar
 								}
 							}
 						}
