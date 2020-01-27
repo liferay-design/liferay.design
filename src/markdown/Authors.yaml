@@ -2,180 +2,120 @@
 # Active Designers
 - id: Abel Hancock
   title: Product Designer
-  slug: hancock-abel
-  headshot: '/images/headshots/hancock-abel.jpg'
-  avatar: '/images/headshots/hancock-abel-h.jpg'
   active: true
   icon: fa_code
   startDate: 2017-09-18
   office: Diamond Bar
 - id: Andrea Censi
   title: Product Designer
-  slug: censi-andrea
-  headshot: '/images/headshots/censi-andrea.jpg'
-  avatar: '/images/headshots/censi-andrea-h.jpg'
   active: true
   icon: fa_headphones_alt
   startDate: 2018-05-14
   office: Concorezzo
 - id: Christopher Jeong
   title: Senior Product Designer
-  slug: jeong-chris
-  headshot: '/images/headshots/jeong-chris.jpg'
-  avatar: '/images/headshots/jeong-chris-h.jpg'
   active: true
   icon: fa_glasses
   startDate: 2017-10-16
   office: Diamond Bar
 - id: David Aragonés
   title: Senior Product Designer
-  slug: aragones-david
-  headshot: '/images/headshots/aragones-david.jpg'
-  avatar: '/images/headshots/aragones-david-h.jpg'
   active: true
   icon: fa_universal_access
   startDate: 2016-08-22
   office: Madrid
 - id: Emiliano Cicero
   title: Product Designer
-  slug: cicero-emiliano
-  headshot: '/images/headshots/cicero-emiliano.jpg'
-  avatar: '/images/headshots/cicero-emiliano-h.jpg'
   active: true
   icon: fa_bezier_curve
   startDate: 2016-08-10
   office: Madrid
 - id: Emily Young
   title: Manager, Communication Design
-  slug: young-emily
-  headshot: '/images/headshots/young-emily.jpg'
-  avatar: '/images/headshots/young-emily-h.jpg'
   active: true
   icon: fa_stroopwafel
   startDate: 2008-08-01
   office: Diamond Bar
 - id: Felipe Pires
   title: Senior Product Designer
-  slug: pires-felipe
-  headshot: '/images/headshots/pires-felipe.jpg'
-  avatar: '/images/headshots/pires-felipe-h.jpg'
   active: true
   icon: fa_dumbbell
   startDate: 2015-09-01
   office: Recife
 - id: James Lyons
   title: Product Designer
-  slug: lyons-james
-  headshot: '/images/headshots/lyons-james.jpg'
-  avatar: '/images/headshots/lyons-james-h.jpg'
   active: true
   icon: fa_drum
   startDate: 2018-09-10
   office: Diamond Bar
 - id: Jessica Lee
   title: Communication Designer
-  slug: lee-jessica
-  headshot: '/images/headshots/lee-jessica.jpg'
-  avatar: '/images/headshots/lee-jessica-h.jpg'
   active: true
   icon: fa_pen_nib
   startDate: 2017-07-10
   office: Diamond Bar
 - id: Jon Wood
   title: Product Designer
-  slug: wood-jon
-  headshot: '/images/headshots/wood-jon.jpg'
-  avatar: '/images/headshots/wood-jon-h.jpg'
   active: true
   icon: fa_keyboard
   startDate: 2019-04-15
   office: Diamond Bar
 - id: Juan Antón
   title: Senior Product Designer
-  slug: anton-juan
-  headshot: '/images/headshots/anton-juan.jpg'
-  avatar: '/images/headshots/anton-juan-h.jpg'
   active: true
   icon: fa_palette
   startDate: 2016-08-18
   office: Madrid
 - id: Juan Hidalgo
   title: Director, Design
-  slug: hidalgo-juan
-  headshot: '/images/headshots/hidalgo-juan.jpg'
-  avatar: '/images/headshots/hidalgo-juan-h.jpg'
   active: true
   icon: fa_heart
   startDate: 2016-10-17
   office: Diamond Bar
 - id: Julia Yang
   title: Communication Designer
-  slug: yang-julia
-  headshot: '/images/headshots/chan-julia.jpg'
-  avatar: '/images/headshots/chan-julia-h.jpg'
   active: true
   icon: fa_coffee
   startDate: 2017-01-09
   office: Diamond Bar
 - id: Laura García
   title: Associate Product Designer
-  slug: garcia-laura
-  headshot: '/images/headshots/garcia-laura.jpg'
-  avatar: '/images/headshots/garcia-laura-h.jpg'
   active: true
   icon: fa_spa
   startDate: 2019-10-12T07:00:00Z
   office: Madrid
 - id: Markus Hammer
   title: Senior Communication Designer
-  slug: hammer-markus
-  headshot: '/images/headshots/hammer-markus.jpg'
-  avatar: '/images/headshots/hammer-markus-h.jpg'
   active: true
   icon: fa_gavel
   startDate: 2016-09-15
   office: Eschborn
 - id: Marleny Francisco
   title: Communication Designer
-  slug: francisco-marleny
-  headshot: '/images/headshots/francisco-marleny.jpg'
-  avatar: '/images/headshots/francisco-marleny-h.jpg'
   active: true
   icon: fa_headphones_alt
   startDate: 2019-08-12T07:00:00Z
   office: Madrid
 - id: Miriam Manso
   title: Associate Product Designer
-  slug: manso-miriam
-  headshot: '/images/headshots/manso-miriam.jpg'
-  avatar: '/images/headshots/manso-miriam-h.jpg'
   active: true
   icon: fa_pointe_shoe
   startDate: 2018-10-15
   office: Madrid
 - id: Naoki Hisamoto
   title: Communication Designer
-  slug: hisamoto-naoki
-  headshot: '/images/headshots/hisamoto-naoki.jpg'
-  avatar: '/images/headshots/hisamoto-naoki-h.jpg'
   active: true
   icon: fa_check_double
   startDate: 2017-04-18
   office: Diamond Bar
 - id: Patrick Pentz
   title: Product Designer
-  slug: pentz-patrick
-  headshot: '/images/headshots/pentz-patrick.jpg'
-  avatar: '/images/headshots/pentz-patrick-h.jpg'
   active: true
   icon: fa_camera
   startDate: 2017-08-07
   office: Diamond Bar
 - id: Paul Hanaoka
   title: Manager, Product Design NA
-  slug: hanaoka-paul
-  headshot: '/images/headshots/hanaoka-paul.jpg'
-  avatar: '/images/headshots/hanaoka-paul-h.jpg'
   active: true
   icon: fa_terminal
   startDate: 2014-08-25
@@ -188,54 +128,36 @@
   medium: '@plhnk'
 - id: Rachel Yuan
   title: Senior Communication Designer
-  slug: yuan-rachel
-  headshot: '/images/headshots/yuan-rachel.jpg'
-  avatar: '/images/headshots/yuan-rachel-h.jpg'
   active: true
   icon: fa_chess_queen
   startDate: 2013-10-07
   office: Diamond Bar
 - id: Ryan Connolly
   title: Principal Designer
-  slug: connolly-ryan
-  headshot: '/images/headshots/connolly-ryan.jpg'
-  avatar: '/images/headshots/connolly-ryan-h.jpg'
   active: true
   icon: fa_pen
   startDate: 2017-04-24
   office: Diamond Bar
 - id: Sharon Kim
   title: Communication Designer
-  slug: kim-sharon
-  headshot: '/images/headshots/wong-sharon.jpg'
-  avatar: '/images/headshots/wong-sharon-h.jpg'
   active: true
   icon: fa_pen_fancy
   startDate: 2014-07-21
   office: Diamond Bar
 - id: Susana Vázquez
   title: Product Designer
-  slug: vazquez-susana
-  headshot: '/images/headshots/vazquez-susana.jpg'
-  avatar: '/images/headshots/vazquez-susana-h.jpg'
   active: true
   icon: fa_archway
   startDate: 2017-10-18
   office: Madrid
 - id: Victor Valle
   title: Manager, Product Design EMEA
-  slug: valle-victor
-  headshot: '/images/headshots/valle-victor.jpg'
-  avatar: '/images/headshots/valle-victor-h.jpg'
   active: true
   icon: fa_fingerprint
   startDate: 2016-08-18
   office: Madrid
 - id: Vitor Fernandes
   title: Manager, Product Design
-  slug: fernandes-vitor
-  headshot: '/images/headshots/fernandes-vitor.jpg'
-  avatar: '/images/headshots/fernandes-vitor-h.jpg'
   active: true
   icon: fa_rocket
   startDate: 2018-03-12
@@ -244,81 +166,54 @@
 # Inactive Designers
 - id: Cassandra Balbas
   title: UX Design Intern
-  slug: balbas-cassandra
-  headshot: '/images/headshots/balbas-cassandra.jpg'
-  avatar: '/images/headshots/balbas-cassandra-h.jpg'
   active: false
   icon: fa_drum
   startDate: 2018-01-03
   office: Diamond Bar
 - id: Jadson Dantas
   title: Product Designer
-  slug: dantas-jadson
-  headshot: '/images/headshots/dantas-jadson.jpg'
-  avatar: '/images/headshots/dantas-jadson-h.jpg'
   active: false
   icon: fa_music
   startDate: 2018-01-03
   office: Recife
 - id: Rafael Fernandes
   title: Product Designer
-  slug: fernandes-rafael
-  headshot: '/images/headshots/fernandes-rafael.jpg'
-  avatar: '/images/headshots/fernandes-rafael-h.jpg'
   active: false
   icon: fa_music
   startDate: 2018-01-03
   office: Recife
 - id: Bryan Ho
   title: Associate Communication Design Manager
-  slug: ho-bryan
-  headshot: '/images/headshots/ho-bryan.jpg'
-  avatar: '/images/headshots/ho-bryan-h.jpg'
   active: false
   icon: fa_music
   startDate: 2018-01-03
   office: Diamond Bar
 - id: Duuriimaa Bargaid
   title: Associate Product Designer
-  slug: bargaid-duuriimaa
-  headshot: '/images/headshots/bargaid-duuriimaa.jpg'
-  avatar: '/images/headshots/bargaid-duuriimaa-h.jpg'
   active: false
   icon: fa_drum
   startDate: 2018-02-08
   office: Madrid
 - id: András Himer
   title: Product Designer
-  slug: himer-andras
-  headshot: '/images/headshots/-upside-down-face.png'
-  avatar: '/images/headshots/-upside-down-face.png'
   active: false
   icon: fa_heart
   startDate: 2018-05-07
   office: Budapest
 - id: David Kim
   title: Product Designer
-  slug: kim-david
-  headshot: '/images/headshots/kim-david.jpg'
-  avatar: '/images/headshots/kim-david-h.jpg'
   active: false
   icon: fa_pastafarianism
   startDate: 2018-09-17
   office: Diamond Bar
 - id: Karolina Kolodziej
   title: Associate Product Designer
-  slug: kolodziej-karolina
-  headshot: '/images/headshots/-sunglasses.png'
-  avatar: '/images/headshots/-sunglasses.png'
   active: false
   icon: fa_map_marked_alt
   startDate: 2019-05-06
   office: Concorezzo
 - id: Nathália Moura
   title: Product Designer
-  slug: moura-nathalia
-  headshot: '/images/headshots/moura-nathalia.jpg'
-  avatar: '/images/headshots/moura-nathalia-h.jpg'
   active: false
   icon: fa_map_marked_alt
   startDate: 2016-11-07
@@ -326,8 +221,6 @@
 
 # Friends of Design :)
 - id: Angelo Youn
-  headshot: '/images/headshots/youn-angelo.jpg'
   active: false
 - id: Ryan Garant
-  headshot: '/images/headshots/garant-ryan.jpg'
   active: false
