@@ -1,5 +1,5 @@
 ---
-author: 'Julia Yang'
+author: 'Julia Chan'
 ---
 
 ### How did you get into design?
