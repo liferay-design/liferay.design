@@ -7,6 +7,7 @@ import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import { colors } from 'theme'
+import { makeAuthorSlug } from 'utils'
 
 export default class Articles extends Component {
 	render() {
@@ -54,7 +55,7 @@ export default class Articles extends Component {
 										textDecorationColor: colors.primary,
 									}}
 									to={withPrefix(
-										'/team/' + `${post.frontmatter.author.slug}`,
+										'/team/' + `${makeAuthorSlug(post.frontmatter.author.id)}`,
 									)}
 								>
 									{post.frontmatter.author.id}
@@ -71,7 +72,7 @@ export default class Articles extends Component {
 											}}
 											to={withPrefix(
 												'/team/' +
-													`${i.slug}`,
+													`${makeAuthorSlug(i.id)}`,
 											)}
 										>
 											{i.id}
@@ -102,7 +103,7 @@ export default class Articles extends Component {
 				</div>
 				<RecentBlogPosts
 					heading={'More posts by ' + `${post.frontmatter.author.id}`}
-					teammate={post.frontmatter.author.slug}
+					teammate={`${makeAuthorSlug(post.frontmatter.author.id)}`}
 					currentPost={post.id}
 				/>
 				<Footer light />
@@ -119,7 +120,6 @@ export const pageQuery = graphql`
 			frontmatter {
 				author {
 					id
-					slug
 					twitter
 				}
 				featuredImage
@@ -129,8 +129,6 @@ export const pageQuery = graphql`
 				tags
 				contributors {
 					id
-					slug
-					headshot
 				}
 			}
 			excerpt

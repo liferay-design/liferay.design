@@ -3,13 +3,9 @@ import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
-const { kebabCase } = require(`lodash`)
+import { headshotPath, makeAuthorSlug } from 'utils'
 
 export default ({ data }) => {
-
-	const authorID = node.frontmatter.author.id.reverse().join('')
-	const authorSlug = kebabCase(authorID)
-
 	return (
 		<MainLayout section="Team">
 			<SEO
@@ -25,8 +21,8 @@ export default ({ data }) => {
 						<CardDefault
 							delay={`${index}` * 0.1 + 's'}
 							key={node.id}
-							imageURL={'/images/headshots/' + authorSlug + '.jpg'}
-							link={'/team/' + authorSlug}
+							imageURL={headshotPath(node.frontmatter.author.id)}
+							link={'/team/' + makeAuthorSlug(node.frontmatter.author.id)}
 							title={node.frontmatter.author.id}
 							subtitle={node.frontmatter.author.title}
 							icon={node.frontmatter.author.icon}
@@ -39,31 +35,31 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					filter: {
-						fileAbsolutePath: { regex: "/(/team/)/" }
-						frontmatter: { author: { active: { eq: true } } }
-					}
-					sort: { order: ASC, fields: [fields___slug] }
-				) {
-					totalCount
-					edges {
-						node {
+	{
+		allMdx(
+			filter: {
+				fileAbsolutePath: { regex: "/(/team/)/" }
+				frontmatter: { author: { active: { eq: true } } }
+			}
+			sort: { order: ASC, fields: [fields___slug] }
+		) {
+			totalCount
+			edges {
+				node {
+					id
+					frontmatter {
+						author {
 							id
-							frontmatter {
-								author {
-									id
-									title
-									icon
-								}
-							}
-							fields {
-								slug
-							}
-							excerpt
+							title
+							icon
 						}
 					}
+					fields {
+						slug
+					}
+					excerpt
 				}
 			}
-		`
+		}
+	}
+`

@@ -4,6 +4,7 @@ import { MainLayout } from 'components/templates'
 import { colors, fontSizes, fontWeights } from 'theme'
 import { graphql } from 'gatsby'
 import React from 'react'
+import { avatarPath } from 'utils'
 
 export default ({ data }) => {
 	return (
@@ -17,7 +18,7 @@ export default ({ data }) => {
 					<Heading level={1} color="white" padding="4rem">
 						The Latest Posts
 					</Heading>
-					<div style={{alignSelf:'baseline', marginTop:'1.8rem'}}>
+					<div style={{ alignSelf: 'baseline', marginTop: '1.8rem' }}>
 						<Link
 							style={{
 								background: colors.black,
@@ -62,7 +63,7 @@ export default ({ data }) => {
 							link={node.fields.slug}
 							title={node.frontmatter.title}
 							subtitle={`${node.timeToRead}` + ' Min Read'}
-							avatarImageURL={node.frontmatter.author.avatar}
+							avatarImageURL={avatarPath(node.frontmatter.author.id)}
 						/>
 					))}
 				</CardGrid>
@@ -72,37 +73,36 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					filter: {
-						fileAbsolutePath: { regex: "/(articles)/" },
-						frontmatter: {
-							publish: {eq: true}, 
-							tags: {nin: ["Talks", "Best Practices"]}
-						},
-					},
-					sort: { order: DESC, fields: [frontmatter___date] }
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							timeToRead
-							frontmatter {
-								title
-								featuredImage
-								author {
-									id
-									avatar
-								}
-								tags
-							}
-							fields {
-								slug
-							}
-							excerpt
-						}
-					}
+	{
+		allMdx(
+			filter: {
+				fileAbsolutePath: { regex: "/(articles)/" }
+				frontmatter: {
+					publish: { eq: true }
+					tags: { nin: ["Talks", "Best Practices"] }
 				}
 			}
-		`
+			sort: { order: DESC, fields: [frontmatter___date] }
+		) {
+			totalCount
+			edges {
+				node {
+					id
+					timeToRead
+					frontmatter {
+						title
+						featuredImage
+						author {
+							id
+						}
+						tags
+					}
+					fields {
+						slug
+					}
+					excerpt
+				}
+			}
+		}
+	}
+`

@@ -1,6 +1,6 @@
 import { Container, Flex, ScrollProgress } from 'components/atoms'
 import { GlobalMdx, SEO } from 'components/molecules'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
@@ -8,6 +8,7 @@ import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import MediaQuery from 'react-responsive'
 import moment from 'moment'
+import { avatarPath, makeAuthorSlug } from 'utils'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -26,11 +27,15 @@ export default class Team extends Component {
 				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
-					previewImage={withPrefix(post.frontmatter.author.avatar)}
-					keywords='designer, profile'
-					pageTitle={`${post.frontmatter.author.id}` + ' | Designing at Liferay since ' + `${moment(post.frontmatter.author.startDate,).format('YYYY')}`}
+					previewImage={withPrefix(avatarPath(post.frontmatter.author.id))}
+					keywords="designer, profile"
+					pageTitle={
+						`${post.frontmatter.author.id}` +
+						' | Designing at Liferay since ' +
+						`${moment(post.frontmatter.author.startDate).format('YYYY')}`
+					}
 					twitterHandle={post.frontmatter.author.twitter}
-					contentType='profile'
+					contentType="profile"
 				/>
 				<Navbar section="Team" />
 				<Container banner>
@@ -48,8 +53,7 @@ export default class Team extends Component {
 											<span className={styles.startYear}>
 												Designing at Liferay since{' '}
 												{moment(
-													post.frontmatter.author
-														.startDate,
+													post.frontmatter.author.startDate,
 												).format('YYYY')}
 											</span>
 										) : null}
@@ -59,7 +63,7 @@ export default class Team extends Component {
 									</div>
 									<img
 										src={withPrefix(
-											post.frontmatter.author.avatar,
+											avatarPath(post.frontmatter.author.id),
 										)}
 									/>
 								</Flex>
@@ -68,11 +72,7 @@ export default class Team extends Component {
 					</MediaQuery>
 				</Container>
 				<div className={styles.markdownContainer}>
-					<Flex
-						margin="auto"
-						direction="column"
-						className={styles.wrapper}
-					>
+					<Flex margin="auto" direction="column" className={styles.wrapper}>
 						<GlobalMdx>
 							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
@@ -80,7 +80,7 @@ export default class Team extends Component {
 				</div>
 				<RecentBlogPosts
 					heading={'Recent posts by ' + `${post.frontmatter.author.id}`}
-					teammate={post.frontmatter.author.slug}
+					teammate={makeAuthorSlug(post.frontmatter.author.id)}
 				/>
 				<Footer light />
 			</div>
@@ -94,10 +94,8 @@ export const pageQuery = graphql`
 			frontmatter {
 				author {
 					id
-					slug
 					startDate
 					title
-					avatar
 					twitter
 				}
 			}
