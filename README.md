@@ -75,6 +75,8 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 1. See the [Contributing Guidelines](/CONTRIBUTING.md) for what to do after you make some improvements!
 
+_N.B. Our site requires API keys to be fully built — while we're working on making it easy for anyone to contribute to, there are some technical limitations that we've run into. As a result, either you won't be able to build the site locally or some sections of the site will be missing. This should not affect your ability to make edits to content. Please reach out to [Paul Hanaoka](https://liferay.slack.com/team/U32FWRXDY) if you need keys._
+
 <br />
 <br />
 
