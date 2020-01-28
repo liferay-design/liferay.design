@@ -4,7 +4,6 @@ import styles from './styles.module.scss'
 import ReCAPTCHA from 'react-google-recaptcha'
 
 const FormNewsletter = ({ placeholderText, submitText }) => {
-
 	return (
 		<form
 			method="POST"
@@ -24,9 +23,13 @@ const FormNewsletter = ({ placeholderText, submitText }) => {
 				<label className={styles.label} htmlFor="email">
 					Email Address
 				</label>
-				<div className={styles.captcha}>
-					<ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
-				</div>
+				{process.env.GATSBY_RECAPTCHA_KEY ? (
+					<div className={styles.captcha}>
+						<ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
+					</div>
+				) : (
+					console.log('no recaptcha key')
+				)}
 				<input
 					type="submit"
 					name="submit"
@@ -49,6 +52,5 @@ FormNewsletter.defaultProps = {
 	placeholderText: 'Your Email Address',
 	submitText: 'Submit',
 }
-
 
 export default FormNewsletter

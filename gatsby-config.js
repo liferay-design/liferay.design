@@ -2,6 +2,28 @@ require('dotenv').config({
 	path: `.env.${process.env.NODE_ENV}`,
 })
 
+const dynamicPlugins = []
+
+if (process.env.MAILCHIMP_KEY) {
+	dynamicPlugins.push({
+		resolve: 'gatsby-source-mailchimp',
+		options: {
+			campaignFields: [
+				'campaigns.archive_url',
+				'campaigns.settings.title',
+				'campaigns.settings.subject_line',
+				'campaigns.settings.preview_text',
+				'campaigns.send_time',
+				'campaigns.emails_sent',
+			],
+			contentFields: ['archive_html'],
+			nodeType: 'Newsletters',
+			key: process.env.MAILCHIMP_KEY,
+			rootURL: 'https://us7.api.mailchimp.com/3.0',
+		},
+	})
+}
+
 module.exports = {
 	siteMetadata: {
 		title: 'Liferay.Design',
@@ -54,25 +76,6 @@ module.exports = {
 		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
-		{
-			resolve: 'gatsby-source-mailchimp',
-			options: {
-				campaignFields: [
-					'campaigns.archive_url',
-					'campaigns.settings.title',
-					'campaigns.settings.subject_line',
-					'campaigns.settings.preview_text',
-					'campaigns.send_time',
-					'campaigns.emails_sent',
-				],
-				contentFields: [
-					'archive_html',
-				],
-				nodeType: 'Newsletters',
-				key: process.env.MAILCHIMP_KEY,
-				rootURL: 'https://us7.api.mailchimp.com/3.0',
-			},
-		},
 		`gatsby-transformer-json`,
 		'gatsby-transformer-sharp',
 		{
@@ -132,7 +135,8 @@ module.exports = {
 				],
 			},
 		},
-	],
+	].concat(dynamicPlugins),
+
 	mapping: {
 		'MarkdownRemark.frontmatter.author': `AuthorsYaml`,
 		'Mdx.frontmatter.author': `AuthorsYaml`,
