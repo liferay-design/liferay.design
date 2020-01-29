@@ -18,6 +18,7 @@ const SidebarContent = ({ path, tree }) => {
 					key={node.order}
 					open={path.toLowerCase().includes(node.title.toLowerCase().replace(/ /g,"-"))}
 					title={node.title}
+					parentLink={node.slug}
 				>
 					<SidebarContent path={path} tree={node.children} />
 				</Accordion>
