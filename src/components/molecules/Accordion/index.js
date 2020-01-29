@@ -1,4 +1,4 @@
-import { Flex, Icon } from 'components/atoms'
+import { Link, Flex, Icon } from 'components/atoms'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 
@@ -25,7 +25,9 @@ export default class Accordion extends Component {
 					justify="space-between"
 					padding="0.55rem 1rem"
 				>
-					<span>{this.props.title}</span>
+					<Link to={this.props.parentLink}>
+						<span>{this.props.title}</span>
+					</Link>
 
 					{this.state.showChildren ? (
 						<Icon name="keyboardArrowRight" rotate={90} />
