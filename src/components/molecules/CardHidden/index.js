@@ -3,14 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-const CardHidden = ({
-	cta,
-	delay,
-	icon,
-	text,
-	title,
-	to,
-}) => {
+const CardHidden = ({ cta, delay, icon, text, title, to }) => {
 	return (
 		<AnimateIn delay={delay}>
 			<Link to={to} className={styles.cardHidden}>
@@ -20,11 +13,7 @@ const CardHidden = ({
 					style={delay ? { animationDelay: `${delay}` } : null}
 				>
 					{icon ? (
-						<Flex
-							align="flex-start"
-							justify="center"
-							className={styles.icon}
-						>
+						<Flex align="flex-start" justify="center" className={styles.icon}>
 							<Icon
 								fill="primary"
 								className={styles.icon}
@@ -36,10 +25,7 @@ const CardHidden = ({
 						</Flex>
 					) : null}
 					<Flex direction="column" className={styles.copy}>
-						<Heading
-							level={icon ? `${2}` : `${3}`}
-							className={styles.title}
-						>
+						<Heading level={icon ? 2 : 3} className={styles.title}>
 							{title}
 						</Heading>
 						<Text
