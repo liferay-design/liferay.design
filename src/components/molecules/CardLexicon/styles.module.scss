@@ -77,7 +77,10 @@
 		padding: 0 $spacingMedium ($spacingMedium * 2);
 	}
 	.icon {
-		padding: ($spacingMedium * 2) $spacingMedium 0;
+		padding: 0 $spacingMedium;
+	}
+	.spacer {
+		padding: $spacingMedium 0;
 	}
 	.image {
 		max-height: 300px;

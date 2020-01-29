@@ -56,7 +56,8 @@ const CardLexicon = ({
 						>
 							<Image src={imageUrl} />
 						</Flex>
-					) : (
+					) : <div className={styles.spacer}/>}
+					{icon ? (
 						<Flex
 							align="center"
 							justify="center"
@@ -71,7 +72,7 @@ const CardLexicon = ({
 								fill="white"
 							/>
 						</Flex>
-					)}
+					) : null}
 					<div
 						className={styles.copy}
 						style={{
@@ -89,14 +90,16 @@ const CardLexicon = ({
 						<Text type="p" size="medium" className={styles.text}>
 							{text}
 						</Text>
-						<Text
-							type="p"
-							size="base"
-							weight="black"
-							className={styles.cta}
-						>
-							{cta}
-						</Text>
+						{cta ? (
+							<Text
+								type="p"
+								size="base"
+								weight="black"
+								className={styles.cta}
+							>
+								{cta}
+							</Text>
+						) : null}
 					</div>
 				</Flex>
 			</Link>
