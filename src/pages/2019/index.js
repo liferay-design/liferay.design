@@ -47,7 +47,7 @@ const TwentyNineteen = () => {
 					<div className={styles.keyArt}>
 						<KeyArt />
 					</div>
-					<Heading level="1" className={styles.f2}>
+					<Heading level={1} className={styles.f2}>
 						{data.title.split(' ').map((title, i) => (
 							<span key={i} className={styles.firstWhite}>
 								{title}
@@ -100,7 +100,7 @@ const TwentyNineteen = () => {
 						{data.departmentSection.subDepartments.map(
 							({ subDepartment }) => (
 								<Flex direction="column" align="center" justify="center">
-									<Heading level="3" className={styles.f4}>
+									<Heading level={3} className={styles.f4}>
 										{subDepartment.title
 											.split(' ')
 											.map((title, i) => (
