@@ -16,7 +16,7 @@ export default() => {
 			</Helmet>
 			<Navbar />
 			<Container padding="4rem 0 0">
-				<Heading align="center" color="white" level="1">
+				<Heading align="center" color="white" level={1}>
 					Receive Monthly Updates
 				</Heading>
 				<Text

@@ -23,7 +23,7 @@ const SimpleCard = ({ image, title, subtitle, description, link, url, avatarImag
 			) : (
 				<img src={`${withPrefix(`${image}`)}`} className={styles.cardImage} />
 			)}
-			<Heading level="3" className={styles.f3}>
+			<Heading level={3} className={styles.f3}>
 				{title}
 			</Heading>
 			<span className={styles.pSmall}>{subtitle}</span>
