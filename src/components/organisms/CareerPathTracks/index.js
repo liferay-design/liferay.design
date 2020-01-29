@@ -10,6 +10,7 @@ export const CareerPathTracks = ({
 	signals,
 	title,
 	track,
+	completeTrack,
 	...props
 }) => {
 	const data = useStaticQuery(graphql`
@@ -33,17 +34,20 @@ export const CareerPathTracks = ({
 
 	const Tracks = data.allPathTracksJson.edges
 		// .filter(edgeItem => edgeItem.node.label === track)
-		.filter(edgeItem => edgeItem.node.vertical === vertical || edgeItem.node.label === track)
+		.filter(
+			edgeItem =>
+				edgeItem.node.vertical === vertical || edgeItem.node.label === track,
+		)
 		.map(({ node }) => (
 			<>
-				<h3>{node.label}</h3>
-				{description ? <p>{node.description}</p> : null}
+				{completeTrack ? null : <h3>{node.label}</h3>}
+				{completeTrack || description ? <p>{node.description}</p> : null}
 				<div>
-					{summary ? (
+					{completeTrack || summary ? (
 						node.levels.map(level => (
 							<div>
-								<p>{level.summary}</p>
-								{signals ? (
+								<h2>{level.summary}</h2>
+								{completeTrack || signals ? (
 									<ul>
 										{level.signals.map(signal => (
 											<li>{signal}</li>
