@@ -52,7 +52,7 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 					display: 'block',
 				}}
 				alt={alt ? alt : caption}
-				src={`${withPrefix(`${src}`)}`}
+				src={withPrefix(`${src}`)}
 				loading="lazy"
 			/>
 			{caption ? (
