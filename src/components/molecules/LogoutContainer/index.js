@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 export default class LogoutContainer extends Component {
 	state = { collapsed: true, panel: [] }
 
-	componentWillMount() {
+	componentDidMount() {
 		this.setState({
 			collapsed: true,
 			panel: [],
