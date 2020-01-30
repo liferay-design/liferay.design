@@ -1,15 +1,15 @@
 import { Container, Text, Heading } from 'components/atoms'
-import { CardLexicon, CardHidden, FancyFooter, FormNewsletter, SEO } from 'components/molecules'
-import { Banner, Footer, ChangelogFeed } from 'components/organisms'
+import { CardLexicon, CardHidden, FancyFooter, SEO } from 'components/molecules'
+import { Banner, Footer } from 'components/organisms'
 import React from 'react'
-import MediaQuery, {useMediaQuery} from 'react-responsive'
+import {useMediaQuery} from 'react-responsive'
 import { Grid } from 'reakit'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import styles from './styles.module.scss'
-import { colors, spacing } from 'theme'
+import { colors } from 'theme'
 
-const Handbook = () => {
+export const Handbook = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1100px)' })
 	const gridTemplate = `	"a a . . . ." 
                                 "a a b b . ." 
@@ -31,7 +31,7 @@ const Handbook = () => {
 				description="The open source handbook for Liferay's Design Department"
 				pageTitle="Liferay.Design | Handbook"
 			/>
-			<Banner
+			{/* <Banner
 				simpleNav
 				preTitle="Liferay.Design"
 				headline="Handbook"
@@ -41,7 +41,7 @@ const Handbook = () => {
 				underlineColor={colors.primary}
 				cta="Get Started"
 				ctaLink="/handbook/welcome"
-			/>
+			/> */}
 			<div className={styles.wrapper}>
 				<Container>
 					<Grid
@@ -170,8 +170,6 @@ const Handbook = () => {
 					</div>
 				</Container>
 			</div>
-			<Footer light />
-			<FancyFooter />
 		</div>
 	)}
 
