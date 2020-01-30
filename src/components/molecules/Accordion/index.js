@@ -1,6 +1,7 @@
 import { Link, Flex, Icon } from 'components/atoms'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
+// import { colors } from 'theme'
 
 export default class Accordion extends Component {
 	constructor(props) {
@@ -31,6 +32,7 @@ export default class Accordion extends Component {
 						className={styles.leafLink}
 						name="keyboardArrowRight"
 						rotate={`${this.state.showChildren ? 90 : 0}`}
+						fill={`${this.state.showChildren ? 'primary' : 'main'}`}
 					/>
 
 				</Flex>
