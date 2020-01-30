@@ -24,7 +24,7 @@ const Icon = ({
 
 	if (rotate) {
 		styles.transform = `rotate(${rotate}deg)`
-		styles.transition = 'transform 0.5s'
+		styles.transition = 'transform 0.4s'
 	}
 
 	const DynamicIcon = IconsObject[name]
