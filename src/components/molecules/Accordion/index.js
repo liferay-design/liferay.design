@@ -23,17 +23,16 @@ export default class Accordion extends Component {
 					className={`${this.props.className}`}
 					onClick={this.toggleVisibility}
 					justify="space-between"
-					padding="0.55rem 1rem"
 				>
-					<Link to={this.props.parentLink}>
-						<span>{this.props.title}</span>
-					</Link>
+					<Link className={styles.leafLink} to={this.props.parentLink}>{this.props.title}</Link>
+					<Icon
+						height="2.4rem"
+						width="3rem"
+						className={styles.leafLink}
+						name="keyboardArrowRight"
+						rotate={`${this.state.showChildren ? 90 : 0}`}
+					/>
 
-					{this.state.showChildren ? (
-						<Icon name="keyboardArrowRight" rotate={90} />
-					) : (
-						<Icon name="keyboardArrowRight" />
-					)}
 				</Flex>
 
 				<div

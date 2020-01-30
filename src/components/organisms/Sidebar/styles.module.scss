@@ -1,6 +1,26 @@
 @import '~theme/variables';
 @import '~theme/blueprints';
 
+@mixin leaf-link {
+	border-radius: 4px;
+	font-weight: $fontWeightRegular;
+	padding: 0.55rem $spacingSmall;
+	position: relative;
+
+	&:hover,
+	&.active {
+		background-color: $gray-bg;
+	}
+
+	&:hover {
+		color: $black;
+	}
+
+	&.active {
+		font-weight: $fontWeightHeavy;
+	}
+}
+
 .sidebar {
 	// put bg in js for now
 	// background: $neutral9;
@@ -51,14 +71,18 @@
 		color: $black;
 	}
 
-	.first-level-node {
-		font-weight: 600 !important;
+	.first-level-node,
+	.first-level-node > a {
+		font-weight: $fontWeightHeavy !important;
 	}
 
 	.sidebar-content-wrapper {
 		display: flex;
 		flex-direction: column;
 		padding: $spacingSmall;
+		a {
+			font-weight: $fontWeightRegular;
+		}
 	}
 
 	.credits {
@@ -66,23 +90,11 @@
 	}
 
 	.leaf-link {
-		border-radius: 4px;
-		font-weight: $fontWeightRegular;
-		padding: 0.55rem $spacingSmall;
-		position: relative;
+		@include leaf-link;
+	}
 
-		&:hover,
-		&.active {
-			background-color: $gray-bg;
-		}
-
-		&:hover {
-			color: $black;
-		}
-
-		&.active {
-			font-weight: $fontWeightHeavy;
-		}
+	.active > a {
+		background-color: $gray-bg;
 	}
 }
 
