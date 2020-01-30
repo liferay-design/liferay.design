@@ -4,7 +4,7 @@
 @mixin leaf-link {
 	border-radius: 4px;
 	font-weight: $fontWeightRegular;
-	padding: 0.55rem $spacingSmall;
+	padding: ($spacingSmall * 0.64) $spacingSmall;
 	position: relative;
 
 	&:hover {
@@ -102,7 +102,9 @@
 	.section {
 		font-weight: $fontWeightBlack;
 	}
-	.leaf-link {
+	.leaf-link,
+	.first-level-node,
+	.first-level-node > a {
 		font-size: $fontSizeSmall;
 	}
 }
