@@ -6,6 +6,7 @@ import MainLayout from './MainLayout'
 import PrivatePage from './PrivatePage'
 import Resources from './Resources'
 import Newsletters from './Newsletters'
+import Welcome from './Handbook/Welcome'
 
 export {
 	ArticlesLayout,
@@ -17,4 +18,5 @@ export {
 	PrivatePage,
 	Resources,
 	Newsletters,
+	Welcome,
 }

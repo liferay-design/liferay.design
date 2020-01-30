@@ -2,7 +2,8 @@
 
 .handbook {
 	.wrapper {
-		margin-top: $spacingBase * -1;
+		padding: $spacingXLarge 0;
+		// margin-top: $spacingBase * -1;
 		background: #fff url('/images/theme/handbook-frame.svg') top center/contain
 			no-repeat;
 		.teasers {
