@@ -22,8 +22,7 @@
 }
 
 .sidebar {
-	// put bg in js for now
-	// background: $neutral9;
+	background: $neutral9 !important;
 	grid-area: sidebar;
 	height: 100%;
 	max-height: 100vh;
@@ -83,6 +82,9 @@
 		a {
 			font-weight: $fontWeightRegular;
 		}
+		svg {
+			fill: $main;
+		}
 	}
 
 	.credits {
@@ -106,5 +108,33 @@
 	.first-level-node,
 	.first-level-node > a {
 		font-size: $fontSizeSmall;
+	}
+}
+
+.sidebar.handbook {
+	background-color: #22242b !important;
+	.sidebar-content-wrapper {
+		svg {
+			fill: $neutral4;
+		}
+	}
+	.leaf-link,
+	.first-level-node > a {
+		&:hover {
+			background-color: $neutral2;
+		}
+	}
+	a,
+	.leaf-link,
+	.first-level-node > a {
+		color: $neutral9;
+		&:hover {
+			color: $white;
+		}
+		&.active,
+		&.active > a,
+		&[aria-current]:not([aria-current='false']) {
+			color: $primary;
+		}
 	}
 }
