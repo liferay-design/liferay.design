@@ -2,13 +2,9 @@
 
 .handbook {
 	.wrapper {
-		padding: $spacingXLarge 0;
-		// margin-top: $spacingBase * -1;
-		background: #fff url('/images/theme/handbook-frame.svg') top center/contain
-			no-repeat;
-		.teasers {
-			margin-top: -8rem;
-		}
+		padding: 0 $spacingBase $spacingXLarge;
+		background: url('/images/theme/handbook-frame.svg') center 20% / contain no-repeat,
+			linear-gradient($black-000 20%, $white 21%);
 		.date {
 			@include small-caps;
 		}
