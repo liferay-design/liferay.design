@@ -1,10 +1,11 @@
-import { Container, Text, Heading, CardGrid } from 'components/atoms'
-import { CardLexicon, CardHidden, SEO } from 'components/molecules'
+import { Container, Text, Heading, CardGrid, Link, Icon } from 'components/atoms'
+import { CardLexicon, CardHidden, SEO, FormNewsletter } from 'components/molecules'
 import { Navbar } from 'components/organisms'
 import React from 'react'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import styles from './styles.module.scss'
+import { colors, spacing } from 'theme'
 
 export const Handbook = () => {
 	return (
@@ -15,12 +16,12 @@ export const Handbook = () => {
 			/>
 			<div className={styles.wrapper}>
 				<Navbar simpleNav white />
-				<Container>
+				<Container padding="2rem 1rem">
 					<div className={styles.gagb}>
 						<Text color="grey" weight="inherit" className={styles.date}>
 							Since 2004
 						</Text>
-						<Heading color='white'>
+						<Heading color="white">
 							Growing &amp; Getting&nbsp;Better. <br />
 							<span>Together.</span>
 						</Heading>
@@ -109,6 +110,24 @@ export const Handbook = () => {
 					</CardGrid>
 				</Container>
 			</div>
+			<Container
+				background={colors.main}
+				padding={spacing.large + ' 0'}
+			>
+				<Heading align="center" color="white" level={2}>
+					Sign up for our monthly newsletter!
+				</Heading>
+				<Link to="/newsletter">
+					<Text align="center" color="lightGrey" margin="base">
+						Read past issues
+						<Icon fill="lightGrey" margin=".2em 0 0 1em" name="rightArrow" />
+					</Text>
+				</Link>
+				<FormNewsletter
+					placeholderText="Your Email Address"
+					submitText="Subscribe"
+				/>
+			</Container>
 		</div>
 	)
 }
