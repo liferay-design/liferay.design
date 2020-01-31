@@ -1,7 +1,7 @@
 @import 'theme/variables.scss';
 
 $bg-line: 36%;
-$bg-line-large-screen: 56%;
+$bg-line-large-screen: 60%;
 
 $bg-color: #1b1e28;
 
@@ -16,18 +16,21 @@ $bg-color: #1b1e28;
 					$bg-line-large-screen / contain no-repeat,
 				linear-gradient($bg-color $bg-line-large-screen, $white ($bg-line + 1));
 		}
-		.date {
-			@include small-caps;
-		}
 		.gagb {
-			margin: 0 0 $spacingLarge;
+			margin: 0 0 ($spacingLarge * 1.5);
+			max-width: 40em;
+			margin: 0 auto;
 			@media screen and (min-width: $screenXLarge) {
 				margin: 0 0 $spacingXLarge;
 			}
+			.date {
+				@include small-caps;
+			}
 			h3 {
-				margin-left: $spacingXSmall * -1.5;
 				font-size: $fontSizeDisplay * 1.2;
 				font-weight: $fontWeightBlack;
+				margin: 0 0 $spacingLarge ($spacingSmall * -0.6);
+				text-shadow: $elevationText1, $elevationText2, $elevationText3;
 				@media screen and (max-width: $screenMedium) {
 					font-size: $fontSizeDisplay;
 				}

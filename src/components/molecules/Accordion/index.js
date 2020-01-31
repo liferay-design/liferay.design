@@ -21,11 +21,12 @@ export default class Accordion extends Component {
 			<ul className={styles.accordion}>
 				<Flex
 					align="center"
-					className={`${this.props.className}`}
 					onClick={this.toggleVisibility}
 					justify="space-between"
 				>
-					<Link className={styles.leafLink} to={this.props.parentLink}>{this.props.title}</Link>
+					<Link className={this.props.className} to={this.props.parentLink}>
+						{this.props.title}
+					</Link>
 					<Icon
 						height="2.4rem"
 						width="3rem"
@@ -34,7 +35,6 @@ export default class Accordion extends Component {
 						rotate={`${this.state.showChildren ? 90 : 0}`}
 						fill={`${this.state.showChildren ? 'primary' : ''}`}
 					/>
-
 				</Flex>
 
 				<div

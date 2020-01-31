@@ -1,7 +1,7 @@
 @import '~theme/variables';
 @import '~theme/blueprints';
 
-@mixin leaf-link {
+.leaf-link {
 	border-radius: 4px;
 	font-weight: $fontWeightRegular;
 	padding: ($spacingSmall * 0.64) $spacingSmall;
@@ -18,6 +18,43 @@
 	&.active {
 		font-weight: $fontWeightHeavy;
 		color: $primary;
+	}
+	width: 100%;
+}
+
+svg.leaf-link {
+	margin-left: $spacingXSmall;
+	padding: $spacingXSmall 0;
+}
+
+.sidebar.handbook {
+	background-color: $black-000 !important;
+	.sidebar-content-wrapper {
+		svg {
+			fill: $neutral4;
+		}
+	}
+	.leaf-link,
+	.first-level-node > a,
+	.first-level-node > ul > a,
+	.sidebar-content-wrapper svg {
+		&:hover {
+			background-color: $main;
+		}
+	}
+	a,
+	.leaf-link,
+	.first-level-node > a {
+		color: $neutral9;
+		&:hover {
+			color: $white;
+		}
+		&.active,
+		&.active > a,
+		&[aria-current]:not([aria-current='false']) {
+			color: $primary;
+			font-weight: $fontWeightBlack !important;
+		}
 	}
 }
 
@@ -91,10 +128,6 @@
 		padding: $spacingBase;
 	}
 
-	.leaf-link {
-		@include leaf-link;
-	}
-
 	.active > a {
 		color: $primary;
 	}
@@ -108,33 +141,5 @@
 	.first-level-node,
 	.first-level-node > a {
 		font-size: $fontSizeSmall;
-	}
-}
-
-.sidebar.handbook {
-	background-color: $black-000 !important;
-	.sidebar-content-wrapper {
-		svg {
-			fill: $neutral4;
-		}
-	}
-	.leaf-link,
-	.first-level-node > a {
-		&:hover {
-			background-color: $neutral2;
-		}
-	}
-	a,
-	.leaf-link,
-	.first-level-node > a {
-		color: $neutral9;
-		&:hover {
-			color: $white;
-		}
-		&.active,
-		&.active > a,
-		&[aria-current]:not([aria-current='false']) {
-			color: $primary;
-		}
 	}
 }

@@ -7,7 +7,9 @@ import styles from './styles.module.scss'
 
 const SidebarContent = ({ path, tree }) => {
 	const unorderedTree = map(tree, node => {
-		const className = `${node.slug === path ? styles.active : ''
+		const className = `
+		${styles.leafLink}
+		${node.slug === path ? styles.active : ''
 		} ${node.firstLevel ? styles.firstLevelNode : ''}`
 
 		if (node.hasOwnProperty('children')) {
@@ -25,7 +27,7 @@ const SidebarContent = ({ path, tree }) => {
 		}
 
 		return (
-			<Link className={`${styles.leafLink} ${className}`} key={node.order} to={node.slug}>
+			<Link className={className} key={node.order} to={node.slug}>
 				{node.title}
 			</Link>
 		)
