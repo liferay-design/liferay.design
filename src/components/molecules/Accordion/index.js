@@ -32,7 +32,7 @@ export default class Accordion extends Component {
 						className={styles.leafLink}
 						name="keyboardArrowRight"
 						rotate={`${this.state.showChildren ? 90 : 0}`}
-						fill={`${this.state.showChildren ? 'primary' : 'main'}`}
+						fill={`${this.state.showChildren ? 'primary' : ''}`}
 					/>
 
 				</Flex>
