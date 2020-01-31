@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { Grid } from 'reakit'
 
-const CardGrid = ({ children, two, three }) => {
+const CardGrid = ({ children, two, three, gap }) => {
 
 	const numberOfCards = {
 		...(three ? {
@@ -17,7 +17,7 @@ const CardGrid = ({ children, two, three }) => {
 		<Grid
 			{...numberOfCards}
 			autoRows="auto"
-			gap="5rem 4rem"
+			gap={gap}
 		>
 			{children}
 		</Grid>
@@ -26,10 +26,12 @@ const CardGrid = ({ children, two, three }) => {
 
 CardGrid.defaultProps = {
 	three: true,
+	gap: "5rem 4rem",
 }
 
 CardGrid.propTypes = {
 	children: PropTypes.node,
+	gap: PropTypes.string,
 	two: PropTypes.bool,
 	three: PropTypes.bool,
 }
