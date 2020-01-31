@@ -1,18 +1,21 @@
 @import 'theme/variables.scss';
 
+$bg-line: 32%;
+
 .handbook {
 	.wrapper {
 		padding: 0 $spacingBase $spacingXLarge;
-		background: url('/images/theme/handbook-frame.svg') center 20% / contain no-repeat,
-			linear-gradient($black-000 20%, $white 21%);
+		background: url('/images/theme/handbook-frame.svg') center $bg-line / contain
+				no-repeat,
+			linear-gradient($black-000 $bg-line, $white ($bg-line + 1));
 		.date {
 			@include small-caps;
 		}
 		.gagb {
-			// margin-top: 24vw;
+			margin: 0 0 $spacingLarge;
 			h3 {
 				margin-left: $spacingXSmall * -1.5;
-				font-size: $fontSizeDisplay * 1.5;
+				font-size: $fontSizeDisplay * 1.2;
 				font-weight: $fontWeightBlack;
 				@media screen and (max-width: $screenMedium) {
 					font-size: $fontSizeDisplay;

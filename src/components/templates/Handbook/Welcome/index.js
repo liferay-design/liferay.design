@@ -14,15 +14,17 @@ export const Handbook = () => {
 				pageTitle="Liferay.Design | Handbook"
 			/>
 			<div className={styles.wrapper}>
-			<Navbar simpleNav white />
+				<Navbar simpleNav white />
 				<Container>
-					<Heading
-						color="white"
-						additionalStyles={{ margin: '4rem 0 6rem' }}
-						level={1}
-					>
-						Welcome!
-					</Heading>
+					<div className={styles.gagb}>
+						<Text color="grey" weight="inherit" className={styles.date}>
+							Since 2004
+						</Text>
+						<Heading color='white'>
+							Growing &amp; Getting&nbsp;Better. <br />
+							<span>Together.</span>
+						</Heading>
+					</div>
 					<CardGrid gap="3rem">
 						<CardLexicon
 							handbook
@@ -105,18 +107,6 @@ export const Handbook = () => {
 							cta="Sneak a Peek"
 						/>
 					</CardGrid>
-				</Container>
-				<Container>
-					<div className={styles.gagb}>
-						<Text color="lightGrey" weight="inherit" className={styles.date}>
-							Since 2004
-						</Text>
-						<Heading>
-							Growing &amp; <br />
-							Getting Better. <br />
-							<span>Together.</span>
-						</Heading>
-					</div>
 				</Container>
 			</div>
 		</div>
