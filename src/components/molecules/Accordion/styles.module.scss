@@ -23,13 +23,3 @@
 .hidden {
 	display: none;
 }
-
-.leaf-link {
-	@include leaf-link;
-	width: 100%;
-	margin-right: $spacingXSmall;
-}
-
-svg.leaf-link {
-	padding: $spacingXSmall 0;
-}
