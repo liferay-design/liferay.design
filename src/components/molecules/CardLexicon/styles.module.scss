@@ -20,6 +20,7 @@
 .preTitle {
 	@include small-caps;
 	font-size: $fontSizeSmall;
+	color: $primary;
 }
 
 .card.dark {
