@@ -11,6 +11,7 @@ export default function DoDont({ good, avoid, bad }) {
 			justify="space-between"
 			width="100%"
 		>
+			{good && (
 			<Flex direction="column" width="40%">
 				<Image src={good} />
 				<Text
@@ -23,6 +24,9 @@ export default function DoDont({ good, avoid, bad }) {
 					Do
 				</Text>
 			</Flex>
+			)}
+
+			{bad && (
 			<Flex direction="column" width="40%">
 				<Image src={bad} />
 				<Text
@@ -35,24 +39,28 @@ export default function DoDont({ good, avoid, bad }) {
 					Don't
 				</Text>
 			</Flex>
+			)}
+
+			{avoid && (
 			<Flex direction="column" width="40%">
-                <Image src={avoid} />
-                <Text
-                className={styles.avoid}
-                type="p"
-                weight="black"
-                size="medium"
-                color="warning"
-                >
-                    Avoid
-                </Text>
-   			</Flex>
+				<Image src={avoid} />
+				<Text
+					className={styles.avoid}
+					type="p"
+					weight="black"
+					size="medium"
+					color="warning"
+				>
+					Avoid
+				</Text>
+			</Flex>
+			)}
 		</Flex>
 	)
 }
 
 DoDont.propTypes = {
-	good: PropTypes.string.isRequired,
-	bad: PropTypes.string.isRequired,
-	avoid: PropTypes.string.isRequired,
+	good: PropTypes.string,
+	bad: PropTypes.string,
+	avoid: PropTypes.string,
 }
