@@ -1,13 +1,14 @@
 @import 'theme/variables.scss';
 
-$bg-line: 32%;
+$bg-line: 40%;
+$bg-color: #1b1e28;
 
 .handbook {
 	.wrapper {
-		padding: 0 $spacingBase $spacingXLarge;
+		padding: 0 $spacingBase ($spacingMedium * 1.5);
 		background: url('/images/theme/handbook-frame.svg') center $bg-line / contain
 				no-repeat,
-			linear-gradient($black-000 $bg-line, $white ($bg-line + 1));
+			linear-gradient($bg-color $bg-line, $white ($bg-line + 1));
 		.date {
 			@include small-caps;
 		}
