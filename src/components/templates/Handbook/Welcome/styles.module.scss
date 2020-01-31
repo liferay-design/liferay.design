@@ -1,6 +1,8 @@
 @import 'theme/variables.scss';
 
-$bg-line: 40%;
+$bg-line: 36%;
+$bg-line-large-screen: 56%;
+
 $bg-color: #1b1e28;
 
 .handbook {
@@ -9,11 +11,19 @@ $bg-color: #1b1e28;
 		background: url('/images/theme/handbook-frame.svg') center $bg-line / contain
 				no-repeat,
 			linear-gradient($bg-color $bg-line, $white ($bg-line + 1));
+		@media screen and (min-width: $screenXLarge) {
+			background: url('/images/theme/handbook-frame.svg') center
+					$bg-line-large-screen / contain no-repeat,
+				linear-gradient($bg-color $bg-line-large-screen, $white ($bg-line + 1));
+		}
 		.date {
 			@include small-caps;
 		}
 		.gagb {
 			margin: 0 0 $spacingLarge;
+			@media screen and (min-width: $screenXLarge) {
+				margin: 0 0 $spacingXLarge;
+			}
 			h3 {
 				margin-left: $spacingXSmall * -1.5;
 				font-size: $fontSizeDisplay * 1.2;
