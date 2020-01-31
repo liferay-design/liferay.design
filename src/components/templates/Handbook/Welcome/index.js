@@ -16,7 +16,7 @@ export const Handbook = () => {
 			/>
 			<div className={styles.wrapper}>
 				<Navbar simpleNav white />
-				<Container padding="2rem 1rem">
+				<Container padding="2rem 0">
 					<div className={styles.gagb}>
 						<Text color="grey" weight="inherit" className={styles.date}>
 							Since 2004
