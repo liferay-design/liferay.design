@@ -21,7 +21,7 @@ $bg-color: #1b1e28;
 			max-width: 40em;
 			margin: 0 auto;
 			@media screen and (min-width: $screenXLarge) {
-				margin: 0 0 $spacingXLarge;
+				margin: 0 0 $spacingLarge;
 			}
 			.date {
 				@include small-caps;
