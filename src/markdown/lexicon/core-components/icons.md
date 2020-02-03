@@ -3,7 +3,7 @@ title: 'Icons'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/icons.html'
 description: 'Icons are a visual representation of an idea and/or action.'
-order: 280
+order: 279
 draft: false
 ---
 
