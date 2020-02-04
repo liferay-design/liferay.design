@@ -859,10 +859,6 @@
 	:global .carousel-wrapper {
 		:global .carousel .control-arrow,
 		:global .carousel.carousel-slider .control-arrow {
-			-webkit-transition: all 0.25s ease-in;
-			-moz-transition: all 0.25s ease-in;
-			-ms-transition: all 0.25s ease-in;
-			-o-transition: all 0.25s ease-in;
 			transition: all 0.25s ease-in;
 			background: #fff;
 			bottom: -5vw;
@@ -986,15 +982,7 @@
 		}
 
 		:global .carousel .thumbs {
-			-webkit-transition: all 0.15s ease-in;
-			-moz-transition: all 0.15s ease-in;
-			-ms-transition: all 0.15s ease-in;
-			-o-transition: all 0.15s ease-in;
 			transition: all 0.15s ease-in;
-			-webkit-transform: translate3d(0, 0, 0);
-			-moz-transform: translate3d(0, 0, 0);
-			-ms-transform: translate3d(0, 0, 0);
-			-o-transform: translate3d(0, 0, 0);
 			transform: translate3d(0, 0, 0);
 			position: relative;
 			list-style: none;
@@ -1002,10 +990,6 @@
 		}
 
 		:global .carousel .thumb {
-			-webkit-transition: border 0.15s ease-in;
-			-moz-transition: border 0.15s ease-in;
-			-ms-transition: border 0.15s ease-in;
-			-o-transition: border 0.15s ease-in;
 			transition: border 0.15s ease-in;
 			display: inline-block;
 			width: 80px;
@@ -1036,20 +1020,11 @@
 			overflow: hidden;
 			margin: auto;
 			width: 100%;
-			-webkit-transition: height 0.15s ease-in;
-			-moz-transition: height 0.15s ease-in;
-			-ms-transition: height 0.15s ease-in;
-			-o-transition: height 0.15s ease-in;
 			transition: height 0.15s ease-in;
 		}
 
 		:global .carousel .slider-wrapper.axis-horizontal .slider {
 			-ms-box-orient: horizontal;
-			display: -webkit-box;
-			display: -moz-box;
-			display: -ms-flexbox;
-			display: -moz-flex;
-			display: -webkit-flex;
 			display: flex;
 			align-items: center;
 		}
@@ -1062,11 +1037,6 @@
 
 		:global .carousel .slider-wrapper.axis-vertical {
 			-ms-box-orient: horizontal;
-			display: -webkit-box;
-			display: -moz-box;
-			display: -ms-flexbox;
-			display: -moz-flex;
-			display: -webkit-flex;
 			display: flex;
 		}
 
@@ -1084,10 +1054,6 @@
 		}
 
 		:global .carousel .slider.animated {
-			-webkit-transition: all 0.35s ease-in-out;
-			-moz-transition: all 0.35s ease-in-out;
-			-ms-transition: all 0.35s ease-in-out;
-			-o-transition: all 0.35s ease-in-out;
 			transition: all 0.35s ease-in-out;
 		}
 
@@ -1113,10 +1079,6 @@
 		}
 
 		:global .carousel .slide .legend {
-			-webkit-transition: all 0.5s ease-in-out;
-			-moz-transition: all 0.5s ease-in-out;
-			-ms-transition: all 0.5s ease-in-out;
-			-o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 			position: absolute;
 			bottom: 40px;
@@ -1130,10 +1092,6 @@
 			font-size: 12px;
 			text-align: center;
 			opacity: 0.25;
-			-webkit-transition: opacity 0.35s ease-in-out;
-			-moz-transition: opacity 0.35s ease-in-out;
-			-ms-transition: opacity 0.35s ease-in-out;
-			-o-transition: opacity 0.35s ease-in-out;
 			transition: opacity 0.35s ease-in-out;
 		}
 
@@ -1152,10 +1110,6 @@
 		}
 
 		:global .carousel .control-dots .dot {
-			-webkit-transition: opacity 0.25s ease-in;
-			-moz-transition: opacity 0.25s ease-in;
-			-ms-transition: opacity 0.25s ease-in;
-			-o-transition: opacity 0.25s ease-in;
 			transition: opacity 0.25s ease-in;
 			opacity: 0.3;
 			box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);

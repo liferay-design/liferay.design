@@ -18,7 +18,7 @@
 		margin-top: 2.4rem;
 		cursor: pointer;
 		box-shadow: $elevation1;
-		transition: all 0.4s;
+		transition: transform 0.4s, box-shadow 0.4s;
 		&:hover {
 			box-shadow: $elevation2;
 			transform: translateY(-($spacingXSmall / 2));

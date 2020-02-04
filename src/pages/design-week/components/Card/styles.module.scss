@@ -1,12 +1,12 @@
 @import '../../styles.module.scss';
 
 @mixin smoothTransition {
-	transition: all 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out, opacity 0.2s ease-in-out,
+		transform 0.2s ease-in-out;
 }
 
 .wrapper {
 	font-family: $fontFamilySecondary;
-	// background: $white;
 	height: 100%;
 	padding: $spacingBase * 3;
 	min-width: $screenSmall;

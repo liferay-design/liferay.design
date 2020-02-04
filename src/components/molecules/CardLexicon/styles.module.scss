@@ -64,9 +64,10 @@
 	box-shadow: $elevation1;
 	padding: $spacingMedium $spacingSmall $spacingSmall;
 	min-height: 100%;
-	transition: all 0.4s;
+	transition: transform 0.4s, background-color 0.4s;
 	overflow: hidden;
 	&:hover {
+		transition: transform 0.4s, background-color 0.4s;
 		background-color: $lightestBlue;
 		box-shadow: $elevation2;
 		transform: translateY(-($spacingXSmall / 2));

@@ -1,7 +1,7 @@
 @import '~theme/variables';
 
 .animateIn {
-	transition: all 0.4s;
+	transition: transform 0.4s;
 	animation: animateIn 0.5s cubic-bezier(0.5, 1.35, 0.5, 1) forwards;
 	opacity: 0;
 	transform: translateY(5rem);

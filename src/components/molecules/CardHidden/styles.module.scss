@@ -7,14 +7,15 @@
 	.card {
 		border-radius: 0;
 		background-color: $white;
-		transition: all 0.4s;
+		transition: transform 0.4s;
 		overflow: hidden;
 		height: 100%;
 		overflow: visible;
+		transform: translateY(0);
 		&:after {
 			content: '';
 			width: 100%;
-			transition: all 0.4s;
+			transition: opacity 0.4s;
 			height: 100%;
 			display: inline;
 			box-shadow: 0 2rem 8rem -2rem rgba($black, 0.24);
@@ -24,32 +25,32 @@
 			position: absolute;
 		}
 		&:hover {
-			transform: translateY(-($spacingXSmall / 2));
+			transform: translateY(-$spacingXSmall);
 			&:after {
-				transition: all 0.4s;
+				transition: opacity 0.4s;
 				opacity: 1;
 			}
 			p.cta {
 				color: $primary;
-				transition: all 0.4s;
+				transition: color 0.4s;
 			}
 			h2.title,
 			h3.title {
 				color: $primary;
 				transform: scale(1.04);
 				transform-origin: left;
-				transition: all 0.4s;
+				transition: transform 0.4s;
 			}
 			.icon svg {
 				filter: grayscale(0);
-				transition: all 0.4s;
+				transition: filter 0.4s;
 			}
 		}
 		.copy {
 			padding: $spacingSmall $spacingXSmall 0;
 		}
 		.icon svg {
-			transition: all 0.4s;
+			transition: filter 0.4s;
 			filter: grayscale(1);
 			padding: $spacingXSmall * 1.5;
 			padding-right: 0;
@@ -63,13 +64,13 @@
 
 		p.cta {
 			color: lighten($main-l4, 16%);
-			transition: all 0.4s;
+			transition: color 0.4s;
 		}
 
 		h2.title,
 		h3.title {
 			color: $main-l2;
-			transition: all 0.4s;
+			transition: transform 0.4sscale 0.4s;
 			transform: scale(1);
 			transform-origin: left;
 		}

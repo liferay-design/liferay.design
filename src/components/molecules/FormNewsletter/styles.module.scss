@@ -39,7 +39,8 @@ form {
 			left: $spacingMedium;
 			color: $lightGrey;
 			transform: translateY($spacingBase);
-			transition: all 0.4s cubic-bezier(0.075, 1.2, 0.165, 1);
+			transition: opacity 0.4s cubic-bezier(0.075, 1.2, 0.165, 1),
+				transform 0.4s cubic-bezier(0.075, 1.2, 0.165, 1);
 			opacity: 0;
 		}
 		input[type='text'] {
