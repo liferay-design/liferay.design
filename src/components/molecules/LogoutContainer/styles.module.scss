@@ -27,7 +27,6 @@
 		transform: rotate(45deg);
 		right: 1rem;
 		border-radius: 0.2rem;
-		transition: all 0.5s ease-in-out;
 	}
 	.caretOverlay {
 		background: $white;
@@ -40,7 +39,9 @@
 
 	img {
 		height: $spacingLarge;
+		width: $spacingLarge;
 		object-fit: cover;
+		margin: 0;
 		border-radius: $spacingXSmall 0 0 $spacingXSmall;
 	}
 }
