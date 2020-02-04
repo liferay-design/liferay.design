@@ -94,7 +94,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/static/images`,
+				path: `${__dirname}/src/images`,
 				name: 'images',
 			},
 		},
@@ -109,7 +109,11 @@ module.exports = {
 						options: {
 							maxWidth: 1035,
 							sizeByPixelDensity: true,
+							withWebp: true,
 						},
+					},
+					{
+						resolve: 'gatsby-remark-static-images',
 					},
 					{
 						resolve: 'gatsby-remark-prismjs',
