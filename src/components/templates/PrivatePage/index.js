@@ -1,8 +1,7 @@
 import { firebase } from '@firebase/app'
-import { Button, Flex, Heading } from 'components/atoms'
+import { Flex, Heading } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
 import React, { Component } from 'react'
-import { Media, Paper } from 'react-md'
 import styles from './styles.module.scss'
 
 export default class PrivatePage extends Component {

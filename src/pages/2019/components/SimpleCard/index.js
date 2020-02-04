@@ -1,10 +1,8 @@
 import { withPrefix } from 'gatsby'
-import { Flex, Heading, Link } from 'components/atoms'
+import { Flex, Heading, Link, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from '../../styles.module.scss'
-import { Avatar } from 'react-md'
-
 
 const SimpleCard = ({ image, title, subtitle, description, link, url, avatarImage }) => {
 	return (
@@ -15,7 +13,7 @@ const SimpleCard = ({ image, title, subtitle, description, link, url, avatarImag
 			className={styles.simpleCard}
 		>
 			{avatarImage ? (
-				<Avatar
+				<Image
 					className={styles.avatar}
 					alt={subtitle}
 					src={withPrefix(`${image}`)}
