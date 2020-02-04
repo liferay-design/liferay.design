@@ -1,14 +1,9 @@
-import LogRocket from 'logrocket'
 import PropTypes from 'prop-types'
 import React, { StrictMode } from 'react'
 import { GoogleFont } from 'react-typography'
 import typography from 'utils/typography'
 
 export default class HTML extends React.Component {
-	onClientEntry() {
-		LogRocket.init('yhl3jg/liferaydesign')
-		console.log('hi world')
-	}
 	
 	render() {
 		
