@@ -4,7 +4,7 @@ import React from 'react'
 import {colors, fontSizes } from 'theme'
 import styles from './styles.module.scss'
 
-export const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, ...props }) => {
+export const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, external, ...props }) => {
 
 	const sizes = {
 		small: '50%',
@@ -52,7 +52,7 @@ export const Image = ({ align, caption, circle, dropShadow, rounded, margin, siz
 					display: 'block',
 				}}
 				alt={alt ? alt : caption}
-				src={withPrefix(`${src}`)}
+				src={external ? `${src}` : withPrefix(`${src}`)}
 				loading="lazy"
 			/>
 			{caption ? (
@@ -75,6 +75,7 @@ Image.propTypes = {
 	alt: PropTypes.string,
 	caption: PropTypes.object,
 	circle: PropTypes.bool,
+	external: PropTypes.bool,
 	dropShadow: PropTypes.bool,
 	margin: PropTypes.string,
 	rounded: PropTypes.bool,

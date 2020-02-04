@@ -1,7 +1,8 @@
-import { Button, Flex, Text } from 'components/atoms'
+import { Button, Flex, Text, Image } from 'components/atoms'
 import React, { Component } from 'react'
 import { Avatar, Collapse } from 'react-md'
 import styles from './styles.module.scss'
+import {withPrefix} from 'gatsby'
 
 export default class LogoutContainer extends Component {
 	state = { collapsed: true, panel: [] }
@@ -30,7 +31,7 @@ export default class LogoutContainer extends Component {
 						<div className={styles.caret} />
 						<div className={styles.caretOverlay} />
 						<Flex position="relative" className={styles.container}>
-							<img src={this.props.user.avatar} />
+							<Image external src={this.props.user.avatar} />
 							<Flex direction="column" padding="1rem">
 								<Text
 									type="span"
