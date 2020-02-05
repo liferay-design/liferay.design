@@ -1,11 +1,31 @@
 import { CardGrid, Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
+import { useStaticQuery, graphql } from 'gatsby'
+
 import { MainLayout } from 'components/templates'
 import React from 'react'
 import { spacing, colors } from 'theme'
 
 export default () => {
+	const data = useStaticQuery(graphql`
+		query {
+			lexiconCover: file(relativePath: { eq: "images/resources/lexicon-cover.png" }) {
+				childImageSharp {
+					fluid {
+						src
+					}
+				}
+			}
+			figmaUtilities: file(relativePath: { eq: "images/resources/figma-utilities.png" }) {
+				childImageSharp {
+					fluid {
+						src
+					}
+				}
+			}
+		}
+	`)
 	return (
 		<div>
 			<div
@@ -22,18 +42,14 @@ export default () => {
 					<HeroBanner />
 					<Container
 						heading="What's New"
-						padding={
-							`${spacing.small}` + ' 0 ' + `${spacing.large}`
-						}
+						padding={`${spacing.small}` + ' 0 ' + `${spacing.large}`}
 					>
 						<TopBlogPosts />
 					</Container>
 					<Container
 						heading="Resources"
 						color="black"
-						padding={
-							`${spacing.large}` + ' 0 ' + `${spacing.small}`
-						}
+						padding={`${spacing.large}` + ' 0 ' + `${spacing.small}`}
 						linkText="Get More"
 						linkDestination="/resources"
 						background={
@@ -49,7 +65,7 @@ export default () => {
 						<CardGrid two>
 							<CardDefault
 								aspectRatio="16-9"
-								imageURL="/images/resources/lexicon-cover.png"
+								imageURL={data.lexiconCover.childImageSharp.fluid.src}
 								icon="lexicon"
 								title="Lexicon Design System"
 								subtitle="Our open-source system for designing enterprise software"
@@ -57,7 +73,7 @@ export default () => {
 							/>
 							<CardDefault
 								aspectRatio="16-9"
-								imageURL="/images/resources/figma-utilities.png"
+								imageURL={data.figmaUtilities.childImageSharp.fluid.src}
 								icon="fa_figma"
 								title="Figma Files"
 								subtitle="Utilities and components to help you speed up your workflow"
