@@ -1,5 +1,5 @@
 ---
-title: 'Charts overview'
+title: 'Charts'
 description: 'This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.'
 order: 220
 draft: false
