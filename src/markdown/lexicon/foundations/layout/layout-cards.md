@@ -5,7 +5,7 @@ order: 111
 draft: false
 ---
 
-The card layout adapts 100% to the width of the container, adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is layout is used in the [Dataset Display](../../core-components/dataset-display) template.
+The card layout adapts 100% to the width of the container, adjusting the size of the cards and the number of cards per row to the different viewport sizes. This is layout is used in the [Dataset Display](../../../core-components/dataset-display) template.
 
 ## Responsive behavior
 

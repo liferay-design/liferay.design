@@ -43,7 +43,7 @@ Big news for the open source community:
 1. Emiliano shares his experience "Building a component library with Figma".
 2. We shared our Figma library so you can now see we implemented it and play around with it. Please provide us with feedback directly on the library or through git.
 
-You can find both at [resources](../../resources).
+You can find both at [resources](../resources).
 
 <time>February 7th, 2019</time>
 
@@ -65,8 +65,8 @@ Form validation has been updated to reflect where alerts must appear on general 
 
 We have new components to share with you:
 
--   [Color picker](../../core-components/forms/picker-color)
--   [Date and Time picker](../../core-components/forms/picker-date-time)
+-   [Color picker](../core-components/forms/picker-color)
+-   [Date and Time picker](../core-components/forms/picker-date-time)
 
 You will find them out soon in our Figma Library and in Clay.
 
@@ -83,15 +83,15 @@ You will find them out soon in our Figma Library and in Clay.
 
 **Examples:**
 
-As promised, we are updating the examples section. This time we bring you an example from [Liferay Partner Portal](../../examples/partner-portal) submitted by Patrick Pentz.
+As promised, we are updating the examples section. This time we bring you an example from [Liferay Partner Portal](../examples/partner-portal) submitted by Patrick Pentz.
 
 **Dropdown menu:**
 
-[Dropdown menu](../../core-components/dropdowns) definition has been updated to accept icons on the left side of actions.
+[Dropdown menu](../core-components/dropdowns) definition has been updated to accept icons on the left side of actions.
 
 **Tabs:**
 
-[Tabs](../../core-components/tabs) have been updated with an example to give context in tab bars.
+[Tabs](../core-components/tabs) have been updated with an example to give context in tab bars.
 
 <time>October 12th, 2018</time>
 
@@ -123,7 +123,7 @@ We have also created a **Templates** section that includes the most common templ
 
 <p>Predictive Forecast Chart</p>
 
-[Predicitive Forecast Chart](../../core-components/charts/chart-forecast) has been documented inside the charts section. This chart is very useful for commerce data.
+[Predicitive Forecast Chart](../core-components/charts/chart-forecast) has been documented inside the charts section. This chart is very useful for commerce data.
 
 <time>June 27th, 2018</time>
 
@@ -136,7 +136,7 @@ We also want to highlight the improvements made since the last release:
 -   A large number of patterns now include attribute sections that describe the pattern's anatomy.
 -   Examples have been added to many of our patterns, and the descriptions have been updated.
 
-Moreover, now you can find our sketch library under [resources](../../resources) section to build your own interfaces using Lexicon.
+Moreover, now you can find our sketch library under [resources](../resources) section to build your own interfaces using Lexicon.
 
 <time>April 24th, 2018</time>
 
@@ -179,7 +179,7 @@ Examples, along with images demonstrating the proper usage, have been added to t
 
 <p>Sites</p>
 
-A full set of components is available in the [sites section](../../satellite-components/sites/overview) for you to use to build your own site widgets. This lets you transform old widgets, by bringing them new life with a better information architecture, structure, and a refreshing design.
+A full set of components is available in the [sites section](../satellite-components/sites) for you to use to build your own site widgets. This lets you transform old widgets, by bringing them new life with a better information architecture, structure, and a refreshing design.
 
 <time>November 28th, 2017</time>
 
@@ -187,7 +187,7 @@ A full set of components is available in the [sites section](../../satellite-com
 
 As part of the improvement in Lexicon, we want to clearly define the different layout possibilities that you'll usually find in admin pages. Layout is one of the foundation principles that is key to building interfaces with our system.
 
-We've add a dedicated page for [form hierarchy](../../core-components/forms/forms-hierarchy) to better define the form pattern. The Forms section now also includes a [slider](../../core-components/forms/slider) section.
+We've add a dedicated page for [form hierarchy](../core-components/forms/forms-hierarchy) to better define the form pattern. The Forms section now also includes a [slider](../core-components/slider) section.
 
 <time>November 20th, 2017</time>
 
@@ -195,9 +195,9 @@ We've add a dedicated page for [form hierarchy](../../core-components/forms/form
 
 Charts and Sites have been documented at their initial stage.
 
-[Charts](../../core-components/charts/charts) are a completely new pattern in Lexicon. We want to provide a full set of principles for it to improve accessibility, perception, and interpretation.
+[Charts](../core-components/charts) are a completely new pattern in Lexicon. We want to provide a full set of principles for it to improve accessibility, perception, and interpretation.
 
-[Sites](../../satellite-components/sites/overview) tackles widgets for sites. Lexicon faces a huge improvement in this area towards improving not only the visual aspect, but also the usability in some of our ADTs. Many improvements will come in the near future in this area as the next portal release date grows closer.
+[Sites](../satellite-components/sites) tackles widgets for sites. Lexicon faces a huge improvement in this area towards improving not only the visual aspect, but also the usability in some of our ADTs. Many improvements will come in the near future in this area as the next portal release date grows closer.
 
 <time>November 13th, 2017</time>
 

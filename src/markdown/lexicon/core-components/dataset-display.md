@@ -7,7 +7,7 @@ order: 241
 draft: false
 ---
 
-A dataset display is the combination of a [management bar](../toolbars/management-bar), with one or many data visualization types, and optionally a mechanism of pagination. The most common visualization types used are [table](../table/table), [list](../list/list), and [card](../cards/cards). You can see the dataset display pattern in action in the slides below:
+A dataset display is the combination of a [management bar](../toolbars/management-bar), with one or many data visualization types, and optionally a mechanism of pagination. The most common visualization types used are [table](../table), [list](../list), and [card](../cards). You can see the dataset display pattern in action in the slides below:
 
 <!--
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

@@ -11,7 +11,7 @@ This pattern lays out the different components we expect you to use in this kind
 
 ### Usage
 
-This toolbar has two areas: left and right. These areas are inherited from [toolbar pattern](../toolbar). The following list states the components expected to display in each area. Use just the components that you need. This is just a list of the most frequent used components, others are accepted.
+This toolbar has two areas: left and right. These areas are inherited from [toolbar pattern](./../). The following list states the components expected to display in each area. Use just the components that you need. This is just a list of the most frequent used components, others are accepted.
 
 -   Left area
     -   Title
