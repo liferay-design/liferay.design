@@ -242,6 +242,10 @@
 		text-align: center;
 		display: inherit;
 	}
+
+	li > a {
+		color: $brand-primary;
+	}
 }
 
 :global(.designerInfo) {

@@ -2,7 +2,7 @@
 title: 'Navigation Card'
 description: 'Navigation card is a visual component focused on providing navigation in distributive pages or discributive page sections.'
 devStatus: 'PENDING'
-order: 213
+order: 212
 draft: false
 ---
 

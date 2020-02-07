@@ -20,7 +20,7 @@ Forms can be used together with wizards (also called Multi step forms). Wizards 
 
 There are 2 types of wizards:
 
--   A Multi Step Form (also called a Wizard form) is used to divide the main tasks of a large form into smaller forms that contain subtasks and report the user's progression through the form. See [Multi Steps Forms](../multiStepForm) for more information.
+-   A Multi Step Form (also called a Wizard form) is used to divide the main tasks of a large form into smaller forms that contain subtasks and report the user's progression through the form. See [Multi Steps Forms](../multi-step-form) for more information.
 
 ![Multi step form example](/images/lexicon/MultiStepFormExampleGrid.jpg)
 

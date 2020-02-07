@@ -3,7 +3,7 @@ title: 'Cards Variations'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/cards.html'
 description: 'Card variations are designed to represent different types of information.'
-order: 212
+order: 211
 draft: false
 ---
 
