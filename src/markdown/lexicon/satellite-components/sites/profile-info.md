@@ -3,7 +3,7 @@ title: 'Profile Info'
 description: 'An element used to identify the author or owner and other related metadata of an asset in sites.'
 order: 535
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ![Profile info types](/images/lexicon/sites/ProfileInfoTypes.jpg)

@@ -4,7 +4,7 @@ description: 'The image selector lets the user select images from a grid, priori
 order: 502
 draft: false
 devStatus: 'PENDING'
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ### Usage
