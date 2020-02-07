@@ -5,7 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/css-framework/satellites/navigation/hea
 description: 'Control bar is a toolbar that provides identification and lets the user navigate and perform actions.'
 order: 512
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ### Usage

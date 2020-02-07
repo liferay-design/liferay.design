@@ -3,7 +3,7 @@ title: 'Miller Columns'
 description: 'Miller columns is a visualization type that lets users move faster through several depth levels at same time.'
 order: 503
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ### Usage

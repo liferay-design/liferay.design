@@ -3,7 +3,7 @@ title: 'Widget Title Bar'
 description: "A bar that contains the widget's title and the tools that affect the widget."
 order: 536
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ### Definition and Metrics

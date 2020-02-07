@@ -3,7 +3,7 @@ title: 'File Upload'
 description: 'File Uploader is a pattern that lets users select and upload images to the system.'
 order: 501
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 devStatus: 'PENDING'
 ---
 

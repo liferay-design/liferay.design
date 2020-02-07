@@ -3,7 +3,7 @@ title: 'Buttons'
 description: 'A set of button variations specifically designed for site environment widgets.'
 order: 534
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ### Variations

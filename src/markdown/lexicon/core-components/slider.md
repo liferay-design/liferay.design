@@ -3,7 +3,7 @@ title: 'Slider'
 description: 'A Slider allows the user to select values in a linear range of values.'
 order: 325
 draft: false
-productName: 'PORTAL'
+productName: 'LIFERAY DXP'
 ---
 
 ![A horizontal bar with a handler is a Slider](/images/lexicon/SliderBase.png)
