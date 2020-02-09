@@ -1,7 +1,7 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { AuthContainer, GlobalMdx } from 'components/molecules'
-import { FooterMarkdown, Sidebar } from 'components/organisms'
+import { Footer, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
@@ -116,7 +116,7 @@ export default class Blueprints extends Component {
 												</Link>
 											</Flex>
 										</ContainerMarkdown>
-										<FooterMarkdown light />
+										<Footer markdown light />
 									</div>
 
 									<Flex

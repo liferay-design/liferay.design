@@ -4,7 +4,6 @@ import CapitalizationTool from './CapitalizationTool'
 import CareerPathTracks from './CareerPathTracks'
 import ChangelogFeed from './ChangelogFeed'
 import Footer from './Footer'
-import FooterMarkdown from './FooterMarkdown'
 import HeroBanner from './HeroBanner'
 import Navbar from './Navbar'
 import NavItems from './NavItems'
@@ -20,7 +19,6 @@ export {
 	CareerPathTracks,
 	ChangelogFeed,
 	Footer,
-	FooterMarkdown,
 	HeroBanner,
 	NavItems,
 	Navbar,
