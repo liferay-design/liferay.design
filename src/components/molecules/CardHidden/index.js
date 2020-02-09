@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 const CardHidden = ({ cta, delay, icon, text, title, to }) => {
 	return (
 		<AnimateIn delay={delay}>
-			<Link to={to} className={styles.cardHidden}>
+			<Link to={to} className={`${styles.cardHidden} ${styles.neumorphism}`}>
 				<Flex
 					className={styles.card}
 					padding={icon ? '2rem 0' : '.5rem'}
