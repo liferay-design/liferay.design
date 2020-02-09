@@ -85,3 +85,16 @@
 		}
 	}
 }
+
+.neumorphism {
+	.card {
+		background-color: initial;
+		border-radius: $fontSizeLarge;
+		&:after {
+			@include neu-base;
+		}
+		&:hover {
+			background-color: darken($neutral9, 0.05);
+		}
+	}
+}

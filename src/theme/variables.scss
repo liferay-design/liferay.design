@@ -179,3 +179,17 @@ $weight-bold: 700;
 	letter-spacing: 0.25ch;
 	font-weight: $fontWeightBlack;
 }
+
+// neumorphism
+
+$neuBoxShadowXSmall: $spacingXSmall $spacingXSmall ($spacingXSmall * 1.2)
+		rgba($neutral8, 0.6),
+	(-$spacingXSmall) (-$spacingXSmall) ($spacingXSmall * 1.2) rgba($white, 0.9);
+$neuBoxShadowBase: $spacingBase $spacingBase ($spacingBase * 1.2) rgba($neutral8, 0.6),
+	(-$spacingBase) (-$spacingBase) ($spacingBase * 1.2) rgba($white, 0.9);
+
+@mixin neu-base {
+	border: solid 2px rgba($white, 0.4);
+	border-radius: $fontSizeLarge;
+	box-shadow: $neuBoxShadowBase;
+}
