@@ -1,7 +1,7 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { AuthContainer, GlobalMdx } from 'components/molecules'
-import { FooterMarkdown, Sidebar } from 'components/organisms'
+import { Footer, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
@@ -157,7 +157,7 @@ export default class Lexicon extends Component {
 											<MDXRenderer>{mdx.body}</MDXRenderer>
 										</GlobalMdx>
 									</ContainerMarkdown>
-									<FooterMarkdown light />
+									<Footer markdown light />
 								</div>
 
 								<Flex

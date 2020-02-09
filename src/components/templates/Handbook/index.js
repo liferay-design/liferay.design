@@ -1,6 +1,6 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer, GlobalMdx, SEO } from 'components/molecules'
-import { FooterMarkdown, Sidebar } from 'components/organisms'
+import { Footer, Sidebar } from 'components/organisms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
@@ -36,7 +36,7 @@ export default class Handbook extends Component {
 		} = this.props
 
 		return (
-			<div className={`${blueprints.theme} ${documentation.theme}`}>
+			<div className={`${blueprints.theme} ${documentation.theme} ${styles.neumorphism}`}>
 				<SEO
 					description={mdx.excerpt}
 					keywords="Liferay Design Handbook, handbook, designer handbook"
@@ -74,7 +74,7 @@ export default class Handbook extends Component {
 									section="Handbook"
 								/>
 
-								<div
+								<div className={styles.contentWrapper}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
@@ -141,7 +141,7 @@ export default class Handbook extends Component {
 													</Link>
 												</Flex>
 											</ContainerMarkdown>
-											<FooterMarkdown light />{' '}
+											<Footer markdown light />
 										</>
 									)}
 								</div>
