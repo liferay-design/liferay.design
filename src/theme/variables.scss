@@ -190,6 +190,6 @@ $neuBoxShadowBase: $spacingBase $spacingBase ($spacingBase * 1.2) rgba($neutral8
 
 @mixin neu-base {
 	border: solid 2px rgba($white, 0.4);
-	border-radius: $fontSizeLarge;
+	border-radius: $fontSizeMedium;
 	box-shadow: $neuBoxShadowBase;
 }
