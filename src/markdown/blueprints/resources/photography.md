@@ -18,6 +18,8 @@ Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photo
 
 ## Liferay Events Etc
 
+-   [Marketing Kick-Off, San Diego 2020](https://photos.app.goo.gl/uKmo4noWTyxzxqwe8)
+-   [EMEA Partner Summmit, Milano 2019](https://photos.app.goo.gl/SeVCTmBDXniPyeUeA)
 -   [Americas Partner Summmit, Miami 2019](https://photos.app.goo.gl/3nCBATEsKPXkJhrg9)
 -   [North America Symposium, New Orleans 2018](https://photos.app.goo.gl/1BokV7mREGDntdycA)
 -   [Design Week, Diamond Bar 2018](https://photos.app.goo.gl/h8nzVLpd4fCCGGYF2)
