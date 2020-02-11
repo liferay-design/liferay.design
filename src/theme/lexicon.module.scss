@@ -13,12 +13,16 @@
 	padding-right: 4px;
 	position: relative;
 	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+@mixin documentLabel {
+	position: relative;
 	top: -2.5rem;
 	@media (max-width: $grid-float-breakpoint - 1) {
 		margin-top: 1.5rem;
 	}
 }
-
 .theme {
 	font-family: $fontFamilySystem;
 
@@ -77,18 +81,21 @@
 
 		.labelWarning {
 			@include label;
+			@include documentLabel;
 			border-color: $warning-l1;
 			color: $warning;
 		}
 
 		.labelDraft {
 			@include label;
+			@include documentLabel;
 			border-color: $main-l4;
 			color: $main-l3;
 		}
 
 		.labelInfo {
 			@include label;
+			@include documentLabel;
 			border-color: $info-l1;
 			color: $info;
 		}
@@ -220,65 +227,71 @@
 	}
 }
 
+@mixin doDont {
+	border-style: solid;
+	font-weight: 600;
+}
+
+:global(.labelTag) {
+	@include label;
+}
+
+:global(.labelCorrection) {
+	@include documentLabel;
+}
+
 :global(.designerInfo) {
 	color: $info;
 	font-size: 0.875rem;
 }
 
 :global(.do) {
-	border-style: solid;
-	border-width: 4px 0px 0px 0px;
+	@include doDont;
 	border-color: $success-l1;
 	color: $success;
-	font-weight: 600;
+	border-width: 4px 0px 0px 0px;
 }
 
 :global(.dont) {
-	border-style: solid;
-	border-width: 4px 0px 0px 0px;
+	@include doDont;
 	border-color: $error-l1;
 	color: $error;
-	font-weight: 600;
+	border-width: 4px 0px 0px 0px;
 }
 
 :global(.avoid) {
-	border-style: solid;
-	border-width: 4px 0px 0px 0px;
+	@include doDont;
 	border-color: $warning-l1;
 	color: $warning;
-	font-weight: 600;
+	border-width: 4px 0px 0px 0px;
 }
 
 :global(.do-text) {
+	@include doDont;
 	color: $success;
-	font-weight: 600;
-	border-style: solid;
 	border-width: 0px 0px 0px 4px;
 	border-color: $success-l1;
 	padding-left: 1rem;
 }
 
 :global(.dont-text) {
+	@include doDont;
 	color: $error;
-	font-weight: 600;
-	border-style: solid;
 	border-width: 0px 0px 0px 4px;
 	border-color: $error-l1;
 	padding-left: 1rem;
 }
 
 :global(.do-table) {
+	@include doDont;
 	color: $success;
-	font-weight: 600;
-	border-style: solid;
 	border-width: 0px 0px 4px 0px;
 	border-color: $success-l1;
 }
 
 :global(.dont-table) {
+	@include doDont;
 	color: $error;
-	font-weight: 600;
-	border-style: solid;
 	border-width: 0px 0px 4px 0px;
 	border-color: $error-l1;
 }
@@ -315,21 +328,6 @@
 	font-weight: 600;
 }
 
-:global(.labelTag) {
-	font-size: 10px;
-	font-weight: 600;
-	margin: 0 0.5rem 0 0;
-	padding-left: 4px;
-	padding-right: 4px;
-	background-color: $white;
-	border-radius: 0.125rem;
-	border-style: solid;
-	border-width: 0.0625rem;
-	display: inline-flex;
-	line-height: 1rem;
-	white-space: nowrap;
-}
-
 :global(.labelDraft) {
 	border-color: $main-l4;
 	color: $main-l3;
@@ -343,13 +341,4 @@
 :global(.labelWarning) {
 	border-color: $warning-l1;
 	color: $warning;
-}
-
-:global(.labelCorrection) {
-	position: relative;
-	top: -2.5rem;
-
-	@media (max-width: $grid-float-breakpoint - 1) {
-		margin-top: 1.5rem;
-	}
 }
