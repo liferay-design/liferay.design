@@ -1,5 +1,5 @@
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { Footer, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
@@ -81,7 +81,7 @@ export default class Lexicon extends Component {
 						return (
 							<Grid
 								template={gridTemplate}
-								className={documentation.mainContentWrapper}
+								className={`${documentation.mainContentWrapper} ${lexicon.mainContentWrapper}`}
 							>
 								{matches && (
 									<Flex
@@ -117,34 +117,24 @@ export default class Lexicon extends Component {
 										</Flex>
 
 										{mdx.frontmatter.titleLabelLink ? (
-											<span>
-												<Link
-													className={lexicon.labelWarning}
-													to={mdx.frontmatter.titleLabelLink}
-												>
-													VIEW IN CLAY
-												</Link>
-											</span>
+											<Link
+												className={lexicon.labelWarning}
+												to={mdx.frontmatter.titleLabelLink}
+											>
+												View in Clay
+											</Link>
 										) : null}
 
 										{mdx.frontmatter.productName ? (
-											<span>
-												<Link
-													className={lexicon.labelInfo}
-												>
-													{mdx.frontmatter.productName}
-												</Link>
-											</span>
+											<Link className={lexicon.labelInfo}>
+												{mdx.frontmatter.productName}
+											</Link>
 										) : null}
 
 										{mdx.frontmatter.devStatus ? (
-											<span>
-												<Link
-													className={lexicon.labelDraft}
-												>
-													{mdx.frontmatter.devStatus}
-												</Link>
-											</span>
+											<Link className={lexicon.labelDraft}>
+												{mdx.frontmatter.devStatus}
+											</Link>
 										) : null}
 
 										{mdx.frontmatter.description ? (
@@ -225,7 +215,7 @@ export const pageQuery = graphql`
 				devStatus
 				productName
 			}
-				body
+			body
 		}
 	}
 `
