@@ -21,7 +21,7 @@ Indicated by the symbol ©, copyrights protect our exclusive rights of creations
 
 For more information on copyrights, see our [internal policy for marking our source code](https://grow.liferay.com/share/Liferay+Policy+for+Marking+Our+Own+Source+Code) or our [internal copyright FAQ](https://grow.liferay.com/share/Internal+Liferay+Copyright+%3CAMPERSAND%3E+Licensing+FAQ).
 
-## Status Information | November 2019
+## Status Information | February 2020
 
 ### We Have Registered The Following Trademarks In The United States And Can Use The &reg; Symbol
 
@@ -30,15 +30,16 @@ Special form drawings (word and logo combo):
 -   Liferay _(Registered May 21, 2019)_
 -   Liferay Digital Experience Platform _(Registered July 30, 2019)_
 -   Liferay Commerce _(Registered July 30, 2019)_
+-   Liferay Analytics Cloud _(Registered February 04, 2020)_
 
 Standard Character Marks (word trademarks):
 
 -   Liferay _(Registered March 31, 2015)_
--   Liferay DXP _(Registered October 31, 2017)_
--   WeDeploy _(Registered December 21, 2017)_
--   Liferay Analytics Cloud _(Registered August 06, 2019)_
 -   Liferay Digital Experience Platform _(Registered October 17, 2017)_
+-   Liferay DXP _(Registered October 31, 2017)_
 -   Liferay Commerce _(Registered October 15, 2019)_
+-   Liferay Analytics Cloud _(Registered August 06, 2019)_
+-   WeDeploy _(Registered December 21, 2017)_
 
 ### In The United States The Following Trademarks Are Still Work In Progress
 
@@ -51,9 +52,7 @@ Standard Character Marks (word trademarks):
 -   Mapo
 -   Testray
 
-Special form drawings (word and logo combo):
-
--   Liferay Analytics Cloud
+<!-- Special form drawings (word and logo combo): -->
 
 If you are interested in other territories [please let us know](mailto:paul.hanaoka@liferay.com).
 
