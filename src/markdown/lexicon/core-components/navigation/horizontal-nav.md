@@ -1,7 +1,7 @@
 ---
 title: 'Navbar'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/navigation/navbar.html'
+titleLabelLink: 'https://clayui.com/docs/components/navigation-bar.html'
 description: 'A navigation bar, navbar, is a horizontal bar that provides several access points to different parts of a system.'
 order: 312
 draft: false

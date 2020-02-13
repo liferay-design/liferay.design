@@ -1,7 +1,7 @@
 ---
 title: 'Dropdown Menu'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/dropdowns.html'
+titleLabelLink: 'https://clayui.com/docs/components/drop-down.html'
 description: 'A dropdown menu displays a list of options for the element that triggers it.'
 order: 243
 draft: false

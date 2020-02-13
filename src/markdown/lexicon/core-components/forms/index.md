@@ -1,7 +1,7 @@
 ---
 title: 'Forms'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/forms/form-elements.html'
+titleLabelLink: 'https://clayui.com/docs/components/forms/form.html'
 description: 'Forms obtain user data and transmit it to the system to either store the data, produce an action, or both.'
 order: 250
 draft: false

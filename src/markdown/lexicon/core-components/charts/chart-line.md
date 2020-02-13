@@ -1,7 +1,7 @@
 ---
 title: 'Line Chart'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/charts/basic/bar_chart.html'
+titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 description: 'A type of chart which displays information as a series of data points connected by straight line segments.'
 order: 228
 draft: false

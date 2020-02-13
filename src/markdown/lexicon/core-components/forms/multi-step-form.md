@@ -1,7 +1,7 @@
 ---
 title: 'Multi Step Form'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/forms/multi-step-form.html'
+titleLabelLink: 'https://clayui.com/docs/components/forms/multi-step-nav.html'
 description: 'A progress bar used to divide the main task into subtasks to help users complete long processes.'
 order: 259
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: 'Bar Chart'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/charts/basic/bar_chart.html'
+titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 description: 'A graphical data representation based on rectangle bars with proportional lengths and heights.'
 order: 224
 draft: false
