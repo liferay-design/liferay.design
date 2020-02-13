@@ -1,7 +1,7 @@
 ---
 title: 'Progress Bar'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/progress-bars.html'
+titleLabelLink: 'https://clayui.com/docs/components/progress-bar.html'
 description: 'Progress bar indicates the percentage completed of a task.'
 order: 323
 draft: false

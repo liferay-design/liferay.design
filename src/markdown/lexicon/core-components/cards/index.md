@@ -1,7 +1,7 @@
 ---
 title: 'Cards'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/cards.html'
+titleLabelLink: 'https://clayui.com/docs/components/card.html'
 description: 'Cards are a specific form of data visualization focused mainly on displaying images.'
 order: 210
 draft: false

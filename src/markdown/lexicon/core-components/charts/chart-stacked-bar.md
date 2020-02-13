@@ -1,7 +1,7 @@
 ---
 title: 'Stacked Bar Chart'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/charts/basic/bar_chart.html'
+titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 description: 'A Stacked Bar chart compares the values of single items with the total data value.'
 order: 230
 draft: false

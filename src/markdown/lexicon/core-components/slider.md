@@ -1,5 +1,7 @@
 ---
 title: 'Slider'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/forms/slider.html'
 description: 'A Slider allows the user to select values in a linear range of values.'
 order: 325
 draft: false
