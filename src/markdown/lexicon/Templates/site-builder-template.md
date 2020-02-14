@@ -2,7 +2,7 @@
 title: 'Site Builder Template'
 description: 'The Site Builder template demonstrates .'
 order: 405
-draft: false
+draft: true
 ---
 
 ### Basic Components
