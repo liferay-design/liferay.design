@@ -1,0 +1,185 @@
+---
+author: 'Paul Hanaoka'
+date: '2020-02-14T17:12:33.962Z'
+title: 'Gatsby Days LA: A Love Story'
+featuredImage: '/images/posts/gatsby-days-la/heart-eyes-for-gatsby.jpg'
+publish: true
+---
+
+import { Image } from 'components/atoms'
+
+If you’ve followed me for any length of time [on Twitter](https://twitter.com/plhnk), you’ve probably seen [multiple](https://twitter.com/plhnk/status/1105699555994042369?s=20) [professions](https://twitter.com/plhnk/status/1123007662403100673?s=20) [of](https://twitter.com/plhnk/status/1177429306894512128?s=20) [love](https://twitter.com/plhnk/status/1220226057648762880?s=20) for [Gatsby](https://gatsbyjs.org). When I saw they were hosting a one-day, single-track conference about 20 miles (only 2 hours in LA traffic!) from my house, I couldn’t _not_ attend.
+
+Liferay.Design has been running on Gatsby [since early 2018](https://github.com/liferay-design/liferay.design/search?o=asc&q=gatsby&s=committer-date&type=Commits), and despite not having a “real” dedicated web developer, we’ve managed to build a fairly large site including (but not limited to):
+
+1. Multiple “post” types — [blogs](/articles) (with [tagging functionality](/tags/best-practices)), [event listings](/events) and recaps, [job listings](/careers), [team](/team/anton-juan) profiles
+2. Multiple documentation-style sites — Lexicon (our design system), Blueprints (our brand style guidelines — with basic auth capability), and our department handbook
+3. Landing pages — for our annual reports and most recently for our upcoming Desk Week
+4. Integrating 3rd Party Data sources — like Mailchimp for our [Newsletter archive](/newsletter) and Google Docs for our [career paths](/handbook/grow/career-paths/individual-contributor/) and job descriptions
+5. More stuff, probably
+
+This is largely in part thanks to Gatsby’s incredible ecosystem — they really hit the sweet spot with amazing technology, thorough docs and examples, and a welcoming, helpful community.
+
+<Image
+	margin="4rem 0"
+	caption="(apologies to Gatsby’s brand team for the above)"
+	src="/images/posts/gatsby-days-la/gatsby-trifecta.png"
+/>
+
+Anyway, if you’re still with me and haven’t lost your lunch over my fawning yet — you’ve more than earned a decent event recap.
+
+## The Venue
+
+<Image src="/images/posts/gatsby-days-la/convene.jpg" />
+
+[Convene](https://convene.com/cities/los-angeles/333-south-grand-avenue) has a great space — big enough where you can fit 200+ people, but not so big where you got lost or feel isolated when you stand by yourself in a corner.
+
+Something interesting that I had never seen before is mouthwash in a soap dispenser — [despite Linda’s earlier warning about this](https://twitter.com/LibereGatare/status/1224403652934348806), I still pumped a healthy serving of Scope into my hands.
+
+<Image
+	margin="4rem 0"
+	caption="The bathroom would not pass heuristic tests."
+	src="/images/posts/gatsby-days-la/soap-or-mouthwash.jpg"
+/>
+
+## The Talks
+
+_Note — there is a [complete recording of everything on YouTube](https://www.youtube.com/watch?v=lxxYParyAGk), it looks like they’ll be splitting it up into individual videos, but at the time of this posting haven’t gotten to it._
+
+### Opening Keynote — Kyle Matthews
+
+[Starts ~4:16](https://youtu.be/lxxYParyAGk?t=256)
+
+Kyle began with Gatsby’s origin story, and brought that into where they are now, shared about the new release of Gatsby Cloud and then talked about the future of Gatsby.
+
+Particularly exciting was the focus on #nocode and live demo of [blocks-ui](https://blocks-ui.com/).
+
+He concluded with awesome shoutouts, recognizing [Rachel Cherry](https://twitter.com/bamadesigner), [Nick DeJesus](twitter.com/dayhaysoos), [Khaled Garbaya](twitter.com/khaled_garbaya), and the 25 other Gatsbytes (I learned from [Shane Thomas](https://twitter.com/smthomas3) the official way to refer to people who work at Gatsby).
+
+### Gatsby Cloud: What’s New and What’s Coming — Dustin Schau
+
+[Starts at ~26:37](https://youtu.be/lxxYParyAGk?t=1597)
+
+Dustin started off his talk with a bold statement:
+
+> We plan to make Gatsby the definitive way to build for the web.
+
+He then put his money where his mouth was by giving a live demo improving the accessibility of his wedding website and showed off the Gatsby using Contentful as a CMS deployed with Gatsby Cloud.
+
+### What separates the fastest Gatsby sites from everybody else — Grant Glidewell
+
+[Starts at ~51:06](https://youtu.be/lxxYParyAGk?t=3067)
+
+Gatsby is insanely fast out of the box (OOTB for you acronym lovers) — but Grant shared a couple extras that help make it even faster that will help you get the coveted Lighthouse 💯 fireworks gif _(Note that Grant pronounced ‘gif’ correctly)_.
+
+<Image
+	padding="4rem 0"
+	src="/images/posts/gatsby-days-la/lighthouse-100.gif"
+	caption="#SquadGoals"
+/>
+
+The takeaways for me — use Gatsby Image and Link. These might seem obvious, but as Grant pointed out, when you’re just getting started in a new framework it’s very easy to miss these things. Especially since Graphql queries for images can be complex. Thankfully they do provide a lot of examples and fragments.
+
+### How Tinder creates Wordpress blogs in React instead of PHP — Kyle Boss
+
+[Starts at ~1:43:20](https://youtu.be/lxxYParyAGk?t=6230)
+
+Kyle Boss (no relation to Wes) gave a thoroughly entertaining and informative introduction to how Wordpress and Gatsby work together.
+
+It was really cool to learn about how Gatsby really empowered Tinder’s teams by allowing them to focus on what they do best. Allowing developers and content creators to use the tools they love — and also have a high quality user experience as the end result.
+
+### Highly Dynamic WordPress Sites with Gatsby — Zac Gordon
+
+[Starts at ~2:10:10](https://youtu.be/lxxYParyAGk?t=7821)
+
+This being the second consecutive WP + Gatsby talk, I’m beginning to wonder why I never looked more deeply at Wordpress. Zac’s presentation made it seem very straightforward to connect the two.
+
+Comments and forms are a challenge in the JAMstack — Zac briefly went through three approaches:
+
+1. Native — use OOTB features to trigger builds when things like comment forms are submitted.
+2. SaaS — pay for a solution, [Commento](https://commento.io/) was very interesting!
+3. Custom — a lot of ways to do this, one approach is to create a custom form, have data sent “somewhere”, moderate somewhere else (Slack?), then trigger a new build in Netlify or Gatsby Cloud. Easy peasy.
+
+### Sell Things Fast with Gatsby and Shopify — Trevor Harmon
+
+[Starts at ~2:30:20](https://youtu.be/lxxYParyAGk?t=9020)
+
+I definitely highlighted this session before coming to the conference, we’ve been tinkering around with the idea of liferay.design/store and I really wanted to see what Trevor’s approach was.
+
+Shopify and Gatsby seem to be a great match — there’s a [gatsby-source-shopify plugin](https://www.gatsbyjs.org/packages/gatsby-source-shopify), so you can access all your store data and do things like create product pages fairly easily. There’s also a [plugin that makes the checkout](https://www.gatsbyjs.org/packages/gatsby-plugin-shopify-buy) experience easier to develop.
+
+Plus, the fact that Gatsby [open-sourced their store code](https://github.com/gatsbyjs/store.gatsbyjs.org) means you’ve got a great place to go see how they did it.
+
+### Smoothly inclusive: React component library documentation with Gatsby and MDX — Kathleen McMahon
+
+Starts at [~2:56:11](https://youtu.be/lxxYParyAGk?t=10611) — Slides available on [Kathleen’s site](https://noti.st/resource11/w6pfZD/smoothly-inclusive-react-component-library-documentation-with-gatsby-and-mdx)
+
+Kathleen’s talk was also one I had metaphorically circled, as we’re using the same stack for our various documentation sites ([Lexicon](/lexicon/), [Blueprints](/blueprints/), [Handbook](/handbook/)), and I was excited to see what lessons I could take from the O’Reilly team and apply for our context.
+
+I loved that she started with their goal of making documentation more inclusive — in terms of structure as well as for authors — the parallels between our organizations are starting to get eery.
+
+Her demo of their system using [react-live](https://react-live.netlify.com/) was very cool and I’m sure something that is the envy of design systems everywhere.
+
+### Lunch
+
+The second most important meal of the day — the spread was amazing and healthy. The butternut squash soup and tri-tip salad were `:chefs-kiss:`.
+
+### Unconference Sessions
+
+There were a number of great topics on the board for the Unconference portion of the day — accessibility, testing, ecommerce to name a few — I spent the first session discussing what makes websites beautiful with [Lennart](https://github.com/LekoArts) and [Shannon](https://twitter.com/shannonb_ux) and others.
+
+It was really cool meeting LekoArts in person (he was the one who [merged my request](https://github.com/gatsbyjs/gatsby/pull/13585) for adding liferay.design to Gatsby’s showcase). I am a little embarrassed to say I didn’t realize who Shannon was at the moment, so I missed out on the chance to meet her.
+
+### Gatsby in East Africa — Gatare Libère
+
+[Starts at ~5:56:30](https://youtu.be/lxxYParyAGk?t=21390)
+
+This might have been my favorite session, unfortunately Gatare couldn’t join in person due to Visa issues (so much for “land of the free”) — but the video was great.
+
+He shared about the status of Gatsby in East Africa, and how he got started using Gatsby. It was a great testament to Gatsby’s community marketing efforts. Much like myself, Gatare loves swag hunting — so after finishing Hacktoberfest, he saw that [Gatsby gives swag](https://www.gatsbyjs.org/contributing/contributor-swag/) to show their appreciation for open source contributions.
+
+He listened to the [Syntax.fm episode on Gatsby vs Next](https://syntax.fm/show/120/gatsby-vs-next) (shoutout [@wesbos](twitter.com/wesbos) and [@stolinski](https://twitter.com/stolinski)!) and was sold.
+
+All in all it was really cool to hear about the positive impact that open source projects like Gatsby can have across the globe.
+
+### Empowered Workflows with Gatsby.js — Josh Comeau
+
+[Starts at ~6:11:22](https://youtu.be/lxxYParyAGk?t=22280) — Slides available at [gatsby-days-josh-talk.netlify.com](https://gatsby-days-josh-talk.netlify.com/0)
+
+My connection with Josh started during his introduction when Linda said he was a cat person. It deepened when he went explained why “content is more than just copy” and how we can use the mental models and technology of reusable components and share them with people who aren’t full-time web developers.
+
+His talk was particularly exciting for me, because we’re actually doing this at Liferay with [our new site building features](/articles/2019/increasing-our-ability-to-convert-prospects/)! It’s not often that companies building software for large enterprises get to be working on the same “bleeding edge” as cool startups like Gatsby 😊.
+
+### Teaching Web Development to Beginners with Gatsby.js — Daniel Kim
+
+[Starts at ~6:52:56](https://youtu.be/lxxYParyAGk?t=23696)
+
+This was Daniel’s first ever tech talk — so I guess we have to cut him a little slack for the mom bashing, but never do it again Daniel! PSA — being a mom is really hard, I only know secondhand, but lets not bash moms, they’re great.
+
+Daniel did a great job explaining the myriad of difficulties surrounding teaching people new technology and the advantages of starting with a framework like Gatsby. Because you get so much OOTB with Gatsby, a simple file structure, hot-reloading, routing, and simple deployments — it gives people a head start so they can get quick wins which builds confidence and makes learning more fun.
+
+### TL;DR for Accessible Components, Yuraima Estevez
+
+[Starts at ~6:48:42](https://youtu.be/lxxYParyAGk?t=24522) — Slides available at [tldr-a11y.yuraima.com](https://tldr-a11y.yuraima.com/)
+
+Even though it was the last talk of the day, I was really excited to learn about how we can improve the accessibility in our components — and Yuraima delivered!
+
+She gave three easy steps:
+
+1. Write [semantic HTML](https://internetingishard.com/html-and-css/semantic-html/)
+2. Use [ARIA attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+3. Ensure [keyboard navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html)
+
+Another huge takeaway she gave was that semantic HTML is accessible by default, so we can get so much of this stuff for free, as long as we don’t do silly things like turn links into buttons.
+
+<Image
+	margin="4rem 0"
+	src="/images/posts/gatsby-days-la/accessibility-in-action.jpg"
+	caption="ASL Interpreter in the lower right, Captioning in the lower left — all around awesome"
+/>
+
+## Overall
+
+Gatsby knocked this Day out of the park. Everyone had a great time and learned a lot! Not only did the Gatsby team do a great job on the macro level, I really appreciated their attention to detail and how accessible they made the conference for everyone. From scholarships, to live captions (shoutout to [Linsday Stoker](https://twitter.com/stoker_lindsay) for doing a great job on that!) and ASL translators, it was great to see them backing up all the accessibility talk with action.
+
+Now, if you’ll excuse me I need to get started on fixing some of the accessibility issues on liferay.design 😬.
