@@ -6,40 +6,42 @@ featuredImage: '/images/posts/euroia-19/euroia19-cover-front.png'
 publish: true
 ---
 
-Probably you have already read our [first EuroIA 19 post](../euroia-19-part1). In this second post, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.
+You have probably already read our [first part of the EuroIA 19 post](../euroia-19-part1). In that part we focused on the workshops. In this second part, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.
 
 
 ## The Talks
 
-Along these three conference days, there were two tracks of talks. Our highlight in some of them are:
+Along these three conference days, there were two tracks of talks. And as we were three designers, we had the chance to attend most of them. Thanks to [Emiliano Cicero](https://twitter.com/EmilianoGCicero) and [David Aragonés](https://twitter.com/davidaragones), because all of us wrote these posts together with our different points of view and contributions. The highlights from our favourites talks are:
 
 ## The unintended consequences of our design choices
 
 [Aly Blenkin](http://2019.euroia.org/person/aly-blenkin/) 
 
-Technology is neutral? No, because it's human.
+Is Technology neutral? During this session we were facing the fact that it’s not. No, because it's human. It is created by humans and of course, it is biased.
 
-It’s important to understand the implications of our design decisions, and for that:
+And that's the reason why it is so important to understand the implications of our design decisions, and to do that, we, as designers need to create a positive impact and reduce the negative one. To achieve the positive impact, we need to:
 
 1. Understand the scale of the problem (rules, regulations, actors, motivations...)
 2. Map it and get feedback.
 3. Reflect and act. Identify gaps and design for a positive impact 
 
-And reduce the negative impact:
+And to reduce the negative impact is necessary to:
 
 1. Prompt speculations designing for the future
 2. Create speeds bumps and use design principles
 3. Identify your ethical principles.
 
+The examples used in this talk were great and Aly handled the speech to make us think about how little decisions can create negative impact letting people apart and not being inclusive. 
+
 ### Citizen Centric Information Architecture: Creating a truly Citizen-Centric Digital Government
 
 [Alysson Franklin](http://2019.euroia.org/person/alysson-franklin/)
 
-Use case of redesign for Ohio government. 
+The talk Alysson gave was the use case of the redesign for the Ohio government websites. The redesign included many different sites and pages. Tones of information very difficult to find, for both employees and users of the sites.
 
-Problems to face: who owns the data and sources and information overload, which ended in the lack of trust of the employees, because it is difficult to manage the portal and also the citizens.
+They has two main problems to face: who owns the data and the information overload, which ended in the lack of trust of the employees and also the citizens.
 
-6 challenges:
+They faced these problems by creating the 6 steps challenge:
 
 1. De-bureaucratize the authoring layer
 2. Turn content tagging an easy task
@@ -48,7 +50,7 @@ Problems to face: who owns the data and sources and information overload, which 
 5. Rock-solid, yet scalable data model
 6. Design for all cultures and societies in Ohio
 
-How did they do it? Using “A pattern language”. By identifying global patterns, selecting the main ones, providing a structure and taxonomy and allowing the users to create their own taxonomy too (folksonomie)
+And how did they do it? Using “A pattern language” as a reference. By identifying global patterns, selecting the main ones, providing a structure and taxonomy and allowing the users to create their own taxonomy too (folksonomie)
 
 As a curious thing, This solution was made using Liferay ❤️.
 
@@ -56,18 +58,18 @@ As a curious thing, This solution was made using Liferay ❤️.
 
 [Hertje Brodersen](http://2019.euroia.org/person/hertje-brodersen/)
  
-We learned how to identify wicked problems and how to deal with them as well as complex systems:
+In this talk we learned how to identify wicked problems and how to deal with them, as well as complex systems. These 3 steps may help:
 
-1. Context. Recognising complexity. “Disasters occur when a complex issue is managed as a complicated or simple one”
-Determine the type of problem (Simple = Bake a cake, Complicated = Build a Rocket, Complex = Raise a child), acknowledge wicked problems, make time to deal with complexity, don’t use formulaic solutions, act, take responsibility.
-2. Planning. Ask tough questions, be realistic and pragmatic, practice critical thinking.
-3. Mindset. Designing for complexity. “It is your job to make others (and yourself) uncomfortable.” Solve for problems, not tools, learn to live with uncertainty, don’t get too comfortable.
+1. Context. The first challenge is recognising complexity. As Hertje pointed out “Disasters occur when a complex issue is managed as a complicated or simple one”
+So, the first thing to do is to determine the type of problem you are facing. It can be Simple as baking a cake, Complicated as building a Rocket, or Complex as raising a child. Once the problem is categorized and we know that we have to face a complex problem, it is time to acknowledge wicked problems, make time to deal with complexity, don’t use formulaic solutions, act and take responsibility.
+2. Planning a solution. For that, ask tough questions, be realistic and pragmatic, and practice critical thinking.
+3. Mindset. Designing for complexity. Follow the rule: “It is your job to make others (and yourself) uncomfortable.” Solve for problems, not for tools, learn to live with uncertainty and don’t get too comfortable.
 
 ### Let’s Destroy Silicon Valley
 
 [Mike Monteiro](http://2019.euroia.org/person/mike-monteiro/)
 
-I have to say that Mike is a very good speaker. He talked with passion and energy because we even heard the cracks of the lectern. However, we felt at some moments out of context like if we were in a political speech. He talked about ethics and morals with cases from Silicon Valley. But, in Europe or Spain with our laws most of those cases would never have existed.
+The first and best of the keynotes. Mike is a very good speaker. He talked with passion and energy because we even heard the cracks of the lectern. However, we felt at some moments being judged as guilty, as if all designers were resposible to design harmfull and evil products. And sometimes a bit out of context like if we were in a political speech. He talked about ethics and morals with examples and cases from Silicon Valley. But, in Europe with our laws, most of those cases would never have existed.
 
 ![group of people](/images/posts/euroia-19/euroia19-unionize.jpg)
 
@@ -77,7 +79,8 @@ I have to say that Mike is a very good speaker. He talked with passion and energ
 
 Very interesting approach on how language can influence people. “The words we use have consequences. Language shapes reality”.
 
-And about the privileges. It is important to be aware and recognize, assess and change to include all the people in our designs.
+Lara also talked about privileges. When designing, it's very important to be aware and recognize our biases, assess and change designs to include all the people.
+As an example, a simple ctrl+C the well known command to copy something on an Operative System. Crtl+C is a command for English speakers. Other languages will need to learn it by heart but never understand that the C comes from Copy. To avoid situations like the previous one, and much more, designers should realize and care about:
 
 - Who is (not) included?
 - What can they (not) do?
@@ -85,6 +88,7 @@ And about the privileges. It is important to be aware and recognize, assess and 
 - Why are they excluded? (gender, race, social class, age, disability, sexual orientation ethnicity...)
 - What should I change?
 - What can I change NOW? 
+Including everyone in our designs is basic to have accesible and inclusive technology.
 
 ### A taxonomy of the orcanization – game design for information architecture
 
@@ -122,4 +126,4 @@ It was really fun to be part of this, it was also really interesting to see how 
 <br/>
 <br/>
 
-Thansk for celebrating this great event. We hope to come back in future editions. 🤗
+Thanks for celebrating this great event. [EuroIA 2020](https://euroia.org/) topic is Hope: Foundations for preferable futures and we are willing to come back again. 🤗
