@@ -6,12 +6,12 @@ featuredImage: '/images/posts/euroia-19/euroia19-cover-front.png'
 publish: true
 ---
 
-You have probably already read our [first part of the EuroIA 19 post](../euroia-19-part1). In that part we focused on the workshops. In this second part, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.
+You have probably already read the [first part of our EuroIA 19 post](../euroia-19-part1). There, we focused on the workshops. In this second part, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.
 
 
 ## The Talks
 
-Along these three conference days, there were two tracks of talks. And as we were three designers, we had the chance to attend most of them. Thanks to [Emiliano Cicero](https://twitter.com/EmilianoGCicero) and [David Aragonés](https://twitter.com/davidaragones), because all of us wrote these posts together with our different points of view and contributions. The highlights from our favourites talks are:
+Along these three conference days, there were two tracks of talks. As we were a group of three designers, we had the chance to attend most of them. Thanks to [Emiliano Cicero](https://twitter.com/EmilianoGCicero) and [David Aragonés](https://twitter.com/davidaragones), because all of us wrote these posts together from our different points of view and contributions. The highlights from our favourites talks are:
 
 ## The unintended consequences of our design choices
 
@@ -19,7 +19,7 @@ Along these three conference days, there were two tracks of talks. And as we wer
 
 Is Technology neutral? During this session we were facing the fact that it’s not. No, because it's human. It is created by humans and of course, it is biased.
 
-And that's the reason why it is so important to understand the implications of our design decisions, and to do that, we, as designers need to create a positive impact and reduce the negative one. To achieve the positive impact, we need to:
+That's the reason why it is so important to understand the implications of our design decisions, and to do that, we, as designers, need to create a positive impact and reduce the negative one. To achieve the positive impact, we need to:
 
 1. Understand the scale of the problem (rules, regulations, actors, motivations...)
 2. Map it and get feedback.
@@ -37,9 +37,9 @@ The examples used in this talk were great and Aly handled the speech to make us 
 
 [Alysson Franklin](http://2019.euroia.org/person/alysson-franklin/)
 
-The talk Alysson gave was the use case of the redesign for the Ohio government websites. The redesign included many different sites and pages. Tones of information very difficult to find, for both employees and users of the sites.
+Alysson's talk covered the use case of the redesign for the Ohio government websites. The redesign included many different sites and pages. Tones of information are very difficult to find, for both employees and users of the sites.
 
-They has two main problems to face: who owns the data and the information overload, which ended in the lack of trust of the employees and also the citizens.
+They had two main problems to face: who owns the data and the information overload, which ended in the lack of trust of the employees, and also the citizens.
 
 They faced these problems by creating the 6 steps challenge:
 
@@ -50,7 +50,7 @@ They faced these problems by creating the 6 steps challenge:
 5. Rock-solid, yet scalable data model
 6. Design for all cultures and societies in Ohio
 
-And how did they do it? Using “A pattern language” as a reference. By identifying global patterns, selecting the main ones, providing a structure and taxonomy and allowing the users to create their own taxonomy too (folksonomie)
+And how did they do it? Using “A pattern language” as a reference. By identifying global patterns, selecting the main ones, providing a structure and taxonomy and allowing the users to create their own taxonomy too (folksonomie).
 
 As a curious thing, This solution was made using Liferay ❤️.
 
@@ -69,7 +69,7 @@ So, the first thing to do is to determine the type of problem you are facing. It
 
 [Mike Monteiro](http://2019.euroia.org/person/mike-monteiro/)
 
-The first and best of the keynotes. Mike is a very good speaker. He talked with passion and energy because we even heard the cracks of the lectern. However, we felt at some moments being judged as guilty, as if all designers were resposible to design harmfull and evil products. And sometimes a bit out of context like if we were in a political speech. He talked about ethics and morals with examples and cases from Silicon Valley. But, in Europe with our laws, most of those cases would never have existed.
+The first and best of the keynotes. Mike is a very good speaker. He talked with passion and energy, we even heard the cracks of the lectern. However, we felt at some moments being judged as guilty, as if all designers were resposible to design harmfull and evil products. Sometimes, it was a bit out of context, like if we were in a political speech. He talked about ethics and morals with examples and cases from Silicon Valley. But, in Europe with our laws, most of those cases would never have existed.
 
 ![group of people](/images/posts/euroia-19/euroia19-unionize.jpg)
 
@@ -77,10 +77,10 @@ The first and best of the keynotes. Mike is a very good speaker. He talked with 
 
 [Lara Portmann](http://2019.euroia.org/person/lara-portmann/)
 
-Very interesting approach on how language can influence people. “The words we use have consequences. Language shapes reality”.
+Lara brought a very interesting approach on how language can influence people. “The words we use have consequences. Language shapes reality”.
 
-Lara also talked about privileges. When designing, it's very important to be aware and recognize our biases, assess and change designs to include all the people.
-As an example, a simple ctrl+C the well known command to copy something on an Operative System. Crtl+C is a command for English speakers. Other languages will need to learn it by heart but never understand that the C comes from Copy. To avoid situations like the previous one, and much more, designers should realize and care about:
+She also talked about privileges. When designing, it's very important to be aware and recognize our biases, assess and change designs to include all the people.
+As an example, a simple Ctrl+C the well known command to copy something on an Operative System. Crtl+C is a command for English speakers. Other languages will need to learn it by heart but never understand that the C comes from Copy. To avoid situations like the previous one, and much more, designers should realize and care about:
 
 - Who is (not) included?
 - What can they (not) do?
@@ -88,13 +88,14 @@ As an example, a simple ctrl+C the well known command to copy something on an Op
 - Why are they excluded? (gender, race, social class, age, disability, sexual orientation ethnicity...)
 - What should I change?
 - What can I change NOW? 
+
 Including everyone in our designs is basic to have accesible and inclusive technology.
 
 ### A taxonomy of the orcanization – game design for information architecture
 
 [Andrea Resmini](http://2019.euroia.org/person/andrea-resmini/)
 
-This talk was an introduction for the workshop he was giving the next day. Andrea compared both digital/physical games, and applications to complex systems showing that they have some common points in the narrative and experiences.
+This talk was an introduction for the workshop he was going to give the next day. Andrea compared both digital/physical games, and applications to complex systems showing that they have some common points in the narrative and experiences.
 
 He used digital games such as Prince of Persia and Shadow of Mordor, but also physical games such as Chess and Tic Tac Toe.
 
@@ -103,7 +104,7 @@ He used digital games such as Prince of Persia and Shadow of Mordor, but also ph
 
 [Rachel Price](http://2019.euroia.org/person/rachel-price/)
 
-What Rachel did was actually very impressive. 
+What Rachel did was actually very impressive! 
 For the first half of the talk she explained the role of the research facilitator as any other talk out there. In the second half she talked about Jazz and improvisation methods, then she divided the entire public into 3 big groups and got them to clap their hands separately.
 
 ![graphic of the future](/images/posts/euroia-19/euroia19-embellistments.png)
@@ -126,4 +127,4 @@ It was really fun to be part of this, it was also really interesting to see how 
 <br/>
 <br/>
 
-Thanks for celebrating this great event. [EuroIA 2020](https://euroia.org/) topic is Hope: Foundations for preferable futures and we are willing to come back again. 🤗
+Thanks for celebrating this great event. [EuroIA 2020](https://euroia.org/) topic was _Hope: Foundations for preferable futures_, and we are willing to come back again. 🤗
