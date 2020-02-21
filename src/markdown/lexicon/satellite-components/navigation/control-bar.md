@@ -42,16 +42,15 @@ The page name is identified in the header. The related actions are listed with t
 
 ![Main page header](/images/lexicon/HeaderSite.jpg)
 
-### Attributes
+### Parts
 
 ![header parts](/images/lexicon/HeaderParts.jpg)
 
 1. Product menu button
 2. Back button
 3. Page or Application title
-4. Help icon to trigger help information
-5. Configuration
-6. Add menu button
-7. Simulation button
+4. Configuration
+5. Add menu button
+6. Simulation button
 
 ![header metrics](/images/lexicon/HeaderMetrics.jpg)
