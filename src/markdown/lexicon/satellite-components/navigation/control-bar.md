@@ -20,7 +20,16 @@ The Header is used on almost every page in the system. The most common configura
     -   Actions: They are identified with an icon when existing, and listed inside an actions menu when an icon is not clear. These actions are application level actions.
     -   User Sticker: It allows displaying different navigation options and actions to which the user has access.
 
-The Header can have different configurations, as you can see in the examples below.
+### Parts
+
+![Control Bar Parts](/images/lexicon/header-part.png)
+
+1. Product menu button
+2. Back button
+3. Page or Application title
+4. Configuration
+5. Add menu button
+6. Simulation button
 
 ### Examples
 
@@ -41,15 +50,3 @@ The asset or element title appears in the header. A back button is provided to n
 The page name is identified in the header. The related actions are listed with three icons on the right side: configuration, add menu, and simulation.
 
 ![Control Bar Parts](/images/lexicon/header-application-on-site.png)
-
-### Parts
-
-![Control Bar Parts](/images/lexicon/header-part.png)
-
-1. Product menu button
-2. Back button
-3. Page or Application title
-4. Configuration
-5. Add menu button
-6. Simulation button
-
