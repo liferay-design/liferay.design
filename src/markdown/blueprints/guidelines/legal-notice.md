@@ -19,7 +19,7 @@ Liferay has registered its trademarks or otherwise sought protection in the Unit
 
 Indicated by the symbol ©, copyrights protect our exclusive rights of creations conveyed via a fixed medium, such as paper, film, and computer disks. Third parties must always obtain permission from Liferay when reproducing or using the material. We highly recommend using the © for protection on all materials distributed outside the company.
 
-For more information on copyrights, see our [internal policy for marking our source code](https://grow.liferay.com/share/Liferay+Policy+for+Marking+Our+Own+Source+Code) or our [internal copyright FAQ](https://grow.liferay.com/share/Internal+Liferay+Copyright+%3CAMPERSAND%3E+Licensing+FAQ).
+For more information on copyrights, see our internal [Liferay Outbound Licensing Policy](https://grow.liferay.com/excellence/Liferay+Outbound+Licensing+Policy) and our internal [FOSS in Liferay](https://grow.liferay.com/excellence/foss+in+liferay) landing page.
 
 ## Status Information | February 2020
 
