@@ -1,8 +1,8 @@
 ---
 author: 'David Aragonés'
 date: '2020-01-17T14:00:00.000Z'
-title: 'EuroIA 19 Recap 1/2'
-featuredImage: '/images/articles/euroia-19/euroia19-cover-front.png'
+title: 'EuroIA 19 Recap: Workshops'
+featuredImage: '/images/articles/euroia-19/euroia19-workshops.jpg'
 publish: true
 ---
 
@@ -96,6 +96,6 @@ The next activity was the Future Cone where we placed one of the paths of the Fu
 <br/>
 <br/>
 
-## _to be continued..._
+## _Part Two: EuroIA 19 Talks_
 
-_This is not the end of this post. We will come back soon with a second part highlighting the most interesting talks._
+_[Susana](https://twitter.com/usavor) has written [a follow-up post](/articles/2020/euroia-19-talks) where she shares highlights from the presentations shared at EuroIA 19!_

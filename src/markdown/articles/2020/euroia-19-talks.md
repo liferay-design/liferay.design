@@ -1,12 +1,12 @@
 ---
 author: 'Susana Vázquez'
 date: '2020-02-19T14:00:00.000Z'
-title: 'EuroIA 19 Recap 2/2'
-featuredImage: '/images/articles/euroia-19/euroia19-cover-front.png'
+title: 'EuroIA 19 Recap: Talks'
+featuredImage: '/images/articles/euroia-19/euroia19-team.jpg'
 publish: true
 ---
 
-You have probably already read the [first part of our EuroIA 19 post](../euroia-19-part1). There, we focused on the workshops. In this second part, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.
+You have probably already read the [first part of our EuroIA 19 post](../euroia-19-workshops). There, we focused on the workshops. In this second part, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.
 
 ## The Talks
 
