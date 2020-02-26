@@ -2,7 +2,7 @@
 author: 'Susana Vázquez'
 date: '2018-07-23'
 title: 'Designing animations for a multicultural product'
-featuredImage: '/images/posts/multicultural-animations.jpeg'
+featuredImage: '/images/articles/multicultural-animations.jpeg'
 publish: true
 ---
 
@@ -14,7 +14,7 @@ I’m going to explain how we redesigned and tested empty states illustrations f
 
 Let’s put a bit of context around this story. As you may know, an empty state illustration is shown when there is not any other info to display and capture the user’s attention. A friendly face looking around, smiling, or winking was the animation family for empty states in Lexicon 1 by Marcos Castro. They were created to give feedback in a memorable way and provide a pleasurable experience for the user but the fact was that the smiling face animation caused some cultural issues.
 
-![wink](/images/posts/mpa-the-past.gif)
+![wink](/images/articles/mpa-the-past.gif)
 
 In some cultures a wink could be understood in a sexual way. Of course, we fixed that ASAP. For our next version, Lexicon 2, we wanted to avoid possible misunderstandings and make sure that our set of animations are universal, appropriate, understandable and polite for every culture in different geographical localizations all over the world.
 
@@ -22,13 +22,13 @@ In some cultures a wink could be understood in a sexual way. Of course, we fixed
 
 How did we select a common theme? Firstly, the subject was very carefully chosen. It should suggest the emptiness in a pleasurable and descriptive way. Think about it, but the way of representing emptiness is not so obvious. In fact, we started crafting ideas around the desert concept but at the end the selected topic was outer space. The reason behind this decision was that the space is usually related with curiosity, technology and challenges in a good way unlike the desert which is normally related to death.
 
-![space](/images/posts/mpa-the-theme.jpeg)
+![space](/images/articles/mpa-the-theme.jpeg)
 
 ## 3. Visual identity
 
 With the topic selected, it was the turn for visual design, where Emiliano Cicero turned concepts into illustrations.
 
-![concepts](/images/posts/mpa-visual-identity.jpeg)
+![concepts](/images/articles/mpa-visual-identity.jpeg)
 
 Regarding the visual guidelines, it was necessary to make a clear, understandable design, with clean shapes that show the idea with simple animations to catch the user attention but without being too aggressive. We created 3 illustrations as part of the collection: a satellite surrounded by asteroids, the moon with comets and a spaceship launch.
 
@@ -48,13 +48,13 @@ Regarding all the information provided by participants, we iterated the design a
 
 As an outcome of all this study and design process we created three animated illustrations for our empty states.
 
-![no results](/images/posts/mpa-the-result.gif)
+![no results](/images/articles/mpa-the-result.gif)
 _A telescope looking into the sky for the empty search/filter action when there are not results._
 
-![no elements](/images/posts/mpa-satellite.gif)
+![no elements](/images/articles/mpa-satellite.gif)
 _A satellite when there are no elements yet in a dataset._
 
-![rocket man](/images/posts/mpa-rocket.gif)
+![rocket man](/images/articles/mpa-rocket.gif)
 _A spaceship launch when the user has emptied the dataset for a good end, for example, when the notifications list has been cleared out._
 
 Our animations set for empty states conformed a collection that makes users feel comfortable and part of the story. This is just the beginning and we expect to expand the family as our needs grow. We expect the experience using Liferay products will be more pleasurable, memorable, understandable and universal.

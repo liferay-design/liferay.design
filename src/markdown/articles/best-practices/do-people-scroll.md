@@ -2,7 +2,7 @@
 author: 'Patrick Pentz'
 date: '2019-04-11T10:18:00.000Z'
 title: 'Do People Scroll?'
-featuredImage: '/images/posts/dbp/do-people-scroll.png'
+featuredImage: '/images/articles/dbp/do-people-scroll.png'
 publish: true
 tags: ['Best Practices', 'Usability']
 ---
@@ -18,7 +18,7 @@ What does the research say?
 -   Another eye-tracking study shows that people scroll as long as designs follow best practices.
 -   Users read long-content pages faster than paginated or segmented ones.
 
-![image-description](/images/posts/dbp/1555003083274webupload_00859290.png)
+![image-description](/images/articles/dbp/1555003083274webupload_00859290.png)
 
 ## Takeaway
 

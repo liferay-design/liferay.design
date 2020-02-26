@@ -2,7 +2,7 @@
 author: 'Laura García'
 date: '2019-11-14T11:40:00.000Z'
 title: 'Heuristics'
-featuredImage: '/images/posts/dbp/heuristics.png'
+featuredImage: '/images/articles/dbp/heuristics.png'
 publish: true
 tags: ['Best Practices', 'Usability']
 ---

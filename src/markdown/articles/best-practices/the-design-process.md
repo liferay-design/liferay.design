@@ -2,7 +2,7 @@
 author: 'Jon Wood'
 date: '2019-05-29T12:12:00.000Z'
 title: 'The Design Process'
-featuredImage: '/images/posts/dbp/the-design-process.png'
+featuredImage: '/images/articles/dbp/the-design-process.png'
 publish: true
 tags: ['Best Practices']
 ---

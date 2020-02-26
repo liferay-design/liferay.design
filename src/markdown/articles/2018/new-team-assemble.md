@@ -2,7 +2,7 @@
 author: 'Paul Hanaoka'
 date: '2018-11-27T17:12:33.962Z'
 title: 'New Team, Assemble!'
-featuredImage: '/images/posts/assemble.jpg'
+featuredImage: '/images/articles/assemble.jpg'
 publish: true
 ---
 
@@ -10,7 +10,7 @@ The beginning of November marked my first year as Liferay's UX Design Manager fo
 
 _Spoiler alert: I made a lot of mistakes, but also learned a lot and thought it might be helpful to share some of these things._
 
-![New team, assemble!](/images/posts/assemble.jpg)
+![New team, assemble!](/images/articles/assemble.jpg)
 _Get it? I’m sorry._
 
 ## Mergers & Acquisitions
@@ -28,7 +28,7 @@ Provide time for a series of interviews, give your colleagues the opportunity to
 
 Evaluate and have discussions with each teammate around this time, ideally you'll be having regular one-to-one's with them anyway, but now is the time to really figure out how everything has been working out. If there are issues, take immediate steps to resolve them - if you or someone joining the team have any misgivings, this period should provide enough time to address those concerns. It will be much easier for someone to change teams early instead of waiting and allowing potentially bad fit to fester.
 
-![Team cheer](/images/posts/teamwork.jpg)
+![Team cheer](/images/articles/teamwork.jpg)
 _Incorporate cheers into your daily standups | Photo by [rawpixel](https://unsplash.com/@rawpixel?utm_source=liferay&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=liferay&utm_medium=referral)_
 
 ## Team Culture
@@ -39,7 +39,7 @@ There are plenty of [far more experienced](https://knowyourcompany.com/learn/) a
 1. **Listen more than you talk** &mdash; in one-on-ones, in reviews, in team meetings, be slow to give your opinions - ask questions to clarify and guide the conversation, but you'll learn a lot by talking less and helping your colleagues discover their own voices.
 1. **Get an outsider's perspective ** &mdash;have a mentor or coach that you don't report to. This can be someone at your company but preferably outside of your business unit. Having a calm ear to vent to and a neutral voice of wisdom will help you discover your blind spots and provide an impartial point of view.
 
-![Boxing coach](/images/posts/boxing.jpg)
+![Boxing coach](/images/articles/boxing.jpg)
 _Design is a lot like boxing, but more violent | Photo by [Wade Austin Ellis](https://unsplash.com/@wadeaustinellis?utm_source=liferay&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=liferay&utm_medium=referral)_
 
 ## Grow and Get Better
@@ -52,7 +52,7 @@ Creating a growth plan for your team is one of the most important ways to serve 
 
 Having industry-relevant positions and goals will help you stay competitive in hiring, but it will also help your teammates stay relevant in the market. If you define your roles and goals solely based on your team's past achievements, you won't grow as fast (or quite possibly at all) because you're only comparing yourself to the past and maybe to others who are a little bit ahead of you, instead of looking at the outside and setting a high bar that is difficult to hit.
 
-![Team discussions](/images/posts/casual-ux-na-team-discussion.jpg)
+![Team discussions](/images/articles/casual-ux-na-team-discussion.jpg)
 _This could not be posted on Medium without a proper B&W picture | photo by [David Kim](https://liferay.design/team/kim-david)_
 
 ## Looking Ahead

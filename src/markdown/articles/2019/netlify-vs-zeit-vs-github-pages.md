@@ -2,7 +2,7 @@
 author: 'Paul Hanaoka'
 date: '2019-04-07T17:12:33.962Z'
 title: 'Netlify vs. Zeit vs. Github Pages'
-featuredImage: '/images/posts/netlify-vs-zeit-vs-github-pages.png'
+featuredImage: '/images/articles/netlify-vs-zeit-vs-github-pages.png'
 publish: true
 ---
 
@@ -26,7 +26,7 @@ Netlify also handles DNS management — previously we had to use Cloudflare (whi
 
 All-told, it took less than an hour for us to set up everything, and 45 minutes of that was waiting for the https certificate. If we had to describe Netlify in one word, it would be “fast and easy” — _just say that really fast and it sounds like one word_. Our Google Lighthouse score went from hovering around 70-80, no matter how much we tuned performance with our old host, to straight up 100.
 
-![Google Lighthouse results for Liferay.Design](/images/posts/netlify-is-pure-speed.png)
+![Google Lighthouse results for Liferay.Design](/images/articles/netlify-is-pure-speed.png)
 _The only thing we changed between these two is the host — Netlify is just flat-out fast. <br />P.S. We're fixing [the accessibility issue](https://github.com/liferay-design/liferay.design/milestone/1)_
 
 😬

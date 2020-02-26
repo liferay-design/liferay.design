@@ -2,16 +2,16 @@
 author: 'Paul Hanaoka'
 date: '2019-03-22T17:12:33.962Z'
 title: 'Creating Atomic Components That Will Blow Your Mind'
-featuredImage: '/images/posts/atomic-components.jpg'
+featuredImage: '/images/articles/atomic-components.jpg'
 publish: true
 ---
 
-![Atomic Figma Components](/images/posts/atomic-components.jpg)
+![Atomic Figma Components](/images/articles/atomic-components.jpg)
 _Special thanks to [Jamie Street](https://unsplash.com/photos/-7ip4yX5P6Q), [Jimmy Musto](https://unsplash.com/photos/iOWEyl7sEgY), [Jens Johnsson](https://unsplash.com/photos/-N1_Vhyqd50), [Sergi Viladesau](https://unsplash.com/photos/dyrehVIidQk), [Princess Buttercup](https://unsplash.com/photos/OvLBv6F6DGE), and all the fine folks at [Unsplash](https://unsplash.com) for the photos._
 
 If you’re as lazy as I am, you’ll definitely want to read this to learn how to set yourself up for hyper-efficient changes and updates to your Figma components. With all the time you save, you can do what I do and browse Unsplash’s cat photos for hours on end.
 
-![Lexicon Buttons](/images/posts/buttons-large.png)
+![Lexicon Buttons](/images/articles/buttons-large.png)
 _What about 'Buttons Large'??_
 
 Look at all these buttons — if you’re new to Figma, or the atomic model, you might be thinking…okay 1 button x 4 states x 4 levels x 3 configurations…carry the 3…for those of you keeping score at home, that’s 48 components per size!
@@ -26,7 +26,7 @@ Thankfully, the fine folks at Figma took Sketch’s ‘symbols’ to a whole new
 
 Introducing…[the component](https://www.figma.com/blog/figma-feature-highlight-component-overrides/)!
 
-![Figma Component Symbol](/images/posts/component.png)
+![Figma Component Symbol](/images/articles/component.png)
 _This is my component, there are many like it, but this is mine._
 
 Something that differentiates this component from others, is that you can override properties on a child component, and then create a new master component, but the un-overridden properties will still be tied to the original master.
@@ -39,7 +39,7 @@ So glad you asked!
 
 Back to the buttons —
 
-![Lexicon Buttons](/images/posts/buttons-large.png)
+![Lexicon Buttons](/images/articles/buttons-large.png)
 
 The first step is to take a long look at these things, and see they are more similar than different. I find it helpful to start listing the similarities:
 
@@ -84,19 +84,19 @@ These things will make up the quarks for our atoms.
 
 Previously, you might have started drawing boxes and adding text and icons straight away — this would be wrong. Instead, once you accomplish the first two steps we outlined, and we start to make components from each of these.
 
-![First Component](/images/posts/first-component.png)
+![First Component](/images/articles/first-component.png)
 _This is the first component_
 
 Your next components will be the content:
 
-![Next Component](/images/posts/next-components.png)
+![Next Component](/images/articles/next-components.png)
 _Buy when? Meow!_
 
 _Take note of the icon component naming convention — this will come in handy later._
 
 Next, duplicate and start combining these components to make slightly more complicated components.
 
-![More complex components](/images/posts/complex-components.png)
+![More complex components](/images/articles/complex-components.png)
 _[Emiliano](/team/) pointed out that I should be using text styles for this, not changing the color of the text on the component level — touché Emiliano, I'll get you next time._
 
 Now, you can start to see why nesting can be so powerful — I only need to change the color of the text in one place for that change to cascade to the other two components (sorry for the crappy video):
@@ -104,7 +104,7 @@ Now, you can start to see why nesting can be so powerful — I only need to chan
 <div style="width:140%;height:480px;margin-left:-20%;position:relative;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xOG7hst4_rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 These are now the quarks that we’ll use to begin construction of the buttons:
-![Quarks](/images/posts/quarks.png)
+![Quarks](/images/articles/quarks.png)
 _Disclaimer: Quarks is probably not the right term._
 
 You will now start to see the true power of the nested component:
@@ -113,7 +113,7 @@ You will now start to see the true power of the nested component:
 
 You can see that we can now adjust a number of properties in one place, and have those changes take effect across all of the children. Lets speed it up...and here we go, most of the main buttons are built out:
 
-![atoms](/images/posts/buttons.png)
+![atoms](/images/articles/buttons.png)
 _All the atomic button components._
 
 Now that we’ve built all of the buttons using the quarks, you can witness the full power of this battlestation:

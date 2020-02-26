@@ -2,7 +2,7 @@
 author: 'James Lyons'
 date: '2019-05-29T10:55:00.000Z'
 title: 'Ethics in Design'
-featuredImage: '/images/posts/dbp/ethics-in-design.png'
+featuredImage: '/images/articles/dbp/ethics-in-design.png'
 publish: true
 tags: ['Best Practices', 'Ethics']
 ---

@@ -2,7 +2,7 @@
 author: 'Juan Hidalgo'
 date: '2018-09-14T17:12:33.962Z'
 title: 'About Bridges, Software, and Failures'
-featuredImage: '/images/posts/about-bridges.jpeg'
+featuredImage: '/images/articles/about-bridges.jpeg'
 publish: true
 ---
 
@@ -10,7 +10,7 @@ publish: true
 
 _A long time ago, I was discussing with an old friend/colleague about how to document and manage the experience that we got in a previous Project for the European Commission. The main reason for the discussion was to avoid falling into the same mistakes again. My friend recommended to me a “must-read”, a paper from a well know VP of Research in Google, Alfred Spector._
 
-![Bridge illustration by Ryan Connolly](/images/posts/about-bridges.jpeg)
+![Bridge illustration by Ryan Connolly](/images/articles/about-bridges.jpeg)
 **Illustration by [Ryan Connolly](https://dribbble.com/ryconn888)**
 
 Alfred Spector, was co-author in 1986 of a scientific work, where he compared bridge construction with software development. Alfred Spector, for those who do not know him, was Director of the ITC (Information Technology Center) at Carnegie Mellon (off the record, the University of my dreams), VP at IBM, VP of Research at Google, and from 2015 is CTO at Two Sigma.

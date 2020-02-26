@@ -2,7 +2,7 @@
 author: 'Victor Valle'
 date: '2019-07-08T14:00:00.000Z'
 title: 'Lessons Learned Working in a Design System'
-featuredImage: '/images/posts/library.jpg'
+featuredImage: '/images/articles/library.jpg'
 publish: true
 ---
 
@@ -27,14 +27,14 @@ The following are the top five areas I've learned are critical to the success of
 
 ## Communication
 
-![Child shouting at a microfone](/images/posts/communication.jpg)
+![Child shouting at a microfone](/images/articles/communication.jpg)
 _Photo by Jason Rosewell on [Unsplash](https://unsplash.com/photos/ASKeuOZqhYU)_
 
 One of the most critical yet underrated components of a design system is a communication channel. Next to a conventional design tool (Figma, Sketch, Adobe XD, etc) a **documentation** site (or **internal documents**) is the most foundational aspect of a design system. At Liferay we do both, public documentation and internal documentation where we reflect our research, provide extended documentation, and track updates with a changelog. These internal documents are also useful to maintain conversations with engineers for alignment.
 
 ## Collaboration
 
-![People playing basketball](/images/posts/team-basketball.jpg)
+![People playing basketball](/images/articles/team-basketball.jpg)
 _Photo by Max Winkler on [Unsplash](https://unsplash.com/photos/UFIZodJgScQ)_
 
 A design system is not a task only for the design system team, if you're lucky enough to have one, it can only be successful when everyone contributes to it. In the end, designers on product teams are the ones using the system, finding where components don't adapt to certain cases. This is one of the points where we need their input to improve. So be always open to modify and evolve your components.
@@ -47,7 +47,7 @@ As a second step, we decided to evolve Lexicon to version 2. A version documente
 
 Our components were stronger but less flexible. Up to a point where designers where complaining because they could not do everything they wanted, even if it was in the line that Lexicon was marking. Then, we decided to be more flexible removing some restrictions at definition moment.
 
-![Soft mass pressed inside a hand](/images/posts/flexibility.jpg)
+![Soft mass pressed inside a hand](/images/articles/flexibility.jpg)
 _Photo by Kyle Brinker on [Unsplash](https://unsplash.com/photos/IeoN8bdylQc)_
 
 But this was not enough, our components needed to be more flexible. It was not enough with components and its variations. We had to bring more flexibility, that is why we opted for **extension points**. This is the way we allow you to embed new functionality or elements into components and make them more adaptable to your business use case.
@@ -58,7 +58,7 @@ As stated before, one of the main goals for a DS is to bring consistency. But a 
 
 As the business grows there are more and more teams using the design system and there are more needs that probably the team can't support.
 
-![Cactus](/images/posts/cactus.jpg)
+![Cactus](/images/articles/cactus.jpg)
 _Photo by Ugur Akdemir on [Unsplash](https://unsplash.com/photos/xhMTF15IeBw)_
 
 At Liferay, we decided to have satellite libraries around Lexicon. This gives teams the flexibility to create their own components. Our agreement with the teams is to review these libraries from time to time to find commonalities and bring them into Lexicon. We are still improving and refining this process - but we have found other design systems doing the same.

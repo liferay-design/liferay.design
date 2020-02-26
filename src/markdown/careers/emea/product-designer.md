@@ -3,7 +3,7 @@ jobId: 'oxqi9fw8'
 date: '2019-02-28'
 title: 'Product Designer'
 office: 'Concorezzo'
-featuredImage: '/images/posts/design-week-n.jpg'
+featuredImage: '/images/articles/design-week-n.jpg'
 published: false
 ---
 

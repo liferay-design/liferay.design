@@ -2,7 +2,7 @@
 author: 'Abel Hancock'
 date: '2019-03-27T17:12:33.962Z'
 title: 'How To Use Any Clicker With Figma Presentations (mac)'
-featuredImage: '/images/posts/figma-clicker/cover.png'
+featuredImage: '/images/articles/figma-clicker/cover.png'
 publish: true
 ---
 
@@ -28,14 +28,14 @@ If you need help setting up a prototype in Figma checkout their [documentation](
 
 _Tip: If no prototype is setup slides will play from TOP TO BOTTOM, LEFT TO RIGHT_
 
-![figma prototype example](/images/posts/figma-clicker/figma-presentation-prototype.png)
+![figma prototype example](/images/articles/figma-clicker/figma-presentation-prototype.png)
 _figma prototype example_
 
 ## Step 2: Download and install the [Karabiner-Elements](https://pqrs.org/osx/karabiner/)
 
 Karabiner installs both their _Elements_ and _Event Viewer_ apps by default. In this case, we will only be using _Karabiner - Elements_ to map the clicker keys.
 
-![karabiner website screenshot](/images/posts/figma-clicker/download-karabiner-app.png)
+![karabiner website screenshot](/images/articles/figma-clicker/download-karabiner-app.png)
 _karabiner website_
 
 ## Step 3: Map the keys of your clicker to `left_arrow` and `right_arrow`
@@ -52,7 +52,7 @@ This is where the magic happens! Open Karabiner - Elements and:
 
 (optional) Choose an arbitrary clicker key to map to "r" for restarting your presentation
 
-![karabiner settings for logitech r400](/images/posts/figma-clicker/karabiner-settings.png)
+![karabiner settings for logitech r400](/images/articles/figma-clicker/karabiner-settings.png)
 _karabiner settings for logitech r400_
 
 ## That's it!

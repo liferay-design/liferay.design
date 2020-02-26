@@ -2,7 +2,7 @@
 author: 'Paul Hanaoka'
 date: '2019-05-23T02:26:00.000Z'
 title: 'The Impact of Performance on User Experience'
-featuredImage: '/images/posts/dbp/the-impact-of-performance-on-user-experience.png'
+featuredImage: '/images/articles/dbp/the-impact-of-performance-on-user-experience.png'
 publish: true
 tags: ['Best Practices', 'Engineering']
 ---
@@ -11,7 +11,7 @@ tags: ['Best Practices', 'Engineering']
 
 Performance issues of any kind can come at a high cost and can affect almost every metric — from task abandonment to lower adoption and decreased usage. People are less [likely to convert](https://www.cloudflare.com/learning/performance/more/website-performance-conversion-rates/), and even if they do they're unlikely to be satisfied with the experience. Of course, making your app or site fast is no small task, and often technical limitations cannot be overcome at a reasonable cost. There are ways to improve [perceived performance](https://blog.teamtreehouse.com/perceived-performance) — but we should always strive for improving _real_ performance as much as possible. Remember — [shaving seconds at scale saves lives](https://www.folklore.org/StoryView.py?story=Saving_Lives.txt) :)
 
-![image-description](/images/posts/dbp/1558646716993webupload_00659870.png)
+![image-description](/images/articles/dbp/1558646716993webupload_00659870.png)
 
 ## Takeaway
 

@@ -2,7 +2,7 @@
 author: 'Emiliano Cicero'
 date: '2018-09-10T17:12:33.962Z'
 title: 'Building Charts for Multiple Products'
-featuredImage: '/images/posts/building-charts.jpeg'
+featuredImage: '/images/articles/building-charts.jpeg'
 publish: true
 ---
 

@@ -4,7 +4,7 @@ date: '2019-09-20T00:00:00.000Z'
 publish: true
 tags: ['Best Practices', 'Typography']
 title: 'Typographic Hierarchy'
-featuredImage: '/images/posts/dbp/typographic-hierarchy.png'
+featuredImage: '/images/articles/dbp/typographic-hierarchy.png'
 ---
 
 ## Summary
@@ -17,7 +17,7 @@ Typographic hierarchy is generally divided into three levels;
 2.  Secondary - Bits of text that add information to the primary level; such as subheads, captions, pull quotes, infographics, and small blocks of text.
 3.  Tertiary - The main text and the smallest, simplest type in the design, but still readable and consistent.
 
-![Example of typographic hierarchy in action](/images/posts/dbp/typographic-hierarchy-example.png)
+![Example of typographic hierarchy in action](/images/articles/dbp/typographic-hierarchy-example.png)
 
 ## Takeaway 
 

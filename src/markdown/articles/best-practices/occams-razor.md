@@ -2,7 +2,7 @@
 author: 'Duuriimaa Bargaid'
 date: '2019-07-17T07:42:00.000Z'
 title: "Occam's Razor"
-featuredImage: '/images/posts/dbp/occams-razor.png'
+featuredImage: '/images/articles/dbp/occams-razor.png'
 publish: true
 tags: ['Best Practices', 'Visual Design']
 ---
@@ -12,7 +12,7 @@ tags: ['Best Practices', 'Visual Design']
 Occam’s Razor is a problem-solving principle that states that simplicity is better than complexity. We can adopt Occam’s Razor as a guiding principle that informs our decisions and keeps us from reaching for a complex solution when a simpler one is sufficient.  
 It’s easy for us to get carried away and make designs that may have a lot of functionality, We assume it enhances the user’s experience but when in reality it's confusing difficult to use. thats, partly because low-complexity websites don’t require our eyes and brain to work as hard to decode, store, and process information.
 
-![](/images/posts/dbp/1563374310297webupload_02214672.png)
+![](/images/articles/dbp/1563374310297webupload_02214672.png)
 
 ## Takeaway
 

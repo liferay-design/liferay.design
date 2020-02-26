@@ -17,7 +17,7 @@ const SEO = ({ description, previewImage, keywords, pageTitle, twitterHandle,can
 			) : (
 				<meta
 					property="og:image"
-					content="https://liferay.design/images/posts/design-week-team.jpeg"
+					content="https://liferay.design/images/articles/design-week-team.jpeg"
 				/>
 			)}
 			{previewImage ? (
@@ -25,7 +25,7 @@ const SEO = ({ description, previewImage, keywords, pageTitle, twitterHandle,can
 			) : (
 				<meta
 					name="twitter:image"
-					content="https://liferay.design/images/posts/design-week-team.jpeg"
+					content="https://liferay.design/images/articles/design-week-team.jpeg"
 				/>
 			)}
 			<meta

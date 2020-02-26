@@ -2,7 +2,7 @@
 author: 'Paul Hanaoka'
 date: '2019-03-28T04:10:00.000Z'
 title: 'Introducing #Best Practices!'
-featuredImage: '/images/posts/dbp/introducing-best-practices.png'
+featuredImage: '/images/articles/dbp/introducing-best-practices.png'
 publish: true
 tags: ['Best Practices']
 ---

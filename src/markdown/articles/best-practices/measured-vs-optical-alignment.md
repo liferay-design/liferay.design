@@ -4,7 +4,7 @@ date: '2019-09-26T00:00:00.000Z'
 publish: true
 tags: ['Best Practices', 'Visual Design']
 title: 'Measured vs Optical Alignment'
-featuredImage: '/images/posts/dbp/measured-vs-optical-alignment.png'
+featuredImage: '/images/articles/dbp/measured-vs-optical-alignment.png'
 ---
 
 ## Summary
@@ -13,13 +13,13 @@ When it comes to aligning content there is often a discrepancy between objects a
 
 _For more on optical alignment, the human brain, and visual perception, read about Gestalt’s Principles below._
 
-![Example of measured vs optical alignment](/images/posts/dbp/measured-vs-optical-alignment-example-1.png)
+![Example of measured vs optical alignment](/images/articles/dbp/measured-vs-optical-alignment-example-1.png)
 
-![Example of measured vs optical alignment](/images/posts/dbp/measured-vs-optical-alignment-example-2.png)
+![Example of measured vs optical alignment](/images/articles/dbp/measured-vs-optical-alignment-example-2.png)
 
 Practically speaking, optical alignment can seem like a lot of work when it comes to seeing the benefits. There are plenty of caveats to optically aligning objects. It takes a lot of manual and painstaking work to optically align text, icons, and objects when it comes to code, especially with responsive layouts. At the end of the day, the goal is to minimize glaring distractions and draw attention to what matters.
 
-![Example of measured vs optical alignment](/images/posts/dbp/measured-vs-optical-alignment-example-3.png)
+![Example of measured vs optical alignment](/images/articles/dbp/measured-vs-optical-alignment-example-3.png)
 _For more in-depth examples, view links below._
 
 ## Takeaway 

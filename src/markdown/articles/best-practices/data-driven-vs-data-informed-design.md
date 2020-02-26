@@ -2,7 +2,7 @@
 author: 'David Kim'
 date: '2019-04-30T10:34:00.000Z'
 title: 'Data-Driven vs. Data-Informed Design'
-featuredImage: '/images/posts/dbp/data-driven-vs-data-infomred.png'
+featuredImage: '/images/articles/dbp/data-driven-vs-data-infomred.png'
 publish: true
 tags: ['Best Practices', 'Research']
 ---

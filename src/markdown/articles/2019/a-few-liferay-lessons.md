@@ -2,7 +2,7 @@
 author: 'David Kim'
 date: '2019-12-30T14:00:00.000Z'
 title: 'A Few Life(ray) Lessons'
-featuredImage: '/images/posts/15-month-recap/main-photo.jpg'
+featuredImage: '/images/articles/15-month-recap/main-photo.jpg'
 publish: true
 ---
 
@@ -16,7 +16,7 @@ Talk isn't cheap. It's expensive. It costs you a lot if you don't take any follo
 
 Below is an example of an idea well-executed.
 
-![Design Best Practices](/images/posts/15-month-recap/design-best-practices.png)
+![Design Best Practices](/images/articles/15-month-recap/design-best-practices.png)
 _Check Out the Design Best Practices [Articles](https://liferay.design/tags/best-practices)_
 
 ## BUILD PROCESSES
@@ -24,7 +24,7 @@ _Check Out the Design Best Practices [Articles](https://liferay.design/tags/best
 > “There's method in the madness.”
 > <cite>Julie Zhuo</cite>
 
-![Senior Designer Process](/images/posts/15-month-recap/senior-designer-process.png)
+![Senior Designer Process](/images/articles/15-month-recap/senior-designer-process.png)
 _Original Article on [Medium](https://medium.com/the-year-of-the-looking-glass/junior-designers-vs-senior-designers-fbe483d3b51e)_
 
 A good solution takes a good decision-making process. I admit my design process is usually a lot more chaotic than systematic. Luckily, at Liferay, I was surrounded by designers who were much better at this. By looking at their design files (these became my textbooks) and learning about the why's behind their design decisions, I'm a better designer than I was one year ago.
@@ -33,7 +33,7 @@ A good design team is built on good processes. From asset management to career p
 
 Take a look at our [handbook](https://liferay.design/handbook).
 
-![Handbook](/images/posts/15-month-recap/handbook.png)
+![Handbook](/images/articles/15-month-recap/handbook.png)
 _We, Not Me_
 
 ## COMMUNICATE
@@ -83,7 +83,7 @@ A few years ago, I wrote myself a definition of a dream job:
 
 I've been fortunate to have had two dream jobs in my career (and many good ones in between). Being a product designer at Liferay has been the 2nd dream job. One of the three reasons that made this job a dream job was **the Design Team**.
 
-![Design Team](/images/posts/15-month-recap/team-photo.jpg)
+![Design Team](/images/articles/15-month-recap/team-photo.jpg)
 _Dream Team 🙌_
 
 I've learned all the above from them and with them. To this group of humble and talented makers, in the loudest way possible,
