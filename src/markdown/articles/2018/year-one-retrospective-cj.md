@@ -2,7 +2,7 @@
 author: 'Christopher Jeong'
 date: '2018-11-29'
 title: 'Year 1 Retrospective'
-featuredImage: '/images/posts/cj-change.jpeg'
+featuredImage: '/images/articles/cj-change.jpeg'
 publish: true
 ---
 
@@ -10,14 +10,14 @@ During my first year at Liferay, I had the pleasure of contributing to taking ou
 
 As our design team starts to scale in size and across borders, I often find asking myself, how can we be more effective and impactful? These are my reflections from this past year.
 
-![Change sign](/images/posts/cj-change.jpeg)
+![Change sign](/images/articles/cj-change.jpeg)
 _Photo by [Ross Findon](https://unsplash.com/photos/mG28olYFgHI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/change?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 ## Have a ~~North~~ guiding star
 
 _The agile manifesto prescribes every effective agile team to embrace change, but only when it provides meaningful customer value._
 
-![starry sky](/images/posts/cj-sky.jpeg)
+![starry sky](/images/articles/cj-sky.jpeg)
 _Photo by [Caleb Woods](https://unsplash.com/photos/292OcsAYBK8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/north-star?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 When I look back to roadmap from the inception of this project and compare it to where we are now, the initial requirements seem like a world away. The features and functions that were initially laid out have been stripped to the fundamentals of the product and we are happy with where it stands now.
@@ -28,7 +28,7 @@ The idea is that we’ll provide the high value parts and let our customers guid
 
 _Early in the design process, we engaged in divergent brainstorming and ideation sessions which generated in tons of great ideas, but weren’t prepared to execute those ideas._
 
-![LA traffic](/images/posts/cj-traffic.jpg)
+![LA traffic](/images/articles/cj-traffic.jpg)
 _Photo by [Nicolas Gras](https://unsplash.com/photos/64HfQ-qInMs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/operations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Divergent thinking challenged us to explore many possible product directions by leveraging:
@@ -53,7 +53,7 @@ The lesson here for us was that freeform creative exercises are an invaluable pa
 
 _UX Design has come a long way from proving the ROI of a great user experience and discussing designer/developer collaboration._
 
-![two wrenches on a black background](/images/posts/cj-wrenches.jpeg)
+![two wrenches on a black background](/images/articles/cj-wrenches.jpeg)
 _Photo by [Matt Artz](https://unsplash.com/photos/4mAcustUNPs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/tools?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Design-ops has been a hot topic sparking conversation within our organization over the past year. UX Design has come a long way from proving the ROI of a great user experience and discussing designer/developer collaboration. As our department enters a new phase of maturity, we are looking beyond the design tools:
@@ -70,7 +70,7 @@ Design-ops has been a hot topic sparking conversation within our organization ov
 
 _When product and design goals align — the focus naturally turns towards the users_
 
-![Boat in smooth waters](/images/posts/cj-boat.jpeg)
+![Boat in smooth waters](/images/articles/cj-boat.jpeg)
 _Photo by [Samuel Zeller](https://unsplash.com/photos/P0srUaN6CFI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/ship?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 I look to our product managers to provide me a with a strong vision and strategy, so that I can synthesize that vision in to a design customers will find valuable. But, that’s not to say designers don’t have a say in how to steer the ship.

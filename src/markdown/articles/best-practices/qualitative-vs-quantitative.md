@@ -2,7 +2,7 @@
 author: 'Miriam Manso'
 tags: ['Best Practices', 'Usability']
 title: 'User Testing: Qualitative vs. Quantitative'
-featuredImage: '/images/posts/dbp/qualitative-vs-quantitative.png'
+featuredImage: '/images/articles/dbp/qualitative-vs-quantitative.png'
 date: '2019-08-15T00:00:00.000Z'
 publish: true
 ---
@@ -13,7 +13,7 @@ Qualitative and quantitative user testing are complementary methods that serve d
 
 For example, the qualitative test consists of observational findings that identify design features easy or hard to use while quantitative studies allow us to put a number on a redesign and clearly say how much our new version improved over the old one. They are the essential instrument in calculating return on investment (ROI).
 
-![image-description](/images/posts/dbp/1565890700540webupload_03436160.png)
+![image-description](/images/articles/dbp/1565890700540webupload_03436160.png)
 
 ## Goals
 

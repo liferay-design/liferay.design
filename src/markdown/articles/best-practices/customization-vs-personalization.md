@@ -2,7 +2,7 @@
 author: 'David Kim'
 date: '2019-05-16T11:21:00.000Z'
 title: 'Customization vs. Personalization'
-featuredImage: '/images/posts/dbp/customization-vs-personalization.png'
+featuredImage: '/images/articles/dbp/customization-vs-personalization.png'
 publish: true
 tags: ['Best Practices', 'Strategy']
 ---
@@ -15,7 +15,7 @@ Customization and personalization might seem interchangeable, but there is a fun
 
 In contrast, **_personalization_** is something applications do for users to enhance their experience by tailoring a navigation, search results, content, or notifications to users’ unique needs. It leverages what the system knows about the user or user groups. Personalization requires no effort on the part of the user.
 
-![image-description](/images/posts/dbp/1558030699507webupload_00236068.png.png)
+![image-description](/images/articles/dbp/1558030699507webupload_00236068.png.png)
 
 ## Takeaway
 

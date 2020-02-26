@@ -2,7 +2,7 @@
 author: 'Miriam Manso'
 tags: ['Best Practices', 'Usability']
 title: 'User Testing: Kick-Off Meeting'
-featuredImage: '/images/posts/dbp/kick-off-meeting.png'
+featuredImage: '/images/articles/dbp/kick-off-meeting.png'
 date: '2019-08-14T00:00:00.000Z'
 publish: true
 ---
@@ -19,7 +19,7 @@ Discussion topics that a kick-off meeting should cover:
 
 The business project scope, vision, goals and target audience, are also important topics to address in a kickoff meeting.
 
-![image-description](/images/posts/dbp/1565881744632webupload_03427113.jpg)
+![image-description](/images/articles/dbp/1565881744632webupload_03427113.jpg)
 
 ## Takeaway
 

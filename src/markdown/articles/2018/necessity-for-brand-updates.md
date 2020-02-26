@@ -2,7 +2,7 @@
 author: 'Paul Hanaoka'
 date: '2018-12-10'
 title: 'Brand Updates at Liferay'
-featuredImage: '/images/posts/dribbble-coaster.jpg'
+featuredImage: '/images/articles/dribbble-coaster.jpg'
 publish: true
 ---
 
@@ -12,7 +12,7 @@ If we as developers, marketers, salespeople, et al are confused about this, how 
 
 At a high level, we know that DXP is software that can be used to build and connect intranets, websites, apps and more. But what’s in it? How does it do that? In the past, we’ve tried to answer that by product-izing projects.
 
-![Liferay.com/downloads 1 year ago](/images/posts/liferay-product-downloads.png)
+![Liferay.com/downloads 1 year ago](/images/articles/liferay-product-downloads.png)
 _Exhibit A_
 
 For example, we list several mobile products as part of our “Product Suite,” _(Exhibit A)_ such as Liferay Mobile SDK, Liferay Push and Liferay Screens — but are they really separate products?
@@ -27,7 +27,7 @@ The value that Liferay delivers for mobile experiences is making it easy to buil
 
 So what does this have to do with brand? If a brand is [more than a logo](https://hbr.org/2011/06/a-logo-is-not-a-brand), then why do we invest so much energy in icons, logos, names and other artifacts that are generated as a result of each of our internal projects?
 
-![the huge variety of Liferay logos](/images/posts/liferay-logos.png)
+![the huge variety of Liferay logos](/images/articles/liferay-logos.png)
 _A collection of logos and icons produced over the years to represent various Liferay products and projects._
 
 These artifacts are the externalization of internal development strategies. We identify an area of the product that can be expanded (native mobile apps), we create a project team to focus on it (Liferay Screens) and when it's ready to announce to the world, we give it a branded name, icon and product page because internally, we think of it as something separate from the rest of the development work in Liferay Portal/DXP.
@@ -65,7 +65,7 @@ Once we had clarity on DXP’s value and how it relates to our new products, ano
 
 But investing so heavily in unique branding for a product proved to be problematic. Execution was difficult and often the results were fragmented.
 
-![Joe and Christine at an event](/images/posts/liferay-event-confusion.jpg)
+![Joe and Christine at an event](/images/articles/liferay-event-confusion.jpg)
 _Joe, Jonas and Christine put their bravest faces on at events for Liferay._
 
 Now that we were trying to appeal to a broader market with a new business model (subscription-based pricing), we were introducing ourselves as “DXP” and our core brand &mdash; Liferay &mdash; began to suffer. The brand sins we committed began catching up to us. The brand equity we had was slowly being eroded every time we prioritized DXP branding over Liferay (like with our many DXP-branded event booths, pictured above).

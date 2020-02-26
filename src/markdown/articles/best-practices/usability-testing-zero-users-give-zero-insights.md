@@ -2,7 +2,7 @@
 author: 'Miriam Manso'
 tags: ['Best Practices', 'Usability']
 title: 'Usability Testing: Zero users give zero insights'
-featuredImage: '/images/posts/dbp/zero-users-give-zero-insights.png'
+featuredImage: '/images/articles/dbp/zero-users-give-zero-insights.png'
 date: '2019-08-13T00:00:00.000Z'
 publish: true
 ---
@@ -20,7 +20,7 @@ Let’s look at the numbers:
 
 Below you can see the table in which Nielsen shows the percentage of problems detected as the number of users tested increases.
 
-![image-description](/images/posts/dbp/1565825774095webupload_03409667.png)
+![image-description](/images/articles/dbp/1565825774095webupload_03409667.png)
 
 ## Takeaway
 

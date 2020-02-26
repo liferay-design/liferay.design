@@ -2,7 +2,7 @@
 author: 'Jon Wood'
 date: '2019-07-29T00:00:00.000Z'
 title: 'Sharing the Design Process'
-featuredImage: '/images/posts/dbp/sharing-the-design-process.png'
+featuredImage: '/images/articles/dbp/sharing-the-design-process.png'
 publish: true
 tags: ['Best Practices']
 ---

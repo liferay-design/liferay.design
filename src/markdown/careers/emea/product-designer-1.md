@@ -3,10 +3,10 @@ jobId: ol5Xafwh
 date: 2019-09-11T07:00:00Z
 title: Junior Product Designer
 office: Madrid
-featuredImage: "/images/posts/madrid-team-event.jpg"
+featuredImage: '/images/articles/madrid-team-event.jpg'
 published: false
-
 ---
+
 ## Who Designs at Liferay?
 
 Design is [a team sport](https://www.oreilly.com/ideas/12-qualities-of-effective-design-organizations) — while our athletic accomplishments are limited, our commitment to building a strong team is not. We firmly believe in going far together — what this looks like is passion for producing excellence and a patient tenacity to make improvements over time.
@@ -31,7 +31,7 @@ You’ll have plenty of variety, sometimes the projects are flashy and exciting 
 
 ### Important bullet points we’re looking for:
 
--   Self-motivated and hungry designer who wants to build awesome products 
+-   Self-motivated and hungry designer who wants to build awesome products
 -   Excited about creating and sharing resources like tools and libraries
 
 ## Are We A Good Fit?

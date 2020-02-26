@@ -2,7 +2,7 @@
 author: 'Emiliano Cicero'
 date: '2019-09-02T12:20:00.000Z'
 title: 'Gestalt: Law of Proximity'
-featuredImage: '/images/posts/dbp/gestalt-principles.png'
+featuredImage: '/images/articles/dbp/gestalt-principles.png'
 publish: true
 tags: ['Best Practices', 'Psychology']
 ---

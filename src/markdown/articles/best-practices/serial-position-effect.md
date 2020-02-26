@@ -2,7 +2,7 @@
 author: 'Patrick Pentz'
 date: '2019-07-31T00:00:00.000Z'
 title: 'Serial Position Effect'
-featuredImage: '/images/posts/dbp/serial-position-effect.png'
+featuredImage: '/images/articles/dbp/serial-position-effect.png'
 publish: true
 tags: ['Best Practices', 'Psychology']
 ---

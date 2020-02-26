@@ -4,7 +4,7 @@ date: '2019-09-02T00:00:00.000Z'
 publish: true
 tags: ['Best Practices', 'Usability']
 title: 'Remote Moderated and Unmoderated Usability Testing'
-featuredImage: '/images/posts/dbp/remote-moderated-and-unmoderated-usability-testing.png'
+featuredImage: '/images/articles/dbp/remote-moderated-and-unmoderated-usability-testing.png'
 ---
 
 ## Summary

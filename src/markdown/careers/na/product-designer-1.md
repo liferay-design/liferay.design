@@ -3,10 +3,10 @@ jobId: otdBafwb
 date: 2019-07-24T07:00:00Z
 title: Product Designer
 office: Diamond Bar
-featuredImage: "/images/posts/pj-first-year.jpeg"
+featuredImage: '/images/articles/pj-first-year.jpeg'
 published: true
-
 ---
+
 ## Who Designs at Liferay?
 
 Design is [a team sport](https://www.oreilly.com/ideas/12-qualities-of-effective-design-organizations) — while our athletic accomplishments are limited, our commitment to building a strong team is not. We firmly believe in going far together — what this looks like is passion for producing excellence and a patient tenacity to make improvements over time.

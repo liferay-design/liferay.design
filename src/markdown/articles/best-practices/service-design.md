@@ -2,7 +2,7 @@
 author: 'Karolina Kolodziej'
 date: '2019-06-13T12:02:00.000Z'
 title: 'Service Design'
-featuredImage: '/images/posts/dbp/service-design.png'
+featuredImage: '/images/articles/dbp/service-design.png'
 publish: true
 tags: ['Best Practices']
 ---

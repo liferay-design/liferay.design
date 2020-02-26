@@ -2,7 +2,7 @@
 title: 'Product Designer'
 office: 'Recife'
 jobId: 'oEG79fwk'
-featuredImage: '/images/posts/design-week-n.jpg'
+featuredImage: '/images/articles/design-week-n.jpg'
 date: '2019-05-05'
 published: true
 ---

@@ -2,7 +2,7 @@
 author: 'Susana Vázquez'
 date: '2019-06-21T12:12:00.000Z'
 title: 'Dark Patterns'
-featuredImage: '/images/posts/dbp/dark-patterns.png'
+featuredImage: '/images/articles/dbp/dark-patterns.png'
 publish: true
 tags: ['Best Practices', 'Interaction Design', 'Ethics']
 ---
@@ -11,7 +11,7 @@ tags: ['Best Practices', 'Interaction Design', 'Ethics']
 
 Dark Patterns are unethical design tricks that try to take advantage of human psychology to get users to do things they don't really want to do. Companies utilize dark partners in websites and apps, and there are 11 types known according to darkpatterns.org: Sneak into Basket, Roach Motel, Privacy Zuckering, Price Comparison Prevention, Misdirection, Hidden Costs, Bait & Switch, Confirmshaming, Disguised Ads, Forced Continuity and Friend Spam, that will be explained in future posts. For example, when airline apps include travel insurance by default and hide the deselect option or when unexpected charges appear in the last step of the checkout.
 
-![image-description](/images/posts/dbp/1561108298337webupload_00977406.jpg)
+![image-description](/images/articles/dbp/1561108298337webupload_00977406.jpg)
 
 ## Takeaway
 

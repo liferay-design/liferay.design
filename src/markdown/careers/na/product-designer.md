@@ -3,7 +3,7 @@ jobId: 'oqKh9fwk'
 date: '2018-12-10'
 title: 'Product Designer'
 office: 'Diamond Bar'
-featuredImage: '/images/posts/ux-designer.jpg'
+featuredImage: '/images/articles/ux-designer.jpg'
 published: false
 ---
 

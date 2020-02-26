@@ -2,7 +2,7 @@
 author: 'James Lyons'
 date: '2019-04-23T10:09:00.000Z'
 title: 'What is Accessibility in Design?'
-featuredImage: '/images/posts/dbp/what-is-accessibility-in-design.png'
+featuredImage: '/images/articles/dbp/what-is-accessibility-in-design.png'
 publish: true
 tags: ['Best Practices', 'Accessibility']
 ---

@@ -2,20 +2,20 @@
 author: 'Juan Hidalgo'
 date: '2018-04-27'
 title: 'Liferay Design Week 2018 is over'
-featuredImage: '/images/posts/design-week-team.jpeg'
+featuredImage: '/images/articles/design-week-team.jpeg'
 publish: true
 ---
 
 Over 5 days, 31 Designers from (Diamond Bar, Frankfurt, Madrid, Recife, and San Diego) attended 21 Talks, 6 Workshops, and Group Activities. The week was intense and a challenge to synchronize our projects with our deadlines — it was awesome.
 
-![The Liferay Design Team](/images/posts/design-week-team.jpeg)
+![The Liferay Design Team](/images/articles/design-week-team.jpeg)
 _What a MARVELOUS Team!!!_
 
 The format was five days with talks and some hands-on workshops in the mornings and then working in the Products/Projects in the afternoons. In the future, true to conference style, we are going to plan plenty of activities and networking events every evening.
 
 It was the first time that we were in the same room talking about our needs, issues, and even our dreams. We talked and discussed these things with each other face to face instead of skype. We’re now in the same boat, on the same side, even in the same dream. So let’s maintain this incredible collaboration to design awesome experiences. We have the talent, we have the aspirations, let’s go for it.
 
-![Design Week collage](/images/posts/design-week-collage.jpeg)
+![Design Week collage](/images/articles/design-week-collage.jpeg)
 
 ## Highlights
 
@@ -96,7 +96,7 @@ Overall, Design Week 2018 was very different from most other Business Retreats o
 
 If you did enjoy the article, feel free to recommend to family, friends, and colleagues.
 
-![Great place to work](/images/posts/liferay-great-place-to-work.jpeg)
+![Great place to work](/images/articles/liferay-great-place-to-work.jpeg)
 
 ## Thanks
 

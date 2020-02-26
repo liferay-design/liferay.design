@@ -2,7 +2,7 @@
 author: 'David Kim'
 date: '2019-04-03T11:21:00.000Z'
 title: 'Value-Driven KPIs'
-featuredImage: '/images/posts/dbp/value-driven-kpis.png'
+featuredImage: '/images/articles/dbp/value-driven-kpis.png'
 publish: true
 tags: ['Best Practices', 'Strategy']
 ---

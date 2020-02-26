@@ -2,7 +2,7 @@
 author: 'Patrick Pentz'
 date: '2018-12-06'
 title: 'Reflecting on My First Year Designing at Liferay'
-featuredImage: '/images/posts/pj-first-year.jpeg'
+featuredImage: '/images/articles/pj-first-year.jpeg'
 publish: true
 ---
 
@@ -11,7 +11,7 @@ Alongside experienced teammates, I've had the opportunity to ship software at an
 
 ## Redesigning Liferay's Partner Portal
 
-![Liferay Partner Portal](/images/posts/pj-partner-portal.png)
+![Liferay Partner Portal](/images/articles/pj-partner-portal.png)
 
 The first UX project I worked on was the Liferay Partner Portal redesign which launched this year in July. It was the perfect stepping stone to begin working on a cross-collaboration team involving people from sales, marketing, technical writing and development. It demonstrated how vital communication is in the early stages of a product life-cycle.When everyone on a team is working together to achieve the same end goal, each person will have specific needs to get there. The designer must listen carefully and ask questions.
 
@@ -36,7 +36,7 @@ Dieter Rams' 10th principle of good design is,
 
 ## Redesigning Liferay's Customer Portal
 
-![Liferay Customer Portal](/images/posts/pj-customer-portal.png)
+![Liferay Customer Portal](/images/articles/pj-customer-portal.png)
 
 After Partner Portal, it was time for me to work toward my next goal. Liferay customers were submitting support tickets more regularly than using the available self-service solutions and customers were complaining about the feature they use most: ticket creation.
 

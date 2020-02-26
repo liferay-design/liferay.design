@@ -2,11 +2,11 @@
 author: 'Ryan Connolly'
 date: '2019-05-03T17:12:33.962Z'
 title: 'Interview with a Designer: B2B Commerce'
-featuredImage: '/images/posts/interview-with-a-designer-b2-b-commerce.png'
+featuredImage: '/images/articles/interview-with-a-designer-b2-b-commerce.png'
 publish: true
 ---
 
-![](/images/posts/interview-with-a-designer-b2-b-commerce.png)
+![](/images/articles/interview-with-a-designer-b2-b-commerce.png)
 
 <!-- # Interview with a Designer: B2B Commerce -->
 

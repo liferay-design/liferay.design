@@ -2,7 +2,7 @@
 author: 'Duuriimaa Bargaid'
 date: '2019-06-28T03:44:00.000Z'
 title: "Hick's Law"
-featuredImage: '/images/posts/dbp/hicks-law.png'
+featuredImage: '/images/articles/dbp/hicks-law.png'
 publish: true
 tags: ['Best Practices', 'Psychology']
 ---
@@ -19,7 +19,7 @@ The application of Hick's Law is simple, reduce the number of stimuli and get a 
 
 To Illustrate this idea, the "Payment process" would be a practical example. Instead of showing everything at once, you can break it down. Show the screen with shopping cart details, another with delivery information, then account creation, and so on.
 
-![image-description](/images/posts/dbp/1561718277595webupload_01325585.png)
+![image-description](/images/articles/dbp/1561718277595webupload_01325585.png)
 
 ## Takeaway
 
