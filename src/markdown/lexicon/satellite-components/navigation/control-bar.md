@@ -20,7 +20,16 @@ The Header is used on almost every page in the system. The most common configura
     -   Actions: They are identified with an icon when existing, and listed inside an actions menu when an icon is not clear. These actions are application level actions.
     -   User Sticker: It allows displaying different navigation options and actions to which the user has access.
 
-The Header can have different configurations, as you can see in the examples below.
+### Parts
+
+![Control Bar Parts](/images/lexicon/header-part.png)
+
+1. Product menu button
+2. Back button
+3. Page or Application title
+4. Configuration
+5. Add menu button
+6. Simulation button
 
 ### Examples
 
@@ -28,30 +37,16 @@ The Header can have different configurations, as you can see in the examples bel
 
 The application title always appears in the header (Web Content in this example). The title remains in the header until the user navigates to a detail page or the user has finished configuring the asset. Related actions for the application may appear on the right side. At the end of the right side, it appears the user sticker.
 
-![Application header](/images/lexicon/HeaderUserMenu.jpg)
+![Control Bar Parts](/images/lexicon/header-application.png)
 
 #### Asset or element detail page header
 
 The asset or element title appears in the header. A back button is provided to navigate to the asset/element location in the application. Related actions for the asset/element may appear on the right side. At the end of the right side, it appears the user sticker.
 
-![Application header](/images/lexicon/HeaderUserMenuDetail.jpg)
+![Control Bar Parts](/images/lexicon/header-detail-page.png)
 
 #### Main page header on site
 
 The page name is identified in the header. The related actions are listed with three icons on the right side: configuration, add menu, and simulation.
 
-![Main page header](/images/lexicon/HeaderSite.jpg)
-
-### Attributes
-
-![header parts](/images/lexicon/HeaderParts.jpg)
-
-1. Product menu button
-2. Back button
-3. Page or Application title
-4. Help icon to trigger help information
-5. Configuration
-6. Add menu button
-7. Simulation button
-
-![header metrics](/images/lexicon/HeaderMetrics.jpg)
+![Control Bar Parts](/images/lexicon/header-application-on-site.png)
