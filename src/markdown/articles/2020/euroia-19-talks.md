@@ -12,7 +12,7 @@ You have probably already read the [first part of our EuroIA 19 post](../euroia-
 
 Along these three conference days, there were two tracks of talks. As we were a group of three designers, we had the chance to attend most of them. Thanks to [Emiliano Cicero](https://twitter.com/EmilianoGCicero) and [David Aragonés](https://twitter.com/davidaragones), because all of us wrote these posts together from our different points of view and contributions. The highlights from our favourites talks are:
 
-## The unintended consequences of our design choices
+### The Unintended Consequences Of Our Design Choices
 
 [Aly Blenkin](http://2019.euroia.org/person/aly-blenkin/)
 
