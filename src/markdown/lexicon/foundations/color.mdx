@@ -28,7 +28,7 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 		rgb="39, 40, 51"
 		hsl="65, 13%, 18%"
 		name="main"
-		title="Main"
+		title="Dark"
 	/>
 	<ColorSwatch
 		hex="0B5FFF"
@@ -52,7 +52,7 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 | Color   | Code    | Usage                                                                |
 | ------- | ------- | -------------------------------------------------------------------- |
-| Main    | #272833 | Texts/icons, navigation background, borders, and dividers            |
+| Dark    | #272833 | Texts/icons, navigation background, borders, and dividers            |
 | Primary | #0B5FFF | Main actions like primary buttons, links, hover, and active          |
 | White   | #FFFFFF | Cards background, toolbar background, modals, forms, and texts/icons |
 
@@ -72,49 +72,49 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 		rgb="39, 40, 51"
 		hsl="65, 13%, 18%"
 		name="main"
-		title="Main"
+		title="Dark"
 	/>
 	<ColorSwatch
 		hex="30313F"
 		rgb="48, 49, 63"
 		hsl="66, 14%, 22%"
 		name="mainl1"
-		title="Main L1"
+		title="Dark L1"
 	/>
 	<ColorSwatch
 		hex="393A4A"
 		rgb="57, 58, 74"
 		hsl="66, 13%, 26%"
 		name="mainl2"
-		title="Main L2"
+		title="Dark L2"
 	/>
 	<ColorSwatch
 		hex="6B6C7E"
 		rgb="107, 108, 126"
 		hsl="66, 8%, 46%"
 		name="mainl3"
-		title="Main L3"
+		title="Secondary"
 	/>
 	<ColorSwatch
 		hex="A7A9BC"
 		rgb="167, 169, 188"
 		hsl="65, 14%, 70%"
 		name="mainl4"
-		title="Main L4"
+		title="Secondary L1"
 	/>
 	<ColorSwatch
 		hex="CDCED9"
 		rgb="205, 206, 217"
 		hsl="65, 14%, 83%"
 		name="mainl5"
-		title="Main L5"
+		title="Secondary L2"
 	/>
 	<ColorSwatch
 		hex="E7E7ED"
 		rgb="231, 231, 237"
 		hsl="67, 14%, 92%"
 		name="mainl6"
-		title="Main L6"
+		title="Secondary L3"
 	/>
 </Grid>
 
@@ -124,15 +124,15 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 | Color        | Light         | Code    | Usage                                                            |
 | ------------ | ------------- | ------- | ---------------------------------------------------------------- |
-| Main Default | 0             | #272833 | First level navigation background and primary texts              |
-| Main L1      | -4%           | #30313F | Second level navigation background                               |
-| Main L2      | -8%           | #393A4A | Third level navigation background and active state on navigation |
-| Main L3      | -28% desat 5% | #6B6C7E | Secondary texts                                                  |
-| Main L4      | -52%          | #A7A9BC | Disabled texts                                                   |
-| Main L5      | -65%          | #CDCED9 | Border for clickable elements like buttons                       |
-| Main L6      | -74%          | #E7E7ED | Disabled Background and Border for dividers                      |
+| Dark Default | 0             | #272833 | First level navigation background and primary texts              |
+| Dark L1      | -4%           | #30313F | Second level navigation background                               |
+| Dark L2      | -8%           | #393A4A | Third level navigation background and active state on navigation |
+| Secondary    | -28% desat 5% | #6B6C7E | Secondary texts                                                  |
+| Secondary L1 | -52%          | #A7A9BC | Disabled texts                                                   |
+| Secondary L2 | -65%          | #CDCED9 | Border for clickable elements like buttons                       |
+| Secondary L3 | -74%          | #E7E7ED | Disabled Background and Border for dividers                      |
 
-#### Gray variations
+#### Light variations
 
 Color does have meaning in certain contexts &mdash; in very specific use-cases, we employ color as one factor in imparting meaning. Note that we do not use color alone, it is an enhancement. For more on this, please see Lexicon's guides on [using color in a functional way](https://lexicondesign.io/core-components/alerts.html).
 
@@ -146,18 +146,32 @@ Color does have meaning in certain contexts &mdash; in very specific use-cases, 
 	gap="3.3rem 3rem"
 >
 	<ColorSwatch
+		hex="D3D6E0"
+		rgb="211, 214, 224"
+		hsl="226, 17%, 85%"
+		name="lightd2"
+		title="Light D2"
+	/>
+	<ColorSwatch
+		hex="E2E4EA"
+		rgb="226, 228, 234"
+		hsl="225, 16%, 90%"
+		name="lightd1"
+		title="Light D1"
+	/>
+	<ColorSwatch
 		hex="F1F2F5"
 		rgb="241, 242, 245"
 		hsl="63, 17%, 95%"
-		name="graybg"
-		title="Gray Background Default"
+		name="light"
+		title="Light"
 	/>
 	<ColorSwatch
 		hex="F7F8F9"
 		rgb="247, 248, 249"
 		hsl="58, 14%, 97%"
-		name="graybgl1"
-		title="Gray Background L1"
+		name="lightl1"
+		title="Light L1"
 	/>
 </Grid>
 
@@ -167,8 +181,11 @@ Color does have meaning in certain contexts &mdash; in very specific use-cases, 
 
 | Color                   | Light | Code    | Usage                                                                                           |
 | ----------------------- | ----- | ------- | ----------------------------------------------------------------------------------------------- |
-| Gray Background Default | 0     | #F1F2F5 | Main background of the application, input backgrounds, and active state in the secondary button |
-| Gray Background L1      | -2%   | #F7F8F9 | Hover State for the Secondary button                                                            |
+| Light D2                | 10%   | #D3D6E0 |                                                                                                 |
+| Light D1                | 5%    | #E2E4EA |                                                                                                 |
+| Light Default           | 0     | #F1F2F5 | Main background of the application, input backgrounds, and active state in the secondary button |
+| Light L1                | -2%   | #F7F8F9 | Hover State for the Secondary button                                                            |
+
 
 #### Primary blue color variations
 
@@ -542,64 +559,71 @@ Lexicon provides a specific color palette for charts. For more information on it
 		hex="4b9fff"
 		rgb="75, 159, 255"
 		hsl="59, 100%, 65%"
-		name="stark"
-		title="Stark"
+		name="blue"
+		title="Blue"
 	/>
 	<ColorSwatch
 		hex="ffb46e"
 		rgb="255, 180, 110"
 		hsl="8, 100%, 72%"
-		name="mormont"
-		title="Mormont"
+		name="orange"
+		title="Orange"
 	/>
 	<ColorSwatch
 		hex="ff5f5f"
 		rgb="255, 95, 95"
 		hsl="0, 100%, 69%"
-		name="lannister"
-		title="Lannister"
+		name="red"
+		title="Red"
 	/>
 	<ColorSwatch
 		hex="50d2a0"
 		rgb="80, 210, 160"
 		hsl="44, 58%, 57%"
-		name="martell"
-		title="Martell"
+		name="teal"
+		title="Teal"
 	/>
 	<ColorSwatch
 		hex="ff73c3"
 		rgb="255, 115, 195"
 		hsl="90, 100%, 73%"
-		name="tyrell"
-		title="Tyrell"
+		name="pink"
+		title="Pink"
 	/>
 	<ColorSwatch
 		hex="9ce269"
 		rgb="156, 226, 105"
 		hsl="26, 68%, 65%"
-		name="targaryen"
-		title="Targaryen"
+		name="green"
+		title="Green"
 	/>
 	<ColorSwatch
 		hex="af78ff"
 		rgb="175 ,120, 255"
 		hsl="73, 100%, 74%"
-		name="dothraki"
-		title="Dothraki"
+		name="purple"
+		title="Purple"
 	/>
 	<ColorSwatch
 		hex="ffd76e"
 		rgb="255, 215, 110"
 		hsl="12, 100%, 72%"
-		name="kashtark"
-		title="Kashtark"
+		name="yellow"
+		title="Yellow"
 	/>
 	<ColorSwatch
 		hex="5fc8ff"
 		rgb="95, 200, 255"
 		hsl="56, 100%, 69%"
-		name="tarly"
-		title="Tarly"
+		name="cyan"
+		title="Cyan"
+	/>
+	<ColorSwatch
+		hex="7785FF"
+		rgb="119, 133, 255"
+		hsl="234, 100%, 73%"
+		name="indigo"
+		title="Indigo"
 	/>
 </Grid>
 
