@@ -1,0 +1,70 @@
+---
+title: 'Ellipsis'
+description: 'A set of recommendations on how to use ellipsis designing interfaces.'
+order: 133
+draft: false
+---
+
+import { Grid } from 'reakit'
+
+The ellipsis is a text convention borrowed from editorial design to digital interfaces. Commonly represented with a set of three dots. It communicates the idea that there is more content that isn’t shown or there is something more to be done. 
+
+This subtle interaction detail helps users to **unconsciously anticipate** the action of the system in order to achieve more considerate products. 
+
+### Types
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="4rem">
+    <Grid.Item>
+        <p><strong>Horizontal</strong></p> 
+        <div class="image-container">
+            <img src="/images/lexicon/Delete.jpg" alt="times circled icon" />
+        </div>
+        <em>The most common usage on interfaces</em>
+    </Grid.Item>
+    <Grid.Item>
+        <p><strong>Vertical</strong></p>
+        <div class="image-container">
+            <img src="/images/lexicon/Trash.jpg" alt="trash icon" />
+        </div>
+        <em>It works better for narrow spaces</em>
+    </Grid.Item>
+</Grid>
+
+
+
+So, which is the better option? Lexicon doesn't provide a rule for using one over the other. Once the ellipsis type is chosen, it must be consistently used in all the same scenarios when designing a product.   
+
+### Use Cases
+
+#### Overflow
+
+Use ellipsis to communicate that there are further options that can’t be shown. Often we see this solution to solve narrow spaces or responsive interfaces. 
+
+#### More characters than space
+
+Use ellipsis when there is not enough space to show a complete text. You can truncate long texts in the middle or at the end to avoid overlapping. Choose the option that best displays important information for your use case.
+
+#### Additional action
+
+Use ellipsis for actions or menu items when additional information is required to perform the command:
+
+**Immediate Action**
+
+The absence of ellipsis in a command communicates that triggering said command will perform the action and have an immediate effect. As seen below on the left side, users won’t need to execute any other action as results will be shown directly after submitting their search.
+
+**It requires more input**
+
+Commands of this type need to answer specific questions such as _"Move to which Folder?"_ before running it. This means that there is a follow-up decision that the user must confirm after triggering the command.
+
+However, informative commands which do not require additional actions to be taken such as the _Permissions_ command above,  should not include an ellipsis. These commands only display a modal window, users don’t need to perform any other action as it is just a matter of showing permissions.
+
+If, for example, the command Permissions contains a verb like _Change_, it should include an ellipsis as it means users will need to perform an additional action after clicking on it.
+
+**It requires confirmation**
+
+In this case, ellipsis also serves as a hint to let users know that the action will not happen immediately. Before taking any risky decision, for example, complete elimination of information, an alert will warn or inform the user with a confirmation modal or proposing an alternative action.
+
+#### Other use (Infrequent)
+Although it is seldom used, ellipsis can be applied to indicate that the system is busy working on a heavy task and there is a period of waiting time during which the action is being performed.
+
+In addition, horizontal ellipsis can be shown in conversational interfaces to represent activity.  
