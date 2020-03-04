@@ -1,7 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
-import { Link } from 'components/atoms'
 import { Accordion } from 'components/molecules'
 import styles from './styles.module.scss'
 
@@ -12,8 +11,7 @@ export const CareerPathTracks = ({
 	signals,
 	title,
 	track,
-	completeTrack,
-	...props
+	completeTrack
 }) => {
 	const data = useStaticQuery(graphql`
 		{
