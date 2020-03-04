@@ -1,7 +1,9 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
-import {Link} from 'components/atoms'
+import { Link } from 'components/atoms'
+import { Accordion } from 'components/molecules'
+import styles from './styles.module.scss'
 
 export const CareerPathTracks = ({
 	vertical,
@@ -42,7 +44,7 @@ export const CareerPathTracks = ({
 			<>
 				{completeTrack ? null : <h3>{node.label}</h3>}
 				{completeTrack || description ? <p>{node.description}</p> : null}
-				<div>
+				<div className={description ? styles.signalList : null}>
 					{completeTrack || summary ? (
 						node.levels.map(level => (
 							<div>
@@ -57,25 +59,28 @@ export const CareerPathTracks = ({
 							</div>
 						))
 					) : (
-						<Link
-							to={
-								'/handbook/grow/' +
-								`${node.vertical}`.replace(/\s+/g, '-').toLowerCase() +
-								'/' +
-								`${node.label}`.replace(/\s+/g, '-').toLowerCase()
-							}
-						>
-							Go to all {node.label} Milestones
-						</Link>
+						<Accordion title={'See all ' + node.label + ' milestones'}>
+							<ol className={styles.niceList}>
+								{node.levels.map(level => (
+									<li>
+										<h3>{level.summary}</h3>
+										<ul>
+											{level.signals.map(signal => (
+												<li>{signal}</li>
+											))}
+										</ul>
+									</li>
+								))}
+							</ol>
+						</Accordion>
 					)}
 				</div>
 			</>
 		))
 
 	return (
-		<div>{title ? <h2>
-			{vertical}
-		</h2> : null}
+		<div>
+			{title ? <h2>{vertical}</h2> : null}
 			<div>{Tracks}</div>
 		</div>
 	)
