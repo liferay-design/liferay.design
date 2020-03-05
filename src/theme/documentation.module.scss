@@ -36,6 +36,12 @@
 	.mainContentWrapper {
 		background: $white;
 		min-height: 100vh;
+		.content-wrapper {
+			a {
+				text-decoration: underline;
+				font-weight: initial;
+			}
+		}
 		img + em {
 			color: $main-l3;
 			font-size: $fontSizeSmall;
