@@ -15,3 +15,26 @@
 		height: 90vh;
 	}
 }
+
+.signal-list {
+	ul > div:first-of-type {
+		max-width: 40ch;
+	}
+	ol.nice-list {
+		position: relative;
+		margin-left: 0;
+		> li {
+			&:before {
+				content: counter(li);
+				position: absolute;
+				color: $neutral8;
+				font-size: $fontSizeDisplay;
+				font-weight: $fontWeightBlack;
+				margin: -1ch 0 0 -2.5ch;
+			}
+		}
+	}
+	ul > div:last-child {
+		padding-left: 0;
+	}
+}

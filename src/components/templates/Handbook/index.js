@@ -74,7 +74,7 @@ export default class Handbook extends Component {
 									section="Handbook"
 								/>
 
-								<div className={styles.contentWrapper}
+								<div className={`${styles.contentWrapper} ${documentation.contentWrapper}`}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
@@ -124,6 +124,7 @@ export default class Handbook extends Component {
 															'https://github.com/liferay-design/liferay.design/tree/master/src/' +
 															`${mdx.parent.relativePath}`
 														}
+														style={{textDecoration:'none'}}
 													>
 														<Flex
 															align="center"
