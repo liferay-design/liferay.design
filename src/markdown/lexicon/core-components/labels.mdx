@@ -9,22 +9,78 @@ draft: false
 
 import { Grid } from 'reakit'
 
-![default size default color label](/images/lexicon/Labels.jpg)
+### Overview
 
-### Usage
+Labels can be applied in a wide range of cases as a mechanism to tag content, show status, filter content or even provide navigation to elements of the same identification.
 
-Use labels to organize groups of items in your application. Labels have rounded borders by default.
+![labels](/images/lexicon/Labels.png)
+
+
+### Simple labels
+Use simple labels to identify or filter content, tag content, show status or even to provide navigation to elements.
+
+![Simple labels](/images/lexicon/SimpleLabel.png)
+
+Simple labels can use status colors to highlight the status of an element to provide quick recognition. Simple status labels use colors to indicate meaning and they can be bold or outline. The colors are chosen intentionally so that users can recognize them easily.
+
+
+#### Outline status labels
+
+Use outline status labels by default and in places where there are many status labels on the same screen such as in tables, lists...etc.
+
+![Outline status labels](/images/lexicon/OutlineStatusLabels.png)
+
+In the following image, you can see different status labels in a table. In this example, outline status labels are used as they dominate the screen.
+<br/>
+
+![Outline status labels in a table](/images/lexicon/TableWithLabels.png)
+
+
+#### Bold status labels
+
+Bold status labels are used in an infrequent manner to draw attention to important information. For example, in headers when you need to differentiate a label from the rest of the labels in a list. Do not use bold labels as default or alongside many other status labels. Background color and text in bold status labels have a **minimum contrast ratio of 5:1** for each color.
+
+![Bold status labels](/images/lexicon/BoldStatusLabels.png)
+
+In the image below, you can see different status labels in a table and a status label in the header section. In this example, a bold status label is used in the header to differentiate it from other labels.
+<br/>
+
+![Bold status labels in header and outline status labels in a table](/images/lexicon/BoldStatusLabelInHeader.png)
+
+### Removable label
+
+Use the removable label in filter bars, categories, etc. A removable label should always be the default size and have no status color. It contains a close icon to remove the label.
+
+![label removable](/images/lexicon/LabelRemovable.png)
+
+#### Removable label with sticker
+
+This label is a variation from label removable, which can only be used with a default size. You can use this label with icons or round stickers.
+
+![Removable label with sticker](/images/lexicon/RemovableLabelSticker.png)
+
+The label must never be longer than the available space. However, there are cases in which removable labels need to be placed in a second line or as a last option it will be truncated.
+
+![Removable labela with sticker break line](/images/lexicon/RemovableLabelStickerBreakLine.png)
+
+### Label with link
+
+You can use labels to link related content to a site.
+
+![default size default color link label](/images/lexicon/LabelLink.jpg)
 
 ### Sizes
 
+Labels can have two different sizes:
+
 | Size                                                            | Usage                                                                                                                 |
 | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| ![default label small size](/images/lexicon/LabelSmall.jpg)     | **Small**: Use the small label when the label doesn't need emphasized. Always use uppercase text for the small label. |
-| ![default label default size](/images/lexicon/LabelDefault.jpg) | **Default**: Use the default size to mark states. Lowercase is acceptable for this size.                              |
+| ![default label small size](/images/lexicon/LabelSmall.png)     | **Small**: Use the small label when the label doesn’t need emphasis. Always use uppercase text for the small label.   |
+| ![default label default size](/images/lexicon/LabelDefault.png) | **Default**: Use the default size to mark states. The use of lowercase is acceptable for this size.                   |
 
 ### Dos and Don'ts
 
-1. Labels categorize information and provide quick recognition.
+1. Labels categorize information and provide quick recognition. They do not contain badges.
 
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
@@ -74,7 +130,7 @@ Use labels to organize groups of items in your application. Labels have rounded 
 <br/>
 <br/>
 
-3. Never use ellipsis in labels.
+3. Never use Ellipsis on labels.
 
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
@@ -93,33 +149,69 @@ Use labels to organize groups of items in your application. Labels have rounded 
 		<p class="dont">Don't</p>
 	</Grid.Item>
 </Grid>
+<br/>
+<br/>
 
-### Variations
+4. Keep your text short, up to 1 or 2 words.
 
-#### Simple label
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img src="/images/lexicon/CollectionLabel.png" alt="default label" />
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/CollectionLabelLong.png"
+				alt="default label long"
+			/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+<br/>
+<br/>
 
-Use the simple label to identify or filter content, tag content, show status, or even to provide navigation to elements. Labels can use status colors.
+5. Don’t use bold status labels alongside many other status labels.
 
-![default size default color close option label](/images/lexicon/LabelDefault.jpg)
+<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img src="/images/lexicon/StatusLabelsTableDo.png" alt="Outline Status Labels in a Table" />
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/BoldLabelsTableDont.png"
+				alt="Bold Status Labels in a Table Dont"
+			/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
+<br/>
+<br/>
 
-#### Removable label
+6. Use color labels for status only.
 
-Use the removeable label in filter bars, categories, etc. A removable label should always be the default size and have no status color.
-
-![default size default color close option label](/images/lexicon/LabelRemovable.jpg)
-
-#### Label with link
-
-You can use labels to link to link to related content in a site.
-
-![default size default color link label](/images/lexicon/LabelLink.jpg)
-
-### Attributes
-
-Small size metrics:
-
-![label small size metrics](/images/lexicon/LabelSmallMetrics.jpg)
-
-Default size metrics:
-
-![label default size metrics](/images/lexicon/LabelMetrics.jpg)
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img src="/images/lexicon/SuccessLabel.png" alt="SuccessLabel" />
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/StatusLabelsNotStatus.png"
+				alt="Bold Status Labels in a Table Dont"
+			/>
+		</div>
+		<p class="avoid">Avoid</p>
+	</Grid.Item>
+</Grid>
