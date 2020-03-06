@@ -52,6 +52,15 @@ When dragging a single element, the element must be scaled down to 70% and accom
 
 ![a resize of the original drag element](/images/lexicon/DnDDragResize.jpg)
 
+**Using a Representation while Dragging a Single Element**
+
+In contrast, an alternative option for dragging a single element is to show a new element with the most relevant information.
+
+
+
+Optionally an icon or a thumbnail can be shown accompanying the key field.
+
+
 **Multiple elements dragging**
 
 When dragging multiple elements, you may need to indicate how many elements are being dragged. For that we offer a badge to reflect this amount. Please remember the following while dragging multiple elements:
