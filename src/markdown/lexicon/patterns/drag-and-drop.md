@@ -56,9 +56,11 @@ When dragging a single element, the element must be scaled down to 70% and accom
 
 In contrast, an alternative option for dragging a single element is to show a new element with the most relevant information.
 
-
+![a heading item being dragged](/images/lexicon/DragAndDropRepresentation.png)
 
 Optionally an icon or a thumbnail can be shown accompanying the key field.
+
+![a heading item with a h1 icon being dragged](/images/lexicon/DragAndDropRepresentationIcon.png)
 
 
 **Multiple elements dragging**
