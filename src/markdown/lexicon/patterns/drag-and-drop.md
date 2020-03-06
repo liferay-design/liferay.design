@@ -83,7 +83,7 @@ There are two variants for showing feedback in the dragged element's source:
     ![the drag source gets an opacity of 40%](/images/lexicon/DnDDragSourceOpacity.jpg)
 
 -   Simplified placeholder: For cases that require a simpler approach, you can use a placeholder that is the same size as the element. Transform the element's background color to #272833 with a 4% opacity. This may require modification depending on the use case.
-    ![the drag source is a grey placeholder](/images/lexicon/DnDDragSourceplaceholder.png)
+    ![the drag source is a grey placeholder](/images/lexicon/DnDDragSourceplaceholder.jpg)
 
 #### Valid Target
 
