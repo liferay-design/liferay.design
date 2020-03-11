@@ -139,6 +139,14 @@ module.exports = {
 				],
 			},
 		},
+		{
+			resolve: `gatsby-plugin-typescript`,
+			// options: { // commenting these out until I figure out what's best
+			// 	isTSX: true, // defaults to false
+			// 	jsxPragma: `jsx`, // defaults to "React"
+			// 	allExtensions: true, // defaults to false
+			// },
+		},
 	].concat(dynamicPlugins),
 
 	mapping: {

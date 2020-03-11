@@ -16,6 +16,7 @@
 		"gatsby-plugin-mdx": "^1.0.79",
 		"gatsby-plugin-offline": "^3.0.39",
 		"gatsby-plugin-sharp": "^2.4.10",
+		"gatsby-plugin-typescript": "^2.2.2",
 		"gatsby-plugin-typography": "^2.3.24",
 		"gatsby-remark-autolink-headers": "^2.1.25",
 		"gatsby-remark-external-links": "0.0.4",
@@ -40,6 +41,7 @@
 		"readline-sync": "^1.4.10",
 		"reakit": "~0.16.0",
 		"slick-carousel": "~1.8.1",
+		"typescript": "^3.8.3",
 		"typography": "^0.16.19"
 	},
 	"devDependencies": {
