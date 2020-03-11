@@ -19,6 +19,14 @@
 		background-color: $white;
 		margin: 0 auto;
 	}
+	@media screen and (max-width: $screenMedium) {
+		.social-container {
+			display: flex;
+			flex-direction: row;
+			margin: $spacingMedium 0 $spacingLarge;
+			justify-content: center;
+		}
+	}
 	.social {
 		height: $spacingMedium;
 		width: $spacingMedium;

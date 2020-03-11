@@ -27,21 +27,24 @@ const Lexicon = () => (
 				<MediaQuery maxWidth={767}>
 					{matches => {
 						let gridTemplate = matches
-							? `	"tlg" auto // first is mobile
-								"tlc" auto
-								"m" auto
-								"blc" auto
-								"brc" auto / auto-fit, minmax(200px, 1fr)`
+							? `	"lg tlg rg" auto
+								"lg tlc rg" auto
+								"lg trc rg" auto
+								"lg m rg" auto
+								"lg blc rg" auto
+								"lg brc rg" auto
+								"lg brg rg" auto / 1rem 1fr 1rem`
 							: `	"tlg tlc trc rg" auto
 								"lg m m rg" auto
 								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
+						let margin = matches ? `0` : `-8rem`
 						return (
 							<Grid
 								className={documentation.teasers}
 								gap="2rem"
 								template={gridTemplate}
 							>
-								<Grid.Item area="tlg" marginTop="-8rem">
+								<Grid.Item area="tlg" marginTop={margin}>
 									<Text
 										color="#c4cacb"
 										weight="700"
@@ -52,7 +55,7 @@ const Lexicon = () => (
 										Explore Lexicon
 									</Text>
 								</Grid.Item>
-								<Grid.Item area="tlc" marginTop="-8rem">
+								<Grid.Item area="tlc" marginTop={margin}>
 									<CardLexicon
 										icon="what"
 										title="Get Started"
@@ -61,7 +64,7 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="trc" marginTop="-8rem">
+								<Grid.Item area="trc" marginTop={margin}>
 									<CardLexicon
 										delay="0.1s"
 										icon="principles"
@@ -103,7 +106,7 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="brg" marginTop="2rem">
+								<Grid.Item area="brg" marginTop="2rem" className={documentation.socialContainer}>
 									<Link
 										className={documentation.social}
 										to="https://github.com/liferay-design"
