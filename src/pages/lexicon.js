@@ -106,7 +106,11 @@ const Lexicon = () => (
 										cta="Learn More"
 									/>
 								</Grid.Item>
-								<Grid.Item area="brg" marginTop="2rem" className={documentation.socialContainer}>
+								<Grid.Item
+									area="brg"
+									marginTop="2rem"
+									className={documentation.socialContainer}
+								>
 									<Link
 										className={documentation.social}
 										to="https://github.com/liferay-design"
@@ -148,18 +152,15 @@ const Lexicon = () => (
 		/>
 		<section className={lexicon.claySection}>
 			<Container>
-				<Grid className={lexicon.clayCard}>
-					<Grid.Item columnStart="3" columnEnd="7">
-						<CardLexicon
-							dark
-							icon="clay"
-							title="Clay"
-							text="A web implementation of the Lexicon Design System."
-							to="https://clayui.com"
-							cta="Visit Clay"
-						/>
-					</Grid.Item>
-				</Grid>
+				<CardLexicon
+				className={lexicon.clayCard}
+					dark
+					icon="clay"
+					title="Clay"
+					text="A web implementation of the Lexicon Design System."
+					to="https://clayui.com"
+					cta="Visit Clay"
+				/>
 			</Container>
 		</section>
 		<Footer background="#30313f" />
