@@ -46,15 +46,9 @@
 	}
 
 	.clayCard {
-		padding: $spacingLarge 0 0;
-		grid-template-columns: repeat(8, 1fr);
-		div {
-			a {
-				div {
-					border-radius: $spacingSmall;
-				}
-			}
-		}
+		border-radius: $spacingSmall;
+		margin: $spacingLarge auto 0;
+		max-width: $spacingLarge * 5;
 	}
 
 	// documentation part
