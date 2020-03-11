@@ -1,14 +1,14 @@
 ---
-title: 'Dual ListBox'
+title: 'Dual Listbox'
 titleLabel: ''
 titleLabelLink: ''
-description: 'A dual ListBox allows users to compare and move available and selected options between two lists.'
+description: 'A dual Listbox allows users to compare and move available and selected options between two lists.'
 order: 244
 draft: false
 ---
 
 ### Definition
-A dual ListBox consists of two lists used to move options between them. Users are allowed to multi-select different items from a list and sometimes, options in use can be re-order. The scroll must be available in long lists.
+A dual Listbox consists of two lists used to move options between them. Users are allowed to multi-select different items from a list and sometimes, options in use can be re-order. The scroll must be available in long lists.
 
 #### Parts
 ![Dual ListBox](/images/lexicon/dualListBox.png)
