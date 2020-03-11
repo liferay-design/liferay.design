@@ -19,6 +19,7 @@ const CardLexicon = ({
 	title,
 	to,
 	wide,
+	className,
 }) => {
 	const directionMap = {
 		vertical: 'column',
@@ -43,7 +44,7 @@ const CardLexicon = ({
 			>
 				<Flex
 					direction={directionMap[direction]}
-					className={`${styles.card} ${dark ? styles.dark : styles.light} ${
+					className={`${styles.card} ${className} ${dark ? styles.dark : styles.light} ${
 						wide ? styles.wide : 'null'
 					} `}
 					padding="0"
