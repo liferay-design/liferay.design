@@ -18,6 +18,9 @@
 	.copy {
 		grid-area: copy;
 		align-self: center;
+		@media screen and (max-width: $screenMedium) {
+			text-align: center;
+		}
 	}
 
 	h2 {
