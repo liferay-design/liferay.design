@@ -34,6 +34,11 @@
 		margin-top: $spacingMedium * 4;
 		transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
 		white-space: nowrap;
+		@media screen and (max-width: $screenMedium) {
+			margin-top: $spacingMedium;
+			text-align: center;
+			transform: initial;
+		}
 	}
 
 	.claySection {
