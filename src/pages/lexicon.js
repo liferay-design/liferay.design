@@ -33,7 +33,7 @@ const Lexicon = () => (
 								"lg m rg" auto
 								"lg blc rg" auto
 								"lg brc rg" auto
-								"lg brg rg" auto / 1rem 1fr 1rem`
+								"lg brg rg" auto / 0 1fr 0`
 							: `	"tlg tlc trc rg" auto
 								"lg m m rg" auto
 								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
