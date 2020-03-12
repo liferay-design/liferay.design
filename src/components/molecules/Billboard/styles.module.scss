@@ -20,6 +20,7 @@
 		align-self: center;
 		@media screen and (max-width: $screenMedium) {
 			text-align: center;
+			padding: $spacingBase;
 		}
 	}
 
