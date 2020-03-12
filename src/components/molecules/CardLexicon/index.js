@@ -2,6 +2,7 @@ import { Flex, Heading, Icon, Link, Text, Image, AnimateIn } from 'components/at
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
+import { useMediaQuery } from 'react-responsive'
 
 const CardLexicon = ({
 	cta,
@@ -21,6 +22,8 @@ const CardLexicon = ({
 	wide,
 	className,
 }) => {
+	const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+
 	const directionMap = {
 		vertical: 'column',
 		horizontal: 'row',
@@ -43,7 +46,7 @@ const CardLexicon = ({
 				className={`${styles.link} ${handbook ? styles.handbook : null}`}
 			>
 				<Flex
-					direction={directionMap[direction]}
+					direction={isMobile ? directionMap.vertical : directionMap[direction]}
 					className={`${styles.card} ${className} ${dark ? styles.dark : styles.light} ${
 						wide ? styles.wide : 'null'
 					} `}
@@ -63,7 +66,7 @@ const CardLexicon = ({
 							align="center"
 							justify="center"
 							className={styles.icon}
-							width={iconWidthMap[direction]}
+							width={isMobile ? iconWidthMap.vertical : iconWidthMap[direction]}
 						>
 							<Icon
 								name={icon}
@@ -78,7 +81,7 @@ const CardLexicon = ({
 						className={styles.copy}
 						style={{
 							flexBasis: '50%',
-							textAlign: textAlignmentMap[direction],
+							textAlign: isMobile ? textAlignmentMap.vertical : textAlignmentMap[direction],
 							alignSelf: 'center',
 						}}
 					>

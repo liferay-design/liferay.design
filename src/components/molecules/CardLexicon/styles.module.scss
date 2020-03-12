@@ -42,9 +42,15 @@
 	align-items: stretch;
 	.icon {
 		padding: ($spacingMedium * 2) $spacingMedium;
+		@media screen and (max-width: $screenMedium) {
+			padding: 0 $spacingMedium;
+		}
 	}
 	.copy {
 		padding: $spacingLarge $spacingMedium $spacingLarge $spacingSmall;
+		@media screen and (max-width: $screenMedium) {
+			padding: 0 $spacingMedium ($spacingMedium * 2);
+		}
 	}
 	.image {
 		margin-right: $spacingBase;
