@@ -1,7 +1,6 @@
-import { Link, Flex, Icon } from 'components/atoms'
+import { Link, Text, Flex, Icon } from 'components/atoms'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-// import { colors } from 'theme'
 
 export default class Accordion extends Component {
 	constructor(props) {
@@ -24,9 +23,13 @@ export default class Accordion extends Component {
 					onClick={this.toggleVisibility}
 					justify="space-between"
 				>
-					<Link className={this.props.className} to={this.props.parentLink}>
-						{this.props.title}
-					</Link>
+					{this.props.parentLink ? (
+						<Link className={this.props.className} to={this.props.parentLink}>
+							{this.props.title}
+						</Link>
+					) : (
+						<Text>{this.props.title}</Text>
+					)}
 					<Icon
 						height="2.4rem"
 						width="3rem"
