@@ -6,13 +6,13 @@ featuredImage: '/images/articles/multicultural-dt/multicultural-design-teams.jpe
 publish: false
 ---
 
-_Communication is one of the most important core skills a designer should have and improve throughout its career. It is not only about talking more, at the right moment, or writing more. It is also about understanding the cultural differences you and your team may have._
+_Communication is one of the most important core skills designers should have and improve throughout their careers. It is not only about talking more (or less), at the right moment, or writing more. It is also about understanding the cultural differences within your team._
 
 ## A Feedback Framework by Tom Censani
 
 [Tom Censani](https://twitter.com/tomterrific), Director of Product Design at Eventbrite, shared different ways of giving and receiving feedback on his talk at Design At Scale meetup in Madrid.
 
-He introduced the feedback framework they use, adapted from IBM. This method consists of grouping the feedback in 4 groups to provide consistency and it is used in their design critique sessions.
+He introduced the feedback framework they use, adapted from IBM, which consists of grouping the feedback in 4 groups to provide consistency. It is primarily used in their design critique sessions.
 
 ![Feedback framework](/images/articles/multicultural-dt/muticultural-design-framework.png)
 
