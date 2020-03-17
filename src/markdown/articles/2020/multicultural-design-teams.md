@@ -1,8 +1,8 @@
 ---
 author: 'Victor Valle'
 date: '2020-03-04T14:00:00.000Z'
-title: 'Multicultural Design Teams in large organizations'
-featuredImage: '/images/articles/multicultural-design-teams.jpeg'
+title: 'Multicultural Design Teams In Large Organizations'
+featuredImage: '/images/articles/multicultural-dt/multicultural-design-teams.jpeg'
 publish: false
 ---
 
@@ -21,7 +21,7 @@ _Photo by Alberto Roldán_
 
 Another method they use to keep distance shorter is sharing a slide deck with a quick overview of everyones work in a weekly bases. It is good for everyone in the team to know what other designers are doing. Every week, they share in the slide deck screenshots of what they are working on, one slider per designer. They also have a worldwide call where each designer has one minute to talk.
 
-After Tom’s talk, the rest of Eventbrite’s Madrid went deeper into what means working in a decentralized company and what are the communication barriers they have to overcome every day. 
+After Tom’s talk, the rest of Eventbrite’s Madrid went deeper into what means working in a decentralized company and what are the communication barriers they have to overcome every day.
 
 ![Emilio about to start his talk](/images/articles/multicultural-dt/multicultural-emilio.jpeg)
 _Photo by Alberto Roldán_
@@ -33,12 +33,11 @@ Long-distance communication can be tough, moreover when there is a 9h difference
 ![Timetable of two people seating at 9 hours difference](/images/articles/multicultural-dt/multicultural-timetable.png)
 _Example of Víctor Valle and Ryan Connolly calendars put together_
 
-
 The meetup finished with the talks from [Macarena Padilla](https://twitter.com/Mc_Arena_pr) and Jose Bello who described 2 different cases of international communication showing wins and looses in the process.
 
 <br/>
 <br/>
 <br/>
 
-_**Thanks Eventbrite product design team for sharing your experience!**_ 
+_**Thanks Eventbrite product design team for sharing your experience!**_
 🤗🤗🤗
