@@ -6,7 +6,9 @@ featuredImage: '/images/articles/multicultural-dt/multicultural-design-teams.jpe
 publish: false
 ---
 
-Communication is one of the most important core skills a designer should have and improve throughout its career. It is not only about talking more, at the right moment, or writing more. It is also about understanding the cultural differences you and your mates have.
+_Communication is one of the most important core skills a designer should have and improve throughout its career. It is not only about talking more, at the right moment, or writing more. It is also about understanding the cultural differences you and your mates have._
+
+## A Feedback Framework by Tom Censani
 
 [Tom Censani](https://twitter.com/tomterrific), Director of Product Design at Eventbrite, walked over the different ways of giving and receiving feedback on his talk at Design At Scale meetup in Madrid. Some of the highlights from this talk are:
 
@@ -21,6 +23,8 @@ _Photo by Alberto Roldán_
 
 Another method they use to keep distance shorter is sharing a slide deck with a quick overview of everyones work in a weekly bases. It is good for everyone in the team to know what other designers are doing. Every week, they share in the slide deck screenshots of what they are working on, one slider per designer. They also have a worldwide call where each designer has one minute to talk.
 
+## Idiomatic Expressions by Emilio Garcia
+
 After Tom’s talk, the rest of Eventbrite’s Madrid went deeper into what means working in a decentralized company and what are the communication barriers they have to overcome every day.
 
 ![Emilio about to start his talk](/images/articles/multicultural-dt/multicultural-emilio.jpeg)
@@ -34,6 +38,8 @@ Long-distance communication can be tough, moreover when there is a 9h difference
 _Example of Víctor Valle and Ryan Connolly calendars put together_
 
 The meetup finished with the talks from [Macarena Padilla](https://twitter.com/Mc_Arena_pr) and Jose Bello who described 2 different cases of international communication showing wins and looses in the process.
+
+<!-- @Victor are there more details about this last one? Anything else? Its a tad sparse. -->
 
 <br/>
 <br/>
