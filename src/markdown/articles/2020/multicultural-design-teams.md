@@ -3,7 +3,7 @@ author: 'Victor Valle'
 date: '2020-03-04T14:00:00.000Z'
 title: 'Multicultural Design Teams In Large Organizations'
 featuredImage: '/images/articles/multicultural-dt/multicultural-design-teams.jpeg'
-publish: false
+publish: true
 ---
 
 _Communication is one of the most important core skills designers should have and improve throughout their careers. It is not only about talking more (or less), at the right moment, or writing more. It is also about understanding the cultural differences within your team._
