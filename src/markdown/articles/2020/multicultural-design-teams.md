@@ -6,22 +6,24 @@ featuredImage: '/images/articles/multicultural-dt/multicultural-design-teams.jpe
 publish: false
 ---
 
-_Communication is one of the most important core skills a designer should have and improve throughout its career. It is not only about talking more, at the right moment, or writing more. It is also about understanding the cultural differences you and your mates have._
+_Communication is one of the most important core skills a designer should have and improve throughout its career. It is not only about talking more, at the right moment, or writing more. It is also about understanding the cultural differences you and your team may have._
 
 ## A Feedback Framework by Tom Censani
 
-[Tom Censani](https://twitter.com/tomterrific), Director of Product Design at Eventbrite, walked over the different ways of giving and receiving feedback on his talk at Design At Scale meetup in Madrid. Some of the highlights from this talk are:
+[Tom Censani](https://twitter.com/tomterrific), Director of Product Design at Eventbrite, shared different ways of giving and receiving feedback on his talk at Design At Scale meetup in Madrid.
 
-Tom introduced the feedback framework they use adapted from IBM design thinking. This method consists of grouping the feedback in 4 groups to provide consistency and it is used in their design critique sessions.
+He introduced the feedback framework they use, adapted from IBM. This method consists of grouping the feedback in 4 groups to provide consistency and it is used in their design critique sessions.
 
 ![Feedback framework](/images/articles/multicultural-dt/muticultural-design-framework.png)
 
-Participating in [critique sessions](https://www.nngroup.com/articles/design-critiques/) in relevant for a designer and the entire design team. A small detail shared by Tom is that the moment something is shared in the session is not your work anymore but everyone’s work. Your workmates are not judging you, they are helping you improve your design.
+<!-- @Victor there's a typo in this graphic "wordked" -> "worked" I fixed (typeface isn't :100: but close enough). If its his you should let him know! :) -->
+
+Participating in [critique sessions](https://www.nngroup.com/articles/design-critiques/) is relevant for a designer and the entire design team. A small detail shared by Tom is that when something is shared in the session, it is not just your work anymore, now it is everyone’s work. Your teammates are not judging you, they are helping you improve your design.
 
 ![Tom Censani talking about critique sessions](/images/articles/multicultural-dt/multicultural-critique.jpeg)
 _Photo by Alberto Roldán_
 
-Another method they use to keep distance shorter is sharing a slide deck with a quick overview of everyones work in a weekly bases. It is good for everyone in the team to know what other designers are doing. Every week, they share in the slide deck screenshots of what they are working on, one slider per designer. They also have a worldwide call where each designer has one minute to talk.
+Another method they use to keep distance shorter is sharing a slide deck with a quick overview of everyones work on a weekly bases. It is good for everyone in the team to know what other designers are doing. Every week, they share in the slide deck screenshots of what they are working on, one slide per designer. They also have a worldwide call where each designer has one minute to talk.
 
 ## Idiomatic Expressions by Emilio Garcia
 
@@ -35,7 +37,7 @@ _Photo by Alberto Roldán_
 Long-distance communication can be tough, moreover when there is a 9h difference. Emilio shared what his normal week schedule looks like, and faced it with Tom’s schedule. In this kind of situation, it is important to understand that is not one person who has to ease in favor of other people, but a work of balancing schedules on both sides.
 
 ![Timetable of two people seating at 9 hours difference](/images/articles/multicultural-dt/multicultural-timetable.png)
-_Example of Víctor Valle and Ryan Connolly calendars put together_
+_Overlapping calendars from designers in different time zones._
 
 The meetup finished with the talks from [Macarena Padilla](https://twitter.com/Mc_Arena_pr) and Jose Bello who described 2 different cases of international communication showing wins and looses in the process.
 
@@ -45,5 +47,4 @@ The meetup finished with the talks from [Macarena Padilla](https://twitter.com/M
 <br/>
 <br/>
 
-_**Thanks Eventbrite product design team for sharing your experience!**_
-🤗🤗🤗
+_**Thanks to the Eventbrite Product Design Team for sharing your experience!**_ 🤗
