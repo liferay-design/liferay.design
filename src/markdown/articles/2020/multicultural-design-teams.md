@@ -1,6 +1,6 @@
 ---
 author: 'Victor Valle'
-date: '2020-03-04T14:00:00.000Z'
+date: '2020-03-17T14:00:00.000Z'
 title: 'Multicultural Design Teams In Large Organizations'
 featuredImage: '/images/articles/multicultural-dt/multicultural-design-teams.jpeg'
 publish: true
@@ -14,9 +14,7 @@ _Communication is one of the most important core skills designers should have an
 
 He introduced the feedback framework they use, adapted from IBM, which consists of grouping the feedback in 4 groups to provide consistency. It is primarily used in their design critique sessions.
 
-![Feedback framework](/images/articles/multicultural-dt/muticultural-design-framework.png)
-
-<!-- @Victor there's a typo in this graphic "wordked" -> "worked" I fixed (typeface isn't :100: but close enough). If its his you should let him know! :) -->
+![Feedback framework](/images/articles/multicultural-dt/multicultural-feedback-framework.png)
 
 Participating in [critique sessions](https://www.nngroup.com/articles/design-critiques/) is relevant for a designer and the entire design team. A small detail shared by Tom is that when something is shared in the session, it is not just your work anymore, now it is everyone’s work. Your teammates are not judging you, they are helping you improve your design.
 
@@ -39,9 +37,7 @@ Long-distance communication can be tough, moreover when there is a 9h difference
 ![Timetable of two people seating at 9 hours difference](/images/articles/multicultural-dt/multicultural-timetable.png)
 _Overlapping calendars from designers in different time zones._
 
-The meetup finished with the talks from [Macarena Padilla](https://twitter.com/Mc_Arena_pr) and Jose Bello who described 2 different cases of international communication showing wins and looses in the process.
-
-<!-- @Victor are there more details about this last one? Anything else? Its a tad sparse. -->
+The meetup finished with the talks from [Macarena Padilla](https://twitter.com/Mc_Arena_pr) and José Bello who described 2 different cases of international communication showing wins and looses in the process. While Macarena talked about the communication between two teams working in a same page with different business goals, José did it on knowledge transfer between two teams working in different time zones.
 
 <br/>
 <br/>
