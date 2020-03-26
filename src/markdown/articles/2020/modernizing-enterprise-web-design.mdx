@@ -1,0 +1,80 @@
+---
+author: 'Abel Hancock'
+date: '2020-03-27T14:00:00.000Z'
+title: 'Modernizing Enterprise Web Design'
+featuredImage: '/images/articles/modernizing-enterprise-web-design/modernizing-enterprise-web-design.png'
+publish: true
+---
+
+import { Image } from 'components/atoms'
+
+In December 2019, as one of our steps toward evolving our modern enterprise website we rolled out an internal [landing page building tool](https://liferay.design/articles/2019/increasing-our-ability-to-convert-prospects/#landing-page-builder) which allows our marketing team to build pages on liferay.com with drag & drop elements. Prior to this, our marketing team would use HubSpot landing pages to drive event registrations, and landing pages built by developers on liferay.com for gated content. 
+
+__The landing page builder marks the first time marketers are able to directly create and publish content on liferay.com.__ We have seen marketers around the globe adopt the tool to build and publish pages without designer or developer involvement. This has significant, positive implications for how our marketing department is able to utilize liferay.com for quickly responding to market changes and driving conversions.
+
+## Rollout Overview
+With the rollout, we provided training on how to use the tool, published documentation for users to reference, and then gave marketers full access to create pages as needed. Over the first few months after rollout we have seen adoption by all regions. 
+
+### Marketing Landing Pages
+__Over 40 landing pages have been created by marketers worldwide.__ These pages include:
+- [gated content & demo landing pages](https://www.liferay.com/one-platform-endless-solutions)
+- [confirmation pages](https://www.liferay.com/products/dxp/30-day-trial/thank-you)
+- event and webinar registration pages
+- [mailing list subscription pages](https://www.liferay.com/web/l/subscribe-to-liferay-notifications)
+- content hubs
+- and many others
+
+<Image
+	margin="2rem"
+	src="/images/articles/modernizing-enterprise-web-design/landing-page-examples.png"
+	caption="Landing pages built with modern site building"
+/>
+
+### Production Content Pages
+Aside from marketers building pages for local campaigns and efforts, we have also adopted the tool to build primary pages on liferay.com. To date, we have created well over 16 key pages for the site, including [contact sales](https://www.liferay.com/contact-sales), [developer services](https://www.liferay.com/developer-services), and [30-day trial](https://www.liferay.com/products/dxp/30-day-trial/thank-you) pages. 
+
+## Biggest challenge
+
+<Image
+	margin="0 0 0 2rem"
+	src="/images/articles/modernizing-enterprise-web-design/heading-fragment-configs.png"
+	caption="Heading fragment with styling options"
+	size="small"
+	align="right"
+/>
+
+Using [new product features](https://www.liferay.com/products/dxp/new#accordion-0) has allowed us to provide new solutions for quickly creating and publishing content that previously wouldn’t have been possible, but as with any new technology it has also surfaced new challenges. __Our goal was to deliver an intuitive, useful tool for marketing on a solid infrastructure, but it had to be maintainable and scalable.__ Being the first real-world use of modern site building we hit many roadblocks, some of which were solved by product teams adding needed functionality to the product and others that required temporary workaround solutions.
+
+Many limitations introduced with modern site building were solved with some creative thinking. The limitations with out-of-the-box rich text styling options ware bypassed by creating text components that provided options separate from the rich text editor. Svg icons couldn’t be added to a page through the document library & image selector but adding an option for icons that toggles between image upload or embedded code enables embedding svg code directly into the page markup.
+
+The most notable challenge for the web team in the first implementation of modern site building was __the lack of ability to embed [fragments](https://www.liferay.com/products/dxp/all-features#article-232935133-6) (components) within other fragments.__ This made it impossible to create a scalable component infrastructure on the backend, significantly increased redundant code, and restricted our ability to offer fully built out or fully customizable fragments to the user. We hoped to create a component architecture following an [atomic model](https://atomicdesign.bradfrost.com/). Thankfully, our ability to work collaboratively with the modern site building product team has been mutually beneficial and helped prioritize functionality such as this for future release.
+
+<Image
+	margin="2rem"
+	src="/images/articles/modernizing-enterprise-web-design/icon-options.png"
+	caption="Document selector icon &amp; html embedded svg icon"
+    size="medium"
+/>
+
+## Biggest success
+The initial feedback from across the regions after rollout was overwhelmingly positive. From the perspective one user,
+
+> I had never created LP [a landing page] before (not even in Hubspot) and it was really easy to use it. The drag-and-drop mechanic and the different layouts were the best features.
+
+The most significant impact the tool has made is in __eliminating involvement from developers to build pages.__ Recently, we built a page for a [new offering](https://www.liferay.com/developer-services) our Global Services team is launching. A non-technical user built the page from scratch in under 30 minutes without any help from a developer. 
+
+<div style="width: 140%; max-width: calc(100vw - 2rem); height: 0px; padding-bottom: 87.5%; position:relative; left: 50%; transform: translateX(-50%);"><iframe style="position: absolute;" width="100%" height="100%" src="https://drive.google.com/file/d/1jbf96_pP2tL_ErwmYxluGk28hY7Hl3mz/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<figcaption style="color: rgb(107, 108, 126); font-style: italic; text-align: center; margin-bottom: 2rem;">Building <a href="https://www.liferay.com/developer-services">liferay.com/developer-services</a> using modern site building</figcaption>
+
+After building the first draft, the Marketing stakeholder was able to quickly make adjustments as the offering details were finalized, and publish to liferay.com without using a single story point. 
+
+## Next steps
+We successfully launched the landing page builder tool and have put it to use on our site but we are looking forward to what comes next. 
+Over the next year, we will continue to: 
+
+1. gather feedback from the users
+2. analyze use cases
+3. make more templates/fragments available
+4. increase functionality and usability as the core product evolves
+
+Our current focus is to build out additional fragments that will enable us to create any page needed on liferay.com. This is crucial for __quickly making changes across the website as we shift to solution-focused messaging.__
