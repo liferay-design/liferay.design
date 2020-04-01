@@ -10,7 +10,7 @@ Nate was the first designer and the early Design advocate at Liferay.
 
 He always pursued the idea that Design should be meaningful.
 
-He wasn’t only a good designer; he was a great UI Developer.
+He wasn’t only a great designer; he was a great UI Developer.
 
 He was the founder of our Team.
 
