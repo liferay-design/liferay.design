@@ -108,6 +108,12 @@
   icon: fa_check_double
   startDate: 2017-04-18
   office: Diamond Bar
+- id: Nate Cavanaugh
+  title: Always one of us
+  active: true
+  icon: fa_heart
+  startDate: 2006-11-27
+  office: Diamond Bar
 - id: Patrick Pentz
   title: Product Designer
   active: true
