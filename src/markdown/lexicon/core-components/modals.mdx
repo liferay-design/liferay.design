@@ -9,19 +9,18 @@ draft: false
 
 import { Grid } from 'reakit'
 
-![modal window over a dark transparent background](/images/lexicon/Modal.jpg)
+![modal window](/images/lexicon/Modal.png)
 
 ### Usage
+Modals display a temporal task initiated by users in a secondary window and request information that users need to complete 
+or read in order to continue with the task. Use modals to display short or unusual tasks. There can be different uses of modals 
+to confirm messages, to show additional information, to request users to add information, etc.
 
--   Modals can be built with different sizes and configurations to best fit the amount of content you have.
--   We recommend that you do not use the full-width size, as it appears as though it's a completely new page. If you require this size, we recommend that you consider creating a new page instead of a modal.
--   Modals belong to a screen, therefore a modal should not be triggered from another modal window (see the Modal over modal section below).
--	When a modal has footer, the actions are placed inside and aligned to the right. There is an order of importance and the sequence is:    
-	1. Button link
-    2. Secondary button
-    3. Primary button (only one)    <br/>
-    <br />
-
+Use modals sparingly, keeping primary interactions in the primary window. Modals should not be confused with alerts.  Modals block users' workflow for a limited period of time, while alerts don’t 
+interrupt the workflow and coexist with the main page. In other words, alerts are a way to capture user attention in an obtrusive 
+way as users are not required to perform any action.
+<br/>
+<br/>
 <Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
 	<Grid.Item>
 		<p class="do-table">Do</p>
@@ -29,7 +28,9 @@ import { Grid } from 'reakit'
 			<li>
 				Use it to draw the user's attention to something that is more important.
 			</li>
-			<li>Use it for simple content cases.</li>
+			<li>
+				Use it for simple content cases.
+			</li>
 			<li>
 				Use it if you need to interrupt the user flow to display concrete
 				information or capture data from the user.
@@ -48,96 +49,265 @@ import { Grid } from 'reakit'
 				Try not to trigger a modal window from another modal window. Modal windows
 				are subordinate to pages.
 			</li>
-			<li>Never completely cover the page's information with the modal window.</li>
+			<li>
+				Never completely cover the page's information with the modal window.
+			</li>
 		</ul>
 	</Grid.Item>
 </Grid>
 
-#### Multiple selection inside a modal
 
-Selecting multiple items in a modal must be done by selecting each desired element through the checkbox. The selection will be finished by clicking in Done button at the modal footer.
+### Description
 
-![multiple selection from a table inside a modal is done by selecting elements and clicking in Done button to complete the selection](/images/lexicon/Modal-selection-multiple.jpg)
+#### Parts
 
-#### Single selection inside a modal
+A modal consists of four main parts: header, body, footer and overlay.
 
-Single selection must be done by clicking directly on the desired element. In this case, the element must not have a Choose or Select button. The modal doesn't have footer as there is no need.
+![modal window parts](/images/lexicon/ModalParts.png)
 
-![single selection from a table inside a modal is done by selecting the element directly](/images/lexicon/Modal-selection-single.jpg)
+1. **Header** (optional): The header contains a title and a close button. Titles in a modal should be clear and concise to help readers understand the purpose of the modal.
+    1. Title
 
-#### Modal over modal
+    2. Close button
 
-Modal over modal is a not desired situation. Please, try to solve this situation in another way, like using a full page or driving the process to the correct place. In case this happens, make sure to provide a good experience preventing first modal closing by accidental interaction (as an example).
+2. **Body**: The body displays the information necessary to help users complete their tasks. This content can be text, a form, an image, etc.
+
+3. **Footer** (optional): The footer contains the actions that can be taken.
+
+4. **Overlay** (optional): The overlay draws attention to the modal and lets users know that they cannot interact with the main page.
+
+### Configuration
+
+Lexicon allows your modal window to have different configurations according to your needs. These needs vary from case to case and 
+that is why not every modal in the system needs to be equal but needs to follow certain rules.
+
+#### Header,body and footer
+
+This is the classic composition of a modal window with its three main parts: header, body and footer.
+
+When a modal has a footer, [buttons](https://liferay.design/lexicon/core-components/buttons/) are normally 
+aligned to the right. There is an order of importance and the sequence is (from left to right): borderless 
+button, secondary button and primary button. However, there can be other cases where the footer may need 
+special configuration and host buttons in the right side. In this case, these actions can be represented 
+by a secondary button, a borderless button, or a button link.
+
+The main footer actions as Save, Cancel must be always placed on the right side.
+<br/>
+
+![modal window over a dark transparent background](/images/lexicon/ModalwithThreeActionsFooter.png)
+
+#### Header and body
+
+This option is used when there is no need to place action buttons in the modal. When using this configuration, we must ensure that the 
+modal provides a cancel button so that users can dismiss the modal.
+
+![modal window over a dark transparent background only header and body](/images/lexicon/ModalFooterless.jpg)
+
+#### Body and Footer
+
+Use this option when you just need to show text and buttons to agree or cancel.
+
+![modal window over a dark transparent background only body and footer](/images/lexicon/ModalBodyFooter.jpg)
+
+### Content
+
+Modals need to be helpful, polite and need to exhibit a strong visual hierarchy to help users understand and scan the message.
+
+#### Title
+
+The title in a modal should be concise and clearly display the main purpose. If users need to complete a task, we recommend using 
+the main action as a verb in the title. On the other hand, if the modal is used as a descriptive modal to show properties such as 
+a configuration panel, our recommendation is to use the object’s name or short description.
+
+#### Description
+
+Modals should speak the user language avoiding computer terms. Explain the goal of the modal using clear questions and descriptions. 
+When describing the modal, provide relevant information that might be useful for the user, such as the name of the item that is going to be deleted.
+
+#### Actions
+
+Avoid giving unclear options. Users must be able to understand the choices reading the title and the options.
+
+<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/ModalsDoAction.png"
+				alt="Using main action as a verb in a modal button"
+			/>
+		</div>
+		<p class="do">Do</p>
+	</Grid.Item>
+	<Grid.Item>
+		<div class="image-container">
+			<img
+				src="/images/lexicon/ModalsDontAction.png"
+				alt="Don't use unclear actions in a modal button"
+			/>
+		</div>
+		<p class="dont">Don't</p>
+	</Grid.Item>
+</Grid>
 
 ### Size
 
-Modals are always displayed at the center of the screen and can be configured with the sizes shown in the table below:
+Modals can be built with different sizes to best fit the amount of content you have. Modals can be configured with the sizes shown in the table below:
 
 | Size       | Description                                                                                                    |
 | ---------- | -------------------------------------------------------------------------------------------------------------- |
 | Small      | 320px                                                                                                          |
 | Default    | 600px                                                                                                          |
 | Large      | 896px wide modal on screen sizes greater than 992px. 600px wide modal on screen sizes between 768px and 992px. |
-| Full width | A modal that stretches to fit the browser window, with 45px padding on every side.                             |
+| Full Screen| A modal that stretches to fit the browser window, with 45px padding on every side. We recommend not using the full-screen size, as it looks like a completely new page. If you require this size, we recommend that you consider creating a new page instead of a modal.|
 
-![modal sizes](/images/lexicon/ModalSize.jpg)
+![modal sizes](/images/lexicon/ModalSize.png)
 
-### Attributes
+#### Responsive behaviour
 
-![modal window parts](/images/lexicon/ModalParts.jpg)
+All size modals adapt its width from its initial width to lower values. Once the viewport gets to a mobile size, all modal windows can be adapted into a 
+small modal or  to a unique full-screen modal window design stretching the modal to fit the browser window.
 
-1. Modal header
-    1. Title
-    2. Close button
-2. Body
-    1. Content: form, text, image...
-3. Footer
-    1. Modal buttons
+Regarding the full-screen size, it will adapt to this design at screen widths 767px and below.
 
-![modal window metrics](/images/lexicon/ModalMetrics.jpg)
+### Alingment
 
-### Configurations
+Modals should be able to be positioned as desired in the screen. However, if a modal grows and adapts as the same time users input some content, we recommend 
+aligning the modal vertically to the top of the screen.
 
-Lexicon allows your modal window to have different configurations related to your needs. These needs vary from case to case and that is why not every modal in the system needs to be equal, but needs to follow certain rules.
+If the modal is fixed and doesn’t grow while it is being used, we recommend placing the modal vertically and horizontally centered to call users attention. 
+This placement of the modal feels more intuitive and lets users know that they must complete an action before continuing with the task.
 
-#### Header, body and footer
+### Scroll
 
-This is the classic composition of a modal window with its three main parts: header, body, and footer.
+When the content in the body of a modal goes over the limit of the screen, a scrollbar is used in the body to make the overflowed content visible to the user. 
+Actions in a modal with a footer must be always visible within the viewport area.
+
+#### Dynamic size modals
+
+The modal height must be adapted dynamically to the content height. If the content is bigger than the available space on the screen, a scroll bar must appear 
+in the modal body to scroll the content.
+
+<br/>
+
+![Dynamic size modal with footer](/images/lexicon/DynamicSizeModal.png)
+
+<br/>
+
+However, a dynamic size modal without footer can grow below the fold indicating there is more content to see. In this case, the content will be revealed as we 
+scroll the main page instead of the body and the background page will remain static.
+
+<br/>
+
+![Dynamic size modal without footer](/images/lexicon/DynamicSizeModalNoFooter.png)
+
+#### Fixed-size modals
+
+A specific height can be passed through a parameter to make the height of a modal to a determined size. In case the content is bigger than that parameter, the modal 
+won’t grow in height but will allow scrolling the content in the body.
+
+<br/>
+
+![Fixed-size modal](/images/lexicon/FixedSizeModal.png)
+
+### Types
+
+There are 5 different types of modals: default, information, success, warning and error. These last 4 types are called modals for status messages.
+
+#### Default Modals
+
+The default modal is a classic composition of a modal window with a header, a body, and a footer or a combination of two parts.
+
+<br/>
 
 ![modal window over a dark transparent background](/images/lexicon/Modal.jpg)
 
-#### Header and body
+#### Modals for status Messages
 
-This configuration is used when you don't need a footer bar to place your icons.
+Modal headers can be configured to use modals as status messages. This solution is proposed to give more emphasis on blocking actions that the user must read 
+and pay careful attention.
 
-![modal window over a dark transparent background only header and body](/images/lexicon/ModalFooterless.jpg)
+Never remove the icon in the title, as it provides the modal with a better user experience for accessibility and always uses direct and concrete titles.
 
-#### Body and Footer
+<br/>
 
-Use this configuration when you just need to show text and buttons to agree or cancel.
+![info, success, warning, error modal configurations in headers](/images/lexicon/ModalStatus.png)
 
-![modal window over a dark transparent background only body and footer](/images/lexicon/ModalBodyFooter.jpg)
 
-#### iframe in the body
+### Use cases
 
-You can of course add an iframe to a modal body at any time. See the iframe modal body [Clay](https://clayui.com/docs/components/modals.html) section for more information.
+#### Status Messages
 
-#### Modal overlay color
+In a status message modal, [action-based color buttons](https://liferay.design/lexicon/core-components/buttons/action-buttons/) can be used to draw attention and 
+emphasize the meaning of a message.
 
-The modal overlay color is a main lighten 8% color with an alpha value of 0.8.
+![Modal for Status Messages](/images/lexicon/ModalsforStatusMessages.png)
 
-#### Modals for status messages
+However, if a modal is used as a [confirmation message](https://liferay.design/lexicon/core-components/confirm-message/) to prevent the user from a critical situation that can’t be easily undone such as deleting a site, 
+Lexicon does not style them, as confirmation messages are browser native.
 
-Modal headers can be configured to use modals as status messages. This solution is proposed to give more emphasis on blocking actions that the use must read and pay careful attention.
+#### Single selection modal
 
-Never remove the icon in the title, as it provides the modal with a better user experience for accessibility.
+A single selection must be done by clicking directly on the desired element. In this case, the element must not have a Choose or Select button. The modal doesn't have 
+a footer as there is no need.
 
-Always use direct and concrete titles.
+![single selection from a table inside a modal is done by selecting the element directly](/images/lexicon/Modal-selection-single.jpg)
 
-![info, success, warning, error modal configurations in headers](/images/lexicon/ModalStatus.jpg)
+#### Multiple selection inside a modal
 
-### Mobile
+Selecting multiple items in a modal must be done by selecting each desired element through a checkbox. The selection will be finished by clicking in the Done button 
+at the modal footer.
 
-When a modal is viewed on a mobile device, its look and feel transforms to the one shown below to provide a mobile friendly user experience. The modal occupies the whole screen, drawing the user's attention.
+![multiple selection from a table inside a modal is done by selecting elements and clicking in Done button to complete the selection](/images/lexicon/Modal-selection-multiple.jpg)
 
-![modal window mobile version always full screen](/images/lexicon/ModalMobile.jpg)
+#### Iframe in the body
+
+You can add an iframe to a modal body. See the iframe modal body in [Clay](https://clayui.com/docs/components/modal.html) for more information. As default, Iframe 
+modals are full-screen. A loading indicator inside the body of the modal will be provided to load the content.
+
+<br/>
+
+![iFrame in a modal](/images/lexicon/ModaliFrame.png)
+
+#### Loading content
+
+Modals could need time to load the content in the body. This situation is solved by placing the loading indicator (medium size) to the middle of the body both 
+horizontally and vertically.
+
+As the modal background is white, the loading indicator used is the one with different shades of gray.
+
+![Modal loading content](/images/lexicon/ModalLoading.png)
+
+
+#### Modal over modal
+
+Modal over modal is a not desired situation. Please, try to solve this situation in another way, like using a full page or driving the process to the correct place. 
+In case this happens, make sure to provide a good experience preventing first modal closing by accidental interaction (as an example).
+
+
+### Interaction
+
+#### Mouse
+
+- Clicking an element on the page will trigger the modal window.
+
+- We must ensure that the modal provides a cancel button or a close button so that users can dismiss the modal.
+
+- Users could also close a modal by clicking the overlay area. Avoid this behavior in those modals that require users to take a deliberate action or to complete 
+some information.
+
+#### Keyboard
+
+- It must be possible to trigger the modal window using the keyboard.
+
+- Once the modal is on screen, the focus should be captured within the modal until it is closed.
+
+- It must be possible to close the modal by using the **ESC** key in the keyboard, by clicking outside the modal in the shaded area or by easily accessing the close button.
+
+- The focus must be restored to the page into the item that triggered the modal when the modal window gets closed.
+
+- **TAB** key at the bottom of a modal cycle the focus back to the first focusable element at the top of the modal.
+
+- **Shift** + **TAB** moves the focus back to the previous focusable component. If the focus is at the top of a modal,  it moves the focus back to the last focusable element 
+at the bottom.
+
+- **ENTER** key submits the modal, if applicable.
