@@ -26,21 +26,21 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 	<ColorSwatch
 		hex="272833"
 		rgb="39, 40, 51"
-		hsl="65, 13%, 18%"
+		hsl="235°, 13%, 18%"
 		name="main"
 		title="Dark"
 	/>
 	<ColorSwatch
 		hex="0B5FFF"
 		rgb="11, 95, 255"
-		hsl="61, 100%, 52%"
+		hsl="219°, 100%, 52%"
 		name="primary"
 		title="Primary"
 	/>
 	<ColorSwatch
 		hex="FFFFFF"
 		rgb="255, 255, 255"
-		hsl="0, 0%, 100%"
+		hsl="0°, 0%, 100%"
 		name="white"
 		title="White"
 	/>
@@ -56,7 +56,7 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 | Primary | #0B5FFF | Main actions like primary buttons, links, hover, and active          |
 | White   | #FFFFFF | Cards background, toolbar background, modals, forms, and texts/icons |
 
-#### Main color variations
+#### Dark color variations
 
 <br />
 <br />
@@ -68,53 +68,39 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 	gap="3.3rem 3rem"
 >
 	<ColorSwatch
+		hex="111116"
+		rgb="17, 17, 22"
+		hsl="240°, 13%, 8%"
+		name="maind2"
+		title="Dark D2"
+	/>
+	<ColorSwatch
+		hex="1C1C24"
+		rgb="28, 28, 36"
+		hsl="240°, 13%, 13%"
+		name="maind1"
+		title="Dark D1"
+	/>
+	<ColorSwatch
 		hex="272833"
 		rgb="39, 40, 51"
-		hsl="65, 13%, 18%"
+		hsl="235°, 13%, 18%"
 		name="main"
 		title="Dark"
 	/>
 	<ColorSwatch
 		hex="30313F"
 		rgb="48, 49, 63"
-		hsl="66, 14%, 22%"
+		hsl="236°, 14%, 22%"
 		name="mainl1"
 		title="Dark L1"
 	/>
 	<ColorSwatch
 		hex="393A4A"
 		rgb="57, 58, 74"
-		hsl="66, 13%, 26%"
+		hsl="236°, 13%, 26%"
 		name="mainl2"
 		title="Dark L2"
-	/>
-	<ColorSwatch
-		hex="6B6C7E"
-		rgb="107, 108, 126"
-		hsl="66, 8%, 46%"
-		name="mainl3"
-		title="Secondary"
-	/>
-	<ColorSwatch
-		hex="A7A9BC"
-		rgb="167, 169, 188"
-		hsl="65, 14%, 70%"
-		name="mainl4"
-		title="Secondary L1"
-	/>
-	<ColorSwatch
-		hex="CDCED9"
-		rgb="205, 206, 217"
-		hsl="65, 14%, 83%"
-		name="mainl5"
-		title="Secondary L2"
-	/>
-	<ColorSwatch
-		hex="E7E7ED"
-		rgb="231, 231, 237"
-		hsl="67, 14%, 92%"
-		name="mainl6"
-		title="Secondary L3"
 	/>
 </Grid>
 
@@ -124,68 +110,11 @@ Primary colors define part of Lexicon's visual identity. These colors have been 
 
 | Color        | Light         | Code    | Usage                                                            |
 | ------------ | ------------- | ------- | ---------------------------------------------------------------- |
+| Dark D2      | +10%          | #111116 |                                                                  |
+| Dark D1      | +5%           | #1C1C24 |                                                                  |
 | Dark Default | 0             | #272833 | First level navigation background and primary texts              |
 | Dark L1      | -4%           | #30313F | Second level navigation background                               |
 | Dark L2      | -8%           | #393A4A | Third level navigation background and active state on navigation |
-| Secondary    | -28% desat 5% | #6B6C7E | Secondary texts                                                  |
-| Secondary L1 | -52%          | #A7A9BC | Disabled texts                                                   |
-| Secondary L2 | -65%          | #CDCED9 | Border for clickable elements like buttons                       |
-| Secondary L3 | -74%          | #E7E7ED | Disabled Background and Border for dividers                      |
-
-#### Light variations
-
-Color does have meaning in certain contexts &mdash; in very specific use-cases, we employ color as one factor in imparting meaning. Note that we do not use color alone, it is an enhancement. For more on this, please see Lexicon's guides on [using color in a functional way](https://lexicondesign.io/core-components/alerts.html).
-
-<br />
-<br />
-<br />
-
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
-	<ColorSwatch
-		hex="D3D6E0"
-		rgb="211, 214, 224"
-		hsl="226, 17%, 85%"
-		name="lightd2"
-		title="Light D2"
-	/>
-	<ColorSwatch
-		hex="E2E4EA"
-		rgb="226, 228, 234"
-		hsl="225, 16%, 90%"
-		name="lightd1"
-		title="Light D1"
-	/>
-	<ColorSwatch
-		hex="F1F2F5"
-		rgb="241, 242, 245"
-		hsl="63, 17%, 95%"
-		name="light"
-		title="Light"
-	/>
-	<ColorSwatch
-		hex="F7F8F9"
-		rgb="247, 248, 249"
-		hsl="58, 14%, 97%"
-		name="lightl1"
-		title="Light L1"
-	/>
-</Grid>
-
-<br />
-<br />
-<br />
-
-| Color                   | Light | Code    | Usage                                                                                           |
-| ----------------------- | ----- | ------- | ----------------------------------------------------------------------------------------------- |
-| Light D2                | 10%   | #D3D6E0 |                                                                                                 |
-| Light D1                | 5%    | #E2E4EA |                                                                                                 |
-| Light Default           | 0     | #F1F2F5 | Main background of the application, input backgrounds, and active state in the secondary button |
-| Light L1                | -2%   | #F7F8F9 | Hover State for the Secondary button                                                            |
-
 
 #### Primary blue color variations
 
@@ -201,42 +130,42 @@ Color does have meaning in certain contexts &mdash; in very specific use-cases, 
 	<ColorSwatch
 		hex="004AD7"
 		rgb="0, 74, 215"
-		hsl="61, 100%, 42%"
+		hsl="219°, 100%, 42%"
 		name="primaryd2"
 		title="Primary D2"
 	/>
 	<ColorSwatch
 		hex="0053f0"
 		rgb="0, 83, 240"
-		hsl="61, 100%, 47%"
+		hsl="219°, 100%, 47%"
 		name="primaryd1"
 		title="Primary D1"
 	/>
 	<ColorSwatch
 		hex="0B5FFF"
 		rgb="11, 95, 255"
-		hsl="61, 100%, 52%"
+		hsl="219°, 100%, 52%"
 		name="primary"
 		title="Primary"
 	/>
 	<ColorSwatch
 		hex="80ACFF"
 		rgb="128, 172, 255"
-		hsl="61, 100%, 75%"
+		hsl="219°, 100%, 75%"
 		name="primaryl1"
 		title="Primary L1"
 	/>
 	<ColorSwatch
 		hex="B3CDFF"
 		rgb="179, 205, 255"
-		hsl="61,100%,85%"
+		hsl="219°,100%,85%"
 		name="primaryl2"
 		title="Primary L2"
 	/>
 	<ColorSwatch
 		hex="F0F5FF"
 		rgb="240, 245, 255"
-		hsl="61, 100%, 97%"
+		hsl="220°, 100%, 97%"
 		name="primaryl3"
 		title="Primary L3"
 	/>
@@ -255,6 +184,123 @@ Color does have meaning in certain contexts &mdash; in very specific use-cases, 
 | Primary L2      | -34%  | #B3CDFF | Disabled background                             |
 | Primary L3      | -45%  | #F0F5FF | Hover and active background in tables and lists |
 
+
+#### Light variations
+
+Color does have meaning in certain contexts &mdash; in very specific use-cases, we employ color as one factor in imparting meaning. Note that we do not use color alone, it is an enhancement. For more on this, please see Lexicon's guides on [using color in a functional way](https://lexicondesign.io/core-components/alerts.html).
+
+<br />
+<br />
+<br />
+
+<Grid
+	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
+	autoRows="auto"
+	gap="3.3rem 3rem"
+>
+	<ColorSwatch
+		hex="D3D6E0"
+		rgb="211, 214, 224"
+		hsl="226°, 17%, 85%"
+		name="lightd2"
+		title="Light D2"
+	/>
+	<ColorSwatch
+		hex="E2E4EA"
+		rgb="226, 228, 234"
+		hsl="225°, 16%, 90%"
+		name="lightd1"
+		title="Light D1"
+	/>
+	<ColorSwatch
+		hex="F1F2F5"
+		rgb="241, 242, 245"
+		hsl="225°, 17%, 95%"
+		name="light"
+		title="Light"
+	/>
+	<ColorSwatch
+		hex="F7F8F9"
+		rgb="247, 248, 249"
+		hsl="210°, 14%, 97%"
+		name="lightl1"
+		title="Light L1"
+	/>
+	<ColorSwatch
+		hex="FFFFFF"
+		rgb="255, 255, 255"
+		hsl="0°, 0%, 100%"
+		name="white"
+		title="White"
+	/>
+</Grid>
+
+<br />
+<br />
+<br />
+
+| Color                   | Light | Code    | Usage                                                                                           |
+| ----------------------- | ----- | ------- | ----------------------------------------------------------------------------------------------- |
+| Light D2                | +10%  | #D3D6E0 |                                                                                                 |
+| Light D1                | +5%   | #E2E4EA |                                                                                                 |
+| Light Default           | 0     | #F1F2F5 | Main background of the application, input backgrounds, and active state in the secondary button |
+| Light L1                | -2%   | #F7F8F9 | Hover State for the Secondary button                                                            |
+| White                   | -100% | #FFFFFF |                                                                                                 |
+
+
+#### Secondary color variations
+
+<br />
+<br />
+<br />
+
+<Grid
+	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
+	autoRows="auto"
+	gap="3.3rem 3rem"
+>
+	<ColorSwatch
+		hex="6B6C7E"
+		rgb="107, 108, 126"
+		hsl="237°, 8%, 46%"
+		name="mainl3"
+		title="Secondary"
+	/>
+	<ColorSwatch
+		hex="A7A9BC"
+		rgb="167, 169, 188"
+		hsl="234°, 14%, 70%"
+		name="mainl4"
+		title="Secondary L1"
+	/>
+	<ColorSwatch
+		hex="CDCED9"
+		rgb="205, 206, 217"
+		hsl="235°, 14%, 83%"
+		name="mainl5"
+		title="Secondary L2"
+	/>
+	<ColorSwatch
+		hex="E7E7ED"
+		rgb="231, 231, 237"
+		hsl="240°, 14%, 92%"
+		name="mainl6"
+		title="Secondary L3"
+	/>
+</Grid>
+
+<br />
+<br />
+<br />
+
+| Color        | Light         | Code    | Usage                                                            |
+| ------------ | ------------- | ------- | ---------------------------------------------------------------- |
+| Secondary    | -28% desat 5% | #6B6C7E | Secondary texts                                                  |
+| Secondary L1 | -52%          | #A7A9BC | Disabled texts                                                   |
+| Secondary L2 | -65%          | #CDCED9 | Border for clickable elements like buttons                       |
+| Secondary L3 | -74%          | #E7E7ED | Disabled Background and Border for dividers                      |
+
+
 ### Secondary colors
 
 Secondary colors are frequently used and still important, but they do not define the visual identity as much as Primary colors.
@@ -271,28 +317,28 @@ Secondary colors are frequently used and still important, but they do not define
 	<ColorSwatch
 		hex="DA1414"
 		rgb="218, 20, 20"
-		hsl="0, 83%, 47%"
+		hsl="0°, 83%, 47%"
 		name="error"
 		title="Error"
 	/>
 	<ColorSwatch
 		hex="287D3C"
 		rgb="40, 125, 60"
-		hsl="37, 52%, 32%"
+		hsl="134°, 52%, 32%"
 		name="success"
 		title="Success"
 	/>
 	<ColorSwatch
 		hex="B95000"
 		rgb="185, 80, 0"
-		hsl="7, 100%, 36%"
+		hsl="26°, 100%, 36%"
 		name="warning"
 		title="Warning"
 	/>
 	<ColorSwatch
 		hex="2E5AAC"
 		rgb="46, 90, 172"
-		hsl="61, 58%, 43%"
+		hsl="219°, 58%, 43%"
 		name="info"
 		title="Info"
 	/>
@@ -316,35 +362,35 @@ Each color is defined below, along with its variations and usage:
 	<ColorSwatch
 		hex="AB1010"
 		rgb="171, 16, 16"
-		hsl="0, 83%, 37%"
+		hsl="0°, 83%, 37%"
 		name="errord2"
 		title="Error D2"
 	/>
 	<ColorSwatch
 		hex="C31212"
 		rgb="195, 18, 18)"
-		hsl="0, 83%, 42%"
+		hsl="0°, 83%, 42%"
 		name="errord1"
 		title="Error D1"
 	/>
 	<ColorSwatch
 		hex="DA1414"
 		rgb="218, 20, 20"
-		hsl="0, 83%, 47%"
+		hsl="0°, 83%, 47%"
 		name="error"
 		title="Error"
 	/>
 	<ColorSwatch
 		hex="F48989"
 		rgb="244, 137, 137)"
-		hsl="0, 83%, 75%"
+		hsl="0°, 83%, 75%"
 		name="errorl1"
 		title="Error L1"
 	/>
 	<ColorSwatch
 		hex="FEEFEF"
 		rgb="254, 239, 239"
-		hsl="0, 88%, 97%"
+		hsl="0°, 88%, 97%"
 		name="errorl2"
 		title="Error L2"
 	/>
@@ -374,35 +420,35 @@ Each color is defined below, along with its variations and usage:
 	<ColorSwatch
 		hex="1C5629"
 		rgb="28, 86, 41"
-		hsl="133, 51%, 22%"
+		hsl="133°, 51%, 22%"
 		name="successd2"
 		title="Success D2"
 	/>{' '}
 	<ColorSwatch
 		hex="226A33"
 		rgb="34, 106, 51"
-		hsl="134, 51%, 27%"
+		hsl="134°, 51%, 27%"
 		name="successd1"
 		title="Success D1"
 	/>{' '}
 	<ColorSwatch
 		hex="287D3C"
 		rgb="40, 125, 60"
-		hsl="37, 52%, 32%"
+		hsl="134°, 52%, 32%"
 		name="success"
 		title="Success"
 	/>
 	<ColorSwatch
 		hex="5ACA75"
 		rgb="90, 202, 117"
-		hsl="37, 51%, 57%"
+		hsl="134°, 51%, 57%"
 		name="successl1"
 		title="Success L1"
 	/>
 	<ColorSwatch
 		hex="EDF9F0"
 		rgb="237, 249, 240"
-		hsl="37, 50%, 95%"
+		hsl="135°, 50%, 95%"
 		name="successl2"
 		title="Success L2"
 	/>
@@ -432,35 +478,35 @@ Each color is defined below, along with its variations and usage:
 	<ColorSwatch
 		hex="863A00"
 		rgb="134, 58, 0"
-		hsl="26, 100%, 26%"
+		hsl="26°, 100%, 26%"
 		name="warningd2"
 		title="Warning D2"
 	/>
 	<ColorSwatch
 		hex="9F4500"
 		rgb="149, 69, 0"
-		hsl="26, 100%, 31%"
+		hsl="26°, 100%, 31%"
 		name="warningd1"
 		title="Warning D1"
 	/>
 	<ColorSwatch
 		hex="B95000"
 		rgb="185, 80, 0"
-		hsl="7, 100%, 36%"
+		hsl="26°, 100%, 36%"
 		name="warning"
 		title="Warning"
 	/>
 	<ColorSwatch
 		hex="FF8F39"
 		rgb="255, 143, 57"
-		hsl="7, 100%, 61%"
+		hsl="26°, 100%, 61%"
 		name="warningl1"
 		title="Warning L1"
 	/>
 	<ColorSwatch
 		hex="FFF4EC"
 		rgb="255, 244, 236"
-		hsl="7, 100%, 96%"
+		hsl="25°, 100%, 96%"
 		name="warningl2"
 		title="Warning L2"
 	/>
@@ -490,35 +536,35 @@ Each color is defined below, along with its variations and usage:
 	<ColorSwatch
 		hex="234584"
 		rgb="35, 69, 132"
-		hsl="219, 58%, 33%"
+		hsl="219°, 58%, 33%"
 		name="infod2"
 		title="Info D2"
 	/>{' '}
 	<ColorSwatch
 		hex="294F98"
 		rgb="41, 79, 152"
-		hsl="219, 58%, 38%"
+		hsl="219°, 58%, 38%"
 		name="infod1"
 		title="Info D1"
 	/>{' '}
 	<ColorSwatch
 		hex="2E5AAC"
 		rgb="46, 90, 172"
-		hsl="61, 58%, 43%"
+		hsl="219°, 58%, 43%"
 		name="info"
 		title="Info"
 	/>
 	<ColorSwatch
 		hex="89A7E0"
 		rgb="137, 167, 224"
-		hsl="61, 58%, 71%"
+		hsl="219°, 58%, 71%"
 		name="infol1"
 		title="Info L1"
 	/>
 	<ColorSwatch
 		hex="EEF2FA"
 		rgb="238, 242, 250"
-		hsl="61,55%,96%%"
+		hsl="220°,55%,96%%"
 		name="infol2"
 		title="Info L2"
 	/>
@@ -536,8 +582,6 @@ Each color is defined below, along with its variations and usage:
 | Info L1      | -28%  | #89A7E0 | Border color in info status messages.     |
 | Info L2      | -53%  | #EEF2FA | Background color in info status messages. |
 
-<br />
-<br />
 <br />
 
 The last color definition row is used in input fields to reduce the impact of the color saturation in the borders.
@@ -558,70 +602,70 @@ Lexicon provides a specific color palette for charts. For more information on it
 	<ColorSwatch
 		hex="4b9fff"
 		rgb="75, 159, 255"
-		hsl="59, 100%, 65%"
+		hsl="212°, 100%, 65%"
 		name="blue"
 		title="Blue"
 	/>
 	<ColorSwatch
 		hex="ffb46e"
 		rgb="255, 180, 110"
-		hsl="8, 100%, 72%"
+		hsl="29°, 100%, 72%"
 		name="orange"
 		title="Orange"
 	/>
 	<ColorSwatch
 		hex="ff5f5f"
 		rgb="255, 95, 95"
-		hsl="0, 100%, 69%"
+		hsl="0°, 100%, 69%"
 		name="red"
 		title="Red"
 	/>
 	<ColorSwatch
 		hex="50d2a0"
 		rgb="80, 210, 160"
-		hsl="44, 58%, 57%"
+		hsl="157°, 58%, 57%"
 		name="teal"
 		title="Teal"
 	/>
 	<ColorSwatch
 		hex="ff73c3"
 		rgb="255, 115, 195"
-		hsl="90, 100%, 73%"
+		hsl="326°, 100%, 73%"
 		name="pink"
 		title="Pink"
 	/>
 	<ColorSwatch
 		hex="9ce269"
 		rgb="156, 226, 105"
-		hsl="26, 68%, 65%"
+		hsl="95°, 68%, 65%"
 		name="green"
 		title="Green"
 	/>
 	<ColorSwatch
 		hex="af78ff"
 		rgb="175 ,120, 255"
-		hsl="73, 100%, 74%"
+		hsl="264°, 100%, 74%"
 		name="purple"
 		title="Purple"
 	/>
 	<ColorSwatch
 		hex="ffd76e"
 		rgb="255, 215, 110"
-		hsl="12, 100%, 72%"
+		hsl="43°, 100%, 72%"
 		name="yellow"
 		title="Yellow"
 	/>
 	<ColorSwatch
 		hex="5fc8ff"
 		rgb="95, 200, 255"
-		hsl="56, 100%, 69%"
+		hsl="201°, 100%, 69%"
 		name="cyan"
 		title="Cyan"
 	/>
 	<ColorSwatch
 		hex="7785FF"
 		rgb="119, 133, 255"
-		hsl="234, 100%, 73%"
+		hsl="234°, 100%, 73%"
 		name="indigo"
 		title="Indigo"
 	/>
@@ -633,4 +677,4 @@ Lexicon provides a specific color palette for charts. For more information on it
 
 ### Changing Lexicon color palette
 
-This color palette was chosen with Lexicon's visual identity and brand in mind. You can of course substitute this color palette for colors that reflect your corporate image.
+This color palette was chosen with Lexicon's visual identity and brand in mind. You can of course substitute this color palette for colors that reflect your product or corporate image.
