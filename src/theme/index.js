@@ -16,6 +16,8 @@ const colors = {
 	mainl4: '#a7a9bc',
 	mainl5: '#cdced9',
 	mainl6: '#e7e7ed',
+	maind1: '#1c1c24',
+	maind2: '#111116',
 	primary: '#0B5FFF',
 	primaryd2: '#004ad7',
 	primaryd1: '#0053f0',
