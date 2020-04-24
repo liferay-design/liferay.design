@@ -40,7 +40,7 @@ export const Handbook = () => {
 							preTitle="Get Things Done"
 							title="Work"
 							text="Policies, guidelines, and best-practices for creating value in Liferay’s Design Department."
-							to="/handbook/work/introduction"
+							to="/handbook/work"
 						/>
 						<CardLexicon
 							delay="0.2s"
@@ -48,7 +48,7 @@ export const Handbook = () => {
 							preTitle="Better Every Day"
 							title="Grow"
 							text="A core trait of a Liferay Designer is a desire for growth — see what that looks like and how we do it."
-							to="/handbook/grow/introduction"
+							to="/handbook/grow"
 						/>
 					</CardGrid>
 				</Container>
