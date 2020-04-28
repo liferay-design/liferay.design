@@ -36,7 +36,7 @@ body {
 	font-size: 16px;
 	font-family: $fontFamilyPrimary;
 	margin: 0;
-	overflow-x: hidden;
+	// overflow-x: hidden; // fixing #660
 	::selection {
 		background: #05f;
 		color: #fff;
@@ -57,7 +57,7 @@ p {
 	margin-bottom: 1em;
 	&:hover .nice-anchor {
 		opacity: 1;
-		transition: opacity .2s ease-in-out;
+		transition: opacity 0.2s ease-in-out;
 	}
 }
 
@@ -97,5 +97,5 @@ img {
 	margin-left: -$spacingBase;
 	padding-right: $spacingSmall;
 	opacity: 0;
-	transition: opacity .2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
 }
