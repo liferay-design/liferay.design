@@ -2,9 +2,9 @@
 @import 'theme/longform.scss';
 
 .theme {
-	height: 100vh;
-	overflow-y: auto;
-	overflow-x: hidden;
+	// height: 100vh;		This breaks browser scroll
+	// overflow-y: auto;	commenting for now to troubleshoot.
+	// overflow-x: hidden;	Fix in #660
 	// homepages
 	.background {
 		background: $white;
