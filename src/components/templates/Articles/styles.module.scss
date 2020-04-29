@@ -2,6 +2,7 @@
 @import 'theme/longform.scss';
 
 .banner {
+	margin-bottom: -$spacingMedium * 4;
 	h1 {
 		width: 100%;
 		font-size: $fontSizeDisplay;
@@ -35,13 +36,12 @@
 	}
 }
 .featuredImage {
-	margin-bottom: -$spacingMedium * 4;
 	position: relative;
 	img {
 		box-shadow: $elevation2;
 		width: $screenMedium;
 		object-fit: cover;
-		height: 100%;
+		height: 40vh;
 		max-height: 468px;
 		position: relative;
 		z-index: 10;
@@ -51,7 +51,7 @@
 		position: absolute;
 		background: $white;
 		display: block;
-		height: 68%;
+		height: 80%;
 		top: 32%;
 		width: 110vw;
 		left: 50%;
@@ -130,6 +130,7 @@
 
 @media screen and (max-width: $screenMedium) {
 	.banner {
+		margin-bottom: 0;
 		h1 {
 			order: 0;
 			font-size: $fontSizeLarge;
@@ -144,7 +145,6 @@
 		margin-bottom: $spacingBase * -5;
 		img {
 			max-width: 100%;
-			height: 40vh;
 			max-height: $screenSmall;
 			margin: 2rem auto -6rem;
 		}
