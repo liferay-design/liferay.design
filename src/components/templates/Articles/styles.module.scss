@@ -37,7 +37,6 @@
 .featuredImage {
 	margin-bottom: -$spacingMedium * 4;
 	position: relative;
-	overflow: hidden;
 	img {
 		box-shadow: $elevation2;
 		width: $screenMedium;
@@ -139,14 +138,10 @@
 				left: 0.7rem;
 			}
 		}
-		.role {
-			h2 {
-			}
-		}
 	}
 
 	.featuredImage {
-		margin-bottom: $spacingBase * -8;
+		margin-bottom: $spacingBase * -5;
 		img {
 			max-width: 100%;
 			height: 40vh;
