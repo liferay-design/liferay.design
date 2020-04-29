@@ -17,7 +17,7 @@ export default class Articles extends Component {
 		const post = this.props.data.mdx
 
 		return (
-			<div>
+			<div style={{overflowX:'hidden'}}>
 				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
