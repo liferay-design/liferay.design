@@ -27,6 +27,7 @@
 		"gatsby-transformer-yaml": "^2.4.0",
 		"googleapis": "^46.0.0",
 		"lodash": "^4.17.15",
+		"logrocket": "^1.0.7",
 		"react": "^16.13.1",
 		"react-anchor-link-smooth-scroll": "~1.0.12",
 		"react-dom": "^16.13.1",
