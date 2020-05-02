@@ -2,7 +2,7 @@
 @import 'theme/longform.scss';
 
 .banner {
-	margin-bottom: -$spacingMedium * 4;
+	margin-bottom: -$spacingMedium * 4 !important;
 	h1 {
 		width: 100%;
 		font-size: $fontSizeDisplay;
@@ -130,7 +130,7 @@
 
 @media screen and (max-width: $screenMedium) {
 	.banner {
-		margin-bottom: 0;
+		margin-bottom: -$spacingMedium * 2 !important;
 		h1 {
 			order: 0;
 			font-size: $fontSizeLarge;

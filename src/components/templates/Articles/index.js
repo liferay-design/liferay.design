@@ -1,4 +1,4 @@
-import { Container, Flex, Link, Image, ScrollProgress } from 'components/atoms'
+import { Container, Link, Image, ScrollProgress } from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { SEO, Tags, GlobalMdx } from 'components/molecules'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
@@ -10,7 +10,6 @@ import { colors } from 'theme'
 import { makeAuthorSlug } from 'utils'
 import { Grid } from 'reakit'
 import MediaQuery from 'react-responsive'
-import { Media } from 'react-md'
 
 export default class Articles extends Component {
 	render() {
