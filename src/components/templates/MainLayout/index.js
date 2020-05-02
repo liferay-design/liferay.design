@@ -2,9 +2,11 @@ import { Footer, Navbar } from 'components/organisms'
 import { FormNewsletter, FancyFooter } from 'components/molecules'
 import React from 'react'
 import { Link, Container, Heading, Text, Icon } from 'components/atoms'
+import LogRocket from 'utils/logRocket'
 
 export default ({ children, section }) => (
 	<>
+		<LogRocket />
 		<Navbar section={section} />
 
 		{children}
