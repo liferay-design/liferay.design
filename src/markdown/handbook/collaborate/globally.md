@@ -5,9 +5,9 @@ order: 1
 publish: true
 ---
 
-## [#des-feedback](https://liferay.slack.com/messages/CLARSSP9D)
+## Design Feedback
 
-Our primary, global method for getting designer feedback is in the [#des-feedback](https://liferay.slack.com/messages/CLARSSP9D) Slack channel. Share early and often with your teammates across the globe!
+Our primary, global method for getting designer feedback is throught the following Slack channels: [#d-product-design](https://liferay.slack.com/messages/CKETJ1DTR), [#d-comm-design](https://liferay.slack.com/messages/CKETJ1DTR), and [#t-lexicon](https://liferay.slack.com/messages/CKT3L1G58). Share early and often with your teammates across the globe!
 
 Some ground rules:
 
