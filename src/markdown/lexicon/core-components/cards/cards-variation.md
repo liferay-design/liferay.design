@@ -57,6 +57,6 @@ Product cards use a different arrangement of elements, using transparent images 
 
 ![A product card showing a rim](/images/lexicon/CardProduct.png) 
 
-Product cards encourage users to add the item to the shopping cart using a prominent call to action. Users can also compare with other items or add them to a wish list.
+Product cards encourage users to add the item to the shopping cart using a button as a prominent call to action. Users can also compare with other items or add them to a wish list.
 
 ![A product card showing a rim with compare and add to list actions](/images/lexicon/CardProductCompare.png) 
