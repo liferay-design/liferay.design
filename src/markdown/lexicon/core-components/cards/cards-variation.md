@@ -53,7 +53,7 @@ Blog cards uses images keeping the vertical aspect ratio, wrapping all the area,
 
 ## Product card
 
-Product cards uses a totally different arrangement of elements, using transparent images on coloured backgrounds.
+Product cards use a different arrangement of elements, using transparent images on colored backgrounds.
 
 ![A product card showing a rim](/images/lexicon/CardProduct.png) 
 
