@@ -49,4 +49,12 @@ Folder cards display horizontal representations of information. They have the sa
 
 Blog cards uses images keeping the vertical aspect ratio, wrapping all the area, giving a visual clue to identify blog entries.
 
-![Blog cards uses all the space available for the cover image](/images/lexicon/CardBlogs.png)   
+![Blog cards uses all the space available for the cover image](/images/lexicon/CardBlogs.png) 
+
+## Product card
+
+Product cards uses a totally different arrangement of elements, using transparent images on coloured backgrounds.
+
+Product cards encourage users to add the item to the shopping cart using a prominent call to action. They can also compare with other items or to add to a wish list.
+
+ 
