@@ -55,6 +55,8 @@ Blog cards uses images keeping the vertical aspect ratio, wrapping all the area,
 
 Product cards uses a totally different arrangement of elements, using transparent images on coloured backgrounds.
 
-Product cards encourage users to add the item to the shopping cart using a prominent call to action. They can also compare with other items or to add to a wish list.
+![A product card showing a rim](/images/lexicon/CardProduct.png) 
 
- 
+Product cards encourage users to add the item to the shopping cart using a prominent call to action. Users can also compare with other items or add them to a wish list.
+
+![A product card showing a rim with compare and add to list actions](/images/lexicon/CardProductCompare.png) 
