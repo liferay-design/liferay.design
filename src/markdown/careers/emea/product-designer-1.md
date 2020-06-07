@@ -1,10 +1,10 @@
 ---
-jobId: ol5Xafwh
-date: 2019-09-11T07:00:00Z
-title: Junior Product Designer
+jobId: oD1Pcfwp
+date: 2020-06-07T07:00:00Z
+title: Product Designer
 office: Madrid
 featuredImage: '/images/articles/madrid-team-event.jpg'
-published: false
+published: true
 ---
 
 ## Who Designs at Liferay?
@@ -15,24 +15,23 @@ To learn more about who you'd be working with, get acquainted with [the team](/t
 
 ## Who Are We Looking For?
 
-We need designers to add value in a variety of customer projects being built on our core product, Liferay DXP. Recent work has included complex financial products, an intranet for auto manufacturers, and a storefront for a national retailer.
+A product designer to add value to our core product, Liferay DXP. A person that has high visual, interaction and strategy skills to help us accomplish our roadmap. This roadmap drives us to take web experience to a next level where different roles can do more in an easier way, where users can be more autonomous independently of their technical level.
 
-You’ll work independently, guiding stakeholders along the entire design process from research and strategy to implementation, iterating along the way.
+You’ll work in Lexicon, our Design System. You will create components, solutions and take design decisions that are transversal to all our products in Liferay. Besides your team, there are more product teams working in different pieces of a global roadmap. You will have to discuss and align your designs and interactions along with other product designers.
 
 We care deeply about designing great experiences that solve real-world business problems, and we do it without sacrificing our aesthetic standards.
 
-You’ll have plenty of variety, sometimes the projects are flashy and exciting — other times they’re employee intranets. Either way, we promise you won’t get bored as there are a lot of opportunities for you to help us make Liferay a more design-infused company!
-
 ### What will your first year look like?
 
--   You will work in projects driven by a more experienced designer to assit you and help you growing
--   You will contribute robust patterns to our Figma component library
--   You will increase the level of quality that our whole team is able to produce
+- Improved web building experience, with as many high-fidelity projects ready for development
+- Contributed robust patterns to our Figma component library
+- Increased the level of quality that our whole team is able to produce
 
 ### Important bullet points we’re looking for:
 
--   Self-motivated and hungry designer who wants to build awesome products
--   Excited about creating and sharing resources like tools and libraries
+- Strong capability to build smooth experiences from complex requirement scenarios
+- Able to discuss the product strategy with different stakeholders 
+- Excited about creating and sharing resources like tools and libraries
 
 ## Are We A Good Fit?
 
@@ -53,21 +52,12 @@ You’ll have plenty of variety, sometimes the projects are flashy and exciting 
 
 A place to make a lasting impact — we strongly believe in using business as a tool for restoration. Think Patagonia’s commitment to the environment, just extended to the whole world. Some initiatives that we’ve recently worked in are fighting human trafficking, helping foster youth, and serving refugees.
 
--   Salary package commensurate with qualifications and experience
--   500€ and 40 hours per year to volunteer at a nonprofit of your choice
--   23 working days of vacation
--   Macbook for personal and professional use
--   Flexible working hours
--   Possibility to choose between different social benefits
-    -   Health insurance
-    -   Meal vouchers
-    -   Transportation vouchers
-    -   Kindergarden
-    -   Parking
-    -   Gym
--   Annual investment for courses, training, and conferences
--   Be part of a multidisciplinary team
--   Work in a company that has strong executive support for Design
+- Salary package commensurate with qualifications and experience.
+- 40 hours per year to volunteer at a nonprofit of your choice.
+- Room to assume responsibility and grow professionally.
+- Be part of a great team and work with designers around the world.
+- Work in a company that has strong executive support for Design.
+- 2 perks among insurance, gym, meal vouchers, kindergarten or public transport aid.
 
 ## What Do I Need to Apply?
 
