@@ -44,7 +44,7 @@
   office: Recife
 - id: James Lyons
   title: Product Designer
-  active: true
+  active: false
   icon: fa_drum
   startDate: 2018-09-10
   office: Diamond Bar
@@ -80,7 +80,7 @@
   office: Diamond Bar
 - id: Laura García
   title: Associate Product Designer
-  active: true
+  active: false
   icon: fa_spa
   startDate: 2019-10-12T07:00:00Z
   office: Madrid
