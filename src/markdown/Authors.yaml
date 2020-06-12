@@ -156,6 +156,12 @@
   icon: fa_archway
   startDate: 2017-10-18
   office: Madrid
+- id: Victor Santos
+  title: Associate Product Designer
+  active: true
+  icon: fa_gamepad
+  startDate: 2020-05-18
+  office: Recife
 - id: Victor Valle
   title: Manager, Product Design EMEA
   active: true
