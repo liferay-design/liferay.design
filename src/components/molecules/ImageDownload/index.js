@@ -29,18 +29,14 @@ export default function ImageDownload({
 				<Text type="p" color="grey" weight="regular" size="base">
 					{title}
 				</Text>
-				{link && (
-					<Link className={styles.download} href={link} download={downloadName}>
-						<Text weight='heavy'>Download</Text>
-						<Icon name="download" width="16" height="16" />
-					</Link>
-				)}
-				{!link && (
-					<Link className={styles.download} href={source} download={downloadName}>
-						<Text weight='heavy'>Download</Text>
-						<Icon name="download" width="16" height="16" />
-					</Link>
-				)}
+				<Link 
+					className={styles.download}
+					href={link ? link : source}
+					download={downloadName}
+				>
+					<Text weight='heavy'>Download</Text>
+					<Icon name="download" width="16" height="16" />
+				</Link>
 			</div>
 		</Flex>
 	)
