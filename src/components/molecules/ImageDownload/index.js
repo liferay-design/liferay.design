@@ -3,20 +3,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-export default function ImageDownload({
-	source,
-	type,
-	title,
-	width,
-	imageWidth,
-	link,
-}) {
-
+export default function ImageDownload({ source, type, title, width, imageWidth, link }) {
 	const altText = `${title + ' ' + type}`
 	const downloadName = `${title}`
 
 	return (
-
 		<Flex
 			className={styles.container}
 			direction="column"
@@ -29,18 +20,15 @@ export default function ImageDownload({
 				<Text type="p" color="grey" weight="regular" size="base">
 					{title}
 				</Text>
-				{link && (
-					<Link className={styles.download} href={link} download={downloadName}>
-						<Text weight='heavy'>Download</Text>
-						<Icon name="download" width="16" height="16" />
-					</Link>
-				)}
-				{!link && (
-					<Link className={styles.download} href={source} download={downloadName}>
-						<Text weight='heavy'>Download</Text>
-						<Icon name="download" width="16" height="16" />
-					</Link>
-				)}
+
+				<Link
+					className={styles.download}
+					href={link ? link : source}	// fallback to the image file if there's no download link
+					download={downloadName}
+				>
+					<Text weight="heavy">Download</Text>
+					<Icon name="download" width="16" height="16" />
+				</Link>
 			</div>
 		</Flex>
 	)
