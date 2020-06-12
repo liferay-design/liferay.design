@@ -22,7 +22,7 @@ Use keys to let users identify how to complete a common task using the keyboard.
 
 #### Style
 
-Keys use a [monospced style](https://liferay.design/lexicon/foundations/typography/#monospaced) for typography depending on the operating system. Text inside a key component should adjust to the same size of the text that is related to.
+Keys use a [monospaced style](../../foundations/typography/#monospaced) for typography depending on the operating system. Text inside a key component should adjust to the same size of the text that is related to.
 
 ![Keys adjusted to the text](/images/lexicon/KeysSize.png)
 
