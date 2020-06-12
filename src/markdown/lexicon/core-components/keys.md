@@ -1,7 +1,7 @@
 ---
 title: 'Keys'
-titleLabel: ''
-titleLabelLink: ''
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/css/content/c-kbd.html'
 description: 'A visual pattern used to allow users to learn how to access actions via keyboard.'
 order: 280
 draft: false
