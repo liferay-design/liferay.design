@@ -18,6 +18,8 @@ Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photo
 
 ## Liferay Events Etc
 
+-   [LDSF Middle East & Africa, Virtual Event 2020](https://photos.app.goo.gl/U9SwTamfTGGKAawX9)
+-   [LDSF DACH, Virtual Event 2020](https://photos.app.goo.gl/PKFnNuD5VBVKbTqN9)
 -   [Marketing Kick-Off, San Diego 2020](https://photos.app.goo.gl/uKmo4noWTyxzxqwe8)
 -   [EMEA Partner Summmit, Milano 2019](https://photos.app.goo.gl/SeVCTmBDXniPyeUeA)
 -   [Americas Partner Summmit, Miami 2019](https://photos.app.goo.gl/3nCBATEsKPXkJhrg9)
