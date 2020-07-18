@@ -7,6 +7,7 @@ import Footer from './Footer'
 import HeroBanner from './HeroBanner'
 import Navbar from './Navbar'
 import NavItems from './NavItems'
+import ResearchCards from './ResearchCards'
 import RecentBlogPosts from './RecentBlogPosts'
 import Sidebar from './Sidebar'
 import TopBlogPosts from './TopBlogPosts'
@@ -21,6 +22,7 @@ export {
 	Footer,
 	HeroBanner,
 	NavItems,
+	ResearchCards,
 	Navbar,
 	RecentBlogPosts,
 	Sidebar,
