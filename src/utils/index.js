@@ -1,4 +1,4 @@
-const { deburr } = require(`lodash`)
+const { deburr, replace, startCase } = require(`lodash`)
 
 const imagePath = '/images/headshots/'
 
@@ -20,4 +20,10 @@ export function avatarPath(input) {
 	const avatarPath = imagePath + makeAuthorSlug(input) + '-h.jpg'
 	return avatarPath
 	
+}
+
+export function slugToTitle(baseSlug, title) {
+	const rawTitle = replace(title, baseSlug, '');
+	const titleCase = startCase(rawTitle);
+	return titleCase
 }
