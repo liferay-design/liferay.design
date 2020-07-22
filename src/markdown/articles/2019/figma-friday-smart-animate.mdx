@@ -7,14 +7,6 @@ publish: true
 ---
 
 import { Image } from 'components/atoms'
-const fileCaption = (
-	<a
-		href="https://www.figma.com/file/G75x6nzemEEt4DXzfPuHx5/animation-playground?node-id=12%3A0"
-		target="_new"
-	>
-		Check out our Animation Playground file from #figmaFriday
-	</a>
-)
 
 Last Thursday was an exciting day - Figma [announced their Smart Animate](https://twitter.com/figmadesign/status/1179843916243357697) feature, seemingly out of nowhere. Which was great timing for us, as the following day was our monthly [#FigmaFriday](https://twitter.com/liferaydesign/status/1137064729006895105).
 
@@ -24,7 +16,7 @@ Last Thursday was an exciting day - Figma [announced their Smart Animate](https:
 	dropShadow
 	align="right"
 	size="small"
-	caption={fileCaption}
+	caption={<a href="https://www.figma.com/file/G75x6nzemEEt4DXzfPuHx5/animation-playground?node-id=12%3A0" target="_new">Check out our Animation Playground file from #figmaFriday</a>}
 	margin="0 0 6rem 2rem"
 />
 
