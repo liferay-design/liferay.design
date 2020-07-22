@@ -3,6 +3,7 @@ import React from 'react'
 import { colors } from 'theme'
 
 const Flexbox = ({
+	as,
 	align,
 	background,
 	backgroundImage,
@@ -20,6 +21,8 @@ const Flexbox = ({
 	style,
 	...props
 }) => {
+	const As = as 
+
 	const styles = {
 		...style,
 		alignItems: align,
@@ -45,15 +48,16 @@ const Flexbox = ({
 	}
 
 	return (
-		<div className={className} id={name} name={name} style={styles} {...props}>
+		<As className={className} id={name} name={name} style={styles} {...props}>
 			{children && children}
-		</div>
+		</As>
 	)
 }
 
 Flexbox.defaultProps = {
 	direction: 'row',
 	flexWrap: 'nowrap',
+	as: 'div',
 }
 
 Flexbox.propTypes = {
