@@ -1,8 +1,6 @@
-# Stakeholder Interviews
-
-## Interview stakeholders to understand their needs and wants
-
-## Resources:
+---
+subtitle: Interview stakeholders to understand their needs and wants
+---
 
 Read an overview at: [How to Conduct Stakeholder Interviews](https://www.userinterviews.com/ux-research-field-guide-chapter/internal-stakeholder-interviews)
 
