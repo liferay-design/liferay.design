@@ -1,8 +1,6 @@
-# Journey Map
-
-## Illustrate your user’s path on the product
-
-## Resources:
+---
+subtitle: Illustrate your user’s path on the product
+---
 
 NN Group’s piece: [Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping-101/)
 
