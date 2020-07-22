@@ -1,8 +1,6 @@
-# Heuristic Evaluation
-
-## Evaluate whether your product follows Jakob Nielsenâ€™s Heuristics on usability
-
-## Resources
+---
+subtitle: Evaluate whether your product follows Jakob Nielsenâ€™s Heuristics on usability
+---
 
 An excel sheet to populate: [Heuristic Evaluation](https://docs.google.com/spreadsheets/d/1oqtMogkpICS1_8cusL8_SZc7EERP3MbzISKsoPXogd0)
 
