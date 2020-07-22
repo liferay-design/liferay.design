@@ -1,0 +1,38 @@
+@import '~theme/variables';
+@import '~theme/blueprints';
+
+$cardPadding: $spacingSmall * 1.5;
+$borderRadiusOuter:  $spacingSmall;
+$borderRadiusInner: $borderRadiusOuter / 1.7;
+
+article {
+	background-color: $primary-l3;
+	border: $spacingSmall solid $primary-l3;
+	border-radius: $borderRadiusOuter;
+	box-shadow: $elevation0, $elevation2;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	header {
+		background: $primary;
+		padding: $spacingSmall $cardPadding;
+		border-radius: $borderRadiusInner $borderRadiusInner 0 0;
+	}
+	section {
+		flex-grow: 1;
+		background: $white;
+		padding: $cardPadding;
+		border-radius: 0 0 $borderRadiusInner $borderRadiusInner;
+		a {
+			color: $primary;
+			text-decoration: underline;
+		}
+	}
+	h1 {
+		color: white;
+	}
+	h2 {
+		font-size: $fontSizeBase;
+		font-weight: $fontWeightHeavy;
+	}
+}
