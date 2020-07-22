@@ -27,3 +27,10 @@ export function slugToTitle(baseSlug, title) {
 	const titleCase = startCase(rawTitle);
 	return titleCase
 }
+
+export function slugToIcon(baseSlug, icon) {
+	const rawIcon = replace(icon, baseSlug, '');
+	const replaceHyphen = rawIcon.replace("-", "_");
+	const iconName = replaceHyphen.replace("/", "");
+	return iconName
+}
