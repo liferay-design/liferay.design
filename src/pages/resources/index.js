@@ -21,7 +21,7 @@ const ResourcesPage = () => (
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
-						delay='0.1s'
+						delay="0.1s"
 						dark
 						icon="liferayDesicon"
 						title="Principles"
@@ -32,18 +32,19 @@ const ResourcesPage = () => (
 				</Grid.Item>
 				<Grid.Item>
 					<CardLexicon
-						delay='0.2s'
+						delay=".4s"
 						dark
-						icon="whyBlueprints"
-						title="Blueprints"
-						text="Liferay's Brand Style Guidelines"
-						to="/blueprints"
-						cta="The Blue Abides"
+						icon="faqs"
+						title="Research Methods"
+						text="Resources for design researchers"
+						to="/resources/research"
+						cta="Science!"
 					/>
 				</Grid.Item>
+
 				<Grid.Item>
 					<CardLexicon
-						delay='.3s'
+						delay=".3s"
 						dark
 						icon="fa_figma"
 						title="Figma Resources"
@@ -52,21 +53,21 @@ const ResourcesPage = () => (
 						cta="Help Us, Help You"
 					/>
 				</Grid.Item>
+				<Grid.Item>
+					<CardLexicon
+						delay="0.2s"
+						dark
+						icon="whyBlueprints"
+						title="Blueprints"
+						text="Liferay's Brand Style Guidelines"
+						to="/blueprints"
+						cta="The Blue Abides"
+					/>
+				</Grid.Item>
 
 				<Grid.Item>
 					<CardLexicon
-						delay='.4s'
-						dark
-						icon="faqs"
-						title="Help Center"
-						text="Documentation and how-to's for Liferay-ers"
-						to="https://help.liferay.design"
-						cta="Get Help"
-					/>
-				</Grid.Item>
-				<Grid.Item>
-					<CardLexicon
-						delay='.5s'
+						delay=".5s"
 						dark
 						icon="waffle"
 						title="Style"
