@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Flex, Text, Heading } from 'components/atoms'
 import {slugToTitle} from 'utils'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 export default ({}) => {
 	const data = useStaticQuery(graphql`
@@ -9,9 +10,7 @@ export default ({}) => {
 			allMdx(filter: { fileAbsolutePath: { regex: "/(resources/research)/" } }) {
 				edges {
 					node {
-						internal {
-							content
-						}
+						body
 						fields {
 							slug
 						}
@@ -24,6 +23,9 @@ export default ({}) => {
 	const ResearchCards = data.allMdx.edges.map(({ node }) => (
 		<Flex margin="2rem auto">
 			<Heading level={2}>{slugToTitle('/resources/research/', node.fields.slug)}</Heading>
+			<MDXRenderer>
+				{node.body}
+			</MDXRenderer>
 		</Flex>
 	))
 
