@@ -1,15 +1,15 @@
+/** @jsx jsx */
+
+import { jsx, Grid, Box } from 'theme-ui'
 import { Container } from 'components/atoms'
 import { CardLexicon } from 'components/molecules'
 import { MainLayout } from 'components/templates'
-import React from 'react'
-import { Grid } from 'reakit'
-import styles from './styles.module.scss'
 
 const ResourcesPage = () => (
 	<MainLayout section="Resources">
 		<Container>
-			<Grid className={styles.grid} gap="2rem">
-				<Grid.Item>
+			<Grid gap="2rem">
+				<Box sx={{ gridArea: ['1 / 1 / 4 / 2', null, '1 / 1 / 2 / 5'] }}>
 					<CardLexicon
 						dark
 						icon="lexicon"
@@ -18,8 +18,8 @@ const ResourcesPage = () => (
 						to="/lexicon"
 						cta="Get Started"
 					/>
-				</Grid.Item>
-				<Grid.Item>
+				</Box>
+				<Box sx={{ gridArea: ['4 / 1 / 6 / 1', null, '1 / 5 / 2 / 7'] }}>
 					<CardLexicon
 						delay="0.1s"
 						dark
@@ -29,8 +29,8 @@ const ResourcesPage = () => (
 						to="/principles"
 						cta="First Things First"
 					/>
-				</Grid.Item>
-				<Grid.Item>
+				</Box>
+				<Box sx={{ gridArea: ['6 / 1 / 7 / 1', null, '2 / 1 / 3 / 3'] }}>
 					<CardLexicon
 						delay=".4s"
 						dark
@@ -40,9 +40,8 @@ const ResourcesPage = () => (
 						to="/resources/research"
 						cta="Science!"
 					/>
-				</Grid.Item>
-
-				<Grid.Item>
+				</Box>
+				<Box sx={{ gridArea: ['7 / 1 / 8 / 1', null, '2 / 3 / 3 / 7'] }}>
 					<CardLexicon
 						delay=".3s"
 						dark
@@ -52,8 +51,8 @@ const ResourcesPage = () => (
 						to="/resources/figma"
 						cta="Help Us, Help You"
 					/>
-				</Grid.Item>
-				<Grid.Item>
+				</Box>
+				<Box sx={{ gridArea: ['9 / 1 / 10 / 1', null, '3 / 1 / 4 / 4'] }}>
 					<CardLexicon
 						delay="0.2s"
 						dark
@@ -63,9 +62,8 @@ const ResourcesPage = () => (
 						to="/blueprints"
 						cta="The Blue Abides"
 					/>
-				</Grid.Item>
-
-				<Grid.Item>
+				</Box>
+				<Box sx={{ gridArea: ['11 / 1 / 12 / 1', null, '3 / 4 / 4 / 7'] }}>
 					<CardLexicon
 						delay=".5s"
 						dark
@@ -75,17 +73,15 @@ const ResourcesPage = () => (
 						to="https://style.liferay.design"
 						cta="Get in Style"
 					/>
-				</Grid.Item>
-				{/* <Grid.Item>
-					<CardLexicon
+				</Box>
+				{/* <CardLexicon
 						dark
 						icon="fa_terminal"
 						title="Dashboard"
 						text="Coming Soon!"
 						to="https://dashboard.liferay.design"
 						cta="Sneak a Peek"
-					/>
-				</Grid.Item> */}
+					/> */}
 			</Grid>
 		</Container>
 	</MainLayout>

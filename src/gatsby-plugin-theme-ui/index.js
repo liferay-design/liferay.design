@@ -1,4 +1,8 @@
 export default {
+	colors: {
+		text: 'inherit',
+		background: 'inherit',
+	},
 	grids: {
 		twoCards: {
 			gridTemplateColumns: 'repeat(auto-fill, minmax(24rem, 1fr))',

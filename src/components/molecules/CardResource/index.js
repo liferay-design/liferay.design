@@ -31,7 +31,7 @@ export class CardResource extends Component {
 							additionalStyles={{
 								fontSize: fontSizes.medium,
 								paddingBottom: '0',
-								width: '12ch',
+								width: '16ch',
 							}}
 						>
 							{title}
