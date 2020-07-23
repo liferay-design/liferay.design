@@ -61,20 +61,23 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-	{
-		allMdx(filter: { fileAbsolutePath: { regex: "/(resources/research)/" } }) {
-			edges {
-				node {
-					id
-					frontmatter {
-						subtitle
-					}
-					body
-					fields {
-						slug
+			{
+				allMdx(
+					sort: { order: ASC, fields: fields___slug },
+					filter: { fileAbsolutePath: { regex: "/(resources/research)/" } }
+				) {
+					edges {
+						node {
+							id
+							frontmatter {
+								subtitle
+							}
+							body
+							fields {
+								slug
+							}
+						}
 					}
 				}
 			}
-		}
-	}
-`
+		`
