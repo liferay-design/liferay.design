@@ -1,6 +1,8 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Flex, Heading, Icon, Link, Text, Image, AnimateIn } from 'components/atoms'
 import PropTypes from 'prop-types'
-import React from 'react'
 import styles from './styles.module.scss'
 import { useMediaQuery } from 'react-responsive'
 
@@ -21,6 +23,7 @@ const CardLexicon = ({
 	to,
 	wide,
 	className,
+	...props
 }) => {
 	const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
 
@@ -40,7 +43,7 @@ const CardLexicon = ({
 	}
 
 	return (
-		<AnimateIn delay={delay}>
+		<AnimateIn delay={delay} {...props}>
 			<Link
 				to={to}
 				className={`${styles.link} ${handbook ? styles.handbook : null}`}
