@@ -3,7 +3,7 @@ import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
-import { slugToTitle } from 'utils'
+import { slugToTitle, slugToIcon } from 'utils'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import styles from './styles.module.scss'
 import { fontSizes } from 'theme/'
@@ -33,10 +33,11 @@ export default ({ data }) => {
 										)}
 									</Heading>
 									<Icon
-										name={slugToTitle(
+										name={slugToIcon(
 											'/resources/research/',
 											node.fields.slug,
-										)}
+                                        )}
+                                        color='white'
 									/>
 								</header>
 								<section>
