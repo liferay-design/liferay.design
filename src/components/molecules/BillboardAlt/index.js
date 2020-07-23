@@ -9,7 +9,12 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 			<Container>
 				<Flex className={styles.container}>
 					{image ? (
-						<Flex className={styles.image} backgroundImage={image} />
+						<Flex
+							className={styles.image}
+							style={{
+								background: `${'url(' + image + ') center/cover'}`,
+							}}
+						/>
 					) : null}
 					<Flex
 						className={styles.text}
