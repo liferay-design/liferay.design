@@ -6,6 +6,7 @@ $borderRadiusOuter:  $spacingSmall;
 $borderRadiusInner: $borderRadiusOuter / 1.7;
 
 article {
+	// font-family: $fontFamilySecondary;
 	background-color: $primary-l3;
 	border: $spacingSmall solid $primary-l3;
 	border-radius: $borderRadiusOuter;
