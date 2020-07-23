@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer, GlobalMdx, SEO } from 'components/molecules'
 import { Footer, Sidebar } from 'components/organisms'
@@ -6,7 +9,7 @@ import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
-import { Grid } from 'reakit'
+
 import documentation from 'theme/documentation.module.scss'
 import blueprints from 'theme/blueprints.module.scss'
 import moment from 'moment'
@@ -36,7 +39,9 @@ export default class Handbook extends Component {
 		} = this.props
 
 		return (
-			<div className={`${blueprints.theme} ${documentation.theme} ${styles.neumorphism}`}>
+			<div
+				className={`${blueprints.theme} ${documentation.theme} ${styles.neumorphism}`}
+			>
 				<SEO
 					description={mdx.excerpt}
 					keywords="Liferay Design Handbook, handbook, designer handbook"
@@ -46,13 +51,10 @@ export default class Handbook extends Component {
 				/>
 				<MediaQuery maxWidth={767}>
 					{matches => {
-						let gridTemplate = matches
-							? `"nav" 8rem "main" 1fr / 1fr`
-							: `"sidebar main" auto / 20rem 1fr`
-
+						
 						return (
 							<Grid
-								template={gridTemplate}
+								sx={{ variant: 'grids.sideNav' }}
 								className={documentation.mainContentWrapper}
 							>
 								{matches && (
@@ -74,7 +76,8 @@ export default class Handbook extends Component {
 									section="Handbook"
 								/>
 
-								<div className={`${styles.contentWrapper} ${documentation.contentWrapper}`}
+								<div
+									className={`${styles.contentWrapper} ${documentation.contentWrapper}`}
 									isMobile={matches}
 									isMobileSidebarVisible={
 										this.state.mobileSidebarVisible
@@ -124,7 +127,7 @@ export default class Handbook extends Component {
 															'https://github.com/liferay-design/liferay.design/tree/master/src/' +
 															`${mdx.parent.relativePath}`
 														}
-														style={{textDecoration:'none'}}
+														style={{ textDecoration: 'none' }}
 													>
 														<Flex
 															align="center"
