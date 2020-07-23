@@ -11,10 +11,6 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 	overflow: hidden;
 }
 
-.grid {
-	grid-template: 'hero hero sidebar' 100vh / 1fr 1fr 1fr;
-}
-
 .cta,
 .sidebar {
 	animation: animateIn $bgTransitionTiming $loadingAnimationDuration $cubicTransition

@@ -1,16 +1,16 @@
+/** @jsx jsx */
+
+import { jsx, Grid, Box } from 'theme-ui'
 import React from 'react'
 
 import { Flex, Image, AnimateIn, Icon, Link } from 'components/atoms'
 import { SEO } from 'components/molecules'
-
-import { Grid } from 'reakit'
 
 import { Card, Heading, LoadingAnimation } from 'pages/design-week/components/_index'
 import styles from './styles.module.scss'
 import { spacing } from 'theme'
 
 export default class DesignWeek extends React.Component {
-
 	render() {
 		const baseDelay = '1.6'
 
@@ -33,7 +33,10 @@ export default class DesignWeek extends React.Component {
 				<LoadingAnimation size={spacing.xLarge} />
 
 				<Flex className={styles.page}>
-					<div className={styles.bgImage} style={{backgroundImage:`${'url("'+ bgImage + '")'}`}} />
+					<div
+						className={styles.bgImage}
+						style={{ backgroundImage: `${'url("' + bgImage + '")'}` }}
+					/>
 					<AnimateIn delay={baseDelay * 1.05 + 's'}>
 						<Link to="/">
 							<Icon
@@ -46,17 +49,28 @@ export default class DesignWeek extends React.Component {
 							/>
 						</Link>
 					</AnimateIn>
-					<Grid className={styles.grid}>
-						<Grid.Item area="sidebar" style={{background:'white', height:'100%', width:'100%'}} className={styles.sidebar}>
-						</Grid.Item>
-						<Grid.Item area="hero">
+					<Grid
+						sx={{
+							gridTemplate: '"hero hero sidebar" 100vh / 1fr 1fr 1fr',
+						}}
+					>
+						<Box
+							sx={{
+								area: 'sidebar',
+								backgroundColor: 'white',
+								height: '100%',
+								width: '100%',
+							}}
+							className={styles.sidebar}
+						></Box>
+						<Box sx={{ gridArea: 'hero' }}>
 							<Heading
 								bgImage={bgImage}
 								delay={baseDelay}
 								title="Design Week"
 							/>
-						</Grid.Item>
-						<Grid.Item area="sidebar" className={styles.cta}>
+						</Box>
+						<Box sx={{ gridArea: 'sidebar' }} className={styles.cta}>
 							<Card
 								place="Los Angeles, CA"
 								date="Mar 23—27"
@@ -64,7 +78,7 @@ export default class DesignWeek extends React.Component {
 								ctaUrl="https://forms.gle/PSkzN2vNmwjLz2B37"
 								delay={baseDelay}
 							/>
-						</Grid.Item>
+						</Box>
 					</Grid>
 				</Flex>
 			</>
