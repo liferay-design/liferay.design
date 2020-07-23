@@ -1,23 +1,27 @@
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import { Link, SiteName } from 'components/atoms'
 import { Accordion, SiteCredits } from 'components/molecules'
 import { map, orderBy } from 'lodash'
-import React from 'react'
-import { Grid } from 'reakit'
 import styles from './styles.module.scss'
 
 const SidebarContent = ({ path, tree }) => {
 	const unorderedTree = map(tree, node => {
 		const className = `
 		${styles.leafLink}
-		${node.slug === path ? styles.active : ''
-		} ${node.firstLevel ? styles.firstLevelNode : ''}`
+		${node.slug === path ? styles.active : ''} ${
+			node.firstLevel ? styles.firstLevelNode : ''
+		}`
 
 		if (node.hasOwnProperty('children')) {
 			return (
 				<Accordion
 					className={className}
 					key={node.order}
-					open={path.toLowerCase().includes(node.title.toLowerCase().replace(/ /g,"-"))}
+					open={path
+						.toLowerCase()
+						.includes(node.title.toLowerCase().replace(/ /g, '-'))}
 					title={node.title}
 					parentLink={node.slug}
 				>
@@ -44,35 +48,37 @@ export default function SidebarWrapper({
 	section,
 	lexicon,
 }) {
-
 	const className = `
 		${styles.sidebar} 
-		${isMobile && showSidebar ? styles.onScreen : '' } 
+		${isMobile && showSidebar ? styles.onScreen : ''} 
 		${isMobile && !showSidebar ? styles.offScreen : ''} 
 		${lexicon ? styles.lexicon : styles.sidebar}
-		${section === "Handbook" ? styles.handbook : ''}
+		${section === 'Handbook' ? styles.handbook : ''}
 	`
 
 	return (
 		<Grid
-			templateColumns="1fr"
-			templateRows={`${isMobile ? '8rem' : '12rem auto 8rem'}`}
+			sx={{
+				gridTemplateColumns: '1fr',
+				gridTemplateRows: ['8rem', null, '12rem auto 8rem'],
+				gap: 0,
+			}}
 			className={className}
 		>
 			{!isMobile && (
-				<Grid.Item className={styles.section}>
+				<div className={styles.section}>
 					<SiteName section={section} dark />
-				</Grid.Item>
+				</div>
 			)}
 
-			<Grid.Item className={styles.sidebarContentWrapper}>
+			<div className={styles.sidebarContentWrapper}>
 				<SidebarContent path={path} tree={tree} />
-			</Grid.Item>
+			</div>
 
 			{!isMobile && (
-				<Grid.Item className={styles.credits}>
+				<div className={styles.credits}>
 					<SiteCredits />
-				</Grid.Item>
+				</div>
 			)}
 		</Grid>
 	)

@@ -1,35 +1,39 @@
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import { Image, Link, Text } from 'components/atoms'
 import { BillboardAlt } from 'components/molecules'
 import PropTypes from 'prop-types'
-import React from 'react'
 import styles from './styles.module.scss'
-import { Grid } from 'reakit'
-import { useMediaQuery} from 'react-responsive'
 import MediaQuery from 'react-responsive'
-import {sizes, colors} from 'theme'
+import { sizes, colors } from 'theme'
 
 const SideTab = ({ image, cta, ctaUrl, innerCta, subtitle }) => {
-	const gridTemplate = `"link banner" auto / 8rem 1fr`
-	const gridTemplateSmall = `"link banner" auto / 5rem 1fr`
-
-	const isLarge = useMediaQuery({ query: '(min-width: 1280px)' })
-
 	return (
 		<div className={styles.joinUs}>
-			<Grid template={isLarge ? gridTemplate : gridTemplateSmall}>
+			<Grid
+				sx={{
+					gap: 0,
+					gridTemplate: [
+						'"link banner" auto / 5rem 1fr',
+						null,
+						'"link banner" auto / 8rem 1fr',
+					],
+				}}
+			>
 				<Link to={ctaUrl}>
 					<Grid
 						className={styles.tab}
-						templateRows="10rem auto"
+						sx={{ gap: 0, gridTemplateRows: '10rem auto' }}
 					>
-						<Grid.Item className={styles.imageWrapper}>
+						<div className={styles.imageWrapper}>
 							<Image src={image} className={styles.image} />
-						</Grid.Item>
-						<Grid.Item className={styles.button}>
+						</div>
+						<div className={styles.button}>
 							<Text color="white" size="medium" weight="black">
 								{cta}
 							</Text>
-						</Grid.Item>
+						</div>
 					</Grid>
 				</Link>
 				<MediaQuery minWidth={sizes.large}>
