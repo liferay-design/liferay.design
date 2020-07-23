@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
@@ -6,7 +9,6 @@ import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
-import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import { Helmet } from 'react-helmet'
@@ -74,13 +76,10 @@ export default class Lexicon extends Component {
 				</Helmet>
 				<MediaQuery maxWidth={767}>
 					{matches => {
-						let gridTemplate = matches
-							? `"nav" 8rem "main" 1fr / 1fr`
-							: `"sidebar main" auto / 20rem 1fr`
-
+						
 						return (
 							<Grid
-								template={gridTemplate}
+								sx={{ variant: 'grids.sideNav' }}
 								className={`${documentation.mainContentWrapper} ${lexicon.mainContentWrapper}`}
 							>
 								{matches && (
