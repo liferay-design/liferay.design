@@ -1,8 +1,10 @@
-import { CardGrid, Container, Heading } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { Container, Heading } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
-import React from 'react'
 
 export default ({ data }) => {
 	return (
@@ -15,7 +17,7 @@ export default ({ data }) => {
 				<Heading level={1} color="white" padding="4rem">
 					Join the Team!
 				</Heading>
-				<CardGrid>
+				<Grid sx={{ variant: 'grids.threeCards' }}>
 					{data.allMdx.edges.map(({ node }, index) => (
 						<CardDefault
 							delay={`${index}` * 0.1 + 's'}
@@ -28,7 +30,7 @@ export default ({ data }) => {
 							avatarImageURL={node.frontmatter.office.regionIcon}
 						/>
 					))}
-				</CardGrid>
+				</Grid>
 			</Container>
 		</MainLayout>
 	)

@@ -1,7 +1,9 @@
-import { Container, Text, Heading, CardGrid, Link, Icon } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { Container, Text, Heading, Link, Icon } from 'components/atoms'
 import { CardLexicon, CardHidden, SEO, FormNewsletter } from 'components/molecules'
 import { Navbar } from 'components/organisms'
-import React from 'react'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import styles from './styles.module.scss'
@@ -26,7 +28,7 @@ export const Handbook = () => {
 							<span>Together.</span>
 						</Heading>
 					</div>
-					<CardGrid gap="3rem">
+					<Grid sx={{ variant: 'grids.threeCards', gap: '3rem' }}>
 						<CardLexicon
 							handbook
 							preTitle="First Things First"
@@ -50,10 +52,10 @@ export const Handbook = () => {
 							text="A core trait of a Liferay Designer is a desire for growth — see what that looks like and how we do it."
 							to="/handbook/grow"
 						/>
-					</CardGrid>
+					</Grid>
 				</Container>
 				<Container padding="4rem 0">
-					<CardGrid gap="3.2rem 3rem">
+					<Grid sx={{ variant: 'grids.threeCards', gap: '3.2rem 3rem' }}>
 						<CardHidden
 							handbook
 							icon="lexicon"
@@ -107,13 +109,10 @@ export const Handbook = () => {
 							to="https://dashboard.liferay.design"
 							cta="Sneak a Peek"
 						/>
-					</CardGrid>
+					</Grid>
 				</Container>
 			</div>
-			<Container
-				background={colors.main}
-				padding={spacing.large + ' 0'}
-			>
+			<Container background={colors.main} padding={spacing.large + ' 0'}>
 				<Heading align="center" color="white" level={2}>
 					Sign up for our monthly newsletter!
 				</Heading>

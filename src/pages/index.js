@@ -1,23 +1,28 @@
-import { CardGrid, Container } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { useStaticQuery, graphql } from 'gatsby'
-
 import { MainLayout } from 'components/templates'
-import React from 'react'
 import { spacing, colors } from 'theme'
 
 export default () => {
 	const data = useStaticQuery(graphql`
 		query {
-			lexiconCover: file(relativePath: { eq: "images/resources/lexicon-cover.png" }) {
+			lexiconCover: file(
+				relativePath: { eq: "images/resources/lexicon-cover.png" }
+			) {
 				childImageSharp {
 					fluid {
 						src
 					}
 				}
 			}
-			figmaUtilities: file(relativePath: { eq: "images/resources/figma-utilities.png" }) {
+			figmaUtilities: file(
+				relativePath: { eq: "images/resources/figma-utilities.png" }
+			) {
 				childImageSharp {
 					fluid {
 						src
@@ -62,7 +67,7 @@ export default () => {
 							' 80%)'
 						}
 					>
-						<CardGrid two>
+						<Grid sx={{ variant: 'grids.twoCards' }}>
 							<CardDefault
 								aspectRatio="16-9"
 								imageURL={data.lexiconCover.childImageSharp.fluid.src}
@@ -79,7 +84,7 @@ export default () => {
 								subtitle="Utilities and components to help you speed up your workflow"
 								link="/resources/figma"
 							/>
-						</CardGrid>
+						</Grid>
 					</Container>
 				</MainLayout>
 			</div>

@@ -1,13 +1,13 @@
-import { CardGrid, Container } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { Container } from 'components/atoms'
 import { SEO, CardResource } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
-import React from 'react'
 import { slugToTitle, slugToIcon } from 'utils'
 
-
 export default ({ data }) => {
-
 	return (
 		<MainLayout section="Resources">
 			<SEO
@@ -15,7 +15,7 @@ export default ({ data }) => {
 				pageTitle="Liferay.Design | Research Resources"
 			/>
 			<Container background="white" heading="Research Methods" color="black">
-				<CardGrid>
+				<Grid sx={{ variant: 'grids.threeCards' }}>
 					{data.allMdx.edges.map(({ node }, index) => (
 						<CardResource
 							delay={`${index}` * 0.1 + 's'}
@@ -26,7 +26,7 @@ export default ({ data }) => {
 							body={node.body}
 						/>
 					))}
-				</CardGrid>
+				</Grid>
 			</Container>
 		</MainLayout>
 	)
