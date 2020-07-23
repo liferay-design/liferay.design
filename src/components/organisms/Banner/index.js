@@ -1,8 +1,9 @@
+/** @jsx jsx */
+
+import { jsx, Grid, Button } from 'theme-ui'
 import { Flex, Heading, Link, Container } from 'components/atoms'
 import Navbar from 'components/organisms/Navbar'
 import PropTypes from 'prop-types'
-import React from 'react'
-import { Button, Grid } from 'reakit'
 import styles from './styles.module.scss'
 
 const Banner = ({
@@ -18,9 +19,11 @@ const Banner = ({
 	...props
 }) => (
 	<Grid
-		templateRows="8rem 1fr"
+		sx={{
+			gridTemplateRows:'8rem 1fr',
+			background: `${background}`,
+		}}
 		className={styles.container}
-		style={{ background: `${background}` }}
 	>
 		<Navbar {...props} underlineColor={underlineColor} white />
 		<Container style={{alignSelf:'center'}}>
@@ -41,7 +44,7 @@ const Banner = ({
 				</Heading>
 				{cta ? (
 					<Link to={ctaLink}>
-						<Button className={styles.button} raised primary>
+						<Button className={styles.button}>
 							{cta}
 						</Button>
 					</Link>

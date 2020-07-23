@@ -1,4 +1,7 @@
-import { MDXRenderer } from "gatsby-plugin-mdx"
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { Footer, Sidebar } from 'components/organisms'
@@ -6,7 +9,6 @@ import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
-import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
 import documentation from 'theme/documentation.module.scss'
 
@@ -37,13 +39,9 @@ export default class Lexicon extends Component {
 			<div className={`${lexicon.theme} ${documentation.theme}`}>
 				<MediaQuery maxWidth={767}>
 					{matches => {
-						let gridTemplate = matches
-							? `"nav" 8rem "main" 1fr / 1fr`
-							: `"sidebar main" auto / 20rem 1fr`
-
 						return (
 							<Grid
-								template={gridTemplate}
+								sx={{ variant: 'grids.sideNav' }}
 								className={documentation.mainContentWrapper}
 							>
 								{matches && (
@@ -159,7 +157,7 @@ export const pageQuery = graphql`
 				description
 				titleLabelLink
 			}
-				body
+			body
 		}
 	}
 `
