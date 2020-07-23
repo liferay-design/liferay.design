@@ -1,10 +1,10 @@
 import { CardGrid, Container } from 'components/atoms'
-import { SEO } from 'components/molecules'
+import { SEO, CardResource } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
 import { slugToTitle, slugToIcon } from 'utils'
-import Card from './components/Card'
+
 
 export default ({ data }) => {
 
@@ -17,7 +17,7 @@ export default ({ data }) => {
 			<Container background="white" heading="Research Methods" color="black">
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }, index) => (
-						<Card
+						<CardResource
 							delay={`${index}` * 0.1 + 's'}
 							key={node.id}
 							title={slugToTitle('/resources/research/', node.fields.slug)}
