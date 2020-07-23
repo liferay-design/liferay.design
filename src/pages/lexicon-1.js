@@ -1,9 +1,9 @@
+/** @jsx jsx */
+
+import { jsx, Grid, Box } from 'theme-ui'
 import { Container, Icon, Link, Text } from 'components/atoms'
 import { Billboard, CardLexicon } from 'components/molecules'
 import { Banner, Footer } from 'components/organisms'
-import React from 'react'
-import MediaQuery from 'react-responsive'
-import { Grid } from 'reakit'
 import lexicon from 'theme/lexicon.module.scss'
 import documentation from 'theme/documentation.module.scss'
 
@@ -20,106 +20,66 @@ const Lexicon = () => (
 		/>
 		<div className={documentation.background}>
 			<div className={documentation.container}>
-				<MediaQuery maxWidth={767}>
-					{matches => {
-						let gridTemplate = matches
-							? `	"tlg" auto // first is mobile
-								"tlc" auto
-								"m" auto
-								"blc" auto
-								"brc" auto / auto-fit, minmax(200px, 1fr)`
-							: `	"tlg tlc trc rg" auto
-								"lg m m rg" auto
-								"lg blc brc brg" auto / 1rem 5fr 5fr 1rem`
-						return (
-							<Grid
-								className={documentation.teasers}
-								gap="2rem"
-								template={gridTemplate}
-							>
-								<Grid.Item
-									area="tlg"
-									marginTop="-8rem"
-								>
-									<Text
-										color="#c4cacb"
-										weight="600"
-										size="12px"
-										type="p"
-										className={
-											lexicon.vertical
-										}
-									>
-										Explore Lexicon
-									</Text>
-								</Grid.Item>
-								<Grid.Item
-									area="tlc"
-									marginTop="-8rem"
-								>
-									<CardLexicon
-										icon="whatBlack"
-										title="Get Started"
-										text="A consistent design system to help you build beautiful web apps easily"
-										to="/lexicon-1/get-started"
-										cta="Learn More"
-									/>
-								</Grid.Item>
-								<Grid.Item
-									area="trc"
-									marginTop="-8rem"
-								>
-									<CardLexicon
-										delay="0.4s"
-										icon="principlesBlack"
-										title="Patterns"
-										text="The basic principles and guidelines that lay on the core of the pattern libray."
-										to="/lexicon-1/patterns/alerts"
-										cta="Learn More"
-									/>
-								</Grid.Item>
-								<Grid.Item
-									area="brg"
-									marginTop="2rem"
-								>
-									<Link
-										className={
-											documentation.social
-										}
-										to="https://github.com/liferay-design"
-									>
-										<Icon
-											fill="white"
-											name="github"
-										/>
-									</Link>
-									<Link
-										className={
-											documentation.social
-										}
-										to="https://dribbble.com/liferay"
-									>
-										<Icon
-											fill="white"
-											name="dribbble"
-										/>
-									</Link>
-									<Link
-										className={
-											documentation.social
-										}
-										to="https://twitter.com/Liferay_Lexicon"
-									>
-										<Icon
-											fill="white"
-											name="twitter"
-										/>
-									</Link>
-								</Grid.Item>
-							</Grid>
-						)
+				<Grid
+					className={documentation.teasers}
+					sx={{
+						variant: 'grids.landingPage',
 					}}
-				</MediaQuery>
+				>
+					<Box sx={{ gridArea: 'tlg', mt: [0, null, '-8rem'] }}>
+						<Text
+							color="#c4cacb"
+							weight="600"
+							size="12px"
+							type="p"
+							className={lexicon.vertical}
+						>
+							Explore Lexicon
+						</Text>
+					</Box>
+					<Box sx={{ gridArea: 'tlc', mt: [0, null, '-8rem'] }}>
+						<CardLexicon
+							icon="whatBlack"
+							title="Get Started"
+							text="A consistent design system to help you build beautiful web apps easily"
+							to="/lexicon-1/get-started"
+							cta="Learn More"
+						/>
+					</Box>
+					<Box sx={{ gridArea: 'trc', mt: [0, null, '-8rem'] }}>
+						<CardLexicon
+							delay="0.4s"
+							icon="principlesBlack"
+							title="Patterns"
+							text="The basic principles and guidelines that lay on the core of the pattern libray."
+							to="/lexicon-1/patterns/alerts"
+							cta="Learn More"
+						/>
+					</Box>
+					<Box
+						sx={{ gridArea: 'brg', mt: '2rem' }}
+						className={documentation.socialContainer}
+					>
+						<Link
+							className={documentation.social}
+							to="https://github.com/liferay-design"
+						>
+							<Icon fill="white" name="github" />
+						</Link>
+						<Link
+							className={documentation.social}
+							to="https://dribbble.com/liferay"
+						>
+							<Icon fill="white" name="dribbble" />
+						</Link>
+						<Link
+							className={documentation.social}
+							to="https://twitter.com/Liferay_Lexicon"
+						>
+							<Icon fill="white" name="twitter" />
+						</Link>
+					</Box>
+				</Grid>
 			</div>
 		</div>
 		<Billboard
@@ -128,9 +88,7 @@ const Lexicon = () => (
 			Subtitle={() => (
 				<Text size="large">
 					Head on over to the{' '}
-					<Link
-						to="https://github.com/liferay-design/lexicon/issues"
-					>
+					<Link to="https://github.com/liferay-design/lexicon/issues">
 						GitHub repo
 					</Link>
 					!
@@ -140,7 +98,7 @@ const Lexicon = () => (
 		/>
 		<Container>
 			<Grid className={documentation.clayCard}>
-				<Grid.Item columnStart="3" columnEnd="7">
+				<Box columnStart="3" columnEnd="7">
 					<CardLexicon
 						dark
 						icon="clay"
@@ -149,7 +107,7 @@ const Lexicon = () => (
 						to="https://liferay.github.io/lexiconcss/"
 						cta="Visit Lexicon CSS"
 					/>
-				</Grid.Item>
+				</Box>
 			</Grid>
 		</Container>
 		<Footer />

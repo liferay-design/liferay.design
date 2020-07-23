@@ -35,5 +35,13 @@ export default {
 			],
 			gap: 0,
 		},
+		landingPage: {
+			gridTemplate: [
+				'"lg tlg rg" auto "lg tlc rg" auto "lg trc rg" auto "lg m rg" auto "lg blc rg" auto "lg brc rg" auto "lg brg rg" auto / 0 1fr 0',
+				null,
+				'"tlg tlc trc rg" auto "lg m m rg" auto "lg blc brc brg" auto / 1rem 5fr 5fr 1rem'
+			],
+			gap: '2rem',
+		},
 	},
 }

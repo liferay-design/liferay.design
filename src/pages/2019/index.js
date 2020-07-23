@@ -1,15 +1,32 @@
-import React from 'react'
+/** @jsx jsx */
+
+import { jsx, Grid, Box } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
-import { Flex, Link, Heading, Image, Icon, ScrollProgress,	ScrollArrow } from 'components/atoms'
+import {
+	Flex,
+	Link,
+	Heading,
+	Image,
+	Icon,
+	ScrollProgress,
+	ScrollArrow,
+} from 'components/atoms'
 import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 
-import { Grid } from 'reakit'
 import moment from 'moment'
 import MediaQuery from 'react-responsive'
 
-import { SimpleCard, Nav, Designer, KeyArt, Content, Carousel, CarouselSlide } from 'pages/2019/components/_index'
+import {
+	SimpleCard,
+	Nav,
+	Designer,
+	KeyArt,
+	Content,
+	Carousel,
+	CarouselSlide,
+} from 'pages/2019/components/_index'
 import styles from './styles.module.scss'
 import { sizes } from 'theme'
 import data from 'markdown/annual-reports/TwentyNineteen.yaml'
@@ -43,7 +60,7 @@ const TwentyNineteen = () => {
 			<Nav />
 			{/* --------- HERO ---------- */}
 			<section id="top" className={styles.hero}>
-				<Grid alignItems="center" className={styles.heroGrid}>
+				<Grid sx={{ alignItems: 'center' }} className={styles.heroGrid}>
 					<div className={styles.keyArt}>
 						<KeyArt />
 					</div>
@@ -71,8 +88,10 @@ const TwentyNineteen = () => {
 					className={styles.department}
 				>
 					<Grid
-						templateRows="auto 1fr"
-						rowGap="48px"
+						sx={{
+							gridTemplateRows:'auto 1fr',
+							rowGap:'48px',
+						}}
 						className={styles.organizationContent}
 					>
 						<Content
@@ -81,7 +100,7 @@ const TwentyNineteen = () => {
 							copy={data.departmentSection.content}
 							align="left"
 						/>
-						<Grid.Item className={styles.desicon}>
+						<Box className={styles.desicon}>
 							<Icon
 								name="liferayDesicon"
 								fill="white"
@@ -94,7 +113,7 @@ const TwentyNineteen = () => {
 							<p className={styles.p}>
 								{data.departmentSection.desicon.subtitle}
 							</p>
-						</Grid.Item>
+						</Box>
 					</Grid>
 					<div className={styles.departmentNames}>
 						{data.departmentSection.subDepartments.map(
@@ -274,23 +293,16 @@ const TwentyNineteen = () => {
 						/>
 					))}
 				</div>
-					<Flex justify="center" align="center">
-						<Link
-							to={data.designCommunity.seeMore.url}
-							className={styles.link}
-						>
-							{data.designCommunity.seeMore.title}
-						</Link>
-					</Flex>
+				<Flex justify="center" align="center">
+					<Link to={data.designCommunity.seeMore.url} className={styles.link}>
+						{data.designCommunity.seeMore.title}
+					</Link>
+				</Flex>
 			</section>
 
 			{/* DRIBBBLE */}
 			<section id="dribbble">
-				<Flex
-					direction="column"
-					align="center"
-					className={styles.dribbble}
-				>
+				<Flex direction="column" align="center" className={styles.dribbble}>
 					<Content
 						pretitle={data.dribbbleSection.pretitle}
 						title={data.dribbbleSection.title}
@@ -365,9 +377,9 @@ const TwentyNineteen = () => {
 							align="left"
 							justify="center"
 						/>
-						<Grid.Item className={styles.desicon}>
+						<Box className={styles.desicon}>
 							<img src="images/2019/global-services/gs0.png" />
-						</Grid.Item>
+						</Box>
 					</Grid>
 					<div className={styles.departmentNames}>
 						{data.globalServices.images.map(({ image }) => (
@@ -386,11 +398,7 @@ const TwentyNineteen = () => {
 
 			{/* OPERATIONS */}
 			<section id="operations">
-				<Flex
-					direction="column"
-					align="center"
-					className={styles.ops}
-				>
+				<Flex direction="column" align="center" className={styles.ops}>
 					<Content
 						pretitle={data.opsSection.pretitle}
 						title={data.opsSection.title}
