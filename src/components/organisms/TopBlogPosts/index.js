@@ -1,18 +1,19 @@
-import React from 'react'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
-import { CardGrid } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
-import {avatarPath} from 'utils'
+import { avatarPath } from 'utils'
 
 export default () => {
 	const data = useStaticQuery(graphql`
 		{
 			allMdx(
 				limit: 3
-				filter: { 
-					fileAbsolutePath: { regex: "/(articles)/" } 
-					frontmatter: { publish: {eq: true}}
-			}
+				filter: {
+					fileAbsolutePath: { regex: "/(articles)/" }
+					frontmatter: { publish: { eq: true } }
+				}
 				sort: { order: DESC, fields: [frontmatter___date] }
 			) {
 				totalCount
@@ -36,7 +37,7 @@ export default () => {
 		}
 	`)
 	return (
-		<CardGrid>
+		<Grid sx={{ variant: 'grids.threeCards' }}>
 			{data.allMdx.edges.map(({ node }, index) => (
 				<CardDefault
 					avatarImage
@@ -49,5 +50,6 @@ export default () => {
 					avatarImageURL={avatarPath(node.frontmatter.author.id)}
 				/>
 			))}
-		</CardGrid>
-	)}
+		</Grid>
+	)
+}
