@@ -1,13 +1,10 @@
-import { Flex, CardGrid, Container, Heading, AnimateIn, Icon } from 'components/atoms'
-import { CardDefault, SEO } from 'components/molecules'
+import { CardGrid, Container } from 'components/atoms'
+import { SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import React from 'react'
 import { slugToTitle, slugToIcon } from 'utils'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import styles from './styles.module.scss'
-import { fontSizes } from 'theme/'
-
+import Card from './components/Card'
 
 export default ({ data }) => {
 
@@ -20,43 +17,14 @@ export default ({ data }) => {
 			<Container background="white" heading="Research Methods" color="black">
 				<CardGrid>
 					{data.allMdx.edges.map(({ node }, index) => (
-						<AnimateIn key={node.id} delay={`${index}` * 0.1 + 's'}>
-							<article>
-                                <Flex 
-                                style={{
-                                    backgroundImage:'url(/images/resources/random-bg.svg)'
-                                }}
-                                    as='header' justify='space-between' align='center'>
-									<Heading
-										level={1}
-                                        additionalStyles={{ fontSize: fontSizes.medium, paddingBottom: '0', width: '12ch' }}
-									>
-										{slugToTitle(
-											'/resources/research/',
-											node.fields.slug,
-										)}
-									</Heading>
-									<Icon
-										name={slugToIcon(
-											'/resources/research/',
-											node.fields.slug,
-                                        )}
-                                        color='white'
-                                        width='64px'
-                                        height='64px'
-									/>
-								</Flex>
-								<section>
-									<Heading
-										level={2}
-										additionalStyles={{ fontSize: fontSizes.base }}
-									>
-										{node.frontmatter.subtitle}
-									</Heading>
-									<MDXRenderer>{node.body}</MDXRenderer>
-								</section>
-							</article>
-						</AnimateIn>
+						<Card
+							delay={`${index}` * 0.1 + 's'}
+							key={node.id}
+							title={slugToTitle('/resources/research/', node.fields.slug)}
+							icon={slugToIcon('/resources/research/', node.fields.slug)}
+							subtitle={node.frontmatter.subtitle}
+							body={node.body}
+						/>
 					))}
 				</CardGrid>
 			</Container>
@@ -65,23 +33,23 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					sort: { order: ASC, fields: fields___slug },
-					filter: { fileAbsolutePath: { regex: "/(resources/research)/" } }
-				) {
-					edges {
-						node {
-							id
-							frontmatter {
-								subtitle
-							}
-							body
-							fields {
-								slug
-							}
-						}
+	{
+		allMdx(
+			sort: { order: ASC, fields: fields___slug }
+			filter: { fileAbsolutePath: { regex: "/(resources/research)/" } }
+		) {
+			edges {
+				node {
+					id
+					frontmatter {
+						subtitle
+					}
+					body
+					fields {
+						slug
 					}
 				}
 			}
-		`
+		}
+	}
+`
