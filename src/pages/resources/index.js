@@ -34,7 +34,7 @@ const ResourcesPage = () => (
 					<CardLexicon
 						delay=".4s"
 						dark
-						icon="faqs"
+						icon="heuristic_evaluation"
 						title="Research Methods"
 						text="Resources for design researchers"
 						to="/resources/research"
