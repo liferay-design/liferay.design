@@ -1,20 +1,14 @@
+/** @jsx jsx */
+
 import { Flex, Icon, Text } from 'components/atoms'
 import { GlobalMdx } from 'components/molecules'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Footer, Navbar } from 'components/organisms'
 import { graphql } from 'gatsby'
 import React, { Component } from 'react'
-import { Button, styled } from 'reakit'
-import { colors, fontSizes } from 'theme'
+import { jsx, Button } from 'theme-ui'
 import styles from './styles.module.scss'
 import { Helmet } from 'react-helmet'
-
-const ApplyButton = styled(Button)`
-	background-color: ${colors['primary']}
-	color: ${colors['white']}
-	padding: ${fontSizes['medium']} ${fontSizes['large']}
-	height: 100%
-`
 
 export default class Careers extends Component {
 	render() {
@@ -76,21 +70,23 @@ export default class Careers extends Component {
 							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
 						<div className={styles.applyContainer}>
-							<ApplyButton
+							<Button
 								as="a"
 								target="new"
-								opaque="false"
 								href={applyLink}
+								sx={{
+									variant: 'buttons.primary',
+								}}
 							>
 								Apply on Jobvite{' '}
 								<Icon
 									name="externalLink"
-									margin="0 .2rem 0 .1rem"
+									margin="0 .2rem 0 .4rem"
 									height=".8rem"
 									width=".8rem"
 									fill="white"
 								/>
-							</ApplyButton>
+							</Button>
 							<Text type="p" style="italic">
 								(apologies in advance :grimacing:)
 							</Text>
@@ -115,7 +111,7 @@ export const pageQuery = graphql`
 				title
 				featuredImage
 			}
-				body
+			body
 		}
 	}
 `

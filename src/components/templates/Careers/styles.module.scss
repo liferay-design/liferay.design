@@ -33,19 +33,10 @@
 	font-family: $fontFamilySecondary;
 	background: white;
 	a {
-		color: inherit;
 		text-decoration: underline;
-		&:hover {
-			color: $primary;
-		}
 	}
 	.applyContainer {
 		margin-top: $spacingMedium;
-		a {
-			font-weight: $fontWeightHeavy;
-			color: white;
-			text-decoration: none;
-		}
 		p {
 			margin-top: $spacingMedium;
 		}
