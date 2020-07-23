@@ -1,6 +1,8 @@
-import React from 'react'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Container, CardGrid, Heading } from 'components/atoms'
+import { Container, Heading } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import moment from 'moment'
 
@@ -54,14 +56,14 @@ export default () => {
 		))
 	return (
 		<div>
-			{Events.length>0 ? 
-			<Container>
-				<Heading level={1} color="white" padding="4rem">
-					Upcoming Events
-				</Heading>
-				<CardGrid>{Events}</CardGrid>
-			</Container>
-			: null}
+			{Events.length > 0 ? (
+				<Container>
+					<Heading level={1} color="white" padding="4rem">
+						Upcoming Events
+					</Heading>
+					<Grid sx={{ variant: 'grids.threeCards' }}>{Events}</Grid>
+				</Container>
+			) : null}
 		</div>
 	)
 }

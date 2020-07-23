@@ -1,8 +1,10 @@
-import { CardGrid, Container, Heading } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { Container, Heading } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
-import React from 'react'
 import { headshotPath, makeAuthorSlug } from 'utils'
 
 export default ({ data }) => {
@@ -16,7 +18,7 @@ export default ({ data }) => {
 				<Heading level={1} color="white" padding="4rem">
 					The Squad
 				</Heading>
-				<CardGrid>
+				<Grid sx={{ variant: 'grids.threeCards' }}>
 					{data.allMdx.edges.map(({ node }, index) => (
 						<CardDefault
 							delay={`${index}` * 0.1 + 's'}
@@ -28,7 +30,7 @@ export default ({ data }) => {
 							icon={node.frontmatter.author.icon}
 						/>
 					))}
-				</CardGrid>
+				</Grid>
 			</Container>
 		</MainLayout>
 	)
