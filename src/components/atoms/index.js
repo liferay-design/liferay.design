@@ -1,6 +1,5 @@
 import AnimateIn from './AnimateIn'
 import Button from './Button'
-import CardGrid from './CardGrid'
 import Container from './Container'
 import ContainerMarkdown from './ContainerMarkdown'
 import Flex from './Flex'
@@ -26,7 +25,6 @@ export {
 	Text,
 	Container,
 	ContainerMarkdown,
-	CardGrid,
 	ScrollArrow,
 	ScrollProgress,
 	SiteName,

@@ -1,6 +1,9 @@
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { CardGrid, Container } from 'components/atoms'
+import { Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import {makeAuthorSlug, avatarPath} from 'utils'
 
@@ -58,7 +61,7 @@ export default ( {teammate, currentPost, ...props} ) => {
 					background="#fff"
 					padding="4rem 0 4rem"
 				>
-					<CardGrid>{Posts}</CardGrid>
+					<Grid sx={{variant: 'grids.threeCards'}}>{Posts}</Grid>
 				</Container>
 			) : (
 				null

@@ -1,9 +1,11 @@
-import { CardGrid, Container, Heading, Link, Flex } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
+import { Container, Heading, Link, Flex } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { colors, fontSizes, fontWeights } from 'theme'
 import { graphql } from 'gatsby'
-import React from 'react'
 import { avatarPath } from 'utils'
 
 export default ({ data }) => {
@@ -53,7 +55,7 @@ export default ({ data }) => {
 						</Link>
 					</div>
 				</Flex>
-				<CardGrid>
+				<Grid sx={{ variant: 'grids.threeCards' }}>
 					{data.allMdx.edges.map(({ node }, index) => (
 						<CardDefault
 							delay={`${index}` * 0.1 + 's'}
@@ -66,7 +68,7 @@ export default ({ data }) => {
 							avatarImageURL={avatarPath(node.frontmatter.author.id)}
 						/>
 					))}
-				</CardGrid>
+				</Grid>
 			</Container>
 		</MainLayout>
 	)

@@ -1,7 +1,9 @@
-import React from 'react'
+/** @jsx jsx */
+
+import { jsx, Grid } from 'theme-ui'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import { CardGrid, Container, Heading, Flex } from 'components/atoms'
+import { Container, Heading, Flex } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { colors, fontSizes, fontWeights } from 'theme'
@@ -38,7 +40,7 @@ const Tags = ({ pageContext, data }) => {
 						All Posts
 					</Link>
 				</Flex>
-				<CardGrid>
+				<Grid sx={{ variant: 'grids.threeCards' }}>
 					{data.allMdx.edges.map(({ node }) => (
 						<CardDefault
 							avatarImage
@@ -50,7 +52,7 @@ const Tags = ({ pageContext, data }) => {
 							avatarImageURL={avatarPath(node.frontmatter.author.id)}
 						/>
 					))}
-				</CardGrid>
+				</Grid>
 			</Container>
 		</MainLayout>
 	)
