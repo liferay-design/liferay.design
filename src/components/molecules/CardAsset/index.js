@@ -7,7 +7,9 @@ export default function CardAsset({ asset, title, preview, link, cta, letter }) 
 	return (
 		<Flex className={styles.container} direction="column" width="100%">
 			<Flex
-				backgroundImage={preview}
+				style={{
+					background: `${'url(' + preview + ') center/cover'}`,
+				}}
 				height="0"
 				padding={letter ? '0 0 129%' : '0 0 56.25%'}
 				width="100%"
