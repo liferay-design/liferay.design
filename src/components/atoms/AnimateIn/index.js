@@ -1,16 +1,32 @@
+/** @jsx jsx */
+
+import { jsx, Box } from 'theme-ui'
 import PropTypes from 'prop-types'
-import React from 'react'
-import styles from './styles.module.scss'
 
-const AnimateIn = ({
-	delay,
-	children
-}) => {
-
+const AnimateIn = ({ delay, children, ...props }) => {
 	return (
-		<div className={styles.animateIn} style={ delay ? {animationDelay:`${delay}`} : null }>
+		<Box
+			{...props}
+			sx={{
+				transition: 'transform 0.4s',
+				animation: 'animateIn 0.5s cubic-bezier(0.5, 1.35, 0.5, 1) forwards',
+				opacity: 0,
+				transform: 'translateY(5rem)',
+				'@keyframes animateIn': {
+					'0%': {
+						transform: 'translateY(5rem)',
+						opacity: 0,
+					},
+					'100%': {
+						transform: 'translateY(0)',
+						opacity: 1,
+					},
+				},
+				animationDelay: `${delay ? delay : null}`,
+			}}
+		>
 			{children}
-		</div>
+		</Box>
 	)
 }
 
