@@ -15,8 +15,8 @@ article {
 	display: flex;
 	flex-direction: column;
 	header {
-		background: $primary;
-		padding: $spacingSmall $cardPadding;
+		background: linear-gradient(to right, $primary, $primary-d2);
+		padding: $cardPadding;
 		border-radius: $borderRadiusInner $borderRadiusInner 0 0;
 	}
 	section {

@@ -22,7 +22,11 @@ export default ({ data }) => {
 					{data.allMdx.edges.map(({ node }, index) => (
 						<AnimateIn key={node.id} delay={`${index}` * 0.1 + 's'}>
 							<article>
-								<Flex as='header' justify='space-between' align='center'>
+                                <Flex 
+                                style={{
+                                    backgroundImage:'url(/images/resources/random-bg.svg)'
+                                }}
+                                    as='header' justify='space-between' align='center'>
 									<Heading
 										level={1}
                                         additionalStyles={{ fontSize: fontSizes.medium, paddingBottom: '0', width: '12ch' }}
@@ -38,8 +42,8 @@ export default ({ data }) => {
 											node.fields.slug,
                                         )}
                                         color='white'
-                                        width='80px'
-                                        height='80px'
+                                        width='64px'
+                                        height='64px'
 									/>
 								</Flex>
 								<section>
