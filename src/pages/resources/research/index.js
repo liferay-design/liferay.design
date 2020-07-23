@@ -1,4 +1,4 @@
-import { CardGrid, Container, Heading, AnimateIn, Icon } from 'components/atoms'
+import { Flex, CardGrid, Container, Heading, AnimateIn, Icon } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
@@ -22,10 +22,10 @@ export default ({ data }) => {
 					{data.allMdx.edges.map(({ node }, index) => (
 						<AnimateIn key={node.id} delay={`${index}` * 0.1 + 's'}>
 							<article>
-								<header>
+								<Flex as='header' justify='space-between' align='center'>
 									<Heading
 										level={1}
-										additionalStyles={{ fontSize: fontSizes.medium }}
+                                        additionalStyles={{ fontSize: fontSizes.medium, paddingBottom: '0', width: '12ch' }}
 									>
 										{slugToTitle(
 											'/resources/research/',
@@ -38,8 +38,10 @@ export default ({ data }) => {
 											node.fields.slug,
                                         )}
                                         color='white'
+                                        width='80px'
+                                        height='80px'
 									/>
-								</header>
+								</Flex>
 								<section>
 									<Heading
 										level={2}
