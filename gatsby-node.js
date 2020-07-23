@@ -40,7 +40,7 @@ exports.createPages = ({ actions, graphql }) => {
 	`).then(({ data, errors }) => {
 		if (errors) {
 			console.log('Error creating markdown pages in `createPages` call ==>', errors)
-			reject(errors)
+			throw(errors)
 		}
 
 		const pages = data.markdown.edges
