@@ -5,7 +5,7 @@ order: 56
 publish: true
 ---
 
-import { Grid } from 'reakit'
+import { Grid } from 'theme-ui'
 import { ImageDownload, CardAsset } from 'components/molecules'
 
 All these files are flattened PNG files, if you'd like an SVG or other type of vector file, please leave a [comment on this issue](https://github.com/liferay-design/liferay.design/issues/158) and contact [Paul Hanaoka](mailto:paul.hanaoka@liferay.com).
@@ -15,7 +15,7 @@ If you need icons in a different color please contact [Paul Hanaoka](mailto:paul
 <br />
 <br />
 
-<Grid templateColumns="repeat( auto-fit, minmax(240px, 1fr) )" autoRows="auto" gap="3rem">
+<Grid variant='smallCards' >
 	<CardAsset
 		title="Browse PNG Icons"
 		preview="/images/resources/icons-card.png"

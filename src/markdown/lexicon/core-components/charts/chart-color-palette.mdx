@@ -5,7 +5,7 @@ order: 222
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 import { ColorSwatch } from 'components/molecules'
 
 Colors must be the last choice you make to differentiate chart elements. Lexicon provides a specific color order and combinations and rules to follow when you create a new chart component, including patterns, dash lines, and shapes.
@@ -16,11 +16,7 @@ Colors must be the last choice you make to differentiate chart elements. Lexicon
 <br />
 <br />
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant='swatches' >
 	<ColorSwatch
 		hex="4b9fff"
 		rgb="75, 159, 255"
@@ -105,11 +101,7 @@ Use gradient colors when you don’t need a chart with embedded texts, but inste
 <br />
 <br />
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant='swatches' >
 	<ColorSwatch
 		hex="0065e4"
 		rgb="0, 101, 228"
@@ -195,8 +187,8 @@ Colors help identify data and improve readability, but they must be chosen caref
 
 Using the proper shape and color order helps avoid color vibration and lets users, including color blind users, easily identify chart sections. A pie chart example is shown below:
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ChartShapeOrderRight.png"
@@ -204,8 +196,8 @@ Using the proper shape and color order helps avoid color vibration and lets user
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ChartShapeOrderWrong.png"
@@ -213,7 +205,7 @@ Using the proper shape and color order helps avoid color vibration and lets user
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 #### Lines Charts

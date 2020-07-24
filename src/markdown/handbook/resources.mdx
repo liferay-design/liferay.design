@@ -6,10 +6,10 @@ publish: true
 ---
 
 import { CardHidden } from 'components/molecules'
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
-<Grid template="auto / 1fr 1fr" gap="2rem">
-	<Grid.Item>
+<Grid sx={{gridTemplate:"auto / 1fr 1fr", gap:"2rem" }}>
+	<Box>
 		<CardHidden
 			handbook
 			icon="lexicon"
@@ -18,8 +18,8 @@ import { Grid } from 'reakit'
 			to="/lexicon"
 			cta="Get Started"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<CardHidden
 			handbook
 			delay="0.2s"
@@ -29,8 +29,8 @@ import { Grid } from 'reakit'
 			to="/blueprints"
 			cta="The Blue Abides"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<CardHidden
 			handbook
 			delay=".3s"
@@ -40,8 +40,8 @@ import { Grid } from 'reakit'
 			to="/resources/figma"
 			cta="Help Us, Help You"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<CardHidden
 			handbook
 			delay=".4s"
@@ -51,8 +51,8 @@ import { Grid } from 'reakit'
 			to="https://help.liferay.design"
 			cta="Read the manual"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<CardHidden
 			handbook
 			delay=".5s"
@@ -62,8 +62,8 @@ import { Grid } from 'reakit'
 			to="https://style.liferay.design"
 			cta="Get in Style"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<CardHidden
 			handbook
 			delay=".6s"
@@ -73,7 +73,7 @@ import { Grid } from 'reakit'
 			to="https://dashboard.liferay.design"
 			cta="Sneak a Peek"
 		/>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br />

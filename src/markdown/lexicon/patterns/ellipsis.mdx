@@ -5,7 +5,7 @@ order: 134
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 The ellipsis is a text convention borrowed from editorial design to digital interfaces. Commonly represented with a set of three dots. It communicates the idea that there is more content that isn’t shown or there is something more to be done. 
 
@@ -13,21 +13,21 @@ This subtle interaction detail helps users to **unconsciously anticipate** the a
 
 ### Types
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="4rem">
-    <Grid.Item>
+<Grid variant='smallCards' >
+    <Box>
         <p><strong>Horizontal</strong></p> 
         <div class="image-container">
             <img src="/images/lexicon/EllipsisHorizontal.png" alt="horizontal ellipsis" />
         </div>
         <em>The most common usage on interfaces</em>
-    </Grid.Item>
-    <Grid.Item>
+    </Box>
+    <Box>
         <p><strong>Vertical</strong></p>
         <div class="image-container">
             <img src="/images/lexicon/EllipsisVertical.png" alt="vertical ellipsis" />
         </div>
         <em>It works better for narrow spaces</em>
-    </Grid.Item>
+    </Box>
 </Grid>
 <br />
 So, which is the better option? Lexicon doesn't provide a rule for using one over the other. Once the ellipsis type is chosen, it must be consistently used in all the same scenarios when designing a product.   
@@ -49,19 +49,19 @@ _Two types of ellipsis: in the end and in the middle_
 
 Use [tooltips](/lexicon/core-components/popovers-tooltips/) to show the complete text using ellipsis. However, if the text is not relevant for the user or the text length exceeds a normal time to read it, do not show a tooltip. 
 
-<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
-    <Grid.Item>
+<Grid variant='smallCards' >
+    <Box>
         <div class="image-container">
             <img src="/images/lexicon/EllipsisTooltipDo.png" alt="3 Document items. One of them has its title truncated showing a tooltip with the full text." />
         </div>
         <p class="do">Do</p>
-    </Grid.Item>
-    <Grid.Item>
+    </Box>
+    <Box>
         <div class="image-container">
             <img src="/images/lexicon/EllipsisTooltipDont.png" alt="2 Card items. One of them has its description truncated showing a tooltip with the full text covering the next card." />
         </div>
         <p class="dont">Don't</p>
-    </Grid.Item>
+    </Box>
 </Grid>
 
 #### Additional action
@@ -72,19 +72,19 @@ Use ellipsis for actions or menu items when additional information is required t
 
 The absence of ellipsis in a command communicates that triggering said command will perform the action and have an immediate effect. As seen below on the left side, users won’t need to execute any other action as results will be shown directly after submitting their search.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="4rem">
-    <Grid.Item>
+<Grid variant='smallCards' >
+    <Box>
         <div class="image-container">
             <img src="/images/lexicon/EllipsisSearch.png" alt="search box" />
         </div>
         <p class="do">Do</p>
-    </Grid.Item>
-    <Grid.Item>
+    </Box>
+    <Box>
         <div class="image-container">
             <img src="/images/lexicon/EllipsisSearchAvoid.png" alt="search box using ellipsis" />
         </div>
         <p class="avoid">Avoid</p>
-    </Grid.Item>
+    </Box>
 </Grid>
 
 **It requires more input**

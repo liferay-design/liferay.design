@@ -5,7 +5,7 @@ order: 80
 publish: true
 ---
 
-import { Grid } from 'reakit'
+import { Grid } from 'theme-ui'
 import { ImageDownload } from 'components/molecules'
 
 All the stickers are ready to print at our preferred vendor [Sticker Mule](https://www.stickermule.com "Sticker Mule"). If you'd like to use these designs for other print or digital purposes, please contact Communication Design with your specific request at [#d-comm-des](https://liferay.slack.com/archives/CKETJ1DTR "Commdesign Slack Channel").
@@ -13,11 +13,7 @@ All the stickers are ready to print at our preferred vendor [Sticker Mule](https
 
 ## Newest
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	gap="0 4rem"
-	autoRows="auto"
->
+<Grid variant='smallCards' >
     <ImageDownload
 		type="Icon"
 		title="Grow and Get Better - Floral"
@@ -64,11 +60,7 @@ All the stickers are ready to print at our preferred vendor [Sticker Mule](https
 
 ## Ray and Alloy
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	gap="0 4rem"
-	autoRows="auto"
-	>
+<Grid variant='smallCards' >
     <ImageDownload
 		type="Icon"
 		title="Future Ray"
@@ -136,11 +128,7 @@ All the stickers are ready to print at our preferred vendor [Sticker Mule](https
 
 ## General
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	gap="0 4rem"
-	autoRows="auto"
->
+<Grid variant='smallCards' >
     <ImageDownload
 		type="Icon"
 		title="Devcon 2019"

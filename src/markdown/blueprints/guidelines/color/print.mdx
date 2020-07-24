@@ -4,7 +4,7 @@ description: 'Using colors for print.'
 publish: true
 ---
 
-import { Grid } from 'reakit'
+import { Grid } from 'theme-ui'
 import { ColorSwatch } from 'components/molecules'
 
 If you'd like, download our [.ase file](/files/colors/print/liferay-brand-palette-cmyk.ase) for use across Adobe Products.
@@ -15,11 +15,7 @@ If you'd like, download our [.ase file](/files/colors/print/liferay-brand-palett
 
 ## Primary
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant='swatches' >
 	<ColorSwatch
 		cmyk="92, 75, 0, 0"
 		name="primary"
@@ -46,11 +42,7 @@ If you'd like, download our [.ase file](/files/colors/print/liferay-brand-palett
 
 ## Neutrals
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant='swatches' >
 	<ColorSwatch cmyk="13, 7, 8, 0" name="neutral1" title="Hoth 1" pms="[TODO]" />
 	<ColorSwatch cmyk="28, 18, 18, 0" name="neutral2" title="Hoth 2" pms="[TODO]" />
 	<ColorSwatch cmyk="46, 31, 30, 0" name="neutral3" title="Hoth 3" pms="[TODO]" />
@@ -68,11 +60,7 @@ If you'd like, download our [.ase file](/files/colors/print/liferay-brand-palett
 
 ## Accent
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant='swatches' >
 	<ColorSwatch cmyk="100, 96, 11, 4" name="accent1" title="Yavin IV" pms="2746C" />
 	<ColorSwatch cmyk="0, 63, 78, 0" name="accent2" title="Jakku" pms="164C" />
 	<ColorSwatch cmyk="18, 96, 92, 7" name="accent3" title="Mustafar" pms="711C" />

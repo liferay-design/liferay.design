@@ -5,19 +5,19 @@ order: 602
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 import { Image } from 'components/atoms'
 
 <Grid templateColumns="40px 1fr" autoRows="auto" gap="1rem">
-	<Grid.Item>
+	<Box>
 		<Image
 			margin="2px 0"
 			circle
 			src="/images/lexicon/headshots/bargaid-duuriimaa.jpg"
 			alt="duuriimaa bargaid"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<i class="designerInfo">
 			By Duuriimaa Bargaid
 			<br />
@@ -26,7 +26,7 @@ import { Image } from 'components/atoms'
 			<br />
 			<br />
 		</i>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 The Documents and Media library stores files. The documents preview allows the user to view, comment on, and share, download, edit files.

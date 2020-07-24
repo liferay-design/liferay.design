@@ -7,7 +7,7 @@ order: 341
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ### Usage
 
@@ -113,25 +113,25 @@ Note that the actions menu has a limitation on the hover state. It is not possib
 
 Never hide an action in the table since both static actions in the row and quick actions are not compatible. Quick actions will always hover an action placed in the table row and it will be impossible to reach, as shown for the "Edit" button in the example below.
 
-<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/TableRowInteractionDo.jpg"
 			alt="first, table view row default, second, table view row hover. There is no action to hover in the row. Correct."
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
+	</Box>
 </Grid>
-<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/TableRowInteractionDont.jpg"
 			alt="first, table view row default with a button at the end, second, table view row hover. An action is hovered by quick actions. Incorrect."
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 ### Columns drag and drop

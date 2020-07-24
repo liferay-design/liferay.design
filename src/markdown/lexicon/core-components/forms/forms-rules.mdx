@@ -5,7 +5,7 @@ order: 254
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ### Fields’ order
 
@@ -56,8 +56,8 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 
 1. Never use two primary buttons together. There must only be one primary button that represents the most important action.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/FormButtonPrimaryDo.jpg"
@@ -65,8 +65,8 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/FormButtonPrimaryDont.jpg"
@@ -74,7 +74,7 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -82,8 +82,8 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 
 2. Always use concrete words, rather than general words such as "Ok".
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/FormButtonPrimaryTextDo.jpg"
@@ -91,8 +91,8 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/FormButtonPrimaryTextDont.jpg"
@@ -100,7 +100,7 @@ Interior form actions are not as widely used as general actions. Therefore, use 
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
