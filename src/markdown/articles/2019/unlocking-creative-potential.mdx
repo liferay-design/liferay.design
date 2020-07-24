@@ -8,7 +8,7 @@ publish: true
 
 import { FormNewsletter } from 'components/molecules'
 import { Flex, Image, Heading, Text, Link } from 'components/atoms'
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 <Text color="grey" type="p" size="large" margin="large">
 	Helping a nonprofit scale, to serve at-risk communities more effectively, by design.
@@ -114,11 +114,17 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 ## Meet the Team
 
 <div style="width:102%;margin-left:-1%;">
-	<Grid templateColumns="3rem 1fr 3rem 1fr" autoRows="auto" gap="1rem">
-		<Grid.Item>
+	<Grid
+		sx={{
+			gridTemplateColumns: '3rem 1fr 3rem 1fr',
+			autoRows: 'auto',
+			gridGap: '1rem',
+		}}
+	>
+		<Box>
 			<Image src="images/headshots/connolly-ryan.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/connolly-ryan">
 				<Heading level={3}>Ryan Connolly</Heading>
 			</Link>
@@ -128,11 +134,11 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				thankfully he has diverted his energy to the latter. His agency background
 				really shines when he gets his hands on a raw, new brand.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/hancock-abel.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/hancock-abel">
 				<Heading level={3}>Abel Hancock</Heading>
 			</Link>
@@ -140,11 +146,11 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				Liferay.com’s designer extraordinaire, Abel brings a wealth of web design
 				experience. He’s also done his fair share of Webflow sites.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/jeong-christopher.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/jeong-chris">
 				<Heading level={3}>Chris Jeong</Heading>
 			</Link>
@@ -152,11 +158,11 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				Our resident researcher, Chris loves breaking down complex workflows into
 				manageable chunks and knocking them out.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/kim-david.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/kim-david">
 				<Heading level={3}>David Kim</Heading>
 			</Link>
@@ -164,22 +170,22 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				Despite being in the middle of moving from West LA to the Inland Empire,
 				David helped out with the scheduling process.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/levy-yotam.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Heading level={3}>Yotam Levy</Heading>
 			<Text>
 				He calls himself a “blacksmith, but for words”. We’re still trying to
 				figure out if there’s a more marketable way to say this, but he’s been too
 				busy helping polish the brand messaging and website copy.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/lyons-james.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/lyons-james">
 				<Heading level={3}>James Lyons</Heading>
 			</Link>
@@ -187,11 +193,11 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				James is one of our resident tool guys, he also likes to sit for hours
 				watching Gmail migrations move at a snail’s pace.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/pentz-patrick.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/pentz-patrick">
 				<Heading level={3}>Patrick Pentz</Heading>
 			</Link>
@@ -199,11 +205,11 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				PJ is our persona whisperer, he’s learned from the best, and worked with
 				Chris to design human-centric, automated processes.
 			</Text>
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Image src="images/headshots/wood-jon.jpg" circle margin=".5rem 0" />
-		</Grid.Item>
-		<Grid.Item>
+		</Box>
+		<Box>
 			<Link to="/team/wood-jon">
 				<Heading level={3}>Jon Wood</Heading>
 			</Link>
@@ -212,7 +218,7 @@ For example, it would be hugely beneficial if they could obviate the need for fi
 				development, Jon and his wife hosted the team at their home for a few days
 				and provided some very fancy espresso drinks.
 			</Text>
-		</Grid.Item>
+		</Box>
 	</Grid>
 </div>
 

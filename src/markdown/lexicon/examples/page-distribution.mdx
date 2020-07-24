@@ -5,19 +5,19 @@ order: 603
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 import { Image } from 'components/atoms'
 
 <Grid templateColumns="40px 1fr" autoRows="auto" gap="1rem">
-	<Grid.Item>
+	<Box>
 		<Image
 			margin="2px 0"
 			circle
 			src="/images/lexicon/headshots/anton-juan.jpg"
 			alt="juan anton"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<i class="designerInfo">
 			By Juan Antón
 			<br />
@@ -26,7 +26,7 @@ import { Image } from 'components/atoms'
 			<br />
 			<br />
 		</i>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 Organizing pages for a site can be hard to carry tasks. Sites can have thousands of pages and solutions like a page tree can go under performance issues due to the amount of information to load in the screen.

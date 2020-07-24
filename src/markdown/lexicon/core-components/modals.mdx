@@ -7,7 +7,7 @@ order: 301
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ![modal window](/images/lexicon/Modal.png)
 
@@ -21,8 +21,8 @@ interrupt the workflow and coexist with the main page. In other words, alerts ar
 way as users are not required to perform any action.
 <br/>
 <br/>
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<p class="do-table">Do</p>
 		<ul>
 			<li>
@@ -36,8 +36,8 @@ way as users are not required to perform any action.
 				information or capture data from the user.
 			</li>
 		</ul>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<p class="dont-table">Don't</p>
 		<ul>
 			<li>
@@ -53,7 +53,7 @@ way as users are not required to perform any action.
 				Never completely cover the page's information with the modal window.
 			</li>
 		</ul>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 
@@ -128,8 +128,8 @@ When describing the modal, provide relevant information that might be useful for
 
 Avoid giving unclear options. Users must be able to understand the choices reading the title and the options.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ModalsDoAction.png"
@@ -137,8 +137,8 @@ Avoid giving unclear options. Users must be able to understand the choices readi
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ModalsDontAction.png"
@@ -146,7 +146,7 @@ Avoid giving unclear options. Users must be able to understand the choices readi
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 ### Size

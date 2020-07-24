@@ -4,7 +4,7 @@ description: 'Using colors in digital applications'
 publish: true
 ---
 
-import { Grid } from 'reakit'
+import { Grid } from 'theme-ui'
 import { ColorSwatch } from 'components/molecules'
 
 ## Main
@@ -15,11 +15,7 @@ We aim to use color intentionally &mdash; this means being generous with whitesp
 <br />
 <br />
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant="swatches">
 	<ColorSwatch
 		hex="0b63ce"
 		rgb="11, 99, 206"
@@ -55,11 +51,7 @@ Color does have meaning in certain contexts &mdash; in very specific use-cases, 
 <br />
 <br />
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant="swatches">
 	<ColorSwatch
 		hex="DA1414"
 		rgb="218, 20, 20"
@@ -113,11 +105,7 @@ In efforts to minimize the number of colors in any given design, we employ a ran
 <br />
 <br />
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant="swatches">
 	<ColorSwatch
 		hex="2C3A4B"
 		rgb="44, 58, 75"
@@ -195,11 +183,7 @@ It is occasionally necessary to use accent colors to help differentiate items or
 <br />
 <br />
 
-<Grid
-	templateColumns="repeat( auto-fit, minmax(200px, 1fr) )"
-	autoRows="auto"
-	gap="3.3rem 3rem"
->
+<Grid variant="swatches">
 	<ColorSwatch
 		hex="1AA0E8"
 		rgb="22, 140, 202"
