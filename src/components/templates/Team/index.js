@@ -90,7 +90,10 @@ export default class Team extends Component {
 
 export const pageQuery = graphql`
 	query($slug: String!) {
-		mdx(fields: { slug: { eq: $slug } }) {
+		mdx(
+			fields: { slug: { eq: $slug } }
+			frontmatter: { author: { active: { eq: true } } }
+		) {
 			frontmatter {
 				author {
 					id
