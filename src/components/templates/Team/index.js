@@ -92,7 +92,6 @@ export const pageQuery = graphql`
 	query($slug: String!) {
 		mdx(
 			fields: { slug: { eq: $slug } }
-			frontmatter: { author: { active: { eq: true } } }
 		) {
 			frontmatter {
 				author {
