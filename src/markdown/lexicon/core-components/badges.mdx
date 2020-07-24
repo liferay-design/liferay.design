@@ -7,7 +7,7 @@ order: 203
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ![defualt size default color badge](/images/lexicon/Badges.png)
 
@@ -27,8 +27,8 @@ import { Grid } from 'reakit'
 
 Badges can be placed near text, but there must be a minimum distance of 8px between the two.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/BadgeDoDistance.png"
@@ -36,8 +36,8 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/BadgeDontDistance.png"
@@ -45,7 +45,7 @@ Badges can be placed near text, but there must be a minimum distance of 8px betw
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>

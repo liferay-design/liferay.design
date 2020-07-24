@@ -6,7 +6,7 @@ publish: true
 ---
 
 import { Icon } from 'components/atoms'
-import { Grid } from 'reakit'
+import { Grid } from 'theme-ui'
 import { CardAsset } from 'components/molecules'
 
 Before you do anything with these files, make sure you thoroughly review our [logo guidelines](/blueprints/guidelines/logo-usage)!
@@ -15,21 +15,19 @@ Downloads are grouped by Digital and Print formats and include approved colors a
 
 ## Special Marks
 
-<Grid templateColumns="repeat( auto-fit, minmax(240px, 1fr) )" autoRows="auto" gap="3rem">
-	<CardAsset
-		title="15th Anniversary Badge"
-		preview="/images/logos/lr-15th-anniversary.png"
-		cta="Open in Google Drive"
-		link="https://drive.google.com/drive/folders/15ogXsSn_lLnNxHu8zQnEmapAxUaENMZZ?usp=sharing"
-	/>
-</Grid>
+<CardAsset
+	title="15th Anniversary Badge"
+	preview="/images/logos/lr-15th-anniversary.png"
+	cta="Open in Google Drive"
+	link="https://drive.google.com/drive/folders/15ogXsSn_lLnNxHu8zQnEmapAxUaENMZZ?usp=sharing"
+/>
 
 <br />
 <br />
 
 ## Corporate Marks
 
-<Grid templateColumns="repeat( auto-fit, minmax(240px, 1fr) )" autoRows="auto" gap="3rem">
+<Grid variant='smallCards' >
 	<CardAsset
 		title="Liferay Logo"
 		preview="/images/logos/liferay-logo.png"
@@ -53,7 +51,7 @@ Downloads are grouped by Digital and Print formats and include approved colors a
 
 ## Product Logos
 
-<Grid templateColumns="repeat( auto-fit, minmax(240px, 1fr) )" autoRows="auto" gap="3rem">
+<Grid variant='smallCards' >
 	<CardAsset
 		title="DXP"
 		preview="/images/logos/liferay-dxp.png"

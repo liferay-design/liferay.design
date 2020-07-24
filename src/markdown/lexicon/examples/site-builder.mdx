@@ -5,19 +5,19 @@ order: 605
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 import { Image } from 'components/atoms'
 
 <Grid templateColumns="40px 1fr" autoRows="auto" gap="1rem">
-	<Grid.Item>
+	<Box>
 		<Image
 			margin="2px 0"
 			circle
 			src="/images/lexicon/headshots/anton-juan.jpg"
 			alt="juan anton"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<i class="designerInfo">
 			By Juan Antón
 			<br />
@@ -26,7 +26,7 @@ import { Image } from 'components/atoms'
 			<br />
 			<br />
 		</i>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 As part of the Modern Site Building project, the new editor represents an important shift in the way we create pages in Liferay. A completely new approach that has as main objective to empower business and non-technical users.

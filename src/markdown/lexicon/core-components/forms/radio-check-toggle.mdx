@@ -7,7 +7,7 @@ order: 256
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ## Checkbox
 
@@ -39,23 +39,23 @@ Checkboxes are commonly grouped in forms to provide a set of options.
 
 Capitalize the checkbox's label.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/CheckboxCapitalizeDo.jpg"
 			alt="Checkbox text is capitalized"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/CheckboxCapitalizeDont.jpg"
 			alt="Checkbox text is not capitalized"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -63,23 +63,23 @@ Capitalize the checkbox's label.
 
 Use checkboxes for multiple choices in a set of options.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 			<img
 				style={{ marginTop: '1.5rem' }}
 				src="/images/lexicon/CheckboxSwitchDo.jpg"
 				alt="List of checkboxes to select options"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 			<img
 				style={{ marginTop: '1.5rem' }}
 				src="/images/lexicon/CheckboxSwitchDont.jpg"
 				alt="list of switches to select options"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -87,16 +87,16 @@ Use checkboxes for multiple choices in a set of options.
 
 Use checkboxes when more than one option can be selected.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 			<img
 				style={{ marginTop: '3rem' }}
 				src="/images/lexicon/CheckboxDo.jpg"
 				alt="List of checkboxes to select options"
 			/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				style={{ marginTop: '1.5rem' }}
@@ -105,7 +105,7 @@ Use checkboxes when more than one option can be selected.
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br />
@@ -164,23 +164,23 @@ It can be difficult to decide whether to use a radio or a dropdown menu when use
 
 Capitalize a radio button's label.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/RadioCapitalizeDo.jpg"
 			alt="Radio text is capitalized"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/RadioCapitalizeDont.jpg"
 			alt="radio text is not capitalized"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -188,23 +188,23 @@ Capitalize a radio button's label.
 
 Use radios when only one option can be selected.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/RadioDo.jpg"
 			alt="radio group with one option selected"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/RadioDont.jpg"
 			alt="radio group with two options selected"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br />
@@ -232,23 +232,23 @@ A switch can be in one of four different states:
 
 1.  Capitalize a toggle switch's label.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/SwitchCapitalizeDo.jpg"
 			alt="Radio text is capitalized"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/SwitchCapitalizeDont.jpg"
 			alt="radio text is not capitalized"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -256,23 +256,23 @@ A switch can be in one of four different states:
 
 2.  Use toogles for activation.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/SwitchRadioDo.jpg"
 			alt="Switch list one activated"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/SwitchRadioDont.jpg"
 			alt="Radio group one activated"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -280,26 +280,26 @@ A switch can be in one of four different states:
 
 3.  Use checkboxes instead of toggles in confirmation messages.
 
-<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/SwitchCheckboxDo.jpg"
 			alt="Checkbox to accept terms of use"
 		/>
 		<p class="do">Do</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
-<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<img
 			style={{ marginTop: '1.5rem' }}
 			src="/images/lexicon/SwitchCheckboxDont.jpg"
 			alt="Switch to accept terms of use"
 		/>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 <br/>
 <br/>

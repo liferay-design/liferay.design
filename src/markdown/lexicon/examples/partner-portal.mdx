@@ -5,19 +5,19 @@ order: 604
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 import { Image } from 'components/atoms'
 
 <Grid templateColumns="40px 1fr" autoRows="auto" gap="1rem">
-	<Grid.Item>
+	<Box>
 		<Image
 			margin="2px 0"
 			circle
 			src="/images/lexicon/headshots/pentz-patrick.jpg"
 			alt="Patrick Pentz"
 		/>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<i class="designerInfo">
 			By Patrick Pentz
 			<br />
@@ -26,7 +26,7 @@ import { Image } from 'components/atoms'
 			<br />
 			<br />
 		</i>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 Liferay's Partner Portal is the one-stop shop for everything partners need to manage their Liferay business. The portal allows our partners to register and track sales opportunities, manage subscription renewals, request marketing development funds, stay up to date with partner news, and access a variety of Liferay business resources.

@@ -41,7 +41,6 @@
 		"react-slick": "~0.25.2",
 		"react-typography": "^0.16.19",
 		"readline-sync": "^1.4.10",
-		"reakit": "~0.16.0",
 		"slick-carousel": "~1.8.1",
 		"theme-ui": "^0.3.1",
 		"typescript": "^3.9.7",
