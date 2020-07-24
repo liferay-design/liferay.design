@@ -36,7 +36,7 @@ export const query = graphql`
 	{
 		allMdx(
 			sort: { order: ASC, fields: fields___slug }
-			filter: { fileAbsolutePath: { regex: "/(resources/research)/" } }
+			filter: { fileAbsolutePath: { regex: "/(resources/research/)/" } }
 		) {
 			edges {
 				node {
