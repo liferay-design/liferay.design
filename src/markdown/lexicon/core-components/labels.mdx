@@ -7,7 +7,7 @@ order: 281
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ### Overview
 
@@ -83,8 +83,8 @@ Labels can have two different sizes:
 
 1. Labels categorize information and provide quick recognition. They do not contain badges.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/LabelSmallDo.jpg"
@@ -92,8 +92,8 @@ Labels can have two different sizes:
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 		<img
 			src="/images/lexicon/LabelSmallDont.jpg"
@@ -101,15 +101,15 @@ Labels can have two different sizes:
 		/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 <br/>
 <br/>
 
 2. Labels can only contain one line of text.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/LabelTextDo.jpg"
@@ -117,8 +117,8 @@ Labels can have two different sizes:
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/LabelTextDontLines.jpg"
@@ -126,21 +126,21 @@ Labels can have two different sizes:
 			/>
 			</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 <br/>
 <br/>
 
 3. Never use Ellipsis on labels.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img src="/images/lexicon/LabelTextDo.jpg" alt="default label" />
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/LabelTextDontEllipsis.jpg"
@@ -148,21 +148,21 @@ Labels can have two different sizes:
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 <br/>
 <br/>
 
 4. Keep your text short, up to 1 or 2 words.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img src="/images/lexicon/CollectionLabel.png" alt="default label" />
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/CollectionLabelLong.png"
@@ -170,21 +170,21 @@ Labels can have two different sizes:
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 <br/>
 <br/>
 
 5. Don’t use bold status labels alongside many other status labels.
 
-<Grid templateColumns="1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img src="/images/lexicon/StatusLabelsTableDo.png" alt="Outline Status Labels in a Table" />
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/BoldLabelsTableDont.png"
@@ -192,21 +192,21 @@ Labels can have two different sizes:
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 <br/>
 <br/>
 
 6. Use color labels for status only.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img src="/images/lexicon/SuccessLabel.png" alt="SuccessLabel" />
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/StatusLabelsNotStatus.png"
@@ -214,5 +214,5 @@ Labels can have two different sizes:
 			/>
 		</div>
 		<p class="avoid">Avoid</p>
-	</Grid.Item>
+	</Box>
 </Grid>

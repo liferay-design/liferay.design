@@ -43,5 +43,15 @@ export default {
 			],
 			gap: '2rem',
 		},
+		swatches: {
+			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
+			autoRows: 'auto',
+			gap: '3.3rem 3rem',
+		},
+		smallCards: {
+			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
+			autoRows: 'auto',
+			gap: '2rem',
+		}
 	},
 }

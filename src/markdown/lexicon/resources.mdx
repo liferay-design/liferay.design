@@ -5,15 +5,15 @@ order: 800
 draft: false
 ---
 
-import { Button, Grid } from 'reakit'
+import { Button, Grid, Box } from 'theme-ui'
 import { Link } from 'components/atoms'
 
 ### Design Libraries
 
 Creating your own interfaces using Lexicon is pretty easy using our Figma or Sketch libraries. Our libraries provide you with our foundations and components that you can use to build your interfaces.
 
-<Grid templateColumns="1fr 1fr 1fr" textAlign="center" autoRows="auto" gap="1rem">
-	<Grid.Item>
+<Grid sx={{gridTemplateColumns:"1fr 1fr 1fr", textAlign:"center", gridGap:"1rem"}}>
+	<Box>
 		<div style={{ margin: 'auto', width: '90%' }}>
 			<img
 				style={{ margin: '1.5rem', width: '6rem' }}
@@ -24,8 +24,8 @@ Creating your own interfaces using Lexicon is pretty easy using our Figma or Ske
 				<Button>View in Figma</Button>
 			</Link>
 		</div>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div style={{ margin: 'auto', width: '90%' }}>
 			<img
 				style={{ margin: '1.5rem', width: '6rem' }}
@@ -37,7 +37,7 @@ Creating your own interfaces using Lexicon is pretty easy using our Figma or Ske
 			</Link>
 			<p style={{ fontStyle: 'italic', color: '#6B6C7E' }}>No longer supported</p>
 		</div>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 ### Blog posts

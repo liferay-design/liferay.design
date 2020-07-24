@@ -7,7 +7,7 @@ order: 204
 draft: false
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 
 ![set of three button types in default state](/images/lexicon/ButtonDefault.png)
 
@@ -75,8 +75,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 
 1. Use the same height for all the buttons that are in the same row.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonSizeDo.png"
@@ -84,8 +84,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonSizeDont.png"
@@ -93,7 +93,7 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -102,8 +102,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 
 2. Characters can not all be uppercase in a button.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonCapitalizationDo.png"
@@ -111,8 +111,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonCapitalizationDont.png"
@@ -120,7 +120,7 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -129,8 +129,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 
 3. Text can not wrap multiple lines. It must all be on one line.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonWrapDo.png"
@@ -138,8 +138,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonWrapDont.png"
@@ -147,7 +147,7 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br/>
@@ -156,8 +156,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 
 4. A borderless button must be placed either before or after a set of bordered buttons.
 
-<Grid templateColumns="1fr 1fr" autoRows="auto" gap="2rem">
-	<Grid.Item>
+<Grid variant='smallCards' >
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonIconDo.png"
@@ -165,8 +165,8 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="do">Do</p>
-	</Grid.Item>
-	<Grid.Item>
+	</Box>
+	<Box>
 		<div class="image-container">
 			<img
 				src="/images/lexicon/ButtonIconDont.png"
@@ -174,7 +174,7 @@ The small size is a height of 32px. It is used for actions inside a page, such a
 			/>
 		</div>
 		<p class="dont">Don't</p>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <br />

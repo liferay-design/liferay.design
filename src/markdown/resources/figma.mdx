@@ -4,15 +4,17 @@ description: 'Open Sourced Figma Projects from Liferay.Design!'
 order: 10
 ---
 
-import { Grid } from 'reakit'
+import { Grid, Box } from 'theme-ui'
 import { CardLexicon } from 'components/molecules'
 
 <Grid
-	template='"tlg tlc trc rg" auto "lg m m rg" auto "lg blc brc brg" auto / 1rem 5fr 5fr 1rem'
-	gap="2rem"
-	marginBottom="8rem"
+	sx={{
+		gridTemplate:'"tlg tlc trc rg" auto "lg m m rg" auto "lg blc brc brg" auto / 1rem 5fr 5fr 1rem',
+		gridGap:"2rem",
+		mb:"8rem",
+	}}
 >
-	<Grid.Item area="m">
+	<Box sx={{gridArea:"m"}}>
 		<CardLexicon
 			image
 			imageUrl="/images/resources/lexicon-cover.png"
@@ -23,8 +25,8 @@ import { CardLexicon } from 'components/molecules'
 			to="https://www.figma.com/file/fvvqKW4bIPIUfWqrtLAjD4/lexicon-dsl?node-id=254%3A3578"
 			cta="Open in Figma"
 		/>
-	</Grid.Item>
-	<Grid.Item area="blc">
+	</Box>
+	<Box sx={{gridArea:"blc"}}>
 		<CardLexicon
 			delay="0.4s"
 			image
@@ -35,8 +37,8 @@ import { CardLexicon } from 'components/molecules'
 			to="https://www.figma.com/file/6GlUEYKNbmobxSgfW2fRQA/liferay.design-utilities?node-id=428%3A1962"
 			cta="Open in Figma"
 		/>
-	</Grid.Item>
-	<Grid.Item area="brc">
+	</Box>
+	<Box sx={{gridArea:"brc"}}>
 		<CardLexicon
 			delay="0.8s"
 			image
@@ -47,7 +49,7 @@ import { CardLexicon } from 'components/molecules'
 			to="https://www.figma.com/file/9aU1KheoJlBTHfX27El0BW/stylized-components?node-id=31%3A676"
 			cta="Open in Figma"
 		/>
-	</Grid.Item>
+	</Box>
 </Grid>
 
 <span style="text-align: center; display: inherit; font-style: italic;">
