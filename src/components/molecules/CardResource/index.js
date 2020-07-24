@@ -1,4 +1,7 @@
-import { Flex, Heading, AnimateIn, Icon } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Flex } from 'theme-ui'
+import { Heading, AnimateIn, Icon } from 'components/atoms'
 import React, { Component } from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import styles from './styles.module.scss'
@@ -7,24 +10,23 @@ import { colors, fontSizes } from 'theme/'
 export class CardResource extends Component {
 	render() {
 		const randomBackgroundPosition = Math.floor(Math.random() * 100) + 1 + '%'
-        const { delay, key, title, icon, subtitle, body } = this.props
+		const { delay, key, title, icon, subtitle, body } = this.props
 		return (
 			<AnimateIn key={key} delay={delay}>
 				<article>
 					<Flex
-						style={{
+						sx={{
 							background:
-								'center ' +
-								randomBackgroundPosition +
-								'/50% url(/images/resources/random-bg.svg) repeat-y, linear-gradient(to right,' +
+								'center url(/images/resources/random-bg.svg) repeat-y, linear-gradient(to right,' +
 								colors.primary +
 								',' +
 								colors.primaryd2 +
 								')',
+							backgroundPosition: `${'50% ' + randomBackgroundPosition}`,
+							justifyContent: 'space-between',
+							alignItems: 'center',
 						}}
 						as="header"
-						justify="space-between"
-						align="center"
 					>
 						<Heading
 							level={1}
