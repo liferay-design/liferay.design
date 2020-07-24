@@ -45,7 +45,7 @@ const ResourcesPage = () => (
 					<CardLexicon
 						delay=".3s"
 						dark
-						icon="fa_figma"
+						icon="fa_figma_one_color"
 						title="Figma Resources"
 						text="Open Source Design Projects"
 						to="/resources/figma"
@@ -56,7 +56,7 @@ const ResourcesPage = () => (
 					<CardLexicon
 						delay="0.2s"
 						dark
-						icon="whyBlueprints"
+						icon="whyBlueprints_one_color"
 						title="Blueprints"
 						text="Liferay's Brand Style Guidelines"
 						to="/blueprints"
