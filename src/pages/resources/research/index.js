@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
-import { jsx, Grid } from 'theme-ui'
-import { Container } from 'components/atoms'
+import { jsx, Grid, Box } from 'theme-ui'
+import { Container, Link, Heading } from 'components/atoms'
 import { SEO, CardResource } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
@@ -16,7 +16,7 @@ export default ({ data }) => {
 			/>
 			<Container background="white" heading="Research Methods" color="black">
 				<Grid sx={{ variant: 'grids.threeCards' }}>
-					{data.allMdx.edges.map(({ node }, index) => (
+					{data.cards.edges.map(({ node }, index) => (
 						<CardResource
 							delay={`${index}` * 0.1 + 's'}
 							key={node.id}
@@ -26,6 +26,18 @@ export default ({ data }) => {
 							body={node.body}
 						/>
 					))}
+					<Box sx={{ mt: '6rem' }}>
+						<Link to="/resources/research-attribution">
+							<Heading>Icon Attribution</Heading>
+							<p>
+								Thanks to the Noun Project for supplying many of the icons
+								used in these cards.
+							</p>
+							<p>
+								For a comprehensive list, visit our full attribution page.
+							</p>
+						</Link>
+					</Box>
 				</Grid>
 			</Container>
 		</MainLayout>
@@ -34,7 +46,7 @@ export default ({ data }) => {
 
 export const query = graphql`
 	{
-		allMdx(
+		cards: allMdx(
 			sort: { order: ASC, fields: fields___slug }
 			filter: { fileAbsolutePath: { regex: "/(resources/research/)/" } }
 		) {
