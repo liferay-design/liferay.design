@@ -6,7 +6,6 @@ $borderRadiusOuter:  $spacingSmall;
 $borderRadiusInner: $borderRadiusOuter / 1.7;
 
 article {
-	// font-family: $fontFamilySecondary;
 	background-color: $primary-l3;
 	border: $spacingSmall solid $primary-l3;
 	border-radius: $borderRadiusOuter;
@@ -33,7 +32,10 @@ article {
 		color: white;
 	}
 	h2 {
-		font-size: $fontSizeBase;
 		font-weight: $fontWeightHeavy;
+	}
+	section {
+		font-family: $fontFamilySecondary;
+		font-size: $fontSizeBase;
 	}
 }

@@ -6,6 +6,7 @@ import React, { Component } from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import styles from './styles.module.scss'
 import { colors, fontSizes } from 'theme/'
+import { fontWeights } from 'theme/'
 
 export class CardResource extends Component {
 	render() {
@@ -17,10 +18,10 @@ export class CardResource extends Component {
 					<Flex
 						sx={{
 							background:
-								'center url(/images/resources/random-bg.svg) repeat-y, linear-gradient(to right,' +
-								colors.primary +
-								',' +
+								'center url(/images/resources/random-bg.svg) repeat-y, linear-gradient(30deg,' +
 								colors.primaryd2 +
+								',' +
+								colors.primary +
 								')',
 							backgroundPosition: `${'50% ' + randomBackgroundPosition}`,
 							justifyContent: 'space-between',
@@ -31,14 +32,15 @@ export class CardResource extends Component {
 						<Heading
 							level={1}
 							additionalStyles={{
-								fontSize: fontSizes.medium,
+								fontSize: fontSizes.large,
+								fontWeight: fontWeights.black,
 								paddingBottom: '0',
 								width: '16ch',
 							}}
 						>
 							{title}
 						</Heading>
-						<Icon name={icon} color="white" width="64px" height="64px" />
+						<Icon name={icon} color={colors.primaryl3} width="64px" height="64px" />
 					</Flex>
 					<section>
 						<Heading
