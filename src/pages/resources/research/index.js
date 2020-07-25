@@ -1,11 +1,12 @@
 /** @jsx jsx */
 
 import { jsx, Grid, Box } from 'theme-ui'
-import { Container, Link, Heading } from 'components/atoms'
+import { Container, Link, Heading, Icon } from 'components/atoms'
 import { SEO, CardResource } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import { slugToTitle, slugToIcon } from 'utils'
+import { colors } from 'theme'
 
 export default ({ data }) => {
 	return (
@@ -14,7 +15,12 @@ export default ({ data }) => {
 				description="Liferay Design Research"
 				pageTitle="Liferay.Design | Research Resources"
 			/>
-			<Container background="white" heading="Research Methods" color="black">
+			<Container
+				padding="5rem 0 6rem"
+				background="white"
+				heading="Research Methods"
+				color="black"
+			>
 				<Grid sx={{ variant: 'grids.threeCards' }}>
 					{data.cards.edges.map(({ node }, index) => (
 						<CardResource
@@ -36,6 +42,7 @@ export default ({ data }) => {
 							<p>
 								For a comprehensive list, visit our full attribution page.
 							</p>
+							<Icon height="1.4rem" name="arrow" stroke={colors.primary} />
 						</Link>
 					</Box>
 				</Grid>
