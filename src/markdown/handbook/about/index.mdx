@@ -5,155 +5,87 @@ order: 10
 publish: true
 ---
 
-# Contributing to this site
+## Why a Handbook?
 
-We definitely appreciate contributions in any form &mdash; QA, [submitting issues](https://github.com/liferay-design/liferay.design/issues), providing feedback, code, design, etc.
+  1. **Global Department** 30+ Designers
+  1. **Global Standards** increase our potential
+  1. **Global Operations** reduces cost
 
-If you're part of the Liferay team in Figma, there's a Liferay.Design project &mdash; you can see where we're at and contribute comments, designs, etc there.
+As a department, we want to be intentional about implementing and improving our craft so that we can become increasingly effective at what we do.
 
-If you'd like to help manage deployments, please [request to join our Netlify team](mailto:paul.hanaoka@liferay.com?subject=I'd%20like%20to%20join%20the%20Netlify%20team%20for%20Liferay.Design!&body=Pretty%20please!%20%0A%0A%5Badd%20some%20reasons%5D)!
 
-A good place to start is our [Issues page](https://github.com/liferay-design/liferay.design/issues)!
+## How Do We Operate?
 
-## How To:
+  1. **Intentional** effective practices
+  1. **Inclusive** open collaboration
+  1. **Honest** transparent standards
 
-_If this is your first time using GitHub, see our [initial set up suggestions](/handbook/tools/your-laptop/)._
+We strive to be an inclusive organization, our handbook is designed to be a collaborative document. Many people and teams have contributed to the content we’re starting with — and processes we’ve set up enable all to contribute as we iterate and improve.
 
-1.  Fork the repo.
-1.  Clone your fork on your computer (local).
-1.  Commit any changes to your local, then push to your origin.
-1.  Create a pull request to upstream.
+By opening up the handbook to others outside of our department and Liferay, our goal is to provide an example of the open source ethos that guided Liferay in the early days.
 
-_(If "local", "origin", and "upstream" are greek to you, [see this top answer on Stack Overflow.](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github))_
+## Structure
 
-**Important Notes**
 
-1. All work should be done on a named branch — e.g. 'Issue-302' and pull-request sent to the `master` branch.
+import { CardHidden } from 'components/molecules'
+import { Grid, Box } from 'theme-ui'
 
-1. **We always `Rebase & Merge` pull requests** so that the commit history is kept as clean as possible — to that end, be sure to follow the best practices outlined below to avoid merge conflicts in your PRs.
+<Grid sx={{gridTemplate:"auto / 1fr 1fr", gap:"2rem" }}>
+	<Box>
+		<CardHidden
+			handbook
+			title="Work"
+			text="Enable designers at Liferay to quickly onboard and become effective contributors."
+			to="/handbook/work"
+		/>
+	</Box>
+	<Box>
+		<CardHidden
+			handbook
+			title="Tools"
+			text="Empower designers at Liferay to use the right tool, the right way."
+			to="/handbook/tools"
+		/>
+	</Box>
+	<Box>
+		<CardHidden
+			handbook
+			title="Collaborate"
+			text="Foster an environment where working together is pleasurable so that our products will be too."
+			to="/handbook/collaborate"
+		/>
+	</Box>
+	<Box>
+		<CardHidden
+			handbook
+			title="Advocate"
+			text="Promote Design internally and externally, advancing growth for all."
+			to="/handbook/advocate"
+		/>
+	</Box>
+	<Box>
+		<CardHidden
+			handbook
+			title="Grow"
+			text="Provide clear career paths for a shared understanding of where we are and where we want to go."
+			to="/handbook/grow"
+		/>
+	</Box>
+</Grid>
 
-## Best Practices
+## Contribute
 
-### 1. Before starting any new work
+This handbook is as good as we make it — so your contributions are incredibly valuable! 
 
-If you don't have a pull-request in review, pull the latest from upstream so that you are using the freshest code:
+The things we’re prioritizing over the next few months are intended to make it easier for you to contribute, so your feedback will be much appreciated.
 
-```
- git pull upstream master
-```
+We’ll be managing the handbook using GitHub’s Projects feature for two main reasons:
 
-If you're prompted to do a merge commit (you probably will be), hit `:wq` to close the merge comment, and then do a hard reset so that your local matches what is upstream:
+  1. In context — the site and handbook are built using github’s open source code management tool, using their project management features allows us to easily keep track of issues and progress
+  1. Open to all — anyone is able to create an account and contribute
 
-```
-  git reset --hard upstream/master
-```
+Some people may hear “Github” and think — well, I’m not a coder, so I can’t really contribute — **this could not be further from the truth**.
 
-### 2. Before your pull-request is merged
+Creating, managing, and simply participating in issues is a huge help to the department — of course writing guides and developing features is also very much welcome.
 
-Continue to push your commits up to your origin — they will automatically get added to your open pull-request.
-
-### 3. After your pull-request is merged
-
-Be sure to follow step #1 — pull fresh from upstream and do a hard reset (shortcut: `git pull upstream master && git reset --hard upstream/master`) — this ensures that your next pull-request will only include new commits.
-
-If you don't pull from upstream after your PR gets merged; you will get errors because the commit hashes change one they are merged into upstream.
-
-## Pushing to Production
-
-If you have `write` permissions to the repo, once you ensure the site works using Netlify's deploy previews, you can push to production.
-
-1. Ensure what you have locally is even with what is on upstream/master: `git pull upstream master && git reset --hard upstream/master`
-1. Rename your local `master` branch to `production`: `git branch -m production`
-1. Use the force, and push your local `production` branch to upstream: `git push upstream production --force`
-
-That's it! In 2-4 minutes, the site will be built, deployed, and all updates will be reflected live on [liferay.design](https://liferay.design).
-
-## Troubleshooting Git
-
-### Merge Conflicts
-
-This can happen for a myriad of reasons — but essentially it boils down to your local repo not being in-line with what is upstream. This is usually because:
-
-1. Someone else's work was merged before you had a chance to send a PR.
-
-1. You sent a PR, it was merged, but you didn't pull and reset your local repo to match upstream.
-
-Don't worry — it's no big deal. There are two quick ways to solve it:
-
-#### 1. Stash & Cherry Pick
-
-If you have a lot of commits, or enough code that it would be a pain to copy/paste — stashing and then cherry picking your work is a good idea.
-
-1. Create a temporary branch: (`git checkout -b temp-branch`)
-1. Pull & reset to match upstream (`git pull upstream master && git reset --hard upstream/master`)
-1. From the temp-branch, check the log to see which commits you want to cherry pick (`git log`)
-1. Go back to the master branch (which is even with upstream since you reset it in step 2) and pick the commits you want (`git cherry-pick commit-sha`) _Note: 'commit-sha' being what you see in step 3_
-
-_Note: See [Atlassian's 'Git Cherry Pick' tutorial](https://www.atlassian.com/git/tutorials/cherry-pick) for a more in-depth explanation on picking cherries._
-
-#### 2. Copy, Reset, and Paste
-
-If option 1 sounds like way too much work — or if you tried it and it didn't work — then you can always:
-
-1. `ctrl+c` your work
-1. Pull & reset to match upstream (`git pull upstream master && git reset --hard upstream/master`)
-1. `ctrl+v`
-
-## Treat Yoself
-
-A few aliases that will make your life easier. If you think 'Alias' is just an overrated Jennifer Garner show, check out [this blog post](https://davidwalsh.name/alias-bash) for more information and kick your workflow into hyperspeed.
-
-### Start Fresh From Upstream
-
-Use this after your PR is merged or if you haven't done any recent development on the site.
-
-```
- alias gstart="git pull upstream master && git reset --hard upstream/master"
-```
-
-### Rename Your Current Branch and Push to Production
-
-```
- alias pushprod="git branch -m production && git push upstream production --force"
-```
-
-### Rename Your Current Branch and Reset to Upstream/Master
-
-```
- alias reset="git branch -m master && git pull upstream master && git reset --hard upstream/master"
-```
-
-### Reset Your Dev Environment
-
-Try this first if you run into any errors when trying to start local development:
-
-```
- alias reinstall="rm -rf node_modules && npm install"
-```
-
-`rm -rf node_modules` will delete your `node_modules` folder, and `npm install` will install everything. This will fix 96% of the errors you encounter.
-
-_See full the full [Contributing](https://github.com/liferay-design/liferay.design/blob/master/CONTRIBUTING.md) guidelines for a more exhaustive process._
-
-We definitely appreciate contributions in any form &mdash; QA, [submitting issues](https://github.com/liferay-design/liferay.design/issues), providing feedback, code, design, etc.
-
-If you're part of the Liferay team in Figma, there's a Liferay.Design project &mdash; you can see where we're at and contribute comments, designs, etc there.
-
-If you'd like to help manage deployments, please [request to join our Netlify team](mailto:paul.hanaoka@liferay.com?subject=I'd%20like%20to%20join%20the%20Netlify%20team%20for%20Liferay.Design!&body=Pretty%20please!%20%0A%0A%5Badd%20some%20reasons%5D)!
-
-A good place to start is our [Issues page](https://github.com/liferay-design/liferay.design/issues)!
-
-## How To:
-
-1.  Fork the repo.
-1.  Clone your fork on your computer (local).
-1.  Commit any changes to your local, then push to your origin.
-1.  Create a pull request to upstream.
-
-_(If "local", "origin", and "upstream" are greek to you, [see this top answer on Stack Overflow.](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github))_
-
-**Important Notes**
-
-1. All work should be done on the `master` branch (or you can create your own branch and request to merge it with the `master` branch.
-
-1. We always `Rebase & Merge` pull requests so that the commit history is kept as clean as possible — to that end, be sure to follow the best practices outlined below to avoid merge conflicts in your PRs.
+And of course, we also have a slack channel — [#des-ops](https://liferay.slack.com/archives/CL2KU6A65).
