@@ -32,7 +32,6 @@ module.exports = {
 			'Blogs, careers, guidelines, and other resources from the Design Teams at Liferay!',
 	},
 	plugins: [
-		'gatsby-plugin-brotli',
 		'gatsby-plugin-catch-links',
 		{
 			resolve: `gatsby-plugin-google-analytics`,
