@@ -51,7 +51,7 @@ Four Words: Integrated Lead-Generation Campaigns
 
 -   Are you a highly effective person?
 -   Can you design sans ego?
--   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-office/) should cover it :)
+-   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-description/) should cover it :)
 
 ## How Do Liferay’s Core Values Look in the Design Team?
 

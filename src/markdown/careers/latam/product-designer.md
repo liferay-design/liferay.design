@@ -30,7 +30,7 @@ We care deeply about designing great experiences that solve real-world business 
 -   Do you have a demonstrable passion for usability?
 -   Can you design a sans ego?
 -   Are you a [T-shaped designer](https://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoaes-collaborative-culture__trashed/)?
--   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-office/) should cover it :)
+-   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-description/) should cover it :)
 
 ## How Do Liferay’s Core Values Look in the Design Team?
 
