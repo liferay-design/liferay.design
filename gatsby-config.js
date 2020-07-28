@@ -76,6 +76,7 @@ module.exports = {
 		'gatsby-plugin-offline',
 		'gatsby-plugin-sass',
 		'gatsby-plugin-sharp',
+		`gatsby-plugin-theme-ui`,
 		`gatsby-transformer-json`,
 		'gatsby-transformer-sharp',
 		{
