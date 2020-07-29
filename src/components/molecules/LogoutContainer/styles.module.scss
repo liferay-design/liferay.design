@@ -48,3 +48,11 @@
 .container {
 	position: relative;
 }
+
+.visible {
+	display: flex;
+}
+
+.hidden {
+	display: none;
+}
