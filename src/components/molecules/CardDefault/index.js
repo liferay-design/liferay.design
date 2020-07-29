@@ -1,8 +1,9 @@
-import { Icon, Text, Link, Image, AnimateIn } from 'components/atoms'
+/** @jsx jsx */
+
+import { Icon, Link, AnimateIn } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
-import React from 'react'
-import { Avatar, Card, CardText, CardTitle, Media } from 'react-md'
+import { jsx, Avatar, Box, Card, Flex, Heading, Image, Text } from 'theme-ui'
 import styles from './styles.module.scss'
 
 const CardDefault = ({
@@ -19,49 +20,84 @@ const CardDefault = ({
 	...props
 }) => (
 	<AnimateIn delay={delay}>
-		<Link className={styles.cardLink} to={link}>
-			<Media
-				style={{
-					position: 'absolute',
-					top: '0',
-					bottom: '0',
-					right: '0',
-					left: '0',
-					overflow: 'visible',
-				}}
-				aspectRatio="4-3"
-				className={styles.sexyShadow}
-				{...props}
-			>
-				<Image alt="shadow for image" src={imageURL} />
-			</Media>
-			<Card className={styles.card}>
-				<Media aspectRatio="4-3" className={styles.null} {...props}>
-					<Image alt={'image for ' + `${title}`} src={imageURL} />
-				</Media>
-				{pill ? (
-					<Text className={styles.pill} weight="black">
-						{tag}
-					</Text>
-				) : null}
-				{avatarImage ? (
-					<Avatar
-						className={styles.avatar}
-						alt={avatarImageURL}
-						src={withPrefix(`${avatarImageURL}`)}
+		<Link className={styles.cardLink} to={link}
+			sx={{
+				'&:hover > div > div > img:nth-child(2)': {
+					filter:'grayscale(0)',
+				},
+				'&:hover > div > div': {
+					bg:'mainL2',
+				},
+			}}
+		>
+			<Card sx={{display: 'flex', height:'100%', flexDirection:'column',}} className={styles.card}>
+				<Box
+					sx={{
+						overflow: 'visible',
+						position: 'relative',
+						zIndex: -1,
+						'&:after': { display: 'block', content: '""', pb: '75%' },
+					}}
+				>
+					<Image
+						sx={{
+							position: 'absolute',
+							top: '0',
+							bottom: '0',
+							right: '0',
+							left: '0',
+							height: '100%',
+							width: '100%',
+							overflow: 'visible',
+							variant: 'images.grey',
+						}}
+						className={styles.sexyShadow}
+						{...props}
+						src={imageURL}
 					/>
-				) : (
-					<Avatar
-						className={styles.avatar}
-						icon={
+					<Image
+						sx={{
+							height: '100%',
+							width: '100%',
+							variant: 'images.grey',
+							position: 'absolute',
+							top: '0',
+							bottom: '0',
+							right: '0',
+							left: '0',
+						}}
+						{...props}
+						alt={'image for ' + `${title}`}
+						src={imageURL}
+					/>
+					{pill ? (
+						<Text className={styles.pill} weight="black">
+							{tag}
+						</Text>
+					) : null}
+				</Box>
+				<Box pt={2} px={3} pb={4} sx={{bg: 'mainL1', flexGrow:1,}}>
+					<Flex
+						sx={{
+							mt: -48,
+							ml: '-.2rem',
+							mb: 2,
+							variant: 'images.avatar',
+						}}
+					>
+						{avatarImage ? (
+							<Avatar
+								sx={{}}
+								alt={avatarImageURL}
+								src={withPrefix(`${avatarImageURL}`)}
+							/>
+						) : (
 							<Icon fill="white" height="2rem" width="2rem" name={icon} />
-						}
-					/>
-				)}
-				<div className={styles.copy}>
-					<CardTitle className={styles.title} title={title} />
-					<CardText className={styles.text}>{subtitle}</CardText>
-				</div>
+						)}
+					</Flex>
+					<Heading sx={{mb:3, lineHeight:'1.3', fontSize:'1.5rem', }}>{title}</Heading>
+					<Text sx={{color: 'mainL5', fontSize:'3'}}>{subtitle}</Text>
+				</Box>
 			</Card>
 		</Link>
 	</AnimateIn>

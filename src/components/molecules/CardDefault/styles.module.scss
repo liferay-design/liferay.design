@@ -1,7 +1,6 @@
 @import '~theme/variables';
 
 .cardLink {
-	position: relative;
 	&:hover {
 		.sexyShadow {
 			opacity: 0.64;
@@ -23,25 +22,14 @@
 	}
 }
 .card {
-	color: $white;
-	background: $darkGrey;
 	box-shadow: 0 0.5rem 5rem -1rem rgba(0, 0, 0, 0.3);
-	height: 100%;
 	transform: translateY(0);
 	transition: transform 0.15s ease-in-out, background 0.15s ease-in-out;
-	width: 100%;
 	&:hover {
 		transition: transform 0.15s ease-in-out, background 0.15s ease-in-out;
 		transform: translateY(-0.2rem);
-		background: $darkestGrey;
 		&:after {
 			opacity: 1;
-		}
-		.null {
-			img {
-				filter: grayscale(0);
-				transition: filter 200ms ease-in-out;
-			}
 		}
 	}
 	&:after {
@@ -55,37 +43,7 @@
 		opacity: 0;
 		top: 0;
 	}
-	.avatar {
-		border: none;
-		background: $darkestGrey;
-		margin: -$spacingBase 1.8rem 0;
-		height: $spacingBase * 2;
-		width: $spacingBase * 2;
-		position: absolute;
-		img {
-			height: 100%;
-			width: 100%;
-		}
-	}
-	.null {
-		img {
-			transition: filter 200ms ease-in-out;
-			filter: grayscale(1);
-		}
-	}
-	.copy {
-		padding: ($spacingBase + $spacingXSmall) $spacingBase $spacingMedium;
-		.title {
-			font-size: $fontSizeLarge;
-			margin: $spacingSmall 0;
-			padding: 0;
-		}
-		.text {
-			color: $lightGrey;
-			font-size: $fontSizeMedium;
-			padding: 0;
-		}
-	}
+
 	.pill {
 		background: $action;
 		margin: $spacingSmall;
