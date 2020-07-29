@@ -1,23 +1,6 @@
 // @import '~theme/reset';
 @import '~theme/variables';
 
-// disable annoying warnings about colors not being part of material design palette
-$md-colors-warn-md: false;
-
-@import '~react-md/src/scss/react-md';
-
-// Liferay.Design Theme (overrides)
-$md-font-family: $fontFamilyPrimary;
-$md-font-regular: $fontWeightRegular;
-
-$md-primary-color: $primary;
-$md-secondary-color: $secondary;
-
-$md-light-theme: false;
-$md-typography-extended: false;
-
-@include react-md-everything;
-
 html {
 	height: initial;
 }
