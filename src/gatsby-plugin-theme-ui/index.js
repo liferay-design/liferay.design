@@ -39,7 +39,7 @@ export default {
 			},
 		},
 	},
-	fontSizes: [ '.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem' ],
+	fontSizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
 	lineHeights: {
 		body: 1.4,
 		heading: 1.1,
@@ -89,11 +89,11 @@ export default {
 	},
 	cards: {
 		'4:3': {
-			'&:after': {pb: '75%',display: 'block', content: '""',}
+			'&:after': { pb: '75%', display: 'block', content: '""' },
 		},
 		'16:9': {
-			'&:after': {pb: '56.25%',display: 'block', content: '""',}
-		}
+			'&:after': { pb: '56.25%', display: 'block', content: '""' },
+		},
 	},
 	images: {
 		avatar: {
@@ -102,6 +102,11 @@ export default {
 			borderRadius: '50%',
 			bg: 'main',
 			variant: 'alignments.center',
+			small: {
+				height: 40,
+				width: 40,
+				// border: 'solid 1px #E7e7ed',
+			},
 		},
 		grey: {
 			filter: 'grayscale(1)',

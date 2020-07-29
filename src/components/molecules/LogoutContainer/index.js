@@ -1,32 +1,28 @@
 import { Button, Flex, Text, Image } from 'components/atoms'
 import React, { Component } from 'react'
-import { Avatar, Collapse } from 'react-md'
+import { Avatar } from 'theme-ui'
 import styles from './styles.module.scss'
-import {withPrefix} from 'gatsby'
 
 export default class LogoutContainer extends Component {
-	state = { collapsed: true, panel: [] }
-
-	componentDidMount() {
-		this.setState({
-			collapsed: true,
-			panel: [],
-		})
+	constructor(props) {
+		super(props)
+		this.state = {
+			showChildren: props.open,
+		}
 	}
 
 	toggle = () => {
-		this.setState({ collapsed: !this.state.collapsed })
+		this.setState({ showChildren: !this.state.showChildren })
 	}
 
 	render() {
-		const { collapsed } = this.state
 
 		return (
 			<div className={styles.relative}>
 				<div className={styles.logoutContainer} onClick={this.toggle}>
-					<Avatar src={this.props.user.avatar} role="presentation" />
+					<Avatar src={this.props.user.avatar} sx={{variant: 'images.avatar.small'}}/>
 				</div>
-				<Collapse animate={false} collapsed={collapsed}>
+				<div className={this.state.showChildren ? styles.visible : styles.hidden}>
 					<div className={styles.wrapper}>
 						<div className={styles.caret} />
 						<div className={styles.caretOverlay} />
@@ -61,7 +57,7 @@ export default class LogoutContainer extends Component {
 							</Flex>
 						</Flex>
 					</div>
-				</Collapse>
+				</div>
 			</div>
 		)
 	}
