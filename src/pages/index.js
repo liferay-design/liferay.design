@@ -69,7 +69,7 @@ export default () => {
 					>
 						<Grid sx={{ variant: 'grids.twoCards' }}>
 							<CardDefault
-								aspectRatio="16-9"
+								aspectRatio='16:9'
 								imageURL={data.lexiconCover.childImageSharp.fluid.src}
 								icon="lexicon"
 								title="Lexicon Design System"
@@ -77,7 +77,7 @@ export default () => {
 								link="/lexicon"
 							/>
 							<CardDefault
-								aspectRatio="16-9"
+								aspectRatio='16:9'
 								imageURL={data.figmaUtilities.childImageSharp.fluid.src}
 								icon="fa_figma"
 								title="Figma Files"

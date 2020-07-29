@@ -84,7 +84,16 @@ export default {
 		root: {
 			fontFamily: 'body',
 			fontWeight: 'body',
+			color: 'main',
 		},
+	},
+	cards: {
+		'4:3': {
+			'&:after': {pb: '75%',display: 'block', content: '""',}
+		},
+		'16:9': {
+			'&:after': {pb: '56.25%',display: 'block', content: '""',}
+		}
 	},
 	images: {
 		avatar: {
