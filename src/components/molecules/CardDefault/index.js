@@ -17,8 +17,15 @@ const CardDefault = ({
 	avatarImageURL,
 	pill,
 	tag,
+	aspectRatio,
 	...props
-}) => (
+}) => {
+	const aspectRatioMap = {
+		'4:3' : 'cards.4:3',
+		'16:9' : 'cards.16:9'
+	}
+
+	return (
 	<AnimateIn delay={delay}>
 		<Link className={styles.cardLink} to={link}
 			sx={{
@@ -36,7 +43,7 @@ const CardDefault = ({
 						overflow: 'visible',
 						position: 'relative',
 						zIndex: -1,
-						'&:after': { display: 'block', content: '""', pb: '75%' },
+						variant: `${aspectRatioMap[aspectRatio]}`,
 					}}
 				>
 					<Image
@@ -102,7 +109,7 @@ const CardDefault = ({
 		</Link>
 	</AnimateIn>
 )
-
+}
 CardDefault.propTypes = {
 	imageURL: PropTypes.string,
 	avatarImageURL: PropTypes.string,
@@ -112,6 +119,10 @@ CardDefault.propTypes = {
 	link: PropTypes.string,
 	pill: PropTypes.string,
 	tag: PropTypes.string,
+}
+
+CardDefault.defaultProps = {
+	aspectRatio: '4:3',
 }
 
 export default CardDefault
