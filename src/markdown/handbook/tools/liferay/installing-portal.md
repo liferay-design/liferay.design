@@ -9,69 +9,101 @@ If you are a product designer working in a Liferay DXP related project this guid
 
 ## Getting ready
 
-### Install Brew
+We usually use [zsh](https://ohmyz.sh/) as terminal interfacee
 
-Make sure you have brew installed in your machine. For that type in your terminal
 
-```bash
-brew -v
-```
-
-Otherwise follow [Homebrew guide](https://brew.sh/)
-
-### Install Gradle
-
-Make sure you have brew installed in your machine. For that type in your terminal
-
-    `gradle -v`
-
-Otherwise
+**Install brew**
 
 ```bash
 brew install gradle
 ```
 
-## Install Portal
+**Install ant**
 
-Open your terminal and go to the place in your machine where you want to have the code. There type
+```bash
+brew install ant
+```
+
+**Clone Liferay Portal**
+
+Create a folder wherevere you want, navigate to it through terminal and clone the repo there:
 
 ```bash
 git clone https://github.com/liferay/liferay-portal
 ```
 
-Once there go inside the created folder
+**Install Java**
 
-`cd liferay-porta`l
+Download it from [Oracle](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
-Then you need to create a database:
+**Configure Java in your machine**
 
-_Note: you need to [install mysql](https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html) first if you haven’t before _
-
-`echo "create database lportal" | mysql -u roo`t
-
-## Running Portal
-
-Just type
+You can use pico or any other terminal text editor.
 
 ```bash
-	../bundles/tomcat-9.0.17/bin/catalina.sh run
+pico .zhsrc
 ```
 
-## Update Portal
+Paste this inside:
 
-_Note: you will need to install **ant → `brew install ant`**_
+```bash
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home
+export ANT_OPTS="-Xms4096m -Xmx4096m -XX:MaxPermSize=512m -Dorg.gradle.workers.max=11"
+```
 
-I personally run these 2 commands every morning when I arrive to the office to get the latest changes in the repo.
+*Note: Adjust 'jdk1.8.0_261' to the version number you have just downloaded*
+
+## Updating Portal
+
+Everyday to update your portal you have to do the following from *liferay-portal* folder
+
+**Clean bundles**
+
+```bash
+rm -rf ../bundles/data ../bundles/osgi/state
+```
+
+**Get the news**
 
 ```bash
 git pull
+```
+
+**Build them**
+
+```bash
 ant all
 ```
 
-_Note: This might take 25 mins_
+## Running Portal
 
-After running these 2 command you will need to run portal as explained before.
+You just need to run this from *liferay-portal* folder
 
-_Yayyyy!!!_
+```bash
+../bundles/tomcat-9.0.33/bin/catalina.sh run
+```
 
-👏👏👏👏👏
+*Note: Adjust 'tomcat-9.0.33' to the version number in bundles folder*
+
+PD: another day I can show you all the alias I have to run this quickly
+
+## Useful commands
+
+Changing to DXP version
+
+```bash
+ant setup-profile-dxp
+```
+
+Changing to Portal version
+
+```bash
+ant setup-profile-portal
+```
+
+After any of them you might need to get the bundle snapshot
+
+```bash
+ant snapshot-bundle
+```
+
