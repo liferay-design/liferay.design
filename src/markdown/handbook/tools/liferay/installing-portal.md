@@ -9,7 +9,7 @@ If you are a product designer working in a Liferay DXP related project this guid
 
 ## Getting ready
 
-We usually use [zsh](https://ohmyz.sh/) as terminal interfacee
+We usually use [zsh](https://ohmyz.sh/) as terminal interface
 
 
 **Install brew**
@@ -26,7 +26,7 @@ brew install ant
 
 **Clone Liferay Portal**
 
-Create a folder wherevere you want, navigate to it through terminal and clone the repo there:
+Create a folder wherever you want, navigate to it through terminal and clone the repo there:
 
 ```bash
 git clone https://github.com/liferay/liferay-portal
