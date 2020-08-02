@@ -2,7 +2,7 @@
 title: 'Manage'
 description: 'Managing people at Liferay Design'
 order: 70
-publish: false
+publish: true
 ---
 
-## Every folder needs an index
+This section collects documentation about managing tasks
