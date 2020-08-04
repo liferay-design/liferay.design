@@ -15,12 +15,14 @@ const CardHidden = ({ cta, delay, icon, text, title, to }) => {
 					{icon ? (
 						<Flex align="flex-start" justify="center" className={styles.icon}>
 							<Icon
-								fill="primary"
+								sx={{
+									fill: 'primary',
+									height: '4em',
+									width: '4em',
+									margin: '0 .5rem 0 1.5rem',
+								}}
 								className={styles.icon}
 								name={icon}
-								height="4em"
-								width="4em"
-								margin="0 .5rem 0 1.5rem"
 							/>
 						</Flex>
 					) : null}
