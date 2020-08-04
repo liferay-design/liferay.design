@@ -31,20 +31,23 @@ export default class AssetsAccordion extends Component {
 				>
 					<span>{this.props.title}</span>
 
-					{this.state.showChildren ? (
-						<Icon name="keyboardArrowRight" rotate={90} />
-					) : (
-						<Icon name="keyboardArrowRight" />
-					)}
+					<Icon
+						sx={{
+							transition: 'transform 0.4s',
+							transform: `${
+								this.state.showChildren ? 'rotate(90deg)' : 'rotate(0deg)'
+							}`,
+						}}
+						name="keyboardArrowRight"
+					/>
 				</Flex>
-				<div className={`
+				<div
+					className={`
 						${styles.toggleControlls}
 						${this.state.showChildren ? styles.visible : styles.hidden}
-						${this.state.listView ? styles.gridView : styles.listView}`}>
-					<button 
-						onClick={this.toggleView}
-						className={styles.toggleIcon}
-						>
+						${this.state.listView ? styles.gridView : styles.listView}`}
+				>
+					<button onClick={this.toggleView} className={styles.toggleIcon}>
 						<div className={styles.listViewIcon}>
 							<span>List View</span>
 							<Icon name="listView" />
@@ -58,8 +61,8 @@ export default class AssetsAccordion extends Component {
 				<div
 					className={`
 						${styles.childrenContainer}
-						${ this.state.showChildren ? styles.visible : styles.hidden}
-						${ this.state.listView ? styles.listView : styles.gridView} `}
+						${this.state.showChildren ? styles.visible : styles.hidden}
+						${this.state.listView ? styles.listView : styles.gridView} `}
 				>
 					{this.props.children}
 				</div>
