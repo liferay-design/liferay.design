@@ -1,5 +1,7 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { Link, Text, Flex, Icon } from 'components/atoms'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import styles from './styles.module.scss'
 
 export default class Accordion extends Component {
@@ -31,12 +33,15 @@ export default class Accordion extends Component {
 						<Text>{this.props.title}</Text>
 					)}
 					<Icon
-						height="2.4rem"
-						width="3rem"
+						sx={{
+							height: '2.4rem',
+							width: '3rem',
+							transition: 'transform 0.4s',
+							transform: `${this.state.showChildren ? 'rotate(90deg)' : 'rotate(0deg)'}`,
+							fill: `${this.state.showChildren ? 'primary' : ''}`,
+						}}
 						className={styles.leafLink}
 						name="keyboardArrowRight"
-						rotate={`${this.state.showChildren ? 90 : 0}`}
-						fill={`${this.state.showChildren ? 'primary' : ''}`}
 					/>
 				</Flex>
 
