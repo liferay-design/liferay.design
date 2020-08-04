@@ -1,20 +1,36 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { Link, Icon, Flex } from 'components/atoms'
-import React from 'react'
-import { colors, fontWeights } from 'theme/'
-import styles from './styles.module.scss'
 
 export default ({ children, ...props }) => (
-	<Link 
-		className={styles.niceLink}
-		style={{
-			color: `${colors.primary}`,
-			fontWeight: `${fontWeights.heavy}`,
+	<Link
+		sx={{
+			color: `primary`,
+			fontWeight: `heavy`,
+			svg: {
+				ml: '2',
+				transform: 'translateX(0)',
+				transition:
+					'transition: transform 0.4s cubic-bezier(0.075, 1.2, 0.165, 1);',
+			},
+			'&:hover': {
+				svg: {
+					transition: 'transform 0.2s cubic-bezier(0.075, 1.2, 0.165, 1)',
+					transform: 'translateX(1rem)',
+				},
+			},
 		}}
 		{...props}
 	>
 		<Flex align="center">
 			{children}
-			<Icon height="1.4rem" name="arrow" stroke={colors.primary} />
+			<Icon
+				height="1.4rem"
+				name="arrow"
+				sx={{
+					stroke: 'primary',
+				}}
+			/>
 		</Flex>
 	</Link>
 )

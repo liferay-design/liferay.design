@@ -1,9 +1,10 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { Link as GatsbyLink } from 'gatsby'
-import React from 'react'
 
 // Since DOM elements <a> cannot receive activeClassName,
 // destructure the prop here and pass it only to GatsbyLink
-const Link = ({ children, to, activeClassName, ...other }) => {
+const Link = ({ children, to, activeClassName, ...props }) => {
 	// Tailor the following test to your environment.
 	// This example assumes that any internal link (intended for Gatsby)
 	// will start with exactly one slash, and that anything else is external.
@@ -12,13 +13,13 @@ const Link = ({ children, to, activeClassName, ...other }) => {
 	// Use Gatsby Link for internal links, and <a> for others
 	if (internal) {
 		return (
-			<GatsbyLink to={to} activeClassName={activeClassName} {...other}>
+			<GatsbyLink to={to} activeClassName={activeClassName} {...props}>
 				{children}
 			</GatsbyLink>
 		)
 	}
 	return (
-		<a target='_blank' rel={'noopener noreferrer'} href={to} {...other}>
+		<a target='_blank' rel={'noopener noreferrer'} href={to} {...props}>
 			{children}
 		</a>
 	)
