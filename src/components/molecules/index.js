@@ -17,14 +17,13 @@ import DoDont from './DoDont'
 import FormNewsletter from './FormNewsletter'
 import FancyFooter from './FancyFooter'
 import GlobalMdx from './GlobalMdx'
-import ImageDownload from './ImageDownload'
+import AssetDownload from './AssetDownload'
 import LogoutContainer from './LogoutContainer'
 import SiteCredits from './SiteCredits'
 import SocialIcons from './SocialIcons'
 import SideTab from './SideTab'
 import SEO from './SEO'
 import Tags from './Tags'
-import VideoDownload from './videoDownload'
 
 export {
 	Accordion,
@@ -46,12 +45,11 @@ export {
 	FormNewsletter,
 	FancyFooter,
 	GlobalMdx,
-	ImageDownload,
+	AssetDownload,
 	LogoutContainer,
 	SiteCredits,
 	SocialIcons,
 	SideTab,
 	SEO,
 	Tags,
-	VideoDownload,
 }

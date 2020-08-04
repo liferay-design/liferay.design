@@ -3,20 +3,19 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
-export default function ImageDownload({
+export default function AssetDownload({
 	source,
 	type,
+	kind,
 	title,
 	width,
-	imageWidth,
+	assetWidth,
 	link,
 }) {
-
 	const altText = `${title + ' ' + type}`
 	const downloadName = `${title}`
 
 	return (
-
 		<Flex
 			className={styles.container}
 			direction="column"
@@ -24,32 +23,37 @@ export default function ImageDownload({
 			padding="3rem 0"
 			width={width}
 		>
-			<Image src={source} alt={altText} width={imageWidth} />
+			{kind === 'video' ? (
+				<video controls src={source} alt={altText} width={assetWidth} />
+			) : (
+				<Image src={source} alt={altText} width={assetWidth} />
+			)}
 			<div className={styles.caption}>
 				<Text type="p" color="grey" weight="regular" size="base">
 					{title}
 				</Text>
-				<Link 
+				<Link
 					className={styles.download}
 					href={link ? link : source}
 					download={downloadName}
 				>
-					<Text weight='heavy'>Download</Text>
-					<Icon name="download" width="16" height="16" />
+					<Text weight="heavy">Download</Text>
+					<Icon name="download" sx={{ width: '1em', height: '1em' }} />
 				</Link>
 			</div>
 		</Flex>
 	)
 }
 
-ImageDownload.defaultProps = {
+AssetDownload.defaultProps = {
 	type: 'Image',
 }
 
-ImageDownload.propTypes = {
+AssetDownload.propTypes = {
 	source: PropTypes.string.isRequired,
 	title: PropTypes.string,
 	type: PropTypes.string,
 	imageWidth: PropTypes.string,
 	width: PropTypes.string,
+	kind: PropTypes.string,
 }
