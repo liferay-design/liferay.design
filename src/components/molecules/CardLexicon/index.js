@@ -50,9 +50,9 @@ const CardLexicon = ({
 			>
 				<Flex
 					direction={isMobile ? directionMap.vertical : directionMap[direction]}
-					className={`${styles.card} ${className} ${dark ? styles.dark : styles.light} ${
-						wide ? styles.wide : 'null'
-					} `}
+					className={`${styles.card} ${className} ${
+						dark ? styles.dark : styles.light
+					} ${wide ? styles.wide : 'null'} `}
 					padding="0"
 				>
 					{image ? (
@@ -63,20 +63,26 @@ const CardLexicon = ({
 						>
 							<Image src={imageUrl} />
 						</Flex>
-					) : <div className={styles.spacer}/>}
+					) : (
+						<div className={styles.spacer} />
+					)}
 					{icon ? (
 						<Flex
 							align="center"
 							justify="center"
 							className={styles.icon}
-							width={isMobile ? iconWidthMap.vertical : iconWidthMap[direction]}
+							width={
+								isMobile ? iconWidthMap.vertical : iconWidthMap[direction]
+							}
 						>
 							<Icon
 								name={icon}
-								width={iconWidth}
-								height={iconHeight}
-								margin="1rem 0 2rem"
-								fill="white"
+								sx={{
+									width: `${iconWidth}`,
+									height: `${iconHeight}`,
+									margin: '1rem 0 2rem',
+									fill: 'white',
+								}}
 							/>
 						</Flex>
 					) : null}
@@ -84,7 +90,9 @@ const CardLexicon = ({
 						className={styles.copy}
 						style={{
 							flexBasis: '50%',
-							textAlign: isMobile ? textAlignmentMap.vertical : textAlignmentMap[direction],
+							textAlign: isMobile
+								? textAlignmentMap.vertical
+								: textAlignmentMap[direction],
 							alignSelf: 'center',
 						}}
 					>

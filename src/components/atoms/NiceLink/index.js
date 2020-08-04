@@ -25,9 +25,9 @@ export default ({ children, ...props }) => (
 		<Flex align="center">
 			{children}
 			<Icon
-				height="1.4rem"
 				name="arrow"
 				sx={{
+					height: '1.4rem',
 					stroke: 'primary',
 				}}
 			/>

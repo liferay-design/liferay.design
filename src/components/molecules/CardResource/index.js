@@ -2,7 +2,7 @@
 
 import { jsx, Flex } from 'theme-ui'
 import { Heading, AnimateIn, Icon } from 'components/atoms'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import styles from './styles.module.scss'
 import { colors, fontSizes } from 'theme/'
@@ -40,7 +40,10 @@ export class CardResource extends Component {
 						>
 							{title}
 						</Heading>
-						<Icon name={icon} color={colors.primaryl3} width="64px" height="64px" />
+						<Icon
+							name={icon}
+							sx={{ color: 'lightestBlue', width: '64px', height: '64px' }}
+						/>
 					</Flex>
 					<section>
 						<Heading
