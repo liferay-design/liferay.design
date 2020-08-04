@@ -19,14 +19,17 @@ const Navbar = ({ white, section, underlineColor, simpleNav }) => {
 		<Container>
 			<nav className={white ? styles.white : styles.default}>
 				{simpleNav ? (
-					<Link style={{alignSelf:'center', marginLeft:'-.2rem'}} to="/">
-						<Icon name="liferayDesicon" fill="white" height="2rem" width="2rem" />
+					<Link style={{ alignSelf: 'center', marginLeft: '-.2rem' }} to="/">
+						<Icon
+							name="liferayDesicon"
+							sx={{ fill: 'white', height: '2rem', width: '2rem' }}
+						/>
 					</Link>
 				) : (
 					<SiteName underlineColor={underlineColor} section={section} />
 				)}
 
-				{simpleNav ? <AuthContainer/> : <NavItems />}
+				{simpleNav ? <AuthContainer /> : <NavItems />}
 			</nav>
 		</Container>
 	)
