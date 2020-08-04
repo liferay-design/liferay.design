@@ -51,7 +51,6 @@ export default class Handbook extends Component {
 				/>
 				<MediaQuery maxWidth={767}>
 					{matches => {
-						
 						return (
 							<Grid
 								sx={{ variant: 'grids.sideNav' }}
@@ -134,9 +133,11 @@ export default class Handbook extends Component {
 															className={styles.github}
 														>
 															<Icon
+																sx={{
+																	width: '1em',
+																	margin: '0 .5em',
+																}}
 																name="github"
-																width="1em"
-																margin="0 .5em"
 															/>
 															<Text weight="heavy">
 																Edit on Github

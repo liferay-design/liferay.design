@@ -81,10 +81,12 @@ export default class Careers extends Component {
 								Apply on Jobvite{' '}
 								<Icon
 									name="externalLink"
-									margin="0 .2rem 0 .4rem"
-									height=".8rem"
-									width=".8rem"
-									fill="white"
+									sx={{
+										margin: '0 .2rem 0 .4rem',
+										height: '.8rem',
+										width: '.8rem',
+										fill: 'white',
+									}}
 								/>
 							</Button>
 							<Text type="p" style="italic">
