@@ -1,27 +1,9 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import PropTypes from 'prop-types'
-import React from 'react'
-import { colors } from 'theme'
 import IconsObject from './icons'
 
-const Icon = ({
-	className,
-	fill,
-	height,
-	width,
-	name,
-	style,
-	margin,
-	rotate,
-	...props
-}) => {
-	const styles = {
-		...style,
-		fill: colors[fill],
-		height,
-		margin,
-		width,
-	}
-
+const Icon = ({ className, name, rotate, ...props }) => {
 	if (rotate) {
 		styles.transform = `rotate(${rotate}deg)`
 		styles.transition = 'transform 0.4s'
@@ -34,7 +16,7 @@ const Icon = ({
 	}
 
 	return DynamicIcon ? (
-		<DynamicIcon className={className} style={styles} name={name} {...props} />
+		<DynamicIcon className={className} name={name} {...props} />
 	) : (
 		<span />
 	)
@@ -42,12 +24,7 @@ const Icon = ({
 
 Icon.propTypes = {
 	className: PropTypes.string,
-	fill: PropTypes.string,
-	height: PropTypes.string,
-	width: PropTypes.string,
 	name: PropTypes.string.isRequired,
-	style: PropTypes.object,
-	margin: PropTypes.string,
 	rotate: PropTypes.number,
 }
 
