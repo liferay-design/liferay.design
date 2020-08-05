@@ -3,7 +3,6 @@ import { SideTab } from 'components/molecules'
 import React from 'react'
 import styles from './styles.module.scss'
 import MediaQuery from 'react-responsive'
-import {sizes } from 'theme'
 
 const HeroBanner = () => (
 	<Flex className={styles.container} align="center" justify="center">
@@ -14,7 +13,7 @@ const HeroBanner = () => (
 			</Text>
 			designers.
 		</Text>
-		<MediaQuery minWidth={sizes.medium}>
+		<MediaQuery minWidth={'768px'}>
 			<SideTab
 				cta="2019&nbsp;Report"
 				ctaUrl="/2019"

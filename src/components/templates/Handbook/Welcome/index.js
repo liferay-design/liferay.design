@@ -7,7 +7,7 @@ import { Navbar } from 'components/organisms'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import styles from './styles.module.scss'
-import { colors, spacing } from 'theme'
+import { colors } from 'theme'
 
 export const Handbook = () => {
 	return (
@@ -112,7 +112,7 @@ export const Handbook = () => {
 					</Grid>
 				</Container>
 			</div>
-			<Container background={colors.main} padding={spacing.large + ' 0'}>
+			<Container background={colors.main} padding={{ py: '5' }}>
 				<Heading sx={{ textAlign: 'center', color: 'white' }} level={2}>
 					Sign up for our monthly newsletter!
 				</Heading>

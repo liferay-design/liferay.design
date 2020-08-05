@@ -1,14 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, Grid, Box } from 'theme-ui'
+import { jsx, Grid, Box, Flex } from 'theme-ui'
 import React from 'react'
 
-import { Flex, Image, AnimateIn, Icon, Link } from 'components/atoms'
+import { Image, AnimateIn, Icon, Link } from 'components/atoms'
 import { SEO } from 'components/molecules'
 
 import { Card, Heading, LoadingAnimation } from 'pages/design-week/components/_index'
 import styles from './styles.module.scss'
-import { spacing } from 'theme'
 
 export default class DesignWeek extends React.Component {
 	render() {
@@ -30,7 +29,7 @@ export default class DesignWeek extends React.Component {
 					previewImage="/images/design-week/open-graph.png"
 					twitterHandle="@liferaydesign"
 				/>
-				<LoadingAnimation size={spacing.xLarge} />
+				<LoadingAnimation size={'16rem'} />
 
 				<Flex className={styles.page}>
 					<div

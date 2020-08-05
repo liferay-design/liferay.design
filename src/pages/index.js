@@ -6,7 +6,6 @@ import { CardDefault } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { useStaticQuery, graphql } from 'gatsby'
 import { MainLayout } from 'components/templates'
-import { spacing, colors } from 'theme'
 
 export default () => {
 	const data = useStaticQuery(graphql`
@@ -34,9 +33,9 @@ export default () => {
 	return (
 		<div>
 			<div
-				style={{
+				sx={{
 					backgroundAttachment: 'fixed',
-					backgroundColor: `${colors.black}`,
+					backgroundColor: 'black',
 					backgroundImage: 'url("/images/diamond-bar-topography.png")',
 					backgroundRpeat: 'noRepeat repeat',
 					backgroundSize: '100%',
@@ -55,13 +54,7 @@ export default () => {
 						linkText="Get More"
 						linkDestination="/resources"
 						background={
-							'linear-gradient(to bottom, ' +
-							`${colors.white}` +
-							', ' +
-							`${colors.white}` +
-							' 80%, ' +
-							`${colors.black}` +
-							' 80%)'
+								'linear-gradient(to bottom, #fff, #fff 80%, #13141F 80%)'
 						}
 					>
 						<Grid sx={{ variant: 'grids.twoCards' }}>

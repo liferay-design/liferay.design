@@ -1,7 +1,11 @@
+import { fontWeights } from "theme/";
+
 export default {
 	colors: {
 		text: '#fff',
 		background: 'inherit',
+		black: '#13141F',
+		white: '#FFF',
 		primary: '#0B5FFF',
 		grayBg: '#F1f2f5',
 		grayBgL1: '#F7f8f9',
@@ -85,6 +89,16 @@ export default {
 		caps: {
 			textTransform: 'uppercase',
 			letterSpacing: 'caps',
+		},
+		tag: {
+			bg: 'black',
+			borderRadius: '0.4rem',
+			p: 1,
+			variant: 'text.caps',
+			color: 'lightGrey',
+			fontWeight: 'heading',
+			fontSize: 1,
+			m: 2,
 		},
 	},
 	space: [0, '.4rem', '1rem', '2rem', '3rem', '8rem', '16rem', '32rem'],
