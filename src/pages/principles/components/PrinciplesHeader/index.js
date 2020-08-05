@@ -6,15 +6,14 @@ const PrinciplesHeader = () => {
 	return (
 		<div className={styles.circleHeader}>
 			<Link to="/resources">
-				<Icon className={styles.headerBadge} fill="white" name="liferayDesicon" width="4rem" />
+				<Icon
+					className={styles.headerBadge}
+					sx={{ fill: 'white' }}
+					name="liferayDesicon"
+				/>
 			</Link>
 			<div className={styles.headerText}>
-				{/* is this necessary? we have the waffle above <h4>Liferay</h4> */}
 				<h1>Design Principles</h1>
-				{/*
-				<p>
-					We seek to produce good design.
-				</p> */}
 				<p>
 					These principles guide our work, and provide standards for what good
 					design means at Liferay.

@@ -119,7 +119,7 @@ export const Handbook = () => {
 				<Link to="/newsletter">
 					<Text align="center" color="lightGrey" margin="base">
 						Read past issues
-						<Icon fill="lightGrey" margin=".2em 0 0 1em" name="rightArrow" />
+						<Icon sx={{fill:"lightGrey", margin:".2em 0 0 1em"}} name="rightArrow" />
 					</Text>
 				</Link>
 				<FormNewsletter

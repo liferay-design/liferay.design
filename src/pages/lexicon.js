@@ -100,19 +100,19 @@ const Lexicon = () => (
 							className={documentation.social}
 							to="https://github.com/liferay-design"
 						>
-							<Icon fill="white" name="github" />
+							<Icon sx={{fill:"white"}} name="github" />
 						</Link>
 						<Link
 							className={documentation.social}
 							to="https://dribbble.com/liferay"
 						>
-							<Icon fill="white" name="dribbble" />
+							<Icon sx={{fill:"white"}} name="dribbble" />
 						</Link>
 						<Link
 							className={documentation.social}
 							to="https://twitter.com/Liferay_Lexicon"
 						>
-							<Icon fill="white" name="twitter" />
+							<Icon sx={{fill:"white"}} name="twitter" />
 						</Link>
 					</Box>
 				</Grid>
