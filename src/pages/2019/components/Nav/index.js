@@ -217,7 +217,7 @@ export default class Nav extends Component {
 		return (
 			<div>
 				<Link to="/">	
-					<Icon fill="white" name="liferayDesicon" width={spacing.base} className={styles.desicon} />
+					<Icon sx={{fill:"white", width:'2rem'}} name="liferayDesicon" className={styles.desicon} />
 				</Link>
 				<Plx id="nav" className={`${styles.anchorLinks} ${this.state.navOpen ? "navOpen" : ""}`} >
 					<button className={styles.menuButton} onClick={this.toggle}>

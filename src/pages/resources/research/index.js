@@ -1,12 +1,11 @@
 /** @jsx jsx */
 
 import { jsx, Grid, Box } from 'theme-ui'
-import { Container, Link, Heading, Icon } from 'components/atoms'
+import { Container, Link, Heading, Icon, NiceLink } from 'components/atoms'
 import { SEO, CardResource } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import { slugToTitle, slugToIcon } from 'utils'
-import { colors } from 'theme'
 
 export default ({ data }) => {
 	return (
@@ -42,7 +41,10 @@ export default ({ data }) => {
 							<p>
 								For a comprehensive list, visit our full attribution page.
 							</p>
-							<Icon height="1.4rem" name="arrow" stroke={colors.primary} />
+							<Icon
+								sx={{ height: '1.4rem', stroke: 'primary' }}
+								name="arrow"
+							/>
 						</Link>
 					</Box>
 				</Grid>

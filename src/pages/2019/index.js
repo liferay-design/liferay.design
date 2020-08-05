@@ -89,8 +89,8 @@ const TwentyNineteen = () => {
 				>
 					<Grid
 						sx={{
-							gridTemplateRows:'auto 1fr',
-							rowGap:'48px',
+							gridTemplateRows: 'auto 1fr',
+							rowGap: '48px',
 						}}
 						className={styles.organizationContent}
 					>
@@ -103,9 +103,7 @@ const TwentyNineteen = () => {
 						<Box className={styles.desicon}>
 							<Icon
 								name="liferayDesicon"
-								fill="white"
-								height="7.25vw"
-								width="7.25vw"
+								sx={{ fill: 'white', height: '7.25vw', width: '7.25vw' }}
 							/>
 							<p className={styles.pLarge}>
 								{data.departmentSection.desicon.title}
