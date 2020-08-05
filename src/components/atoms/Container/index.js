@@ -1,23 +1,35 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import styles from './styles.module.scss'
-import { Heading, Flex, NiceLink } from 'components/atoms'
-import { spacing } from 'theme'
+/** @jsx jsx */
 
-const Container = ({ style, banner, children, background, padding, linkDestination, linkText, heading, ...props }) => {
+import { jsx, Flex } from 'theme-ui'
+import PropTypes from 'prop-types'
+import styles from './styles.module.scss'
+import { Heading, NiceLink } from 'components/atoms'
+
+const Container = ({
+	style,
+	banner,
+	children,
+	background,
+	padding,
+	linkDestination,
+	linkText,
+	heading,
+	...props
+}) => {
 	return (
 		<div
 			className={styles.wrapper}
-			style={
-				{ background: `${background}`, padding: `${padding}`, ...style }}
+			sx={{ background: `${background}`, ...padding, ...style }}
 		>
 			<div className={styles.container}>
-				<Flex justify="space-between">
+				<Flex sx={{ justifyContent: 'space-between', alignItems: 'baseline' }}>
 					{heading ? (
 						<Heading
-							color="white"
+							sx={{
+								color: 'white',
+								py: 4,
+							}}
 							level={2}
-							padding={spacing.medium}
 							{...props}
 						>
 							{heading}
@@ -29,9 +41,7 @@ const Container = ({ style, banner, children, background, padding, linkDestinati
 				</Flex>
 				{children}
 			</div>
-			{banner ? (
-				<div style={{ background: 'white', padding: `${spacing.medium}` }} />
-			) : null}
+			{banner ? <div sx={{ background: 'white', padding: 4 }} /> : null}
 		</div>
 	)
 }

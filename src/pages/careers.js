@@ -14,7 +14,7 @@ export default ({ data }) => {
 				pageTitle="Liferay.Design | Careers"
 			/>
 			<Container>
-				<Heading level={1} color="white" padding="4rem">
+				<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
 					Join the Team!
 				</Heading>
 				<Grid sx={{ variant: 'grids.threeCards' }}>

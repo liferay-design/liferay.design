@@ -58,7 +58,7 @@ export default () => {
 		<div>
 			{Events.length > 0 ? (
 				<Container>
-					<Heading level={1} color="white" padding="4rem">
+					<Heading level={1} sx={{ padding: '4rem', color: 'white' }}>
 						Upcoming Events
 					</Heading>
 					<Grid sx={{ variant: 'grids.threeCards' }}>{Events}</Grid>

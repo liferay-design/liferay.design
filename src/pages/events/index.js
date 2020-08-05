@@ -10,12 +10,12 @@ export default () => {
 	return (
 		<MainLayout section="Events">
 			<SEO
-				description='Events we’re hosting or participating in'
-				pageTitle='Liferay.Design | Events'
+				description="Events we’re hosting or participating in"
+				pageTitle="Liferay.Design | Events"
 			/>
-			<UpcomingEvents />		
+			<UpcomingEvents />
 			<Container>
-				<Heading level={1} color="white" padding="4rem">
+				<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
 					Event Recaps
 				</Heading>
 				<PastEvents />

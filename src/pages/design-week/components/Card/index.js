@@ -32,12 +32,12 @@ export class Card extends Component {
 					</AnimateIn>
 					<div className={styles.details}>
 						<AnimateIn delay={delay * 1.2 + 's'}>
-							<Heading color="mainl2" className={styles.heading} level={2}>
+							<Heading sx={{color:"mainl2"}} className={styles.heading} level={2}>
 								{place}
 							</Heading>
 						</AnimateIn>
 						<AnimateIn delay={delay * 1.24 + 's'}>
-							<Heading color="mainl5" className={styles.heading} level={2}>
+							<Heading sx={{color:"mainl5"}} className={styles.heading} level={2}>
 								{date}
 							</Heading>
 						</AnimateIn>

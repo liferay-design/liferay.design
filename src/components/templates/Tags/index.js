@@ -19,7 +19,7 @@ const Tags = ({ pageContext, data }) => {
 		<MainLayout section="Articles">
 			<Container>
 				<Flex direction="row" justify="space-between">
-					<Heading level={1} color="white" padding="4rem">
+					<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
 						{tagHeader}
 					</Heading>
 					<Link

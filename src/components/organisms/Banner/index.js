@@ -36,10 +36,10 @@ const Banner = ({
 				{preTitle ? <div className={styles.preTitle}>
 					{preTitle}
 				</div> : null}
-				<Heading color="white" level={1}>
+				<Heading sx={{color:"white"}} level={1}>
 					{headline}
 				</Heading>
-				<Heading color="white" level={2}>
+				<Heading sx={{color:"white"}} level={2}>
 					{subtitle}
 				</Heading>
 				{cta ? (

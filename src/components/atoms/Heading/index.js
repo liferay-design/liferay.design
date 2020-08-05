@@ -1,15 +1,15 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import PropTypes from 'prop-types'
-import React from 'react'
-import { colors } from 'theme'
 import styles from './styles.module.scss'
 
-const Heading = ({ additionalStyles, align, bottomBorder, className, color, children, level, padding }) => {
+const Heading = ({ additionalStyles, align, bottomBorder, className, children, level, padding, ...props }) => {
 	const Header = `h${level}`
 	const borderClass = bottomBorder ? styles.bottomBorder : ''
 
 	var style = {
 		...additionalStyles,
-		color: colors[color],
 		textAlign: align,
 	}
 
@@ -18,7 +18,7 @@ const Heading = ({ additionalStyles, align, bottomBorder, className, color, chil
 	}
 
 	return (
-		<Header className={`${className} ${styles[Header]} ${borderClass}`} style={style}>
+		<Header className={`${className} ${styles[Header]} ${borderClass}`} style={style} {...props} >
 			{children}
 		</Header>
 	)
@@ -28,7 +28,6 @@ Heading.propTypes = {
 	align: PropTypes.string,
 	bottomBorder: PropTypes.bool,
 	className: PropTypes.string,
-	color: PropTypes.string,
 	children: PropTypes.node,
 	level: PropTypes.number.isRequired,
 	padding: PropTypes.string,

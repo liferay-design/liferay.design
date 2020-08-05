@@ -8,12 +8,21 @@ const Content = ({ pretitle, title, copy, align, justify }) => {
 			<Text weight="black" color="primary" className={styles.preHeader}>
 				{pretitle}
 			</Text>
-			<Heading className={styles.f2} color="white" level={2}>
+			<Heading className={styles.f2} sx={{ color: 'white' }} level={2}>
 				{title}
 			</Heading>
-			{copy && copy.split("\n\n").map((paragraph, i) => (
-				<Text type="p" key={i} align={align} size="medium" className={styles.p}>{paragraph}</Text>
-                ))}
+			{copy &&
+				copy.split('\n\n').map((paragraph, i) => (
+					<Text
+						type="p"
+						key={i}
+						align={align}
+						size="medium"
+						className={styles.p}
+					>
+						{paragraph}
+					</Text>
+				))}
 		</Flex>
 	)
 }

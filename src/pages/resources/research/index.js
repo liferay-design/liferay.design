@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { jsx, Grid, Box } from 'theme-ui'
-import { Container, Link, Heading, Icon, NiceLink } from 'components/atoms'
+import { Container, Link, Heading, Icon } from 'components/atoms'
 import { SEO, CardResource } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'

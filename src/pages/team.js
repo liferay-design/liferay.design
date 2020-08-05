@@ -15,7 +15,7 @@ export default ({ data }) => {
 				pageTitle="Liferay.Design | Team"
 			/>
 			<Container>
-				<Heading level={1} color="white" padding="4rem">
+				<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
 					The Squad
 				</Heading>
 				<Grid sx={{ variant: 'grids.threeCards' }}>

@@ -30,7 +30,12 @@ export default class PrivatePage extends Component {
 	}
 
 	renderPrivateContent() {
-		const authenticatedUsers = ['liferay.com', 'triblio.com', 'kyrodigital.com', 'thebuzzlab.com']
+		const authenticatedUsers = [
+			'liferay.com',
+			'triblio.com',
+			'kyrodigital.com',
+			'thebuzzlab.com',
+		]
 		const currentUser = this.state.user
 
 		const isUserAuthenticated =
@@ -59,7 +64,7 @@ export default class PrivatePage extends Component {
 					align="center"
 				>
 					<Flex direction="column">
-						<Heading margin="2rem">{this.props.message}</Heading>
+						<Heading sx={{ margin: '2rem' }}>{this.props.message}</Heading>
 						<div className={styles.loginButton}>
 							<AuthContainer />
 						</div>
@@ -70,10 +75,6 @@ export default class PrivatePage extends Component {
 	}
 
 	render() {
-		return (
-			<div>
-				{this.renderPrivateContent()}
-			</div>
-		)
+		return <div>{this.renderPrivateContent()}</div>
 	}
 }

@@ -13,7 +13,7 @@ const Venue = () => (
 			</Heading>
 
 			<Flex className={styles.address} direction="column">
-				<Heading className={`f4`} color="white">
+				<Heading className={`f4`} sx={{ color: 'white' }}>
 					Liferay Headquarters
 				</Heading>
 
