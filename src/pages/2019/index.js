@@ -28,7 +28,6 @@ import {
 	CarouselSlide,
 } from 'pages/2019/components/_index'
 import styles from './styles.module.scss'
-import { sizes } from 'theme'
 import data from 'markdown/annual-reports/TwentyNineteen.yaml'
 
 const TwentyNineteen = () => {
@@ -52,7 +51,7 @@ const TwentyNineteen = () => {
 
 			{/* ----------- SCROLL PROGRESS BAR ---------- */}
 			<ScrollProgress />
-			<MediaQuery minWidth={sizes.medium}>
+			<MediaQuery minWidth={'768px'}>
 				<ScrollArrow />
 			</MediaQuery>
 

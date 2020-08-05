@@ -6,7 +6,6 @@ import { Link, graphql } from 'gatsby'
 import { Container, Heading, Flex } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { MainLayout } from 'components/templates'
-import { colors, fontSizes, fontWeights } from 'theme'
 import {avatarPath} from 'utils'
 
 const Tags = ({ pageContext, data }) => {
@@ -23,17 +22,8 @@ const Tags = ({ pageContext, data }) => {
 						{tagHeader}
 					</Heading>
 					<Link
-						style={{
-							alignSelf: 'baseline',
-							background: colors.black,
-							borderRadius: fontSizes.micro,
-							padding: fontSizes.micro,
-							textTransform: 'uppercase',
-							color: colors.lightGrey,
-							fontWeight: fontWeights.black,
-							letterSpacing: '1px',
-							fontSize: fontSizes.small,
-							margin: '1rem 0',
+						sx={{
+							variant: 'text.tag',
 						}}
 						to={`/articles`}
 					>

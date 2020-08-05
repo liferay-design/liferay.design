@@ -4,7 +4,6 @@ import { jsx, Grid } from 'theme-ui'
 import { Container, Heading, Link, Flex } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
-import { colors, fontSizes, fontWeights } from 'theme'
 import { graphql } from 'gatsby'
 import { avatarPath } from 'utils'
 
@@ -22,32 +21,16 @@ export default ({ data }) => {
 					</Heading>
 					<div style={{ alignSelf: 'baseline', marginTop: '1.8rem' }}>
 						<Link
-							style={{
-								background: colors.black,
-								borderRadius: fontSizes.micro,
-								padding: fontSizes.micro,
-								textTransform: 'uppercase',
-								color: colors.lightGrey,
-								fontWeight: fontWeights.black,
-								letterSpacing: '1px',
-								fontSize: fontSizes.small,
-								margin: '1rem',
+							sx={{
+								variant: 'text.tag',
 							}}
 							to={`/tags/best-practices`}
 						>
 							Best Practices
 						</Link>
 						<Link
-							style={{
-								background: colors.black,
-								borderRadius: fontSizes.micro,
-								padding: fontSizes.micro,
-								textTransform: 'uppercase',
-								color: colors.lightGrey,
-								fontWeight: fontWeights.black,
-								letterSpacing: '1px',
-								fontSize: fontSizes.small,
-								margin: '1rem 0',
+							sx={{
+								variant: 'text.tag',
 							}}
 							to={`/tags/talks`}
 						>

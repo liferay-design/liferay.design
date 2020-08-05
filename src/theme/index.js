@@ -111,22 +111,4 @@ const fontWeights = {
 	black: 700,
 }
 
-const sizes = {
-						// rem @ 16px
-	small: '448px', 	// 28rem
-	medium: '768px', 	// 48rem
-	large: '1280px', 	// 80rem
-	xLarge: '1920px', 	// 120rem
-}
-
-const spacing = {
-	xSmall: '0.4rem',
-	small: '1rem',
-	base: '2rem',
-	medium: '3rem',
-	large: '8rem',
-	xLarge: '16rem',
-	xxLarge: '32rem',
-}
-
-export { colors, fontWeights, fontSizes, sizes, spacing}
+export { colors, fontWeights, fontSizes }

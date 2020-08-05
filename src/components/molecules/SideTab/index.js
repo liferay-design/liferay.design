@@ -6,7 +6,7 @@ import { BillboardAlt } from 'components/molecules'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
 import MediaQuery from 'react-responsive'
-import { sizes, colors } from 'theme'
+import { colors } from 'theme'
 
 const SideTab = ({ image, cta, ctaUrl, innerCta, subtitle }) => {
 	return (
@@ -36,7 +36,7 @@ const SideTab = ({ image, cta, ctaUrl, innerCta, subtitle }) => {
 						</div>
 					</Grid>
 				</Link>
-				<MediaQuery minWidth={sizes.large}>
+				<MediaQuery minWidth={'1280px'}>
 					<BillboardAlt
 						heading={cta}
 						subtitle={subtitle}
