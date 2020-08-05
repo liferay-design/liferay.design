@@ -45,16 +45,13 @@ export default () => {
 			>
 				<MainLayout>
 					<HeroBanner />
-					<Container
-						heading="What's New"
-						padding={`${spacing.small}` + ' 0 ' + `${spacing.large}`}
-					>
+					<Container heading="What's New" padding={{ px: 0, pt: 2, pb: 5 }}>
 						<TopBlogPosts />
 					</Container>
 					<Container
 						heading="Resources"
-						color="black"
-						padding={`${spacing.large}` + ' 0 ' + `${spacing.small}`}
+						sx={{ color: 'black' }}
+						padding={{ px: 0, pt: 4, pb: 3 }}
 						linkText="Get More"
 						linkDestination="/resources"
 						background={
@@ -69,7 +66,7 @@ export default () => {
 					>
 						<Grid sx={{ variant: 'grids.twoCards' }}>
 							<CardDefault
-								aspectRatio='16:9'
+								aspectRatio="16:9"
 								imageURL={data.lexiconCover.childImageSharp.fluid.src}
 								icon="lexicon"
 								title="Lexicon Design System"
@@ -77,7 +74,7 @@ export default () => {
 								link="/lexicon"
 							/>
 							<CardDefault
-								aspectRatio='16:9'
+								aspectRatio="16:9"
 								imageURL={data.figmaUtilities.childImageSharp.fluid.src}
 								icon="fa_figma"
 								title="Figma Files"

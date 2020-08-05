@@ -9,9 +9,6 @@
 	// background: $white;
 	opacity: 0;
 	animation: animateIn $loadingAnimationDuration ease-in-out forwards;
-	.icon {
-		margin-bottom: 4vh;
-	}
 	.spinningDot {
 		position: absolute;
 		top: 0;

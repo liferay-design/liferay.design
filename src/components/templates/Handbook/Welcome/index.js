@@ -23,7 +23,7 @@ export const Handbook = () => {
 						<Text color="grey" weight="inherit" className={styles.date}>
 							Since 2004
 						</Text>
-						<Heading color="white">
+						<Heading sx={{ color: 'white' }}>
 							Growing &amp; Getting&nbsp;Better. <br />
 							<span>Together.</span>
 						</Heading>
@@ -113,13 +113,16 @@ export const Handbook = () => {
 				</Container>
 			</div>
 			<Container background={colors.main} padding={spacing.large + ' 0'}>
-				<Heading align="center" color="white" level={2}>
+				<Heading sx={{ textAlign: 'center', color: 'white' }} level={2}>
 					Sign up for our monthly newsletter!
 				</Heading>
 				<Link to="/newsletter">
 					<Text align="center" color="lightGrey" margin="base">
 						Read past issues
-						<Icon sx={{fill:"lightGrey", margin:".2em 0 0 1em"}} name="rightArrow" />
+						<Icon
+							sx={{ fill: 'lightGrey', margin: '.2em 0 0 1em' }}
+							name="rightArrow"
+						/>
 					</Text>
 				</Link>
 				<FormNewsletter

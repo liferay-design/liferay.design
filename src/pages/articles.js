@@ -17,7 +17,7 @@ export default ({ data }) => {
 			/>
 			<Container>
 				<Flex direction="row" justify="space-between">
-					<Heading level={1} color="white" padding="4rem">
+					<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
 						The Latest Posts
 					</Heading>
 					<div style={{ alignSelf: 'baseline', marginTop: '1.8rem' }}>

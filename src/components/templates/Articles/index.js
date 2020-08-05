@@ -9,7 +9,6 @@ import { graphql, withPrefix } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
-import { colors } from 'theme'
 import { makeAuthorSlug } from 'utils'
 
 export default class Articles extends Component {
@@ -55,10 +54,10 @@ export default class Articles extends Component {
 								<span>
 									by{' '}
 									<Link
-										style={{
-											color: colors.primaryl3,
+										sx={{
+											color: 'primaryl3',
 											textDecoration: 'underline',
-											textDecorationColor: colors.primary,
+											textDecorationColor: theme => theme.colors.primary
 										}}
 										to={withPrefix(
 											'/team/' +
@@ -75,11 +74,10 @@ export default class Articles extends Component {
 											and{' '}
 											{post.frontmatter.contributors.map(i => (
 												<Link
-													style={{
-														color: colors.primaryl3,
+													sx={{
+														color: 'primaryl3',
 														textDecoration: 'underline',
-														textDecorationColor:
-															colors.primary,
+														textDecorationColor: 'primary',
 													}}
 													to={withPrefix(
 														'/team/' +
