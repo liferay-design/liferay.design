@@ -144,6 +144,12 @@
   icon: fa_chess_queen
   startDate: 2013-10-07
   office: Diamond Bar
+- id: Rubén Jiménez
+  title: Senior Product Designer
+  active: true
+  icon: fa_crow
+  startDate: 2020-08-06
+  office: Madrid
 - id: Ryan Connolly
   title: Principal Designer
   active: true
