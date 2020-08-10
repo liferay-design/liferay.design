@@ -41,7 +41,7 @@ Download it from [Oracle](https://www.oracle.com/java/technologies/javase/javase
 You can use pico or any other terminal text editor.
 
 ```bash
-pico .zhsrc
+pico .zshrc
 ```
 
 Paste this inside:
