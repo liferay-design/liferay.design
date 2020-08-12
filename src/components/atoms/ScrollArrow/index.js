@@ -60,7 +60,7 @@ export default class ScrollArrow extends Component {
 					onClick={onClick}
 				>
 					<div>scroll</div>
-					<Icon name="scrollArrow" />
+					<Icon name="scrollArrow" sx={{color:'primary'}} />
 				</Plx>
 			)
         }
