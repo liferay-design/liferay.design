@@ -105,7 +105,11 @@ const CardDefault = ({
 								/>
 							) : (
 								<Icon
-									sx={{ fill: 'white', height: '2rem', width: '2rem' }}
+									sx={{
+										color: 'white',
+										height: '2rem',
+										width: '2rem',
+									}}
 									name={icon}
 								/>
 							)}
