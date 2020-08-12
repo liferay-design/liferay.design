@@ -1,1 +1,20 @@
-<svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" fill="#FFF" width="800" height="800"><circle cx="400" cy="400" r="400" /></mask><g mask="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M800 0H0v800h800V0zM640 400c0 132.548-107.452 240-240 240V160c132.548 0 240 107.452 240 240z" /></g></svg>
+<svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<mask
+		id="a"
+		maskUnits="userSpaceOnUse"
+		x="0"
+		y="0"
+		fill="#FFF"
+		width="800"
+		height="800"
+	>
+		<circle cx="400" cy="400" r="400" />
+	</mask>
+	<g mask="url(#a)">
+		<path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M800 0H0v800h800V0zM640 400c0 132.548-107.452 240-240 240V160c132.548 0 240 107.452 240 240z"
+		/>
+	</g>
+</svg>
