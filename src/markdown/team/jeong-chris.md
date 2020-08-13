@@ -1,5 +1,5 @@
 ---
-author: 'Christopher Jeong'
+author: 'Chris Jeong'
 ---
 
 ### Favorite tool?

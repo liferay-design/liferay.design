@@ -1,5 +1,5 @@
 ---
-author: 'Christopher Jeong'
+author: 'Chris Jeong'
 date: '2018-11-29'
 title: 'Year 1 Retrospective'
 featuredImage: '/images/articles/cj-change.jpeg'
