@@ -196,7 +196,7 @@ designProjects:
                   title: Read the full post
                   url: /articles/2019/increasing-our-ability-to-convert-prospects/
         - project:
-              image: '/images/headshots/jeong-christopher.jpg'
+              image: '/images/headshots/jeong-chris.jpg'
               title: 'Analytics Cloud'
               designer: 'Chris Jeong & James Lyons'
               description: 'Released AB testing, Improved Segmentation, Site-wide Reporting, Improved Onboarding  and Individuals Dashboards.'

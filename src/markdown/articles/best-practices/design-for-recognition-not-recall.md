@@ -1,5 +1,5 @@
 ---
-author: 'Christopher Jeong'
+author: 'Chris Jeong'
 date: '2019-04-16T12:01:00.000Z'
 title: 'Design for Recognition, not Recall'
 featuredImage: '/images/articles/dbp/design-for-recognition-not-recall.png'

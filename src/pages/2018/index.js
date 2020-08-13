@@ -1060,7 +1060,7 @@ const TwentyEighteen = () => {
 						profileUrl="/team/jeong-chris"
 						month="Oct"
 						day="16"
-						headshot="/images/headshots/small/jeong-christopher.jpg"
+						headshot="/images/headshots/small/jeong-chris.jpg"
 						name="Chris"
 						detail="birthRay"
 						country=""

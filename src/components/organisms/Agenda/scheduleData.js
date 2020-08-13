@@ -271,7 +271,7 @@ const scheduleArray = [
 				speaker: [
 					{
 						photo: 'jeong_chris',
-						name: 'Christopher Jeong',
+						name: 'Chris Jeong',
 						title: 'UX Designer',
 					},
 				],
