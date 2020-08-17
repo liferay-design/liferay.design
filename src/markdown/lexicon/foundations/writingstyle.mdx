@@ -9,106 +9,143 @@ import { Grid, Box } from 'theme-ui'
 
 Words give meaning to your meticulously designed product. Without the proper messaging for your product’s navigation and functionality, uncertainty creeps into your users minds. The messages and naming conventions you use throughout your product complement its design. No matter how well-constructed your design, poor messaging can doom your product’s effectiveness. Clarity, confidence, and consistency in messaging promotes product reliability.
 
-## Be Clear
+## Clear
 
-Longer messaging is not always more helpful. Be concise; understand your user’s needs in a given situation, and provide them with just enough information to be successful. If an interaction is obvious, don’t add messaging. A wordy product is an eyesore.
+Clear writing is important in guiding users through Liferay’s products. Longer, more detailed text is not always more helpful. As a rule, we should make it easy to understand important. Be concise and specific; understand your user’s needs in a given situation, and provide them with just enough information to be successful. 
+
+* Use simple, natural language.
+* Remove unnecessary messaging for obvious interactions.
+* Remove unnecessary words or irrelevant ideas.
+* Start phrases/sentences with an objective.
+* Rely on progressive disclosure and documentation to fill in gaps in understanding.
 
 <br />
+<br />
 
-<Grid sx={{gridTemplateColumns:'70px 1fr'}}>
+<Grid variant='smallCards' >
 	<Box>
-		<p class="do-text">Do</p>
-		<p class="dont-text">Don't</p>
+		<p>SPA pages may load slowly for users using Internet Explorer. Disable SPA to work around this issue.</p>
+		<p class="link-false">More Information</p>
+		<br />
+		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p>Initiates the process</p>
-		<p>
-			If you click this button, then you will initiate a process that does
-			something. Doing something is essential for something else.
-		</p>
+		<p>In order to work around a but in the Trident rendering engines (used by E11) and MSHTML rendering engine (used by Edge), properly rendering tthe page witth SPA currently requires re-downloading all CSS files on all page navigations for all Internet Explorer browsers, which can cause pages to load more slowly with SPA enabled than with SPA disabled. Disable SPA to work around this issue.</p>
+		<br />
+		<p class="dont">Don't</p>
 	</Box>
 </Grid>
 
-## Be Confident
+## Current
 
-Be bold! Take confidence in what you say! The way you provide information sets the tone for what users expect. Products that exude confidence put users at ease when making difficult decisions.
+Liferay’s products live in the present, they exist to help users now. Our communication should be positioned around current happenings and the actions needed to move users towards their goal.
 
-<br />
-
-<Grid sx={{gridTemplateColumns:'70px 1fr'}}>
-	<Box>
-		<p class="do-text">Do</p>
-		<p class="dont-text">Don't</p>
-	</Box>
-	<Box>
-		<p>Click this to save your work.</p>
-		<p>Clicking this should save your work.</p>
-	</Box>
-</Grid>
-
-
-## Be Current
-
-Use present tense throughout product messaging. Promote the product as being alive; it helps you now, telling you what to do now. If you click a button, it won’t do something later; it accomplishes the task immediately.
+* Speak in present tense.
+* Describe current context.
 
 <br />
+<br />
 
-<Grid sx={{gridTemplateColumns:'70px 1fr'}}>
+<Grid variant='smallCards' >
 	<Box>
-		<p class="do-text">Do</p>
-		<p class="dont-text">Don't</p>
+		<p>Register to download</p>
+		<br />
+		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p>Saves the form </p>
-		<p>This will save the form.</p>
+		<p>You can start this download after registering.</p>
+		<br />
+		<p class="dont">Don't</p>
 	</Box>
 </Grid>
 
 
-## Be Consistent
+## Confident
 
-Consistency gives users peace of mind. You want people to feel comfortable navigating your product. Surprises and uncertainty make people uncomfortable. Consistent messaging gives users freedom to focus on what they’re doing, instead of worrying about what the product is trying to tell them. Below are two example techniques you can apply for consistent phrasing:
+Set a tone that will increase trust and confidence. Confident communication will put users at ease when making difficult decisions. Generally speaking, confidence will be inspired by clarity, consistency, and use of an active voice.
 
-### 1. Apply Text Styles Consistently
-
-Formulate the styling you want to use in your product and stick to it. For example, you could assign styling standards to messaging types in your product (e.g., headings, instructions, checkboxes, etc.).
-
--   Title: Capitalize all words (except articles, prepositions, and coordinating conjunctions) and omit any trailing punctuation.
--   Phrase: Capitalize only the first word and all proper nouns, and omit any trailing periods (question marks allowed).
--   Sentence: Capitalize only the first word and all proper nouns, and use normal punctuation.
-
-Tone, capitalization, and punctuation should follow a similar style on any given interface.
+* Use an active voice.
+* Don’t be arrogant. Avoid saying things that are self aggrandizing like best of breed and unrivaled analysis.
 
 <br />
+<br />
 
-<Grid sx={{gridTemplateColumns:'70px 1fr'}}>
+
+<Grid variant='smallCards' >
 	<Box>
-		<p class="do-text">Do</p>
-		<p class="dont-text">Don't</p>
+		<p>Download complete</p>
+		<br />
+		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p>Writing Style Do Example with checkboxes </p>
-		<p>Writing Style Don't Example with checkboxes</p>
+		<p>You have completed a download at lightning speeds.</p>
+		<br />
+		<p class="dont">Don't</p>
 	</Box>
 </Grid>
 
 
-### 2. Address Your Users the Same Way
+## Consistent
 
-For example, don’t refer to them as we, the user, and you in the same context.
+Consistency is a signal of a polished product. Conflicts will adversely affect the perception of quality. Consistency in writing can have many benefits, but above all instills trust in the user of a Liferay product. 
+
+* Have a consistent message. This gives the user freedom to focus on what they’re doing, instead of reinterpreting different versions of a message.
+* Consistent sentence and phrase construction will improve overall comprehension.
+* Use the correct voice and tone to align product screens with user expectations. 
+* Be consistent in your style to provide scannable visual cues.
 
 <br />
+<br />
 
-<Grid sx={{gridTemplateColumns:'70px 1fr'}}>
+
+<Grid variant='smallCards' >
 	<Box>
-		<p class="do-text">Do</p>
-        <p class="dont-text">Don't</p>
+		<p>Delete iPhone User segment?</p>
+		<br />
+		<p>Deleteed iPhone Users segment</p>
+		<br />
+		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p>Writing Style Do Example with checkboxes </p>
-        <p>Writing Style Don't Example with checkboxes</p>
+		<p>Delete iPhone User Segment?</p>
+		<br />
+		<p>Awesome! The Segment iPhone User hass been removed successfully.</p>
+		<br />
+		<p class="dont">Don't</p>
 	</Box>
 </Grid>
-<br/>
 
-**Remember**, your writing style sets the tone for your product. Show people you care by guiding them with sensible, consistent messaging.
+
+## Conversational
+
+Liferay’s products are a reflection of the people who work here. To improve user experience, we personify and humanize the interface through our writing. The product should be conversational and avoid “machine speak.” 
+
+* Speak in first person on behalf of Liferay.
+* Address users in the second person.
+* Refer to 3rd parties using gender neutral pronouns.
+
+<br />
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p>Our support team is working to fix this issue.</p>
+		<br />
+		<strong>Things to know</strong>
+		<p>Your data will not be lost.</p>
+		<p>Your users and their data are not in risk.</p>
+		<p class="link-false">Go to your account settings</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p>Liferay's support team is working to fix ththe offline nodes.</p>
+		<br />
+		<strong>Things to know</strong>
+		<p>Your data will not be lost.</p>
+		<p>Your users and their data are not in risk.</p>
+		<p class="link-false">Go to my account settings</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>

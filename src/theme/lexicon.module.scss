@@ -341,3 +341,7 @@
 	border-color: $warning-l1;
 	color: $warning;
 }
+
+:global(.link-false) {
+	color: $primary;
+}
