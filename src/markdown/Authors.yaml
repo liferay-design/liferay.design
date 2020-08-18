@@ -18,12 +18,6 @@
   icon: fa_glasses
   startDate: 2017-10-16
   office: Diamond Bar
-- id: Crystal Juarez
-  title: Design Intern
-  active: true
-  icon: fa_pepper_hot_solid
-  startDate: 2020-05-18
-  office: Diamond Bar
 - id: David Aragonés
   title: Senior Product Designer
   active: true
@@ -242,6 +236,12 @@
   icon: fa_map_marked_alt
   startDate: 2016-11-07
   office: Recife
+- id: Crystal Juarez
+  title: Design Intern
+  active: false
+  icon: fa_pepper_hot_solid
+  startDate: 2020-05-18
+  office: Diamond Bar
 
 # Friends of Design :)
 - id: Angelo Youn
