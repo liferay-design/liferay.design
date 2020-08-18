@@ -1,32 +1,30 @@
 import { Flex, Link } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
-import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
 
 const NavItems = () => {
+	const pages = ['Articles', 'Careers', 'Events', 'Team', 'Handbook']
+
 	return (
 		<Flex className={styles.entry} align="center">
 			<Flex className={styles.items}>
-				<Link to="/articles">Articles</Link>
-
-				<Link to="/careers">Careers</Link>
-
-				<Link to="/events">Events</Link>
-
-				<Link to="/team">Team</Link>
-
-				<Link to="/handbook">Handbook</Link>
+				{pages.map(item => (
+					<Link
+						key={item}
+						activeStyle={{
+							color: 'white',
+						}}
+						to={'/' + item.toLowerCase()}
+					>
+						{item}
+					</Link>
+				))}
 			</Flex>
 
 			<AuthContainer />
 		</Flex>
 	)
-}
-
-NavItems.propTypes = {
-	href: PropTypes.string,
-	selected: PropTypes.string,
 }
 
 export default NavItems

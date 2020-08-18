@@ -37,14 +37,6 @@
 				transform: scaleX(1);
 			}
 		}
-
-		&.selected {
-			border-bottom: 1px solid $black;
-
-			.entry a {
-				color: $white;
-			}
-		}
 	}
 }
 @media screen and (max-width: $screenMedium) {

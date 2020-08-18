@@ -6,14 +6,6 @@ import styles from './styles.module.scss'
 import { AuthContainer } from 'components/molecules'
 
 const Navbar = ({ white, section, underlineColor, simpleNav }) => {
-	// TODO: Add custom nav items for events page
-	// const navItems = ['agenda', 'blueprints', 'dashboard', 'team', 'venue']
-
-	// {navItems.map(item => (
-	// 	<Heading key={`heading_${item}`} level={4} className={styles.entryLabel}>
-	// 		<a href={`#${item}`}>{item}</a>
-	// 	</Heading>
-	// ))}
 
 	return (
 		<Container>
@@ -37,7 +29,6 @@ const Navbar = ({ white, section, underlineColor, simpleNav }) => {
 
 Navbar.propTypes = {
 	href: PropTypes.string,
-	selected: PropTypes.string,
 	underlineColor: PropTypes.string,
 }
 
