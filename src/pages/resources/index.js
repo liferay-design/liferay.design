@@ -45,7 +45,7 @@ const ResourcesPage = () => (
 					<CardLexicon
 						delay=".3s"
 						dark
-						icon="fa_figma_one_color"
+						icon="figma"
 						title="Figma Resources"
 						text="Open Source Design Projects"
 						to="/resources/figma"
