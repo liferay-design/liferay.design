@@ -6,6 +6,8 @@ featuredImage: '/images/articles/atomic-components.jpg'
 publish: true
 ---
 
+import { Embed } from 'theme-ui'
+
 ![Atomic Figma Components](/images/articles/atomic-components.jpg)
 _Special thanks to [Jamie Street](https://unsplash.com/photos/-7ip4yX5P6Q), [Jimmy Musto](https://unsplash.com/photos/iOWEyl7sEgY), [Jens Johnsson](https://unsplash.com/photos/-N1_Vhyqd50), [Sergi Viladesau](https://unsplash.com/photos/dyrehVIidQk), [Princess Buttercup](https://unsplash.com/photos/OvLBv6F6DGE), and all the fine folks at [Unsplash](https://unsplash.com) for the photos._
 
@@ -101,7 +103,7 @@ _[Emiliano](/team/) pointed out that I should be using text styles for this, not
 
 Now, you can start to see why nesting can be so powerful — I only need to change the color of the text in one place for that change to cascade to the other two components (sorry for the crappy video):
 
-<div style="width:140%;height:480px;margin-left:-20%;position:relative;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xOG7hst4_rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<Embed src="https://www.youtube.com/embed/xOG7hst4_rM" />
 
 These are now the quarks that we’ll use to begin construction of the buttons:
 ![Quarks](/images/articles/quarks.png)
@@ -109,7 +111,7 @@ _Disclaimer: Quarks is probably not the right term._
 
 You will now start to see the true power of the nested component:
 
-<div style="width:140%;height:630px;margin-left:-20%;position:relative;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/qS5xQuoUUmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<Embed src="https://www.youtube.com/embed/qS5xQuoUUmg" />
 
 You can see that we can now adjust a number of properties in one place, and have those changes take effect across all of the children. Lets speed it up...and here we go, most of the main buttons are built out:
 
@@ -118,7 +120,7 @@ _All the atomic button components._
 
 Now that we’ve built all of the buttons using the quarks, you can witness the full power of this battlestation:
 
-<div style="width:140%;height:630px;margin-left:-20%;position:relative;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/3v6rDsbJHQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<Embed src="https://www.youtube.com/embed/3v6rDsbJHQE" />
 
 So — what have we learned?
 
