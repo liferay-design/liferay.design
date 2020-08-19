@@ -53,6 +53,13 @@ svg.leaf-link {
 		&.active > a,
 		&[aria-current]:not([aria-current='false']) {
 			font-weight: $fontWeightBlack !important;
+		}
+	}
+	.leaf-link,
+	.first-level-node > a {
+		&.active,
+		&.active > a,
+		&[aria-current]:not([aria-current='false']) {
 			background-color: $main;
 			&:after {
 				content: '';
