@@ -1,4 +1,4 @@
-import { fontWeights } from "theme/";
+import { fontWeights } from 'theme/'
 
 export default {
 	colors: {
@@ -189,6 +189,16 @@ export default {
 			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
 			autoRows: 'auto',
 			gap: '2rem',
+		},
+	},
+	embed: {
+		video: {
+			mt: 3,
+			mb: 4,
+		},
+		slides: {
+			mt: 3,
+			mb: 4,
 		},
 	},
 }
