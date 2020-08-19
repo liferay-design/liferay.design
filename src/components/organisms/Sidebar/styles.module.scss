@@ -52,8 +52,18 @@ svg.leaf-link {
 		&.active,
 		&.active > a,
 		&[aria-current]:not([aria-current='false']) {
-			color: $primary;
 			font-weight: $fontWeightBlack !important;
+			background-color: $main;
+			&:after {
+				content: '';
+				width: 0.2rem;
+				display: block;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				background-color: $primary;
+			}
 		}
 	}
 }
