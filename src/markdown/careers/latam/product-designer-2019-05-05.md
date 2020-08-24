@@ -4,7 +4,7 @@ office: 'Recife'
 jobId: 'oEG79fwk'
 featuredImage: '/images/articles/design-week-n.jpg'
 date: '2019-05-05'
-published: true
+published: false
 ---
 
 ## Who Designs at Liferay?

@@ -1,9 +1,9 @@
 ---
-jobId: otdBafwb
-date: 2019-07-24T07:00:00Z
-title: Product Designer
-office: Diamond Bar
-featuredImage: '/images/articles/pj-first-year.jpeg'
+jobId: 'oX7fdfwg'
+date: '2020-08-19'
+title: 'Senior Product Designer'
+office: 'Diamond Bar'
+featuredImage: '/images/articles/ux-designer.jpg'
 published: true
 ---
 
@@ -51,8 +51,6 @@ You’ll have plenty of variety, sometimes the projects are flashy and exciting 
 
 ## What Can We Offer You?
 
-A place to make a lasting impact — we strongly believe in using business as a tool for restoration. Think Patagonia’s commitment to the environment, just extended to the whole world. Some initiatives that we’ve recently worked in are fighting human trafficking, helping foster youth, and serving refugees.
-
 -   Salary package commensurate with qualifications and experience.
 -   40 hours per year to volunteer at a nonprofit of your choice.
 -   2.5 weeks of vacation + 10 holidays.
@@ -65,3 +63,7 @@ A place to make a lasting impact — we strongly believe in using business as a 
 -   Tell us why you’d be a great culture-add at Liferay
 -   Resume or LinkedIn Profile
 -   Portfolio link
+
+## Liferay is an Equal Opportunity Employer
+
+_Liferay is committed to the equal treatment of all candidates, customers and employees and to fostering a culture of dignity at work. Our operating procedure provides for equal opportunities in recruitment and employment with the aim to eliminate discrimination against any job applicant or employee on the basis of race, age, sexual orientation, gender or gender reassignment, religion or beliefs, marital or civil partnerships status, family or dependency status, disability, pregnancy and maternity or membership of a traveling community._
