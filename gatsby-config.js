@@ -32,6 +32,15 @@ module.exports = {
 			'Blogs, careers, guidelines, and other resources from the Design Teams at Liferay!',
 	},
 	plugins: [
+		{
+			resolve: `gatsby-plugin-algolia-docsearch`,
+			options: {
+				apiKey: 'e743f8519124b276f2f3325e8e126246',
+				indexName: 'liferay_design',
+				inputSelector: '#lexicon_search',
+				debug: false,
+			},
+		},
 		'gatsby-plugin-brotli',
 		'gatsby-plugin-catch-links',
 		{

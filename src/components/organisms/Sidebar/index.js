@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Grid } from 'theme-ui'
+import { jsx, Input, Grid } from 'theme-ui'
 import { Link, SiteName } from 'components/atoms'
 import { Accordion, SiteCredits } from 'components/molecules'
 import { map, orderBy } from 'lodash'
@@ -72,6 +72,7 @@ export default function SidebarWrapper({
 			)}
 
 			<div className={styles.sidebarContentWrapper}>
+				{lexicon && <Input id='lexicon_search' placeholder="Search" />}
 				<SidebarContent path={path} tree={tree} />
 			</div>
 
