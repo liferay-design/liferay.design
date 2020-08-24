@@ -4,7 +4,7 @@ date: 2020-06-07T07:00:00Z
 title: Product Designer
 office: Madrid
 featuredImage: '/images/articles/madrid-team-event.jpg'
-published: true
+published: false
 ---
 
 ## Who Designs at Liferay?
