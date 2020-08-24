@@ -15,11 +15,11 @@ const HeroBanner = () => (
 		</Text>
 		<MediaQuery minWidth={'768px'}>
 			<SideTab
-				cta="2019&nbsp;Report"
-				ctaUrl="/2019"
-				image="/images/components/2019.svg"
-				innerCta="Reminisce with us"
-				subtitle="Every year we take some time to reflect and highlight some of the amazing work by our team."
+				cta="We're&nbsp;Hiring"
+				ctaUrl="/careers/na/senior-product-designer/"
+				image="/images/components/pj-thumb.jpg"
+				innerCta="See Openings"
+				subtitle="Read the job descriptions and apply to be a part of the team."
 			/>
 		</MediaQuery>
 	</Flex>
