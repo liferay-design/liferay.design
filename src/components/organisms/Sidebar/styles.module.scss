@@ -6,7 +6,10 @@
 	font-weight: $fontWeightRegular;
 	padding: ($spacingSmall * 0.64) $spacingSmall;
 	position: relative;
-
+	width: 100%;
+	svg {
+			fill: $main;
+		}
 	&:hover {
 		background-color: $gray-bg;
 	}
@@ -19,7 +22,6 @@
 		font-weight: $fontWeightHeavy;
 		color: $primary;
 	}
-	width: 100%;
 }
 
 svg.leaf-link {
@@ -136,9 +138,6 @@ svg.leaf-link {
 		a {
 			font-weight: $fontWeightRegular;
 		}
-		svg {
-			fill: $main;
-		}
 	}
 
 	.credits {
@@ -158,5 +157,13 @@ svg.leaf-link {
 	.first-level-node,
 	.first-level-node > a {
 		font-size: $fontSizeSmall;
+	}
+}
+
+.sidebar.lexicon {
+	// overflow: visible;
+
+	.sidebar-content-wrapper > .leaf-link:nth-of-type(1) {
+		margin-top: $spacingMedium;
 	}
 }
