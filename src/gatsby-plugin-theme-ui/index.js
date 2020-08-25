@@ -53,7 +53,7 @@ export default {
 					'-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',
 			},
 			brand: {
-				body: '"Source Sans Pro", Tahoma, "Trebuchet MS", sans-serif;',
+				body: '"Source Sans Pro", Tahoma, "Trebuchet MS", sans-serif',
 			},
 		},
 	},
@@ -199,6 +199,29 @@ export default {
 		slides: {
 			mt: 3,
 			mb: 4,
+		},
+	},
+	input: {
+		backgroundColor: '#f1f2f5',
+		border: '.0625rem solid #e7e7ed',
+		borderRadius: '.25rem',
+		boxShadow: '0 0 transparent',
+		color: '#272833',
+		display: 'block',
+		fontSize: '1rem',
+		fontWeight: '400',
+		height: '2.5rem',
+		lineHeight: '1.5',
+		minWidth: '0',
+		padding: '.4375rem 1rem',
+		width: '100%',
+		transition: 'border-color .15s ease-in-out,box-shadow .15s ease-in-out',
+		'&:focus': {
+			backgroundColor: '#f0f5ff',
+			borderColor: '#80acff',
+			boxShadow: '0 0 transparent,0 0 0 .125rem #fff,0 0 0 .25rem #80acff',
+			color: '#272833',
+			outline: '0',
 		},
 	},
 }
