@@ -4,13 +4,16 @@ import { jsx, Input, Flex } from 'theme-ui'
 import { Icon } from 'components/atoms'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
+import { useHotkeys } from 'react-hotkeys-hook'
 
 export default function SearchInput({ id }) {
+	useHotkeys('cmd+shift+f', () => document.getElementById(`${id}`).focus())
+
 	return (
 		<Flex
 			className={styles.searchInput}
 			sx={{
-				mt: [0, null, '-3rem']
+				mt: [0, null, '-3rem'],
 			}}
 		>
 			<Input id={id} placeholder="Search" />
@@ -28,5 +31,5 @@ export default function SearchInput({ id }) {
 }
 
 SearchInput.propTypes = {
-	items: PropTypes.string,
+	id: PropTypes.string,
 }
