@@ -100,6 +100,18 @@ export default {
 			fontSize: 1,
 			m: 2,
 		},
+		hotkey: {
+			lineHeight: '1.5',
+			textTransform: 'capitalize',
+			fontWeight: 'bold',
+			color: 'mainL4',
+			px: 1,
+			py: 0,
+			mx: '.2ch',
+			bg: 'mainL8',
+			borderRadius: '2px',
+			border: theme => 'solid 1px ' + theme.colors.mainL5,
+		},
 	},
 	space: [0, '.4rem', '1rem', '2rem', '3rem', '8rem', '16rem', '32rem'],
 	alignments: {

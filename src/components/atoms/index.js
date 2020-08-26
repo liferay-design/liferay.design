@@ -4,6 +4,7 @@ import Container from './Container'
 import ContainerMarkdown from './ContainerMarkdown'
 import Flex from './Flex'
 import Heading from './Heading'
+import Hotkey from './Hotkey'
 import Icon from './Icon'
 import Image from './Image'
 import Link from './Link'
@@ -18,6 +19,7 @@ export {
 	Button,
 	Flex,
 	Heading,
+	Hotkey,
 	Icon,
 	Image,
 	Link,
