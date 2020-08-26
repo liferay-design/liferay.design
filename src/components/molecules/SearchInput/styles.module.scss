@@ -21,7 +21,7 @@
 	/* Category (eg. Downloads) */
 	:global .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column,
 	:global .algolia-autocomplete .algolia-docsearch-suggestion--content:before {
-		display: none;
+		display: none !important;
 	}
 
 	:global .algolia-autocomplete .algolia-docsearch-suggestion--content {
