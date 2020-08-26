@@ -20,6 +20,7 @@ import GlobalMdx from './GlobalMdx'
 import AssetDownload from './AssetDownload'
 import LogoutContainer from './LogoutContainer'
 import SiteCredits from './SiteCredits'
+import SearchInput from './SearchInput'
 import SocialIcons from './SocialIcons'
 import SideTab from './SideTab'
 import SEO from './SEO'
@@ -48,6 +49,7 @@ export {
 	AssetDownload,
 	LogoutContainer,
 	SiteCredits,
+	SearchInput,
 	SocialIcons,
 	SideTab,
 	SEO,

@@ -1,8 +1,8 @@
 /** @jsx jsx */
 
-import { jsx, Input, Flex, Grid } from 'theme-ui'
-import { Icon, Link, SiteName } from 'components/atoms'
-import { Accordion, SiteCredits } from 'components/molecules'
+import { jsx, Grid } from 'theme-ui'
+import { Link, SiteName } from 'components/atoms'
+import { Accordion, SiteCredits, SearchInput } from 'components/molecules'
 import { map, orderBy } from 'lodash'
 import styles from './styles.module.scss'
 
@@ -73,25 +73,7 @@ export default function SidebarWrapper({
 
 			<div className={styles.sidebarContentWrapper}>
 				{lexicon && (
-					<Flex
-						sx={{
-							mt: '-3rem',
-							width: '100%',
-							position: 'relative',
-							'& > span': { width: '100%' },
-						}}
-					>
-						<Input id="lexicon_search" placeholder="Search" />
-						<Icon
-							name="icon_search"
-							sx={{
-								color: 'mainL4',
-								position: 'absolute',
-								top: '.8rem',
-								right: '.8rem',
-							}}
-						/>
-					</Flex>
+					<SearchInput id='lexicon_search' />
 				)}
 				<SidebarContent path={path} tree={tree} />
 			</div>
