@@ -123,7 +123,7 @@ export default class Blueprints extends Component {
 										className={documentation.mobileMenuBar}
 										justify="space-between"
 									>
-										<Icon name="logoDark" />
+										<Icon name="waffle" color='white' height='2rem' />
 
 										{this.state.mobileSidebarVisible ? (
 											<Icon

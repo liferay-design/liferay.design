@@ -156,7 +156,7 @@ export default class Handbook extends Component {
 									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
-									<Icon name="logoDark" />
+									<Icon name="liferayDesicon" fill="white" height="2rem" />
 
 									{this.state.mobileSidebarVisible ? (
 										<Icon
