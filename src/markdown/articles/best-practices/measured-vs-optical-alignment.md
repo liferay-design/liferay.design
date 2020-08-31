@@ -38,4 +38,4 @@ Here are some tips for creating optically aligned objects:
 -   [Optical Effect in User Interfaces: An Illustrated Guide](https://medium.muz.li/optical-effects-9fca82b4cd9a)
 -   [Making Your Design Optically Perfect](https://rafaltomal.com/optically-perfect/)
 -   [7 Gestalt principles of visual perception: cognitive psychology for UX](https://www.usertesting.com/blog/gestalt-principles/)
--   [Gestalt Principles](https://liferay.design/articles/2019/gestalt-principles/)
+-   [Gestalt Principles](https://liferay.design/articles/best-practices/gestalt-principles/)

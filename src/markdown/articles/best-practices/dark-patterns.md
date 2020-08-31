@@ -33,4 +33,4 @@ To not become a victim of dark paterns, it's important to be aware of the dark p
 
 Design Details did a great job of breaking down the ethics of it — importantly noting this is not just a "design" issue. It's includes Product Management, Engineering, and others who have a say in the development cycle. The analogy to [military orders](https://www.thebalancecareers.com/military-orders-3332819) is quite appropriate.
 
-_Also relevant is James' [post on Ethics](/articles/ethics-in-design)_
+_Also relevant is James' [post on Ethics](/articles/best-practices/ethics-in-design)_

@@ -59,7 +59,7 @@ _Photo by [Matt Artz](https://unsplash.com/photos/4mAcustUNPs?utm_source=unsplas
 Design-ops has been a hot topic sparking conversation within our organization over the past year. UX Design has come a long way from proving the ROI of a great user experience and discussing designer/developer collaboration. As our department enters a new phase of maturity, we are looking beyond the design tools:
 
 -   Design processes are a constant work in progress, learn to accept that and build on what works
--   [Design Systems](htttp://www.lexicondesign.io/) help us work faster and focus on the problems that matter
+-   [Design Systems](htttp://www.liferay.design/lexicon) help us work faster and focus on the problems that matter
 -   Digital Asset Management
 -   User research MUST be socialized, or it’s useless
 -   Centralized database for User Research “nuggets"

@@ -13,4 +13,4 @@ As a team, we've noticed overlap and redundancy in some of the research we're do
 
 Over the next days and weeks, into perpetuity, the team will be sharing brief summaries on relevant topics with curated links for further reading. If you'd like to engage in some fruitful discussions, be sure to follow [#Best Practices](/tags/best-practices) to catch them all!
 
-A preview of some of the topics we'll be touching on: [#accessibility](/tags/accessibility) [#ResearchAndDevelopment](/tags/ResearchAndDevelopment) [#psychology](/tags/psychology) [#strategy](/tags/strategy) [#usability](/tags/usability) [#Design](/tags/Design) [#VisualDesign](/tags/VisualDesign) [#InsideEngineering](/tags/InsideEngineering) and most importantly [#BugbeeFeedback](/tags/BugbeeFeedback)
+A preview of some of the topics we'll be touching on: [#accessibility](/tags/accessibility) [#Research](/tags/research) [#psychology](/tags/psychology) [#strategy](/tags/strategy) [#usability](/tags/usability) [#VisualDesign](/tags/visual-design) [#Engineering](/tags/engineering) and [more](/tags)!

@@ -130,7 +130,7 @@ As a critic, understand the project/design better and share knowledge, suggestio
 
 -   **[Facebook Design—A Design Critique with Facebook](https://medium.com/facebook-design/a-design-critique-with-facebook-c2a910e84de9)**
 -   **[Facebook Design—Critique is an Important Part of Any Design Process](https://medium.com/facebook-design/critique-is-an-important-part-of-any-design-process-whether-you-work-as-part-of-a-team-or-solo-ef3dcb299ce3)**
--   **[Jared Spool UIE—Moving From Critical Review to Critique](https://www.uie.com/brainsparks/2011/10/27/moving-from-critical-review-to-critique/)**
+-   **[Jared Spool UIE—Moving From Critical Review to Critique](https://archive.uie.com/brainsparks/2011/10/27/moving-from-critical-review-to-critique/)**
 -   **[This is Design.School—Karen Cheng Talks Critique](http://www.thisisdesign.school/yr02-ep11-karen-cheng/)**
 -   **[AIGA—How to Survive a Critique](https://www.aiga.org/how-to-survive-a-critique)**
 -   **[nngroup—Design Critiques](https://www.nngroup.com/articles/design-critiques/)**

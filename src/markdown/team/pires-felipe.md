@@ -16,7 +16,7 @@ My acai smoothie made with banana, strawberry, coconut water, oat, and cashew nu
 
 ### Where do you find #inspiration?
 
-[Wallpaper Magazine](https://www.wallpaper.com/]) is currently my hub of inspiration for design, architecture, fashion, and art
+[Wallpaper Magazine](https://www.wallpaper.com/) is currently my hub of inspiration for design, architecture, fashion, and art
 
 ### One thing you are getting better at?
 

@@ -38,7 +38,7 @@ order: 13
 
 #### Icon button
 
-Buttons can icons insted of text and for that icons need to be monospaced inside the button. Lexicon do not use buttons with text and icon, or text and loading indicator. Icon buttons are used intensively in [management bars](../management_bar).
+Buttons can icons insted of text and for that icons need to be monospaced inside the button. Lexicon do not use buttons with text and icon, or text and loading indicator. Icon buttons are used intensively in [management bars](./management-bar).
 
 ![icon button](/images/lexicon-1/buttonIcon.png)
 

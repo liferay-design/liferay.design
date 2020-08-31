@@ -88,7 +88,7 @@ const Lexicon = () => (
 			Subtitle={() => (
 				<Text size="large">
 					Head on over to the{' '}
-					<Link to="https://github.com/liferay-design/lexicon/issues">
+					<Link to="https://github.com/liferay-design/liferay.design/issues?q=is%3Aopen+is%3Aissue+label%3Alexicon">
 						GitHub repo
 					</Link>
 					!
