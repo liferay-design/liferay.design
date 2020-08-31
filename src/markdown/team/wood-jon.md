@@ -28,7 +28,7 @@ There's something about building a solution from beginning to end that I find fu
 
 Here's my phone's [home screen](https://www.dropbox.com/s/a4436tao9i964sj/phone-homescreen.JPG?dl=0).
 
-I use [this site](iempty.tooliphone.net) which gives you app icons to match your background and use as 'spacers' to make your layout.
+I use [this site](https://iempty.tooliphone.net/) which gives you app icons to match your background and use as 'spacers' to make your layout.
 
 ### Favorite hotkey?
 

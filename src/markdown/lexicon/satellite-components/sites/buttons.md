@@ -40,7 +40,7 @@ This variation is an extension of Lexicon's secondary button, so it can be regul
 
 ![Button site active and button site active borderless](/images/lexicon/sites/ButtonSitesActive.jpg)
 
-These buttons are primarily used as triggers for actions and tools in the [Asset Toolbar](./assetToolbar).
+These buttons are primarily used as triggers for actions and tools in the [Asset Toolbar](.././asset-toolbar).
 
 #### Secondary blue buttons
 
@@ -58,7 +58,7 @@ This variation only appears for logged in users that have editing permissions fo
 
 ![Button site active and button site active borderless](/images/lexicon/sites/ButtonSitesBlueActive.jpg)
 
-When these buttons are associated with an asset, a blog entry, a knowledge base article, or a comment, they only appear when hovering over the associated item. See the [Asset Title Bar documentation](./assetTitleBar) for more information about this behavior.
+When these buttons are associated with an asset, a blog entry, a knowledge base article, or a comment, they only appear when hovering over the associated item. See the [Asset Title Bar documentation](.././asset-title-bar) for more information about this behavior.
 
 ### Attributes
 

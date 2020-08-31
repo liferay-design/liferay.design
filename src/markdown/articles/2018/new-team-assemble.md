@@ -33,7 +33,7 @@ _Incorporate cheers into your daily standups | Photo by [rawpixel](https://unspl
 
 ## Team Culture
 
-There are plenty of [far more experienced](https://knowyourcompany.com/learn/) and [knowledgeable people](https://medium.com/@thinmatt/my-go-to-resources-for-helping-me-grow-as-a-designer-turned-people-manager-9ab966415af3) [you can read](https://www.franklincovey.com/the-7-habits.html) regarding the [finer points of strong culture-building](https://www.radicalcandor.com/blog/tag/tip/), but for starters my recommendation is to do three things regularly:
+There are plenty of [far more experienced](https://knowyourcompany.com/learn/) and [knowledgeable people](https://medium.com/@thinmatt/my-go-to-resources-for-helping-me-grow-as-a-designer-turned-people-manager-9ab966415af3) [you can read](https://www.franklincovey.com/the-7-habits.html) regarding the [finer points of strong culture-building](https://www.radicalcandor.com/blog/), but for starters my recommendation is to do three things regularly:
 
 1. **Know your teammates personally ** &mdash; have weekly walks or chats with them. Don't talk about work, don't ask for a progress report, use the time to learn about them - their families, their passions, what they're doing outside of work, etc. Investing in your team in this way will help you serve them in a more effective way.
 1. **Listen more than you talk** &mdash; in one-on-ones, in reviews, in team meetings, be slow to give your opinions - ask questions to clarify and guide the conversation, but you'll learn a lot by talking less and helping your colleagues discover their own voices.
