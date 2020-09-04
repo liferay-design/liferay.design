@@ -80,10 +80,10 @@ ant all
 You just need to run this from *liferay-portal* folder
 
 ```bash
-../bundles/tomcat-9.0.33/bin/catalina.sh run
+../bundles/tomcat-9.0.37/bin/catalina.sh run
 ```
 
-*Note: Adjust 'tomcat-9.0.33' to the version number in bundles folder*
+*Note: Adjust 'tomcat-9.0.37' to the version number in bundles folder*
 
 PD: another day I can show you all the alias I have to run this quickly
 

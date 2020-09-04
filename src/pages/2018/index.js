@@ -1175,9 +1175,9 @@ const TwentyEighteen = () => {
 				</Plx>
 				<p className={styles.p}>
 					Our Design System evolved into{' '}
-					<a href="https://lexicondesign.io/" target="_new">
+					<Link href="/lexicon">
 						version 2.0
-					</a>{' '}
+					</Link>{' '}
 					and was spread to different products and projects.
 				</p>
 				<p className={styles.p}>

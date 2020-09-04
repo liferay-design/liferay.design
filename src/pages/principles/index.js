@@ -44,9 +44,7 @@ const descriptorsInclusive = ['Universal', 'Open', 'Consistent']
 const questionsHonest = [
 	<span>
 		Am I using the correct{' '}
-		<Link
-			to="Am I using the correct affordances to solve the problem?"
-		>
+		<Link to="https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/affordances">
 			affordances
 		</Link>{' '}
 		to solve the problem?

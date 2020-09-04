@@ -6,9 +6,9 @@ featuredImage: '/images/articles/netlify-vs-zeit-vs-github-pages.png'
 publish: true
 ---
 
-The Liferay Design team made regular use of Liferay’s developer-centric deployment platform, WeDeploy. Static sites like [our primary domain](/)(this site) and [Lexicon](https://lexicondesign.io), as well as standalone apps like our [NA team dashboard](https://dashboard.liferay.design) and our [Career Path tool](https://path.liferay.design) (a work in progress), and small pages like our [web assets repo](https://assets-liferaydotdesign.wedeploy.io/) page (very much a #wip).
+The Liferay Design team made regular use of Liferay’s developer-centric deployment platform, WeDeploy. Static sites like [our primary domain](/)(this site) and [Lexicon](https://liferay.design/lexicon), as well as standalone apps like our [NA team dashboard](https://dashboard.liferay.design) and our [Career Path tool](https://path.liferay.design) (a work in progress), and small pages like our [web assets repo](https://github.com/liferay-design/assets/) page (very much a #wip).
 
-When the WeDeploy team announced that [they were shuttering the service](https://wedeploy.com/blog/discontinuing-wedeploy/), we were at a loss for where to move everything. We did a little research, compared a few services, and thought that it might help other teams who were using WeDeploy (and even people who are just trying to decide between existing services) choose from one of the many options available.
+When the WeDeploy team announced that [they were shuttering the service](https://zenorocha.com/discontinuing-wedeploy/), we were at a loss for where to move everything. We did a little research, compared a few services, and thought that it might help other teams who were using WeDeploy (and even people who are just trying to decide between existing services) choose from one of the many options available.
 
 ### Disclaimer
 

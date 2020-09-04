@@ -154,11 +154,12 @@ export default class Lexicon extends Component {
 									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
-									<Icon name="logoDark" />
+									<Icon name="lexicon" color='white' height='2em' />
 
 									{this.state.mobileSidebarVisible ? (
 										<Icon
 											name="close"
+											color='white'
 											onClick={this.toggleMobileSidebarVisibility}
 										/>
 									) : (

@@ -40,7 +40,7 @@ export default function SearchInput({ id }) {
 					pointerEvents: 'none',
 				}}
 			>
-				<Hotkey id="hotkeys" sx={{ mt: '.45rem' }} keys={['⌘', 'shift', 'F']} />
+				<Hotkey id="hotkeys" sx={{ mt: '.45rem', display: ['none', 'flex', null] }} keys={['⌘', 'shift', 'F']} />
 				<Icon
 					name="icon_search"
 					sx={{
