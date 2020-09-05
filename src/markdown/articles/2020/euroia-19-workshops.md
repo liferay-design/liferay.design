@@ -64,7 +64,7 @@ During the workshop we used a challenge: create an online marketplace for differ
 
 We used Atomic Research to face the challenge. We analysed the raw data (both qualitative and quantitative information they provided us), finding real facts among all the information, and turning those facts into insights, after that, we looked for possible solutions to those insights, and got to the conclusions.
 
-![table full of papers](/images/articles/euroia-19/euroia19-papers-table.png)
+![table full of papers](/images/articles/euroia-19/euroia19-papers-table.jpg)
 
 In this phase, we joined other teams to see if our conclusions were aligned, and we discovered that we were missing other relevant information that other teams had to handle while trying to solve other parts of the app. So, we understood the importance of keeping a research library available, transparent and easy to use to avoid information silos and have an aligned the whole vision of the product.
 
@@ -76,7 +76,7 @@ It was very interesting to attend this workshop. The organization and problems t
 
 This workshop was oriented to self discovery as designers. We performed a lot of exercises to map our current position and figure out next steps to reinforce our skills and became the better version of ourselves as designers.
 
-![wall full of papers](/images/articles/euroia-19/euroia19-workshop-wall.png)
+![wall full of papers](/images/articles/euroia-19/euroia19-workshop-wall.jpg)
 
 ### What kind of future do you want? Planning a preferable future
 

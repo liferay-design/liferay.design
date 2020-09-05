@@ -79,7 +79,7 @@ const Lexicon = () => (
 							icon="news"
 							title="News & Updates"
 							text="Always up to date with the latest library updates and Lexicon project news"
-							to="/lexicon/news/updates"
+							to="/lexicon/news"
 							cta="Learn More"
 						/>
 					</Box>

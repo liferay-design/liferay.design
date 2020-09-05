@@ -105,7 +105,7 @@ He used digital games such as Prince of Persia and Shadow of Mordor, but also ph
 What Rachel did was actually very impressive!
 For the first half of the talk she explained the role of the research facilitator as any other talk out there. In the second half she talked about Jazz and improvisation methods, then she divided the entire public into 3 big groups and got them to clap their hands separately.
 
-![graphic of the future](/images/articles/euroia-19/euroia19-embellistments.png)
+![graphic of the future](/images/articles/euroia-19/euroia19-embellistments.jpg)
 
 It was really fun to be part of this, it was also really interesting to see how she transformed from a speaker to a facilitator that was directing and improvising with the public.
 
