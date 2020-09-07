@@ -295,6 +295,16 @@
 	border-color: $error-l1;
 }
 
+:global(.example-text) {
+	color: $main-l3;
+	font-size: 14px;
+
+} 
+
+:global(.adapting-columns) {
+    column-count: 3;
+}
+
 :global(.image-container) {
 	text-align: center;
 	margin-top: 1.5rem;
