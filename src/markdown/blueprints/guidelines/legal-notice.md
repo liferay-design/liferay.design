@@ -21,7 +21,7 @@ Indicated by the symbol ©, copyrights protect our exclusive rights of creations
 
 For more information on copyrights, see our internal [Liferay Outbound Licensing Policy](https://grow.liferay.com/excellence/Liferay+Outbound+Licensing+Policy) and our internal [FOSS in Liferay](https://grow.liferay.com/excellence/foss+in+liferay) landing page.
 
-## Status Information | February 2020
+## Status Information | September 2020
 
 ### We Have Registered The Following Trademarks In The United States And Can Use The &reg; Symbol
 
@@ -47,10 +47,7 @@ _It takes some time to get a trademark registration from the USPTO._
 
 Standard Character Marks (word trademarks):
 
--   Liferay Experience Cloud
--   Apio
--   Mapo
--   Testray
+-   Liferay DXP Cloud
 
 <!-- Special form drawings (word and logo combo): -->
 
