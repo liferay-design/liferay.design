@@ -1,7 +1,7 @@
 ---
 title: 'Forms Hierarchy'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/forms/css-forms-hierarchy.html'
+titleLabelLink: 'https://clayui.com/docs/components/css-forms-hierarchy'
 description: 'The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks.'
 order: 252
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: 'Text Input Variations'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/forms/text-input-variations.html'
+titleLabelLink: 'https://clayui.com/docs/components/input'
 description: 'A description of the search, autocomplete, labels, date, numeric, and password input variations.'
 order: 268
 draft: false

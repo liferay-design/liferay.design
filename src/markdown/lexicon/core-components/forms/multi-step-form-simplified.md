@@ -1,7 +1,7 @@
 ---
 title: 'Multi Step Form Simplified'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/forms/multi-step-form-simplified.html'
+titleLabelLink: 'https://clayui.com/docs/components/multi-step-nav'
 description: 'A progressive disclosure method to guide the user through a task divided into several steps.'
 order: 260
 draft: false

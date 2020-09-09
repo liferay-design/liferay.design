@@ -1,7 +1,7 @@
 ---
 title: 'Forms Navigation'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/forms/forms-navigation.html'
+titleLabelLink: 'https://clayui.com/docs/components/nav.html#vertical'
 description: 'Form navigation can be displayed in two different ways: a left navigation menu or a wizard.'
 order: 253
 draft: false
