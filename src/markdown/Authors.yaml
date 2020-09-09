@@ -6,6 +6,13 @@
   icon: fa_code
   startDate: 2017-09-18
   office: Diamond Bar
+  website: https://abelhancock.com
+  dribbble: 'abelhancock'
+  figma: '@abel'
+  github: 'abelhancock'
+  instagram: 'abelhancock'
+  twitter: 'abelfhancock'
+  webflow: 'abelhancock'
 - id: Andrea Censi
   title: Product Designer
   active: true
@@ -18,6 +25,9 @@
   icon: fa_glasses
   startDate: 2017-10-16
   office: Diamond Bar
+  dribbble: 'cj213x'
+  instagram: 'jeongotti'
+  twitter: 'cj213x'  
 - id: David Aragonés
   title: Senior Product Designer
   active: true
@@ -42,6 +52,12 @@
   icon: fa_dumbbell
   startDate: 2015-09-01
   office: Recife
+  website: https://www.fpires.me
+  dribbble: 'felipepires'
+  figma: '@fpires'
+  github: 'fapires'
+  instagram: 'felippires'
+  twitter: 'felipeapiress'
 - id: James Lyons
   title: Product Designer
   active: false
@@ -127,10 +143,11 @@
   startDate: 2014-08-25
   office: Diamond Bar
   website: https://paul.hanaoka.co
-  dribbble: '@plhnk'
-  instagram: '@plhnk'
-  twitter: '@plhnk'
-  unsplash: '@paul_'
+  dribbble: 'plhnk'
+  figma: '@paul'
+  github: 'plhnk'
+  twitter: 'plhnk'
+  unsplash: '@plhnk'
   medium: '@plhnk'
 - id: Rachel Yuan
   title: Senior Communication Designer
@@ -150,6 +167,8 @@
   icon: fa_pen
   startDate: 2017-04-24
   office: Diamond Bar
+  dribbble: '@ryconn888'
+  instagram: 'ryconndesign'
 - id: Sharon Kim
   title: Communication Designer
   active: true
