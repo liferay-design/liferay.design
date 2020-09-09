@@ -1,6 +1,7 @@
-import { Flex, Icon, Link } from 'components/atoms'
-import React from 'react'
-import styles from './styles.module.scss'
+/** @jsx jsx */
+
+import { jsx, Flex } from 'theme-ui'
+import { Icon, Link } from 'components/atoms'
 
 const SocialIcons = () => {
 	const socials = [
@@ -36,7 +37,27 @@ const SocialIcons = () => {
 	]
 
 	return (
-		<Flex className={styles.social} justify="space-between">
+		<Flex
+			sx={{
+				justifyContent: 'space-between',
+				width: ['100%', '50%', '320px'],
+				margin: ['0 -.2rem 3rem -.2rem', '1rem 0', 'initial'],
+				order: [-1, null, 'initial'],
+				maxWidth: ['360px', null, 'initial'],
+				'> a': {
+					transform: 'translateY(0) scale(0.95)',
+					transition: 'transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+					'&:hover': {
+						transform: 'translateY(-0.4rem) scale(1)',
+						transition:
+							'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+						svg: {
+							fill: 'primary',
+						},
+					},
+				},
+			}}
+		>
 			{socials.map(item => (
 				<Link
 					key={item.name}
