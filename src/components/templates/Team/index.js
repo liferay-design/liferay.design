@@ -34,7 +34,7 @@ export default class Team extends Component {
 						' | Designing at Liferay since ' +
 						`${moment(post.frontmatter.author.startDate).format('YYYY')}`
 					}
-					twitterHandle={post.frontmatter.author.twitter}
+					twitterHandle={post.frontmatter.author.links.twitter}
 					contentType="profile"
 				/>
 				<Navbar section="Team" />
@@ -96,7 +96,17 @@ export const pageQuery = graphql`
 					id
 					startDate
 					title
-					twitter
+					links {
+						dribbble
+						figma
+						github
+						instagram
+						medium
+						twitter
+						unsplash
+						webflow
+						website
+					}
 				}
 			}
 			body

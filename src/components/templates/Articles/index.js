@@ -31,8 +31,8 @@ export default class Articles extends Component {
 						' on Liferay.Design'
 					}
 					twitterHandle={
-						post.frontmatter.author.twitter
-							? post.frontmatter.author.twitter
+						post.frontmatter.author.links.twitter
+							? post.frontmatter.author.links.twitter
 							: null
 					}
 					canonicalLink={
@@ -57,7 +57,8 @@ export default class Articles extends Component {
 										sx={{
 											color: 'primaryl3',
 											textDecoration: 'underline',
-											textDecorationColor: theme => theme.colors.primary
+											textDecorationColor: theme =>
+												theme.colors.primary,
 										}}
 										to={withPrefix(
 											'/team/' +
@@ -140,7 +141,9 @@ export const pageQuery = graphql`
 			frontmatter {
 				author {
 					id
-					twitter
+					links {
+						twitter
+					}
 				}
 				featuredImage
 				canonicalLink
