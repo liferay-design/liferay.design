@@ -73,7 +73,7 @@ We look forward to continually growing a design community here in the far reache
 ## Shameless Plugs
 
 -   [Components, styles, and shared library best practices](https://www.figma.com/resources/guides-and-best-practices/components-styles-and-shared-library-best-practices/)
--   We're looking for an awesome [product designer](https://liferay.design/careers/na/product-designer/)
+-   We're looking for an awesome [product designer](/careers)
 -   We'll be hosting the [SGV UX Group's May Meetup](https://www.eventbrite.com/o/san-gabriel-valley-ux-18885418980)
 -   [Figma's Community on Spectrum](https://spectrum.chat/figma)
 -   [Follow us on Twitter!](https://twitter.com/liferaydesign)

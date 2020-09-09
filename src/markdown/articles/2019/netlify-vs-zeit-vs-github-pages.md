@@ -12,7 +12,7 @@ When the WeDeploy team announced that [they were shuttering the service](https:/
 
 ### Disclaimer
 
-_By “research” we mean “talking with a few [resident](https://rhino.codes) [experts](https://zenorocha.com/), listening to some [good](https://syntax.fm/show/034/why-static-site-generators-are-awesome) [podcasts](https://spec.fm/podcasts/design-details/113490), and doing a [fair bit of Googling](#further-reading)” — by no means is this a comprehensive survey of all the available services, we are not sponsored by any of these services, nor are we receiving any kickbacks (...yet, @netlify we love socks... or anything!)._
+_By “research” we mean “talking with a few [resident](https://github.com/protoevangelion) [experts](https://zenorocha.com/), listening to some [good](https://syntax.fm/show/034/why-static-site-generators-are-awesome) [podcasts](https://spec.fm/podcasts/design-details/113490), and doing a [fair bit of Googling](#further-reading)” — by no means is this a comprehensive survey of all the available services, we are not sponsored by any of these services, nor are we receiving any kickbacks (...yet, @netlify we love socks... or anything!)._
 
 ## Results
 
