@@ -14,6 +14,7 @@ import { makeAuthorSlug } from 'utils'
 export default class Articles extends Component {
 	render() {
 		const post = this.props.data.mdx
+		const links = post.frontmatter.author.links ? post.frontmatter.author.links : null // this is to catch people who dont have links
 
 		return (
 			<div style={{ overflowX: 'hidden' }}>
@@ -30,15 +31,11 @@ export default class Articles extends Component {
 						`${post.frontmatter.author.id}` +
 						' on Liferay.Design'
 					}
-					twitterHandle={
-						post.frontmatter.author.links.twitter
-							? post.frontmatter.author.links.twitter
-							: null
-					}
+					twitterHandle={links ? links.twitter : null}
 					canonicalLink={
-						post.frontmatter.canonicalLink ? (
-							<link href={post.frontmatter.canonicalLink} rel="canonical" />
-						) : null
+						post.frontmatter.canonicalLink
+							? post.frontmatter.canonicalLink
+							: ''
 					}
 					contentType="article"
 				/>

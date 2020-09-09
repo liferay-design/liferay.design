@@ -1,5 +1,5 @@
 import { Container, Flex, ScrollProgress } from 'components/atoms'
-import { GlobalMdx, SEO } from 'components/molecules'
+import { GlobalMdx, SEO, SocialIcons } from 'components/molecules'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
@@ -21,20 +21,22 @@ function upsertAtPath(path, value, obj) {
 export default class Team extends Component {
 	render() {
 		const post = this.props.data.mdx
+		const teammate = post.frontmatter.author
+		const links = teammate.links ? teammate.links : null // this is to catch people who dont have links
 
 		return (
 			<div>
 				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
-					previewImage={withPrefix(avatarPath(post.frontmatter.author.id))}
+					previewImage={withPrefix(avatarPath(teammate.id))}
 					keywords="designer, profile"
 					pageTitle={
-						`${post.frontmatter.author.id}` +
+						`${teammate.id}` +
 						' | Designing at Liferay since ' +
-						`${moment(post.frontmatter.author.startDate).format('YYYY')}`
+						`${moment(teammate.startDate).format('YYYY')}`
 					}
-					twitterHandle={post.frontmatter.author.links.twitter}
+					twitterHandle={links ? links.twitter : null}
 					contentType="profile"
 				/>
 				<Navbar section="Team" />
@@ -48,24 +50,21 @@ export default class Team extends Component {
 									className={styles.banner}
 								>
 									<h1>
-										{post.frontmatter.author.id}{' '}
-										{post.frontmatter.author.startDate ? (
+										{teammate.id}{' '}
+										{teammate.startDate ? (
 											<span className={styles.startYear}>
 												Designing at Liferay since{' '}
-												{moment(
-													post.frontmatter.author.startDate,
-												).format('YYYY')}
+												{moment(teammate.startDate).format(
+													'YYYY',
+												)}
 											</span>
 										) : null}
 									</h1>
 									<div className={styles.role}>
-										<h2>{post.frontmatter.author.title}</h2>
+										<SocialIcons />
+										{/* <h2>{teammate.title}</h2> */}
 									</div>
-									<img
-										src={withPrefix(
-											avatarPath(post.frontmatter.author.id),
-										)}
-									/>
+									<img src={withPrefix(avatarPath(teammate.id))} />
 								</Flex>
 							)
 						}}
@@ -79,8 +78,8 @@ export default class Team extends Component {
 					</Flex>
 				</div>
 				<RecentBlogPosts
-					heading={'Recent posts by ' + `${post.frontmatter.author.id}`}
-					teammate={makeAuthorSlug(post.frontmatter.author.id)}
+					heading={'Recent posts by ' + `${teammate.id}`}
+					teammate={makeAuthorSlug(teammate.id)}
 				/>
 				<Footer light />
 			</div>
