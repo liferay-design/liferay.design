@@ -1,7 +1,7 @@
 ---
 title: 'Dataset Display'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/components/dataset-display.html'
+titleLabelLink: 'https://clayui.com/docs/components/management-toolbar.html'
 description: 'A combination of components that configure the main data management pattern of the system.'
 order: 241
 draft: false

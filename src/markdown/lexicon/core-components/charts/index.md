@@ -23,7 +23,7 @@ The collection of charts grows as Liferay products require new chart configurati
 -   [Heatmap Chart](./chart-heatmap)
 -   [Line Chart](./chart-line)
 -   [Pie Chart](./chart-pie)
--   [Stacked Bar Chart](../chart-stacked-bar)
+-   [Stacked Bar Chart](./chart-stacked-bar)
 
 <!--
 <div class="row">

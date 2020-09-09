@@ -1,7 +1,7 @@
 ---
 title: 'Control bar'
 titleLabel: 'Clay'
-titleLabelLink: 'https://clayui.com/docs/css-framework/satellites/navigation/header.html'
+titleLabelLink: 'https://clayui.com/docs/components/css-application-bar'
 description: 'Control bar is a toolbar that provides identification and lets the user navigate and perform actions.'
 order: 512
 draft: false
