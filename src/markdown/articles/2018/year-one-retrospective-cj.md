@@ -59,7 +59,7 @@ _Photo by [Matt Artz](https://unsplash.com/photos/4mAcustUNPs?utm_source=unsplas
 Design-ops has been a hot topic sparking conversation within our organization over the past year. UX Design has come a long way from proving the ROI of a great user experience and discussing designer/developer collaboration. As our department enters a new phase of maturity, we are looking beyond the design tools:
 
 -   Design processes are a constant work in progress, learn to accept that and build on what works
--   [Design Systems](htttp://www.liferay.design/lexicon) help us work faster and focus on the problems that matter
+-   [Design Systems](/lexicon) help us work faster and focus on the problems that matter
 -   Digital Asset Management
 -   User research MUST be socialized, or it’s useless
 -   Centralized database for User Research “nuggets"
@@ -71,7 +71,7 @@ Design-ops has been a hot topic sparking conversation within our organization ov
 _When product and design goals align — the focus naturally turns towards the users_
 
 ![Boat in smooth waters](/images/articles/cj-boat.jpeg)
-_Photo by [Samuel Zeller](https://unsplash.com/photos/P0srUaN6CFI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/ship?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+_Photo by [Samuel Zeller](https://www.samuelzeller.ch/) on [Unsplash](https://unsplash.com/search/photos/ship?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 I look to our product managers to provide me a with a strong vision and strategy, so that I can synthesize that vision in to a design customers will find valuable. But, that’s not to say designers don’t have a say in how to steer the ship.
 
