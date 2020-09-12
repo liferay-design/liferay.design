@@ -73,7 +73,7 @@
   icon: fa_keyboard
   startDate: 2019-04-15
   office: Diamond Bar
-    links:
+  links:
       figma: 'jmw'
       github: 'jonmwood'
       instagram: 'jonmwood'
@@ -161,7 +161,7 @@
   startDate: 2013-10-07
   office: Diamond Bar
   links:
-    dribbble: 'rachel_yuan'
+      dribbble: 'rachel_yuan'
 - id: Rubén Jiménez
   title: Senior Product Designer
   active: true
@@ -191,7 +191,7 @@
   office: Madrid
   links:
       twitter: 'usavor'
-      website: 'https://suix.es'
+      website: 'http://www.suix.es'
 - id: Victor Santos
   title: Associate Product Designer
   active: true
