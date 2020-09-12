@@ -73,6 +73,11 @@
   icon: fa_keyboard
   startDate: 2019-04-15
   office: Diamond Bar
+    links:
+      figma: 'jmw'
+      github: 'jonmwood'
+      instagram: 'jonmwood'
+      twitter: 'jonmwood'
 - id: Juan Antón
   title: Senior Product Designer
   active: true
@@ -117,6 +122,8 @@
   icon: fa_check_double
   startDate: 2017-04-18
   office: Diamond Bar
+  links:
+      dribbble: 'naoki_hisamoto'
 - id: Nate Cavanaugh
   title: Always one of us
   active: true
@@ -129,6 +136,10 @@
   icon: fa_camera
   startDate: 2017-08-07
   office: Diamond Bar
+  links:
+      dribbble: 'pjpentz'
+      figma: 'pj'
+      instagram: 'pjpentz'
 - id: Paul Hanaoka
   title: Manager, Product Design NA
   active: true
@@ -149,6 +160,8 @@
   icon: fa_chess_queen
   startDate: 2013-10-07
   office: Diamond Bar
+  links:
+    dribbble: 'rachel_yuan'
 - id: Rubén Jiménez
   title: Senior Product Designer
   active: true
@@ -176,6 +189,9 @@
   icon: fa_archway
   startDate: 2017-10-18
   office: Madrid
+  links:
+      twitter: 'usavor'
+      website: 'https://suix.es'
 - id: Victor Santos
   title: Associate Product Designer
   active: true
@@ -188,6 +204,8 @@
   icon: fa_fingerprint
   startDate: 2016-08-18
   office: Madrid
+  links:
+      twitter: 'victorvj06'
 - id: Vitor Fernandes
   title: Manager, Product Design
   active: true
