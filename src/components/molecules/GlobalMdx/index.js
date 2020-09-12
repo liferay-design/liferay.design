@@ -6,7 +6,7 @@ import { DoDont } from 'components/molecules'
 const shortcodes = { Image, DoDont }
 
 export default ({ children }) => (
-	<MDXProvider components={shortcodes}>
-			{children}
-	</MDXProvider>
+	<div>
+		<MDXProvider components={shortcodes}>{children}</MDXProvider>
+	</div>
 )

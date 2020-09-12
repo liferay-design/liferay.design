@@ -214,6 +214,31 @@ export default {
 			gap: '2rem',
 		},
 	},
+	wrappers: {
+		markdown: {
+			px: [3, 3, null],
+			py: [2, 3, null],
+			bg: 'white',
+			fontFamily: 'modes.brand.body',
+			width: '100%',
+			'> div': {
+				margin: '0 auto',
+				maxWidth: '68ch',
+				p: {
+					fontSize: 3,
+					'-webkit-font-smoothing': 'antialiased !important;',
+					'-mozOsx-font-smoothing': 'grayscale !important;',
+					mb: 4,
+				},
+				'h2, h3': {
+					mt: 4,
+					'&:first-child': {
+						mt: 2,
+					},
+				},
+			},
+		},
+	},
 	embed: {
 		video: {
 			mt: 3,
