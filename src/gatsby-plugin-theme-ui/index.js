@@ -40,6 +40,17 @@ export default {
 			color: 'white',
 			bg: 'primary',
 		},
+		icon: {
+			transform: 'translateY(0) scale(0.95)',
+			transition: 'transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+			'&:hover': {
+				transform: 'translateY(-0.4rem) scale(1)',
+				transition: 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+				svg: {
+					fill: 'primary',
+				},
+			},
+		},
 	},
 	fonts: {
 		body: '"Source Code Pro", Menlo, monospace',
