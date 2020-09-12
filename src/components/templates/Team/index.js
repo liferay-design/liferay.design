@@ -220,7 +220,7 @@ export default class Team extends Component {
 					</GlobalMdx>
 					{links ? (
 						<Flex sx={{ width: '100%', flexDirection: 'column' }}>
-							<h3>Follow {firstWord(teammate.id)}</h3>
+							<h3>Where else can we find you?</h3>
 							<SocialIcons
 								sx={{
 									'> a': {
