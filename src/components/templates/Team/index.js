@@ -25,6 +25,46 @@ export default class Team extends Component {
 		const post = this.props.data.mdx
 		const teammate = post.frontmatter.author
 		const links = teammate.links ? teammate.links : null // this is to catch people who dont have links
+		const socials = links
+			? [
+					links.dribbble
+						? {
+								url: 'https://www.dribbble.com/' + links.dribbble,
+								name: 'dribbble',
+						  }
+						: null,
+					links.figma
+						? {
+								url: 'https://figma.com/@' + links.figma,
+								name: 'figma',
+						  }
+						: null,
+					links.github
+						? {
+								url: 'https://github.com/' + links.github,
+								name: 'github',
+						  }
+						: null,
+					links.instagram
+						? {
+								url: 'https://www.instagram.com/' + links.instagram,
+								name: 'instagram',
+						  }
+						: null,
+					links.medium
+						? {
+								url: 'https://www.medium.com/@' + links.medium,
+								name: 'medium',
+						  }
+						: null,
+					links.twitter
+						? {
+								url: 'https://twitter.com/' + links.twitter,
+								name: 'twitter',
+						  }
+						: null,
+			  ]
+			: null
 
 		return (
 			<div>
@@ -109,7 +149,7 @@ export default class Team extends Component {
 											mt: 2,
 											fontSize: 2,
 											color: 'mainL3',
-											fontWeight:'body',
+											fontWeight: 'body',
 										}}
 									>
 										Designing at Liferay since{' '}
@@ -118,18 +158,21 @@ export default class Team extends Component {
 								) : null}
 							</h1>
 						</Flex>
-						<SocialIcons
-							sx={{
-								width: 'initial',
-								order: 'initial',
-								flexDirection: ['row', null, 'column'],
-								'> a': {
-									color: 'mainL4',
-									my: [0, null, 2],
-									mx: [2, null, 0],
-								},
-							}}
-						/>
+						{links ? (
+							<SocialIcons
+								socials={socials}
+								sx={{
+									width: 'initial',
+									order: 'initial',
+									flexDirection: ['row', null, 'column'],
+									'> a': {
+										color: 'mainL4',
+										my: [0, null, 2],
+										mx: [2, null, 0],
+									},
+								}}
+							/>
+						) : null}
 					</Flex>
 				</Container>
 				<div className={styles.markdownContainer}>

@@ -9,7 +9,7 @@
   links:
       website: https://abelhancock.com
       dribbble: 'abelhancock'
-      figma: '@abel'
+      figma: 'abel'
       github: 'abelhancock'
       instagram: 'abelhancock'
       twitter: 'abelfhancock'
@@ -57,7 +57,7 @@
   links:
       website: https://www.fpires.me
       dribbble: 'felipepires'
-      figma: '@fpires'
+      figma: 'fpires'
       github: 'fapires'
       instagram: 'felippires'
       twitter: 'felipeapiress'
@@ -85,6 +85,8 @@
   icon: fa_heart
   startDate: 2016-10-17
   office: Diamond Bar
+  links:
+      twitter: 'jhidalgoreina'
 - id: Julia Chan
   title: Communication Designer
   active: true
@@ -136,11 +138,11 @@
   links:
       website: https://paul.hanaoka.co
       dribbble: 'plhnk'
-      figma: '@paul'
+      figma: 'paul'
       github: 'plhnk'
       twitter: 'plhnk'
-      unsplash: '@plhnk'
-      medium: '@plhnk'
+      unsplash: 'plhnk'
+      medium: 'plhnk'
 - id: Rachel Yuan
   title: Senior Communication Designer
   active: true
@@ -160,7 +162,7 @@
   startDate: 2017-04-24
   office: Diamond Bar
   links:
-      dribbble: '@ryconn888'
+      dribbble: 'ryconn888'
       instagram: 'ryconndesign'
 - id: Sharon Kim
   title: Communication Designer
