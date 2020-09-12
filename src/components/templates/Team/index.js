@@ -9,7 +9,7 @@ import { graphql, withPrefix } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import { Component } from 'react'
 import moment from 'moment'
-import { avatarPath, makeAuthorSlug } from 'utils'
+import { avatarPath, firstWord, makeAuthorSlug } from 'utils'
 
 function upsertAtPath(path, value, obj) {
 	obj = cloneDeep(obj)
@@ -220,7 +220,7 @@ export default class Team extends Component {
 					</GlobalMdx>
 					{links ? (
 						<Flex sx={{ width: '100%', flexDirection: 'column' }}>
-							<h2>Follow {teammate.id}</h2>
+							<h2>Follow {firstWord(teammate.id)}</h2>
 							<SocialIcons
 								sx={{
 									'> a': {

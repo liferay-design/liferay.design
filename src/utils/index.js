@@ -34,3 +34,8 @@ export function slugToIcon(baseSlug, icon) {
 	const iconName = replaceHyphen.replace("/", "");
 	return iconName
 }
+
+export function firstWord(input) {
+	const string = input.split(' ')[0]
+	return string
+}
