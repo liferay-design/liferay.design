@@ -1,37 +1,5 @@
 @import 'theme/variables.scss';
 
-// .banner {
-// 	h1 {
-// 		width: 200px;
-// 		font-size: $fontSizeDisplay;
-// 		color: $white;
-// 		z-index: 2;
-// 		font-weight: $fontWeightHeavy;
-// 		text-shadow: $elevation1;
-// 		position: relative;
-// 		display: inherit;
-// 		.startYear {
-// 			position: absolute;
-// 			width: 100%;
-// 			left: 0;
-// 			bottom: -$spacingMedium;
-// 			font-size: $fontSizeBase;
-// 			color: $neutral3;
-// 			text-shadow: none;
-// 		}
-// 	}
-// 	// img {
-// 	// 	height: 80vh;
-// 	// 	max-height: $screenMedium;
-// 	// 	font-size: $fontSizeMedium;
-// 	// 	font-family: $fontFamilySecondary;
-// 	// 	width: 70vh;
-// 	// 	max-width: 68ch;
-// 	// 	z-index: 1;
-// 	// 	box-shadow: $elevation2;
-// 	// }
-// }
-
 .markdownContainer {
 	padding: $spacingMedium $spacingMedium $spacingMedium;
 	font-family: $fontFamilySecondary;
@@ -58,24 +26,3 @@
 		}
 	}
 }
-
-// @media screen and (max-width: $screenSmall) {
-// 	.banner {
-// 		position: relative;
-// 		h1 {
-// 			font-size: $fontSizeXLarge;
-// 			position: absolute;
-// 			left: 0;
-// 			width: initial;
-// 			bottom: 0.2rem;
-// 			max-width: 50%;
-// 			text-shadow: $elevationText0, $elevationText1, $elevationText3;
-// 		}
-// 		// img {
-// 		// 	max-height: 50vh;
-// 		// 	max-width: 77vw;
-// 		// 	position: absolute;
-// 		// 	top: 0;
-// 		// }
-// 	}
-// }
