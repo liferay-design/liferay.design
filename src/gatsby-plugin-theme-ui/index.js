@@ -225,6 +225,7 @@ export default {
 				margin: '0 auto',
 				maxWidth: '68ch',
 				p: {
+					color: 'mainL2',
 					fontSize: 3,
 					'-webkit-font-smoothing': 'antialiased !important;',
 					'-mozOsx-font-smoothing': 'grayscale !important;',

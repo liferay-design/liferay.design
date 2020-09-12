@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { jsx, Flex, Box, Image } from 'theme-ui'
-import { Icon, Container, ScrollProgress } from 'components/atoms'
+import { Icon, Container, ScrollProgress, Heading } from 'components/atoms'
 import { GlobalMdx, SEO, SocialIcons } from 'components/molecules'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
@@ -218,6 +218,23 @@ export default class Team extends Component {
 					<GlobalMdx>
 						<MDXRenderer>{post.body}</MDXRenderer>
 					</GlobalMdx>
+					{links ? (
+						<Flex sx={{ width: '100%', flexDirection: 'column' }}>
+							<h2>Follow {teammate.id}</h2>
+							<SocialIcons
+								sx={{
+									'> a': {
+										color: 'mainL2',
+										mx: '.8rem',
+									},
+									'> a:first-child': {
+										ml: 0,
+									},
+								}}
+								socials={socials}
+							/>
+						</Flex>
+					) : null}
 				</Flex>
 				<RecentBlogPosts
 					heading={'Recent posts by ' + `${teammate.id}`}
