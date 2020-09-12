@@ -16,7 +16,7 @@ const SocialIcons = ({ socials, ...props }) => {
 						to={item.url}
 					>
 						<Icon
-							sx={{ height: '1.5rem', width: '1.5rem' }}
+							sx={{ height: ['1.2rem', '1.5rem', null], width:['1.2rem',  '1.5rem', null] }}
 							name={item.name}
 						/>
 					</Link>
