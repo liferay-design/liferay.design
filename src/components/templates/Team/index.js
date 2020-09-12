@@ -8,7 +8,6 @@ import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import { Component } from 'react'
-import styles from './styles.module.scss'
 import moment from 'moment'
 import { avatarPath, makeAuthorSlug } from 'utils'
 
@@ -103,14 +102,14 @@ export default class Team extends Component {
 					sx={{
 						position: 'absolute',
 						top: ['0', '16%', null],
-						left: ['0', '0', '0'],
-						right: [null, '0', '0'],
+						left: '0',
+						right: [null, '0', null],
 						width: ['100%', '84%', '52%'],
 						m: [null, '0 auto', null],
 						height: '75vh',
 						maxHeight: '768px',
 						maxWidth: '640px',
-						minWidth: '540px',
+						minWidth: ['initial', null, '540px'],
 						'&::after': {
 							content: '""',
 							position: 'absolute',
@@ -141,6 +140,7 @@ export default class Team extends Component {
 						<div
 							sx={{
 								flexGrow: [1, null, 0],
+								order: [-2, 'initial', null],
 								display: ['block', null, 'none'],
 							}}
 						/>
@@ -184,10 +184,11 @@ export default class Team extends Component {
 								sx={{
 									alignSelf: ['flex-start', null, 'center'],
 									flexDirection: ['row', null, 'column'],
+									width: ['100%', 'auto', null],
 									'> a': {
 										color: 'mainL4',
 										my: [0, null, 2],
-										mx: [2, null, 0],
+										mx: ['.8rem', null, 0],
 									},
 									'> a:first-child': {
 										ml: 0,
@@ -197,22 +198,27 @@ export default class Team extends Component {
 						) : (
 							<Icon
 								name={teammate.icon}
-								sx={{ fill: theme => theme.colors.mainL2 }}
+								sx={{
+									order: [-1, 'initial', null],
+									zIndex: 5,
+									alignSelf: ['flex-start', null, 'center'],
+									fill: theme => theme.colors.mainL2,
+								}}
 								height="2rem"
 							/>
 						)}
 					</Flex>
 				</Container>
-				<div className={styles.markdownContainer}>
-					<Flex
-						sx={{ margin: 'auto', flexDirection: 'column' }}
-						className={styles.wrapper}
-					>
-						<GlobalMdx>
-							<MDXRenderer>{post.body}</MDXRenderer>
-						</GlobalMdx>
-					</Flex>
-				</div>
+				<Flex
+					sx={{
+						flexDirection: 'column',
+						variant: 'wrappers.markdown',
+					}}
+				>
+					<GlobalMdx>
+						<MDXRenderer>{post.body}</MDXRenderer>
+					</GlobalMdx>
+				</Flex>
 				<RecentBlogPosts
 					heading={'Recent posts by ' + `${teammate.id}`}
 					teammate={makeAuthorSlug(teammate.id)}
