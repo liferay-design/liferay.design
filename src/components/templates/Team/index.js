@@ -63,6 +63,24 @@ export default class Team extends Component {
 								name: 'twitter',
 						  }
 						: null,
+					links.unsplash
+						? {
+								url: 'https://unsplash.com/@' + links.unsplash,
+								name: 'unsplash',
+						  }
+						: null,
+					links.webflow
+						? {
+								url: 'https://webflow.com/' + links.webflow,
+								name: 'webflow',
+						  }
+						: null,
+					links.website
+						? {
+								url: links.website,
+								name: teammate.icon,
+						  }
+						: null,
 			  ]
 			: null
 
