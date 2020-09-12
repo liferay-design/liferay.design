@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { jsx, Flex, Box, Image } from 'theme-ui'
-import { Container, ScrollProgress } from 'components/atoms'
+import { Icon, Container, ScrollProgress } from 'components/atoms'
 import { GlobalMdx, SEO, SocialIcons } from 'components/molecules'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
@@ -176,7 +176,13 @@ export default class Team extends Component {
 									},
 								}}
 							/>
-						) : null}
+						) : (
+							<Icon
+								name={teammate.icon}
+								sx={{ fill: theme => theme.colors.mainL2 }}
+								height="2rem"
+							/>
+						)}
 					</Flex>
 				</Container>
 				<div className={styles.markdownContainer}>
@@ -207,6 +213,7 @@ export const pageQuery = graphql`
 					id
 					startDate
 					title
+					icon
 					links {
 						dribbble
 						figma
