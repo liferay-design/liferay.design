@@ -1,7 +1,9 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Container, SiteName, Icon, Link } from 'components/atoms'
 import { NavItems } from 'components/organisms'
 import PropTypes from 'prop-types'
-import React from 'react'
 import styles from './styles.module.scss'
 import { AuthContainer } from 'components/molecules'
 
