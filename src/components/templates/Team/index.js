@@ -188,10 +188,10 @@ export default class Team extends Component {
 									'> a': {
 										color: 'mainL4',
 										my: [0, null, 2],
-										mx: ['.8rem', null, 0],
+										mx: ['.8rem', null, '.4rem'],
 									},
 									'> a:first-child': {
-										ml: 0,
+										ml: [0, null, '.4rem'],
 									},
 								}}
 							/>
