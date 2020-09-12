@@ -84,13 +84,15 @@ export default class Team extends Component {
 				<Box
 					sx={{
 						position: 'absolute',
-						top: ['0', '8%', '16%'],
+						top: ['0', '16%', null],
 						left: ['0', '0', '0'],
 						right: [null, '0', '0'],
 						width: ['100%', '84%', '52%'],
+						m: [null, '0 auto', null],
 						height: '75vh',
 						maxHeight: '768px',
 						maxWidth: '640px',
+						minWidth: '540px',
 						'&::after': {
 							content: '""',
 							position: 'absolute',
@@ -112,7 +114,7 @@ export default class Team extends Component {
 				<Container banner>
 					<Flex
 						sx={{
-							flexDirection: ['column', 'row', null],
+							flexDirection: ['column', null, 'row'],
 							height: ['70vh', null, '60vh'],
 							justifyContent: 'space-between',
 							alignItems: ['flex-end', 'center', null],
@@ -120,8 +122,8 @@ export default class Team extends Component {
 					>
 						<div
 							sx={{
-								flexGrow: [1, 0, null],
-								display: ['block', 'none', null],
+								flexGrow: [1, null, 0],
+								display: ['block', null, 'none'],
 							}}
 						/>
 						<Flex
@@ -162,13 +164,15 @@ export default class Team extends Component {
 							<SocialIcons
 								socials={socials}
 								sx={{
-									width: 'initial',
-									order: 'initial',
+									alignSelf: ['flex-start', null, 'center'],
 									flexDirection: ['row', null, 'column'],
 									'> a': {
 										color: 'mainL4',
 										my: [0, null, 2],
 										mx: [2, null, 0],
+									},
+									'> a:first-child': {
+										ml: 0,
 									},
 								}}
 							/>
