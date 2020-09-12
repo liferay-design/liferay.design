@@ -1,14 +1,34 @@
-import { Flex, Text } from 'components/atoms'
+/** @jsx jsx */
+
+import { jsx, Flex, Text } from 'theme-ui'
 import { SideTab } from 'components/molecules'
-import React from 'react'
-import styles from './styles.module.scss'
 import MediaQuery from 'react-responsive'
 
 const HeroBanner = () => (
-	<Flex className={styles.container} align="center" justify="center">
-		<Text width="20ch" weight="heavy" type="h1" size="xxLarge" color="white">
+	<Flex
+		sx={{
+			alignItems: 'center',
+			justifyContent: ['flex-start', 'center', null],
+			height: ['40vh', '448px', null],
+			margin: '0 auto',
+			pl: [3, 0, null],
+			minWidth: '360px',
+			position: 'relative',
+			width: '100vw',
+			maxWidth: '100%',
+		}}
+	>
+		<Text
+			as="h1"
+			sx={{
+				width: ['14ch', '20ch', null],
+				fontSize: [5, 6, null],
+				fontWeight: 'heading',
+				color: 'white',
+			}}
+		>
 			We are{' '}
-			<Text type="span" weight="black" size="xxLarge" color="neutral1">
+			<Text as="span" sx={{ color: 'neutral1' }}>
 				Liferayʼs global team of{' '}
 			</Text>
 			designers.
