@@ -3,7 +3,7 @@
 import { jsx, Flex } from 'theme-ui'
 import { Icon, Link } from 'components/atoms'
 
-const SocialIcons = () => {
+const SocialIcons = ({ ...props }) => {
 	const socials = [
 		{
 			url: 'https://www.dribbble.com/liferay',
@@ -57,6 +57,7 @@ const SocialIcons = () => {
 					},
 				},
 			}}
+			{...props}
 		>
 			{socials.map(item => (
 				<Link
