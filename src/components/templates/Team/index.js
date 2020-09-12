@@ -220,7 +220,7 @@ export default class Team extends Component {
 					</GlobalMdx>
 					{links ? (
 						<Flex sx={{ width: '100%', flexDirection: 'column' }}>
-							<h2>Follow {firstWord(teammate.id)}</h2>
+							<h3>Follow {firstWord(teammate.id)}</h3>
 							<SocialIcons
 								sx={{
 									'> a': {
@@ -237,7 +237,7 @@ export default class Team extends Component {
 					) : null}
 				</Flex>
 				<RecentBlogPosts
-					heading={'Recent posts by ' + `${teammate.id}`}
+					heading={'Recent posts by ' + `${firstWord(teammate.id)}`}
 					teammate={makeAuthorSlug(teammate.id)}
 				/>
 				<Footer light />

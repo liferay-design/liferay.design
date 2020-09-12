@@ -5,15 +5,15 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Container } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
-import {makeAuthorSlug, avatarPath} from 'utils'
+import { makeAuthorSlug, avatarPath } from 'utils'
 
-export default ( {teammate, currentPost, ...props} ) => {
+export default ({ teammate, currentPost, ...props }) => {
 	const data = useStaticQuery(graphql`
 		{
 			allMdx(
-				filter: { 
-					fileAbsolutePath: { regex: "/(articles)/" } 
-					frontmatter: { publish: {eq: true}}
+				filter: {
+					fileAbsolutePath: { regex: "/(articles)/" }
+					frontmatter: { publish: { eq: true } }
 				}
 				sort: { order: DESC, fields: [frontmatter___date] }
 			) {
@@ -38,8 +38,12 @@ export default ( {teammate, currentPost, ...props} ) => {
 	`)
 
 	const Posts = data.allMdx.edges
-		.filter(edges => makeAuthorSlug(edges.node.frontmatter.author.id) === teammate && edges.node.id !== currentPost)
-		.slice(0,3)
+		.filter(
+			edges =>
+				makeAuthorSlug(edges.node.frontmatter.author.id) === teammate &&
+				edges.node.id !== currentPost,
+		)
+		.slice(0, 3)
 		.map(({ node }) => (
 			<CardDefault
 				avatarImage
@@ -56,16 +60,14 @@ export default ( {teammate, currentPost, ...props} ) => {
 		<div>
 			{Posts.length >= 1 ? (
 				<Container
-					{...props} 
-					color="black"
-					background="#fff"
+					{...props}
+					sx={{ color: 'black' }}
 					padding="4rem 0 4rem"
+					background='white'
 				>
-					<Grid sx={{variant: 'grids.threeCards'}}>{Posts}</Grid>
+					<Grid sx={{ variant: 'grids.threeCards' }}>{Posts}</Grid>
 				</Container>
-			) : (
-				null
-			)}
+			) : null}
 		</div>
-	)}
-
+	)
+}
