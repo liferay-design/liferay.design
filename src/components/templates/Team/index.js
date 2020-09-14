@@ -154,14 +154,10 @@ export default class Team extends Component {
 							<h1
 								sx={{
 									fontSize: [6, null, 7],
-									color: 'mainL2',
+									color: 'mainL4',
 									maxWidth: ['initial', null, '10ch'],
 								}}
 							>
-								<span sx={{ color: 'white' }}>{teammate.id}</span>
-								<span sx={{ display: 'block', fontSize: [4, null, 6] }}>
-									{teammate.title}
-								</span>
 								{teammate.startDate ? (
 									<span
 										sx={{
@@ -169,13 +165,17 @@ export default class Team extends Component {
 											mt: 2,
 											fontSize: 2,
 											color: 'mainL3',
-											fontWeight: 'body',
+											variant:'text.caps',
 										}}
 									>
-										Designing at Liferay since{' '}
+										Since{' '}
 										{moment(teammate.startDate).format('YYYY')}
 									</span>
 								) : null}
+								<span sx={{ color: 'white' }}>{teammate.id}</span>
+								<span sx={{ display: 'block', fontSize: [4, null, 6] }}>
+									{teammate.title}
+								</span>
 							</h1>
 						</Flex>
 						{links ? (
