@@ -4,7 +4,7 @@ import { fontWeights } from 'theme/'
 export default {
 	colors: {
 		text: '#fff',
-		background: 'inherit',
+		background: '#13141F',
 		black: '#13141F',
 		white: '#FFF',
 		primary: '#0B5FFF',
