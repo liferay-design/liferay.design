@@ -1,8 +1,8 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Link } from 'components/atoms'
 import PropTypes from 'prop-types'
-import React from 'react'
-import styles from './styles.module.scss'
-import Blueprints from 'pages/blueprints';
 
 const SiteName = ({ dark, section, underlineColor }) => {
 	var str = section
@@ -11,12 +11,31 @@ const SiteName = ({ dark, section, underlineColor }) => {
 	}
 
 	return (
-		<div className={`${styles.siteName} ${dark && styles.dark}`}>
+		<div
+			sx={{
+				fontSize: 3,
+				paddingBottom: 0,
+				lineHeight: '1.6',
+				position: 'relative',
+				'> a': {
+					color: `${dark ? 'black' : 'white'}`,
+					'&:hover': {
+						color: `${dark ? 'primary' : 'primaryl2'}`,
+					},
+				},
+			}}
+		>
 			<Link to="/">Liferay.Design</Link>
 			{section && <Link to={'/' + `${lowerCaseSection}`}> / {section}</Link>}
 			<span
-				style={{ background: `${underlineColor}` }}
-				className={styles.underline}
+				sx={{
+					position: 'absolute',
+					width: 4,
+					height: '3px',
+					bg: `${underlineColor ? underlineColor : 'primary'}`,
+					display: 'block',
+					mt: '1rem',
+				}}
 			/>
 		</div>
 	)

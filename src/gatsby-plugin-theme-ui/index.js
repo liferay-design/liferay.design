@@ -72,7 +72,7 @@ export default {
 	links: {
 		nav: {
 			cursor: 'pointer',
-			minWidth: 'auto',
+			minWidth: 'max-content',
 			color: 'mainL4',
 			fontWeight: 'body',
 			fontSize: 2,
