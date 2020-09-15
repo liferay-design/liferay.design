@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { Icon, Link, AnimateIn } from 'components/atoms'
+import { AnimateIn, Icon, Link } from 'components/atoms'
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import { jsx, Avatar, Box, Card, Flex, Heading, Image, Text } from 'theme-ui'
