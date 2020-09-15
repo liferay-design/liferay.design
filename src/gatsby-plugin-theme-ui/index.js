@@ -1,3 +1,4 @@
+import { fontSizes } from 'theme/'
 import { fontWeights } from 'theme/'
 
 export default {
@@ -68,7 +69,39 @@ export default {
 			},
 		},
 	},
+	links: {
+		nav: {
+			color: 'mainL4',
+			fontWeight: 'body',
+			fontSize: 2,
+			margin: 0,
+			padding: 2,
+			transition: 'color 0.2s ease-out',
+			position: 'relative',
+			'&::after': {
+				background: 'white',
+				bottom: 0,
+				content: '""',
+				right: 1,
+				position: 'absolute',
+				height: '3px',
+				transition: 'transform 0.4s ease',
+				transformOrigin: 'right',
+				transform: 'scaleX(0)',
+				width: 4,
+			},
+			'&:hover': {
+				color: 'white',
+				transition: 'color 0.4s ease-out',
+				'&::after': {
+					transition: 'transform 0.2s ease',
+					transform: 'scaleX(1)',
+				},
+			},
+		},
+	},
 	fontSizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
+	sizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
 	lineHeights: {
 		body: 1.4,
 		heading: 1.1,

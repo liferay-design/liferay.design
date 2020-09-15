@@ -9,35 +9,35 @@
 			background: $primary;
 		}
 	}
-	a,
-	button {
-		color: $main-l4;
-		margin: 0;
-		padding: $spacingSmall;
-		position: relative;
-		// font-size: $fontSizeSmall !important;
-		transition: color 0.2s ease-out;
-		&::after {
-			background: $white;
-			bottom: 0;
-			content: '';
-			right: $spacingSmall;
-			position: absolute;
-			height: 3px;
-			transition: transform 0.4s ease;
-			transform-origin: right;
-			transform: scaleX(0);
-			width: $spacingBase;
-		}
-		&:hover {
-			color: $white;
-			transition: color 0.4s ease-out;
-			&::after {
-				transition: transform 0.2s ease;
-				transform: scaleX(1);
-			}
-		}
-	}
+	// a,
+	// button {
+	// 	color: $main-l4;
+	// 	margin: 0;
+	// 	padding: $spacingSmall;
+	// 	position: relative;
+	// 	// font-size: $fontSizeSmall !important;
+	// 	transition: color 0.2s ease-out;
+	// 	&::after {
+	// 		background: $white;
+	// 		bottom: 0;
+	// 		content: '';
+	// 		right: $spacingSmall;
+	// 		position: absolute;
+	// 		height: 3px;
+	// 		transition: transform 0.4s ease;
+	// 		transform-origin: right;
+	// 		transform: scaleX(0);
+	// 		width: $spacingBase;
+	// 	}
+	// 	&:hover {
+	// 		color: $white;
+	// 		transition: color 0.4s ease-out;
+	// 		&::after {
+	// 			transition: transform 0.2s ease;
+	// 			transform: scaleX(1);
+	// 		}
+	// 	}
+	// }
 }
 @media screen and (max-width: $screenMedium) {
 	.items {

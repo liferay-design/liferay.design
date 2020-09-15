@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx, NavLink } from 'theme-ui'
 import { Flex, Link } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
 import React from 'react'
@@ -10,7 +13,7 @@ const NavItems = () => {
 		<Flex className={styles.entry} align="center">
 			<Flex className={styles.items}>
 				{pages.map(item => (
-					<Link
+					<NavLink
 						key={item}
 						activeStyle={{
 							color: 'white',
@@ -18,7 +21,7 @@ const NavItems = () => {
 						to={'/' + item.toLowerCase()}
 					>
 						{item}
-					</Link>
+					</NavLink>
 				))}
 			</Flex>
 
