@@ -1,10 +1,11 @@
+/** @jsx jsx */
+
+import { jsx, NavLink } from 'theme-ui'
 import { firebase } from '@firebase/app'
-import { Button } from 'components/atoms'
 import { LogoutContainer } from 'components/molecules'
 import 'firebase/auth'
 import { navigate } from 'gatsby'
-import React, { Component } from 'react'
-import styles from './styles.module.scss'
+import { Component } from 'react'
 
 // Not a security risk to expose key because we are not storing user data
 // https://stackoverflow.com/a/37484053/6502003
@@ -77,13 +78,12 @@ export default class AuthContainer extends Component {
 		return this.state.user ? (
 			<LogoutContainer user={this.state.user} onClick={this.logout} />
 		) : (
-			<Button
-				backgroundColor="transparent"
-				className={styles.login}
+			<NavLink
+				sx={{ pr: 0, p: [1, null, 2], '&::after': { right: 0, bg: 'primary' } }}
 				onClick={this.login}
 			>
 				Sign In
-			</Button>
+			</NavLink>
 		)
 	}
 }
