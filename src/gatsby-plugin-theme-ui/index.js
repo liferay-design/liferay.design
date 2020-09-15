@@ -71,18 +71,20 @@ export default {
 	},
 	links: {
 		nav: {
+			cursor: 'pointer',
+			minWidth: 'auto',
 			color: 'mainL4',
 			fontWeight: 'body',
 			fontSize: 2,
 			margin: 0,
-			padding: 2,
+			padding: [2, 1, 2],
 			transition: 'color 0.2s ease-out',
 			position: 'relative',
 			'&::after': {
 				background: 'white',
 				bottom: 0,
 				content: '""',
-				right: 1,
+				right: [2, 1, 2],
 				position: 'absolute',
 				height: '3px',
 				transition: 'transform 0.4s ease',
