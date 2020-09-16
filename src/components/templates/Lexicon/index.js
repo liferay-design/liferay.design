@@ -4,7 +4,7 @@ import { jsx, Grid } from 'theme-ui'
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
-import { Footer, Sidebar } from 'components/organisms'
+import { Footer, PreviousNext, Sidebar } from 'components/organisms'
 import { graphql } from 'gatsby'
 import { cloneDeep, get, set } from 'lodash'
 import React, { Component } from 'react'
@@ -40,7 +40,7 @@ export default class Lexicon extends Component {
 		const seoDescription =
 			`${post.frontmatter.title}` + ' on Lexicon by Liferay.Design'
 		const seoImage = 'https://liferay.design/images/resources/lexicon-cover.png'
-
+console.log(mdx.id, 'id') 
 		return (
 			<div className={`${lexicon.theme} ${documentation.theme}`}>
 				<Helmet>
@@ -145,6 +145,7 @@ export default class Lexicon extends Component {
 										<GlobalMdx>
 											<MDXRenderer>{mdx.body}</MDXRenderer>
 										</GlobalMdx>
+										{/* <PreviousNext section='lexicon' current={post.id} /> */}
 									</ContainerMarkdown>
 									<Footer markdown light />
 								</div>
@@ -208,6 +209,7 @@ export const pageQuery = graphql`
 		}
 
 		mdx(fields: { slug: { eq: $slug } }) {
+			id
 			frontmatter {
 				title
 				description
