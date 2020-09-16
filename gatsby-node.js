@@ -22,7 +22,21 @@ exports.createPages = ({ actions, graphql }) => {
 
 	const markdown = graphql(`
 		{
-			markdown: allMdx {
+			development: allMdx {
+				edges {
+					node {
+						id
+						fields {
+							slug
+						}
+						frontmatter {
+							tags
+						}
+						body
+					}
+				}
+			}
+			production: allMdx(filter: { frontmatter: { publish: { ne: false } } }) {
 				edges {
 					node {
 						id
@@ -40,10 +54,12 @@ exports.createPages = ({ actions, graphql }) => {
 	`).then(({ data, errors }) => {
 		if (errors) {
 			console.log('Error creating markdown pages in `createPages` call ==>', errors)
-			throw(errors)
+			throw errors
 		}
+		const environment = process.env.NODE_ENV
 
-		const pages = data.markdown.edges
+		const pages = data[environment].edges
+
 		pages.forEach(({ node }) => {
 			const template = node.fields.slug.split('/')[1]
 
@@ -107,7 +123,10 @@ exports.createPages = ({ actions, graphql }) => {
 		}
 	`).then(({ data, errors }) => {
 		if (errors) {
-			console.log('Error creating newsletter pages in `createPages` call ==>', errors)
+			console.log(
+				'Error creating newsletter pages in `createPages` call ==>',
+				errors,
+			)
 			reject(errors)
 		}
 
