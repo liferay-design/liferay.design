@@ -6,8 +6,7 @@ import { Link } from 'components/atoms'
 import { slugToSection } from 'utils'
 
 export default function PreviousNext({ current, section, ...props }) {
-
-    const H3 = Styled.h3
+	const H3 = Styled.h3
 
 	const data = useStaticQuery(graphql`
 		{
