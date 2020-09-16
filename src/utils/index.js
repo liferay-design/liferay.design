@@ -39,3 +39,8 @@ export function firstWord(input) {
 	const string = input.split(' ')[0]
 	return string
 }
+
+export function slugToSection(input) {
+	const section = input.split('/')[1]
+	return section 
+}
