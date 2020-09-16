@@ -4,7 +4,7 @@ import { jsx, Grid, Box } from 'theme-ui'
 import { Container, Link, Image, ScrollProgress } from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { SEO, Tags, GlobalMdx } from 'components/molecules'
-import { Footer, Navbar, RecentBlogPosts } from 'components/organisms'
+import { Footer, Navbar, RecentBlogPosts, PreviousNext } from 'components/organisms'
 import { graphql, withPrefix } from 'gatsby'
 import moment from 'moment'
 import React, { Component } from 'react'
@@ -117,6 +117,7 @@ export default class Articles extends Component {
 						<GlobalMdx>
 							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
+						<PreviousNext section='articles' current={post.id} />
 					</div>
 				</div>
 				<RecentBlogPosts

@@ -10,6 +10,7 @@ import NavItems from './NavItems'
 import ResearchCards from './ResearchCards'
 import RecentBlogPosts from './RecentBlogPosts'
 import Sidebar from './Sidebar'
+import PreviousNext from './PreviousNext'
 import TopBlogPosts from './TopBlogPosts'
 import Venue from './Venue'
 
@@ -26,6 +27,7 @@ export {
 	Navbar,
 	RecentBlogPosts,
 	Sidebar,
+	PreviousNext,
 	TopBlogPosts,
 	Venue,
 }
