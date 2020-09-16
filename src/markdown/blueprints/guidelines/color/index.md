@@ -15,4 +15,4 @@ Color plays a significant role in defining and supporting the visual identity by
 
 One of the most consistent aspects of our brand is our committment to blue. While it has varied and evolved over the years, blue is one of the more lasting parts of our brand. We have a new primary brand blue (#0B63CE) — use it thoughtfully.
 
-If you're using color on a website, app, or other digital medium, check out our [digital color resources](/docs/resources/color/digital.html) &mdash; if you need to buy a giant blue rug or give a pen vendor a color swatch, see our [print color files](/docs/resources/color/print.html).
+If you're using color on a website, app, or other digital medium, check out our [digital color resources](../color/digital) &mdash; if you need to buy a giant blue rug or give a pen vendor a color swatch, see our [print color files](../color/print).
