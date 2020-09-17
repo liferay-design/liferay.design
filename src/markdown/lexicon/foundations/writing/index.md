@@ -1,13 +1,15 @@
 ---
 title: 'Writing'
-description: 'Layouts help out organizing the space.'
+description: 'A relevelant piece in the design puzzle.'
 order: 121
 draft: false
 ---
 
-Our 4 different layouts help us visually organizing the pieces of information. This helps is just the first step to allow the user consuming information in a structured way. Information architecture present in differnet components will come on top of the layout to improve the user experience.
+How your interface talks to your users is key in design. This is in your hands and we want to help you in your task by providing a guideline full of examples to communicate in a standard way.
 
 Our layouts:
 
 * [Principles](./principles)
 * [Style](./style)
+* UI Content Patterns
+* Sentence Construction
