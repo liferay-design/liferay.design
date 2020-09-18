@@ -164,6 +164,195 @@
 		"productName": "Commerce",
 		"release": [
 			{
+				"name": "3.0 — September 2020",
+				"assets": [
+					{
+						"title": "Channel Detail 01",
+						"src": "/images/products/commerce/3.0/browser/ChannelDetail01@2x.png"
+					},
+					{
+						"title": "Channel Detail 02",
+						"src": "/images/products/commerce/3.0/browser/ChannelDetail02@2x.png"
+					},
+					{
+						"title": "Inventory Detail 1",
+						"src": "/images/products/commerce/3.0/browser/InventoryDetail1@2x.png"
+					},
+					{
+						"title": "Inventory Detail 2",
+						"src": "/images/products/commerce/3.0/browser/InventoryDetail2@2x.png"
+					},
+					{
+						"title": "Inventory Detail 3",
+						"src": "/images/products/commerce/3.0/browser/InventoryDetail3@2x.png"
+					},
+					{
+						"title": "Order Detail 1",
+						"src": "/images/products/commerce/3.0/browser/OrderDetail1@2x.png"
+					},
+					{
+						"title": "Order Detail 2",
+						"src": "/images/products/commerce/3.0/browser/OrderDetail2@2x.png"
+					},
+					{
+						"title": "Order Detail 3",
+						"src": "/images/products/commerce/3.0/browser/OrderDetail3@2x.png"
+					},
+					{
+						"title": "Price Management of a Product 1",
+						"src": "/images/products/commerce/3.0/browser/PriceManagementOfAProduct1@2x.png"
+					},
+					{
+						"title": "Price Management of a Product 2",
+						"src": "/images/products/commerce/3.0/browser/PriceManagementOfAProduct2@2x.png"
+					},
+					{
+						"title": "Price Management of a Product 3",
+						"src": "/images/products/commerce/3.0/browser/PriceManagementOfAProduct3@2x.png"
+					},
+					{
+						"title": "Price Management of a Product 4",
+						"src": "/images/products/commerce/3.0/browser/PriceManagementOfAProduct4@2x.png"
+					},
+					{
+						"title": "Product Bundle 1",
+						"src": "/images/products/commerce/3.0/browser/ProductBundle1@2x.png"
+					},
+					{
+						"title": "Product Bundle 2",
+						"src": "/images/products/commerce/3.0/browser/ProductBundle2@2x.png"
+					},
+					{
+						"title": "Product Bundle 3",
+						"src": "/images/products/commerce/3.0/browser/ProductBundle3@2x.png"
+					},
+					{
+						"title": "Product Bundle 4",
+						"src": "/images/products/commerce/3.0/browser/ProductBundle4@2x.png"
+					},
+					{
+						"title": "Product Bundle 5",
+						"src": "/images/products/commerce/3.0/browser/ProductBundle5@2x.png"
+					},
+					{
+						"title": "Shipment Detail 1",
+						"src": "/images/products/commerce/3.0/browser/ShipmentDetail1@2x.png"
+					},
+					{
+						"title": "Shipment Detail 2",
+						"src": "/images/products/commerce/3.0/browser/ShipmentDetail2@2x.png"
+					},
+					{
+						"title": "Shipment Detail 3",
+						"src": "/images/products/commerce/3.0/browser/ShipmentDetail3@2x.png"
+					},
+					{
+						"title": "Shipment Detail 4",
+						"src": "/images/products/commerce/3.0/browser/ShipmentDetail4@2x.png"
+					},
+					{
+						"title": "Subscription Product Storefront 1",
+						"src": "/images/products/commerce/3.0/browser/SubscriptionProductStorefront1@2x.png"
+					},
+					{
+						"title": "Subscription Product Storefront 2",
+						"src": "/images/products/commerce/3.0/browser/SubscriptionProductStorefront2@2x.png"
+					},
+					{
+						"title": "Channel Detail 1",
+						"src": "/images/products/commerce/3.0/sans-browser/ChannelDetail01.jpg"
+					},
+					{
+						"title": "Channel Detail 2",
+						"src": "/images/products/commerce/3.0/sans-browser/ChannelDetail02.jpg"
+					},
+					{
+						"title": "Inventory Detail 1",
+						"src": "/images/products/commerce/3.0/sans-browser/InventoryDetail1.jpg"
+					},
+					{
+						"title": "Inventory Detail 2",
+						"src": "/images/products/commerce/3.0/sans-browser/InventoryDetail2.jpg"
+					},
+					{
+						"title": "Inventory Detail 3",
+						"src": "/images/products/commerce/3.0/sans-browser/InventoryDetail3.jpg"
+					},
+					{
+						"title": "Order Detail 1",
+						"src": "/images/products/commerce/3.0/sans-browser/OrderDetail1.jpg"
+					},
+					{
+						"title": "Order Detail 2",
+						"src": "/images/products/commerce/3.0/sans-browser/OrderDetail2.jpg"
+					},
+					{
+						"title": "Order Detail 3",
+						"src": "/images/products/commerce/3.0/sans-browser/OrderDetail3.jpg"
+					},
+					{
+						"title": "Price Management of a Product 1",
+						"src": "/images/products/commerce/3.0/sans-browser/PriceManagementofaProduct1.jpg"
+					},
+					{
+						"title": "Price Management of a Product 2",
+						"src": "/images/products/commerce/3.0/sans-browser/PriceManagementofaProduct2.jpg"
+					},
+					{
+						"title": "Price Management of a Product 3",
+						"src": "/images/products/commerce/3.0/sans-browser/PriceManagementofaProduct3.jpg"
+					},
+					{
+						"title": "Price Management of a Product 4",
+						"src": "/images/products/commerce/3.0/sans-browser/PriceManagementofaProduct4.jpg"
+					},
+					{
+						"title": "Product Bundle 1",
+						"src": "/images/products/commerce/3.0/sans-browser/ProductBundle1.jpg"
+					},
+					{
+						"title": "Product Bundle 2",
+						"src": "/images/products/commerce/3.0/sans-browser/ProductBundle2.jpg"
+					},
+					{
+						"title": "Product Bundle 3",
+						"src": "/images/products/commerce/3.0/sans-browser/ProductBundle3.jpg"
+					},
+					{
+						"title": "Product Bundle 4",
+						"src": "/images/products/commerce/3.0/sans-browser/ProductBundle4.jpg"
+					},
+					{
+						"title": "Product Bundle 5",
+						"src": "/images/products/commerce/3.0/sans-browser/ProductBundle5.jpg"
+					},
+					{
+						"title": "Shipment Detail 1",
+						"src": "/images/products/commerce/3.0/sans-browser/ShipmentDetail1.jpg"
+					},
+					{
+						"title": "Shipment Detail 2",
+						"src": "/images/products/commerce/3.0/sans-browser/ShipmentDetail2.jpg"
+					},
+					{
+						"title": "Shipment Detail 3",
+						"src": "/images/products/commerce/3.0/sans-browser/ShipmentDetail3.jpg"
+					},
+					{
+						"title": "Shipment Detail 4",
+						"src": "/images/products/commerce/3.0/sans-browser/ShipmentDetail4.jpg"
+					},
+					{
+						"title": "Subscription Product Storefront 1",
+						"src": "/images/products/commerce/3.0/sans-browser/SubscriptionProductStorefront1.jpg"
+					},
+					{
+						"title": "Subscription Product Storefront 2",
+						"src": "/images/products/commerce/3.0/sans-browser/SubscriptionProductStorefront2.jpg"
+					}
+				]
+			},
+			{
 				"name": "2.0 — July 2019",
 				"assets": [
 					{
