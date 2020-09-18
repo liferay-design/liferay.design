@@ -1,5 +1,5 @@
 ---
-name: '\U0001F4D8 Blueprints request'
+name: '📘 Blueprints request'
 about: Make a request for liferay.design/blueprints
 labels: blueprints
 ---
