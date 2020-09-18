@@ -6,7 +6,8 @@ publish: true
 ---
 
 import styles from './styles.module.scss'
-import { AssetsAccordion, AssetDownload } from 'components/molecules'
+import { Grid } from 'theme-ui'
+import { AssetsAccordion, AssetDownload, CardAsset } from 'components/molecules'
 import { Heading } from 'components/atoms'
 
 Custom illustrations elevate and support the content &mdash; they are not meant to replace good copywriting nor are they to capture a complete idea down to the very last detail. They are used to create a mood for a specific piece of content. To that end, we need to take care to preserve the impact that they have by not **over-using illustrations for pieces they were not specifically designed for**.
@@ -14,6 +15,18 @@ Custom illustrations elevate and support the content &mdash; they are not meant 
 All these files are flattened PNG or JPG files, if you'd like a layered Illustrator or Sketch file, please leave a [comment on this issue](https://github.com/liferay-design/liferay.design/issues/158) and contact [Paul Hanaoka](mailto:paul.hanaoka@liferay.com).
 
 ## Liferay.com
+
+<Grid
+	variant="smallCards"
+	sx={{ gridTemplateColumns: 'repeat( auto-fit,minmax(200px,368px) )' }} // delete this line if you add another card
+>
+	<CardAsset
+		cta="View in Google Drive"
+		title="Resource Thumbnails"
+		preview="/images/blueprints/illustrations/resource-thumbnails/case-study-blank-dark-1.png"
+		link="https://drive.google.com/drive/folders/15LjS6o3xmGu_zjnHim_LHhFbINGs_6w2"
+	/>
+</Grid>
 
 ### June 2019
 
@@ -62,96 +75,96 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 	title={<Heading level={3}>Spot Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
-		<AssetDownload
-			type="Spot Illustration"
-			title="Cohesive Customer Journey"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-cohesive-customer-journey.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Connect Your Business"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-connect-your-business.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Extend Digital Transformation"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-extend-digital-transformation.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Personalize Customer Interaction"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-personalize-customer-interaction.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Quickly Customize"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-quickly-customize.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Stay Ahead"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-stay-ahead.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Connect Your Experiences and Systems"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-connect-experiences.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Create Personalized Experiences"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-flexible-platform.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Customize Your Solutions Quickly"
-			source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-personalized-experiences.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Better B2B Customer Experiences"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-b2b.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Applied Machine Learning"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-applied-machine-learning.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Empower Sales and Service Reps"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-empower-sales.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Flexible Data Integration"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-flexible-data-integration.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Built to Grow With Your Business"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-localization.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Meet B2B Requirements Out of the Box"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-meet-b2b-requirements.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Digital Workplace Spot"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-effortless-purchasing.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Web Experiences Spot"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-sales-empowerment.png"
-		/>
-		<AssetDownload
-			type="Spot Illustration"
-			title="Customer Service Spot"
-			source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-tailored-for-b2b.png"
-		/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Cohesive Customer Journey"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-cohesive-customer-journey.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Connect Your Business"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-connect-your-business.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Extend Digital Transformation"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-extend-digital-transformation.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Personalize Customer Interaction"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-personalize-customer-interaction.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Quickly Customize"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-quickly-customize.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Stay Ahead"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-stay-ahead.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Connect Your Experiences and Systems"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-connect-experiences.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Create Personalized Experiences"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-flexible-platform.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Customize Your Solutions Quickly"
+		source="/images/illustrations/liferay-dot-com/q2-2019/dxp/spot-personalized-experiences.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Better B2B Customer Experiences"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-b2b.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Applied Machine Learning"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-applied-machine-learning.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Empower Sales and Service Reps"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-empower-sales.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Flexible Data Integration"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-flexible-data-integration.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Built to Grow With Your Business"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-localization.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Meet B2B Requirements Out of the Box"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-meet-b2b-requirements.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Digital Workplace Spot"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-effortless-purchasing.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Web Experiences Spot"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-sales-empowerment.png"
+	/>
+	<AssetDownload
+		type="Spot Illustration"
+		title="Customer Service Spot"
+		source="/images/illustrations/liferay-dot-com/q2-2019/commerce/spot-tailored-for-b2b.png"
+	/>
 </AssetsAccordion>
 
 ### July 2018
@@ -196,16 +209,16 @@ All these files are flattened PNG or JPG files, if you'd like a layered Illustra
 	title={<Heading level={3}>Spot Illustrations</Heading>}
 	className={styles.blueprintsAccordion}
 >
-		<AssetDownload
-			type="Illustration"
-			title="Digital Workplace Spot"
-			source="/images/illustrations/liferay-dot-com/q3-2018/spot-digital-workplace.png"
-		/>
-		<AssetDownload
-			type="Illustration"
-			title="Web Experiences Spot"
-			source="/images/illustrations/liferay-dot-com/q3-2018/spot-web-experiences.png"
-		/>
+	<AssetDownload
+		type="Illustration"
+		title="Digital Workplace Spot"
+		source="/images/illustrations/liferay-dot-com/q3-2018/spot-digital-workplace.png"
+	/>
+	<AssetDownload
+		type="Illustration"
+		title="Web Experiences Spot"
+		source="/images/illustrations/liferay-dot-com/q3-2018/spot-web-experiences.png"
+	/>
 	<AssetDownload
 		type="Illustration"
 		title="Customer Service Spot"
