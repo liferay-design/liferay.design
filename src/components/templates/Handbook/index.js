@@ -156,7 +156,11 @@ export default class Handbook extends Component {
 									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
-									<Icon name="liferayDesicon" fill="white" height="2rem" />
+									<Icon
+										name="liferayDesicon"
+										fill="white"
+										height="2rem"
+									/>
 
 									{this.state.mobileSidebarVisible ? (
 										<Icon
@@ -186,7 +190,7 @@ export const pageQuery = graphql`
 		allMdx(
 			filter: {
 				fileAbsolutePath: { regex: "/(handbook)/" }
-				frontmatter: { publish: { eq: true } }
+				frontmatter: { publish: { eq: true }, template: { ne: "landingPage" } }
 			}
 		) {
 			totalCount
