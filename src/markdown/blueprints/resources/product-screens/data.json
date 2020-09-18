@@ -1,0 +1,272 @@
+[
+	{
+		"productName": "Digital Experience Platform",
+		"release": [
+			{
+				"name": "7.2 — June 2019",
+				"assets": [
+					{
+						"title": "Collaboration Social Blogs",
+						"src": "/images/products/dxp/7.2/collaboration_social_blogs.png"
+					},
+					{
+						"title": "Collaboration Social Message Boards",
+						"src": "/images/products/dxp/7.2/collaboration_social_message_boards.png"
+					},
+					{
+						"title": "Connected Experiences Travel Blog",
+						"src": "/images/products/dxp/7.2/connected_experiences_travel_blog.jpg"
+					},
+					{
+						"title": "Connected Systems Site Administration",
+						"src": "/images/products/dxp/7.2/connected_systems_site_administration.png"
+					},
+					{
+						"title": "Content Management Content Sets",
+						"src": "/images/products/dxp/7.2/content_management_content_sets.png"
+					},
+					{
+						"title": "Content Management Enterprise Dam",
+						"src": "/images/products/dxp/7.2/content_management_enterprise_DAM.png"
+					},
+					{
+						"title": "Content Management Structured Content",
+						"src": "/images/products/dxp/7.2/content_management_structured_content.png"
+					},
+					{
+						"title": "Experience Management Fragments",
+						"src": "/images/products/dxp/7.2/experience_management_fragments.png"
+					},
+					{
+						"title": "Forms Data Provider",
+						"src": "/images/products/dxp/7.2/forms_data_provider.png"
+					},
+					{
+						"title": "Forms Forms Structure",
+						"src": "/images/products/dxp/7.2/forms_forms_structure.png"
+					},
+					{
+						"title": "Forms Multi Language Support",
+						"src": "/images/products/dxp/7.2/forms_multi_language_support.png"
+					},
+					{
+						"title": "Forms Workflow",
+						"src": "/images/products/dxp/7.2/forms_workflow.png"
+					},
+					{
+						"title": "Identity Management Personal Data Erasure",
+						"src": "/images/products/dxp/7.2/identity_management_personal_data_erasure.png"
+					},
+					{
+						"title": "Identity Management Service Access Policies",
+						"src": "/images/products/dxp/7.2/identity_management_service_access_policies.png"
+					},
+					{
+						"title": "Identity Management Site Roles",
+						"src": "/images/products/dxp/7.2/identity_management_site_roles.png"
+					},
+					{
+						"title": "Personalize Experiences Travel Blog Site",
+						"src": "/images/products/dxp/7.2/personalize_experiences_travel_blog_site.jpg"
+					},
+					{
+						"title": "Personalize Experiences Travel Blog Site 2",
+						"src": "/images/products/dxp/7.2/personalize_experiences_travel_blog_site_2.jpg"
+					},
+					{
+						"title": "Platform Services Custom Fields",
+						"src": "/images/products/dxp/7.2/platform_services_custom_fields.png"
+					},
+					{
+						"title": "Platform Services Search Administration",
+						"src": "/images/products/dxp/7.2/platform_services_search_administration.png"
+					},
+					{
+						"title": "Platform Services Server Administration",
+						"src": "/images/products/dxp/7.2/platform_services_server_administration.png"
+					},
+					{
+						"title": "Platform Services Site Administration",
+						"src": "/images/products/dxp/7.2/platform_services_site_administration.png"
+					},
+					{
+						"title": "Segmentation Experiences",
+						"src": "/images/products/dxp/7.2/segmentation_experiences.jpg"
+					},
+					{
+						"title": "Segmentation Rule Builder",
+						"src": "/images/products/dxp/7.2/segmentation_rule_builder.png"
+					}
+				]
+			},
+			{
+				"name": "7.1 — July 2018",
+				"assets": [
+					{
+						"title": "Liferay DXP Collaboration",
+						"src": "/images/products/dxp/7.1/liferay-dxp-collaboration.jpg"
+					},
+					{
+						"title": "Liferay DXP Content Management",
+						"src": "/images/products/dxp/7.1/liferay-dxp-content-management.jpg"
+					},
+					{
+						"title": "Liferay DXP Dam Efss",
+						"src": "/images/products/dxp/7.1/liferay-dxp-dam-efss.jpg"
+					},
+					{
+						"title": "Liferay DXP Developer Tools",
+						"src": "/images/products/dxp/7.1/liferay-dxp-developer-tools.jpg"
+					},
+					{
+						"title": "Liferay DXP Forms Business Automation",
+						"src": "/images/products/dxp/7.1/liferay-dxp-forms-business-automation.png"
+					},
+					{
+						"title": "Liferay DXP Horizontal Portal",
+						"src": "/images/products/dxp/7.1/liferay-dxp-horizontal-portal.jpg"
+					},
+					{
+						"title": "Liferay DXP Mobile Experience",
+						"src": "/images/products/dxp/7.1/liferay-dxp-mobile-experience.png"
+					}
+				]
+			}
+		]
+	},
+	{
+		"productName": "DXP Cloud",
+		"release": [
+			{
+				"name": "Beta — October 2018",
+				"assets": [
+					{
+						"title": "Liferay DXP Cloud Advanced Monitoring",
+						"src": "/images/products/dxp-cloud/liferay-dxp-cloud-advanced-monitoring.png"
+					},
+					{
+						"title": "Liferay DXP Cloud Overview",
+						"src": "/images/products/dxp-cloud/liferay-dxp-cloud-overview.png"
+					},
+					{
+						"title": "Liferay DXP Cloud Services",
+						"src": "/images/products/dxp-cloud/liferay-dxp-cloud-services.png"
+					},
+					{
+						"title": "Liferay DXP Cloud Vpn",
+						"src": "/images/products/dxp-cloud/liferay-dxp-cloud-vpn.png"
+					}
+				]
+			}
+		]
+	},
+	{
+		"productName": "Commerce",
+		"release": [
+			{
+				"name": "2.0 — July 2019",
+				"assets": [
+					{
+						"title": "Catalog And Product Browsing",
+						"src": "/images/products/commerce/2.0/catalog-and-product-browsing.png"
+					},
+					{
+						"title": "Catalog Management",
+						"src": "/images/products/commerce/2.0/catalog-management.png"
+					},
+					{
+						"title": "Checkout",
+						"src": "/images/products/commerce/2.0/checkout.png"
+					},
+					{
+						"title": "Know When To Act",
+						"src": "/images/products/commerce/2.0/know-when-to-act.png"
+					},
+					{
+						"title": "Modern Digital Experience Management",
+						"src": "/images/products/commerce/2.0/modern-digital-experience-management.png"
+					},
+					{
+						"title": "Order Management",
+						"src": "/images/products/commerce/2.0/order-management.png"
+					},
+					{
+						"title": "Rich Product Education",
+						"src": "/images/products/commerce/2.0/rich-product-education.png"
+					},
+					{
+						"title": "See Exactly What Customers See",
+						"src": "/images/products/commerce/2.0/see-exactly-what-customers-see.png"
+					},
+					{
+						"title": "Support For Global Sites",
+						"src": "/images/products/commerce/2.0/support-for-global-sites.png"
+					}
+				]
+			},
+			{
+				"name": "1.0 — June 2018",
+				"assets": [
+					{
+						"title": "Liferay Commerce Catalog Management",
+						"src": "/images/products/commerce/1.0/liferay-commerce-catalog-management.png"
+					},
+					{
+						"title": "Liferay Commerce Edit Forms",
+						"src": "/images/products/commerce/1.0/liferay-commerce-edit-form.png"
+					},
+					{
+						"title": "Liferay Commerce Scheduled Tasks",
+						"src": "/images/products/commerce/1.0/liferay-commerce-scheduled-tasks.png"
+					},
+					{
+						"title": "Liferay Commerce Minium Checkout",
+						"src": "/images/products/commerce/1.0/liferay-commerce-minium-checkout.png"
+					},
+					{
+						"title": "Liferay Commerce Minium Components",
+						"src": "/images/products/commerce/1.0/liferay-commerce-minium-components.png"
+					},
+					{
+						"title": "Liferay Commerce Minium Dashboard with Background",
+						"src": "/images/products/commerce/1.0/liferay-commerce-minium-dashboard-with-background.png"
+					},
+					{
+						"title": "Liferay Commerce Minium Order Forecast",
+						"src": "/images/products/commerce/1.0/liferay-commerce-minium-order-forecast.png"
+					},
+					{
+						"title": "Liferay Commerce Minium Product Catalog",
+						"src": "/images/products/commerce/1.0/liferay-commerce-minium-product-catalog.png"
+					},
+					{
+						"title": "Liferay Commerce Minium Product Details",
+						"src": "/images/products/commerce/1.0/liferay-commerce-minium-product-details.png"
+					}
+				]
+			}
+		]
+	},
+	{
+		"productName": "Analytics Cloud",
+		"release": [
+			{
+				"name": "GA — October 2018",
+				"assets": [
+					{
+						"title": "Liferay Analytics Cloud Segment Interest Score",
+						"src": "/images/products/analytics-cloud/analytics-cloud-interest-score.png"
+					},
+					{
+						"title": "Liferay Analytics Cloud Segment Profile",
+						"src": "/images/products/analytics-cloud/analytics-cloud-segment-profile.png"
+					},
+					{
+						"title": "Liferay Analytics Cloud Single Customer View",
+						"src": "/images/products/analytics-cloud/analytics-cloud-single-customer-view.png"
+					}
+				]
+			}
+		]
+	}
+]
