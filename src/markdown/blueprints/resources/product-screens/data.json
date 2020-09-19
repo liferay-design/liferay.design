@@ -440,19 +440,52 @@
 		"productName": "Analytics Cloud",
 		"release": [
 			{
+				"name": "September 2020",
+				"assets": [
+					{
+						"title": "Ab Test",
+						"src": "/images/products/analytics-cloud/2020-09/AB-Test.png"
+					},
+					{
+						"title": "Account Profile",
+						"src": "/images/products/analytics-cloud/2020-09/Account-Profile.png"
+					},
+					{
+						"title": "Create New Segment",
+						"src": "/images/products/analytics-cloud/2020-09/Create-New-Segment.png"
+					},
+					{
+						"title": "Form Analytics",
+						"src": "/images/products/analytics-cloud/2020-09/Form-Analytics.png"
+					},
+					{
+						"title": "Indivdual Profile",
+						"src": "/images/products/analytics-cloud/2020-09/Indivdual-Profile.png"
+					},
+					{
+						"title": "Page Dashboard",
+						"src": "/images/products/analytics-cloud/2020-09/Page-Dashboard.png"
+					},
+					{
+						"title": "Site Dashboard",
+						"src": "/images/products/analytics-cloud/2020-09/Site-Dashboard.png"
+					}
+				]
+			},
+			{
 				"name": "GA — October 2018",
 				"assets": [
 					{
 						"title": "Liferay Analytics Cloud Segment Interest Score",
-						"src": "/images/products/analytics-cloud/analytics-cloud-interest-score.png"
+						"src": "/images/products/analytics-cloud/2018-10/analytics-cloud-interest-score.png"
 					},
 					{
 						"title": "Liferay Analytics Cloud Segment Profile",
-						"src": "/images/products/analytics-cloud/analytics-cloud-segment-profile.png"
+						"src": "/images/products/analytics-cloud/2018-10/analytics-cloud-segment-profile.png"
 					},
 					{
 						"title": "Liferay Analytics Cloud Single Customer View",
-						"src": "/images/products/analytics-cloud/analytics-cloud-single-customer-view.png"
+						"src": "/images/products/analytics-cloud/2018-10/analytics-cloud-single-customer-view.png"
 					}
 				]
 			}
