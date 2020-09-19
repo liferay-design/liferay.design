@@ -1,11 +1,22 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import PropTypes from 'prop-types'
-import React from 'react'
 import styles from './styles.module.scss'
 import ReCAPTCHA from 'react-google-recaptcha'
 
-const FormNewsletter = ({ placeholderText, submitText }) => {
+const FormNewsletter = ({ placeholderText, submitText, ...props }) => {
 	return (
 		<form
+			sx={{
+				display: 'flex',
+				px: 0,
+				py: 3,
+				margin: '0 auto',
+				justifyContent: 'center',
+				width: ['100%', null, '60%'],
+				minWidth: ['initial', null, '600px'],
+			}}
+			{...props}
 			method="POST"
 			name="newsletter"
 			data-netlify="true"
