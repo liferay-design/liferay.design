@@ -1,12 +1,6 @@
 @import '~theme/variables';
 
 form {
-	display: flex;
-	padding: $spacingBase 0;
-	margin: 0 auto;
-	justify-content: center;
-	width: 60%;
-	min-width: 600px;
 	input {
 		padding: $spacingBase $spacingMedium;
 		-webkit-appearance: none;
@@ -78,8 +72,6 @@ form {
 
 @media screen and (max-width: $screenMedium) {
 	form {
-		width: 100%;
-		min-width: initial;
 		input {
 			padding: $spacingBase $spacingSmall;
 		}
