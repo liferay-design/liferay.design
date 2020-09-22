@@ -6,7 +6,6 @@ import { RecentBlogPosts } from 'components/organisms'
 import { Container, Link } from 'components/atoms'
 import { useStaticQuery, graphql } from 'gatsby'
 import { avatarPath, firstWord, makeAuthorSlug } from 'utils'
-import { useEffect } from 'react'
 
 export default () => {
 	const H1 = Styled.h1
@@ -28,12 +27,10 @@ export default () => {
 	const Authors = data.allAuthorsYaml.edges
 
 	const random = Authors[Math.floor(Math.random() * Authors.length)]
-	// const random = () => Authors[Math.floor(Math.random() * Authors.length)]
-	// useEffect(() => {
-	// 	random()
-	// })
 
 	const randomAuthor = random.node
+
+	console.log(randomAuthor, 'why do we keep getting the same one??')
 
 	return (
 		<MainLayout>
@@ -88,6 +85,4 @@ export default () => {
 			/>
 		</MainLayout>
 	)
-
-	// return <div>{NotFoundPage}</div>
 }
