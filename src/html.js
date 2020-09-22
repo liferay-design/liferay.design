@@ -4,17 +4,13 @@ import { GoogleFont } from 'react-typography'
 import typography from 'utils/typography'
 
 export default class HTML extends React.Component {
-	
 	render() {
-		
-		const seoDescription = "Liferay Design | Articles, Events, and Resources for the Open Source Design Community"
+		const seoDescription =
+			'Liferay Design | Articles, Events, and Resources for the Open Source Design Community'
 		return (
-			<html
-			lang="en"
-			prefix="og: http://ogp.me/ns#"
-			{...this.props.htmlAttributes}
-			>
+			<html lang="en" prefix="og: http://ogp.me/ns#" {...this.props.htmlAttributes}>
 				<head>
+					<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 					<meta name="Description" content={seoDescription}></meta>
 					<meta charSet="utf-8" />
 					<meta httpEquiv="x-ua-compatible" content="ie=edge" />
