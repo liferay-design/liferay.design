@@ -6,8 +6,9 @@ import { RecentBlogPosts } from 'components/organisms'
 import { Container, Link } from 'components/atoms'
 import { useStaticQuery, graphql } from 'gatsby'
 import { avatarPath, firstWord, makeAuthorSlug } from 'utils'
+import { useEffect } from 'react'
 
-export default ({}) => {
+export default () => {
 	const H1 = Styled.h1
 
 	const data = useStaticQuery(graphql`
@@ -27,10 +28,14 @@ export default ({}) => {
 	const Authors = data.allAuthorsYaml.edges
 
 	const random = Authors[Math.floor(Math.random() * Authors.length)]
+	// const random = () => Authors[Math.floor(Math.random() * Authors.length)]
+	// useEffect(() => {
+	// 	random()
+	// })
 
 	const randomAuthor = random.node
 
-	const NotFoundPage = (
+	return (
 		<MainLayout>
 			<Container>
 				<Flex sx={{ flexDirection: 'column', alignItems: 'center' }}>
@@ -84,5 +89,5 @@ export default ({}) => {
 		</MainLayout>
 	)
 
-	return <div>{NotFoundPage}</div>
+	// return <div>{NotFoundPage}</div>
 }
