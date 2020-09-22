@@ -43,7 +43,7 @@ export default ({}) => {
 						}}
 					>
 						4
-						<Link to={'/team/' + makeAuthorSlug(randomAuthor.id)}>
+						<Link to={'/team/' + `${makeAuthorSlug(randomAuthor.id)}`}>
 							<Image
 								sx={{
 									mb: '-.16em',
@@ -53,7 +53,7 @@ export default ({}) => {
 									borderRadius: '.5em',
 								}}
 								alt="0"
-								src={avatarPath(randomAuthor.id)}
+								src={`${avatarPath(randomAuthor.id)}`}
 							/>
 						</Link>
 						4
@@ -61,11 +61,15 @@ export default ({}) => {
 					<Text sx={{ fontSize: 4, my: 2, color: 'white' }}>
 						Something went wrong!
 					</Text>
-					<Text sx={{ fontSize: 4, mb: 5, color: 'mainL3' }}>
+					<Text sx={{ fontSize: 4, mb: 4, color: 'mainL3' }}>
 						Let us know —{' '}
-						<Link sx={{color: 'mainL3', textDecoration:'underline'}} to="https://twitter.com/liferaydesign">
+						<Link
+							sx={{ color: 'mainL3', textDecoration: 'underline' }}
+							to="https://twitter.com/liferaydesign"
+						>
 							Tweet @liferaydesign
-						</Link>.
+						</Link>
+						.
 					</Text>
 				</Flex>
 			</Container>
@@ -75,7 +79,7 @@ export default ({}) => {
 					`${firstWord(randomAuthor.id)}`
 				}
 				sx={{ textAlign: 'center' }}
-				teammate={makeAuthorSlug(randomAuthor.id)}
+				teammate={`${makeAuthorSlug(randomAuthor.id)}`}
 			/>
 		</MainLayout>
 	)
