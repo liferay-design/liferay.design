@@ -10,7 +10,6 @@ export default class HTML extends React.Component {
 		return (
 			<html lang="en" prefix="og: http://ogp.me/ns#" {...this.props.htmlAttributes}>
 				<head>
-					<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 					<meta name="Description" content={seoDescription}></meta>
 					<meta charSet="utf-8" />
 					<meta httpEquiv="x-ua-compatible" content="ie=edge" />
