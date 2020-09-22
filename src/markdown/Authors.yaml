@@ -206,12 +206,6 @@
   office: Madrid
   links:
       twitter: 'victorvj06'
-- id: Vitor Fernandes
-  title: Manager, Product Design
-  active: true
-  icon: fa_rocket
-  startDate: 2018-03-12
-  office: Diamond Bar
 
 # Inactive Designers
 - id: Cassandra Balbas
@@ -286,6 +280,12 @@
   icon: fa_spa
   startDate: 2019-10-12T07:00:00Z
   office: Madrid
+- id: Vitor Fernandes
+  title: Manager, Product Design
+  active: false
+  icon: fa_rocket
+  startDate: 2018-03-12
+  office: Diamond Bar
 
   # Friends of Design :)
 - id: Angelo Youn
