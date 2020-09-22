@@ -48,6 +48,7 @@ collections:
     - name: articles
       label: Articles
       folder: src/markdown/articles/
+      path: '{{year}}/{{slug}}'
       create: true
       fields:
           - {
