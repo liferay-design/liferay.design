@@ -239,11 +239,6 @@
 	@include documentLabel;
 }
 
-:global(.designerInfo) {
-	color: $info;
-	font-size: 0.875rem;
-}
-
 :global(.do) {
 	@include doDont;
 	border-color: $success-l1;

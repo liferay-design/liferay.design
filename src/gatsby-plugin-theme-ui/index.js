@@ -35,6 +35,7 @@ export default {
 		primaryl1: '#80acff',
 		primaryl2: '#b3cdff',
 		primaryl3: '#f0f5ff',
+		info: '#2e5aac',
 	},
 	buttons: {
 		primary: {
@@ -206,6 +207,15 @@ export default {
 		},
 	},
 	grids: {
+		lexiconExamples: {
+			gridTemplateColumns: '48px 1fr',
+			gap: 2,
+			alignItems: 'center',
+			color: 'info',
+			fontSize: 1,
+			fontStyle: 'italic',
+			mb: 3,
+		},
 		twoCards: {
 			gridTemplateColumns: [
 				'repeat(auto-fill, minmax(18rem, 1fr))',
