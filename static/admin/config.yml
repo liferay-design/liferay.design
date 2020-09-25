@@ -13,38 +13,48 @@ publish_mode: editorial_workflow
 
 # Collections
 collections:
-    - name: Authors # Used in routes, e.g., /admin/collections/blog
-      label: Authors # Used in the UI
-      folder: src/markdown/ # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      extension: yaml
-      fields: # The fields for each document, usually in front matter
-          - { label: Name, name: id, widget: string }
-          - { label: Title, name: title, widget: string }
-          - { label: Active, name: active, widget: boolean }
-          - { label: Icon, name: icon, widget: string }
-          - { label: Start Date, name: date, widget: datetime }
-          - {
-                label: Office,
-                name: office,
-                widget: relation,
-                collection: Offices,
-                search_fields: [id],
-                value_field: id,
-            }
-          - { label: Body, name: body, widget: markdown }
-    - name: Offices
-      label: Offices
-      folder: src/markdown/
-      create: true
-      extension: yaml
-      fields:
-          - { label: Name, name: id, widget: string }
-          - { label: Flag Icon, name: regionIcon, widget: string }
-          - { label: City, name: city, widget: string }
-          - { label: Region, name: region, widget: string }
-          - { label: Country, name: country, widget: string }
-          - { label: Google Map URL, name: mapURL, widget: string }
+    - name: System
+      label: People / Places
+      files:
+          - label: Authors
+            name: Authors
+            create: true
+            extension: yaml
+            file: src/markdown/Authors.yaml
+            fields:
+                - label: Authors
+                  name: authors
+                  widget: list
+                  fields:
+                      - { label: Name, name: id, widget: string }
+                      - { label: Title, name: title, widget: string }
+                      - { label: Active, name: active, widget: boolean }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Start Date, name: date, widget: datetime }
+                      - {
+                            label: Office,
+                            name: office,
+                            widget: relation,
+                            collection: Offices,
+                            search_fields: [id],
+                            value_field: id,
+                        }
+          - label: Offices
+            name: Offices
+            file: src/markdown/Offices.yaml
+            create: true
+            extension: yaml
+            fields:
+                - label: Offices
+                  name: id
+                  widget: list
+                  fields:
+                      - { label: Name, name: id, widget: string }
+                      - { label: Flag Icon, name: regionIcon, widget: string }
+                      - { label: City, name: city, widget: string }
+                      - { label: Region, name: region, widget: string }
+                      - { label: Country, name: country, widget: string }
+                      - { label: Google Map URL, name: mapURL, widget: string }
     - name: articles
       label: Articles
       folder: src/markdown/articles/
