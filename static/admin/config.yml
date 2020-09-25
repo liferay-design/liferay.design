@@ -61,14 +61,7 @@ collections:
       path: '{{year}}/{{slug}}'
       create: true
       fields:
-          - {
-                label: Author,
-                name: layout,
-                widget: relation,
-                collection: Authors,
-                search_fields: [id],
-                value_field: id,
-            }
+          - { label: Author, name: author, widget: string }
           - { label: Publish Date, name: date, widget: datetime }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
