@@ -1,5 +1,5 @@
 ---
-title: 'Figma Files'
+title: 'Free Figma Resources'
 description: 'Open Sourced Figma Projects from Liferay.Design!'
 order: 10
 ---
@@ -9,45 +9,74 @@ import { CardLexicon } from 'components/molecules'
 
 <Grid
 	sx={{
-		gridTemplate:'"tlg tlc trc rg" auto "lg m m rg" auto "lg blc brc brg" auto / 1rem 5fr 5fr 1rem',
+		gridTemplate:['auto / 1fr', null, 'auto / 1fr 1fr'],
 		gridGap:"2rem",
 		mb:"8rem",
 	}}
 >
-	<Box sx={{gridArea:"m"}}>
+	<Box sx={{gridColumnStart:"1", gridColumnEnd:["2", null, "3"]}}>
 		<CardLexicon
 			image
-			imageUrl="/images/resources/lexicon-cover.png"
+			imageUrl="/images/resources/figma-component-library.png"
 			direction="horizontal"
 			wide
-			title="Lexicon"
-			text="Our open source experience design language system for crafting beautiful interfaces."
-			to="https://www.figma.com/file/fvvqKW4bIPIUfWqrtLAjD4/lexicon-dsl?node-id=254%3A3578"
-			cta="Open in Figma"
+			title="Customizable, Auto Layout Component Library"
+			text="A massive library of ready-to-use components. Customize, restyle, and organize them for your specific needs."
+			to="https://www.figma.com/community/file/882742539563822709/Auto-Layout-Component-Library-(Free)"
+			target="_blank"
+			cta="Get the File"
 		/>
 	</Box>
-	<Box sx={{gridArea:"blc"}}>
+	<Box >
 		<CardLexicon
 			delay="0.4s"
 			image
-			imageUrl="/images/resources/figma-utilities.png"
+			imageUrl="/images/resources/lexicon-icons.png"
 			direction="vertical"
-			title="Utilities"
-			text="Organize your Figma files with nice covers, create flows, affinity maps, wireframes, and more!"
-			to="https://www.figma.com/file/6GlUEYKNbmobxSgfW2fRQA/liferay.design-utilities?node-id=428%3A1962"
-			cta="Open in Figma"
+			title="Lexicon Icons"
+			text="Over 325 free icons for use in any personal or commercial project."
+			to="https://www.figma.com/community/file/869683830747037733/Lexicon-Icons"
+			target="_blank"
+			cta="Get the File"
 		/>
 	</Box>
-	<Box sx={{gridArea:"brc"}}>
+	<Box>
 		<CardLexicon
 			delay="0.8s"
 			image
-			imageUrl="/images/resources/stylized-components.png"
+			imageUrl="/images/resources/lexicon.png"
 			direction="vertical"
-			title="Stylized Components"
-			text="Atomic elements like buttons, forms, and more that will help you design a responsive website quickly."
-			to="https://www.figma.com/file/9aU1KheoJlBTHfX27El0BW/stylized-components?node-id=31%3A676"
-			cta="Open in Figma"
+			title="Lexcion Design System"
+			text="Our open-source system for designing enterprise software"
+			to="https://www.figma.com/community/file/804796050073033590/lexicon-dsl"
+			target="_blank"
+			cta="Get the File"
+		/>
+	</Box>
+	<Box>
+		<CardLexicon
+			delay="0.8s"
+			image
+			imageUrl="/images/resources/lexicon.png"
+			direction="vertical"
+			title="Lexcion Design System"
+			text="Our open-source system for designing enterprise software"
+			to="https://www.figma.com/community/file/804796050073033590/lexicon-dsl"
+			target="_blank"
+			cta="Get the File"
+		/>
+	</Box>
+	<Box>
+		<CardLexicon
+			delay="0.8s"
+			image
+			imageUrl="/images/resources/lexicon.png"
+			direction="vertical"
+			title="Lexcion Design System"
+			text="Our open-source system for designing enterprise software"
+			to="https://www.figma.com/community/file/804796050073033590/lexicon-dsl"
+			target="_blank"
+			cta="Get the File"
 		/>
 	</Box>
 </Grid>
