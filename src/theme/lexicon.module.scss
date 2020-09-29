@@ -31,11 +31,14 @@
 		@include small-caps;
 		color: $main-l4;
 		font-size: 13px;
-		margin-top: $spacingMedium * 4;
+		left: -4rem;
+		position: absolute;
+		top: 0;
 		transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
 		white-space: nowrap;
 		@media screen and (max-width: $screenMedium) {
-			margin-top: $spacingMedium;
+			left: 0;
+			position: relative;
 			text-align: center;
 			transform: initial;
 		}

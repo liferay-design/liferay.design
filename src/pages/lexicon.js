@@ -30,18 +30,16 @@ const Lexicon = () => (
 						variant: 'grids.landingPage',
 					}}
 				>
-					<Box sx={{ gridArea: 'tlg', marginTop: [0, null, '-8rem'] }}>
-						<Text
-							color="#c4cacb"
-							weight="700"
-							size="12px"
-							type="p"
-							className={lexicon.vertical}
-						>
-							Explore Lexicon
-						</Text>
-					</Box>
-					<Box sx={{ gridArea: 'tlc', marginTop: [0, null, '-8rem'] }}>
+					<Text
+						color="#c4cacb"
+						weight="700"
+						size="12px"
+						type="p"
+						className={lexicon.vertical}
+					>
+						Explore Lexicon
+					</Text>
+					<Box sx={{marginTop: [0, null, '-8rem'] }}>
 						<CardLexicon
 							icon="what"
 							title="Get Started"
@@ -50,7 +48,7 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'trc', marginTop: [0, null, '-8rem'] }}>
+					<Box sx={{marginTop: [0, null, '-8rem'] }}>
 						<CardLexicon
 							delay="0.1s"
 							icon="principles"
@@ -60,7 +58,7 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'm' }}>
+					<Box sx={{gridColumnStart: "1", gridColumnEnd:["2", null, "3"]}}>
 						<CardLexicon
 							delay="0.2s"
 							wide
@@ -74,7 +72,7 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'blc' }}>
+					<Box>
 						<CardLexicon
 							icon="news"
 							title="News & Updates"
@@ -83,7 +81,7 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'brc' }}>
+					<Box>
 						<CardLexicon
 							icon="folder"
 							title="Resources"
@@ -93,7 +91,6 @@ const Lexicon = () => (
 						/>
 					</Box>
 					<Box
-						sx={{ gridArea: 'brg', mt: '2rem' }}
 						className={documentation.socialContainer}
 					>
 						<Link

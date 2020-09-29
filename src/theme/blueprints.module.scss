@@ -12,7 +12,9 @@
 		@include small-caps;
 		color: $neutral7;
 		font-size: $fontSizeXSmall;
-		margin-top: $spacingMedium * 4;
+		left: -4rem;
+		position: absolute;
+		top: 0;
 		transform: rotate(-90deg) translateX(-$spacingMedium - $spacingSmall);
 		white-space: nowrap;
 	}

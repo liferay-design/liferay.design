@@ -30,18 +30,16 @@ const Blueprints = () => (
 						variant: 'grids.landingPage',
 					}}
 				>
-					<Box sx={{ gridArea: 'tlg', mt: [0, null, '-8rem'] }}>
-						<Text
-							color="#c4cacb"
-							weight="700"
-							size="12px"
-							type="p"
-							className={blueprints.vertical}
-						>
-							Explore Blueprints
-						</Text>
-					</Box>
-					<Box sx={{ gridArea: 'tlc', mt: [0, null, '-8rem'] }}>
+					<Text
+						color="#c4cacb"
+						weight="700"
+						size="12px"
+						type="p"
+						className={blueprints.vertical}
+					>
+						Explore Blueprints
+					</Text>
+					<Box sx={{mt: [0, null, '-8rem'] }}>
 						<CardLexicon
 							icon="whyBlueprints"
 							title="Why Blueprints"
@@ -51,7 +49,7 @@ const Blueprints = () => (
 							cta="Read More"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'trc', mt: [0, null, '-8rem'] }}>
+					<Box sx={{mt: [0, null, '-8rem'] }}>
 						<CardLexicon
 							delay="0.1s"
 							icon="logos"
@@ -62,7 +60,7 @@ const Blueprints = () => (
 							cta="Waffle Time"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'm' }}>
+					<Box sx={{ gridColumnStart:"1", gridColumnEnd:"3" }}>
 						<CardLexicon
 							delay="0.2s"
 							wide
@@ -77,7 +75,7 @@ const Blueprints = () => (
 							cta="Get 'Em"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'blc' }}>
+					<Box>
 						<CardLexicon
 							delay=".4s"
 							icon="faqs"
@@ -87,7 +85,7 @@ const Blueprints = () => (
 							cta="Why is the Liferay Blue?"
 						/>
 					</Box>
-					<Box sx={{ gridArea: 'brc' }}>
+					<Box>
 						<CardLexicon
 							icon="liferayDesign"
 							title="Liferay.Design"
@@ -98,7 +96,6 @@ const Blueprints = () => (
 						/>
 					</Box>
 					<Box
-						sx={{ gridArea: 'brg', mt: [0, null, '2rem'] }}
 						className={documentation.socialContainer}
 					>
 						<Link
