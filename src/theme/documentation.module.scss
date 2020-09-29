@@ -19,12 +19,27 @@
 		background-color: $white;
 		margin: 0 auto;
 	}
-	@media screen and (max-width: $screenMedium) {
+	.social-container {
+		position: absolute;
+		right: -4rem;
+		bottom: 8rem;
+	}
+	@media screen and (max-width: $screenLarge) {
 		.social-container {
+			bottom: 0;
 			display: flex;
 			flex-direction: row;
-			margin: $spacingMedium 0 $spacingLarge;
 			justify-content: center;
+			grid-column-start: 1;
+			grid-column-end: 3;
+			margin: $spacingMedium 0 $spacingLarge;
+			position: relative;
+			right: 0;
+		}
+	}
+	@media screen and (max-width: $screenMedium) {
+		.social-container {
+			grid-column-end: 2;
 		}
 	}
 	.social {

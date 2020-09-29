@@ -246,11 +246,12 @@ export default {
 		},
 		landingPage: {
 			gridTemplate: [
-				'"lg tlg rg" auto "lg tlc rg" auto "lg trc rg" auto "lg m rg" auto "lg blc rg" auto "lg brc rg" auto "lg brg rg" auto / 0 1fr 0',
+				' auto / 1fr',
 				null,
-				'"tlg tlc trc rg" auto "lg m m rg" auto "lg blc brc brg" auto / 1rem 5fr 5fr 1rem',
+				'auto / 1fr 1fr',
 			],
 			gap: '2rem',
+			padding: '0 3rem',
 		},
 		swatches: {
 			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
