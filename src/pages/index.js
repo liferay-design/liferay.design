@@ -20,7 +20,7 @@ export default () => {
 				}
 			}
 			figmaUtilities: file(
-				relativePath: { eq: "images/resources/figma-utilities.png" }
+				relativePath: { eq: "images/resources/figma-component-library.png" }
 			) {
 				childImageSharp {
 					fluid {
@@ -70,7 +70,7 @@ export default () => {
 								aspectRatio="16:9"
 								imageURL={data.figmaUtilities.childImageSharp.fluid.src}
 								icon="fa_figma"
-								title="Figma Files"
+								title="Free Figma Resources"
 								subtitle="Utilities and components to help you speed up your workflow"
 								link="/resources/figma"
 							/>
