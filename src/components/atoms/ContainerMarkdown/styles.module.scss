@@ -28,8 +28,8 @@
 			&:before {
 				content: '.' counter(li);
 				color: $neutral4;
-				width: 2ch;
-				margin-left: -3ch;
+				width: 3ch;
+				margin-left: -4ch;
 				text-align: right;
 				direction: rtl;
 				position: absolute;
