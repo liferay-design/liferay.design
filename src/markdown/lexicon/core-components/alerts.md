@@ -72,29 +72,38 @@ As a notification, it is a reminder that does not interrupt the user's operation
 
 ![four different toast alert colors](/images/lexicon/AlertToast.png)
 
-Several toast notifications can be shown at the same time. They appear temporarily at the bottom of the screen and stack vertically with 24px margin in between. If the alert is temporary, it will disappear in 5 seconds.
+#### Toast stacking behavior
+
+Several toast notifications can be shown at the same time. They appear temporarily at the bottom of the screen and stack vertically with 16px margin in between. If the alert is temporary, it will disappear in 5 seconds.
+<br/>
 
 ##### Showing
 
 The latest messages appear at the top of the notifications block.
 Every Toast appears from a 16px bottom to top transition and fade in 250ms ease in out following showing/hiding principles
+<br/>
 
 ##### Hiding
 
 After a 5000ms delay they disappear from 16px top to bottom fade out with an 200ms ease in transition. Toasts above transition to the bottom of the block 200ms ease in.
 
+<br/>
 
-![four different toast alert colors](/images/lexicon/AlertToastStacking.gif)
+![toast stacking interaction](/images/lexicon/AlertToastsStacking.gif)
+
+<br/>
+
+Toasts can have actions associated. Actions are always represented by buttons while navigation is represented by links:
+
+![toast alert examples for each type with a button](/images/lexicon/AlertToastWithButton.png)
+
+<br/>
 
 This type of alert must appear at the bottom left side of the screen. There must be a 24px separation from the left and from the bottom. 
 
 An example is shown below:
 
 ![toast alert example. Placed to the top right in the screen and below the header](/images/lexicon/AlertToastExample.png)
-
-Toasts can have actions associated. Actions are always represented by buttons while navigation is represented by links:
-
-![toast alert examples for each type with a button](/images/lexicon/AlertToastWithButton.png)
 
 #### Embedded
 
