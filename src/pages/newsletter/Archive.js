@@ -9,12 +9,7 @@ import { colors } from 'theme/'
 export default ({}) => {
 	const data = useStaticQuery(graphql`
 		{
-			allNewsletters(
-				filter: {
-					settings: { title: { regex: "/Newsletter/" } }
-					emails_sent: { gt: 20 }
-				}
-			) {
+			allNewsletters(filter: { settings: { title: { regex: "/Published/" } } }) {
 				edges {
 					node {
 						settings {
@@ -40,9 +35,7 @@ export default ({}) => {
 					day={moment(node.send_time).format('DD')}
 				/>
 				<Flex direction="column" margin="0 1rem" width="100%">
-					<Heading level={2}>
-						{node.settings.title} 
-					</Heading>{' '}
+					<Heading level={2}>{node.settings.title}</Heading>{' '}
 					<Text type="p">{node.settings.subject_line}</Text>
 				</Flex>
 			</Flex>
