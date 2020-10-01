@@ -13,7 +13,7 @@ A dual Listbox consists of two lists used to move options between them. Users ar
 #### Parts
 ![Dual ListBox](/images/lexicon/dualListBox.png)
 
-1. **In use Listbox**. This box displays selected or preselected options in use. It is always shown on the left side of the component. This list can allow manual ordering if necessary.
+1. **In Use Listbox**. This box displays selected or preselected options in use. It is always shown on the left side of the component. This list can allow manual ordering if necessary.
 
 2. **Available Listbox**. This box displays a fixed set of options available to the user and it does not show those options that are already in use. It is always shown on the right side of the component.
 
