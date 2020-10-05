@@ -79,17 +79,20 @@ Several toast notifications can be shown at the same time. They appear temporari
 
 ##### Showing
 
-The latest messages appear at the top of the notifications block.
-Every Toast appears from a 16px bottom to top transition and fade in 250ms ease in out following showing/hiding principles
-<br/>
-
-##### Hiding
-
-After a 5000ms delay they disappear from 16px top to bottom fade out with an 200ms ease in transition. Toasts above transition to the bottom of the block 200ms ease in.
-
+The latest messages appear at the bottom of the notifications block. 
+Every Toast appears from a 16px bottom to top  transition and fade in 250ms ease in out following showing/hiding principles.  
 <br/>
 
 ![toast stacking interaction](/images/lexicon/AlertToastsStacking.gif)
+##### Hiding / Closing
+
+After a 5000ms delay every notification disappears with an 200ms ease in fade out  transition.
+
+In case there is any item above the deleted notification, it transitions to fill the space of the deleted item 200ms ease in.
+
+<br/>
+
+![toast stacking interaction](/images/lexicon/AlertToastsStackingRemove.gif)
 
 <br/>
 
