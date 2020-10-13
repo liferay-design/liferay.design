@@ -102,6 +102,13 @@ export default {
 				},
 			},
 		},
+		nice: {
+			color: 'white',
+			position: 'fixed',
+			padding: '2em',
+			left: '2em',
+			bottom: '0',
+		},
 	},
 	fontSizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
 	sizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
@@ -245,11 +252,7 @@ export default {
 			gap: 0,
 		},
 		landingPage: {
-			gridTemplate: [
-				' auto / 1fr',
-				null,
-				'auto / 1fr 1fr',
-			],
+			gridTemplate: [' auto / 1fr', null, 'auto / 1fr 1fr'],
 			gap: '2rem',
 			padding: '0 3rem',
 		},
