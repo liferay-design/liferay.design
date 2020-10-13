@@ -103,7 +103,7 @@ export default {
 			},
 		},
 		nice: {
-			color: 'white',
+			color: 'mainL4',
 			position: 'fixed',
 			padding: '2em',
 			left: '2em',

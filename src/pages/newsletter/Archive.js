@@ -9,7 +9,13 @@ import { colors } from 'theme/'
 export default ({}) => {
 	const data = useStaticQuery(graphql`
 		{
-			allNewsletters(filter: { settings: { title: { regex: "/Newsletter/" } } }, sort: {order: DESC, fields: send_time}) {
+			allNewsletters(
+				filter: {
+					send_time: { ne: "" }
+					settings: { title: { regex: "/Newsletter/" } }
+				}
+				sort: { order: DESC, fields: send_time }
+			) {
 				edges {
 					node {
 						settings {
