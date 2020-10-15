@@ -1,6 +1,9 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Heading, Link, AnimateIn, Flex, Button, Icon } from 'components/atoms'
 import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import styles from './styles.module.scss'
 
 export class Card extends Component {
@@ -16,7 +19,11 @@ export class Card extends Component {
 		const { delay, place, date, ctaUrl, cta } = this.props
 
 		return (
-			<Flex direction="column" justify="flex-end" className={styles.wrapper}>
+			<Flex
+				direction="column"
+				justify="flex-end"
+				sx={{ height: '100%', padding: [3, null, 4], minWidth: '300px' }}
+			>
 				<AnimateIn delay={delay * 1.1 + 's'}>
 					<AnimateIn delay={delay * 1.05 + 's'}>
 						<Link to="/">
@@ -26,18 +33,26 @@ export class Card extends Component {
 								width="3rem"
 								fill="neutral7"
 								margin="0 0 2rem -.2rem"
-								className={styles.icon}
+								sx={{ display: ['inline', null, 'none'] }}
 							/>
 						</Link>
 					</AnimateIn>
 					<div className={styles.details}>
 						<AnimateIn delay={delay * 1.2 + 's'}>
-							<Heading sx={{color:"mainl2"}} className={styles.heading} level={2}>
+							<Heading
+								sx={{ color: 'mainl2' }}
+								className={styles.heading}
+								level={2}
+							>
 								{place}
 							</Heading>
 						</AnimateIn>
 						<AnimateIn delay={delay * 1.24 + 's'}>
-							<Heading sx={{color:"mainl5"}} className={styles.heading} level={2}>
+							<Heading
+								sx={{ color: 'mainl5' }}
+								className={styles.heading}
+								level={2}
+							>
 								{date}
 							</Heading>
 						</AnimateIn>
