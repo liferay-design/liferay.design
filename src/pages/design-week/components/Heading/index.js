@@ -13,7 +13,9 @@ export default class DWHeading extends React.Component {
 	}
 
 	render() {
-		const { delay, title } = this.props
+		const { delay } = this.props
+
+		const title = "Design Week"
 
 		const titleArray = [...title]
 
