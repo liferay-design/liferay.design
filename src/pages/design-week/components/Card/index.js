@@ -51,7 +51,7 @@ export class Card extends Component {
 					</AnimateIn>
 					<AnimateIn delay={delay * 1.24 + 's'}>
 						<Heading
-							sx={{ color: 'mainL2', variant: 'text.caps', fontSize: 3 }}
+							sx={{ color: 'mainL2', variant: 'text.caps', fontSize: 3, mb: 2, }}
 							level={2}
 						>
 							{date}

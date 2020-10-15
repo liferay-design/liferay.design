@@ -49,7 +49,7 @@ export default class DesignWeek extends React.Component {
 							width: '100%',
 						}}
 					>
-						<Hero color={randomColor} title="Design Week" delay={baseDelay} />
+						<Hero color={randomColor} delay={baseDelay} />
 						<Box
 							sx={{ gridArea: 'sidebar', bg: 'white' }}
 							className={styles.cta}
