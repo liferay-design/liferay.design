@@ -15,13 +15,13 @@ export default class DWHeading extends React.Component {
 	render() {
 		const { delay, title } = this.props
 
-		const titleArray = title.split('')
+		// const titleArray = title.split('')
 
 		const top = [
 			'0%', // D
 			'32%', // E
 			'8%', // S
-			'28%', // I
+			'24%', // I
 			'4%', // G
 			'34%', // N
 			'0%', // ""
@@ -34,8 +34,8 @@ export default class DWHeading extends React.Component {
 			'4%', // D
 			'20%', // E
 			'36%', // S
-			'48%', // I
-			'76%', // G
+			'52%', // I
+			'70%', // G
 			'84%', // N
 			'0%', // ""
 			'4%', // W
@@ -53,14 +53,14 @@ export default class DWHeading extends React.Component {
 					height: ['100%', null, '100vh'],
 				}}
 			>
-				{titleArray.map((item, index) => (
+				{title.split('').map((item, index) => (
 					<AnimateIn
 						sx={{
 							top: `${top[index]}`,
 							left: `${left[index]}`,
 							position: 'absolute',
 						}}
-						delay={index * 0.1 + +delay - .2 + 's'}
+						delay={index * 0.1 + +delay - 0.1 + 's'}
 					>
 						<span
 							sx={{
