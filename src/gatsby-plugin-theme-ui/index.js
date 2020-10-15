@@ -36,6 +36,18 @@ export default {
 		primaryl2: '#b3cdff',
 		primaryl3: '#f0f5ff',
 		info: '#2e5aac',
+		charts: {
+			blue: '#4B9BFF',
+			orange: '#FFB46E',
+			red: '#FF5F5F',
+			teal: '#50D2A0',
+			pink: '#FF73C3',
+			green: '#9BE169',
+			purple: '#AF78FF',
+			yellow: '#FFD76E',
+			cyan: '#5FC8FF',
+			indigo: '#7785FF',
+		},
 	},
 	buttons: {
 		primary: {
