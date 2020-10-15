@@ -19,34 +19,10 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 	transform-origin: right;
 }
 
-.bgImage {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	background-position: left center;
-	background-size: cover;
-	animation: keepAnimating 24s $loadingAnimationDuration linear forwards;
-	opacity: 0;
-	transform: translateX(-$spacingLarge);
-}
-
 @keyframes animateIn {
 	to {
 		opacity: 1;
 		transform: translateX(0);
-	}
-}
-@keyframes keepAnimating {
-	0% {
-		opacity: 0;
-		transform: scale(1) translateX(-$spacingLarge);
-	}
-	1% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 1;
-		transform: scale(1.2) translateX($spacingMedium);
 	}
 }
 
@@ -60,8 +36,5 @@ $bgTransitionTiming: $loadingAnimationDuration * 1.4;
 		position: absolute;
 		top: $spacingBase * 1.2;
 		left: $spacingBase * 1.2;
-	}
-	.grid {
-		grid-template: 'hero' 64% 'sidebar' auto / 1fr;
 	}
 }

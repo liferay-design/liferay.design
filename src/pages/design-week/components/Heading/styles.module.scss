@@ -5,23 +5,23 @@
 	--mouseY: 50%;
 }
 
-.wrapper {
-	height: 100%;
-	.f1 {
-		padding-left: 2ch;
-		text-transform: uppercase;
-		font-weight: $fontWeightBlack;
-		font-size: 12.5vw;
-		letter-spacing: 0.64ch;
-		background-repeat: no-repeat;
-		background-size: 120%;
-		background-position: var(--mouseX) var(--mouseY);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-	@media screen and (max-width: $screenMedium) {
-		.f1 {
-			padding-left: $spacingBase;
-		}
-	}
-}
+// .wrapper {
+// 	height: 100%;
+// 	.f1 {
+// 		padding-left: 2ch;
+// 		text-transform: uppercase;
+// 		font-weight: $fontWeightBlack;
+// 		font-size: 12.5vw;
+// 		letter-spacing: 0.64ch;
+// 		background-repeat: no-repeat;
+// 		background-size: 120%;
+// 		background-position: var(--mouseX) var(--mouseY);
+// 		-webkit-background-clip: text;
+// 		-webkit-text-fill-color: transparent;
+// 	}
+// 	@media screen and (max-width: $screenMedium) {
+// 		.f1 {
+// 			padding-left: $spacingBase;
+// 		}
+// 	}
+// }
