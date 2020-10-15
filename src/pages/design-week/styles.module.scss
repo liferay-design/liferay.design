@@ -2,7 +2,7 @@
 
 $loadingAnimationDuration: 1.6s; // so we don't have to keep track of this
 $cubicTransition: cubic-bezier(0, 0.85, 0.5, 1); // easier to reuse
-$bgTransitionTiming: $loadingAnimationDuration * 1.4;
+$bgTransitionTiming: $loadingAnimationDuration * .8;
 
 .page {
 	height: 100vh;

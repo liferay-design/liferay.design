@@ -26,7 +26,7 @@ export class Card extends Component {
 				justify="flex-end"
 				sx={{ height: '100%', p: [3, null, 4], pb:[3, null, 5],  minWidth: '300px' }}
 			>
-				<AnimateIn delay={delay * 1.1 + 's'}>
+				<AnimateIn delay={delay + 's'}>
 					<AnimateIn delay={delay * 1.05 + 's'}>
 						<Link to="/">
 							<Icon
