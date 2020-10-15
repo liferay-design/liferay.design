@@ -10,7 +10,7 @@ export default class DWHeading extends React.Component {
 			return Math.floor(Math.random() * Math.floor(max))
 		}
 
-		const randomImage = getRandomBgImage(6)
+		const randomImage = getRandomBgImage(7)
 
 		const bgImage = '/images/design-week/bg-' + randomImage + '.jpg'
 

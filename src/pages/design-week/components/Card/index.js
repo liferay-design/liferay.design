@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
-import { jsx, Button } from 'theme-ui'
-import { Heading, Link, AnimateIn, Flex, Icon } from 'components/atoms'
+import { jsx, Button, Flex, Text } from 'theme-ui'
+import { Heading, Link, AnimateIn, Icon } from 'components/atoms'
 import PropTypes from 'prop-types'
 import { Component } from 'react'
 
@@ -17,24 +17,51 @@ export class Card extends Component {
 	render() {
 		const { delay, place, date, ctaUrl, cta, color } = this.props
 
+		const flags = [
+			'flags_de_DE',
+			'flags_en_US',
+			'flags_es_ES',
+			'flags_it_IT',
+			'flags_pt_BR',
+		]
+
 		const smoothTransition =
 			'background 0.2s ease-in-out, opacity 0.2s ease-in-out, transform 0.2s ease-in-out'
 
 		return (
 			<Flex
-				direction="column"
-				justify="flex-end"
-				sx={{ height: '100%', p: [3, null, 4], pb:[3, null, 5],  minWidth: '300px' }}
+				sx={{
+					flexDirection: 'column',
+					justifyContent: 'space-between',
+					height: '100%',
+					p: [3, null, 4],
+					pb: [3, null, 5],
+					minWidth: '300px',
+				}}
 			>
+				<Flex
+					sx={{
+						alignContent: 'center',
+						width: '100%',
+						justifyContent: 'space-between',
+						mb: 3,
+					}}
+				>
+					{flags.map((item, index) => (
+						<AnimateIn delay={index * 0.1 + +delay - 0.1 + 's'}>
+							<Icon name={item} sx={{ height: '2rem', width: '2rem' }} />
+						</AnimateIn>
+					))}
+				</Flex>
 				<AnimateIn delay={delay + 's'}>
 					<AnimateIn delay={delay * 1.05 + 's'}>
 						<Link to="/">
 							<Icon
 								name="liferayDesicon"
 								sx={{
-									height: '2.5rem',
-									width: '2.5rem',
-									m: '0 0 2rem -.2rem',
+									height: '2.2rem',
+									width: '2.2rem',
+									m: '0 0 1rem -.2rem',
 									fill: 'mainL5',
 									display: ['none', null, 'inline'],
 								}}
@@ -43,18 +70,44 @@ export class Card extends Component {
 					</AnimateIn>
 					<AnimateIn delay={delay * 1.2 + 's'}>
 						<Heading
-							sx={{ color: 'mainL5', fontSize: 3 }}
+							sx={{
+								color: 'mainL2',
+								fontWeight: 'heading',
+								fontSize: 6,
+								ml: '-.1ch',
+								variant: 'text.caps',
+							}}
 							level={2}
 						>
-							{place}
+							{' '}
+							Design Week{' '}
+							<span sx={{ color: 'mainL5' }}>From&nbsp;Home</span>
 						</Heading>
 					</AnimateIn>
 					<AnimateIn delay={delay * 1.24 + 's'}>
 						<Heading
-							sx={{ color: 'mainL2', variant: 'text.caps', fontSize: 3, mb: 2, }}
+							sx={{
+								color: `${color}`,
+								filter: 'brightness(.95)',
+								variant: 'text.caps',
+								fontSize: 3,
+								mb: 2,
+							}}
 							level={2}
 						>
 							{date}
+						</Heading>
+					</AnimateIn>
+					<AnimateIn delay={delay * 1.2 + 's'}>
+						<Heading sx={{ color: 'mainL3', fontSize: 3 }} level={2}>
+							<Text sx={{ mb: 2 }}>We're going virtual!</Text>
+							<Text>
+								<ul>
+									<li>6+ Talks</li>
+									<li>2+ Workshops</li>
+									<li>Time to connect and play together!</li>
+								</ul>
+							</Text>
 						</Heading>
 					</AnimateIn>
 					<AnimateIn delay={delay * 1.3 + 's'}>
