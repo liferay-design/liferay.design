@@ -57,6 +57,7 @@ export default class DWHeading extends React.Component {
 			>
 				{titleArray.map((item, index) => (
 					<AnimateIn
+						key={index}
 						sx={{
 							top: `${top[index]}`,
 							left: `${left[index]}`,

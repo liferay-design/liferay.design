@@ -48,7 +48,7 @@ export class Card extends Component {
 					}}
 				>
 					{flags.map((item, index) => (
-						<AnimateIn delay={index * 0.1 + +delay - 0.1 + 's'}>
+						<AnimateIn key={index} delay={index * 0.1 + +delay - 0.1 + 's'}>
 							<Icon name={item} sx={{ height: '2rem', width: '2rem' }} />
 						</AnimateIn>
 					))}

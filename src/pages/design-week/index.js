@@ -3,7 +3,6 @@
 import { jsx, Grid, Box, Flex } from 'theme-ui'
 import React from 'react'
 
-import { AnimateIn, Icon, Link } from 'components/atoms'
 import { SEO } from 'components/molecules'
 
 import { Card, Hero, LoadingAnimation } from 'pages/design-week/components/_index'
