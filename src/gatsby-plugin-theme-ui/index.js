@@ -121,6 +121,20 @@ export default {
 			left: '2em',
 			bottom: '0',
 		},
+		tag: {
+			bg: 'main',
+			borderRadius: '0.4rem',
+			px: 2,
+			py: 1,
+			variant: 'text.caps',
+			color: 'mainL6',
+			fontWeight: 'heading',
+			fontSize: 1,
+			'&:hover': {
+				bg:'primary',
+				color: 'white',
+			}
+		},
 	},
 	fontSizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
 	sizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
@@ -155,16 +169,6 @@ export default {
 		caps: {
 			textTransform: 'uppercase',
 			letterSpacing: 'caps',
-		},
-		tag: {
-			bg: 'black',
-			borderRadius: '0.4rem',
-			p: 1,
-			variant: 'text.caps',
-			color: 'lightGrey',
-			fontWeight: 'heading',
-			fontSize: 1,
-			m: 2,
 		},
 		hotkey: {
 			lineHeight: '1.5',

@@ -22,7 +22,8 @@ export default ({ data }) => {
 					<div style={{ alignSelf: 'baseline', marginTop: '1.8rem' }}>
 						<Link
 							sx={{
-								variant: 'text.tag',
+								variant: 'links.tag',
+								mx: 2,
 							}}
 							to={`/tags/best-practices`}
 						>
@@ -30,7 +31,7 @@ export default ({ data }) => {
 						</Link>
 						<Link
 							sx={{
-								variant: 'text.tag',
+								variant: 'links.tag',
 							}}
 							to={`/tags/talks`}
 						>

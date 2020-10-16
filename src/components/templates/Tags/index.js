@@ -1,12 +1,12 @@
 /** @jsx jsx */
 
-import { jsx, Grid } from 'theme-ui'
+import { jsx, Grid, Flex } from 'theme-ui'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import { Container, Heading, Flex } from 'components/atoms'
+import { Container, Heading } from 'components/atoms'
 import { CardDefault } from 'components/molecules'
 import { MainLayout } from 'components/templates'
-import {avatarPath} from 'utils'
+import { avatarPath } from 'utils'
 
 const Tags = ({ pageContext, data }) => {
 	const { tag } = pageContext
@@ -17,13 +17,13 @@ const Tags = ({ pageContext, data }) => {
 	return (
 		<MainLayout section="Articles">
 			<Container>
-				<Flex direction="row" justify="space-between">
+				<Flex sx={{ justifyContent: 'space-between', alignItems: 'baseline' }}>
 					<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
 						{tagHeader}
 					</Heading>
 					<Link
 						sx={{
-							variant: 'text.tag',
+							variant: 'links.tag',
 						}}
 						to={`/articles`}
 					>
@@ -71,28 +71,28 @@ Tags.propTypes = {
 }
 export default Tags
 export const pageQuery = graphql`
-			query($tag: String) {
-				allMdx(
-					limit: 2000
-					sort: { fields: [frontmatter___date], order: DESC }
-					filter: { frontmatter: { tags: { in: [$tag] } } }
-				) {
-					totalCount
-					edges {
-						node {
-							timeToRead
-							fields {
-								slug
-							}
-							frontmatter {
-								title
-								featuredImage
-								author {
-									id
-								}
-							}
+	query($tag: String) {
+		allMdx(
+			limit: 2000
+			sort: { fields: [frontmatter___date], order: DESC }
+			filter: { frontmatter: { tags: { in: [$tag] } } }
+		) {
+			totalCount
+			edges {
+				node {
+					timeToRead
+					fields {
+						slug
+					}
+					frontmatter {
+						title
+						featuredImage
+						author {
+							id
 						}
 					}
 				}
 			}
-		`
+		}
+	}
+`

@@ -1,12 +1,14 @@
 /** @jsx jsx */
 
-import { jsx } from 'theme-ui'
+import { jsx, Flex } from 'theme-ui'
+import { Container, Link, AnimateIn } from 'components/atoms'
 import PropTypes from 'prop-types'
 // Utilities
 import kebabCase from 'lodash/kebabCase'
 // Components
 import { Helmet } from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { MainLayout } from 'components/templates'
+import { graphql } from 'gatsby'
 const TagsPage = ({
 	data: {
 		allMdx: { group },
@@ -15,33 +17,26 @@ const TagsPage = ({
 		},
 	},
 }) => (
-	<div>
+	<MainLayout>
 		<Helmet title={title} />
-		<div>
-			<h1>Tags</h1>
-			<ul>
-				{group.map(tag => (
-					<li sx={{mb:2}} key={tag.fieldValue}>
+		<Container heading="Tags">
+			<Flex sx={{ flexWrap: 'wrap', mb:'20vh', }}>
+				{group.map((tag, index) => (
+					<AnimateIn delay={index * 0.08 + 's'} sx={{ mr: 2, my: 2 }}>
 						<Link
+							key={tag.fieldValue}
 							sx={{
-								background: 'black',
-								borderRadius: theme => theme.space[1],
-								padding: 1,
-								textTransform: 'uppercase',
-								color: 'neutral6',
-								fontWeight: 'black',
-								letterSpacing: '1px',
-								fontSize: 2,
+								variant: 'links.tag',
 							}}
 							to={`/tags/${kebabCase(tag.fieldValue.toLowerCase())}`}
 						>
 							{tag.fieldValue} ({tag.totalCount})
 						</Link>
-					</li>
+					</AnimateIn>
 				))}
-			</ul>
-		</div>
-	</div>
+			</Flex>
+		</Container>
+	</MainLayout>
 )
 TagsPage.propTypes = {
 	data: PropTypes.shape({
