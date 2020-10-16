@@ -7,9 +7,12 @@ import styles from './styles.module.scss'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 export default function SearchInput({ id }) {
-	const hotkeys = '/'
+	const hotkeys = '/, shift + 7'
 
-	useHotkeys(hotkeys, () => document.getElementById(`${id}`).focus(), { keydown: false, keyup: true })
+	useHotkeys(hotkeys, () => document.getElementById(`${id}`).focus(), {
+		keydown: false,
+		keyup: true,
+	})
 
 	const hideKeys = () => {
 		document.getElementById('hotkeys').style.setProperty('opacity', '0')
@@ -45,7 +48,7 @@ export default function SearchInput({ id }) {
 				<Hotkey
 					id="hotkeys"
 					sx={{ mt: '.45rem', display: ['none', 'flex', null] }}
-					keys={[hotkeys]}
+					keys={[hotkeys[0]]}
 				/>
 				<Icon
 					name="icon_search"
