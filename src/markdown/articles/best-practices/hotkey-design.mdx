@@ -1,0 +1,84 @@
+---
+author: 'Paul Hanaoka'
+date: '2020-10-15T12:19:00.000Z'
+title: 'Hotkey Design'
+featuredImage: '/images/articles/dbp/hotkey-design.png'
+publish: true
+tags: ['Best Practices', 'Engineering', 'Usability']
+---
+
+## What are hotkeys?
+
+[Keyboard shortcuts](https://en.wikipedia.org/wiki/Keyboard_shortcut), often called 'hotkeys', are keys or combinations of keys that perform an action in a digital product like a website or native application.
+
+Depending on the platform, many keyboard shortcuts are available natively. For example, in OSX `⌘ + S` is the hotkey for "Save".
+
+## Why would I include hotkeys in my digital product?
+
+There are many reasons — but these are the three reasons why I personally invest the time to learn keyboard shortcuts, and why I think its worth it to take the time to provide them.
+
+1.  **Improve user speed and efficiency** — by empowering the user to keep both their hands on the keyboard for longer, less time will be spent using a mouse or trackpad.
+1.  **Boost user productivity** — if you've ever had to do data entry, or similar repetitive tasks, you can probably appreciate the producitivity boost provided by learning shortcuts.
+1.  **Increase user satisfaction** — there's a deep sense of fulfillment in mastering a product. Learning the hotkeys is one of the quickest ways to that.
+
+
+<Image
+	rounded
+	dropShadow
+	src="images/articles/dbp/keyboard.jpg"
+	align="right"
+	size="small"
+	margin="3rem 0 3rem 3rem"
+	caption="There are so many options."
+/>
+
+
+## 3 Things to Consider
+
+### 1. System defaults
+
+There are a number of universal hotkeys in any given operating system ([OSX](https://support.apple.com/en-us/HT201236), [Windows](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts), [Linux](https://linuxhint.com/100_keyboard_shortcuts_linux/)) and in 99% of cases it's best to avoid overriding them for two reasons:
+
+1. It can be frustrating for users who are expecting the system shortcut and instead getting your custom idea instead.
+1. It's expensive to override system defaults — you'll most likely have engineers doing a lot of extra work to cover multiple operating systems.
+
+Conversely — you can use system defaults if you're providing a similar experience. For example — I find myself always hitting `⌘ + F` in the Figma home screen hoping to activate the Search. To date, this does not work and my right hand has to make the grueling journey to the trackpad and click on the Search field, and then enter my query. 
+
+### 2. User Conventions
+
+Research common conventions for your audience — depending on your project this can be fairly vague (e.g. people in a certain age group), to specific (e.g. designers who are used to apps like Figma, Sketch, etc).
+
+For example, we recently implemented Algolia's DocSearch in our [design system documentation](/lexicon/get-started). My first thought was to use the hotkey pattern that I'm always reaching for in VS Code — `⌘ Shift F`. 
+
+After implementing, I heard from a couple people that it was kind of clunky — so I ran a poll and turns out — literally 80% of the team preferred an alternative, the `/` pattern popularized by Google in pretty much all their apps now — Gmail, YouTube, Drive, etc.
+
+<Image
+	rounded
+	dropShadow
+	src="images/articles/dbp/lexicon-search.jpg"
+	align="center"
+	size="large"
+	margin="3rem -3rem 3rem"
+	caption="/	>	⌘ ⬆ F"
+/>
+
+### 3. Platform Compatibility
+
+Once you've decided what combination of keys to use — you have to consider how you'll account for them across operating systems. 
+
+Almost everyone knows the classic "undo" hotkey — `⌘ + Z` (or `ctrl + Z` for Windows/Linux users). While the `⌘` key and `ctrl` key are often interchangeable between Mac/Windows, they aren't always. Apple keyboards also have a `control` (`＾`) key. 
+
+For example, if you want your hotkey to use the `⌘` key in OSX and you don't specify one for Windows, the default corresponding key will be the Windows key — which is often not the most ergonomic choice so you'll most likely want to set it to the `ctrl` key.
+
+
+
+### Bonus: Browser defaults
+
+If the product you're working in isn't a native app, you have to be aware [of browser defaults](https://blog.codinghorror.com/standard-browser-keyboard-shortcuts/) as well — again, [it's possible to override them](https://stackoverflow.com/questions/3680919/overriding-browsers-keyboard-shortcuts) (as long as it makes sense) just note that there are costs to be weighed.
+
+## Additional Resources
+
+-   [Shortcuts.Design | Every shortcut for designers in one place](https://shortcuts.design/)
+-   [Mouseless App | Unleash your keyboard’s superpower](https://mouseless.app/)
+-   [Karabiner Elements | keyboard customizer for macOS](https://karabiner-elements.pqrs.org/)
+-   [UX Improvements For Keyboard Accessibility | Smashing Magazine Webinar](https://vimeo.com/346088111)
