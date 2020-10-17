@@ -21,8 +21,8 @@ export const Footer = ({ light, background, markdown }) => {
 					{' '}
 					{markdown ? (
 						<Text width="50%">
-							How can this be improved?{' '}
-							<a href="/handbook/about/contribute">Contribute today</a>!
+							Somthing to improve?{' '}
+							<a href="/handbook/about/contribute">Report an issue</a>!
 						</Text>
 					) : (
 						<Heading level={3}>Liferay.Design</Heading>
