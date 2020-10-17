@@ -17,6 +17,7 @@ footer.light {
 	}
 	a {
 		color: $darkestGrey;
+		text-decoration: underline;
 	}
 }
 
@@ -28,6 +29,7 @@ footer.dark {
 	}
 	a {
 		color: $grey;
+		text-decoration: underline
 	}
 }
 
