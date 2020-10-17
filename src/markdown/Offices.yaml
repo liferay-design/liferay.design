@@ -40,3 +40,10 @@
   country: Hungary
   mapURL: https://goo.gl/maps/7myccADWQnNkyqny7
   # photo: /images/offices/budapest.jpg
+- id: Remote
+  regionIcon: /images/offices/desicon.png
+  city: Remote
+  region: localhost
+  country: 127.0.0.1
+  mapURL: https://goo.gl/maps/
+  # photo: /images/offices/budapest.jpg
