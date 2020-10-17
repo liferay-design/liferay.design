@@ -1,6 +1,7 @@
 ---
 title: 'Color Picker'
 description: 'Color picker lets users select a color from a predefined palette, specify a color via its hexadecimal value, sample a color, and explore color values to create a custom color variation.'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6053%3A46820'
 order: 257
 draft: false
 devStatus: 'PENDING'

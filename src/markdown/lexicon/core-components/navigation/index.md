@@ -1,6 +1,7 @@
 ---
 title: 'Navigation'
 description: 'Navigation is the means of transport that users take to go where they want.'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A22686'
 order: 310
 draft: false
 ---

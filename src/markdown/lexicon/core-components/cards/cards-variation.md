@@ -2,6 +2,7 @@
 title: 'Cards Variations'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/card.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6026%3A914'
 description: 'Card variations are designed to represent different types of information.'
 order: 211
 draft: false
