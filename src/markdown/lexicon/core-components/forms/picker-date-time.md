@@ -1,6 +1,7 @@
 ---
 title: 'Date & Time Pickers'
 description: 'Date and Time pickers let users select a date and time for a form.'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A9328'
 order: 258
 draft: false
 devStatus: 'PENDING'

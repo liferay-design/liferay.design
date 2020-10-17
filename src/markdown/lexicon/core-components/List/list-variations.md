@@ -2,6 +2,7 @@
 title: 'List Variations'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/list.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A20490'
 description: 'Different list cell types are used in our products'
 order: 285
 draft: false

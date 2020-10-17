@@ -2,6 +2,7 @@
 title: 'Dual Listbox'
 titleLabel: ''
 titleLabelLink: ''
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A9595'
 description: 'A dual Listbox allows users to compare and move available and selected options between two lists.'
 order: 244
 draft: false

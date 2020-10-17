@@ -1,5 +1,6 @@
 ---
 title: 'Empty States'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=261%3A30'
 description: 'Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.'
 order: 245
 draft: false

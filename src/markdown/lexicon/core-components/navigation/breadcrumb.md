@@ -2,6 +2,7 @@
 title: 'Breadcrumb'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/breadcrumb.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A22686'
 description: 'Breadcrumb is a secondary navigation pattern that identifies the page position inside a hierarchy.'
 order: 311
 draft: false

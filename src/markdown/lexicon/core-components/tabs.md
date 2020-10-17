@@ -2,6 +2,7 @@
 title: 'Tabs'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/tabs.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A24030'
 description: 'Tabs organize similar content together into individual sections in the same page.'
 order: 350
 draft: false

@@ -2,6 +2,7 @@
 title: 'Progress Bar'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/progress-bar.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A3026'
 description: 'Progress bar indicates the percentage completed of a task.'
 order: 323
 draft: false

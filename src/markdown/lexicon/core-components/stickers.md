@@ -2,6 +2,7 @@
 title: 'Stickers'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/sticker.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A23934'
 description: 'Stickers are a visual way to quickly identify content in a different way than badges and labels.'
 order: 326
 draft: false
