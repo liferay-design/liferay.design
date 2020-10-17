@@ -21,7 +21,7 @@ export const Footer = ({ light, background, markdown }) => {
 					{' '}
 					{markdown ? (
 						<Text width="50%">
-							Somthing to improve?{' '}
+							Something to improve?{' '}
 							<a href="/handbook/about/contribute">Report an issue</a>!
 						</Text>
 					) : (
