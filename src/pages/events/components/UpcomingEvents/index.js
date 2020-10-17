@@ -14,7 +14,7 @@ export default () => {
 					fileAbsolutePath: { regex: "/(events)/" }
 					frontmatter: { draft: { eq: false } }
 				}
-				sort: { order: DESC, fields: [frontmatter___date] }
+				sort: { order: ASC, fields: [frontmatter___date] }
 			) {
 				totalCount
 				edges {
@@ -58,7 +58,7 @@ export default () => {
 		<div>
 			{Events.length > 0 ? (
 				<Container>
-					<Heading level={1} sx={{ padding: '4rem', color: 'white' }}>
+					<Heading level={1} sx={{ padding: '4rem 0', color: 'white' }}>
 						Upcoming Events
 					</Heading>
 					<Grid sx={{ variant: 'grids.threeCards' }}>{Events}</Grid>
