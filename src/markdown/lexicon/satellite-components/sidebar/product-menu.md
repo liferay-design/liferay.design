@@ -6,4 +6,19 @@ draft: false
 productName: 'LIFERAY DXP'
 ---
 
-![product menu](/images/lexicon/ProductMenu.jpg)
+Liferay DXP introduced in 7.3 version the possibility of switching to a slightily different menu approach. This new experience leaves only the site administration in the Product Menu. Therefore, we differ between 2 variants:
+
+* Product Menu with Global Menu active
+* Product Menu without Global Menu active
+
+### Product Menu with Global Menu active
+
+![product menu](/images/lexicon/ProductMenuWithGM.jpg)
+
+
+### Product Menu without Global Menu active
+
+This option is more conservative and offers the same experience we use to have in all 7.x Liferay DXP versions.
+
+![product menu](/images/lexicon/ProductMenuWithoutGM.jpg)
+
