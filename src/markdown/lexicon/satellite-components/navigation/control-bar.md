@@ -10,43 +10,43 @@ productName: 'LIFERAY DXP'
 
 ### Usage
 
-Header is always fixed to the top of the window.
+Control bar is always fixed to the top of the window.
 
-The Header is used on almost every page in the system. The most common configuration is shown below:
+This header is used on almost every page in the system. It has 2 differnet modes that are displayed depending on the product area the user is:
 
--   Left area: Used for actions such as triggering the side menu and back navigation
--   Center area: Used for the page or application title and help
+- Light mode: active for back-office applications
+- Dark mode: active for the site
+
+![Control Bar modes, on top the dark mode and at the bottom the light mode](/images/lexicon/GlobalMenuHeaders.jpg)
+
+
+### Modes & Parts
+
+Both modes are pretty similar and therefore they work similiarly but with a slight change in the position of the global menu access depending on the scope the user is.
+
+#### Dark mode
+
+![Control Bar dark mode variations, in order: default, site and page editor](/images/lexicon/ControlBarDarkVariations.jpg)
+
+-   Left area: 
+    -   Product Menu
+    -   Back navigation
+    -   Application title
+-   Right area:
+    -   Actions: They are identified with an icon when existing, and listed inside an actions menu when an icon is not clear. These actions are application level actions.
+    -   Global Menu
+    -   User Sticker: It allows displaying different navigation options and actions to which the user has access.
+
+#### Light mode
+
+![Control Bar light mode](/images/lexicon/ControlBarLightVariations.jpg)
+
+-   Left area: 
+    -   Global Menu
+    -   Back navigation
+    -   Application title
 -   Right area:
     -   Actions: They are identified with an icon when existing, and listed inside an actions menu when an icon is not clear. These actions are application level actions.
     -   User Sticker: It allows displaying different navigation options and actions to which the user has access.
 
-### Parts
 
-![Control Bar Parts](/images/lexicon/header-part.png)
-
-1. Product menu button
-2. Back button
-3. Page or Application title
-4. Configuration
-5. Add menu button
-6. Simulation button
-
-### Examples
-
-#### Application header
-
-The application title always appears in the header (Web Content in this example). The title remains in the header until the user navigates to a detail page or the user has finished configuring the asset. Related actions for the application may appear on the right side. At the end of the right side, it appears the user sticker.
-
-![Control Bar Parts](/images/lexicon/header-application.png)
-
-#### Asset or element detail page header
-
-The asset or element title appears in the header. A back button is provided to navigate to the asset/element location in the application. Related actions for the asset/element may appear on the right side. At the end of the right side, it appears the user sticker.
-
-![Control Bar Parts](/images/lexicon/header-detail-page.png)
-
-#### Main page header on site
-
-The page name is identified in the header. The related actions are listed with three icons on the right side: configuration, add menu, and simulation.
-
-![Control Bar Parts](/images/lexicon/header-application-on-site.png)
