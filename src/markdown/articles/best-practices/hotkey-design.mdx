@@ -100,6 +100,8 @@ For example, if you want your hotkey to use the `⌘` key in OSX and you don't s
 	))}
 </Flex>
 
+#### Keyboard Layouts
+
 It's important to remember that keyboard layouts vary from country to country. And key codes don't always line up. In my earlier example `/` in American/English keyboards the key is directly left of the shift key — but in Spanish keyboards, the `/` is typed by combining the `shift` and `7` keys. 
 
 <Image
@@ -115,6 +117,12 @@ It's important to remember that keyboard layouts vary from country to country. A
 This presents a couple issues — ergonomically, it could be more difficult (or at least unexpected) for someone using a Spanish keyboard to use `shift + 7` than it would be for an American audience. In this specific case — I went to [GitHub Docs](https://docs.github.com/es) to see how they handled it. They maintained the `/` across languages, so either they didn't consider it or they tested it and it's fine for their audience — which is good enough for me.
 
 Technically, it's an additional expense. You'll need to localize the hotkey either way — by setting the alternative (in my case, I set `shift + 7` as another trigger), OR creating a custom hotkey per locale (I briefly entertained the idea of using `-` for Spanish but that introduced another layer of technical complexity that I wasn't willing to embrace for this example).
+
+#### Languages
+
+In addition to keyboard layouts, if your shortcut is based on the first letter of a word, an alternative could be considered. For example `⌘ + F` opens up the "Find" dialog in most apps, however in the Spanish edition of Word, the hotkey is `⌘ + B` (buscar).
+
+This level of localization isn't common, however it's still something to think about if your basing your hotkey choice in a word (semantic) vs. a key position (ergonomic).
 
 ## Summary
 
