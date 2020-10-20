@@ -1,0 +1,143 @@
+---
+author: 'Victor Valle'
+date: '2020-10-21T17:12:33.962Z'
+title: 'Interview with a Product Team: Segmentation & Personalization'
+featuredImage: '/images/articles/interview-with-a-designer-b2-b-commerce.png'
+publish: true
+---
+
+import { Flex, Image, Heading, Text, Link } from 'components/atoms'
+import { Grid, Box } from 'theme-ui'
+
+## Meet the Team
+
+<Grid
+    sx={{
+        gridTemplateColumns: '3rem 1fr 3rem 1fr',
+        autoRows: 'auto',
+        gridGap: '1rem',
+    }}
+>
+    <Box>
+        <Image src="images/headshots/molano-julia.jpg" circle margin=".5rem 0" />
+    </Box>
+    <Box>
+        <Heading level={3}>Julia Molano</Heading>
+        <Text>
+            The Product Manager for our Segmentation &amp; Personalization team, Julia joined Liferay at the beginning of 2020. She gained celebrity status after starring in our <Link to='https://www.youtube.com/watch?v=IxNczRyywXY'>Madrid office’s cover of Viva la Vida</Link> at the beginning of quarantine.
+        </Text>
+    </Box>
+    <Box>
+        <Image src="images/headshots/vazquez-susana.jpg" circle margin=".5rem 0" />
+    </Box>
+    <Box>
+        <Link to="/team/vazquez-susana">
+            <Heading level={3}>Susana Vazquez</Heading>
+        </Link>
+        <Text>
+            Remote before it was cool — Susana became our first fully-remote product designer a full year before the rest of us. She’s contributed to many areas of our core product, and for the past years has been working on segmentation and personalization inside of Liferay DXP.
+        </Text>
+    </Box>
+</Grid>
+
+## Recently, your team had the opportunity to interface directly with a customer about some issues they were having, can you give us more context?
+
+Julia: The customer, the web services department of a university in Barcelona, wanted to use experiences for a small project they were starting. While reading the documentation to figure out how to do what they wanted to do, they had some questions that they addressed to CS (Customer Support).
+
+### Why was the customer’s ticket escalated to your attention?
+
+J: José Jiménez, from CS, answered the questions (unfortunately “it can’t be done right now”) and opened two feature requests to see if we were thinking about that kind of solution. Both of them were totally aligned with the roadmap.
+
+### At what point did you decide to do customer interviews?
+
+J: José told us that this customer was very easy going and they were using experiences a lot, so in the case that we wanted to have some feedback they would be keen to help. And you can’t say no to a customer who wants to help!
+
+### What was your approach?
+
+Susana: The team worked to further define the features proposed, so we could ask them for feedback. But the most important thing was getting closer to understanding their needs, rather than validating the solution.
+
+## How is customer feedback different from user testing?
+
+Susana: When we do user testing we are validating hypotheses. We have some goals we need to clarify and we create tasks to see if the users are able to perform those tasks easily. So, we imagine the problems and see if the users can solve them. And if they don’t we search for a solution. Besides, for now, we are testing just with internal users, so we don’t have the real customers’ voices. 
+
+With the Customer Feedback we face a real use case. More insights and more situations may arise. It’s very enriching to hear how real clients are using the product and what challenges they face. So they are already facing those problems, and once detected we can think about possible solutions. 
+
+Julia: Yes, with customer feedback you listen to customer needs (caused by their challenges in business), while testing gives you an overview of the problems they find while working with your UI. They say little about problems to solve.
+
+## Why did you include both a designer and a product manager in your approach?
+
+J: Susana and I usually work together in the ideation and definition stages of every epic. This time we were working on a couple of new features proposed by this customer, so it made total sense that we interviewed the customer together. If not so, there is a lot of information to be transferred from one to another afterwards, and a lot of details would have been lost.
+
+S: That’s right! It’s important to work from the beginning together. Our end goal is to create a good product that helps users to do what they need. Each of us takes care of one part. I completely trust Julia on the product's alignment with the market and the roadmap and she trusts me to be the voice of the user and create easy to use features. 
+
+Moreover, we make decisions all the time, so it’s healthy to hear diverse opinions that improve what we build. I think that by working together we build better products and it’s so much more fun.
+
+## What is different about getting customer feedback for on-prem vs SaaS?
+
+J: I would say that the main thing about working on an on-premise product is the delay. You are always working on the future, and you are struck by the fact that customers often deal with issues you left behind. That's a disadvantage of on-prem products, the feedback usually takes a long time to arrive.
+
+S: Yes, absolutely agree, there's also a hard layer to overcome when talking about customer feedback for on-prem products. It’s difficult to get their consent, build the relationship, and share information.
+
+## It’s not uncommon to hear “there’s not enough time to talk to customers” — how would you respond?
+
+Julia: It is not a matter of time, it is a matter of process. It is true that you need to distribute your time differently and the initial stages of ideation will be a bit longer, but that time is saved in the development stage. Which usually involves more money and wasted developer effort and frustration if we don't know if what we are building will be used and useful. 
+
+Susana: In fact, talking to customers saves time. Would you build a house without talking to the owners asking them about the programme, their habits and needs and would you wait until the house is built and in use to demolish it and start over?
+
+## How did you prepare and execute?
+
+S: We prepared a script for an informal interview having clear what we wanted to know. But at the end we didn’t use the script because the customers started sharing with us their context and their use case in an informal chat. So there was no reason to change the format and we let the conversation flow. Of course, we asked questions when needed to clarify or deepen in the matter.
+
+## Was there anything you intentionally avoided?
+
+J: As we understood that we had missed their use case until that moment, we tried to avoid talking about the solution we had thought about - but it was too late, they asked about it anyway.
+
+## Can you share specific examples or insights you received that you wouldn’t otherwise have?
+
+S: We were totally surprised that customers were using experiences in a completely different way that we were thinking. We could then understand the problem they were facing.
+
+J: Yes, and listening to them we could better understand the context of their projects: the high staff turnover, the fragmentation of projects and stakeholders, the difficulty of establishing publication processes, for example.
+
+## Is there anything you would change about your approach?
+
+S&J: Next time we will record the session. There are always more insights to extract from the interview and have the chance to review it is very valuable. 
+
+<!-- **_Notes_**
+
+-   ‘For me its so natural to work w/susana on the ideation process
+-   ‘For me it was so natural to invite her to these meetings
+-   There was also an engineer → David Arques
+-   They were using experiences for a totally different thing than what they had originally thought that we developed
+    -   Not possible to create a segment by hour
+-   Upgrades
+-   Audience Targeting used to have campaigns - personalizations on a period of time
+    -   Angelo said this should be moved to publications
+    -   They were trying to work w/experiences the same as they were working in Experiences
+-   They were proposing a solution for this
+    -   When S&J read this, they discovered another possible solution
+        -   The idea they came up w/(scheduling experiences)
+            -   → found out that this existed (but we removed it from AT)
+            -   → it is / planned to be Publications
+    -   Building a segment w/criteria that wasn’t there
+    -   Moving default experience
+-   The value is not as measurable → more theoretical
+    -   Doing things that are going to be used from a customer side vs doing fancy things that won’t be used
+-   The value is that it helps you iterate and change things
+    -   Customers help point you in the right direction
+-   We don’t have any user analytics
+    -   The only way to understand if the features are being used, and how
+    -   “We are working in the darkness” - J
+    -   “We are throwing a stone in the river and see if it arrives anywhere” - J
+-   “You ask first, then you build something” - S
+    -   “You’ll have to change somethings, hopefully not when the building is finished, but in the plans”
+        -   “It’s a lot of time, money, and frustration for the developers to build something that won’t be used
+-   “Main takeaway was surprising, but real - J
+    -   We went to talk to them 1.5 years after finishing it
+    -   Then we discovered they were using it in a way they couldn’t imagine
+    -   Talking w/customers is not easy, not something you do on your sundays because its fun
+        -   We went there with an idea
+        -   In the end, they have to tell customer that they won’t do this because its somewhere else (publications)
+-   This isn’t something we do normally, CSR was the one that said they’re really easy-going
+    -   Normally its not so easy, customers are from accounting, presales → not so easy for us to get to customers
+    -   Typically its when there are problems, in a reactive way → this was an opportunity to do proactive work
+-->
