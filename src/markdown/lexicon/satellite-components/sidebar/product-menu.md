@@ -1,6 +1,7 @@
 ---
 title: 'Product Menu'
 description: 'A navigation menu that enters from the left side of the screen and provides navigation to different parts of the product.'
+figmaLink: 'https://www.figma.com/file/BfbEmn7rBfUMjfREyRExVxb8/portal-components?node-id=117%3A6483'
 order: 523
 draft: false
 productName: 'LIFERAY DXP'

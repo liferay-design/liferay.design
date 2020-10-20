@@ -1,6 +1,7 @@
 ---
 title: 'Global Menu'
 description: 'The Global Menu provides access to Control Panel and back office applications.'
+figmaLink: 'https://www.figma.com/file/BfbEmn7rBfUMjfREyRExVxb8/portal-components?node-id=117%3A6483'
 order: 513
 draft: false
 productName: 'LIFERAY DXP'
