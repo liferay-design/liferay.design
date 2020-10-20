@@ -2,6 +2,7 @@
 title: 'Control bar'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/css-application-bar'
+figmaLink: 'https://www.figma.com/file/BfbEmn7rBfUMjfREyRExVxb8/portal-components?node-id=119%3A0'
 description: 'Control bar is a toolbar that provides identification and lets the user navigate and perform actions.'
 order: 512
 draft: false
