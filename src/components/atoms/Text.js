@@ -2,7 +2,6 @@
 
 import { jsx } from 'theme-ui'
 import PropTypes from 'prop-types'
-import React from 'react'
 import { colors, fontSizes, fontWeights } from 'theme'
 
 const Text = ({

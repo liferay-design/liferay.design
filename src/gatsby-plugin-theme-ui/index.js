@@ -131,9 +131,9 @@ export default {
 			fontWeight: 'heading',
 			fontSize: 1,
 			'&:hover': {
-				bg:'primary',
+				bg: 'primary',
 				color: 'white',
-			}
+			},
 		},
 	},
 	fontSizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
@@ -217,6 +217,14 @@ export default {
 				width: 40,
 				// border: 'solid 1px #E7e7ed',
 			},
+		},
+		interviewee: {
+			position: 'absolute',
+			ml: '-4rem',
+			mt: '-.5rem',
+			height: '3rem',
+			width: '3rem !important',
+			borderRadius: '50%',
 		},
 		grey: {
 			filter: 'grayscale(1)',
