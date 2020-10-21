@@ -10,14 +10,8 @@ import { Heading, Text, Link } from 'components/atoms'
 import { Grid, Box, Image as ThemeImage, Text as ThemeText } from 'theme-ui'
 import { withPrefix } from 'gatsby'
 
-export const Quote = ({children}) => (
-    <ThemeText sx={{fontFamily: 'monospace',
-		fontSize: 7,
-		color: 'primary',
-		ml: [0, null, '-10vw'],
-		my: [2, null, 5],
-		width: ['100%', null, '70vw'],
-    }}>{children}</ThemeText>
+export const Quote = ({ children, ...props }) => (
+	<ThemeText {...props}>{children}</ThemeText>
 )
 
 export const Interviewee = ({ headshot }) => (
@@ -145,8 +139,40 @@ It is not a matter of time, it is a matter of process. It is true that you need 
 
 In fact, talking to customers saves time. Would you build a house without talking to the owners to learn their habits and needs? Or would you wait until the house is built and in use to demolish it and start over?
 
-<Quote>
-	Would you build a house without talking to the owners to learn their habits and needs?
+<Box
+	sx={{
+		width: '100vw',
+		marginLeft: '-50vw',
+		position: 'relative',
+		left: '50%',
+		right: '50%',
+        p:3,
+		marginRight: '-50vw',
+	}}
+>
+	<Quote
+		sx={{
+			fontFamily: 'monospace',
+			fontSize: [5,null,7],
+			width: ['100%', null, '18ch'],
+			color: 'charts.orange',
+			left: 0,
+		}}
+	>
+		It is not a matter of time, it is a matter of process.
+	</Quote>
+</Box>
+<Quote
+    sx={{
+        ml: 'auto',
+        width: ['100%', null, '70vw'],
+        fontFamily: 'monospace',
+        fontSize: [5,null,7],
+        color: 'primary',
+    }}
+>
+    Would you build a house without talking to the owners to learn their habits and
+    needs?
 </Quote>
 
 ## How did you prepare and execute?
