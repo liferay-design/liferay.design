@@ -2,6 +2,7 @@
 title: 'Donut Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
+figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A649'
 description: 'A Donut Chart is a variation of the Pie chart that lets you divide data by numerical proportions of a total value.'
 order: 225
 draft: false

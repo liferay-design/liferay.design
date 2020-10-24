@@ -2,6 +2,7 @@
 title: 'Predictive Forecast Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
+figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A650'
 description: 'The Predictive forecasting chart uses customer data to predict future data with a declared margin of error.'
 order: 226
 draft: false
