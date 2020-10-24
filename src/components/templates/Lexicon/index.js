@@ -133,6 +133,16 @@ console.log(mdx.id, 'id')
 											</Link>
 										) : null}
 
+
+										{mdx.frontmatter.docLink ? (
+											<Link
+												className={lexicon.labelInfo}
+												to={mdx.frontmatter.docLink}
+											>
+												Documentation
+											</Link>
+										) : null}
+
 										{mdx.frontmatter.productName ? (
 											<Link className={lexicon.labelNeutral}>
 												{mdx.frontmatter.productName}
@@ -208,6 +218,7 @@ export const pageQuery = graphql`
 						description
 						titleLabelLink
 						figmaLink
+						docLink
 						devStatus
 						productName
 					}
@@ -225,6 +236,7 @@ export const pageQuery = graphql`
 				description
 				titleLabelLink
 				figmaLink
+				docLink
 				devStatus
 				productName
 			}
