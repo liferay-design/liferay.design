@@ -2,6 +2,7 @@
 title: 'Pie Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
+figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A648'
 description: 'A Pie chart divides data by numerical proportions of a total value (always 100%).'
 order: 229
 draft: false

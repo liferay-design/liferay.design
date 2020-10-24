@@ -2,6 +2,7 @@
 title: 'Stacked Bar Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
+figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A651'
 description: 'A Stacked Bar chart compares the values of single items with the total data value.'
 order: 230
 draft: false

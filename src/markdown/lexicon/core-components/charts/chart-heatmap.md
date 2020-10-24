@@ -2,6 +2,7 @@
 title: 'Heatmap Chart'
 titleLabel: 'Pending'
 description: 'The Heatmap Chart is a visual representation of the data using colors to indicate the values.'
+figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A5357'
 order: 227
 draft: false
 ---
