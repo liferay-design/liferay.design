@@ -11,6 +11,8 @@
 	margin: 0 0.5rem 0 0;
 	padding-left: 4px;
 	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	position: relative;
 	text-transform: uppercase;
 	white-space: nowrap;
@@ -81,13 +83,6 @@
 			width: 2rem;
 		}
 
-		.labelWarning {
-			@include label;
-			@include documentLabel;
-			border-color: $warning-l1;
-			color: $warning;
-		}
-
 		.labelDraft {
 			@include label;
 			@include documentLabel;
@@ -101,6 +96,22 @@
 			border-color: $info-l1;
 			color: $info;
 		}
+
+		.labelInfoFull {
+			@include label;
+			@include documentLabel;
+			border-color: $info;
+			background-color: $info;
+			color: $white;
+		}
+
+		.labelNeutral {
+			@include label;
+			@include documentLabel;
+			border-color: $main-l3;
+			color: $main;
+		}
+
 
 		p {
 			line-height: 1.5;
@@ -345,10 +356,6 @@
 	color: $info;
 }
 
-:global(.labelWarning) {
-	border-color: $warning-l1;
-	color: $warning;
-}
 
 :global(.link-false) {
 	color: $primary;
