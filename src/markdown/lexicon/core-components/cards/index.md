@@ -3,6 +3,7 @@ title: 'Cards'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/card.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6026%3A914'
+docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDbXlfTVBDandaTXM?usp=sharing'
 description: 'Cards are a specific form of data visualization focused mainly on displaying images.'
 order: 210
 draft: false
