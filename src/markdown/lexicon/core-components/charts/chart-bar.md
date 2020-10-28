@@ -2,6 +2,8 @@
 title: 'Bar Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
+figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A0'
+docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
 description: 'A graphical data representation based on rectangle bars with proportional lengths and heights.'
 order: 224
 draft: false

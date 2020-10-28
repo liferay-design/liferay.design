@@ -3,6 +3,7 @@ title: 'Management Toolbar'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/management-toolbar.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A24125'
+docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDbE1MSnNsdEU2VWM?usp=sharing'
 description: 'Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset.'
 order: 362
 draft: false
