@@ -2,6 +2,7 @@
 title: 'Vertical Bar'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A24243'
 description: 'A vertical bar is a flexible container that organizes items vertically.'
+docLink: 'https://drive.google.com/drive/folders/1T7yETSFq4YDrBtbUwZLMY7IJ8Vp7yTmJ?usp=sharing'
 order: 364
 draft: false
 ---

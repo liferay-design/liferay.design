@@ -115,26 +115,36 @@ console.log(mdx.id, 'id')
 											{!matches && <AuthContainer />}
 										</Flex>
 
-										{mdx.frontmatter.titleLabelLink ? (
-											<Link
-												className={lexicon.labelWarning}
-												to={mdx.frontmatter.titleLabelLink}
-											>
-												View in Clay
-											</Link>
-										) : null}
-
 										{mdx.frontmatter.figmaLink ? (
 											<Link
-												className={lexicon.labelInfo}
+												className={lexicon.labelInfoFull}
 												to={mdx.frontmatter.figmaLink}
 											>
 												View in Figma
 											</Link>
 										) : null}
 
+										{mdx.frontmatter.titleLabelLink ? (
+											<Link
+												className={lexicon.labelInfo}
+												to={mdx.frontmatter.titleLabelLink}
+											>
+												View in Clay
+											</Link>
+										) : null}
+
+
+										{mdx.frontmatter.docLink ? (
+											<Link
+												className={lexicon.labelInfo}
+												to={mdx.frontmatter.docLink}
+											>
+												Documentation
+											</Link>
+										) : null}
+
 										{mdx.frontmatter.productName ? (
-											<Link className={lexicon.labelInfo}>
+											<Link className={lexicon.labelNeutral}>
 												{mdx.frontmatter.productName}
 											</Link>
 										) : null}
@@ -208,6 +218,7 @@ export const pageQuery = graphql`
 						description
 						titleLabelLink
 						figmaLink
+						docLink
 						devStatus
 						productName
 					}
@@ -225,6 +236,7 @@ export const pageQuery = graphql`
 				description
 				titleLabelLink
 				figmaLink
+				docLink
 				devStatus
 				productName
 			}

@@ -1,5 +1,6 @@
 ---
 title: 'Upper Toolbar'
+docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDbE1MSnNsdEU2VWM?usp=sharing'
 description: 'Upper toolbar is a guidance pattern to allow designers create their own toolbars for edition with preview pages.'
 order: 363
 draft: false
