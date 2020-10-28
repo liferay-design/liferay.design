@@ -1,86 +1,57 @@
 ---
-title: 'Form Sheet'
+title: 'Forms Hierarchy'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/css-forms-hierarchy'
-description: 'A container that holds a form or display of information. Form sheet helps identify different content blocks.'
+docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+description: 'The definition of the content hierarchy inside a form structure and the components used to identify the different content blocks.'
 order: 252
 draft: false
 ---
 
-This pattern is used in form scenarios, usually to display a form, multiple forms or a combination of single/multiple forms and one or several sheets to display information. 
+This page contemplates the visual definition of the hierarchy and the measurements and the definition of the components that establish that hierarchy.
 
 ### Layout
 
-There are some main elements created in order to define the form hierarchy and to present different use cases:
+There are three main elements used to define the form hierarchy:
 
-The following image represents a complete description of the component. Although in any of the use cases is used as displayed in this image, it helps define its elements.
+1. Form title
+2. First level section header. This can be one of two options:
+    1. The header of a fixed section
+    2. The header of a collapsible section
+3. Second level section header
 
-![Form sheet different parts ](/images/lexicon/FormSheetLayout.jpg)
+The examples below demonstrate all these form elements working together within the same form structure:
 
-1. Form sheet header. (only used in multiple-forms scenarios, ex: Commerce).
-2. Sheet title.
-3. Section.
-    *  Simple.
-    *  With accordion.
-	*  With button.
-4. Secondary section (same as a section but without underline).
-5. Content of any type. Example: form fields, a table, or a list. 
-6. Form buttons: there can be several, not just Save and Cancel (the most common).
+![Form hierarchy example 1](/images/lexicon/FormHierarchyParts.jpg)
 
+Including explanatory text:
 
-### Variations
-
-Although the content will normally be a form with a variable number of inputs, as a container, it can also contain a table, list, or text content.
-
-The examples below serve as an example of use cases for the form sheet.
-
-#### Free content
-
-Free content allows using the sheet with any kind of content inside. Users just benefit from the sheet style that provides consistency along the platform.
-
-![Free content composition](/images/lexicon/FormSheetFree.jpg)
-
-A usage example can be found in Web Content.
-
-![Free content composition example](/images/lexicon/FormSheetFreeExample.jpg)
-
-#### Single form
-
-Many of our admin interfaces present single form configuration. For them it is relevant to present a title, an optional description, several sections with content, and the buttons to submit the form.
-
-![Simple form composition](/images/lexicon/FormSheetSingleForm.jpg)
-
-An example in DXP can be found in the user form below “Users & Organizations”.
-
-![Simple form composition example](/images/lexicon/FormSheetSingleFormExample.jpg)
-
-#### Multiple form
-
-There are situations where having multiple forms is a need of the product. This usage is restricted to Commerce due to their product needs. 
-
-Multiple forms configuration forces to not have general form buttons per form sheet and a general “save” action is centralized in a single button. This action must check the status and validate each of the form sheet changes.
-
-![Multiple form composition](/images/lexicon/FormSheetMultiForm.jpg)
-
-See Commerce product screen. In this case, you can find free content usage, display relevant product information, and several form sheets, each one to capture different product 
-
-![Multiple form composition example](/images/lexicon/FormSheetMultiFormExample.jpg)
-
-#### Dataset content
-
-A common usage of the sheet is to present a dataset display inside. This case benefits of the sheet title and the content free space to place elements such as the dataset display.
-
-![Dataset display composition](/images/lexicon/FormSheetDatasetDisplay.jpg)
-
-This usage can be found in fragments, categories, and tags, among others.
-
-![Dataset display composition example](/images/lexicon/FormSheetDatasetDisplayExample.jpg)
+![Form hierarchy example 2](/images/lexicon/FormHierarchyTexts.jpg)
 
 ### Attributes
 
-Spacing around the frame and in between sections content is 24px. Each section is spaced from the next one 48 px. 
+Metrics are key to understanding how our forms are built and how vertical spacing works in our forms.
 
-![Form sheet margin and padding spacing](/images/lexicon/FormSheetLayout02.jpg)
+#### Desktop
 
-### Mobile
-In small viewports, as mentioned in the [grid section](/lexicon/foundations/grid), the main vertical spacing reference changes from 24px to 16px.
+As mentioned in the [grid section](../../../foundations/grid), the main vertical spacing reference is 24px.
+
+**Section blocks metrics**
+
+![Section blocks metrics](/images/lexicon/FormHierarchySectionBlocks.jpg)
+
+**Inside sections metrics**
+
+![Inside sections metrics](/images/lexicon/FormHierarchySections.jpg)
+
+**Metrics using explanatory texts associated to different section levels**
+
+![Metrics using explanatory texts associated to different section levels](/images/lexicon/FormHierarchySectionTexts.jpg)
+
+#### Mobile
+
+In small viewports, as mentioned in the [grid section](../../../foundations/grid), the main vertical spacing reference changes from 24px to 16px.
+
+![Inside sections metrics 2](/images/lexicon/FormHierarchySectionBlocksM.jpg)
+
+![Inside sections metrics 2](/images/lexicon/FormHierarchySectionTextsM.jpg)
