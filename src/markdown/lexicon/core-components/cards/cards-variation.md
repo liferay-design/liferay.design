@@ -28,7 +28,7 @@ Aspect ratio might be used when the content to represent in the card is a docume
 
 ## User card
 
-User cards represent users. The user can be represented by their user image or up to two initials extracted from their user name or name + surname.
+User cards represent users. The user is represented by its profile image or a default user icon.
 
 ![User card without image but initials](/images/lexicon/CardUser.jpg)
 
