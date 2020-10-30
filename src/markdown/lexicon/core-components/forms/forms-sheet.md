@@ -75,6 +75,6 @@ This usage can be found in fragments, categories, and tags, among others.
 
 ### Attributes
 
-Spacing around the frame and in between sections content is 24px. Each section is spaced from the next one 48 px. Visit [Form hierarchy](/lexicon/core-components/forms/forms-hierarchy/) for more information.
+Spacing around the frame and in between sections content is 24px. Each section is spaced from the next one 48px. Visit [Form hierarchy](/lexicon/core-components/forms/forms-hierarchy/) for more information.
 
 ![Form sheet margin and padding spacing](/images/lexicon/FormSheetLayout02.jpg)
