@@ -1,6 +1,7 @@
 ---
 title: 'Layout'
 description: 'Layouts help out organizing the space.'
+docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saZXMtb2hzRy0yYW8?usp=sharing'
 order: 110
 draft: false
 ---

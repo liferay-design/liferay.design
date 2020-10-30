@@ -1,6 +1,7 @@
 ---
 title: 'Sidebar + Box'
 description: 'A specific layout used when a left sidebar requires a vertical navigation.'
+docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saZXMtb2hzRy0yYW8?usp=sharing'
 order: 114
 draft: false
 ---
