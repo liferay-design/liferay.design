@@ -52,7 +52,7 @@ Use when an interaction initiates the sequence to start creating a new entity or
 
 **Similar actions:** Edit, Add
 
-**Opposite actions:** Delete
+**Opposite action:** Delete
 
 **Examples**
 
@@ -78,7 +78,7 @@ Use when an interaction initiates the sequence to start creating a new entity or
 
 **Similar actions:** Save, Add
 
-**Opposite actions:** Delete
+**Opposite action:** Delete
 
 **Example**
 
@@ -296,7 +296,7 @@ Adds an existing entity/record to the current context. For example, add a user t
 
 ![Plus icon](/images/lexicon/IconPlus.jpg)
 
-**Similar action:** New, Assign
+**Similar actions:** New, Assign
 
 **Opposite action:** Remove
 
@@ -318,9 +318,9 @@ A variation of "add." It associates an existing user record to a particular job 
 
 ![Plus icon](/images/lexicon/IconPlus.jpg)
 
-**Similar action:** New, Add
+**Similar actions:** New, Add
 
-**Opposite action:** Unassign, Remove
+**Opposite actions:** Unassign, Remove
 
 **Example**
 
@@ -339,7 +339,7 @@ Non-destructive removal of an entity/record/element that has been added or assig
 
 ![Times icon and Times circle icon](/images/lexicon/IconsTimes.jpg)
 
-**Similar action:** New, Add
+**Similar actions:** New, Add
 
 **Opposite actions:** Unassign, Remove
 
@@ -364,13 +364,13 @@ Closes a modal or a secondary state to return back to its original state. Close 
 * May be the only allowable option if there aren’t other actionable options.
 * In a modal: If the secondary state has changed without saving, then prompt a confirmation message to confirm the user's intent (similar to cancel, where save actions are available).
 
-**Associated Icons**
+**Associated Icon**
 
 ![Times icon](/images/lexicon/IconTimes.jpg)
 
 **Similar action:** Cancel
 
-**Examples**
+**Example**
 
 ![Modal header displays close icon to the top right](/images/lexicon/CommonWordsClose.jpg)
 
@@ -402,7 +402,7 @@ Confirms a temporary selection such as filtering.
 
 **Similar actions:** Save, Done
 
-**Opposite actions:** Clear
+**Opposite action:** Clear
 
 **Example**
 
@@ -418,7 +418,7 @@ Clears temporary filters/entities/records ( ie: queries, notifications, suggeste
 
 ![Times icon and Times circle icon](/images/lexicon/IconsTimes.jpg)
 
-**Opposite actions:** Apply
+**Opposite action:** Apply
 
 **Example**
 
