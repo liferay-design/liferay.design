@@ -5,6 +5,29 @@ order: 131
 draft: false
 ---
 
+<div class="adapting-columns">
+    <p><a href="./#new">New</a></p>
+    <p><a href="./#create">Create</a></p>
+    <p><a href="./#edit">Edit</a></p>
+    <p><a href="./#configure">Configure</a></p>
+    <p><a href="./#save">Save</a></p>
+    <p><a href="./#delete">Delete</a></p>
+    <p><a href="./#cancel">Cancel</a></p>
+    <p><a href="./#duplicate">Duplicate</a></p>
+    <p><a href="./#duplicate-to">Duplicate to</a></p>
+    <p><a href="./#copy-to">Copy To</a></p>
+    <p><a href="./#copy-to-clipboard">Copy To Clipboard</a></p>
+    <p><a href="./#move">Move</a></p>
+    <p><a href="./#add">Add</a></p>
+    <p><a href="./#assign">Assign</a></p>
+    <p><a href="./#remove">Remove</a></p>
+    <p><a href="./#close">Close</a></p>
+    <p><a href="./#done">Done</a></p>
+    <p><a href="./#apply">Apply</a></p>
+    <p><a href="./#clear">Clear</a></p>
+    <p><a href="./#select">Select</a></p>
+</div>
+
 ### New
 
 Use when an interaction initiates the sequence to start creating a new entity or record.
