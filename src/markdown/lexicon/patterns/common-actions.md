@@ -27,6 +27,13 @@ draft: false
     <p><a href="./#clear">Clear</a></p>
     <p><a href="./#select">Select</a></p>
 </div>
+<br/>
+<br/>
+<br/>
+
+
+_In this page we refer to entities and records. A simple definition of an entity is a collection of data fields (schema) that comprise an object. A record refers to a specific entry within an entity. In some instances entities can also be records._
+
 
 ### New
 
