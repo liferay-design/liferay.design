@@ -60,6 +60,8 @@ Example 1: only one action is possible
 
 ![Show a plus button in a management toolbar with tooltiop "New Tag"](/images/lexicon/CommonWordsNew1.jpg)
 
+<br/>
+
 Example 2: multiple actions are possible
 
 ![Show a plus button in a management toolbar with tooltiop "New"](/images/lexicon/CommonWordsNew2.jpg)
@@ -349,8 +351,12 @@ Example 1: Results bar below the management toolbar where applied fiters appear
 
 ![Results bar below the management toolbar where applied fiters appear. The icon in the label that represents the applied filter is times](/images/lexicon/CommonWordsRemove1.jpg)
 
+<br/>
 
 Example 2: Removing a user from a list
+![Mouse hovering the remove action, times circle icon, in a list](/images/lexicon/CommonWordsRemove2.jpg)
+
+![Same scenario as the previous image but the element has been removed from the list and a success alert with an undo action notifies the action that took place](/images/lexicon/CommonWordsRemove3.jpg)
 
 
 ### Close
@@ -389,6 +395,7 @@ Confirms a completed secondary action during an unsaved sequence.
 
 **Example**
 
+![Shows a modal where the primary action reads Done](/images/lexicon/CommonWordsDone.jpg)
 
 
 ### Apply
