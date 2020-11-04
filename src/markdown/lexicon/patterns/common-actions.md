@@ -69,7 +69,7 @@ Example 2: multiple actions are possible
 
 ### Create
 
-Use when an interaction initiates the sequence to start creating a new entity or record.
+Use when an interaction completes the sequence of creating a new entity/record.
 
 **Usage**
 
