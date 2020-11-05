@@ -1,0 +1,26 @@
+@import '~theme/variables';
+@import '../../styles.module.scss';
+
+.preHeader {
+	@include small-caps;
+	line-height: 150%;
+	letter-spacing: 0.5em;
+	margin-bottom: 0.2em;
+	@include for-tablet-landscape-up {
+		font-size: $fontSizeMedium !important;
+	}
+}
+
+.f2 {
+	font-weight: $fontWeightBlack;
+	line-height: 120%;
+	font-size: 11vw;
+	margin-left: -0.16ch;
+	@include for-tablet-landscape-up {
+		font-size: 4.37vw; //70px
+	}
+}
+
+.p {
+	max-width: 68ch;
+}

@@ -1,0 +1,94 @@
+@import '~theme/variables';
+@import '../../styles.module.scss';
+
+.hired {
+	position: relative;
+	padding-bottom: 6vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	.date,
+	.birthRay {
+		position: relative;
+		margin: 4vw 0;
+		width: 130px;
+		height: 130px;
+		background: $lightBlack;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		.month {
+			color: $grayParagraph;
+			font-size: 18px;
+			line-height: 18px;
+			text-transform: uppercase;
+			letter-spacing: 0.3em;
+			margin-right: -0.3em;
+		}
+		.day {
+			font-size: 50px;
+			color: $white;
+			letter-spacing: -0.05em;
+			line-height: 50px;
+		}
+	}
+	.birthRay ~ .pLarge:after {
+		background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/birthday-cake_1f382.png);
+		width: 0.65em;
+	}
+
+	.designerHeadshot {
+		width: $spacingXSmall;
+		height: $spacingXSmall;
+		border-radius: 50%;
+		margin: 0 8vw;
+		border: 0.5vw solid #006de7;
+		position: relative;
+		transition: 0.2s ease-out;
+		opacity: 0.8;
+		&:global(.Plx--active) {
+			width: 4vw;
+			height: 4vw;
+			border: 0;
+			margin: 0 6.5vw;
+			opacity: 1;
+		}
+	}
+	h4.pLarge {
+		margin: 0;
+		font-size: 2.2vw;
+		color: $white;
+		font-weight: 500;
+		position: relative;
+		span {
+			color: $grayHeader;
+			font-weight: $fontWeightLight;
+		}
+		@media (max-width: 900px) {
+			font-size: 40px;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			margin: ($spacingXSmall / 2) $spacingXSmall;
+			width: 0.5em;
+			height: 1em;
+			background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/party-popper_1f389.png);
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+	@media (max-width: 599px) {
+		flex-direction: column;
+		padding-bottom: 80px;
+		.designerHeadshot {
+			display: none;
+		}
+		h4.pLarge {
+			text-align: center;
+		}
+	}
+}
