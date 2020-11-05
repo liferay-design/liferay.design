@@ -209,72 +209,8 @@ $breakpoint-for-large-desktop-up: 1800px;
 			max-width: $screenLarge;
 		}
 	}
-	.firstWhite:nth-child(1) {
-		font-weight: $fontWeightBlack;
-		color: $white !important;
-	}
 }
 
-// HERO
-section.hero {
-	min-height: 100vh;
-	width: 100vw;
-	position: relative;
-	padding-top: 0;
-	.heroGrid {
-		grid-template-rows: 70vh auto auto;
-		gap: 2rem;
-		.f2 {
-			font-weight: $fontWeightBlack;
-			text-align: center;
-			color: $grayHeader;
-			span {
-				opacity: 0;
-				animation: designReport 1s ease-in-out forwards;
-				animation-delay: 2.6s;
-				transform: translateY($spacingMedium);
-				&:first-of-type {
-					color: $grayHeader;
-					padding-right: 0.2em;
-					animation-delay: 2.4s;
-					animation-duration: 0.8s;
-				}
-			}
-		}
-		.pLarge {
-			color: $grayParagraph;
-			max-width: 48ch;
-			font-weight: $fontWeightRegular;
-			text-align: center;
-			margin: 0 auto;
-		}
-		.keyArt {
-			height: 100%;
-		}
-	}
-}
-@include for-tablet-landscape-up {
-	section.hero {
-		.heroGrid {
-			grid-template-columns: 1fr 50% 1fr;
-			grid-template-rows: 100vh auto;
-			gap: 4rem;
-			.keyArt {
-				grid-area: 1 / 2 / 2 / 3;
-			}
-			.f2 {
-				grid-area: 1 / 3 / 2 / 4;
-				text-align: left;
-				span {
-					display: block;
-				}
-			}
-			.pLarge {
-				grid-area: 2 / 1 / 3 / 4;
-			}
-		}
-	}
-}
 @keyframes designReport {
 	to {
 		opacity: 1;
