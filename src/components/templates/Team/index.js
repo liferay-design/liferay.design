@@ -165,11 +165,10 @@ export default class Team extends Component {
 											mt: 2,
 											fontSize: 2,
 											color: 'mainL3',
-											variant:'text.caps',
+											variant: 'text.caps',
 										}}
 									>
-										Since{' '}
-										{moment(teammate.startDate).format('YYYY')}
+										Since {moment(teammate.startDate).format('YYYY')}
 									</span>
 								) : null}
 								<span sx={{ color: 'white' }}>{teammate.id}</span>
@@ -211,13 +210,15 @@ export default class Team extends Component {
 				</Container>
 				<Flex
 					sx={{
+						variant: 'wrapper.markdown',
 						flexDirection: 'column',
-						variant: 'wrappers.markdown',
 					}}
 				>
-					<GlobalMdx>
-						<MDXRenderer>{post.body}</MDXRenderer>
-					</GlobalMdx>
+					<Box>
+						<GlobalMdx>
+							<MDXRenderer>{post.body}</MDXRenderer>
+						</GlobalMdx>
+					</Box>
 					{links ? (
 						<Flex sx={{ width: '100%', flexDirection: 'column' }}>
 							<h3>Where else can we find you?</h3>
