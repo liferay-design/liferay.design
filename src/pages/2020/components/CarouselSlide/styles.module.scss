@@ -1,0 +1,11 @@
+@import '~theme/variables';
+@import '../../styles.module.scss';
+.slide {
+    .p {
+        padding: 24px;
+        margin: auto;
+        max-width: 800px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
