@@ -8,7 +8,7 @@ draft: false
 devStatus: 'PENDING'
 ---
 
-![Color picker field](/images/lexicon/Picker-color-custom-panel-animation.gif)
+![Color picker interaction](/images/lexicon/Picker-color-custom-panel-animation.gif)
 
 This pattern has different variants, for several use purposes. Please read the [Examples](#examples) section below to know more about them.
 
@@ -72,21 +72,21 @@ The color picker has different variations: restricted, not restricted and simple
 It provides a wider possibility for the user to select up to 12 custom colors.
 <br/>
 
-![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-not-restricted.jpg)
+![Color picker at its unrestricted version where a predefined color palette is shown along with the custom palette and panel](/images/lexicon/Picker-color-not-restricted.jpg)
 
 ##### Example 2
 
 It might be the case there is no predefined color panel
 <br/>
 
-![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-not-restricted-02.jpg)
+![Color picker at its unrestricted version where a custom color palette is shown along with the custom panel](/images/lexicon/Picker-color-not-restricted-02.jpg)
 
 #### Restricted
 
 The restricted variation only provides the predefined color palette values for the user to choose.
 <br/>
 
-![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-restricted.jpg)
+![Color picker at its simple version where only a predefined color palette is shown](/images/lexicon/Picker-color-restricted.jpg)
 
 #### Simple configuration use
 
@@ -94,5 +94,5 @@ There might be cases where the user only needs to define a color.
 
 <br/>
 
-![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-simple.jpg)
+![Color picker at its restricted version where only a color edition panel is shown](/images/lexicon/Picker-color-simple.jpg)
 
