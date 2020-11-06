@@ -47,7 +47,7 @@ export default class PrivateComponent extends Component {
 		return (
 			// login prompt
 			<Box {...this.props} sx={{ display: 'inline' }}>
-				<Icon name="lock" sx={{ height: '1em', width: '1em' }} />
+				<Icon name="lock" sx={{ height: '1em', width: '1em' }} />DOCUMENTATION
 			</Box>
 		)
 	}
