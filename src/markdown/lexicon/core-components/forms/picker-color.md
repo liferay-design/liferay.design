@@ -8,9 +8,9 @@ draft: false
 devStatus: 'PENDING'
 ---
 
-![Color picker field](/images/lexicon/Picker-color-field.jpg)
+![Color picker field](/images/lexicon/Picker-color-custom-panel-animation.gif)
 
-This pattern offers two variations, depending on the required usage. Please see the [Variations](#variations) section below for more information.
+This pattern has different variants, for several use purposes. Please read the [Examples](#examples) section below to know more about them.
 
 ### Usage
 
@@ -26,7 +26,7 @@ hexadecimal value.
 
 ![Color picker open at predefined panel](/images/lexicon/Picker-color-panel-predefined.jpg)
 
-The predefined palette panel provides a set of predefined colors, as well as lets users create new colors to access in the "Custom color panel."
+Predefined palette panel gives access to a set of predefined colors and the possibility of creating new colors to be defined in the “Custom color panel”
 
 The available colors can be modified via API. Lexicon provides the default color palette shown in the previous image.
 
@@ -39,11 +39,9 @@ The color palette can contain as many colors as you require, but we recommend th
 ![Color picker with 7 points to describe the different elements. Explained below.](/images/lexicon/Picker-color-panel-custom-desc.jpg)
 
 1. Custom colors label
-2. Color drop button
-    - The sampled color is displayed in the predefined palette panel
-    - Note that the sampled color is not preselected in the predefined palette panel
+2. Close button
 3. Color cells set
-4. Color definition box
+4. Color map panel
 5. RGB form set
 6. Color HUE slider
 7. Hexadecimal text field
@@ -54,22 +52,47 @@ Inputs 4, 5, 6 and 7 automatically update each time one of them is modified to r
 
 Predefined palette panel layout and dimensions:
 
-![Predefined palette panel measures and distances](/images/lexicon/Picker-color-panel-custom-measures.jpg)
+![Predefined panel measures and distances](/images/lexicon/Picker-color-panel-normal-measures.jpg)
+
 
 Custom panel layout and dimensions:
 
-![Custom panel measures and distances](/images/lexicon/Picker-color-panel-normal-measures.jpg)
+![Custom color panel measures and distances](/images/lexicon/Picker-color-panel-custom-measures.jpg)
 
-### Variations
+
+
+### Examples
+
+The color picker has different variations: restricted, not restricted and simple, being both the custom color and predefined color panels optional.
 
 #### Unrestricted
 
-The unrestricted variation provides the complete set of color selection options for the user.
+##### Example 1
+
+It provides a wider possibility for the user to select up to 12 custom colors.
+<br/>
 
 ![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-not-restricted.jpg)
+
+##### Example 2
+
+It might be the case there is no predefined color panel
+<br/>
+
+![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-not-restricted-02.jpg)
 
 #### Restricted
 
 The restricted variation only provides the predefined color palette values for the user to choose.
+<br/>
 
 ![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-restricted.jpg)
+
+#### Simple configuration use
+
+There might be cases where the user only needs to define a color.
+
+<br/>
+
+![Color picker at its restricted version where only a predefined color palette is shown](/images/lexicon/Picker-color-simple.jpg)
+
