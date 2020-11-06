@@ -8,7 +8,7 @@
 	position: relative;
 	width: 100%;
 	svg {
-			fill: $main;
+			fill: $primary-l2;
 		}
 	&:hover {
 		background-color: $gray-bg;
@@ -30,7 +30,7 @@ svg.leaf-link {
 }
 
 .sidebar.handbook {
-	background-color: $black-000 !important;
+	background-color: $primary-l3 !important;
 	.sidebar-content-wrapper {
 		svg {
 			fill: $neutral4;
@@ -41,15 +41,15 @@ svg.leaf-link {
 	.first-level-node > ul > a,
 	.sidebar-content-wrapper svg {
 		&:hover {
-			background-color: $main;
+			background-color: $primary-l2;
 		}
 	}
 	a,
 	.leaf-link,
 	.first-level-node > a {
-		color: $neutral9;
+		color: $main;
 		&:hover {
-			color: $white;
+			color: $black-000;
 		}
 		&.active,
 		&.active > a,
@@ -62,7 +62,7 @@ svg.leaf-link {
 		&.active,
 		&.active > a,
 		&[aria-current]:not([aria-current='false']) {
-			background-color: $main;
+			background-color: $primary-l2;
 			&:after {
 				content: '';
 				width: 0.2rem;
@@ -123,7 +123,7 @@ svg.leaf-link {
 		bottom: 0;
 	}
 	a {
-		color: $black;
+		color: $black-000;
 	}
 
 	.first-level-node,
