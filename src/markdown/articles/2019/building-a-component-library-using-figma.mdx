@@ -1,0 +1,305 @@
+---
+author: 'Emiliano Cicero'
+date: '2019-06-30'
+title: 'Building A Component Library Using Figma'
+featuredImage: '/images/articles/building-figma-library-images/master-component.png'
+canonicalLink: 'https://www.smashingmagazine.com/2019/06/building-component-library-figma/'
+publish: true
+---
+
+---
+
+_Note: This article was [originally published by Smashing Magazine](https://www.smashingmagazine.com/2019/06/building-component-library-figma/) on June 17, 2019_
+
+---
+
+_Figma has become a very popular tool for web and product designers, mainly because of its focus on design teams and team libraries. This article aims to help you avoid mistakes and assist you with the building of your own Figma component library._
+
+I’ve been working on the creation and maintenance of the main library of our design system, Lexicon. We used the Sketch app for the first year and then we moved to Figma where the library management was different in certain aspects, making the change quite challenging for us.
+
+To be honest, as with any library construction, it requires time, effort, and planning, but it is worth the effort because it will help with providing detailed components for your team. It will also help increase the overall design consistency and will make the maintenance easier in the long run. I hope the tips that I’ll provide in this article will make the process smoother for you as well.
+
+This article will outline the steps needed for building a component library with Figma, by using styles and a master component. (A master component will allow you to apply multiple changes all at once.) I’ll also cover in detail the components’ organization and will give you a possible solution if you have a large number of icons in the library.
+
+**Note:** _To make it easier to use, update and maintain, we found that it is best to use a separate Figma file for the library and then publish it as a team ‘library’ instead of publishing the components individually._
+
+## Getting Started
+
+This guide was created from a designer’s perspective, and if you have at least some basic knowledge of Figma (or Sketch), it should help you get started with creating, organizing and maintaining a component library for your design team.
+
+If you are new to [Figma](https://www.figma.com), check the following tutorials before proceeding with the article:
+
+-   [Best Practices: Components, Styles And Shared Libraries](https://www.figma.com/blog/component-styles-and-shared-library-best-practices/)
+-   [Intro To Figma: Beginner’s Guide To Figma Basics](https://www.youtube.com/watch?v=jk1T0CdLxwU) (Video)
+-   [Figma For Beginners](https://www.figmaforbeginners.com/)
+-   [Figma 101](https://trydesignlab.com/figma-101-course/introduction-to-figma/)
+
+## Requirements
+
+Before starting, there are some requirements that we have to cover to define the styles for the library.
+
+### Typography Scale
+
+The first step to do is to define the typography scale; it helps to focus on how the text size and line height grow in your system, allowing you to define the visual hierarchy of your texts.
+
+![a scale of text in different sizes, from small to big](/images/articles/building-figma-library-images/typography.png)
+_Typography scales are useful to improve the hierarchy of the elements, as managing the sizes and weights of the fonts can really guide the user through the content._
+
+The type of scale depends on what you’re designing. It’s common to use a bigger ratio for website designs and a smaller ratio when designing digital products.
+
+The reason for this is behind the design’s goal — a website is usually designed to communicate and convert so it gives you one or two direct actions. It’s easier in that context to have 36px for a main title, 24px for a secondary title, and 16px for a description text.
+
+Related resource: “[8-Point Grid: Typography On The Web](https://medium.freecodecamp.org/8-point-grid-typography-on-the-web-be5dc97db6bc)” by Elliot Dahl.
+
+On the other hand, digital products or services are designed to provide a solution to a specific problem, usually with multiple actions and possible flows. It means more information, more content and more components, all in the same space.
+
+For this case, I personally find it rare to use more than 24px for texts. It’s more common to use small sizes for components — usually from 12 to 18 pixels depending on the text’s importance.
+
+If you’re designing a digital product, it is useful to talk to the developers first. It’s easier to maintain a typography scale based on EM/REM more than actual pixels. The creation of a rule to convert pixels into EM/REM multiples is always recommended.
+
+Related resource: “[Defining A Modular Type Scale For Web UI](https://blog.prototypr.io/defining-a-modular-type-scale-for-web-ui-51acd5df31aa)” by Kelly Dern.
+
+### Color Scheme
+
+Second, we need to define the color scheme. I think it’s best if you to divide this task into two parts.
+
+1.  First, **you need to define the main colors of the system**. I recommend keeping it simple and using a maximum of four or five colors (including validation colors) because the more colors you include here, the more stuff you’ll have to maintain in the future.
+2.  Next, **generate more color values using the Sass functions** such as “Lighten” and “Darken” — this works really well for user interfaces. The main benefit of this technique is to use the same hue for the different variants and obtain a mathematical rule that can be automated in the code. You can’t do it directly with Figma, but any Sass color generator will work just fine — for example, [SassMe](https://sassme.jim-nielsen.com) by Jim Nielsen. I like to increase the functions by 1% to have more color selection.
+
+![2 different sets of colors with different tones](/images/articles/building-figma-library-images/color-scheme.png)
+_Once you have your main colors (in our case, blue and grey), you can generate gradients using lighten and darken functions._
+
+**Tip**: _In order to be able to apply future changes without having to rename the variables, avoid using the color as part of the color name. E.g., instead of_ `$blue`, _use_ `$primary`.
+
+**Recommended reading**: _“[What Do You Name Color Variables?](https://css-tricks.com/what-do-you-name-color-variables)” by Chris Coyier_
+
+### Figma Styles
+
+Once we have the typography scale and the color scheme set, we can use them to define the Library styles.
+
+This is the first actual step into the library creation. This feature lets you use a _single set of properties in multiple elements_.
+
+![2 shapes showing a color palette and a text to represent the possible styles](/images/articles/building-figma-library-images/figma-styles.png)
+_Styles are the way to control all the basic details in your library._
+
+### Concrete Example
+
+Let’s say you define your brand color as a style, it’s a soft-blue and you originally apply it to 500 different elements. If it is later decided that you need to change it to a darker blue with more contrast, thanks to the styles you can update all the 500 styled elements at once, so you won’t have to do it manually, element by element.
+
+We can define styles for the following:
+
+-   [Text](#text-styles)
+-   [Colors](#color-styles)
+-   [Effects](#effects)
+-   [Grids](#grids)
+
+If you have variations of the same style, to make it easier to find them later, you can name the single styles and arrange them inside the panel as groups. To do so, just use this formula:
+
+> Group Name/Style Name
+
+I’ve included a suggestion of how to name texts and colors styles below.
+
+#### Text Styles
+
+Properties that you can define within a text style:
+
+-   Font size
+-   Font weight
+-   Line-height
+-   Letter spacing
+
+**Tip**: _Figma drastically reduces the number of styles that we need to define in the library, as alignments and colors are independent of the style. You can combine a text style with a color style in the same text element._
+
+![4 shapes with text inside used as examples of different text styles](/images/articles/building-figma-library-images/text-styles.png)
+_You can apply all the typography scale we’ve seen before as text styles._
+
+**Text Styles Naming**
+
+I recommend using a naming rule such as “Size/Weight”  
+_(eg: 16/Regular, 16/SemiBold, 16/Bold)._
+
+Figma only allows one level of indentation, if you need to include the font you can always add a prefix before the size:  
+**FontFamily Size/Weight** or **FF Size/Weight**  
+\*(eg: **SourceSansPro 16/Regular** or **SSP 16/Regular**).\*
+
+#### Color Styles
+
+The color style uses its hex value (`#FFF`) and the opacity as properties.
+
+**Tip**: _Figma allows you to set a color style for the fill and a different one for the border within the same element, making them independent of each other._
+
+![4 shapes with colors inside, used as examples of different color styles](/images/articles/building-figma-library-images/color-styles.png)
+_You can apply color styles to fills, borders, backgrounds, and texts._
+
+**Color Styles Naming**
+
+For a better organization I recommend using this rule “Color/Variant”. We named our color styles using “Primary/Default” for the starter color, “Primary/L1”, “Primary/L2” for lighten variants, and “Primary/D1”, “Primary/D2” for darken variants.
+
+#### Effects
+
+When designing an interface you might also need to create elements that use some effects such as drop shadows (the drag&drop could be an example of a pattern that uses drop shadows effects). To have control over these graphic details, you can include effect styles such as shadows or layer blurs to the library, and also divide them by groups if necessary.
+
+![2 shapes similar to paper, one above the other one to show the shadow effect](/images/articles/building-figma-library-images/effect-styles.png)
+_Define shadows and blurs to manage special interaction effects such as drag-n-drop._
+
+#### Grids
+
+To provide something very useful for your team, include the grid styles. You can define the 8px grid, 12 columns grid, flexible grids so your team won’t need to recreate them.
+
+![12 columns to represent the grid styles](/images/articles/building-figma-library-images/grid-styles.png)
+_There’s no need to memorize the grid sizes anymore._
+
+**Tip**: _Taking advantage of this feature, you can provide all the different breakpoints as ‘grid styles’._
+
+## Master Component
+
+Figma lets you generate multiple instances of the same component and update them through a single master component. It’s easier than you might think, you can start with some small elements and then use them to evolve your library.
+
+![a single group of three shapes that shows how you can get seven different results by hiding some of the shapes](/images/articles/building-figma-library-images/master-component.png)
+_One master component to rule them all!_
+
+To explain this workflow better, I will use one of the basic components all the libraries have: the buttons.
+
+### Buttons!
+
+Every system has different types of buttons to represent the importance of the actions. You can start having both primary and secondary buttons with only texts and one size, but the reality is that you’ll probably end up having to maintain something like this:
+
+-   2 color types (_Primary_ | _Secondary_)
+-   2 sizes of buttons (_Regular_ | _Small_)
+-   4 content types (_Text Only_ | _Icon Only_ | _Text_ + _Icon right_ | _Icon Left_ + _Text_)
+-   5 states (_Default_ | _Hover_ | _Active_ | _Disabled_ | _Focus_)
+
+This would give us up to 88 different components to maintain only with the set of buttons mentioned above!
+
+![a screenshot with a total of 88 different button components!](/images/articles/building-figma-library-images/buttons.png)
+_Thanks to how Figma is built, you can easily manage a lot of button instances all at once._
+
+
+## Let’s Start Step By Step
+
+The first step is to include all the variations together in the same place. For the buttons we’re going to use:
+
+-   A single shape for the background of the button so that we can then place the color styles for the fill and the border;
+-   The single text that will have both text and color styles;
+-   Three icon components (positioned to the right, center and left) filled in with the color style (you will be able to easily swap the icons).
+
+![a group of divided elements: a rectangle shape, a button text and 3 icons](/images/articles/building-figma-library-images/single-elements.png)
+_A shape, a text, and an icon walk into a Figma bar..._
+
+The second step is to create the master component (use the shortcut Cmd + Alt + K on Mac, or Ctrl + Alt + K on Windows) with all of the variations as instances. I suggest using a different and neutral style for the elements inside the master component and use the real styles on the sub-components, this trick will help the team use only sub-components.
+
+You can see the visual difference between a master component and a sub-component in the next step:
+
+![A group of elements centered in the same space, one over the other one!](/images/articles/building-figma-library-images/group-of-elements.png)
+_The more elements, the more instances you can control._
+
+In the third step you need to duplicate the master component to generate an instance, now you can use that instance to create a sub-component, and from now on every change you make to the master component will also change the sub-component you’ve created.
+
+You can now start applying the different styles we’ve seen before to the elements inside the sub-component and, of course, you can hide the elements you don’t need in that sub-component.
+
+![An example showing how 8 different buttons can be generated from 1 single component](/images/articles/building-figma-library-images/buttons-master.png)
+_Thanks to the color styles you can generate different components using the same shape. In this example, primary and secondary styles are generated from the same master component._
+
+### Text Alignment
+
+As I’ve shown you in the styles, the alignments are independent of the style. So if you want to change the text alignment, just select it by hitting Cmd/Ctrl and changing it. Left, center or right: it will all work and you can define different sub-components as I did with the buttons.
+
+**Tip**: _To help you work faster without having to find the exact element layer, if you delete an element inside the instance, it will hide the element instead of actually deleting it._
+
+## Component Organization
+
+If you’re coming from Sketch, you could be having trouble with the organization of the components in Figma as there are a few key differences between these two tools. This is a brief guide to help you organize the components well so that the instance menu doesn’t negatively affect your team’s effectiveness.
+
+![showing the instance menu open with more unordered sub-menus](/images/articles/building-figma-library-images/before-mess.png)
+_As you can see here, our library had so many sub-menus that as a result the navigation was going off the screen on MacBooks, that was a big problem for our library. We were able to find a workaround for this issue._
+
+![showing the improvements on the instance menu open with ordered sub-menus](/images/articles/building-figma-library-images/after-order.png)
+_This was the result after improving the library order following the rules for pages and frames, now it’s way more usable and organized for our teams._
+
+We’ve all been there, the solution is easier than you think!
+
+Here’s what I have learned about how to organize the components.
+
+### Figma Naming
+
+While in Sketch all the organization depends only on the single component name, in Figma it depends on the _Page_ name, the _Frame_ name, and the single _Component_ name — exactly in that order.
+
+In order to provide a well-organized library, you need to think of it as a visual organization. As long as you respect the order, you can customize the naming to fit your needs.
+
+Here’s how I’ve divided it:
+
+-   File Name = Library Name (e.g. Lexicon);
+-   Page Name = Component Group (e.g. Cards);
+-   Frame Name = Component Type (e.g. Image Card, User Card, Folder Card, etc);
+-   Component Name = Component State (e.g. Default, Hover, Active, Selected, etc).
+
+![Showing the main page named ‘Cards’, the frame named ‘Image Card’ and the layer named ‘Card Hover’](/images/articles/building-figma-library-images/cards-layers.png)
+_This structure is the equivalent to the Sketch naming of ‘Cards/Image Card/Card Hover’._
+
+### Adding Indentation Levels
+
+When creating the Lexicon library, I found that I actually needed more than three levels of indentation for some of the components, such as the buttons that we saw before.
+
+For these cases, you can extend the naming using the same method as Sketch for nested symbols (using the slashes in the component name, e.g. “Component/Sub-Component”), under the condition that you do it only _after_ the third level of indentation, respecting the structural order of the first three levels as explained in the previous point.
+
+This is how I organized our buttons:
+
+-   Page name = Component Group (e.g. Buttons);
+-   Frame name = Component Size (e.g. Regular or Small);
+-   Component name = Style/Type/State (e.g. Primary/Text/Hover).
+
+![Showing the main page named 'Buttons', the frame named 'Buttons Regular' and the layer named 'Primary/Text/Button Hover' as example of the possible structures.](/images/articles/building-figma-library-images/buttons-layers.png)
+_This structure is the equivalent to the Sketch naming of '\*Buttons/Buttons Regular/Primary/Text/Button Hover\*'._
+
+
+**Tip**: _You can include the component name (or a prefix of the name) in the last level, this will help your team to better identify the layers when they import the components from the library._
+
+### Icons Organization
+
+Organizing the icons in Figma can be challenging when including a large number of icons.
+
+As opposed to Sketch which uses a scroll functionality, Figma uses the sub-menus to divide the components. The problem is that if you have a large number of icons grouped in sub-menus, at some point they might go off screen (my experience with Figma on a MacBook Pro).
+
+![Showing the instance menu for the icons with a single scrollable sub-menu.](/images/articles/building-figma-library-images/figma-icons-menu.png)
+_An example of how the components are organized inside a single scrollable sub-menu._
+
+![Showing the instance menu for the icons with more than 10 sub-menus and cover all the screen.](/images/articles/building-figma-library-images/sketch-icons-menu.png)
+_As you can see, using a Macbook Pro the result was the menus going outside the screen._
+
+Here are two possible solutions:
+
+-   **Solution 1**  
+    Create a page named “Icons” and then a frame for each letter of the alphabet, then place each icon in the frame based on the icon’s name. For example, if you have an icon named “Plus”, then it will go in the “P” frame.
+-   **Solution 2**  
+    Create a page named “Icons” and then divide by frames based on the icon categories. For example, if you have icons that represent a boat, a car, and a motorcycle, you can place them inside a frame named “vehicles”.
+
+![The instance menu is open, showing the alphabetical order of the icons in Figma.](/images/articles/building-figma-library-images/ordering-icons.png)
+_I, personally, applied solution 1. As you can see in this example, we had a huge number of icons so this was the better fit._
+
+## Conclusion
+
+Now that you know what’s exactly behind a team’s library construction in Figma, you can start building one yourself! Figma has a free subscription plan that will help you to get started and experiment with this methodology in a single file (however, if you want to share a team library, you will need to subscribe to the “Professional” option).
+
+Try it, create and organize some advanced components, and then present the library to your team members so you could amaze them — or possibly convince them to add Figma to their toolset.
+
+Finally, let me mention that here in Liferay, we love open-source projects and so we’re sharing a copy of our [Lexicon library](https://liferay.design/resources/figma/) along with some other resources. You can use the Lexicon library components and the other resources for free, and your feedback is always welcome (including as Figma comments, if you prefer).
+
+
+
+-   [Download the ‘Lexicon’ library](https://liferay.design/resources/figma/)
+
+![The Lexicon logo, it’s similar to a hexagon and a fingerprint together.](/images/articles/building-figma-library-images/lexicon.png)
+_Lexicon is the design language of Liferay, used to provide a Design System and a Figma Library for the different product teams._
+
+If you have questions or need help with your first component library in Figma, [drop me a line on Twitter](https://twitter.com/@EmilianoGCicero).
+
+### Further Resources
+
+-   “[8-Point Grid: Typography On The Web](https://medium.freecodecamp.org/8-point-grid-typography-on-the-web-be5dc97db6bc?ref=heydesigner),” Elliot Dahl, freeCodeCamp
+-   [Defining A Modular Type Scale For Web UI](https://blog.prototypr.io/defining-a-modular-type-scale-for-web-ui-51acd5df31aa?ref=heydesigner),” Kelly Dern, Medium
+-   “[Relative Color Palettes With Sass](https://seesparkbox.com/foundry/relative_color_palettes_with_sass),” Ethan Muller, Sparkbox
+-   [SassMe](https://sassme.jim-nielsen.com) (tool created by Jim Nielsen that lets you visualize Sass HSL color functions in real-time)
+-   “[What Do You Name Color Variables?](https://css-tricks.com/what-do-you-name-color-variables/?ref=heydesigner),” Chris Coyier, CSS-Tricks
+-   “[Best Practices: Components, Styles, And Shared Libraries](https://www.figma.com/blog/component-styles-and-shared-library-best-practices/),” Thomas Lowry, Figma
+-   [Figma YouTube Channel](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA)
+-   [Figma Help Articles](https://help.figma.com/collection/6-figma)
