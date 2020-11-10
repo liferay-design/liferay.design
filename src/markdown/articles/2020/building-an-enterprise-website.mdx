@@ -2,7 +2,7 @@
 author: 'Abel Hancock'
 date: '2020-11-10T09:00:00.000Z'
 title: 'Design at scale means smaller-scale design'
-featuredImage: '/images/articles/building-an-enterprise-website/liferay-dxp.jpg'
+featuredImage: '/images/articles/dbp/customization-vs-personalization.png'
 publish: true
 ---
 
@@ -11,23 +11,19 @@ import { Embed } from 'theme-ui'
 
 ## Building an enterprise website with a digital experience platform
 
-For today’s enterprises, the ability to quickly respond to a changing market is both crucial and extremely difficult. For most companies, a corporate website is at the core of their digital marketing activities. The ability to quickly iterate and evolve a website has become a standard business requirement. Enterprises are building sites with thousands of pages, subsites, gated pages, personalization, localization, the list goes on. 
+For today’s enterprises, the ability to quickly respond to a changing market is both crucial and extremely difficult. For most companies, a corporate website is at the core of their digital marketing activities. The ability to quickly iterate and evolve a website has become a standard business requirement. Enterprises are building sites with thousands of pages, subsites, gated pages, personalization, localization, the list goes on.
 
 Liferay.com is no exception to this model — slow time-to-market for new and updated content has been a continual challenge for our marketing team. Incoming requests for site changes and new development will always exceed the capacity to fulfill requests. Starting with our DXP gives us a reliable, effective, and localizable platform out of the box. However, creating or iterating on pages requires significant developer and designer involvement. This both slows the time-to-market and creates an ever-growing backlog of work for our team.
 
-
 ## A paradigm shift from production to enabling self-service
 
-How does a team maintain, let alone improve, a [site with hundreds of existing pages](https://www.liferay.com/sitemap.xml) to which new pages are added each week? **In short, the answer is to design tools that allow business users to create the pages and content they need with minimal oversight from a designer or developer.** In practice, this looks like a drag-and-drop site builder with proper permissioning, flexibility (within guidelines), scalability, and minimal maintenance. For design and development teams, this means building flexible, user-friendly components (building blocks) that business users can create pages with. Teams must shift from building and maintaining thousands of pages to providing tools and building blocks that business units use to create enterprise sites. 
+How does a team maintain, let alone improve, a [site with hundreds of existing pages](https://www.liferay.com/sitemap.xml) to which new pages are added each week? **In short, the answer is to design tools that allow business users to create the pages and content they need with minimal oversight from a designer or developer.** In practice, this looks like a drag-and-drop site builder with proper permissioning, flexibility (within guidelines), scalability, and minimal maintenance. For design and development teams, this means building flexible, user-friendly components (building blocks) that business users can create pages with. Teams must shift from building and maintaining thousands of pages to providing tools and building blocks that business units use to create enterprise sites.
 
-The solution is easy to identify, but successful implementation hinges on three key points: 
-
-
+The solution is easy to identify, but successful implementation hinges on three key points:
 
 1. Selecting the right platform
 2. Designing for the needs of the business
 3. Building tools on a strong foundation
-
 
 ## The foundational technology
 
@@ -36,8 +32,7 @@ Many products already exist to serve individuals and SMBs (small and medium-size
 ![Modern site builders](/images/articles/building-an-enterprise-website/site-builders.png)
 _Modern site builders are well suited for individuals and small businesses but cannot yet handle the complexities of enterprise websites._
 
-While these platforms have become standard for SMBs and individuals, they are not designed for large enterprises. **For an enterprise, the ability to centrally design, develop, and maintain drag-and-drop elements with highly customized functionality is crucial when tens, hundreds, or even thousands of users around the world are creating pages across multiple interconnected sites.** Predefined display options, theming, localization, personalized experiences based on user segmentation, and integration with marketing tools such as [Pardot](https://www.pardot.com/), [Idio](https://www.episerver.com/products/intelligence-cloud), [HubSpot](https://www.hubspot.com/), etc. add to the complexity of technical requirements. This level of complexity is where Digital Experience Platforms thrive. [Site Builder](https://www.liferay.com/products/dxp/all-features#experience-management) – a supercharged drag-and-drop page builder introduced in Liferay DXP 7.2 — was our product’s next big step in enabling nontechnical users to manage complex business requirements. 
-
+While these platforms have become standard for SMBs and individuals, they are not designed for large enterprises. **For an enterprise, the ability to centrally design, develop, and maintain drag-and-drop elements with highly customized functionality is crucial when tens, hundreds, or even thousands of users around the world are creating pages across multiple interconnected sites.** Predefined display options, theming, localization, personalized experiences based on user segmentation, and integration with marketing tools such as [Pardot](https://www.pardot.com/), [Idio](https://www.episerver.com/products/intelligence-cloud), [HubSpot](https://www.hubspot.com/), etc. add to the complexity of technical requirements. This level of complexity is where Digital Experience Platforms thrive. [Site Builder](https://www.liferay.com/products/dxp/all-features#experience-management) – a supercharged drag-and-drop page builder introduced in Liferay DXP 7.2 — was our product’s next big step in enabling nontechnical users to manage complex business requirements.
 
 ## Leveraging the platform to fit business needs
 
@@ -45,14 +40,11 @@ Two years ago, Liferay’s web presence was built and maintained by a team of ni
 
 There was a significant need for us to evolve our site in three primary areas to fit the mounting needs of business departments across the company:
 
-
-
 1. **Implement a design system** to streamline and standardize design efforts
-2. **Build a component architecture** to minimize development time and maintenance 
+2. **Build a component architecture** to minimize development time and maintenance
 3. **Enable non-technical users** to build and own webpages
 
 Solving these challenges forced us to shift from designing and implementing pages and microsites to building a tool that marketers could use directly.
-
 
 ### Implementing a design system
 
@@ -60,12 +52,17 @@ Solving these challenges forced us to shift from designing and implementing page
 
 <Image
 	src="/images/articles/building-an-enterprise-website/lmds.png"
-    caption={<span>Design system components for liferay.com created in Figma and documented on <a href="https://style.liferay.design">style.liferay.design</a>.</span>}
-    size="large"
-    align="left"
+	caption={
+		<span>
+			Design system components for liferay.com created in Figma and documented on{' '}
+			<a href="https://style.liferay.design">style.liferay.design</a>.
+		</span>
+	}
+	size="large"
+	align="left"
 	margin="2rem 0 4rem"
-    dropShadow
-    rounded
+	dropShadow
+	rounded
 />
 
 ### Building a component architecture
@@ -74,11 +71,15 @@ _In Liferay DXP, [fragments](https://help.liferay.com/hc/en-us/articles/36002872
 
 The dev team created a library of fragments with configurable properties, most of which directly mirror components in the design system. These fragments are used as drag-and-drop elements to create pages in a user friendly UI within Liferay DXP.
 
+<Embed
+	variant="embed.slides"
+	src="https://drive.google.com/file/d/1jbf96_pP2tL_ErwmYxluGk28hY7Hl3mz/preview"
+/>
 
-<Embed variant='embed.slides' src="https://drive.google.com/file/d/1jbf96_pP2tL_ErwmYxluGk28hY7Hl3mz/preview"/>
-
-<figcaption style="color: rgb(107, 108, 126); font-style: italic; text-align: center; margin-bottom: 2rem;">A live recording of a business user building and publishing <a href="http://liferay.com/services/consulting">liferay.com/services/consulting</a></figcaption>
-
+<figcaption style="color: rgb(107, 108, 126); font-style: italic; text-align: center; margin-bottom: 2rem;">
+	A live recording of a business user building and publishing{' '}
+	<a href="http://liferay.com/services/consulting">liferay.com/services/consulting</a>
+</figcaption>
 
 ### Empowering non-technical users
 
@@ -87,17 +88,15 @@ In December 2019, we rolled out the first implementation of the new site buildin
 <Image
 	margin="-1rem 2rem 2rem"
 	src="/images/articles/building-an-enterprise-website/landing-page-templates.png"
-    size="small"
-    align="right"
-    dropShadow
-    rounded
+	size="small"
+	align="right"
+	dropShadow
+	rounded
 />
 
 Throughout the course of 2020 we have continued to support and improve the landing page building tool as well as updating the majority of liferay.com’s primary pages to use fragments. Projects with new web pages are often completed in 0.5 or 1 story point (minimal designer and developer involvement). Event sites like [DEVCON](http://liferay.com/events/devcon) or webinar events are also built using fragments without expensive custom development.
 
-
 ## Immediate and long-term benefits
-
 
 ### Improved agility
 
@@ -105,48 +104,22 @@ By leveraging Liferay DXP features with an implemented design system and compone
 
 At Liferay, a shift from a single on-premise product to multiple cloud-based offerings means our product release cycles are shorter. Instead of releasing updates once or twice a year, we are beginning to push updates quarterly or more. Unfortunately, this strains our relatively small marketing team, requiring more messaging and feature updates in marketing collateral, including web pages. Three years ago, designing and developing content for a product version launch required almost two months of work from a team of 13. Our [Liferay Commerce 2.1](https://www.liferay.com/products/commerce) product launch earlier this year required less than two weeks of work from one designer and four developers. Although this recent launch was much smaller in scale, the contrast in effort is significant.
 
-<table style="box-shadow: rgba(48, 49, 63, 0.16) 0px 0.5rem 8rem -0.5rem; border-radius: 8px; margin: 2rem 0 0;">
-    <thead>
-        <tr>
-            <th>2018</th>
-            <th>2019</th>
-            <th>2020</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>7 developers</td>
-            <td>2 developers (+3 for 1 week)</td>
-            <td>2 developers</td>
-        </tr>
-        <tr>
-            <td>3 designers</td>
-            <td>1 designer</td>
-            <td>1 designer</td>
-        </tr>
-        <tr>
-            <td>6 new pages/templates</td>
-            <td>6 new pages/templates</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>8 weeks</td>
-            <td>7 weeks</td>
-            <td>2 weeks</td>
-        </tr>
-        <tr>
-            <td>100+ hours overtime</td>
-            <td>~32 hours overtime</td>
-            <td>0 hours overtime</td>
-        </tr>
-    </tbody>
-</table>
+| 2018                  | 2019                        | 2020             |
+| --------------------- | --------------------------- | ---------------- |
+| 7 developers          | 2 developers (+3 for 1 week | 2 developers     |
+| 3 designers           | 1 designer                  | 1 designer       |
+| 6 new pages/templates | 6 new pages/templates       |                  |
+| 8 weeks               | 7 weeks                     | 2 weeks          |
+| 100+ hours overtime   | ~32 hours overtime          | 0 hours overtime |
 
-
-<figcaption style="color: rgb(107, 108, 126); font-style: italic; text-align: center; margin-bottom: 2rem;"><a href="https://liferay.design/articles/2019/increasing-our-ability-to-convert-prospects">A comparison</a> of effort required for annual product releases.</figcaption>
+<figcaption style="color: rgb(107, 108, 126); font-style: italic; text-align: center; margin-bottom: 2rem;">
+	<a href="https://liferay.design/articles/2019/increasing-our-ability-to-convert-prospects">
+		A comparison
+	</a>{' '}
+	of effort required for annual product releases.
+</figcaption>
 
 In addition to individual product messaging, liferay.com handles portfolio messaging and campaigns. A shift in portfolio messaging is therefore a time-intensive company-wide effort and enabling our site to quickly adapt as we roll out changes is invaluable. Everything from changing specific sections of pages to creating entirely new sections of our website has become a smooth operation that highlights the value of modern infrastructure and tooling.
-
 
 ### Responding to market changes
 
@@ -156,16 +129,16 @@ Our previous workflow required marketers to have page requests, copy, images, et
 
 <Image
 	align="left"
-    margin="2rem 2rem 4rem"
+	margin="2rem 2rem 4rem"
 	src="/images/articles/building-an-enterprise-website/hcl-alternative.png"
 	caption="A landing page for WebSphere customers looking for alternative DXPs"
-    size="large"
-    rounded
-    dropShadow
+	size="large"
+	rounded
+	dropShadow
 />
 
 ### Reduced overhead & improved ability to fulfill business needs
 
 With this new tool in place, our current team of five developers, one designer, and one project manager are able to create more efficiently and sustainably than our team of 13 could two years ago. Our marketing team is able to publish content when and where they need it without being throttled by web development. Using the right technology and adapting it for the needs of the organization leads to lower cost, more powerful functionality, and better digital marketing results.
 
-By shifting our focus to creating and maintaining a tool for building a site instead of building the site itself we not only improved the current state of our site but also laid the groundwork for future improvements and scalability. With the recent release of [DXP 7.3](https://www.liferay.com/products/dxp/new) new features have become available to our team and the liferay.com sites. As we continue to modernize our approach to designing, building, and maintaining a global enterprise website we will adapt features such as [style books, master pages](https://www.liferay.com/products/dxp/new#design-systems), [collection pages](https://www.liferay.com/products/dxp/new#experience-management), [asset libraries](https://www.liferay.com/products/dxp/new#experience-management), and more to create a tool that fits the needs of our business. These features will be implemented in a way that creates the best possible tool for business users to operate in a modern digital market. 
+By shifting our focus to creating and maintaining a tool for building a site instead of building the site itself we not only improved the current state of our site but also laid the groundwork for future improvements and scalability. With the recent release of [DXP 7.3](https://www.liferay.com/products/dxp/new) new features have become available to our team and the liferay.com sites. As we continue to modernize our approach to designing, building, and maintaining a global enterprise website we will adapt features such as [style books, master pages](https://www.liferay.com/products/dxp/new#design-systems), [collection pages](https://www.liferay.com/products/dxp/new#experience-management), [asset libraries](https://www.liferay.com/products/dxp/new#experience-management), and more to create a tool that fits the needs of our business. These features will be implemented in a way that creates the best possible tool for business users to operate in a modern digital market.
