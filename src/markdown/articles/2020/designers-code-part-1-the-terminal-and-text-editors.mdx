@@ -1,0 +1,187 @@
+---
+author: 'Paul Hanaoka'
+date: '2020-03-26'
+pretitle: 'How Should Designers Learn To Code?'
+title: 'Part 1: The Terminal and Text Editors'
+featuredImage: 'images/articles/should-designers-code/part-1/17-LSNA_Day_1-186-Julia Chan.jpg'
+canonicalLink: 'https://www.smashingmagazine.com/2020/03/designers-code-terminal-text-editors-part-1/'
+publish: true
+tags: ['Tools', 'Workflow', 'Engineering']
+---
+
+import { Image } from 'components/atoms'
+import { Embed } from 'theme-ui'
+
+---
+
+_Note: This article was [originally published by Smashing Magazine](https://www.smashingmagazine.com/2020/03/designers-code-terminal-text-editors-part-1/) on March 18, 2020_
+
+___
+
+_For the purpose of this two-part series of articles, we’re going to assume the answer for “Should designers code?” is “It depends.” If you’ve started and never finished courses in some online coding school — or if you’ve finished the courses but found it difficult to apply this style of learning in your day-to-day work, these two articles will provide a few different learning methods and will highlight different opportunities for their everyday application. In this first part of the series, we’ll take a look at getting comfortable with the command line and text editors._
+
+As a designer with many years of experience, I often encourage my colleagues and reports to pick up some coding skills. While many are open to the idea, others balk at the notion. I usually hear some variation of “I didn’t study design to become a developer.” Although this is a valid concern, I’d like to emphasize two points: a better understanding of the materials usually leads to better outcomes, and there is an important distinction between “coding” and “software engineering.”
+
+This two-part series should be useful for any designers who’d like to gain some coding skills.
+
+### Understanding The Raw Materials
+
+Contrary to what some may think, design isn’t just about creating beautiful mockups. It’s about delivering an intuitive, functional experience to the end user. That simply can’t be done without an understanding of the building blocks of a solution. An architect isn’t going to be very good at her job if she doesn’t understand the materials her plans demand and a designer isn’t going to be very good if he doesn’t understand the materials that make his designs come to life — the code. Experience with coding helps designers understand what’s possible and what’s not and whether or not their designs will be able to effectively perform their desired functions.
+
+I also reassure my colleagues that knowledge of coding doesn’t mean one has to become an engineer. The two refer to different, though related, skill sets. As Kyle Thayer, a PhD candidate at the University of Washington recently wrote, the field of computer science (or engineering) is about giving students “[an overview of the scientific field of computing](https://medium.com/bits-and-behavior/coding-bootcamps-vs-computer-science-degrees-what-employers-want-and-other-perspectives-4058a67e4f15)”:
+
+> “The purpose of a Computer Science degree is to give students an overview of the scientific field of computing. While this includes some programming, programming is done primarily for the purpose of learning about other areas (e.g., operating systems, algorithms, machine learning, human-computer interaction). A CS degree is a good first step into the academic field of computer science.”
+>
+> — [Kyle Thayer](https://medium.com/bits-and-behavior/coding-bootcamps-vs-computer-science-degrees-what-employers-want-and-other-perspectives-4058a67e4f15)
+
+By contrast, coding simply means becoming familiar enough with a given programming language to complete a task. Asking someone to learn basic HTML or JavaScript does not necessitate their becoming a full-stack software architect. Despite what some might think, forking a repo and copy/pasting Stack Overflow answers in does not make you a software engineer — but it can increase the value you bring as a designer to a product development team.
+
+### What About “Low Code”?
+
+Some may say that we’re entering a low code future where designers (and developers) are able to build applications through drag-and-drop functionality and a GUI (graphical user interface). So taking the time to learn a programming language isn’t “worth it.” The emergence of tools like [Webflow](https://www.smashingmagazine.com/2019/09/webflow-the-future-of-web-development/), Modulz, [FramerX](https://www.smashingmagazine.com/2019/06/start-using-sketch-framer-x/), UXPin, etc., seems to support this line of reasoning. And this can be very true for many applications — it’s easier than ever to create a site or app without a single line of code. However, if you don’t understand the underlying principles, you will be capping the value you can deliver with a low code application.
+
+![Logos and screenshots showing the code behind tools developed by companies like Modulz, Studio.Design, FramerX, and others.](/images/articles/should-designers-code/part-1/low-code-future.png)
+_Modulz, Studio.Design, FramerX, and other apps — there’s still a lot of code in there..._
+
+We’re also not yet at the point where you can build enterprise-scale applications with low code platforms. As designers we have to work in the world we live in, not the one we imagine is coming.
+
+That being said, everyone brings a unique blend of skills to the table. Knowledge of code is not an absolute necessity and it should just be encouraged, not required.
+
+## Where To Start?
+
+There is an endless amount of tools, languages, schools, guides, and other resources available for anyone who has access to the internet — so where to begin? An important disclaimer — I am by no means an expert, or anything close to a software engineer — and the following are insights from my personal experience, not a guaranteed path to success.
+
+Many of the designers/developers I know have usually started hacking HTML and CSS templates on sites like MySpace, Geocities, Tumblr, Neopets, or others. Now that I have sufficiently dated myself, for anyone starting out today, I would recommend beginning in your friendly **command-line interface** (CLI) shell.
+
+### The Terminal: An Essential Tool
+
+The go-to application for Hollywood directors whenever there’s a computer hacker on the screen, the **terminal** is simply an interface that allows you to execute actions via a text input rather than the graphical user interface (GUI) that most people are accustomed to. I’ll let [real developers explain the intricacies and technical how-to](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/), but for our purposes it’s good enough to know that familiarizing yourself with the CLI is beneficial for a number of reasons.
+
+The terminal gives you access to your computer’s file and folder structure — the same way that you click through Finder or Explorer, you navigate using your keyboard in the terminal. It definitely takes some time getting used to, but developing your mental model in this area is foundational to working in code.
+
+Like a lot of designers, I am using the macOS environment (formerly known as OS X), but the following applies to other \*nix operating systems (Linux, Unix), and also to Windows PowerShell. While there is a lot of overlap between different modern operating systems, there are some differences that I will do my best to highlight.
+
+**Note**: _For a more complete introduction to the terminal, I recommend reading Paul Tero’s article, “[Introduction To Linux Commands](https://www.smashingmagazine.com/2012/01/introduction-to-linux-commands/)”._
+
+#### Regular Expressions
+
+A key feature in a CLI is the ability to use [regular expressions](https://regexone.com/) (regex) in your commands. Think of regex as boolean search operations (using quotation marks to search for exact phrases or the minus sign to exclude words) on steroids — they allow you to define a pattern in a string of text so that you can perform some action on the output. Here are some real-world examples:
+
+1.  If you have a long list of phone numbers in a variety of formats, you could define a script that would give you a consistent output based on a regular expression — e.g.: `(##) ##-###` for the U.S. phone numbers format.
+2.  If you want to quickly rename a group of files to a specific case — from kebab-case to CamelCase or anything in between.
+
+_I highly recommend watching Wes Bos’ [Command Line Power User series](https://commandlinepoweruser.com/) — or at the very least his [intro video](https://www.youtube.com/watch?v=DP218aBHm1Q) which will give you a good idea about a few essentials commands that you can use._
+
+Here are some basic terminal commands\* to help you getting started:
+
+1.  `cd` stands for “Change Directory”, type this and then a file or a folder path to go — note that you can type a folder name but it needs to be inside your current folder to go to it.
+2.  `ls` lists the files and folders in your current folder.
+3.  `pwd` stands for “Print Working Directory” — this will list out where you currently are in your computer.
+4.  `mkdir` and a folder name will create a folder in your working directory.
+5.  using `cd` with `..` takes you one level up — if you’re in `/users/username/documents/2019` and you enter `cd ../..` you’ll end up in `/users/username`.
+6.  Bonus tip — hitting the `Tab` key will autocomplete as you type a folder/file path.
+
+**Note**: _The following will work on the Windows command line_ (`cmd`):
+
+-   `cd`, `cd ..`, `mkdir`, Tab _key for path autocomplete (_`ls` _and_ `pwd` _won’t work)_.
+
+_The more modern Windows command line (Windows PowerShell) supports all of them:_
+
+-   `cd`, `cd ..`, `ls`, `pwd`, `mkdir`, _and_ Tab _for path autocomplete._
+
+_For a complete list of commands available in PowerShell, check this Microsoft’ Help page “[Using Familiar Command Names](https://docs.microsoft.com/en-us/powershell/scripting/learn/using-familiar-command-names?view=powershell-7)”._
+
+#### Mass-File Management
+
+You can manipulate files and folders _en masse_ via the terminal — here are a few ideas:
+
+1.  You can create three years of folders with subfolders for each month in a single command — using `mkdir -p` and `{list-of-years}/{list-of-months}` will create folders for each year with subfolders for each month. Use your imagination, I’m sure you can put this to good use!
+2.  You can quickly clean up your desktop by using `mv Screen\ Shot* Screenshots` — this will move all of your files that start with “Screen Shot” to a folder named “Screenshots”.
+
+![A screenshot of a terminal window showing the commands and output of a folder creation script.](/images/articles/should-designers-code/part-1/mass-folder-creation.png)
+_Create 36 folders on your computer with a single line of code!_
+
+**Note**: _These two examples will most likely only work in \*nix environments — but the theory still applies. And Windows PowerShell is also a very powerful command line tool, you just need to learn its features and specific commands._
+
+#### Scripting And Maintenance
+
+Now that we have a glimpse into the power of regular expressions and the options available in the terminal we can start combining those things into **scripts**. One very simple, yet powerful and commonly used script is [Mike G’s file renamer](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-12.html#ss12.4):
+
+    criteria=$1
+    re_match=$2
+     replace=$3
+     for i in $( ls *$criteria* );
+     do
+         src=$i
+         tgt=$(echo $i | sed -e "s/$re_match/$replace/")
+         mv $src $tgt
+     done
+
+Copy
+
+What this script allows you to do, is define the scope (`criteria`), define what you’d like to change (`re_match`), and what you’d like to change it to (`replace`) — and then execute it.
+
+There are countless other scripts that you can create beyond creating and renaming files — [Vlad’s Batch Resizing](https://www.smashingmagazine.com/2012/09/resizing-bash-script-batch-resizing-using-command-line/) script is an excellent example of the time-saving capabilities that you can create using bash scripts.
+
+#### Advanced Tips And Tricks
+
+Something I have found over the years is that regularly resetting my computer and reinstalling the operating system helps it stay relatively clutter-free and prevents the slowdowns everyone experiences after years of digital detritus that accumulates on harddrives. For many, the prospect of wiping a computer and re-setting everything back at best sounds like a few days of work, and at worst an impossible nightmare that you may never recover from.
+
+But it doesn’t have to be — by [using a few command-line tools](https://github.com/liferay-design/phresh-n-clean#application-installation), once you’ve backed up, wiped, and reinstalled your OS, you can install not only your list of favorite apps, but also fonts in a matter of minutes using [Homebrew](https://brew.sh/). (Homebrew is for Mac and Linux only. For Windows, try [Chocolatey](https://chocolatey.org) which is a solid alternative.)
+
+If you’re interested — we’ve created an [easy-to-follow setup guide](https://github.com/liferay-design/phresh-n-clean#set-up) to get your computer in good shape for most development. Our guide is for macOS, but Owen Williams has written [a solid guide for Windows](https://char.gd/blog/2017/how-to-set-up-the-perfect-modern-dev-environment-on-windows) as well.
+
+If you don’t have the time for Wes’ entire series of tutorials about the command line — at the very least I highly recommend the following stack:
+
+1.  [Oh My ZSH](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/)
+2.  [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+3.  [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+4.  [z-jump-around](https://github.com/rupa/z)
+
+### Choosing A Text Editor
+
+There are many options when it comes to choosing a code editor — [Sublime Text](https://www.smashingmagazine.com/2016/06/shortcuts-and-tips-for-improving-your-productivity-with-sublime-text/) and [VS Code](https://www.smashingmagazine.com/2018/01/visual-studio-code/) (Visual Studio Code) are the two I have the most experience with and am currently using.
+
+Sublime Text was one of the earlier text editors that became popular with front-end developers — it was the gold standard up until a few years ago. Features like multiple cursors, a powerful package manager, and highly customizable shortcuts that allowed you to quickly navigate in and between files and folders. Not to mention it was an incredibly lightweight and fast application which made it an easy choice.
+
+VS Code (Visual Studio Code) came on the scene around 2015, it took a while for people to switch from Atom and Sublime, but VS Code has established itself as many developers’ favorite editor. In addition to pretty much all of Sublime’s features, VS Code differentiated itself with a built-in terminal and tight integration with [Git](https://git-scm.com/). In addition, Visual Studio Code has a rich plugin ecosystem that allows you to extend and customize your environment to your heart’s delight.
+
+All that is to say — you don’t need to be a developer to appreciate the features of a good code editor. I have found many uses for it in my daily work; two, in particular, are the ability to use multiple cursors, and using regex to find-and-replace text across folders of files. Let’s take a closer look at both.
+
+#### Editing With Multiple Cursors
+
+Picture your typical word processor — that blinking vertical line that shows where the text you’re entering will go? Now picture the ability to add _more than one_ cursor to this window so that whatever you type will appear wherever there is a cursor!
+
+This might not be blowing your mind just yet — so here’s an example that shows a few ways that an advanced text editor can help you create everyday efficiencies in your workflow.
+
+![A screencap showing a list of names being manipulated and turned into a list of email addresses.](/images/articles/should-designers-code/part-1/multi-cursor-animated.gif)
+_Mass-editing in a text editor is much faster and more intuitive than in a spreadsheet._
+
+Here we have a list of names that we need to convert into email addresses — we’d also like to make them all lowercase and then sort them alphabetically. This can be done with a few keystrokes.
+
+Using a text editor to quickly manipulate lots of text in Sublime Text (short video).
+
+<Embed variant="embed.video" src="https://youtu.be/embed/CqY2K2sBcnE" />
+
+Once you paste the list in, Cmd + Shift + P brings up the Command Palette (fancy term for a searchable menu that gives you all the available functionalities). You can basically type in this menu what you want to do, pretty much anything you can do to text is available here. If it’s not, there’s likely a plugin or an extension that you can find.
+
+We’re able to change the case and sort the lines in a matter of seconds — then pressing Ctrl + Shift + arrow keys adds cursors, then whatever we type gets added to every line — in this case, we’re turning the names into email addresses, but your wild imagination could find myriad other ways to use this.
+
+You might be saying — well I can do this in Excel or Google Sheets, which is true, but I have found that it is a lot quicker to handle these types of things in a text editor. You avoid having to write formulas and select things with a mouse.
+
+## Which Code Editor Should I Use?
+
+I’m a designer — so of course, my answer is “it depends”.
+
+-   If you’re new to these concepts, I would recommend getting a free trial of Sublime — it continues to be a very lightweight app and does not consume too many system resources. You can customize Sublime’s [key bindings](https://www.sublimetext.com/docs/3/key_bindings.html) _(fancy word for hotkeys)_ and extend its built-in functionality with plugins.
+-   If you’ve been using Sublime, Atom, or another editor — I’d recommend checking out VS Code as well. The team at Microsoft has really done an excellent job making it a powerful, yet easy-to-use text editor.
+
+Personally, I use both editors — Sublime is lightning quick and opens in a fraction of a second allowing me to easily paste and manipulate text. But when I want to get some more serious work done, I use VS Code. It’s difficult to top the all-in-one package that VS Code provides — a vibrant plugin and extension ecosystem, powerful command palette, and hyper-customizable interface means you can really make it your own. Not to mention the fact that [Microsoft is very incentivized](https://twitter.com/IkeTheDev/status/1230854784686723072) to ensure that it’s a first-class experience for developer productivity.
+
+## Conclusion, And What’s Next?
+
+In this first article, you will have learned the basics of the terminal, a few productivity hacks to get you started, and should have a better idea of what code editor to choose. In the next part, we’ll continue with the topics of version control, HTML and CSS, and an introduction to engineering principles.
+
+### Anything Amiss?
+
+There’s a good chance that something in this post was obscure, obtuse, and/or obsolete and I’d love the opportunity to make it better! Please [DM me](https://twitter.com/messages/compose?recipient_id=46027705), or [@mention](https://twitter.com/compose/tweet) me on Twitter so I can improve.
