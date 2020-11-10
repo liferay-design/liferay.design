@@ -1,0 +1,455 @@
+---
+title: 'Writing Framework'
+description: ''
+docLink: 'https://docs.google.com/document/d/1pYrnCfNaWwniiGVA4zcMDreTgQDzimB2V56zF1QPKyw/edit?usp=sharing'
+order: 124
+draft: false
+---
+
+import { Grid, Box } from 'theme-ui'
+
+### Be concise
+
+Remove extra words and irrelevant ideas or details. Keep sentences short and break up long paragraphs.
+
+* Try to limit a sentence to less than 20 words
+* Don't speak abstractly
+
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Staged content may not be editable in a live environment. Deselecting unpublished applications may result in a loss of changes.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">When an application is checked, its data is copied to staging and it may not be possible to edit them directly in live. When unchecking an application, make sure that any changes done in staging are published first, because otherwise they might be lost.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+
+### Use an active voice (mostly)
+
+
+An active voice is more clear, direct, and easy to read. With an active voice, the subject performs the action. 
+
+<br />
+
+**Subject-Verb-Object format**
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Your workspace supports custom time zones</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Custom time zones are supported by your workspace</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">This publication contains conflicting changes that must be manually resolved before publishing.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Conflicting changes that must be manually resolved before publishing are contained in this publication.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+**Object-verb format**
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Download complete</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">You have completed your download</p>
+		<br />
+		<p class="example-text">Download completed by you</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">15 pages deleted</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">You have deleted 15 pages</p>
+		<br />
+		<p class="example-text">15 pages have been deleted by you</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+### Write at a lower reading level
+
+Writing at a lower reading level provides a better accessibility and reinforces the user experience.
+
+* Use natural language that is easy to understand. Using big words can communicate less credibility and lack of confidence.
+* Avoid industry jargon.
+* Consider whether someone in middle school can understand the concept.
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Segments group your users together by properties or behavior.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Segments cluster users together using classification taxonomy or DOM events.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+
+### Make your content scannable
+
+Users of digital products tend to scan the interface for keywords until they find an area of interest. To improve their experience, we must optimize our content to be easily digestible and scannable.
+
+<br />
+
+Break up long blocks of text
+
+* Long paragraphs to multiple shorter paragraphs
+* Long sentences to multiple shorter sentences
+* Short paragraphs to a list format 
+* Headings to break up content blocks
+
+<br />
+
+Make keywords stand out
+* Start a phrase or sentence with the objective rather than the action they need to take. This helps the user scan the content. 
+* Include meaningful keywords and phrases
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">To filter the web content list by a structure, select a structure.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Select a structure to filter the web content list by a structure.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+
+### Use the positive form of a sentence or a phrase
+
+Positive language emphasizes what the user can do rather than what they can not. It is more actionable and creates a more positive emotional response from the user. 
+
+* Avoid negative language
+* Avoid sarcastic language
+
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">You’re done with all your tasks.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">You don’t have any more tasks left.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Something went wrong. Our team of experts are already working to resolve it.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Hurray, we found another error. Someone will fix it (hopefully).</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+
+### First person vs second person
+
+We instill trust in our products by personifying and humanizing the interface with our writing. To accomplish this, it is important our communication sounds conversational and collaborative. 
+
+<br />
+
+When referring to Liferay, we use the first person: we, us, our, ourselves.
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">We weren’t able to find your ship-to address. Please update it in your account profile.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Liferay wasn’t able to find your ship-to address. Please update this in your account profile.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+<br />
+
+
+When referring to Liferay products, we use “it.” This may relate to marketing copy more than in the product.
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Analytics Cloud serves as a single source of truth for user data. Use it to discover, measure and optimize your digital experiences.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Analytics Cloud serves as a single source of truth for user data. We help you discover, measure and optimize your digital experiences.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+<br />
+
+
+When referring to our user we use the second person, most of the time.
+
+* You, your, yourselves
+	* Refrain from over-using second person pronouns such as “your segment list.”  We should avoid using pronouns if it doesn’t enhance the user’s understanding.
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Create and train your recommendations</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Create and train my recommendations</p>
+		<p class="example-text">Create and train our recommendations</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+
+<Grid variant='smallCards' >
+	<Box>
+		<p>Navigation items:</p>
+		<p class="example-text">Segments</p>
+		<p class="example-text">Account</p>
+		<p class="example-text">Profile</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p>.</p>
+		<p class="example-text">Your Segments</p>
+		<p class="example-text">Your Account</p>
+		<p class="example-text">Your Profile</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+<br />
+
+
+An exception is when our user is directly responding to a question in our UI.
+
+* I, my, me
+	* Legal requirements related to consent
+	* Refrain from using My XYZ even in navigation, as it implies that the product is an extension of the user rather than a tool. This also makes it harder to facilitate a conversation with the interface.
+
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Check the box below to confirm your intentions:</p>
+		<p class="example-text">[x] I consent to sending usage data to help improve this product.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Check the box below to confirm your intentions:</p>
+		<p class="example-text">[x] You consent to sending usage data to help improve this product.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+<br />
+
+
+Use third person pronouns when referring to someone other than the user.
+
+* Be gender neutral in the reference. Use they, their, them.
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">david@liferay.com has not accepted their invitation to join this workspace. Resend email?</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">david@liferay.com has not accepted his invitation to join this workspace. Resend email?</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+### Use simple verb tenses: present, past, and future
+
+The use of simple verb tenses makes communication easy and less verbose.
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Data sources syncing</p>
+		<p class="example-text">Data sources will sync</p>
+		<p class="example-text">Data sources synced</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Data sources has synced</p>
+		<p class="example-text">Data sources will have synced</p>
+		<p class="example-text">Data source had synced</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+### Consider localization
+
+Our products are used by an international audience. We want to be considerate to the users and translation services. 
+
+Use American english styling to maintain consistency for our translation services
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">1,000,000.00</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">1.000.000,00</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Jan 1, 2021</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">1 Jan 2021</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+<br />
+
+
+Avoid local and colloquial phrases
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">This may be difficult to understand.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">This may be difficult to wrap your head around.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
+
+<Grid variant='smallCards' >
+	<Box>
+		<p class="example-text">Examine your events data to discover usage patterns.</p>
+		<br />
+		<p class="do">Do</p>
+	</Box>
+	<Box>
+		<p class="example-text">Weed through your events data to discover usage patterns.</p>
+		<br />
+		<p class="dont">Don't</p>
+	</Box>
+</Grid>
+
+<br />
