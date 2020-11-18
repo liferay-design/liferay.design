@@ -231,7 +231,7 @@ export default {
 		interviewee: {
 			position: 'absolute',
 			ml: '-4rem',
-			mt: '-.5rem',
+			mt: 0,
 			height: '3rem',
 			width: '3rem !important',
 			borderRadius: '50%',

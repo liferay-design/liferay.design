@@ -8,7 +8,7 @@ featuredImage: '/images/articles/3-months-at-liferay/feature-image.png'
 publish: false
 ---
 
-import { Image as ThemeImage, Text as ThemeText } from 'theme-ui'
+import { Image as ThemeImage, Text as ThemeText, Box } from 'theme-ui'
 import { withPrefix } from 'gatsby'
 
 export const Quote = ({ children, ...props }) => (
@@ -16,12 +16,14 @@ export const Quote = ({ children, ...props }) => (
 )
 
 export const Interviewee = ({ headshot }) => (
-	<ThemeImage
-		sx={{
-			variant: 'images.interviewee',
-		}}
-		src={headshot}
-	/>
+	<Box sx={{ mt:4, display: 'block' }}>
+		<ThemeImage
+			sx={{
+				variant: 'images.interviewee',
+			}}
+			src={headshot}
+		/>
+	</Box>
 )
 
 export const Jon = () => (
@@ -32,10 +34,12 @@ export const Keming = () => (
 	<Interviewee headshot={withPrefix('images/articles/keming.png')} />
 )
 
+> At the end of the day, design is about problem solving. It's about solving the problems as specifically and as effectively as possible... if it's just like sexy marketing, you really need to evaluate how this is going to contribute to your actual growth.
+
 
 <Keming />
 
-We run a network for junior and mid-level designers called the Keming Network. We told them that we were talking to you, gave them a little bit of your info and they were super excited to ask questions. One of the questions was that in looking at just kind of like a UX job listing on Liferay states that expertise in coding languages such as HTML and CSS are a plus. 
+We run a network for junior and mid-level designers called the Keming Network. We told them that we were talking to you, gave them a little bit of your info and they were super excited to ask questions. One of the questions was that in looking at just kind of like a UX job listing on Liferay states that expertise in coding languages such as HTML and CSS are a plus.
 
 What are your thoughts around designers learning to to code? I know that when we both got into design, I tried to learn a little bit of everything at once. What are your thoughts?
 
