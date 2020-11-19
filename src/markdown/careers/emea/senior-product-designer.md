@@ -4,7 +4,7 @@ date: 2020-11-16T00:20:00Z
 title: Senior Product Designer
 office: Madrid
 featuredImage: '/images/articles/madrid-team-event.jpg'
-published: true
+published: false
 ---
 
 ## Who Designs at Liferay?
