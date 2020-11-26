@@ -5,7 +5,7 @@ import {colors, fontSizes } from 'theme'
 import { Button } from 'components/atoms'
 import styles from './styles.module.scss'
 
-export default Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, external, expandable, expandedSrc, ...props }) => {
+const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, external, expandable, expandedSrc, ...props }) => {
 
 	const [ open, setOpen ] = useState(false)
 
@@ -114,3 +114,5 @@ Image.propTypes = {
 	expandable: PropTypes.bool,
 	expandedSrc: PropTypes.string,
 }
+
+export default Image
