@@ -17,7 +17,7 @@ figure {
 		.expandedImageContainer {
 			position: fixed;
 			top: 0;
-			left: -9999px;
+			left: 0;
 			z-index: 1000;
 			width: 100vw;
 			height: 0;
@@ -31,7 +31,6 @@ figure {
 			&.open {
 				transition: opacity .2s ease-in-out;
 				height: 100vh;
-				left: 0;
 				opacity: 1;
 				.overlay {
 					height: 100%;
