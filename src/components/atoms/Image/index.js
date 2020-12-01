@@ -65,7 +65,7 @@ const Image = ({
 
 	const hotkeys = 'esc'
 
-	useHotkeys(hotkeys, () => setOpen(open ? !open : open), {
+	useHotkeys(hotkeys, () => setOpen(open ? !open : null), {
 		keydown: false,
 		keyup: true,
 	})
