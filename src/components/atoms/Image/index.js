@@ -5,7 +5,7 @@ import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 import { colors, fontSizes } from 'theme'
-import { Hotkey } from 'components/atoms'
+import { Flex, Hotkey } from 'components/atoms'
 import styles from './styles.module.scss'
 import { useHotkeys } from 'react-hotkeys-hook'
 
@@ -108,9 +108,31 @@ const Image = ({
 					}
 				>
 					<div className={styles.overlay} onClick={() => setOpen(!open)} />
-					<Button onClick={() => setOpen(!open)} sx={{ display: 'flex' }}>
+					<Button
+						onClick={() => setOpen(!open)}
+						sx={{
+							position: 'fixed',
+							top: ['unset', '1rem', null],
+							right: ['unset', '0', null],
+							bottom: ['6rem', 'unset', null],
+							alignItems: 'baseline',
+							cursor: 'pointer',
+							display: 'flex',
+							background: 'transparent',
+							fontWeight: 'heading',
+							fontFamily: 'monospace',
+							transition: 'color .2s ease-in-out',
+							color: 'mainL6',
+							'&:hover': {
+								color: 'white',
+							}
+						}}
+					>
 						Close
-						<Hotkey keys={[hotkeys]} />
+						<Hotkey
+							sx={{ ml: 2, display: ['none', 'initial', null] }}
+							keys={[hotkeys]}
+						/>
 					</Button>
 					<img
 						className={styles.expandedImg}
