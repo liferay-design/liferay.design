@@ -14,4 +14,3 @@ Among foundations you can find:
 -   [Grid](./grid)
 -   [Layout](./layout/layout-full)
 -   [Typography](./typography)
--   [Writing Style](./writingstyle)
