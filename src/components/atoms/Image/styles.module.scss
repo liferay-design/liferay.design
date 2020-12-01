@@ -17,24 +17,29 @@ figure {
 		.expandedImageContainer {
 			position: fixed;
 			top: 0;
-			left: 0;
+			left: -9999px;
 			z-index: 1000;
 			width: 100vw;
-			height: 100vh;
+			height: 0;
 			padding: 6rem;
 			overflow-y: scroll;
-			display: none;
+			display: flex;
 			justify-content: center;
 			align-items: center;
 			opacity: 0;
-			transition: opacity 0.2s;
+			transition: opacity .2s ease-in-out, height .01s .2s;
 			&.open {
-				display: flex;
+				transition: opacity .2s ease-in-out;
+				height: 100vh;
+				left: 0;
 				opacity: 1;
+				.overlay {
+					height: 100%;
+				}
 			}
 			.overlay {
 				width: 100%;
-				height: 100%;
+				height: 0;
 				background-color: $main;
 				opacity: 0.9;
 				position: fixed;
