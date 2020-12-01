@@ -36,10 +36,10 @@
 			left: 25%;
 			text-transform: uppercase;
 			letter-spacing: 0.3em;
-			color: $twentyNineteenBlue;
+			color: $twentyTwentyBlue;
 		}
 		&:focus {
-			background: $twentyNineteenBlue;
+			background: $twentyTwentyBlue;
 			border: 1px solid $white;
 			span {
 				color: $white;
@@ -135,7 +135,7 @@
 			}
 			&:focus {
 				background: $white;
-				border: 2px solid $twentyNineteenBlue;
+				border: 2px solid $twentyTwentyBlue;
 			}
 		}
 		.linkWrapper {
