@@ -15,23 +15,14 @@ export default ({}) => {
 		script.onload = function() {
 			lottie.loadAnimation({
 				container: document.getElementById('2020-animation'),
-				path: '/files/animations/2020.json',
+				path: '/files/animations/2020-crop.json',
 				renderer: 'svg',
 				loop: false,
 				autoplay: true,
 			});
 		}
-		// setTimeout(function() { //Start the timer
-		// }.bind(this), 100)
 	});
 	return (
-		<Flex
-			align="center"
-			justify="center"
-			direction="column"
-			className={styles.keyArt}
-		>
-			<div id="2020-animation"></div>
-		</Flex>
+		<div className={styles.keyArt} id="2020-animation"></div>
 	)
 }
