@@ -5,6 +5,7 @@ backend:
     name: github
     repo: liferay-design/liferay.design
     branch: master # Branch to update (optional; defaults to master)
+    open_authoring: true
 
 local_backend: true
 media_folder: static/images/uploads
