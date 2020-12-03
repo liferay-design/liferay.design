@@ -1,5 +1,10 @@
 ---
-author: 'Abel Hancock'
+author: Abel Hancock
+id: Abel Hancock
+title: Product Designer
+active: true
+icon: fa_code
+startDate: 2020-12-03T19:50:44.232Z
 ---
 
 ### Favorite tool? 🛠
