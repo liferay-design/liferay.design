@@ -25,51 +25,51 @@ departmentSection:
               subtitle: User Testing
 timelineSection:
     pretitle: Milestones
-    title: New Faces & Birthrays
-    subtitle: The team gets stronger each year as we embrace new additions, celebrate anniversaries, and gain more experience.
-    designers:
-        - designer:
-              url: wood-jon
-              startDate: 2019-04-15
+    title: Significant Markers in a Marked Year
+    events:
+        - event:
+              detail: birthRay
+              designer: wood-jon
+              startDate: 2020-04-15
               name: Jon
+        - event:
               detail: firstDay
-              country: California
-        - designer:
-              url: censi-andrea
-              startDate: 2018-05-14
-              name: Andrea
-              detail: birthRay
-              country: ''
-        - designer:
-              url: francisco-marleny
-              startDate: 2019-08-12
-              name: Marleny
+              designer: santos-victor
+              startDate: 2020-05-18
+              name: Victor
+              location: Spain
+        - event:
               detail: firstDay
-              country: Spain
-        - designer:
-              url: lyons-james
-              startDate: 2018-09-10
-              name: James
-              detail: birthRay
-              country: ''
-        - designer:
-              url: kim-david
-              startDate: 2018-09-17
-              name: David
-              detail: birthRay
-              country: ''
-        - designer:
-              url: garcia-laura
-              startDate: 2019-10-12
+              designer: juarez-crystal
+              startDate: 2020-05-18
+              name: Crystal
+              location: California
+        - event:
+              detail: firstDay
+              name: Rubén
+              designer: jimenez-ruben
+              startDate: 2020-08-08
+              location: Spain
+        - event:
+              detail: firstDay
+              designer: francisco-marleny
+              startDate: 2020-08-12
               name: Laura
-              detail: firstDay
-              country: Spain
-        - designer:
-              url: manso-miriam
-              startDate: 2018-10-15
-              name: Miriam
-              detail: birthRay
-              country: ''
+              location: Spain
+        - event:
+              detail: event
+              url: /team/hanaoka-paul
+              image: /images/headshots/hanaoka-paul.jpg
+              startDate: 2020-11-16
+              endDate: 2020-11-19
+              name: Design Week 2020
+              Locaiton: ''
+        - event:
+              detail: promoted
+              designer: hidalgo-juan
+              startDate: 2020-11-17
+              name: Juan
+              promotion: 'VP of Design'
 careerSection:
     pretitle: Grow & Get Better
     title: Design Careers
