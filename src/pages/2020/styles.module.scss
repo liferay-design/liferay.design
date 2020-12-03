@@ -8,6 +8,9 @@ $grayHeader: #555e68;
 $grayParagraph: #888b9b;
 $twentyTwentyBlue: #395DED;
 $lightBlue: #93A7DB;
+$lightBackgroundGradient: linear-gradient(219.58deg, rgba(61, 73, 86, 0.8) -2.98%, rgba(66, 81, 98, 0) 79.84%),
+linear-gradient(0deg, #232A31, #232A31);
+
 
 // FONT
 @font-face {
@@ -328,7 +331,6 @@ $breakpoint-for-large-desktop-up: 1800px;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background: $darkBlack;
 	padding: 80px 40px;
 	.timeline {
 		position: relative;
@@ -343,7 +345,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 		}
 		&::before {
 			content: '';
-			background: linear-gradient($darkBlack, rgba($darkBlack, 0));
+			background: linear-gradient($black, rgba($black, 0));
 			width: 50%;
 			height: 6rem;
 			position: absolute;
@@ -353,7 +355,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 		}
 		&::after {
 			content: '';
-			background: linear-gradient(rgba($darkBlack, 0), $darkBlack);
+			background: linear-gradient($black, rgba($black, 0));
 			width: 50%;
 			height: 6rem;
 			position: absolute;
