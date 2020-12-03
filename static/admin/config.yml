@@ -59,6 +59,7 @@ collections:
     - name: articles
       label: Articles
       folder: src/markdown/articles/
+      media_folder: static/images/articles/
       path: '{{year}}/{{slug}}'
       create: true
       fields:
