@@ -13,7 +13,7 @@ import Plx from 'react-plx'
 
 import {
 	Nav,
-	Designer,
+	Event,
 	KeyArt,
 	Content,
 } from 'pages/2020/components/_index'
@@ -220,17 +220,9 @@ const TwentyTwenty = () => {
 				</Flex>
 			</div>
 
-			{/* ---------- TEAM ----------- */}
-			{/* HEADER - TEAM */}
-			<div id="team" />
+			{/* ---------- MILESTONES ----------- */}
 
-			{/* DEPARTMENT */}
-			<section id="department">
-				
-			</section>
-
-			{/* FRESH FISH */}
-			<section id="new-faces">
+			<section id="milestones">
 				<div className={styles.newFaces}>
 					<Content
 						pretitle={data.timelineSection.pretitle}
@@ -239,8 +231,10 @@ const TwentyTwenty = () => {
 						align="center"
 					/>
 					<Flex
-						direction="column"
-						justify="space-between"
+						sx={{
+							flexDirection: 'column',
+							justifyContent: 'space-Between',
+						}}
 						className={styles.timeline}
 					>
 						<div className={styles.line}>
@@ -261,19 +255,25 @@ const TwentyTwenty = () => {
 								/>
 							</svg>
 						</div>
-						{data.timelineSection.designers.map(({ designer }) => (
-							<Designer
-								profileUrl={'/team/' + `${designer.url}`}
-								month={moment(designer.startDate).format('MMM')}
-								day={moment(designer.startDate).format('DD')}
-								headshot={
-									'/images/headshots/' + `${designer.url}` + '.jpg'
+						{data.timelineSection.events.map(({ event }) => (
+							<Event
+								url={event.designer ? '/team/' + `${event.designer}` : event.url}
+								month={moment(event.startDate).format('MMM')}
+								startDay={moment(event.startDate).format('DD')}
+								endDay={
+									event.endDate ? moment(event.endDate).format('DD') : null
 								}
-								name={designer.name}
-								detail={designer.detail}
-								country={designer.country}
+								headshot={
+									event.designer ? '/images/headshots/' + `${event.designer}` + '.jpg' : event.image
+								}
+								name={event.name}
+								detail={event.detail}
+								location={event.location}
 								birthRay={
-									designer.detail == 'birthRay' ? 'birthRay' : null
+									event.detail == 'birthRay' ? 'birthRay' : null
+								}
+								promotion={
+									event.detail == 'promoted' ? `${event.promotion}` : null
 								}
 							/>
 						))}
