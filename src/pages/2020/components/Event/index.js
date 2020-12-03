@@ -4,9 +4,10 @@ import React from 'react'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { Flex } from 'theme-ui'
+import { isNoSubstitutionTemplateLiteral } from 'typescript'
 
 const Event = ({
-	profileUrl,
+	url,
 	month,
 	startDay,
 	endDay,
@@ -67,11 +68,11 @@ const Event = ({
 						alignItems: 'center',
 					}}>
 					<div className={styles.day}>{startDay}</div>
-					{endDay ? ' – ' : null}
+					{endDay ? '\u00A0\u00A0—' : null}
 					<div className={styles.day}>{endDay ? endDay : null}</div>
 				</Flex>
 			</div>
-			<Link to={profileUrl}>
+			<Link to={url}>
 				<Plx
 					tagName="img"
 					parallaxData={designerHeadshot}
