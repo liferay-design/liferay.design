@@ -8,6 +8,8 @@ $grayHeader: #555e68;
 $grayParagraph: #888b9b;
 $twentyTwentyBlue: #395DED;
 $lightBlue: #93A7DB;
+$twentyTwentyYellow: #FFC90A;
+$backgroundGradient: linear-gradient(247.41deg, #212B32 6.16%, #1C1F23 63.57%);
 $lightBackgroundGradient: linear-gradient(219.58deg, rgba(61, 73, 86, 0.8) -2.98%, rgba(66, 81, 98, 0) 79.84%),
 linear-gradient(0deg, #232A31, #232A31);
 
@@ -103,21 +105,23 @@ $breakpoint-for-large-desktop-up: 1800px;
 .pagestyles {
 	background: $black;
 	font-family: 'SourceSans', sans-serif;
-	font-weight: $fontWeightBlack;
+	font-weight: 400;
+	color: $lightBlue;
 	overflow-x: hidden;
 	.f1,
+	.f2,
 	.f3,
 	.f3Large,
 	.f4 {
-		font-weight: $fontWeightBlack;
+		font-weight: $fontWeightHeavy;
 		padding: 0;
 		margin: 0;
-		color: $white;
 	}
 	.f2 {
-		font-size: 11vw;
+		font-size: 40px;
+		margin-bottom: 1em;
 		@include for-tablet-landscape-up {
-			font-size: 4.375vw; //70px
+			font-size: 46px;
 		}
 	}
 	.f3Large {
@@ -146,12 +150,15 @@ $breakpoint-for-large-desktop-up: 1800px;
 	.pSmall,
 	div,
 	span {
-		color: $grayParagraph;
+		color: $lightBlue;
 	}
 	.pLarge {
-		font-size: 4.4vw;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 1.6;
+		opacity: 0.8;
 		@include for-tablet-landscape-up {
-			font-size: 2.2vw;
+			font-size: 24px;
 		}
 	}
 	.pSmall {
@@ -365,8 +372,8 @@ $breakpoint-for-large-desktop-up: 1800px;
 		}
 	}
 }
-//GROWTH
-.growth {
+//COVID-19
+.covid19 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
