@@ -12,6 +12,7 @@ import MediaQuery from 'react-responsive'
 import Plx from 'react-plx'
 
 import {
+	Carousel,
 	Nav,
 	Event,
 	KeyArt,
@@ -281,8 +282,36 @@ const TwentyTwenty = () => {
 				</div>
 			</section>
 
-			{/* GROW */}
-			<section id="growth" className={styles.growth}>
+			{/* COVID-19 */}
+			<section id="convid-19" className={styles.covid19}>
+					<Carousel 
+						slides={[
+							{
+								title: "Chris Jeong",
+								image: "/images/2020/paul-hanaoka-4yG7Y0rAZvA-unsplash.jpg",
+								icon: "/images/icons/news.svg",
+								url: "/2020",
+								linkText: "Click me",
+								description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis."
+							},
+							{
+								title: "Ryan Connolly",
+								image: "/images/2020/paul-hanaoka-hNQCPAz4ILU-unsplash.jpg",
+								icon: "/images/icons/news.svg",
+								url: "/2020",
+								linkText: "Click me",
+								description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis."
+							},
+							{
+								title: "Jon Wood",
+								image: "/images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg",
+								icon: "/images/icons/news.svg",
+								url: "/2020",
+								linkText: "Click me",
+								description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis."
+							},
+						]}
+					/>
 			</section>
 
 			{/* ---------- INITIATIVES ----------- */}
