@@ -4,7 +4,6 @@ import React from 'react'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
 import { Flex } from 'theme-ui'
-import { isNoSubstitutionTemplateLiteral } from 'typescript'
 
 const Event = ({
 	url,
