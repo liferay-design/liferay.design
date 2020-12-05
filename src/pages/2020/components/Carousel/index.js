@@ -1,6 +1,5 @@
 import { withPrefix } from 'gatsby'
-import PropTypes from 'prop-types'
-import React, { useState, useEffect, useRef, getHeight } from 'react'
+import React, { useState, useEffect, useLayoutEffect, useRef } from 'react'
 import { Flex } from 'theme-ui'
 import styles from './styles.module.scss'
 import { Link } from 'components/atoms'
@@ -8,38 +7,27 @@ import { Link } from 'components/atoms'
 
 
 const Carousel = (props) => {
-    const [slideWidth, setSlideWidth] = useState(0)
     const slideSize = useRef(null);
-    
+    const [slideWidth, setSlideWidth] = useState(0)
+ 
     useEffect(() => {
-        setSlideWidth(slideSize.current.clientWidth)
+        setSlideWidth(slideSize.current.clientWidth);
     });
-    console.log(slideWidth);
-
-    const slidesLength = props.slides.length;
-
+    
+    const delay = 5000;
+    
     const [current, setCurrent] = useState(0);
 
-    const initialCarouselState = {
-        offset: 0,
-        desired: 0,
-        active: 0
-    };
-
-    const delay = 5000;
-
-    const [toggle, setToggle] = useState(true);
-
     useEffect(() => {
-        const next = (current + 1) % slidesLength;
+        const next = (current + 1) % props.slides.length;
         const id = setTimeout(() => setCurrent(next), delay);
         return () => clearTimeout(id);
     }, [current] );
-
+    
 	return (
         <Flex sx={{flexDirection: 'column', alignItems: 'center', width: '100vw'}} className={styles.pagestyles}>
             <Flex sx={{
-                    transform: 'translateX(calc(-' + `${slideWidth/2}` + 'px - ' + `${current*100/slidesLength}` + '%))',
+                    transform: 'translateX(calc(-' + `${slideWidth/2}` + 'px - ' + `${current*100/props.slides.length}` + '%))',
                     alignSelf: 'flex-start',
                     left: '50%',
                     position: 'relative',
