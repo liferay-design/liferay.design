@@ -20,6 +20,73 @@ departmentSection:
         - subDepartment:
               title: Design Research
               subtitle: User Testing
+promotionsPage:
+    title: Congratulations
+    designers:
+        - name: 'Victor Valle'
+          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          highlights:
+              [
+                  'GS Design Lead',
+                  'Workflow Design Lead',
+                  'Team Collaboration',
+                  'Best Hair: Worldwide',
+                  'Balcony Office',
+              ]
+        - name: 'Susana Vázquez'
+          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          highlights:
+              [
+                  'GS Design Lead',
+                  'Workflow Design Lead',
+                  'Team Collaboration',
+                  'Best Hair: Worldwide',
+                  'Balcony Office',
+              ]
+        - name: 'Jon Wood'
+          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          highlights:
+              [
+                  'GS Design Lead',
+                  'Workflow Design Lead',
+                  'Team Collaboration',
+                  'Best Hair: Worldwide',
+                  'Balcony Office',
+              ]
+        - name: 'Emiliano Cicero'
+          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          highlights:
+              [
+                  'GS Design Lead',
+                  'Workflow Design Lead',
+                  'Team Collaboration',
+                  'Best Hair: Worldwide',
+                  'Balcony Office',
+              ]
+        - name: 'Andrea Censi'
+          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          highlights:
+              [
+                  'GS Design Lead',
+                  'Workflow Design Lead',
+                  'Team Collaboration',
+                  'Best Hair: Worldwide',
+                  'Balcony Office',
+              ]
+        - name: 'Miriam Manso'
+          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          highlights:
+              [
+                  'GS Design Lead',
+                  'Workflow Design Lead',
+                  'Team Collaboration',
+                  'Best Hair: Worldwide',
+                  'Balcony Office',
+              ]
+    subtitle: 'Please join me in congratulating these designers for pushing themselves to the next level. Great work and continued success. Cheers.'
+    quote:
+        content: 'Stay hungry, stay foolish.'
+        author: 'Steve Jobs'
 timelineSection:
     pretitle: Milestones
     title: New Faces & Birthrays
