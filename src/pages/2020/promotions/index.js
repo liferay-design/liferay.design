@@ -2,10 +2,12 @@
 
 import { jsx, Grid, Box } from 'theme-ui'
 import Header from './components/header.js'
+import Designers from './components/designers.js'
 import {
 	Flex,
 	Link,
 	Heading,
+	Container,
 	Image,
 	Icon,
 	ScrollProgress,
@@ -33,10 +35,11 @@ const Promotions = () => {
 			<ScrollArrow />
 
 			{/* --------- HERO ---------- */}
-			<Box sx={{background: 'white', height: '100vh'}}>
+			<Box sx={{ background: 'white', height: '100vh' }}>
 				<Header />
 			</Box>
 
+			<Designers />
 			<Footer />
 			<FancyFooter />
 		</div>
