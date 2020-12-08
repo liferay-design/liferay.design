@@ -22,7 +22,7 @@ const promotions = data.promotionsPage
 
 const Promotions = () => {
 	return (
-		<div>
+		<div sx={{ fontFamily: 'modes.brand.body' }}>
 			<SEO
 				pageTitle="Liferay Design | 2020 Promotions"
 				description="Designers at Liferay are exceptional — a few this year earned title changes based on their hard work and in anticipation of expanded responsibility."
