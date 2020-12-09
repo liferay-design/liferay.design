@@ -2,10 +2,10 @@
 
 import { jsx } from 'theme-ui'
 import Header from './components/header.js'
+import Footer from './components/footer.js'
 import Designers from './components/designers.js'
 import { ScrollProgress, ScrollArrow } from 'components/atoms'
-import { SEO, FancyFooter } from 'components/molecules'
-import { Footer } from 'components/organisms'
+import { SEO } from 'components/molecules'
 
 const Promotions = () => {
 	return (
@@ -22,8 +22,8 @@ const Promotions = () => {
 
 			<Header />
 			<Designers />
-			<Footer light />
-			<FancyFooter />
+
+			<Footer />
 		</div>
 	)
 }
