@@ -1,15 +1,11 @@
 /** @jsx jsx */
 
-import { jsx, Box } from 'theme-ui'
+import { jsx } from 'theme-ui'
 import Header from './components/header.js'
 import Designers from './components/designers.js'
 import { ScrollProgress, ScrollArrow } from 'components/atoms'
 import { SEO, FancyFooter } from 'components/molecules'
 import { Footer } from 'components/organisms'
-
-import data from 'markdown/annual-reports/TwentyTwenty.yaml'
-
-const promotions = data.promotionsPage
 
 const Promotions = () => {
 	return (
@@ -21,11 +17,8 @@ const Promotions = () => {
 				twitterHandle="@liferaydesign"
 			/>
 
-			{/* ----------- SCROLL PROGRESS BAR ---------- */}
 			<ScrollProgress />
 			<ScrollArrow />
-
-			{/* --------- HERO ---------- */}
 
 			<Header />
 			<Designers />

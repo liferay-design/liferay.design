@@ -1,9 +1,9 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Grid, Heading, Box, Text } from 'theme-ui'
+import { jsx, Flex, Grid, Heading, Text } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Link, Image, Container, AnimateIn } from 'components/atoms'
-import { headshotPath, firstWord } from 'utils'
+import { headshotPath, firstWord, makeAuthorSlug } from 'utils'
 
 import yaml from 'markdown/annual-reports/TwentyTwenty.yaml'
 
@@ -56,14 +56,19 @@ export default ({}) => {
 					>
 						{graphqlData.designers.map(({ name }, index) => (
 							<AnimateIn
+								key={index}
 								delay={`${index}` * 0.1 + 's'}
 								sx={{
-									'&:nth-child(2n+0)': {
+									'&:nth-of-type(2n+0)': {
 										mt: 4,
 									},
 								}}
 							>
-								<Box sx={{ position: 'relative' }}>
+								<Link
+									target="_self"
+									to={'#' + makeAuthorSlug(name.id)}
+									sx={{ position: 'relative', display: 'block' }}
+								>
 									<Image
 										sx={{
 											borderRadius: '1rem',
@@ -88,7 +93,7 @@ export default ({}) => {
 										src={headshotPath(name.id)}
 										alt={`${name.id}` + '‘s headshot'}
 									/>
-								</Box>
+								</Link>
 								<Text sx={{ color: 'mainL4' }}>{firstWord(name.id)}</Text>
 							</AnimateIn>
 						))}
@@ -110,5 +115,5 @@ export default ({}) => {
 			</Container>
 		</Flex>
 	)
-	return <section>{Header}</section>
+	return <div>{Header}</div>
 }
