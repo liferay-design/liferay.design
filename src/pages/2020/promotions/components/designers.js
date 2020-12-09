@@ -3,7 +3,7 @@
 import { jsx, Flex, Grid, Heading, Box, Text } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Link, Icon, Image, Container, AnimateIn } from 'components/atoms'
-import { headshotPath, firstWord } from 'utils'
+import { headshotPath, makeAuthorSlug } from 'utils'
 
 const { kebabCase } = require(`lodash`)
 
@@ -35,56 +35,62 @@ export default ({}) => {
 
 	const graphqlData = data.allAnnualReportsYaml.nodes[0].promotionsPage
 
+	const screenshots = [1, 2]
+
 	const Designers = graphqlData.designers.map(
 		({ name, summary, highlights }, index) => (
 			<Flex
 				sx={{
+					flexDirection: 'column',
+					py: '10rem',
 					'&:nth-child(2n+0)': {
 						backgroundColor: 'hsla(205,57%,91%,0.2)',
 						backdropFilter: 'blur(32px)',
-						'> div > :last-child': {
+						'> div#flip > :last-child': {
 							order: '-1',
 						},
 					},
 				}}
 			>
-				<Flex sx={{ maxWidth: '1280px', margin: '10rem auto' }}>
-					<Box sx={{ width: '60%' }}>
-						<Text sx={{ color: 'mainL4' }}>{name.id}</Text>
-						<Heading>{name.title}</Heading>
-						<Text>{summary}</Text>
-						<ul>
-							{highlights.map(i => (
-								<li>{i}</li>
-							))}
-						</ul>
+				<Flex sx={{ maxWidth: '1280px', margin: '4rem auto' }} id="flip">
+					<Box sx={{ width: '50%', mr: '10%' }}>
+						<Text sx={{ color: 'primary', fontSize: 4 }}>{name.id}</Text>
+						<Text
+							as="h1"
+							sx={{ fontSize: 6, maxWidth: '16ch', color: 'black', my: 2 }}
+						>
+							{name.title}
+						</Text>
+						<Text sx={{ fontSize: 4, lineHeight: 1.5 }}>{summary}</Text>
 					</Box>
-					<Box sx={{ width: '40%' }}>
+					<Box sx={{ width: '32%' }}>
 						<Box
 							sx={{
 								position: 'relative',
-								height: '20rem',
-								width: '20rem',
+								height: '16rem',
+								width: '16rem',
 							}}
 						>
 							<Image
 								sx={{
 									borderRadius: '1rem',
 									position: 'absolute',
-									top: 1,
+									top: 2,
 									height: '100%',
 									right: '0',
 									left: '0',
 									filter: 'blur(32px)',
 									opacity: 0.8,
-									zIndex: -1,
+									zIndex: 0,
 								}}
 								src={headshotPath(name.id)}
 							/>
 							<Image
 								sx={{
-									height: '20rem',
+									height: '16rem',
 									borderRadius: '1rem',
+									position: 'relative',
+									zIndex: 1,
 								}}
 								title={name.id}
 								src={headshotPath(name.id)}
@@ -93,11 +99,70 @@ export default ({}) => {
 						</Box>
 					</Box>
 				</Flex>
+				<Flex
+					sx={{ maxWidth: '1280px', margin: '0 auto', flexDirection: 'column' }}
+				>
+					<Flex sx={{ width: '100%', justifyContent: 'space-between', my: 4 }}>
+						{screenshots.map(index => (
+							<Image
+								sx={{ borderRadius: '1rem', width: '90%' }}
+								src={
+									'/images/2020/screenshots/' +
+									makeAuthorSlug(name.id) +
+									'-' +
+									index +
+									'.png'
+								}
+							/>
+						))}
+					</Flex>
+					<Box sx={{ alignSelf: 'flex-start' }}>
+						<Text
+							sx={{
+								color: 'black',
+								fontSize: 4,
+								fontWeight: 'heading',
+								mb: 3,
+							}}
+						>
+							Highlights
+						</Text>
+						<Text sx={{ fontSize: 4 }}>
+							<ul
+								sx={{
+									columns: 2,
+									columnWidth: '24ch',
+									listStyle: 'none',
+									ml: '4ch',
+									'& li': {
+										position: 'relative',
+									},
+									'& li:before': {
+										content:
+											'url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOSAxOSI+CiAgPHBhdGggc3Ryb2tlPSIjMDBCRjc2IiBzdHJva2Utd2lkdGg9IjUiIGQ9Ik0yLjA2MiAxMC43MzZsNS44MDUgNC4wMzdMMTYuNzQ3IDIiLz4KPC9zdmc+Cg==")',
+										position: 'absolute',
+										left: '-3.9ch',
+										width: '.8em',
+									},
+								}}
+							>
+								{highlights.map(i => (
+									<li>{i}</li>
+								))}
+							</ul>
+						</Text>
+					</Box>
+				</Flex>
 			</Flex>
 		),
 	)
 	return (
-		<section sx={{ background: 'url("/images/2020/background.svg") center/cover no-repeat fixed' }}>
+		<section
+			sx={{
+				background:
+					'url("/images/2020/background.svg") center/cover no-repeat fixed',
+			}}
+		>
 			{Designers}
 		</section>
 	)
