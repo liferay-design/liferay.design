@@ -1,19 +1,10 @@
 /** @jsx jsx */
 
-import { jsx, Grid, Box } from 'theme-ui'
+import { jsx, Box } from 'theme-ui'
 import Header from './components/header.js'
 import Designers from './components/designers.js'
-import {
-	Flex,
-	Link,
-	Heading,
-	Container,
-	Image,
-	Icon,
-	ScrollProgress,
-	ScrollArrow,
-} from 'components/atoms'
-import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
+import { ScrollProgress, ScrollArrow } from 'components/atoms'
+import { SEO, FancyFooter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 
 import data from 'markdown/annual-reports/TwentyTwenty.yaml'
@@ -22,7 +13,7 @@ const promotions = data.promotionsPage
 
 const Promotions = () => {
 	return (
-		<div sx={{ fontFamily: 'modes.brand.body' }}>
+		<div sx={{ fontFamily: 'modes.brand.body', color: 'mainL3' }}>
 			<SEO
 				pageTitle="Liferay Design | 2020 Promotions"
 				description="Designers at Liferay are exceptional — a few this year earned title changes based on their hard work and in anticipation of expanded responsibility."
@@ -35,12 +26,10 @@ const Promotions = () => {
 			<ScrollArrow />
 
 			{/* --------- HERO ---------- */}
-			<Box sx={{ background: 'white', height: '100vh' }}>
-				<Header />
-			</Box>
 
+			<Header />
 			<Designers />
-			<Footer />
+			<Footer light />
 			<FancyFooter />
 		</div>
 	)
