@@ -40,10 +40,12 @@ export default ({}) => {
 	const Designers = graphqlData.designers.map(
 		({ name, summary, highlights }, index) => (
 			<Flex
+				id={makeAuthorSlug(name.id)}
+				key={index}
 				sx={{
 					flexDirection: 'column',
 					py: '10rem',
-					'&:nth-child(2n+0)': {
+					'&:nth-of-type(2n+0)': {
 						backgroundColor: 'hsla(205,57%,91%,0.2)',
 						backdropFilter: 'blur(32px)',
 						'> div#flip > :last-child': {
@@ -105,6 +107,7 @@ export default ({}) => {
 					<Flex sx={{ width: '100%', justifyContent: 'space-between', my: 4 }}>
 						{screenshots.map(index => (
 							<Image
+								key={index}
 								sx={{ borderRadius: '1rem', width: '90%' }}
 								src={
 									'/images/2020/screenshots/' +
@@ -147,7 +150,7 @@ export default ({}) => {
 								}}
 							>
 								{highlights.map(i => (
-									<li>{i}</li>
+									<li key={i}>{i}</li>
 								))}
 							</ul>
 						</Text>
