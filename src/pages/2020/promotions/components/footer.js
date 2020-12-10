@@ -1,8 +1,10 @@
 /** @jsx jsx */
 
 import { Helmet } from 'react-helmet'
-import { jsx, Text } from 'theme-ui'
+import { jsx, Flex, Text, Button } from 'theme-ui'
 import { Component } from 'react'
+
+import data from 'markdown/annual-reports/TwentyTwenty.yaml'
 
 export default class FancyFooter extends Component {
 	componentDidMount() {
@@ -14,11 +16,13 @@ export default class FancyFooter extends Component {
 	}
 
 	render() {
+		const quote = data.promotionsPage.quote
+
 		return (
 			<div
 				sx={{
 					width: '100%',
-					height: '50vh',
+					height: '72vh',
 					bottom: 0,
 					position: 'fixed',
 					zIndex: -1,
@@ -36,7 +40,26 @@ export default class FancyFooter extends Component {
                         }`}
 					</style>
 				</Helmet>
-				<Text sx={{ textAlign: 'center' }}>Bye Felicia</Text>
+				<Flex
+					sx={{
+						margin: '16vh auto',
+						flexDirection: 'column',
+						textAlign: 'center',
+						fontSize: '7',
+						fontWeight: 'heading',
+					}}
+				>
+					<Text sx={{ color: 'primaryl2', mb: 4 }}>{quote.content}</Text>
+					<Text
+						sx={{
+							fontSize: '.3em',
+							variant: 'text.caps',
+							letterSpacing: '.5ch',
+						}}
+					>
+						{quote.author}
+					</Text>
+				</Flex>
 			</div>
 		)
 	}
