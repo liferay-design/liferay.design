@@ -21,6 +21,7 @@ const Promotions = () => {
 			<ScrollArrow />
 
 			<Header />
+			
 			<Designers />
 
 			<Footer />
