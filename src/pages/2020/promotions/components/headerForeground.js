@@ -31,6 +31,8 @@ const HeaderForeground = ({}) => {
 					width="100%"
 					viewBox="0 0 1440 900"
 					sx={{
+						width: ['2800px', '100%', null],
+						height: ['100vh', 'auto', null],
 						opacity: 0,
 						'@keyframes fadeIn': {
 							to: {

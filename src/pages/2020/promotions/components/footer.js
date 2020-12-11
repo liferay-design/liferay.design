@@ -45,7 +45,7 @@ export default class FancyFooter extends Component {
 						margin: '16vh auto',
 						flexDirection: 'column',
 						textAlign: 'center',
-						fontSize: '7',
+						fontSize: [5, 7, null],
 						fontWeight: 'heading',
 					}}
 				>
