@@ -1,15 +1,11 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Grid, Heading, Box, Text } from 'theme-ui'
+import { jsx, Flex, Box, Text } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Link, Icon, Image, Container, AnimateIn } from 'components/atoms'
+import { Image } from 'components/atoms'
 import { headshotPath, makeAuthorSlug } from 'utils'
-
-const { kebabCase } = require(`lodash`)
-
-import yaml from 'markdown/annual-reports/TwentyTwenty.yaml'
-
-const promotions = yaml.promotionsPage
+import Background from './background'
+import Foreground from './foreground'
 
 export default ({}) => {
 	const data = useStaticQuery(graphql`
@@ -45,7 +41,7 @@ export default ({}) => {
 				sx={{
 					flexDirection: 'column',
 					py: '10rem',
-					'&:nth-of-type(2n+0)': {
+					'&:nth-of-type(2n+1)': {
 						backgroundColor: 'hsla(205,57%,91%,0.2)',
 						backdropFilter: 'blur(32px)',
 						'> div#flip > :last-child': {
@@ -162,11 +158,14 @@ export default ({}) => {
 	return (
 		<section
 			sx={{
-				background:
-					'url("/images/2020/background.svg") center/cover no-repeat fixed',
+				position: 'relative',
+
+				background: 'white',
 			}}
 		>
+			<Background />
 			{Designers}
+			<Foreground />
 		</section>
 	)
 }
