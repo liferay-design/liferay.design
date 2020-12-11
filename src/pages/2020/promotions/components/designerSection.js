@@ -39,6 +39,8 @@ export default ({}) => {
 				id={makeAuthorSlug(name.id)}
 				key={index}
 				sx={{
+					position: 'relative',
+					zIndex: 2,
 					flexDirection: 'column',
 					py: '10rem',
 					'&:nth-of-type(2n+1)': {

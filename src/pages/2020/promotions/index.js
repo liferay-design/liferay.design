@@ -17,7 +17,6 @@ const Promotions = () => {
 				twitterHandle="@liferaydesign"
 			/>
 
-			<ScrollProgress />
 			<ScrollArrow />
 
 			<Header />
