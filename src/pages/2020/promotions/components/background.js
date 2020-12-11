@@ -45,6 +45,10 @@ const Background = ({}) => {
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 1440 900"
+					sx={{
+						ml: ['-40vw', 'initial', null],
+						height: ['100vh', 'initial', null],
+					}}
 				>
 					{/* <filter
 						id="small"

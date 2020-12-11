@@ -12,7 +12,7 @@ const promotions = yaml.promotionsPage
 
 export default ({}) => {
 	const Header = (
-		<Flex sx={{ background: 'white', height: '100vh' }}>
+		<Flex sx={{ background: 'white', height: ['auto', '100vh', null], py: 5 }}>
 			<Flex
 				sx={{
 					justifyContent: 'center',
@@ -23,7 +23,15 @@ export default ({}) => {
 				}}
 			>
 				<AnimateIn>
-					<Heading sx={{ ml: '17%', mb: 4, color: 'main', fontSize: 6 }}>
+					<Heading
+						sx={{
+							ml: [0, '17%', null],
+							mb: 4,
+							color: 'main',
+							fontSize: 5,
+							px: [2, 0, null],
+						}}
+					>
 						{promotions.title}
 					</Heading>
 				</AnimateIn>
@@ -34,11 +42,12 @@ export default ({}) => {
 					<Text
 						as="h2"
 						sx={{
-							ml: '17%',
-							width: '48ch',
+							ml: [0, '17%', null],
+							px: [2, 0, null],
+							width: ['100%', '48ch', null],
 							lineHeight: '1.5',
 							fontFamily: 'modes.brand.body',
-							fontSize: 4,
+							fontSize: [3, 4, null],
 							fontWeight: 'body',
 						}}
 					>

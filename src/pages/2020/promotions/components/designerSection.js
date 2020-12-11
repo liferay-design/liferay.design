@@ -52,8 +52,16 @@ export default ({}) => {
 					},
 				}}
 			>
-				<Flex sx={{ maxWidth: '1280px', margin: '4rem auto' }} id="flip">
-					<Box sx={{ width: '50%', mr: '10%' }}>
+				<Flex
+					sx={{
+						maxWidth: '1280px',
+						px: [2, 0, null],
+						margin: '4rem auto',
+						flexWrap: ['wrap', 'no-wrap', null],
+					}}
+					id="flip"
+				>
+					<Box sx={{ width: ['100%', '50%', null], mr: '10%' }}>
 						<Text sx={{ color: 'primary', fontSize: 4 }}>{name.id}</Text>
 						<Text
 							as="h1"
@@ -63,7 +71,12 @@ export default ({}) => {
 						</Text>
 						<Text sx={{ fontSize: 4, lineHeight: 1.5 }}>{summary}</Text>
 					</Box>
-					<Box sx={{ width: '32%' }}>
+					<Box
+						sx={{
+							width: ['100%', '32%', null],
+							order: [-1, 'initial', null],
+						}}
+					>
 						<Box
 							sx={{
 								position: 'relative',
@@ -100,9 +113,20 @@ export default ({}) => {
 					</Box>
 				</Flex>
 				<Flex
-					sx={{ maxWidth: '1280px', margin: '0 auto', flexDirection: 'column' }}
+					sx={{
+						maxWidth: '1280px',
+						px: [2, 0, null],
+						margin: '0 auto',
+						flexDirection: 'column',
+					}}
 				>
-					<Flex sx={{ width: '100%', justifyContent: 'space-between', my: 4 }}>
+					<Flex
+						sx={{
+							width: '100%',
+							justifyContent: 'space-between',
+							my: [2, 4, null],
+						}}
+					>
 						{screenshots.map(index => (
 							<Image
 								key={index}
