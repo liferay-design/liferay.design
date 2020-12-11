@@ -4,6 +4,7 @@ import { jsx, Flex, Text } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Link, Image, AnimateIn } from 'components/atoms'
 import { headshotPath, firstWord, makeAuthorSlug } from 'utils'
+import { wrap } from 'lodash'
 
 export default ({}) => {
 	const data = useStaticQuery(graphql`
@@ -32,7 +33,7 @@ export default ({}) => {
 			delay={0.1 + `${index}` * 0.1 + 's'}
 			sx={{
 				'&:nth-of-type(2n+0)': {
-					mt: 4,
+					mt: [3, 4, null],
 				},
 			}}
 		>
@@ -83,8 +84,9 @@ export default ({}) => {
 		<Flex
 			sx={{
 				width: '100%',
-				justifyContent: 'space-between',
+				justifyContent: ['space-around', 'space-between', null],
 				my: 4,
+				flexWrap: ['wrap', 'no-wrap', null]
 			}}
 		>
 			{Headshots}
