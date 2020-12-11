@@ -41,9 +41,11 @@ export default ({}) => {
 					width: '100%',
 				}}
 			>
-				<Heading sx={{ ml: '17%', mb: 4, color: 'main', fontSize: 6 }}>
-					{promotions.title}
-				</Heading>
+				<AnimateIn>
+					<Heading sx={{ ml: '17%', mb: 4, color: 'main', fontSize: 6 }}>
+						{promotions.title}
+					</Heading>
+				</AnimateIn>
 				<Flex
 					sx={{
 						width: '100%',
@@ -54,7 +56,7 @@ export default ({}) => {
 					{graphqlData.designers.map(({ name }, index) => (
 						<AnimateIn
 							key={index}
-							delay={`${index}` * 0.1 + 's'}
+							delay={0.1 + `${index}` * 0.1 + 's'}
 							sx={{
 								'&:nth-of-type(2n+0)': {
 									mt: 4,
@@ -105,19 +107,21 @@ export default ({}) => {
 						</AnimateIn>
 					))}
 				</Flex>
-				<Text
-					as="h2"
-					sx={{
-						ml: '17%',
-						width: '48ch',
-						lineHeight: '1.5',
-						fontFamily: 'modes.brand.body',
-						fontSize: 4,
-						fontWeight: 'body',
-					}}
-				>
-					{promotions.subtitle}
-				</Text>
+				<AnimateIn delay=".5s">
+					<Text
+						as="h2"
+						sx={{
+							ml: '17%',
+							width: '48ch',
+							lineHeight: '1.5',
+							fontFamily: 'modes.brand.body',
+							fontSize: 4,
+							fontWeight: 'body',
+						}}
+					>
+						{promotions.subtitle}
+					</Text>
+				</AnimateIn>
 			</Flex>
 		</Flex>
 	)
