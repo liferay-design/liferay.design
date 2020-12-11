@@ -34,7 +34,7 @@ const Foreground = ({}) => {
 		<Box
 			sx={{
 				variant: 'boxes.fullScreen',
-				zIndex: 1,
+				zIndex: 3,
 			}}
 		>
 			<Plx
