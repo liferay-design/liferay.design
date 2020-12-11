@@ -195,6 +195,7 @@ export default {
 			position: 'fixed',
 			height: '100vh',
 			width: '100vw',
+			pointerEvents: 'none',
 			top: 0,
 		},
 	},
