@@ -5,6 +5,8 @@ import { jsx, Flex, Heading, Text } from 'theme-ui'
 import { AnimateIn } from 'components/atoms'
 
 import yaml from 'markdown/annual-reports/TwentyTwenty.yaml'
+import HeaderBackground from './headerBackground.js'
+import HeaderForeground from './headerForeground.js'
 
 const promotions = yaml.promotionsPage
 
@@ -25,9 +27,9 @@ export default ({}) => {
 						{promotions.title}
 					</Heading>
 				</AnimateIn>
-
+				<HeaderBackground />
 				<Headshots />
-
+				<HeaderForeground />
 				<AnimateIn delay=".5s">
 					<Text
 						as="h2"

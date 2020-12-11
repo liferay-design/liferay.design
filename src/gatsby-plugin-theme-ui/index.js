@@ -197,6 +197,7 @@ export default {
 			width: '100vw',
 			pointerEvents: 'none',
 			top: 0,
+			left: 0,
 		},
 	},
 	styles: {
