@@ -3,7 +3,7 @@
 import { jsx } from 'theme-ui'
 import Header from './components/header.js'
 import Footer from './components/footer.js'
-import Designers from './components/designers.js'
+import Designers from './components/designerSection.js'
 import { ScrollProgress, ScrollArrow } from 'components/atoms'
 import { SEO } from 'components/molecules'
 

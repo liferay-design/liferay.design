@@ -190,6 +190,14 @@ export default {
 			justifyContent: 'center',
 		},
 	},
+	boxes: {
+		fullScreen: {
+			position: 'fixed',
+			height: '100vh',
+			width: '100vw',
+			top: 0,
+		},
+	},
 	styles: {
 		root: {
 			fontFamily: 'body',
