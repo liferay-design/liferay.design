@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Flex } from 'theme-ui'
+import { jsx, Box } from 'theme-ui'
 import Plx from 'react-plx'
 
 const HeaderForeground = ({}) => {
@@ -18,13 +18,13 @@ const HeaderForeground = ({}) => {
 		},
 	]
 	return (
-		<Plx parallaxData={opacity}>
-			<Flex
-				sx={{
-					variant: 'boxes.fullScreen',
-					zIndex: 3,
-				}}
-			>
+		<Box
+			sx={{
+				variant: 'boxes.fullScreen',
+				zIndex: 3,
+			}}
+		>
+			<Plx parallaxData={opacity}>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -129,8 +129,8 @@ const HeaderForeground = ({}) => {
 						</g>
 					</defs>
 				</svg>
-			</Flex>
-		</Plx>
+			</Plx>
+		</Box>
 	)
 }
 
