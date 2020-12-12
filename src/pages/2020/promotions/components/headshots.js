@@ -4,7 +4,6 @@ import { jsx, Flex, Text } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Link, Image, AnimateIn } from 'components/atoms'
 import { headshotPath, firstWord, makeAuthorSlug } from 'utils'
-import { wrap } from 'lodash'
 
 export default ({}) => {
 	const data = useStaticQuery(graphql`
