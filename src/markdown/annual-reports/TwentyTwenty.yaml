@@ -23,25 +23,47 @@ departmentSection:
 promotionsPage:
     title: Congratulations
     designers:
-        - name: 'Victor Valle'
-          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+        - name: 'Andrea Censi'
+          summary: 'Andrea has been leading the design for commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. This advancement from Associate to Mid-level is long overdue. Congrats, Andrea.'
           highlights:
               [
-                  'GS Design Lead',
-                  'Workflow Design Lead',
-                  'Team Collaboration',
-                  'Best Hair: Worldwide',
-                  'Balcony Office',
+                  'Commerce Design Lead',
+                  'Industry recognition',
+                  'Innovative Commerce features',
+                  'Portfolio contributions ',
+              ]
+        - name: 'Emiliano Cicero'
+          summary: 'His evolution from Lexicon to Lima, his maturity from defining elements to complete features and more, the deep level of detail in each of the projects he works on made him cross the mid to senior line. Congrats Emi!'
+          highlights:
+              [
+                  'Lima Design Lead',
+                  'Motion and illustration',
+                  'Leading key platform features',
+              ]
+        - name: 'Miriam Manso'
+          summary: 'Thanks to your work we could enable a fundamental task in the design workflow that was not happening as often as it should. The professionalism of your work and continuous iteration moves you from the associate level to the mid level. Congrats Miriam!'
+          highlights:
+              [
+                  'Strong builder',
+                  'Researcher extraordinaire',
+                  'Budding YouTube star',
+              ]
+        - name: 'Victor Valle'
+          summary: 'In addition to managing the largest region of designers, Victor stepped up this year as an Individual Contributor — delivering value in areas like the Asset Library, Global Menu, and more. Congrats Victor!'
+          highlights:
+              [
+                  '3 years managing EMEA',
+                  'Design Lead for multiple DXP teams',
+                  'Interim Lexicon Lead',
+                  'Cat Caretaker',
               ]
         - name: 'Susana Vázquez'
-          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
+          summary: "Entering her fourth year as a strong IC, Susana continues to demonstrate Liferay's core value of 'Lead by serving' — she's stepped up to fill an opportunity as a people manager and we're excited to see her excel in this. Congrats Su!"
           highlights:
               [
-                  'GS Design Lead',
-                  'Workflow Design Lead',
-                  'Team Collaboration',
-                  'Best Hair: Worldwide',
-                  'Balcony Office',
+                  'First remote designer',
+                  'Consistent key contributor',
+                  'Lead Designer for key DXP features',
               ]
         - name: 'Jon Wood'
           summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
@@ -51,37 +73,6 @@ promotionsPage:
                   'Workflow Design Lead',
                   'Team Collaboration',
                   'Design Mentorship',
-              ]
-        - name: 'Emiliano Cicero'
-          summary: 'His evolution from Lexicon to Lima, his maturity from defining tiny elements to end  to stories, and the deep level of detail in each of the projects he works on made him cross the mid to senior line. Congrats Emi!'
-          highlights:
-              [
-                  'Lima design lead',
-                  'Motion and illustration',
-                  'Team Collaboration',
-                  'Pizza Margarita',
-                  'Figma fan of the year',
-              ]
-        - name: 'Andrea Censi'
-          summary: 'Andrea has been leading the design for commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. This advancement from Associate to Mid-level is long overdue. Congrats, Andrea.'
-          highlights:
-              [
-                  'Commerce Design Lead',
-                  'Commerce Accelerators',
-                  'Improved English to conversational',
-                  'Delivered UX presentation in English',
-                  'Innovative Commerce features',
-                  'Improving DXP with his work',
-              ]
-        - name: 'Miriam Manso'
-          summary: 'Thanks to your work we could enable a fundamental task in the design workflow that was not happening as often as it should. The professionalism of your work and continuous iteration moves you from the associate level to the mid level. Congrats Miriam!'
-          highlights:
-              [
-                  'Strong builder',
-                  'Research reference',
-                  'Team Collaboration',
-                  'Dissect neurons',
-                  'Request your test now',
               ]
     subtitle: 'Please join us in congratulating these designers for pushing themselves to the next level. Great work and continued success. Cheers.'
     quote:
