@@ -28,7 +28,7 @@ export default ({}) => {
 							ml: [0, '17%', null],
 							mb: 4,
 							color: 'main',
-							fontSize: 5,
+							fontSize: [5,6,null],
 							px: [2, 0, null],
 						}}
 					>
