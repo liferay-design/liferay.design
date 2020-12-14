@@ -8,8 +8,8 @@ productName: 'LIFERAY DXP'
 
 Lexicon defines two types of sidebars:
 
--   **Product Menu:** Lets the user navigate through different applications inside the Control Panel and the Site. See [product menu](../../satellites/sidebar/product-menu) for more information.
--   **Info Panel:** An information container to display relevant information that does not fit into the table, list, card, or any other visualization. See [info panel](../../satellites/sidebar/infopanel) for more information.
+-   **Product Menu:** Lets the user navigate through different applications inside the Control Panel and the Site. See [product menu](../../satellite-components/sidebar/product-menu) for more information.
+-   **Info Panel:** An information container to display relevant information that does not fit into the table, list, card, or any other visualization. See [info panel](../../satellite-components/sidebar/infopanel) for more information.
 
 ### Interaction
 

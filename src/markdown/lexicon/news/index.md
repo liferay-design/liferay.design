@@ -179,7 +179,7 @@ Examples, along with images demonstrating the proper usage, have been added to t
 
 <p>Sites</p>
 
-A full set of components is available in the [sites section](../satellites/sites) for you to use to build your own site widgets. This lets you transform old widgets, by bringing them new life with a better information architecture, structure, and a refreshing design.
+A full set of components is available in the [sites section](../satellite-components/sites) for you to use to build your own site widgets. This lets you transform old widgets, by bringing them new life with a better information architecture, structure, and a refreshing design.
 
 <time>November 28th, 2017</time>
 
@@ -197,7 +197,7 @@ Charts and Sites have been documented at their initial stage.
 
 [Charts](../core-components/charts) are a completely new pattern in Lexicon. We want to provide a full set of principles for it to improve accessibility, perception, and interpretation.
 
-[Sites](../satellites/sites) tackles widgets for sites. Lexicon faces a huge improvement in this area towards improving not only the visual aspect, but also the usability in some of our ADTs. Many improvements will come in the near future in this area as the next portal release date grows closer.
+[Sites](../satellite-components/sites) tackles widgets for sites. Lexicon faces a huge improvement in this area towards improving not only the visual aspect, but also the usability in some of our ADTs. Many improvements will come in the near future in this area as the next portal release date grows closer.
 
 <time>November 13th, 2017</time>
 
