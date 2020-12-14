@@ -6,23 +6,13 @@ import styles from './styles.module.scss'
 import { Flex } from 'theme-ui'
 
 const Event = ({
-	url,
-	month,
-	startDay,
-	endDay,
-	headshot,
 	name,
-	detail,
-	location,
-	promotion,
-	birthRay,
+	description,
+	startDate,
+	endDate,
+	url,
+	image,
 }) => {
-	const detailMap = {
-		firstDay: ' started in',
-		birthRay: "'s first birth-ray",
-		promoted: ' promoted to',
-	}
-
 	const designerHired = [
 		{
 			start: 'self',
@@ -48,7 +38,7 @@ const Event = ({
 			],
 		},
 	]
-	const designerHeadshot = [
+	const eventImage = [
 		{
 			start: 'self',
 			duration: '40vh',
@@ -57,32 +47,36 @@ const Event = ({
 		},
 	]
 
+	const startMonth = new Date(startDate).toLocaleDateString('en-us', {month: 'short', timeZone: 'UTC'})
+	const startDay = new Date(startDate).toLocaleDateString('en-us', {day: '2-digit', timeZone: 'UTC'})
+	const endDay = new Date(endDate).toLocaleDateString('en-us', {day: '2-digit', timeZone: 'UTC'})
+
 	return (
 		<Plx parallaxData={designerHired} className={styles.hired}>
-			<div className={`${birthRay ? styles.birthRay : styles.date}`}>
-				<div className={styles.month}>{month}</div>
+			<div className={styles.date}>
+				<div className={styles.month}>{startMonth}</div>
 				<Flex
 					sx={{
 						justifyContent: 'space-between',
 						alignItems: 'center',
 					}}>
 					<div className={styles.day}>{startDay}</div>
-					{endDay ? '\u00A0\u00A0—' : null}
-					<div className={styles.day}>{endDay ? endDay : null}</div>
+					{endDate ? '\u00A0\u00A0—' : null}
+					<div className={styles.day}>{endDate ? endDay : null}</div>
 				</Flex>
 			</div>
 			<Link to={url}>
 				<Plx
 					tagName="img"
-					parallaxData={designerHeadshot}
-					className={styles.designerHeadshot}
-					src={headshot}
+					parallaxData={eventImage}
+					className={styles.image}
+					src={image}
 				/>
 			</Link>
 			<h4 className={styles.pLarge}>
 				{name}
 				<span>
-					{detailMap[detail]}  {location ? location : null} {promotion ? promotion : null}
+					{description}
 				</span>
 			</h4>
 		</Plx>
@@ -90,9 +84,10 @@ const Event = ({
 }
 
 Event.propTypes = {
-	profileUrl: PropTypes.string,
+	image: PropTypes.object,
 	month: PropTypes.string,
-	day: PropTypes.string,
+	startDay: PropTypes.string,
+	endDay: PropTypes.string,
 	name: PropTypes.string,
 	details: PropTypes.string,
 }

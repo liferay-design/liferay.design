@@ -7,8 +7,7 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	.date,
-	.birthRay {
+	.date {
 		border-radius: 8px;
 		position: relative;
 		margin: 4vw 0;
@@ -35,16 +34,12 @@
 			line-height: 1;
 		}
 	}
-	.birthRay ~ .pLarge:after {
-		background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/birthday-cake_1f382.png);
-		width: 0.65em;
-	}
 
 	a {
 		width: 11vw;
 	}
 
-	.designerHeadshot {
+	.image {
 		width: $spacingXSmall;
 		height: $spacingXSmall;
 		border-radius: 50%;
@@ -72,17 +67,6 @@
 		}
 		@media (max-width: 900px) {
 			font-size: 40px;
-		}
-		&:after {
-			content: '';
-			position: absolute;
-			margin: ($spacingXSmall / 2) $spacingXSmall;
-			width: 0.5em;
-			height: 1em;
-			background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/party-popper_1f389.png);
-			background-size: contain;
-			background-position: center;
-			background-repeat: no-repeat;
 		}
 	}
 	@media (max-width: 599px) {
