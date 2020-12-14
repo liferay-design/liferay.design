@@ -1,13 +1,9 @@
-/** @jsx jsx */
-
-import { jsx, Button } from 'theme-ui'
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 import { colors, fontSizes } from 'theme'
-import { Hotkey } from 'components/atoms'
+import { Button } from 'components/atoms'
 import styles from './styles.module.scss'
-import { useHotkeys } from 'react-hotkeys-hook'
 
 const Image = ({
 	align,
@@ -63,13 +59,6 @@ const Image = ({
 			: {}),
 	}
 
-	const hotkeys = 'esc'
-
-	useHotkeys(hotkeys, () => setOpen(open ? !open : open), {
-		keydown: false,
-		keyup: true,
-	})
-
 	return (
 		<figure
 			style={{
@@ -108,9 +97,14 @@ const Image = ({
 					}
 				>
 					<div className={styles.overlay} onClick={() => setOpen(!open)} />
-					<Button onClick={() => setOpen(!open)} sx={{ display: 'flex' }}>
+					<Button
+						onClick={() => setOpen(!open)}
+						textColor="primary"
+						backgroundColor="white"
+						size="medium"
+						weight="heavy"
+					>
 						Close
-						<Hotkey keys={[hotkeys]} />
 					</Button>
 					<img
 						className={styles.expandedImg}
