@@ -86,48 +86,54 @@ timelineSection:
     title: Significant Markers in a Marked Year
     events:
         - event:
-              detail: birthRay
-              designer: wood-jon
-              startDate: 2020-04-15
               name: Jon
+              description: "'s first birth-ray"
+              startDate: 2020-04-15
+              endDate: ''
+              url: '/team/wood-jon'
+              image: '/images/headshots/wood-jon.jpg'
         - event:
-              detail: firstDay
-              designer: santos-victor
-              startDate: 2020-05-18
               name: Victor
-              location: Spain
-        - event:
-              detail: firstDay
-              designer: juarez-crystal
+              description: " started in Spain"
               startDate: 2020-05-18
+              endDate: ''
+              url: '/team/santos-victor'
+              image: '/images/headshots/santos-victor.jpg'
+        - event:
               name: Crystal
-              location: California
+              description: " started in California"
+              startDate: 2020-05-18
+              endDate: ''
+              url: '/team/juarez-crystal'
+              image: '/images/headshots/juarez-crystal.jpg'
         - event:
-              detail: firstDay
               name: Rubén
-              designer: jimenez-ruben
-              startDate: 2020-08-08
-              location: Spain
+              description: " started in Spain"
+              startDate: 2020-08-06
+              endDate: ''
+              url: '/team/jimenez-ruben'
+              image: '/images/headshots/jimenez-ruben.jpg'
         - event:
-              detail: firstDay
-              designer: francisco-marleny
+              name: Marleny
+              description: "'s first birth-ray'"
               startDate: 2020-08-12
-              name: Laura
-              location: Spain
+              endDate: ''
+              url: '/team/francisco-marleny'
+              image: '/images/headshots/francisco-marleny.jpg'
         - event:
-              detail: event
-              url: /team/hanaoka-paul
-              image: /images/headshots/hanaoka-paul.jpg
+              name: Design Week
+              description: ""
               startDate: 2020-11-16
               endDate: 2020-11-19
-              name: Design Week 2020
-              Locaiton: ''
+              url: '/design-week'
+              image: '/images/headshots/hanaoka-paul.jpg'
         - event:
-              detail: promoted
-              designer: hidalgo-juan
-              startDate: 2020-11-17
               name: Juan
-              promotion: 'VP of Design'
+              description: " promoted to VP of Design"
+              startDate: 2020-11-17
+              endDate: 
+              url: '/team/hidalgo-juan'
+              image: '/images/headshots/hidalgo-juan.jpg'
 careerSection:
     pretitle: Grow & Get Better
     title: Design Careers

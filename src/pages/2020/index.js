@@ -7,7 +7,6 @@ import { Link, Image, Icon, ScrollProgress, ScrollArrow } from 'components/atoms
 import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 
-import moment from 'moment'
 import MediaQuery from 'react-responsive'
 import Plx from 'react-plx'
 
@@ -258,24 +257,13 @@ const TwentyTwenty = () => {
 						</div>
 						{data.timelineSection.events.map(({ event }) => (
 							<Event
-								url={event.designer ? '/team/' + `${event.designer}` : event.url}
-								month={moment(event.startDate).format('MMM')}
-								startDay={moment(event.startDate).format('DD')}
-								endDay={
-									event.endDate ? moment(event.endDate).format('DD') : null
-								}
-								headshot={
-									event.designer ? '/images/headshots/' + `${event.designer}` + '.jpg' : event.image
-								}
 								name={event.name}
-								detail={event.detail}
+								description={event.description}
+								startDate={event.startDate}
+								endDate={event.endDate}
 								location={event.location}
-								birthRay={
-									event.detail == 'birthRay' ? 'birthRay' : null
-								}
-								promotion={
-									event.detail == 'promoted' ? `${event.promotion}` : null
-								}
+								url={event.url}
+								image={event.image}
 							/>
 						))}
 					</Flex>
