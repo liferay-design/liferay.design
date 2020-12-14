@@ -34,6 +34,7 @@ export default function SearchInput({ id }) {
 				onBlur={showKeys}
 				id={id}
 				placeholder="Search"
+				className={styles.input}
 			/>
 			<Flex
 				sx={{
