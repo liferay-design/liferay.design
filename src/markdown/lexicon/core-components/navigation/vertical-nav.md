@@ -19,25 +19,6 @@ Vertical Navigation is commonly used in form templates. We recommend that you sp
 
 ![Vertical navigation component in a page context](/images/lexicon/NavigationVerticalExample.jpg)
 
-
-### States
-
-#### Default state
-
-![Navigation entry in default state](/images/lexicon/NavigationVerticalStatusDefault.jpg)
-
-#### Hover state
-
-![Navigation entry in hover state](/images/lexicon/NavigationVerticalStatusHover.jpg)
-
-#### Active state
-
-![Navigation entry in active state](/images/lexicon/NavigationVerticalStatusActive.jpg)
-
-#### Selected state
-
-![Navigation entry in selected state](/images/lexicon/NavigationVerticalStatusSelected.jpg)
-
 ### Attributes
 
 The images below illustrate the item spacing composition.

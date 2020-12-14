@@ -21,7 +21,7 @@ Lists support several text labels in a column, as shown in the examples below.
 
 ### Row states
 
-#### Default state
+#### Default states
 
 ![list entry in default state](/images/lexicon/ListViewDefault.jpg)
 

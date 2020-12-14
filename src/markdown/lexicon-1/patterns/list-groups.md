@@ -31,7 +31,7 @@ Whenever you need to group series of list entries, you can use the list group he
 
 ### Row states
 
-#### Default state
+#### Default states
 
 ![list entry in default state](/images/lexicon-1/listItem.png)
 
