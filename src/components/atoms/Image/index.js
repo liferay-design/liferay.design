@@ -1,13 +1,10 @@
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
-import React, { useState } from 'react'
+import React from 'react'
 import {colors, fontSizes } from 'theme'
-import { Button } from 'components/atoms'
 import styles from './styles.module.scss'
 
-export default Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, external, expandable, expandedSrc, ...props }) => {
-
-	const [ open, setOpen ] = useState(false)
+export const Image = ({ align, caption, circle, dropShadow, rounded, margin, size, src, alt, external, ...props }) => {
 
 	const sizes = {
 		small: '50%',
@@ -41,17 +38,14 @@ export default Image = ({ align, caption, circle, dropShadow, rounded, margin, s
 			? { boxShadow: '0 0.5rem 8rem -0.5rem rgba(48, 49, 63, 0.16)' }
 			: {}),
 	}
-
 	
 	return (
 		<figure
 			style={{
 				...figureStyles,
 			}}
-			className={expandable ? styles.expandable : ""}
 		>
 			<img
-				onClick={() => setOpen(!open)}
 				{...props}
 				style={{
 					...imgStyles,
@@ -72,30 +66,6 @@ export default Image = ({ align, caption, circle, dropShadow, rounded, margin, s
 					{caption}
 				</figcaption>
 			) : null}
-			{expandable ? (
-				<div
-					className={open === true ? [styles.expandedImageContainer, styles.open].join(' ') : styles.expandedImageContainer}
-					>
-					<div
-						className={styles.overlay}
-						onClick={ () => setOpen(!open)}/>
-					<Button
-						onClick={ () => setOpen(!open)}
-						textColor="primary"
-						backgroundColor="white"
-						size="medium"
-						weight="heavy"
-						>
-							Close
-					</Button>
-					<img
-						className={styles.expandedImg}
-						alt={alt ? alt : caption}
-						src={external ? `${expandedSrc}` : withPrefix(`${expandedSrc}`)}
-						loading="lazy"
-						/>
-				</div>
-			) : null}
 		</figure>
 	)
 }
@@ -111,6 +81,6 @@ Image.propTypes = {
 	rounded: PropTypes.bool,
 	size: PropTypes.string,
 	src: PropTypes.string,
-	expandable: PropTypes.bool,
-	expandedSrc: PropTypes.string,
 }
+
+export default Image
