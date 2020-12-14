@@ -22,8 +22,6 @@ const Image = ({
 }) => {
 	const [open, setOpen] = useState(false)
 
-	const bigPic = expandedSrc ? expandedSrc : src
-
 	const sizes = {
 		small: '50%',
 		medium: '100%',
@@ -109,7 +107,7 @@ const Image = ({
 					<img
 						className={styles.expandedImg}
 						alt={alt ? alt : caption}
-						src={external ? `${bigPic}` : withPrefix(`${bigPic}`)}
+						src={external ? `${expandedSrc}` : withPrefix(`${expandedSrc}`)}
 						loading="lazy"
 					/>
 				</div>
