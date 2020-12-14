@@ -16,15 +16,25 @@ const Carousel = ({ slides }) => {
 
 		const delay = 5000
 
+		const slidesCount = slides.length					
+						
+		// AUTO ADVANCE SLIDES
 		const [current, setCurrent] = useState(0)
 
-		const slidesCount = slides.length
-
+		const [isActive, setIsActive] = useState(true);
+		
+		const next = (current + 1) % slidesCount
+		
 		useEffect(() => {
-			const next = (current + 1) % slidesCount
-			const id = setTimeout(() => setCurrent(next), delay)
-			return () => clearTimeout(id)
-		}, [current])
+			
+			if (isActive) {
+				const id = setTimeout(() => {
+					setCurrent(next)
+				}, delay)
+				return () => clearTimeout(id)
+			}
+			
+		}, [isActive, current])
 		return (
 			<Flex
 				sx={{ flexDirection: 'column', alignItems: 'center', width: '100vw' }}
@@ -46,7 +56,10 @@ const Carousel = ({ slides }) => {
 				>
 					{slides.map((slide, i) => (
 						<div
-							onClick={() => setCurrent(i)}
+							onClick={
+								current === i
+								? () => setIsActive(false)
+								: () => {setCurrent(i), setIsActive(true)}}
 							className={
 								current === i
 									? [styles.slide, styles.currentSlide].join(' ')
@@ -81,19 +94,23 @@ const Carousel = ({ slides }) => {
 				<Flex sx={{ marginTop: '2rem' }}>
 					{slides.map((slide, i) => (
 						<div
-							onClick={() => setCurrent(i)}
+							onClick={() => {setCurrent(i), setIsActive(true)}}
 							className={
 								current === i
 									? [styles.indicator, styles.currentIndicator].join(' ')
 									: styles.indicator
 							}
+							key={i}
 						>
 							<div className={styles.indicatorBackground}>
-								<div className={styles.activeIndicator} />
+								<div
+									className={styles.activeIndicator}
+									style={{scaleX: "1"}} />
 							</div>
 						</div>
 					))}
 				</Flex>
+				State: {isActive ? "active" : "inactive"} <br/> {current}
 			</Flex>
 		)
 	}
