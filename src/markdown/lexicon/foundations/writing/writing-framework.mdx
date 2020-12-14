@@ -8,75 +8,24 @@ draft: false
 
 import { Grid, Box } from 'theme-ui'
 
-### Be clear and concise
+### Be concise
 
-Always include information that helps users understand the interface better. However, remove irrelevant ideas, details, or words if it adds more noise to their workflow. 
+Remove extra words and irrelevant ideas or details. Keep sentences short and break up long paragraphs.
 
-#### Keep sentences short
+* Try to limit a sentence to less than 20 words
+* Don't speak abstractly
 
-Try to limit a sentence to less than 20 words
-
-<br />
-
-<Grid variant='smallCards' >
-	<Box>
-		<p class="example-text">Selecting an application will copy its data to staging. Staged content may not be editable in a live environment.</p>
-		<br />
-		<p class="do">Do</p>
-	</Box>
-	<Box>
-		<p class="example-text">When an application is checked, its data is copied to staging and it may not be possible to edit them directly in live.</p>
-		<br />
-		<p class="dont">Don't</p>
-	</Box>
-</Grid>
-
-<br />
-<br />
-
-#### Don't speak abstractly
-
-Use concrete words to convey ideas. Avoid abstract words that can be left to interpretation.
 
 <br />
 
 <Grid variant='smallCards' >
 	<Box>
-		<p class="example-text">Your A/B test has declared a winner.</p>
+		<p class="example-text">Staged content may not be editable in a live environment. Deselecting unpublished applications may result in a loss of changes.</p>
 		<br />
 		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p class="example-text">Your A/B test is successful.</p>
-		<br />
-		<p class="dont">Don't</p>
-	</Box>
-</Grid>
-
-<br />
-<br />
-
-#### Reveal information as needed
-
-Provide just enough information to safely and effectively complete the task at hand. Don’t complicate the task by worrying what could happen down the line.
-
-<br />
-
-<Grid variant='smallCards' >
-	<Box>
-		<strong class="example-text">Events screen</strong>
-		<p class="example-text">This is the data model of events sent to Analytics Cloud.</p>
-		<br />
-		<strong class="example-text">Hidden events tab</strong>
-		<p class="example-text">This event has been set to hidden due to 30 days of inactivity.</p>
-		<br />
-		<strong class="example-text">30 days prior to deletion</strong>
-		<p class="example-text">Inactive events will be automatically deleted in X days.</p>
-		<br />
-		<p class="do">Do</p>
-	</Box>
-	<Box>
-		<p class="example-text">This is the data model of events sent to Analytics Cloud. Inactive events will automatically be set to hidden after 30 days of inactivity and removed if inactive for the duration of the retention period.</p>
+		<p class="example-text">When an application is checked, its data is copied to staging and it may not be possible to edit them directly in live. When unchecking an application, make sure that any changes done in staging are published first, because otherwise they might be lost.</p>
 		<br />
 		<p class="dont">Don't</p>
 	</Box>
@@ -86,7 +35,7 @@ Provide just enough information to safely and effectively complete the task at h
 ### Use an active voice (mostly)
 
 
-An active voice is more clear, direct, and easy to read. With an active voice, the subject performs the action. Use an active voice when writing longer messages.
+An active voice is more clear, direct, and easy to read. With an active voice, the subject performs the action. 
 
 <br />
 
@@ -96,12 +45,12 @@ An active voice is more clear, direct, and easy to read. With an active voice, t
 
 <Grid variant='smallCards' >
 	<Box>
-		<p class="example-text">Your workspace supports custom time zones...</p>
+		<p class="example-text">Your workspace supports custom time zones</p>
 		<br />
 		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p class="example-text">Custom time zones are supported by your workspace...</p>
+		<p class="example-text">Custom time zones are supported by your workspace</p>
 		<br />
 		<p class="dont">Don't</p>
 	</Box>
@@ -111,21 +60,18 @@ An active voice is more clear, direct, and easy to read. With an active voice, t
 
 <Grid variant='smallCards' >
 	<Box>
-		<p class="example-text">This publication contains conflicting changes that must be manually resolved before publishing...</p>
+		<p class="example-text">This publication contains conflicting changes that must be manually resolved before publishing.</p>
 		<br />
 		<p class="do">Do</p>
 	</Box>
 	<Box>
-		<p class="example-text">Conflicting changes that must be manually resolved before publishing are contained in this publication...</p>
+		<p class="example-text">Conflicting changes that must be manually resolved before publishing are contained in this publication.</p>
 		<br />
 		<p class="dont">Don't</p>
 	</Box>
 </Grid>
 
 <br />
-
-Passive voice delivers a concise message that sounds better when omitting the subject. Use a passive voice as a response to an action or to soften negative statements. 
-
 
 **Object-verb format**
 
@@ -133,7 +79,7 @@ Passive voice delivers a concise message that sounds better when omitting the su
 
 <Grid variant='smallCards' >
 	<Box>
-		<p class="example-text">Download complete.</p>
+		<p class="example-text">Download complete</p>
 		<br />
 		<p class="do">Do</p>
 	</Box>
@@ -150,7 +96,7 @@ Passive voice delivers a concise message that sounds better when omitting the su
 
 <Grid variant='smallCards' >
 	<Box>
-		<p class="example-text">15 pages deleted.</p>
+		<p class="example-text">15 pages deleted</p>
 		<br />
 		<p class="do">Do</p>
 	</Box>
