@@ -178,9 +178,9 @@ export default {
 			px: 1,
 			py: 0,
 			mx: '.2ch',
-			bg: 'mainL8',
+			bg: 'white',
 			borderRadius: '2px',
-			border: theme => 'solid 1px ' + theme.colors.mainL5,
+			border: theme => 'solid 2px ' + theme.colors.mainL6,
 		},
 	},
 	space: [0, '.4rem', '1rem', '2rem', '3rem', '8rem', '16rem', '32rem'],
@@ -231,7 +231,7 @@ export default {
 		interviewee: {
 			position: 'absolute',
 			ml: '-4rem',
-			mt: '-.5rem',
+			mt: 0,
 			height: '3rem',
 			width: '3rem !important',
 			borderRadius: '50%',
@@ -301,7 +301,7 @@ export default {
 			gap: '2rem',
 		},
 	},
-	wrappers: {
+	wrapper: {
 		markdown: {
 			px: [3, 3, null],
 			py: [2, 3, null],
@@ -338,7 +338,7 @@ export default {
 		},
 	},
 	input: {
-		backgroundColor: '#f1f2f5',
+		backgroundColor: 'white',
 		border: '.0625rem solid #e7e7ed',
 		borderRadius: '.25rem',
 		boxShadow: '0 0 transparent',

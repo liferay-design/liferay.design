@@ -5,6 +5,7 @@ backend:
     name: github
     repo: liferay-design/liferay.design
     branch: master # Branch to update (optional; defaults to master)
+    open_authoring: true
 
 local_backend: true
 media_folder: static/images/uploads
@@ -58,6 +59,7 @@ collections:
     - name: articles
       label: Articles
       folder: src/markdown/articles/
+      media_folder: static/images/articles/
       path: '{{year}}/{{slug}}'
       create: true
       fields:

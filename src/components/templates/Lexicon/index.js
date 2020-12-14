@@ -1,7 +1,15 @@
 /** @jsx jsx */
 
 import { jsx, Grid } from 'theme-ui'
-import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
+import {
+	ContainerMarkdown,
+	Flex,
+	Icon,
+	SiteName,
+	Text,
+	Link,
+	PrivateComponent,
+} from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { Footer, PreviousNext, Sidebar } from 'components/organisms'
@@ -40,7 +48,7 @@ export default class Lexicon extends Component {
 		const seoDescription =
 			`${post.frontmatter.title}` + ' on Lexicon by Liferay.Design'
 		const seoImage = 'https://liferay.design/images/resources/lexicon-cover.png'
-console.log(mdx.id, 'id') 
+		console.log(mdx.id, 'id')
 		return (
 			<div className={`${lexicon.theme} ${documentation.theme}`}>
 				<Helmet>
@@ -76,7 +84,6 @@ console.log(mdx.id, 'id')
 				</Helmet>
 				<MediaQuery maxWidth={767}>
 					{matches => {
-						
 						return (
 							<Grid
 								sx={{ variant: 'grids.sideNav' }}
@@ -133,14 +140,17 @@ console.log(mdx.id, 'id')
 											</Link>
 										) : null}
 
-
 										{mdx.frontmatter.docLink ? (
-											<Link
+											<PrivateComponent
 												className={lexicon.labelInfo}
-												to={mdx.frontmatter.docLink}
 											>
-												Documentation
-											</Link>
+												<Link
+													className={lexicon.labelInfo}
+													to={mdx.frontmatter.docLink}
+												>
+													Documentation
+												</Link>
+											</PrivateComponent>
 										) : null}
 
 										{mdx.frontmatter.productName ? (
@@ -174,12 +184,12 @@ console.log(mdx.id, 'id')
 									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
-									<Icon name="lexicon" color='white' height='2em' />
+									<Icon name="lexicon" color="white" height="2em" />
 
 									{this.state.mobileSidebarVisible ? (
 										<Icon
 											name="close"
-											color='white'
+											color="white"
 											onClick={this.toggleMobileSidebarVisibility}
 										/>
 									) : (

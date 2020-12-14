@@ -9,6 +9,7 @@ import Icon from './Icon'
 import Image from './Image'
 import Link from './Link'
 import NiceLink from './NiceLink'
+import PrivateComponent from './PrivateComponent'
 import ScrollArrow from './ScrollArrow'
 import ScrollProgress from './ScrollProgress'
 import SiteName from './SiteName'
@@ -27,6 +28,7 @@ export {
 	Text,
 	Container,
 	ContainerMarkdown,
+	PrivateComponent,
 	ScrollArrow,
 	ScrollProgress,
 	SiteName,

@@ -1,7 +1,7 @@
 ---
-jobId: oD1Pcfwp
-date: 2020-06-07T07:00:00Z
-title: Product Designer
+jobId: oO5XdfwN
+date: 2020-11-16T00:20:00Z
+title: Senior Product Designer
 office: Madrid
 featuredImage: '/images/articles/madrid-team-event.jpg'
 published: false
@@ -17,7 +17,7 @@ To learn more about who you'd be working with, get acquainted with [the team](/t
 
 A product designer to add value to our core product, Liferay DXP. A person that has high visual, interaction and strategy skills to help us accomplish our roadmap. This roadmap drives us to take web experience to a next level where different roles can do more in an easier way, where users can be more autonomous independently of their technical level.
 
-You’ll work in Lexicon, our Design System. You will create components, solutions and take design decisions that are transversal to all our products in Liferay. Besides your team, there are more product teams working in different pieces of a global roadmap. You will have to discuss and align your designs and interactions along with other product designers.
+You’ll work in a product team creating and improving functionalities. You will use Lexicon and probably part of your work and need will make it stronger. Besides your team, there are more product teams working in different pieces of a global roadmap. You will have to discuss and align your designs and interactions along with other product designers.
 
 We care deeply about designing great experiences that solve real-world business problems, and we do it without sacrificing our aesthetic standards.
 
@@ -38,7 +38,7 @@ We care deeply about designing great experiences that solve real-world business 
 -   Do you have demonstrable passion for usability?
 -   Can you design sans ego?
 -   Are you a [T-shaped designer](https://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoaes-collaborative-culture__trashed/)?
--   In case we forgot anything, [Seth Godin’s list](https://seths.blog/2018/04/missing-from-your-job-description/) should cover it :)
+
 
 ## How Do Liferay’s Core Values Look in the Design Team?
 

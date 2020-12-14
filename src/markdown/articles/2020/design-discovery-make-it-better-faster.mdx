@@ -1,0 +1,91 @@
+---
+author: 'Chris Jeong'
+date: '2020-06-20'
+title: 'Design Discovery: Make it Better, Faster'
+featuredImage: '/images/articles/dbp/the-design-process.png'
+publish: true
+---
+
+_Liferay Analytics Cloud is planning a new feature to go beyond basic, out-of-the-box reports and provide for the specific reporting needs of our customers. This post is about the discovery phase — benchmarking against competitors, testing on potential users, and gathering customer feedback before a single line of code is committed._
+
+_In this post I will share a few of the things we solved prior to gathering customer feedback, to demonstrate the value that even basic, internal user-testing provides to product teams._
+
+When we were first designing our product MVP, we recognized the need to track things beyond vanity metrics like views and bounce rate. While it's an important feature, it wasn't critical for the viability or our product — so we didn't launch with it. However, as our customer base continues to grow, this need has become increasingly more relevant. Because our customers are using Liferay DXP to provide “endless solutions”, Analytics Cloud needs to keep up and reflect the performance of these solutions in our reporting. 
+
+Earlier this year, we saw the need to add another level of customization for customers like:
+
+-   A commerce site reporting on top items added to shopping carts.
+-   An intranet better understanding the impact of different referrers on viewing a company wide announcement.
+-   A customer portal comparing which article topics are being read vs. support tickets topics are being created.
+
+This is the level of understanding we believe our customers require to deliver quality experiences for their users — and we can provide this to them with Analytics Cloud.
+
+## Design Strategy
+
+Close collaboration and good communication are critical for the designer / product manager relationship. One of the artifacts that we use to communicate is our product roadmap. Because we work on this together — it keeps all parties informed about what's coming down the pipeline. This allows us to work on long term features, while concurrently meeting immediate customer needs. 
+
+<Image
+	expandable
+	margin="0 0 0 2rem"
+	src="/images/articles/design-discovery/this-is-the-way.jpg"
+	caption="Our roadmap."
+	size="small"
+	align="right"
+	rounded
+	dropShadow
+/>
+
+As this is a new feature, we want to ensure it provides value for our users and be as resource conscious as possible, by [building the right thing](http://radar.oreilly.com/2014/02/building-the-right-thing-vs-building-the-thing-right.html). We approached this validation in 3 stages:
+
+1. Competitive landscape analysis
+1. User testing
+1. Customer feedback
+
+### Competitive Analysis
+
+This feature is not a new idea and has been widely adopted across the industry. Large enterprise companies like Google and Adobe have their own products and features to support it while more focused analytics companies like Mixpanel and Amplitude built their entire platform around this feature. As a late entrant, we have benefited by being able to studying these implementations to jump start our ideation process.
+
+### User Research
+
+We’ve had 2 rounds of user feedback cycles so far.
+
+The first was a quick iteration cycle where I presented a low fidelity wireframe to one of our resident data analysts (outside of our product team) to get qualitative feedback based on his experience. He identified a few critical functions that could help define our MVP. Some things learned were:
+
+-   Previous period comparison is key
+-   Sum and Average are critical, other calculations are nice to have
+-   Comparing multiple events is useful, Google does 2 (would like 3)
+-   Would like to compare up to 2 years of data
+
+Once those changes were made, we tapped the design research team to conduct our first official user testing session. 
+
+We conducted this test while still in the discovery phase — no code was written, no grooming was done — just a Figma prototype. At a macro level, we were trying to understand whether the design was learnable and matched the mental model of our potential user. At a more micro level, we were trying to document areas of friction and low levels of understanding.
+
+<Image
+	margin="4rem 0"
+	src="/images/articles/design-discovery/researcher.jpg"
+	caption="A dramatization of Miriam looking for usability problems in my prototype."
+	size="Large"
+	rounded
+	dropShadow
+/>
+
+### Results
+
+Every user was able to complete all 5 tasks, much success! But, to stay on theme here, **vanity metrics can be misleading**.
+
+During each test, our researcher captured comments made by our test participants and reported her personal observations. By removing myself and my biases from the testing process, we were able to discover some gaps that could impact our user’s understanding and overall experience _(AKA qualitative gold)_. A few key areas we discovered users struggling in:
+
+-   Knowing where to start (!)
+-   Understanding the line chart and it’s usefulness when comparing lots of data
+-   Understanding the relationship of events and attributes used for the analysis
+-   Associating the analysis to it’s time period
+
+### Customer Feedback
+
+After taking the necessary steps to fill the gaps in our prototypes, we're confident that further testing with customers will provide even more value. Instead of having them uncover low-level issues, we're hoping they'll be able to provide high quality insights and feedback that we can use to further refine not only the designs, but also sales and marketing content.
+
+This has all been done before a single line of code was ever committed. It's difficult to measure the impact this has on product quality (another post for another time) — but it's easy to see that had we launched this feature without any testing, we would have spent a significant amount of time and effort to fix the issues that we uncovered with fairly minimal cost. 
+
+Making quality products is a team effort — in this case people from product management, customer success, marketing, and others contributed. Huge thanks to [@Miriam](/team/manso-miriam) for the work in user testing. 
+
+In a future post, I'll share our process and results from customer feedback sessions — so check back!

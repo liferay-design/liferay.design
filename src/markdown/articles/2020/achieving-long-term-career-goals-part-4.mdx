@@ -1,0 +1,82 @@
+---
+author: 'Jon Wood'
+date: '2020-10-24'
+pretitle: 'Part 4'
+title: 'Rethinking Career Goals: Skills and Tools'
+subtitle: 'Skills and Tools'
+featuredImage: '/images/articles/3-months-at-liferay/feature-image.png'
+publish: false
+---
+
+import { Image as ThemeImage, Text as ThemeText, Box } from 'theme-ui'
+import { withPrefix } from 'gatsby'
+
+export const Quote = ({ children, ...props }) => (
+	<ThemeText {...props}>{children}</ThemeText>
+)
+
+export const Interviewee = ({ headshot }) => (
+	<Box sx={{ mt:4, display: 'block' }}>
+		<ThemeImage
+			sx={{
+				variant: 'images.interviewee',
+			}}
+			src={headshot}
+		/>
+	</Box>
+)
+
+export const Jon = () => (
+	<Interviewee headshot={withPrefix('images/headshots/wood-jon-h.jpg')} />
+)
+
+export const Keming = () => (
+	<Interviewee headshot={withPrefix('images/articles/keming.png')} />
+)
+
+> At the end of the day, design is about problem solving. It's about solving the problems as specifically and as effectively as possible... if it's just like sexy marketing, you really need to evaluate how this is going to contribute to your actual growth.
+
+
+<Keming />
+
+We run a network for junior and mid-level designers called the Keming Network. We told them that we were talking to you, gave them a little bit of your info and they were super excited to ask questions. One of the questions was that in looking at just kind of like a UX job listing on Liferay states that expertise in coding languages such as HTML and CSS are a plus.
+
+What are your thoughts around designers learning to to code? I know that when we both got into design, I tried to learn a little bit of everything at once. What are your thoughts?
+
+<Jon />
+
+Yeah, I have a strong opinion about it. I think that designers will benefit from learning how to code. I do not think that is an absolute requirement, our listing shows that it's a plus. If a company does have it as a requirement, I think it's understandable. I think it's understandable because then it improves the designer's ability to translate their design into something where a developer can actually implement it through a common understanding and like talking through it and saying, like, I thought this was an article and like I would use this script here and three columns here. And so, like, you can kind of speak the lingo, but I don't think you actually need to have this whole coding portfolio. Right. Like, I think you first take a step back and say, like, should designers learn to code? And then it should be. Well, if you think you should, why do you think you should write? And is it that you need to actually learn how to code something complete from end to end, or you just need to understand how code works? There's a big difference there. Right. And I would say that for myself, like I haven't built that many things in code, but I understand, I think a fair amount of work because I'm interested in it for one.
+
+But like, it definitely helps me be able to talk to my engineers because we run into these things where maybe they're not informed on how to approach it because, like, translating a design then requires some type of explanation as far as like maybe like responsiveness or certain interactions or just like why does it go there? And like, what can they expect of the data does change, like how to anticipate all these types of things. And so I would say this, right. Like learning how to code is like what? At least in our company we have this like engineering skill as a designer and we have like other other skills that are in product design, like visual strategy, interaction, and I think like engineering just one arm to it. And so if let's just say you are not that comfortable of actually like learning actual code, but like you're using principle. Right. You're using that animation tool, using after effects, using Sigma to do animation, interaction design like did kill it and like show how you can specialize to be an expert in a different way. And it's not so much like you got to be a unicorn for sure.
+
+Like that's. Not what companies like really need. They need people that are just good at their craft and you'll find the right fit in that way. And so whatever it may be, whether if it is engineering and coding or if it is just like US strategy and just like I'm really just like awesome about like doing research and user testing like like go for that. Like, we only have so much time and resources to allocate. Right. And this is not the only place to place it. Right. But it's available one. I appreciate it. I like it. I like to see the benefits of talking to my engineers. And, you know, there's things that I pitch. And like today I pitched if we can consider container queries and the like. Oh, yeah, we'll look into it and stuff. And I was like, oh, that's cool. I like read up on that. And I kind of knew about it, but I don't think that. If I didn't know that that that part of, you know, like that that coding technique or whatever, that the solution I designed would not work. There's other ways around it to implement it.
+
+<Keming />
+
+Yeah, our last question and you kind of hinted at it a little bit from our network, is someone asked —
+
+> "Sometimes in this industry, I feel as though there is pressure to constantly be learning new design tools and frameworks in order to stay competitive, especially since we only have so much time. Do you feel that pressure, too? And if so, how do you balance that pressure with other passions and interests outside design?"
+
+<Jon />
+
+Yeah, the balance part is so important. So let's start there. Let's not forget that as much as you feel that pressure, like you're like we all are going to be burnt out at a certain level. And so unless we are disciplined about balance or at least can communicate to either our team or managers about how to maintain that balance, like. Like, you're not going to get far as you want to be, right, as far as, like, actually learning the design tools and frameworks and staying competitive, like I would say, I hope that it is interesting to you and that you are wowed by it. I do read about a lot of things online about how like over time when you get older, you're not as hungry and you get comfortable, whether it's in design or in development or business, whatever it may be. But like, I don't know, like I think no matter what your your your, your work is and I think especially in design and in tech and everything, like men like it's really we scratch the tip of the iceberg. Right. And so understand that there is just going to be so much out there and also understand you're not going to learn at all. And so enjoy the journey of of trying to learn by it.
+
+And don't think that just because a job listing like says like it'd be good if you knew Framer, that now you have to like dedicate your nights and weekends to just learning at all because what's the purpose of of learning that tool. Yeah, I'd like to use it, but I think you need to before you start learning things. I think you need to understand why do I need to learn something or pick up something new and evaluate it before you invest. You don't want to be tossed to and fro because men like the design world changes so quickly, the tech world changes so quickly. You have to know that at the end of the day, design is about problem solving. It's about solving the problems as specifically and as effectively as possible. And if these tools or frameworks enable that to make that much of a difference, then OK, maybe look into it. But if it's just like sexy marketing, like. We all fall for it, but like, come on, like, you know, watch out for yourself to to to really be going down this rabbit hole, you know. And so, yeah, I think that you really need to evaluate how this is going to contribute to your actual growth.
+
+And, yeah, at the end of the day, like you're going to be proving to companies that you're valuable based upon your past work, not based upon your knowledge about whatever tool or framework. Those things are additional things, but it's really about like what you've done.
+
+<Keming />
+
+This was this was awesome, John, thank you so much for taking the time out of your out of your evening.
+
+<Jon />
+
+Am I able to do, like, a shameless plug or just go right ahead? Yeah. I mean, our team, you know, we're constantly trying to help out the design community. And so our website is Liferay.design. We have a team bios and stuff on there, but like we have a lot of open source resources. Our company actually is an open source software company, and so we believe in open source. And yeah, I think design in open source is still. I don't know, like either a new thing or not a thing, you know, I don't really hear about it too much, but like, we firmly believe in it. And so, yeah, you can go to our site there. And one of our team members names, Abel, he contributes a lot to the community with a lot of different templates that really get you up and running. And so we'll have those on our site as well if we really want help. Other designers and you know, when covid was not a thing, we hosted events and we post them on there and stuff. And so job openings as well. If you want to go there and take a look, we are trying to grow our team.
+
+<Keming />
+
+Jon, it was a pleasure. Thanks so much for taking the time to chat with us tonight. I know it's late, but I really do appreciate the time.
+
+_If you like that conversation, go ahead and subscribe so you can be notified of our future discussions. Special thanks to members of the coming network for giving us incredibly thoughtful questions to ask our guests. If you found this discussion compelling and you think you or someone you know could be a good candidate for us to interview and help us bring some light to the mysterious and often opaque world of careers in design. Shoot us an email at podcast at kemming.io._
+
+_You can find us and follow us on LinkedIn and Twitter or sign up for our community at [kemming.io/network](https://keming.io/network)._
