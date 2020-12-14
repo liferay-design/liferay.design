@@ -9,28 +9,15 @@ order: 313
 draft: false
 ---
 
-![vertical navigation component](/images/lexicon/NavigationVertical.jpg)
+![vertical navigation](/images/lexicon/NavigationVertical.jpg)
 
 ### Usage
 
-This pattern is always vertical and placed on the left side of the form. It provides navigation between different pages/forms. Commonly, this navigation pattern is used in lower navigation levels to reach the lowest level pages.
+This pattern is always vertical and placed to the left of the form. It provides navigation between different pages/forms. Normally, this navigation pattern is used in lower navigation levels to reach the lowest level pages.
 
-Vertical Navigation is commonly used in form templates. We recommend that you split long forms into smaller forms to make the task easier. 
+This pattern is used in form templates. We recommend that you split long forms into smaller forms to make the task easier. This navigation pattern is used to access the different forms.
 
-![Vertical navigation component in a page context](/images/lexicon/NavigationVerticalExample.jpg)
-
-### Attributes
-
-The images below illustrate the item spacing composition.
-
-![Vertical navigation horizontal padding](/images/lexicon/NavigationVerticalAttributesHorizontalPadding.jpg)
-
-![Vertical navigation vertical padding](/images/lexicon/NavigationVerticalAttributesVerticalPadding01.jpg)
-
-
-The images below illustrate the margin in-between items.
-
-![Vertical navigation margin in-between items](/images/lexicon/NavigationVerticalAttributesVerticalPadding02.jpg)
+![vertical navigation nested levels open](/images/lexicon/NavigationVerticalOpen.jpg)
 
 ### Mobile
 
