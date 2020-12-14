@@ -47,10 +47,3 @@
   country: 127.0.0.1
   mapURL: https://goo.gl/maps/
   # photo: /images/offices/budapest.jpg
-- id: Tokyo
-  regionIcon: /images/offices/flag-jp.png
-  city: Tokyo
-  region: Japan
-  country: Japan
-  mapURL: https://goo.gl/maps/fYgfFMFSQHMfm9499
-  # photo: /images/offices/budapest.jpg
