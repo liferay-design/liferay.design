@@ -4,84 +4,10 @@ figure {
 	img {
 		width: 100%;
 	}
-	&.expandable {
-		position: relative;
-		z-index: 1;
-		> img {
-			transition: transform 0.2s ease-in-out;
-			&:hover {
-				cursor: zoom-in;
-				transform: translateY(-0.4rem);
-			}
-		}
-		.expandedImageContainer {
-			position: fixed;
-			top: 0;
-			left: 0;
-			z-index: 1000;
-			width: 100vw;
-			height: 100vh;
-			padding: 6rem;
-			overflow-y: scroll;
-			display: none;
-			justify-content: center;
-			align-items: center;
-			opacity: 0;
-			transition: opacity 0.2s;
-			&.open {
-				display: flex;
-				opacity: 1;
-			}
-			.overlay {
-				width: 100%;
-				height: 100%;
-				background-color: $main;
-				position: fixed;
-				z-index: -1;
-				top: 0;
-				left: 0;
-				&:hover {
-					cursor: zoom-out;
-				}
-			}
-			.expandedImg {
-				display: block;
-				width: 100% !important;
-				max-width: 1600px;
-			}
-			button {
-				position: fixed;
-				top: 1rem;
-				right: 1rem;
-				box-shadow: $elevation0;
-				transition: all 0.2s ease-in-out;
-				padding: 0.5rem 1rem;
-				font-family: $fontFamilyPrimary;
-				cursor: pointer;
-				&:hover {
-					transform: translateY(-0.2rem);
-					box-shadow: $elevation3;
-					color: $primary-d1;
-				}
-			}
-		}
-	}
 }
 
 @media screen and (max-width: $screenMedium) {
 	figure {
 		max-width: 100vw;
-		&.expandable{
-			.expandedImageContainer {
-				padding: 1rem; 
-				button {
-					top: unset;
-					right: unset;
-					bottom: 6rem;
-					left: 50%;
-					transform: translateX(-50%);
-				}
-			}
-		}
 	}
 }
