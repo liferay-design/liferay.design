@@ -3,9 +3,9 @@
 import { jsx, Button } from 'theme-ui'
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { colors, fontSizes } from 'theme'
-import { Hotkey } from 'components/atoms'
+import { Flex, Hotkey } from 'components/atoms'
 import styles from './styles.module.scss'
 import { useHotkeys } from 'react-hotkeys-hook'
 
@@ -125,7 +125,7 @@ const Image = ({
 							color: 'mainL6',
 							'&:hover': {
 								color: 'white',
-							},
+							}
 						}}
 					>
 						Close
