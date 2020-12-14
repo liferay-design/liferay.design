@@ -301,7 +301,7 @@ export default {
 			gap: '2rem',
 		},
 	},
-	wrapper: {
+	wrappers: {
 		markdown: {
 			px: [3, 3, null],
 			py: [2, 3, null],
