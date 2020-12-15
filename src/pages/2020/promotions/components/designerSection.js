@@ -65,7 +65,7 @@ export default ({}) => {
 						<Text sx={{ color: 'primary', fontSize: 4 }}>{name.id}</Text>
 						<Text
 							as="h1"
-							sx={{ fontSize: 6, maxWidth: '16ch', color: 'black', my: 2 }}
+							sx={{ fontSize: 6, maxWidth: '21ch', color: 'black', my: 2 }}
 						>
 							{name.title}
 						</Text>

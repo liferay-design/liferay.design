@@ -37,7 +37,7 @@
   startDate: 2016-08-22
   office: Madrid
 - id: Emiliano Cicero
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_bezier_curve
   startDate: 2016-08-10
@@ -68,7 +68,7 @@
   startDate: 2017-07-10
   office: Diamond Bar
 - id: Jon Wood
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_keyboard
   startDate: 2019-04-15
@@ -85,7 +85,7 @@
   startDate: 2016-08-18
   office: Madrid
 - id: Juan Hidalgo
-  title: Director, Design
+  title: Vice President, Design
   active: true
   icon: fa_heart
   startDate: 2016-10-17
@@ -115,7 +115,7 @@
   startDate: 2019-08-12T07:00:00Z
   office: Madrid
 - id: Miriam Manso
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pointe_shoe
   startDate: 2018-10-15
@@ -188,7 +188,7 @@
   startDate: 2014-07-21
   office: Diamond Bar
 - id: Susana Vázquez
-  title: Product Designer
+  title: Manager, Product Design
   active: true
   icon: fa_archway
   startDate: 2017-10-18
@@ -209,7 +209,7 @@
   startDate: 2020-05-18
   office: Recife
 - id: Victor Valle
-  title: Manager, Product Design EMEA
+  title: Senior Manager, Product Design EMEA
   active: true
   icon: fa_fingerprint
   startDate: 2016-08-18
