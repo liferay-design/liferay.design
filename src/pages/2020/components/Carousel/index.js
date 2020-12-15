@@ -25,20 +25,27 @@ const Carousel = ({ slides }) => {
 		
 		const next = (current + 1) % slidesCount
 		
+		
 		useEffect(() => {
-			
-			if (isActive) {
-				const id = setTimeout(() => {
-					setCurrent(next)
-				}, delay)
-				return () => clearTimeout(id)
+			let timeLeft = 0
+			if(isActive){
+				const timer = setInterval(() => {
+					if(timeLeft >= 1){
+						timeLeft = 0
+						clearInterval(timer)
+						setCurrent(next)
+					}
+					document.getElementById("active").style.transform = "scaleX(" + timeLeft + ")" // need a way to transform the active indicator without target ID so we can use multiple carousels per page.
+					timeLeft += 0.01
+				}, (delay/100))
+				return () => clearInterval(timer)
 			}
-			
 		}, [isActive, current])
+		
 		return (
 			<Flex
 				sx={{ flexDirection: 'column', alignItems: 'center', width: '100vw' }}
-				className={styles.pagestyles}
+				className={isActive ? [styles.active, styles.pagestyles].join(' ') : styles.pagestyles}
 			>
 				<Flex
 					sx={{
@@ -57,9 +64,9 @@ const Carousel = ({ slides }) => {
 					{slides.map((slide, i) => (
 						<div
 							onClick={
-								current === i
+								current === i && isActive
 								? () => setIsActive(false)
-								: () => {setCurrent(i), setIsActive(true)}}
+								: () => {setCurrent(next), setIsActive(true)}}
 							className={
 								current === i
 									? [styles.slide, styles.currentSlide].join(' ')
@@ -94,7 +101,9 @@ const Carousel = ({ slides }) => {
 				<Flex sx={{ marginTop: '2rem' }}>
 					{slides.map((slide, i) => (
 						<div
-							onClick={() => {setCurrent(i), setIsActive(true)}}
+							onClick={current === i && isActive
+							? () => setIsActive(false) 
+							: () => {setCurrent(next), setIsActive(true)}}
 							className={
 								current === i
 									? [styles.indicator, styles.currentIndicator].join(' ')
@@ -105,12 +114,12 @@ const Carousel = ({ slides }) => {
 							<div className={styles.indicatorBackground}>
 								<div
 									className={styles.activeIndicator}
-									style={{scaleX: "1"}} />
+									id={current === i ? "active" : null}
+									/>
 							</div>
 						</div>
 					))}
 				</Flex>
-				State: {isActive ? "active" : "inactive"} <br/> {current}
 			</Flex>
 		)
 	}
