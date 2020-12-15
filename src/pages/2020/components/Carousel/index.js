@@ -66,7 +66,7 @@ const Carousel = ({ slides }) => {
 							onClick={
 								current === i && isActive
 								? () => setIsActive(false)
-								: () => {setCurrent(next), setIsActive(true)}}
+								: () => {current === i ? setCurrent(next) : setCurrent(i), setIsActive(true)}}
 							className={
 								current === i
 									? [styles.slide, styles.currentSlide].join(' ')
@@ -103,7 +103,7 @@ const Carousel = ({ slides }) => {
 						<div
 							onClick={current === i && isActive
 							? () => setIsActive(false) 
-							: () => {setCurrent(next), setIsActive(true)}}
+							: () => {current === i ? setCurrent(next) : setCurrent(i), setIsActive(true)}}
 							className={
 								current === i
 									? [styles.indicator, styles.currentIndicator].join(' ')
