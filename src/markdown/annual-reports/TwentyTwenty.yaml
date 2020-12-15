@@ -1,8 +1,8 @@
 title: Liferay Design
 subtitle: Our second annual report shares highlights about our organization, the work we've done for customers, our local communities, and the design community at large.
 quote:
-      pretitle: Bruce Lee
-      title: Now water can flow or it can crash. Be water, my friend.
+    pretitle: Bruce Lee
+    title: Now water can flow or it can crash. Be water, my friend.
 departmentSection:
     pretitle: Department
     title: Organization
@@ -27,7 +27,7 @@ promotionsPage:
     title: Congratulations
     designers:
         - name: 'Andrea Censi'
-          summary: 'Andrea has been leading the design for commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. This advancement from Associate to Mid-level is long overdue. Congrats, Andrea.'
+          summary: "Andrea has been leading the design for commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. Congrats\_Andrea!"
           highlights:
               [
                   'Commerce Design Lead',
@@ -36,7 +36,7 @@ promotionsPage:
                   'Portfolio contributions ',
               ]
         - name: 'Emiliano Cicero'
-          summary: 'His evolution from Lexicon to Lima, his maturity from defining elements to complete features and more, the deep level of detail in each of the projects he works on made him cross the mid to senior line. Congrats Emi!'
+          summary: "His evolution from Lexicon to Lima, his maturity from defining elements to complete features and more, the deep level of detail in each of the projects he works on made him cross the mid to senior line. Congrats\_Emi!"
           highlights:
               [
                   'Lima Design Lead',
@@ -44,24 +44,20 @@ promotionsPage:
                   'Leading key platform features',
               ]
         - name: 'Miriam Manso'
-          summary: 'Thanks to your work we could enable a fundamental task in the design workflow that was not happening as often as it should. The professionalism of your work and continuous iteration moves you from the associate level to the mid level. Congrats Miriam!'
+          summary: "Thanks to your work we could enable a fundamental task in the design workflow that was not happening as often as it should. The professionalism of your work and continuous iteration moves you from the associate level to the mid level. Congrats\_Miriam!"
           highlights:
-              [
-                  'Strong builder',
-                  'Researcher extraordinaire',
-                  'Budding YouTube star',
-              ]
+              ['Strong builder', 'Researcher extraordinaire', 'Budding YouTube star']
         - name: 'Victor Valle'
-          summary: 'In addition to managing the largest region of designers, Victor stepped up this year as an Individual Contributor — delivering value in areas like the Asset Library, Global Menu, and more. Congrats Victor!'
+          summary: "In addition to managing the largest region of designers, Victor stepped up this year as an Individual Contributor — delivering value in areas like the Asset Library, Global Menu, and more. Congrats\_Victor!"
           highlights:
               [
                   '3 years managing EMEA',
-                  'Design Lead for multiple DXP teams',
                   'Interim Lexicon Lead',
+                  'Design Lead for 4 DXP teams',
                   'Cat Caretaker',
               ]
         - name: 'Susana Vázquez'
-          summary: "Entering her fourth year as a strong IC, Susana continues to demonstrate Liferay's core value of 'Lead by serving' — she's stepped up to fill an opportunity as a people manager and we're excited to see her excel in this. Congrats Su!"
+          summary: "Entering her fourth year as a strong IC, Susana continues to demonstrate our core value of Lead by Serving — she's stepped up to fill an opportunity as a people manager and we're excited to see her excel in this. Congrats\_Su!"
           highlights:
               [
                   'First remote designer',
@@ -69,14 +65,8 @@ promotionsPage:
                   'Lead Designer for key DXP features',
               ]
         - name: 'Jon Wood'
-          summary: 'Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats, Jon.'
-          highlights:
-              [
-                  'GS Design Lead',
-                  'Workflow Design Lead',
-                  'Team Collaboration',
-                  'Design Mentorship',
-              ]
+          summary: "Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats\_Jon!"
+          highlights: ['GS Design Lead', 'Workflow Design Lead', 'Design Mentorship']
     subtitle: 'Please join us in congratulating these designers for pushing themselves to the next level. Great work and continued success. Cheers.'
     quote:
         content: 'Stay hungry, stay foolish.'
@@ -94,21 +84,21 @@ timelineSection:
               image: '/images/headshots/wood-jon.jpg'
         - event:
               name: Victor
-              description: " started in Spain"
+              description: ' started in Spain'
               startDate: 2020-05-18
               endDate: ''
               url: '/team/santos-victor'
               image: '/images/headshots/santos-victor.jpg'
         - event:
               name: Crystal
-              description: " started in California"
+              description: ' started in California'
               startDate: 2020-05-18
               endDate: ''
               url: '/team/juarez-crystal'
               image: '/images/headshots/juarez-crystal.jpg'
         - event:
               name: Rubén
-              description: " started in Spain"
+              description: ' started in Spain'
               startDate: 2020-08-06
               endDate: ''
               url: '/team/jimenez-ruben'
@@ -122,16 +112,16 @@ timelineSection:
               image: '/images/headshots/francisco-marleny.jpg'
         - event:
               name: Design Week
-              description: ""
+              description: ''
               startDate: 2020-11-16
               endDate: 2020-11-19
               url: '/design-week'
               image: '/images/headshots/hanaoka-paul.jpg'
         - event:
               name: Juan
-              description: " promoted to VP of Design"
+              description: ' promoted to VP of Design'
               startDate: 2020-11-17
-              endDate: 
+              endDate:
               url: '/team/hidalgo-juan'
               image: '/images/headshots/hidalgo-juan.jpg'
 careerSection:
