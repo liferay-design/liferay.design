@@ -13,7 +13,7 @@ const Promotions = () => {
 			<SEO
 				pageTitle="Liferay Design | 2020 Promotions"
 				description="Designers at Liferay are exceptional — a few this year earned title changes based on their hard work and in anticipation of expanded responsibility."
-				previewImage=""
+				previewImage="/images/2020/promotions-og.png"
 				twitterHandle="@liferaydesign"
 			/>
 
