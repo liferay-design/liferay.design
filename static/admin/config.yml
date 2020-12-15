@@ -8,8 +8,8 @@ backend:
     open_authoring: true
 
 local_backend: true
-media_folder: static/images/uploads
-public_folder: /images/uploads
+media_folder: static/images
+public_folder: /images
 publish_mode: editorial_workflow
 
 # Collections
@@ -59,7 +59,6 @@ collections:
     - name: articles
       label: Articles
       folder: src/markdown/articles/
-      media_folder: static/images/articles/
       path: '{{year}}/{{slug}}'
       create: true
       fields:
