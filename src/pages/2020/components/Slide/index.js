@@ -19,20 +19,25 @@ const Slide = ({
         <div className={[styles.slide, styles.pagestyles].join(' ')}>
             <Flex
                 sx={{
-                    padding: ['2rem', '4rem'],
+                    alignItems: ['center', 'center', 'flex-start'],
+                    background: 'backgroundGradient',
                     flexDirection: ['column', 'column', 'row'],
-                    alignItems: ['center', 'center', 'flex-start']
+                    flexShrink: '0',
+                    maxWidth: '1200px',
+                    overflow: 'hidden',
+                    padding: ['2rem', '4rem'],
+                    width: ['90vw', '80vw'],
                 }}
                 
             >
                 <div
                     sx={{
-                        width: ['72px','94px'],
-                        height: ['72px', '94px'],
-                        borderRadius: ['0.5em'],
                         backgroundColor: `darkBlack`,
-                        padding: ['1rem', '2rem'],
+                        borderRadius: ['0.5em'],
                         flexShrink: ['0'],
+                        height: ['72px', '94px'],
+                        padding: ['1rem', '2rem'],
+                        width: ['72px','94px'],
                     }}>
                     <img src={`${withPrefix(`${icon}`)}`} />
                 </div>
@@ -45,13 +50,28 @@ const Slide = ({
                         sx={{
                             textAlign: ['center', 'center', 'left']
                         }}>{title}</h2>
-                    <p className={styles.pLarge}>{description}</p>
+                    <p className={styles.pLarge}
+                        sx={{
+                            textAlign: 'justify',
+                        }}>{description}</p>
                     <Link to={url}>{linkText}</Link>
                 </div>
             </Flex>
-            <div className={styles.imageWrapper}>
+            <div 
+                className={styles.imageWrapper}
+                sx={{
+                    height: '0',
+                    paddingBottom: '40%',
+                    position: 'relative',
+                    width: '100%',
+                }}>
                 <img
                     className={styles.image}
+                    sx={{
+                        height: '100%',
+                        position: 'absolute',
+                        width: '100%',
+                    }}
                     src={`${withPrefix(`${image}`)}`}
                 />
             </div>
