@@ -42,7 +42,8 @@ export default ({}) => {
 					position: 'relative',
 					zIndex: 2,
 					flexDirection: 'column',
-					py: '10rem',
+					py: [4, '10rem', null],
+					px: [1, 'initial', null],
 					'&:nth-of-type(2n+1)': {
 						backgroundColor: 'hsla(205,57%,91%,0.2)',
 						backdropFilter: 'blur(32px)',
@@ -61,15 +62,28 @@ export default ({}) => {
 					}}
 					id="flip"
 				>
-					<Box sx={{ width: ['100%', '50%', null], mr: '10%' }}>
+					<Box
+						sx={{
+							width: ['100%', '50%', null],
+							mr: '10%',
+							mt: [3, 'initial', null],
+						}}
+					>
 						<Text sx={{ color: 'primary', fontSize: 4 }}>{name.id}</Text>
 						<Text
 							as="h1"
-							sx={{ fontSize: 6, maxWidth: '21ch', color: 'black', my: 2 }}
+							sx={{
+								fontSize: [5, 6, null],
+								maxWidth: '21ch',
+								color: 'black',
+								my: 2,
+							}}
 						>
 							{name.title}
 						</Text>
-						<Text sx={{ fontSize: 4, lineHeight: 1.5 }}>{summary}</Text>
+						<Text sx={{ fontSize: [3, 4, null], lineHeight: 1.5 }}>
+							{summary}
+						</Text>
 					</Box>
 					<Box
 						sx={{
@@ -80,14 +94,15 @@ export default ({}) => {
 						<Box
 							sx={{
 								position: 'relative',
-								height: '16rem',
-								width: '16rem',
+								height: ['12rem', '16rem', null],
+								width: ['12rem', '16rem', null],
 							}}
 						>
 							<Image
 								sx={{
 									borderRadius: '1rem',
 									position: 'absolute',
+									visibility: ['hidden', 'initial', null],
 									top: 2,
 									height: '100%',
 									right: '0',
@@ -100,10 +115,15 @@ export default ({}) => {
 							/>
 							<Image
 								sx={{
-									height: '16rem',
+									height: ['12rem', '16rem', null],
 									borderRadius: '1rem',
 									position: 'relative',
 									zIndex: 1,
+									boxShadow: [
+										'0 .2rem 3rem -.2rem rgba(0, 14, 85, .2), 0 .4rem 2rem -.3rem rgba(0, 74, 215, .4)',
+										'none',
+										null,
+									],
 								}}
 								title={name.id}
 								src={headshotPath(name.id)}
@@ -124,13 +144,18 @@ export default ({}) => {
 						sx={{
 							width: '100%',
 							justifyContent: 'space-between',
-							my: [2, 4, null],
+							flexDirection: ['column', 'row', null],
+							my: [0, 4, null],
 						}}
 					>
 						{screenshots.map(index => (
 							<Image
 								key={index}
-								sx={{ borderRadius: '1rem', width: '90%' }}
+								sx={{
+									borderRadius: '1rem',
+									width: ['100%', '90%', null],
+									my: [3, 'initial', null],
+								}}
 								src={
 									'/images/2020/screenshots/' +
 									makeAuthorSlug(name.id) +
@@ -145,14 +170,14 @@ export default ({}) => {
 						<Text
 							sx={{
 								color: 'black',
-								fontSize: 4,
+								fontSize: [3, 4, null],
 								fontWeight: 'heading',
 								mb: 3,
 							}}
 						>
 							Highlights
 						</Text>
-						<Text sx={{ fontSize: 4 }}>
+						<Text sx={{ fontSize: [3, 4, null] }}>
 							<ul
 								sx={{
 									columns: 2,

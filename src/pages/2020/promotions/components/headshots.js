@@ -55,6 +55,7 @@ export default ({}) => {
 					sx={{
 						borderRadius: '1rem',
 						position: 'absolute',
+						visibility: ['hidden', 'initial', null],
 						top: 1,
 						height: '100%',
 						right: '0',
@@ -70,6 +71,11 @@ export default ({}) => {
 						height: '10rem',
 						width: '10rem',
 						borderRadius: '1rem',
+						boxShadow: [
+							'0 .2rem 3rem -.2rem rgba(0, 14, 85, .2), 0 .4rem 2rem -.3rem rgba(0, 74, 215, .4)',
+							'none',
+							null,
+						],
 					}}
 					title={name.id}
 					src={headshotPath(name.id)}
@@ -85,7 +91,7 @@ export default ({}) => {
 				width: '100%',
 				justifyContent: ['space-around', 'space-between', null],
 				my: 4,
-				flexWrap: ['wrap', 'no-wrap', null]
+				flexWrap: ['wrap', 'no-wrap', null],
 			}}
 		>
 			{Headshots}
