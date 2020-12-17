@@ -84,8 +84,8 @@ export default class ScrollArrow extends Component {
 							transform: 'rotate(-90deg) translate(8px, -25%)',
 						},
 					},
-					...this.props,
 				}}
+				{...this.props}
 			>
 				<Text
 					as="span"

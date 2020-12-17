@@ -17,10 +17,15 @@ const Promotions = () => {
 				twitterHandle="@liferaydesign"
 			/>
 
-			<ScrollArrow />
+			<ScrollArrow
+				sx={{
+					left: ['initial', '2rem', null],
+					right: ['2rem', 'initial', null],
+				}}
+			/>
 
 			<Header />
-			
+
 			<Designers />
 
 			<Footer />
