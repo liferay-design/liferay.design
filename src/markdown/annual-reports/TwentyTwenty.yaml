@@ -132,6 +132,31 @@ timelineSection:
               endDate:
               url: '/team/hidalgo-juan'
               image: '/images/headshots/hidalgo-juan.jpg'
+covid19:
+    pretitle: Covid-19
+    title: How did we adapt?
+    slides:
+        - slide:
+            title: Chris Jeong
+            image: /images/2020/paul-hanaoka-4yG7Y0rAZvA-unsplash.jpg
+            icon: /images/icons/news.svg
+            url: /2020
+            linkText: Click me
+            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis.
+        - slide:
+            title: Ryan Connolly
+            image: /images/2020/paul-hanaoka-hNQCPAz4ILU-unsplash.jpg
+            icon: /images/icons/news.svg
+            url: /2020
+            linkText: Click me
+            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis.
+        - slide:
+            title: Jon Wood
+            image: /images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg
+            icon: /images/icons/news.svg
+            url: /2020
+            linkText: Click me
+            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis.
 careerSection:
     pretitle: Grow & Get Better
     title: Design Careers
