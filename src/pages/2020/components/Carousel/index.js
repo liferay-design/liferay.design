@@ -1,5 +1,7 @@
+/** @jsx jsx */
+import PropTypes from 'prop-types'
 import React, { useState, useEffect, useRef } from 'react'
-import { Flex } from 'theme-ui'
+import { jsx, Flex } from 'theme-ui'
 import styles from './styles.module.scss'
 
 const Carousel = ({ children }) => {
@@ -7,17 +9,17 @@ const Carousel = ({ children }) => {
 
 		const slideSize = useRef(null)
 		const [slideWidth, setSlideWidth] = useState(0)
-
+		
+		const delay = 5000
+		
+		const slidesCount = children.length					
+		
+		// AUTO ADVANCE SLIDES
+		const [current, setCurrent] = useState(0)
+		
 		useEffect(() => {
 			setSlideWidth(slideSize.current.clientWidth)
 		})
-
-		const delay = 5000
-
-		const slidesCount = children.length					
-						
-		// AUTO ADVANCE SLIDES
-		const [current, setCurrent] = useState(0)
 
 		const [isActive, setIsActive] = useState(true);
 		
@@ -42,7 +44,7 @@ const Carousel = ({ children }) => {
 		
 		return (
 			<Flex
-				sx={{ flexDirection: 'column', alignItems: 'center', width: '100vw' }}
+				sx={{ flexDirection: 'column', alignItems: 'center', width: '100vw', overflowX: 'visible', }}
 				className={isActive ? [styles.active, styles.pagestyles].join(' ') : styles.pagestyles}
 			>
 				<Flex
@@ -68,6 +70,8 @@ const Carousel = ({ children }) => {
 							className={
 								current === i
 									? [styles.slide, styles.currentSlide].join(' ')
+									: current === (i+1) && type === 'images' ? [styles.slide, styles.prevSlide].join(' ')
+									: current === (i-1) ? [styles.slide, styles.nextSlide].join(' ')
 									: styles.slide
 							}
 							key={i}
