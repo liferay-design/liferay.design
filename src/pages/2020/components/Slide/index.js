@@ -1,9 +1,10 @@
+/** @jsx jsx */
 import { withPrefix } from 'gatsby'
-import React from 'react'
+// import React from 'react'
 import PropTypes from 'prop-types'
-import { Flex } from 'theme-ui'
+import { jsx, Flex } from 'theme-ui'
 import { Link } from 'components/atoms'
-import styles from '../Carousel/styles.module.scss'
+import styles from './styles.module.scss'
 
 const Slide = ({ 
     title,
@@ -15,17 +16,35 @@ const Slide = ({
     type,
  }) => {
      return(
-        <div>
+        <div className={[styles.slide, styles.pagestyles].join(' ')}>
             <Flex
                 sx={{
-                    padding: '6rem',
+                    padding: ['2rem', '4rem'],
+                    flexDirection: ['column', 'column', 'row'],
+                    alignItems: ['center', 'center', 'flex-start']
                 }}
+                
             >
-                <div className={styles.icon}>
+                <div
+                    sx={{
+                        width: ['72px','94px'],
+                        height: ['72px', '94px'],
+                        borderRadius: ['0.5em'],
+                        backgroundColor: `darkBlack`,
+                        padding: ['1rem', '2rem'],
+                        flexShrink: ['0'],
+                    }}>
                     <img src={`${withPrefix(`${icon}`)}`} />
                 </div>
-                <div className={styles.details}>
-                    <h2 className={styles.f2}>{title}</h2>
+                <div 
+                    sx={{
+                        padding: ['2rem 0', '1.5rem'],
+                    }}>
+                    <h2 
+                        className={styles.f2}
+                        sx={{
+                            textAlign: ['center', 'center', 'left']
+                        }}>{title}</h2>
                     <p className={styles.pLarge}>{description}</p>
                     <Link to={url}>{linkText}</Link>
                 </div>
