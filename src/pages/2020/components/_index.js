@@ -4,6 +4,7 @@ import Event from './Event'
 import KeyArt from './KeyArt'
 import Nav from './Nav'
 import SimpleCard from './SimpleCard'
+import Slide from './Slide'
 
 export { 
     Carousel,
@@ -11,5 +12,6 @@ export {
     Event, 
     KeyArt, 
     Nav, 
-    SimpleCard
+    SimpleCard,
+    Slide
 }
