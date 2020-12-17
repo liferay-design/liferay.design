@@ -83,7 +83,7 @@ const HeaderBackground = ({}) => {
 								width="24"
 								height="24"
 								stroke="#F8BA5E"
-								stroke-width="13"
+								strokeWidth="13"
 								rx="2"
 								transform="scale(1 -1) rotate(-45 267.47 -1978)"
 							/>
@@ -100,7 +100,7 @@ const HeaderBackground = ({}) => {
 								width="16"
 								height="16"
 								stroke="#00BF76"
-								stroke-width="13"
+								strokeWidth="13"
 								rx="1"
 								transform="scale(1 -1) rotate(30 1623.1 3445.09)"
 							/>
@@ -155,7 +155,7 @@ const HeaderBackground = ({}) => {
 								x="10"
 								y="540"
 								stroke="#F8BA5E"
-								stroke-width="13"
+								strokeWidth="13"
 								rx="2"
 								transform="rotate(-45 10 540)"
 							/>
@@ -172,7 +172,7 @@ const HeaderBackground = ({}) => {
 								x="473"
 								y="580"
 								stroke="#00BF76"
-								stroke-width="13"
+								strokeWidth="13"
 								rx="1"
 								transform="rotate(30 473 580)"
 							/>

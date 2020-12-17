@@ -67,7 +67,7 @@ const Foreground = ({}) => {
 						width="24"
 						height="24"
 						stroke="#AE9CE7"
-						stroke-width="16"
+						strokeWidth="16"
 						rx="2"
 						transform="scale(1 -1) rotate(45 172.62 -71.5)"
 					/>

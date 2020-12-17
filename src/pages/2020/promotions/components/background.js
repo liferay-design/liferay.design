@@ -84,11 +84,11 @@ const Background = ({}) => {
 						width="72"
 						height="72"
 						stroke="#1368DA"
-						stroke-width="16"
+						strokeWidth="16"
 						rx="4"
 						transform="matrix(.86603 .5 .5 -.86603 1274 130)"
 					/>
-					<circle cx="195" cy="760" r="80" stroke="#F8BA5E" stroke-width="16" />
+					<circle cx="195" cy="760" r="80" stroke="#F8BA5E" strokeWidth="16" />
 					<path
 						filter="url(#medium)"
 						fill="#1368DA"
@@ -98,7 +98,7 @@ const Background = ({}) => {
 						width="24"
 						height="24"
 						stroke="#F8BA5E"
-						stroke-width="16"
+						strokeWidth="16"
 						rx="2"
 						transform="rotate(30)"
 						x="790"
