@@ -1,9 +1,6 @@
-import { withPrefix } from 'gatsby'
 import React, { useState, useEffect, useRef } from 'react'
-import PropTypes from 'prop-types'
 import { Flex } from 'theme-ui'
 import styles from './styles.module.scss'
-import { Link } from 'components/atoms'
 
 const Carousel = ({ children }) => {
 	if (children) {
