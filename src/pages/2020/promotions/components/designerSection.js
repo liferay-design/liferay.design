@@ -183,16 +183,21 @@ export default ({}) => {
 									columns: 2,
 									columnWidth: '24ch',
 									listStyle: 'none',
-									ml: '4ch',
+									ml: '.1ch',
 									'& li': {
 										position: 'relative',
 									},
 									'& li:before': {
-										content:
-											'url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOSAxOSI+CiAgPHBhdGggc3Ryb2tlPSIjMDBCRjc2IiBzdHJva2Utd2lkdGg9IjUiIGQ9Ik0yLjA2MiAxMC43MzZsNS44MDUgNC4wMzdMMTYuNzQ3IDIiLz4KPC9zdmc+Cg==")',
-										position: 'absolute',
-										left: '-3.9ch',
+										content: '""',
+										display: 'inline-block',
+										height: '.8em',
 										width: '.8em',
+										backgroundImage:
+											'url(/images/2020/green-check.png)',
+										backgroundImage: 'url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOSAxOSI+CiAgPHBhdGggc3Ryb2tlPSIjMDBCRjc2IiBzdHJva2Utd2lkdGg9IjUiIGQ9Ik0yLjA2MiAxMC43MzZsNS44MDUgNC4wMzdMMTYuNzQ3IDIiLz4KPC9zdmc+Cg==")',
+										backgroundSize: ' contain',
+										backgroundRepeat: 'no-repeat',
+										mr: '2ch',
 									},
 								}}
 							>
