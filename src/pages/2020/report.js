@@ -16,6 +16,7 @@ import {
 	Event,
 	KeyArt,
 	Content,
+	Slide,
 } from 'pages/2020/components/_index'
 import styles from './styles.module.scss'
 import data from 'markdown/annual-reports/TwentyTwenty.yaml'
@@ -272,34 +273,19 @@ const TwentyTwenty = () => {
 
 			{/* COVID-19 */}
 			<section id="convid-19" className={styles.covid19}>
-					<Carousel 
-						slides={[
-							{
-								title: "Chris Jeong",
-								image: "/images/2020/paul-hanaoka-4yG7Y0rAZvA-unsplash.jpg",
-								icon: "/images/icons/news.svg",
-								url: "/2020",
-								linkText: "Click me",
-								description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis."
-							},
-							{
-								title: "Ryan Connolly",
-								image: "/images/2020/paul-hanaoka-hNQCPAz4ILU-unsplash.jpg",
-								icon: "/images/icons/news.svg",
-								url: "/2020",
-								linkText: "Click me",
-								description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis."
-							},
-							{
-								title: "Jon Wood",
-								image: "/images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg",
-								icon: "/images/icons/news.svg",
-								url: "/2020",
-								linkText: "Click me",
-								description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis."
-							},
-						]}
-					/>
+				<Carousel>
+					{data.covid19.slides.map(({ slide }) => (
+						<Slide
+							title={slide.title}
+							image={slide.image}
+							icon={slide.icon}
+							url={slide.url}
+							linkText={slide.linkText}
+							description={slide.description}
+							type={"card"}
+						/>
+					))}
+				</Carousel>
 			</section>
 
 			{/* ---------- INITIATIVES ----------- */}

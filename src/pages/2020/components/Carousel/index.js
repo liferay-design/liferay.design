@@ -1,11 +1,12 @@
 import { withPrefix } from 'gatsby'
 import React, { useState, useEffect, useRef } from 'react'
+import PropTypes from 'prop-types'
 import { Flex } from 'theme-ui'
 import styles from './styles.module.scss'
 import { Link } from 'components/atoms'
 
-const Carousel = ({ slides }) => {
-	if (slides) {
+const Carousel = ({ children }) => {
+	if (children) {
 
 		const slideSize = useRef(null)
 		const [slideWidth, setSlideWidth] = useState(0)
@@ -16,7 +17,7 @@ const Carousel = ({ slides }) => {
 
 		const delay = 5000
 
-		const slidesCount = slides.length					
+		const slidesCount = children.length					
 						
 		// AUTO ADVANCE SLIDES
 		const [current, setCurrent] = useState(0)
@@ -61,7 +62,7 @@ const Carousel = ({ slides }) => {
 					}}
 					className={styles.slidesWrapper}
 				>
-					{slides.map((slide, i) => (
+					{children.map((children, i) => (
 						<div
 							onClick={
 								current === i && isActive
@@ -75,31 +76,12 @@ const Carousel = ({ slides }) => {
 							key={i}
 							ref={slideSize}
 						>
-							<Flex
-								sx={{
-									padding: '6rem',
-								}}
-							>
-								<div className={styles.icon}>
-									<img src={`${withPrefix(`${slide.icon}`)}`} />
-								</div>
-								<div className={styles.details}>
-									<h2 className={styles.f2}>{slide.title}</h2>
-									<p className={styles.pLarge}>{slide.description}</p>
-									<Link to={slide.url}>{slide.linkText}</Link>
-								</div>
-							</Flex>
-							<div className={styles.imageWrapper}>
-								<img
-									className={styles.image}
-									src={`${withPrefix(`${slide.image}`)}`}
-								/>
-							</div>
+							{children}
 						</div>
 					))}
 				</Flex>
 				<Flex sx={{ marginTop: '2rem' }}>
-					{slides.map((slide, i) => (
+					{children.map((children, i) => (
 						<div
 							onClick={current === i && isActive
 							? () => setIsActive(false) 
