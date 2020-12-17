@@ -70,7 +70,7 @@ const Carousel = ({ children }) => {
 							className={
 								current === i
 									? [styles.slide, styles.currentSlide].join(' ')
-									: current === (i+1) && type === 'images' ? [styles.slide, styles.prevSlide].join(' ')
+									: current === (i+1) ? [styles.slide, styles.prevSlide].join(' ')
 									: current === (i-1) ? [styles.slide, styles.nextSlide].join(' ')
 									: styles.slide
 							}
