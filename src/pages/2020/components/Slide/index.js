@@ -16,29 +16,29 @@ const Slide = ({
     type,
  }) => {
      return(
-        <div className={styles.pagestyles}>
+        <div sx={{height: '100%'}}>
             {type === 'card' ?
-            <div>
+            <div sx={{display: 'flex', flexDirection: 'column', height: '100%'}}>
                 <Flex
                     sx={{
                         alignItems: ['center', 'center', 'flex-start'],
                         background: 'backgroundGradient',
                         flexDirection: ['column', 'column', 'row'],
-                        flexShrink: '0',
+                        flexGrow: '1',
                         maxWidth: '1200px',
                         overflow: 'hidden',
-                        padding: ['2rem', '4rem'],
+                        p: ['2rem', '4rem'],
                         width: ['90vw', '80vw'],
                     }}
                     
                 >
                     <div
                         sx={{
-                            backgroundColor: `darkBlack`,
+                            bg: `darkBlack`,
                             borderRadius: ['0.5em'],
                             flexShrink: ['0'],
                             height: ['72px', '94px'],
-                            padding: ['1rem', '2rem'],
+                            p: ['1rem', '2rem'],
                             width: ['72px','94px'],
                         }}>
                         <img src={`${withPrefix(`${icon}`)}`} />
@@ -63,7 +63,7 @@ const Slide = ({
                     className={styles.imageWrapper}
                     sx={{
                         height: '0',
-                        paddingBottom: '40%',
+                        pb: '40%',
                         position: 'relative',
                         width: '100%',
                     }}>
@@ -79,24 +79,23 @@ const Slide = ({
                 </div>
             </div>
             :
-            <div
+            <Flex
                 sx={{
-                    width: '80vw',
-                    height: '0',
+                    height: ['50.625vw', '45vw'], // 3:2 ratio
+                    objectFit: 'contain',
                     position: 'relative',
-                    paddingBottom: "75%",
+                    width: ['90vw', '80vw'],
                 }}>
                 <img
                     className={styles.image}
                     sx={{
-                        height: '100%',
                         margin: '0',
-                        position: 'absolute',
-                        width: '100%',
+                        minHeight: '100%',
+                        minWidth: '100%',
                     }}
                     src={`${withPrefix(`${image}`)}`}
                 />
-            </div>
+            </Flex>
             }
         </div>
      )

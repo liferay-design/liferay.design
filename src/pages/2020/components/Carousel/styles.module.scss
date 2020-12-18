@@ -10,10 +10,17 @@
     transition: transform 300ms ease-in-out;
 }
 .slide {
-    margin-right: 6rem;
     border-radius: 0.5rem;
     overflow: hidden;
     cursor: pointer;
+    transition: transform 250ms ease-in-out;
+    transform-origin: center;
+}
+.prevSlide {
+    transform: scale(0.8) translate(5%, -12.5%);
+}
+.nextSlide {
+    transform: scale(0.8) translate(-5%, 12.5%);
 }
 .currentSlide {
     border: 2px solid $twentyTwentyBlue;
@@ -42,12 +49,7 @@
         height: 100%;
         background: $twentyTwentyYellow;
         transform: scaleX(0);
-        transition: transform 50ms linear;
         transform-origin: left;
-        &:not(:global(#active)) {
-            transform: scaleX(0) !important;
-            transition: transform 250ms linear;
-        }
     }
     &.currentIndicator {
         cursor: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.375 33.2739L32.125 22.4486C33.625 21.5825 33.625 19.4175 32.125 18.5514L13.375 7.72612C11.875 6.8601 10 7.94263 10 9.67468L10 31.3253C10 33.0574 11.875 34.1399 13.375 33.2739Z' fill='%23FFC90A' stroke='%231B1C1E' stroke-width='0.5'/%3E%3C/svg%3E%0A"), auto;
