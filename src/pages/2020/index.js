@@ -1,7 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, ThemeProvider } from 'theme-ui'
-import theme from 'gatsby-plugin-theme-ui/2020'
+import { jsx } from 'theme-ui'
 import Report from 'pages/2020/report.js'
 import ComingSoon from 'pages/2020/comingSoon.js'
 import moment from 'moment'
@@ -28,11 +27,7 @@ export const TwentyTwenty = () => {
 		}
 	}
 
-	return (
-		<ThemeProvider theme={theme}>
-				{schedulePage()}
-		</ThemeProvider>
-	)
+	return <div>{schedulePage()}</div>
 }
 
 export default TwentyTwenty
