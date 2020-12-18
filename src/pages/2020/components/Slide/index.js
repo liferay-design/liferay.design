@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { withPrefix } from 'gatsby'
-import React from 'react'
 import PropTypes from 'prop-types'
 import { jsx, Flex } from 'theme-ui'
 import { Link } from 'components/atoms'

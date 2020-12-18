@@ -1,6 +1,5 @@
 /** @jsx jsx */
-import PropTypes from 'prop-types'
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { jsx, Flex } from 'theme-ui'
 import styles from './styles.module.scss'
 
