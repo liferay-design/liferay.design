@@ -185,7 +185,8 @@ const TwentyTwenty = () => {
 			</Flex>
 
 			{/* ---------- INSPIRATIONAL QUOTE ----------- */}
-			<div style={{background: 'white'}}>
+			<div sx={{
+				background: theme => `${theme.gradients.splitBackgroundGradient}`,}}>
 				<Flex
 					as="section"
 					sx={{
@@ -195,29 +196,30 @@ const TwentyTwenty = () => {
 						textAlign: 'center',
 					}}
 					>
-						<Flex
-							className={styles.heroImages}
-							sx={{
-								left: '23%',
-								position: 'relative',
-								width: '150vw',
-						}}>
-							<Image rounded src="/images/2020/paul-hanaoka-hNQCPAz4ILU-unsplash.jpg"/>	
-							<Image rounded margin="0 4%" src="/images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg"/>	
-							<Image rounded margin="auto 0 0" src="/images/2020/paul-hanaoka-4yG7Y0rAZvA-unsplash.jpg"/>	
-						</Flex>
-						{/* <img src="/images/2020/unsplash-images.jpg" style={{width: "150vw", maxWidth: '3000px', left: '23%', position: 'relative'}}></img> */}
-						<Plx parallaxData={PlxDown1}>
-							<Content
-								pretitle={data.quote.pretitle}
-								title={data.quote.title}
-								align="center"
-								justify="center"
-								inverted
-								textAlign="center"
-								zIndex="1"
+					<Plx parallaxData={PlxUp3}>
+						<Carousel>
+							{data.unsplash.images.map(({ image }) => (
+								<Slide
+									title={''}
+									image={image}
+									icon={''}
+									url={''}
+									linkText={''}
+									description={''}
+									type={"image"}
 								/>
-						</Plx>
+							))}
+						</Carousel>
+					</Plx>
+					<Content
+						pretitle={data.quote.pretitle}
+						title={data.quote.title}
+						align="center"
+						justify="center"
+						inverted
+						textAlign="center"
+						zIndex="1"
+						/>
 				</Flex>
 			</div>
 
@@ -283,6 +285,19 @@ const TwentyTwenty = () => {
 							linkText={slide.linkText}
 							description={slide.description}
 							type={"card"}
+						/>
+					))}
+				</Carousel>
+				<Carousel>
+					{data.designPractice.images.map(({ image }) => (
+						<Slide
+							title={""}
+							image={image}
+							icon={""}
+							url={''}
+							linkText={""}
+							description={""}
+							type={"image"}
 						/>
 					))}
 				</Carousel>

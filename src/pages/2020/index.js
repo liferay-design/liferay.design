@@ -30,7 +30,7 @@ export const TwentyTwenty = () => {
 
 	return (
 		<ThemeProvider theme={theme}>
-			{schedulePage()}
+				{schedulePage()}
 		</ThemeProvider>
 	)
 }
