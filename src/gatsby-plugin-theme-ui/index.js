@@ -1,6 +1,3 @@
-import { fontSizes } from 'theme/'
-import { fontWeights } from 'theme/'
-
 export default {
 	colors: {
 		text: '#fff',
