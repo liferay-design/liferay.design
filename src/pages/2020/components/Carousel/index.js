@@ -7,27 +7,20 @@ import styles from './styles.module.scss'
 const Carousel = ({ children }) => {
 	if (children) {
 
-		const slideSize = useRef(null)
-		const [slideWidth, setSlideWidth] = useState(0)
+		const slide = useRef()
+		const indicator = useRef()
+		const slidesWrapper = useRef()
 		
-		const delay = 5000
-		
-		const slidesCount = children.length					
-		
-		// AUTO ADVANCE SLIDES
 		const [current, setCurrent] = useState(0)
-		
-		useEffect(() => {
-			setSlideWidth(slideSize.current.clientWidth)
-		})
-
 		const [isActive, setIsActive] = useState(true);
 		
+		const delay = 5000
+		const slidesCount = children.length
 		const next = (current + 1) % slidesCount
-		
 		
 		useEffect(() => {
 			let timeLeft = 0
+			slidesWrapper.current.style.transform = 'translateX(calc(-' + `${slide.current.clientWidth / 2}` + 'px - ' + `${(current * 100) / slidesCount}` + '%))'
 			if(isActive){
 				const timer = setInterval(() => {
 					if(timeLeft >= 1){
@@ -35,7 +28,7 @@ const Carousel = ({ children }) => {
 						clearInterval(timer)
 						setCurrent(next)
 					}
-					document.getElementById("active").style.transform = "scaleX(" + timeLeft + ")" // need a way to transform the active indicator without target ID so we can use multiple carousels per page.
+					indicator.current.style.transform = "scaleX(" + timeLeft + ")"
 					timeLeft += 0.01
 				}, (delay/100))
 				return () => clearInterval(timer)
@@ -49,17 +42,12 @@ const Carousel = ({ children }) => {
 			>
 				<Flex
 					sx={{
-						transform:
-							'translateX(calc(-' +
-							`${slideWidth / 2}` +
-							'px - ' +
-							`${(current * 100) / slidesCount}` +
-							'%))',
 						alignSelf: 'flex-start',
 						left: '50%',
 						position: 'relative',
 					}}
 					className={styles.slidesWrapper}
+					ref={slidesWrapper}
 				>
 					{children.map((children, i) => (
 						<div
@@ -75,7 +63,10 @@ const Carousel = ({ children }) => {
 									: styles.slide
 							}
 							key={i}
-							ref={slideSize}
+							ref={current === i ? slide : null}
+							sx={{
+								transition: 'transform 250ms ease-in-out'
+							}}
 						>
 							{children}
 						</div>
@@ -93,11 +84,18 @@ const Carousel = ({ children }) => {
 									: styles.indicator
 							}
 							key={i}
-						>
+							>
 							<div className={styles.indicatorBackground}>
 								<div
 									className={styles.activeIndicator}
-									id={current === i ? "active" : null}
+									key={i}
+									ref={current === i ? indicator : null}
+									sx={current === i ? {
+										transition: 'transform 50ms linear',
+									} : {
+										transition: 'transform 250ms linear',
+										transform: 'scaleX(0) !important'
+									}}
 									/>
 							</div>
 						</div>
