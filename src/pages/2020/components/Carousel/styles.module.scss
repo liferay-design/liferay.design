@@ -13,8 +13,12 @@
     border-radius: 0.5rem;
     overflow: hidden;
     cursor: pointer;
-    transition: transform 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
     transform-origin: center;
+}
+.prevSlide,
+.nextSlide {
+    filter: grayscale(1);
 }
 .prevSlide {
     transform: scale(0.8) translate(5%, -12.5%);

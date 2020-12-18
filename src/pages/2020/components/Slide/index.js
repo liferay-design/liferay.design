@@ -21,7 +21,7 @@ const Slide = ({
                 <Flex
                     sx={{
                         alignItems: ['center', 'center', 'flex-start'],
-                        background: 'backgroundGradient',
+                        background: theme => `${theme.gradients.backgroundGradient}`,
                         flexDirection: ['column', 'column', 'row'],
                         flexGrow: '1',
                         maxWidth: '1200px',
