@@ -3,12 +3,12 @@ import { Icon, Link } from 'components/atoms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
 import styles from './styles.module.scss'
-import { colors, spacing } from 'theme/'
+import { colors } from 'theme/'
 
 const top = [
 	{
 		start: 0,
-		end: '#team',
+		end: '#adapt',
 		properties: [
 			{
 				startValue: colors.primary,
@@ -23,7 +23,7 @@ const top = [
 		],
 	},
 	{
-		start: '#team',
+		start: '#adapt',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -40,9 +40,9 @@ const top = [
 		],
 	},
 ]
-const team = [
+const adapt = [
 	{
-		start: '#team',
+		start: '#adapt',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -59,7 +59,7 @@ const team = [
 		],
 	},
 	{
-		start: '#initiatives',
+		start: '#impact',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -76,9 +76,9 @@ const team = [
 		],
 	},
 ]
-const initiatives = [
+const impact = [
 	{
-		start: '#initiatives',
+		start: '#impact',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -95,7 +95,7 @@ const initiatives = [
 		],
 	},
 	{
-		start: '#projects',
+		start: '#consult',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -112,9 +112,9 @@ const initiatives = [
 		],
 	},
 ]
-const projects = [
+const consult = [
 	{
-		start: '#projects',
+		start: '#consult',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -148,9 +148,9 @@ const projects = [
 		],
 	},
 ]
-const ops = [
+const campaign = [
 	{
-		start: '#ops',
+		start: '#campaign',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -167,7 +167,7 @@ const ops = [
 		],
 	},
 	{
-		start: '#subscribe',
+		start: '#future',
 		duration: 100,
 		startOffset: '25vh',
 		properties: [
@@ -187,9 +187,9 @@ const ops = [
 
 export default class Nav extends Component {
 	constructor(props) {
-        super(props);
+		super(props)
 
-        this.state = {
+		this.state = {
 			navOpen: false,
 			menuButtonStyles: {
 				borderRadius: '50%',
@@ -203,71 +203,55 @@ export default class Nav extends Component {
 			},
 			close: {
 				opacity: 1,
-			}
-        };
+			},
+		}
 
-        this.toggle = this.toggle.bind(this);
-    }
+		this.toggle = this.toggle.bind(this)
+	}
 
-    toggle() {
-        this.setState({navOpen: !this.state.navOpen})
-    }
+	toggle() {
+		this.setState({ navOpen: !this.state.navOpen })
+	}
 
 	render() {
 		return (
 			<div>
-				<Link to="/">	
-					<Icon sx={{fill:"white", width:'2rem'}} name="liferayDesicon" className={styles.desicon} />
+				<Link to="/">
+					<Icon
+						sx={{ fill: 'white', width: '2rem' }}
+						name="liferayDesicon"
+						className={styles.desicon}
+					/>
 				</Link>
-				<Plx id="nav" className={`${styles.anchorLinks} ${this.state.navOpen ? "navOpen" : ""}`} >
+				<Plx
+					id="nav"
+					className={`${styles.anchorLinks} ${
+						this.state.navOpen ? 'navOpen' : ''
+					}`}
+				>
 					<button className={styles.menuButton} onClick={this.toggle}>
 						<span>Menu</span>
 					</button>
-					<div className={styles.linkWrapper} >
+					<div className={styles.linkWrapper}>
 						<AnchorLink offset="80" href="#top">
-							<Plx
-								parallaxData={top}
-								className={styles.anchorBlock}
-							/>
-							<div className={styles.anchorText}>
-								2019
-							</div>
+							<Plx parallaxData={top} className={styles.anchorBlock} />
+							<div className={styles.anchorText}>2020</div>
 						</AnchorLink>
-						<AnchorLink offset="100" href="#department">
-							<Plx
-								parallaxData={team}
-								className={styles.anchorBlock}
-							/>
-							<div className={styles.anchorText}>
-								Design
-							</div>
+						<AnchorLink offset="100" href="#adapt">
+							<Plx parallaxData={adapt} className={styles.anchorBlock} />
+							<div className={styles.anchorText}>Adapt</div>
 						</AnchorLink>
-						<AnchorLink href="#initiatives">
-							<Plx
-								parallaxData={initiatives}
-								className={styles.anchorBlock}
-							/>
-							<div className={styles.anchorText}>
-								Initiatives
-							</div>
+						<AnchorLink href="#impact">
+							<Plx parallaxData={impact} className={styles.anchorBlock} />
+							<div className={styles.anchorText}>Impact</div>
 						</AnchorLink>
-						<AnchorLink offset="200" href="#projects">
-							<Plx
-								parallaxData={projects}
-								className={styles.anchorBlock}
-							/>
-							<div className={styles.anchorText}>
-								Projects
-							</div>
+						<AnchorLink offset="200" href="#consult">
+							<Plx parallaxData={consult} className={styles.anchorBlock} />
+							<div className={styles.anchorText}>Consult</div>
 						</AnchorLink>
-						<AnchorLink href="#ops">
-							<Plx
-								parallaxData={ops}
-								className={styles.anchorBlock}
-							/>
-							<div className={styles.anchorText}>
-								Ops
-							</div>
+						<AnchorLink href="#campaign">
+							<Plx parallaxData={campaign} className={styles.anchorBlock} />
+							<div className={styles.anchorText}>Campaign</div>
 						</AnchorLink>
 					</div>
 				</Plx>

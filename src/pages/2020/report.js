@@ -202,6 +202,7 @@ const TwentyTwenty = () => {
 					sx={{
 						background: theme => `${theme.gradients.splitBackgroundGradient}`,
 					}}
+					id="adapt"
 				>
 					<Flex
 						as="section"
@@ -321,36 +322,14 @@ const TwentyTwenty = () => {
 
 				{/* ---------- INITIATIVES ----------- */}
 				{/* HEADER - INITIATIVES */}
-				<div id="initiatives" />
+				<div id="impact" />
 
 				{/* CHARITY DESIGN */}
-				<section id="charityDesign" className={styles.mediaSection}></section>
+				<section id="consult" className={styles.mediaSection}></section>
 
 				{/* THOUGHT LEADERSHIP */}
-				<section id="thoughtLeadership"></section>
+				<section id="campaign"></section>
 
-				{/* COMMUNITY */}
-				<section id="community" className={styles.ourEvents}></section>
-
-				{/* DRIBBBLE */}
-				<section id="dribbble"></section>
-
-				{/* ---------- PROJECTS ----------- */}
-				{/* HEADER - PROJECTS */}
-				<div id="projects" />
-
-				{/* PROJECTS */}
-				<section id="teamProjects" className={styles.ourEvents}></section>
-
-				{/* GLOBAL SERVICES */}
-				<section id="globalServices"></section>
-
-				{/* ---------- OPS ----------- */}
-				{/* HEADER - OPS */}
-				<div id="ops" />
-
-				{/* OPERATIONS */}
-				<section id="operations"></section>
 				<section id="thankyou" className={styles.thankyou}>
 					<div>
 						<Content
