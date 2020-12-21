@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Heading, ThemeProvider } from 'theme-ui'
+import { jsx, Flex, Box, Text, Heading, ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
 import { Image, ScrollProgress, ScrollArrow } from 'components/atoms'
@@ -194,7 +194,6 @@ const TwentyTwenty = () => {
 						<Content
 							pretitle={data.timelineSection.pretitle}
 							title={data.timelineSection.title}
-							copy={data.timelineSection.subtitle}
 							align="center"
 						/>
 						<Flex
@@ -239,8 +238,13 @@ const TwentyTwenty = () => {
 
 				{/* COVID-19 */}
 				<section id="covid-19" className={styles.covid19}>
+					<Content
+						pretitle={data.covid.pretitle}
+						title={data.covid.title}
+						align="center"
+					/>
 					<Carousel>
-						{data.covid19.slides.map(({ slide }) => (
+						{data.covid.slides.map(({ slide }) => (
 							<Slide
 								title={slide.title}
 								image={slide.image}
@@ -256,6 +260,11 @@ const TwentyTwenty = () => {
 
 				{/* GS Summary */}
 				<section id="consult" className={styles.covid19}>
+					<Content
+						pretitle={data.globalServices.pretitle}
+						title={data.globalServices.title}
+						align="center"
+					/>
 					<Carousel>
 						{data.globalServices.slides.map(({ slide }) => (
 							<Slide
@@ -276,27 +285,78 @@ const TwentyTwenty = () => {
 				<div id="impact" />
 
 				{/* THOUGHT LEADERSHIP */}
-				<section id="campaign"></section>
+				<section id="campaign">
+					<Content
+						pretitle={data.opes.pretitle}
+						title={data.opes.title}
+						align="center"
+					/>
+					<Flex sx={{ justifyContent: 'space-between', my: 5 }}>
+						{data.opes.content.split('\n\n').map((paragraph, i) => (
+							<Text
+								as="p"
+								key={i}
+								sx={{
+									fontSize: 3,
+									maxWidth: '56ch',
+									':nth-of-type(2)': { mt: 4 },
+								}}
+							>
+								{paragraph}
+							</Text>
+						))}
+					</Flex>
+					<Image src={data.opes.image} />
+				</section>
 
 				<section id="thankyou" className={styles.thankyou}>
 					<div>
 						<Content
-							pretitle={data.thankYou.subtitle}
+							pretitle={data.thankYou.pretitle}
 							title={data.thankYou.title}
-							copy={data.thankYou.message}
-							align="left"
+							align="center"
 						/>
-						<div className={styles.p}>
-							Juan Hidalgo
-							<Image
-								src="/images/2018/jh-signature.svg"
-								className={styles.signature}
-							/>
-							<Image
-								src="/images/headshots/small/hidalgo-juan.jpg"
-								className={styles.headshot}
-							/>
-						</div>
+						<Flex sx={{ justifyContent: 'space-between', my: 5 }}>
+							<Box>
+								{data.thankYou.message.part1
+									.split('\n\n')
+									.map((paragraph, i) => (
+										<Text
+											as="p"
+											key={i}
+											sx={{
+												fontSize: 3,
+												maxWidth: '56ch',
+												my: 2,
+											}}
+										>
+											{paragraph}
+										</Text>
+									))}
+								<Text>{data.thankYou.author.name}</Text>
+								<Text>{data.thankYou.author.title}</Text>
+							</Box>
+							<Box sx={{ mt: 4 }}>
+								<Text sx={{ fontSize: 5 }}>
+									{data.thankYou.message.part2.title}
+								</Text>
+								{data.thankYou.message.part2.body
+									.split('\n\n')
+									.map((paragraph, i) => (
+										<Text
+											as="p"
+											key={i}
+											sx={{
+												fontSize: 3,
+												maxWidth: '56ch',
+												my: 2,
+											}}
+										>
+											{paragraph}
+										</Text>
+									))}
+							</Box>
+						</Flex>
 					</div>
 				</section>
 

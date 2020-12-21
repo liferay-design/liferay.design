@@ -124,8 +124,8 @@ timelineSection:
               endDate:
               url: '/team/hidalgo-juan'
               image: '/images/headshots/hidalgo-juan.jpg'
-covid19:
-    pretitle: Covid-19
+covid:
+    pretitle: Covid
     title: How did we adapt?
     slides:
         - slide:
@@ -189,6 +189,7 @@ globalServices:
 opes:
     pretitle: Campaign
     title: 'One Platform. Endless Solutions.'
+    image: '/images/2020/opes-hero.png'
     content: |
         Debuting at Liferay’s 2020 Sales Kick-Off event in January, OPES (oh-pez), was launched as the king of global campaigns for the year. Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. We were excited to dream up all the fun, in-person promotions for the year — exhibitor booth activities, giveaways, mailers!
 
@@ -198,7 +199,7 @@ thankYou:
     title: A year of uncertainty, met with resilience.
     message:
         part1: |
-            While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years — not by luck or circumstance, but with mindful practice. 
+            While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years — not by luck or circumstance, but with mindful practice.
 
             Because of this, we’ve been able to rely on one another through our personal and professional journeys, time and time again. And now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
         part2:
@@ -207,7 +208,10 @@ thankYou:
                 If this year has shown us anything, it’s that we never really know what’s to come. We dream of great and ambitious endeavors, yet may be able to turn only a portion of it into reality. We’re moving in the right direction.
 
                 Our product portfolio is becoming more cohesive, we're designing with more and more data, and — most importantly — our designers are growing and helping each other reach their full potential. It’s been a beautiful thing to see. As Liferay grows and adapts, I know we will continue to grow with it.
+    author:
+        name: Juan Hidalgo Reina
+        title: VP, Design
 subscribe:
     pretitle: Want more?
     title: '#LikeAndSubscribe<3'
-    subtitle: Sign up for our newsletter. Once a month we share links, articles, job listings, and more.
+    subtitle: Once a month — at least pre-2020, now it's a little less often — we share links, articles, job listings, and more.
