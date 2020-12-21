@@ -194,6 +194,29 @@ opes:
         Debuting at Liferay’s 2020 Sales Kick-Off event in January, OPES (oh-pez), was launched as the king of global campaigns for the year. Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. We were excited to dream up all the fun, in-person promotions for the year — exhibitor booth activities, giveaways, mailers!
 
         We all know what happened to those plans in March. Alongside our marketers, we quickly adjusted to roll out 100% digital campaigns. Creating solution-specific ads for campaigns focused on e-commerce, digital workspace, and self-service portals. OPES visuals began as colorful, literal representations of origami playing off ad copy, and have evolved into more subtle, abstract backgrounds, highlighting the content. Who knows how OPES will evolve in 2021! Stay tuned.
+future:
+    pretitle: The future
+    title: Designing a better tomorrow
+    list:
+        - li:
+              title: Lexicon
+              content: |
+                  We’re working on a usage guide to help understand how some of the components from our Library work and best-practices for using them in Figma. 
+
+                  We’ll also be Implementing Auto Layout 3.0 and Variants to take advantage of the power of the new features unveiled at Config Europe this year and adding a foundation for motion to improve the user experience in our products.
+        - li:
+              title: Solution Design
+              content: |
+                  We’re working to formalize and define the approach for designing pre-sales demos. These designers will also be creating white-labelled solutions for targeted industry verticals like Insurance and Manufacturing.
+        - li:
+              title: Increase User Testing
+              content: |
+                  After a year with the Research department up and running, we continue to advance and grow not only in quantity of research projects but also in quality.
+
+                  We’ll continue to focus on qualitative research, conducting tests with potential users, while expanding our research methodologies to better adapt to the needs of the teams.
+
+                  Additionally, we are creating a repository to make insights and recommendations accessible, making it easier for the work to be useful for more projects.
+
 thankYou:
     pretitle: 2020 Hindsight
     title: A year of uncertainty, met with resilience.
