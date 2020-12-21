@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Text, Heading, ThemeProvider } from 'theme-ui'
+import { jsx, Box, Flex, Text, Heading, ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
 import { Image, ScrollProgress, ScrollArrow } from 'components/atoms'
@@ -285,11 +285,10 @@ const TwentyTwenty = () => {
 					</Carousel>
 				</section>
 
-				{/* ---------- INITIATIVES ----------- */}
-				{/* HEADER - INITIATIVES */}
+				{/* Impact */}
 				<div id="impact" />
 
-				{/* THOUGHT LEADERSHIP */}
+				{/* OPES */}
 				<section id="campaign">
 					<Content
 						pretitle={data.opes.pretitle}
@@ -314,6 +313,28 @@ const TwentyTwenty = () => {
 					<Image src={data.opes.image} />
 				</section>
 
+				{/* Future */}
+				<section sx={{ backgroundColor: 'white' }}>
+					<Content
+						pretitle={data.future.pretitle}
+						title={data.future.title}
+						align="center"
+					/>
+					<Box sx={{}}>
+						{data.future.list.map(({ li }, i) => (
+							<Box>
+								<Text as="p" key={i} sx={{}}>
+									{li.title}
+								</Text>
+								{li.content.split('\n\n').map((paragraph, i) => (
+									<Text key={i}>{paragraph}</Text>
+								))}
+							</Box>
+						))}
+					</Box>
+				</section>
+
+				{/* Thank You */}
 				<section
 					sx={{ position: 'relative', zIndex: 0 }}
 					id="thankyou"
