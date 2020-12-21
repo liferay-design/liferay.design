@@ -9,7 +9,7 @@ import { Footer } from 'components/organisms'
 import theme from 'gatsby-plugin-theme-ui/2020'
 
 import FancyFooter from './promotions/components/footer.js'
-import Promotions from './promotions/components/header.js'
+import PromotedDesigners from './promotions/components/headshots.js'
 import MediaQuery from 'react-responsive'
 import Plx from 'react-plx'
 
@@ -239,7 +239,32 @@ const TwentyTwenty = () => {
 						</Flex>
 					</div>
 				</section>
-				<Promotions />
+				<Flex
+					sx={{
+						background: 'white',
+						height: ['auto', '100vh', null],
+						py: 5,
+					}}
+				>
+					<Flex
+						sx={{
+							justifyContent: 'center',
+							maxWidth: '1280px',
+							my: 0,
+							mx: [1, 'auto', null],
+							flexDirection: 'column',
+							width: '100%',
+						}}
+					>
+						<Content
+							pretitle={data.promotionsPage.title}
+							title={data.promotionsPage.pretitle}
+							copy={data.promotionsPage.summary}
+							align="center"
+						/>
+						<PromotedDesigners />
+					</Flex>
+				</Flex>
 
 				{/* COVID-19 */}
 				<section id="covid-19" className={styles.covid19}>

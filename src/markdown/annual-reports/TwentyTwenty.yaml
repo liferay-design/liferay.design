@@ -5,6 +5,8 @@ quote:
     title: Now water can flow or it can crash. Be water, my friend.
 promotionsPage:
     title: Congratulations
+    pretitle: 6 Designers Leveled Up!
+    summary: 'TODO: summary for promotions'
     designers:
         - name: 'Andrea Censi'
           summary: "Andrea has been leading the design for Commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. Congrats,\_Andrea!"
