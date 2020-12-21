@@ -1,13 +1,15 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Box, Text, Heading, ThemeProvider } from 'theme-ui'
+import { jsx, Flex, Text, Heading, ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
 import { Image, ScrollProgress, ScrollArrow } from 'components/atoms'
-import { SEO, FancyFooter, FormNewsletter } from 'components/molecules'
+import { SEO, FormNewsletter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 import theme from 'gatsby-plugin-theme-ui/2020'
 
+import FancyFooter from './promotions/components/footer.js'
+import Promotions from './promotions/components/header.js'
 import MediaQuery from 'react-responsive'
 import Plx from 'react-plx'
 
@@ -18,6 +20,8 @@ import {
 	KeyArt,
 	Content,
 	Slide,
+	ThankYou,
+	Juan,
 } from 'pages/2020/components/_index'
 import styles from './styles.module.scss'
 import data from 'markdown/annual-reports/TwentyTwenty.yaml'
@@ -235,6 +239,7 @@ const TwentyTwenty = () => {
 						</Flex>
 					</div>
 				</section>
+				<Promotions />
 
 				{/* COVID-19 */}
 				<section id="covid-19" className={styles.covid19}>
@@ -309,62 +314,27 @@ const TwentyTwenty = () => {
 					<Image src={data.opes.image} />
 				</section>
 
-				<section id="thankyou" className={styles.thankyou}>
-					<div>
-						<Content
-							pretitle={data.thankYou.pretitle}
-							title={data.thankYou.title}
-							align="center"
-						/>
-						<Flex sx={{ justifyContent: 'space-between', my: 5 }}>
-							<Box>
-								{data.thankYou.message.part1
-									.split('\n\n')
-									.map((paragraph, i) => (
-										<Text
-											as="p"
-											key={i}
-											sx={{
-												fontSize: 3,
-												maxWidth: '56ch',
-												my: 2,
-											}}
-										>
-											{paragraph}
-										</Text>
-									))}
-								<Text>{data.thankYou.author.name}</Text>
-								<Text>{data.thankYou.author.title}</Text>
-							</Box>
-							<Box sx={{ mt: 4 }}>
-								<Text sx={{ fontSize: 5 }}>
-									{data.thankYou.message.part2.title}
-								</Text>
-								{data.thankYou.message.part2.body
-									.split('\n\n')
-									.map((paragraph, i) => (
-										<Text
-											as="p"
-											key={i}
-											sx={{
-												fontSize: 3,
-												maxWidth: '56ch',
-												my: 2,
-											}}
-										>
-											{paragraph}
-										</Text>
-									))}
-							</Box>
-						</Flex>
-					</div>
+				<section
+					sx={{ position: 'relative', zIndex: 0 }}
+					id="thankyou"
+					className={styles.thankyou}
+				>
+					<Content
+						pretitle={data.thankYou.pretitle}
+						title={data.thankYou.title}
+						align="center"
+					/>
+					<ThankYou
+						message={data.thankYou.message.part1}
+						nextTitle={data.thankYou.message.part2.title}
+						nextBody={data.thankYou.message.part2.body}
+						authorName={data.thankYou.author.name}
+						authorTitle={data.thankYou.author.title}
+					/>
+					<Juan />
 				</section>
-
 				{/* ---------- SUBSCRIBE ----------- */}
-				{/* HEADER - SUBSCRIBE */}
-				<div id="subscribe" />
-
-				<section>
+				<section id="subscribe" sx={{ backgroundColor: 'black', mt: '10vh' }}>
 					<Content
 						pretitle={data.subscribe.pretitle}
 						title={data.subscribe.title}
@@ -373,7 +343,7 @@ const TwentyTwenty = () => {
 					/>
 					<FormNewsletter submitText="Subscribe" />
 				</section>
-
+				<div id="footer" />
 				<Footer />
 				<FancyFooter />
 			</div>
