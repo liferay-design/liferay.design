@@ -3,7 +3,7 @@
 import { jsx, Box, Flex, Grid, Text, Heading, ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
-import { Image, ScrollProgress, ScrollArrow } from 'components/atoms'
+import { Image, ScrollProgress, ScrollArrow, Icon, Link } from 'components/atoms'
 import { SEO, FormNewsletter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 import theme from 'gatsby-plugin-theme-ui/2020'
@@ -297,19 +297,86 @@ const TwentyTwenty = () => {
 					/>
 					<Box>
 						{data.impact.bigStats.map(({ stat }, i) => (
-							<Box key={i}>
-								<Text>{stat.value}</Text>
-								<Text>{stat.label}</Text>
+							<Box key={i} sx={{ textAlign: 'center', mb: 5 }}>
+								<Text
+									sx={{
+										fontSize: '16vw',
+										lineHeight: 0.8,
+										fontWeight: 'heading',
+										textTransform: 'uppercase',
+										mb: 0,
+										'-webkit-text-stroke-width': '2px',
+										'-webkit-text-fill-color': theme =>
+											`${theme.colors.black}`,
+										'-webkit-text-stroke-color': theme =>
+											`${theme.colors.primary}`,
+									}}
+								>
+									{stat.value}
+								</Text>
+								<Text
+									sx={{
+										mt: '-1em',
+										fontSize: 4,
+										fontWeight: 'heading',
+										textShadow: theme =>
+											'0 -4px 6px ' + `${theme.colors.black}`,
+									}}
+								>
+									{stat.label}
+								</Text>
 							</Box>
 						))}
 					</Box>
-					<Grid>
+					<Grid sx={{ variant: 'grids.threeCards' }}>
 						{data.impact.cards.map(({ card }, i) => (
-							<Box key={i}>
-								{card.icon}
-								{card.title}
-								{card.subtitle}
-							</Box>
+							<Link
+								to={card.link}
+								key={i}
+								sx={{
+									borderRadius: '1.4rem',
+									width: '100%',
+									flexDirection: 'column',
+									display: 'flex',
+									justifyContent: 'flexStart',
+									alignItems: 'center',
+									px: 1,
+									py: 4,
+									background: theme =>
+										`${theme.gradients.lightBackgroundGradient}`,
+									textAlign: 'center',
+								}}
+							>
+								<Box
+									sx={{
+										padding: 3,
+										borderRadius: '1rem',
+										background: theme =>
+											`${theme.gradients.backgroundGradient}`,
+									}}
+								>
+									<Icon
+										name={card.icon}
+										sx={{
+											height: '3rem',
+											width: '3rem',
+											color: 'primary',
+										}}
+									/>
+								</Box>
+								<Text
+									sx={{
+										fontSize: 5,
+										mt: 3,
+										mb: 2,
+									}}
+								>
+									{card.title}
+								</Text>
+								<Text sx={{ fontSize: 4, fontWeight: '200' }}>
+									{card.subtitle}
+								</Text>
+							</Link>
 						))}
 					</Grid>
 				</section>
@@ -343,7 +410,7 @@ const TwentyTwenty = () => {
 						title={data.opes.title}
 						align="center"
 					/>
-					<Flex sx={{ justifyContent: 'space-between', my: 5 }}>
+					<Flex sx={{ justifyContent: 'space-between', mb: 5 }}>
 						{data.opes.content.split('\n\n').map((paragraph, i) => (
 							<Text
 								as="p"

@@ -132,15 +132,15 @@ covid:
     slides:
         - slide:
               title: Remote Hiring
-              image: '/images/2020/remote-hiring.jpg'
+              image: '/images/2020/remote-hiring.png'
               icon: '/images/2020/icons/remoteHiring.svg'
               url: /careers
               linkText: Want to join the team?
               description: Thankfully, we didn’t experience any work shortages as a result of the pandemic — in fact we’ve been busier than ever, as a result we needed to figure out the best way to find, hire, and onboard new teammates (3 so far) in a fully remote way. We’ve hit a few bumps along the way but are constantly refining our process.
         - slide:
               title: APAC Consulting
-              image: '/images/2020/apac-consultin.jpg'
-              icon: '/images/2020/icons/apacConsultin.svg'
+              image: '/images/2020/apac-consulting.png'
+              icon: '/images/2020/icons/apacConsulting.svg'
               description: Outside of the Coronaverse, our product design consultation typically revolved around traveling to a customer’s workplace to facilitate UX workshops. When everything went virtual, the North American designers began working more with Liferayers in APAC, creating demand for Design in a brand new region.
         - slide:
               title: Second Home
@@ -151,12 +151,12 @@ covid:
               description: After what seemed like an eternity of remote working, the team in LA was fortunate enough to work together at an outdoor creative space in Hollywood. Good coffee plus a lush environment was the perfect mid-quarantine inspiration we needed. Masks and social distancing were par for the course while we plotted liferay.design’s global takeover.
         - slide:
               title: Code Names
-              image: '/images/2020/code-names.jpg'
+              image: '/images/2020/code-names.png'
               icon: '/images/2020/icons/codeNames.svg'
               description: Friday happy hours were sorely missed, so we started our own happy hours on Zoom a few weeks after our offices closed. CodeNames, Spyfall, and other games were eventually brought into these virtual gatherings, and it became a really enjoyable way to unwind at the end of the week.
         - slide:
               title: Office Hours
-              image: '/images/2020/office-hours.jpg'
+              image: '/images/2020/office-hours.png'
               icon: '/images/2020/icons/officeHours.svg'
               description: For most of us, it was difficult to transition from spending the week in-office with our co-workers and friends to sitting alone at home. The social distancing took a toll on our job satisfaction and well-being, so we decided to create time where we could work together, virtually. Our daily office hours is a chance for the team to collaborate and/or work individually, while listening to music on Google Meet.
         - slide:
@@ -170,35 +170,41 @@ impact:
     bigStats:
         - stat:
               value: 4.36m
-              label: impressions
+              label: Impressions
         - stat:
               value: 33k
-              label: engagements
+              label: Engagements
     cards:
-        - card:
-              icon: twitter
-              title: 466 Followers
-              subtitle: 110k+ impressions
         - card:
               icon: dribbble
               title: 42 Shots
               subtitle: 2,660+ likes
+              link: 'https://dribbble.com/liferay'
         - card:
-              icon: rss
-              title: 16 Articles
-              subtitle: 1 Podcast Episode
-        - card:
-              icon: unsplash
-              title: 5 Designers
-              subtitle: on the Unsplash homepage
+              icon: figma
+              title: 14 Files
+              subtitle: 15k+ Community downloads
+              link: 'https://figma.com/@liferay'
         - card:
               icon: github
               title: 160 Pull Requests
               subtitle: from 10 contributors
+              link: 'https://github.com/liferay-design/liferay.design'
         - card:
-              icon: figma
-              title: 14 Community Files
-              subtitle: 15k+ downloads
+              icon: rss
+              title: 19 Articles
+              subtitle: 11 Contributors
+              link: '/articles'
+        - card:
+              icon: twitter
+              title: 466 Followers
+              subtitle: 110k+ impressions
+              link: 'https://twitter.com/liferaydesign'
+        - card:
+              icon: unsplash
+              title: 5 Designers
+              subtitle: on the Unsplash homepage
+              link: 'https://unsplash.com/liferay'
 globalServices:
     pretitle: Consult
     title: Global Services
@@ -210,7 +216,7 @@ globalServices:
               description: Solutions Designs are prototype demos for prospective clients to see a visionary concept of a digital experience for their industry. The designer is tasked with persuading the potential customer through their designs that Liferay as a solutions oriented platform, could be a highly successful partner for them.
         - slide:
               title: RFPs
-              image: '/images/2020/rf-ps.png'
+              image: '/images/2020/rfps.png'
               icon: '/images/2020/icons/rfPs.svg'
               description: Liferay GS puts together a proposal to fit prospective customers for digital experience platform needs. Alongside the product and services information, GS Designers create hi-fi mockups with callouts to provide visual examples for clients to understand our capabilities to deliver a solution that is designed internally
         - slide:
