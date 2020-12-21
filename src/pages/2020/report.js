@@ -23,47 +23,7 @@ import styles from './styles.module.scss'
 import data from 'markdown/annual-reports/TwentyTwenty.yaml'
 
 //   constant plx data
-const InView = [
-	{
-		start: 'self',
-		duration: 1,
-		properties: [],
-	},
-]
-const InView10 = [
-	{
-		start: 'self',
-		duration: 1,
-		startOffset: '10vh',
-		properties: [],
-	},
-]
-const PlxUp1 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 50,
-				endValue: -50,
-				property: 'translateY',
-			},
-		],
-	},
-]
-const PlxUp2 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 100,
-				endValue: -100,
-				property: 'translateY',
-			},
-		],
-	},
-]
+
 const PlxUp3 = [
 	{
 		start: 'self',
@@ -77,20 +37,7 @@ const PlxUp3 = [
 		],
 	},
 ]
-const PlxDown1 = [
-	{
-		start: 'self',
-		duration: '200vh',
-		properties: [
-			{
-				startValue: 0,
-				endValue: 20,
-				unit: 'vh',
-				property: 'translateY',
-			},
-		],
-	},
-]
+
 const PlxDown2 = [
 	{
 		start: 'self',
@@ -291,7 +238,7 @@ const TwentyTwenty = () => {
 				</section>
 
 				{/* COVID-19 */}
-				<section id="convid-19" className={styles.covid19}>
+				<section id="covid-19" className={styles.covid19}>
 					<Carousel>
 						{data.covid19.slides.map(({ slide }) => (
 							<Slide
@@ -305,16 +252,20 @@ const TwentyTwenty = () => {
 							/>
 						))}
 					</Carousel>
+				</section>
+
+				{/* GS Summary */}
+				<section id="consult" className={styles.covid19}>
 					<Carousel>
-						{data.designPractice.images.map(({ image }) => (
+						{data.globalServices.slides.map(({ slide }) => (
 							<Slide
-								title={''}
-								image={image}
-								icon={''}
-								url={''}
-								linkText={''}
-								description={''}
-								type={'image'}
+								title={slide.title}
+								image={slide.image}
+								icon={slide.icon}
+								url={slide.url}
+								linkText={slide.linkText}
+								description={slide.description}
+								type={'card'}
 							/>
 						))}
 					</Carousel>
@@ -323,9 +274,6 @@ const TwentyTwenty = () => {
 				{/* ---------- INITIATIVES ----------- */}
 				{/* HEADER - INITIATIVES */}
 				<div id="impact" />
-
-				{/* CHARITY DESIGN */}
-				<section id="consult" className={styles.mediaSection}></section>
 
 				{/* THOUGHT LEADERSHIP */}
 				<section id="campaign"></section>

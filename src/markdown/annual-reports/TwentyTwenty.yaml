@@ -3,26 +3,6 @@ subtitle: Our second annual report shares highlights about our organization, the
 quote:
     pretitle: Bruce Lee
     title: Now water can flow or it can crash. Be water, my friend.
-departmentSection:
-    pretitle: Department
-    title: Organization
-    content: |
-        While we recognize that there are differences in each team’s skills, there are also similarities in what makes a “designer” of any profession, a designer. As a department, we want to steward and attract designers that add to Liferay’s culture.
-
-        The Design Department is comprised of three teams; Communication, Product, and Research. Each of those teams determines the skills required to be a designer on that team. These skills should be relevant to the market and also reflect the ways in which we’re adding value to the company.
-    desicon:
-        title: Our Desicon
-        subtitle: Design + Icon — get it?
-    subDepartments:
-        - subDepartment:
-              title: Product Design
-              subtitle: Interaction Design
-        - subDepartment:
-              title: Communication Design
-              subtitle: Brand Excellence
-        - subDepartment:
-              title: Design Research
-              subtitle: User Testing
 promotionsPage:
     title: Congratulations
     designers:
@@ -89,6 +69,13 @@ timelineSection:
     title: Significant Markers in a Marked Year
     events:
         - event:
+              name: Design
+              description: ' from home begins'
+              startDate: 2020-02-12
+              endDate: ''
+              url: ''
+              image: '/images/2020/design-from-home.jpg'
+        - event:
               name: Jon
               description: "'s first birth-ray"
               startDate: 2020-04-15
@@ -97,21 +84,21 @@ timelineSection:
               image: '/images/headshots/wood-jon.jpg'
         - event:
               name: Victor
-              description: ' started in Spain'
+              description: ' started in Recife'
               startDate: 2020-05-18
               endDate: ''
               url: '/team/santos-victor'
               image: '/images/headshots/santos-victor.jpg'
         - event:
               name: Crystal
-              description: ' started in California'
+              description: ' started in Los Angeles'
               startDate: 2020-05-18
               endDate: ''
-              url: '/team/juarez-crystal'
+              url: '/articles/2020/3-months-at-liferay/'
               image: '/images/headshots/juarez-crystal.jpg'
         - event:
               name: Rubén
-              description: ' started in Spain'
+              description: ' started in Madrid'
               startDate: 2020-08-06
               endDate: ''
               url: '/team/jimenez-ruben'
@@ -125,14 +112,14 @@ timelineSection:
               image: '/images/headshots/francisco-marleny.jpg'
         - event:
               name: Design Week
-              description: ''
+              description: ' from Home'
               startDate: 2020-11-16
-              endDate: 2020-11-19
+              endDate: 2020-11-20
               url: '/design-week'
-              image: '/images/headshots/hanaoka-paul.jpg'
+              image: '/images/2020/design-week-thumb.jpg'
         - event:
               name: Juan
-              description: ' promoted to VP of Design'
+              description: ' becomes VP of Design'
               startDate: 2020-11-17
               endDate:
               url: '/team/hidalgo-juan'
@@ -142,214 +129,84 @@ covid19:
     title: How did we adapt?
     slides:
         - slide:
-            title: Chris Jeong
-            image: /images/2020/paul-hanaoka-4yG7Y0rAZvA-unsplash.jpg
-            icon: /images/icons/news.svg
-            url: /2020
-            linkText: Click me
-            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis.
+              title: Remote Hiring
+              image: '/images/2020/remote-hiring.jpg'
+              icon: '/images/2020/icons/remoteHiring.svg'
+              url: /careers
+              linkText: Want to join the team?
+              description: Thankfully, we didn’t experience any work shortages as a result of the pandemic — in fact we’ve been busier than ever, as a result we needed to figure out the best way to find, hire, and onboard new teammates (3 so far) in a fully remote way. We’ve hit a few bumps along the way but are constantly refining our process.
         - slide:
-            title: Ryan Connolly
-            image: /images/2020/paul-hanaoka-hNQCPAz4ILU-unsplash.jpg
-            icon: /images/icons/news.svg
-            url: /2020
-            linkText: Click me
-            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis.
+              title: APAC Consulting
+              image: '/images/2020/apac-consultin.jpg'
+              icon: '/images/2020/icons/apacConsultin.svg'
+              description: Outside of the Coronaverse, our product design consultation typically revolved around traveling to a customer’s workplace to facilitate UX workshops. When everything went virtual, the North American designers began working more with Liferayers in APAC, creating demand for Design in a brand new region.
         - slide:
-            title: Jon Wood
-            image: /images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg
-            icon: /images/icons/news.svg
-            url: /2020
-            linkText: Click me
-            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non egestas neque consectetur malesuada ultricies. Lacus, ultrices odio semper congue aliquet neque. Neque, montes, tincidunt orci nibh tincidunt habitant commodo feugiat porttitor. A imperdiet sit et dignissim sit. Sit netus et venenatis, consequat rhoncus aliquet habitasse donec. Vitae sed enim aliquet urna at duis. Metus mi, lorem sit risus at commodo convallis.
-careerSection:
-    pretitle: Grow & Get Better
-    title: Design Careers
-    subtitle: We designed and implemented a dual-track career path, one for people management and one for individual contributors.
-    link:
-        title: Read about it in our Handbook
-        url: /handbook/grow/career-paths/
-givingSection:
-    pretitle: Giving Back
-    title: Underground Writing
-    subtitle: |
-        This year Design for Life(ray) served Underground Writing, an organization that runs creative workshops that empowers personal transformation in migrant, incarcerated, recovery, and other at-risk communities through literacy.
-
-        Liferay designers spent some time at the end of the year to give Underground Writing a top to down make-over. This included a brand new website, completely revamped tech stack, and service design optimizations.
-    what:
-        title: Services Provided
-        services: ['Branding', 'Development', 'Service Design', 'Web Design']
-    how:
-        title: Technologies Used
-        technologies: ['Anchor.fm', 'Donorbox', 'Google Suite for Nonprofits', 'Webflow']
-    link:
-        title: View Full Case Study
-        url: /articles/2019/unlocking-creative-potential/
-designPractice:
-    pretitle: '#ThoughtLeadership'
-    title: Design Best Practices
-    subtitle: Over the last 9 months we have invested in sharing our research, thoughts, and work with you. We have shared over 40 posts covering topics such as accessibility, psychology, research, strategy, visual design, ethics and much more!
-    link:
-        title: Browse Best Practices Articles
-        url: /tags/best-practices
-    images:
-        - image: '/images/2019/dbp/the-design-process.png'
-        - image: '/images/2019/dbp/Service-Design.png'
-        - image: '/images/2019/dbp/ethics-in-design.png'
-        - image: '/images/2019/dbp/data-driven-vs-data-infomred.png'
-        - image: '/images/2019/dbp/giving-feedback.png'
-        - image: '/images/2019/dbp/affordances.png'
-        - image: '/images/2019/dbp/banner-blindness.png'
-        - image: '/images/2019/dbp/what-is-a-mental-model.png'
-        - image: '/images/2019/dbp/pareto-principle.png'
-        - image: '/images/2019/dbp/value-driven-kpis.png'
-        - image: '/images/2019/dbp/zero-users-give-zero-insights.png'
-        - image: '/images/2019/dbp/what-is-accessibility-in-design.png'
-designCommunity:
-    pretitle: Community
-    title: Our Events
-    subtitle: Ideas meet makers. Makers meet comrades.
-        These events sparked inspirations, gave ideas momentum, and put makers in action.
-    events:
-        - event:
-              image: '/images/2019/logos/logo-awwwards.png'
-              title: 'Building the Future of the Internet'
-              city: 'San Francisco'
-              description: 'David spent 2 days in SF listening to design leaders from AirBnb, Dropbox, Github, and more!'
-        - event:
-              image: '/images/2019/logos/logo-max.png'
-              title: 'The Creativity Conference'
-              city: 'Los Angeles'
-              description: 'M. Night Shyamalan and Billie Eilish were a couple of Ryan’s favorites at this year’s Adobe Max.'
-        - event:
-              image: '/images/2019/logos/logo-nng.png'
-              title: 'UX Training Conferences'
-              city: 'Berlin'
-              description: 'Victor leveled up this year, NN/g courses helped him improving data analysis from UX research.'
-        - event:
-              image: '/images/2019/logos/logo-eia.png'
-              title: 'EuroIA 2019 Impact'
-              city: 'Latvia'
-              description: 'A number of us travelled to Riga for Europe’s premier Information Architecture & User Experience conference'
-        - event:
-              image: '/images/2019/logos/logo-figma.png'
-              title: Figma User Group
-              city: 'Los Angeles'
-              description: 'We hosted Figma’s first user group meeting in Los Angeles, it was their largest meeting ever!'
-        - event:
-              image: '/images/2019/logos/logo-sgvux.png'
-              title: San Gabriel Valley UX
-              city: 'Los Angeles'
-              description: We hosted a couple meetings from one of LA's newest User Experience groups.
-    seeMore:
-        title: See all events
-        url: '/events'
-dribbbleSection:
-    pretitle: Dribbble
-    title: Shots Fired
-    slides:
+              title: Second Home
+              image: '/images/2020/second-home.jpg'
+              icon: '/images/2020/icons/secondHome.svg'
+              url: 'https://unsplash.com/collections/12274763/liferay.design-%40-secondhome.io'
+              linkText: Download the collection on Unsplash
+              description: After what seemed like an eternity of remote working, the team in LA was fortunate enough to work together at an outdoor creative space in Hollywood. Good coffee plus a lush environment was the perfect mid-quarantine inspiration we needed. Masks and social distancing were par for the course while we plotted liferay.design’s global takeover.
         - slide:
-              image: '/images/2019/dribbble-shots/dribbble3.png'
-              description: A concept for a furniture distributor that we designed for our Commerce product.
+              title: Code Names
+              image: '/images/2020/code-names.jpg'
+              icon: '/images/2020/icons/codeNames.svg'
+              description: Friday happy hours were sorely missed, so we started our own happy hours on Zoom a few weeks after our offices closed. CodeNames, Spyfall, and other games were eventually brought into these virtual gatherings, and it became a really enjoyable way to unwind at the end of the week.
         - slide:
-              image: '/images/2019/dribbble-shots/dribbble1.png'
-              description: A set of custom graphic t-shirt designs we put together for one of our events in Austin, TX.
+              title: Office Hours
+              image: '/images/2020/office-hours.jpg'
+              icon: '/images/2020/icons/officeHours.svg'
+              description: For most of us, it was difficult to transition from spending the week in-office with our co-workers and friends to sitting alone at home. The social distancing took a toll on our job satisfaction and well-being, so we decided to create time where we could work together, virtually. Our daily office hours is a chance for the team to collaborate and/or work individually, while listening to music on Google Meet.
         - slide:
-              image: '/images/2019/dribbble-shots/dribbble2.png'
-              description: We redesigned Liferay's Customer Help Center, this is one of the early drafts.
-        - slide:
-              image: '/images/2019/dribbble-shots/dribbble4.png'
-              description: A new feature that's coming soon to Liferay to provide comments, create threads, resolve tasks and review the work done. Created entirely from design language Lexicon and components from its Figma Library.
-        - slide:
-              image: '/images/2019/dribbble-shots/dribbble5.png'
-              description: A new color picker in Lexicon with an optional panel for RGB color selection. 🖖
-        - slide:
-              image: '/images/2019/dribbble-shots/dribbble6.png'
-              description: Since 404s are a pain-point for users we thought it would be nice to make some small improvements on this page on liferay.com
-    link:
-        url: https://dribbble.com/liferay
-        title: Show us some ❤️ on Dribbble!
-designProjects:
-    pretitle: Project Stories
-    title: Sharing is Caring
-    subtitle: A huge part of our work is sharing what we've learned — taking time to reflect on the successes and miss-steps helps future us make better decisions.
-    projects:
-        - project:
-              image: '/images/headshots/francisco-marleny.jpg'
-              title: 'Liferay Events'
-              designer: 'Marleny Francisco & Rachel Yuan'
-              description: The Liferay Symposium in Spain was our biggest event ever — we learned a lot and are looking forward to making 2020's events even better!
-              link:
-                  title: Read the full post
-                  url: /articles/2019/6-things-we-learned-about-designing-for-a-conference/
-        - project:
-              image: '/images/headshots/hancock-abel.jpg'
-              title: 'Landing Page Builder'
-              designer: 'Abel Hancock'
-              description: 'Enable our marketing team to self-service and build landing pages without designer or developer involvement.'
-              link:
-                  title: Read the full post
-                  url: /articles/2019/increasing-our-ability-to-convert-prospects/
-        - project:
-              image: '/images/headshots/jeong-chris.jpg'
-              title: 'Analytics Cloud'
-              designer: 'Chris Jeong & James Lyons'
-              description: 'Released AB testing, Improved Segmentation, Site-wide Reporting, Improved Onboarding  and Individuals Dashboards.'
-              link:
-                  title: Read the full post
-                  url: /articles/2019/is-now-the-right-time-for-redesign/
-        - project:
-              image: '/images/headshots/valle-victor.jpg'
-              title: 'Lexicon'
-              designer: 'Victor Valle'
-              description: Working in Liferay's Design System isn't a cakewalk, but Victor managed it very well, he wrote a few things to share with the team.
-              link:
-                  title: Read the full post
-                  url: /articles/2019/lessons-learned-working-in-a-design-system/
-        - project:
-              image: '/images/headshots/connolly-ryan.jpg'
-              title: 'Liferay Commerce'
-              designer: 'Ryan Connolly & Andrea Censei'
-              description: Our Commerce offering made huge strides in 2019 thanks in no small part to the tireless efforts of Ryan and Andrea.
-              link:
-                  title: Read the full post
-                  url: /articles/2019/interview-with-a-designer-b2-b-commerce/
-    seeMore:
-        title: Read all articles
-        url: '/articles'
+              title: Global Fika
+              image: '/images/2020/global-fika.jpg'
+              icon: '/images/2020/icons/globalFika.svg'
+              description: Taking a cue from Swedish culture, we began making time to mingle with each other over a nice cup of coffee or tea. Having these global calls helped to shorten the distance, raise our teams’ spirits, and tighten connections through a sharing of laughter, personal stories, and Netflix recommendations.
 globalServices:
-    pretitle: Design as a Service
-    title: Consulting
-    content: 2019 was a big year for design work in Liferay's Global Services Department. We contributed to countless RFPs and created designs for some big clients. Most of it is very hush-hush, but as the projects get developed we'll share more.
-    images:
-        - image: '/images/2019/global-services/gs1.png'
-        - image: '/images/2019/global-services/gs2.png'
-        - image: '/images/2019/global-services/gs3.png'
-opsSection:
-    pretitle: Operations
-    title: Design at Scale
+    pretitle: Consult
+    title: Global Services
     slides:
         - slide:
-              image: '/images/2019/handbook.png'
-              description: We developed and launched our global design handbook with contributions from designers in Los Angeles, Madrid, and Recife. Our 2020 goal is for everyone in the department to contribute in some way!
+              title: Solutions Design
+              image: '/images/2020/solutions-design.png'
+              icon: '/images/2020/icons/solutionsDesign.svg'
+              description: Solutions Designs are prototype demos for prospective clients to see a visionary concept of a digital experience for their industry. The designer is tasked with persuading the potential customer through their designs that Liferay as a solutions oriented platform, could be a highly successful partner for them.
         - slide:
-              image: '/images/2019/slack.png'
-              description: Liferay went all-in on Slack in 2019, rolling it out globally to all employees. Our Design Ops team was part of a cross-functional group tasked with developing policies, guidelines, and best-practices for communication across the whole company.
+              title: RFPs
+              image: '/images/2020/rf-ps.png'
+              icon: '/images/2020/icons/rfPs.svg'
+              description: Liferay GS puts together a proposal to fit prospective customers for digital experience platform needs. Alongside the product and services information, GS Designers create hi-fi mockups with callouts to provide visual examples for clients to understand our capabilities to deliver a solution that is designed internally
         - slide:
-              image: '/images/2019/easil.png'
-              description: We needed to put more power in the hands of marketers to do their business on social media when it happens in their time zones, while maintaining a level of brand consistency.
+              title: Accelerator
+              image: '/images/2020/accelerator.png'
+              icon: '/images/2020/icons/accelerator.svg'
+              description: Raylife is the accelerator for our insurance solution that empowers agents or producers of business with a suite of tools to manage their accounts, streamline their quote workflows, and analyze their performance with key KPIs. This year we also enhanced the customer portal experience to self-provision users and leveraged Liferay Fragments for a personalized business website experience.
         - slide:
-              image: '/images/2019/dam.png'
-              description: We worked closely with Marketing Operations and Information Services to develop requirements, research, test, and procure a Digital Asset Management solution to serve our rapidly growing Marketing and Sales organization.
+              title: Client Projects
+              image: '/images/2020/client-projects.png'
+              icon: '/images/2020/icons/clientProjects.svg'
+              description: 2020 led our designers to serve 8 enterprise clients through discoveries, product design and implementation, UX research, as well as UX consultancy. These engagements helped customers from insurance, financial services, manufacturing, and pharmaceutical industries reach solutions for their digital transformation goals.
+opes:
+    pretitle: Campaign
+    title: 'One Platform. Endless Solutions.'
+    content: |
+        Debuting at Liferay’s 2020 Sales Kick-Off event in January, OPES (oh-pez), was launched as the king of global campaigns for the year. Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. We were excited to dream up all the fun, in-person promotions for the year — exhibitor booth activities, giveaways, mailers!
+
+        We all know what happened to those plans in March. Alongside our marketers, we quickly adjusted to roll out 100% digital campaigns. Creating solution-specific ads for campaigns focused on e-commerce, digital workspace, and self-service portals. OPES visuals began as colorful, literal representations of origami playing off ad copy, and have evolved into more subtle, abstract backgrounds, highlighting the content. Who knows how OPES will evolve in 2021! Stay tuned.
 thankYou:
-    title: Thank you for a great year
-    subtitle: From el Director
-    message: |
-        Design at Liferay is maturing and growing at an amazing rate. From Communication, to Product, to Research — all of our departments are finding new ways to contribute to the bottom line.
+    pretitle: 2020 Hindsight
+    title: A year of uncertainty, met with resilience.
+    message:
+        part1: |
+            While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years — not by luck or circumstance, but with mindful practice. 
 
-        We have lofty goals for 2020 and I'm very excited to see us continue to scale and serve each other, our various business units, and our local and global communities.
+            Because of this, we’ve been able to rely on one another through our personal and professional journeys, time and time again. And now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
+        part2:
+            title: What’s next?
+            body: |
+                If this year has shown us anything, it’s that we never really know what’s to come. We dream of great and ambitious endeavors, yet may be able to turn only a portion of it into reality. We’re moving in the right direction.
 
-        Thank you all.
+                Our product portfolio is becoming more cohesive, we're designing with more and more data, and — most importantly — our designers are growing and helping each other reach their full potential. It’s been a beautiful thing to see. As Liferay grows and adapts, I know we will continue to grow with it.
 subscribe:
     pretitle: Want more?
     title: '#LikeAndSubscribe<3'
