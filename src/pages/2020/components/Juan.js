@@ -43,6 +43,7 @@ const Juan = ({}) => {
 				transform: 'translateX(25%)',
 				width: '100%',
 				zIndex: -1,
+				pointerEvents: 'none',
 			}}
 		>
 			<Plx

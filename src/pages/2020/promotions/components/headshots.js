@@ -38,7 +38,7 @@ export default ({}) => {
 		>
 			<Link
 				target="_self"
-				to={'#' + makeAuthorSlug(name.id)}
+				to={'/2020/promotions#' + makeAuthorSlug(name.id)}
 				sx={{
 					position: 'relative',
 					display: 'block',
