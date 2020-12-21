@@ -162,6 +162,41 @@ covid:
               image: '/images/2020/global-fika.jpg'
               icon: '/images/2020/icons/globalFika.svg'
               description: Taking a cue from Swedish culture, we began making time to mingle with each other over a nice cup of coffee or tea. Having these global calls helped to shorten the distance, raise our teams’ spirits, and tighten connections through a sharing of laughter, personal stories, and Netflix recommendations.
+impact:
+    pretitle: impact
+    title: Liferay in the Design community
+    bigStats:
+        - stat:
+              value: 4.36m
+              label: impressions
+        - stat:
+              value: 33k
+              label: engagements
+    cards:
+        - card:
+              icon: twitter
+              title: 466 Followers
+              subtitle: 110k+ impressions
+        - card:
+              icon: dribbble
+              title: 42 Shots
+              subtitle: 2,660+ likes
+        - card:
+              icon: rss
+              title: 16 Articles
+              subtitle: 1 Podcast Episode
+        - card:
+              icon: unsplash
+              title: 5 Designers
+              subtitle: on the Unsplash homepage
+        - card:
+              icon: github
+              title: 160 Pull Requests
+              subtitle: from 10 contributors
+        - card:
+              icon: figma
+              title: 14 Community Files
+              subtitle: 15k+ downloads
 globalServices:
     pretitle: Consult
     title: Global Services
