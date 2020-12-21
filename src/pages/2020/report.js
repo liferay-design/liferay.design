@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Box, Flex, Text, Heading, ThemeProvider } from 'theme-ui'
+import { jsx, Box, Flex, Grid, Text, Heading, ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
 import { Image, ScrollProgress, ScrollArrow } from 'components/atoms'
@@ -263,6 +263,32 @@ const TwentyTwenty = () => {
 					</Carousel>
 				</section>
 
+				{/* Impact */}
+				<section id="impact">
+					<Content
+						pretitle={data.impact.pretitle}
+						title={data.impact.title}
+						align="center"
+					/>
+					<Box>
+						{data.impact.bigStats.map(({ stat }, i) => (
+							<Box key={i}>
+								<Text>{stat.value}</Text>
+								<Text>{stat.label}</Text>
+							</Box>
+						))}
+					</Box>
+					<Grid>
+						{data.impact.cards.map(({ card }, i) => (
+							<Box key={i}>
+								{card.icon}
+								{card.title}
+								{card.subtitle}
+							</Box>
+						))}
+					</Grid>
+				</section>
+
 				{/* GS Summary */}
 				<section id="consult" className={styles.covid19}>
 					<Content
@@ -284,9 +310,6 @@ const TwentyTwenty = () => {
 						))}
 					</Carousel>
 				</section>
-
-				{/* Impact */}
-				<div id="impact" />
 
 				{/* OPES */}
 				<section id="campaign">
