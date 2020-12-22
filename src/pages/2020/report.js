@@ -25,6 +25,7 @@ import {
 } from 'pages/2020/components/_index'
 import styles from './styles.module.scss'
 import data from 'markdown/annual-reports/TwentyTwenty.yaml'
+import { Global } from '@emotion/core'
 
 //   constant plx data
 
@@ -84,7 +85,16 @@ const PlxDown3 = [
 const TwentyTwenty = () => {
 	return (
 		<ThemeProvider theme={theme}>
-			<div className={styles.pagestyles}>
+			<Global
+				styles={theme => ({
+					body: {
+						fontFamily: theme.fonts.body,
+						color: theme.colors.lightBlue,
+						lineHeight: theme.lineHeights.body,
+					},
+				})}
+			/>
+			<div className={styles.pagestyles} sx={{ backgroundColor: 'black' }}>
 				<SEO
 					pageTitle="Liferay Design | 2020 Annual Report"
 					description="Highlights, case studies, and more from Communication Design, Product Design, and Design Research at Liferay."
@@ -182,12 +192,11 @@ const TwentyTwenty = () => {
 						<Content
 							pretitle={data.quote.pretitle}
 							title={data.quote.title}
-							align="center"
-							justify="center"
 							inverted
-							textAlign="center"
+							pageHeader
 							zIndex="1"
 						/>
+						<div sx={{ mt: 5 }} />
 					</Flex>
 				</div>
 
@@ -260,7 +269,7 @@ const TwentyTwenty = () => {
 							pretitle={data.promotionsPage.title}
 							title={data.promotionsPage.pretitle}
 							copy={data.promotionsPage.summary}
-							align="center"
+							inverted
 						/>
 						<PromotedDesigners />
 					</Flex>

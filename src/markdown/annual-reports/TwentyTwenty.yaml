@@ -6,7 +6,7 @@ quote:
 promotionsPage:
     title: Congratulations
     pretitle: 6 Designers Leveled Up!
-    summary: 'TODO: summary for promotions'
+    summary: To recognize the efforts, achievements, and additional responsibilities these dedicated designers have taken on, we are moving them up to new positions and titles! Click on any of them to see their new titles and a few highlights from 2020.
     designers:
         - name: 'Andrea Censi'
           summary: "Andrea has been leading the design for Commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. Congrats,\_Andrea!"
@@ -107,7 +107,7 @@ timelineSection:
               image: '/images/headshots/jimenez-ruben.jpg'
         - event:
               name: Marleny
-              description: "'s first birth-ray'"
+              description: "'s first birth-ray"
               startDate: 2020-08-12
               endDate: ''
               url: '/team/francisco-marleny'
@@ -133,36 +133,40 @@ covid:
         - slide:
               title: Remote Hiring
               image: '/images/2020/remote-hiring.png'
-              icon: 'remoteHiripg'
+              icon: 'bolt'
               url: /careers
               linkText: Want to join the team?
               description: Thankfully, we didn’t experience any work shortages as a result of the pandemic — in fact we’ve been busier than ever, as a result we needed to figure out the best way to find, hire, and onboard new teammates (3 so far) in a fully remote way. We’ve hit a few bumps along the way but are constantly refining our process.
         - slide:
               title: APAC Consulting
               image: '/images/2020/apac-consulting.png'
-              icon: 'apacConsultipg'
+              icon: 'globe'
               description: Outside of the Coronaverse, our product design consultation typically revolved around traveling to a customer’s workplace to facilitate UX workshops. When everything went virtual, the North American designers began working more with Liferayers in APAC, creating demand for Design in a brand new region.
         - slide:
               title: Second Home
               image: '/images/2020/second-home.jpg'
-              icon: 'secondHope'
+              icon: 'home_full'
               url: 'https://unsplash.com/collections/12274763/liferay.design-%40-secondhome.io'
               linkText: Download the collection on Unsplash
               description: After what seemed like an eternity of remote working, the team in LA was fortunate enough to work together at an outdoor creative space in Hollywood. Good coffee plus a lush environment was the perfect mid-quarantine inspiration we needed. Masks and social distancing were par for the course while we plotted liferay.design’s global takeover.
         - slide:
-              title: Code Names
+              title: Codenames
               image: '/images/2020/code-names.png'
-              icon: 'codeNamps'
-              description: Friday happy hours were sorely missed, so we started our own happy hours on Zoom a few weeks after our offices closed. CodeNames, Spyfall, and other games were eventually brought into these virtual gatherings, and it became a really enjoyable way to unwind at the end of the week.
+              icon: 'puzzle'
+              url: 'https://horsepaste.com'
+              linkText: Play Codenames Online!
+              description: Friday happy hours were sorely missed, so we started our own happy hours on Zoom a few weeks after our offices closed. Codenames, Spyfall, and other games were eventually brought into these virtual gatherings, and it became a really enjoyable way to unwind at the end of the week.
         - slide:
               title: Office Hours
               image: '/images/2020/office-hours.png'
-              icon: 'officeHoups'
+              icon: 'audio'
+              url: https://open.spotify.com/playlist/7xclcaljk4yEJZoVMxbEWY?si=1Ac3OzH-R1-9uwJM-K9mVw
+              linkText: Listen to our jams on Spotify
               description: For most of us, it was difficult to transition from spending the week in-office with our co-workers and friends to sitting alone at home. The social distancing took a toll on our job satisfaction and well-being, so we decided to create time where we could work together, virtually. Our daily office hours is a chance for the team to collaborate and/or work individually, while listening to music on Google Meet.
         - slide:
               title: Global Fika
               image: '/images/2020/global-fika.jpg'
-              icon: 'globalFipa'
+              icon: 'fa_coffee'
               description: Taking a cue from Swedish culture, we began making time to mingle with each other over a nice cup of coffee or tea. Having these global calls helped to shorten the distance, raise our teams’ spirits, and tighten connections through a sharing of laughter, personal stories, and Netflix recommendations.
 impact:
     pretitle: impact
@@ -213,22 +217,22 @@ globalServices:
               title: Solutions Design
               image: '/images/2020/solutions-design.png'
               icon: 'solutionDesign'
-              description: Solutions Designs are prototype demos for prospective clients to see a visionary concept of a digital experience for their industry. The designer is tasked with persuading the potential customer through their designs that Liferay as a solutions oriented platform, could be a highly successful partner for them.
+              description: Prototyped demos for prospective clients to see a visionary concept of a digital experience for their industry. The designer is tasked with persuading prospects that Liferay as a solutions oriented platform, could be a highly successful partner for them.
         - slide:
               title: RFPs
               image: '/images/2020/rfps.png'
               icon: 'view'
-              description: Liferay GS puts together a proposal to fit prospective customers for digital experience platform needs. Alongside the product and services information, GS Designers create hi-fi mockups with callouts to provide visual examples for clients to understand our capabilities to deliver a solution that is designed internally
+              description: Our Global Services team puts together a proposal to fit prospects for digital experience platform needs. Designers contribute by creating mockups with callouts to provide visual examples for clients to understand our capabilities to deliver a custom solution for their needs.
         - slide:
               title: Accelerator
               image: '/images/2020/accelerator.png'
               icon: 'arrowsUp'
-              description: Raylife is the accelerator for our insurance solution that empowers agents or producers of business with a suite of tools to manage their accounts, streamline their quote workflows, and analyze their performance with key KPIs. This year we also enhanced the customer portal experience to self-provision users and leveraged Liferay Fragments for a personalized business website experience.
+              description: Raylife is the accelerator for our insurance solution that empowers agents or producers with a suite of tools to manage their accounts, streamline their quote workflows, and analyze their performance with KPIs. This year we enhanced the customer portal experience to self-provision users and leveraged Liferay's new site-building features for a personalized business website experience.
         - slide:
               title: Client Projects
               image: '/images/2020/client-projects.png'
               icon: 'target'
-              description: 2020 led our designers to serve 8 enterprise clients through discoveries, product design and implementation, UX research, as well as UX consultancy. These engagements helped customers from insurance, financial services, manufacturing, and pharmaceutical industries reach solutions for their digital transformation goals.
+              description: We served 8 enterprise clients through discoveries, product design and implementation, UX research, as well as UX consultancy in 2020. These engagements helped customers from insurance, financial services, manufacturing, and pharmaceutical industries reach solutions for their digital transformation goals.
 opes:
     pretitle: Campaign
     title: 'One Platform. Endless Solutions.'

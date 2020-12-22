@@ -3,8 +3,7 @@
 import { jsx, Flex } from 'theme-ui'
 import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
-import { Link, Icon } from 'components/atoms'
-import styles from '../../styles.module.scss'
+import { NiceLink, Icon } from 'components/atoms'
 
 const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 	return (
@@ -39,31 +38,35 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 						>
 							<Icon
 								name={icon}
-								sx={{ color: 'primary', height: '3rem', width: '3rem' }}
+								sx={{
+									color: 'primary',
+									height: '2.5rem',
+									width: '2.5rem',
+								}}
 							/>
 						</div>
 						<div
 							sx={{
-								padding: ['2rem 0', '1.5rem'],
+								padding: ['2rem 0', '1rem 1.5rem'],
 							}}
 						>
 							<h2
-								className={styles.f2}
 								sx={{
+                                    fontSize: 5,
 									textAlign: ['center', 'center', 'left'],
 								}}
 							>
 								{title}
 							</h2>
 							<p
-								className={styles.pLarge}
 								sx={{
 									textAlign: 'justify',
+									fontSize: 3,
 								}}
 							>
 								{description}
 							</p>
-							<Link to={url}>{linkText}</Link>
+							{url ? <NiceLink to={url}>{linkText}</NiceLink> : null}
 						</div>
 					</Flex>
 					<div
