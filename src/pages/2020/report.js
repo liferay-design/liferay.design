@@ -207,7 +207,6 @@ const TwentyTwenty = () => {
 						<Content
 							pretitle={data.timelineSection.pretitle}
 							title={data.timelineSection.title}
-							align="center"
 						/>
 						<Flex
 							sx={{
@@ -277,11 +276,7 @@ const TwentyTwenty = () => {
 
 				{/* COVID-19 */}
 				<section id="covid-19" className={styles.covid19}>
-					<Content
-						pretitle={data.covid.pretitle}
-						title={data.covid.title}
-						align="center"
-					/>
+					<Content pretitle={data.covid.pretitle} title={data.covid.title} />
 					<Carousel>
 						{data.covid.slides.map(({ slide }) => (
 							<Slide
@@ -299,19 +294,30 @@ const TwentyTwenty = () => {
 
 				{/* Impact */}
 				<section id="impact">
-					<Content
-						pretitle={data.impact.pretitle}
-						title={data.impact.title}
-						align="center"
-					/>
+					<Content pretitle={data.impact.pretitle} title={data.impact.title} />
 					<Box>
 						{data.impact.bigStats.map(({ stat }, i) => (
-							<Box key={i} sx={{ textAlign: 'center', mb: 5 }}>
+							<Box
+								key={i}
+								sx={{
+									textAlign: 'center',
+									mb: 4,
+									'&:nth-of-type(1):after': {
+										content: '""',
+										width: 6,
+										display: 'block',
+										mt: '5rem',
+										mx: 'auto',
+										height: '2px',
+										backgroundColor: 'primary',
+									},
+								}}
+							>
 								<Text
 									sx={{
 										fontSize: '16vw',
 										lineHeight: 0.8,
-										fontWeight: 'heading',
+										fontWeight: 'bold',
 										textTransform: 'uppercase',
 										mb: 0,
 										'-webkit-text-stroke-width': '2px',
@@ -337,13 +343,16 @@ const TwentyTwenty = () => {
 							</Box>
 						))}
 					</Box>
-					<Grid sx={{ variant: 'grids.threeCards' }}>
+					<Grid sx={{ variant: 'grids.threeCards', mt: 5 }}>
 						{data.impact.cards.map(({ card }, i) => (
 							<Link
 								to={card.link}
 								key={i}
 								sx={{
 									borderRadius: '1.4rem',
+									border: theme =>
+										'solid 2px ' + `${theme.colors.black}`,
+									color: 'lightBlue',
 									width: '100%',
 									flexDirection: 'column',
 									display: 'flex',
@@ -354,23 +363,18 @@ const TwentyTwenty = () => {
 									background: theme =>
 										`${theme.gradients.lightBackgroundGradient}`,
 									textAlign: 'center',
+									'&:hover': {
+										borderColor: 'primary',
+									},
 								}}
 							>
 								<Box
 									sx={{
-										padding: 3,
-										borderRadius: '1rem',
-										background: theme =>
-											`${theme.gradients.backgroundGradient}`,
+										variant: 'boxes.icon',
 									}}
 								>
 									<Icon
 										name={card.icon}
-										sx={{
-											height: '3rem',
-											width: '3rem',
-											color: 'primary',
-										}}
 									/>
 								</Box>
 								<Text
@@ -395,7 +399,6 @@ const TwentyTwenty = () => {
 					<Content
 						pretitle={data.globalServices.pretitle}
 						title={data.globalServices.title}
-						align="center"
 					/>
 					<Carousel>
 						{data.globalServices.slides.map(({ slide }) => (
@@ -414,11 +417,7 @@ const TwentyTwenty = () => {
 
 				{/* OPES */}
 				<section id="campaign">
-					<Content
-						pretitle={data.opes.pretitle}
-						title={data.opes.title}
-						align="center"
-					/>
+					<Content pretitle={data.opes.pretitle} title={data.opes.title} />
 					<Flex sx={{ justifyContent: 'space-between', mb: 5 }}>
 						{data.opes.content.split('\n\n').map((paragraph, i) => (
 							<Text
@@ -440,18 +439,35 @@ const TwentyTwenty = () => {
 				{/* Future */}
 				<section sx={{ backgroundColor: 'white' }}>
 					<Content
+						inverted
 						pretitle={data.future.pretitle}
 						title={data.future.title}
-						align="center"
 					/>
-					<Box sx={{}}>
+					<Box sx={{ width: '100%', maxWidth: '960px', margin: '0 auto' }}>
 						{data.future.list.map(({ li }, i) => (
-							<Box>
-								<Text as="p" key={i} sx={{}}>
+							<Box sx={{ my: 3, position: 'relative', ml: 4, py: 3 }}>
+								<Box
+									sx={{
+										variant: 'boxes.icon',
+										position: 'absolute',
+										left: -5,
+									}}
+								>
+									<Icon
+										name={li.icon}
+									/>
+								</Box>
+								<Text
+									as="h3"
+									key={i}
+									sx={{ variant: 'text.l3', my: 2, color: 'black' }}
+								>
 									{li.title}
 								</Text>
 								{li.content.split('\n\n').map((paragraph, i) => (
-									<Text key={i}>{paragraph}</Text>
+									<Text sx={{ variant: 'text.pLarge' }} key={i}>
+										{paragraph}
+									</Text>
 								))}
 							</Box>
 						))}
@@ -467,7 +483,6 @@ const TwentyTwenty = () => {
 					<Content
 						pretitle={data.thankYou.pretitle}
 						title={data.thankYou.title}
-						align="center"
 					/>
 					<ThankYou
 						message={data.thankYou.message.part1}
@@ -484,7 +499,6 @@ const TwentyTwenty = () => {
 						pretitle={data.subscribe.pretitle}
 						title={data.subscribe.title}
 						copy={data.subscribe.subtitle}
-						align="center"
 					/>
 					<FormNewsletter submitText="Subscribe" />
 				</section>

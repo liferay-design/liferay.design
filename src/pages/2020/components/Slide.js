@@ -30,20 +30,11 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 					>
 						<div
 							sx={{
-								bg: `darkBlack`,
-								borderRadius: ['0.5em'],
+								variant: 'boxes.icon',
 								flexShrink: ['0'],
-								p: '1rem',
 							}}
 						>
-							<Icon
-								name={icon}
-								sx={{
-									color: 'primary',
-									height: '2.5rem',
-									width: '2.5rem',
-								}}
-							/>
+							<Icon name={icon} />
 						</div>
 						<div
 							sx={{
@@ -52,7 +43,7 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 						>
 							<h2
 								sx={{
-                                    fontSize: 5,
+									fontSize: 5,
 									textAlign: ['center', 'center', 'left'],
 								}}
 							>

@@ -33,8 +33,10 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 								{paragraph}
 							</Text>
 						))}
-						<Text>{authorName}</Text>
-						<Text>{authorTitle}</Text>
+						<Text sx={{ fontSize: 4, mt: 4, fontWeight: 'bold' }}>
+							{authorName}
+						</Text>
+						<Text sx={{ opacity: 0.8 }}>{authorTitle}</Text>
 					</Box>
 					<Box
 						sx={{
