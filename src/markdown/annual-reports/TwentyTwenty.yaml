@@ -229,7 +229,11 @@ globalServices:
 opes:
     pretitle: Campaign
     title: 'One Platform. Endless Solutions.'
-    image: '/images/2020/opes-hero.png'
+    images:
+      - image: '/images/2020/opes-hero.png'
+      - image: '/images/2020/opes-1.png'
+      - image: '/images/2020/opes-2.png'
+      - image: '/images/2020/opes-3.png'
     content: |
         Debuting at Liferay’s 2020 Sales Kick-Off event in January, OPES (oh-pez), was launched as the king of global campaigns for the year. Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. We were excited to dream up all the fun, in-person promotions for the year — exhibitor booth activities, giveaways, mailers!
 
