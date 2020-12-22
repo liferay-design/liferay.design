@@ -36,7 +36,7 @@ const Carousel = ({ children }) => {
 		
 		return (
 			<Flex
-				sx={{ flexDirection: 'column', alignItems: 'center', width: '100vw', overflowX: 'visible', }}
+				sx={{ flexDirection: 'column', alignItems: 'center', width: '100vw', overflowX: 'hidden', }}
 				className={isActive ? styles.active : null }
 			>
 				<Flex

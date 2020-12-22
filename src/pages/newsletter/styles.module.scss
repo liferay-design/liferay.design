@@ -4,14 +4,13 @@
 .customContainer {
 	max-width: 60ch;
 	margin: 0 auto;
+	a {
+		color: $black;
+	}
 }
 
 .coolForm {
 	transform: translateY(calc(8rem - 2px));
-}
-
-a {
-	color: $black;
 }
 
 .wrapper {

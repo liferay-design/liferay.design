@@ -27,20 +27,25 @@ export default {
 		heading: 600,
 		bold: 800,
 	},
-	styles: {
-		...baseTheme.styles,
-		root: {
-			...baseTheme.root,
-			fontFamily: 'body',
-			fontWeight: 'body',
-			color: 'red !important',
-		},
-	},
 	lineHeights: {
 		body: 1.5,
 	},
 	letterSpacings: {
 		heading: 'initial',
+	},
+	boxes: {
+		icon: {
+			padding: '1rem',
+			borderRadius: '1rem',
+			background: theme => `${theme.gradients.backgroundGradient}`,
+			boxShadow: '0 8px 24px -4px rgba(27,28,30,0.6)',
+			'> svg': {
+				display: 'block',
+				height: '3rem',
+				width: '3rem',
+				color: 'primary',
+			},
+		},
 	},
 	text: {
 		...baseTheme.text,
@@ -62,6 +67,15 @@ export default {
 		},
 		l2: {
 			fontSize: 7,
+		},
+		l3: {
+			fontSize: 6,
+			fontWeight: 'bold',
+		},
+		pLarge: {
+			fontSize: 4,
+			fontWeight: 'light',
+			mb: 2,
 		},
 	},
 	gradients: {
