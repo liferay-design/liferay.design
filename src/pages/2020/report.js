@@ -98,7 +98,7 @@ const TwentyTwenty = () => {
 				<SEO
 					pageTitle="Liferay Design | 2020 Annual Report"
 					description="Highlights, case studies, and more from Communication Design, Product Design, and Design Research at Liferay."
-					previewImage="/images/2019/2019-open-graph.png"
+					previewImage="/images/2020/liferay-design-og-2020.png"
 					twitterHandle="@liferaydesign"
 				/>
 				<Helmet>
