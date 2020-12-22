@@ -14,7 +14,6 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 			>
 				<Flex
 					sx={{
-						justifyContent: 'space-between',
 						variant: 'boxes.copyTwoCol',
 						mb: 4,
 					}}

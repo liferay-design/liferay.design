@@ -35,6 +35,7 @@ export default {
 	},
 	boxes: {
 		icon: {
+			display: 'inline-block',
 			padding: '1rem',
 			borderRadius: '1rem',
 			background: theme => `${theme.gradients.backgroundGradient}`,
@@ -54,8 +55,10 @@ export default {
 		},
 		copyTwoCol: {
 			maxWidth: '1080px',
-			mx: 'auto',
+			mx: [2, 'auto', null],
 			mt: 5,
+			flexDirection: ['column', 'initial', null],
+			justifyContent: 'space-between',
 			'> p, > div': {
 				maxWidth: '480px',
 			},
@@ -73,14 +76,14 @@ export default {
 			color: 'primary',
 		},
 		display: {
-			fontSize: 8,
+			fontSize: [6, 8],
 			fontWeight: 'body',
 		},
 		l1: {
 			fontSize: 7,
 		},
 		l2: {
-			fontSize: 7,
+			fontSize: [5, 7],
 		},
 		l3: {
 			fontSize: 6,

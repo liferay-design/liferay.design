@@ -56,7 +56,7 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 							</h2>
 							<p
 								sx={{
-									textAlign: 'justify',
+									// textAlign: 'justify', if I ever see justified text again, so help me
 									fontSize: 3,
 								}}
 							>

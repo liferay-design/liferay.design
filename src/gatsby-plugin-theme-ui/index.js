@@ -264,7 +264,7 @@ export default {
 		},
 		threeCards: {
 			gridTemplateColumns: 'repeat(auto-fill, minmax(18rem, 1fr))',
-			gap: '5rem 4rem',
+			gap: ['5rem 4rem'],
 		},
 		sideNav: {
 			gridTemplate: [
