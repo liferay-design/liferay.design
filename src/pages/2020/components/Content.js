@@ -8,9 +8,10 @@ const Content = ({ pageHeader, pretitle, title, copy, inverted, ...props }) => {
 			sx={{
 				pb: 4,
 				flexDirection: 'column',
-				justifyContent: 'center',
-				alignItems: 'center',
-				textAlign: 'center',
+				justifyContent: ['flex-start', 'center'],
+				alignItems: ['flex-start', 'center'],
+				textAlign: ['flex-start', 'center'],
+				px: 2,
 			}}
 			{...props}
 		>

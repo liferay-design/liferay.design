@@ -354,7 +354,13 @@ const TwentyTwenty = () => {
 							</Box>
 						))}
 					</Box>
-					<Grid sx={{ variant: 'grids.threeCards', mt: 5 }}>
+					<Grid
+						sx={{
+							variant: 'grids.threeCards',
+							mt: 5,
+							m: [2, 'initial', null],
+						}}
+					>
 						{data.impact.cards.map(({ card }, i) => (
 							<Link
 								to={card.link}
@@ -438,7 +444,6 @@ const TwentyTwenty = () => {
 					<Content pretitle={data.opes.pretitle} title={data.opes.title} />
 					<Flex
 						sx={{
-							justifyContent: 'space-between',
 							mb: 5,
 							variant: 'boxes.copyTwoCol',
 						}}
@@ -449,7 +454,7 @@ const TwentyTwenty = () => {
 								key={i}
 								sx={{
 									variant: 'text.pLarge',
-									':nth-of-type(2)': { my: 5 },
+									':nth-of-type(2)': { my: [3, 5] },
 								}}
 							>
 								{paragraph}
@@ -491,11 +496,18 @@ const TwentyTwenty = () => {
 						/>
 						<Box sx={{ width: '100%', maxWidth: '960px', margin: '0 auto' }}>
 							{data.future.list.map(({ li }, i) => (
-								<Box sx={{ my: 3, position: 'relative', ml: 4, py: 3 }}>
+								<Box
+									sx={{
+										my: 3,
+										position: 'relative',
+										ml: [2, 4],
+										py: 3,
+									}}
+								>
 									<Box
 										sx={{
 											variant: 'boxes.icon',
-											position: 'absolute',
+											position: ['initial', 'absolute'],
 											left: -5,
 										}}
 									>

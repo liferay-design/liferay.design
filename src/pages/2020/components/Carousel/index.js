@@ -46,7 +46,7 @@ const Carousel = ({ children }) => {
 						alignItems: 'center',
 						height: '100vh',
 						width: '100vw',
-						mb: 5,
+						mb: [4, 5],
 					}}
 					className={isActive ? styles.active : null}
 				>
