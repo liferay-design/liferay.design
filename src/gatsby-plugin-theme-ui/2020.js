@@ -52,6 +52,14 @@ export default {
 			maxWidth: '1200px',
 			position: 'relative',
 		},
+		copyTwoCol: {
+			maxWidth: '1080px',
+			mx: 'auto',
+			mt: 5,
+			'> p, > div': {
+				maxWidth: '480px',
+			},
+		},
 	},
 	text: {
 		...baseTheme.text,
@@ -80,6 +88,11 @@ export default {
 		},
 		pLarge: {
 			fontSize: 4,
+			fontWeight: 'light',
+			mb: 2,
+		},
+		pMedium: {
+			fontSize: 3,
 			fontWeight: 'light',
 			mb: 2,
 		},

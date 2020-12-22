@@ -9,14 +9,14 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 			<Box
 				sx={{
 					position: 'relative',
-					mb: '20vh',
 				}}
 				id="message"
 			>
 				<Flex
 					sx={{
 						justifyContent: 'space-between',
-						mb: 5,
+						variant: 'boxes.copyTwoCol',
+						mb: 4,
 					}}
 				>
 					<Box>
@@ -25,9 +25,7 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 								as="p"
 								key={i}
 								sx={{
-									fontSize: 3,
-									maxWidth: '56ch',
-									my: 2,
+									variant: 'text.pMedium',
 								}}
 							>
 								{paragraph}
@@ -40,7 +38,7 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 					</Box>
 					<Box
 						sx={{
-							mt: 4,
+							mt: 5,
 							mb: 6,
 						}}
 					>
@@ -56,9 +54,7 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 								as="p"
 								key={i}
 								sx={{
-									fontSize: 3,
-									maxWidth: '56ch',
-									my: 2,
+									variant: 'text.pMedium',
 								}}
 							>
 								{paragraph}

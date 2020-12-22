@@ -7,7 +7,11 @@ import { NiceLink, Icon } from 'components/atoms'
 
 const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 	return (
-		<div sx={{ height: '100%' }}>
+		<div
+			sx={{
+				height: '100%',
+			}}
+		>
 			{type === 'card' ? (
 				<div
 					sx={{
@@ -15,6 +19,7 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 						flexDirection: 'column',
 						height: '100%',
 						background: theme => `${theme.gradients.backgroundGradient}`,
+						borderRadius: '1rem',
 					}}
 				>
 					<Flex
@@ -74,6 +79,7 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 								height: '100%',
 								position: 'absolute',
 								width: '100%',
+								borderRadius: '0 0 1rem 1rem',
 							}}
 							src={`${withPrefix(`${image}`)}`}
 						/>
@@ -90,6 +96,7 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 				>
 					<img
 						sx={{
+							borderRadius: '1rem',
 							objectPosition: 'top',
 							margin: '0',
 							minHeight: '100%',

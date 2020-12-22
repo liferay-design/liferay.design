@@ -129,7 +129,7 @@ covid:
               icon: 'bolt'
               url: /careers
               linkText: Want to join the team?
-              description: Thankfully, we didn’t experience any work shortages as a result of the pandemic — in fact we’ve been busier than ever, as a result we needed to figure out the best way to find, hire, and onboard new teammates (3 so far) in a fully remote way. We’ve hit a few bumps along the way but are constantly refining our process.
+              description: We’ve been busier than ever, and as a result needed to figure out the best way to find, hire, and onboard new teammates (3 so far) in our now fully remote world. We’ve hit a few bumps along the way, but are constantly refining our process.
         - slide:
               title: APAC Consulting
               image: '/images/2020/apac-consulting.png'
@@ -210,12 +210,12 @@ globalServices:
               title: Solutions Design
               image: '/images/2020/solutions-design.png'
               icon: 'solutionDesign'
-              description: Prototyped demos for prospective clients to see a visionary concept of a digital experience for their industry. The designer is tasked with persuading prospects that Liferay as a solutions oriented platform, could be a highly successful partner for them.
+              description: We prototyped demos for prospective clients in order to bring to life visionary concepts of  digital experiences for their industries. The designer is tasked with persuading prospects that Liferay, as a solutions-oriented platform, could be a highly successful partner for them.
         - slide:
               title: RFPs
               image: '/images/2020/rfps.png'
               icon: 'view'
-              description: Our Global Services team puts together a proposal to fit prospects for digital experience platform needs. Designers contribute by creating mockups with callouts to provide visual examples for clients to understand our capabilities to deliver a custom solution for their needs.
+              description: Our Global Services team puts together a proposal to fit prospects for digital experience platform needs. Designers create mockups with callouts as visual examples that help clients understand our capabilities in delivering a custom solution for their needs.
         - slide:
               title: Accelerator
               image: '/images/2020/accelerator.png'
@@ -230,14 +230,14 @@ opes:
     pretitle: Campaign
     title: 'One Platform. Endless Solutions.'
     images:
-      - image: '/images/2020/opes-hero.png'
-      - image: '/images/2020/opes-1.png'
-      - image: '/images/2020/opes-2.png'
-      - image: '/images/2020/opes-3.png'
+        - image: '/images/2020/opes-hero.png'
+        - image: '/images/2020/opes-1.png'
+        - image: '/images/2020/opes-2.png'
+        - image: '/images/2020/opes-3.png'
     content: |
-        Debuting at Liferay’s 2020 Sales Kick-Off event in January, OPES (oh-pez), was launched as the king of global campaigns for the year. Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. We were excited to dream up all the fun, in-person promotions for the year — exhibitor booth activities, giveaways, mailers!
-
-        We all know what happened to those plans in March. Alongside our marketers, we quickly adjusted to roll out 100% digital campaigns. Creating solution-specific ads for campaigns focused on e-commerce, digital workspace, and self-service portals. OPES visuals began as colorful, literal representations of origami playing off ad copy, and have evolved into more subtle, abstract backgrounds, highlighting the content. Who knows how OPES will evolve in 2021! Stay tuned.
+        Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. 
+        
+        After the lockdown, we had to roll out 100% digital campaigns — solution-specific ads for campaigns focused on e-commerce, digital workspace, and self-service portals. Who knows how OPES will evolve in 2021! Stay tuned.
 future:
     pretitle: The future
     title: Designing a better tomorrow
@@ -269,13 +269,13 @@ thankYou:
     title: A year of uncertainty, met with resilience.
     message:
         part1: |
-            While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years — not by luck or circumstance, but with mindful practice.
+            While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years.
 
-            Because of this, we’ve been able to rely on one another through our personal and professional journeys, time and time again. And now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
+            We’ve been able to rely on one another through our personal and professional journeys — now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
         part2:
             title: What’s next?
             body: |
-                If this year has shown us anything, it’s that we never really know what’s to come. We dream of great and ambitious endeavors, yet may be able to turn only a portion of it into reality. We’re moving in the right direction.
+                If this year has shown us anything, it’s that we never really know what’s to come.
 
                 Our product portfolio is becoming more cohesive, we're designing with more and more data, and — most importantly — our designers are growing and helping each other reach their full potential. It’s been a beautiful thing to see. As Liferay grows and adapts, I know we will continue to grow with it.
     author:

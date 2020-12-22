@@ -15,7 +15,7 @@ const Juan = ({}) => {
 					property: 'opacity',
 				},
 				{
-					startValue: 100,
+					startValue: 120,
 					endValue: 10,
 					unit: 'vh',
 					property: 'translateY',

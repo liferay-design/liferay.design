@@ -35,7 +35,16 @@ const Content = ({ pageHeader, pretitle, title, copy, inverted, ...props }) => {
 			</Heading>
 			{copy &&
 				copy.split('\n\n').map((paragraph, i) => (
-					<Text as="p" key={i} sx={{ my: 3, fontSize: 3, maxWidth: '68ch' }}>
+					<Text
+						as="p"
+						key={i}
+						sx={{
+							my: 3,
+							fontSize: 3,
+							maxWidth: '68ch',
+							color: `${inverted ? 'grayParagraph' : 'lightBlue'}`,
+						}}
+					>
 						{paragraph}
 					</Text>
 				))}
