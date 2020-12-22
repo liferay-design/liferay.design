@@ -168,10 +168,12 @@ const TwentyTwenty = () => {
 					<Flex
 						as="section"
 						sx={{
+							variant: 'boxes.section',
 							flexFlow: 'column-reverse',
 							justifyContent: 'center',
 							alignItems: 'center',
 							textAlign: 'center',
+							pt: 6,
 						}}
 					>
 						<Plx parallaxData={PlxUp3}>
@@ -196,13 +198,13 @@ const TwentyTwenty = () => {
 							pageHeader
 							zIndex="1"
 						/>
-						<div sx={{ mt: 5 }} />
+						{/* <div sx={{ mt: 6 }} /> */}
 					</Flex>
 				</div>
 
 				{/* ---------- MILESTONES ----------- */}
 
-				<section id="milestones">
+				<section id="milestones" sx={{ variant: 'boxes.section' }}>
 					<div className={styles.newFaces}>
 						<Content
 							pretitle={data.timelineSection.pretitle}
@@ -251,7 +253,7 @@ const TwentyTwenty = () => {
 					sx={{
 						background: 'white',
 						height: ['auto', '100vh', null],
-						py: 5,
+						py: 6,
 					}}
 				>
 					<Flex
@@ -275,7 +277,11 @@ const TwentyTwenty = () => {
 				</Flex>
 
 				{/* COVID-19 */}
-				<section id="covid-19" className={styles.covid19}>
+				<section
+					id="covid-19"
+					className={styles.covid19}
+					sx={{ variant: 'boxes.section', mt: 5 }}
+				>
 					<Content pretitle={data.covid.pretitle} title={data.covid.title} />
 					<Carousel>
 						{data.covid.slides.map(({ slide }) => (
@@ -293,7 +299,7 @@ const TwentyTwenty = () => {
 				</section>
 
 				{/* Impact */}
-				<section id="impact">
+				<section id="impact" sx={{ variant: 'boxes.section', mt: 5, mb: 6 }}>
 					<Content pretitle={data.impact.pretitle} title={data.impact.title} />
 					<Box>
 						{data.impact.bigStats.map(({ stat }, i) => (
@@ -373,9 +379,7 @@ const TwentyTwenty = () => {
 										variant: 'boxes.icon',
 									}}
 								>
-									<Icon
-										name={card.icon}
-									/>
+									<Icon name={card.icon} />
 								</Box>
 								<Text
 									sx={{
@@ -393,30 +397,35 @@ const TwentyTwenty = () => {
 						))}
 					</Grid>
 				</section>
-
 				{/* GS Summary */}
-				<section id="consult" className={styles.covid19}>
+				<section
+					id="consult"
+					className={styles.covid19}
+					sx={{ variant: 'boxes.section' }}
+				>
 					<Content
 						pretitle={data.globalServices.pretitle}
 						title={data.globalServices.title}
 					/>
-					<Carousel>
-						{data.globalServices.slides.map(({ slide }) => (
-							<Slide
-								title={slide.title}
-								image={slide.image}
-								icon={slide.icon}
-								url={slide.url}
-								linkText={slide.linkText}
-								description={slide.description}
-								type={'card'}
-							/>
-						))}
-					</Carousel>
+					<Plx parallaxData={PlxUp3}>
+						<Carousel>
+							{data.globalServices.slides.map(({ slide }) => (
+								<Slide
+									title={slide.title}
+									image={slide.image}
+									icon={slide.icon}
+									url={slide.url}
+									linkText={slide.linkText}
+									description={slide.description}
+									type={'card'}
+								/>
+							))}
+						</Carousel>
+					</Plx>
 				</section>
 
 				{/* OPES */}
-				<section id="campaign">
+				<section id="campaign" sx={{ variant: 'boxes.section' }}>
 					<Content pretitle={data.opes.pretitle} title={data.opes.title} />
 					<Flex sx={{ justifyContent: 'space-between', mb: 5 }}>
 						{data.opes.content.split('\n\n').map((paragraph, i) => (
@@ -433,50 +442,72 @@ const TwentyTwenty = () => {
 							</Text>
 						))}
 					</Flex>
-					<Image src={data.opes.image} />
 				</section>
+				<Carousel>
+					{data.opes.images.map(({ image }) => (
+						<Slide
+							title={''}
+							image={image}
+							icon={''}
+							url={''}
+							linkText={''}
+							description={''}
+							type={'image'}
+						/>
+					))}
+				</Carousel>
 
 				{/* Future */}
-				<section sx={{ backgroundColor: 'white' }}>
-					<Content
-						inverted
-						pretitle={data.future.pretitle}
-						title={data.future.title}
-					/>
-					<Box sx={{ width: '100%', maxWidth: '960px', margin: '0 auto' }}>
-						{data.future.list.map(({ li }, i) => (
-							<Box sx={{ my: 3, position: 'relative', ml: 4, py: 3 }}>
-								<Box
-									sx={{
-										variant: 'boxes.icon',
-										position: 'absolute',
-										left: -5,
-									}}
-								>
-									<Icon
-										name={li.icon}
-									/>
-								</Box>
-								<Text
-									as="h3"
-									key={i}
-									sx={{ variant: 'text.l3', my: 2, color: 'black' }}
-								>
-									{li.title}
-								</Text>
-								{li.content.split('\n\n').map((paragraph, i) => (
-									<Text sx={{ variant: 'text.pLarge' }} key={i}>
-										{paragraph}
+				<div
+					sx={{
+						backgroundColor: 'white',
+					}}
+				>
+					<section sx={{ variant: 'boxes.section', py: [4, 6, null] }}>
+						<Content
+							inverted
+							pretitle={data.future.pretitle}
+							title={data.future.title}
+						/>
+						<Box sx={{ width: '100%', maxWidth: '960px', margin: '0 auto' }}>
+							{data.future.list.map(({ li }, i) => (
+								<Box sx={{ my: 3, position: 'relative', ml: 4, py: 3 }}>
+									<Box
+										sx={{
+											variant: 'boxes.icon',
+											position: 'absolute',
+											left: -5,
+										}}
+									>
+										<Icon name={li.icon} />
+									</Box>
+									<Text
+										as="h3"
+										key={i}
+										sx={{ variant: 'text.l3', my: 2, color: 'black' }}
+									>
+										{li.title}
 									</Text>
-								))}
-							</Box>
-						))}
-					</Box>
-				</section>
+									{li.content.split('\n\n').map((paragraph, i) => (
+										<Text
+											sx={{
+												variant: 'text.pLarge',
+												color: 'grayParagraph',
+											}}
+											key={i}
+										>
+											{paragraph}
+										</Text>
+									))}
+								</Box>
+							))}
+						</Box>
+					</section>
+				</div>
 
 				{/* Thank You */}
 				<section
-					sx={{ position: 'relative', zIndex: 0 }}
+					sx={{ position: 'relative', zIndex: 0, variant: 'boxes.section' }}
 					id="thankyou"
 					className={styles.thankyou}
 				>
@@ -494,7 +525,14 @@ const TwentyTwenty = () => {
 					<Juan />
 				</section>
 				{/* ---------- SUBSCRIBE ----------- */}
-				<section id="subscribe" sx={{ backgroundColor: 'black', mt: '10vh' }}>
+				<section
+					id="subscribe"
+					sx={{
+						backgroundColor: 'black',
+						mt: '10vh',
+						variant: 'boxes.section',
+					}}
+				>
 					<Content
 						pretitle={data.subscribe.pretitle}
 						title={data.subscribe.title}

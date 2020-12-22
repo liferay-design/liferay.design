@@ -46,6 +46,12 @@ export default {
 				color: 'primary',
 			},
 		},
+		section: {
+			width: '100vw',
+			margin: 'auto',
+			maxWidth: '1200px',
+			position: 'relative',
+		},
 	},
 	text: {
 		...baseTheme.text,
