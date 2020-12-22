@@ -277,10 +277,15 @@ const TwentyTwenty = () => {
 				</Flex>
 
 				{/* COVID-19 */}
-				<section
+				<Flex
+					as="section"
 					id="covid-19"
-					className={styles.covid19}
-					sx={{ variant: 'boxes.section', mt: 5 }}
+					sx={{
+						variant: 'boxes.section',
+						flexDirection: 'column',
+						alignItems: 'center',
+						mt: 5,
+					}}
 				>
 					<Content pretitle={data.covid.pretitle} title={data.covid.title} />
 					<Carousel>
@@ -296,7 +301,7 @@ const TwentyTwenty = () => {
 							/>
 						))}
 					</Carousel>
-				</section>
+				</Flex>
 
 				{/* Impact */}
 				<section id="impact" sx={{ variant: 'boxes.section', mt: 5, mb: 6 }}>
@@ -398,10 +403,14 @@ const TwentyTwenty = () => {
 					</Grid>
 				</section>
 				{/* GS Summary */}
-				<section
+				<Flex
+					as="section"
 					id="consult"
-					className={styles.covid19}
-					sx={{ variant: 'boxes.section' }}
+					sx={{
+						variant: 'boxes.section',
+						flexDirection: 'column',
+						alignItems: 'center',
+					}}
 				>
 					<Content
 						pretitle={data.globalServices.pretitle}
@@ -422,20 +431,25 @@ const TwentyTwenty = () => {
 							))}
 						</Carousel>
 					</Plx>
-				</section>
+				</Flex>
 
 				{/* OPES */}
 				<section id="campaign" sx={{ variant: 'boxes.section' }}>
 					<Content pretitle={data.opes.pretitle} title={data.opes.title} />
-					<Flex sx={{ justifyContent: 'space-between', mb: 5 }}>
+					<Flex
+						sx={{
+							justifyContent: 'space-between',
+							mb: 5,
+							variant: 'boxes.copyTwoCol',
+						}}
+					>
 						{data.opes.content.split('\n\n').map((paragraph, i) => (
 							<Text
 								as="p"
 								key={i}
 								sx={{
-									fontSize: 3,
-									maxWidth: '56ch',
-									':nth-of-type(2)': { mt: 4 },
+									variant: 'text.pLarge',
+									':nth-of-type(2)': { my: 5 },
 								}}
 							>
 								{paragraph}
@@ -463,7 +477,13 @@ const TwentyTwenty = () => {
 						backgroundColor: 'white',
 					}}
 				>
-					<section sx={{ variant: 'boxes.section', py: [4, 6, null] }}>
+					<section
+						sx={{
+							variant: 'boxes.section',
+							pt: [4, 6, null],
+							pb: [4, 5, null],
+						}}
+					>
 						<Content
 							inverted
 							pretitle={data.future.pretitle}
@@ -507,9 +527,15 @@ const TwentyTwenty = () => {
 
 				{/* Thank You */}
 				<section
-					sx={{ position: 'relative', zIndex: 0, variant: 'boxes.section' }}
+					sx={{
+						position: 'relative',
+						zIndex: 0,
+						variant: 'boxes.section',
+						mt: 5,
+						mb: '40vh',
+						pt: 5,
+					}}
 					id="thankyou"
-					className={styles.thankyou}
 				>
 					<Content
 						pretitle={data.thankYou.pretitle}
@@ -526,12 +552,12 @@ const TwentyTwenty = () => {
 				</section>
 				{/* ---------- SUBSCRIBE ----------- */}
 				<section
-					id="subscribe"
 					sx={{
 						backgroundColor: 'black',
-						mt: '10vh',
+						pt: 5,
 						variant: 'boxes.section',
 					}}
+					id="subscribe"
 				>
 					<Content
 						pretitle={data.subscribe.pretitle}
