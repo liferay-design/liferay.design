@@ -2,7 +2,7 @@
     xmlns="http://www.w3.org/2000/svg">
     <path d="M24.9791 42.6146C19.532 35.3961 26.0292 25.9746 34.6171 28.412C27.5668 32.6399 36.2578 41.5271 40.5893 34.3742C43.3081 44.8832 30.3607 49.6643 24.9791 42.6146Z" fill="currentColor"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M55.5066 38.6115C43.6092 56.3015 20.3956 56.6203 8.47938 38.6209C7.83247 37.6365 7.84185 36.3241 8.49813 35.3585C20.4143 17.8091 43.4967 17.2935 55.516 35.3397C56.1629 36.3147 56.1629 37.6365 55.5066 38.6115ZM13.9734 36.9803C25.2989 24.062 38.9402 23.8933 50.022 36.9803C38.9402 49.8892 25.2427 49.7205 13.9734 36.9803Z" fill="currentColor"/>
-    <g stroke-width="6" stroke-linecap="round" stroke-width="6">
+    <g stroke-linecap="round" stroke-width="6">
         <path d="M32.0879 3L32.0879 15" stroke="white" />
         <path opacity="0.4" d="M9 12L14.7627 20.5406" stroke="currentColor" />
         <path opacity="0.4" d="M54.8506 12L49.0879 20.5406" stroke="currentColor" />
