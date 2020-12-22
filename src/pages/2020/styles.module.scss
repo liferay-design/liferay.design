@@ -6,13 +6,16 @@ $darkBlack: #1b1c1e;
 $lightBlack: #1f2123;
 $grayHeader: #555e68;
 $grayParagraph: #888b9b;
-$twentyTwentyBlue: #395DED;
-$lightBlue: #93A7DB;
-$twentyTwentyYellow: #FFC90A;
-$backgroundGradient: linear-gradient(247.41deg, #212B32 6.16%, #1C1F23 63.57%);
-$lightBackgroundGradient: linear-gradient(219.58deg, rgba(61, 73, 86, 0.8) -2.98%, rgba(66, 81, 98, 0) 79.84%),
-linear-gradient(0deg, #232A31, #232A31);
-
+$twentyTwentyBlue: #395ded;
+$lightBlue: #93a7db;
+$twentyTwentyYellow: #ffc90a;
+$backgroundGradient: linear-gradient(247.41deg, #212b32 6.16%, #1c1f23 63.57%);
+$lightBackgroundGradient: linear-gradient(
+		219.58deg,
+		rgba(61, 73, 86, 0.8) -2.98%,
+		rgba(66, 81, 98, 0) 79.84%
+	),
+	linear-gradient(0deg, #232a31, #232a31);
 
 // FONT
 @font-face {
@@ -232,7 +235,7 @@ $breakpoint-for-large-desktop-up: 1800px;
 // HERO
 .heroImages {
 	figure:nth-of-type(2) img {
-		box-shadow: 0px 74px 124px 0px rgba(15,17,23,0.48);
+		box-shadow: 0px 74px 124px 0px rgba(15, 17, 23, 0.48);
 	}
 }
 
@@ -436,236 +439,6 @@ $breakpoint-for-large-desktop-up: 1800px;
 				height: 160px;
 			}
 		}
-	}
-}
-
-// CHARITY DESIGN
-.mediaSection {
-	.fiftyFifty {
-		width: 100%;
-		display: flex;
-		flex-flow: column wrap;
-		div,
-		img {
-			width: 100%;
-		}
-	}
-	.services {
-		padding: 48px 0;
-		display: flex;
-		align-items: baseline;
-		ul {
-			list-style-type: none;
-			margin: $spacingBase 0 0 0;
-			li {
-				color: $white;
-				font-weight: $fontWeightRegular;
-			}
-		}
-		.p {
-			flex: 1 auto 0;
-			padding-bottom: 40px;
-			& > span {
-				color: $white;
-				font-weight: 700;
-				padding: 0 $spacingBase 0 0;
-			}
-		}
-	}
-}
-@include for-tablet-landscape-up {
-	.mediaSection {
-		.fiftyFifty {
-			flex-flow: row;
-			.left {
-				padding-right: 96px;
-				width: 50%;
-			}
-			img {
-				width: 50%;
-				height: 50%;
-				margin-right: -80px;
-			}
-		}
-		.services {
-			display: inline;
-			ul {
-				margin: 0;
-				width: initial;
-			}
-			li {
-				display: inline-block;
-				padding: 0 28px;
-				margin: 0;
-				&:first-of-type {
-					padding-left: 0;
-				}
-			}
-			.p {
-				span {
-					width: 30ch;
-				}
-			}
-		}
-	}
-}
-
-// THOUGHT LEADERSHIP
-.dbp {
-	background: $darkBlack;
-	padding: 80px 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	position: relative;
-	&:before {
-		content: '';
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 40%;
-		background: linear-gradient(180deg, rgba($darkBlack, 0) 20%, $darkBlack 100%);
-		z-index: 1;
-	}
-	div {
-		text-align: center;
-	}
-	.dbpGrid {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		column-gap: 16px;
-		row-gap: 16px;
-		padding-top: 80px;
-		position: relative;
-		margin-bottom: -$spacingMedium * 2;
-		img {
-			width: 100%;
-			border: 8px solid $lightBlack;
-			margin: 0;
-			&:nth-of-type(odd) {
-				display: none;
-			}
-		}
-	}
-}
-@include for-tablet-landscape-up {
-	.dbp {
-		padding: $spacingLarge $spacingMedium 0;
-		.dbpGrid {
-			grid-template-columns: 1fr 1fr 1fr 1fr;
-			img:nth-of-type(odd) {
-				display: block;
-			}
-		}
-	}
-}
-
-// COMMUNITY
-.ourEvents {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	.cardGrid {
-		display: grid;
-		grid-auto-flow: column;
-		grid-auto-columns: 60vw;
-		column-gap: $spacingBase;
-		row-gap: $spacingBase * 1.1;
-		width: 100vw;
-		padding: $spacingMedium;
-		overflow: scroll;
-	}
-}
-@include for-tablet-landscape-up {
-	.ourEvents {
-		.cardGrid {
-			width: 100%;
-			grid-auto-flow: row;
-			grid-template-columns: 1fr 1fr 1fr;
-			padding: $spacingMedium 0;
-		}
-	}
-}
-.simpleCard,
-.seeMoreCard {
-	background: $darkBlack;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: space-between;
-	align-items: center;
-	color: $white;
-	padding: $spacingMedium $spacingSmall $spacingBase;
-	position: relative;
-	overflow: hidden;
-	.cardImage {
-		object-fit: contain;
-		margin: 0;
-		width: 40%;
-		height: 40px;
-	}
-	.f3 {
-		padding: $spacingBase;
-	}
-	.pSmall {
-		opacity: 0.7;
-		justify-self: flex-end;
-	}
-	.p {
-		flex-direction: column;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		padding: 20px;
-		z-index: 1;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background: $white;
-		margin: 0;
-		transform: translateY(100%);
-		transition: 0.6s cubic-bezier(0.37, 0.29, 0.01, 0.99);
-		cursor: default;
-		a {
-			margin-top: $spacingBase;
-		}
-	}
-	&:hover {
-		.p {
-			transform: translateY(0);
-			transition: 0.2s cubic-bezier(0.37, 0.29, 0.01, 0.99) 0.05s;
-		}
-	}
-}
-
-.avatar {
-	border: none;
-	border-radius: 50%;
-	background: $darkestGrey;
-	height: $spacingBase * 2;
-	width: $spacingBase * 2;
-	img {
-		height: 100%;
-		width: 100%;
-	}
-}
-
-// DRIBBBLE
-.dribbble,
-.ops {
-	background: $darkBlack;
-	padding: 80px 20px;
-}
-@include for-tablet-landscape-up {
-	.dribbble,
-	.ops {
-		padding: $spacingLarge $spacingMedium;
 	}
 }
 
