@@ -11,7 +11,7 @@ _Establishing a strong design practice in the APAC region is a high priority for
 
 ## About Liferay
 
-Liferay is an American software company, Headquartered in Los Angeles and having offices world-wide,. Liferay Tokyo is our Asia headquarters.
+Liferay is an American software company, Headquartered in Los Angeles and having offices world-wide. Liferay Tokyo is our Asia headquarters.
 A high priority for our business is establishing a design practice in the APAC region. We’re looking for a senior designer with experience as a first-hire that can serve our customers and partners while simultaneously working to establish a strong design culture here. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, and North America that are excited to build with you.
 
 ## About This Position
@@ -50,7 +50,7 @@ Your first 90 days will be:
 1. The hiring managers will review your portfolio and application and our recruiter will schedule a short phone call with you to confirm details about your application.
 1. The recruiting manager will then schedule an interview with your future manager.
 1. Congratulations! You’ve made it to the final round — you’ll have a group call with some of the other designers.
-1. We’ll be evaluating all the candidates at the end of December and will be letting you know by the first week of January.
+1. We send you an offer letter within 1-2 weeks, depending on internal scheduling and our HR workflow.
 
 ## _Liferay is an Equal Opportunity Employer_
 
