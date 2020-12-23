@@ -1,11 +1,13 @@
 ---
 jobId: 'oX7fdfwg'
 date: '2020-08-19'
-title: 'Senior Product Designer'
+title: 'Product Designer'
 office: 'Diamond Bar'
 featuredImage: '/images/articles/ux-designer.jpg'
 published: true
 ---
+
+_Note — this opportunity is remote in North America time zones._
 
 ## Who Designs at Liferay?
 
