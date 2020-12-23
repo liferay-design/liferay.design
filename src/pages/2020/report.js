@@ -142,12 +142,8 @@ const TwentyTwenty = () => {
 						<Heading
 							level={1}
 							sx={{
-								textAlign: 'center',
-								variant: 'text.caps',
-								color: '#93A7DB',
-								fontWeight: 'body',
-								letterSpacing: '0.5em',
-								fontFamily: 'Bebas Neue',
+								variant: 'text.preheader',
+								color: 'lightBlue',
 							}}
 						>
 							{data.title}
@@ -172,7 +168,7 @@ const TwentyTwenty = () => {
 							flexFlow: 'column-reverse',
 							justifyContent: 'center',
 							alignItems: 'center',
-							textAlign: 'center',
+							// textAlign: 'center',
 							pt: 6,
 						}}
 					>
@@ -205,7 +201,7 @@ const TwentyTwenty = () => {
 				{/* ---------- MILESTONES ----------- */}
 
 				<section id="milestones" sx={{ variant: 'boxes.section' }}>
-					<div className={styles.newFaces}>
+					<Flex sx={{ alignItems: 'center', flexDirection: 'column' }}>
 						<Content
 							pretitle={data.timelineSection.pretitle}
 							title={data.timelineSection.title}
@@ -214,10 +210,39 @@ const TwentyTwenty = () => {
 							sx={{
 								flexDirection: 'column',
 								justifyContent: 'space-Between',
+								position: 'relative',
 							}}
-							className={styles.timeline}
 						>
-							<div className={styles.line}>
+							<div
+								sx={{
+									position: 'absolute',
+									left: ['50%', '64px', null],
+									width: '1px',
+									height: '100%',
+									'&::before': {
+										content: '""',
+										background:
+											'linear-gradient($black, rgba($black, 0))',
+										width: '50%',
+										height: '6rem',
+										position: 'absolute',
+										top: 0,
+										left: 0,
+										zIndex: 1,
+									},
+									'&::after': {
+										content: '""',
+										background:
+											'linear-gradient(rgba($black, 0), $black)',
+										width: '50%',
+										height: '6rem',
+										position: 'absolute',
+										bottom: '-5rem',
+										left: 0,
+										zIndex: 1,
+									},
+								}}
+							>
 								<svg
 									width="100%"
 									height="calc(100% + 5vw)"
@@ -247,7 +272,7 @@ const TwentyTwenty = () => {
 								/>
 							))}
 						</Flex>
-					</div>
+					</Flex>
 				</section>
 				<Flex
 					sx={{
@@ -283,7 +308,7 @@ const TwentyTwenty = () => {
 					sx={{
 						variant: 'boxes.section',
 						flexDirection: 'column',
-						alignItems: 'center',
+						alignItems: ['flex-start', 'center'],
 						mt: 5,
 					}}
 				>
@@ -311,14 +336,15 @@ const TwentyTwenty = () => {
 							<Box
 								key={i}
 								sx={{
-									textAlign: 'center',
+									textAlign: ['left', 'center'],
 									mb: 4,
+									ml: [2, 'initial'],
 									'&:nth-of-type(1):after': {
 										content: '""',
 										width: 6,
 										display: 'block',
-										mt: '5rem',
-										mx: 'auto',
+										mt: ['4rem', '5rem'],
+										mx: [2, 'auto'],
 										height: '2px',
 										backgroundColor: 'primary',
 									},
@@ -326,7 +352,7 @@ const TwentyTwenty = () => {
 							>
 								<Text
 									sx={{
-										fontSize: '16vw',
+										fontSize: ['16vh', '16vw'],
 										lineHeight: 0.8,
 										fontWeight: 'bold',
 										textTransform: 'uppercase',
@@ -342,7 +368,7 @@ const TwentyTwenty = () => {
 								</Text>
 								<Text
 									sx={{
-										mt: '-1em',
+										mt: [0, '-1em'],
 										fontSize: 4,
 										fontWeight: 'heading',
 										textShadow: theme =>
@@ -357,7 +383,7 @@ const TwentyTwenty = () => {
 					<Grid
 						sx={{
 							variant: 'grids.threeCards',
-							mt: 5,
+							mt: [6, 5],
 							m: [2, 'initial', null],
 						}}
 					>
@@ -371,15 +397,15 @@ const TwentyTwenty = () => {
 										'solid 2px ' + `${theme.colors.black}`,
 									color: 'lightBlue',
 									width: '100%',
-									flexDirection: 'column',
+									flexDirection: ['row', 'column'],
 									display: 'flex',
 									justifyContent: 'flexStart',
 									alignItems: 'center',
-									px: 1,
-									py: 4,
+									px: 2,
+									py: [2, 4],
 									background: theme =>
 										`${theme.gradients.lightBackgroundGradient}`,
-									textAlign: 'center',
+									textAlign: ['left', 'center'],
 									'&:hover': {
 										borderColor: 'primary',
 									},
@@ -388,22 +414,27 @@ const TwentyTwenty = () => {
 								<Box
 									sx={{
 										variant: 'boxes.icon',
+										ml: ['auto', 'initial'],
+										order: [1, 'initial'],
+										justifySelf: ['flex-end', 'initial'],
 									}}
 								>
 									<Icon name={card.icon} />
 								</Box>
-								<Text
-									sx={{
-										fontSize: 5,
-										mt: 3,
-										mb: 2,
-									}}
-								>
-									{card.title}
-								</Text>
-								<Text sx={{ fontSize: 4, fontWeight: '200' }}>
-									{card.subtitle}
-								</Text>
+								<Box sx={{ py: [2, 'initial'], order: [-1, 'initial'] }}>
+									<Text
+										sx={{
+											fontSize: 5,
+											mt: [1, 3],
+											mb: [1, 2],
+										}}
+									>
+										{card.title}
+									</Text>
+									<Text sx={{ fontSize: 4, fontWeight: '200' }}>
+										{card.subtitle}
+									</Text>
+								</Box>
 							</Link>
 						))}
 					</Grid>
@@ -415,7 +446,7 @@ const TwentyTwenty = () => {
 					sx={{
 						variant: 'boxes.section',
 						flexDirection: 'column',
-						alignItems: 'center',
+						alignItems: ['flex-start', 'center'],
 					}}
 				>
 					<Content

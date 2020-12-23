@@ -19,7 +19,7 @@ const Content = ({ pageHeader, pretitle, title, copy, inverted, ...props }) => {
 				as="span"
 				sx={{
 					variant: 'text.preheader',
-					mb: 4,
+					mb: [2, 4],
 				}}
 			>
 				{pretitle}
