@@ -4,7 +4,7 @@ import { jsx } from 'theme-ui'
 import Header from './components/header.js'
 import Footer from './components/footer.js'
 import Designers from './components/designerSection.js'
-import { ScrollProgress, ScrollArrow } from 'components/atoms'
+import { Link, Icon, ScrollArrow } from 'components/atoms'
 import { SEO } from 'components/molecules'
 
 const Promotions = () => {
@@ -16,6 +16,18 @@ const Promotions = () => {
 				previewImage="/images/2020/promotions-og.png"
 				twitterHandle="@liferaydesign"
 			/>
+
+			<Link
+				sx={{
+					variant: 'links.nice',
+					color: 'white',
+					top: '2rem',
+				}}
+				to="/2020"
+			>
+				Go to 2020 Report
+				<Icon sx={{ m: '0 1em' }} name="rightArrow" />
+			</Link>
 
 			<ScrollArrow
 				sx={{
