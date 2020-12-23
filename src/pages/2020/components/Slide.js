@@ -26,10 +26,11 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 						sx={{
 							alignItems: ['center', 'center', 'flex-start'],
 							flexDirection: ['column', 'column', 'row'],
-							flexGrow: '1',
+							flexGrow: [0, 1],
 							maxWidth: '1200px',
 							overflow: 'hidden',
 							p: ['2rem', '4rem'],
+							pb: [0, '4rem'],
 							width: ['90vw', '80vw'],
 						}}
 					>
@@ -88,7 +89,7 @@ const Slide = ({ title, image, icon, url, linkText, description, type }) => {
 			) : (
 				<Flex
 					sx={{
-						height: ['50.625vw', '45vw'], // 3:2 ratio
+						height: ['70vh', '45vw'], // 3:2 ratio
 						objectFit: 'contain',
 						position: 'relative',
 						width: ['90vw', '80vw'],

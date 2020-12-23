@@ -168,8 +168,7 @@ const TwentyTwenty = () => {
 							flexFlow: 'column-reverse',
 							justifyContent: 'center',
 							alignItems: 'center',
-							// textAlign: 'center',
-							pt: 6,
+							pt: [5, 6],
 						}}
 					>
 						<Plx parallaxData={PlxUp3}>

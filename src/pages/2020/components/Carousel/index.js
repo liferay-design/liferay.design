@@ -44,9 +44,9 @@ const Carousel = ({ children }) => {
 					sx={{
 						flexDirection: 'column',
 						alignItems: 'center',
-						height: '100vh',
+						height: ['auto', '100vh'],
 						width: '100vw',
-						mb: [4, 5],
+						mb: 5,
 					}}
 					className={isActive ? styles.active : null}
 				>
@@ -84,13 +84,14 @@ const Carousel = ({ children }) => {
 								ref={current === i ? slide : null}
 								sx={{
 									transition: 'transform 250ms ease-in-out',
+									height: '100%',
 								}}
 							>
 								{children}
 							</div>
 						))}
 					</Flex>
-					<Flex sx={{ marginTop: '2rem' }}>
+					<Flex sx={{ marginTop: 3, width: ['100vw', 'initial'], pr: 2 }}>
 						{children.map((children, i) => (
 							<div
 								onClick={
