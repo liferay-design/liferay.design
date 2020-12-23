@@ -473,10 +473,10 @@ const TwentyTwenty = () => {
 				{/* OPES */}
 				<section id="campaign" sx={{ variant: 'boxes.section' }}>
 					<Content pretitle={data.opes.pretitle} title={data.opes.title} />
-					<Flex
+					<Grid
 						sx={{
-							mb: 5,
-							variant: 'boxes.copyTwoCol',
+							mb: [3, 5],
+							variant: 'boxes.gridTwoCol',
 						}}
 					>
 						{data.opes.content.split('\n\n').map((paragraph, i) => (
@@ -485,13 +485,16 @@ const TwentyTwenty = () => {
 								key={i}
 								sx={{
 									variant: 'text.pLarge',
-									':nth-of-type(2)': { my: [3, 5] },
+									':nth-of-type(2)': {
+										my: [3, 5],
+										gridColumnStart: [1, 3],
+									},
 								}}
 							>
 								{paragraph}
 							</Text>
 						))}
-					</Flex>
+					</Grid>
 				</section>
 				<Carousel>
 					{data.opes.images.map(({ image }) => (

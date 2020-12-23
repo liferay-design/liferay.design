@@ -1,8 +1,8 @@
 /** @jsx jsx */
 
-import { jsx, Box, Flex, Text } from 'theme-ui'
+import { jsx, Box, Grid, Text } from 'theme-ui'
 
-const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitle }) => {
+const ThankYou = ({ message, authorName, authorTitle, nextBody, nextTitle }) => {
 	// dont built until there is content
 	if ((message, authorName, authorTitle, nextBody, nextTitle)) {
 		return (
@@ -12,13 +12,13 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 				}}
 				id="message"
 			>
-				<Flex
+				<Grid
 					sx={{
-						variant: 'boxes.copyTwoCol',
+						variant: 'boxes.gridTwoCol',
 						mb: 4,
 					}}
 				>
-					<Box>
+					<Box sx={{ gridColumnStart: 1 }}>
 						{message.split('\n\n').map((paragraph, i) => (
 							<Text
 								as="p"
@@ -30,15 +30,16 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 								{paragraph}
 							</Text>
 						))}
-						<Text sx={{ fontSize: 4, mt: 4, fontWeight: 'bold' }}>
-							{authorName}
-						</Text>
+					</Box>
+					<Box sx={{ gridColumnStart: 1, mt: [2, 0] }}>
+						<Text sx={{ fontSize: 4, fontWeight: 'bold' }}>{authorName}</Text>
 						<Text sx={{ opacity: 0.8 }}>{authorTitle}</Text>
 					</Box>
 					<Box
 						sx={{
-							mt: 5,
-							mb: 6,
+							mt: [2, 5],
+							gridColumnStart: [1, 3],
+							gridRowStart: [2, 1],
 						}}
 					>
 						<Text
@@ -60,10 +61,10 @@ const HeaderBackground = ({ message, authorName, authorTitle, nextBody, nextTitl
 							</Text>
 						))}
 					</Box>
-				</Flex>
+				</Grid>
 			</Box>
 		)
 	}
 	return `null` // not sure if this is the best way to do this?
 }
-export default HeaderBackground
+export default ThankYou

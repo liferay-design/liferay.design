@@ -53,15 +53,14 @@ export default {
 			maxWidth: '1200px',
 			position: 'relative',
 		},
-		copyTwoCol: {
-			maxWidth: '1080px',
+		gridTwoCol: {
 			mx: [2, 'auto', null],
-			mt: 5,
-			flexDirection: ['column', 'initial', null],
-			justifyContent: 'space-between',
-			'> p, > div': {
-				maxWidth: '480px',
-			},
+			mt: [2, 5],
+			maxWidth: '1080px',
+			gridTemplateColumns: ['1fr', '480px 1fr 480px'],
+			gridTemplateRows: 'auto',
+			gridColumnGap: 0,
+			gridRowGap: 0,
 		},
 	},
 	text: {
