@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
+/** @jsx jsx */
+
+import { jsx, Flex, Text } from 'theme-ui'
+import { Component } from 'react'
 import { Icon, Link } from 'components/atoms'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Plx from 'react-plx'
@@ -229,10 +232,33 @@ export default class Nav extends Component {
 						this.state.navOpen ? 'navOpen' : ''
 					}`}
 				>
-					<button className={styles.menuButton} onClick={this.toggle}>
-						<span>Menu</span>
-					</button>
-					<div className={styles.linkWrapper}>
+					<Flex
+						as="button"
+						sx={{
+							boxSizing: 'content-box',
+							alignItems: 'center',
+							justifyContent: 'center',
+							position: 'absolute',
+							bottom: 3,
+							borderRadius: '1rem 0 0 1rem',
+							right: '-2em',
+							pl: 3,
+							pr: '4em',
+							py: 2,
+							width: '1em',
+							height: '5em',
+						}}
+						className={styles.menuButton}
+						onClick={this.toggle}
+					>
+						<Text as="span" sx={{ variant: 'text.preheader', mb: '.8ch' }}>
+							Menu
+						</Text>
+					</Flex>
+					<div
+						sx={{ position: 'absolute', bottom: 5, right: 2 }}
+						className={styles.linkWrapper}
+					>
 						<AnchorLink offset="80" href="#top">
 							<Plx parallaxData={top} className={styles.anchorBlock} />
 							<div className={styles.anchorText}>2020</div>
