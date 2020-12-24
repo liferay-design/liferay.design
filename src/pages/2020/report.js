@@ -225,18 +225,18 @@ const TwentyTwenty = () => {
 										background: theme =>
 											`${'linear-gradient(' +
 												theme.colors.black +
-												', rgba(0,0,0,0))'}`,
+												', rgba(31,33,35,0))'}`,
 										width: '10px',
 										height: '6rem',
 										position: 'absolute',
-										top: 0,
+										top: -1,
 										left: 0,
 										zIndex: 1,
 									},
 									'&::after': {
 										content: '""',
 										background: theme =>
-											`${'linear-gradient(rgba(0,0,0,0),' +
+											`${'linear-gradient(rgba(31,33,35,0),' +
 												theme.colors.black +
 												')'}`,
 										width: '10px',

@@ -105,7 +105,10 @@ const Event = ({ name, description, startDate, endDate, url, image }) => {
 							src={image}
 						/>
 					</Link>
-					<h4 className={styles.pLarge}>
+					<h4
+						sx={{ textAlign: ['center', 'initial'] }}
+						className={styles.pLarge}
+					>
 						{name}
 						<span>{description}</span>
 					</h4>
