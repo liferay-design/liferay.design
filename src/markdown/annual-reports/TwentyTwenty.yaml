@@ -251,12 +251,12 @@ future:
 
                   We’ll also be Implementing Auto Layout 3.0 and Variants to take advantage of the power of the new features unveiled at Config Europe this year and adding a foundation for motion to improve the user experience in our products.
         - li:
-              title: Solution Design
+              title: Solutions
               icon: solutionDesign
               content: |
                   We’re working to formalize and define the approach for designing pre-sales demos. These designers will also be creating white-labelled solutions for targeted industry verticals like Insurance and Manufacturing.
         - li:
-              title: Increase User Testing
+              title: Research
               icon: userTesting
               content: |
                   After a year with the Research department up and running, we continue to advance and grow not only in quantity of research projects but also in quality.

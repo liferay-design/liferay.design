@@ -44,7 +44,7 @@ const Carousel = ({ children }) => {
 					sx={{
 						flexDirection: 'column',
 						alignItems: 'center',
-						height: ['auto', '100vh'],
+						height: 'auto',
 						width: '100vw',
 						mb: 5,
 					}}
