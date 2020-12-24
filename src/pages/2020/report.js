@@ -203,6 +203,7 @@ const TwentyTwenty = () => {
 				<section id="milestones" sx={{ py: [3, 5], variant: 'boxes.section' }}>
 					<Flex sx={{ alignItems: 'center', flexDirection: 'column' }}>
 						<Content
+							center
 							pretitle={data.timelineSection.pretitle}
 							title={data.timelineSection.title}
 						/>
@@ -317,7 +318,11 @@ const TwentyTwenty = () => {
 						mt: 5,
 					}}
 				>
-					<Content pretitle={data.covid.pretitle} title={data.covid.title} />
+					<Content
+						center
+						pretitle={data.covid.pretitle}
+						title={data.covid.title}
+					/>
 					<Carousel>
 						{data.covid.slides.map(({ slide }, i) => (
 							<Slide
@@ -456,6 +461,7 @@ const TwentyTwenty = () => {
 					}}
 				>
 					<Content
+						center
 						pretitle={data.globalServices.pretitle}
 						title={data.globalServices.title}
 					/>
