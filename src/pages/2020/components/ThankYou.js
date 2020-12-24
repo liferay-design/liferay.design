@@ -33,7 +33,9 @@ const ThankYou = ({ message, authorName, authorTitle, nextBody, nextTitle }) => 
 					</Box>
 					<Box sx={{ gridColumnStart: 1, mt: [2, 0] }}>
 						<Text sx={{ fontSize: 4, fontWeight: 'bold' }}>{authorName}</Text>
-						<Text sx={{ opacity: 0.8 }}>{authorTitle}</Text>
+						<Text sx={{ variant: 'text.pMedium', opacity: 0.8 }}>
+							{authorTitle}
+						</Text>
 					</Box>
 					<Box
 						sx={{

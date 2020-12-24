@@ -236,7 +236,7 @@ opes:
         - image: '/images/2020/opes-3.png'
     content: |
         Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. 
-        
+
         After the lockdown, we had to roll out 100% digital campaigns — solution-specific ads for campaigns focused on e-commerce, digital workspace, and self-service portals. Who knows how OPES will evolve in 2021! Stay tuned.
 future:
     pretitle: The future
@@ -266,7 +266,7 @@ future:
 
 thankYou:
     pretitle: 2020 Hindsight
-    title: A year of uncertainty, met with resilience.
+    title: "A year of uncertainty, met\_with\_resilience."
     message:
         part1: |
             While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years.

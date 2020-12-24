@@ -25,7 +25,8 @@
 	right: 0;
 	.menuButton {
 		@include mainBg;
-		transition: transform 0.15s ease-in-out;
+		transition: transform 0.15s ease-in-out, border-radius 0.15s ease-in-out;
+		transform-origin: 43% 50%;
 		span {
 			position: absolute;
 			transform: rotate(-90deg);
@@ -95,6 +96,8 @@
 	&:global(.navOpen) {
 		.menuButton {
 			transform: scale(0.5);
+			border-radius: 2rem 0 0 2rem;
+			background: rgba($black, 0.8);
 			span {
 				opacity: 0;
 			}
