@@ -173,8 +173,9 @@ const TwentyTwenty = () => {
 					>
 						<Plx parallaxData={PlxUp3}>
 							<Carousel>
-								{data.unsplash.images.map(({ image }) => (
+								{data.unsplash.images.map(({ image }, i) => (
 									<Slide
+										key={i}
 										title={''}
 										image={image}
 										icon={''}
@@ -254,13 +255,14 @@ const TwentyTwenty = () => {
 										x2="0.5"
 										y2="99%"
 										stroke="#006DE7"
-										stroke-linejoin="round"
-										stroke-dasharray="1 10"
+										strokeLinejoin="round"
+										strokeDasharray="1 10"
 									/>
 								</svg>
 							</div>
-							{data.timelineSection.events.map(({ event }) => (
+							{data.timelineSection.events.map(({ event }, i) => (
 								<Event
+									key={i}
 									name={event.name}
 									description={event.description}
 									startDate={event.startDate}
@@ -277,7 +279,7 @@ const TwentyTwenty = () => {
 					sx={{
 						background: 'white',
 						height: ['auto', '100vh', null],
-						py: 6,
+						py: [5, 6],
 					}}
 				>
 					<Flex
@@ -313,8 +315,9 @@ const TwentyTwenty = () => {
 				>
 					<Content pretitle={data.covid.pretitle} title={data.covid.title} />
 					<Carousel>
-						{data.covid.slides.map(({ slide }) => (
+						{data.covid.slides.map(({ slide }, i) => (
 							<Slide
+								key={i}
 								title={slide.title}
 								image={slide.image}
 								icon={slide.icon}
@@ -328,7 +331,7 @@ const TwentyTwenty = () => {
 				</Flex>
 
 				{/* Impact */}
-				<section id="impact" sx={{ variant: 'boxes.section', mt: 5, mb: 6 }}>
+				<section id="impact" sx={{ variant: 'boxes.section', mt: [4, 5], mb: 6 }}>
 					<Content pretitle={data.impact.pretitle} title={data.impact.title} />
 					<Box>
 						{data.impact.bigStats.map(({ stat }, i) => (
@@ -518,7 +521,7 @@ const TwentyTwenty = () => {
 					<section
 						sx={{
 							variant: 'boxes.section',
-							pt: [4, 6, null],
+							pt: [5, 6, null],
 							pb: [4, 5, null],
 						}}
 					>
@@ -534,6 +537,7 @@ const TwentyTwenty = () => {
 										my: 3,
 										position: 'relative',
 										ml: [2, 4],
+										pr: [1, 0],
 										py: 3,
 									}}
 								>
@@ -576,8 +580,8 @@ const TwentyTwenty = () => {
 						position: 'relative',
 						zIndex: 0,
 						variant: 'boxes.section',
-						mt: 5,
-						mb: '40vh',
+						mt: [4, 5],
+						mb: ['30vh', '40vh'],
 						pt: 5,
 					}}
 					id="thankyou"
@@ -599,7 +603,7 @@ const TwentyTwenty = () => {
 				<section
 					sx={{
 						backgroundColor: 'black',
-						pt: 5,
+						pt: [3, 5],
 						variant: 'boxes.section',
 					}}
 					id="subscribe"

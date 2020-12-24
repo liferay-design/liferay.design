@@ -89,7 +89,7 @@ export default {
 			fontWeight: 'bold',
 		},
 		pLarge: {
-			fontSize: 4,
+			fontSize: [3, 4],
 			fontWeight: 'light',
 			mb: 2,
 		},
