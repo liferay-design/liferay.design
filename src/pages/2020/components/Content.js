@@ -2,15 +2,16 @@
 
 import { jsx, Heading, Flex, Text } from 'theme-ui'
 
-const Content = ({ pageHeader, pretitle, title, copy, inverted, ...props }) => {
+const Content = ({ pageHeader, pretitle, title, copy, center, inverted, ...props }) => {
 	return (
 		<Flex
 			sx={{
 				pb: 4,
 				flexDirection: 'column',
-				justifyContent: ['flex-start', 'center'],
-				alignItems: ['flex-start', 'center'],
-				textAlign: ['flex-start', 'center'],
+				justifyContent: `${center ? 'center' : ['flex-start', 'center']}`,
+				alignItems: `${center ? 'center' : ['flex-start', 'center']}`,
+				textAlign: `${center ? 'center' : ['flex-start', 'center']}`,
+				alignSelf: `${center ? 'center' : ''}`,
 				px: 2,
 			}}
 			{...props}
