@@ -117,7 +117,6 @@ timelineSection:
               name: Design Week
               description: ' from Home'
               startDate: 2020-11-16
-              endDate: 2020-11-20
               url: '/design-week'
               image: '/images/2020/design-week-thumb.jpg'
 covid:

@@ -200,7 +200,7 @@ const TwentyTwenty = () => {
 
 				{/* ---------- MILESTONES ----------- */}
 
-				<section id="milestones" sx={{ variant: 'boxes.section' }}>
+				<section id="milestones" sx={{ py: [3, 5], variant: 'boxes.section' }}>
 					<Flex sx={{ alignItems: 'center', flexDirection: 'column' }}>
 						<Content
 							pretitle={data.timelineSection.pretitle}
@@ -209,21 +209,23 @@ const TwentyTwenty = () => {
 						<Flex
 							sx={{
 								flexDirection: 'column',
-								justifyContent: 'space-Between',
+								width: ['100%', '800px'],
 								position: 'relative',
 							}}
 						>
 							<div
 								sx={{
 									position: 'absolute',
-									left: ['50%', '64px', null],
+									left: ['50%', '3rem', null],
 									width: '1px',
 									height: '100%',
 									'&::before': {
 										content: '""',
-										background:
-											'linear-gradient($black, rgba($black, 0))',
-										width: '50%',
+										background: theme =>
+											`${'linear-gradient(' +
+												theme.colors.black +
+												', rgba(0,0,0,0))'}`,
+										width: '10px',
 										height: '6rem',
 										position: 'absolute',
 										top: 0,
@@ -232,12 +234,14 @@ const TwentyTwenty = () => {
 									},
 									'&::after': {
 										content: '""',
-										background:
-											'linear-gradient(rgba($black, 0), $black)',
-										width: '50%',
+										background: theme =>
+											`${'linear-gradient(rgba(0,0,0,0),' +
+												theme.colors.black +
+												')'}`,
+										width: '10px',
 										height: '6rem',
 										position: 'absolute',
-										bottom: '-5rem',
+										bottom: 0,
 										left: 0,
 										zIndex: 1,
 									},
@@ -245,7 +249,7 @@ const TwentyTwenty = () => {
 							>
 								<svg
 									width="100%"
-									height="calc(100% + 5vw)"
+									height="100%"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
 								>
