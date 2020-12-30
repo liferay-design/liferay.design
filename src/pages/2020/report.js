@@ -144,6 +144,14 @@ const TwentyTwenty = () => {
 							sx={{
 								variant: 'text.preheader',
 								color: 'lightBlue',
+								opacity: 0,
+								animation:
+									'pageTitleAnimateIn .2s ease-in-out .3s forwards',
+								'@keyframes pageTitleAnimateIn': {
+									to: {
+										opacity: 1,
+									},
+								},
 							}}
 						>
 							{data.title}
