@@ -97,7 +97,7 @@ const Event = ({ name, description, startDate, endDate, url, image }) => {
 						alignItems: 'center',
 					}}
 				>
-					<Link to={url} sx={{ mx: 4, mt: [4, 0], order: 2 }}>
+					<Link to={url} sx={{ mx: 4, mt: [4, 0], order: [2, 1] }}>
 						<Plx
 							tagName="img"
 							parallaxData={eventImage}
@@ -106,7 +106,7 @@ const Event = ({ name, description, startDate, endDate, url, image }) => {
 						/>
 					</Link>
 					<h4
-						sx={{ textAlign: ['center', 'initial'] }}
+						sx={{ textAlign: ['center', 'initial'], order: [1, 2] }}
 						className={styles.pLarge}
 					>
 						{name}
