@@ -571,7 +571,7 @@ const TwentyTwenty = () => {
 										<Text
 											sx={{
 												variant: 'text.pLarge',
-												color: 'grayParagraph',
+												color: ['lightBlack', 'grayParagraph'],
 											}}
 											key={i}
 										>
