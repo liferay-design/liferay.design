@@ -33,9 +33,9 @@ export default () => {
 	return (
 		<div>
 			<BillboardAlt
-				image="/images/banner/0.jpg"
+				annualReport
 				heading="What a Year!"
-				subtitle="Not even 2020 could stop us from putting together our 3rd annual&nbsp;report!"
+				subtitle="Not even 2020 could stop us from releasing our 3rd annual&nbsp;report!"
 				cta="Check it out"
 				ctaUrl="/2020"
 				background="white"
