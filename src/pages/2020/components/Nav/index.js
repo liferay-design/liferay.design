@@ -218,7 +218,7 @@ export default class Nav extends Component {
 
 	render() {
 		return (
-			<div>
+			<nav>
 				<Link to="/">
 					<Icon
 						sx={{ fill: 'white', width: '2rem' }}
@@ -281,7 +281,7 @@ export default class Nav extends Component {
 						</AnchorLink>
 					</div>
 				</Plx>
-			</div>
+			</nav>
 		)
 	}
 }
