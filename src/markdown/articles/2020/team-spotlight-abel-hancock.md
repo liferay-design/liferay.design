@@ -2,7 +2,7 @@
 author: Sven Iten
 date: 2020-12-14T17:00:00.000Z
 title: 'Team Spotlight: Abel Hancock'
-featuredImage: /images/articles/abel-spotlight.png
+featuredImage: /images/articles/abel-spotlight.jpg
 publish: true
 ---
 
