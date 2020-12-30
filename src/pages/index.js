@@ -2,7 +2,7 @@
 
 import { jsx, Grid } from 'theme-ui'
 import { Container } from 'components/atoms'
-import { CardDefault } from 'components/molecules'
+import { CardDefault, BillboardAlt } from 'components/molecules'
 import { HeroBanner, TopBlogPosts } from 'components/organisms'
 import { useStaticQuery, graphql } from 'gatsby'
 import { MainLayout } from 'components/templates'
@@ -32,6 +32,14 @@ export default () => {
 	`)
 	return (
 		<div>
+			<BillboardAlt
+				image="/images/banner/0.jpg"
+				heading="What a Year!"
+				subtitle="Not even 2020 could stop us from putting together our 3rd annual&nbsp;report!"
+				cta="Check it out"
+				ctaUrl="/2020"
+				background="white"
+			/>
 			<div
 				sx={{
 					backgroundAttachment: 'fixed',
@@ -54,7 +62,7 @@ export default () => {
 						linkText="Get More"
 						linkDestination="/resources"
 						background={
-								'linear-gradient(to bottom, #fff, #fff 80%, #13141F 80%)'
+							'linear-gradient(to bottom, #fff, #fff 80%, #13141F 80%)'
 						}
 					>
 						<Grid sx={{ variant: 'grids.twoCards' }}>

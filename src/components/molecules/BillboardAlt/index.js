@@ -23,14 +23,14 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 						justify="space-between"
 					>
 						<Heading
-							color={background == 'colors.white' ? 'black' : 'white'}
+							color={background == 'white' ? 'black' : 'white'}
 							className={styles.headline}
 							level={2}
 						>
 							{heading}
 						</Heading>
 						<Text
-							color={background == 'colors.white' ? 'black' : 'white'}
+							color={background == 'white' ? 'black' : 'white'}
 							margin="xxLarge"
 						>
 							{subtitle}
