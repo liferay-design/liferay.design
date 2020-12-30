@@ -42,9 +42,12 @@ const Content = ({ pageHeader, pretitle, title, copy, center, inverted, ...props
 						key={i}
 						sx={{
 							my: 3,
-							fontSize: 3,
+							variant: 'text.pLarge',
 							maxWidth: '68ch',
-							color: `${inverted ? 'grayParagraph' : 'lightBlue'}`,
+							color: [
+								`${inverted ? 'lightBlack' : 'lightBlue'}`,
+								`${inverted ? 'grayParagraph' : 'lightBlue'}`,
+							],
 						}}
 					>
 						{paragraph}
