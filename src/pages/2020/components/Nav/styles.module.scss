@@ -27,6 +27,13 @@
 		@include mainBg;
 		transition: transform 0.15s ease-in-out, border-radius 0.15s ease-in-out;
 		transform-origin: 43% 50%;
+		animation: menuAnimateIn 0.4s ease-in-out 3s forwards;
+		transform: translateX(100%);
+		@keyframes menuAnimateIn {
+			to {
+				transform: translateX(0);
+			}
+		}
 		span {
 			position: absolute;
 			transform: rotate(-90deg);
