@@ -3,7 +3,7 @@
 import { jsx, Box, Flex, Grid, Text, Heading, ThemeProvider } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 
-import { Image, ScrollProgress, ScrollArrow, Icon, Link } from 'components/atoms'
+import { ScrollProgress, ScrollArrow, Icon, Link } from 'components/atoms'
 import { SEO, FormNewsletter } from 'components/molecules'
 import { Footer } from 'components/organisms'
 import theme from 'gatsby-plugin-theme-ui/2020'
@@ -146,7 +146,7 @@ const TwentyTwenty = () => {
 								color: 'lightBlue',
 								opacity: 0,
 								animation:
-									'pageTitleAnimateIn .2s ease-in-out .3s forwards',
+									'pageTitleAnimateIn .5s ease-in-out 1.2s forwards',
 								'@keyframes pageTitleAnimateIn': {
 									to: {
 										opacity: 1,
