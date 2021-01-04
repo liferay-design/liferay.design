@@ -46,7 +46,7 @@ export default class Handbook extends Component {
 					description={mdx.excerpt}
 					keywords="Liferay Design Handbook, handbook, designer handbook"
 					pageTitle={mdx.frontmatter.title}
-					previewImage="https://liferay.design/images/handbook/handbook.png"
+					previewImage="/images/handbook/handbook.png"
 					contentType="article"
 				/>
 				<MediaQuery maxWidth={767}>

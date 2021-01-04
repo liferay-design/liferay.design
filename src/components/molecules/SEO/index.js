@@ -2,32 +2,42 @@ import { Helmet } from 'react-helmet'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-
-const SEO = ({ description, previewImage, keywords, pageTitle, twitterHandle,canonicalLink, contentType }) => {
+const SEO = ({
+	description,
+	previewImage,
+	previewImageAlt,
+	keywords,
+	pageTitle,
+	twitterHandle,
+	canonicalLink,
+	contentType,
+}) => {
 	return (
 		<Helmet>
 			<title>{pageTitle}</title>
-			{contentType ? (
-				<meta property="og:type" content={contentType} />
-			) : (
-				<meta property="og:type" content="website" />
-			)}
-			{previewImage ? (
-				<meta property="og:image" content={previewImage} />
-			) : (
-				<meta
-					property="og:image"
-					content="https://liferay.design/images/articles/design-week-team.jpeg"
-				/>
-			)}
-			{previewImage ? (
-				<meta name="twitter:image" content={previewImage} />
-			) : (
-				<meta
-					name="twitter:image"
-					content="https://liferay.design/images/articles/design-week-team.jpeg"
-				/>
-			)}
+			{/*  Essential META Tags per https://css-tricks.com/essential-meta-tags-social-media/ */}
+			<meta property="og:title" content={pageTitle} />
+			<meta property="og:description" content={description} />
+			<meta
+				property="og:image"
+				content={
+					previewImage
+						? 'https://liferay.design' + previewImage
+						: 'https://liferay.design/images/articles/design-week-team.jpeg'
+				}
+			/>
+			<meta name="twitter:card" content="summary_large_image" />
+
+			{/*  Non-Essential, But Recommended */}
+			{previewImageAlt ? (
+				<meta name="twitter:image:alt" content={previewImageAlt} />
+			) : null}
+
+			{/*  Non-Essential, But Required for Analytics */}
+			<meta name="twitter:site" content="@liferaydesign" />
+
+			{/* Additional Useful Tags */}
+			<meta property="og:type" content={contentType ? contentType : 'website'} />
 			<meta
 				name="keyword"
 				content={
@@ -35,18 +45,10 @@ const SEO = ({ description, previewImage, keywords, pageTitle, twitterHandle,can
 					', Liferay, Design, Liferay Design, open source design, '
 				}
 			/>
-			<meta property="og:description" content={description} />
-			<meta name="Description" content={description} />
-			<meta property="og:title" content={pageTitle} />
-			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:site" content="@liferaydesign" />
-			<meta name="twitter:title" content={pageTitle} />
-			<meta name="twitter:description" content={description} />
-			{twitterHandle ? (
-				<meta name="twitter:creator" content={twitterHandle} />
-			) : (
-				<meta name="twitter:creator" content="@liferaydesign" />
-			)}
+			<meta
+				name="twitter:creator"
+				content={twitterHandle ? twitterHandle : '@liferaydesign'}
+			/>
 			{canonicalLink ? <link href={canonicalLink} rel="canonical" /> : null}
 		</Helmet>
 	)
