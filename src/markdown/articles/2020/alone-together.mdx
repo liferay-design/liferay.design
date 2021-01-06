@@ -2,12 +2,12 @@
 author: 'Ryan Connolly'
 date: '2021-01-05T07:00:00.000Z'
 title: 'Alone. Together.'
-featuredImage: '/images/articles/alone-together/feature-image.png'
+featuredImage: '/images/articles/alone-together/feature-image.jpg'
 publish: true
 ---
 
-import { Image } from 'components/atoms'
-import { Embed } from 'theme-ui'
+import { Image, Link } from 'components/atoms'
+import { Embed, Heading } from 'theme-ui'
 
 The new year finally came, and with it came a newfound sense of optimism. Even though January is pretty arbitrary in the scheme of our Covid timeline, it still provided the promise of a new year and all the potential that brings. Monday I came to work ready to start the new year right. I made a jug of coffee, ate some Trader Joe’s Honey O’s, and [posted a fun Dribbble shot.](https://dribbble.com/shots/14869868-holiday-starbucks)
 
@@ -34,13 +34,29 @@ I checked LinkedIn and saw I had a new request — the name looked familiar to m
 
 My immediate reaction was confusion, shock, and suspicion. Who was this guy? What does he want? What is this? If I click this link will it gather my social security number? Clearly the quarantine has done _things_ to me. But what the heck, I decided to give it a click.
 
-**...I was amazed.**
+<Heading sx={{ fontSize: 7, lineHeight: '.8', my: '1.4em !important', color: 'mainL5', fontWeight:'body' }}>
+	...I was amazed.
+</Heading>
 
 <Embed
 	sx={{ height: 480 }}
 	variant="embed.video"
 	src="/images/articles/alone-together/screencap.mp4"
 />
+
+<Link
+	to="https://marcocuel.com/p/starbucks/"
+	sx={{
+		textAlign: 'center',
+		color: 'mainL4',
+		fontStyle: 'italic',
+		mb: 4,
+		mt: '-1em',
+		display: 'block',
+	}}
+>
+	MarcoCuel.com/p/starbucks
+</Link>
 
 This talented developer from Brazil, Marco Cuel, had taken my design and breathed life into it. I felt so honored that someone would devote the time and energy into one of my designs for no other reason than they liked it and wanted to play with it. The most special part of this for me was this new feeling — a break from the ceaseless lockdown. The feeling that we may be all alone and suffering. But at least we’re doing it together.
 
