@@ -1,6 +1,6 @@
 import { Flex, ScrollProgress } from 'components/atoms'
 import { Author, GlobalMdx, SEO, Date as NiceDate } from 'components/molecules'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { Footer, Navbar } from 'components/organisms'
 import { Link } from 'components/atoms'
 import { graphql } from 'gatsby'
@@ -23,41 +23,46 @@ export default class Events extends Component {
 				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
-					previewImage={post.frontmatter.heroImage}
-					keywords={'event, events in ' + `${post.frontmatter.office.id}` }
-					pageTitle={`${post.frontmatter.title}` + ' | Liferay.Design Event in ' + `${post.frontmatter.office.id}`}
-					contentType='event'
+					previewImage={post.frontmatter.featuredImage}
+					keywords={'event, events in ' + `${post.frontmatter.office.id}`}
+					pageTitle={
+						`${post.frontmatter.title}` +
+						' | Liferay.Design Event in ' +
+						`${post.frontmatter.office.id}`
+					}
+					contentType="event"
 				/>
 				<Navbar section="Events" />
 
 				<Flex justify="center" align="center" className={styles.banner}>
 					<Flex direction="column" className={styles.bannerContent}>
 						<h1>
-							<NiceDate large dark
+							<NiceDate
+								large
+								dark
 								size="3rem"
 								className={styles.date}
-								color='mainl3'
-								month={moment(post.frontmatter.date).format('MMM')} day={moment(post.frontmatter.date).format('DD')}
+								color="mainl3"
+								month={moment(post.frontmatter.date).format('MMM')}
+								day={moment(post.frontmatter.date).format('DD')}
 							/>
 							{post.frontmatter.title}{' '}
 						</h1>
 						<h2>
-							{`${moment(post.frontmatter.date).format('h:mma')}` === '12:00am' ? null : 
-							<span className={styles.startTime}>
-								{moment(post.frontmatter.date).format('h:mma')}
-							</span>}
+							{`${moment(post.frontmatter.date).format('h:mma')}` ===
+							'12:00am' ? null : (
+								<span className={styles.startTime}>
+									{moment(post.frontmatter.date).format('h:mma')}
+								</span>
+							)}
 							{post.frontmatter.endDateTime && (
 								<span className={styles.endTime}>
 									&nbsp; – &nbsp;
-									{moment(post.frontmatter.endDateTime).format(
-										'h:mma',
-									)}
+									{moment(post.frontmatter.endDateTime).format('h:mma')}
 								</span>
 							)}
 							<span className={styles.locationName}>
-								<Link
-									to={post.frontmatter.office.mapURL}
-								>
+								<Link to={post.frontmatter.office.mapURL}>
 									{post.frontmatter.office.id},{' '}
 									{post.frontmatter.office.region}
 								</Link>
@@ -69,9 +74,7 @@ export default class Events extends Component {
 								src={post.frontmatter.heroImage}
 							/>
 						)}
-						<p className={styles.summary}>
-							{post.frontmatter.summary}
-						</p>
+						<p className={styles.summary}>{post.frontmatter.summary}</p>
 						{post.frontmatter.bodyImage && (
 							<img
 								className={styles.bodyImage}
@@ -81,10 +84,7 @@ export default class Events extends Component {
 					</Flex>
 				</Flex>
 				{today < eventDate ? (
-					<Link
-						to={post.frontmatter.ctaURL}
-						className={styles.ctaButton}
-					>
+					<Link to={post.frontmatter.ctaURL} className={styles.ctaButton}>
 						RSVP
 					</Link>
 				) : null}
@@ -128,7 +128,7 @@ export const pageQuery = graphql`
 				bodyImage
 				ctaURL
 			}
-				body
+			body
 			excerpt
 		}
 	}

@@ -56,9 +56,7 @@ export default class Articles extends Component {
 				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
-					previewImage={
-						'https://liferay.design' + post.frontmatter.featuredImage
-					}
+					previewImage={post.frontmatter.featuredImage}
 					keywords={post.frontmatter.tags}
 					pageTitle={
 						`${post.frontmatter.title}` +
@@ -155,7 +153,7 @@ export default class Articles extends Component {
 						<GlobalMdx>
 							<MDXRenderer>{post.body}</MDXRenderer>
 						</GlobalMdx>
-						<PreviousNext section='articles' current={post.id} />
+						<PreviousNext section="articles" current={post.id} />
 					</div>
 				</div>
 				<RecentBlogPosts
