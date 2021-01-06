@@ -64,6 +64,7 @@ const CardDefault = ({
 								variant: 'images.grey',
 							}}
 							className={styles.sexyShadow}
+							alt=""
 							{...props}
 							src={imageURL}
 						/>
