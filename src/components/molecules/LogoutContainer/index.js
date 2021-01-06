@@ -16,18 +16,25 @@ export default class LogoutContainer extends Component {
 	}
 
 	render() {
-
 		return (
 			<div className={styles.relative}>
 				<div className={styles.logoutContainer} onClick={this.toggle}>
-					<Avatar src={this.props.user.avatar} sx={{variant: 'images.avatar.small'}}/>
+					<Avatar
+						src={this.props.user.avatar}
+						sx={{ variant: 'images.avatar.small' }}
+					/>
 				</div>
 				<div className={this.state.showChildren ? styles.visible : styles.hidden}>
 					<div className={styles.wrapper}>
 						<div className={styles.caret} />
 						<div className={styles.caretOverlay} />
 						<Flex position="relative" className={styles.container}>
-							<Image external src={this.props.user.avatar} />
+							<Image
+								sx={{ height: '100%', width: '100%' }}
+								alt={this.props.user.name}
+								external
+								src={this.props.user.avatar}
+							/>
 							<Flex direction="column" padding="1rem">
 								<Text
 									type="span"
