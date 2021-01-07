@@ -118,9 +118,18 @@ module.exports = {
 					{
 						resolve: 'gatsby-remark-images',
 						options: {
-							maxWidth: 1035,
-							sizeByPixelDensity: true,
+							maxWidth: 768,
 							withWebp: true,
+							quality: 96,
+							backgroundColor: 'transparent',
+							disableBgImageOnAlpha: true,
+							wrapperStyle: 'margin-bottom: 2em; margin-top: 1em;',
+						},
+					},
+					{
+						resolve: `gatsby-remark-image-attributes`,
+						options: {
+							dataAttributes: true,
 						},
 					},
 					{
