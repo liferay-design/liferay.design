@@ -24,6 +24,7 @@
 		"gatsby-plugin-typography": "^2.10.0",
 		"gatsby-remark-autolink-headers": "^2.9.0",
 		"gatsby-remark-external-links": "0.0.4",
+		"gatsby-remark-image-attributes": "^0.2.8",
 		"gatsby-remark-static-images": "^1.2.1",
 		"gatsby-source-mailchimp": "^0.7.0",
 		"gatsby-transformer-json": "^2.9.0",
