@@ -36,11 +36,8 @@
 }
 .featuredImage {
 	position: relative;
-	transform-origin: bottom;
-	will-change: transform;
 	img {
 		box-shadow: $elevation2;
-		width: $screenMedium;
 		object-fit: cover;
 		height: 40vh;
 		max-height: 468px;
