@@ -148,7 +148,6 @@ export default class Articles extends Component {
 						<Image
 							alt={'featured image for ' + `${post.frontmatter.title}`}
 							src={post.frontmatter.featuredImage}
-
 						/>
 					</Plx>
 					</div>

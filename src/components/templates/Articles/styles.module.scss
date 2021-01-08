@@ -43,6 +43,7 @@
 		max-height: 468px;
 		position: relative;
 		z-index: 10;
+		margin: 0;
 	}
 }
 
@@ -132,7 +133,7 @@
 		img {
 			max-width: 100%;
 			max-height: $screenSmall;
-			margin: 2rem auto;
+			margin: 0;
 		}
 	}
 	.markdownContainer {
