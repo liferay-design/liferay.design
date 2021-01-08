@@ -19,9 +19,9 @@ const featuredImage = [
 		properties: [
 			{
 				startValue: 1,
-				endValue: 2,
+				endValue: 1.5,
 				property: 'scale',
-			},
+			}
 		],
 	},
 ]
@@ -37,6 +37,11 @@ const hero = [
 				unit: 'vh',
 				property: 'translateY',
 			},
+			{
+				startValue: 1,
+				endValue: 0,
+				property: 'opacity',
+			}
 		],
 	},
 ]
@@ -138,12 +143,15 @@ export default class Articles extends Component {
 					</Container>
 				</Plx>
 				<div className={styles.markdownContainer}>
-					<Plx sx={{ marginTop: '-16rem', display: 'flex' }} className={styles.featuredImage} parallaxData={featuredImage}>
+					<div sx={{ margin: '-16rem auto 0', overflow: 'hidden', width: ['auto', '768px'] }} className={styles.featuredImage}>
+					<Plx parallaxData={featuredImage} sx={{willChange: 'transform', transformOrigin: 'center'}}>
 						<Image
 							alt={'featured image for ' + `${post.frontmatter.title}`}
 							src={post.frontmatter.featuredImage}
+
 						/>
 					</Plx>
+					</div>
 					<div className={styles.wrapper}>
 						<GlobalMdx>
 							<MDXRenderer>{post.body}</MDXRenderer>
