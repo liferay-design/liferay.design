@@ -36,8 +36,8 @@
 }
 .featuredImage {
 	position: relative;
+	box-shadow: $elevation2;
 	img {
-		box-shadow: $elevation2;
 		object-fit: cover;
 		height: 40vh;
 		max-height: 468px;
