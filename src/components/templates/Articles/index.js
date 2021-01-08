@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Grid, Box } from 'theme-ui'
+import { jsx, Grid, Box, Flex } from 'theme-ui'
 import { Container, Link, Image, ScrollProgress } from 'components/atoms'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { SEO, Tags, GlobalMdx } from 'components/molecules'
@@ -10,6 +10,36 @@ import moment from 'moment'
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import { makeAuthorSlug } from 'utils'
+import Plx from 'react-plx'
+
+const featuredImage = [
+	{
+		start: '0',
+		duration: '100vh',
+		properties: [
+			{
+				startValue: 1,
+				endValue: 2,
+				property: 'scale',
+			},
+		],
+	},
+]
+
+const hero = [
+	{
+		start: '0',
+		duration: '100vh',
+		properties: [
+			{
+				startValue: 0,
+				endValue: 50,
+				unit: 'vh',
+				property: 'translateY',
+			},
+		],
+	},
+]
 
 export default class Articles extends Component {
 	render() {
@@ -17,7 +47,7 @@ export default class Articles extends Component {
 		const links = post.frontmatter.author.links ? post.frontmatter.author.links : null // this is to catch people who dont have links
 
 		return (
-			<div style={{ overflowX: 'hidden' }}>
+			<div style={{ overflowX: 'hidden'}}>
 				<ScrollProgress />
 				<SEO
 					description={post.excerpt}
@@ -39,80 +69,81 @@ export default class Articles extends Component {
 					}
 					contentType="article"
 				/>
-				<Navbar section="Articles" />
-				<Container>
-					<Grid sx={{ variant: 'grids.post' }} className={styles.banner}>
-						<Box sx={{ gridArea: 'c' }}>
-							{post.frontmatter.tags ? (
-								<Tags tags={post.frontmatter.tags} />
-							) : null}
-							<h1>
-								{post.frontmatter.title}{' '}
-								<span>
-									by{' '}
-									<Link
-										sx={{
-											color: 'primaryl3',
-											textDecoration: 'underline',
-											textDecorationColor: theme =>
-												theme.colors.primary,
-										}}
-										to={withPrefix(
-											'/team/' +
-												`${makeAuthorSlug(
-													post.frontmatter.author.id,
-												)}`,
+					<Navbar section="Articles" className={styles.sticky}/>
+				<Plx parallaxData={hero} sx={{paddingBottom: '6rem', willChange: 'transform'}}>
+					<Container>
+						<Grid sx={{gridAutoFlow: 'column'}} className={styles.banner}>
+							<Box>
+								{post.frontmatter.tags ? (
+									<Tags tags={post.frontmatter.tags} />
+								) : null}
+								<h1>
+									{post.frontmatter.title}{' '}
+									<span>
+										by{' '}
+										<Link
+											sx={{
+												color: 'primaryl3',
+												textDecoration: 'underline',
+												textDecorationColor: theme =>
+													theme.colors.primary,
+											}}
+											to={withPrefix(
+												'/team/' +
+													`${makeAuthorSlug(
+														post.frontmatter.author.id,
+													)}`,
+											)}
+										>
+											{post.frontmatter.author.id}
+										</Link>
+										{post.frontmatter.contributors ? (
+											<>
+												{' '}
+												and{' '}
+												{post.frontmatter.contributors.map(i => (
+													<Link
+														sx={{
+															color: 'primaryl3',
+															textDecoration: 'underline',
+															textDecorationColor: 'primary',
+														}}
+														to={withPrefix(
+															'/team/' +
+																`${makeAuthorSlug(i.id)}`,
+														)}
+													>
+														{i.id}
+													</Link>
+												))}
+											</>
+										) : null}
+										&nbsp;on{' '}
+										{moment(post.frontmatter.date).format(
+											'MMMM DD, YYYY',
 										)}
-									>
-										{post.frontmatter.author.id}
-									</Link>
-									{post.frontmatter.contributors ? (
-										<>
-											{' '}
-											and{' '}
-											{post.frontmatter.contributors.map(i => (
-												<Link
-													sx={{
-														color: 'primaryl3',
-														textDecoration: 'underline',
-														textDecorationColor: 'primary',
-													}}
-													to={withPrefix(
-														'/team/' +
-															`${makeAuthorSlug(i.id)}`,
-													)}
-												>
-													{i.id}
-												</Link>
-											))}
-										</>
-									) : null}
-									&nbsp;on{' '}
-									{moment(post.frontmatter.date).format(
-										'MMMM DD, YYYY',
-									)}
-								</span>
-							</h1>
-						</Box>
-						<Box
-							sx={{
-								gridArea: 'v',
-								alignSelf: 'center',
-								justifySelf: 'center',
-							}}
-							className={styles.role}
-						>
-							<h2>{post.timeToRead} Min Read</h2>
-						</Box>
-						<Box sx={{ gridArea: 'i' }} className={styles.featuredImage}>
-							<Image
-								alt={'featured image for ' + `${post.frontmatter.title}`}
-								src={post.frontmatter.featuredImage}
-							/>
-						</Box>
-					</Grid>
-				</Container>
+									</span>
+								</h1>
+							</Box>
+							<Box
+								sx={{
+									alignSelf: 'center',
+									justifySelf: 'center',
+								}}
+								className={styles.role}
+							>
+								<h2>{post.timeToRead} Min Read</h2>
+							</Box>
+						</Grid>
+					</Container>
+				</Plx>
 				<div className={styles.markdownContainer}>
+					<Plx sx={{ marginTop: '-16rem', display: 'flex' }} className={styles.featuredImage} parallaxData={featuredImage}>
+						<Image
+							alt={'featured image for ' + `${post.frontmatter.title}`}
+							src={post.frontmatter.featuredImage}
+						/>
+					</Plx>
 					<div className={styles.wrapper}>
 						<GlobalMdx>
 							<MDXRenderer>{post.body}</MDXRenderer>

@@ -2,7 +2,6 @@
 @import 'theme/longform.scss';
 
 .banner {
-	margin-bottom: -$spacingMedium * 4 !important;
 	h1 {
 		width: 100%;
 		font-size: $fontSizeDisplay;
@@ -37,6 +36,8 @@
 }
 .featuredImage {
 	position: relative;
+	transform-origin: bottom;
+	will-change: transform;
 	img {
 		box-shadow: $elevation2;
 		width: $screenMedium;
@@ -46,17 +47,6 @@
 		position: relative;
 		z-index: 10;
 	}
-	&::before {
-		content: '';
-		position: absolute;
-		background: $white;
-		display: block;
-		height: 80%;
-		top: 32%;
-		width: 110vw;
-		left: 50%;
-		margin-left: -55vw;
-	}
 }
 
 .markdownContainer {
@@ -64,7 +54,8 @@
 	padding: 6rem 3rem;
 	font-family: $fontFamilySecondary;
 	background: white;
-	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
 	a {
 		color: inherit;
 		text-decoration: underline;
@@ -74,7 +65,7 @@
 	}
 	.wrapper {
 		max-width: 88ch;
-		margin: $spacingLarge auto 0;
+		margin: $spacingMedium auto 0;
 
 		p,
 		ol > li,
@@ -130,7 +121,6 @@
 
 @media screen and (max-width: $screenMedium) {
 	.banner {
-		margin-bottom: -$spacingMedium * 2 !important;
 		h1 {
 			order: 0;
 			font-size: $fontSizeLarge;
@@ -142,11 +132,10 @@
 	}
 
 	.featuredImage {
-		margin-bottom: $spacingBase * -5;
 		img {
 			max-width: 100%;
 			max-height: $screenSmall;
-			margin: 2rem auto -6rem;
+			margin: 2rem auto;
 		}
 	}
 	.markdownContainer {
