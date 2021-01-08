@@ -2,7 +2,7 @@
 author: Ryan Connolly
 date: 2021-01-08T22:58:50.105Z
 title: Final Thoughts from a Former Liferay Designer
-featuredImage: monochromatic-pj-min.png
+featuredImage: bye-pj.png
 publish: true
 ---
 ##### It’s always a bittersweet moment when a Liferay Designer decides to move on to a new opportunity. PJ is no exception. We’ve watched PJ grow from a young starling to a seasoned designer with a promising trajectory. Before we say goodbye to our colleague and friend, we offered PJ the chance to leave a few parting remarks about his journey. Join me in taking a moment to hear a little bit about PJ’s path and some final bits of wisdom.
