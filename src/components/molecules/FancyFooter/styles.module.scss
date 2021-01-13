@@ -1,15 +1,12 @@
 @import '~theme/variables';
 
-::-webkit-scrollbar {
-	display: none;
-}
-
-@-moz-document url-prefix() {
-	:root {
-	scrollbar-width: none;}
-}
-
 .fancyFooter {
+	@-moz-document url-prefix() {
+		scrollbar-width: none;
+	}
+	::-webkit-scrollbar {
+		display: none;
+	}
 	width: 100%;
 	height: 50vh;
 	bottom: 0;

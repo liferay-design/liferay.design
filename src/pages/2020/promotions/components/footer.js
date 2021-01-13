@@ -28,18 +28,6 @@ export default class FancyFooter extends Component {
 					zIndex: -1,
 				}}
 			>
-				<Helmet>
-					<style type="text/css">
-						{`::-webkit-scrollbar {
-                            display: none;
-                            @-moz-document url-prefix() {
-                                :root {
-                                    scrollbar-width: none;
-                                }
-                            }
-                        }`}
-					</style>
-				</Helmet>
 				<Flex
 					sx={{
 						margin: '16vh auto',
