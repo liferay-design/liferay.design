@@ -1,6 +1,5 @@
 /** @jsx jsx */
 
-import { Helmet } from 'react-helmet'
 import { jsx, Flex, Text } from 'theme-ui'
 import { Component } from 'react'
 
