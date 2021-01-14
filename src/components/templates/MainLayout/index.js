@@ -1,11 +1,21 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Footer, Navbar } from 'components/organisms'
 import { FormNewsletter, FancyFooter } from 'components/molecules'
-import React from 'react'
 import { Link, Container, Heading, Text, Icon } from 'components/atoms'
 import LogRocket from 'utils/logRocket'
 
 export default ({ children, section }) => (
-	<>
+	<div
+		sx={{
+			backgroundAttachment: 'fixed',
+			backgroundColor: 'background',
+			backgroundImage: 'url(/images/diamond-bar-topography.png)',
+			backgroundRepeat: 'no-repeat repeat',
+			backgroundSize: '100%',
+		}}
+	>
 		<LogRocket />
 		<Navbar section={section} />
 
@@ -28,5 +38,5 @@ export default ({ children, section }) => (
 		</Container>
 		<Footer />
 		<FancyFooter />
-	</>
+	</div>
 )
