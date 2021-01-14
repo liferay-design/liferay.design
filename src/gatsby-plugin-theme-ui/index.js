@@ -1,7 +1,9 @@
 import components from 'gatsby-plugin-theme-ui/components'
+import layouts from 'gatsby-plugin-theme-ui/layouts'
 
 export default {
 	...components,
+	...layouts,
 	colors: {
 		text: '#fff',
 		background: '#13141F',
@@ -65,60 +67,6 @@ export default {
 			},
 		},
 	},
-	links: {
-		nav: {
-			cursor: 'pointer',
-			minWidth: 'max-content',
-			color: 'mainL4',
-			fontWeight: 'body',
-			fontSize: 2,
-			margin: 0,
-			padding: [2, 1, 2],
-			transition: 'color 0.2s ease-out',
-			position: 'relative',
-			'&::after': {
-				background: 'white',
-				bottom: 0,
-				content: '""',
-				right: [2, 1, 2],
-				position: 'absolute',
-				height: '3px',
-				transition: 'transform 0.4s ease',
-				transformOrigin: 'right',
-				transform: 'scaleX(0)',
-				width: 4,
-			},
-			'&:hover': {
-				color: 'white',
-				transition: 'color 0.4s ease-out',
-				'&::after': {
-					transition: 'transform 0.2s ease',
-					transform: 'scaleX(1)',
-				},
-			},
-		},
-		nice: {
-			color: 'mainL4',
-			position: 'fixed',
-			padding: '2em',
-			left: '2em',
-			bottom: '0',
-		},
-		tag: {
-			bg: 'main',
-			borderRadius: '0.4rem',
-			px: 2,
-			py: 1,
-			variant: 'text.caps',
-			color: 'mainL6',
-			fontWeight: 'heading',
-			fontSize: 1,
-			'&:hover': {
-				bg: 'primary',
-				color: 'white',
-			},
-		},
-	},
 	fontSizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
 	sizes: ['.8rem', '.9rem', '1rem', '1.2rem', '1.8rem', '2.2rem', '3rem', '5rem'],
 	lineHeights: {
@@ -173,101 +121,11 @@ export default {
 			justifyContent: 'center',
 		},
 	},
-	boxes: {
-		fullScreen: {
-			position: 'fixed',
-			height: '100vh',
-			width: '100vw',
-			pointerEvents: 'none',
-			top: 0,
-			left: 0,
-		},
-	},
 	styles: {
 		root: {
 			fontFamily: 'body',
 			fontWeight: 'body',
 			color: 'main',
-		},
-	},
-	grids: {
-		lexiconExamples: {
-			gridTemplateColumns: '48px 1fr',
-			gap: 2,
-			alignItems: 'center',
-			color: 'info',
-			fontSize: 1,
-			fontStyle: 'italic',
-			mb: 3,
-		},
-		twoCards: {
-			gridTemplateColumns: [
-				'repeat(auto-fill, minmax(18rem, 1fr))',
-				'repeat(auto-fill, minmax(24rem, 1fr))',
-				null,
-			],
-			gap: '5rem 4rem',
-		},
-		threeCards: {
-			gridTemplateColumns: 'repeat(auto-fill, minmax(18rem, 1fr))',
-			gap: ['5rem 4rem'],
-		},
-		sideNav: {
-			gridTemplate: [
-				'"nav" 8rem "main" 1fr / 1fr',
-				null,
-				'"sidebar main" auto / 20rem 1fr',
-			],
-			gap: 0,
-		},
-		post: {
-			gridTemplate: [
-				'"c v" auto "i i" auto / 1fr 1rem',
-				null,
-				'"c c v" auto "l i r" auto "l i r" auto / 1fr 768px 1fr',
-			],
-			gap: 0,
-		},
-		landingPage: {
-			gridTemplate: [' auto / 1fr', null, 'auto / 1fr 1fr'],
-			gap: '2rem',
-			padding: '0 3rem',
-		},
-		swatches: {
-			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
-			autoRows: 'auto',
-			gap: '3.3rem 3rem',
-		},
-		smallCards: {
-			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
-			autoRows: 'auto',
-			gap: '2rem',
-		},
-	},
-	wrapper: {
-		markdown: {
-			px: [3, 3, null],
-			py: [2, 3, null],
-			bg: 'white',
-			fontFamily: 'modes.brand.body',
-			width: '100%',
-			'> div': {
-				margin: '0 auto',
-				maxWidth: '68ch',
-				p: {
-					color: 'mainL2',
-					fontSize: 3,
-					'-webkit-font-smoothing': 'antialiased !important;',
-					'-mozOsx-font-smoothing': 'grayscale !important;',
-					mb: 4,
-				},
-				'h2, h3': {
-					mt: 4,
-					'&:first-child': {
-						mt: 2,
-					},
-				},
-			},
 		},
 	},
 }
