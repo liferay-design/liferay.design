@@ -5,6 +5,7 @@
 	top: 0;
 	animation: backgroundAnimate 0.7s forwards;
 	overflow: hidden;
+	z-index: -1;
 	&::after {
 		content: '';
 		background: $black;
