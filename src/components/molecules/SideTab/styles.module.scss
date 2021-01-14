@@ -3,6 +3,7 @@
 .joinUs {
 	position: fixed;
 	z-index: $top;
+	top: 30vh;
 	transform: translateX(0);
 	transition: transform 0.4s ease-in-out;
 	animation: fadeIn 0.8s ease-in-out forwards;
@@ -111,5 +112,11 @@
 				}
 			}
 		}
+	}
+}
+
+@media screen and (max-width: $screenMedium) {
+	.joinUs {
+		display: none;
 	}
 }

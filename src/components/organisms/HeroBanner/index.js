@@ -1,8 +1,6 @@
 /** @jsx jsx */
 
 import { jsx, Flex, Text } from 'theme-ui'
-import { SideTab } from 'components/molecules'
-import MediaQuery from 'react-responsive'
 
 const HeroBanner = () => (
 	<Flex
@@ -33,15 +31,6 @@ const HeroBanner = () => (
 			</Text>
 			designers.
 		</Text>
-		<MediaQuery minWidth={'768px'}>
-			<SideTab
-				cta="We're&nbsp;Hiring"
-				ctaUrl="/careers"
-				image="/images/components/pj-thumb.jpg"
-				innerCta="See Openings"
-				subtitle="Read the job descriptions and apply to be a part of the team."
-			/>
-		</MediaQuery>
 	</Flex>
 )
 
