@@ -1,5 +1,6 @@
 import components from 'gatsby-plugin-theme-ui/components'
 import layouts from 'gatsby-plugin-theme-ui/layouts'
+import prism from '@theme-ui/prism/presets/theme-ui'
 
 export default {
 	...components,
@@ -8,8 +9,11 @@ export default {
 		text: '#fff',
 		background: '#13141F',
 		black: '#13141F',
+		gray: 'green',
 		white: '#FFF',
 		primary: '#0B5FFF',
+		secondary: 'purple',
+		accent: 'blue',
 		grayBg: '#F1f2f5',
 		grayBgL1: '#F7f8f9',
 		lightestBlue: '#f2f6ff',
@@ -113,6 +117,7 @@ export default {
 			borderRadius: '2px',
 			border: theme => 'solid 2px ' + theme.colors.mainL6,
 		},
+		code: {},
 	},
 	space: [0, '.4rem', '1rem', '2rem', '3rem', '8rem', '16rem', '32rem'],
 	alignments: {
@@ -126,6 +131,22 @@ export default {
 			fontFamily: 'body',
 			fontWeight: 'body',
 			color: 'main',
+		},
+		code: {
+			...prism,
+			fontSize: 2,
+		},
+		pre: {
+			backgroundColor: 'mainL8',
+			border: theme => `${'solid 2px ' + theme.colors.mainL6}`,
+			borderRadius: '.4rem',
+			color: 'mainL3',
+			display: 'inline-block',
+			fontWeight: 'bold',
+			mb: 3,
+			px: 1,
+			py: '.2rem',
+			...prism,
 		},
 	},
 }

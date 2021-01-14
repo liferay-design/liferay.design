@@ -5,6 +5,7 @@
 	"author": "Ryan Garant <ryan.garant@liferay.com>",
 	"dependencies": {
 		"@svgr/core": "^4.3.3",
+		"@theme-ui/prism": "^0.3.5",
 		"eslint-config-liferay": "^19.0.2",
 		"firebase": "^8.2.1",
 		"gatsby": "^2.30.0",
@@ -61,7 +62,6 @@
 		"gatsby-plugin-resolve-src": "~2.0.0",
 		"gatsby-plugin-sass": "^2.8.0",
 		"gatsby-remark-images": "^3.9.0",
-		"gatsby-remark-prismjs": "^3.11.0",
 		"gatsby-source-filesystem": "^2.9.0",
 		"glob": "^7.1.6",
 		"node-sass": "^4.14.1",

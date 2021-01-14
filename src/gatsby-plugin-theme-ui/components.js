@@ -1,3 +1,5 @@
+import Prism from '@theme-ui/prism'
+
 export default {
 	buttons: {
 		primary: {
@@ -24,6 +26,8 @@ export default {
 			'&:after': { pb: '56.25%', display: 'block', content: '""' },
 		},
 	},
+	pre: props => props.children,
+	code: Prism,
 	embed: {
 		video: {
 			mt: 3,

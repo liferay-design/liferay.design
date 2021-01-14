@@ -136,14 +136,6 @@ module.exports = {
 						resolve: 'gatsby-remark-static-images',
 					},
 					{
-						resolve: 'gatsby-remark-prismjs',
-						options: {
-							classPrefix: 'language-',
-							inlineCodeMarker: null,
-							aliases: {},
-						},
-					},
-					{
 						resolve: 'gatsby-remark-autolink-headers',
 						options: {
 							offsetY: `200`,
