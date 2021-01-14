@@ -2,7 +2,7 @@
 
 .joinUs {
 	position: fixed;
-	z-index: $top;
+	z-index: 10000;
 	top: 30vh;
 	transform: translateX(0);
 	transition: transform 0.4s ease-in-out;
