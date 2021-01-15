@@ -134,16 +134,6 @@
   icon: fa_heart
   startDate: 2006-11-27
   office: Diamond Bar
-- id: Patrick Pentz
-  title: Product Designer
-  active: true
-  icon: fa_camera
-  startDate: 2017-08-07
-  office: Diamond Bar
-  links:
-      dribbble: 'pjpentz'
-      figma: 'pj'
-      instagram: 'pjpentz'
 - id: Paul Hanaoka
   title: Manager, Product Design NA
   active: true
@@ -290,6 +280,16 @@
   icon: fa_spa
   startDate: 2019-10-12T07:00:00Z
   office: Madrid
+- id: Patrick Pentz
+  title: Product Designer
+  active: false
+  icon: fa_camera
+  startDate: 2017-08-07
+  office: Diamond Bar
+  links:
+      dribbble: 'pjpentz'
+      figma: 'pj'
+      instagram: 'pjpentz'
 - id: Vitor Fernandes
   title: Manager, Product Design
   active: false
