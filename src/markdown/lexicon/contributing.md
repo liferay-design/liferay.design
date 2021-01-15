@@ -25,11 +25,13 @@ There are two ways to organize pages:
 
 Use the conventional markdown syntax — `![Alt text](/relative-path-to-image/file-name.jpg)`. The image will render at the file dimensions, with a max-width of the container that its in. So if a file's dimensions are 1200x800 pixels, then it will fill the width of the markdown container.
 
-### `<Image>` Component
+### Image Component
 
 Note that you need to import the image at the top of the file:
 
-`import { Image } from 'components/atoms'`
+```jsx
+    import { Image } from 'components/atoms'
+```
 
 The Image component is very powerful and has potential for almost endless extensibility.
 
