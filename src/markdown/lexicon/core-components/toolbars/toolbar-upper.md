@@ -8,7 +8,12 @@ draft: false
 
 ![upper toolbar with different possible components described in usage section](/images/lexicon/ToolbarUpper.jpg)
 
+<br/>
+<br/>
+
 This pattern lays out the different components we expect you to use in this kind of toolbar, where should they be placed and the order they should respect.
+
+The Upper Toolbar is just another toolbar component. This toolbar can be implemented with or without borders, and background color can be modified if needed.
 
 ### Usage
 
