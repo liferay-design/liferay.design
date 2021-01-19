@@ -26,6 +26,8 @@ draft: false
     <p><a href="./#apply">Apply</a></p>
     <p><a href="./#clear">Clear</a></p>
     <p><a href="./#select">Select</a></p>
+    <p><a href="./#publish">Publish</a></p>
+    <p><a href="./#save-as-draft">Save as Draft</a></p>
 </div>
 <br/>
 <br/>
@@ -443,3 +445,41 @@ Choose one or multiple entities/records/settings to apply to a specific interact
 **Example**
 
 ![Results bar with filters applied displays Clear action to the right of the bar](/images/lexicon/CommonWordsSelect.jpg)
+
+
+### Publish
+
+Saves an entity/record and makes it available for public consumption.
+
+**Usage**
+
+* Always use a primary text button.
+* Use always with another save action as “Save”, “Save as draft”, or auto-save.
+* Alert to acknowledge a successful publication has occurred.
+
+**Opposite action:** Unpublish 
+
+**Associated Icon**
+
+![Circle with arrow facing right icon](/images/lexicon/IconPublish.jpg)
+
+**Example**
+
+![Upper toolbar from Page Editor where the last button is Publish, the primary button](/images/lexicon/CommonWordsPublish.jpg)
+
+
+### Save as Draft
+
+Completes the sequence to save changes to an entity/record when the primary action, “Publish,” has not been completed.
+
+**Usage**
+* Always use a secondary text button.
+* Use as an alternative save option to Publish. This action can be replaced with “Save” or with an auto-save functionality.
+
+**Similar action:** Save
+
+**Opposite action:** Cancel
+
+**Example** 
+
+![Upper toolbar from Web Content edition where the last button Save as Draft button appears as a secondary button](/images/lexicon/CommonWordsSaveAsDraft.jpg)
