@@ -1,11 +1,12 @@
 /** @jsx jsx */
 
-import { jsx, Styled, Text, Flex, Box, Image } from 'theme-ui'
+import { jsx, Styled, Text, Flex, Image } from 'theme-ui'
 import { MainLayout } from 'components/templates'
 import { RecentBlogPosts } from 'components/organisms'
 import { Container, Link } from 'components/atoms'
 import { useStaticQuery, graphql } from 'gatsby'
 import { avatarPath, firstWord, makeAuthorSlug } from 'utils'
+import { SEO } from 'components/molecules'
 
 export default () => {
 	const H1 = Styled.h1
@@ -34,6 +35,10 @@ export default () => {
 
 	return (
 		<MainLayout>
+			<SEO
+				pageTitle="404 &mdash; Page Not Found &mdash; Liferay.Design"
+				previewImage={`${avatarPath(randomAuthor.id)}`}
+			/>
 			<Container>
 				<Flex sx={{ flexDirection: 'column', alignItems: 'center' }}>
 					<H1
