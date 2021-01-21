@@ -1,6 +1,7 @@
-import { Flex, Icon, Text, Link, Image } from 'components/atoms'
+/** @jsx jsx */
+import { jsx, Flex } from 'theme-ui'
+import { Icon, Text, Link, Image } from 'components/atoms'
 import PropTypes from 'prop-types'
-import React from 'react'
 import styles from './styles.module.scss'
 
 export default function AssetDownload({
@@ -18,10 +19,13 @@ export default function AssetDownload({
 	return (
 		<Flex
 			className={styles.container}
-			direction="column"
-			align="center"
-			padding="3rem 0"
-			width={width}
+			sx={{
+				flexDirection: 'column',
+				alignItems: 'center',
+				padding: '3rem 0',
+				width: width,
+				justifyContent: 'space-between',
+			}}
 		>
 			{kind === 'video' ? (
 				<video controls src={source} alt={altText} width={assetWidth} />
