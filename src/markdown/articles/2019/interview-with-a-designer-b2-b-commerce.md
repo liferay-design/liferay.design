@@ -1,16 +1,15 @@
 ---
-author: 'Ryan Connolly'
-date: '2019-05-03T17:12:33.962Z'
-title: 'Interview with a Designer: B2B Commerce'
-featuredImage: '/images/articles/interview-with-a-designer-b2-b-commerce.png'
+author: Ryan Connolly
+date: 2019-05-03T17:12:33.962Z
+title: "Interview with a Designer: B2B Commerce"
+featuredImage: /images/articles/interview-with-a-designer-b2-b-commerce.png
 publish: true
 ---
-
-![](/images/articles/interview-with-a-designer-b2-b-commerce.png)
+![]()
 
 <!-- # Interview with a Designer: B2B Commerce -->
 
-_Summary: Designer insight into the thinking and considerations that influenced Liferay's newest commerce accelerator._
+*Summary: Designer insight into the thinking and considerations that influenced Liferay's newest commerce accelerator.*
 
 Last year was a huge one for Liferay. We extended our offerings from a sole product (Liferay Digital Experience Platform) to a managed hosting solution, a digital commerce product and an analytics product. The entire company has worked tirelessly on this transformation. However, as a designer and member of the Liferay Commerce product team I wanted to share my perspective on this effort specifically from a design perspective.
 
@@ -25,7 +24,7 @@ Andrea Censi is a relatively new member of the UX design team at Liferay with se
 **Interview with the Designer**
 
 ![andrea cenci headshot](/images/headshots/censi-andrea-h.jpg)
-_Andrea Censi_
+*Andrea Censi*
 
 ## What requirements did you and the Product Lead discuss?
 
@@ -50,5 +49,5 @@ This was all possible thanks to Marco Leo and Ryan Connolly. Thanks Guys ;)
 
 –
 
-_I want to thank Andrea Censi for taking the time to answer these questions. If you have any questions that we didn't address in this quick interview then please feel free to email us at ryan.connolly@liferay.com_
+*I want to thank Andrea Censi for taking the time to answer these questions. If you have any questions that we didn't address in this quick interview then please feel free to email us at ryan.connolly@liferay.com*
 `
