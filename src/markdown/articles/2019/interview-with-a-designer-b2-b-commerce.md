@@ -5,8 +5,6 @@ title: "Interview with a Designer: B2B Commerce"
 featuredImage: /images/articles/interview-with-a-designer-b2-b-commerce.png
 publish: true
 ---
-![]()
-
 <!-- # Interview with a Designer: B2B Commerce -->
 
 *Summary: Designer insight into the thinking and considerations that influenced Liferay's newest commerce accelerator.*
