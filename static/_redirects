@@ -9,7 +9,3 @@ https://liferay.design/lexicon/docs/* https://liferay.design/lexicon/:splat 301
 # these are basically redirects for shortlinks
 
 https://liferay.design/forum-agenda https://docs.google.com/document/d/1UqEhDug6oY_86Wvl92Pkw6ngk6D9Rqzx20ASwyf5uWg 302
-
-# temporary redirect when we only have a single job listing
-
-https://liferay.design/careers https://liferay.design/careers/na/senior-product-designer/ 302!
