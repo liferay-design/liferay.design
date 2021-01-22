@@ -87,3 +87,7 @@ export default class AuthContainer extends Component {
 		)
 	}
 }
+
+// TODO clean up this component and make it more useful
+// 1. Could probably use the isAuthenticated hook? or at least rewrite as a functional component https://johnwcassidy.medium.com/firebase-authentication-hooks-and-context-d0e47395f402
+// 2. Abstract the styles — currently its styled so it fits into the nav, but it should be more generic so we can reuse it in more places

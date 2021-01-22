@@ -20,7 +20,7 @@ import MediaQuery from 'react-responsive'
 import lexicon from 'theme/lexicon.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import { Helmet } from 'react-helmet'
-
+import { isAuthenticated, isClassified } from 'utils'
 export default class Lexicon extends Component {
 	constructor(props) {
 		super(props)
@@ -141,17 +141,29 @@ export default class Lexicon extends Component {
 										) : null}
 
 										{mdx.frontmatter.docLink ? (
-											<PrivateComponent
+											// <PrivateComponent>
+											<Link
 												className={lexicon.labelInfo}
+												to={
+													isAuthenticated()
+														? mdx.frontmatter.docLink
+														: null
+												}
 											>
-												<Link
-													className={lexicon.labelInfo}
-													to={mdx.frontmatter.docLink}
-												>
-													Documentation
-												</Link>
-											</PrivateComponent>
-										) : null}
+												{isAuthenticated() ? null : (
+													<Icon
+														name="lock"
+														sx={{
+															height: '1em',
+															width: '1em',
+														}}
+													/>
+												)}
+												Documentation
+											</Link>
+										) : // </PrivateComponent>
+										// TODO finish PrivateComponent
+										null}
 
 										{mdx.frontmatter.productName ? (
 											<Link className={lexicon.labelNeutral}>
