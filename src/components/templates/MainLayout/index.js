@@ -14,6 +14,7 @@ export default ({ children, section }) => (
 			backgroundImage: 'url(/images/diamond-bar-topography.png)',
 			backgroundRepeat: 'no-repeat repeat',
 			backgroundSize: '100%',
+			position: 'relative',
 		}}
 	>
 		<LogRocket />
