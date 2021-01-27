@@ -5,7 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/progress-bar.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A3026'
 docLink: 'https://drive.google.com/drive/folders/1-fQL2vWgWiijIj7wpUFiW3ffmT3zJru3?usp=sharing'
 description: 'Progress bar indicates the percentage completed of a task.'
-order: 323
+order: 320
 draft: false
 ---
 
