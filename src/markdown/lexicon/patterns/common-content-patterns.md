@@ -77,7 +77,7 @@ When a modal contains an action, the action should be in both the title and the 
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-1.jpg"
+                src="/images/lexicon/common-content-pattern-1.jpg"
                 alt="default label"
             />
         </div>
@@ -89,7 +89,7 @@ When a modal contains an action, the action should be in both the title and the 
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-3.jpg"
+                src="/images/lexicon/common-content-pattern-3.jpg"
                 alt="default label"
             />
         </div>
@@ -102,7 +102,7 @@ When a modal contains an action, the action should be in both the title and the 
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-4.jpg"
+                src="/images/lexicon/common-content-pattern-4.jpg"
                 alt="default label"
             />
         </div>
@@ -339,7 +339,7 @@ Boolean situations are those yes/no situations usually solved with checkboxes.
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-5.jpg"
+                src="/images/lexicon/common-content-pattern-5.jpg"
                 alt="default label"
             />
         </div>
@@ -355,7 +355,7 @@ Trying to avoid:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-6.jpg"
+                src="/images/lexicon/common-content-pattern-6.jpg"
                 alt="default label"
             />
         </div>
@@ -374,7 +374,7 @@ Practice progressive disclosure
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-7.jpg"
+                src="/images/lexicon/common-content-pattern-7.jpg"
                 alt="default label"
             />
         </div>
@@ -386,7 +386,7 @@ Practice progressive disclosure
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-8.jpg"
+                src="/images/lexicon/common-content-pattern-8.jpg"
                 alt="default label"
             />
         </div>
@@ -442,7 +442,7 @@ When referring to a UI element, use the casing of the element on screen, there i
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-9.jpg"
+                src="/images/lexicon/common-content-pattern-9.jpg"
                 alt="default label"
             />
         </div>
@@ -455,7 +455,7 @@ When referring to a UI element, use the casing of the element on screen, there i
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-10.jpg"
+                src="/images/lexicon/common-content-pattern-10.jpg"
                 alt="default label"
             />
         </div>
@@ -519,7 +519,7 @@ Follow these guidelines to write a good confirmation message:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-23.jpg"
+                src="/images/lexicon/common-content-pattern-23.jpg"
                 alt="default label"
             />
         </div>
@@ -530,7 +530,7 @@ Follow these guidelines to write a good confirmation message:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-1.jpg"
+                src="/images/lexicon/common-content-pattern-1.jpg"
                 alt="default label"
             />
         </div>
@@ -542,7 +542,7 @@ Follow these guidelines to write a good confirmation message:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-2.jpg"
+                src="/images/lexicon/common-content-pattern-2.jpg"
                 alt="default label"
             />
         </div>
@@ -563,7 +563,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-11.jpg"
+                src="/images/lexicon/common-content-pattern-11.jpg"
             />
         </div>
         <p class="do">Do</p>
@@ -571,7 +571,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-12.jpg"
+                src="/images/lexicon/common-content-pattern-12.jpg"
             />
             </div>
         <p class="dont">Don't</p>
@@ -588,7 +588,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-13.jpg"
+                src="/images/lexicon/common-content-pattern-13.jpg"
             />
         </div>
         <p class="do">Do</p>
@@ -596,7 +596,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-14.jpg"
+                src="/images/lexicon/common-content-pattern-14.jpg"
             />
             </div>
         <p class="dont">Don't</p>
@@ -607,7 +607,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-15.jpg"
+                src="/images/lexicon/common-content-pattern-15.jpg"
             />
         </div>
         <p class="do">Do</p>
@@ -615,7 +615,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-16.jpg"
+                src="/images/lexicon/common-content-pattern-16.jpg"
             />
             </div>
         <p class="dont">Don't</p>
@@ -632,7 +632,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-17.jpg"
+                src="/images/lexicon/common-content-pattern-17.jpg"
             />
         </div>
         <p class="do">Do</p>
@@ -640,7 +640,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-18.jpg"
+                src="/images/lexicon/common-content-pattern-18.jpg"
             />
             </div>
         <p class="dont">Don't</p>
@@ -657,7 +657,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-19.jpg"
+                src="/images/lexicon/common-content-pattern-19.jpg"
             />
         </div>
         <p class="do">Do</p>
@@ -665,7 +665,7 @@ When to use an acknowledgement:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-20.jpg"
+                src="/images/lexicon/common-content-pattern-20.jpg"
             />
             </div>
         <p class="dont">Don't</p>
@@ -684,7 +684,7 @@ Don’t use an acknowledgment when:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-21.jpg"
+                src="/images/lexicon/common-content-pattern-21.jpg"
             />
         </div>
         <p class="do">Do</p>
@@ -692,7 +692,7 @@ Don’t use an acknowledgment when:
     <Box>
         <div class="image-container">
             <img
-                src="./images/common-content-pattern-22.jpg"
+                src="/images/lexicon/common-content-pattern-22.jpg"
             />
             </div>
         <p class="dont">Don't</p>
