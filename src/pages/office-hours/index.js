@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { jsx, Grid, Box, Flex, Button, Heading, Text } from 'theme-ui'
-import { Container, NiceLink } from 'components/atoms'
+import { Container, LiveTag, NiceLink } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
@@ -39,6 +39,7 @@ export default ({ data }) => {
 						<Heading as="h1" sx={{ fontSize: 7, mb: '.4em', color: 'white' }}>
 							Office Hours
 						</Heading>
+						<LiveTag/>
 						<Text sx={{ color: 'text', pr: 4 }}>
 							Open office hours, anyone can join. Bring your design
 							questions, problems, or just hangout. Come with ideas, tips,
