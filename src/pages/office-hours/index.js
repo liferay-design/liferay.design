@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
-import { jsx, Grid, Box, Flex, Button, Text } from 'theme-ui'
-import { Container, Heading, NiceLink } from 'components/atoms'
+import { jsx, Grid, Box, Flex, Button, Heading, Text } from 'theme-ui'
+import { Container, NiceLink } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
@@ -33,13 +33,13 @@ export default ({ data }) => {
 	return (
 		<MainLayout section="Office Hours">
 			<SEO description="TODO" pageTitle="Liferay.Design | Figma Office Hours" />
-			<Container>
-				<Grid sx={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+			<Container padding={{ py: 5 }}>
+				<Grid sx={{ variant: 'grids.twoCol' }}>
 					<Box>
-						<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
+						<Heading as="h1" sx={{ fontSize: 7, mb: '.4em', color: 'white' }}>
 							Office Hours
 						</Heading>
-						<Text sx={{ color: 'text' }}>
+						<Text sx={{ color: 'text', pr: 4 }}>
 							Open office hours, anyone can join. Bring your design
 							questions, problems, or just hangout. Come with ideas, tips,
 							or available to help others. Excerpts from Office Hours will
@@ -52,22 +52,25 @@ export default ({ data }) => {
 					<Box sx={{ mt: 5, height: '600px', background: 'red' }}>Figma</Box>
 				</Grid>
 			</Container>
-			<Container background="white">
-				<Grid sx={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
-					<Box sx={{ color: 'background' }}>
-						<Heading level={2} sx={{ pb: '4rem' }}>
+			<Container background="white" padding={{ py: 4 }}>
+				<Grid sx={{ variant: 'grids.twoCol' }}>
+					<Flex sx={{ flexDirection: 'column' }}>
+						<Heading
+							as="h2"
+							sx={{ mt: 5, mb: 3, fontSize: 7, color: 'background' }}
+						>
 							Requests
 						</Heading>
-						<Heading level={3} sx={{ pb: '4rem' }}>
+						<Heading as="h3" sx={{ fontSize: 5, mb: 3, color: 'background' }}>
 							We’re here to help.
 						</Heading>
-						<Text>
+						<Text sx={{ pr: 4 }}>
 							We’ll try to answer your requests during our office hours! If
 							you can’t make our office hours you can still watch the
 							recording any time. (You don’t have to submit a request to
 							join Office Hours, show up whenever we are live!)
 						</Text>
-					</Box>
+					</Flex>
 					<Box>
 						{/* https://docs.google.com/forms/d/1MYcTLCYE3EjOMGMnjmwWcmBsoeZ1WDv8o4mPTqgc-Zk/edit see @paul if you'd like to edit this form */}
 						<iframe
@@ -103,10 +106,13 @@ export default ({ data }) => {
 					))}
 				</Grid>
 			</Container>
-			<Container background="url(/images/banner/1.jpg)">
-				<Grid sx={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+			<Container
+				background="url(/images/office-hours/waveform.svg) no-repeat center/cover"
+				padding={{ py: 5, my: 5 }}
+			>
+				<Grid sx={{ variant: 'grids.twoCol' }}>
 					<Box>
-						<Heading level={2} sx={{ pb: '4rem' }}>
+						<Heading as="h2" sx={{ fontSize: 6, pb: '4rem' }}>
 							Get the good vibes streaming.
 						</Heading>
 						<NiceLink to="#">Open the Spotify playlist</NiceLink>
@@ -121,6 +127,7 @@ export default ({ data }) => {
 							allow="encrypted-media"
 							sx={{
 								maxWidth: '100%',
+								float: ['initial', 'right'],
 								borderRadius: '2em',
 								border: 'solid 1em rgba(255,255,255,0.05)',
 							}}
