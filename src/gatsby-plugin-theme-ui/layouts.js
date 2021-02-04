@@ -27,6 +27,10 @@ export default {
 			],
 			gap: '5rem 4rem',
 		},
+		twoCol: {
+			gridTemplateColumns: 'repeat(2, 1fr)',
+			gap: '2rem',
+		},
 		threeCards: {
 			gridTemplateColumns: 'repeat(auto-fill, minmax(18rem, 1fr))',
 			gap: ['5rem 4rem'],
