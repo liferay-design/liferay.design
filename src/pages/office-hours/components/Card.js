@@ -7,9 +7,14 @@ import { avatarPath } from 'utils'
 const Card = ({ title, hosts, schedule, background, icon }) => {
 	return (
 		<Box
-			sx={{ backgroundColor: `${background}`, mt: 5, p: 3, height: 'max-content' }}
+			sx={{
+				backgroundColor: `${background}`,
+				mt: [0, '6rem'],
+				p: 3,
+				height: 'max-content',
+			}}
 		>
-			<Flex sx={{ justifyContent: 'space-between', mb: 3 }}>
+			<Flex sx={{ justifyContent: 'space-between', mb: 2 }}>
 				<Heading as="h2" sx={{ fontSize: 6, mt: 2 }}>
 					{title}
 				</Heading>

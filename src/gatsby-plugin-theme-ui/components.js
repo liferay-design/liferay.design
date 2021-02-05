@@ -176,6 +176,10 @@ export default {
 				color: 'white',
 			},
 		},
+		light: {
+			color: 'primaryl2',
+			textDecoration: 'underline',
+		},
 	},
 	quotes: {
 		blockQuote: {

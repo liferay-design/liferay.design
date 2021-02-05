@@ -28,7 +28,7 @@ export default {
 			gap: '5rem 4rem',
 		},
 		twoCol: {
-			gridTemplateColumns: 'repeat(2, 1fr)',
+			gridTemplateColumns: ['1fr', 'repeat(2, 1fr)'],
 			gap: '2rem',
 		},
 		threeCards: {
