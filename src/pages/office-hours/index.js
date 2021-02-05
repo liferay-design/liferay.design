@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { jsx, Grid, Box, Flex, Button, Heading, Text } from 'theme-ui'
-import { Container, LiveTag, NiceLink } from 'components/atoms'
+import { Container, Link, LiveTag, NiceLink } from 'components/atoms'
 import { CardDefault, SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
@@ -34,18 +34,34 @@ export default ({ data }) => {
 	return (
 		<MainLayout section="Office Hours">
 			<SEO description="TODO" pageTitle="Liferay.Design | Figma Office Hours" />
-			<Container padding={{ py: 5 }}>
+			<Container padding={{ py: [3, 5] }}>
 				<Grid sx={{ variant: 'grids.twoCol' }}>
 					<Box>
 						<Heading as="h1" sx={{ fontSize: 7, mb: '.4em', color: 'white' }}>
 							Office Hours
 						</Heading>
 						<LiveTag />
-						<Text sx={{ color: 'text', pr: 4 }}>
-							Open office hours, anyone can join. Bring your design
-							questions, problems, or just hangout. Come with ideas, tips,
-							or available to help others. Excerpts from Office Hours will
-							be recorded and available here.
+						<Text sx={{ color: 'text', pr: 4, mb: [4, 0] }}>
+							<p>
+								An open time for anyone to ask questions, solve problems,
+								or just hangout!
+							</p>
+							<p>
+								{' '}
+								Come with ideas, tips, or make yourself available to help
+								others.{' '}
+							</p>
+							<p>
+								Excerpts from Office Hours will be recorded and available
+								at{' '}
+								<Link
+									sx={{ variant: 'links.light' }}
+									to="/office-hours/sessions"
+								>
+									/office-hours/sessions
+								</Link>
+								.
+							</p>
 						</Text>
 						<Card
 							background="primary"
@@ -85,7 +101,7 @@ export default ({ data }) => {
 					<Flex sx={{ flexDirection: 'column' }}>
 						<Heading
 							as="h2"
-							sx={{ mt: 5, mb: 3, fontSize: 7, color: 'background' }}
+							sx={{ mt: [0, 5], mb: 3, fontSize: 7, color: 'background' }}
 						>
 							Requests
 						</Heading>
@@ -99,11 +115,11 @@ export default ({ data }) => {
 							join Office Hours, show up whenever we are live!)
 						</Text>
 					</Flex>
-					<Box>
+					<Box sx={{ ml: ['-5vw', 'initial'] }}>
 						{/* https://docs.google.com/forms/d/1MYcTLCYE3EjOMGMnjmwWcmBsoeZ1WDv8o4mPTqgc-Zk/edit see @paul if you'd like to edit this form */}
 						<iframe
 							src="https://docs.google.com/forms/d/e/1FAIpQLSevLEeifGIzY2Hcp_UTpPUxTeC6FcAA3cT0p05VN4yKfVRcgA/viewform?embedded=true"
-							width="640"
+							width="540"
 							height="640"
 							frameborder="0"
 							marginheight="0"
@@ -136,7 +152,7 @@ export default ({ data }) => {
 			</Container>
 			<Container
 				background="url(/images/office-hours/waveform.svg) no-repeat center/cover"
-				padding={{ py: 5, my: 5 }}
+				padding={{ py: [2, 5], my: [2, 5] }}
 			>
 				<Grid sx={{ variant: 'grids.twoCol' }}>
 					<Box>
