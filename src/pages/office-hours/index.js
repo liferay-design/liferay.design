@@ -70,14 +70,16 @@ export default ({ data }) => {
 							hosts={['David Aragones', 'Ruben Jimenez']}
 							schedule={[
 								{
-									day: 'Monday',
-									time: '07:00',
-									duration: '60',
+									startDate: '02/01/2021 15:00:00 UTC',
+									endDate: '02/01/2021 16:00:00 UTC',
+									calendarEvent:
+										'https://liferay.design/office-hours/add-to-calendar/lexicon-1',
 								},
 								{
-									day: 'Wednesday',
-									time: '03:30',
-									duration: '60',
+									startDate: '02/03/2021 11:30:00 UTC',
+									endDate: '02/03/2021 12:30:00 UTC',
+									calendarEvent:
+										'https://liferay.design/office-hours/add-to-calendar/lexicon-2',
 								},
 							]}
 						/>
@@ -89,9 +91,11 @@ export default ({ data }) => {
 						hosts={['Paul Hanaoka', 'Abel Hancock']}
 						schedule={[
 							{
-								day: 'Weekdays',
-								time: '15:00',
-								duration: '60',
+								label: 'Weekdays',
+								startDate: '02/01/2021 23:00:00 UTC',
+								endDate: '02/01/2021 24:00:00 UTC',
+								calendarEvent:
+									'https://liferay.design/office-hours/add-to-calendar/figma',
 							},
 						]}
 					/>
