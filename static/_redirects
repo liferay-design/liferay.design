@@ -9,3 +9,11 @@ https://liferay.design/lexicon/docs/* https://liferay.design/lexicon/:splat 301
 # these are basically redirects for shortlinks
 
 https://liferay.design/forum-agenda https://docs.google.com/document/d/1UqEhDug6oY_86Wvl92Pkw6ngk6D9Rqzx20ASwyf5uWg 302
+
+# TODO — add lexicon-1 cal event
+https://liferay.design/office-hours/add-to-calendar/lexicon-1 https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210208T230000Z/20210209T000000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DMO,TU,WE,TH,FR;UNTIL%3D20220101 302
+
+# TODO — add lexicon-2 cal event
+https://liferay.design/office-hours/add-to-calendar/lexicon-2 https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210208T230000Z/20210209T000000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DMO,TU,WE,TH,FR;UNTIL%3D20220101 302
+
+https://liferay.design/office-hours/add-to-calendar/figma https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210208T230000Z/20210209T000000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DMO,TU,WE,TH,FR;UNTIL%3D20220101 302
