@@ -1,5 +1,6 @@
 ---
 title: 'Writing'
+devStatus: 'PENDING'
 description: 'A relevelant piece in the design puzzle.'
 docLink: 'https://drive.google.com/drive/folders/1mlLnvHUBRz7wrHXkzKeHimEb_T_vMmTk?usp=sharing'
 order: 121
