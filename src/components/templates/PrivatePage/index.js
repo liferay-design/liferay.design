@@ -30,7 +30,7 @@ export default class PrivatePage extends Component {
 	}
 
 	renderPrivateContent() {
-		const authenticatedUsers = ['liferay.com']
+		const authenticatedUsers = ['liferay.com', 'gs.liferay.com']
 		const currentUser = this.state.user
 
 		const isUserAuthenticated =
