@@ -18,6 +18,36 @@ export default {
 			},
 		},
 	},
+	labels: {
+		outline: {
+			flexGrow: 0,
+			py: 1,
+			px: 2,
+			position: 'relative',
+			'&:before': {
+				content: '""',
+				borderRadius: '.2rem',
+				position: 'absolute',
+				top: 0,
+				bottom: 0,
+				left: 0,
+				right: 0,
+				border: '1px solid',
+				opacity: 0.64,
+			},
+			'&:after': {
+				content: '""',
+				borderRadius: '.2rem',
+				position: 'absolute',
+				top: 0,
+				bottom: 0,
+				left: 0,
+				right: 0,
+				backgroundColor: 'currentColor',
+				opacity: 0.16,
+			},
+		},
+	},
 	cards: {
 		'4:3': {
 			'&:after': { pb: '75%', display: 'block', content: '""' },
