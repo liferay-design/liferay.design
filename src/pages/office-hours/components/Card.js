@@ -23,22 +23,24 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 				<Icon
 					sx={{ height: 7, width: 7 }}
 					color="white"
-					name={icon ? icon : title.toLowerCase()}
+					name={icon ? icon : `${title ? title.toLowerCase() : title}`}
 				/>
 			</Flex>
 			<Box sx={{ mb: 3 }}>
-				{schedule.map(i => (
-					<Text
-						as="span"
-						sx={{ variant: 'labels.outline', color: 'white', mr: 1 }}
-					>
-						{i.day}{' '}
-						{moment(i.time, 'hhmm')
-							.local(true)
-							.format('h:mm A')}
-						{console.log(moment(i.time))}
-					</Text>
-				))}
+				{schedule
+					? schedule.map(i => (
+							<Text
+								as="span"
+								sx={{ variant: 'labels.outline', color: 'white', mr: 1 }}
+							>
+								{i.day}{' '}
+								{moment(i.time, 'hhmm')
+									.local(true)
+									.format('h:mm A')}
+								{console.log(moment(i.time))}
+							</Text>
+					  ))
+					: schedule}
 			</Box>
 			<Box>
 				<Heading>Hosts</Heading>
@@ -51,19 +53,21 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 						'& > div:not(:last-child)': { ml: '-1rem' },
 					}}
 				>
-					{hosts.map(i => (
-						<div>
-							<Image
-								sx={{
-									variant: 'images.avatar',
-									backgroundColor: `${background}`,
-									border: 'solid 4px rgba(255,255,255,0.08)',
-								}}
-								alt={i + '’s headshot'}
-								src={avatarPath(i)}
-							/>
-						</div>
-					))}
+					{hosts
+						? hosts.map(i => (
+								<div>
+									<Image
+										sx={{
+											variant: 'images.avatar',
+											backgroundColor: `${background}`,
+											border: 'solid 4px rgba(255,255,255,0.08)',
+										}}
+										alt={i + '’s headshot'}
+										src={avatarPath(i)}
+									/>
+								</div>
+						  ))
+						: hosts}
 				</Flex>
 			</Box>
 		</Box>
