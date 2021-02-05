@@ -2,9 +2,11 @@
 
 import { jsx, Box, Flex, Heading, Text } from 'theme-ui'
 import { Link, Image, Icon } from 'components/atoms'
+import moment from 'moment'
 import { avatarPath } from 'utils'
 
 const Card = ({ title, hosts, schedule, background, icon }) => {
+	console.log(moment().local(true), 'time')
 	return (
 		<Box
 			sx={{
@@ -30,7 +32,11 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 						as="span"
 						sx={{ variant: 'labels.outline', color: 'white', mr: 1 }}
 					>
-						{i.day} {i.time}
+						{i.day}{' '}
+						{moment(i.time, 'hhmm')
+							.local(true)
+							.format('h:mm A')}
+						{console.log(moment(i.time))}
 					</Text>
 				))}
 			</Box>
