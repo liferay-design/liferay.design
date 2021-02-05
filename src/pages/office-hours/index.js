@@ -51,6 +51,7 @@ export default ({ data }) => {
 								Come with ideas, tips, or make yourself available to help
 								others.{' '}
 							</p>
+							{/* hiding until we have recordings
 							<p>
 								Excerpts from Office Hours will be recorded and available
 								at{' '}
@@ -61,7 +62,7 @@ export default ({ data }) => {
 									/office-hours/sessions
 								</Link>
 								.
-							</p>
+							</p> */}
 						</Text>
 						<Card
 							background="primary"
@@ -130,6 +131,7 @@ export default ({ data }) => {
 					</Box>
 				</Grid>
 			</Container>
+			{/* hiding this for now
 			<Container
 				heading="Previous Sessions"
 				linkText="See all"
@@ -149,7 +151,7 @@ export default ({ data }) => {
 						/>
 					))}
 				</Grid>
-			</Container>
+			</Container> */}
 			<Container
 				background="url(/images/office-hours/waveform.svg) no-repeat center/cover"
 				padding={{ py: [2, 5], my: [2, 5] }}
