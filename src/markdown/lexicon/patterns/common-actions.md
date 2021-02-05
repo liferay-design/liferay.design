@@ -1,5 +1,6 @@
 ---
 title: 'Common Actions'
+devStatus: 'PENDING'
 description: 'Vocabulary set of frequent actions in our products base.'
 order: 131
 draft: false
