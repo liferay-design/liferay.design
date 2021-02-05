@@ -7,6 +7,7 @@ import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 import { avatarPath } from 'utils'
 import moment from 'moment'
+import Card from './components/Card'
 
 export default ({ data }) => {
 	const utcStartTime = '2300'
@@ -39,18 +40,44 @@ export default ({ data }) => {
 						<Heading as="h1" sx={{ fontSize: 7, mb: '.4em', color: 'white' }}>
 							Office Hours
 						</Heading>
-						<LiveTag/>
+						<LiveTag />
 						<Text sx={{ color: 'text', pr: 4 }}>
 							Open office hours, anyone can join. Bring your design
 							questions, problems, or just hangout. Come with ideas, tips,
 							or available to help others. Excerpts from Office Hours will
 							be recorded and available here.
 						</Text>
-						<Box sx={{ mt: 5, height: '600px', background: 'pink' }}>
-							Lexicon
-						</Box>
+						<Card
+							background="primary"
+							title="Lexicon"
+							hosts={['David Aragones', 'Ruben Jimenez']}
+							schedule={[
+								{
+									day: 'Monday',
+									time: '07:00',
+									duration: '60',
+								},
+								{
+									day: 'Wednesday',
+									time: '03:30',
+									duration: '60',
+								},
+							]}
+						/>
 					</Box>
-					<Box sx={{ mt: 5, height: '600px', background: 'red' }}>Figma</Box>
+					<Card
+						background="charts.blue"
+						title="Figma"
+						icon="figma_app"
+						hosts={['Paul Hanaoka', 'Abel Hancock']}
+						schedule={[
+							{
+								day: 'Weekdays',
+								time: '15:00',
+								duration: '60',
+							},
+						]}
+					/>
 				</Grid>
 			</Container>
 			<Container background="white" padding={{ py: 4 }}>
