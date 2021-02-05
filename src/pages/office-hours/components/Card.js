@@ -28,10 +28,26 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 						name={icon ? icon : `${title ? title.toLowerCase() : title}`}
 					/>
 				</Flex>
-				<Box sx={{ mb: 3 }}>
+				<Box sx={{ my: 3 }}>
 					{schedule
 						? schedule.map(i => (
-								<Link to={i.calendarEvent}>
+								<Link
+									to={i.calendarEvent}
+									sx={{
+										position: 'relative',
+										display: 'inline-block',
+										transition: 'transform .2s ease-in-out',
+										'&:hover': {
+											transform: 'translateY(-.5em)',
+											transition: 'transform .2s ease-in-out',
+										},
+										'&:hover > span': {
+											visibility: 'visible',
+											transition: 'opacity .2s ease-in-out .1s',
+											opacity: 1,
+										},
+									}}
+								>
 									<Text
 										as="span"
 										sx={{
@@ -45,6 +61,21 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 											: moment(i.startDate).format('ddd')}{' '}
 										{moment(i.startDate).format('LT')}
 										{console.log(moment(i.startDate, 'event time'))}
+									</Text>
+									<Text
+										as="span"
+										sx={{
+											visibility: 'hidden',
+											opacity: 0,
+											position: 'absolute',
+											top: 3,
+											left: 0,
+											whiteSpace: 'nowrap',
+											color: 'white',
+											fontWeight: 600,
+										}}
+									>
+										Add to Calendar
 									</Text>
 								</Link>
 						  ))
@@ -69,6 +100,8 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 											position: 'relative',
 											'&:hover > span': {
 												visibility: 'visible',
+												opacity: 1,
+												transform: 'opacity .2s ease-in-out .1s',
 											},
 										}}
 									>
@@ -86,8 +119,9 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 											as="span"
 											sx={{
 												visibility: 'hidden',
+												opacity: 0,
 												position: 'absolute',
-												top: 4,
+												top: '4rem',
 												left: '.4em',
 												whiteSpace: 'nowrap',
 												color: 'white',
