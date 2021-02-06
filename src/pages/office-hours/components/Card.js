@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Box, Flex, Heading, Text } from 'theme-ui'
+import { jsx, Box, Flex, Heading, Text, Button } from 'theme-ui'
 import { Link, Image, Icon, LiveTag } from 'components/atoms'
 import moment from 'moment'
 import { avatarPath, makeAuthorSlug } from 'utils'
@@ -81,56 +81,59 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 				</Box>
 				<Box>
 					<Heading>Hosts</Heading>
-					<Flex
-						sx={{
-							flexDirection: 'row-reverse',
-							width: 'fit-content',
-							ml: '-.2rem',
-							mt: 2,
-							'& > a:not(:last-child)': { ml: '-1rem' },
-						}}
-					>
-						{hosts
-							? hosts.map(i => (
-									<Link
-										to={'/team/' + makeAuthorSlug(i)}
-										sx={{
-											position: 'relative',
-											'&:hover > span': {
-												visibility: 'visible',
-												opacity: 1,
-												transform: 'opacity .2s ease-in-out .1s',
-											},
-										}}
-									>
-										<Image
+					<Flex sx={{ justifyContent: 'space-between' }}>
+						<Flex
+							sx={{
+								flexDirection: 'row-reverse',
+								width: 'fit-content',
+								ml: '-.2rem',
+								mt: 2,
+								'& > a:not(:last-child)': { ml: '-1rem' },
+							}}
+						>
+							{hosts
+								? hosts.map(i => (
+										<Link
+											to={'/team/' + makeAuthorSlug(i)}
 											sx={{
-												variant: 'images.avatar',
-												backgroundColor: `${background}`,
-												border:
-													'solid 4px rgba(255,255,255,0.08)',
-											}}
-											alt={i + '’s headshot'}
-											src={avatarPath(i)}
-										/>
-										<Text
-											as="span"
-											sx={{
-												visibility: 'hidden',
-												opacity: 0,
-												position: 'absolute',
-												top: '4rem',
-												left: '.4em',
-												whiteSpace: 'nowrap',
-												color: 'white',
-												fontWeight: 600,
+												position: 'relative',
+												'&:hover > span': {
+													visibility: 'visible',
+													opacity: 1,
+													transform:
+														'opacity .2s ease-in-out .1s',
+												},
 											}}
 										>
-											{i}
-										</Text>
-									</Link>
-							  ))
-							: hosts}
+											<Image
+												sx={{
+													variant: 'images.avatar',
+													backgroundColor: `${background}`,
+													border:
+														'solid 4px rgba(255,255,255,0.08)',
+												}}
+												alt={i + '’s headshot'}
+												src={avatarPath(i)}
+											/>
+											<Text
+												as="span"
+												sx={{
+													visibility: 'hidden',
+													opacity: 0,
+													position: 'absolute',
+													top: '4rem',
+													left: '.4em',
+													whiteSpace: 'nowrap',
+													color: 'white',
+													fontWeight: 600,
+												}}
+											>
+												{i}
+											</Text>
+										</Link>
+								  ))
+								: hosts}
+						</Flex>
 					</Flex>
 				</Box>
 			</Box>
