@@ -6,7 +6,6 @@ import moment from 'moment'
 import { avatarPath, makeAuthorSlug } from 'utils'
 
 const Card = ({ title, hosts, schedule, background, icon }) => {
-	console.log(moment().local(true), 'time')
 	return (
 		<Box>
 			<LiveTag schedule={schedule} />
@@ -60,7 +59,6 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 											? i.label // if there's a label, show that
 											: moment(i.startDate).format('ddd')}{' '}
 										{moment(i.startDate).format('LT')}
-										{console.log(moment(i.startDate, 'event time'))}
 									</Text>
 									<Text
 										as="span"
