@@ -37,7 +37,10 @@ export default ({ data }) => {
 			<Container padding={{ py: [3, 5] }}>
 				<Grid sx={{ variant: 'grids.twoCol' }}>
 					<Box>
-						<Heading as="h1" sx={{ fontSize: 7, mb: '.4em', color: 'white' }}>
+						<Heading
+							as="h1"
+							sx={{ fontSize: [6, 7], mb: '.4em', color: 'white' }}
+						>
 							Office Hours
 						</Heading>
 						<LiveTag />
@@ -106,11 +109,16 @@ export default ({ data }) => {
 					<Flex sx={{ flexDirection: 'column' }}>
 						<Heading
 							as="h2"
-							sx={{ mt: [0, 5], mb: 3, fontSize: 7, color: 'background' }}
+							sx={{
+								mt: [0, 5],
+								mb: 3,
+								fontSize: [6, 7],
+								color: 'background',
+							}}
 						>
 							Requests
 						</Heading>
-						<Heading as="h3" sx={{ fontSize: 5, mb: 3, color: 'background' }}>
+						<Heading as="h3" sx={{ fontSize: [4,5], mb: 3, color: 'background' }}>
 							We’re here to help.
 						</Heading>
 						<Text sx={{ pr: 4 }}>
@@ -124,8 +132,13 @@ export default ({ data }) => {
 						{/* https://docs.google.com/forms/d/1MYcTLCYE3EjOMGMnjmwWcmBsoeZ1WDv8o4mPTqgc-Zk/edit see @paul if you'd like to edit this form */}
 						<iframe
 							src="https://docs.google.com/forms/d/e/1FAIpQLSevLEeifGIzY2Hcp_UTpPUxTeC6FcAA3cT0p05VN4yKfVRcgA/viewform?embedded=true"
-							width="540"
-							height="640"
+							// width="540"
+							// height="640"
+							sx={{
+								width: ['calc(100% + 5vw)', 540],
+								height: [840, 640],
+								float: ['initial', 'right'],
+							}}
 							frameborder="0"
 							marginheight="0"
 							marginwidth="0"

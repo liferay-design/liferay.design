@@ -18,11 +18,11 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 				}}
 			>
 				<Flex sx={{ justifyContent: 'space-between', mb: 2 }}>
-					<Heading as="h2" sx={{ fontSize: 6, mt: 2 }}>
+					<Heading as="h2" sx={{ fontSize: [5, 6], mt: [1, 2] }}>
 						{title}
 					</Heading>
 					<Icon
-						sx={{ height: 7, width: 7 }}
+						sx={{ height: [6, 7], width: [6, 7] }}
 						color="white"
 						name={icon ? icon : `${title ? title.toLowerCase() : title}`}
 					/>
@@ -44,6 +44,9 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 											visibility: 'visible',
 											transition: 'opacity .2s ease-in-out .1s',
 											opacity: 1,
+										},
+										'&:last-child > span:first-of-type': {
+											mr: 0,
 										},
 									}}
 								>
