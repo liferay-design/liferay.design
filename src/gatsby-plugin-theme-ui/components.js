@@ -19,6 +19,11 @@ export default {
 		},
 	},
 	labels: {
+		fill: {
+			py: 1,
+			px: 2,
+			borderRadius: '.2rem',
+		},
 		outline: {
 			flexGrow: 0,
 			py: 1,

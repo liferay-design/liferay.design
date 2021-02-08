@@ -46,7 +46,6 @@ export default ({ data }) => {
 						>
 							Office Hours
 						</Heading>
-						<LiveTag />
 						<Text sx={{ color: 'primaryl2', pr: 4, mb: [4, 0] }}>
 							<p>
 								An open time for anyone to ask questions, solve problems,
@@ -74,6 +73,7 @@ export default ({ data }) => {
 							background="primary"
 							title="Lexicon"
 							hosts={['David Aragones', 'Ruben Jimenez']}
+							meetRoom="http://meet.google.com/hnf-hzkz-rio"
 							schedule={[
 								{
 									startDate: '02/01/2021 15:00:00 UTC',
@@ -95,6 +95,7 @@ export default ({ data }) => {
 						title="Figma"
 						icon="figma_app"
 						hosts={['Paul Hanaoka', 'Abel Hancock']}
+						meetRoom="https://meet.google.com/dax-zjbf-mrh"
 						schedule={[
 							{
 								label: 'Weekdays',
