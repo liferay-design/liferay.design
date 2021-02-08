@@ -27,6 +27,37 @@ export function isAuthenticated() {
 	return true
 }
 
+export function isLive(eventStart, eventEnd) {
+	// now
+	var now = new Date()
+	var currentUTCDay = now.getUTCDay()
+	var currentUTCHours = now.getUTCHours()
+	var currentUTCMinutes = now.getUTCMinutes()
+	var currentTime = currentUTCHours + ':' + currentUTCMinutes
+
+	// event start
+	var eventStartDate = new Date(eventStart)
+	var eventStartUTCDay = eventStartDate.getUTCDay()
+	var eventStartUTCHours = eventStartDate.getUTCHours()
+	var eventStartUTCMinutes = eventStartDate.getUTCMinutes()
+	var eventStartTime = eventStartUTCHours + ':' + eventStartUTCMinutes
+
+	// event end
+	var eventEndDate = new Date(eventEnd)
+	var eventEndUTCDay = eventEndDate.getUTCDay()
+	var eventEndUTCHours = eventEndDate.getUTCHours()
+	var eventEndUTCMinutes = eventEndDate.getUTCMinutes()
+	var eventEndTime = eventEndUTCHours + ':' + eventEndUTCMinutes
+
+	if (currentUTCDay >= eventStartUTCDay && currentTime >= eventStartTime) {
+		if (currentUTCDay >= eventEndUTCDay && currentTime >= eventEndTime) {
+			return false
+		} else {
+			return true
+		}
+	}
+}
+
 const imagePath = '/images/headshots/'
 
 export function makeAuthorSlug(input) {
