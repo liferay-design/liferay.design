@@ -9,7 +9,7 @@ order: 225
 draft: false
 ---
 
-![Donut Chart with 4 different elements](/images/lexicon/ChartDoughnut.png)
+![Donut Chart with 4 different elements](/images/lexicon/charts-16.png)
 
 We recommend that you use the Donut Chart instead of the Pie chart due to the following reasons:
 
@@ -24,4 +24,4 @@ The Doughnut Chart must follow the standard color order for charts: the first ch
 
 #### Chart item interaction
 
-![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/images/lexicon/ChartDoughnutItemSel.png)
+![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/images/lexicon/charts-17.png)
