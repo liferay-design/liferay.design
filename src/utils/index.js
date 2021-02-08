@@ -51,9 +51,9 @@ export function isLive(eventStart, eventEnd) {
 
 	if (currentUTCDay >= eventStartUTCDay && currentTime >= eventStartTime) {
 		if (currentUTCDay >= eventEndUTCDay && currentTime >= eventEndTime) {
-			return false
+			return 'is dead'
 		} else {
-			return true
+			return 'is live'
 		}
 	}
 }

@@ -1,36 +1,13 @@
 /** @jsx jsx */
 
-import { jsx, Grid, Box, Flex, Button, Heading, Text } from 'theme-ui'
-import { Container, Link, LiveTag, NiceLink } from 'components/atoms'
-import { CardDefault, SEO } from 'components/molecules'
+import { jsx, Grid, Box, Flex, Heading, Text } from 'theme-ui'
+import { Container, NiceLink } from 'components/atoms'
+import { SEO } from 'components/molecules'
 import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
-import { avatarPath } from 'utils'
-import moment from 'moment'
 import Card from './components/Card'
 
-export default ({ data }) => {
-	const utcStartTime = '2300'
-	const utcEndTime = '000'
-	const time =
-		moment(utcStartTime, 'hmm')
-			.local(true)
-			.format('HH') +
-		'—' +
-		moment(utcEndTime, 'hmm')
-			.local(true)
-			.format('HH')
-
-	// logic we need:
-	// 1. use date (today) between 3-4PM to show "weekdays @time"
-	// 2. weekday check — if weekday between #1 show "live now"
-	// abel has weekday
-	// var currentDate = new Date()
-	// var currentDayOfWeek = currentDate.getDay()
-	// if (currentDayOfWeek < 6) {
-	// do something on weekdays
-	//}
-
+export default ({}) => {
 	return (
 		<MainLayout section="Office Hours">
 			<SEO
@@ -152,9 +129,9 @@ export default ({ data }) => {
 								height: [840, 640],
 								float: ['initial', 'right'],
 							}}
-							frameborder="0"
-							marginheight="0"
-							marginwidth="0"
+							frameBorder="0"
+							marginHeight="0"
+							marginWidth="0"
 						>
 							Loading…
 						</iframe>
@@ -198,7 +175,7 @@ export default ({ data }) => {
 							src="https://open.spotify.com/embed/playlist/7xclcaljk4yEJZoVMxbEWY"
 							width="420"
 							height="480"
-							frameborder="0"
+							frameBorder="0"
 							allowtransparency="true"
 							allow="encrypted-media"
 							sx={{

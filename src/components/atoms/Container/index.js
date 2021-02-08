@@ -49,7 +49,7 @@ const Container = ({
 Container.propTypes = {
 	children: PropTypes.node,
 	heading: PropTypes.string,
-	padding: PropTypes.string,
+	padding: PropTypes.object,
 	background: PropTypes.string,
 	linkDestination: PropTypes.string,
 	linkText: PropTypes.string,
