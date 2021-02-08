@@ -102,7 +102,13 @@ export default ({ data }) => {
 								startDate: '02/01/2021 23:00:00 UTC',
 								endDate: '02/01/2021 24:00:00 UTC',
 								calendarEvent:
-									'https://liferay.design/office-hours/add-to-calendar/figma',
+									'https://liferay.design/office-hours/add-to-calendar/figma-1',
+							},
+							{
+								startDate: '02/04/2021 15:30:00 UTC',
+								endDate: '02/04/2021 16:30:00 UTC',
+								calendarEvent:
+									'https://liferay.design/office-hours/add-to-calendar/figma-2',
 							},
 						]}
 					/>
