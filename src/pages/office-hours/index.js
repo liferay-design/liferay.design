@@ -33,7 +33,10 @@ export default ({ data }) => {
 
 	return (
 		<MainLayout section="Office Hours">
-			<SEO description="TODO" pageTitle="Liferay.Design | Figma Office Hours" />
+			<SEO
+				description="Join Liferay Designers for virtual office hours! Get your Figma or Lexicon questions answered and problems solved."
+				pageTitle="Liferay.Design | Office Hours"
+			/>
 			<Container padding={{ py: [3, 5] }}>
 				<Grid sx={{ variant: 'grids.twoCol' }}>
 					<Box>
@@ -44,7 +47,7 @@ export default ({ data }) => {
 							Office Hours
 						</Heading>
 						<LiveTag />
-						<Text sx={{ color: 'text', pr: 4, mb: [4, 0] }}>
+						<Text sx={{ color: 'primaryl2', pr: 4, mb: [4, 0] }}>
 							<p>
 								An open time for anyone to ask questions, solve problems,
 								or just hangout!
@@ -118,10 +121,13 @@ export default ({ data }) => {
 						>
 							Requests
 						</Heading>
-						<Heading as="h3" sx={{ fontSize: [4,5], mb: 3, color: 'background' }}>
+						<Heading
+							as="h3"
+							sx={{ fontSize: [4, 5], mb: 3, color: 'mainL2' }}
+						>
 							We’re here to help.
 						</Heading>
-						<Text sx={{ pr: 4 }}>
+						<Text sx={{ pr: 4, color: 'mainL2' }}>
 							We’ll try to answer your requests during our office hours! If
 							you can’t make our office hours you can still watch the
 							recording any time. (You don’t have to submit a request to
