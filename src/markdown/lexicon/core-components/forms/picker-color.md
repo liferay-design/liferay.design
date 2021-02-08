@@ -5,7 +5,7 @@ figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=
 docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
 order: 257
 draft: false
-devStatus: 'PENDING'
+devStatus: 'Pending'
 ---
 
 ![Color picker interaction](/images/lexicon/Picker-color-custom-panel-animation.gif)

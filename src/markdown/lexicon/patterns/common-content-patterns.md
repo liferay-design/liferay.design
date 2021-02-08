@@ -1,6 +1,6 @@
 ---
 title: 'Common Content Patterns'
-devStatus: 'PENDING'
+devStatus: 'Pending'
 description: 'Spectrum of different content situations in our interfaces.'
 order: 132
 draft: false

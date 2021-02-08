@@ -88,6 +88,7 @@
 			@include documentLabel;
 			border-color: $main-l4;
 			color: $main-l3;
+			text-transform: uppercase;
 		}
 
 		.labelInfo {
@@ -354,6 +355,7 @@
 :global(.labelDraft) {
 	border-color: $main-l4;
 	color: $main-l3;
+	text-transform: uppercase;
 }
 
 :global(.labelInfo) {

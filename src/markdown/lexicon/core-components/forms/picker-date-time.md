@@ -5,7 +5,7 @@ figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=
 docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
 order: 258
 draft: false
-devStatus: 'PENDING'
+devStatus: 'Pending'
 ---
 
 **Note:** These components are meant to cover desktop browser needs. The OS native component must be used on mobile devices.
