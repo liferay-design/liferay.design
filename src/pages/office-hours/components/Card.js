@@ -48,6 +48,7 @@ const Card = ({ title, hosts, schedule, background, icon }) => {
 										'&:last-child > span:first-of-type': {
 											mr: 0,
 										},
+										mb: ['1.5rem', 'initial'],
 									}}
 								>
 									<Text
