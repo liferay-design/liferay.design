@@ -9,7 +9,7 @@ order: 226
 draft: false
 ---
 
-![Predictive Forecasting Chart](/images/lexicon/ChartPredictiveForcDefault.jpg)
+![Predictive Forecasting Chart](/images/lexicon/charts-18.png)
 <br/>
 <br/>
 
@@ -19,8 +19,8 @@ This chart contains three key parts: the past, the present, and the future. The 
 
 #### Single point interaction
 
-![Predictive Forecasting Item hover interaction](/images/lexicon/ChartPredictiveForcItem.jpg)
+![Predictive Forecasting Item hover interaction](/images/lexicon/charts-20.png)
 
-#### Legend item interaction
+#### Legend item interaction
 
-![Predictive Forecasting legend item hover interaction](/images/lexicon/ChartPredictiveForcLegend.jpg)
+![Predictive Forecasting legend item hover interaction](/images/lexicon/charts-19.png)
