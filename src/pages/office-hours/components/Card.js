@@ -1,13 +1,45 @@
 /** @jsx jsx */
 
+import { useEffect, useState } from 'react'
 import { jsx, Box, Flex, Heading, Text } from 'theme-ui'
 import { Link, Image, Icon } from 'components/atoms'
 import moment from 'moment'
-import { avatarPath, makeAuthorSlug } from 'utils'
+import { avatarPath, isLive, makeAuthorSlug } from 'utils'
 
 const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
+	// references:
+	// https://upmostly.com/tutorials/build-a-react-timer-component-using-hooks
+	// https://stackoverflow.com/questions/61091538/example-to-calculate-dates-using-usestate-in-react
+	// https://stackoverflow.com/questions/37602853/how-to-loop-through-json-array-until-condition-is-met
+
+	// const [isActive, setIsActive] = useState(false)
+
+	// function evaluate(input) {
+	// 	if (input === true) {
+	// 		return true
+	// 	} else {
+	// 		return false
+	// 	}
+	// }
+
+	// useEffect(() => {
+	// 	const events = schedule.map(i => {
+	// 		if (isLive(i.startDate, i.endDate)) {
+	// 			return true
+	// 		} else {
+	// 			return false
+	// 		}
+	// 	})
+	// 	events.some(evaluate)
+	// 	return isActive
+	// }, [])
+
 	return (
-		<Box sx={{ position: 'relative' }}>
+		<Box
+			sx={{
+				position: 'relative',
+			}}
+		>
 			<Box
 				sx={{
 					backgroundColor: `${background}`,
@@ -16,20 +48,39 @@ const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
 					height: 'max-content',
 				}}
 			>
-				<Flex sx={{ justifyContent: 'space-between', mb: 2 }}>
-					<Heading as="h2" sx={{ fontSize: [5, 6], mt: [1, 2] }}>
+				<Flex
+					sx={{
+						justifyContent: 'space-between',
+						mb: 2,
+					}}
+				>
+					<Heading
+						as="h2"
+						sx={{
+							fontSize: [5, 6],
+							mt: [1, 2],
+						}}
+					>
 						{title}
 					</Heading>
 					<Icon
-						sx={{ height: [6, 7], width: [6, 7] }}
+						sx={{
+							height: [6, 7],
+							width: [6, 7],
+						}}
 						color="white"
 						name={icon ? icon : `${title ? title.toLowerCase() : title}`}
 					/>
 				</Flex>
-				<Box sx={{ my: 3 }}>
+				<Box
+					sx={{
+						my: 3,
+					}}
+				>
 					{schedule
-						? schedule.map(i => (
+						? schedule.map((i, index) => (
 								<Link
+									key={index}
 									to={i.calendarEvent}
 									sx={{
 										position: 'relative',
@@ -84,19 +135,27 @@ const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
 				</Box>
 				<Box>
 					<Heading>Hosts</Heading>
-					<Flex sx={{ justifyContent: 'space-between', alignItems: 'center' }}>
+					<Flex
+						sx={{
+							justifyContent: 'space-between',
+							alignItems: 'center',
+						}}
+					>
 						<Flex
 							sx={{
 								flexDirection: 'row-reverse',
 								width: 'fit-content',
 								ml: '-.2rem',
 								mt: 2,
-								'& > a:not(:last-child)': { ml: '-1rem' },
+								'& > a:not(:last-child)': {
+									ml: '-1rem',
+								},
 							}}
 						>
 							{hosts
-								? hosts.map(i => (
+								? hosts.map((i, index) => (
 										<Link
+											key={index}
 											to={'/team/' + makeAuthorSlug(i)}
 											sx={{
 												position: 'relative',
