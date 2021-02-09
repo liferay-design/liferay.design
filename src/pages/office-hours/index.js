@@ -46,7 +46,7 @@ export default ({ data }) => {
 						>
 							Office Hours
 						</Heading>
-						<Text sx={{ color: 'primaryl2', pr: 4, mb: [4, 0] }}>
+						<Text sx={{ color: 'primaryl2', pr: 4, mb: [4, '-5rem'] }}>
 							<p>
 								An open time for anyone to ask questions, solve problems,
 								or just hangout!

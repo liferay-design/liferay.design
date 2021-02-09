@@ -1,27 +1,17 @@
 /** @jsx jsx */
 
-import { jsx, Box, Flex, Heading, Text, Button } from 'theme-ui'
-import { Link, NiceLink, Image, Icon, LiveTag } from 'components/atoms'
+import { jsx, Box, Flex, Heading, Text } from 'theme-ui'
+import { Link, Image, Icon } from 'components/atoms'
 import moment from 'moment'
-import { avatarPath, isLive, makeAuthorSlug } from 'utils'
+import { avatarPath, makeAuthorSlug } from 'utils'
 
 const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
-	const LiveTagStyles = { position: 'absolute', left: 3, top: '-.8em' }
-	const JoinButtonStyles = { color: 'white', backgroundColor: 'primary', fontWeight: 900, }
-
 	return (
 		<Box sx={{ position: 'relative' }}>
-			{schedule[1] ? ( // this should probably be a loop...
-				isLive(schedule[1].startDate, schedule[1].endDate) ? ( // check the 2nd one first
-					<LiveTag eventUrl={meetRoom} sx={{ ...LiveTagStyles }} /> // if the 2nd schedule items is live
-				) : isLive(schedule[0].startDate, schedule[0].endDate) ? ( // otherwise check if the first scheduled item is live
-					<LiveTag eventUrl={meetRoom} sx={{ ...LiveTagStyles }} /> // show live if it is
-				) : null // show nothing if its not
-			) : null}
 			<Box
 				sx={{
 					backgroundColor: `${background}`,
-					mt: [0, '6rem'],
+					mt: [0, '8rem'],
 					p: 3,
 					height: 'max-content',
 				}}
@@ -147,17 +137,6 @@ const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
 								  ))
 								: hosts}
 						</Flex>
-						{schedule[1] ? ( // this should probably be a loop...
-							isLive(schedule[1].startDate, schedule[1].endDate) ? ( // check the 2nd one first
-								<Link to={meetRoom} sx={{ ...JoinButtonStyles }}>
-									Join Now!
-								</Link> // if the 2nd schedule items is live
-							) : isLive(schedule[0].startDate, schedule[0].endDate) ? ( // otherwise check if the first scheduled item is live
-								<Link to={meetRoom} sx={{ ...JoinButtonStyles }}>
-									Join Now!
-								</Link> // show live if it is
-							) : null // show nothing if its not
-						) : null}
 					</Flex>
 				</Box>
 			</Box>
