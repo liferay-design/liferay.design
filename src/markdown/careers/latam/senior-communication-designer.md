@@ -34,14 +34,14 @@ Additionally, you will:
 ## What do I need to succeed?
 
 1. **Communication**: if we’ve learned anything from being fully remote for the last 9+ months, proactive, effective communication skills are a must. English fluency is a must, Spanish would be helpful but is not required.
-2. **Creative direction**: you have a strong portfolio and help others raise the bar, especially when it comes to branding.
-3. **Videography**: experience in video production is valuable as we work with a lot of media contractors to produce content for marketing and events.
+2. **Art Direction**: you have a strong portfolio and help others raise the bar within an existing brand ecosystem.
+3. **Digital Marketing**: guiding stakeholders through the creative process to achieve design excellence in event marketing, social media, and presentations.
 
 ## What will help me stand out?
 
 1. **People management**: developing a team’s skills and careers.
 2. **Business acumen**: case studies where you achieved business objectives with quality visual design.
-3. **Agency experience**: working across cultures and industries, listening and guiding people to a well-designed solution.
+3. **Videography**: xperience in video production is valuable as we work with a lot of media contractors to produce content for marketing and events.
 
 ## What do I need to apply?
 
