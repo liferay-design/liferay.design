@@ -4,7 +4,7 @@ date: '2020-11-12'
 title: 'Senior Product Designer'
 office: 'Tokyo'
 featuredImage: '/images/offices/liferay-tokyo.jpg'
-published: true
+published: false
 ---
 
 _Establishing a strong design practice in the APAC region is a high priority for our business. We’re looking for a senior designer with experience as a first-hire that can serve our customers and partners while simultaneously working to establish a strong design culture here. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, and North America that are excited to build with you._
