@@ -69,6 +69,19 @@ collections:
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Publish, name: publish, widget: boolean }
           - { label: Body, name: body, widget: markdown }
+    - name: handbook
+      label: Handbook
+      folder: src/markdown/handbook/
+      format: frontmatter
+      extension: 'mdx'
+      path: '{{dirname}}/{{slug}}'
+      create: true
+      fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Order, name: order, widget: number }
+          - { label: Publish, name: publish, widget: boolean }
+          - { label: Body, name: body, widget: mdx }
     - name: careers
       label: Careers
       folder: src/markdown/careers/
