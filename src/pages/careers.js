@@ -37,31 +37,32 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					filter: {
-						fileAbsolutePath: { regex: "/(careers)/" }
-						frontmatter: { published: { eq: true } }
-					}
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							frontmatter {
-								title
-								office {
-									city
-									regionIcon
-								}
-								featuredImage
-							}
-							fields {
-								slug
-							}
-							excerpt
+	{
+		allMdx(
+			filter: {
+				fileAbsolutePath: { regex: "/(careers)/" }
+				frontmatter: { published: { eq: true } }
+			}
+			sort: { fields: frontmatter___date, order: ASC }
+		) {
+			totalCount
+			edges {
+				node {
+					id
+					frontmatter {
+						title
+						office {
+							city
+							regionIcon
 						}
+						featuredImage
 					}
+					fields {
+						slug
+					}
+					excerpt
 				}
 			}
-		`
+		}
+	}
+`
