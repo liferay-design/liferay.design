@@ -7,7 +7,8 @@ backend:
     branch: master # Branch to update (optional; defaults to master)
     open_authoring: true
 
-local_backend: true
+local_backend:
+    url: http://localhost:7777/
 media_folder: static/images
 public_folder: /images
 publish_mode: editorial_workflow
@@ -67,4 +68,33 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Publish, name: publish, widget: boolean }
+          - { label: Body, name: body, widget: markdown }
+    - name: careers
+      label: Careers
+      folder: src/markdown/careers/
+      path: '{{dirname}}/{{slug}}'
+      view_filters:
+          - label: Active
+            field: published
+            pattern: true
+          - label: APAC
+            field: office
+            pattern: 'Tokyo'
+          - label: EMEA
+            field: office
+            pattern: 'Madrid'
+          - label: NA
+            field: office
+            pattern: 'Diamond Bar'
+          - label: LATAM
+            field: office
+            pattern: 'Recife'
+      create: true
+      fields:
+          - { label: Jobvite ID, name: jobId, widget: string }
+          - { label: Publish Date, name: date, widget: datetime }
+          - { label: Title, name: title, widget: string }
+          - { label: Location, name: office, widget: string }
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Publish, name: published, widget: boolean }
           - { label: Body, name: body, widget: markdown }
