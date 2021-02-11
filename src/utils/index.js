@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import moment from 'moment'
 const { firebase } = require('@firebase/app')
 
 const { deburr, replace, startCase } = require(`lodash`)
@@ -25,6 +26,24 @@ export function isAuthenticated() {
 		return false
 	}
 	return true
+}
+
+function getKeyByValue(object, value) {
+	return Object.keys(object).find(key => object[key] === value)
+}
+
+export function getLocalTimeZone() {
+	const timeZones = {
+		PST: '-08:00',
+		PDT: '-07:00',
+		BRT: '-03:00',
+		WET: '+00:00',
+		CET: '+01:00',
+		JST: '+09:00',
+	}
+	const localOffset = moment().format('Z')
+	const localTimeZone = getKeyByValue(timeZones, localOffset)
+	return localTimeZone
 }
 
 export function isLive(eventStart, eventEnd) {
