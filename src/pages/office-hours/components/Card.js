@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { jsx, Box, Flex, Heading, Text } from 'theme-ui'
 import { Link, Image, Icon } from 'components/atoms'
 import moment from 'moment'
-import { avatarPath, isLive, makeAuthorSlug } from 'utils'
+import { avatarPath, isLive, makeAuthorSlug, getLocalTimeZone } from 'utils'
 
 const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
 	// references:
@@ -33,6 +33,8 @@ const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
 	// 	events.some(evaluate)
 	// 	return isActive
 	// }, [])
+	//
+	// stackoverflow.com/questions/9907419/how-to-get-a-key-in-a-javascript-object-by-its-value
 
 	return (
 		<Box
@@ -112,7 +114,11 @@ const Card = ({ title, hosts, schedule, background, icon, meetRoom }) => {
 										{i.label
 											? i.label // if there's a label, show that
 											: moment(i.startDate).format('ddd')}{' '}
-										{moment(i.startDate).format('LT')}
+										{moment(i.startDate)
+											.format('LT')
+											.replace(/(:|\.|e)[0]{2}/, '') // removes :00 and space
+											.replace(/\s/g, '')}{' '}
+										{getLocalTimeZone()}
 									</Text>
 									<Text
 										as="span"
