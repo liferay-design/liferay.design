@@ -75,8 +75,6 @@ The only required element for a card is the image. Everything else can be remove
 6. Detail or short descriptive text
 7. Label: status identifier
 
-![card metrics](/images/lexicon/CardMetrics.jpg)
-
 ### Sections
 
 Card sections organize content into separate divisions by a certain categorization or typology.
