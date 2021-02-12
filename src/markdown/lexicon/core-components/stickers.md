@@ -77,6 +77,6 @@ Only use the circle sticker to identify people. You can places up to two charact
 
 You can place a sticker of any type in an Card. Its position is always bottom left, as shown in the example below:
 
-![sticker position example in Card Image](/images/lexicon/CardImage.jpg)
+![sticker position example in Card Image](/images/lexicon/cards-6.png)
 
-![user sticker position example in web content card](/images/lexicon/CardFileUser.jpg)
+![user sticker position example in web content card](/images/lexicon/cards-15-2.png)

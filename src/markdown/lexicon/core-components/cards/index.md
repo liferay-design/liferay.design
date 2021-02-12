@@ -9,7 +9,7 @@ order: 210
 draft: false
 ---
 
-![card with image default state](/images/lexicon/CardImage.jpg)
+![card with image default state](/images/lexicon/cards-1.png)
 
 ### Usage
 
@@ -49,23 +49,23 @@ The only required element for a card is the image. Everything else can be remove
 
 #### Default
 
-![card with image default state](/images/lexicon/CardImage.jpg)
+![card with image default state](/images/lexicon/cards-1.png)
 
 #### Hover
 
-![card with image hover state, blue border](/images/lexicon/CardImageHover.jpg)
+![card with image hover state, blue border](/images/lexicon/cards-2.png)
 
 #### Active
 
-![card with image selected state, blue border and check marked](/images/lexicon/CardImageActive.jpg)
+![card with image selected state, blue border and check marked](/images/lexicon/cards-3.png)
 
 #### Empty
 
-![card with image empty state, no image, gray background grid](/images/lexicon/CardImageEmpty.jpg)
+![card with image empty state, no image, gray background grid](/images/lexicon/cards-4.png)
 
 ### Attributes
 
-![7 possible parts of a card](/images/lexicon/CardParts.jpg)
+![7 possible parts of a card](/images/lexicon/cards-5.png)
 
 1. Checkbox
 2. Image
