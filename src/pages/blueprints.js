@@ -39,7 +39,7 @@ const Blueprints = () => (
 					>
 						Explore Blueprints
 					</Text>
-					<Box sx={{mt: [0, null, '-8rem'] }}>
+					<Box sx={{ mt: [0, null, '-8rem'] }}>
 						<CardLexicon
 							icon="whyBlueprints"
 							title="Why Blueprints"
@@ -49,7 +49,7 @@ const Blueprints = () => (
 							cta="Read More"
 						/>
 					</Box>
-					<Box sx={{mt: [0, null, '-8rem'] }}>
+					<Box sx={{ mt: [0, null, '-8rem'] }}>
 						<CardLexicon
 							delay="0.1s"
 							icon="logos"
@@ -60,7 +60,7 @@ const Blueprints = () => (
 							cta="Waffle Time"
 						/>
 					</Box>
-					<Box sx={{ gridColumnStart:"1", gridColumnEnd:"3" }}>
+					<Box sx={{ gridColumnStart: '1', gridColumnEnd: '3' }}>
 						<CardLexicon
 							delay="0.2s"
 							wide
@@ -95,9 +95,7 @@ const Blueprints = () => (
 							cta="Experience Liferay.Design"
 						/>
 					</Box>
-					<Box
-						className={documentation.socialContainer}
-					>
+					<Box className={documentation.socialContainer}>
 						<Link
 							className={documentation.social}
 							to="https://github.com/liferay-design"
@@ -125,15 +123,15 @@ const Blueprints = () => (
 			heading="Need something?"
 			Subtitle={() => (
 				<Text size="large">
-					Visit the{' '}
-					<Link to="https://liferay-design.zendesk.com/hc">
-						Design Help Center
+					Cache us in Slack &mdash;{' '}
+					<Link to="https://liferay.slack.com/archives/CKETJ1DTR">
+						#d-comm-des
 					</Link>{' '}
-					for more documentation or to{' '}
-					<Link to="https://liferay-design.zendesk.com/hc/en-us/community/topics/360001284492-Design-Requests">
-						create a request
+					or{' '}
+					<Link to="https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17">
+						create a Jira ticket
 					</Link>
-					.
+					!
 				</Text>
 			)}
 			background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg) center/cover fixed"
