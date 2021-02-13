@@ -5,8 +5,6 @@ order: 1
 publish: true
 ---
 
-_**Note:** Documentation is now being maintained in the [Design Help Center](https://liferay-design.zendesk.com/hc/en-us/articles/360032177271-Introduction-Setup) — this article will be removed from Blueprints effective August 30, 2019._
-
 To meet the growing demand for social media and email banner assets across our global offices, we’ve undertaken to streamline the design process by empowering marketers to create their own assets from Liferay-branded templates.
 
 Enter [Easil](http://app.easil.com 'Easil'): it’s a powerful web-browser that app allows you to create social media and email graphics from Liferay-branded templates in a variety of export sizes.

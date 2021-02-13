@@ -5,8 +5,6 @@ order: 3
 publish: true
 ---
 
-_**Note:** Documentation is now being maintained in the [Design Help Center](https://liferay-design.zendesk.com/hc/en-us/articles/360031831752-User-Interface) — this article will be removed from Blueprints effective August 30, 2019._
-
 Easil has two main sections: **Templates** and **Workspace**.
 
 ## Templates

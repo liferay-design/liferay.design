@@ -5,8 +5,6 @@ order: 4
 publish: true
 ---
 
-_**Note:** Documentation is now being maintained in the [Design Help Center](https://liferay-design.zendesk.com/hc/en-us/articles/360031831792-Creating-From-a-Template) — this article will be removed from Blueprints effective August 30, 2019._
-
 ## [Selecting a Template & Renaming It](https://educate.liferay.com/design-tool-easil/363494 'Selecting a Template & Renaming It')
 
 Once you click on a template, it will open as a copy in your Workspace. If you close it (by clicking on the “E” logo in upper left), you’ll see that it’s located in your Workspace with the original file name.
