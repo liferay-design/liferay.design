@@ -5,8 +5,6 @@ order: 2
 publish: true
 ---
 
-_**Note:** Documentation is now being maintained in the [Design Help Center](https://liferay-design.zendesk.com/hc/en-us/articles/360031831732-Workflows) — this article will be removed from Blueprints effective August 30, 2019._
-
 ## Design Workflow
 
 1. **Create:** Designers create templates, reviewing with marketers.

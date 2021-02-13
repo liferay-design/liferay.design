@@ -5,8 +5,6 @@ order: 5
 publish: true
 ---
 
-_**Note:** Documentation is now being maintained in the [Design Help Center](https://liferay-design.zendesk.com/hc/en-us/articles/360032177371-Best-Practices) — this article will be removed from Blueprints effective August 30, 2019._
-
 ## Photography
 
 ### Free Stock Photo Sites
