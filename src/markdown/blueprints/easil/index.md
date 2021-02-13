@@ -1,7 +1,7 @@
 ---
 title: 'Easil'
 description: 'Our internal documentation for Easil'
-order: 1
+order: 5
 publish: true
 ---
 
