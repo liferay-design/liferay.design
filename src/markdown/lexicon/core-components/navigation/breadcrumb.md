@@ -9,17 +9,17 @@ order: 311
 draft: false
 ---
 
-![breadcrumb without collapsing](/images/lexicon/Breadcrumb.png)
+![breadcrumb without collapsing](/images/lexicon/navigation-1.png)
 <br/>
 <br/>
 
-![breadcrumb collapsing with a dropdown button on the left side](/images/lexicon/BreadcrumbDropdown.png)
+![breadcrumb collapsing with a dropdown button on the left side](/images/lexicon/navigation-2.png)
 
 ### Usage
 
 Breadcrumb works the same way across all viewport sizes. When there isn't enough space on the screen to display all the breadcrumbs, the first levels are collapsed into a dropdown menu. This allows the user to read and navigate to the previous closer levels, and also lets them navigate to other levels easily.
 
-![breadcrumb with a dropdown menu open](/images/lexicon/BreadcrumbDropdownExample.png)
+![breadcrumb with a dropdown menu open](/images/lexicon/navigation-3.png)
 
 -   The breadcrumb is always horizontal.
 -   Long crumbs can be reduced using ellipsis.
@@ -35,6 +35,4 @@ Breadcrumb works the same way across all viewport sizes. When there isn't enough
 |                                                            | Do not use it for cross application navigation.      |
 |                                                            | Never use more than one text line.                   |
 
-### Attributes
 
-![breadcrumb metrics](/images/lexicon/BreadcrumbMetrics.png)
