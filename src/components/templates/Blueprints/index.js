@@ -2,7 +2,7 @@
 
 import { jsx, Grid } from 'theme-ui'
 import { ContainerMarkdown, Flex, Icon, SiteName, Text, Link } from 'components/atoms'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { AuthContainer, GlobalMdx } from 'components/molecules'
 import { Footer, Sidebar } from 'components/organisms'
 import { PrivatePage } from 'components/templates'
@@ -13,6 +13,7 @@ import MediaQuery from 'react-responsive'
 import blueprints from 'theme/blueprints.module.scss'
 import documentation from 'theme/documentation.module.scss'
 import moment from 'moment'
+import { isAuthenticated } from 'utils'
 
 export default class Blueprints extends Component {
 	constructor(props) {
@@ -38,117 +39,117 @@ export default class Blueprints extends Component {
 		} = this.props
 
 		return (
-			<PrivatePage
-				message="You must be a Liferay Employee to view this page"
-				section="Blueprints"
-			>
-				<div className={`${blueprints.theme} ${documentation.theme}`}>
-					<MediaQuery maxWidth={767}>
-						{matches => {
-							
-							return (
-								<Grid
-									sx={{ variant: 'grids.sideNav' }}
-									className={documentation.mainContentWrapper}
-								>
-									{matches && (
-										<Flex
-											className={documentation.mobileNavbar}
-											justify="space-between"
-											padding="2rem 1rem"
-										>
-											<SiteName section="Blueprints" dark />
-											<AuthContainer />
-										</Flex>
-									)}
-
-									<Sidebar
-										path={pathname}
-										tree={buildSidebarTree(allMdx)}
-										isMobile={matches}
-										showSidebar={this.state.mobileSidebarVisible}
-										section="Blueprints"
-									/>
-
-									<div
-										isMobile={matches}
-										isMobileSidebarVisible={
-											this.state.mobileSidebarVisible
-										}
+			<div className={`${blueprints.theme} ${documentation.theme}`}>
+				<MediaQuery maxWidth={767}>
+					{matches => {
+						return (
+							<Grid
+								sx={{ variant: 'grids.sideNav' }}
+								className={documentation.mainContentWrapper}
+							>
+								{matches && (
+									<Flex
+										className={documentation.mobileNavbar}
+										justify="space-between"
+										padding="2rem 1rem"
 									>
-										<ContainerMarkdown>
-											<Flex
-												justify="space-between"
-												align="baseline"
-											>
-												<h1>{mdx.frontmatter.title}</h1>
+										<SiteName section="Blueprints" dark />
+										<AuthContainer />
+									</Flex>
+								)}
 
-												{!matches && <AuthContainer />}
-											</Flex>
+								<Sidebar
+									path={pathname}
+									tree={buildSidebarTree(allMdx)}
+									isMobile={matches}
+									showSidebar={this.state.mobileSidebarVisible}
+									section="Blueprints"
+								/>
 
-											<GlobalMdx>
-												<MDXRenderer>{mdx.body}</MDXRenderer>
-											</GlobalMdx>
-											<Flex justify="space-between">
-												<Text style="italic">
-													Last modified on{' '}
+								<div
+									isMobile={matches}
+									isMobileSidebarVisible={
+										this.state.mobileSidebarVisible
+									}
+								>
+									{mdx.frontmatter.template === 'landingPage' ? (
+										<GlobalMdx>
+											<MDXRenderer>{mdx.body}</MDXRenderer>
+										</GlobalMdx>
+									) : isAuthenticated() ? (
+										<>
+											<ContainerMarkdown>
+												<Flex
+													justify="space-between"
+													align="baseline"
+												>
+													<h1>{mdx.frontmatter.title}</h1>
+
+													{!matches && <AuthContainer />}
+												</Flex>
+
+												<GlobalMdx>
+													<MDXRenderer>{mdx.body}</MDXRenderer>
+												</GlobalMdx>
+												<Flex justify="space-between">
+													<Text style="italic">
+														Last modified on{' '}
+														<Link
+															target="_new"
+															to={
+																'https://github.com/liferay-design/liferay.design/commits/master/src/' +
+																`${mdx.parent.relativePath}`
+															}
+														>
+															{moment(
+																mdx.parent.mtime,
+															).format('YYYY.MM.DD')}
+														</Link>
+													</Text>
 													<Link
 														target="_new"
 														to={
-															'https://github.com/liferay-design/liferay.design/commits/master/src/' +
+															'https://github.com/liferay-design/liferay.design/tree/master/src/' +
 															`${mdx.parent.relativePath}`
 														}
 													>
-														{moment(mdx.parent.mtime).format(
-															'YYYY.MM.DD',
-														)}
+														Edit on GitHub
 													</Link>
-												</Text>
-												<Link
-													target="_new"
-													to={
-														'https://github.com/liferay-design/liferay.design/tree/master/src/' +
-														`${mdx.parent.relativePath}`
-													}
-												>
-													Edit on GitHub
-												</Link>
-											</Flex>
-										</ContainerMarkdown>
-										<Footer markdown light />
-									</div>
+												</Flex>
+											</ContainerMarkdown>
+											<Footer markdown light />{' '}
+										</>
+									) : (
+										<PrivatePage message="You must be a Liferay employee to view this content" />
+									)}
+								</div>
 
-									<Flex
-										align="center"
-										className={documentation.mobileMenuBar}
-										justify="space-between"
-									>
-										<Icon name="waffle" color='white' height='2rem' />
+								<Flex
+									align="center"
+									className={documentation.mobileMenuBar}
+									justify="space-between"
+								>
+									<Icon name="waffle" color="white" height="2rem" />
 
-										{this.state.mobileSidebarVisible ? (
-											<Icon
-												name="close"
-												onClick={
-													this.toggleMobileSidebarVisibility
-												}
-											/>
-										) : (
-											<Text
-												color="white"
-												onClick={
-													this.toggleMobileSidebarVisibility
-												}
-											>
-												Menu
-											</Text>
-										)}
-									</Flex>
-								</Grid>
-							)
-						}}
-					</MediaQuery>
-				</div>
-			</PrivatePage>
+									{this.state.mobileSidebarVisible ? (
+										<Icon
+											name="close"
+											onClick={this.toggleMobileSidebarVisibility}
+										/>
+									) : (
+										<Text
+											color="white"
+											onClick={this.toggleMobileSidebarVisibility}
+										>
+											Menu
+										</Text>
+									)}
+								</Flex>
+							</Grid>
+						)
+					}}
+				</MediaQuery>
+			</div>
 		)
 	}
 }
@@ -158,7 +159,7 @@ export const pageQuery = graphql`
 		allMdx(
 			filter: {
 				fields: { slug: { regex: "/blueprints/" } }
-				frontmatter: { publish: { eq: true } }
+				frontmatter: { publish: { eq: true }, template: { ne: "landingPage" } }
 			}
 		) {
 			totalCount
@@ -184,8 +185,9 @@ export const pageQuery = graphql`
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
 				title
+				template
 			}
-				body
+			body
 			parent {
 				... on File {
 					mtime

@@ -5,6 +5,7 @@ export default {
 		primary: {
 			color: 'white',
 			bg: 'primary',
+			cursor: 'pointer',
 		},
 		icon: {
 			transform: 'translateY(0) scale(0.95)',
