@@ -78,12 +78,22 @@ export default class AuthContainer extends Component {
 		return this.state.user ? (
 			<LogoutContainer user={this.state.user} onClick={this.logout} />
 		) : (
-			<NavLink
-				sx={{ pr: 0, p: [1, null, 2], '&::after': { right: 0, bg: 'primary' } }}
-				onClick={this.login}
-			>
-				Sign In
-			</NavLink>
+			<span onClick={this.login}>
+				{this.props.children ? (
+					this.props.children
+				) : (
+					<NavLink
+						sx={{
+							pr: 0,
+							p: [1, null, 2],
+							'&::after': { right: 0, bg: 'primary' },
+						}}
+						onClick={this.login}
+					>
+						Sign In
+					</NavLink>
+				)}
+			</span>
 		)
 	}
 }

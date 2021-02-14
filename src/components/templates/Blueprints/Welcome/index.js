@@ -9,7 +9,10 @@ import documentation from 'theme/documentation.module.scss'
 import { Helmet } from 'react-helmet'
 
 const Blueprints = () => (
-	<div className={`${blueprints.theme} ${documentation.theme}`}>
+	<Box
+		className={`${blueprints.theme} ${documentation.theme}`}
+		sx={{ backgroundColor: 'background' }}
+	>
 		<Helmet>
 			<title>Blueprints | Brand Guidelines for Liferay</title>
 		</Helmet>
@@ -21,9 +24,10 @@ const Blueprints = () => (
 			section="Blueprints"
 			background="linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url(/images/home/blueprints-bg.svg) center -6rem / cover fixed, #0b63ff"
 			underlineColor="#134194"
+			simpleNav
 		/>
-		<div className={documentation.background}>
-			<div className={documentation.container}>
+		<Box sx={{ backgroundColor: 'white' }}>
+			<Box className={documentation.container}>
 				<Grid
 					className={documentation.teasers}
 					sx={{
@@ -116,8 +120,8 @@ const Blueprints = () => (
 						</Link>
 					</Box>
 				</Grid>
-			</div>
-		</div>
+			</Box>
+		</Box>
 		<Billboard
 			image="jira"
 			heading="Need something?"
@@ -134,10 +138,10 @@ const Blueprints = () => (
 					!
 				</Text>
 			)}
-			background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url(/images/home/blueprints-bg.svg) center/cover fixed"
+			background="linear-gradient(20deg, rgba(232, 232, 233, 0.9), rgba(247, 248, 249, 0.9)), url('/images/home/blueprints-bg.svg') center/cover fixed"
 		/>
 		<Footer />
-	</div>
+	</Box>
 )
 
 export default Blueprints
