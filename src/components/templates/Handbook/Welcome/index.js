@@ -84,15 +84,6 @@ export const Handbook = () => {
 						/>
 						<CardHidden
 							handbook
-							delay=".4s"
-							icon="faqs"
-							title="Help Center"
-							text="Design docs for Liferay-ers"
-							to="https://help.liferay.design"
-							cta="Read the manual"
-						/>
-						<CardHidden
-							handbook
 							delay=".5s"
 							icon="waffle"
 							title="Style"
