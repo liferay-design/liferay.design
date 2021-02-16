@@ -9,7 +9,7 @@ order: 320
 draft: false
 ---
 
-![indeterminate progress bar](/images/lexicon/ProgressBar30.jpg)
+![indeterminate progress bar](./progress-bar-1.png)
 
 ### Usage
 
@@ -21,19 +21,19 @@ Progress bars are used as a feedback mechanism for system tasks. As long as the 
 
 The progress bar grows in primary color, and the label changes to reflect the completion percentage.
 
-![indeterminate progress bar](/images/lexicon/ProgressBar30.jpg)
+![indeterminate progress bar](./progress-bar-1.png)
 
 #### Warning
 
 The warning state indicates that something happened and interrupted the process.
 
-![indeterminate progress bar](/images/lexicon/ProgressBar70.jpg)
+![indeterminate progress bar](./progress-bar-2.png)
 
 #### Finished
 
 The finished state indicates that the process is completed successfully when the label changes to the success icon.
 
-![indeterminate progress bar](/images/lexicon/ProgressBar100.jpg)
+![indeterminate progress bar](./progress-bar-3.png)
 
 ### Dos and Don'ts
 
