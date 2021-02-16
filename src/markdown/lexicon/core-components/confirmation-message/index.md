@@ -6,7 +6,7 @@ order: 240
 draft: false
 ---
 
-![confirmation message](/images/lexicon/ConfirmationMessage.jpg)
+![confirmation message](./confirmation-message.png)
 
 ### Usage
 
@@ -38,7 +38,7 @@ Follow these guidelines to write a good confirmation message:
 -   Provide exact information to your user, so there is no uncertainty on the action to be confirmed.
 -   Address your questions and statements so they can be easily answered with "Ok" and "Cancel", as they are provided by the browser.
 
-![confirmation message](/images/lexicon/ConfirmationMessage.jpg)
+![confirmation message](./confirmation-message.png)
 
 ### Implementation
 
