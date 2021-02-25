@@ -9,7 +9,7 @@ order: 210
 draft: false
 ---
 
-![card with image default state](./cards-1.png)
+![card with image default state](./images/cards-1.png)
 
 ### Usage
 
@@ -49,23 +49,23 @@ The only required element for a card is the image. Everything else can be remove
 
 #### Default
 
-![card with image default state](./cards-1.png)
+![card with image default state](./images/cards-1.png)
 
 #### Hover
 
-![card with image hover state, blue border](./cards-2.png)
+![card with image hover state, blue border](./images/cards-2.png)
 
 #### Active
 
-![card with image selected state, blue border and check marked](./cards-3.png)
+![card with image selected state, blue border and check marked](./images/cards-3.png)
 
 #### Empty
 
-![card with image empty state, no image, gray background grid](./cards-4.png)
+![card with image empty state, no image, gray background grid](./images/cards-4.png)
 
 ### Attributes
 
-![7 possible parts of a card](./cards-5.png)
+![7 possible parts of a card](./images/cards-5.png)
 
 1. Checkbox
 2. Image
