@@ -9,7 +9,7 @@ order: 228
 draft: false
 ---
 
-![Charts line example with different lines types and shape types](/images/lexicon/charts-26.png)
+![Charts line example with different lines types and shape types](./images/charts-26.png)
 <br/>
 <br/>
 
@@ -29,8 +29,8 @@ You can use either [Pattern](./../) (line type or shape type) for Line Charts to
 
 #### Chart item interaction
 
-![Line chart with 4 datasets, the red line, circular dots, has one item selected](/images/lexicon/charts-28.png)
+![Line chart with 4 datasets, the red line, circular dots, has one item selected](./images/charts-28.png)
 
 #### Legend item interaction
 
-![Line chart with 4 datasets, the red line, circular dots. Red line selected from the legend](/images/lexicon/charts-27.png)
+![Line chart with 4 datasets, the red line, circular dots. Red line selected from the legend](./images/charts-27.png)

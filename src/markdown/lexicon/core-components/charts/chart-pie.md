@@ -9,7 +9,7 @@ order: 229
 draft: false
 ---
 
-![Pie chart with 4 different elements](/images/lexicon/charts-29.png)
+![Pie chart with 4 different elements](./images/charts-29.png)
 
 ### Color use
 
@@ -19,4 +19,4 @@ The Pie Chart must follow the standard color order for charts: the first chart e
 
 #### Chart item interaction
 
-![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/images/lexicon/charts-30.png)
+![Intertaction on the blue pie piece of the chart, corresponding to Facebook](./images/charts-30.png)

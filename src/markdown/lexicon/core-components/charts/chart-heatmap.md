@@ -8,7 +8,7 @@ order: 227
 draft: false
 ---
 
-![Heatmap chart](/images/lexicon/charts-21.png)
+![Heatmap chart](./images/charts-21.png)
 
 ### Color use
 
@@ -22,16 +22,16 @@ To improve the activities readability, you can use up to seven different circle 
 
 #### Single item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/charts-22.png)
+![heatmap interaction with an element in the chart](./images/charts-22.png)
 
 #### X-axis item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/charts-23.png)
+![heatmap interaction with an element in the chart](./images/charts-23.png)
 
 #### Y-axis item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/charts-24.png)
+![heatmap interaction with an element in the chart](./images/charts-24.png)
 
 #### Legend item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/charts-25.png)
+![heatmap interaction with an element in the chart](./images/charts-25.png)
