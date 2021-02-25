@@ -9,7 +9,7 @@ order: 313
 draft: false
 ---
 
-![vertical navigation component](./navigation-11.png)
+![vertical navigation component](./images/navigation-11.png)
 
 ### Usage
 
@@ -17,29 +17,29 @@ This pattern is always vertical and placed on the left side of the form. It prov
 
 Vertical Navigation is commonly used in form templates. We recommend that you split long forms into smaller forms to make the task easier. 
 
-![Vertical navigation component in a page context](./navigation-12.png)
+![Vertical navigation component in a page context](./images/navigation-12.png)
 
 
 ### States
 
 #### Default state
 
-![Navigation entry in default state](./navigation-13.png)
+![Navigation entry in default state](./images/navigation-13.png)
 
 #### Hover state
 
-![Navigation entry in hover state](./navigation-14.png)
+![Navigation entry in hover state](./images/navigation-14.png)
 
 #### Active state
 
-![Navigation entry in active state](./navigation-15.png)
+![Navigation entry in active state](./images/navigation-15.png)
 
 #### Selected state
 
-![Navigation entry in selected state](./navigation-16.png)
+![Navigation entry in selected state](./images/navigation-16.png)
 
 ### Mobile
 
 On mobile devices, the navigation transforms into a full-width collapsible menu that's displayed right before the form. This menu is always displayed over the form when it's opened, so it never pushes down the content.
 
-![Nested navigation translated into a select with a collapsible panel. On the left image the panel is closed. On the right image the panel is open.](./navigation-17.png)
+![Nested navigation translated into a select with a collapsible panel. On the left image the panel is closed. On the right image the panel is open.](./images/navigation-17.png)
