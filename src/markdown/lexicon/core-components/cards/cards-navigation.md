@@ -8,7 +8,7 @@ order: 212
 draft: false
 ---
 
-![navigation card default state](./cards-18.png)
+![navigation card default state](./images/cards-18.png)
 
 ### Usage
 
@@ -25,12 +25,12 @@ You can find it in two formats:
 
 #### Default
 
-![navigation card default state](./cards-18.png)
+![navigation card default state](./images/cards-18.png)
 
 #### Hover
 
-![navigation card hover state, the background shades in gray and a blue line appears below](./cards-19.png)
+![navigation card hover state, the background shades in gray and a blue line appears below](./images/cards-19.png)
 
 #### Active
 
-![navigation card active state, the background gets a bit darker than in hover state](./cards-20.png)
+![navigation card active state, the background gets a bit darker than in hover state](./images/cards-20.png)
