@@ -9,17 +9,17 @@ order: 311
 draft: false
 ---
 
-![breadcrumb without collapsing](./navigation-1.png)
+![breadcrumb without collapsing](./images/navigation-1.png)
 <br/>
 <br/>
 
-![breadcrumb collapsing with a dropdown button on the left side](./navigation-2.png)
+![breadcrumb collapsing with a dropdown button on the left side](./images/navigation-2.png)
 
 ### Usage
 
 Breadcrumb works the same way across all viewport sizes. When there isn't enough space on the screen to display all the breadcrumbs, the first levels are collapsed into a dropdown menu. This allows the user to read and navigate to the previous closer levels, and also lets them navigate to other levels easily.
 
-![breadcrumb with a dropdown menu open](./navigation-3.png)
+![breadcrumb with a dropdown menu open](./images/navigation-3.png)
 
 -   The breadcrumb is always horizontal.
 -   Long crumbs can be reduced using ellipsis.
