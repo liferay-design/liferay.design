@@ -9,7 +9,7 @@ order: 243
 draft: false
 ---
 
-![default dropdown menu](/images/lexicon/Dropdown.jpg)
+![default dropdown menu](./images/dropdowns-1.png)
 
 ### Usage
 
@@ -35,39 +35,40 @@ The distance between the trigger button and the dropdown must be 8px.
 
 The default dropdown is a panel that doesn't support scrolling for the content inside it. Use the default configuration when you have a small number of options or when the panel is big enough to contain all the elements you want to use.
 
-![default dropdown menu](/images/lexicon/Dropdown.jpg) ![default dropdown menu](/images/lexicon/DropdownRegular.jpg)
+![default dropdown menu](./images/dropdowns-2.png)
 
 #### Dropdown with dividers
 
 Use a dropdown menu with dividers to keeps actions organized in an actions menu. Organizing the actions by context of use makes it easier for users to find them.
 
-![dropdown menu with search field](/images/lexicon/DropdownActions.jpg)
+![dropdown menu with search field](./images/dropdowns-3.png)
 
 #### Dropdown with checkbox or radio
 
 Dropdowns can be configured to have checkboxes and/or radio groups. You can use checkboxes to filter dataset elements, while a radio can be useful for ordering the criteria in a dataset.
 
-![dropdown menu with a list of checkbox example](/images/lexicon/DropdownCheckbox.jpg) ![dropdown menu with a list of checkbox states](/images/lexicon/DropdownCheckboxTypes.jpg)
+![left: dropdown menu with a list of checkbox example. Right: dropdown menu with a list of checkbox states](./images/dropdowns-4.png)
 
 #### Dropdown with search field
 
 Action menus can sometimes contain multiple elements, making it a little time consuming to scroll through the entire list of options. In these cases, you can add a search field to your dropdown menu so your users can quickly find the action and move on to their next task.
 
-![dropdown menu with search example](/images/lexicon/DropdownSearch.jpg) ![dropdown menu with search states](/images/lexicon/DropdownSearchTypes.jpg)
+![left: dropdown menu with search example. Right: dropdown menu with search states](./images/dropdowns-5.png)
 
 #### Dropdown with icons on the left
 
 Dropdown menus with icons on the left are suitable for process bars (wizards), when the number of steps do not fit the screen. This configuration can display the remaining steps.
-![dropdown menu with icons to the left](/images/lexicon/DropdownRegularLeftIcons.jpg)
+![dropdown menu with icons to the left](./images/dropdowns-6.png)
 
 This configuration is also suitable to help quickly identify an actions menu item with an icon that closely relates to it.
-![dropdown menu with icons to the left](/images/lexicon/DropdownActionLeftIcon.jpg)
+
+![dropdown menu with icons to the left](./images/dropdowns-7.png)
 
 #### Dropdown with icons on the right
 
 Dropdown menus with icons on the right are suitable for process bars (wizards) when the number of steps do not fit the screen. It displays the remaining steps and emphasizes the step number by placing the icon on the right side.
 
-![dropdown menu with icons to the right example](/images/lexicon/DropdownRegularRightIcons.jpg) ![dropdown menu with icons to the right states](/images/lexicon/DropdownRegularRightIconsTypes.jpg)
+![left: dropdown menu with icons to the right example. right: dropdown menu with icons to the right states](./images/dropdowns-8.png)
 
 #### Dropdown with groups
 
@@ -75,13 +76,13 @@ This dropdown menu variation is for use with the management bar Filter and Order
 
 Buttons in dropdown groups can either be primary or secondary, depending on the application needs.
 
-![dropdown menu with groups examples](/images/lexicon/DropdownMultiple.jpg) ![dropdown menu with groups](/images/lexicon/DropdownMultipleTypes.jpg)
+![left: dropdown menu with groups examples. right: dropdown menu with groups](./images/dropdowns-9.png)
 
 ### Sorting actions
 
 #### Dropdown menu from actions button
 
-![dropdown menu actions sort](/images/lexicon/DropdownActionSort.jpg)
+![dropdown menu actions sort](./images/dropdowns-10.png)
 
 Below is a list of guidelines for creating actions menus. Note that not all of these guidelines are always required:
 
@@ -114,7 +115,7 @@ Users can customize a list of favorites in the plus button's dropdown menu, as s
 
 _Note: The default behaviour of the More button is to load more items in the dropdown menu, but it is not the desired one._
 
-![dropdown menu actions in plus button with favorites configuration](/images/lexicon/DropdownPlusButtonCase1.jpg)
+![dropdown menu actions in plus button with favorites configuration](./images/dropdowns-11.png)
 
 Favorites are ordered using the following rules:
 
@@ -125,7 +126,7 @@ Out of the favorites the order is ruled as follows:
 
 Dropdown menus for plus buttons can also contain scrollbars to view a long list of items, as shown in the image below.
 
-![dropdown menu actions in plus button with favorites configuration and scroll bar case](/images/lexicon/DropdownPlusButtonCase2.jpg)
+![dropdown menu actions in plus button with favorites configuration and scroll bar case](./images/dropdowns-12.png)
 
 When creating dropdown menus for plus buttons, please follow the guidelines shown below:
 
@@ -142,9 +143,3 @@ When creating dropdown menus for plus buttons, please follow the guidelines show
     - Place the most used item first.
     - Place the remaining items in alphabetical order.
 4. The dropdown menu can't exceed 15 actions.
-
-### Attributes
-
-![dropdown entries metrics](/images/lexicon/DropdownMetrics.jpg)
-
-![dropdown entries metrics when checkbox or radios appear](/images/lexicon/DropdownCheckboxMetrics.jpg)
