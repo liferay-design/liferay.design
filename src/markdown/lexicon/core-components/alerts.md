@@ -52,21 +52,21 @@ The image below shows the metrics for an alert's design:
 
 ### Variations
 
-#### Alert indicator
+#### Feedback indicator
 
-Alert indicator is the minimum expression of an alert to capture the user's attention. As an indicator, you can use a status icon to easily identify the warning message with the element.
+Feedback indicator is the minimum expression of an alert to capture the user's attention. As an indicator, you can use a status icon to easily identify the warning message with the element.
 
 ![the four alert indicators: success, error, info and warning](/images/lexicon/AlertIndicator.jpg)
 
-Alert indicators can be used in scenarios such as forms or sidebars  to capture the user's attention in specific places without the need of displaying a more prominent notification.
+Feedback indicators can be used in scenarios such as forms or sidebars  to capture the user's attention in specific places without the need of displaying a more prominent notification.
 
 An example is shown below:
 
-![alert indicator icon with message showed in a sidebar](/images/lexicon/AlertIndicatorExample.jpg)
+![feedback indicator icon with message showed in a sidebar](/images/lexicon/AlertIndicatorExample.jpg)
 
 If the meaning of the icon is not explicit with text, a tooltip should be shown when the user hovers over the status icon.
 
-![alert indicator icon with message showed in a sidebar](/images/lexicon/AlertIndicatorTooltipExample.jpg)
+![feedback indicator icon with message showed in a sidebar](/images/lexicon/AlertIndicatorTooltipExample.jpg)
 
 #### Toast
 
