@@ -121,7 +121,7 @@ This variation shows a section hierarchy of a page customizing some node propert
 
 This variation shows a hierarchy of items that can be selected directly using buttons. A known example in Liferay products is the Vocabulary tree view within the Category selector in DXP:
 
-![An example of the tree view with toggle buttons variant](./images/tree-view-09.png)     
+![An example of the tree view with toggle variant](./images/tree-view-09.png)     
 
 ### Focus Management
 
