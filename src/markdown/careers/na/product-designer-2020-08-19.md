@@ -4,7 +4,7 @@ date: '2020-08-19'
 title: 'Product Designer'
 office: 'Diamond Bar'
 featuredImage: '/images/articles/ux-designer.jpg'
-published: true
+published: false
 ---
 
 _Note — this opportunity is remote in North America time zones._
