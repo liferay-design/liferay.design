@@ -32,14 +32,14 @@ export default () => {
 	`)
 	return (
 		<div>
-			<BillboardAlt
+			{/* <BillboardAlt
 				annualReport
 				heading="What a Year!"
 				subtitle="Not even 2020 could stop us from releasing our 3rd annual&nbsp;report!"
 				cta="Check it out"
 				ctaUrl="/2020"
 				background="white"
-			/>
+			/> */}
 			<MainLayout>
 				<HeroBanner />
 				<SideTab
