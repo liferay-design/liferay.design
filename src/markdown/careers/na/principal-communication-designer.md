@@ -1,7 +1,7 @@
 ---
 jobId: 'omiyefwa'
 date: '2021-02-04'
-title: 'Senior Communication Designer'
+title: 'Principal Communication Designer'
 office: 'Diamond Bar'
 featuredImage: '/images/articles/design-week-n.jpg'
 published: true
