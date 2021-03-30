@@ -22,7 +22,7 @@ Definitely writing & playing music! Currently I am working on music for a film a
 
 ### What does your desktop/home screen look like? 💻
 
-Right now, [this image](https://unsplash.com/photos/Mw2-KsA6PpY). It's a pretty weird picture but I love all the texture & rich color in it. There is also one folder. It's called Temp with 80 items in it that has been there for about a year hahah.
+Right now the background is the default Big Sur image, a task folder for 2021, a Wes Anderson movie folder, a screen recording folder and a lot of files that were supposed to be in the screen record folder
 
 ### Favorite place to visit? 📍
 
