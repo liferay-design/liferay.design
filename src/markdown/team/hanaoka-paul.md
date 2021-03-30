@@ -34,7 +34,7 @@ Don't make excuses &mdash; everybody is busy, people make time for what is impor
 
 ### Last book you read?
 
-[The Service Innovation Handbook](https://serviceinnovationhandbook.org/) &mdash; some of my teammates gave this to me for my birthday, I really love it.
+Taking Brand Initiative: How Companies Can Align Strategy, Culture, and Identity Through Corporate Branding by Majken Schultz and Mary Jo Hatch
 
 ### Most effective productivity booster?
 

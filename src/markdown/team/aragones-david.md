@@ -40,7 +40,7 @@ The classic: Ctrl + Alt + Supr.
 
 ### Favorite place to visit?
 
-Venice in the sunset, when the tourists have dinner.
+My hometown, Valencia.
 
 ### Advice for ambitious designers?
 

@@ -26,6 +26,10 @@ I'm getting better at knowing how to listen to people, I mean, knowing how to se
 
 Probably an architect.
 
+### Last book you read?
+
+The Laws of Simplicity by John Maeda
+
 ### Most effective productivity booster?
 
 A good playlist.

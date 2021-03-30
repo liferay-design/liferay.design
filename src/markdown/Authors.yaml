@@ -36,6 +36,12 @@
   icon: fa_universal_access
   startDate: 2016-08-22
   office: Madrid
+- id: Déborah Silva
+  title: Associate Product Designer
+  active: true
+  icon: fa_pen_nib
+  startDate: 2021-03-08
+  office: Recife
 - id: Emiliano Cicero
   title: Senior Product Designer
   active: true
