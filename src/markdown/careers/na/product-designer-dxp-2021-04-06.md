@@ -4,7 +4,7 @@ date: '2021-02-03'
 title: 'Product Designer'
 office: 'Diamond Bar'
 featuredImage: '/images/articles/2019-symposium/susana-on-stage.jpg'
-published: true
+published: false
 ---
 
 ## _Based in Los Angeles, but open to remote candidates in North American time zones._
