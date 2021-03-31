@@ -86,6 +86,12 @@
   icon: fa_coffee
   startDate: 2017-01-09
   office: Diamond Bar
+- id: Makena Ford
+  title: Senior Product Designer
+  active: true
+  icon: fa_ghost
+  startDate: 2021-03-29
+  office: Seattle
 - id: Markus Hammer
   title: Senior Communication Designer
   active: true
@@ -150,15 +156,6 @@
   icon: fa_crow
   startDate: 2020-08-06
   office: Madrid
-- id: Ryan Connolly
-  title: Principal Designer
-  active: true
-  icon: fa_pen
-  startDate: 2017-04-24
-  office: Diamond Bar
-  links:
-      dribbble: 'ryconn888'
-      instagram: 'ryconndesign'
 - id: Susana Vázquez
   title: Manager, Product Design
   active: true
@@ -296,6 +293,15 @@
   icon: fa_stroopwafel
   startDate: 2008-08-01
   office: Diamond Bar
+- id: Ryan Connolly
+  title: Principal Designer
+  active: false
+  icon: fa_pen
+  startDate: 2017-04-24
+  office: Diamond Bar
+  links:
+      dribbble: 'ryconn888'
+      instagram: 'ryconndesign'
 
   # Friends of Design :)
 - id: Angelo Youn
