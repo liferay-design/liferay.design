@@ -108,6 +108,14 @@
       dribbble: 'MarkusHmr'
       unsplash: 'markushmr'
       instagram: '_marcuz__'
+- id: Maria Arce
+  title: Associate Product Designer
+  active: true
+  icon: fa_pen_fancy
+  startDate: 2021-04-05
+  office: Madrid
+  links:
+      instagram: 'sinreproche'
 - id: Marleny Francisco
   title: Communication Designer
   active: true
