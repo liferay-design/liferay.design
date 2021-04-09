@@ -2,7 +2,7 @@
 draft: false #required (true or false)
 
 #Event Card Fields
-title: 'Figma Barcelona' #required
+title: 'Friends of Figma Barcelona' #required
 featuredImage: '/images/events/figma-barcelona-banner.png' #required
 office: 'Remote' #required
 
