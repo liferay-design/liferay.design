@@ -186,6 +186,24 @@ export default {
 			color: 'primaryl2',
 			textDecoration: 'underline',
 		},
+		arrow: {
+			color: `primary`,
+			fontWeight: `heavy`,
+			svg: {
+				ml: '2',
+				transform: 'translateX(0)',
+				transition:
+					'transition: transform 0.4s cubic-bezier(0.075, 1.2, 0.165, 1);',
+				height: '1.4rem',
+				stroke: 'primary',
+			},
+			'&:hover': {
+				svg: {
+					transition: 'transform 0.2s cubic-bezier(0.075, 1.2, 0.165, 1)',
+					transform: 'translateX(1rem)',
+				},
+			},
+		}
 	},
 	quotes: {
 		blockQuote: {
