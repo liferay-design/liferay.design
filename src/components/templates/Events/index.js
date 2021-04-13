@@ -1,3 +1,6 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Flex, ScrollProgress } from 'components/atoms'
 import { Author, GlobalMdx, SEO, Date as NiceDate } from 'components/molecules'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
@@ -5,7 +8,7 @@ import { Footer, Navbar } from 'components/organisms'
 import { Link } from 'components/atoms'
 import { graphql } from 'gatsby'
 import moment from 'moment'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import styles from './styles.module.scss'
 
 export default class Events extends Component {
@@ -93,7 +96,7 @@ export default class Events extends Component {
 						{post.frontmatter.author ? (
 							<Author
 								id={post.frontmatter.author.id}
-								margin="0 0 2rem -3.5rem"
+								sx={{m:['0 0 2rem -.4rem',"0 0 2rem -3.5rem"]}}
 							/>
 						) : null}
 						<GlobalMdx>
