@@ -1,0 +1,139 @@
+---
+draft: false #required (true or false)
+
+#Event Card Fields
+title: 'Friends of Figma Barcelona' #required
+featuredImage: '/images/events/figma-barcelona-banner.png' #required
+office: 'Remote' #required
+
+#Event Details
+date: '2021-04-07T18:00' #required (yyyy-mm-ddThh:mm)
+endDateTime: ''
+
+summary: 'David Aragonés y Rubén Jiménez presented the new version of the Lexicon component library for the Figma Design Community.'
+
+heroImage: '/images/events/fofbcn-banner.png'
+bodyImage: '/images/events/fofbcn-hero-cover.png'
+
+author: 'David Aragonés'
+
+ctaURL: 'https://friends.figma.com/events/details/figma-barcelona-presents-lexicon-presenta-la-evolucion-de-su-sistema-de-diseno-para-la-creacion-de-aplicaciones-en-liferay/'
+---
+
+import { Flex, Image, Text, Link } from 'components/atoms'
+import { Grid, Box } from 'theme-ui'
+
+_Friends of Figma Barcelona hosted the event — this is amazing because they are a very active community which we wouldn't have had the opportunity to work with if it weren't for the current situation._ 
+
+_It seems now it’s time for remote events._
+
+## The hosts
+
+[Friends of Figma Barcelona](https://friends.figma.com/barcelona/) is a community created in 2021 led by [Iban Curdu](https://twitter.com/ibancurdu) and [Carmen Ansio](https://twitter.com/carmenansio). They are friendly and very approachable and made us feel comfortable talking with them during the event. 
+
+## The event
+
+Before the event started, we were chatting informally with our hosts Iban and Carmen. Iban told us they would like to give a talk about the new feature of Figma: interactive components. So we started to talk about the [the playground file](https://www.figma.com/community/file/949638648436079728) Emiliano did a couple of weeks ago. He opened the file and said, “this is awesome.”
+
+Then a couple of minutes later, they introduce us. I started with the first part of the talk: a brief introduction of Lexicon, what it is, how we work, what plans we have for the next few years. One of the points we talked about was **uniformity**, a.k.a. "ultra-consistency" and how to avoid it using flexible components. 
+
+<Image
+	src="/images/events/fofbcn-low-level-component-slide.png"
+	rounded
+	dropShadow
+	margin="2rem 0"
+	caption="The low level component designed for Product Card"
+/>
+
+Next, Ruben gave us a talk on our most recent improvements regarding the Figma library: variants, auto layout 3.0, and the redesign of the components architecture.
+
+He showed the new updates in our [library](https://www.figma.com/community/file/961581638760900307) to improve our design and development teams’ use of our components, the new internal [documentation](https://liferay.design/lexicon) linked to each component and usage guides to help teams to familiarize themselves with the use of design libraries.
+
+<Image
+	src="/images/events/fofbcn-documentation-slide.png"
+	rounded
+	dropShadow
+	margin="2rem 0"
+	caption="The new library includes descriptions and use guides"
+/>
+
+As part of the efforts to adapt our libraries to the new features introduced by Figma, we have assembled the component architecture from master units. This makes it easier to manage the library and improve its **scalability** while avoiding wasting time when iterating on changes/improvements that may come. 
+
+Finally, we discussed some of our next steps to continue expanding Lexicon in the future. 
+
+## The talks
+
+### Introducing Lexicon
+
+<Image
+	src="/images/articles/2021-fof-bcn/fofbcn-david-cover-slide.png"
+	rounded
+	dropShadow
+	margin="2rem 0"
+/>
+
+[David Aragonés](/team/aragones-david) from Liferay Design talked about Lexicon as a design language and the difference designing using high-level and low-level components.
+
+For a summary of their presentation, video, and slides — [see his talk page](/articles/talks/introduccion-a-lexicon/).
+
+### Optimizing Design Experience with Figma
+
+<Image
+	src="/images/articles/2021-fof-bcn/fofbcn-ruben-cover-slide.png"
+	rounded
+	dropShadow
+	margin="2rem 0"
+/>
+
+[Rubén Jiménez](/team/jimenez-ruben) from Liferay Design showed off the exciting [new component library](https://www.figma.com/community/file/961581638760900307) with variants and autolayout 3.0. 
+
+For a summary of their presentation, video, and slides — [see his talk page](/articles/talks/mejorando-la-experiencia-de-diseño-en-liferay-con-figma/).
+
+## The beers
+
+😢 Beers at home. We are happy that people showed so much interest that we spent over an hour with the Q&A. Questions about typography, the performance problems they are experiencing with variants, how we test components, and our internal organization...
+
+## Conclusions
+
+We had a great time and received very good feedback.
+
+So, it was good to fight our demons. In my case, talking in public is always a challenge. But being honest, at home, with no distractions, it was easy peasy. Not really 😛, but I’m satisfied with the result.
+
+Rubén nailed a live test of our new functionalities, and the audience was pretty amazed at being able to see the work we have done so far.
+
+Nerves turned into excitement as we saw the response the presentation was getting. This gives us great encouragement to continue working in the same direction.
+
+Thank you, [Susana](/team/vazquez-susana) and [María](/team/arce-maria) (our newest member), for attending the talk. We appreciate your support!
+
+It was a walk in the park, next talk, 🤩 here we go!
+
+## Speakers
+
+<div style="width:102%;margin-left:-1%;">
+	<Grid
+		sx={{
+			gridTemplateColumns: '3rem 1fr 3rem 1fr',
+			autoRows: 'auto',
+			gridGap: '1rem',
+		}}
+	>
+		<Box>
+			<Image src="images/headshots/aragones-david.jpg" circle margin=".5rem 0" />
+		</Box>
+		<Box>
+			<Link to="/team/aragones-david">
+				<Heading level={3}>David Aragonés</Heading>
+			</Link>
+			<Text>Design System Lead</Text>
+		</Box>
+		<Box>
+			<Image src="images/headshots/jimenez-ruben.jpg" circle margin=".5rem 0" />
+		</Box>
+		<Box>
+			<Link to="/team/jimenez-ruben">
+				<Heading level={3}>Rubén Jiménez</Heading>
+			</Link>
+			<Text>Senior Product Designer</Text>
+		</Box>
+	</Grid>
+</div>
