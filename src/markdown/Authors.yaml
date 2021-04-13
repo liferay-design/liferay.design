@@ -48,19 +48,6 @@
   icon: fa_bezier_curve
   startDate: 2016-08-10
   office: Madrid
-- id: Felipe Pires
-  title: Senior Product Designer
-  active: true
-  icon: fa_dumbbell
-  startDate: 2015-09-01
-  office: Recife
-  links:
-      website: https://www.fpires.me
-      dribbble: 'felipepires'
-      figma: 'fpires'
-      github: 'fapires'
-      instagram: 'felippires'
-      twitter: 'felipeapiress'
 - id: Jon Wood
   title: Senior Product Designer
   active: true
@@ -316,6 +303,19 @@
   links:
       dribbble: 'ryconn888'
       instagram: 'ryconndesign'
+- id: Felipe Pires
+  title: Senior Product Designer
+  active: false
+  icon: fa_dumbbell
+  startDate: 2015-09-01
+  office: Recife
+  links:
+      website: https://www.fpires.me
+      dribbble: 'felipepires'
+      figma: 'fpires'
+      github: 'fapires'
+      instagram: 'felippires'
+      twitter: 'felipeapiress'
 
   # Friends of Design :)
 - id: Angelo Youn
