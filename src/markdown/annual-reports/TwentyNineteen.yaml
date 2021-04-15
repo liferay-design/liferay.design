@@ -249,7 +249,7 @@ opsSection:
 thankYou:
     title: Thank you for a great year
     subtitle: From el Director
-    message: |
+    body: |
         Design at Liferay is maturing and growing at an amazing rate. From Communication, to Product, to Research — all of our departments are finding new ways to contribute to the bottom line.
 
         We have lofty goals for 2020 and I'm very excited to see us continue to scale and serve each other, our various business units, and our local and global communities.

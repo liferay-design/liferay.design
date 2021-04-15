@@ -268,10 +268,12 @@ thankYou:
     pretitle: 2020 Hindsight
     title: "A year of uncertainty, met\_with\_resilience."
     message:
-        part1: |
-            While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years.
+        part1: 
+            title: null
+            body: |
+                  While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years.
 
-            We’ve been able to rely on one another through our personal and professional journeys — now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
+                  We’ve been able to rely on one another through our personal and professional journeys — now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
         part2:
             title: What’s next?
             body: |
