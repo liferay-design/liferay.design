@@ -416,7 +416,7 @@ const TwentyNineteen = () => {
 					<Content
 						pretitle={data.thankYou.subtitle}
 						title={data.thankYou.title}
-						copy={data.thankYou.message}
+						copy={data.thankYou.body}
 						align="left"
 					/>
 					<div className={styles.p}>

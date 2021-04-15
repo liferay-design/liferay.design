@@ -609,7 +609,7 @@ const TwentyTwenty = () => {
 						title={data.thankYou.title}
 					/>
 					<ThankYou
-						message={data.thankYou.message.part1}
+						message={data.thankYou.message.part1.body}
 						nextTitle={data.thankYou.message.part2.title}
 						nextBody={data.thankYou.message.part2.body}
 						authorName={data.thankYou.author.name}
