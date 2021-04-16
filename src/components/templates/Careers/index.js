@@ -58,8 +58,12 @@ export default class Careers extends Component {
 						<h1>
 							{post.frontmatter.title}
 							<span>
+								{post.frontmatter.remote === true
+									? 'Remote in ' +
+									  post.frontmatter.office.country + ', based in '
+									: null}
 								{post.frontmatter.office.city},{' '}
-								{post.frontmatter.office.region}{' '}
+								{post.frontmatter.office.state}{' '}
 							</span>
 						</h1>
 					</div>
@@ -106,9 +110,11 @@ export const pageQuery = graphql`
 		mdx(fields: { slug: { eq: $slug } }) {
 			frontmatter {
 				jobId
+				remote
 				office {
 					city
-					region
+					state
+					country
 				}
 				title
 				featuredImage

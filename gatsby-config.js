@@ -165,6 +165,8 @@ module.exports = {
 		'MarkdownRemark.frontmatter.author': `AuthorsYaml`,
 		'Mdx.frontmatter.author': `AuthorsYaml`,
 		'AuthorsYaml.office': `OfficesYaml.id`,
+		'CountriesYaml.hq': `OfficesYaml.id`,
+		'OfficesYaml.region': `CountriesYaml.id`,
 		'MarkdownRemark.frontmatter.office': `OfficesYaml`,
 		'Mdx.frontmatter.office': `OfficesYaml`,
 		'ChangelogYaml.author': `AuthorsYaml.id`,

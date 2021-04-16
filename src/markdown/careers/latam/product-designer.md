@@ -5,6 +5,7 @@ jobId: 'oVKGefwj'
 featuredImage: '/images/design-wall-exercise.jpg'
 date: '2020-02-22'
 published: true
+remote: true
 ---
 
 ## Role & Requirements

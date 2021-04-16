@@ -5,6 +5,7 @@ title: 'Senior Designer: Design Ops'
 office: 'Recife'
 featuredImage: '/images/articles/liferay-great-place-to-work.jpeg'
 published: true
+remote: true
 ---
 
 ## Remote Friendly, Based in Brazil

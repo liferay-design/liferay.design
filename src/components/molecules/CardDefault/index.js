@@ -83,8 +83,21 @@ const CardDefault = ({
 							alt={'image for ' + `${title}`}
 							src={imageURL}
 						/>
-						{pill ? (
-							<Text className={styles.pill} weight="black">
+						{pill && tag ? (
+							<Text
+								sx={{
+									position: 'absolute',
+									top: -2,
+									left: 2,
+									backgroundColor: 'primary',
+									color: 'white',
+									fontWeight: 'bold',
+									variant: 'text.caps',
+									py: 1, 
+									px: 2,
+									borderRadius: '2em',
+								}}
+							>
 								{tag}
 							</Text>
 						) : null}
