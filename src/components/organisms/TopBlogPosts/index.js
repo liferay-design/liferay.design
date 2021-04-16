@@ -11,8 +11,8 @@ export default () => {
 			allMdx(
 				limit: 3
 				filter: {
-					fileAbsolutePath: { regex: "/(articles)/" }
-					frontmatter: { publish: { eq: true } }
+					fileAbsolutePath: { regex: "/(articles)/|/(events)/" }
+					frontmatter: { publish: { eq: true }, tags: { nin: ["Talks"] } }
 				}
 				sort: { order: DESC, fields: [frontmatter___date] }
 			) {
@@ -27,6 +27,7 @@ export default () => {
 							author {
 								id
 							}
+							tags
 						}
 						fields {
 							slug
