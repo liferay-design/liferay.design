@@ -186,6 +186,14 @@
   office: Madrid
   links:
       twitter: 'victorvj06'
+- id: Chika Noguchi
+  title: Senior Product Designer APEC
+  active: true
+  icon: fa_globe-asia
+  startDate: 2021-04-01
+  office: Tokyo
+  links:
+      instagram: 'noguchika'
 
 # Inactive Designers
 - id: Cassandra Balbas
