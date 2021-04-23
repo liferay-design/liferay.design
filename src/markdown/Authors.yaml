@@ -193,7 +193,13 @@
   startDate: 2021-04-01
   office: Tokyo
   links:
-      instagram: 'noguchika'
+      instagram: 'noguchika'	  
+- id: May Chen
+  title: Product Designer
+  active: true
+  icon: fa_pepper_hot_solid
+  startDate: 2021-04-20
+  office: Diamond Bar
 
 # Inactive Designers
 - id: Cassandra Balbas
