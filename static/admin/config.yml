@@ -52,9 +52,9 @@ collections:
                   widget: list
                   fields:
                       - { label: Name, name: id, widget: string }
-                      - { label: Flag Icon, name: regionIcon, widget: string }
+                      - { label: Flag Icon, name: countryIcon, widget: string }
                       - { label: City, name: city, widget: string }
-                      - { label: Region, name: region, widget: string }
+                      - { label: State, name: state, widget: string }
                       - { label: Country, name: country, widget: string }
                       - { label: Google Map URL, name: mapURL, widget: string }
     - name: articles

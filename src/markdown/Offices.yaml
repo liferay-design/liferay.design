@@ -1,56 +1,64 @@
 - id: Madrid
-  regionIcon: /images/offices/flag-es.png
+  countryIcon: /images/offices/flag-es.png
   city: Madrid
-  region: Spain
+  state: Spain
   country: Spain
+  region: EMEA
   mapURL: https://goo.gl/maps/JQZZugSQ5iG2
   # photo: /images/offices/madrid.jpg
 - id: Diamond Bar
-  regionIcon: /images/offices/flag-us.png
+  countryIcon: /images/offices/flag-us.png
   city: Los Angeles
-  region: California
+  state: California
   country: USA
+  region: NA
   mapURL: https://goo.gl/maps/q1BzwoswY112
   # photo: /images/offices/diamond-bar.jpg
 - id: Concorezzo
-  regionIcon: /images/offices/flag-it.png
+  countryIcon: /images/offices/flag-it.png
   city: Milan
-  region: Italy
+  state: Italy
   country: Italy
+  region: EMEA
   mapURL: https://g.page/liferay-italia
   # photo: /images/offices/milan.jpg
 - id: Recife
-  regionIcon: /images/offices/flag-br.png
+  countryIcon: /images/offices/flag-br.png
   city: Recife
-  region: Pernambuco
+  state: Pernambuco
   country: Brazil
+  region: LATAM
   mapURL: https://goo.gl/maps/gdSLtTExUZ2hkWhr9
   # photo: /images/offices/recife.jpg
 - id: Eschborn
-  regionIcon: /images/offices/flag-de.png
+  countryIcon: /images/offices/flag-de.png
   city: Frankfurt
-  region: Germany
+  state: Germany
   country: Germany
+  region: EMEA
   mapURL: https://goo.gl/maps/yeBHRXzZGndiAREm9
   # photo: /images/offices/eschborn.jpg
 - id: Budapest
-  regionIcon: /images/offices/flag-hu.png
+  countryIcon: /images/offices/flag-hu.png
   city: Budapeset
-  region: Hungary
+  state: Hungary
   country: Hungary
+  region: EMEA
   mapURL: https://goo.gl/maps/7myccADWQnNkyqny7
   # photo: /images/offices/budapest.jpg
 - id: Remote
-  regionIcon: /images/offices/desicon.png
+  countryIcon: /images/offices/desicon.png
   city: Remote
-  region: localhost
+  state: localhost
   country: 127.0.0.1
+  region: null
   mapURL: https://goo.gl/maps/
   # photo: /images/offices/budapest.jpg
 - id: Tokyo
-  regionIcon: /images/offices/flag-jp.png
+  countryIcon: /images/offices/flag-jp.png
   city: Tokyo
-  region: Japan
+  state: Japan
   country: Japan
+  region: APAC
   mapURL: https://goo.gl/maps/fYgfFMFSQHMfm9499
   # photo: /images/offices/budapest.jpg

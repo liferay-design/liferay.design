@@ -67,7 +67,7 @@ export default class Events extends Component {
 							<span className={styles.locationName}>
 								<Link to={post.frontmatter.office.mapURL}>
 									{post.frontmatter.office.id},{' '}
-									{post.frontmatter.office.region}
+									{post.frontmatter.office.state}
 								</Link>
 							</span>
 						</h2>
@@ -118,7 +118,7 @@ export const pageQuery = graphql`
 				office {
 					id
 					city
-					region
+					state
 					mapURL
 				}
 				date

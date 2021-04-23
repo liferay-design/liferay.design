@@ -1,0 +1,16 @@
+- id: NA
+  countryIcon: /images/offices/globe-am.png
+  hq: Diamond Bar
+  countries: ['Canada', 'USA', 'Mexico']
+- id: LATAM
+  countryIcon: /images/offices/globe-am.png
+  hq: Recife
+  countries: ['Argentina', 'Brazil', 'Chile', 'Colombia', 'Mexico', 'Peru']
+- id: EMEA
+  countryIcon: /images/offices/globe-emea.png
+  hq: Eschborn
+  countries: [Germany, Spain, Portugal, UK, Ireland, Italy, Hungary, Finland, France, Netherlands]
+- id: APAC
+  countryIcon: /images/offices/globe-apac.png
+  hq: Tokyo
+  countries: [Japan, Australia, New Zealand, China, India, Singapore]
