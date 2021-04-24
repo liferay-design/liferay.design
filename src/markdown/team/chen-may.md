@@ -6,14 +6,6 @@ author: May Chen
 
 I was drawn to punk and grunge culture, so I decided to go to an art college in London to study design.
 
-### Why are you at Liferay?
-
-[answer]
-
-### Favorite tool?
-
-[answer]
-
 ### Best lifehack?
 
 Get enough sleep.
@@ -40,11 +32,11 @@ Restoration Hardware shops.
 
 ### Favorite hotkey?
 
-Command + Space = shift input language 
+Command + Space = shift input language
 
 ### Advice for ambitious designers?
 
-Have big enough ambitious to match your talent.
+Have big enough ambitions to match your talent.
 
 ### Last book you read?
 
@@ -52,7 +44,7 @@ Helmut Newton by Taschen.
 
 ### Most effective productivity booster?
 
-A quick cardio exercise or yoga. 
+A quick cardio exercise or yoga.
 
 ### What keeps you up at night?
 
