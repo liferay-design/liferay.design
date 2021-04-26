@@ -193,7 +193,8 @@
   startDate: 2021-04-01
   office: Tokyo
   links:
-      instagram: 'noguchika'	  
+      instagram: 'noguchika'
+      website: https://www.ngcka.biz/
 - id: May Chen
   title: Product Designer
   active: true
