@@ -165,7 +165,7 @@
   office: Madrid
   links:
       twitter: 'usavor'
-      website: 'http://www.suix.es'
+      website: http://www.suix.es
 - id: Sven Iten
   title: Business Partner
   active: true
@@ -194,6 +194,7 @@
   office: Tokyo
   links:
       instagram: 'noguchika'
+	  website: https://www.ngcka.biz/
 
 # Inactive Designers
 - id: Cassandra Balbas
