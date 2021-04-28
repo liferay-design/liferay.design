@@ -40,6 +40,10 @@ Additionally, you will:
 2. **Branding**: track record of building and measuring effective brands is a must.
 3. **Creative direction**: you have a strong portfolio and help others raise the bar.
 
+### Laguage requirements:
+
+* English: conversational
+
 ## What will help me stand out?
 
 1. **People management**: developing a team’s skills and careers.
