@@ -77,10 +77,6 @@ export default class Handbook extends Component {
 
 								<div
 									className={`${styles.contentWrapper} ${documentation.contentWrapper}`}
-									isMobile={matches}
-									isMobileSidebarVisible={
-										this.state.mobileSidebarVisible
-									}
 								>
 									{mdx.frontmatter.template === 'landingPage' ? (
 										<GlobalMdx>
