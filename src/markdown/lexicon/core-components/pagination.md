@@ -5,7 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/pagination.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A23383'
 docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDQnRpVXhxYWNJMmM?usp=sharing'
 description: 'Pagination provides horizontal navigation between chunks(pages) of a dataset.'
-order: 320
+order: 318
 draft: false
 ---
 
