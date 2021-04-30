@@ -35,10 +35,10 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-algolia-docsearch`,
 			options: {
-				apiKey: 'e743f8519124b276f2f3325e8e126246',
+				apiKey: process.env.ALGOLIA_KEY,
 				indexName: 'liferay_design',
 				inputSelector: '#lexicon_search',
-				debug: true,
+				debug: false,
 			},
 		},
 		'gatsby-plugin-brotli',
