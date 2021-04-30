@@ -64,12 +64,7 @@ export default class Lexicon extends Component {
 									section="Lexicon-1"
 								/>
 
-								<div
-									isMobile={matches}
-									isMobileSidebarVisible={
-										this.state.mobileSidebarVisible
-									}
-								>
+								<div>
 									<ContainerMarkdown>
 										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>

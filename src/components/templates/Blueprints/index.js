@@ -66,12 +66,7 @@ export default class Blueprints extends Component {
 									section="Blueprints"
 								/>
 
-								<div
-									isMobile={matches}
-									isMobileSidebarVisible={
-										this.state.mobileSidebarVisible
-									}
-								>
+								<div>
 									{mdx.frontmatter.template === 'landingPage' ? (
 										<GlobalMdx>
 											<MDXRenderer>{mdx.body}</MDXRenderer>
