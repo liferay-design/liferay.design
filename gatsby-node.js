@@ -127,7 +127,8 @@ exports.createPages = ({ actions, graphql }) => {
 				'Error creating newsletter pages in `createPages` call ==>',
 				errors,
 			)
-			reject(errors)
+
+			return Promise.reject(errors)
 		}
 
 		const newsletters = data.mailchimp.edges
@@ -173,4 +174,77 @@ exports.onCreatePage = async ({ page, actions }) => {
 			// Update the page.
 			createPage(page)
 		}
+}
+
+if (!process.env.MAILCHIMP_KEY) {
+	exports.createSchemaCustomization = ({ actions, schema }) => {
+		const { createTypes } = actions
+
+		const typeDefs = [
+			schema.buildObjectType({
+				fields: {
+					edges: '[EdgesNewsletter]',
+				},
+				interfaces: ['Node'],
+				name: 'Newsletter',
+			}),
+			schema.buildObjectType({
+				fields: {
+					next: 'NodeNewsletter',
+					node: 'NodeNewsletter',
+					previous: 'NodeNewsletter',
+				},
+				name: 'EdgesNewsletter',
+			}),
+			schema.buildObjectType({
+				fields: {
+					archive_html: 'String',
+					archive_url: 'String',
+					emails_sent: 'String',
+					send_time: {
+						args: { formatString: 'String' },
+						type: 'Date',
+					},
+					settings: 'NodeSettings',
+				},
+				name: 'NodeNewsletter',
+			}),
+			schema.buildObjectType({
+				fields: {
+					preview_text: 'String',
+					subject_line: 'String',
+					title: 'String',
+				},
+				name: 'NodeSettings',
+			}),
+			schema.buildInputObjectType({
+				fields: {
+					emails_sent: 'JSON',
+					send_time: 'JSON',
+					settings: 'JSON',
+				},
+				name: 'InputFilter',
+			}),
+		]
+
+		createTypes(typeDefs)
+	}
+
+	exports.createResolvers = ({ createResolvers }) => {
+		const resolvers = {
+			Query: {
+				allNewsletters: {
+					type: 'Newsletter',
+					args: {
+						filter: 'InputFilter',
+						sort: 'JSON',
+					},
+					resolve() {
+						return { edges: [] }
+					},
+				},
+			},
+		}
+		createResolvers(resolvers)
+	}
 }
