@@ -35,7 +35,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-algolia-docsearch`,
 			options: {
-				apiKey: process.env.ALGOLIA_KEY,
+				apiKey: 'e743f8519124b276f2f3325e8e126246',
 				indexName: 'liferay_design',
 				inputSelector: '#lexicon_search',
 				debug: false,
