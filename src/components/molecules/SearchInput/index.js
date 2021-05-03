@@ -25,7 +25,7 @@ export default function SearchInput({ id }) {
 
 	useEffect(() => {
 		window.docsearch({
-			apiKey: process.env.ALGOLIA_KEY,
+			apiKey: process.env.ALGOLIA_KEY || 'e743f8519124b276f2f3325e8e126246',
 			indexName: 'liferay_design',
 			inputSelector: `#${id}`,
 		})
