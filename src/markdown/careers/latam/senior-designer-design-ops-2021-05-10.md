@@ -4,7 +4,7 @@ date: '2021-02-04'
 title: 'Senior Designer: Design Ops'
 office: 'Recife'
 featuredImage: '/images/articles/liferay-great-place-to-work.jpeg'
-published: true
+published: false
 remote: true
 ---
 
