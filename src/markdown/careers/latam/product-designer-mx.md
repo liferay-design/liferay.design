@@ -34,6 +34,18 @@ Your first 90 days will be:
 * English: Conversational
 * Portuguese or Spanish: Fluent
 
+### What can we offer you?
+
+* Salary package commensurate with qualifications and experience (13 payments)
+* Health insurance (100% coverage for you and 50% for your relatives)
+* Life insurance
+* Macbook Pro for personal and professional use
+* 40 hours per year to volunteer at a nonprofit of your choice
+* 22 working days of vacation
+* Learning budget up to 16.920 MXN/year
+* Room to assume responsibility and grow professionally
+* Be part of a great team and work with designers around the world
+* Work in a company that has strong executive support for Design
 
 ## What do I need to apply?
 
