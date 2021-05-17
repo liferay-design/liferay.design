@@ -36,6 +36,18 @@ In addition to a solid foundation in design (typography, color, layout, etc) her
 ### Location Note
 _We are currently fully remote, but are planning to return to the office when it’s safe per local guidelines. There is currently no timetable for this._ 
 
+### What can we offer you?
+
+* Salary package commensurate with qualifications and experience (13 payments)
+* Health insurance (100% coverage for you and 50% for your relatives)
+* Life insurance
+* Macbook Pro for personal and professional use
+* 40 hours per year to volunteer at a nonprofit of your choice
+* 22 working days of vacation
+* Learning budget up to 16.920 MXN/year
+* Room to assume responsibility and grow professionally
+* Be part of a great team and work with designers around the world
+* Work in a company that has strong executive support for Design
 
 ## What do you need to apply?
 
