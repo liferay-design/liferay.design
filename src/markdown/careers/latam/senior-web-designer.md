@@ -1,5 +1,5 @@
 ---
-title: 'Seniorr Web Designer'
+title: 'Senior Web Designer'
 office: 'Mexico'
 jobId: 'oJ2vffwf'
 featuredImage: '/images/articles/ux-designer.jpg'
