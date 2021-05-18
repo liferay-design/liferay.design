@@ -1,7 +1,7 @@
 ---
 title: 'Product Designer'
 office: 'Mexico'
-jobId: 'ow7vffw7'
+jobId: 'oy4vffw6'
 featuredImage: '/images/events/lr-figma-la-design-systems-22.jpg'
 date: '2020-05-17'
 published: true
