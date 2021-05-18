@@ -16,7 +16,7 @@ We are looking for a product designer to create intentional interfaces for our c
 
 Application deployments, infrastructure migration, service endpoints rules, advanced VPN configurations, environment variables, and more. If any of these things are familiar to you — keep reading! If they sound foreign, but you are eager to learn, that is great too.
 
-Atypical web concepts and level-hard design challenges are waiting for you in your first year. Some of the questions you will be facing:
+A typical web concepts and level-hard design challenges are waiting for you in your first year. Some of the questions you will be facing:
 
 1. How might we decrease the time-to-first deployment?
 2. How might we increase the amount of customers in our go-live journey?
@@ -25,7 +25,7 @@ Atypical web concepts and level-hard design challenges are waiting for you in yo
 5. How might we deliver value and evolve fast without disrupting current experiences?
 
 
-## What do I need to succeed?
+## What do I need to succeed?
 
 We’re looking for generalists with a solid foundation in technical skills – such as research, interaction, visual design – and, even more important, core professional skills to optimize your outcomes. These are a few characteristics we are looking for:
 
@@ -34,17 +34,20 @@ We’re looking for generalists with a solid foundation in technical skills – 
 3. **Craft.** The level of care you infuse in your work can inspire elevated effort from others around you. No matter the design discipline you are practicing, you activate it rigorously as if the world is seeing. Important note: we seek rigor, not rigidness.
 4. **Discipline.** For us, craft goes beyond pixels and presentations. What is not commonly seen is equally important to create a sustainable operation. You think about other’s time when tidying up your work. This is critical for optimizing async collaboration.
 
-## What will help me stand out?
+
+## What will help me stand out?
 
 1. **Experience.** You have designed other cloud platforms, highly-technical, or complex product use cases.
 2. **Research.** You have conducted user interviews and consolidated raw data into valuable and actionable insights.
 3. **Egoless.** You have collaborated in a design process where many points of view challenged your premises and changed your proposed solutions.
 4. **Giver.** You have helped others around you to grow, connect the dots, and walk through challenges or foggy territory without waiting for anything in return.
 
+
 ## What do I need to apply?
 
 1. Link to your portfolio website that includes recent, relevant case studies
 2. Cover letter (nothing formal) with 3 to 5 sentences about a challenge you’ve faced designing in a complex, high-technical, or intriguing product scenario.
+
 
 ## Awesome, what does Liferay offer for me?
 
