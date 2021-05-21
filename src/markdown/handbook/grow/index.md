@@ -22,3 +22,16 @@ Provide clear career paths for Designers at Liferay so we can have a shared unde
 <br />
 <br />
 <br />
+
+<!-- 
+convo w/@jonmwood
+
+## Why is growth important? What is growth trying to achieve?
+- our company mission — see people reach their full potential to serve others
+- to that end, one of our company values is to grow and get better
+- not every project we work on will be fulfilling, but overall your career here should be
+- feel very fulfilled, the work, the team, the mentorship
+- if you're not growing, your stagnating
+- when you stop growing, go
+- goal of growth is to make sure the individuals personal growth can be achieved in the company
+-->
