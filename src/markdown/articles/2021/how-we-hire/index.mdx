@@ -7,31 +7,89 @@ publish: true
 ---
 
 import { Image, Link } from 'components/atoms'
-import { Embed, Heading } from 'theme-ui'
+import { CardHiring } from 'components/molecules'
+import { jsx, Embed, Heading, Grid } from 'theme-ui'
+import { CareerPosts } from 'components/organisms'
 
 _TL;DR — We try to minimize the amount of hoops you have to jump through in order to join the team._
 
 Our hiring process is fairly straightforward. Our ultimate goal is to ensure a good fit for both the prospective teammate and our company. The way we do that can vary depending on many factors, including:
 
-- The level of experience required — do we need someone just starting their career or a seasoned veteran?
-- Our own familiarity with the position — are we backfilling an existing role or are we looking to explore new territory?
-- The current team profile and dynamics — is there a specific skill gap we should fill or would a generalist profile be better?
+-   **The level of experience required** — do we need someone just starting their career or a seasoned veteran?
+-   **Our own familiarity with the position** — are we backfilling an existing role or are we looking to explore new territory?
+-   **The current team profile and dynamics** — is there a specific skill gap we should fill or would a generalist profile be better?
 
-Generally, our process can be summarized into four main steps:
+Generally, our process can be summarized into four main steps, with our goal being to go from first contact to contract in 3-5 weeks:
+
+<Grid sx={{ variant: 'grids.twoCards', gridGap: '2.5rem 2rem', my: 5, ml:'-10%', width: '120%' }}>
+	<CardHiring
+		to="#1-basic-qualifications"
+		title="Basic Qualifications"
+		subtitle="30 minute call with a recruiter or hiring manager"
+		checklist
+		content={[
+			'Salary and budget alignment',
+			'Timing and potential start date',
+			'Language',
+		]}
+		topLeft="Step 1 / 4"
+		topRight="1 Week"
+	/>
+	<CardHiring
+		to="#2-professional-skills--career-fit"
+		title="Professional Skills &amp; Career Fit"
+		subtitle="1 or 2 calls with a hiring manager or senior designer."
+		checklist
+		content={[
+			'Get to know us and learn more about the role',
+			'Share your professional experience and aspirations',
+			'Get your questions answered',
+		]}
+		topLeft="Step 2 / 4"
+		topRight="1 Week"
+	/>
+	<CardHiring
+		to="#3-technical-skills--team-fit"
+		title="Technical Skills &amp; Team Fit"
+		subtitle="Exact schedule depends on the role, we do our best to limit it between 2–3 calls with different teammates."
+		checklist
+		content={[
+			'Help us get to know you as a person',
+			'Demonstrate your technical expertise',
+			'Meet your future teammates and learn about them',
+		]}
+		topLeft="Step 3 / 4"
+		topRight="1-3 Weeks"
+	/>
+	<CardHiring
+		to="#4-due-diligence--administrative-work"
+		title="Due Diligence &amp; Admin"
+		subtitle="Some details vary on the region, but typically takes less than a week."
+		checklist
+		content={[
+			'Finalize compensation',
+			'Background and reference checks',
+			'Set start date',
+			'Sign official offer letter!',
+		]}
+		topLeft="Step 4 / 4"
+		topRight="1 Week"
+	/>
+</Grid>
 
 ## 1. Basic Qualifications
 
 Generally this is a 30-45 minute phone or video call with one of our recruiters or hiring managers, we're looking to ensure a fit in the following areas:
 
-1. Budget — do your salary requirements fit into our budget for this position?
-1. Timing — when would you be able to start?
-1. Language _(if we're hiring outside of an english-speaking country)_ — are you able to communicate effectively in english?
+1. **Budget** — do your salary requirements fit into our budget for this position?
+1. **Timing** — when would you be able to start?
+1. **Language** _(if we're hiring outside of an english-speaking country)_ — are you able to communicate effectively in english?
 
 ### Tips for a strong application
 
-1. Read the whole job ad thoroughly — especially the "how to apply" section — and familiarize yourself with what the position is and the skills requested.
-1. In your application / cover letter, if we have a prompt in the description, definitely address it — if not, show us that you read the description and tell us why you're a good fit.
-1. Include links to relevant work in your portfolio.
+1. **Read the whole job ad thoroughly** — especially the "how to apply" section — and familiarize yourself with what the position is and the skills requested.
+1. In your application / cover letter, if we have a prompt in the description, definitely address it — if not, **show us that you read the description and tell us why you're a good fit**.
+1. Include links to **relevant work** in your portfolio.
 
 ## 2. Professional Skills & Career Fit
 
@@ -41,10 +99,10 @@ At this stage, we want to learn more about your background and what you're looki
 
 We map professional skills (sometimes called "soft skills"), as they relate to design, to [Core Skills](/handbook/grow/core-skills/) in our growth rubric. At this stage of the interview process, we're trying to evaluate your level and potential. A few questions we like to ask are:
 
-- Tell us about a manager that has had the biggest impact on your career and why?
-- What's one of the most challenging problems you've solved recently?
-- How would your closest friends describe how you give and receive feedback?
-- What is a problem you experience that you think hasn't been solved well enough yet?
+-   Tell us about a manager that has had the biggest impact on your career and why?
+-   What's one of the most challenging problems you've solved recently?
+-   How would your closest friends describe how you give and receive feedback?
+-   What is a problem you experience that you think hasn't been solved well enough yet?
 
 _I should note that we don't ask any "gotcha" type questions — our whole process is designed for you to showcase to us your talents and experience, so that we can come to a mutually beneficial arrangement that concludes with you joining our team!_
 
@@ -55,7 +113,7 @@ _I should note that we don't ask any "gotcha" type questions — our whole proce
     _No matter how many phone calls we do, it's always exciting and a little nerve-wracking to meet someone new and try to learn as much about them in only 45 minutes._
 
 1. **Be prepared** — a little due diligence goes a long way
-    
+
     _Check out liferay.com and learn about our products, definitely poke around liferay.design to learn about the team and how we work!_
 
 1. **Be curious** — you're interviewing us too!
@@ -66,7 +124,7 @@ _I should note that we don't ask any "gotcha" type questions — our whole proce
 
 Stage number 3 varies the most, to summarize: if it's an early career position, we're looking more for technical potential — if it's a senior-level or manager position, we care more about character.
 
-For example — for an associate designer position, we're looking closely at your portfolio and will ask you to do a whiteboard-type exercise, responding to a prompt to help us understand how you approach a problem, and design and communicate a possible solution. 
+For example — for an associate designer position, we're looking closely at your portfolio and will ask you to do a whiteboard-type exercise, responding to a prompt to help us understand how you approach a problem, and design and communicate a possible solution.
 
 Conversely — for a principal designer, while a solid portfolio definitely gets you into interviews, we won't do a whiteboard exercise because it doesn't really make sense. We're hiring you, to tell us what to do — and to help us make it happen. Your resume and portfolio tell us that you know what you're doing — the interview process lets us know that you can work with us to elevate design at Liferay, and get things done. To that end, we'll likely have you speak with at least 3 different people from the design team as well as members of the cross-functional team that you'll be working most closely with (product manager, marketing manager, etc).
 
@@ -82,7 +140,6 @@ _Similar to the tips that we shared earlier, here are more ideas._
 
 1. **Be proactive** — at this stage, you should have a better idea of what we're about and you've probably figured out ways you can add value that we don't even know we need — show us!
 
-
 ## 4. Due Diligence & Administrative Work
 
 Once you've made it to this stage — we're almost a match! A few things we need to sort out first:, most important is salary.
@@ -93,13 +150,13 @@ We will typically share our salary budget for this position early on, this is ba
 
 The reason for this is, while there certainly are valid arguments for both sides of the salary negotiation conversation — at this time, we believe it's in the best interest of both parties to minimize this. We put our best efforts at ensuring our team is compensated fairly, this includes salary of course, but we also have a number of added benefits that vary depending on the office, but generally follow themes of:
 
-1. Growth — we pay for books, courses, and other educational materials to help you grow as a professional. Additionally, all design managers act as coaches — helping you learn new skills that will help you level up!
-1. Flexibility — are you a night owl? An early bird? We want you to do your best work, whenever and wherever that is. Also we have a generous PTO plan and encourage people to take the time.
-1. Community — we are committed to serving our local communities, to that end you get 40 hours to serve a nonprofit of your choice and a cash stipend to spend helping them!
+1. **Growth** — we pay for books, courses, and other educational materials to help you grow as a professional. Additionally, all design managers act as coaches — helping you learn new skills that will help you level up!
+1. **Flexibility** — are you a night owl? An early bird? We want you to do your best work, whenever and wherever that is. Also we have a generous PTO plan and encourage people to take the time.
+1. **Community** — we are committed to serving our local communities, to that end you get 40 hours to serve a nonprofit of your choice and a cash stipend to spend helping them!
 
 Our recruiters typically share this early on — but we recommend you include factors like this, and any other you find relevant, in your calculations for total compensation for the role you're looking for.
 
-The primary reason we don't go back and forth on salary is because we're putting our best effort forward at the beginning — we're not holding back a few thousand from you to save to pad an executives EOY bonus. Because we do this, and we want you to be happy and excited to join us, we won't ask you to settle for a number that's lower than what you need. 
+The primary reason we don't go back and forth on salary is because we're putting our best effort forward at the beginning — we're not holding back a few thousand from you to save to pad an executives EOY bonus. Because we do this, and we want you to be happy and excited to join us, we won't ask you to settle for a number that's lower than what you need.
 
 Part of our mission is to see people reach their full potential — if your full potential requires you to make more salary than we can offer, then we want you to find a place that will give you that! There are no hard feelings, there are many other companies out there, and many have bigger budgets than we do.
 
@@ -107,8 +164,8 @@ What we have, that many other companies don't, is freedom — we aren't VC funde
 
 ### Other administrative tips
 
-1. Background and reference checks — to speed this along, be sure to let your references know that we'll be contacting them!
-1. Start date — we can usually be flexible on this, but if you have an extended start date necessity please let us know as early as possible.
+1. **Background and reference checks** — to speed this along, be sure to let your references know that we'll be contacting them!
+1. **Start date** — we can usually be flexible on this, but if you have an extended start date necessity please let us know as early as possible.
 
 ## What are you waiting for?!
 
@@ -117,3 +174,7 @@ Hopefully, this little overview of our hiring process helps shed some light on a
 Additionally, we hope that by providing transparency here, you've become excited at the prospect of joining us — either because our process is so amazing OR because you think you'd be able to help us make it a lot better.
 
 So what are you waiting for? Look for a spot that would suit you and [apply today!](/careers)
+
+<CareerPosts sx={{ variant: 'grids.threeCards', my: 4 }} limit={4} />
+
+View the rest of our listings on our [Careers page!](/careers)

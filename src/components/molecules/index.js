@@ -9,6 +9,7 @@ import CardAsset from './CardAsset'
 import CardDefault from './CardDefault'
 import CardLexicon from './CardLexicon'
 import CardHidden from './CardHidden'
+import CardHiring from './CardHiring'
 import ColorField from './ColorField'
 import CardResource from './CardResource'
 import ColorSwatch from './ColorSwatch'
@@ -38,6 +39,7 @@ export {
 	CardDefault,
 	CardLexicon,
 	CardHidden,
+	CardHiring,
 	ColorSwatch,
 	Date,
 	ColorField,
