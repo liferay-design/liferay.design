@@ -66,7 +66,7 @@ export default {
 			borderRadius: '1rem',
 			transform: 'translateY(0)',
 			transition: 'transform .2s ease-in-out',
-			p: 3,
+			p: [2, 3],
 			'&:hover': {
 				boxShadow: theme => theme.elevations[2],
 				transform: 'translateY(-.5em)',
