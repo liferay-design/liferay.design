@@ -2,6 +2,7 @@ import Agenda from './Agenda'
 import Banner from './Banner'
 import CapitalizationTool from './CapitalizationTool'
 import CareerPathTracks from './CareerPathTracks'
+import CareerPosts from './CareerPosts'
 import ChangelogFeed from './ChangelogFeed'
 import Footer from './Footer'
 import HeroBanner from './HeroBanner'
@@ -19,6 +20,7 @@ export {
 	Banner,
 	CapitalizationTool,
 	CareerPathTracks,
+	CareerPosts,
 	ChangelogFeed,
 	Footer,
 	HeroBanner,
