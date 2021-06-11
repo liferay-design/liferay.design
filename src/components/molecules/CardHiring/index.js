@@ -47,7 +47,7 @@ const CardHiring = ({
 							type="checkbox"
 						/>
 					</Flex>
-					<Text as="h2" sx={{ fontSize: 4, mt: '.2em !important' }}>
+					<Text as="h2" sx={{ fontSize: 4, mt: '.4em !important' }}>
 						{title}
 					</Text>
 					<Text sx={{ fontStyle: 'italic', my: 1 }} level={3}>
