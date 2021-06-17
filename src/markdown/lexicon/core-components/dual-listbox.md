@@ -1,7 +1,7 @@
 ---
 title: 'Dual Listbox'
-titleLabel: ''
-titleLabelLink: ''
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/dual-list_box.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A9595'
 docLink: 'https://drive.google.com/drive/folders/1AFySLLYLN0Kkdl1_MCc6EtDbz6wzgOfW?usp=sharing'
 description: 'A dual Listbox allows users to compare and move available and selected options between two lists.'
