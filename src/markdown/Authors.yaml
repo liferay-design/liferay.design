@@ -79,6 +79,16 @@
   icon: fa_coffee
   startDate: 2017-01-09
   office: Diamond Bar
+- id: Leonardo Lohmann
+  title: DesignOps
+  active: true
+  icon: fa_rocket
+  startDate: 2021-06-01
+  office: Recife
+  links:
+      dribbble: 'LeoLohmann'
+      unsplash: 'leolohmann'
+      instagram: 'leolohmann'
 - id: Makena Ford
   title: Senior Product Designer
   active: true
