@@ -4,7 +4,7 @@ date: '2021-04-26'
 title: 'Principal Communication Designer'
 office: 'Madrid'
 featuredImage: '/images/design-week/bg-2.jpg'
-published: true
+published: false
 remote: true
 ---
 
