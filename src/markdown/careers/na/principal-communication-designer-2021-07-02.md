@@ -4,7 +4,7 @@ date: '2021-02-04'
 title: 'Principal Communication Designer'
 office: 'Diamond Bar'
 featuredImage: '/images/articles/design-week-n.jpg'
-published: true
+published: false
 ---
 
 ## _Based in Los Angeles, but open to remote candidates in North American time zones._
