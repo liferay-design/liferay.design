@@ -86,9 +86,12 @@
   startDate: 2021-06-01
   office: Recife
   links:
-      dribbble: 'LeoLohmann'
-      unsplash: 'leolohmann'
+      dribbble: 'leolohmann'
       instagram: 'leolohmann'
+      medium: 'leolohmann'
+      twitter: 'leolohmann'
+      unsplash: 'leolohmann'
+      website: http://www.leonardolohmann.com.br
 - id: Makena Ford
   title: Senior Product Designer
   active: true
