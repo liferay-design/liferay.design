@@ -148,6 +148,12 @@
   icon: fa_headphones_alt
   startDate: 2019-08-12T07:00:00Z
   office: Madrid
+- id: Mercedes Oseguera
+  title: Principal Communication Designer
+  active: true
+  icon: fa_stethoscope
+  startDate: 2021-07-19T07:00:00Z
+  office: Mexico City
 - id: Miriam Manso
   title: Product Designer
   active: true
