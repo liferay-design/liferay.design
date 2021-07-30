@@ -1,10 +1,10 @@
 ---
-jobId: 'ok8rffwS'
-date: '2021-05-09'
-title: 'Lead Product Designer'
-office: 'Madrid'
-featuredImage: '/images/articles/pj-first-year.jpeg'
-published: true
+jobId: ok8rffwS
+date: 2021-05-09
+title: Lead Product Designer
+office: Madrid
+featuredImage: /images/articles/pj-first-year.jpeg
+published: false
 remote: true
 ---
 
