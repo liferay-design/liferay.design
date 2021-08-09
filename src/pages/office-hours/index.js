@@ -33,18 +33,6 @@ export default ({}) => {
 								Come with ideas, tips, or make yourself available to help
 								others.{' '}
 							</p>
-							{/* hiding until we have recordings
-							<p>
-								Excerpts from Office Hours will be recorded and available
-								at{' '}
-								<Link
-									sx={{ variant: 'links.light' }}
-									to="/office-hours/sessions"
-								>
-									/office-hours/sessions
-								</Link>
-								.
-							</p> */}
 						</Text>
 						<Card
 							background="primary"
@@ -67,7 +55,7 @@ export default ({}) => {
 							]}
 						/>
 					</Box>
-					<Card
+					{/* <Card
 						background="charts.blue"
 						title="Figma"
 						icon="figma_app"
@@ -88,7 +76,7 @@ export default ({}) => {
 									'https://liferay.design/office-hours/add-to-calendar/figma-2',
 							},
 						]}
-					/>
+					/> */}
 				</Grid>
 			</Container>
 			<Container background="white" padding={{ py: 4 }}>
