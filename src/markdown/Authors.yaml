@@ -30,6 +30,12 @@
       dribbble: 'Coninck'
       figma: 'arthurconincklr'
       instagram: 'atrhuh'
+- id: Carolina Rodriguez
+  title: Lead Product Designer
+  active: true
+  icon: fa_music
+  startDate: 2021-08-30
+  office: Madrid
 - id: Chris Jeong
   title: Senior Product Designer
   active: true
