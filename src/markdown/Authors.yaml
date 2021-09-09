@@ -204,7 +204,7 @@
       dribbble: 'rachel_yuan'
 - id: Rubén Jiménez
   title: Senior Product Designer
-  active: true
+  active: false
   icon: fa_crow
   startDate: 2020-08-06
   office: Madrid
