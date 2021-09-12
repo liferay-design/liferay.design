@@ -66,7 +66,7 @@
   office: Madrid
 - id: Eloi Pinheiro
   title: Senior Communication Designer
-  active: true
+  active: false
   icon: fa_music
   startDate: 2021-06-14
   office: Recife
