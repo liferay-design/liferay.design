@@ -13,7 +13,7 @@ _Establishing a strong design practice across products throughout the globe is a
 
 ## About This Position
 
-You’ll be working with one of our product teams working on our cloud platform (DXPC), interfacing directly with Product Managers, Engineering leaders, and customers along the complete software development lifecycle.
+You’ll be working with one of our product teams working on our cloud platform ([DXPC](https://www.liferay.com/en/products/dxp-cloud)), interfacing directly with Product Managers, Engineering leaders, and customers along the complete software development lifecycle.
 
 ### Your first 90 days will be:
 
