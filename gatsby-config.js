@@ -38,7 +38,7 @@ module.exports = {
 				apiKey: 'e743f8519124b276f2f3325e8e126246',
 				indexName: 'liferay_design',
 				inputSelector: '#lexicon_search',
-				debug: true,
+				debug: false,
 			},
 		},
 		'gatsby-plugin-brotli',

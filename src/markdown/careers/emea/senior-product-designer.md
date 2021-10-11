@@ -1,66 +1,61 @@
 ---
-jobId: oO5XdfwN
-date: 2020-11-16T00:20:00Z
+jobId: oV19hfw6
+date: 2021-10-06T00:20:00Z
 title: Senior Product Designer
 office: Madrid
-featuredImage: '/images/articles/madrid-team-event.jpg'
-published: false
+featuredImage: '/images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg'
+published: true
+remote: true
 ---
 
-## Who Designs at Liferay?
-
-Design is [a team sport](https://www.oreilly.com/ideas/12-qualities-of-effective-design-organizations) — while our athletic accomplishments are limited, our commitment to building a strong team is not. We firmly believe in going far together — what this looks like is passion for producing excellence and a patient tenacity to make improvements over time.
-
-To learn more about who you'd be working with, get acquainted with [the team](/team)!
-
-## Who Are We Looking For?
-
-A product designer to add value to our core product, Liferay DXP. A person that has high visual, interaction and strategy skills to help us accomplish our roadmap. This roadmap drives us to take web experience to a next level where different roles can do more in an easier way, where users can be more autonomous independently of their technical level.
-
-You’ll work in a product team creating and improving functionalities. You will use Lexicon and probably part of your work and need will make it stronger. Besides your team, there are more product teams working in different pieces of a global roadmap. You will have to discuss and align your designs and interactions along with other product designers.
-
-We care deeply about designing great experiences that solve real-world business problems, and we do it without sacrificing our aesthetic standards.
-
-### What will your first year look like?
-
-- Improved web building experience, with as many high-fidelity projects ready for development
-- Contributed robust patterns to our Figma component library
-- Increased the level of quality that our whole team is able to produce
-
-### Important bullet points we’re looking for:
-
-- Strong capability to build smooth experiences from complex requirement scenarios
-- Able to discuss the product strategy with different stakeholders 
-- Excited about creating and sharing resources like tools and libraries
-
-## Are We A Good Fit?
-
--   Do you have demonstrable passion for usability?
--   Can you design sans ego?
--   Are you a [T-shaped designer](https://chiefexecutive.net/ideo-ceo-tim-brown-t-shaped-stars-the-backbone-of-ideoaes-collaborative-culture__trashed/)?
+_Establishing a strong design practice across products throughout the globe is a high priority for our business. We’re looking for a Senior Product Designer that can serve our customers and partners while simultaneously working with our existing team based in Spain to continue cultivating a strong design culture there and beyond. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in North America, Latam, Europe, and Asia that are excited to build with you._
 
 
-## How Do Liferay’s Core Values Look in the Design Team?
+## About This Position
 
--   **Produce excellence** — we strive to become masters in our craft, doing the right thing even if no one notices.
--   **Lead by serving** — we’re all willing to do the unglamourous work and always looking for opportunities to help others.
--   **Value people** — we listen first and believe that everyone can contribute because there is strength in diversity.
--   **Grow and get better** — we’re always learning, when we find ways to improve our designs we take them, when we make mistakes we admit, apologize, and move forward. We fail a lot, but we aren’t failures because we learn and improve.
--   **Stay nerdy** — we live and breath design, but we also have passions outside of work — rock climbing, coffee, photography, writing — and pursue them to the n-th degree.
+You’ll be working with one of our product teams working on our cloud platform ([DXPC](https://www.liferay.com/en/products/dxp-cloud)), interfacing directly with Product Managers, Engineering leaders, and customers along the complete software development lifecycle.
 
-## What Can We Offer You?
+### Your first 90 days will be:
 
-A place to make a lasting impact — we strongly believe in using business as a tool for restoration. Think Patagonia’s commitment to the environment, just extended to the whole world. Some initiatives that we’ve recently worked in are fighting human trafficking, helping foster youth, and serving refugees.
+* Get to know the people, processes, and systems
+* Onboard into different product initiatives in various stages
+* Add value with your perspective and experience in alignment with our design organization
 
-- Salary package commensurate with qualifications and experience.
-- 40 hours per year to volunteer at a nonprofit of your choice.
-- Room to assume responsibility and grow professionally.
-- Be part of a great team and work with designers around the world.
-- Work in a company that has strong executive support for Design.
-- 2 perks among insurance, gym, meal vouchers, kindergarten or public transport aid.
+### The top 3 things we’re looking for in a candidate:
 
-## What Do I Need to Apply?
+* **Design leadership experience:** Contribute as an expert with deep knowledge in one or more product design initiatives — and have experience collaborating with senior managers and practitioners.
+* **Communication skills:** Arguably one of the most important skills a designer can have — excellent communication skills now more than ever, are a must. You’ll go far if you can demonstrate this!
+* **Proficiency with modern design tools and systems:** Our design system is in Figma — you don’t need to have experience with it, but you’ll need to learn it quickly, so a track record of tool and system competency is required.
 
--   Tell us why you’d be a great culture-add at Liferay
--   Resume or LinkedIn Profile
--   Portfolio link
+
+### Language Requirement:
+
+* English: Conversational
+* Spanish: Fluent
+
+## What do I need to apply?
+
+1. Portfolio link
+2. In your cover letter (nothing formal), include a brief note with feedback on our brand
+
+### Cover letter? Do you really read them?
+
+Yes! It doesn't need to be formal — really all we're looking for is a brief response to the prompt.
+
+_Note that applications sans cover letter are typically rejected post-haste._
+
+
+## We are offering
+
+* A dynamic, multicultural and friendly workplace.
+* Opportunity to help continue to build a premier, leading organization in open source.
+* Salary package w/ competitive benefits according to qualifications and experience
+* Opportunities to take responsibility and grow professionally.
+* Strong Work-Life-Balance policy.
+* A positive and collaborative work [culture](https://www.youtube.com/watch?v=2EPZxIC5ogU)
+* Working at a [leading](https://www.globenewswire.com/news-release/2020/01/31/1978319/0/en/Liferay-Named-a-Leader-in-the-2020-Gartner-Magic-Quadrant-for-Digital-Experience-Platforms.html) open source company
+* An awesome social benefict package
+* We have Employee Volunteer Program, including:
+    * 5 days/year in our Employee Volunteer Program to devote to the charity of your choice
+    * 500€/year to donate to the charity of your choice
+

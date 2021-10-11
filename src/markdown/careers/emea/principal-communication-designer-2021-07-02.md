@@ -1,13 +1,12 @@
 ---
-jobId: 'omiyefwa'
-date: '2021-02-04'
+jobId: 'o6Ylffwo'
+date: '2021-04-26'
 title: 'Principal Communication Designer'
-office: 'Diamond Bar'
-featuredImage: '/images/articles/design-week-n.jpg'
-published: true
+office: 'Madrid'
+featuredImage: '/images/design-week/bg-2.jpg'
+published: false
+remote: true
 ---
-
-## _Based in Los Angeles, but open to remote candidates in North American time zones._
 
 Are you an experienced designer looking to take the next step in your career, leading a global creative team to new heights?
 
@@ -40,6 +39,10 @@ Additionally, you will:
 1. **Communication**: if we’ve learned anything from being fully remote for the last 9+ months, proactive, effective communication skills are a must.
 2. **Branding**: track record of building and measuring effective brands is a must.
 3. **Creative direction**: you have a strong portfolio and help others raise the bar.
+
+### Language requirements:
+
+* English: conversational
 
 ## What will help me stand out?
 

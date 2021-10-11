@@ -61,6 +61,18 @@ export default {
 		'16:9': {
 			'&:after': { pb: '56.25%', display: 'block', content: '""' },
 		},
+		default: {
+			boxShadow: theme => theme.elevations[1],
+			borderRadius: '1rem',
+			transform: 'translateY(0)',
+			transition: 'transform .2s ease-in-out',
+			p: [2, 3],
+			'&:hover': {
+				boxShadow: theme => theme.elevations[2],
+				transform: 'translateY(-.5em)',
+				transition: 'transform .2s ease-in-out',
+			},
+		},
 	},
 	pre: props => props.children,
 	code: Prism,
@@ -95,6 +107,44 @@ export default {
 			boxShadow: '0 0 transparent,0 0 0 .125rem #fff,0 0 0 .25rem #80acff',
 			color: 'main',
 			outline: '0',
+		},
+	},
+	inputs: {
+		checkbox: {
+			m: 0,
+			mb: '.2em',
+			appearance: 'none',
+			display: 'block',
+			width: '1.1em',
+			height: '1.1em',
+			backgroundColor: 'white',
+			border: theme => '2px solid ' + theme.colors.mainL4,
+			borderRadius: '.2em',
+			outline: 'none',
+
+			'&:checked': {
+				position: 'relative',
+				backgroundColor: 'primaryl2',
+				borderColor: 'transparent',
+
+				/* The checkmark */
+				'&::after': {
+					boxSizing: 'border-box',
+					content: '""',
+					position: 'absolute',
+					width: '.6em',
+					height: '1.2em',
+					border: theme => '.3em solid ' + theme.colors.primary,
+					borderTop: 'none',
+					borderLeft: 'none',
+					transformOrigin: 'bottom right',
+					transform: 'translateX(-.1em) translateY(-.45em) rotate(45deg)',
+				},
+			},
+
+			'&:focus': {
+				boxShadow: theme => '0 0 0 3px ' + theme.colors.primaryl3,
+			},
 		},
 	},
 	images: {
@@ -203,7 +253,7 @@ export default {
 					transform: 'translateX(1rem)',
 				},
 			},
-		}
+		},
 	},
 	quotes: {
 		blockQuote: {

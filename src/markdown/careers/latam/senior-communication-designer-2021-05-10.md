@@ -4,7 +4,7 @@ date: '2021-02-04'
 title: 'Senior Communication Designer'
 office: 'Recife'
 featuredImage: '/images/articles/hero/maximize-value.jpg'
-published: true
+published: false
 ---
 
 Are you an experienced designer looking to take the next step in your career, joining a global creative team?

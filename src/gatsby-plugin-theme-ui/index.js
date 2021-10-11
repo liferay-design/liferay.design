@@ -92,6 +92,12 @@ export default {
 		heading: '-0.05em',
 		caps: '0.1em',
 	},
+	elevations: [
+		'0 0.05rem 1rem -0.5rem rgba(0,0,0, 0.5)',
+		'0 0.1rem 3rem rgba(0,0,0, 0.08)',
+		'0 0.5rem 5rem -1rem rgba(0,0,0, 0.16)',
+		'0 0.5rem 8rem -0.5rem rgba(0,0,0, 0.16)',
+	],
 	text: {
 		heading: {
 			color: 'text',

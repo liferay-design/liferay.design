@@ -62,3 +62,11 @@
   region: APAC
   mapURL: https://goo.gl/maps/fYgfFMFSQHMfm9499
   # photo: /images/offices/budapest.jpg
+- id: Mexico
+  countryIcon: /images/offices/flag-mx.png
+  city: Mexico
+  state: Mexico
+  country: Mexico
+  region: LATAM
+  mapURL: https://goo.gl/maps/gdSLtTExUZ2hkWhr9
+  # photo: /images/offices/budapest.jpg

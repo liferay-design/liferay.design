@@ -320,6 +320,14 @@
     column-count: 3;
 }
 
+:global(.adapting-columns-2) {
+	column-count: 2;
+}
+
+:global(.tiny-text) {
+	font-size: 10px;
+}
+
 :global(.image-container) {
 	text-align: center;
 	margin-top: 1.5rem;
