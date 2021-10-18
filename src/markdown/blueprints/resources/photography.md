@@ -18,7 +18,9 @@ Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photo
 
 ## Liferay Events Etc
 
--   [Liferay Vision DACH, Virtual Event 2020](https://photos.app.goo.gl/9JEEGyoszkyHQtG36)
+-   [Liferay Global Partner Summit, Virtual Event 2021](https://photos.app.goo.gl/Dccf9h6cM6t8Ej1J8)
+-   [Liferay Vision Global, Virtual Event 2021](https://photos.app.goo.gl/MDYR8hTCfgmow8vy8)
+-   [Liferay Vision DACH, Virtual Event 2021](https://photos.app.goo.gl/9JEEGyoszkyHQtG36)
 -   [LDSF Middle East & Africa, Virtual Event 2020](https://photos.app.goo.gl/U9SwTamfTGGKAawX9)
 -   [LDSF DACH, Virtual Event 2020](https://photos.app.goo.gl/PKFnNuD5VBVKbTqN9)
 -   [Marketing Kick-Off, San Diego 2020](https://photos.app.goo.gl/uKmo4noWTyxzxqwe8)
