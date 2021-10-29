@@ -64,7 +64,7 @@
   # photo: /images/offices/budapest.jpg
 - id: Mexico
   countryIcon: /images/offices/flag-mx.png
-  city: Mexico
+  city: Mexico City
   state: Mexico
   country: Mexico
   region: LATAM

@@ -58,10 +58,10 @@ export default class Careers extends Component {
 						<h1>
 							{post.frontmatter.title}
 							<span>
-								{post.frontmatter.remote === true
-									? 'Remote in ' +
-									  post.frontmatter.office.country + ', based in '
-									: null}
+								{post.frontmatter.remote === true && (post.frontmatter.office.country == 'Mexico' || post.frontmatter.office.country == 'Brazil')
+									? 'Remote in LATAM' + ', based in '
+									: 'Remote in ' +
+									  post.frontmatter.office.country + ', based in '}
 								{post.frontmatter.office.city},{' '}
 								{post.frontmatter.office.state}{' '}
 							</span>
