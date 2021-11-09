@@ -1,5 +1,5 @@
 ---
-title: 'Project'
+title: 'Jira'
 description: 'Structure, issue types and best practices to use Jira'
 order: 12
 publish: true
