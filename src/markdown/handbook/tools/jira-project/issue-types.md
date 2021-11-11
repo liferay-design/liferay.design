@@ -5,11 +5,9 @@ order: 12
 publish: true
 ---
 
-_This is just a quick guide on the issue possibilities and the original content used as reference can be found at [Atlassian](https://support.atlassian.com/jira-cloud-administration/docs/configure-issues/)._
-
 ## What are issues?
 
-An issue represents an action that has to be done. That action can be a task, a bug, a feature request or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization.You can customize your own issue types creating issue sets associated per projects, and even per permission types.
+An issue represents an action that has to be done. That action can be a task, a bug, a feature request or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization. It is possible to customize a issue types creating issue sets associated per projects, and even per permission types.
 
 <Image
 	src="/images/handbook/tools/jira/jira-issues.png"
@@ -23,7 +21,7 @@ An issue represents an action that has to be done. That action can be a task, a 
 
 **Configuring the layout of an issue**
 
-To configure the layout of the new Jira issue view—which fields appear and the order they appear in—open an issue and choose Configure at the bottom-right. To find out more about configuring the issue layout, [see here](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
+To configure the layout of the new issue view which fields appear and the order they appear in—open an issue and choose Configure at the bottom-right. To find out more about configuring the issue layout, [see here](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
 
 <Image
 	src="/images/handbook/tools/jira/issue-screens.png"
@@ -35,9 +33,11 @@ To configure the layout of the new Jira issue view—which fields appear and the
 	dropShadow
 />
 
-## What are issue statuses, priorities, and resolutions?
+## What are issue statuses and priorities?
 
-Issues track the work your team needs to get done to progress your projects and your goals. Each issue collects and displays the information your team needs to collaborate into a set of fields. An issue's status, priority, and resolution represent some of the most important fields describing and reporting on your team's work. They give your team at-a-glance information about where the work is in your workflow, how important it is to your project goals, and a description of how the work was completed.
+Issues track the work each team needs to get done to progress projects demands and goals. Each issue collects and displays the information a team needs to collaborate into a set of fields. An issue's status and priority represent important fields describing and reporting on each team's work. These set of information give a team at-a-glance information about where the work is in the workflow, how important it is to your project goals, and a description of how the work was completed.
+
+### Issue Statuses
 
 **Open**
 
@@ -96,7 +96,7 @@ For procurement projects, this indicates that the service or item was purchased.
 For procurement projects, this indicates that the service or item has been requested and is waiting for a procurement team member to action the request.
 
 
-## Issue priorities
+### Issue priorities
 
 An issue's priority indicates its relative importance. The default priorities are listed below. Both the priorities and their meanings can be customized by your administrator to suit your organization. Learn more about configuring priorities and their descriptions.
 
@@ -129,3 +129,7 @@ Minor problem or easily worked around.
 **Lowest**
 
 Trivial problem with little or no impact on progress.
+
+
+
+_This is just a quick guide on the issue possibilities and the original content used as reference can be found at [Atlassian](https://support.atlassian.com/jira-cloud-administration/docs/configure-issues/)._
