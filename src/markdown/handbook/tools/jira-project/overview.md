@@ -7,11 +7,11 @@ publish: true
 
 ## 1. Issue Types Overview
 
-Issue types distinguish different types of work in unique ways, and help you identify, categorize, and report on your team’s work across your Jira site. They can help your team build more structure into your working process. 
+Issue types exist to distinguish different types of work and help to identify, categorize, and report on each team’s work across Jira. This way tey can help organize and build more structure into the working process of each design team. 
 
-Multiple issue types help you search and sort the work your team takes on, track the progress of specific types of work, even estimate how well your team responds to bugs or how fast they complete larger initiatives.
+Multiple issue types help you search and sort the work your team takes on, track the progress of specific types of work, even estimate how well your team responds to problems or how fast they complete larger work initiatives.
 
-Each Jira product comes with default issue types to suit the needs of your projects and teams. You can customize your issue types to match any method of project management you want.
+Jira offers default issue types to suit the needs of different projects and teams. It is also possible to customize the issue types to match any method, process, or project management style, as for example Kanban or Scrum.
 
 <Image
 	src="/images/handbook/tools/jira/issue-type-scheme.png"
@@ -29,59 +29,55 @@ Each Jira product comes with default issue types to suit the needs of your proje
 High-level request, a large effort of work that can be broken down into a number of smaller pieces: stories or issues. An epic can encompass multiple teams, on multiple projects, and can even be tracked on multiple boards.
 
 **MSTORY**
-ore detailed request, also called user stories - shor requirements or requests written from the perspective of a client, a stakeholder, a persona or an end user. A user story (or feature) can be the smallest unit of work in an agile framework. It's an end goal expressed from the user's perspective (related to a set of tasks). The purpose of a user story is to articulate how a piece of work will deliver a particular value back to the customer.
+Is a more detailed request, also called user stories more related to a product or service - for example, can be short requirements or requests written from the perspective of a client, a stakeholder, a persona or an end user. A story, or feature, can be the smallest unit of work in an agile framework. It's an end goal expressed from the user's perspective and related to a set of defined tasks. The main purpose of a user story is to articulate how a piece of work will deliver a particular value back to the customer.
 
 **TASK**
-A task (or issue) represents work that needs to be done. This piece of work is a normal standalone issue type in Jira. Usually a single task is assigned to one employee. Could be part of a bigger project.
+A task, as a generic issue, can represent the type of work that needs to be done. This piece of work usually is represented as a normal standalone issue type in Jira. As a single task should be assigned to one designer and, for example, could be part of a bigger project or initiative.
 
-In case a task is too big and complex then the issue/task can be broken down into logical sub-issues known as 'sub-tasks'.
+In case a task is too big and complex then the issue (or task) can be broken down into logical sub-issues known as 'sub-tasks'.
 
 
 ### INDIVIDUAL / SPECIFIC ISSUE TYPE PURPOSE
 
 **LEXICON REQUEST**
-Request of Liferay's Design System and any demand related to components or technical improvements.
+[Request of Liferay's Design System](https://liferay.design/handbook/tools/jira-project/specific/lexicon/) and any demand related to components or technical improvements.
 
 **USER TESTING**
-Request related to testing a product feature, project or marketing asset by the Research Team.
+Request related to [testing](https://liferay.design/handbook/tools/jira-project/specific/user-testing/) a product feature, project or marketing asset by the Research Team.
 
 **COMMUNICATION REQUEST**
-Request related to the creation of an asset handled by the Communication Team.
+Request related to the [creation of an asset](https://liferay.design/handbook/tools/jira-project/specific/comm-request/) handled by the Communication Team.
 
 **WEBINAR**
-Request related to the creation of a specific webinar by the Communication Team.
+Request related to the creation of a [specific webinar](https://liferay.design/handbook/tools/jira-project/specific/webinar/) by the Communication Team.
 
 
 ### What are parent, standard, and child issues?
 
-Depending on the complexity of the projects you track in Jira, you may want to group or nest different work items hierarchically. This can help your teams sweat the details on individual tasks while Scrum masters, project managers, or other team leaders track your team's bigger picture.
+Depending on the complexity of the projects tracked in Jira, you may want to group or nest different work items hierarchically. This can help your teams sweat the details on individual tasks while Scrum masters, project managers, or other team leaders track your team's bigger picture.
 
 ***By default, Jira supports three levels of hierarchy:***
 
-- Parent issues (or epic issues) represent high-level initiatives or bigger pieces of work in Jira. For software teams, a parent issue (or epic issue) may represent a new feature they're developing. For IT service teams, parent issues may represent a major service change or upgrade. For business teams, parent issue may represent major deliverables or phases of a project.
+- ***Parent issues*** (or epic issues) represent high-level initiatives or bigger pieces of work in Jira. For product teams, a parent issue, or an epic, may represent a new feature in development. For service teams, parent issues may represent a major service request. For some teams, parent issue may represent major deliverables or phases of a project or initiative.
 
-- Standard issues represent regular business tasks. In Jira, standard issues are where daily work is discussed and carried out by team members. For software teams, standard issues (like bugs or stories) estimate and track the effort required to build an interaction or other end goal in your team's software. For service teams, standard issues represent different requests made by your team's customers, like requesting service or support, or reporting problems or incidents with your infrastructure. For business teams, standard issues represent and track your team member's daily tasks.
+- ***Standard issues*** represent regular business tasks. In Jira, standard issues are where daily work is discussed and carried out by team members. For product teams, standard issues (like bugs or stories) estimate and track the effort required to build an interaction or other end goal in any project. For service teams, standard issues represent different requests made by customers or stakeholders, like requesting service or support, or reporting problems or blockers with your infrastructure.
 
-- When needed, child issues (or subtask issues) can help your team break a standard issue into smaller chunks. This can be helpful if your team underestimates the scope or complexity of their work. Child issues (or subtask issues) can be described and estimated separately to their related standard issue and can help your team better understand and estimate similar work in the future.
+- When needed, ***child issues*** (or subtask issues) can help a team break a standard issue into smaller chunks. This can be helpful if a team underestimates the scope or complexity of their work. Child issues (or subtask issues) can be described and estimated separately to their related standard issue and can help a  team better understand and estimate similar work in the future.
 
 
 ## 2. Workflow (Map)
 
 ### Definition
-A set of statuses and transitions linked (or related) to an issue that shows how to move through during its lifecycle and represents processes within our Design Project.
+A workflow can be understood as a set of statuses and transitions related to an issue, showing how to move through during its lifecycle and also represents processes within our Jira Design Project.
 
-All Jira projects contain issues that your team can view, work on, and transition through stages of work — from creation to completion. The path that your issues take is called a workflow. Each Jira workflow is composed of a set of statuses and transitions that your issue moves through during its lifecycle, and typically represents work processes within your organization.  
+All Jira projects contain issues that a team can view, work on, and transition through stages of work — from creation to completion. The path that issues take is called a workflow. So each workflow is composed of a set of statuses and transitions that a issue moves through during its lifecycle, and typically represents work processes within the Design Department context.  
 
-In addition, Jira uses workflow schemes to define the relationship between issue types and workflows. Workflow schemes are associated with a project, and make it possible to use a different workflow for different combinations of project and issue types. If you need to edit or create a more advanced workflow to match how your team or organization works,
+Also there are ***workflow schemes*** to define the relationship between issue types and workflows. Workflow schemes are associated with a project, and make it possible to use a different workflow for different combinations of project and issue types. It is possible to edit or create a more advanced workflow to match how each team works.
 
-Workflow Map
-- Epic
-- Story
-- Task
-- Lexicon Request
-- User Testing
-- Communication Request
-- Webinar
+
+
+
+TO DO
 
 How to Suggest change?
 
