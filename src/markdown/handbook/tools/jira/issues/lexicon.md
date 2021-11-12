@@ -1,7 +1,7 @@
 ---
 title: 'Lexicon Request'
 description: 'Definition, Workflow and Schema'
-order: 16
+order: 40
 publish: true
 ---
 

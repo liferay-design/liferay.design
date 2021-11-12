@@ -1,7 +1,7 @@
 ---
 title: 'Epic'
 description: 'Definition, Workflow and Schema'
-order: 13
+order: 10
 publish: true
 ---
 

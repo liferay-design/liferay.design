@@ -1,7 +1,7 @@
 ---
 title: 'Story'
 description: 'Definition, Workflow and Schema'
-order: 14
+order: 20
 publish: true
 ---
 

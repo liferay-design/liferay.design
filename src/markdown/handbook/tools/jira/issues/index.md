@@ -1,5 +1,5 @@
 ---
-title: 'Issue Types'
+title: 'Issues'
 description: 'Structure, issue types and best practices to use Jira'
 order: 12
 publish: true
