@@ -5,9 +5,7 @@ order: 70
 publish: true
 ---
 
-## 1. Deifinition
-
-### What is a Webinar request?
+## What is a Webinar request?
 
 Request related to the creation of a specific webinar by the Communication Team.
 

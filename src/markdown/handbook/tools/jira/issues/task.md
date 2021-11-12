@@ -5,9 +5,7 @@ order: 30
 publish: true
 ---
 
-## 1. Deifinition
-
-### What is a Task?
+## What is a Task?
 
 Tasks are single to-dos, assigned to one employee and planned in a specific sprint. Tasks are oftentimes part of a story and cross-linked.
 

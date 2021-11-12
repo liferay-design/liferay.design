@@ -5,9 +5,7 @@ order: 20
 publish: true
 ---
 
-## 1. Deifinition
-
-### What is a Story?
+## What is a Story?
 
 Atlassian defines astory as an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer.
 
