@@ -25,30 +25,37 @@ Jira offers default issue types to suit the needs of different projects and team
 
 ### Global Issues
 
-**EPIC**
+#### Epic
+
 High-level request, a large effort of work that can be broken down into a number of smaller pieces: stories or issues. An epic can encompass multiple teams, on multiple projects, and can even be tracked on multiple boards.
 
-**MSTORY**
+#### Story
+
 Is a more detailed request, also called user stories more related to a product or service - for example, can be short requirements or requests written from the perspective of a client, a stakeholder, a persona or an end user. A story, or feature, can be the smallest unit of work in an agile framework. It's an end goal expressed from the user's perspective and related to a set of defined tasks. The main purpose of a user story is to articulate how a piece of work will deliver a particular value back to the customer.
 
-**TASK**
+#### Task
+
 A task, as a generic issue, can represent the type of work that needs to be done. This piece of work usually is represented as a normal standalone issue type in Jira. As a single task should be assigned to one designer and, for example, could be part of a bigger project or initiative.
 
-In case a task is too big and complex then the issue (or task) can be broken down into logical sub-issues known as 'sub-tasks'.
+If a task is too big and complex then the issue (or task) can be broken down into sub-tasks.
 
 ### Team Specific Issues
 
-**LEXICON REQUEST**
-[Request of Liferay's Design System](https://liferay.design/handbook/tools/jira-project/specific/lexicon/) and any demand related to components or technical improvements.
+#### Communication Design Request
 
-**USER TESTING**
-Request related to [testing](https://liferay.design/handbook/tools/jira-project/specific/user-testing/) a product feature, project or marketing asset by the Research Team.
+Request related to the [creation of an asset](/handbook/tools/jira-project/specific/comm-request/) handled by the Communication Team.
 
-**COMMUNICATION REQUEST**
-Request related to the [creation of an asset](https://liferay.design/handbook/tools/jira-project/specific/comm-request/) handled by the Communication Team.
+#### Lexicon Request
 
-**WEBINAR**
-Request related to the creation of a [specific webinar](https://liferay.design/handbook/tools/jira-project/specific/webinar/) by the Communication Team.
+[Request of Liferay's Design System](/handbook/tools/jira-project/specific/lexicon/) and any demand related to components or technical improvements.
+
+#### User Testing
+
+Request related to [testing](/handbook/tools/jira-project/specific/user-testing/) a product feature, project or marketing asset by the Research Team.
+
+#### Webinar
+
+Request related to the creation of a [specific webinar](/handbook/tools/jira-project/specific/webinar/) by the Communication Team.
 
 ### Parent, standard, and child issues?
 
