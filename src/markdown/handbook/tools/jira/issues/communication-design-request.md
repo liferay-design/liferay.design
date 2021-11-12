@@ -5,9 +5,7 @@ order: 40
 publish: true
 ---
 
-## 1. Deifinition
-
-### What is a Communication Request?
+## What is a Communication Design Request?
 
 Request related to the creation of an asset handled by the Communication Team.
 

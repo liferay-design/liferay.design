@@ -5,9 +5,7 @@ order: 50
 publish: true
 ---
 
-## 1. Deifinition
-
-### What is a Lexicon Request?
+## What is a Lexicon Request?
 
 Request of Liferay's Design System and any demand related to components or technical improvements.
 

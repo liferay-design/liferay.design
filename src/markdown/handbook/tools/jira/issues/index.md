@@ -19,9 +19,9 @@ An issue represents an action that has to be done. That action can be a task, a 
 	dropShadow
 />
 
-**Configuring the layout of an issue**
+#### Configuring the layout of an issue
 
-To configure the layout of the new issue view which fields appear and the order they appear in—open an issue and choose Configure at the bottom-right. To find out more about configuring the issue layout, [see here](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
+To configure the layout of the new issue view which fields appear and the order they appear in—open an issue and choose Configure at the bottom-right. To find out more about configuring the issue layout, [see the Jira support page](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
 
 <Image
 	src="/images/handbook/tools/jira/issue-screens.png"
@@ -39,62 +39,61 @@ Issues track the work each team needs to get done to progress projects demands a
 
 ### Issue Statuses
 
-**Open**
+#### Open
 
 The issue is open and ready for the assignee to start work on it.
 
-**In Progress**
+#### In Progress
 
 This issue is being actively worked on at the moment by the assignee.
 
-**Done**
+#### Done
 
 Work has finished on the issue.
 
-**To Do**
+#### To Do
 
 The issue has been reported and is waiting for the team to action it.
 
-**In review**
+#### In review
 
 The assignee has carried out the work needed on the issue, and it needs peer review before being considered done.
 
-**Under review**
+#### Under review
 
 A reviewer is currently assessing the work completed on the issue before considering it done.
 
-**Approved**
+#### Approved
 
 A reviewer has approved the work completed on the issue and the issue is considered done.
 
-**Cancelled**
+#### Cancelled
 
 Work has stopped on the issue and the issue is considered done.
 
-**Rejected**
+#### Rejected
 
 A reviewer has rejected the work completed on the issue and the issue is considered done.
 
-**Draft**
+#### Draft
 
 For content management and document approval projects, the work described on the issue is being prepared for review and is considered in progress, in the draft stage of writing.
 
-**Published**
+#### Published
 
 For content management projects, the work described on the issue has been published and/or released for internal consumption. The issue is considered done.
 
-**Second Review**
+#### Second Review
 
 For document approval projects, the work described on the issue has passed its initial review and is being closely proofed for publication.
 
-**Purchased**
+#### Purchased
 
 For procurement projects, this indicates that the service or item was purchased. The issue is considered done.
 
-**Requested**
+#### Requested
 
 For procurement projects, this indicates that the service or item has been requested and is waiting for a procurement team member to action the request.
-
 
 ### Issue priorities
 
@@ -110,26 +109,24 @@ An issue's priority indicates its relative importance. The default priorities ar
 	dropShadow
 />
 
-**Highest**
+#### Highest
 
 This problem will block progress.
 
-**High**
+#### High
 
 Serious problem that could block progress.
 
-**Medium**
+#### Medium
 
 Has the potential to affect progress.
 
-**Low**
+#### Low
 
 Minor problem or easily worked around.
 
-**Lowest**
+#### Lowest
 
 Trivial problem with little or no impact on progress.
-
-
 
 _This is just a quick guide on the issue possibilities and the original content used as reference can be found at [Atlassian](https://support.atlassian.com/jira-cloud-administration/docs/configure-issues/)._

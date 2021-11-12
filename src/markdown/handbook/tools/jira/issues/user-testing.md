@@ -5,9 +5,7 @@ order: 60
 publish: true
 ---
 
-## 1. Deifinition
-
-### What is an User Testing request?
+## What is an User Testing request?
 
 Request related to testing a product feature, project or marketing asset by the Research Team.
 
