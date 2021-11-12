@@ -1,7 +1,7 @@
 ---
-title: 'Communication Request'
+title: 'Communication Design Request'
 description: 'Definition, Workflow and Schema'
-order: 18
+order: 60
 publish: true
 ---
 
