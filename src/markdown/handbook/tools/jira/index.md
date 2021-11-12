@@ -1,23 +1,19 @@
 ---
-title: 'Jira Project'
-description: 'Using Jira Project'
+title: 'Jira'
+description: 'Using Jira'
 order: 40
 publish: true
 ---
 
-## Design Jira Project Index
-
-### Purpose
-
-Share information by giving visibility on the design teams and the different projects that are being worked at the Design Department.
+_Share information by giving visibility on the design teams and the different projects that are being worked at the Design Department._
 
 ### Design Jira Project
 
 You can access the project [here](https://issues-uat.liferay.com/projects/DESIGN/summary) - there are one or more [boards](https://issues-uat.liferay.com/secure/RapidBoard.jspa?rapidView=5797&projectKey=DESIGN) for each team.
 
-### Projec Settings
+### Project Settings
 
-If you are a admin user you can access the [project settings](https://issues-uat.liferay.com/plugins/servlet/project-config/DESIGN/summary).
+If you are an admin you can access the [project settings](https://issues-uat.liferay.com/plugins/servlet/project-config/DESIGN/summary).
 
 ### How to create a request?
 
