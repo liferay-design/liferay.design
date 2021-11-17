@@ -19,7 +19,7 @@ An issue represents an action that has to be done. That action can be a task, a 
 	dropShadow
 />
 
-#### Configuring the layout of an issue
+## Configuring the layout of an issue
 
 To configure the layout of the new issue view which fields appear and the order they appear in—open an issue and choose Configure at the bottom-right. To find out more about configuring the issue layout, [see the Jira support page](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
 
@@ -37,7 +37,7 @@ To configure the layout of the new issue view which fields appear and the order 
 
 Issues track the work each team needs to get done to progress projects demands and goals. Each issue collects and displays the information a team needs to collaborate into a set of fields. An issue's status and priority represent important fields describing and reporting on each team's work. These set of information give a team at-a-glance information about where the work is in the workflow, how important it is to your project goals, and a description of how the work was completed.
 
-### Issue Statuses
+## Issue Statuses
 
 #### Open
 
@@ -95,7 +95,7 @@ For procurement projects, this indicates that the service or item was purchased.
 
 For procurement projects, this indicates that the service or item has been requested and is waiting for a procurement team member to action the request.
 
-### Issue priorities
+## Issue Priorities
 
 An issue's priority indicates its relative importance. The default priorities are listed below. Both the priorities and their meanings can be customized by your administrator to suit your organization. Learn more about configuring priorities and their descriptions.
 
