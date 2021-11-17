@@ -17,7 +17,7 @@ Empower designers at Liferay to use the right tool, the right way.
 -   [Calendar](https://liferay.design/handbook/tools/google-calendar/)
 -   [Figma](https://liferay.design/handbook/tools/figma/)
 -   [Github](https://liferay.design/handbook/tools/github/)
--   [Jira](https://liferay.design/handbook/tools/jira-project/)
+-   [Jira](https://liferay.design/handbook/tools/jira/)
 -   [Liferay](https://liferay.design/handbook/tools/liferay/)
 -   [lpn](https://liferay.design/handbook/tools/lpn/)
 -   [Slack](https://liferay.design/handbook/tools/slack/)
