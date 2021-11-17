@@ -3,7 +3,7 @@ title: 'Heatmap Chart'
 devStatus: 'Pending'
 description: 'The Heatmap Chart is a visual representation of the data using colors to indicate the values.'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A5357'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://docs.google.com/spreadsheets/d/1DNV-YGxH69i7UGEUcqMBWOxmaeX5bSDizrA9E-91VAQ/edit?usp=sharing'
 order: 227
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Form Box'
 description: 'The basic layout used to contain form structures built based on 8/12 grid columns.'
-docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saZXMtb2hzRy0yYW8?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1rzRUNJC0cdV11Q_1I1uyuFrMFiuAaJrhv8ywAPuUx54/edit?usp=sharing'
 order: 112
 draft: false
 ---

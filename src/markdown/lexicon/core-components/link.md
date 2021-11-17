@@ -2,7 +2,7 @@
 title: 'Link'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/link.html'
-docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saZVA0emlsSTl3Z0U?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1M-zY163zfOyCbnfzawglo6laugDbcmpP6LEZHX-eD_w/edit?usp=sharing'
 description: 'Also known as a hyperlink, a link is a clickable (text or image) element used for navigation purposes.'
 order: 282
 draft: false

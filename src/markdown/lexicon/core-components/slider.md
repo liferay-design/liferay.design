@@ -2,7 +2,7 @@
 title: 'Slider'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/slider'
-docLink: 'https://drive.google.com/drive/folders/1AYP4PlxDino-cr27uYXhXht4fcvTSYIh?usp=sharing'
+docLink: 'https://docs.google.com/spreadsheets/d/1DNV-YGxH69i7UGEUcqMBWOxmaeX5bSDizrA9E-91VAQ/edit?usp=sharing'
 description: 'A Slider allows the user to select values in a linear range of values.'
 order: 325
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: 'Full Box'
 description: "The Full Box layout adapts to always be 100% of the container's width, occupying twelve columns of the grid."
-docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saZXMtb2hzRy0yYW8?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1z22aVdWm0j_nsCgnNtLpmTzhUJwktXCvrGSMpJbNSbQ/edit?usp=sharing'
 order: 113
 draft: false
 ---

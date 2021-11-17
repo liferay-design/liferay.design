@@ -3,7 +3,7 @@ title: 'Stacked Bar Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A651'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://docs.google.com/spreadsheets/d/1DNV-YGxH69i7UGEUcqMBWOxmaeX5bSDizrA9E-91VAQ/edit?usp=sharing'
 description: 'A Stacked Bar chart compares the values of single items with the total data value.'
 order: 230
 draft: false
