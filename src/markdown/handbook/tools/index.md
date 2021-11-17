@@ -28,4 +28,6 @@ Empower designers at Liferay to use the right tool, the right way.
 -   Google Apps (Drive, Docs, Sheets, Slides, etc)
 -   Confluence
 -   Netlify, Docker
+-   Around
+-   Maze, Dovetail
 -   Trello, Miro other miscellaneous apps
