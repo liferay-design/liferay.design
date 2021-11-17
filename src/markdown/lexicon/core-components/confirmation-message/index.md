@@ -1,6 +1,6 @@
 ---
 title: 'Confirmation Message'
-docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDVkNhOE5sbU0teUU?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1Y3HCIxWKEKtPB3Vm6IbcfeSOuFehZj9xF8JzJU5WIK0/edit?usp=sharing'
 description: 'Confirmation messages inform the user that a situation is critical or an action is irreversible and they must confirm before proceeding.'
 order: 240
 draft: false

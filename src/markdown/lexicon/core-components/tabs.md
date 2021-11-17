@@ -3,7 +3,7 @@ title: 'Tabs'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/tabs.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A24030'
-docLink: 'https://drive.google.com/drive/folders/1KKrOCE5lCMHPXpyknXsAHe78oBfsCk2j?usp=sharing'
+docLink: 'https://docs.google.com/document/d/19uf1P-f92V8_-9dQr1zTQ40HegyLM91ccvVOdP55p4g/edit?usp=sharing'
 description: 'Tabs organize similar content together into individual sections in the same page.'
 order: 350
 draft: false

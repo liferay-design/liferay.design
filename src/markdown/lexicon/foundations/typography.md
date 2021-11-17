@@ -2,7 +2,7 @@
 title: 'Typography'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/css/content/typography.html'
-docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDUTJ1d0Q3QXFzRUk?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1fWxBY0Y6yV28kw2OAgG9WahjTgTPwkVHx7EGM8h-M-c/edit?usp=sharing'
 description: 'A basic reference for the definition of the visual identity and the organization of the content.'
 order: 120
 draft: false

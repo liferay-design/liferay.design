@@ -1,7 +1,7 @@
 ---
 title: 'Tree View'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=8000%3A90943'
-docLink: 'https://drive.google.com/drive/folders/16qGMLKjiEz76OH1lB_F-gFPviupoUMQL?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1fggZBRGAIkGPbnkRrGEUOT0hHpkF-YjFmREee0XCoI0/edit?usp=sharing'
 description: 'A tree view is a component-based on nodes that are shown in a hierarchical structure. '
 order: 362
 draft: false
