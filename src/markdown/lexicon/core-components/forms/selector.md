@@ -2,7 +2,7 @@
 title: 'Selectors'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/select'
-docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1rzRUNJC0cdV11Q_1I1uyuFrMFiuAaJrhv8ywAPuUx54/edit'
 description: 'A form control element used to select from several provided options and enter data.'
 order: 261
 draft: false

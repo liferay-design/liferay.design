@@ -3,7 +3,7 @@ title: 'Line Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A235'
-docLink: 'https://docs.google.com/spreadsheets/d/1DNV-YGxH69i7UGEUcqMBWOxmaeX5bSDizrA9E-91VAQ/edit?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1A_oVxh1wjCxUWUuhsa57IrLp-UaP8Jg7'
 description: 'A type of chart which displays information as a series of data points connected by straight line segments.'
 order: 228
 draft: false

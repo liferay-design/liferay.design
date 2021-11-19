@@ -3,7 +3,7 @@ title: 'Text Input'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/input'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A2985'
-docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1GVo166ZGrxQF5YgoYqBz4t9eHWKaBUcbYPAPb3ggIX8/edit'
 description: 'A description of the different text input types, including usage and validation states.'
 order: 265
 draft: false

@@ -3,6 +3,8 @@ title: 'Date & Time Pickers'
 description: 'Date and Time pickers let users select a date and time for a form.'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A9328'
 docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/date-picker.html'
 order: 258
 draft: false
 devStatus: 'Pending'

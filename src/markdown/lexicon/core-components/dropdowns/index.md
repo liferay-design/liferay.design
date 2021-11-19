@@ -3,7 +3,7 @@ title: 'Dropdown Menu'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/drop-down.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A3538'
-docLink: 'https://docs.google.com/document/d/1UM2WXcj-nnnVtR_FBg_nsMgqVY5WOYTu3YE5ylRMlwU/edit?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/11A3sAPDQNRGG0_H-by0rVJR-K5azsCNo'
 description: 'A dropdown menu displays a list of options for the element that triggers it.'
 order: 243
 draft: false

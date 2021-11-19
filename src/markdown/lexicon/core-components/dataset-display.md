@@ -2,7 +2,7 @@
 title: 'Dataset Display'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/management-toolbar.html'
-docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saVU01WWVDXzUxQjg?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1FW2h0sIs2Fuso1ur1Z9XJQerNhyTysMA'
 description: 'A combination of components that configure the main data management pattern of the system.'
 order: 241
 draft: false
@@ -10,34 +10,6 @@ draft: false
 
 A dataset display is the combination of a [management bar](../toolbars/management-bar), with one or many data visualization types, and optionally a mechanism of pagination. The most common visualization types used are [table](../table), [list](../list), and [card](../cards). You can see the dataset display pattern in action in the slides below:
 
-<!--
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="/images/lexicon/DTTableView.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/images/lexicon/DTListView.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/images/lexicon/DTCardView.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-   <svg class="lexicon-icon lexicon-icon-angle-left"><use xlink:href="/vendor/lexicon/icons.svg#angle-left"></use></svg>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <svg class="lexicon-icon lexicon-icon-angle-right"><use xlink:href="/vendor/lexicon/icons.svg#angle-right"></use></svg>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
- -->
 
 ### Usage
 

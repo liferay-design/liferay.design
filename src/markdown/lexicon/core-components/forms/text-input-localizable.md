@@ -3,7 +3,7 @@ title: 'Text Input Localizable'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/localized-input'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A2985'
-docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1rKn34BR_95gEbeG1cqdgWsl1h6buo1MPdG9Jrgz_xU4/edit?usp=sharing'
 description: 'A text input variation used in fields that can be translated into multiple languages.'
 order: 267
 draft: false
