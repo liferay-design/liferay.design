@@ -31,7 +31,7 @@ Stories fit neatly into agile frameworks like scrum and kanban. In scrum, user s
 
 They are also the building blocks of larger agile frameworks like epics and initiatives. Epics are large work items broken down into a set of stories, and multiple epics comprise an initiative. These larger structures ensure that the day-to-day work of the development team (on stores) contributes to the organizational goals built into epics and initiatives.
 
-### Creating an Story
+### Creating a Story
 
 Stories sometimes seem like an added step. Why not just break the big project (the epic) into a series of steps and get on with it? But stories give the team important context and associate tasks with the value those tasks bring.
 
@@ -57,3 +57,26 @@ Stories sometimes seem like an added step. Why not just break the big project (t
 	rounded
 	dropShadow
 />
+
+## Example of a Story:
+
+There are different situations where a Story can be created. The most commom in tech is related to "User stories” which are the basic requirements written from the end-user perspective and are considered to be smaller pieces of work within an Epic. So a Story can be understood as a user need related to a product or service.
+
+A typical Story needs to explain how a piece of work can deliver value to the user, client or stakeholder (who is requesting it). Also, stories help create context to the design team who will be responsible for it.
+
+## Important fields:
+
+It is important to have in mind that some fields in a Story are required and important to fill:
+1. ***Summary:*** a brief description about the objective and context of the work.
+2. ***Components:*** is a field that indicates the design team that will be responsible for the work.
+3. ***Initiative:*** sometimes a Story can be related or linked directly to a greater initiative.
+4. ***Priority:*** how important or urgent the work is at that moment;
+5. ***Assignee:*** the person who is going to be responsible for the work.
+6. ***Reporter:*** the person who had the initiative to ask or is requesting the work.
+7. ***Liferay Watchers:*** one or more stakeholders that will be informed over the Story updates.
+8. ***Due Date*** is the time limit or deadline for finish that specific work.
+9. ***Description:*** a more detailed text giving important information over the work to be done.
+10. ***Attachment:*** any imporant docuemnt should be attached to this issue
+11. ***Labels:*** is a complementary way of organizing by topics or themes all the work that should be done.
+12. ***Epic Link*** should indicate the Epic that this piece of work is related to.
+13. ***Sprint:*** if the Epic is related to a team that works in running in sprints.
