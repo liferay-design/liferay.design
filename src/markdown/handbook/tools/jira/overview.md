@@ -37,7 +37,20 @@ Is a more detailed request, also called user stories more related to a product o
 
 A task, as a generic issue, can represent the type of work that needs to be done. This piece of work usually is represented as a normal standalone issue type in Jira. As a single [task](/handbook/tools/jira/issues/task/) should be assigned to one designer and, for example, could be part of a bigger project or initiative.
 
-If a task is too big and complex then the issue (or task) can be broken down into sub-tasks.
+_If a task is too big and complex then the issue (or task) can be broken down into sub-tasks._
+
+## Epic vs Story vs Epics 
+
+1. Epics are usually used for grouping Stories.
+2. Stories can group a list of tasks.
+3. Taks can be grouped or used isolated.
+
+***Example A***: a product release is an Epic, a feature is a Story. To deliver the product, it’s nice to have some useful features. And to have that, various tasks are needed to achieve it.
+
+***Example B***: Imagine that a vacation is an Epic, so buying the flight tickets and booking a hotel could be Stories.
+
+***Example C***: an Epic can be understand as a chapter in a book. Each chapter has different characters and each of them has a specific role and can take actions that might have some outcome.
+So a Story is created when a character does something to achieve a goal, and to help with that. there is the need to have at least a Task, where a specific character performs one action.
 
 ## Team Specific Issues
 
