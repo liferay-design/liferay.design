@@ -3,7 +3,7 @@ title: 'Pie Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A648'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1A_oVxh1wjCxUWUuhsa57IrLp-UaP8Jg7'
 description: 'A Pie chart divides data by numerical proportions of a total value (always 100%).'
 order: 229
 draft: false

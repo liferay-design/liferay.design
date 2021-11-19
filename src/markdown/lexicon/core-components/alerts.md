@@ -3,7 +3,7 @@ title: 'Alerts'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/alert'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6076%3A101'
-docLink: 'https://docs.google.com/document/d/1sRrlIXYnMAqyBk1n1QLDPO2sKNYKl7AUt7aJogYXhWs/edit?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1s7wf5aBffd4fRs4xb5jyDiSYQ62uqYuV'
 description: 'Alerts are used to capture the attention of the user in an intrusive way.'
 order: 202
 draft: false

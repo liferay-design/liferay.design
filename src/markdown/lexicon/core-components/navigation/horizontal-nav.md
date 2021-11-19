@@ -3,7 +3,7 @@ title: 'Navbar'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/navigation-bar.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A22686'
-docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDV2szTEdwNkg0a3M?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1ebXd3rZ3zGiXmasIS6SVsermnNECjKzbzUCRZZlQkcQ/edit?usp=sharing'
 description: 'A navigation bar, navbar, is a horizontal bar that provides several access points to different parts of a system.'
 order: 312
 draft: false

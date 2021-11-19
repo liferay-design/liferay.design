@@ -1,7 +1,7 @@
 ---
 title: 'Charts'
 description: 'This section defines and describes Lexicon Charts as a main graphical pattern to analyze data.'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/156RqCKxo3VjZembwmz08VCgPzLCIFZRd'
 order: 220
 draft: false
 ---

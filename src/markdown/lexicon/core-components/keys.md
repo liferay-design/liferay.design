@@ -3,7 +3,7 @@ title: 'Keys'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/css/content/c-kbd.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=3668%3A20755'
-docLink: 'https://drive.google.com/drive/folders/1X3eTMonCdVNpXrEoIsQ94OufegP1JO6M?usp=sharing'
+docLink: 'https://docs.google.com/document/d/196sgTdOpcuUDPDft17m3F1mUFtLIb6b-5I_FBfDRwRQ/edit?usp=sharing'
 description: 'A visual pattern used to allow users to learn how to access actions via keyboard.'
 order: 280
 draft: false

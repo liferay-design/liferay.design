@@ -3,7 +3,7 @@ title: 'Pagination'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/pagination.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A23383'
-docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDQnRpVXhxYWNJMmM?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1JAVIWbl6MKp7wfuycuqaKI5yVhIICzh2'
 description: 'Pagination provides horizontal navigation between chunks(pages) of a dataset.'
 order: 318
 draft: false

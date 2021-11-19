@@ -3,7 +3,7 @@ title: 'List'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/list.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A20490'
-docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8sab0FEZTM4VjRnLUk?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1ByNWewqLebG1U260pQxchgp5RRWPAEwL'
 description: 'Lists are a visual representation of a dataset, based on groups of related content, that is organized vertically.'
 order: 284
 draft: false
