@@ -36,6 +36,29 @@
   icon: fa_music
   startDate: 2021-08-30
   office: Madrid
+- id: Carolina Hurtado
+  title: Associate Product Designer
+  active: true
+  icon: fa_seedling
+  startDate: 2021-11-16
+  office: Remote
+  links:
+      behance: 'carolinahubb0b'
+      dribbble: 'CaroHurTam'
+      github: 'Carolina-start'
+      linkedin: 'carolinahurtadotambini'
+      website: https://carolina-portfolio.webflow.io
+- id: Carolina Venegas
+  title: Product Designer
+  active: true
+  icon: fa_pizza
+  startDate: 2021-11-16
+  office: Remote
+  links:
+      instagram: 'ninaayellow'
+      twitter: 'ninaayellow'
+      behance: 'zittoc'
+      discord: 'zittoc#3547'
 - id: Chris Jeong
   title: Senior Product Designer
   active: true
@@ -208,6 +231,15 @@
   icon: fa_crow
   startDate: 2020-08-06
   office: Madrid
+- id: Sandy Gonzales
+  title: Associate Product Designer
+  active: true
+  icon: fa_book
+  startDate: 2021-11-16
+  office: Remote
+  links:
+      instagram: 'yugentsuki'
+      twitter: 'yugentsuki'
 - id: Susana Vázquez
   title: Manager, Product Design
   active: true
