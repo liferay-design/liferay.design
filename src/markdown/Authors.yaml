@@ -60,7 +60,7 @@
       behance: 'zittoc'
       discord: 'zittoc#3547'
 - id: Chris Jeong
-  title: Senior Product Designer
+  title: Principal Designer
   active: true
   icon: fa_glasses
   startDate: 2017-10-16
@@ -87,18 +87,8 @@
   icon: fa_bezier_curve
   startDate: 2016-08-10
   office: Madrid
-- id: Eloi Pinheiro
-  title: Senior Communication Designer
-  active: false
-  icon: fa_music
-  startDate: 2021-06-14
-  office: Recife
-  links:
-      instagram: 'eloipinheiros'
-      twitter: 'eloipinheiros'
-      website: behance.net/eloipinheiro
 - id: Jon Wood
-  title: Senior Product Designer
+  title: Product Design Manager
   active: true
   icon: fa_keyboard
   startDate: 2019-04-15
@@ -204,7 +194,7 @@
   startDate: 2006-11-27
   office: Diamond Bar
 - id: Paul Hanaoka
-  title: Manager, Product Design NA
+  title: Principal Designer
   active: true
   icon: fa_terminal
   startDate: 2014-08-25
@@ -225,12 +215,6 @@
   office: Diamond Bar
   links:
       dribbble: 'rachel_yuan'
-- id: Rubén Jiménez
-  title: Senior Product Designer
-  active: false
-  icon: fa_crow
-  startDate: 2020-08-06
-  office: Madrid
 - id: Sandy Gonzales
   title: Associate Product Designer
   active: true
@@ -241,7 +225,7 @@
       instagram: 'yugentsuki'
       twitter: 'yugentsuki'
 - id: Susana Vázquez
-  title: Manager, Product Design
+  title: Product Design Manager
   active: true
   icon: fa_archway
   startDate: 2017-10-18
@@ -262,7 +246,7 @@
   startDate: 2020-05-18
   office: Recife
 - id: Victor Valle
-  title: Principal Product Designer
+  title: Principal Designer
   active: true
   icon: fa_fingerprint
   startDate: 2016-08-18
@@ -415,6 +399,22 @@
       github: 'fapires'
       instagram: 'felippires'
       twitter: 'felipeapiress'
+- id: Rubén Jiménez
+  title: Senior Product Designer
+  active: false
+  icon: fa_crow
+  startDate: 2020-08-06
+  office: Madrid
+- id: Eloi Pinheiro
+  title: Senior Communication Designer
+  active: false
+  icon: fa_music
+  startDate: 2021-06-14
+  office: Recife
+  links:
+      instagram: 'eloipinheiros'
+      twitter: 'eloipinheiros'
+      website: behance.net/eloipinheiro
 
   # Friends of Design :)
 - id: Angelo Youn
