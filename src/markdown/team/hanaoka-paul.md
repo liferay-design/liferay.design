@@ -4,11 +4,11 @@ author: 'Paul Hanaoka'
 
 ### Favorite tool?
 
-Figma &mdash; and my 8' level.
+I wish it were Figma, but lately — Apple Notes.
 
 ### Best lifehack?
 
-Go to bed before 11, wake up before 6.
+🙃
 
 ### If you weren't designing, what would you be doing?
 
@@ -48,4 +48,8 @@ The future.
 
 JK &mdash; generally thinking about all the things I didn't accomplish during the day, week, month.
 
-My 2-year old when he's sick.
+My kids when they're sick.
+
+### Best punctuation mark?
+
+Obviously the em-dash &mdash; I pause a lot when speaking, so its only natural I do so when writing.
