@@ -32,6 +32,12 @@ export default class Team extends Component {
 								name: 'behance',
 						  }
 						: null,
+					links.discord
+						? {
+								url: 'https://www.discord.com/' + links.discord,
+								name: 'discord',
+						  }
+						: null,
 					links.dribbble
 						? {
 								url: 'https://www.dribbble.com/' + links.dribbble,
