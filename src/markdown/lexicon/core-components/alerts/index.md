@@ -131,3 +131,18 @@ A modal window with an information stripe alert:
 ![an info stripe alert within a modal windows](/images/lexicon/AlertStripeExample.png)
 
 
+#### Inline
+
+An inline action doesn’t start a new line as a block action and only takes as much width as necessary. It’s placed hereafter of the alert message. 
+
+An inline action can be used on any Alert variant: Toast, Embedded, or Stripe.
+
+![A stripe Alert using inline actions](./images/alert-20.png)
+
+Using inline actions can cause different alert widths. Therefore, Product Designers need to set a maximum width to keep consistency and avoid overflow problems across their products.  
+
+![Toast Alerts with different widths](./images/alert-21.png)
+
+We recommend using inline actions for messages of two lines maximum, otherwise use block actions. 
+
+![A success Alert message of two lines](./images/alert-22.png)
