@@ -22,7 +22,7 @@ The states for a selector are the same as the states for a text input.
 
 ## Multi select
 
-Multi select is the field type that allows writing text to create “tags” that are represented in the shape of labels. This components counts with auto complete feature.
+Multi select is the field type that allows writing text to create “tags” that are represented in the shape of labels. This components counts with autocomplete feature.
 
 ![multiple select field](/images/lexicon/SelectMulti.jpg)
 
@@ -30,8 +30,8 @@ Multi select is the field type that allows writing text to create “tags” tha
 
 Multi select includes different features as:
 
--   Text automplete
+-   Text autocomplete
 -   Fast label creation on text paste, creating tags for elements separated by commas.
--   This component aslo has a character whitelist that allows create labels with only desired characters.
+-   This component also has a character whitelist that allows create labels with only desired characters.
 
 ![multiple select field with N lines](/images/lexicon/SelectMultiAutocomplete.gif)
