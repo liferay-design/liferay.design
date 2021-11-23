@@ -12,6 +12,10 @@ draft: false
 ### Definition
 A dual Listbox consists of two lists used to move options between them. Users are allowed to multi-select different items from a list and sometimes, options in use can be re-order. The scroll must be available in long lists.
 
+#### Usage
+* By default, the destination list is placed on the left, and the origin is on the right, but the order can be changed providing a clear context.
+* Lists must be exclusive and their titles must reflect so. Examples: "Selected - Not selected", "Coord X - Coord Y" or "East coast teams - West coast teams"
+
 #### Parts
 ![Dual ListBox](/images/lexicon/dualListBox.png)
 
