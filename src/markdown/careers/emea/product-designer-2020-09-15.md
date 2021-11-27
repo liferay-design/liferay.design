@@ -4,7 +4,7 @@ date: '2020-09-15'
 title: 'Product Designer'
 office: 'Madrid'
 featuredImage: '/images/2020/pjabel.jpg'
-published: true
+published: false
 remote: true
 ---
 
