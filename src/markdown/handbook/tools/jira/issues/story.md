@@ -7,11 +7,11 @@ publish: true
 
 ## What is a Story?
 
-Atlassian defines astory as an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer.
+Atlassian defines a story as an informal, general explanation of a software feature written from the perspective of the end-user. Its purpose is to articulate how a software feature will provide value to the customer.
 
-User stories could be simply oftware system requirements. But they're not. 
+User stories could be simply software system requirements. But they're not. 
 
-A key component of agile software development is putting people first, and a user story puts end users at the center of the conversation. These stories use non-technical language to provide context for the development team and their efforts. After reading a user story, the team knows why they are building, what they're building, and what value it creates. 
+A key component of agile software development is putting people first, and a user story puts end-users at the center of the conversation. These stories use non-technical language to provide context for the development team and their efforts. After reading a user story, the team knows why they are building, what they're building, and what value it creates. 
 
 User stories are one of the core components of an agile program. They help provide a user-focused framework for daily work — which drives collaboration, creativity, and a better product overall.
 
@@ -19,9 +19,9 @@ User stories are one of the core components of an agile program. They help provi
 
 A story is the smallest unit of work in an agile framework. It’s an end goal, not a feature, expressed from the software user’s perspective.
 
-A story is an informal, general explanation of a software feature written from the perspective of the end user or customer. 
+A story is an informal, general explanation of a software feature written from the perspective of the end-user or customer. 
 
-The purpose of a (user) story is to articulate how a piece of work will deliver a particular value back to the customer. Note that "customers" don't have to be external end users in the traditional sense, they can also be internal customers or colleagues within your organization who depend on your team.
+The purpose of a (user) story is to articulate how a piece of work will deliver a particular value back to the customer. Note that "customers" don't have to be external end-users in the traditional sense, they can also be internal customers or colleagues within your organization who depend on your team.
 
 Stories are a few sentences in simple language that outline the desired outcome. They don't go into detail. Requirements are added later, once agreed upon by the team.
 
@@ -60,23 +60,23 @@ Stories sometimes seem like an added step. Why not just break the big project (t
 
 ## Example of a Story:
 
-There are different situations where a Story can be created. The most commom in tech is related to "User stories” which are the basic requirements written from the end-user perspective and are considered to be smaller pieces of work within an Epic. So a Story can be understood as a user need related to a product or service.
+There are different situations where a Story can be created. The most common in tech is related to "User stories” which are the basic requirements written from the end-user perspective and are considered to be smaller pieces of work within an Epic. So a Story can be understood as a user need related to a product or service.
 
-A typical Story needs to explain how a piece of work can deliver value to the user, client or stakeholder (who is requesting it). Also, stories help create context to the design team who will be responsible for it.
+A typical Story needs to explain how a piece of work can deliver value to the user, client, or stakeholder (who is requesting it). Also, stories help create a context for the design team who will be responsible for it.
 
 ## Important fields:
 
-It is important to have in mind that some fields in a Story are required and important to fill:
+It is important to have in mind that some fields in a Story are required and important to fill.
 1. ***Summary:*** a brief description about the objective and context of the work.
 2. ***Components:*** is a field that indicates the design team that will be responsible for the work.
 3. ***Initiative:*** sometimes a Story can be related or linked directly to a greater initiative.
-4. ***Priority:*** how important or urgent the work is at that moment;
+4. ***Priority:*** how important or urgent the work is at that moment.
 5. ***Assignee:*** the person who is going to be responsible for the work.
 6. ***Reporter:*** the person who had the initiative to ask or is requesting the work.
 7. ***Liferay Watchers:*** one or more stakeholders that will be informed over the Story updates.
 8. ***Due Date*** is the time limit or deadline for finish that specific work.
 9. ***Description:*** a more detailed text giving important information over the work to be done.
-10. ***Attachment:*** any imporant docuemnt should be attached to this issue
+10. ***Attachment:*** any imporant docuemnt should be attached to this issue.
 11. ***Labels:*** is a complementary way of organizing by topics or themes all the work that should be done.
 12. ***Epic Link*** should indicate the Epic that this piece of work is related to.
 13. ***Sprint:*** if the Epic is related to a team that works in running in sprints.

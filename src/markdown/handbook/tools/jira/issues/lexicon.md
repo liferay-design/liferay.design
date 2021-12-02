@@ -7,7 +7,7 @@ publish: true
 
 ## What is a Lexicon Request?
 
-Request of Liferay's Design System and any demand related to components or technical improvements.
+Request related to the creation of an asset handled by the Communication Team.
 
 ### When to create a Lexicon Request
 

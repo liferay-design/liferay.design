@@ -23,16 +23,16 @@ An epic should give the development team everything they need to be successful. 
 
 ### When should an Epic be created?
 
-Consider creating an epic if you have a large body of work that needs to be completed over several sprints or over a long period of time. You can also create an epic when you notice a pattern among several user stories, and you want to bundle them into one group. Check out our guide on Epics to learn about examples and templates.
+Consider creating an epic if you have a large body of work that needs to be completed over several sprints or over a long period of time. You can also create an epic when you notice a pattern among several user stories, and you want to bundle them into one group.
 
 ### Creating an Epic
 
-When creating a new epic consider other planning and organization tools your team may already have in place. Creating epics around a team’s quarterly goals or OKRs is a great start. When creating an epic, consider the following:
+When creating a new epic, consider other planning and organization tools your team may already have in place. Creating epics around a team’s quarterly goals or OKRs is a great start. When creating an epic, consider the following:
 
 -   Reporting — Create epics for the projects that managers and executives will want to keep an eye on.
--   Storytelling — Use epics, and the stories that roll up into them, as a mechanism to tell the story of how you arrived at the current state of a feature or product.
+-   Storytelling — UUse epics, and the stories that roll up into them, as a mechanism to tell the story of how you arrived at the current state of a feature or product.
 -   Culture — Let organizational culture dictate the size and granularity of an epic.
--   Time — Most development teams rely on estimation frameworks instead of time, but it’s a worthwhile gut check to make sure your epics will take a couple weeks to complete. Not too long and not too short.
+-   Time — Most development teams rely on estimation frameworks instead of time, but it’s a worthwhile gut check to make sure your epics will take a couple of weeks to complete. Not too long and not too short.
 
 ## Workflow
 
@@ -48,7 +48,7 @@ When creating a new epic consider other planning and organization tools your tea
 
 ## Example of an Epic:
 
-There are different reasons and situations when an Epic should be create. When thinking about more complex work demands or trying to organize a group of related stories like the release of a product version, the creation of an internal campaign and the launch a new website. To launch a release or deliver a job, there is the need to organize work and Epics are meant to help managing work across teams.
+There are different reasons and situations when an Epic should be created. When thinking about more complex work demands or trying to organize a group of related stories like the release of a product version, the creation of an internal campaign, and the launch of a new website. To launch a release or deliver a job, there is the need to organize work and Epics are meant to help manage work across teams.
 
 ## Important fields:
 
