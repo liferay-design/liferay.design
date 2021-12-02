@@ -7,7 +7,7 @@ publish: true
 
 ## What is a Task?
 
-Tasks are single to-dos, assigned to one employee and planned in a specific sprint. Tasks are oftentimes part of a story and cross-linked.
+Tasks are single to-dos, assigned to one employee, and planned in a specific sprint. Tasks are oftentimes part of a story and cross-linked.
 
 ### Understanding Tasks
 
@@ -16,8 +16,9 @@ Tasks are single to-dos, assigned to one employee and planned in a specific spri
 - Tasks can be separated into subtasks.
 - Tasks can be assigned to a responsible employee (aka assignee).
 - Tasks are part of a sprint or scrum.
-- They are being worked on actively, can be forwarded to someone else for feedback and can be marked as done when finished.
+- They are being worked on actively, can be forwarded to someone else for feedback, and can be marked as done when finished.
 - Tasks can be cross-linked and can block each other.
+
 
 ### Creating a Task
 

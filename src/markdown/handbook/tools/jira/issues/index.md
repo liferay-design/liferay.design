@@ -7,7 +7,7 @@ publish: true
 
 ## What are issues?
 
-An issue represents an action that has to be done. That action can be a task, a bug, a feature request or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization. It is possible to customize a issue types creating issue sets associated per projects, and even per permission types.
+An issue represents an action that has to be done. That action can be a task, a bug, a feature request, or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization. It is possible to customize issue types creating issue sets associated with projects, and even per permission types.
 
 <Image
 	src="/images/handbook/tools/jira/jira-issues.png"
@@ -21,7 +21,7 @@ An issue represents an action that has to be done. That action can be a task, a 
 
 ## Configuring the layout of an issue
 
-To configure the layout of the new issue view which fields appear and the order they appear in—open an issue and choose Configure at the bottom-right. To find out more about configuring the issue layout, [see the Jira support page](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
+To configure the layout of the new issue view in which fields appear and the order they appear in—open an issue and choose to Configure at the bottom-right. To find out more about configuring the issue layout, [see the Jira support page](https://support.atlassian.com/jira-software-cloud/docs/configure-field-layout-in-the-issue-view/).
 
 <Image
 	src="/images/handbook/tools/jira/issue-screens.png"
@@ -35,7 +35,7 @@ To configure the layout of the new issue view which fields appear and the order 
 
 ## What are issue statuses and priorities?
 
-Issues track the work each team needs to get done to progress projects demands and goals. Each issue collects and displays the information a team needs to collaborate into a set of fields. An issue's status and priority represent important fields describing and reporting on each team's work. These set of information give a team at-a-glance information about where the work is in the workflow, how important it is to your project goals, and a description of how the work was completed.
+Each issue collects and displays the information a team needs to collaborate into a set of fields. An issue's status and priority represent important fields describing and reporting on each team's work. This set of information gives a team at-a-glance information about where the work is in the workflow, how important it is to your project goals, and a description of how the work was completed.
 
 ## Issue Statuses
 

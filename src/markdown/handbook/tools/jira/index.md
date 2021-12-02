@@ -12,7 +12,7 @@ _Share information by giving visibility on the design teams and the different pr
 1. [Centralization increases productivity](/handbook/collaborate/)
 2. Simplification reduces overhead
 3. Visibility improves awareness
-4. Integration towards consistent processes
+4. Integration creates consistent processes
 5. Data-informed improves insights
 
 ### Design Jira Project
@@ -33,11 +33,11 @@ Each Story is made of a series of specific **tasks** to be completed.
 
 _A Jira project is a collection of issues. Your team could use a Jira project to coordinate the development of a product, track a project, manage a help desk, and more, depending on your requirements. A Jira project can also be configured and customized to suit the needs of you and your team._
 
-_These are our tips to working effectively with Jira at Liferay._
+_These are our tips for working effectively with Jira at Liferay._
 
 ### How to create a request?
 
-If you need a request to a specifi design team you can [create here](https://issues.liferay.com/projects/DESIGN/issues/DESIGN-84?filter=allopenissues).
+If you need a request to a specifi design team you can [create here](https://issues.liferay.com/projects/DESIGN/issues).
 
 1. Go to the INTERNAL Design Jira Project
 2. Click on the button CREATE ISSUE
