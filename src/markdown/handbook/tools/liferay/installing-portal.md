@@ -6,8 +6,20 @@ publish: true
 ---
 
 If you are a product designer working in a Liferay DXP related project this guide might be helpful for you and your daily work.
+<br/>
 
-## Getting ready
+<div>
+    <p><a href="./#getting-ready">Getting ready</a></p>
+    <p><a href="./#update-and-run">Update and run</a></p>
+    <p><a href="./#tips-and-tricks">Tips and tricks</a></p>
+    <p><a href="./#recovering-from-errors">Recovering from errors</a></p>
+</div>
+<br/>
+
+<br/>
+<br/>
+
+# Getting ready
 
 _Note: We usually use [zsh](https://ohmyz.sh/) as terminal interface._
 
@@ -62,6 +74,11 @@ export ANT_OPTS="-Xms4096m -Xmx4096m -XX:MaxPermSize=512m -Dorg.gradle.workers.m
 ```
 
 *Note: Adjust 'jdk1.8.0_261' to the version number you have just downloaded*
+
+<br/>
+<br/>
+
+# Update and run
 
 ## Updating Portal
 
@@ -119,15 +136,17 @@ After any of them you might need to get the bundle snapshot
 ```bash
 ant snapshot-bundle
 ```
+<br/>
+<br/>
 
 
-# Using aliases
+# Tips and tricks
+
+Aliases let allow us to write our custom commands so we don't have to remember everything. You just need to write them in your .zshrc file.
 
 ## Configuring
 
-Alias let allow us to write our custom commands so we don't have to remember everything. You just need to write them in your .zshrc file.
-
-Go to
+Go to your user folder
 
 ```bash
 cd /Users/your_username
@@ -185,7 +204,11 @@ Run portal:
 portal-run
 ```
 
-# My portal is failing and it doesn't run
+<br/>
+<br/>
+
+
+# Recovering from errors
 
 Make sure there are no other java processes running in the same port.
 
@@ -198,6 +221,8 @@ Sometimes it might not work due to a bad update or databases problems.
 ```bash
 git clean -fdx
 ```
+
+then run,
 
 ```bash
 portal-update
