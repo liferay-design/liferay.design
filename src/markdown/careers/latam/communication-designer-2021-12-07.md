@@ -4,7 +4,7 @@ date: '2021-11-03'
 title: 'Communication Designer'
 office: 'Mexico'
 featuredImage: '/images/articles/pj-first-year.jpeg'
-published: true
+published: false
 remote: true
 ---
 

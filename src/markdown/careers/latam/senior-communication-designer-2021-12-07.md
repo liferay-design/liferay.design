@@ -4,7 +4,7 @@ date: '2021-10-28'
 title: 'Senior Communication Designer'
 office: 'Mexico'
 featuredImage: '/images/articles/hero/design-week-n.jpg'
-published: true
+published: false
 remote: true
 ---
 
