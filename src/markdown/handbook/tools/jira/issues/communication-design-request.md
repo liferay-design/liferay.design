@@ -2,7 +2,7 @@
 title: 'Communication Design Request'
 description: 'Definition, Workflow and Schema'
 order: 40
-publish: true
+publish: false
 ---
 
 ## What is a Communication Design Request?

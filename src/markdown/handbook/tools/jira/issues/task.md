@@ -27,7 +27,7 @@ Keep track of the things that need to get done with tasks. With the ability to g
 ## Workflow
 
 <Image
-	src="/images/handbook/tools/jira/task-worflow-generic.png"
+	src="/images/handbook/tools/jira/task-workflow-generic.png"
 	align="right"
 	size="small"
 	caption="Task workflow"
