@@ -5,52 +5,25 @@ order: 40
 publish: true
 ---
 
-_Share information by giving visibility on the design teams and the different projects that are being worked at the Design Department._
-
+_Jira is Liferay's primary project management tool. Many teams and departments have their own Jira projects — we've created our own guide to help Designers work in our project._
 ## Bringing all design teams together
 
-1. [Centralization increases productivity](/handbook/collaborate/)
-2. Simplification reduces overhead
-3. Visibility improves awareness
-4. Integration creates consistent processes
-5. Data-informed improves insights
+By tracking and managing our work in a single project, we're able to use resources and workflows more efficiently.
 
-### Design Jira Project
+Our Jira project is called [DESIGN](https://issues.liferay.com/projects/DESIGN/summary) - there are one or more [boards](https://issues.liferay.com/secure/RapidBoard.jspa?rapidView=5797&projectKey=DESIGN) for each team.
 
-You can access the project [here](https://issues-uat.liferay.com/projects/DESIGN/summary) - there are one or more [boards](https://issues-uat.liferay.com/secure/RapidBoard.jspa?rapidView=5797&projectKey=DESIGN) for each team.
+Note that many designers also work in other Jira projects outside of DESIGN — for example, all of Liferay's products have their own projects ([LPS](https://issues.liferay.com/projects/LPS/), [LRAC](https://issues.liferay.com/projects/LRAC/), etc). 
 
-### Project Settings
+The DESIGN project was created due to current demands from:
 
-If you are an admin you can access the [project settings](https://issues-uat.liferay.com/plugins/servlet/project-config/DESIGN/summary).
+- Communication Design *formerly COMMDES*
+- Design Research *formerly DESRES*
+- Lexicon *formerly LEXICON*
 
-## Jira Issue Types or Rquests
+As well as new demands from the Solutions and Operations teams.
 
-**Epics** can help create roadmaps or relate to one or more project initiatives.
-Epics contain different **Stories** related to user needs, JTBD or project context.
-Each Story is made of a series of specific **tasks** to be completed.
+Long story short — we moved into a single project for increased efficiency, reducing maintenance, and increasing our ability to gather data.
 
-## Working in Jira
+There are also many secondary benefits — such as an increased awareness for what kinds of work Design does *(someone requesting work from Product Design can see that we also do research)* and a reduced cognitive load for people requesting work from Design *(people no longer need to remember which Design project to start an issue in)*.
 
-_A Jira project is a collection of issues. Your team could use a Jira project to coordinate the development of a product, track a project, manage a help desk, and more, depending on your requirements. A Jira project can also be configured and customized to suit the needs of you and your team._
-
-_These are our tips for working effectively with Jira at Liferay._
-
-### How to create a request?
-
-If you need a request to a specifi design team you can [create here](https://issues.liferay.com/projects/DESIGN/issues).
-
-1. Go to the INTERNAL Design Jira Project
-2. Click on the button CREATE ISSUE
-3. Click (again) on OPEN DIALOG
-4. Select the ISSUE TYPE
-5. Fill in the SUMMARY with the title of the request
-6. Choose your OFFICE LOCATION
-7. Choose the Design Team in the field COMPONENTS
-
-Depending on the issue type the modal will show different screens with specific form labels to be filled.
-
-### Roadmap
-
--   New Issue Types
--   Different Workflows
--   Design Process in Jira
+<!-- If you are an admin you can access the [project settings](https://issues.liferay.com/plugins/servlet/project-config/DESIGN/summary). --> 
