@@ -6,19 +6,20 @@ publish: true
 ---
 
 _This is just a quick guide on the issue possibilities and the original content used as reference can be found on the [Atlassian support site](https://support.atlassian.com/jira-cloud-administration/docs/configure-issues/)._
-## What are issues?
-
-An issue represents an action that has to be done. That action can be a task, a bug, a feature request, or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization. It is possible to customize issue types creating issue sets associated with projects, and even per permission types.
 
 <Image
 	src="/images/handbook/tools/jira/jira-issues.png"
 	align="right"
 	size="small"
-	caption="Jira issues schema"
-	margin="4rem -2rem 0 4rem"
+	caption="Jira issue schema"
+	margin="0rem -2rem 0 4rem"
 	rounded
 	dropShadow
 />
+
+## What are issues?
+
+An issue represents an action that has to be done. That action can be a task, a bug, a feature request, or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization. It is possible to customize issue types creating issue sets associated with projects, and even per permission types.
 
 ## Issue statuses
 
