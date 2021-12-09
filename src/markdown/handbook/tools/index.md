@@ -11,16 +11,16 @@ publish: true
 
 Empower designers at Liferay to use the right tool, the right way.
 
-### Actual
+### Available
 
--   [Your Laptop](https://liferay.design/handbook/tools/your-laptop/)
--   [Calendar](https://liferay.design/handbook/tools/google-calendar/)
--   [Figma](https://liferay.design/handbook/tools/figma/)
--   [Github](https://liferay.design/handbook/tools/github/)
--   [Jira](https://liferay.design/handbook/tools/jira/)
--   [Liferay](https://liferay.design/handbook/tools/liferay/)
--   [lpn](https://liferay.design/handbook/tools/lpn/)
--   [Slack](https://liferay.design/handbook/tools/slack/)
+-   [Your Laptop](../tools/your-laptop/)
+-   [Calendar](../tools/google-calendar/)
+-   [Figma](../tools/figma/)
+-   [Github](../tools/github/)
+-   [Jira](../tools/jira/)
+-   [Liferay](../tools/liferay/)
+-   [lpn](../tools/lpn/)
+-   [Slack](../tools/slack/)
 
 ### Roadmap
 
