@@ -7,7 +7,9 @@ publish: true
 
 ## What is a Story?
 
-Atlassian defines a story as an informal, general explanation of a software feature written from the perspective of the end-user. Its purpose is to articulate how a software feature will provide value to the customer.
+Atlassian defines a story as: 
+
+>an informal, general explanation of a software feature written from the perspective of the end-user. Its purpose is to articulate how a software feature will provide value to the customer.
 
 User stories could be simply software system requirements. But they're not. 
 
@@ -49,7 +51,7 @@ Stories sometimes seem like an added step. Why not just break the big project (t
 ## Workflow
 
 <Image
-	src="/images/handbook/tools/jira/story-worflow-generic.png"
+	src="/images/handbook/tools/jira/story-workflow-generic.png"
 	align="right"
 	size="small"
 	caption="Story workflow"
