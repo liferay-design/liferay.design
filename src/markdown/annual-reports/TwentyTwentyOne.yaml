@@ -7,6 +7,7 @@ promotionsPage:
     summary: To recognize the efforts, achievements, and additional responsibilities these dedicated designers have taken on, we are moving them up to new positions and titles! Click on any of them to see their new titles and a few highlights from 2021.
     designers:
         - name: 'Abel Hancock'
+          title: Senior Product Designer
           summary: "Abel led several key Solution Design projects this year, while still designing for Liferay.com’s latest needs. He made a significant impact to various business units by creating the Dialect component library for our team to build over 12 projects for Global Services, Solutions Center of Excellence, and Presales. Congrats, \_Abel!"
           highlights:
               [
@@ -16,6 +17,7 @@ promotionsPage:
                   'Style Icon',
               ]
         - name: 'David Aragones'
+          title: Lead Product Designer
           summary: 'David has changed the way of working of Lexicon to serve other teams to reach their best. His accurate definitions, implication in solving problems, leadership on strategic conversations with different stakeholders make him evolve into a next step in his career. Good job David!'
           highlights:
               [
@@ -25,6 +27,7 @@ promotionsPage:
                   'Figmaster',
               ]
         - name: 'Deborah Silva'
+          title: Product Designer
           summary: "Deborah has jumped into the analytics space and is quickly becoming a subject matter expert in this area. She continues to improve her knowledge as she contributes to the AC team and has become an integral member of Analytics Cloud. Congrats, \_Deborah!"
           highlights:
               [
@@ -34,14 +37,17 @@ promotionsPage:
                   'Budding YouTube star',
               ]
         - name: 'Jon Wood'
+          title: Product Design Manager
           summary: "Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats,\_Jon!"
           highlights:
               ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
         - name: 'Juan Anton'
+          title: Lead Product Designer
           summary: "Juan has done an awesome job leading our site building experience for a time, now in his new seat, he leads design in Liferay Design facing the experience of designing and coding for our product. Congrats, \_Juan!"
           highlights:
               ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
         - name: 'Victor Santos'
+          title: Product Designer
           summary: "Back in March, we already noticed and promoted Victor to Product Designer. His outstanding time management, versatility to move among different projects, and dedication to the team made him step up. Congrats, \_Victor!"
           highlights:
               ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']

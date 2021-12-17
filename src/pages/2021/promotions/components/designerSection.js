@@ -18,8 +18,8 @@ export default ({}) => {
 						designers {
 							name {
 								id
-								title
 							}
+							title
 							summary
 							highlights
 						}
@@ -34,7 +34,7 @@ export default ({}) => {
 	const screenshots = [1, 2]
 
 	const Designers = graphqlData.designers.map(
-		({ name, summary, highlights }, index) => (
+		({ name, title, summary, highlights }, index) => (
 			<Flex
 				id={makeAuthorSlug(name.id)}
 				key={index}
@@ -79,7 +79,7 @@ export default ({}) => {
 								my: 2,
 							}}
 						>
-							{name.title}
+							{title}
 						</Text>
 						<Text sx={{ fontSize: [3, 4, null], lineHeight: 1.5 }}>
 							{summary}
@@ -194,7 +194,8 @@ export default ({}) => {
 										width: '.8em',
 										backgroundImage:
 											'url(/images/2020/green-check.png)',
-										backgroundImage: 'url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOSAxOSI+CiAgPHBhdGggc3Ryb2tlPSIjMDBCRjc2IiBzdHJva2Utd2lkdGg9IjUiIGQ9Ik0yLjA2MiAxMC43MzZsNS44MDUgNC4wMzdMMTYuNzQ3IDIiLz4KPC9zdmc+Cg==")',
+										backgroundImage:
+											'url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOSAxOSI+CiAgPHBhdGggc3Ryb2tlPSIjMDBCRjc2IiBzdHJva2Utd2lkdGg9IjUiIGQ9Ik0yLjA2MiAxMC43MzZsNS44MDUgNC4wMzdMMTYuNzQ3IDIiLz4KPC9zdmc+Cg==")',
 										backgroundSize: ' contain',
 										backgroundRepeat: 'no-repeat',
 										mr: '2ch',

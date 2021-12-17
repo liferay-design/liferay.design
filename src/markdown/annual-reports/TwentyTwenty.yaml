@@ -9,6 +9,7 @@ promotionsPage:
     summary: To recognize the efforts, achievements, and additional responsibilities these dedicated designers have taken on, we are moving them up to new positions and titles! Click on any of them to see their new titles and a few highlights from 2020.
     designers:
         - name: 'Andrea Censi'
+          title: Product Designer
           summary: "Andrea has been leading the design for Commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. Congrats,\_Andrea!"
           highlights:
               [
@@ -18,6 +19,7 @@ promotionsPage:
                   'Style Icon',
               ]
         - name: 'Emiliano Cicero'
+          title: Senior Product Designer
           summary: "He has consistently brought a deep attention to detail in every project for many years. Evolving from Lexicon to Lima, from defining elements to designing complete features and more, Emiliano has proven to be a senior IC. Congrats,\_Emi!"
           highlights:
               [
@@ -27,6 +29,7 @@ promotionsPage:
                   'Figmaster',
               ]
         - name: 'Miriam Manso'
+          title: Product Designer
           summary: "Thanks to her work we could enable a fundamental task in the design workflow that was not happening as often as it should. The professionalism of her work and continuous iteration moves her from  associate to mid level. Congrats,\_Miriam!"
           highlights:
               [
@@ -36,6 +39,7 @@ promotionsPage:
                   'Budding YouTube star',
               ]
         - name: 'Victor Valle'
+          title: Senior Product Design Manager
           summary: "In addition to managing the largest region of designers, Victor stepped up this year as an Individual Contributor — delivering value in areas like the Asset Library, Global Menu, and more. Congrats,\_Victor!"
           highlights:
               [
@@ -45,6 +49,7 @@ promotionsPage:
                   'Cat Caretaker',
               ]
         - name: 'Susana Vázquez'
+          title: Product Design Manager
           summary: "Entering her fourth year as a strong IC, Susana continues to demonstrate our core value of Lead by Serving — she's stepped up to fill an opportunity as a people manager and we're excited to see her excel in this. Congrats,\_Su!"
           highlights:
               [
@@ -54,6 +59,7 @@ promotionsPage:
                   '"Most Likely To Be A Superhero"',
               ]
         - name: 'Jon Wood'
+          title: Senior Product Designer
           summary: "Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats,\_Jon!"
           highlights:
               ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
