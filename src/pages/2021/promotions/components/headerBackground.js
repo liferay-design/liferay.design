@@ -30,9 +30,10 @@ const HeaderBackground = ({}) => {
 					fill="none"
 					width="100%"
 					viewBox="0 0 1440 900"
+					filter="url(#large)"
 					sx={{
-						width: ['2950px', '100%', null],
-						height: ['100vh', 'auto', null],
+						width: ['100vw', '100%', null],
+						height: ['2950px', 'auto', null],
 						opacity: 0,
 						'@keyframes fadeIn': {
 							to: {
@@ -42,23 +43,33 @@ const HeaderBackground = ({}) => {
 						animation: 'fadeIn .4s ease-in forwards',
 					}}
 				>
-					<use x="-2950" xlinkHref="#background">
+					<filter
+						id="large"
+						x="-30%"
+						y="-30%"
+						width="160%"
+						height="160%"
+						filterUnits="objectBoundingBox"
+					>
+						<feGaussianBlur in="SourceGraphic" stdDeviation="24" />
+					</filter>
+					<use y="-2950" xlinkHref="#background">
 						<animateTransform
 							attributeName="transform"
 							type="translate"
 							from="0 0"
-							to="2950 0"
+							to="0 2950"
 							begin="0s"
 							dur="240s"
 							repeatCount="indefinite"
 						/>
 					</use>
-					<use x="0" xlinkHref="#background">
+					<use y="0" xlinkHref="#background">
 						<animateTransform
 							attributeName="transform"
 							type="translate"
 							from="0 0"
-							to="2950 0"
+							to="0 2950"
 							begin="0s"
 							dur="240s"
 							repeatCount="indefinite"

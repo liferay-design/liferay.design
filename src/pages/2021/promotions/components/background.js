@@ -45,31 +45,12 @@ const Background = ({}) => {
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 1440 900"
+					filter="url(#large)"
 					sx={{
 						ml: ['-40vw', 'initial', null],
 						height: ['100vh', 'initial', null],
 					}}
 				>
-					{/* <filter
-						id="small"
-						x="-80%"
-						y="-80%"
-						width="260%"
-						height="260%"
-						filterUnits="objectBoundingBox"
-					>
-						<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
-					</filter>
-					<filter
-						id="medium"
-						x="-30%"
-						y="-30%"
-						width="160%"
-						height="160%"
-						filterUnits="objectBoundingBox"
-					>
-						<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
-					</filter>
 					<filter
 						id="large"
 						x="-30%"
@@ -78,8 +59,8 @@ const Background = ({}) => {
 						height="160%"
 						filterUnits="objectBoundingBox"
 					>
-						<feGaussianBlur in="SourceGraphic" stdDeviation="6" />
-					</filter> */}
+						<feGaussianBlur in="SourceGraphic" stdDeviation="32" />
+					</filter>
 					<rect
 						width="72"
 						height="72"

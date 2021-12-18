@@ -45,11 +45,22 @@ const Foreground = ({}) => {
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 1440 900"
+					filter="url(#large)"
 					sx={{
 						ml: ['-.5rem', 'initial', null],
 						height: ['100vh', 'initial', null],
 					}}
 				>
+					<filter
+						id="large"
+						x="-30%"
+						y="-30%"
+						width="160%"
+						height="160%"
+						filterUnits="objectBoundingBox"
+					>
+						<feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+					</filter>
 					<rect
 						width="18.61"
 						height="18.61"
