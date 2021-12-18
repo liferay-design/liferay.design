@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Box, Text } from 'theme-ui'
+import { jsx, Flex, Box, Text, Heading } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Image } from 'components/atoms'
 import { headshotPath, makeAuthorSlug } from 'utils'
@@ -69,21 +69,16 @@ export default ({}) => {
 							mt: [3, 'initial', null],
 						}}
 					>
-						<Text sx={{ color: 'primary', fontSize: 4 }}>{name.id}</Text>
-						<Text
+						<Text sx={{ variant: 'text.preheader' }}>{name.id}</Text>
+						<Heading
 							as="h1"
 							sx={{
-								fontSize: [5, 6, null],
-								maxWidth: '21ch',
-								color: 'black',
-								my: 2,
+								variant: 'text.display',
 							}}
 						>
 							{title}
-						</Text>
-						<Text sx={{ fontSize: [3, 4, null], lineHeight: 1.5 }}>
-							{summary}
-						</Text>
+						</Heading>
+						<Text sx={{ variant: 'text.body' }}>{summary}</Text>
 					</Box>
 					<Box
 						sx={{
@@ -169,15 +164,12 @@ export default ({}) => {
 					<Box sx={{ alignSelf: 'flex-start' }}>
 						<Text
 							sx={{
-								color: 'black',
-								fontSize: [3, 4, null],
-								fontWeight: 'heading',
-								mb: 3,
+								variant: 'text.preheader',
 							}}
 						>
 							Highlights
 						</Text>
-						<Text sx={{ fontSize: [3, 4, null] }}>
+						<Text sx={{ variant: 'text.body' }}>
 							<ul
 								sx={{
 									columns: 2,

@@ -82,7 +82,7 @@ export default ({}) => {
 					alt={`${name.id}` + '‘s headshot'}
 				/>
 			</Link>
-			<Text sx={{ color: 'mainL4' }}>{firstWord(name.id)}</Text>
+			<Text sx={{ variant: 'text.preheader' }}>{firstWord(name.id)}</Text>
 		</AnimateIn>
 	))
 	return (

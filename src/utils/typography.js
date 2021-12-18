@@ -11,6 +11,10 @@ const typography = new Typography({
 			styles: ['300', '400', '700', '900'],
 		},
 		{
+			name: 'Source Serif Pro',
+			styles: ['200', '300', '400'],
+		},
+		{
 			name: 'Source Code Pro',
 			styles: ['300', '400', '700', '900'],
 		},
