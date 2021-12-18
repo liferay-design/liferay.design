@@ -53,7 +53,7 @@ export default ({}) => {
 			>
 				<Image
 					sx={{
-						borderRadius: '1rem',
+						borderRadius: '50%',
 						position: 'absolute',
 						visibility: ['hidden', 'initial', null],
 						top: 1,
@@ -70,7 +70,7 @@ export default ({}) => {
 					sx={{
 						height: '10rem',
 						width: '10rem',
-						borderRadius: '1rem',
+						borderRadius: '50%',
 						boxShadow: [
 							'0 .2rem 3rem -.2rem rgba(0, 14, 85, .2), 0 .4rem 2rem -.3rem rgba(0, 74, 215, .4)',
 							'none',
@@ -82,7 +82,7 @@ export default ({}) => {
 					alt={`${name.id}` + '‘s headshot'}
 				/>
 			</Link>
-			<Text sx={{ variant: 'text.preheader' }}>{firstWord(name.id)}</Text>
+			<Text sx={{ variant: 'text.preheader', textAlign: 'center' }}>{firstWord(name.id)}</Text>
 		</AnimateIn>
 	))
 	return (

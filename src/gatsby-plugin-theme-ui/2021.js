@@ -5,22 +5,18 @@ export default {
 	useBodyStyles: false,
 	colors: {
 		...baseTheme.colors,
-		black: '#1f2123',
-		darkBlack: '#1b1c1e',
-		lightBlack: '#1f2123',
-		grayHeader: '#555e68',
-		grayParagraph: '#888b9b',
-		twentyTwentyBlue: '#395DED',
-		lightBlue: '#93A7DB',
-		twentyTwentyYellow: '#FFC90A',
+		backgroundDark: '#202123',
+		darkText: '#202123',
+		backgroundLight: '#F6F9FF',
+		lightText: '#F6F9FF',
 	},
 	fonts: {
 		...baseTheme.fonts,
 		body: '"Source Sans Pro", Tahoma, "Trebuchet MS", sans-serif',
-		heading: '"Source Serif Pro", serif', // TODO add better fallbacks
+		heading: '"Source Serif Pro", serif', // TODO add better fallbacks, load actual italic font
 		smallCaps: '"Source Code Pro", monospace', // TODO add better fallbacks
 	},
-	fontSizes: [8, 12, 16, 20, 24, 32, 40, 48, 56],
+	fontSizes: [8, 12, 16, 20, 32, 40, 64, 80, 100],
 	fontWeights: {
 		...baseTheme.fontWeights,
 		light: 200,
@@ -74,12 +70,14 @@ export default {
 			fontWeight: 'bold',
 			color: 'primary',
 		},
-		display: {
-			fontSize: [6, 8],
-			// fontWeight: 'heading',
-		},
 		body: {
-			fontSize: [2, 3],
+			fontSize: [3, 4],
+			fontWeight: 'light',
+		},
+		display: {
+			fontSize: [8, 6],
+			fontWeight: 'light',
+			// fontWeight: 'heading',
 		},
 	},
 	gradients: {
