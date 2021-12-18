@@ -45,8 +45,8 @@ export default ({}) => {
 					py: [4, '10rem', null],
 					px: [1, 'initial', null],
 					'&:nth-of-type(2n+1)': {
-						backgroundColor: 'hsla(205,57%,91%,0.2)',
-						backdropFilter: 'blur(32px)',
+						backgroundColor: 'hsla(0,0%,97%,0.35)',
+						backdropFilter: 'blur(64px)',
 						'> div#flip > :last-child': {
 							order: '-1',
 						},
@@ -95,7 +95,7 @@ export default ({}) => {
 						>
 							<Image
 								sx={{
-									borderRadius: '1rem',
+									borderRadius: '50%',
 									position: 'absolute',
 									visibility: ['hidden', 'initial', null],
 									top: 2,
@@ -111,7 +111,7 @@ export default ({}) => {
 							<Image
 								sx={{
 									height: ['12rem', '16rem', null],
-									borderRadius: '1rem',
+									borderRadius: '50%',
 									position: 'relative',
 									zIndex: 1,
 									boxShadow: [
@@ -208,8 +208,7 @@ export default ({}) => {
 		<section
 			sx={{
 				position: 'relative',
-
-				background: 'white',
+				backgroundColor: theme => theme.colors.backgroundLight,
 			}}
 		>
 			<Background />

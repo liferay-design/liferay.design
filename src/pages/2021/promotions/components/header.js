@@ -12,7 +12,13 @@ const promotions = yaml.promotionsPage
 
 export default ({}) => {
 	const Header = (
-		<Flex sx={{ background: 'white', height: ['auto', '100vh', null], py: 5 }}>
+		<Flex
+			sx={{
+				backgroundColor: theme => theme.colors.backgroundDark,
+				height: ['auto', '100vh', null],
+				py: 5,
+			}}
+		>
 			<Flex
 				sx={{
 					justifyContent: 'center',
@@ -26,11 +32,21 @@ export default ({}) => {
 				<AnimateIn>
 					<Heading
 						sx={{
+							variant: 'text.preheader',
+							color: 'lightText',
 							ml: [0, '17%', null],
 							mb: 4,
-							color: 'main',
-							fontSize: [5, 6, null],
 							px: [2, 0, null],
+							'&:before': {
+								content: '""',
+								width: '88px', // should match rest of site
+								height: '1px',
+								backgroundColor: 'primary',
+								mr: '1rem',
+								display: 'inline-block',
+								verticalAlign: 'text-top',
+								mt: '.5em',
+							},
 						}}
 					>
 						{promotions.title}
@@ -43,13 +59,13 @@ export default ({}) => {
 					<Text
 						as="h2"
 						sx={{
+							variant: 'text.display',
+							fontSize: [7, 5 ],
+							color: 'lightText',
 							ml: [0, '17%', null],
 							px: [2, 0, null],
 							width: ['100%', '48ch', null],
 							lineHeight: '1.5',
-							fontFamily: 'modes.brand.body',
-							fontSize: [3, 4, null],
-							fontWeight: 'body',
 						}}
 					>
 						{promotions.subtitle}
