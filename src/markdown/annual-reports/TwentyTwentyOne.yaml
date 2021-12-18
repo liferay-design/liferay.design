@@ -16,7 +16,7 @@ promotionsPage:
                   'Elevates our product portfolio',
                   'Style Icon',
               ]
-        - name: 'David Aragones'
+        - name: 'David Aragonés'
           title: Lead Product Designer
           summary: 'David has changed the way of working of Lexicon to serve other teams to reach their best. His accurate definitions, implication in solving problems, leadership on strategic conversations with different stakeholders make him evolve into a next step in his career. Good job David!'
           highlights:
@@ -26,9 +26,9 @@ promotionsPage:
                   'Leading key platform features',
                   'Figmaster',
               ]
-        - name: 'Deborah Silva'
+        - name: 'Déborah Silva'
           title: Product Designer
-          summary: "Deborah has jumped into the analytics space and is quickly becoming a subject matter expert in this area. She continues to improve her knowledge as she contributes to the AC team and has become an integral member of Analytics Cloud. Congrats, \_Deborah!"
+          summary: "Déborah has jumped into the analytics space and is quickly becoming a subject matter expert in this area. She continues to improve her knowledge as she contributes to the AC team and has become an integral member of Analytics Cloud. Congrats, \_Déborah!"
           highlights:
               [
                   'Strong builder',
@@ -41,7 +41,7 @@ promotionsPage:
           summary: "Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats,\_Jon!"
           highlights:
               ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
-        - name: 'Juan Anton'
+        - name: 'Juan Antón'
           title: Lead Product Designer
           summary: "Juan has done an awesome job leading our site building experience for a time, now in his new seat, he leads design in Liferay Design facing the experience of designing and coding for our product. Congrats, \_Juan!"
           highlights:
