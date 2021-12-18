@@ -17,15 +17,15 @@ export default {
 	fonts: {
 		...baseTheme.fonts,
 		body: '"Source Sans Pro", Tahoma, "Trebuchet MS", sans-serif',
-		heading: '"Source Sans Pro", Tahoma, "Trebuchet MS", sans-serif',
-		condensed: '"Bebas Neue", "Franklin Gothic Condensed", sans-serif',
+		heading: '"Source Serif Pro", serif', // TODO add better fallbacks
+		smallCaps: '"Source Code Pro", monospace', // TODO add better fallbacks
 	},
 	fontSizes: [8, 12, 16, 20, 24, 32, 40, 48, 56],
 	fontWeights: {
 		...baseTheme.fontWeights,
 		light: 200,
-		heading: 600,
-		bold: 800,
+		heading: 200,
+		bold: 600,
 	},
 	lineHeights: {
 		body: 1.5,
@@ -66,37 +66,20 @@ export default {
 	text: {
 		...baseTheme.text,
 		preheader: {
-			fontFamily: 'condensed',
-			fontSize: 4,
-			fontWeight: 'body',
-			letterSpacing: '.6ch',
+			// style this the same as /2021
+			...baseTheme.text.caps,
+			fontFamily: 'smallCaps',
+			fontSize: 3,
 			lineHeight: 1.5,
-			fontWeight: 300,
+			fontWeight: 'bold',
 			color: 'primary',
 		},
 		display: {
 			fontSize: [6, 8],
-			fontWeight: 'body',
+			// fontWeight: 'heading',
 		},
-		l1: {
-			fontSize: 7,
-		},
-		l2: {
-			fontSize: [5, 7],
-		},
-		l3: {
-			fontSize: 6,
-			fontWeight: 'bold',
-		},
-		pLarge: {
-			fontSize: [3, 4],
-			fontWeight: 'light',
-			mb: 2,
-		},
-		pMedium: {
-			fontSize: 3,
-			fontWeight: 'light',
-			mb: 2,
+		body: {
+			fontSize: [2, 3],
 		},
 	},
 	gradients: {
