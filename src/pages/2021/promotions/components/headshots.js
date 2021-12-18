@@ -9,7 +9,7 @@ export default ({}) => {
 	const data = useStaticQuery(graphql`
 		{
 			allAnnualReportsYaml(
-				filter: { promotionsPage: { title: { eq: "Congratulations" } } }
+				filter: { id: { eq: "c5977364-c799-51ef-ba8f-43c98a7b197a" } }
 			) {
 				nodes {
 					promotionsPage {
@@ -38,7 +38,7 @@ export default ({}) => {
 		>
 			<Link
 				target="_self"
-				to={'/2020/promotions#' + makeAuthorSlug(name.id)}
+				to={'/2021/promotions#' + makeAuthorSlug(name.id)}
 				sx={{
 					position: 'relative',
 					display: 'block',
