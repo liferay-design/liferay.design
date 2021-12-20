@@ -29,22 +29,10 @@ const Promotions = () => {
 					twitterHandle="@liferaydesign"
 				/>
 
-				<Link
-					sx={{
-						variant: 'links.nice',
-						color: 'white',
-						top: '2rem',
-					}}
-					to="/2021"
-				>
-					Go to 2021 Report
-					<Icon sx={{ m: '0 1em' }} name="rightArrow" />
-				</Link>
-
 				<ScrollArrow
 					sx={{
-						left: ['initial', '2rem', null],
-						right: ['2rem', 'initial', null],
+						left: 'calc(50% - 14px)',
+						bottom: '1rem',
 					}}
 				/>
 
