@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Flex, Text } from 'theme-ui'
+import { jsx, Box, Text } from 'theme-ui'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Link, Image, AnimateIn } from 'components/atoms'
 import { headshotPath, firstWord, makeAuthorSlug } from 'utils'
@@ -24,80 +24,99 @@ export default ({}) => {
 
 	const graphqlData = data.allAnnualReportsYaml.nodes[0].promotionsPage
 
+	const radius = '28'
+
 	const Headshots = graphqlData.designers.map(({ name }, index) => (
-		<AnimateIn
-			key={index}
-			delay={0.1 + `${index}` * 0.1 + 's'}
+		<Box
 			sx={{
-				'&:nth-of-type(2n+0)': {
-					mt: [3, 4, null],
-				},
-				'&:nth-of-type(2n+3)': {
-					mt: [5, 6, null],
-				},
+				display: 'inline-block',
+				transform: 'rotate(' + index * 60 + 'deg)',
+				transformOrigin: radius + 'vh ' + radius + 'vh',
+				position: 'absolute',
 			}}
 		>
-			<Link
-				target="_self"
-				to={'/2021/promotions#' + makeAuthorSlug(name.id)}
-				sx={{
-					position: 'relative',
-					display: 'block',
-					'&:hover > figure:nth-of-type(2)': {
-						transform: 'translateY(-.2em) scale(1.04)',
-						transition: 'transform .2s ease-in-out',
-					},
-					'& > figure:nth-of-type(2)': {
-						transition: 'transform .3s ease-in-out',
-					},
-				}}
+			<AnimateIn
+				key={index}
+				delay={0.1 + `${index}` * 0.1 + 's'}
+				sx={
+					{
+						// '&:nth-of-type(2n+0)': {
+						// 	mt: [4, 5, null],
+						// },
+					}
+				}
 			>
-				<Image
+				<Link
+					target="_self"
+					to={'/2021/promotions#' + makeAuthorSlug(name.id)}
 					sx={{
-						borderRadius: '50%',
-						position: 'absolute',
-						visibility: ['hidden', 'initial', null],
-						top: 1,
-						height: '100%',
-						right: '0',
-						left: '0',
-						filter: 'blur(32px)',
-						opacity: 0.8,
-						zIndex: -1,
+						position: 'relative',
+						display: 'block',
+						transform: 'rotate(' + index * -60 + 'deg)',
+						'&:hover > figure:nth-of-type(2)': {
+							transform: 'translateY(-.2em) scale(1.04)',
+							transition: 'transform .2s ease-in-out',
+						},
+						'& > figure:nth-of-type(2)': {
+							transition: 'transform .3s ease-in-out',
+						},
 					}}
-					src={headshotPath(name.id)}
-				/>
-				<Image
+				>
+					<Image
+						sx={{
+							borderRadius: '50%',
+							position: 'absolute',
+							visibility: ['hidden', 'initial', null],
+							top: 1,
+							height: '100%',
+							right: '0',
+							left: '0',
+							filter: 'blur(32px)',
+							opacity: 0.8,
+							zIndex: -1,
+						}}
+						src={headshotPath(name.id)}
+					/>
+					<Image
+						sx={{
+							height: '10rem',
+							width: '10rem',
+							borderRadius: '50%',
+							boxShadow: [
+								'0 .2rem 3rem -.2rem rgba(0, 14, 85, .2), 0 .4rem 2rem -.3rem rgba(0, 74, 215, .4)',
+								'none',
+								null,
+							],
+						}}
+						title={name.id}
+						src={headshotPath(name.id)}
+						alt={`${name.id}` + '‘s headshot'}
+					/>
+				</Link>
+				<Text
 					sx={{
-						height: '10rem',
-						width: '10rem',
-						borderRadius: '50%',
-						boxShadow: [
-							'0 .2rem 3rem -.2rem rgba(0, 14, 85, .2), 0 .4rem 2rem -.3rem rgba(0, 74, 215, .4)',
-							'none',
-							null,
-						],
+						variant: 'text.preheader',
+						textAlign: 'center',
+						transform: 'rotate(' + index * -60 + 'deg)',
+						transformOrigin: '5rem -6.5rem',
 					}}
-					title={name.id}
-					src={headshotPath(name.id)}
-					alt={`${name.id}` + '‘s headshot'}
-				/>
-			</Link>
-			<Text sx={{ variant: 'text.preheader', textAlign: 'center' }}>
-				{firstWord(name.id)}
-			</Text>
-		</AnimateIn>
+				>
+					{firstWord(name.id)}
+				</Text>
+			</AnimateIn>
+		</Box>
 	))
 	return (
-		<Flex
+		<Box
 			sx={{
-				width: '100%',
-				justifyContent: ['space-around', 'space-between', null],
+				position: 'absolute',
+				left: '56%',
+				width: radius * 2 + 'vh',
+				height: radius * 2 + 'vh',
 				my: 4,
-				flexWrap: ['wrap', 'no-wrap', null],
 			}}
 		>
 			{Headshots}
-		</Flex>
+		</Box>
 	)
 }
