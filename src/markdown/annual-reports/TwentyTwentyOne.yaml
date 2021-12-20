@@ -8,50 +8,29 @@ promotionsPage:
     designers:
         - name: 'Abel Hancock'
           title: Senior Product Designer
-          summary: "Abel led several key Solution Design projects this year, while still designing for Liferay.com’s latest needs. He made a significant impact to various business units by creating the Dialect component library for our team to build over 12 projects for Global Services, Solutions Center of Excellence, and Presales. Congrats, \_Abel!"
-          highlights:
-              [
-                  'Commerce Design Lead',
-                  'Industry recognition',
-                  'Elevates our product portfolio',
-                  'Style Icon',
-              ]
+          summary: "Abel led several key Solution Design projects this year, while still designing for Liferay.com’s latest needs. He made a significant impact to various business units by creating the Dialect component library for our team to build over 12 projects for Global Services, Solutions Center of Excellence, and Presales. Congrats\_Abel!"
+          highlights: ['Figmaster', 'Solution generator', 'Designer and builder']
         - name: 'David Aragonés'
           title: Lead Product Designer
-          summary: 'David has changed the way of working of Lexicon to serve other teams to reach their best. His accurate definitions, implication in solving problems, leadership on strategic conversations with different stakeholders make him evolve into a next step in his career. Good job David!'
-          highlights:
-              [
-                  'Lima Design Lead',
-                  'Motion and illustration',
-                  'Leading key platform features',
-                  'Figmaster',
-              ]
+          summary: "David has changed the way of working of Lexicon to serve other teams to reach their best. His accurate definitions, implication in solving problems, leadership on strategic conversations with different stakeholders make him evolve into a next step in his career. Good\_job\_David!"
+          highlights: ['Lexicon Lead', 'Documenter extraordinnaire', 'DXP Infrastructure']
         - name: 'Déborah Silva'
           title: Product Designer
-          summary: "Déborah has jumped into the analytics space and is quickly becoming a subject matter expert in this area. She continues to improve her knowledge as she contributes to the AC team and has become an integral member of Analytics Cloud. Congrats, \_Déborah!"
-          highlights:
-              [
-                  'Strong builder',
-                  'Force multiplier',
-                  'Researcher extraordinaire',
-                  'Budding YouTube star',
-              ]
+          summary: "Déborah has jumped into the analytics space and is quickly becoming a subject matter expert in this area. She continues to improve her knowledge as she contributes to the AC team and has become an integral member of Analytics Cloud. Congrats\_Déborah!"
+          highlights: ['Amazing work ethic', 'Team player', 'Analytics SME']
         - name: 'Jon Wood'
           title: Product Design Manager
-          summary: "Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats,\_Jon!"
-          highlights:
-              ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
+          summary: "Jon has made a huge impact to the department in his leadership of the Solutions team. He continues to push himself and our department forward. Congrats\_Jon!"
+          highlights: ['Solutions Team Lead', 'Design Mentor', 'Best Hair, 2 years running']
         - name: 'Juan Antón'
           title: Lead Product Designer
-          summary: "Juan has done an awesome job leading our site building experience for a time, now in his new seat, he leads design in Liferay Design facing the experience of designing and coding for our product. Congrats, \_Juan!"
-          highlights:
-              ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
+          summary: "Juan has done an awesome job leading our site building experience for a time, now in his new seat, he leads design in Liferay Design facing the experience of designing and coding for our product. Congrats\_Juan!"
+          highlights: ['Visual Designer leader', 'Codes his designs', 'Humility embodied']
         - name: 'Victor Santos'
           title: Product Designer
-          summary: "Back in March, we already noticed and promoted Victor to Product Designer. His outstanding time management, versatility to move among different projects, and dedication to the team made him step up. Congrats, \_Victor!"
-          highlights:
-              ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
+          summary: "Back in March, we already noticed and promoted Victor to Product Designer. His outstanding time management, versatility to move among different projects, and dedication to the team made him step up. Congrats\_Victor!"
+          highlights: ['Workflow Design Lead', 'Design Mentor', 'Community Builder']
     subtitle: 'Please join us in congratulating these designers for pushing themselves to the next level. Great work and continued success. Cheers.'
     quote:
-        content: 'Stay hungry, stay foolish.'
-        author: 'Steve Jobs'
+        content: 'Don’t bunt. Aim out of the ballpark.'
+        author: 'David Ogilvy'

@@ -35,6 +35,8 @@ export default class FancyFooter extends Component {
 						top: '2rem',
 						left: '50%',
 						transform: 'translateX(-50%)',
+						fontFamily: 'smallCaps',
+						color: 'lightText',
 					}}
 				>
 					liferay.design/2021
@@ -48,7 +50,7 @@ export default class FancyFooter extends Component {
 						fontWeight: 'heading',
 					}}
 				>
-					<Text sx={{ variant: 'text.display', color: 'primaryl2', mb: 4 }}>
+					<Text sx={{ variant: 'text.display', color: 'lightHeadline', mb: 4 }}>
 						{quote.content}
 					</Text>
 					<Text

@@ -6,9 +6,13 @@ export default {
 	colors: {
 		...baseTheme.colors,
 		backgroundDark: '#202123',
-		darkText: '#202123',
+		darkSuper: '#798EB7',
+		darkHeadline: '#202123',
+		darkText: '#404A5D',
 		backgroundLight: '#F6F9FF',
-		lightText: '#F6F9FF',
+		lightSuper: '#798EB7',
+		lightHeadline: '#F6F9FF',
+		lightText: '#B7C2D6',
 	},
 	fonts: {
 		...baseTheme.fonts,
@@ -16,7 +20,7 @@ export default {
 		heading: '"Source Serif Pro", serif', // TODO add better fallbacks, load actual italic font
 		smallCaps: '"Source Code Pro", monospace', // TODO add better fallbacks
 	},
-	fontSizes: [8, 12, 16, 20, 32, 40, 64, 80, 100],
+	fontSizes: [8, 12, 16, 20, 24, 32, 40, 64, 80, 100],
 	fontWeights: {
 		...baseTheme.fontWeights,
 		light: 200,
@@ -35,7 +39,7 @@ export default {
 			padding: '1rem',
 			borderRadius: '1rem',
 			background: theme => `${theme.gradients.backgroundGradient}`,
-			boxShadow: '0 8px 24px -4px rgba(27,28,30,0.6)',
+			boxShadow: '0 6px 36px -4px rgba(36,41,70,0.1)',
 			'> svg': {
 				display: 'block',
 				height: '3rem',
@@ -64,20 +68,20 @@ export default {
 		preheader: {
 			// style this the same as /2021
 			...baseTheme.text.caps,
+			letterSpacing: '.2em',
 			fontFamily: 'smallCaps',
-			fontSize: 3,
+			fontSize: 2,
 			lineHeight: 1.5,
 			fontWeight: 'bold',
-			color: 'primary',
+			color: 'darkSuper',
 		},
 		body: {
 			fontSize: [3, 4],
 			fontWeight: 'light',
 		},
 		display: {
-			fontSize: [8, 6],
+			fontSize: [6, 7],
 			fontWeight: 'light',
-			// fontWeight: 'heading',
 		},
 	},
 	gradients: {
