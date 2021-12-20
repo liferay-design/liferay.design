@@ -8,9 +8,7 @@ import { headshotPath, firstWord, makeAuthorSlug } from 'utils'
 export default ({}) => {
 	const data = useStaticQuery(graphql`
 		{
-			allAnnualReportsYaml(
-				filter: { id: { eq: "c5977364-c799-51ef-ba8f-43c98a7b197a" } }
-			) {
+			allAnnualReportsYaml(filter: { year: { eq: 2021 } }) {
 				nodes {
 					promotionsPage {
 						designers {
@@ -85,7 +83,9 @@ export default ({}) => {
 					alt={`${name.id}` + '‘s headshot'}
 				/>
 			</Link>
-			<Text sx={{ variant: 'text.preheader', textAlign: 'center' }}>{firstWord(name.id)}</Text>
+			<Text sx={{ variant: 'text.preheader', textAlign: 'center' }}>
+				{firstWord(name.id)}
+			</Text>
 		</AnimateIn>
 	))
 	return (
