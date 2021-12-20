@@ -45,8 +45,8 @@ export default ({}) => {
 					py: [4, '10rem', null],
 					px: [1, 'initial', null],
 					'&:nth-of-type(2n+1)': {
-						backgroundColor: 'hsla(0,0%,97%,0.35)',
 						backdropFilter: 'blur(64px)',
+						backgroundColor: 'hsla(0,0%,97%,0.08)',
 						'> div#flip > :last-child': {
 							order: '-1',
 						},
