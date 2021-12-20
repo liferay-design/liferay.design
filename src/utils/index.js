@@ -80,9 +80,11 @@ export function isLive(eventStart, eventEnd) {
 const imagePath = '/images/headshots/'
 
 export function makeAuthorSlug(input) {
-	const normalizedInput = deburr(input.toLowerCase())
-	const stringToArray = normalizedInput.split(' ')
-	const authorSlug = stringToArray.reverse().join('-')
+	const normalizedInput = deburr(input.toLowerCase()) // Daniela de la Garza => daniela de la garza
+	const stringToArray = normalizedInput.split(' ') // daniela de la garza => ['daniela', 'de', 'la', 'garza']
+	const firstName = stringToArray.shift() // ['daniela', 'de', 'la', 'garza'] => 'daniela'
+	const lastName = stringToArray.slice() // ['daniela', 'de', 'la', 'garza'] => ['de', 'la', 'garza']
+	const authorSlug = lastName.concat([firstName]).join('-')
 	return authorSlug
 }
 
