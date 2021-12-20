@@ -16,7 +16,8 @@ export default ({}) => {
 			sx={{
 				backgroundColor: theme => theme.colors.backgroundDark,
 				height: ['auto', '100vh', null],
-				py: [3, 5],
+				pt: [3, 5],
+				pb: 5,
 				overflowX: ['hidden', 'initial'],
 			}}
 		>

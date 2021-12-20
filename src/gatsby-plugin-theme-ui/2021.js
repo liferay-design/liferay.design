@@ -82,6 +82,7 @@ export default {
 		display: {
 			fontSize: [6, 7],
 			fontWeight: 'light',
+			fontStyle: 'italic',
 		},
 	},
 	gradients: {
