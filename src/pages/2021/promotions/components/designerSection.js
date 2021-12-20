@@ -94,6 +94,7 @@ export default ({}) => {
 								position: 'relative',
 								height: ['12rem', '16rem', null],
 								width: ['12rem', '16rem', null],
+								ml: ['-.5rem', 'initial'],
 							}}
 						>
 							<Image

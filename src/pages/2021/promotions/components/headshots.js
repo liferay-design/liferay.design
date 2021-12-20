@@ -117,6 +117,7 @@ export default ({}) => {
 				mb: 4,
 				order: [-1, 'initial'],
 				transform: ['scale(.7)', 'initial'],
+				zIndex: 99,
 			}}
 		>
 			{Headshots}
