@@ -12,7 +12,7 @@ const typography = new Typography({
 		},
 		{
 			name: 'Source Serif Pro',
-			styles: ['200', '300', '400'],
+			styles: ['200i', '300i', '400i'],
 		},
 		{
 			name: 'Source Code Pro',
