@@ -34,9 +34,8 @@ export default ({}) => {
 						sx={{
 							variant: 'text.preheader',
 							color: 'lightText',
-							ml: [0, '17%', null],
 							mb: 4,
-							px: [2, 0, null],
+							px: [2, 1, 0],
 							'&:before': {
 								content: '""',
 								width: '88px', // should match rest of site
@@ -60,11 +59,10 @@ export default ({}) => {
 						as="h2"
 						sx={{
 							variant: 'text.display',
-							fontSize: [7, 5 ],
+							fontSize: [7, 6 ],
 							color: 'lightText',
-							ml: [0, '17%', null],
-							px: [2, 0, null],
-							width: ['100%', '48ch', null],
+							px: [2, 1, 0],
+							width: ['100%', '40ch', null],
 							lineHeight: '1.5',
 						}}
 					>
