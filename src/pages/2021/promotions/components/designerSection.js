@@ -10,9 +10,7 @@ import Foreground from './foreground'
 export default ({}) => {
 	const data = useStaticQuery(graphql`
 		{
-			allAnnualReportsYaml(
-				filter: { id: { eq: "c5977364-c799-51ef-ba8f-43c98a7b197a" } }
-			) {
+			allAnnualReportsYaml(filter: { year: { eq: 2021 } }) {
 				nodes {
 					promotionsPage {
 						designers {
