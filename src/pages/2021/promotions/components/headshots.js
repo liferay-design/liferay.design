@@ -79,8 +79,8 @@ export default ({}) => {
 					/>
 					<Image
 						sx={{
-							height: '10rem',
-							width: '10rem',
+							height: ['8rem', '10rem'],
+							width: ['8rem', '10rem'],
 							borderRadius: '50%',
 							boxShadow: [
 								'0 .2rem 3rem -.2rem rgba(0, 14, 85, .2), 0 .4rem 2rem -.3rem rgba(0, 74, 215, .4)',
@@ -98,7 +98,7 @@ export default ({}) => {
 						variant: 'text.preheader',
 						textAlign: 'center',
 						transform: 'rotate(' + index * -60 + 'deg)',
-						transformOrigin: '5rem -6.5rem',
+						transformOrigin: ['4rem -5.5rem', '5rem -6.5rem'],
 					}}
 				>
 					{firstWord(name.id)}
@@ -109,11 +109,14 @@ export default ({}) => {
 	return (
 		<Box
 			sx={{
-				position: 'absolute',
-				left: '56%',
-				width: radius * 2 + 'vh',
-				height: radius * 2 + 'vh',
-				my: 4,
+				position: ['relative', 'absolute'],
+				left: ['-5.5vw', '56%'],
+				width: ['100vw', radius * 2 + 'vh'],
+				height: ['100vw', radius * 2 + 'vh'],
+				mt: [0, 4],
+				mb: 4,
+				order: [-1, 'initial'],
+				transform: ['scale(.7)', 'initial'],
 			}}
 		>
 			{Headshots}
