@@ -62,7 +62,7 @@ export default ({}) => {
 							fontSize: [7, 6 ],
 							color: 'lightText',
 							px: [2, 1, 0],
-							width: ['100%', '40ch', null],
+							width: ['100%', '48%', null],
 							lineHeight: '1.5',
 						}}
 					>
