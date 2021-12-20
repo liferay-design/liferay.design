@@ -16,16 +16,17 @@ export default ({}) => {
 			sx={{
 				backgroundColor: theme => theme.colors.backgroundDark,
 				height: ['auto', '100vh', null],
-				py: 5,
+				py: [3, 5],
+				overflowX: ['hidden', 'initial'],
 			}}
 		>
 			<Flex
 				sx={{
+					flexDirection: 'column',
 					justifyContent: 'center',
 					maxWidth: '1280px',
-					my: 0,
 					mx: [1, 'auto', null],
-					flexDirection: 'column',
+					my: 0,
 					width: '100%',
 				}}
 			>
@@ -34,7 +35,8 @@ export default ({}) => {
 						sx={{
 							variant: 'text.preheader',
 							color: 'lightText',
-							mb: 4,
+							mb: [3, 4],
+							mt: [4, null],
 							px: [2, 1, 0],
 							'&:before': {
 								content: '""',
@@ -59,7 +61,7 @@ export default ({}) => {
 						as="h2"
 						sx={{
 							variant: 'text.display',
-							fontSize: [7, 6 ],
+							fontSize: [5, 6],
 							color: 'lightText',
 							px: [2, 1, 0],
 							width: ['100%', '48%', null],

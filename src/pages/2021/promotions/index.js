@@ -31,7 +31,7 @@ const Promotions = () => {
 
 				<ScrollArrow
 					sx={{
-						left: 'calc(50% - 14px)',
+						left: ['90vw', 'calc(50% - 14px)'],
 						bottom: '1rem',
 					}}
 				/>
