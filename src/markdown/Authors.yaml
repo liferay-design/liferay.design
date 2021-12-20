@@ -30,6 +30,12 @@
       dribbble: 'Coninck'
       figma: 'arthurconincklr'
       instagram: 'atrhuh'
+- id: Bruno Lacerda
+  title: Communication Designer
+  active: true
+  icon: fa_fingerprint
+  startDate: 2022-01-03
+  office: Recife
 - id: Carolina Rodriguez
   title: Lead Product Designer
   active: true
@@ -75,6 +81,12 @@
   icon: fa_universal_access
   startDate: 2016-08-22
   office: Madrid
+- id: Daniela de la Garza
+  title: Communication Designer
+  active: true
+  icon: fa_fingerprint
+  startDate: 2022-01-03
+  office: Mexico City
 - id: Déborah Silva
   title: Product Designer
   active: true
@@ -104,6 +116,12 @@
   icon: fa_palette
   startDate: 2016-08-18
   office: Madrid
+- id: Juan Baker
+  title: Sr. Communication Designer
+  active: true
+  icon: fa_fingerprint
+  startDate: 2022-01-03
+  office: Mexico City
 - id: Juan Hidalgo
   title: Vice President, Design
   active: true
