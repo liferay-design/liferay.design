@@ -34,6 +34,9 @@ export default ({}) => {
 				'&:nth-of-type(2n+0)': {
 					mt: [3, 4, null],
 				},
+				'&:nth-of-type(2n+3)': {
+					mt: [5, 6, null],
+				},
 			}}
 		>
 			<Link

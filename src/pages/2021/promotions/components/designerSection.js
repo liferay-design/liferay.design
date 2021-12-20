@@ -164,14 +164,6 @@ export default ({}) => {
 									index +
 									'.png'
 								}
-								onerror={
-									'this.src = ' +
-									'/images/2021/screenshots/' +
-									makeAuthorSlug(name.id) +
-									'-' +
-									index +
-									'.jpg'
-								}
 							/>
 						))}
 					</Flex>
