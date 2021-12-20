@@ -7,6 +7,7 @@ import { AnimateIn } from 'components/atoms'
 import yaml from 'markdown/annual-reports/TwentyTwentyOne.yaml'
 import HeaderBackground from './headerBackground.js'
 import HeaderForeground from './headerForeground.js'
+import Background from './background.js'
 
 const promotions = yaml.promotionsPage
 
@@ -31,6 +32,7 @@ export default ({}) => {
 					width: '100%',
 				}}
 			>
+				<HeaderBackground />
 				<AnimateIn>
 					<Heading
 						sx={{
@@ -54,7 +56,6 @@ export default ({}) => {
 						{promotions.title}
 					</Heading>
 				</AnimateIn>
-				<HeaderBackground />
 				<Headshots />
 				<HeaderForeground />
 				<AnimateIn delay=".5s">

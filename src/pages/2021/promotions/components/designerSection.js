@@ -217,9 +217,9 @@ export default ({}) => {
 				backgroundColor: theme => theme.colors.backgroundLight,
 			}}
 		>
-			<Background />
+			{/* <Background /> */}
 			{Designers}
-			<Foreground />
+			{/* <Foreground /> */}
 		</section>
 	)
 }
