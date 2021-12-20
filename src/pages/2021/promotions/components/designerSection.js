@@ -74,11 +74,16 @@ export default ({}) => {
 							as="h1"
 							sx={{
 								variant: 'text.display',
+								color: 'darkHeadline',
+								py: 2,
+								ml: '-.16ch',
 							}}
 						>
 							{title}
 						</Heading>
-						<Text sx={{ variant: 'text.body' }}>{summary}</Text>
+						<Text sx={{ variant: 'text.body', color: 'darkText' }}>
+							{summary}
+						</Text>
 					</Box>
 					<Box
 						sx={{
@@ -148,23 +153,33 @@ export default ({}) => {
 								key={index}
 								sx={{
 									borderRadius: '1rem',
+									boxShadow: '0 6px 36px -4px rgba(36,41,70,0.1)',
 									width: ['100%', '90%', null],
 									my: [3, 'initial', null],
 								}}
 								src={
-									'/images/2020/screenshots/' +
+									'/images/2021/screenshots/' +
 									makeAuthorSlug(name.id) +
 									'-' +
 									index +
 									'.png'
 								}
+								onerror={
+									'this.src = ' +
+									'/images/2021/screenshots/' +
+									makeAuthorSlug(name.id) +
+									'-' +
+									index +
+									'.jpg'
+								}
 							/>
 						))}
 					</Flex>
-					<Box sx={{ alignSelf: 'flex-start' }}>
+					<Box sx={{ alignSelf: 'flex-start', width: '100%' }}>
 						<Text
 							sx={{
 								variant: 'text.preheader',
+								py: 2,
 							}}
 						>
 							Highlights
@@ -172,7 +187,7 @@ export default ({}) => {
 						<Text sx={{ variant: 'text.body' }}>
 							<ul
 								sx={{
-									columns: 2,
+									columns: 3,
 									columnWidth: '24ch',
 									listStyle: 'none',
 									ml: '.1ch',
