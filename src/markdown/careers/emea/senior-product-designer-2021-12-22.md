@@ -4,7 +4,7 @@ date: 2021-10-06T00:20:00Z
 title: Senior Product Designer
 office: Madrid
 featuredImage: '/images/2020/paul-hanaoka-OTqCo3fdWyw-unsplash.jpg'
-published: true
+published: false
 remote: true
 ---
 
