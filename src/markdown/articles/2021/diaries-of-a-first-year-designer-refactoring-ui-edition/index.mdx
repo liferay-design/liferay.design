@@ -1,0 +1,161 @@
+---
+author: 'Julia Lira'
+date: '2021-12-29T07:00:00.000Z'
+title: 'Diaries of a First Year Designer - Refactoring UI Edition'
+featuredImage: '/images/articles/julia-diary.png'
+tags: ['Books']
+publish: true
+---
+
+import { Heading, Image } from 'theme-ui'
+import { withPrefix } from 'gatsby'
+
+<!-- # Diaries of a First Year Designer -- Refactoring UI Edition -->
+
+_I recently transitioned from a career in architecture into the world of software product design. As someone who is more used to doing technical drawings, I’ve become hyper-aware that my eyes lack the training required to articulate what makes a user interface beautiful and useful. As a way to bridge this gap, I read “Refactoring UI'', from Adam Wathan and Steve Shoger's,  and started training myself to notice these things and putting it to practice at my workplace. If you are just starting out like me, here are some lessons that (I think) have made me a better designer._
+
+## Visual Hierarchy
+
+**Not all elements are equal**
+
+Visual hierarchy is about defining how important the elements in an interface are in relation to one another. But when everything in an interface is competing for attention, the user cannot distinguish what actually matters. Therefore, it is crucial to differentiate  primary, secondary, and tertiary elements. In the gallery below, the most important information on the interface is the image, the second one is the image title, and the third is the label that represents the status of this document.
+
+![Documents and Media - Liferay DXP](/1-hierarchy.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Hierarchy - Documents and Media Liferay DXP</p>
+
+**Size isn't everything**
+
+How can we create visual hierarchies? The size of the elements is not the only way to do it. The use of a softer color for a supporting text, can be more effective than using a tiny font size, because it doesn't sacrifice readability. 
+
+![Content Performance - Liferay DXP](/2-hierarchy-size.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Hierarchy - Content Performancee Liferay DXP</p>
+
+**Emphasize by de-emphasizing**
+
+Instead of further emphasizing the element you want to highlight, it is possible to de-emphasize the other elements that are competing with it. Just like in the tab and in the side navigation examples below:
+
+![Raylife - Liferay DXP](/3-hierarchy-emphasis.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Emphasis - Raylife Initializer Liferay DXP</p>
+
+![Raylife - Liferay DXP](/4-hierarchy-emphasis-2.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Emphasis - Raylife Initializer Liferay DXP</p>
+
+## Spacing
+
+**White space**
+
+According to the authors, one of the easiest ways to clean up a design is give every element an extra space to breathe. In the product I work on, Liferay Form builder, we use white space to group the fields from each page of the form and also to create hierarchy between title, subtitle and pagination. This makes the form easier to interpret, helping the respondent to read the screen and also gives the impression of lower effort to complete the task.
+
+![Forms - Liferay DXP](/5-spacing-white-spacing.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">White Space - Forms Liferay DXP</p>
+
+
+**Dense UIs are still necessary in some cases** 
+
+Generally, interfaces with a lot of white space feels more clean and simple, however, in some situations, dense UIs make sense. A dashboard, for example,  is a type of interface where a lot of information needs to be visible at once. In that case, the design could feel more complex, because it serves a purpose. 
+
+![Commerce - Liferay DXP](/6-spacing-dense-ui.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Dense UI - Commerce Liferay</p>
+
+
+![Content Dashboard - Liferay DXP](/7-spacing-white-spacing-2.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Dense UI - Commerce Liferay</p>
+
+
+
+**You don't need to fill the whole screen** 
+
+Just because you have the space, you are not required to fill it all. Making elements unnecessarily wide can make the interface harder to interpret and is detrimental to user experience. If there are no disadvantages, it’s okay to use some extra space around the edges. 
+
+![Form Rule - Liferay DXP](/8-spacing-fill-screen.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">White spacing - Forms Rule Liferay DXP</p>
+
+
+**Think in columns** 
+
+One way to better take advantage of the available space without making the interface harder to use because of its length is breaking the content in columns.
+
+![System Settings - Liferay DXP](/9-spacing-columns.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Columns - System Settings Liferay DXP</p>
+
+
+**Not all elements should be fluid** 
+
+Grids are useful to simplify layout decisions and bring sense of order to the interface. But using grids religiously doesn’t work everytime, because in some situations it makes much more sense for an element to have a fixed width instead of a relative width, as in a sidebar. 
+
+![Sidepanel - Liferay DXP](/10-spacing-fluid.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Fluid design - Sidepanel Liferay DXP</p>
+
+
+## Color and Shapes
+
+**You need more colors than you think**
+
+Probably it will be difficult to build something using only five hex codes. In [Lexicon](https://www.https://liferay.design/lexicon/), Liferay’s Design System, we have six color variations for primary, secondary, light, and dark colors. We also have colors to communicate semantic states: info, warning, success, and error, and each one of them has five color variations. Lexicon also provides a color palette for charts with ten more colors. With that said, it's possible to see that even in a simple and minimalist interface, you'll need a lot of colors. 
+
+![Alert - Liferay DXP](/11-color-alert.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Color - Alert Liferay DXP</p>
+
+
+![Forms Summary - Liferay DXP](/12-color.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Color - Forms Summary Liferay DXP</p>
+
+
+**Choose personality**
+
+Shape, color and typography plays an important part representing what your company wants to say to the world, use it to your advantage.
+
+For example, a serif typeface brings an elegant or classic look whereas. In turn, a rounded sans serif looks more playful. Gold  might represent "sophisticated" or "expensive".  A large round border radius  gives a playful feeling while  sharper corners with no border radius seem more buttoned up and formal.  
+It is possible to understand the impact of these choices in the examples below, where the first image brings a more sophisticated and serious air and the second brings the idea of lightness and a relaxed air.
+
+![Speedwell Initializer- Liferay Commerce](/13-personality-speedwell.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">The color and type choices of the first example exudes modern elegance and technological advancement.</p>
+
+
+![Masterclass Initializer- Liferay Commerce](/14-personality-masterclass.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">The color and type pairing makes this design lighthearted while maintaining a formal sensibility with it’s sharp edges.</p>
+
+
+
+## Empty States
+
+**Don't overlook empty states**
+
+If you're designing something that relies on user-generated content, keep in mind that empty states are sometimes the first interaction with a new product. It needs to be intentionally designed to get the user's attention and encourage them to act.
+
+![Segments - Liferay DXP](/15-empty-state.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Empty State - Segments Liferay DXP</p>
+
+
+![Forms - Liferay DXP](/16-empty-state.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Empty State - Forms Liferay DXP</p>
+
+
+
+## Efficient Workflow
+
+**Overcoming the Fear of a Blank Canvas**
+
+Starting a new project from scratch can seem daunting for new designers like me. Something I’ve come to understand from the first few months into my product design role at Liferay is that I don’t design the whole product at once. For example,  as a designer on the Forms Builder team, one of my first projects was to design a feature for "Boolean field type". The first thing I did was understand how the other field-types worked in Form Builder, then my scope was to deliv the set of interactions already defined by other designers. Thinking this way decreased my fear of a blank canvas and helped me focus on solving problems rather than the way things look. 
+
+**UX first UI second**
+
+When in the earliest stages of design, don't give too much attention to UI elements. Related to the previous point, invest your time in solving problems. The use case always comes first, consider this: “Forms users want to see partial results of their form responses.” If I had taken time to tweak colors, shadows, and fonts on my first design, they would have all needed to be re-evaluated after I discussed with PMs and devs and finalized the flows, optimal display type, and messaging. 
+
+**Start with Small and Valuable**
+
+I learned that our team won't be able to deliver a complete feature at first. Sometimes the product and development team will choose to implement an MVP that delivers value to the client, and work on improvements after the initial release. It's better to deliver a simpler version of the feature than not deliver anything at all. For example, we worked on a Numeric field for Forms, but we only delivered the feature to add custom formatting and validations to it some releases later. 
+
+**Use a Design System**
+
+A design system makes your work efficient. You don't need to choose the perfect color or the weight for a typography, so you can focus your energy in solving the right problems. The use of a Design System will also contribute to the consistency of the system as a whole. 
+
+I really enjoyed it and learned a lot from reading this book. The book has an easy-to-read language and lots of practical tips to improve visual projects, also in video format. The best result was that I was able to put the knowledge I acquired into practice in my work. I wish I had read it sooner!
+
+## References
+
+[Refactoring UI - Adam Wathan & Steve Schoger](https://www.refactoringui.com/book)
+
+[Liferay DXP](https://www.liferay.com/pt/products/dxp)
+
+[Liferay Commerce](https://www.liferay.com/pt/products/commerce)
