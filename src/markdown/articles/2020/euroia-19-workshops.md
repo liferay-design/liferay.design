@@ -4,6 +4,7 @@ date: '2020-01-17T14:00:00.000Z'
 title: 'EuroIA 19 Recap: Workshops'
 featuredImage: '/images/articles/euroia-19/euroia19-workshops.jpg'
 publish: true
+tags: ['Conference recap']
 ---
 
 Three full conference days organised in Riga, a beautiful and plenty of history town very close to the Baltic Sea. This is not a typical conference full of talks, the conference hours are well balanced between workshop sessions during the morning and conference talks in the afternoon.
