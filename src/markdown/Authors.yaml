@@ -179,6 +179,12 @@
   office: Madrid
   links:
       instagram: 'sinreproche'
+- id: Maria Martins
+  title: Product Designer
+  active: true
+  icon: fa_pizza
+  startDate: 2022-01-11
+  office: Madrid
 - id: Marleny Francisco
   title: Communication Designer
   active: true
@@ -257,6 +263,12 @@
   icon: fa_archway
   startDate: 2020-12-10
   office: Eschborn
+- id: Uge Ortiz
+  title: Senior Product Designer
+  active: true
+  icon: fa_headphones_alt
+  startDate: 2022-01-17
+  office: Madrid
 - id: Victor Santos
   title: Product Designer
   active: true
