@@ -33,9 +33,12 @@
 - id: Bruno Lacerda
   title: Communication Designer
   active: true
-  icon: fa_fingerprint
+  icon: fa_gamepad
   startDate: 2022-01-03
   office: Recife
+  links:
+      twitter: 'lacerda_brunoso'
+      instagram: 'brunolacerda09'
 - id: Carolina Rodriguez
   title: Lead Product Designer
   active: true
@@ -84,9 +87,11 @@
 - id: Daniela de la Garza
   title: Communication Designer
   active: true
-  icon: fa_fingerprint
+  icon: fa_coffee
   startDate: 2022-01-03
   office: Mexico City
+  links:
+      website: http://www.danieladelagarza.info
 - id: Déborah Silva
   title: Product Designer
   active: true
@@ -119,9 +124,12 @@
 - id: Juan Baker
   title: Sr. Communication Designer
   active: true
-  icon: fa_fingerprint
+  icon: fa_bezier_curve
   startDate: 2022-01-03
   office: Mexico City
+  links:
+      instagram: 'bkr_juan'
+      linkedin: 'juanbaker'
 - id: Juan Hidalgo
   title: Vice President, Design
   active: true
@@ -284,6 +292,7 @@
   links:
       twitter: 'victorvj06'
       unsplash: 'victorvj'
+      linkedin: 'vvalleju'
 - id: Chika Noguchi
   title: Senior Product Designer
   active: true
