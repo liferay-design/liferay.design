@@ -193,6 +193,12 @@
   icon: fa_pizza
   startDate: 2022-01-11
   office: Madrid
+  links:
+      behance: 'amariamar'
+      dribbble: 'mariamar'
+      instagram: 'a.maria.mar'
+      linkedin: 'maria-mar'
+
 - id: Marleny Francisco
   title: Communication Designer
   active: true
