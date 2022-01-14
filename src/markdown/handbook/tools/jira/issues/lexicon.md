@@ -11,7 +11,11 @@ Request related to the creation of an asset handled by the Communication Team.
 
 ### When to create a Lexicon Request
 
-- TO DO
+Lexicon requests can be mabe to:
+
+- Create new user interface components, patterns, or icons;
+- Review design issues related to conventions, consistency, usability, interaction and accessibility;
+- Fix a bug in Lexicon site, Lexicon documentation or, for example, in a Figma Library.
 
 
 ## Workflow
@@ -25,3 +29,5 @@ Request related to the creation of an asset handled by the Communication Team.
 	rounded
 	dropShadow
 />
+
+For more information regarding this issue, please read this [document](https://docs.google.com/presentation/d/19tuB0RWs6nXibzJ-Wkn7MR6TltbH49K7IgTL-V4i8Y8/edit#slide=id.g5d44b827db_0_1).

@@ -74,7 +74,7 @@ Depending on the complexity of the projects tracked in Jira, you may want to gro
 
 **_By default, Jira supports three levels of hierarchy:_**
 
--   **_Parent issues_** ((or epic issues) represent high-level initiatives or bigger pieces of work in Jira. For product teams, a parent issue, or an epic, may represent a new feature in development. For service teams, parent issues may represent a major service request. For some teams, parent issues may represent major deliverables or phases of a project or initiative.
+-   **_Parent issues_** (or epic issues) represent high-level initiatives or bigger pieces of work in Jira. For product teams, a parent issue, or an epic, may represent a new feature in development. For service teams, parent issues may represent a major service request. For some teams, parent issues may represent major deliverables or phases of a project or initiative.
 
 -   **_Standard issues_** represent regular business tasks. In Jira, standard issues are where daily work is discussed and carried out by team members. For product teams, standard issues (like bugs or stories) estimate and track the effort required to build an interaction or other end goal in any project. For service teams, standard issues represent different requests made by customers or stakeholders, like requesting service or support, or reporting problems or blockers with your infrastructure.
 
