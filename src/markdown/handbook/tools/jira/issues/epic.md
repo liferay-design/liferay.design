@@ -11,7 +11,7 @@ Atlassian defines an epic as
 
 > a large body of work that can be broken down into a number of smaller stories, or sometimes called “Issues” in Jira. Epics often encompass multiple teams, on multiple projects, and can even be tracked on multiple boards.
 
-Epics are almost always delivered over a set of sprints. As a team learns more about an epic through development and customer feedback, user stories will be added and removed as necessary. That’s the key with agile epics: Scope is flexible, based on customer feedback and team cadence.
+Epics are almost always delivered over a set of sprints. As a team learns more about an epic through development and customer feedback, user stories will be added and removed as necessary. That’s the key with agile epics: scope is flexible, based on customer feedback and team cadence.
 
 ### Understanding Epics
 
@@ -32,7 +32,7 @@ Consider creating an epic if you have a large body of work that needs to be comp
 When creating a new epic, consider other planning and organization tools your team may already have in place. Creating epics around a team’s quarterly goals or OKRs is a great start. When creating an epic, consider the following:
 
 -   Reporting — Create epics for the projects that managers and executives will want to keep an eye on.
--   Storytelling — UUse epics, and the stories that roll up into them, as a mechanism to tell the story of how you arrived at the current state of a feature or product.
+-   Storytelling — Use epics, and the stories that roll up into them, as a mechanism to tell the story of how you arrived at the current state of a feature or product.
 -   Culture — Let organizational culture dictate the size and granularity of an epic.
 -   Time — Most development teams rely on estimation frameworks instead of time, but it’s a worthwhile gut check to make sure your epics will take a couple of weeks to complete. Not too long and not too short.
 

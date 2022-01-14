@@ -19,7 +19,7 @@ User stories are one of the core components of an agile program. They help provi
 
 ### Understanding Stories
 
-A story is the smallest unit of work in an agile framework. It’s an end goal, not a feature, expressed from the software user’s perspective.
+Again, a story is the smallest unit of work in an agile framework - as defined by [Atlassian documentation](https://www.atlassian.com/agile/project-management/user-stories#:~:text=A%20user%20story%20is%20the,the%20end%20user%20or%20customer.). It’s an end goal, not a feature, expressed from the software user’s perspective.
 
 A story is an informal, general explanation of a software feature written from the perspective of the end-user or customer. 
 
@@ -39,13 +39,15 @@ Stories sometimes seem like an added step. Why not just break the big project (t
 
 ***User stories serve a number of key benefits:***
 
+A good [reference](https://www.futurelearn.com/info/courses/agile-delivery-course/0/steps/247842) about story benefits:
+
 - ***Stories keep the focus on the user.*** A to-do list keeps the team focused on tasks that need to be checked off, but a collection of stories keeps the team focused on solving problems for real users.
  
 - ***Stories enable collaboration.*** With the end goal defined, the team can work together to decide how best to serve the user and meet that goal.
  
 - ***Stories drive creative solutions.*** Stories encourage the team to think critically and creatively about how to best solve for an end goal.
  
-- ***Stories create momentum.*** With each passing story, the development team enjoys a small challenge and a small win, driving momentum.  
+- ***Stories create momentum.*** With each passing story, the development team enjoys a small challenge and a small win, driving momentum.
 
 
 ## Workflow
