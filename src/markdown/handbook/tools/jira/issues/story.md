@@ -54,8 +54,7 @@ A good [reference](https://www.futurelearn.com/info/courses/agile-delivery-cours
 
 <Image
 	src="/images/handbook/tools/jira/story-workflow-generic.png"
-	align="right"
-	size="small"
+	size="medium"
 	caption="Story workflow"
 	margin="4rem -2rem 0 4rem"
 	rounded

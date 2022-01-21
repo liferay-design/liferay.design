@@ -21,8 +21,7 @@ Product Managers, Product Leads (Owners) and Product designers can request it to
 
 <Image
 	src="/images/handbook/tools/jira/user-testing-workflow.png"
-	align="right"
-	size="small"
+	size="medium"
 	caption="User Testing workflow"
 	margin="4rem -2rem 0 4rem"
 	rounded

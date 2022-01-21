@@ -21,6 +21,13 @@ _This is just a quick guide on the issue possibilities and the original content 
 
 An issue represents an action that has to be done. That action can be a task, a bug, a feature request, or any type of action your organization might need to work with. Issues are the core of the Jira applications since all the team collaboration happens around the work items and their organization. It is possible to customize issue types creating issue sets associated with projects, and even per permission types.
 
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## Issue statuses
 
 If you're ever around a project manager for longer than 45 seconds — you've more than likely heard them ask you to "workflow your tickets". The first time, you may smile and nod politely and think "what in the world does that mean?" 
