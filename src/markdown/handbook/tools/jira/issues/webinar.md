@@ -18,8 +18,7 @@ Request related to the creation of a specific webinar by the Communication Team.
 
 <Image
 	src="/images/handbook/tools/jira/comm-request-workflow.png"
-	align="right"
-	size="small"
+	size="medium"
 	caption="Webinar workflow"
 	margin="4rem -2rem 0 4rem"
 	rounded

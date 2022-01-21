@@ -22,8 +22,7 @@ Lexicon requests can be mabe to:
 
 <Image
 	src="/images/handbook/tools/jira/lexicon-request-workflow.png"
-	align="right"
-	size="small"
+	size="medium"
 	caption="Lexicon workflow"
 	margin="4rem -2rem 0 4rem"
 	rounded

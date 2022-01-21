@@ -40,8 +40,7 @@ When creating a new epic, consider other planning and organization tools your te
 
 <Image
 	src="/images/handbook/tools/jira/epic-worflow-generic.png"
-	align="right"
-	size="small"
+	size="medium"
 	caption="Epic workflow"
 	margin="4rem -2rem 0 4rem"
 	rounded

@@ -24,8 +24,7 @@ There is more information on this [document](https://docs.google.com/document/d/
 
 <Image
 	src="/images/handbook/tools/jira/comm-request-workflow.png"
-	align="right"
-	size="small"
+	size="medium"
 	caption="Communication Request workflow"
 	margin="4rem -2rem 0 4rem"
 	rounded
