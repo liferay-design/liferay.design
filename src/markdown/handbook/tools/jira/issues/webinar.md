@@ -2,7 +2,7 @@
 title: 'Webinar'
 description: 'Definition, Workflow and Schema'
 order: 70
-publish: false
+publish: true
 ---
 
 ## What is a Webinar request?
