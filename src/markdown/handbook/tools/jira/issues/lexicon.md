@@ -2,7 +2,7 @@
 title: 'Lexicon Request'
 description: 'Definition, Workflow and Schema'
 order: 50
-publish: false
+publish: true
 ---
 
 ## What is a Lexicon Request?
