@@ -38,7 +38,7 @@ module.exports = {
 				apiKey: 'e743f8519124b276f2f3325e8e126246',
 				indexName: 'liferay_design',
 				inputSelector: '#lexicon_search',
-				debug: true,
+				debug: false,
 			},
 		},
 		'gatsby-plugin-brotli',
@@ -118,21 +118,22 @@ module.exports = {
 					{
 						resolve: 'gatsby-remark-images',
 						options: {
-							maxWidth: 1035,
-							sizeByPixelDensity: true,
+							maxWidth: 768,
 							withWebp: true,
+							quality: 96,
+							backgroundColor: 'transparent',
+							disableBgImageOnAlpha: true,
+							wrapperStyle: 'margin-bottom: 2em; margin-top: 1em;',
+						},
+					},
+					{
+						resolve: `gatsby-remark-image-attributes`,
+						options: {
+							dataAttributes: true,
 						},
 					},
 					{
 						resolve: 'gatsby-remark-static-images',
-					},
-					{
-						resolve: 'gatsby-remark-prismjs',
-						options: {
-							classPrefix: 'language-',
-							inlineCodeMarker: null,
-							aliases: {},
-						},
 					},
 					{
 						resolve: 'gatsby-remark-autolink-headers',
@@ -164,9 +165,12 @@ module.exports = {
 		'MarkdownRemark.frontmatter.author': `AuthorsYaml`,
 		'Mdx.frontmatter.author': `AuthorsYaml`,
 		'AuthorsYaml.office': `OfficesYaml.id`,
+		'CountriesYaml.hq': `OfficesYaml.id`,
+		'OfficesYaml.region': `CountriesYaml.id`,
 		'MarkdownRemark.frontmatter.office': `OfficesYaml`,
 		'Mdx.frontmatter.office': `OfficesYaml`,
 		'ChangelogYaml.author': `AuthorsYaml.id`,
+		'AnnualReportsYaml.promotionsPage.designers.name': `AuthorsYaml`,
 		'ChangelogYaml.contributors': `AuthorsYaml.id`,
 		'Mdx.frontmatter.contributors': `AuthorsYaml.id`,
 	},

@@ -12,7 +12,7 @@ DIY home improvement tasks. Youtube is extremely helpful.
 
 ### What does your desktop/home screen look like?
 
-A simple gradient background with small folders all aligned to the right.
+A photo of a beach in Hawaii
 
 ### Favorite place to visit?
 

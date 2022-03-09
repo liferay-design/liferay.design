@@ -88,6 +88,7 @@
 			@include documentLabel;
 			border-color: $main-l4;
 			color: $main-l3;
+			text-transform: uppercase;
 		}
 
 		.labelInfo {
@@ -112,14 +113,18 @@
 			color: $main;
 		}
 
-
 		p {
-			line-height: 1.5;
-			margin-bottom: $base-size * 0.5;
+			line-height: 1.75;
+			margin-bottom: $base-size * 0.7;
 
 			a {
 				color: $brand-primary;
 			}
+		}
+
+		li {
+			line-height: 1.5;
+			margin-bottom: $base-size * 0.5;
 		}
 
 		table {
@@ -232,6 +237,7 @@
 			font-size: $fontSizeSmall;
 			text-align: center;
 			display: inherit;
+			margin-bottom: $spacingMedium;
 		}
 
 		li > a {
@@ -314,6 +320,14 @@
     column-count: 3;
 }
 
+:global(.adapting-columns-2) {
+	column-count: 2;
+}
+
+:global(.tiny-text) {
+	font-size: 10px;
+}
+
 :global(.image-container) {
 	text-align: center;
 	margin-top: 1.5rem;
@@ -349,6 +363,7 @@
 :global(.labelDraft) {
 	border-color: $main-l4;
 	color: $main-l3;
+	text-transform: uppercase;
 }
 
 :global(.labelInfo) {

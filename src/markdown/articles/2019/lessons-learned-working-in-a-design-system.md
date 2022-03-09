@@ -3,6 +3,7 @@ author: 'Victor Valle'
 date: '2019-07-08T14:00:00.000Z'
 title: 'Lessons Learned Working in a Design System'
 featuredImage: '/images/articles/library.jpg'
+tags: ['Design Systems']
 publish: true
 ---
 

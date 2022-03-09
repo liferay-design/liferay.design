@@ -8,11 +8,15 @@ const typography = new Typography({
 	googleFonts: [
 		{
 			name: 'Source Sans Pro',
-			styles: ['300', '400', '600', '700'],
+			styles: ['300', '400', '700', '900'],
+		},
+		{
+			name: 'Source Serif Pro',
+			styles: ['200i', '300i', '400i'],
 		},
 		{
 			name: 'Source Code Pro',
-			styles: ['300', '400', '600', '700'],
+			styles: ['300', '400', '700', '900'],
 		},
 	],
 })

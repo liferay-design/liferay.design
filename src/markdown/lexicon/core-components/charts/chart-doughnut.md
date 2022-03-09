@@ -3,13 +3,13 @@ title: 'Donut Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A649'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1A_oVxh1wjCxUWUuhsa57IrLp-UaP8Jg7'
 description: 'A Donut Chart is a variation of the Pie chart that lets you divide data by numerical proportions of a total value.'
 order: 225
 draft: false
 ---
 
-![Donut Chart with 4 different elements](/images/lexicon/ChartDoughnut.png)
+![Donut Chart with 4 different elements](./images/charts-16.png)
 
 We recommend that you use the Donut Chart instead of the Pie chart due to the following reasons:
 
@@ -24,4 +24,4 @@ The Doughnut Chart must follow the standard color order for charts: the first ch
 
 #### Chart item interaction
 
-![Intertaction on the blue pie piece of the chart, corresponding to Facebook](/images/lexicon/ChartDoughnutItemSel.png)
+![Intertaction on the blue pie piece of the chart, corresponding to Facebook](./images/charts-17.png)

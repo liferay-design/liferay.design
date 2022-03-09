@@ -3,13 +3,13 @@ title: 'Cards'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/card.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6026%3A914'
-docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDbXlfTVBDandaTXM?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1st2moaRVphrsFrDJUz-ic26aH-V46YkQam75X6BHPY0/edit?usp=sharing'
 description: 'Cards are a specific form of data visualization focused mainly on displaying images.'
 order: 210
 draft: false
 ---
 
-![card with image default state](/images/lexicon/CardImage.jpg)
+![card with image default state](./images/cards-1.png)
 
 ### Usage
 
@@ -49,23 +49,23 @@ The only required element for a card is the image. Everything else can be remove
 
 #### Default
 
-![card with image default state](/images/lexicon/CardImage.jpg)
+![card with image default state](./images/cards-1.png)
 
 #### Hover
 
-![card with image hover state, blue border](/images/lexicon/CardImageHover.jpg)
+![card with image hover state, blue border](./images/cards-2.png)
 
 #### Active
 
-![card with image selected state, blue border and check marked](/images/lexicon/CardImageActive.jpg)
+![card with image selected state, blue border and check marked](./images/cards-3.png)
 
 #### Empty
 
-![card with image empty state, no image, gray background grid](/images/lexicon/CardImageEmpty.jpg)
+![card with image empty state, no image, gray background grid](./images/cards-4.png)
 
 ### Attributes
 
-![7 possible parts of a card](/images/lexicon/CardParts.jpg)
+![7 possible parts of a card](./images/cards-5.png)
 
 1. Checkbox
 2. Image
@@ -74,8 +74,6 @@ The only required element for a card is the image. Everything else can be remove
 5. Actions button
 6. Detail or short descriptive text
 7. Label: status identifier
-
-![card metrics](/images/lexicon/CardMetrics.jpg)
 
 ### Sections
 

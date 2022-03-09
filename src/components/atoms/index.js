@@ -8,6 +8,7 @@ import Hotkey from './Hotkey'
 import Icon from './Icon'
 import Image from './Image'
 import Link from './Link'
+import LiveTag from './LiveTag'
 import NiceLink from './NiceLink'
 import PrivateComponent from './PrivateComponent'
 import ScrollArrow from './ScrollArrow'
@@ -24,6 +25,7 @@ export {
 	Icon,
 	Image,
 	Link,
+	LiveTag,
 	NiceLink,
 	Text,
 	Container,

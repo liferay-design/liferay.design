@@ -2,10 +2,12 @@
 title: 'Color Picker'
 description: 'Color picker lets users select a color from a predefined palette, specify a color via its hexadecimal value, sample a color, and explore color values to create a custom color variation.'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6053%3A46820'
-docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1IUGl5VOWh6lqRa1baRoshVcytc8XbqVMkk30vRW4SM8/edit?usp=sharing'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/color-picker.html'
 order: 257
 draft: false
-devStatus: 'PENDING'
+devStatus: 'Pending'
 ---
 
 ![Color picker interaction](/images/lexicon/Picker-color-custom-panel-animation.gif)

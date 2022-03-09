@@ -4,6 +4,7 @@ date: '2020-02-19T14:00:00.000Z'
 title: 'EuroIA 19 Recap: Talks'
 featuredImage: '/images/articles/euroia-19/euroia19-team.jpg'
 publish: true
+tags: ['Conference recap']
 ---
 
 You have probably already read the [first part of our EuroIA 19 post](../euroia-19-workshops). There, we focused on the workshops. In this second part, we want to highlight the talks that impacted us the most and bring some conclusions over all our experience at this conference.

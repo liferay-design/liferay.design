@@ -1,8 +1,9 @@
+/** @jsx jsx */
+
+import { jsx, Box, Flex, Heading, Button } from 'theme-ui'
 import { firebase } from '@firebase/app'
-import { Flex, Heading } from 'components/atoms'
 import { AuthContainer } from 'components/molecules'
-import React, { Component } from 'react'
-import styles from './styles.module.scss'
+import { Component } from 'react'
 
 export default class PrivatePage extends Component {
 	state = {
@@ -30,7 +31,7 @@ export default class PrivatePage extends Component {
 	}
 
 	renderPrivateContent() {
-		const authenticatedUsers = ['liferay.com']
+		const authenticatedUsers = ['liferay.com', 'gs.liferay.com']
 		const currentUser = this.state.user
 
 		const isUserAuthenticated =
@@ -45,25 +46,34 @@ export default class PrivatePage extends Component {
 
 		return (
 			<Flex
-				className={styles.wrapper}
-				height="100vh"
-				width="100vw"
-				justify="center"
-				align="center"
+				sx={{
+					height: '100vh',
+					width: '100%',
+					justifyContent: 'center',
+					alignContent: 'center',
+				}}
 			>
 				<Flex
-					className={styles.card}
-					margin="0 0 2rem"
-					padding="2rem 2rem 2.4rem"
-					justify="center"
-					align="center"
+					sx={{
+						background: 'white',
+						maxWidth: 540,
+						width: '100%',
+						m: '0 0 2rem',
+						p: '2rem 2rem 2.4rem',
+						alignItems: 'center',
+					}}
 				>
-					<Flex direction="column">
-						<Heading sx={{ margin: '2rem' }}>{this.props.message}</Heading>
-						<div className={styles.loginButton}>
-							<AuthContainer />
-						</div>
-					</Flex>
+					<Box sx={{ textAlign: 'center' }}>
+						<Heading
+							sx={{ mb: '2rem', color: 'neutral3', letterSpacing: '0' }}
+						>
+							{this.props.message}
+						</Heading>
+
+						<AuthContainer>
+							<Button>Sign In</Button>{' '}
+						</AuthContainer>
+					</Box>
 				</Flex>
 			</Flex>
 		)

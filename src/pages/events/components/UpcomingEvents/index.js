@@ -25,7 +25,7 @@ export default () => {
 							title
 							office {
 								city
-								regionIcon
+								countryIcon
 							}
 							featuredImage
 							date
@@ -51,7 +51,7 @@ export default () => {
 				link={node.fields.slug}
 				title={node.frontmatter.title}
 				subtitle={node.frontmatter.office.city}
-				avatarImageURL={node.frontmatter.office.regionIcon}
+				avatarImageURL={node.frontmatter.office.countryIcon}
 			/>
 		))
 	return (

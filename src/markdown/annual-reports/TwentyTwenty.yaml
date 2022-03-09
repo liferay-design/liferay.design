@@ -1,0 +1,295 @@
+title: Liferay Design
+subtitle: Our second annual report shares highlights about our organization, the work we've done for customers, our local communities, and the design community at large.
+quote:
+    pretitle: Bruce Lee
+    title: Now water can flow or it can crash. Be water, my friend.
+promotionsPage:
+    title: Congratulations
+    pretitle: 6 Designers Leveled Up!
+    summary: To recognize the efforts, achievements, and additional responsibilities these dedicated designers have taken on, we are moving them up to new positions and titles! Click on any of them to see their new titles and a few highlights from 2020.
+    designers:
+        - name: 'Andrea Censi'
+          title: Product Designer
+          summary: "Andrea has been leading the design for Commerce with great results. Compliments from Forrester and Gartner analysts alike have demonstrated the value that Andrea is providing. Congrats,\_Andrea!"
+          highlights:
+              [
+                  'Commerce Design Lead',
+                  'Industry recognition',
+                  'Elevates our product portfolio',
+                  'Style Icon',
+              ]
+        - name: 'Emiliano Cicero'
+          title: Senior Product Designer
+          summary: "He has consistently brought a deep attention to detail in every project for many years. Evolving from Lexicon to Lima, from defining elements to designing complete features and more, Emiliano has proven to be a senior IC. Congrats,\_Emi!"
+          highlights:
+              [
+                  'Lima Design Lead',
+                  'Motion and illustration',
+                  'Leading key platform features',
+                  'Figmaster',
+              ]
+        - name: 'Miriam Manso'
+          title: Product Designer
+          summary: "Thanks to her work we could enable a fundamental task in the design workflow that was not happening as often as it should. The professionalism of her work and continuous iteration moves her from  associate to mid level. Congrats,\_Miriam!"
+          highlights:
+              [
+                  'Strong builder',
+                  'Force multiplier',
+                  'Researcher extraordinaire',
+                  'Budding YouTube star',
+              ]
+        - name: 'Victor Valle'
+          title: Senior Product Design Manager
+          summary: "In addition to managing the largest region of designers, Victor stepped up this year as an Individual Contributor — delivering value in areas like the Asset Library, Global Menu, and more. Congrats,\_Victor!"
+          highlights:
+              [
+                  '3 years managing EMEA',
+                  'Interim Lexicon Lead',
+                  'Design Lead for 4 DXP teams',
+                  'Cat Caretaker',
+              ]
+        - name: 'Susana Vázquez'
+          title: Product Design Manager
+          summary: "Entering her fourth year as a strong IC, Susana continues to demonstrate our core value of Lead by Serving — she's stepped up to fill an opportunity as a people manager and we're excited to see her excel in this. Congrats,\_Su!"
+          highlights:
+              [
+                  'First remote designer',
+                  'Consistent key contributor',
+                  'Lead Designer for key DXP features',
+                  '"Most Likely To Be A Superhero"',
+              ]
+        - name: 'Jon Wood'
+          title: Senior Product Designer
+          summary: "Jon has made a huge impact to both the NA and LATAM regions. He continues to push himself and our department forward. Congrats,\_Jon!"
+          highlights:
+              ['GS Design Lead', 'Workflow Design Lead', 'Design Mentor', 'Best Hair']
+    subtitle: 'Please join us in congratulating these designers for pushing themselves to the next level. Great work and continued success. Cheers.'
+    quote:
+        content: 'Stay hungry, stay foolish.'
+        author: 'Steve Jobs'
+unsplash:
+    images:
+        - image: '/images/2020/ryconn.jpg'
+        - image: '/images/2020/jon.jpg'
+        - image: '/images/2020/chris.jpg'
+        - image: '/images/2020/pjabel.jpg'
+timelineSection:
+    pretitle: Milestones
+    title: Significant Markers in a Marked Year
+    events:
+        - event:
+              name: Design
+              description: ' from home begins'
+              startDate: 2020-02-12
+              endDate: ''
+              url: ''
+              image: '/images/2020/design-from-home.jpg'
+        - event:
+              name: Jon
+              description: "'s first birth-ray"
+              startDate: 2020-04-15
+              endDate: ''
+              url: '/team/wood-jon'
+              image: '/images/headshots/wood-jon.jpg'
+        - event:
+              name: Victor
+              description: ' started in Recife'
+              startDate: 2020-05-18
+              endDate: ''
+              url: '/team/santos-victor'
+              image: '/images/headshots/santos-victor.jpg'
+        - event:
+              name: Crystal
+              description: " started in Los\_Angeles"
+              startDate: 2020-05-18
+              endDate: ''
+              url: '/articles/2020/3-months-at-liferay/'
+              image: '/images/headshots/juarez-crystal.jpg'
+        - event:
+              name: Rubén
+              description: ' started in Madrid'
+              startDate: 2020-08-06
+              endDate: ''
+              url: '/team/jimenez-ruben'
+              image: '/images/headshots/jimenez-ruben.jpg'
+        - event:
+              name: Marleny
+              description: "'s first birth-ray"
+              startDate: 2020-08-12
+              endDate: ''
+              url: '/team/francisco-marleny'
+              image: '/images/headshots/francisco-marleny.jpg'
+        - event:
+              name: Design Week
+              description: ' from Home'
+              startDate: 2020-11-16
+              url: '/design-week'
+              image: '/images/2020/design-week-thumb.jpg'
+covid:
+    pretitle: Covid
+    title: How did we adapt?
+    slides:
+        - slide:
+              title: Remote Hiring
+              image: '/images/2020/remote-hiring.png'
+              icon: 'bolt'
+              url: /careers
+              linkText: Want to join the team?
+              description: We’ve been busier than ever, and as a result needed to figure out the best way to find, hire, and onboard new teammates (3 so far) in our now fully remote world. We’ve hit a few bumps along the way, but are constantly refining our process.
+        - slide:
+              title: APAC Consulting
+              image: '/images/2020/apac-consulting.png'
+              icon: 'globe'
+              description: Outside of the Coronaverse, our product design consultation typically revolved around traveling to a customer’s workplace to facilitate UX workshops. When everything went virtual, the North American designers began working more with Liferayers in APAC, creating demand for Design in a brand new region.
+        - slide:
+              title: Second Home
+              image: '/images/2020/second-home.jpg'
+              icon: 'home_full'
+              url: 'https://unsplash.com/collections/12274763/liferay.design-%40-secondhome.io'
+              linkText: Download the collection on Unsplash
+              description: After what seemed like an eternity of remote working, the team in LA was fortunate enough to work together at an outdoor creative space in Hollywood. Good coffee plus a lush environment was the perfect mid-quarantine inspiration we needed. Masks and social distancing were par for the course while we plotted liferay.design’s global takeover.
+        - slide:
+              title: Codenames
+              image: '/images/2020/code-names.png'
+              icon: 'puzzle'
+              url: 'https://horsepaste.com'
+              linkText: Play Codenames Online!
+              description: Friday happy hours were sorely missed, so we started our own happy hours on Zoom a few weeks after our offices closed. Codenames, Spyfall, and other games were eventually brought into these virtual gatherings, and it became a really enjoyable way to unwind at the end of the week.
+        - slide:
+              title: Office Hours
+              image: '/images/2020/office-hours.png'
+              icon: 'audio'
+              url: https://open.spotify.com/playlist/7xclcaljk4yEJZoVMxbEWY?si=1Ac3OzH-R1-9uwJM-K9mVw
+              linkText: Listen to our jams on Spotify
+              description: For most of us, it was difficult to transition from spending the week in-office with our co-workers and friends to sitting alone at home. The social distancing took a toll on our job satisfaction and well-being, so we decided to create time where we could work together, virtually. Our daily office hours is a chance for the team to collaborate and/or work individually, while listening to music on Google Meet.
+        - slide:
+              title: Global Fika
+              image: '/images/2020/global-fika.jpg'
+              icon: 'fa_coffee'
+              description: Taking a cue from Swedish culture, we began making time to mingle with each other over a nice cup of coffee or tea. Having these global calls helped to shorten the distance, raise our teams’ spirits, and tighten connections through a sharing of laughter, personal stories, and Netflix recommendations.
+impact:
+    pretitle: impact
+    title: Liferay in the Design community
+    bigStats:
+        - stat:
+              value: 4.36m
+              label: Impressions
+        - stat:
+              value: 33k
+              label: Engagements
+    cards:
+        - card:
+              icon: dribbble
+              title: 42 Shots
+              subtitle: 2,660+ likes
+              link: 'https://dribbble.com/liferay'
+        - card:
+              icon: figma
+              title: 14 Files
+              subtitle: 15k+ Community downloads
+              link: 'https://figma.com/@liferay'
+        - card:
+              icon: github
+              title: 160 Pull Requests
+              subtitle: from 10 contributors
+              link: 'https://github.com/liferay-design/liferay.design'
+        - card:
+              icon: rss
+              title: 19 Articles
+              subtitle: 11 Contributors
+              link: '/articles'
+        - card:
+              icon: twitter
+              title: 466 Followers
+              subtitle: 110k+ impressions
+              link: 'https://twitter.com/liferaydesign'
+        - card:
+              icon: unsplash
+              title: 5 Designers
+              subtitle: on the Unsplash homepage
+              link: 'https://unsplash.com/liferay'
+globalServices:
+    pretitle: Consult
+    title: Global Services
+    slides:
+        - slide:
+              title: Solutions Design
+              image: '/images/2020/solutions-design.png'
+              icon: 'solutionDesign'
+              description: We prototyped demos for prospective clients in order to bring to life visionary concepts of  digital experiences for their industries. The designer is tasked with persuading prospects that Liferay, as a solutions-oriented platform, could be a highly successful partner for them.
+        - slide:
+              title: RFPs
+              image: '/images/2020/rfps.png'
+              icon: 'view'
+              description: Our Global Services team puts together a proposal to fit prospects for digital experience platform needs. Designers create mockups with callouts as visual examples that help clients understand our capabilities in delivering a custom solution for their needs.
+        - slide:
+              title: Accelerator
+              image: '/images/2020/accelerator.png'
+              icon: 'arrowsUp'
+              description: Raylife is the accelerator for our insurance solution that empowers agents or producers with a suite of tools to manage their accounts, streamline their quote workflows, and analyze their performance with KPIs. This year we enhanced the customer portal experience to self-provision users and leveraged Liferay's new site-building features for a personalized business website experience.
+        - slide:
+              title: Client Projects
+              image: '/images/2020/client-projects.png'
+              icon: 'target'
+              description: We served 8 enterprise clients through discoveries, product design and implementation, UX research, as well as UX consultancy in 2020. These engagements helped customers from insurance, financial services, manufacturing, and pharmaceutical industries reach solutions for their digital transformation goals.
+opes:
+    pretitle: Campaign
+    title: 'One Platform. Endless Solutions.'
+    images:
+        - image: '/images/2020/opes-hero.png'
+        - image: '/images/2020/opes-1.png'
+        - image: '/images/2020/opes-2.png'
+        - image: '/images/2020/opes-3.png'
+    content: |
+        Positioning Liferay as a source of solutions, not products, the tagline highlights the unlimited ways in which Liferay’s singular platform can be used to help enterprises do business better. Our team created and developed the concept using origami to convey “many out of one”. 
+
+        After the lockdown, we had to roll out 100% digital campaigns — solution-specific ads for campaigns focused on e-commerce, digital workspace, and self-service portals. Who knows how OPES will evolve in 2021! Stay tuned.
+future:
+    pretitle: The future
+    title: Designing a better tomorrow
+    list:
+        - li:
+              title: Lexicon
+              icon: emotion
+              content: |
+                  We’re working on a usage guide to help understand how some of the components from our Library work and best-practices for using them in Figma. 
+
+                  We’ll also be Implementing Auto Layout 3.0 and Variants to take advantage of the power of the new features unveiled at Config Europe this year and adding a foundation for motion to improve the user experience in our products.
+        - li:
+              title: Solutions
+              icon: solutionDesign
+              content: |
+                  We’re working to formalize and define the approach for designing pre-sales demos. These designers will also be creating white-labelled solutions for targeted industry verticals like Insurance and Manufacturing.
+        - li:
+              title: Research
+              icon: userTesting
+              content: |
+                  After a year with the Research department up and running, we continue to advance and grow not only in quantity of research projects but also in quality.
+
+                  We’ll continue to focus on qualitative research, conducting tests with potential users, while expanding our research methodologies to better adapt to the needs of the teams.
+
+                  Additionally, we are creating a repository to make insights and recommendations accessible, making it easier for the work to be useful for more projects.
+
+thankYou:
+    pretitle: 2020 Hindsight
+    title: "A year of uncertainty, met\_with\_resilience."
+    message:
+        part1: 
+            title: null
+            body: |
+                  While 2020 has been a year of challenges and adaptations, we are reminded that difficult times are often opportunities for growth. The strength of this team is not in its collective design skillset, but rather in the enduring human bonds we have cultivated and nurtured over the years.
+
+                  We’ve been able to rely on one another through our personal and professional journeys — now that we find ourselves in a global pandemic, we once again lean on each other. Our department’s ability to hold each other up throughout this year has made us stronger as people, as designers, and as a team.
+        part2:
+            title: What’s next?
+            body: |
+                If this year has shown us anything, it’s that we never really know what’s to come.
+
+                Our product portfolio is becoming more cohesive, we're designing with more and more data, and — most importantly — our designers are growing and helping each other reach their full potential. It’s been a beautiful thing to see. As Liferay grows and adapts, I know we will continue to grow with it.
+    author:
+        name: Juan Hidalgo Reina
+        title: VP, Design
+subscribe:
+    pretitle: Want more?
+    title: '#LikeAndSubscribe<3'
+    subtitle: Once a month — at least pre-2020, now it's a little less often — we share links, articles, job listings, and more.

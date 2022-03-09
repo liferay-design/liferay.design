@@ -32,7 +32,7 @@ A part of design critiques is creating a design culture. How we interact, serve,
 
 ### Presenter
 
-Fill out the first portion of your **Google Doc** in the **[sessions folder](https://drive.google.com/open?id=116aLZ08AySaz6hKS7CZsKgjD1jzAsnl5)** by **12:00pm** on **the day before** presenting.
+Fill out the first portion of your **Google Doc** in the **[sessions folder](https://drive.google.com/drive/folders/1cg9OIJjYO4u7gSGuIVfJ4_iDuk-aEMSf?usp=sharing)** by **12:00pm** on **the day before** presenting.
 
 ### Presentation Pointers
 
@@ -72,9 +72,9 @@ As a presenter, address these questions:
 As a facilitator, make sure the session runs smoothly:
 
 1.  Preparation
-    -   Create a new session by duplicating the [-week-template](https://drive.google.com/open?id=1vCvNwEVjFPHbFJ4P2EOgJCWkAOG_bi4b) in the [sessions folder](https://drive.google.com/open?id=116aLZ08AySaz6hKS7CZsKgjD1jzAsnl5) and renaming it to the presentation date.
+    -   Create a new session by duplicating the [-week-template](https://drive.google.com/drive/folders/1meYcRaq6-sQVpX4Sr_iyphDUa2S3dxsB?usp=sharing) in the [sessions folder](https://drive.google.com/drive/folders/1cg9OIJjYO4u7gSGuIVfJ4_iDuk-aEMSf?usp=sharing) and renaming it to the presentation date.
     -   Slackbot currently reminds presenters to fill out the first portion of their own Google Docs at 9:30am on presenting day — use this thread to ask who will be sharing stuff today.
-        -   [sessions folder](https://drive.google.com/open?id=116aLZ08AySaz6hKS7CZsKgjD1jzAsnl5) > [session week] > [presenter doc]
+        -   [sessions folder](https://drive.google.com/drive/folders/1cg9OIJjYO4u7gSGuIVfJ4_iDuk-aEMSf?usp=sharing) > [session week] > [presenter doc]
     -   Prior to the critique session, open all presenters’ presentation links to make sure they are viewable and do not require additional viewing permissions.
     -   Bring Post-It notes, pens, and timer from the UX Cubby (Suite 150 Cubby 31).
 1.  Keep time
@@ -88,7 +88,7 @@ As a facilitator, make sure the session runs smoothly:
     -   Try to get everyone involved in the critique, not just the few talkative individuals.
 1.  Record Critique Session
     -   Record feedback for the presenter at the bottom of their Google Doc.
-        -   [sessions folder](https://drive.google.com/open?id=116aLZ08AySaz6hKS7CZsKgjD1jzAsnl5) > [session week] > [presenter doc]
+        -   [sessions folder](https://drive.google.com/drive/folders/1cg9OIJjYO4u7gSGuIVfJ4_iDuk-aEMSf?usp=sharing) > [session week] > [presenter doc]
 1.  Remind Next Facilitator
     -   The Facilitator changes each week, going in alphabetical order by last name (i.e. week 1 is Connolly, week 2 is Hanaoka, etc).
 

@@ -78,12 +78,26 @@ export default class AuthContainer extends Component {
 		return this.state.user ? (
 			<LogoutContainer user={this.state.user} onClick={this.logout} />
 		) : (
-			<NavLink
-				sx={{ pr: 0, p: [1, null, 2], '&::after': { right: 0, bg: 'primary' } }}
-				onClick={this.login}
-			>
-				Sign In
-			</NavLink>
+			<span onClick={this.login}>
+				{this.props.children ? (
+					this.props.children
+				) : (
+					<NavLink
+						sx={{
+							pr: 0,
+							p: [1, null, 2],
+							'&::after': { right: 0, bg: 'primary' },
+						}}
+						onClick={this.login}
+					>
+						Sign In
+					</NavLink>
+				)}
+			</span>
 		)
 	}
 }
+
+// TODO clean up this component and make it more useful
+// 1. Could probably use the isAuthenticated hook? or at least rewrite as a functional component https://johnwcassidy.medium.com/firebase-authentication-hooks-and-context-d0e47395f402
+// 2. Abstract the styles — currently its styled so it fits into the nav, but it should be more generic so we can reuse it in more places

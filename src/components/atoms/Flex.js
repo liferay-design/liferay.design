@@ -14,6 +14,7 @@ const Flexbox = ({
 	name,
 	padding,
 	position,
+	textAlign,
 	width,
 	style,
 	...props
@@ -32,6 +33,7 @@ const Flexbox = ({
 		margin,
 		padding,
 		position,
+		textAlign,
 		width,
 	}
 
@@ -62,6 +64,7 @@ Flexbox.propTypes = {
 	padding: PropTypes.string,
 	position: PropTypes.string,
 	style: PropTypes.object,
+	textAlign: PropTypes.string,
 	width: PropTypes.string,
 }
 

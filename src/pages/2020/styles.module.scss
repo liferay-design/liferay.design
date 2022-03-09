@@ -1,0 +1,105 @@
+@import '~theme/variables';
+
+// COLORS
+$black: #1f2123;
+$darkBlack: #1b1c1e;
+$lightBlack: #1f2123;
+$grayHeader: #555e68;
+$grayParagraph: #888b9b;
+$twentyTwentyBlue: #395ded;
+$lightBlue: #93a7db;
+$twentyTwentyYellow: #ffc90a;
+$backgroundGradient: linear-gradient(247.41deg, #212b32 6.16%, #1c1f23 63.57%);
+$lightBackgroundGradient: linear-gradient(
+		219.58deg,
+		rgba(61, 73, 86, 0.8) -2.98%,
+		rgba(66, 81, 98, 0) 79.84%
+	),
+	linear-gradient(0deg, #232a31, #232a31);
+
+// FONT
+@font-face {
+	font-family: 'SourceSans';
+	src: url('/fonts/SourceSansVariable-Roman.ttf.woff2') format('woff2');
+	font-weight: 1 999;
+}
+
+// BREAKPOINTS
+$breakpoint-for-phone-only: 599px;
+$breakpoint-for-tablet-portrait-up: 600px;
+$breakpoint-for-tablet-landscape-up: 900px;
+$breakpoint-for-desktop-up: 1400px;
+$breakpoint-for-large-desktop-up: 1800px;
+
+@mixin for-phone-only {
+	@media (max-width: $breakpoint-for-phone-only) {
+		@content;
+	}
+}
+
+@mixin for-tablet-portrait-up {
+	@media (min-width: $breakpoint-for-tablet-portrait-up) {
+		@content;
+	}
+}
+
+@mixin for-tablet-portrait-only {
+	@media (min-width: $breakpoint-for-tablet-portrait-up) and (max-width: $breakpoint-for-tablet-landscape-up - 1px) {
+		@content;
+	}
+}
+
+@mixin for-tablet-landscape-up {
+	@media (min-width: $breakpoint-for-tablet-landscape-up) {
+		@content;
+	}
+}
+
+@mixin for-tablet-landscape-only {
+	@media (min-width: $breakpoint-for-tablet-landscape-up) and (max-width: $breakpoint-for-desktop-up - 1px) {
+		@content;
+	}
+}
+
+@mixin for-desktop-up {
+	@media (min-width: $breakpoint-for-desktop-up) {
+		@content;
+	}
+}
+
+@mixin for-desktop-only {
+	@media (min-width: $breakpoint-for-desktop-up) and (max-width: $breakpoint-for-large-desktop-up - 1px) {
+		@content;
+	}
+}
+
+@mixin for-large-desktop-up {
+	@media (min-width: $breakpoint-for-large-desktop-up) {
+		@content;
+	}
+}
+
+// GLOBAL KEYFRAMES
+@keyframes fadeIn100 {
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn30 {
+	to {
+		opacity: 0.3;
+	}
+}
+@keyframes fadeIn10 {
+	to {
+		opacity: 0.1;
+	}
+}
+@keyframes grow0to100 {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}

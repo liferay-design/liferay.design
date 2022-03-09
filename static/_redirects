@@ -10,6 +10,14 @@ https://liferay.design/lexicon/docs/* https://liferay.design/lexicon/:splat 301
 
 https://liferay.design/forum-agenda https://docs.google.com/document/d/1UqEhDug6oY_86Wvl92Pkw6ngk6D9Rqzx20ASwyf5uWg 302
 
-# temporary redirect when we only have a single job listing
+https://liferay.design/happy-hour https://www.figma.com/file/1MBOxNoWN9gd2dNWsaWDV0/Happy-Hour?node-id=0%3A1 302
 
-https://liferay.design/careers https://liferay.design/careers/na/senior-product-designer/ 302!
+# TODO — add lexicon-1 cal event
+https://liferay.design/office-hours/add-to-calendar/lexicon-1 https://www.google.com/calendar/render?action=TEMPLATE&text=Lexicon+Office+Hours&details=An+open+time+for+anyone+to+bring+design+questions%2C+problems%2C+or+just+hangout%21+%0A%0ACome+with+ideas%2C+tips%2C+or+make+yourself+available+to+help+others.&location=https%3A%2F%2Fmeet.google.com%2Fhnf-hzkz-rio&dates=20210208T150000Z%2F20210208T160000Z&recur=RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=MO 302
+
+# TODO — add lexicon-2 cal event
+https://liferay.design/office-hours/add-to-calendar/lexicon-2 https://calendar.google.com/calendar/u/0/r/eventedit?text=Lexicon+Office+Hours&details=An+open+time+for+anyone+to+bring+design+questions,+problems,+or+just+hangout!+%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/hnf-hzkz-rio&dates=20210210T113000Z/20210210T123000Z&recur=RRULE:FREQ%3DWEEKLY;INTERVAL%3D1;BYDAY%3DWE 302
+
+https://liferay.design/office-hours/add-to-calendar/figma-1 https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210208T230000Z/20210209T000000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DMO,TU,WE,TH,FR 302
+
+https://liferay.design/office-hours/add-to-calendar/figma-2 https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210204T153000Z/20210204T163000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DTH 302

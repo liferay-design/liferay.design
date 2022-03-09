@@ -3,7 +3,7 @@ title: 'Image Selector'
 description: 'The image selector lets the user select images from a grid, prioritizing over other metadata.'
 order: 502
 draft: false
-devStatus: 'PENDING'
+devStatus: 'Pending'
 productName: 'LIFERAY DXP'
 ---
 

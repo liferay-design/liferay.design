@@ -1,8 +1,8 @@
-// @import '~theme/reset';
 @import '~theme/variables';
 
 html {
 	height: initial;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -11,11 +11,6 @@ body {
 
 html,
 body {
-	background-attachment: fixed;
-	background-color: $black;
-	background-image: url(/images/diamond-bar-topography.png);
-	background-repeat: no-repeat repeat;
-	background-size: 100%;
 	font-size: 16px;
 	font-family: $fontFamilyPrimary;
 	margin: 0;

@@ -1,7 +1,7 @@
 ---
 title: 'Cards Layout'
 description: 'The card layout is used to display cards in a dataset.'
-docLink: 'https://drive.google.com/drive/folders/0B-KKkYVQA8saZXMtb2hzRy0yYW8?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1G9WpkfN9QEIAOyiozvY2Rub50eB3QyuoPX3lbDZ6JR4/edit?usp=sharing'
 order: 111
 draft: false
 ---

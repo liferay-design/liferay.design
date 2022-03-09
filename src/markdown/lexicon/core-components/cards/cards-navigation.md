@@ -1,12 +1,14 @@
 ---
 title: 'Navigation Card'
 description: 'Navigation card is a visual component focused on providing navigation in distributive pages or discributive page sections.'
-devStatus: 'PENDING'
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/card.html'
+figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6026%3A914'
 order: 212
 draft: false
 ---
 
-![navigation card default state](/images/lexicon/CardNavDefault.jpg)
+![navigation card default state](./images/cards-18.png)
 
 ### Usage
 
@@ -23,12 +25,12 @@ You can find it in two formats:
 
 #### Default
 
-![navigation card default state](/images/lexicon/CardNavDefault.jpg)
+![navigation card default state](./images/cards-18.png)
 
 #### Hover
 
-![navigation card hover state, the background shades in gray and a blue line appears below](/images/lexicon/CardNavHover.jpg)
+![navigation card hover state, the background shades in gray and a blue line appears below](./images/cards-19.png)
 
 #### Active
 
-![navigation card active state, the background gets a bit darker than in hover state](/images/lexicon/CardNavActive.jpg)
+![navigation card active state, the background gets a bit darker than in hover state](./images/cards-20.png)

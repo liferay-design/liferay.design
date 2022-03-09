@@ -7,6 +7,8 @@ import { MainLayout } from 'components/templates'
 import { graphql } from 'gatsby'
 
 export default ({ data }) => {
+	console.log(data.allMdx.edges, 'data')
+
 	return (
 		<MainLayout section="Careers">
 			<SEO
@@ -22,12 +24,29 @@ export default ({ data }) => {
 						<CardDefault
 							delay={`${index}` * 0.1 + 's'}
 							avatarImage
+							pill
+							tag={node.frontmatter.remote === true ? 'Remote Available 😊' : null}
 							key={node.id}
 							imageURL={node.frontmatter.featuredImage}
 							link={node.fields.slug}
 							title={node.frontmatter.title}
-							subtitle={node.frontmatter.office.city}
-							avatarImageURL={node.frontmatter.office.regionIcon}
+							// subtitle={
+							// 	node.frontmatter.remote === true
+							// 		? node.frontmatter.office.region.countries.map(
+							// 				(i, index) => (index ? ' / ' : '') + i,
+							// 		  )
+							// 		: node.frontmatter.office.city
+							// }
+							subtitle={
+								node.frontmatter.remote === true
+									? node.frontmatter.office.country
+									: node.frontmatter.office.city
+							}
+							avatarImageURL={
+								node.frontmatter.remote === true
+									? node.frontmatter.office.countryIcon
+									: node.frontmatter.office.countryIcon
+							}
 						/>
 					))}
 				</Grid>
@@ -37,31 +56,37 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-			{
-				allMdx(
-					filter: {
-						fileAbsolutePath: { regex: "/(careers)/" }
-						frontmatter: { published: { eq: true } }
-					}
-				) {
-					totalCount
-					edges {
-						node {
-							id
-							frontmatter {
-								title
-								office {
-									city
-									regionIcon
-								}
-								featuredImage
+	{
+		allMdx(
+			filter: {
+				fileAbsolutePath: { regex: "/(careers)/" }
+				frontmatter: { published: { eq: true } }
+			}
+			sort: { fields: frontmatter___date, order: ASC }
+		) {
+			totalCount
+			edges {
+				node {
+					id
+					frontmatter {
+						title
+						office {
+							city
+							region {
+								countries
+								countryIcon
 							}
-							fields {
-								slug
-							}
-							excerpt
+							country
+							countryIcon
 						}
+						featuredImage
+						remote
+					}
+					fields {
+						slug
 					}
 				}
 			}
-		`
+		}
+	}
+`

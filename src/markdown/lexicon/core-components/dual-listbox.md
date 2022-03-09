@@ -1,9 +1,9 @@
 ---
 title: 'Dual Listbox'
-titleLabel: ''
-titleLabelLink: ''
+titleLabel: 'Clay'
+titleLabelLink: 'https://clayui.com/docs/components/dual-list_box.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A9595'
-docLink: 'https://drive.google.com/drive/folders/1AFySLLYLN0Kkdl1_MCc6EtDbz6wzgOfW?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1S1YeFlqmUqtivxe4bNDv8sN2ZYwczJ9KYOSUSO5a1hE/edit?usp=sharing'
 description: 'A dual Listbox allows users to compare and move available and selected options between two lists.'
 order: 244
 draft: false
@@ -11,6 +11,10 @@ draft: false
 
 ### Definition
 A dual Listbox consists of two lists used to move options between them. Users are allowed to multi-select different items from a list and sometimes, options in use can be re-order. The scroll must be available in long lists.
+
+#### Usage
+* By default, the destination list is placed on the left, and the origin is on the right, but the order can be changed providing a clear context.
+* Lists must be exclusive and their titles must reflect so. Examples: "Selected - Not selected", "Coord X - Coord Y" or "East coast teams - West coast teams"
 
 #### Parts
 ![Dual ListBox](/images/lexicon/dualListBox.png)

@@ -73,36 +73,12 @@
 				width: 100%;
 				height: 12rem;
 				position: relative;
-				// &::after {
-				// 	content: '';
-				// 	background: $black;
-				// 	top: 0;
-				// 	right: 0;
-				// 	left: 0;
-				// 	bottom: 0;
-				// 	z-index: 1;
-				// 	mix-blend-mode: color;
-				// 	position: absolute;
-				// }
-				// &::before {
-				// 	content: '';
-				// 	background: linear-gradient(-100deg, $primary, $black);
-				// 	top: 0;
-				// 	right: 0;
-				// 	left: 0;
-				// 	bottom: 0;
-				// 	z-index: 2;
-				// 	mix-blend-mode: multiply;
-				// 	position: absolute;
-				// }
 			}
 			.text {
 				margin: -$spacingSmall 0 0 0;
 				width: 100%;
 				.headline {
-					// margin-top: -$spacingBase;
 					z-index: 10;
-					// color: $white;
 				}
 				a,
 				.button {

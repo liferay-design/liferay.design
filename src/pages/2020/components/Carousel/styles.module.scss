@@ -1,0 +1,60 @@
+@import '~theme/variables';
+@import '../../styles.module.scss';
+.active {
+    .slide.currentSlide,
+    .indicator.currentIndicator {
+        cursor: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='9.75' y='6.75' width='8.5' height='26.5' rx='2.25' fill='%23FFC90A' stroke='%231B1C1E' stroke-width='0.5'/%3E%3Crect x='21.75' y='6.75' width='8.5' height='26.5' rx='2.25' fill='%23FFC90A' stroke='%231B1C1E' stroke-width='0.5'/%3E%3C/svg%3E%0A"), auto;
+    }
+}
+.slidesWrapper {
+    transition: transform 300ms ease-in-out;
+}
+.slide {
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    transform-origin: center;
+}
+.prevSlide,
+.nextSlide {
+    filter: grayscale(1);
+}
+.prevSlide {
+    transform: scale(0.8) translate(5%, -12.5%);
+}
+.nextSlide {
+    transform: scale(0.8) translate(-5%, 12.5%);
+}
+.currentSlide {
+    box-shadow: 0px 74px 124px 0px rgba(15, 17, 23, 0.48);
+    cursor: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.375 33.2739L32.125 22.4486C33.625 21.5825 33.625 19.4175 32.125 18.5514L13.375 7.72612C11.875 6.8601 10 7.94263 10 9.67468L10 31.3253C10 33.0574 11.875 34.1399 13.375 33.2739Z' fill='%23FFC90A' stroke='%231B1C1E' stroke-width='0.5'/%3E%3C/svg%3E%0A"), auto;
+}
+.indicator {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin: 0 8px;
+    transition: width 250ms ease-in-out;
+    cursor: pointer;
+    .indicatorBackground {
+        width: 100%;
+        height: 8px;
+        left: 8px;
+        top: 12px;
+        border-radius: 4px;
+        background: rgba(255,255,255,0.2);
+        position: absolute;
+        overflow: hidden;
+    }
+    .activeIndicator {
+        width: 100%;
+        height: 100%;
+        background: $twentyTwentyYellow;
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    &.currentIndicator {
+        cursor: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.375 33.2739L32.125 22.4486C33.625 21.5825 33.625 19.4175 32.125 18.5514L13.375 7.72612C11.875 6.8601 10 7.94263 10 9.67468L10 31.3253C10 33.0574 11.875 34.1399 13.375 33.2739Z' fill='%23FFC90A' stroke='%231B1C1E' stroke-width='0.5'/%3E%3C/svg%3E%0A"), auto;
+        width: 300px;
+    }
+}

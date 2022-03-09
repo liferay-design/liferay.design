@@ -3,7 +3,7 @@ title: 'Stickers'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/sticker.html'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6020%3A23934'
-docLink: 'https://drive.google.com/drive/folders/135ZQJO7VAazJy4NC_9xdzIeBVQVLzJ4Q?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1IKTKmDl0ezGqA_ea5PuhBhmONBAU4hC4'
 description: 'Stickers are a visual way to quickly identify content in a different way than badges and labels.'
 order: 326
 draft: false
@@ -77,6 +77,6 @@ Only use the circle sticker to identify people. You can places up to two charact
 
 You can place a sticker of any type in an Card. Its position is always bottom left, as shown in the example below:
 
-![sticker position example in Card Image](/images/lexicon/CardImage.jpg)
+![sticker position example in Card Image](/images/lexicon/cards-6.png)
 
-![user sticker position example in web content card](/images/lexicon/CardFileUser.jpg)
+![user sticker position example in web content card](/images/lexicon/cards-15-2.png)

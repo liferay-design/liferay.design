@@ -3,7 +3,7 @@ title: 'Text Input Group'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/input.html#input.group'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A2985'
-docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+docLink: 'https://docs.google.com/document/d/1D-O1i4EqJwEsjh1fbsb9rOCiePQaYwxO52i7HdWf4y0/edit?usp=sharing'
 description: 'A text field with added elements that provide a more complex input structure.'
 order: 266
 draft: false

@@ -22,6 +22,7 @@ const Image = ({
 	external,
 	expandable,
 	expandedSrc,
+	clear,
 	...props
 }) => {
 	const [open, setOpen] = useState(false)
@@ -39,10 +40,12 @@ const Image = ({
 		left: {
 			float: 'left',
 			marginLeft: '-8%',
+			clear: 'left'
 		},
 		right: {
 			float: 'right',
 			marginRight: '-8%',
+			clear: 'right'
 		},
 	}
 

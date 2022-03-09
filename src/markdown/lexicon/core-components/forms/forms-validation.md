@@ -1,7 +1,7 @@
 ---
 title: 'Forms Validation'
 description: 'A description of how validation patterns must be displayed within form structures.'
-docLink: 'https://drive.google.com/drive/folders/1-7JQa8D2X2gbtDx-2q0IMWwwV73wSeTE?usp=sharing'
+docLink: 'https://docs.google.com/document/d/13iNIOKCshx50pBRiwsq_MIjm9wUEfiygArRnrYD1-x4/edit?usp=sharing'
 order: 255
 draft: false
 ---

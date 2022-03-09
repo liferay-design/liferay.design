@@ -1,7 +1,7 @@
 ---
 title: 'Interaction'
 description: 'A description of the basic expected interaction behaviors for all charts.'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1A_oVxh1wjCxUWUuhsa57IrLp-UaP8Jg7'
 order: 223
 draft: false
 ---
@@ -69,8 +69,8 @@ The popover must be shown on top of the legend item.
 
 A chart popover lets you display specific data for an exact point or an exact area that is interactive. This is another usage of the popover pattern.
 
-![Tooltip or popover](/images/lexicon/ChartBubble.png)
+![Tooltip or popover](./images/charts-8.png)
 
 The following half donut chart shows a chart tooltip in action:
 
-![tooltip usage in a half donut chart](/images/lexicon/ChartBubbleExample.png)
+![tooltip usage in a half donut chart](./images/charts-9.png)

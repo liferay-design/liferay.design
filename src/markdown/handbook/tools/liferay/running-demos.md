@@ -1,7 +1,7 @@
 ---
 title: 'Running Demos'
 description: 'Running Liferay Portal demos on your local machine'
-order: 1
+order: 3
 publish: true
 ---
 

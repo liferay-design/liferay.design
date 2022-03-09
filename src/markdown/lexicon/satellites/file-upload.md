@@ -4,7 +4,7 @@ description: 'File Uploader is a pattern that lets users select and upload image
 order: 501
 draft: false
 productName: 'LIFERAY DXP'
-devStatus: 'PENDING'
+devStatus: 'Pending'
 ---
 
 ### Simple File Upload

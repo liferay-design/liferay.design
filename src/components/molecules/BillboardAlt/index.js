@@ -1,13 +1,32 @@
+/** @jsx jsx */
+
+import { jsx } from 'theme-ui'
 import { Button, Container, Flex, Heading, Link, Text } from 'components/atoms'
+import KeyArt from 'pages/2020/components/KeyArt'
 import PropTypes from 'prop-types'
-import React from 'react'
 import styles from './styles.module.scss'
 
-const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => {
+const BillboardAlt = ({
+	annualReport,
+	image,
+	heading,
+	subtitle,
+	cta,
+	background,
+	ctaUrl,
+}) => {
 	return (
 		<div className={styles.wrapper} style={{ background: `${background}` }}>
 			<Container>
 				<Flex className={styles.container}>
+					{annualReport ? (
+						<Flex
+							className={styles.image}
+							sx={{ backgroundColor: 'black', alignItems: 'center' }}
+						>
+							<KeyArt />
+						</Flex>
+					) : null}
 					{image ? (
 						<Flex
 							className={styles.image}
@@ -23,14 +42,14 @@ const BillboardAlt = ({ image, heading, subtitle, cta, background, ctaUrl }) => 
 						justify="space-between"
 					>
 						<Heading
-							color={background == 'colors.white' ? 'black' : 'white'}
+							color={background == 'white' ? 'black' : 'white'}
 							className={styles.headline}
 							level={2}
 						>
 							{heading}
 						</Heading>
 						<Text
-							color={background == 'colors.white' ? 'black' : 'white'}
+							color={background == 'white' ? 'black' : 'white'}
 							margin="xxLarge"
 						>
 							{subtitle}

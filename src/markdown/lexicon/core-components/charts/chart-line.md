@@ -3,13 +3,13 @@ title: 'Line Chart'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/charts.html'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A235'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1A_oVxh1wjCxUWUuhsa57IrLp-UaP8Jg7'
 description: 'A type of chart which displays information as a series of data points connected by straight line segments.'
 order: 228
 draft: false
 ---
 
-![Charts line example with different lines types and shape types](/images/lexicon/ChartLineAndShapeExample1.png)
+![Charts line example with different lines types and shape types](./images/charts-26.png)
 <br/>
 <br/>
 
@@ -29,8 +29,8 @@ You can use either [Pattern](./../) (line type or shape type) for Line Charts to
 
 #### Chart item interaction
 
-![Line chart with 4 datasets, the red line, circular dots, has one item selected](/images/lexicon/ChartLineItemSel.png)
+![Line chart with 4 datasets, the red line, circular dots, has one item selected](./images/charts-28.png)
 
 #### Legend item interaction
 
-![Line chart with 4 datasets, the red line, circular dots. Red line selected from the legend](/images/lexicon/ChartLineLegendSel.png)
+![Line chart with 4 datasets, the red line, circular dots. Red line selected from the legend](./images/charts-27.png)

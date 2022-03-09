@@ -4,6 +4,7 @@ import { jsx, Input, Flex } from 'theme-ui'
 import { Icon, Hotkey } from 'components/atoms'
 import PropTypes from 'prop-types'
 import styles from './styles.module.scss'
+import { useEffect } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 export default function SearchInput({ id }) {
@@ -21,6 +22,14 @@ export default function SearchInput({ id }) {
 	const showKeys = () => {
 		document.getElementById('hotkeys').style.setProperty('opacity', '1')
 	}
+
+	useEffect(() => {
+		window.docsearch({
+			apiKey: process.env.GATSBY_ALGOLIA_KEY || 'e743f8519124b276f2f3325e8e126246',
+			indexName: 'liferay_design',
+			inputSelector: `#${id}`,
+		})
+	}, [id])
 
 	return (
 		<Flex

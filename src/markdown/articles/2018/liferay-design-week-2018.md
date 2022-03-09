@@ -4,6 +4,7 @@ date: '2018-04-27'
 title: 'Liferay Design Week 2018 is over'
 featuredImage: '/images/articles/design-week-team.jpeg'
 publish: true
+tags: ['Conference recap']
 ---
 
 Over 5 days, 31 Designers from (Diamond Bar, Frankfurt, Madrid, Recife, and San Diego) attended 21 Talks, 6 Workshops, and Group Activities. The week was intense and a challenge to synchronize our projects with our deadlines — it was awesome.

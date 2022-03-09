@@ -18,10 +18,14 @@ Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photo
 
 ## Liferay Events Etc
 
+-   [Liferay Global Partner Summit, Virtual Event 2021](https://photos.app.goo.gl/Dccf9h6cM6t8Ej1J8)
+-   [Liferay Vision Global, Virtual Event 2021](https://photos.app.goo.gl/MDYR8hTCfgmow8vy8)
+-   [Liferay Vision DACH, Virtual Event 2021](https://photos.app.goo.gl/9JEEGyoszkyHQtG36)
 -   [LDSF Middle East & Africa, Virtual Event 2020](https://photos.app.goo.gl/U9SwTamfTGGKAawX9)
 -   [LDSF DACH, Virtual Event 2020](https://photos.app.goo.gl/PKFnNuD5VBVKbTqN9)
 -   [Marketing Kick-Off, San Diego 2020](https://photos.app.goo.gl/uKmo4noWTyxzxqwe8)
 -   [EMEA Partner Summmit, Milano 2019](https://photos.app.goo.gl/SeVCTmBDXniPyeUeA)
+-   [Liferay Devcon, Mainz 2019](https://photos.app.goo.gl/t2avYwi1ZXrbxZ876)
 -   [Americas Partner Summmit, Miami 2019](https://photos.app.goo.gl/3nCBATEsKPXkJhrg9)
 -   [North America Symposium, New Orleans 2018](https://photos.app.goo.gl/1BokV7mREGDntdycA)
 -   [Design Week, Diamond Bar 2018](https://photos.app.goo.gl/h8nzVLpd4fCCGGYF2)

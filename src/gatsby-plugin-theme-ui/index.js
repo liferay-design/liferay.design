@@ -1,16 +1,27 @@
-import { fontSizes } from 'theme/'
-import { fontWeights } from 'theme/'
+import components from 'gatsby-plugin-theme-ui/components'
+import layouts from 'gatsby-plugin-theme-ui/layouts'
+import prism from '@theme-ui/prism/presets/theme-ui'
 
 export default {
+	...components,
+	...layouts,
 	colors: {
+		// Basic Theme Colors
 		text: '#fff',
 		background: '#13141F',
+		primary: '#0B5FFF',
+		secondary: '#0084ff',
+		accent: '#FC3BBA',
+		muted: '#80acff',
+		// Colors used by Prism for syntax highlighting
+		gray: '#6D7580',
+		// Additional Liferay Colors
 		black: '#13141F',
 		white: '#FFF',
-		primary: '#0B5FFF',
 		grayBg: '#F1f2f5',
 		grayBgL1: '#F7f8f9',
 		lightestBlue: '#f2f6ff',
+		// Lexicon Colors
 		main: '#272833',
 		mainD1: '#1C1C24',
 		mainD2: '#111116',
@@ -21,15 +32,6 @@ export default {
 		mainL5: '#Cdced9',
 		mainL6: '#E7e7ed',
 		mainL8: '#F5f5f8',
-		neutral1: '#2C3A4B',
-		neutral2: '#394452',
-		neutral3: '#545D69',
-		neutral4: '#6D7580',
-		neutral5: '#858C94',
-		neutral6: '#A5ABB3',
-		neutral7: '#DADEE3',
-		neutral8: '#EBEEF2',
-		neutral9: '#F4F6F9',
 		primaryd2: '#004ad7',
 		primaryd1: '#0053f0',
 		primaryl1: '#80acff',
@@ -48,23 +50,16 @@ export default {
 			cyan: '#5FC8FF',
 			indigo: '#7785FF',
 		},
-	},
-	buttons: {
-		primary: {
-			color: 'white',
-			bg: 'primary',
-		},
-		icon: {
-			transform: 'translateY(0) scale(0.95)',
-			transition: 'transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
-			'&:hover': {
-				transform: 'translateY(-0.4rem) scale(1)',
-				transition: 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
-				svg: {
-					fill: 'primary',
-				},
-			},
-		},
+		// Blueprints Colors
+		neutral1: '#2C3A4B',
+		neutral2: '#394452',
+		neutral3: '#545D69',
+		neutral4: '#6D7580',
+		neutral5: '#858C94',
+		neutral6: '#A5ABB3',
+		neutral7: '#DADEE3',
+		neutral8: '#EBEEF2',
+		neutral9: '#F4F6F9',
 	},
 	fonts: {
 		body: '"Source Code Pro", Menlo, monospace',
@@ -79,60 +74,6 @@ export default {
 			},
 			brand: {
 				body: '"Source Sans Pro", Tahoma, "Trebuchet MS", sans-serif',
-			},
-		},
-	},
-	links: {
-		nav: {
-			cursor: 'pointer',
-			minWidth: 'max-content',
-			color: 'mainL4',
-			fontWeight: 'body',
-			fontSize: 2,
-			margin: 0,
-			padding: [2, 1, 2],
-			transition: 'color 0.2s ease-out',
-			position: 'relative',
-			'&::after': {
-				background: 'white',
-				bottom: 0,
-				content: '""',
-				right: [2, 1, 2],
-				position: 'absolute',
-				height: '3px',
-				transition: 'transform 0.4s ease',
-				transformOrigin: 'right',
-				transform: 'scaleX(0)',
-				width: 4,
-			},
-			'&:hover': {
-				color: 'white',
-				transition: 'color 0.4s ease-out',
-				'&::after': {
-					transition: 'transform 0.2s ease',
-					transform: 'scaleX(1)',
-				},
-			},
-		},
-		nice: {
-			color: 'mainL4',
-			position: 'fixed',
-			padding: '2em',
-			left: '2em',
-			bottom: '0',
-		},
-		tag: {
-			bg: 'main',
-			borderRadius: '0.4rem',
-			px: 2,
-			py: 1,
-			variant: 'text.caps',
-			color: 'mainL6',
-			fontWeight: 'heading',
-			fontSize: 1,
-			'&:hover': {
-				bg: 'primary',
-				color: 'white',
 			},
 		},
 	},
@@ -151,6 +92,12 @@ export default {
 		heading: '-0.05em',
 		caps: '0.1em',
 	},
+	elevations: [
+		'0 0.05rem 1rem -0.5rem rgba(0,0,0, 0.5)',
+		'0 0.1rem 3rem rgba(0,0,0, 0.08)',
+		'0 0.5rem 5rem -1rem rgba(0,0,0, 0.16)',
+		'0 0.5rem 8rem -0.5rem rgba(0,0,0, 0.16)',
+	],
 	text: {
 		heading: {
 			color: 'text',
@@ -171,17 +118,16 @@ export default {
 			letterSpacing: 'caps',
 		},
 		hotkey: {
+			variant: 'styles.codeBase',
 			lineHeight: '1.5',
 			textTransform: 'capitalize',
 			fontWeight: 'bold',
 			color: 'mainL4',
-			px: 1,
 			py: 0,
 			mx: '.2ch',
 			bg: 'white',
-			borderRadius: '2px',
-			border: theme => 'solid 2px ' + theme.colors.mainL6,
 		},
+		code: {},
 	},
 	space: [0, '.4rem', '1rem', '2rem', '3rem', '8rem', '16rem', '32rem'],
 	alignments: {
@@ -196,158 +142,32 @@ export default {
 			fontWeight: 'body',
 			color: 'main',
 		},
-	},
-	cards: {
-		'4:3': {
-			'&:after': { pb: '75%', display: 'block', content: '""' },
-		},
-		'16:9': {
-			'&:after': { pb: '56.25%', display: 'block', content: '""' },
-		},
-	},
-	images: {
-		avatar: {
-			height: 64,
-			width: 64,
-			borderRadius: '50%',
-			bg: 'main',
-			variant: 'alignments.center',
-			small: {
-				height: 40,
-				width: 40,
-				// border: 'solid 1px #E7e7ed',
-			},
-		},
-		interviewee: {
-			position: 'absolute',
-			ml: '-4rem',
-			mt: 0,
-			height: '3rem',
-			width: '3rem !important',
-			borderRadius: '50%',
-		},
-		grey: {
-			filter: 'grayscale(1)',
-			transition: 'filter 200ms ease-in-out',
-			objectFit: 'cover',
-		},
-		sexyShadow: {
-			filter: 'blur(32px)',
-			transition: 'opacity 0.15s ease-in-out',
-			opacity: 0,
-		},
-	},
-	grids: {
-		lexiconExamples: {
-			gridTemplateColumns: '48px 1fr',
-			gap: 2,
-			alignItems: 'center',
-			color: 'info',
-			fontSize: 1,
-			fontStyle: 'italic',
+		codeBase: {
+			backgroundColor: 'mainL8',
+			border: theme => 'solid 1px ' + theme.colors.mainL6,
+			borderRadius: '.2rem',
 			mb: 3,
+			px: 1,
+			py: '.2rem',
 		},
-		twoCards: {
-			gridTemplateColumns: [
-				'repeat(auto-fill, minmax(18rem, 1fr))',
-				'repeat(auto-fill, minmax(24rem, 1fr))',
-				null,
-			],
-			gap: '5rem 4rem',
+		code: {
+			variant: 'styles.codeBase',
+			fontSize: 2,
+			color: 'muted',
+			...prism,
 		},
-		threeCards: {
-			gridTemplateColumns: 'repeat(auto-fill, minmax(18rem, 1fr))',
-			gap: '5rem 4rem',
+		pre: {
+			display: 'inline-block',
+			...prism,
 		},
-		sideNav: {
-			gridTemplate: [
-				'"nav" 8rem "main" 1fr / 1fr',
-				null,
-				'"sidebar main" auto / 20rem 1fr',
-			],
-			gap: 0,
-		},
-		post: {
-			gridTemplate: [
-				'"c v" auto "i i" auto / 1fr 1rem',
-				null,
-				'"c c v" auto "l i r" auto "l i r" auto / 1fr 768px 1fr',
-			],
-			gap: 0,
-		},
-		landingPage: {
-			gridTemplate: [' auto / 1fr', null, 'auto / 1fr 1fr'],
-			gap: '2rem',
-			padding: '0 3rem',
-		},
-		swatches: {
-			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
-			autoRows: 'auto',
-			gap: '3.3rem 3rem',
-		},
-		smallCards: {
-			gridTemplateColumns: 'repeat( auto-fit, minmax(200px, 1fr) )',
-			autoRows: 'auto',
-			gap: '2rem',
-		},
-	},
-	wrapper: {
-		markdown: {
-			px: [3, 3, null],
-			py: [2, 3, null],
-			bg: 'white',
-			fontFamily: 'modes.brand.body',
-			width: '100%',
-			'> div': {
-				margin: '0 auto',
-				maxWidth: '68ch',
-				p: {
-					color: 'mainL2',
-					fontSize: 3,
-					'-webkit-font-smoothing': 'antialiased !important;',
-					'-mozOsx-font-smoothing': 'grayscale !important;',
-					mb: 4,
-				},
-				'h2, h3': {
-					mt: 4,
-					'&:first-child': {
-						mt: 2,
-					},
-				},
-			},
-		},
-	},
-	embed: {
-		video: {
-			mt: 3,
-			mb: 4,
-		},
-		slides: {
-			mt: 3,
-			mb: 4,
-		},
-	},
-	input: {
-		backgroundColor: 'white',
-		border: '.0625rem solid #e7e7ed',
-		borderRadius: '.25rem',
-		boxShadow: '0 0 transparent',
-		color: '#272833',
-		display: 'block',
-		fontSize: '1rem',
-		fontWeight: '400',
-		height: '2.5rem',
-		lineHeight: '1.5',
-		minWidth: '0',
-		padding: '.4375rem 1rem',
-		width: '100%',
-		transition: 'border-color .15s ease-in-out,box-shadow .15s ease-in-out',
-		'&:focus': {
-			backgroundColor: '#f0f5ff',
-			borderColor: '#80acff',
-			boxShadow: '0 0 transparent,0 0 0 .125rem #fff,0 0 0 .25rem #80acff',
-			color: '#272833',
-			outline: '0',
+		inlineCode: {
+			//https://github.com/mdx-js/specification/issues/7
+			variant: 'styles.codeBase',
+			fontSize: '.9em',
+			lineHeight: 1,
+			color: 'accent',
+			py: '.1em',
+			...prism,
 		},
 	},
 }

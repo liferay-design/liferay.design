@@ -1,14 +1,14 @@
 ---
 title: 'Heatmap Chart'
-titleLabel: 'Pending'
+devStatus: 'Pending'
 description: 'The Heatmap Chart is a visual representation of the data using colors to indicate the values.'
 figmaLink: 'https://www.figma.com/file/CZyK1h5vmNBAm9Lgth89zpC4/lexicon-charts?node-id=254%3A5357'
-docLink: 'https://drive.google.com/drive/folders/13BbAbwfF7RvRGfTBlB_--vX5Oqn4jZq8?usp=sharing'
+docLink: 'https://drive.google.com/drive/folders/1A_oVxh1wjCxUWUuhsa57IrLp-UaP8Jg7'
 order: 227
 draft: false
 ---
 
-![Heatmap chart](/images/lexicon/ChartHeatmap.png)
+![Heatmap chart](./images/charts-21.png)
 
 ### Color use
 
@@ -22,16 +22,16 @@ To improve the activities readability, you can use up to seven different circle 
 
 #### Single item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/ChartHeatmapItemSel.png)
+![heatmap interaction with an element in the chart](./images/charts-22.png)
 
 #### X-axis item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/ChartHeatmapAxisSel.png)
+![heatmap interaction with an element in the chart](./images/charts-23.png)
 
 #### Y-axis item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/ChartHeatmapAxisYSel.png)
+![heatmap interaction with an element in the chart](./images/charts-24.png)
 
 #### Legend item interaction
 
-![heatmap interaction with an element in the chart](/images/lexicon/ChartHeatmapLegendSel.png)
+![heatmap interaction with an element in the chart](./images/charts-25.png)

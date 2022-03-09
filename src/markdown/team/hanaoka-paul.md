@@ -4,11 +4,11 @@ author: 'Paul Hanaoka'
 
 ### Favorite tool?
 
-Figma &mdash; and my 8' level.
+I wish it were Figma, but lately — Apple Notes.
 
 ### Best lifehack?
 
-Go to bed before 11, wake up before 6.
+🙃
 
 ### If you weren't designing, what would you be doing?
 
@@ -34,7 +34,7 @@ Don't make excuses &mdash; everybody is busy, people make time for what is impor
 
 ### Last book you read?
 
-[The Service Innovation Handbook](https://serviceinnovationhandbook.org/) &mdash; some of my teammates gave this to me for my birthday, I really love it.
+Taking Brand Initiative: How Companies Can Align Strategy, Culture, and Identity Through Corporate Branding by Majken Schultz and Mary Jo Hatch
 
 ### Most effective productivity booster?
 
@@ -48,4 +48,8 @@ The future.
 
 JK &mdash; generally thinking about all the things I didn't accomplish during the day, week, month.
 
-My 2-year old when he's sick.
+My kids when they're sick.
+
+### Best punctuation mark?
+
+Obviously the em-dash &mdash; I pause a lot when speaking, so its only natural I do so when writing.

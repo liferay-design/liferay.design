@@ -1,6 +1,6 @@
 ---
 title: 'Inline Edit Table'
-titleLabel: 'Pending'
+devStatus: 'Pending'
 docLink: 'https://drive.google.com/drive/folders/1ptTLH-6aHMxuKuN4aHBSRGfUGg_A-RfH?usp=sharing'
 description: 'A table variation that lets users modify certain values of the entry without going to the detail page.'
 order: 342

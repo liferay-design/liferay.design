@@ -26,6 +26,18 @@ export default class Team extends Component {
 		const links = teammate.links ? teammate.links : null // this is to catch people who dont have links
 		const socials = links
 			? [
+					links.behance
+						? {
+								url: 'https://www.behance.net/' + links.behance,
+								name: 'behance',
+						  }
+						: null,
+					links.discord
+						? {
+								url: 'https://www.discord.com/' + links.discord,
+								name: 'discord',
+						  }
+						: null,
 					links.dribbble
 						? {
 								url: 'https://www.dribbble.com/' + links.dribbble,
@@ -42,6 +54,12 @@ export default class Team extends Component {
 						? {
 								url: 'https://github.com/' + links.github,
 								name: 'github',
+						  }
+						: null,
+					links.linkedin
+						? {
+								url: 'https://linkedin.com/in/' + links.linkedin,
+								name: 'linkedin',
 						  }
 						: null,
 					links.instagram
