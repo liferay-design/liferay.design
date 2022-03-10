@@ -1,10 +1,11 @@
 ---
-jobId:
+contact: jon.wood@liferay.com
 date: 2022-03-07T07:00:00Z
-title: Senior Product Designer (Freelance)
-office: Remote
-featuredImage: '/images/articles/pj-first-year.jpeg'
-published: false
+title: Freelance Product Designer
+office: 'Diamond Bar'
+featuredImage: '/images/infra-week/team-in-diamond-bar.jpg'
+remote: true
+published: true
 ---
 
 ## About This Position
@@ -61,7 +62,7 @@ Recent enterprise solutions this role has delivered for were customer and insura
 -   Resume or LinkedIn Profile
 -   Portfolio link
 
-We're transparent in how we hire, feel free to read through [our hiring process](https://liferay.design/articles/2021/how-we-hire/).
+We're transparent in how we hire, feel free to read through [our hiring process](https://liferay.design/articles/2021/how-we-hire/) — while this role is for a freelance position, the steps to bring you onboard will generally be the same.
 
 ## _Liferay is an Equal Opportunity Employer_
 
