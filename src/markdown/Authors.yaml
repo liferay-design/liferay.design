@@ -115,12 +115,6 @@
       github: 'jonmwood'
       instagram: 'jonmwood'
       twitter: 'jonmwood'
-- id: Juan Antón
-  title: Lead Product Designer
-  active: true
-  icon: fa_palette
-  startDate: 2016-08-18
-  office: Madrid
 - id: Juan Baker
   title: Sr. Communication Designer
   active: true
@@ -130,14 +124,6 @@
   links:
       instagram: 'bkr_juan'
       linkedin: 'juanbaker'
-- id: Juan Hidalgo
-  title: Vice President, Design
-  active: true
-  icon: fa_heart
-  startDate: 2016-10-17
-  office: Diamond Bar
-  links:
-      twitter: 'jhidalgoreina'
 - id: Julia Chan
   title: Communication Designer
   active: true
@@ -232,7 +218,7 @@
   startDate: 2006-11-27
   office: Diamond Bar
 - id: Paul Hanaoka
-  title: Principal Designer
+  title: Design Director
   active: true
   icon: fa_terminal
   startDate: 2014-08-25
@@ -460,7 +446,20 @@
       instagram: 'eloipinheiros'
       twitter: 'eloipinheiros'
       website: behance.net/eloipinheiro
-
+- id: Juan Antón
+  title: Lead Product Designer
+  active: false
+  icon: fa_palette
+  startDate: 2016-08-18
+  office: Madrid
+- id: Juan Hidalgo
+  title: Vice President, Design
+  active: false
+  icon: fa_heart
+  startDate: 2016-10-17
+  office: Diamond Bar
+  links:
+      twitter: 'jhidalgoreina'
   # Friends of Design :)
 - id: Angelo Youn
   active: false
