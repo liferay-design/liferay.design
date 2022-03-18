@@ -1,10 +1,10 @@
 ---
-jobId:
+jobId: oBI3ifwo
 date: 2022-03-07T07:00:00Z
 title: Senior Product Designer
 office: Remote
 featuredImage: '/images/articles/pj-first-year.jpeg'
-published: false
+published: true
 ---
 
 ## About This Position
@@ -62,7 +62,6 @@ A place to make a lasting impact — we strongly believe in using business as a 
 
 -   Salary package commensurate with qualifications and experience.
 -   40 hours per year to volunteer at a nonprofit of your choice.
--   2.5 weeks of vacation + 10 holidays.
 -   Room to assume responsibility and grow professionally.
 -   Be part of a great team and work with designers around the world.
 -   Work in a company that has strong executive support for Design.
