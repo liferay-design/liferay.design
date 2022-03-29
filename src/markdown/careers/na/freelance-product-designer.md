@@ -1,17 +1,18 @@
 ---
-jobId: oBI3ifwo
+contact: jon.wood@liferay.com
 date: 2022-03-07T07:00:00Z
-title: Senior Product Designer
-office: Remote
-featuredImage: '/images/articles/pj-first-year.jpeg'
-published: true
+title: Freelance Product Designer
+office: 'Diamond Bar'
+featuredImage: '/images/infra-week/team-in-diamond-bar.jpg'
+remote: true
+published: false
 ---
 
 ## About This Position
 
-Providing design services to our customers by applying design best practices in the EMEA region is a high priority for our business. We’re looking for a senior designer with agency experience that can serve our customers and partners while simultaneously growing our design culture and presence in the community. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, Asia Pacific, and North America that are excited to build with you.
+Providing design services to our customers by applying design best practices is a high priority for our business. We’re looking for a senior designer with agency experience that can serve our customers and partners. While you'll be leading your own project as a freelancer, you'll have opportunities to connect with other designers at Liferay! We have a global design division with teams in Europe, Latin America, Asia Pacific, and North America.
 
-You’ll be working with sales and consulting teams, interfacing directly with prospects and customers along the complete software development lifecycle.
+You’ll be working with our consulting teams, interfacing directly with prospects and customers in their discovery phase or along the complete software development lifecycle.
 
 Sometimes you’ll work independently, guiding stakeholders along the entire design process from research and strategy to implementation, iterating along the way. Other times you'll work collaboratively with other designers to deliver the entire experience for customer projects.
 
@@ -40,42 +41,28 @@ Recent enterprise solutions this role has delivered for were customer and insura
 -   Problem solving skills to translate complex business processes into streamlined user experiences
 -   Owned or worked within design systems that you regularly contributed to and helped evolve
 -   Experience leading a visual design direction for a new or redesigned product that accounts for accessibility requirements
+-   Figma skills and experience for mockups, prototyping, components, design system, and Auto Layout.
+-   Flexibility to work on projects based in either Pacific Standard Time or Eastern Standard Time
+-   Availability to work on projects & engagements as short as 3 weeks or as long as 3-6 months.
 
 ## What will you be doing?
 
--   Lead multiple projects - ranging from discovery workshops, design concepts for presales, to fully developed enterprise products
+-   Lead various projects and engagements - ranging from discovery workshops, producing design concepts, to fully developed enterprise products
 -   Collaborate with other designers as well as cross-functionally as a design consultant to our internal team of project managers and engineers and especially clients who often have no prior knowledge of design & UX.
 -   Utilize and contribute robust patterns to our Figma component library
--   Increase our design organization's impact in the company by sharing your perspective and experience leading projects and refining processes
-
-## How Do Liferay’s Core Values Look in the Design Team?
-
--   **Produce excellence** — we strive to become masters in our craft, doing the right thing even if no one notices.
--   **Lead by serving** — we’re all willing to do the unglamourous work and always looking for opportunities to help others.
--   **Value people** — we listen first and believe that everyone can contribute because there is strength in diversity.
--   **Grow and get better** — we’re always learning, when we find ways to improve our designs we take them, when we make mistakes we admit, apologize, and move forward. We fail a lot, but we aren’t failures because we learn and improve.
--   **Stay nerdy** — we live and breathe design, but we also have passions outside of work — rock climbing, coffee, photography, writing — and pursue them to the n-th degree.
 
 ## What Can We Offer You?
 
-A place to make a lasting impact — we strongly believe in using business as a tool for restoration. Think Patagonia’s commitment to the environment, just extended to the whole world. Some initiatives that we’ve recently worked in are fighting human trafficking, helping foster youth, and serving refugees.
-
--   Salary package commensurate with qualifications and experience.
--   40 hours per year to volunteer at a nonprofit of your choice.
-    <<<<<<< HEAD
--   # 2.5 weeks of vacation + 10 holidays.
-    > > > > > > > 0ede4ec7ad5c06fcb5190f2299baeadea14e8177
--   Room to assume responsibility and grow professionally.
--   Be part of a great team and work with designers around the world.
--   Work in a company that has strong executive support for Design.
+-   Compensation based on an hourly rate commensurate with qualifications and experience.
+-   Semi-flexible hours - there will be regular meetings with the client and team syncs, however there's flexibility of work hours outside of agreed meeting times.
 
 ## What Do I Need to Apply?
 
--   Tell us why you’d be a great culture-add at Liferay
+-   Tell us why you’re a fit for this freelance role
 -   Resume or LinkedIn Profile
 -   Portfolio link
 
-We're transparent in how we hire, feel free to read through [our hiring process](https://liferay.design/articles/2021/how-we-hire/).
+We're transparent in how we hire, feel free to read through [our hiring process](https://liferay.design/articles/2021/how-we-hire/) — while this role is for a freelance position, the steps to bring you onboard will generally be the same.
 
 ## _Liferay is an Equal Opportunity Employer_
 

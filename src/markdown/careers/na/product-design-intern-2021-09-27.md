@@ -4,7 +4,7 @@ date: '2021-27-09'
 title: 'Product Design Intern'
 office: 'Diamond Bar'
 featuredImage: '/images/articles/ux-designer.jpg'
-published: true
+published: false
 ---
 
 ## Who Designs at Liferay?

@@ -2,7 +2,7 @@
 title: 'Senior Web Designer'
 office: 'Mexico'
 jobId: 'oJ2vffwf'
-featuredImage: '/images/articles/ux-designer.jpg'
+featuredImage: '/images/infra-week/team-whiteboard.jpg'
 date: '2020-05-17'
 published: true
 remote: true
