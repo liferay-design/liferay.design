@@ -2,7 +2,8 @@
 jobId: oBI3ifwo
 date: 2022-03-07T07:00:00Z
 title: Senior Product Designer
-office: Remote
+office: Madrid
+remote: true
 featuredImage: '/images/articles/pj-first-year.jpeg'
 published: true
 ---
