@@ -4,7 +4,7 @@ office: 'Mexico'
 jobId: 'oJ2vffwf'
 featuredImage: '/images/infra-week/team-whiteboard.jpg'
 date: '2020-05-17'
-published: true
+published: false
 remote: true
 ---
 

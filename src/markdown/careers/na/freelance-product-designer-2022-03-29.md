@@ -1,11 +1,11 @@
 ---
-contact: jon.wood@liferay.com
+contact: liferay.design@liferay.com
 date: 2022-03-07T07:00:00Z
 title: Freelance Product Designer
 office: 'Diamond Bar'
 featuredImage: '/images/infra-week/team-in-diamond-bar.jpg'
 remote: true
-published: true
+published: false
 ---
 
 ## About This Position
