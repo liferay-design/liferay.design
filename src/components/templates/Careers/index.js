@@ -13,11 +13,13 @@ import { Helmet } from 'react-helmet'
 export default class Careers extends Component {
 	render() {
 		const post = this.props.data.mdx
-		const applyLink = `${(post.frontmatter.jobId === null
-			? 'mailto:' + `${post.frontmatter.contact}`
-			: 'https://app.jobvite.com/j?aj=' +
-			  `${post.frontmatter.jobId}` +
-			  '&s=liferay-dot-design')}`
+		const applyLink = `${
+			post.frontmatter.jobId === null
+				? 'mailto:' + `${post.frontmatter.contact}`
+				: 'https://app.jobvite.com/j?aj=' +
+				  `${post.frontmatter.jobId}` +
+				  '&s=liferay-dot-design'
+		}`
 		const seoDescription =
 			`${post.frontmatter.title}` + ', ' + `${post.frontmatter.office.city}`
 		const seoImage = 'https://liferay.design' + post.frontmatter.featuredImage
@@ -25,6 +27,11 @@ export default class Careers extends Component {
 		return (
 			<div>
 				<Helmet>
+					{post.frontmatter.published === false ? (
+						<meta name="robots" content="noindex" />
+					) : (
+						''
+					)}
 					<title>{seoDescription}</title>
 					<meta property="og:type" content="article" />
 					<meta property="og:image" content={seoImage} />
@@ -86,11 +93,9 @@ export default class Careers extends Component {
 									variant: 'buttons.primary',
 								}}
 							>
-								{
-									(post.frontmatter.jobId === null
-										? 'Email us!'
-										: 'Apply on Jobvite')
-								}{' '}
+								{post.frontmatter.jobId === null
+									? 'Email us!'
+									: 'Apply on Jobvite'}{' '}
 								<Icon
 									name="externalLink"
 									sx={{
@@ -127,6 +132,7 @@ export const pageQuery = graphql`
 				}
 				title
 				featuredImage
+				published
 			}
 			body
 		}
