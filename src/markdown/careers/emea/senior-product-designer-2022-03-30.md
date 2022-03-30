@@ -5,7 +5,7 @@ title: Senior Product Designer
 office: Madrid
 remote: true
 featuredImage: '/images/articles/pj-first-year.jpeg'
-published: true
+published: false
 ---
 
 ## About This Position
