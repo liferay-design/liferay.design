@@ -3,7 +3,7 @@ jobId: 'oWgcffwn'
 date: '2021-04-22'
 title: 'Senior Product Designer'
 office: 'Recife'
-featuredImage: '/images/footer_tweet.jpg'
+featuredImage: '/infra-week/team-affinity-mapping.jpg'
 published: true
 remote: true
 ---
@@ -39,21 +39,14 @@ The top 3 things we’re looking for in a candidate:
 -   Owned or worked within design systems that you regularly contributed to and helped evolve
 -   Experience leading a visual design direction for a new or redesigned product that accounts for accessibility requirements
 
+### Preferred Qualifications
+
+-   Agency experience working with clients to manage expectations is ideal
+
 ### Language Requirement:
 
 -   English: Conversational
 -   Portuguese: Fluent
-
-## What do I need to apply?
-
-1. Link to your website that includes case studies and work relevant to design operations
-2. Cover letter: Brief note with feedback on [liferay.design/handbook](https://liferay.design/handbook/)
-
-## Cover letter? Do you really read them?
-
-Yes! It doesn't need to be formal — really all we're looking for is a brief response to the prompt.
-
-_Note that applications sans cover letter are typically rejected post-haste._
 
 ## Awesome, but what does Liferay offer for me?
 
