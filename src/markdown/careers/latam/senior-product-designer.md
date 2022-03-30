@@ -3,7 +3,7 @@ jobId: 'oWgcffwn'
 date: '2021-04-22'
 title: 'Senior Product Designer'
 office: 'Recife'
-featuredImage: '/infra-week/team-affinity-mapping.jpg'
+featuredImage: '/images/infra-week/team-affinity-mapping.jpg'
 published: true
 remote: true
 ---
