@@ -1,6 +1,6 @@
 ---
-title: 'Globally'
-description: 'Collaborating with our Global department'
+title: 'Feedback'
+description: 'How to share and take feedback'
 order: 1
 publish: true
 ---
