@@ -24,6 +24,7 @@ export default class Team extends Component {
 		const post = this.props.data.mdx
 		const teammate = post.frontmatter.author
 		const links = teammate.links ? teammate.links : null // this is to catch people who dont have links
+		const alumni = teammate.alumni ? true : false
 		const socials = links
 			? [
 					links.behance
@@ -145,7 +146,9 @@ export default class Team extends Component {
 						src={withPrefix(avatarPath(teammate.id))}
 					/>
 				</Box>
-				<Navbar section="Team" />
+				
+				<Navbar section ={(alumni ? "Alumni" : "Team")}/>
+
 				<Container banner>
 					<Flex
 						sx={{
@@ -176,7 +179,7 @@ export default class Team extends Component {
 									maxWidth: ['initial', null, '10ch'],
 								}}
 							>
-								{teammate.startDate ? (
+								{alumni ? (
 									<span
 										sx={{
 											display: 'block',
@@ -185,10 +188,22 @@ export default class Team extends Component {
 											color: 'mainL3',
 											variant: 'text.caps',
 										}}
-									>
+									>					
+										{moment(teammate.startDate).format('YYYY')} - {moment(teammate.endDate).format('YYYY')}
+									</span>
+								) : (
+									<span
+										sx={{
+											display: 'block',
+											mt: 2,
+											fontSize: 2,
+											color: 'mainL3',
+											variant: 'text.caps',
+										}}
+									>					
 										Since {moment(teammate.startDate).format('YYYY')}
 									</span>
-								) : null}
+								)}
 								<span sx={{ color: 'white' }}>{teammate.id}</span>
 								<span sx={{ display: 'block', fontSize: [4, null, 6] }}>
 									{teammate.title}
@@ -272,6 +287,7 @@ export const pageQuery = graphql`
 				author {
 					id
 					startDate
+					endDate
 					title
 					icon
 					links {
@@ -285,6 +301,7 @@ export const pageQuery = graphql`
 						webflow
 						website
 					}
+					alumni
 				}
 			}
 			body
