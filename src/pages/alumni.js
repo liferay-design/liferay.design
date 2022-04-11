@@ -9,15 +9,15 @@ import { headshotPath, makeAuthorSlug } from 'utils'
 
 export default ({ data }) => {
 	return (
-		<MainLayout section="Team">
+		<MainLayout section="Alumni">
 			<SEO
-				description="Meet the Liferay.Design team — we're all over the world!"
-				pageTitle="Liferay.Design | Team"
+				description="Meet the Liferay.Design alumni — we're all over the world!"
+				pageTitle="Liferay.Design | Alumni"
 			/>
 			<Container>
-				<Flex direction="row" justify="space-between">
+                <Flex direction="row" justify="space-between">
 					<Heading level={1} sx={{ pb: '4rem', color: 'white' }}>
-						The Squad
+						Always a Liferay designer
 					</Heading>
 					<div style={{ alignSelf: 'baseline', marginTop: '1.8rem' }}>
 						<Link
@@ -25,9 +25,9 @@ export default ({ data }) => {
 								variant: 'links.tag',
 								mx: 2,
 							}}
-							to={`/alumni`}
+							to={`/team`}
 						>
-							Alumni
+							The Squad
 						</Link>
 					</div>
 				</Flex>
@@ -54,7 +54,7 @@ export const query = graphql`
 		allMdx(
 			filter: {
 				fileAbsolutePath: { regex: "/(/team/)/" }
-				frontmatter: { author: { active: { eq: true } } }
+				frontmatter: { author: { alumni: { eq: true } } }
 			}
 			sort: { order: ASC, fields: [fields___slug] }
 		) {

@@ -2,6 +2,8 @@
 author: 'Victor Valle'
 ---
 
+
+
 ### Favorite tool? ✏️
 
 Spectacle, it is not a design tool, but it lets you organize windows in your desktop in a pretty easy way.
@@ -40,4 +42,4 @@ Well, I have several, but if I would have to choose one I'm sure to pick Kick-As
 
 Slack! I'm kidding.
 
-I like to plan trips, check where I can go hiking or scuva dive and plans related to nature.
+I like to plan trips, check where I can go hiking or scuva dive and plans related to nature. 

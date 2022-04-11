@@ -274,11 +274,13 @@
   active: true
   icon: fa_fingerprint
   startDate: 2016-08-18
+  endDate: 2022-04-21
   office: Madrid
   links:
       twitter: 'victorvj06'
       unsplash: 'victorvj'
       linkedin: 'vvalleju'
+  alumni: false
 - id: Chika Noguchi
   title: Senior Product Designer
   active: true
