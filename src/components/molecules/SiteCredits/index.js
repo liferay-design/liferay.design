@@ -6,17 +6,17 @@ const SiteCredits = () => {
 	return (
 		<Flex className={styles.credits} justify="space-between" flexWrap="wrap">
 			<Text size="small">
-				Part of{' '}
-				<Link to="https://liferay.com">
-					Liferay, Inc
-				</Link>
+				Part of <Link to="https://liferay.com">Liferay, Inc</Link>
 			</Text>
 			<Text size="small">
-				Powered by{' '}
-				<Link to="http://gatsbyjs.org/">
-					Gatsby
-				</Link>{' '}
-				and <Link to="https://netlify.com">Netlify</Link>
+				<Link to="https://github.com/liferay-design/liferay.design/blob/master/LICENSE">
+					Code
+				</Link>
+				/<Link to="/resources/license">Content</Link> Licenses
+			</Text>
+			<Text size="small">
+				Powered by <Link to="http://gatsbyjs.org/">Gatsby</Link> and{' '}
+				<Link to="https://netlify.com">Netlify</Link>
 			</Text>
 		</Flex>
 	)
