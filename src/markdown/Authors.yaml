@@ -269,18 +269,6 @@
   icon: fa_gamepad
   startDate: 2020-05-18
   office: Recife
-- id: Victor Valle
-  title: Principal Designer
-  active: true
-  icon: fa_fingerprint
-  startDate: 2016-08-18
-  endDate: 2022-04-21
-  office: Madrid
-  links:
-      twitter: 'victorvj06'
-      unsplash: 'victorvj'
-      linkedin: 'vvalleju'
-  alumni: false
 - id: Chika Noguchi
   title: Senior Product Designer
   active: true
@@ -296,6 +284,20 @@
   icon: fa_pepper_hot_solid
   startDate: 2021-04-20
   office: Diamond Bar
+
+# Alumni
+- id: Victor Valle
+  title: Principal Designer
+  active: false
+  icon: fa_fingerprint
+  startDate: 2016-08-18
+  endDate: 2022-04-22
+  office: Madrid
+  links:
+      twitter: 'victorvj06'
+      unsplash: 'victorvj'
+      linkedin: 'vvalleju'
+  alumni: true
 
 # Inactive Designers
 - id: Cassandra Balbas
