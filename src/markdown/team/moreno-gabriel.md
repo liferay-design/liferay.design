@@ -2,11 +2,14 @@
 author: 'Gabriel Moreno'
 ---
 
+### Can you share a fun fact about you?
+
+A few years ago I changed my name to “Gabriel Brown” mainly because all the domains and insta accounts with my name were taken, but long story short, ’til this day most people I know think that that is my real name. Now that I think about this, I think Liferay is the first company ever where my email has my real name.
+
 
 ### How did you get into design?
 
 Since I can remember I’ve always been quite creative and quite invested into art (specially renaissance paintings), so one thing led to another, and here I am.
-
 
 ### Why are you at Liferay?
 
