@@ -394,9 +394,9 @@
       instagram: 'pjpentz'
 - id: Vitor Fernandes
   title: Manager, Product Design
-  active: false
+  active: true
   icon: fa_rocket
-  startDate: 2018-03-12
+  startDate: 2013-08-12
   office: Diamond Bar
 - id: Jessica Lee
   title: Communication Designer
