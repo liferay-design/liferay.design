@@ -235,6 +235,15 @@
       twitter: 'plhnk'
       unsplash: 'plhnk'
       medium: 'plhnk'
+- id: Pedro Cerqueira
+  title: Communications Designer
+  active: true
+  icon: fa-hat-wizard
+  startDate: 2022-07-18
+  office: Recife
+  links:
+      instagram: 'cerq.arte'
+      behance: 'pedrocerqueira3'
 - id: Rachel Yuan
   title: Senior Communication Designer
   active: true
