@@ -1,6 +1,6 @@
 ---
 title: 'Webinars'
-description: 'Instructions for requesting the Webinar ticket type.'
+description: 'A step-by-step guide for requesting a Webinar Request in JIRA.'
 order: 4
 publish: true
 ---
@@ -9,7 +9,93 @@ import { Button } from 'theme-ui'
 
 ## Webinars
 
-We've made efforts to ensure the Webinar request form is as well-documented as possible inline. 
+![A screenshot of the Webinar Design Request creation screen](/images/webinar-ticket-01-create.png "One request? One ticket.")
+
+Webinar requests made to the Communication Design team are for the sole purpose of editing webinars, not for requesting a recording. Generally, webinar requests entail clipping footage, adjusting audio levels, and adding intros and outros. To request recording assistance, please reach out in our Slack channel ([#d-comm-des](https://liferay.slack.com/archives/CKETJ1DTR)) or [create a Communication Design Request](https://liferay.design/blueprints/jira/design-request/).
+
+### Project and Issue Type
+
+*  Project: INTERNAL - Design (DESIGN)
+*  Issue Type: Webinar
+
+Each request requires its own ticket. For example, if you have three webinars you are requesting, create one ticket per webinar. This will keep communication and feedback clear for each one. If you want to organize these tickets under one bigger project, create a Parent Ticket first (like an Epic or Story - [more information here](https://liferay.design/handbook/tools/jira/overview/)), and then a corresponding Task for each webinar:
+
+*   Epic: _Event_
+    *   Ticket: _Title of Webinar 1_
+    *   Ticket: _Title of Webinar 2_
+    *   Ticket: _Title of Webinar 3_
+
+
+![A screenshot of the Webinar Design Request summary screen](/images/webinar-ticket-02-summary.png "Provide a summary.")
+
+### Summary
+
+Clearly indicate what the ticket is regarding. Enter the name of the webinar followed by where it will be used.
+
+*   _"Title of webinar" Webinar for XYZ Event_
+
+### Initiative
+
+Nothing to be done here. Leave it at "None”.
+
+### Office Location
+
+Select the one you are associated with. This will ensure your ticket gets passed on to the Designers supporting your region.
+
+![A screenshot of the Webinar Design Request summary screen](/images/webinar-ticket-03-footage.png "Provide details for editing footage.")
+
+The webinar section provides detailed information regarding the webinar and how it should be edited.
+
+### Webinar Title
+
+Enter just the title of the webinar.
+
+### Date of Webinar
+
+Use the date selector to choose the recording date of the webinar.
+
+### Region
+
+Select the region of the intended audience.
+
+### Link to Raw Footage
+
+The Raw footage file size is generally too large to be directly attached to a Jira ticket. Instead, use a cloud storage or file sharing platform, such as Google Drive or WeTransfer, to attach a link to the file.
+
+### Footage Start Time
+
+Add the time the footage should start in HH:MM:SS format. The footage prior to the stated time will be clipped.
+
+### Footage End Time
+
+Add the time the footage should end in HH:MM:SS format. The footage after the stated time will be clipped.
+
+### Upload Destination
+
+Select either liferay.com or Youtube/Partner Portal depending on where the webinar will be uploaded.
+
+![A screenshot of the Webinar Design Request summary screen](/images/webinar-ticket-04-details.png "Provide additional details for not provided yet.")
+
+### Additional Details
+
+Add any additional information here that was not stated above. This can include, but is not limited to, the following:
+
+*   _Add a thumbnail right before HH:MM:SS_
+*   _Cut the section between HH:MM:SS — HH:MM:SS_
+
+### Due Date
+
+This is the date you need the final file(s) uploaded to the ticket by. Please contact us beforehand, if you are unsure about what is an appropriate due date. We generally require 2 weeks of working time from when all requirements are provided to accommodate working on your request in tandem with other requests.
+
+*Note:* Selecting a date does not guarantee it will be met, especially if you are asking for a quick turnaround. Your request will be scheduled into a designer’s availability, so creating a ticket further in advance, with complete requirements is always best.
+
+### Liferay Watchers
+
+Add other colleagues that need to be kept in the loop. For example, if you will be on leave at some point while the ticket is still open, another Liferay Watcher can help watch this ticket to ensure the progress of the request.
+
+### Improvements?
+
+We've made efforts to ensure the Webinar request form is as well-documented as possible inline.
 
 If you see any opportunities for improvement, please reach out in our Slack channel ([#d-comm-des](https://liferay.slack.com/archives/CKETJ1DTR)).
 
