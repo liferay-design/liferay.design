@@ -1,6 +1,6 @@
 ---
 title: 'Design Request'
-description: 'A step-by-step guide to creating a Design Request in Jira'
+description: 'A step-by-step guide to creating a Communication Design Request in Jira'
 order: 1
 publish: true
 ---
@@ -9,12 +9,12 @@ import { Button } from 'theme-ui'
 
 ![A screenshot of the help text for Design Requests](/images/request.png "One request? One ticket.")
 
-Each request requires its own ticket. For example, if you have three whitepapers you are requesting, create one ticket per paper. This will keep communication and feedback clear for each one. If you want to organize these tickets under one bigger project, create a Parent Ticket first, and then a corresponding Subtask for each paper:
+Each request requires its own ticket. For example, if you have three whitepapers you are requesting, create one ticket per paper. This will keep communication and feedback clear for each one. If you want to organize these tickets under one bigger project, create a Parent Ticket first (like an Epic or Story - [more information here](https://liferay.design/handbook/tools/jira/overview/)), and then a corresponding Task for each paper:
 
 *   Parent Ticket: _Whitepapers for New Customers_
-    *   Subtask: _Title of Paper 1_
-    *   Subtask: _Title of Paper 2_
-    *   Subtask: _Title of Paper 3_
+    *   Task: _Title of Paper 1_
+    *   Task: _Title of Paper 2_
+    *   Task: _Title of Paper 3_
 
 However, there are instances when it’s appropriate to request more than one asset within a single ticket. For example, if you need a set of seven web ads of different sizes, but the ad content/copy is the same, the request can be contained in one ticket. The keyword being a “set” of ads.
 
@@ -90,14 +90,14 @@ If your asset does not fit into one from the predetermined list, select “Other
 This section is where you let us know what type of file you need the final asset to be. If you are passing this file to a vendor or another department, they should provide you with this requirement. Select all that apply. Attach any accompanying vendor spec sheet or URL to the ticket, as well.
 
 
-### Size
-
-Provide the correct size(s) for the output you are requesting. This can include dimensions (width x length), standard paper sizes, file size, video length, etc.
-
-
 ### Copy
 
 Enter your exact copy here, or a link to a Google doc for longer texts. Providing final content will reduce the production process, resulting in a final output faster. For some assets, the design revolves around the content/copy, so keep in mind that a seemingly “small” copy change can mean larger changes for the designer.
+
+
+### Dimension(s) and Size
+
+Provide the correct size(s) for the output you are requesting. This can include dimensions (width x length), standard paper sizes, file size, video length, etc.
 
 
 ![Screenshot showing the Description input](/images/description.png "Enter or link your content")
@@ -107,11 +107,6 @@ Enter your exact copy here, or a link to a Google doc for longer texts. Providin
 ### Description
 
 Provide any information that is pertinent to your request; this could be goals you’re trying to achieve, context for where/how your asset will be used, concerns, or noteworthy insights. You can also include links to websites or documents with pertinent information. The more we know about what you’re trying to achieve, the better the solution(s) we can develop.
-
-
-### Components
-
-Select the project from the dropdown that best categorizes your request. Some location-, campaign-, and events-based components already exist. Create a new component, if necessary.
 
 
 ### Attachment
@@ -124,4 +119,21 @@ Upload any source materials or documents related to your request. This may inclu
 If your request is part of a greater project with an existing Epic, select it here. This will keep all tickets within a project centralized, easily accessible, and manageable for everyone.
 
 
-<Button sx={{my:5}} href='https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=10780&issuetype=17'>Create a Design Request</Button>
+### Sprint
+
+If there is a sprint created, you can choose to assign to the actual sprint of a future sprint. This will keep all tickets within a specific sprint and help to plan the efforts for that work period.
+
+
+## Security Level
+
+To keep topics secure, control visibility and to optimize information load among the tem, there is an option to set ecurity levels for issues. This feature let you control which user or group of users can view an issue. This way, related tasks and sub-tasks will also inherit the security level of their parent issue.
+
+Jira allows any user to secure the issues by limiting their visibility to certain users, groups and roles. There is a possibility to set up several different security levels linked to different permissions. [You can read more about this topic here.](https://liferay.design/handbook/tools/jira/security/)
+
+
+### Story Points
+
+Story points are a way of measuring the complexity of a story. Put them in relation to the implementation effort of a story and the result will be the velocity, that represents the complexity of a story in relation to its effort. Story points are abstract, relative, and about effort. [You can read more about this topic here.](https://liferay.design/handbook/tools/jira/story-points/)
+
+
+<Button sx={{my:5}} href='https://issues.liferay.com/secure/CreateIssue.jspa'>Create a Communication Design Request</Button>
