@@ -4,7 +4,7 @@ author: 'Naoki Hisamoto'
 
 ### How did you get into design?
 
-My brother. (Shout-out: Yoshiki)
+The first Apple iPhone and the invention of the smart phone. It sparked my interest for interaction design because a new world of designing interfaces and interactions emerged.
 
 ### Why are you at Liferay?
 
@@ -16,15 +16,15 @@ Pen + Paper.
 
 ### Best lifehack?
 
-I can fold my chopstick wrapper into a chopstick stand.
+Stretchy laces for your shoes.
 
 ### Where do you find #inspiration?
 
-Interwebs.
+Internet + Instagram + Muzli.
 
 ### One thing you are getting better at?
 
-Waking Up.
+Defeating analysis-paralysis.
 
 ### If you weren't designing, what would you be doing?
 
@@ -36,7 +36,7 @@ Folders + Stacks.
 
 ### Favorite place to visit?
 
-Yosemite National Park.
+Inyo National Forest.
 
 ### Favorite hotkey?
 
@@ -48,11 +48,11 @@ Be humble. Keep learning. Always listen.
 
 ### Last book you read?
 
-The Bible. (Currently: 2 Corinthians)
+Atomic Habits.
 
 ### Most effective productivity booster?
 
-Noise-Canceling Headphones. (Currently: Sony WH-1000XM2)
+Noise-Canceling Headphones. (Currently: Nuraphone)
 
 ### What keeps you up at night?
 
