@@ -200,11 +200,16 @@
 - id: Naoki Hisamoto
   title: Communication Designer
   active: true
-  icon: fa_check_double
+  icon: fa_rebel
   startDate: 2017-04-18
   office: Diamond Bar
   links:
       dribbble: 'naoki_hisamoto'
+      figma: 'naokihisamoto'
+      github: 'nhisamoto'
+      twitter: 'NaokiHisamoto'
+      instagram: 'naoki.hisamoto'
+      linkedin: 'naoki-hisamoto'
 - id: Nate Cavanaugh
   title: Always one of us
   active: true
