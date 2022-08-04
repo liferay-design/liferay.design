@@ -68,16 +68,6 @@
       twitter: 'ninaayellow'
       behance: 'zittoc'
       discord: 'zittoc#3547'
-- id: Chris Jeong
-  title: Principal Designer
-  active: true
-  icon: fa_glasses
-  startDate: 2017-10-16
-  office: Diamond Bar
-  links:
-      dribbble: 'cj213x'
-      instagram: 'jeongotti'
-      twitter: 'cj213x'
 - id: David Aragonés
   title: Lead Product Designer
   active: true
@@ -328,7 +318,18 @@
       unsplash: 'victorvj'
       linkedin: 'vvalleju'
   alumni: true
-
+- id: Chris Jeong
+  title: Principal Designer
+  active: false
+  icon: fa_glasses
+  startDate: 2017-10-16
+  endDate: 2022-05-20
+  office: Diamond Bar
+  links:
+      dribbble: 'cj213x'
+      instagram: 'jeongotti'
+      twitter: 'cj213x'
+  alumni: true
 # Inactive Designers
 - id: Cassandra Balbas
   title: UX Design Intern
