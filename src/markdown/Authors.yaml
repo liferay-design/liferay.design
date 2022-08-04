@@ -276,6 +276,17 @@
   icon: fa_archway
   startDate: 2020-12-10
   office: Eschborn
+- id: Temístocles Gonçalves
+  title: Communication Designer
+  active: true
+  icon: fa_mug_hot
+  startDate: 2022-08-01
+  office: Recife
+  links:
+      instagram: 'darkzeh'
+      behance: 'estudiopingo'
+      behance: 'temistocles'
+      linkedin: 'temístocles-d-anunciação-85a17355'
 - id: Uge Ortiz
   title: Senior Product Designer
   active: true
