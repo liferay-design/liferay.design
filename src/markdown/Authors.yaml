@@ -233,7 +233,7 @@
 - id: Pedro Cerqueira
   title: Associate Communication Designer
   active: true
-  icon: fa-hat-wizard
+  icon: fa_hat_wizard
   startDate: 2022-07-18
   office: Recife
   links:
