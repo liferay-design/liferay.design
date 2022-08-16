@@ -13,12 +13,19 @@ Request related to the creation of an asset handled by the Communication Team.
 
 Consider creating a ticket whenever there's a need for visual design material, related to internal and external communication, HR campaigns, Marketing collateral or any kind of digital or print asset or media request. More information can be found on [Confluence](https://liferay.atlassian.net/wiki/spaces/DSGN/pages/1806699293/Creating+a+Design+Request+Ticket).
 
-### Comm Design Jira Ticket Sizing
+Webinars have their own issue type. See the links below:
 
-TSize is a way to generally categorize the amount of effort/time a ticket may take to fulfill. The TSize will be designated by the ticket delegator according to his/her’s estimation of the project and the skills of the assigned designer. 
+[→ Webinar Design Jira ticket handbook documentation](../webinar/)
 
-There is more information on this [document](https://docs.google.com/document/d/1Se6FNe8UDpyjfWac1FgUD17BMKO7rEcYoEgjlEK5jrc/edit) over the amount of work of a communication ticket.
+[→ Create Webinar Design Jira ticket](https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=22084&issuetype=14901)
 
+### How to create a Communication Design Request?
+
+Find best practices for creating a Communication Design request on:
+* [Confluence](https://liferay.atlassian.net/wiki/spaces/DSGN/pages/1806699293/Communication+Design+Request+Ticket)
+* [Blueprints](../../../../../blueprints/jira/design-request/)
+
+[→ Create Communication Design Jira ticket](https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=22084&issuetype=16507)
 
 ## Workflow
 
