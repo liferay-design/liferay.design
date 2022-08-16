@@ -7,7 +7,26 @@ publish: true
 
 import { Button } from 'theme-ui'
 
-![A screenshot of the help text for Design Requests](/images/request.png "One request? One ticket.")
+
+## Communication Design Tickets
+
+A vital part of making a design request is providing all the pertinent information and parameters, so the team can efficiently and effectively meet the business goals of any project. The Jira form has thus been customized in such a way to make it clearer to the reporter what details are minimally needed, and pre-identifies some commonly-requested assets. This will cut down on the back-and-forth communication for clarifying basic information.
+
+This document will take you through each section of the form and answer any questions you may have about how to fill them out. If you need help, please reach out in our Slack channel ([#d-comm-des](https://liferay.slack.com/archives/CKETJ1DTR "Link to #d-comm-des Slack channel")).
+
+
+### Webinars
+Webinars have their own issue type. See the links below:
+
+[→ Webinar Design Jira ticket documentation](../webinar/)
+
+[→ Create Webinar Design Jira ticket](https://issues.liferay.com/secure/CreateIssueDetails!init.jspa?pid=22084&issuetype=14901)
+
+
+---
+## Project and Issue Type
+
+![A screenshot of the create issue page for Communication Design Requests](/images/comm-request-01-create.png "One request? One ticket.")
 
 Each request requires its own ticket. For example, if you have three whitepapers you are requesting, create one ticket per paper. This will keep communication and feedback clear for each one. If you want to organize these tickets under one bigger project, create a Parent Ticket first (like an Epic or Story - [more information here](https://liferay.design/handbook/tools/jira/overview/)), and then a corresponding Task for each paper:
 
@@ -19,20 +38,20 @@ Each request requires its own ticket. For example, if you have three whitepapers
 However, there are instances when it’s appropriate to request more than one asset within a single ticket. For example, if you need a set of seven web ads of different sizes, but the ad content/copy is the same, the request can be contained in one ticket. The keyword being a “set” of ads.
 
 
-![A screenshot of Jira's summary field](/images/summary.png "Use the summary to provide a...summary.")
+---
+## Summary Section
+
+![A screenshot of Jira's summary field](/images/comm-request-02-summary.png "Use the summary to provide a...summary.")
+
 
 ### Summary
 
 Clearly indicate what the ticket is regarding. For collateral, enter the exact name of the document being requested:
 
-
-
 *   _“Five Ways Liferay DXP Can Lower Your Budget” eBook_
 *   _Spanish Translation for “Five Ways Liferay DXP Can Lower Your Budget”_
 
 Alternatively, a more descriptive summary can be entered for other assets:
-
-
 
 *   _Print Ad for XYZ Conference_
 *   _Create New Template for HR Documents_
@@ -55,34 +74,22 @@ This is the date you need the final file(s) uploaded to the ticket by. Please co
 **Note:** Selecting a date does not guarantee it will be met, especially if you are asking for a quick turnaround. Your request will be scheduled into a designer’s availability, so creating a ticket further in advance, with complete requirements is always best.
 
 
-## Identify your asset type
+---
+## Asset Type Section
 
 As a global company, our languages, references, terminology, and names for things will differ from office to office — not to mention, between roles and departments. Correctly identifying the end use of an asset will inform the designer which workflow to execute. 
 
 This part of the form reduces confusion by calling out the most commonly-requested assets your request may fall under. Select the only one that applies to your request, or skip it entirely, if irrelevant.
 
+![A screenshot of our most requested asset-types](/images/comm-request-03-asset.png "Choose only one — or skip if applicable.")
+
+If your asset does not fit into one from the predetermined list, select **“Other”** and provide us more details in the **Description** field later in the form. For example, if you are looking to have a double-sided postcard designed and sent to a printer, none of the predetermined print-only assets apply. You would select the **“Other”** box in the **“Print Only”** section, and then specify in the **Description** field.
 
 
-![A screenshot of our most requested asset-types](/images/asset-type.png "Choose only one — or skip if applicable.")
-
-
-If your asset does not fit into one from the predetermined list, select “Other” and provide us more details in the Description field later in the form. For example, if you are looking to have a double-sided postcard designed and sent to a printer, none of the predetermined print-only assets apply. You would select the “Other” box in the “Print Only” section, and then specify in the Description field.
-
-
-
-
-![Screenshot highlighting the "other" checkbox.](/images/other.png "The catch-all.")
-
-
-
+---
 ## Necessary Information
 
-
-![Screenshot showing file output options](/images/output.png "Choose the filetype")
-
-
-![Screenshot showing more info fields](/images/dimensions-copy.png "Add applicable dimensions and copy")
-
+![Screenshot showing remaining fields](/images/comm-request-04-information.png "Add necessary information")
 
 
 ### File Output
@@ -100,10 +107,6 @@ Enter your exact copy here, or a link to a Google doc for longer texts. Providin
 Provide the correct size(s) for the output you are requesting. This can include dimensions (width x length), standard paper sizes, file size, video length, etc.
 
 
-![Screenshot showing the Description input](/images/description.png "Enter or link your content")
-
-
-
 ### Description
 
 Provide any information that is pertinent to your request; this could be goals you’re trying to achieve, context for where/how your asset will be used, concerns, or noteworthy insights. You can also include links to websites or documents with pertinent information. The more we know about what you’re trying to achieve, the better the solution(s) we can develop.
@@ -119,21 +122,50 @@ Upload any source materials or documents related to your request. This may inclu
 If your request is part of a greater project with an existing Epic, select it here. This will keep all tickets within a project centralized, easily accessible, and manageable for everyone.
 
 
+---
+## Sprint and Story Points
+
+![A screenshot of our most requested asset-types](/images/comm-request-05-sprint.png "Choose only one — or skip if applicable.")
+
+
 ### Sprint
 
 If there is a sprint created, you can choose to assign to the actual sprint of a future sprint. This will keep all tickets within a specific sprint and help to plan the efforts for that work period.
 
 
-## Security Level
+### Story Points
 
-To keep topics secure, control visibility and to optimize information load among the tem, there is an option to set ecurity levels for issues. This feature let you control which user or group of users can view an issue. This way, related tasks and sub-tasks will also inherit the security level of their parent issue.
+Story points are a way of measuring the complexity of a story. Put them in relation to the implementation effort of a story and the result will be the velocity, that represents the complexity of a story in relation to its effort. Story points are abstract, relative, and about effort. [You can read more about this topic here.](https://liferay.design/handbook/tools/jira/story-points/)
+
+
+### Security Level
+
+To keep topics secure, control visibility and to optimize information load among the tem, there is an option to set security levels for issues. This feature let you control which user or group of users can view an issue. This way, related tasks and sub-tasks will also inherit the security level of their parent issue.
 
 Jira allows any user to secure the issues by limiting their visibility to certain users, groups and roles. There is a possibility to set up several different security levels linked to different permissions. [You can read more about this topic here.](https://liferay.design/handbook/tools/jira/security/)
 
 
-### Story Points
+---
+## Next Steps After Ticket Creation
 
-Story points are a way of measuring the complexity of a story. Put them in relation to the implementation effort of a story and the result will be the velocity, that represents the complexity of a story in relation to its effort. Story points are abstract, relative, and about effort. [You can read more about this topic here.](https://liferay.design/handbook/tools/jira/story-points/)
+Once you have created your ticket:
+
+1. **Tickets will be delegated within ~2 days from created date** <br/>
+The exception is if all necessary requirements have not been provided. In this case, the ticket will be sent to the Gathering Requirements status and assigned to the reporter to provide the remaining requirements. Once the requirements are provided, please adjust the due date accordingly.
+
+2. **Designer will communicate ~2 days after delegation regarding the project’s status** <br/>
+This can be that the status is changed to In Progress or the designer comments when they will be able to begin progress on the ticket. If there is no communication, you can reach out to the assigned designer via Slack DM. In the case there is still no response, please escalate to @Naoki Hisamoto or the [#d-comm-des](https://liferay.slack.com/archives/CKETJ1DTR) Slack channel.
+
+3. **Feedback and Deliverables** <br/>
+Feedback should be limited to fixes and/or if the design is miscommunication the concept/product. Copy should be finalized by the time we receive the ticket. A general rule of thumb is to receive a final deliverable after no more than 2-3 feedback loops.
+
+
+---
+## Improvements?
+
+We've made efforts to ensure the Communication Design Request form is as well-documented as possible inline.
+
+If you see any opportunities for improvement, please reach out in our Slack channel [#d-comm-des](https://liferay.slack.com/archives/CKETJ1DTR).
 
 
 <Button sx={{my:5}} href='https://issues.liferay.com/secure/CreateIssue.jspa'>Create a Communication Design Request</Button>
