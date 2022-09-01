@@ -334,6 +334,17 @@
       instagram: 'jeongotti'
       twitter: 'cj213x'
   alumni: true
+- id: Jolin Huang
+  title: Product Design Intern
+  active: false
+  icon: fa_keyboard
+  startDate: 2022-06-13
+  endDate: 2022-09-02
+  office: Diamond Bar
+  links:
+      website: 'https://jolinuxui.myportfolio.com/work'
+      linkedin: 'jolin-huang-30a4451b0'
+  alumni: true
 # Inactive Designers
 - id: Cassandra Balbas
   title: UX Design Intern
