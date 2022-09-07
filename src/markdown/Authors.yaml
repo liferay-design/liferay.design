@@ -20,6 +20,12 @@
   icon: fa_headphones_alt
   startDate: 2018-05-14
   office: Concorezzo
+- id: Antonio Jimeno
+  title: Senior Product Designer
+  active: true
+  icon: fa_palette
+  startDate: 2022-09-06
+  office: Madrid
 - id: Arthur Coninck
   title: Product Designer
   active: true
