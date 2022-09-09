@@ -4,7 +4,7 @@ date: '2021-05-19'
 title: 'Senior Product Designer'
 office: 'Mexico'
 featuredImage: '/images/articles/liferay-great-place-to-work.jpeg'
-published: true
+published: false
 remote: true
 ---
 
