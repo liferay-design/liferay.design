@@ -10,8 +10,9 @@ remote: true
 
 ## Remote Friendly, Based in Brazil
 
-_At Liferay, Product Designers collaborate closely with Product Managers, Engineers, UX Researchers, Technical Writers, QA,  and other Product Designers, to create a simple and easy to use experience that delivers business value.
-Design Managers at Liferay play a critical, dual role — they lead both people and projects, mentoring the next generation of designers and filling any gaps we may have._
+_At Liferay, Product Designers collaborate closely with Product Managers, Engineers, UX Researchers, Technical Writers, QA,  and other Product Designers, to create a simple and easy to use experience that delivers business value._
+
+_Design Managers at Liferay play a critical, dual role — they lead both people and projects, mentoring the next generation of designers and filling any gaps we may have._
 
 ## Who Are We Looking For?
 

@@ -2,7 +2,7 @@
 jobId: 'oQGbkfwL'
 date: '2022-07-07'
 title: 'Associate Product Designer'
-office: 'Vimercate'
+office: 'Concorezzo'
 featuredImage: '/images/articles/ux-designer.jpg'
 published: true
 remote: false
