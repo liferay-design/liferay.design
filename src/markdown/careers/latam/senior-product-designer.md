@@ -4,7 +4,7 @@ date: '2021-04-22'
 title: 'Senior Product Designer'
 office: 'Recife'
 featuredImage: '/images/infra-week/team-affinity-mapping.jpg'
-published: true
+published: false
 remote: true
 ---
 
