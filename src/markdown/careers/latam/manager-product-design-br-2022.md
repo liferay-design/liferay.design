@@ -41,7 +41,7 @@ Design Managers at Liferay play a critical, dual role — they lead both people 
 
 ### Language Requirement:
 
--   English: Fluent
+-   English: Advanced or Fluent
 -   Portuguese: Fluent
 
 ## About Liferay
@@ -62,7 +62,7 @@ A place to make a lasting impact — we strongly believe in using business as a 
 -   Room to assume responsibility and grow professionally.
 -   Be part of a great team and work with designers around the world.
 -   Work in a company that has strong executive support for Design.
-- A positive and collaborative work [culture](https://www.youtube.com/watch?v=2EPZxIC5ogU)
+-   A positive and collaborative work [culture](https://www.youtube.com/watch?v=2EPZxIC5ogU)
 
 ## What Do I Need to Apply?
 
