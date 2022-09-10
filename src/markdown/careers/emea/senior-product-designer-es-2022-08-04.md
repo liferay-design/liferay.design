@@ -10,11 +10,11 @@ remote: false
 
 ## Based in Madrid, Spain
 
-_We make a world-class platform for some of the largest enterprises out there to build dynamic and data-driven user experiences. We’re looking for a senior product designer with strong interaction skills to evolve the experience across our platform to be cohesive and seamless. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, Asia Pacific, and North America that are excited to build with you.
+_We make a world-class platform for some of the largest enterprises out there to build dynamic and data-driven user experiences. We’re looking for a senior product designer with strong interaction skills to evolve the experience across our platform to be cohesive and seamless. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, Asia Pacific, and North America that are excited to build with you._
 
-You will be responsible for collaborating with other product designers throughout the platform areas and providing solutions to the complex interactions and patterns they’ve discovered. You’ll also work closely with our design systems team to align on what should be in our system that we use throughout multiple products and what is specific to Liferay DXP. 
+_You will be responsible for collaborating with other product designers throughout the platform areas and providing solutions to the complex interactions and patterns they’ve discovered. You’ll also work closely with our design systems team to align on what should be in our system that we use throughout multiple products and what is specific to Liferay DXP._
 
-If researching and solving intricate interaction problems for a robust platform product is an exciting challenge for you to own, you’ll be a critical asset to our team._
+_If researching and solving intricate interaction problems for a robust platform product is an exciting challenge for you to own, you’ll be a critical asset to our team._
 
 ## Who Are We Looking For?
 

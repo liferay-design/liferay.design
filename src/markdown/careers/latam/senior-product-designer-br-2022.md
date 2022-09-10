@@ -10,9 +10,9 @@ remote: true
 
 ## Remote Friendly, Based in Brazil
 
-_We make a world-class platform for some of the largest enterprises out there to build dynamic and data-driven user experiences. We’re looking for a senior product designer with strong interaction skills to evolve the experience across our platform in the area of Orchestrate. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, Asia Pacific, and North America that are excited to build with you.
+_We make a world-class platform for some of the largest enterprises out there to build dynamic and data-driven user experiences. We’re looking for a senior product designer with strong interaction skills to evolve the experience across our platform in the area of Orchestrate. While that sounds daunting, you won’t be doing it alone! We have a global design division with teams in Europe, Latin America, Asia Pacific, and North America that are excited to build with you._
 
-Liferay’s Orchestrate area is looking for a designer to create engaging experiences in our exciting low-code, workflow feature set! You will work across the Software Development Lifecycle to take complex business requirements from buyer personas and design delightful interactions for end users._
+_Liferay’s Orchestrate area is looking for a designer to create engaging experiences in our exciting low-code, workflow feature set! You will work across the Software Development Lifecycle to take complex business requirements from buyer personas and design delightful interactions for end users._
 
 ## Who Are We Looking For?
 
