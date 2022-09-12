@@ -1,6 +1,6 @@
 ---
 jobId: 'oTpSkfwe'
-date: '2022-09-09'
+date: '2022-09-05'
 title: 'Product Design Manager'
 office: 'Recife'
 featuredImage: '/images/infra-week/team-affinity-mapping.jpg'
