@@ -1,6 +1,6 @@
 ---
 jobId: 'oMYwkfwk'
-date: '2022-08-04'
+date: '2022-08-05'
 title: 'Senior Product Designer'
 office: 'Madrid'
 featuredImage: '/images/infra-week/team-whiteboard.jpg'
