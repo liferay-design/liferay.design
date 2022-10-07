@@ -18,11 +18,13 @@ Be sure to thoroughly review our [photo guidelines](/blueprints/guidelines/photo
 
 ## Liferay Events Etc
 
--   [Liferay Global Partner Summit, Virtual Event 2021](https://photos.app.goo.gl/Dccf9h6cM6t8Ej1J8)
+-   [Liferay Vision Global, Virtual Event 2022](https://photos.app.goo.gl/ThcEi5MW5dvx3WF49)
+-   [Liferay Devcon Global, Virtual Event 2022](https://photos.app.goo.gl/LMHXbEh1XgnUPovP7)
+-   [Liferay Partner Summit Global , Virtual Event 2021](https://photos.app.goo.gl/Dccf9h6cM6t8Ej1J8)
 -   [Liferay Vision Global, Virtual Event 2021](https://photos.app.goo.gl/MDYR8hTCfgmow8vy8)
 -   [Liferay Vision DACH, Virtual Event 2021](https://photos.app.goo.gl/9JEEGyoszkyHQtG36)
 -   [LDSF Middle East & Africa, Virtual Event 2020](https://photos.app.goo.gl/U9SwTamfTGGKAawX9)
--   [LDSF DACH, Virtual Event 2020](https://photos.app.goo.gl/PKFnNuD5VBVKbTqN9)
+-   [LDSF DACH, First Virtual Event 2020](https://photos.app.goo.gl/PKFnNuD5VBVKbTqN9)
 -   [Marketing Kick-Off, San Diego 2020](https://photos.app.goo.gl/uKmo4noWTyxzxqwe8)
 -   [EMEA Partner Summmit, Milano 2019](https://photos.app.goo.gl/SeVCTmBDXniPyeUeA)
 -   [Liferay Devcon, Mainz 2019](https://photos.app.goo.gl/t2avYwi1ZXrbxZ876)
