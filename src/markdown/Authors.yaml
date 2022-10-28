@@ -46,7 +46,7 @@
       twitter: 'lacerda_brunoso'
       instagram: 'brunolacerda09'
 - id: Carolina Rodriguez
-  title: Lead Product Designer
+  title: Staff Product Designer
   active: true
   icon: fa_music
   startDate: 2021-08-30
@@ -75,7 +75,7 @@
       behance: 'zittoc'
       discord: 'zittoc#3547'
 - id: David Aragonés
-  title: Lead Product Designer
+  title: Staff Product Designer
   active: true
   icon: fa_universal_access
   startDate: 2016-08-22
@@ -497,7 +497,7 @@
       twitter: 'eloipinheiros'
       website: behance.net/eloipinheiro
 - id: Juan Antón
-  title: Lead Product Designer
+  title: Staff Product Designer
   active: false
   icon: fa_palette
   startDate: 2016-08-18
