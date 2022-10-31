@@ -15,7 +15,7 @@
       twitter: 'abelfhancock'
       webflow: 'templates/designers/abel-hancock'
 - id: Andrea Censi
-  title: Product Designer
+  title: Staff Product Designer
   active: true
   icon: fa_headphones_alt
   startDate: 2018-05-14
@@ -26,16 +26,6 @@
   icon: fa_palette
   startDate: 2022-09-06
   office: Madrid
-- id: Arthur Coninck
-  title: Product Designer
-  active: true
-  icon: fa_drum
-  startDate: 2021-07-01
-  office: Curitiba
-  links:
-      dribbble: 'Coninck'
-      figma: 'arthurconincklr'
-      instagram: 'atrhuh'
 - id: Bruno Lacerda
   title: Communication Designer
   active: true
@@ -136,19 +126,6 @@
   icon: fa_pencil_alt
   startDate: 2021-07-04
   office: Recife
-- id: Leonardo Lohmann
-  title: DesignOps
-  active: true
-  icon: fa_gem
-  startDate: 2021-06-01
-  office: Recife
-  links:
-      dribbble: 'leolohmann'
-      instagram: 'leolohmann'
-      medium: 'leolohmann'
-      twitter: 'leolohmann'
-      unsplash: 'leolohmann'
-      website: http://www.leonardolohmann.com.br
 - id: Makena Ford
   title: Senior Product Designer
   active: true
@@ -184,7 +161,6 @@
       dribbble: 'mariamar'
       instagram: 'a.maria.mar'
       linkedin: 'maria-mar'
-
 - id: Marleny Francisco
   title: Senior Communication Designer
   active: true
@@ -262,21 +238,6 @@
   links:
       instagram: 'yugentsuki'
       twitter: 'yugentsuki'
-- id: Susana Vázquez
-  title: Product Design Manager
-  active: true
-  icon: fa_archway
-  startDate: 2017-10-18
-  office: Madrid
-  links:
-      twitter: 'usavor'
-      website: 'http://www.suix.es'
-- id: Sven Iten
-  title: Business Partner
-  active: true
-  icon: fa_archway
-  startDate: 2020-12-10
-  office: Eschborn
 - id: Temístocles Gonçalves
   title: Communication Designer
   active: true
@@ -516,6 +477,44 @@
   icon: fa_coffee
   startDate: 2017-01-09
   office: Diamond Bar
+- id: Arthur Coninck
+  title: Product Designer
+  active: false
+  icon: fa_drum
+  startDate: 2021-07-01
+  office: Curitiba
+  links:
+      dribbble: 'Coninck'
+      figma: 'arthurconincklr'
+      instagram: 'atrhuh'
+- id: Susana Vázquez
+  title: Product Design Manager
+  active: false
+  icon: fa_archway
+  startDate: 2017-10-18
+  office: Madrid
+  links:
+      twitter: 'usavor'
+      website: 'http://www.suix.es'
+- id: Sven Iten
+  title: Business Partner
+  active: false
+  icon: fa_archway
+  startDate: 2020-12-10
+  office: Eschborn
+- id: Leonardo Lohmann
+  title: DesignOps
+  active: false
+  icon: fa_gem
+  startDate: 2021-06-01
+  office: Recife
+  links:
+      dribbble: 'leolohmann'
+      instagram: 'leolohmann'
+      medium: 'leolohmann'
+      twitter: 'leolohmann'
+      unsplash: 'leolohmann'
+      website: http://www.leonardolohmann.com.br
 
   # Friends of Design :)
 - id: Angelo Youn
