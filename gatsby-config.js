@@ -27,7 +27,7 @@ if (process.env.MAILCHIMP_KEY) {
 module.exports = {
 	siteMetadata: {
 		title: 'Liferay.Design',
-		author: 'Ryan Garant',
+		author: 'Paul Hanaoka',
 		description:
 			'Blogs, careers, guidelines, and other resources from the Design Teams at Liferay!',
 	},
@@ -43,33 +43,6 @@ module.exports = {
 		},
 		'gatsby-plugin-brotli',
 		'gatsby-plugin-catch-links',
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				trackingId: 'UA-790163-24',
-				// Puts tracking script in the head instead of the body
-				head: true,
-				// Setting this parameter is optional
-				anonymize: false,
-				// Setting this parameter is also optional
-				respectDNT: true,
-			},
-		},
-		{
-			resolve: `gatsby-plugin-google-tagmanager`,
-			options: {
-				id: 'GTM-WWQK8ZR',
-
-				// Include GTM in development.
-				// Defaults to false meaning GTM will only be loaded in production.
-				includeInDevelopment: false,
-
-				// Specify optional GTM environment details.
-				// gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-				// gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-				// dataLayerName: "YOUR_DATA_LAYER_NAME",
-			},
-		},
 		`gatsby-plugin-netlify-cms`,
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-resolve-src',
