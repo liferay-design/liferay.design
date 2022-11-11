@@ -100,6 +100,12 @@
       instagram: 'gabobrown'
       twitter: 'gabxbrown'
       website: https://gabobrown.com
+- id: Gina Chang
+  title: Product Designer
+  active: true
+  icon: fa_flask
+  startDate: 2022-10-24
+  office: Diamond Bar
 - id: Jon Wood
   title: Product Design Manager
   active: true
