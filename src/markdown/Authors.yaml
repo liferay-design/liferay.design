@@ -185,6 +185,14 @@
   icon: fa_pointe_shoe
   startDate: 2018-10-15
   office: Madrid
+- id: Murillo Barreto
+  title: Communication Designer
+  active: true
+  icon: fa_film
+  startDate: 2022-11-07
+  office: Recife
+  links:
+      behance: 'baheto'
 - id: Naoki Hisamoto
   title: Associate Design Operations Manager
   active: true
