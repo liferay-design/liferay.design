@@ -254,6 +254,15 @@
       instagram: 'darkzeh'
       behance: 'estudiopingo'
       linkedin: 'temístocles-d-anunciação-85a17355'
+- id: Thiago Menezes
+  title: Senior Product Designer
+  active: true
+  icon: fa_brain
+  startDate: 2022-11-03
+  office: Recife
+  links:
+      instagram: 'txa_go'
+      linkedin: 'txago'
 - id: Uge Ortiz
   title: Senior Product Designer
   active: true
