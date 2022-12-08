@@ -4,7 +4,7 @@ date: '2022-07-07'
 title: 'Associate Product Designer'
 office: 'Concorezzo'
 featuredImage: '/images/articles/ux-designer.jpg'
-published: true
+published: false
 remote: false
 ---
 
