@@ -4,7 +4,7 @@ date: '2022-08-01'
 title: 'Senior Product Designer'
 office: 'Recife'
 featuredImage: '/images/infra-week/team-in-diamond-bar.jpg'
-published: true
+published: false
 remote: true
 ---
 
