@@ -27,12 +27,6 @@ There are three default [animations](./../../foundations/animations) available t
 
 ![satellite navigating in the space](/images/lexicon/DDisplayEmptySuccess.jpg)
 
-#### When not to use an animation
-
-Animations are used to catch the user's attention, therefore they should only appear once on the screen. In our case, we use these animations in the components that are usually the center of attention and receive the most focus. In less common components, we prefer to avoid the animation and be more discrete.
-
-![satellite navigating in the space](/images/lexicon/EmptyStateNavigation.jpg)
-
 ### Attributes
 
 #### Inside a dataset display
@@ -42,14 +36,14 @@ Animations are used to catch the user's attention, therefore they should only ap
 These attributes are used for an animation:
 
 1. Animation
-2. Text: limited to one line
+2. Text: limited to one line (Required)
 3. Message: limited, but we recommend to use a maximum of 30 words
     - Do not make messages personal, unless they are preferable for the context.
     - Do not leave one word alone on a line.
     - Do not use "your".
     - Do not use exclamation marks.
     - Use common language and not jargon.
-4. Button: secondary button
+4. Button: Primary or secondary button
 
 ![satellite navigating in the space](/images/lexicon/EmptyStateMetrics.jpg)
 
@@ -57,14 +51,14 @@ The margin from the container to the top element is 80px.
 
 ![satellite navigating in the space](/images/lexicon/DDisplayEmptyMetrics.jpg)
 
-#### Outside a dataset display
+#### Secondary Empty State
 
 ![satellite navigating in the space](/images/lexicon/EmptyStateNavigationParts.jpg)
 
-Animations shouldn't be used outside a dataset display. In these cases, use a primary button to catch the user's attention. The primary button has these attributes:
+Is not always necessary to have an animation or image in the Empty State. For those cases, you can use a composition with the main text, message and a button for the actions. 
 
-1. Text: limited to one line
+1. Text: limited to one line (Required)
 2. Message: This follows the same rules as an animation's message.
-3. Button: A small primary button
+3. Button: A small primary or secondary button
 
 ![satellite navigating in the space](/images/lexicon/EmptyStateNavigationMetrics.jpg)
