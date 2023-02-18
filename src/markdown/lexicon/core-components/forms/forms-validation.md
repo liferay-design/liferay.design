@@ -80,12 +80,3 @@ Additionally, when the submit action is triggered the focus must be located on t
 
 
 ![A form with an error summary on top describing the errors below](/images/lexicon/FormValidationSummary.png)
-
-**Semantics**
-
-| Form Element | Tag |
-| ----------------------------- | :----------: |
-| Title                         | H2           |
-| Summary                       | H1           |
-| Section                       | H3           |
-| Input/Checkbox/Radio/Selector | Use label    |
