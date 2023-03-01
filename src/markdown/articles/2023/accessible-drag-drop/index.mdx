@@ -3,7 +3,7 @@ author: 'Carolina Rodriguez'
 authorLink: '/team/rodriguez-carolina'
 date: '2023-02-15T07:00:00.000Z'
 title: 'Making Drag and Drop fully accessible'
-featuredImage: '/images/articles/dd-cover.jpg'
+featuredImage: '/images/articles/dd-cover.png'
 tags: ['Accessibility']
 publish: true
 ---
@@ -25,7 +25,8 @@ Drag and Drop is a good example. This type of interaction is well understood and
 
 In Liferay, we have several functionalities that include Drag and Drop in order to transfer and order data. Examples of these are web content structures, knowledge base, forms, segmentation and page builder, among others.
 
-![Drag and Drop examples in Liferay](/images/articles/dd-cases.png)
+![Drag and Drop examples in Liferay products](/dd-cases.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Drag and Drop examples in Liferay products</p>
 
 
 Most of the components of our design system are accessible. But it is also true that not all the features or patterns that are built over them are always accesible as a whole. 
@@ -44,7 +45,9 @@ All buttons in fragment list are now focusable and actionable using a keyboard. 
 - Use `↑` and `↓` to navigate the fragment list.
 - Use `Tab` or `→` to get into the fragment options.
 
-![Fragment list and available actions](/images/articles/dd-fragment-list.png)
+![Fragment list and available actions](/dd-fragment-list.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Fragment list and available actions</p>
+
 
 As indicated in the previous image, we show a “+” button when navigating with keyboard. This allows to add that specific fragment to the page.
 
@@ -53,7 +56,8 @@ As indicated in the previous image, we show a “+” button when navigating wit
 - `enter` places the Fragment in the chosen position.
 - `esc` cancels the fragment adding.
 
-![Fragment positioning by keyboard](/images/articles/dd-positioning.png)
+![Fragment positioning by keyboard](/dd-positioning.png)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Fragment positioning by keyboard</p>
 
 Clear feedback is constantly provided throughout the interaction. Screen reader indicates what options are available and next steps to complete the action. 
 
@@ -89,7 +93,8 @@ In our case, we have added a `span` element with `aria-live="polite"`. When t
 - Each time  `↑` or `↓` are pressed, the current target position of the fragment is indicated: *Use up and down arrows to move the fragment and press enter to place it in desired position. Currently targeting [bottom] of [slider fragment]"*.
 - When “Card-fragment” is placed, we announce a final message confirming that the movement was done successfully. *Card fragment placed on [top] of [heading fragment].*
 
-![Video showing the final drag and drop interaction](/images/articles/dd-pattern.gif)
+![Video showing the final drag and drop interaction for page building](/images/articles/dd-pattern.gif)
+<p style="text-align: center; font-size: 1rem; font-style: italic; color: #6b6c7e; margin-bottom: 2rem">Drag and drop interaction for page building</p>
 
 ##
 This initial implementation has been now transferred across portal. It allowed us to standardize Drag and Drop interaction and make it available for everyone. This has also served as a reminder for ensuring that we design scenarios that do not compromise accessibility. Accessibility is a shared responsibility and everybody involved in the development cycle has a role to play.
