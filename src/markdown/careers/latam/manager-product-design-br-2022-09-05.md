@@ -4,7 +4,7 @@ date: '2022-09-05'
 title: 'Product Design Manager'
 office: 'Recife'
 featuredImage: '/images/infra-week/team-affinity-mapping.jpg'
-published: true
+published: false
 remote: true
 ---
 
