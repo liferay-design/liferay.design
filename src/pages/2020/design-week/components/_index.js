@@ -1,6 +1,6 @@
-import Card from './Card'
-import Heading from './Heading'
-import Hero from './Hero'
+import Card from './card'
+import Heading from './heading'
+import Hero from './hero'
 import LoadingAnimation from './LoadingAnimation'
 
 export {
