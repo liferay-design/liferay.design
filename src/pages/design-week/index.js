@@ -12,7 +12,7 @@ class Redirect extends React.Component {
 }
 
 const DesignWeek = () => {
-	return <div>hello</div>
+	return <div>{Redirect}</div>
 }
 
 export default DesignWeek
