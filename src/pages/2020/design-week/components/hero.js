@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { jsx, Box } from 'theme-ui'
-import { Heading } from 'pages/design-week/components/_index'
+import { Heading } from 'pages/2020/design-week/components/_index'
 import React from 'react'
 
 export default class DWHeading extends React.Component {
