@@ -1,5 +1,6 @@
 /** @jsx jsx */
 
+import { jsx } from 'theme-ui'
 import React from 'react'
 
 class Redirect extends React.Component {
@@ -12,7 +13,7 @@ class Redirect extends React.Component {
 }
 
 const DesignWeek = () => {
-	return <div>{Redirect}</div>
+	return <Redirect />
 }
 
 export default DesignWeek
