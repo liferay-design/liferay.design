@@ -2,13 +2,13 @@
 jobId: 'ogMonfwx'
 date: '2023-06-01'
 title: 'Web Solutions Designer'
-office: 'San Isidro'
+office: 'Lima'
 featuredImage: '/articles/ux-designer.jpg'
 published: true
 remote: false
 ---
 
-## Based in Peru
+## Based in Lima, Peru
 
 _Liferay, Inc. is a uniquely profitable B2B enterprise software company with 1,200+ fiery-eyed employees all across Europe, the Americas, the Middle East, Asia, and Africa. As a renowned provider of enterprise open source technologies, we have been recognized by Gartner for empowering businesses around the world to solve complex digital challenges.  Liferay Experience Cloud is an all-in-one solution that unites our Liferay DXP and cloud platform capabilities with built-in analytics and B2B commerce functionality, reducing the time to market and allowing for accelerated innovation - serving notable customers across the globe such as Airbus, US Bank, Honda, and Desjardins._
 
