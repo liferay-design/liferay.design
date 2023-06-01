@@ -70,3 +70,11 @@
   region: LATAM
   mapURL: https://goo.gl/maps/gdSLtTExUZ2hkWhr9
   # photo: /images/offices/budapest.jpg
+- id: Lima
+  countryIcon: /images/offices/flag-pe.png
+  city: Lima
+  state: Peru
+  country: Peru
+  region: LATAM
+  mapURL: https://goo.gl/maps/gdSLtTExUZ2hkWhr9
+  # photo: /images/offices/lima.jpg

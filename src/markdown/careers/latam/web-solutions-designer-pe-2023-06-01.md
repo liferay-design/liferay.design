@@ -3,7 +3,7 @@ jobId: 'ogMonfwx'
 date: '2023-06-01'
 title: 'Web Solutions Designer'
 office: 'Lima'
-featuredImage: '/articles/ux-designer.jpg'
+featuredImage: '/images/articles/ux-designer.jpg'
 published: true
 remote: false
 ---
