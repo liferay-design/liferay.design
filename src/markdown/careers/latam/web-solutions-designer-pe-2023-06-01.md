@@ -74,7 +74,7 @@ In addition to a **solid foundation in UX/UI** here is what you’ll need to suc
 - Link to your website that includes recent, relevant case studies
 - Cover letter (nothing formal!) with 3-5 sentences about your experience working in low-code environments.
 
-We're transparent in how we hire, feel free to read through [our hiring process](https://liferay.design/articles/2021/how-we-hire/).
+We aim to be transparent in how we hire, feel free to read through [our hiring process](https://liferay.design/articles/2021/how-we-hire/).
 
 
 ## Liferay is an Equal Opportunity Employer
