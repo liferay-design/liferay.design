@@ -5,7 +5,7 @@ title: 'Web Solutions Designer'
 office: 'Lima'
 featuredImage: '/images/articles/ux-designer.jpg'
 published: true
-remote: false
+remote: true
 ---
 
 ## Based in Lima, Peru
