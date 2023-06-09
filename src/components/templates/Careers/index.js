@@ -12,6 +12,7 @@ import { Helmet } from 'react-helmet'
 
 export default class Careers extends Component {
 	render() {
+		const latamCountries = ['Mexico', 'Brazil', 'Peru']
 		const post = this.props.data.mdx
 		const applyLink = `${
 			post.frontmatter.jobId === null
@@ -66,13 +67,15 @@ export default class Careers extends Component {
 						<h1>
 							{post.frontmatter.title}
 							<span>
-								{post.frontmatter.remote === true &&
-								(post.frontmatter.office.country == 'Mexico' ||
-									post.frontmatter.office.country == 'Brazil')
-									? 'Remote in LATAM' + ', based in '
-									: 'Remote in ' +
-									  post.frontmatter.office.country +
-									  ', based in '}
+								{post.frontmatter.remote === true
+									? `Remote in ${
+											latamCountries.includes(
+												post.frontmatter.office.country,
+											)
+												? 'LATAM'
+												: post.frontmatter.office.country
+									  } – based in `
+									: 'Based in '}
 								{post.frontmatter.office.city},{' '}
 								{post.frontmatter.office.state}{' '}
 							</span>
