@@ -1,5 +1,5 @@
 ---
-author: Euripedes Magalhaes
+author: Euripedes Magalhães
 ---
 
 ### How did you get into design?
