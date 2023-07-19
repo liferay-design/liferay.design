@@ -101,8 +101,8 @@
   office: Madrid
 - id: Euripedes Magalhães
   title: Senior Manager, Product Design
-  active: false
-  icon: 
+  active: true
+  icon: fa_music
   startDate: 2023-05-02
   office: São Paulo
   links:
