@@ -4,7 +4,7 @@ author: 'Pedro Cerqueira'
 
 ### How did you get into design?
 
-[I’ve always loved being creative, communicative and working with tech. But let’s just say I didn’t want to code as a full time job, even though I’m pretty good at it!
+I’ve always loved being creative, communicative and working with tech. But let’s just say I didn’t want to code as a full time job, even though I’m pretty good at it!
 
 
 ### Why are you at Liferay?
