@@ -72,8 +72,7 @@ A good Drum & Bass or Dub party.
 
 ### Favorite quote?
 
-*In a sky full of people,
-
-Only some want to fly. Isn't that crazy?*
+*In a sky full of people,*
+*Only some want to fly. Isn't that crazy?*
 
 Seal
