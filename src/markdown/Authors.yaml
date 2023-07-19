@@ -99,6 +99,16 @@
   icon: fa_bezier_curve
   startDate: 2016-08-10
   office: Madrid
+  - id: Euripedes Magalhães
+  title: Senior Manager, Product Design
+  active: false
+  icon: 
+  startDate: 2023-05-02
+  office: São Paulo
+  links:
+    website: https://www.euripedes.com.br/
+    linkedin: 'euripedesm'
+    instagram: 'euripedesm'
 - id: Gabriel Moreno
   title: Senior Product Designer
   active: true
@@ -292,12 +302,6 @@
   icon: fa_headphones_alt
   startDate: 2022-01-17
   office: Madrid
-- id: Victor Santos
-  title: Product Designer
-  active: true
-  icon: fa_gamepad
-  startDate: 2020-05-18
-  office: Recife
 - id: Vitor Fernandes
   title: Senior Manager, Product Design
   active: true
@@ -317,7 +321,24 @@
       instagram: 'jeongotti'
       twitter: 'cj213x'
   alumni: true
-
+- id: Jolin Huang
+  title: Product Design Intern
+  active: false
+  icon: fa_keyboard
+  startDate: 2022-06-13
+  endDate: 2022-09-02
+  office: Diamond Bar
+  links:
+      website: 'https://jolinuxui.myportfolio.com/work'
+      linkedin: 'jolin-huang-30a4451b0'
+  alumni: true
+- id: Victor Santos
+  title: Product Designer
+  active: true
+  icon: fa_gamepad
+  startDate: 2020-05-18
+  office: Recife
+  alumni: true
 - id: Victor Valle
   title: Principal Designer
   active: false
@@ -424,17 +445,6 @@
   icon: fa_pen_nib
   startDate: 2017-07-10
   office: Diamond Bar  
-- id: Jolin Huang
-  title: Product Design Intern
-  active: false
-  icon: fa_keyboard
-  startDate: 2022-06-13
-  endDate: 2022-09-02
-  office: Diamond Bar
-  links:
-      website: 'https://jolinuxui.myportfolio.com/work'
-      linkedin: 'jolin-huang-30a4451b0'
-  alumni: true
 - id: Juan Antón
   title: Staff Product Designer
   active: false
