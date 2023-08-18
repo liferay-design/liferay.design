@@ -14,6 +14,12 @@
       instagram: 'abelhancock'
       twitter: 'abelfhancock'
       webflow: 'templates/designers/abel-hancock'
+- id: Alex Clementi
+  title: Associate Product Designer
+  active: true
+  icon: fa_binoculars
+  startDate: 2022-11-07
+  office: Concorezzo
 - id: Andrea Censi
   title: Staff Product Designer
   active: true
