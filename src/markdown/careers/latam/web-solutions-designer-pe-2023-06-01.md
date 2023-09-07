@@ -4,7 +4,7 @@ date: '2023-06-01'
 title: 'Web Solutions Designer'
 office: 'Lima'
 featuredImage: '/images/articles/ux-designer.jpg'
-published: true
+published: false
 remote: true
 ---
 
