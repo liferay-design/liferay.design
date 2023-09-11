@@ -4,7 +4,7 @@ date: '2023-06-01'
 title: 'Associate UX Researcher'
 office: 'Madrid'
 featuredImage: '/images/infra-week/team-whiteboard.jpg'
-published: true
+published: false
 remote: false
 ---
 
