@@ -72,7 +72,7 @@
       discord: 'zittoc#3547'
 - id: Chika Noguchi
   title: Senior Product Designer
-  active: true
+  active: false
   icon: fa_owl
   startDate: 2021-04-01
   office: Tokyo
@@ -224,7 +224,7 @@
   office: Mexico City
 - id: Miriam Manso
   title: Design Researcher
-  active: true
+  active: false
   icon: fa_pointe_shoe
   startDate: 2018-10-15
   office: Madrid
@@ -239,7 +239,7 @@
       behance: 'baheto'
 - id: Naoki Hisamoto
   title: Associate Manager, Design Operations
-  active: true
+  active: false
   icon: fa_rebel
   startDate: 2017-04-18
   office: Diamond Bar
@@ -253,10 +253,11 @@
   alumni: true
 - id: Nate Cavanaugh
   title: Always one of us
-  active: true
+  active: false
   icon: fa_heart
   startDate: 2006-11-27
   office: Diamond Bar
+  alumni: true
 - id: Paul Hanaoka
   title: Design Director
   active: false
