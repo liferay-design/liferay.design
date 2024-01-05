@@ -23,3 +23,7 @@ https://liferay.design/office-hours/add-to-calendar/lexicon-2 https://calendar.g
 https://liferay.design/office-hours/add-to-calendar/figma-1 https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210208T230000Z/20210209T000000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DMO,TU,WE,TH,FR 302
 
 https://liferay.design/office-hours/add-to-calendar/figma-2 https://calendar.google.com/calendar/u/0/r/eventedit?text=Figma+Office+Hours+(Liferay+Design)&details=An+open+time+for+anyone+to+ask+questions,+solve+problems,+or+just+hangout!%0A%0ACome+with+ideas,+tips,+or+make+yourself+available+to+help+others.&location=https://meet.google.com/dax-zjbf-mrh&dates=20210204T153000Z/20210204T163000Z&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DTH 302
+
+# Redirects for the new brand guidelines site :)
+https://liferay.design/blueprints https://brand.liferay.com 301 
+https://blueprints.liferay.design https://brand.liferay.com 301
