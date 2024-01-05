@@ -75,6 +75,7 @@
   active: false
   icon: fa_owl
   startDate: 2021-04-01
+  endDate: 2023-10-31
   office: Tokyo
   links:
       instagram: 'noguchika'
@@ -91,6 +92,7 @@
   active: false
   icon: fa_coffee
   startDate: 2022-01-03
+  endDate: 2023-12-15
   office: Mexico City
   links:
       website: http://www.danieladelagarza.info
@@ -227,6 +229,7 @@
   active: false
   icon: fa_pointe_shoe
   startDate: 2018-10-15
+  endDate: 2023-12-15
   office: Madrid
   alumni: true
 - id: Murillo Barreto
@@ -242,6 +245,7 @@
   active: false
   icon: fa_rebel
   startDate: 2017-04-18
+  endDate: 2023-11-15
   office: Diamond Bar
   links:
       dribbble: 'naoki_hisamoto'
@@ -256,6 +260,7 @@
   active: false
   icon: fa_heart
   startDate: 2006-11-27
+  endDate: 2020-03-20
   office: Diamond Bar
   alumni: true
 - id: Paul Hanaoka
@@ -263,6 +268,7 @@
   active: false
   icon: fa_terminal
   startDate: 2014-08-25
+  endDate: 2024-01-05
   office: Diamond Bar
   links:
       website: https://paul.hanaoka.co
@@ -287,6 +293,7 @@
   active: false
   icon: fa_chess_queen
   startDate: 2013-10-07
+  endDate: 2023-12-15
   office: Diamond Bar
   links:
       dribbble: 'rachel_yuan'
@@ -360,6 +367,7 @@
   active: false
   icon: fa_gamepad
   startDate: 2020-05-18
+  endDate: 2023-05-24
   office: Recife
   alumni: true
 - id: Victor Valle
@@ -479,6 +487,7 @@
   active: false
   icon: fa_heart
   startDate: 2016-10-17
+  endDate: 2022-01-31
   office: Diamond Bar
   links:
       twitter: 'jhidalgoreina'
@@ -547,6 +556,7 @@
   active: false
   icon: fa_pen
   startDate: 2017-04-24
+  endDate: 2021-03-19
   office: Diamond Bar
   links:
       dribbble: 'ryconn888'
