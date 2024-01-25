@@ -78,9 +78,13 @@ Lexicon provides a recommended area for extension points that is placed right at
 
 ## Time Picker
 
-![Time picker](/images/lexicon/Picker-time.jpg)
-
 The time picker lets a user select a time from a range of hours and minutes.
+
+The first option to show a time picker will be the **native one**, this control will be responsible for showing the user the 12 (AM/PM) or 24 hour time selector, based on the OS time format configuration.
+
+If we are in a secure environment where the time format is not determining, we can use a range of hours and minutes:
+
+![Time picker](/images/lexicon/Picker-time.jpg)
 
 ### Usage
 
