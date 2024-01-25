@@ -57,10 +57,10 @@ const ResourcesPage = () => (
 						delay="0.2s"
 						dark
 						icon="whyBlueprints_one_color"
-						title="Blueprints"
+						title="Brand"
 						text="Liferay's Brand Style Guidelines"
-						to="/blueprints"
-						cta="The Blue Abides"
+						to="https://brand.liferay.com"
+						cta="Uncover Brand Insights"
 					/>
 				</Box>
 				<Box sx={{ gridArea: ['11 / 1 / 12 / 1', null, '3 / 4 / 4 / 7'] }}>
