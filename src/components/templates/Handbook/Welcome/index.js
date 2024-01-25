@@ -68,10 +68,10 @@ export const Handbook = () => {
 							handbook
 							delay="0.2s"
 							icon="whyBlueprints"
-							title="Blueprints"
+							title="Brand"
 							text="Liferay's Brand Style Guidelines"
-							to="/blueprints"
-							cta="The Blue Abides"
+							to="https://brand.liferay.com"
+							cta="Uncover Brand Insights"
 						/>
 						<CardHidden
 							handbook
