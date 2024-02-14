@@ -24,25 +24,23 @@ Text Inputs can have help text. Lexicon provides three different mechanisms to p
 -   Help icon: Text inside a popover triggered by a help icon next to the title. Use this when you only want to provide help text if the user requires it.
 -   Placeholder: A text in the field entry area. This mechanism is not recommended since users can misinterpret it as final text. If you want to use a placeholder, do not write help text, provide an example instead.
 
+![default empty state](/images/lexicon/InputPlaceholder.jpg)
+
+Text Inputs can also have help text placed right below the input box.
+
+![default empty state](/images/lexicon/InputHelpText.jpg)
+
 ### States
 
 #### Default
 
 Text Inputs can be simple:
 
-![default empty state](/images/lexicon/Input.jpg)
+![default empty state](/images/lexicon/InputDefault.jpg)
 
-Although they can include placeholder text, we don't recommend it because users may misinterpret it as the final content.
+#### Active Focused
 
-![default empty state](/images/lexicon/Inputplaceholder.jpg)
-
-Text Inputs can also have help text placed right below the input box.
-
-![default empty state](/images/lexicon/InputHelpText.jpg)
-
-#### Active
-
-![default active state](/images/lexicon/InputSimpleFocus.jpg)
+![Active Focused State](/images/lexicon/InputSimpleFocus.jpg)
 
 #### Disabled
 
