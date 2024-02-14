@@ -85,8 +85,6 @@ A Text Input, at the very least, contains these elements:
 ## Text area
 
 ![text area](/images/lexicon/InputTextArea.jpg)
-
-![text area](/images/lexicon/InputTextAreaHelpText.jpg)
 <br/>
 
 A text area is similar to a Text Input, however, it supports several lines of text. For example, a user can use a text area to enter long product descriptions.
