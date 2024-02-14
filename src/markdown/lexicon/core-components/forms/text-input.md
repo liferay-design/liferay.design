@@ -34,8 +34,6 @@ Text Inputs can also have help text placed right below the input box.
 
 #### Default
 
-Text Inputs can be simple:
-
 ![Default Input: Ready for user interaction with a neutral appearance](/images/lexicon/InputDefault.jpg)
 
 #### Active Focused
