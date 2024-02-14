@@ -24,11 +24,11 @@ Text Inputs can have help text. Lexicon provides three different mechanisms to p
 -   Help icon: Text inside a popover triggered by a help icon next to the title. Use this when you only want to provide help text if the user requires it.
 -   Placeholder: A text in the field entry area. This mechanism is not recommended since users can misinterpret it as final text. If you want to use a placeholder, do not write help text, provide an example instead.
 
-![default empty state](/images/lexicon/InputPlaceholder.jpg)
+![Input with Placeholder: Placeholder text 'janedoe@email.com' inside the input](/images/lexicon/InputPlaceholder.jpg)
 
 Text Inputs can also have help text placed right below the input box.
 
-![default empty state](/images/lexicon/InputHelpText.jpg)
+![Input with help text: Email field with a help text 'Use an uppercase and a letter,'](/images/lexicon/InputHelpText.jpg)
 
 ### States
 
@@ -36,19 +36,19 @@ Text Inputs can also have help text placed right below the input box.
 
 Text Inputs can be simple:
 
-![default empty state](/images/lexicon/InputDefault.jpg)
+![Default Input: Ready for user interaction with a neutral appearance](/images/lexicon/InputDefault.jpg)
 
 #### Active Focused
 
-![Active Focused State](/images/lexicon/InputSimpleFocus.jpg)
+![Active Focused Input: Blue background with focus ring signals an editable state for user input](/images/lexicon/InputSimpleFocus.jpg)
 
 #### Disabled
 
-![default disabled state](/images/lexicon/InputDisabled.jpg)
+![Disabled Input: Grayed-out box signaling non-interactivity](/images/lexicon/InputDisabled.jpg)
 
 #### Read only
 
-![default disabled state](/images/lexicon/InputReadOnly.jpg)
+![Read-only Input: White background indicates non-editable state](/images/lexicon/InputReadOnly.jpg)
 
 ### Validations
 
@@ -56,21 +56,19 @@ The validation text for a field is placed right below the input box, just before
 
 #### Success
 
-![default success state](/images/lexicon/InputSuccess.jpg)
+![Success Input: Light green background and green borders indicate a successful state](/images/lexicon/InputSuccess.jpg)
 
 #### Warning
 
-![default warning state](/images/lexicon/InputWarning.jpg)
+![Warning Input: Light orange background and orange borders signify a warning state](/images/lexicon/InputWarning.jpg)
 
 #### Error
 
-![default error state](/images/lexicon/InputError.jpg)
-
-![default error state](/images/lexicon/InputHelpTextError.jpg)
+![Error Input: Red background and borders signify an error state](/images/lexicon/InputError.jpg)
 
 ### Attributes
 
-![input field parts](/images/lexicon/InputParts.jpg)
+![Input image with numbers 1 to 5 pointing Input's parts](/images/lexicon/InputParts.jpg)
 
 A Text Input, at the very least, contains these elements:
 
@@ -82,7 +80,7 @@ A Text Input, at the very least, contains these elements:
 
 ## Text area
 
-![text area](/images/lexicon/InputTextArea.jpg)
+![Text Area with Help Text: Default state, featuring a resizable handler and help text displaying '93/150 characters' for user guidance](/images/lexicon/InputTextArea.jpg)
 <br/>
 
 A text area is similar to a Text Input, however, it supports several lines of text. For example, a user can use a text area to enter long product descriptions.
