@@ -82,9 +82,6 @@ A Text Input, at the very least, contains these elements:
 4. Status message
 5. Help text
 
-![input field metrics without error](/images/lexicon/InputMetrics.jpg)
-![input field metrics with error](/images/lexicon/InputErrorMetrics.jpg)
-
 ## Text area
 
 ![text area](/images/lexicon/InputTextArea.jpg)
