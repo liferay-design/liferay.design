@@ -48,6 +48,20 @@ Text Inputs can also have help text placed right below the input box.
 
 ![Read-only Input: White background indicates non-editable state](/images/lexicon/InputReadOnly.jpg)
 
+### Sizes
+
+#### Small
+
+![Small Input](/images/lexicon/InputSizeSmall.jpg)
+
+#### Regular
+
+![Regular Input](/images/lexicon/InputSizeRegular.jpg)
+
+#### Large
+
+![Large Input](/images/lexicon/InputSizeLarge.jpg)
+
 ### Validations
 
 The validation text for a field is placed right below the input box, just before the help text. This places the error right next to the offending field so the user is not confused about what field failed validation.
