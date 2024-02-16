@@ -142,7 +142,7 @@ draft: false
 | Miller columns | <p class="dotDone">&#9679;</p> | NA | NA  |
 | <p class="tableSection">NAVIGATION</p> |
 | Navigation | <p class="dotDone">&#9679;</p> | NA | NA  |
-| Control bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
+| Control Menu bar | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | <p class="tableSection">SIDEBAR</p> |
 | Info panel | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Product menu | <p class="dotDone">&#9679;</p> | NA | NA | 
