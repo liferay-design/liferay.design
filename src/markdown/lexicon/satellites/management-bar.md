@@ -1,8 +1,5 @@
 ---
 title: 'Management Toolbar'
-titleLabel: 'Clay DEPRECATED'
-titleLabelLink: 'https://clayui.com/docs/components/management-toolbar.html'
-docLink: 'https://drive.google.com/drive/folders/0B7JYaGe4TecDbE1MSnNsdEU2VWM?usp=sharing'
 description: 'Management toolbar is an extension of Toolbar. It is a combination of different components, including filters, orders, search, visualization select, and other actions that let users manage a dataset.'
 order: 503
 draft: false
@@ -13,7 +10,9 @@ productName: 'LIFERAY DXP'
 
 ![state two of the management bar](/images/lexicon/ManagementBarState2.jpg)
 
-_WARNING: This component is deprecated, now it's a DXP responsibility._
+<div class="alert alert-warning">
+    <strong class="lead">Warning</strong> This component is deprecated in Lexicon, now it's a DXP responsibility
+</div>
 
 _Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height._
 
