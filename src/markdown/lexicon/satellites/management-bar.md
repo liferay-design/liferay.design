@@ -10,7 +10,7 @@ productName: 'LIFERAY DXP'
 
 ![state two of the management bar](/images/lexicon/ManagementBarState2.jpg)
 
-<div styles="display: inline-block; background-color: #fff4ec; color: #b95000; border: 0.0625rem solid #ff8f39;padding: 10px">
+<div styles="display: inline-block; background-color: #fff4ec; color: #b95000; border: 0.0625rem solid #ff8f39;padding: 6px 10px; border-radius: 4px">
     <strong">Warning</strong> This component is deprecated in Lexicon, now it's a DXP responsibility
 </div>
 
