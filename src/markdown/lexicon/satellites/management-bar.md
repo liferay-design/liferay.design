@@ -10,8 +10,8 @@ productName: 'LIFERAY DXP'
 
 ![state two of the management bar](/images/lexicon/ManagementBarState2.jpg)
 
-<div class="alert alert-warning">
-    <strong class="lead">Warning</strong> This component is deprecated in Lexicon, now it's a DXP responsibility
+<div styles="display: inline-block; background-color: #fff4ec; color: #b95000; border: 0.0625rem solid #ff8f39;padding: 10px">
+    <strong">Warning</strong> This component is deprecated in Lexicon, now it's a DXP responsibility
 </div>
 
 _Note: The management toolbar doesn't have gray borders. They are just used in the examples on this page to show its height._
