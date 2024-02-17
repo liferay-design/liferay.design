@@ -77,3 +77,12 @@ img {
 	opacity: 0;
 	transition: opacity 0.2s ease-in-out;
 }
+
+.alert {
+	background-color: #fff4ec;
+	color: #b95000;
+	border: 0.0625rem solid #ff8f39;
+	padding: 6px 10px;
+	border-radius: 4px;
+	margin-bottom: 46px
+}
