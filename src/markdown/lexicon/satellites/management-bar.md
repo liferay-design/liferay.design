@@ -7,7 +7,7 @@ productName: 'LIFERAY DXP'
 ---
 
 <div class="alert">
-    <strong">Warning</strong> This component is deprecated in Lexicon, now it's a DXP responsibility
+    <strong>Warning</strong> This component is deprecated in Lexicon, now it's a DXP responsibility
 </div>
 
 ![state one of the management bar](/images/lexicon/ManagementBarState1.jpg)
