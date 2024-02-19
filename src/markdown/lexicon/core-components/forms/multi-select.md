@@ -8,13 +8,11 @@ order: 259
 draft: false
 ---
 
-![Multi step form](/images/lexicon/MultiStepForm7Steps.jpg)
+![multiple select field](/images/lexicon/SelectMulti.jpg)
 
 ### Usage
 
 Multi Select is the field type that allows writing text to create “tags” that are represented in the shape of labels. This components counts with autocomplete feature.
-
-![multiple select field](/images/lexicon/SelectMulti.jpg)
 
 ![multiple select field with N lines](/images/lexicon/SelectMultiNLines.jpg)
 
