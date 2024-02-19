@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/select'
 docLink: 'https://docs.google.com/document/d/1rzRUNJC0cdV11Q_1I1uyuFrMFiuAaJrhv8ywAPuUx54/edit'
 description: 'A form control element used to select from several provided options and enter data.'
-order: 261
+order: 262
 draft: false
 ---
 

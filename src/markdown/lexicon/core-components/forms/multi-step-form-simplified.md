@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/multi-step-nav'
 docLink: 'https://docs.google.com/document/d/1vGhp62cXgrQItY8pOJVD2EGY1DjXziaaMjL7bsrgAlE/edit?usp=sharing'
 description: 'A progressive disclosure method to guide the user through a task divided into several steps.'
-order: 260
+order: 261
 draft: false
 ---
 
