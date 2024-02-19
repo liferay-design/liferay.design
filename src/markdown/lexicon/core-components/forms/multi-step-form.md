@@ -5,7 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/multi-step-nav'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A2985'
 docLink: 'https://drive.google.com/drive/folders/1dEj8vSEIxa1ohSh0Em_WY8TBXj9X6Cc6'
 description: 'A progress bar used to divide the main task into subtasks to help users complete long processes.'
-order: 259
+order: 260
 draft: false
 ---
 

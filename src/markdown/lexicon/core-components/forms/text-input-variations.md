@@ -5,7 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/input'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A2985'
 docLink: 'https://docs.google.com/document/d/1rKn34BR_95gEbeG1cqdgWsl1h6buo1MPdG9Jrgz_xU4/edit?usp=sharing'
 description: 'A description of the Search, Autocomplete, Date, Numeric, and Password input variations.'
-order: 268
+order: 269
 draft: false
 ---
 

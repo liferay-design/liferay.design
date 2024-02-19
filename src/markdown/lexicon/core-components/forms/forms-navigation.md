@@ -4,7 +4,7 @@ titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/nav.html#vertical'
 docLink: 'https://drive.google.com/drive/folders/1jIlg4BZ_hfMU-WvET4wXxYGk0tkS_UZm'
 description: 'Form navigation can be displayed in two different ways: a left navigation menu or a wizard.'
-order: 253
+order: 252
 draft: false
 ---
 

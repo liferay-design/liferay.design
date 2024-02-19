@@ -5,7 +5,7 @@ figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=
 docLink: 'https://docs.google.com/document/d/1IUGl5VOWh6lqRa1baRoshVcytc8XbqVMkk30vRW4SM8/edit?usp=sharing'
 titleLabel: 'Clay'
 titleLabelLink: 'https://clayui.com/docs/components/color-picker.html'
-order: 257
+order: 256
 draft: false
 devStatus: 'Pending'
 ---

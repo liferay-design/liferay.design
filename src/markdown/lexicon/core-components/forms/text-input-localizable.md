@@ -5,7 +5,7 @@ titleLabelLink: 'https://clayui.com/docs/components/localized-input'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=6033%3A2985'
 docLink: 'https://docs.google.com/document/d/1rKn34BR_95gEbeG1cqdgWsl1h6buo1MPdG9Jrgz_xU4/edit?usp=sharing'
 description: 'An Input variation used in fields that can be translated into multiple languages.'
-order: 267
+order: 268
 draft: false
 ---
 
