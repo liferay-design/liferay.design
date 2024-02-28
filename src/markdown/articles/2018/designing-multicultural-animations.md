@@ -8,11 +8,11 @@ publish: true
 
 The world is big and diverse. Right now there are around 7.6 billion people in the world, 4 billion with an internet access. When you’re improving a Design System for a product used worldwide, like Lexicon for Liferay, you should take this simple statement into account. Cultural, religious and regional concerns need to be considered. It may sound obvious, but the true fact is that we sometimes forget about it.
 
-I’m going to explain how we redesigned and tested empty states illustrations for Liferay products.
+I’m going to explain how we redesigned and tested empty state illustrations for Liferay products.
 
 ## 1. The past
 
-Let’s put a bit of context around this story. As you may know, an empty state illustration is shown when there is not any other info to display and capture the user’s attention. A friendly face looking around, smiling, or winking was the animation family for empty states in Lexicon 1 by Marcos Castro. They were created to give feedback in a memorable way and provide a pleasurable experience for the user but the fact was that the smiling face animation caused some cultural issues.
+Let’s put a bit of context around this story. As you may know, an empty state illustration is shown when there is not any other info to display and capture the user’s attention. A friendly face looking around, smiling, or winking was the animation family for empty state in Lexicon 1 by Marcos Castro. They were created to give feedback in a memorable way and provide a pleasurable experience for the user but the fact was that the smiling face animation caused some cultural issues.
 
 ![wink](/images/articles/mpa-the-past.gif)
 
@@ -46,7 +46,7 @@ Regarding all the information provided by participants, we iterated the design a
 
 ## 6. The result
 
-As an outcome of all this study and design process we created three animated illustrations for our empty states.
+As an outcome of all this study and design process we created three animated illustrations for our empty state.
 
 ![no results](/images/articles/mpa-the-result.gif)
 _A telescope looking into the sky for the empty search/filter action when there are not results._
@@ -57,6 +57,6 @@ _A satellite when there are no elements yet in a dataset._
 ![rocket man](/images/articles/mpa-rocket.gif)
 _A spaceship launch when the user has emptied the dataset for a good end, for example, when the notifications list has been cleared out._
 
-Our animations set for empty states conformed a collection that makes users feel comfortable and part of the story. This is just the beginning and we expect to expand the family as our needs grow. We expect the experience using Liferay products will be more pleasurable, memorable, understandable and universal.
+Our animations set for empty state conformed a collection that makes users feel comfortable and part of the story. This is just the beginning and we expect to expand the family as our needs grow. We expect the experience using Liferay products will be more pleasurable, memorable, understandable and universal.
 
 What do you think?

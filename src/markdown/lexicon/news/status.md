@@ -70,8 +70,8 @@ draft: false
 | Dataset display | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |
 | <p class="tableSection">DROPDOWN MENU</p> |
 | Dropdown menu | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
-| <p class="tableSection">EMPTY STATES</p> |
-| Empty States | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
+| <p class="tableSection">EMPTY STATE</p> |
+| Empty State | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | NA |
 | <p class="tableSection">FORM</p> |
 | Checkbox, Radio, Toggle | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> | <p class="dotDone">&#9679;</p> |
 | Color Picker > Not restricted | <p class="dotDone">&#9679;</p> | <p class="dotWait">&#9679;</p> | <p class="dotWait">&#9679;</p> |

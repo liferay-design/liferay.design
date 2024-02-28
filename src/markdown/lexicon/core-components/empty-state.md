@@ -1,7 +1,7 @@
 ---
-title: 'Empty States'
+title: 'Empty State'
 figmaLink: 'https://www.figma.com/file/02DVhuHVTDbzaMjNM7IUKWp0/lexicon?node-id=261%3A30'
-description: 'Empty states provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.'
+description: 'Empty state provide users with feedback on the reasons behind the empty state and what they can do to move out of the empty state.'
 order: 245
 draft: false
 productName: 'LIFERAY DXP'
@@ -11,7 +11,7 @@ productName: 'LIFERAY DXP'
 
 #### When should I use the default animations?
 
-There are three default [animations](./../../foundations/animations) available to communicate empty states. The scenario for each empty state and animation is shown below:
+There are three default [animations](./../../foundations/animations) available to communicate empty state. The scenario for each empty state and animation is shown below:
 
 **Empty dataset:** There are no elements in the data set at a certain level
 

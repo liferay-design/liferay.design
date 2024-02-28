@@ -13,7 +13,7 @@ This pattern is used when the elements of the visualization require colective ma
 
 ### Empty state
 
-It is important to let the user know what happends in empty states and let them know what has happend and how to perform actions to move out from that empty state.
+It is important to let the user know what happends in empty stats and let them know what has happend and how to perform actions to move out from that empty state.
 
 In Lexicon we use our [emoticons library](https://github.com/marcoscv-work/liferay-emoticons) as a visual support together with a text message to help the user. It is very important that this message is clear and let the user understand what to do next.
 
@@ -21,7 +21,7 @@ In Lexicon we use our [emoticons library](https://github.com/marcoscv-work/lifer
 
 ### Empty search state
 
-As stated in the previous case, it is important to help the user understanding what happens in empty states. Here is the example for a empty search result.
+As stated in the previous case, it is important to help the user understanding what happens in empty state. Here is the example for a empty search result.
 
 ![animations showing how an empty search works](/images/lexicon-1/datasetDisplayEmptySearch.gif)
 
