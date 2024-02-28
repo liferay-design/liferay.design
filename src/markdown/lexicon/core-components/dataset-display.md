@@ -44,7 +44,7 @@ This pattern is used when the visualization elements require collective manageme
 
 ### Empty state
 
-It's important to let the user know how and why an empty state is displayed, as well as what actions they can take to move out from the empty state. See the [empty states](../empty-states) page for more information.
+It's important to let the user know how and why an empty state is displayed, as well as what actions they can take to move out from the empty state. See the [empty state](../empty-state) page for more information.
 
 ### Individual actions
 
