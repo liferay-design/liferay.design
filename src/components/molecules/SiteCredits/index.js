@@ -14,10 +14,6 @@ const SiteCredits = () => {
 				</Link>
 				/<Link to="/resources/license">Content</Link> Licenses
 			</Text>
-			<Text size="small">
-				Powered by <Link to="http://gatsbyjs.org/">Gatsby</Link> and{' '}
-				<Link to="https://netlify.com">Netlify</Link>
-			</Text>
 		</Flex>
 	)
 }
