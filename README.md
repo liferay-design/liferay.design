@@ -52,6 +52,8 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 ### Quick Start
 
+**Warning**: This project only works with Node v12. You can use [NVM](https://github.com/nvm-sh/nvm) to install Node v12 by `nvm install 12`, then you can follow these steps:
+
 1. **Install Dependencies**
 
     - open Terminal and type:
