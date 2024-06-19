@@ -3,16 +3,31 @@ import { ColorField } from 'components/molecules'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './styles.module.scss'
-import {colors } from 'theme'
+import { colors } from 'theme'
 
-export default function ColorSwatch({ hex, rgb, hsl, title, name, cmyk, pms }) {
+export default function ColorSwatch({
+	hex,
+	rgb,
+	hsl,
+	title,
+	smallText,
+	name,
+	cmyk,
+	pms,
+}) {
 	return (
 		<Flex className={styles.container} direction="column" width="100%">
-			<Flex style={{background:`${colors[name]}`}} height="0" padding="0 0 56.25%" width="100%" />
+			<Flex
+				style={{ background: `${colors[name]}` }}
+				height="0"
+				padding="0 0 56.25%"
+				width="100%"
+			/>
 
 			<Flex direction="column" padding="1rem">
 				<Text type="p" weight="heavy" margin="micro" size="base">
 					{title}
+					{smallText ? <small class="d-block">{smallText}</small> : null}
 				</Text>
 
 				{hex ? (
