@@ -10,7 +10,7 @@ const colors = {
 	lightestGrey: '#e7e7e7',
 	// lexicon colors
 	main: '#272833',
-	mainl0: '#88889a',
+	mainl0: '#9393A4',
 	mainl1: '#30313f',
 	mainl2: '#393a4a',
 	mainl3: '#6b6c7e',
@@ -22,7 +22,7 @@ const colors = {
 	primary: '#0B5FFF',
 	primaryd2: '#004ad7',
 	primaryd1: '#0053f0',
-	primaryl0: '#528EFF',
+	primaryl0: '#5791FF',
 	primaryl1: '#80acff',
 	primaryl2: '#b3cdff',
 	primaryl3: '#f0f5ff',
