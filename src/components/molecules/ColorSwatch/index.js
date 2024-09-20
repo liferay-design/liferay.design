@@ -14,7 +14,26 @@ export default function ColorSwatch({
 	name,
 	cmyk,
 	pms,
+	contrasted,
 }) {
+	const ContrastedElement = () => {
+		switch (contrasted) {
+			case 'white':
+				return <div className="contrastCircle" />
+			case 'black':
+				return <div className="contrastCircle black" />
+			case 'both':
+				return (
+					<>
+						<div className="contrastCircle" />
+						<div className="contrastCircle black" />
+					</>
+				)
+			default:
+				return null
+		}
+	}
+
 	return (
 		<Flex className={styles.container} direction="column" width="100%">
 			<Flex
@@ -22,7 +41,9 @@ export default function ColorSwatch({
 				height="0"
 				padding="0 0 56.25%"
 				width="100%"
-			/>
+			>
+				<ContrastedElement />
+			</Flex>
 
 			<Flex direction="column" padding="1rem">
 				<Text type="p" weight="heavy" margin="micro" size="base">
