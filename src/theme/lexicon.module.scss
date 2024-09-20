@@ -313,11 +313,10 @@
 :global(.example-text) {
 	color: $main-l3;
 	font-size: 14px;
-
-} 
+}
 
 :global(.adapting-columns) {
-    column-count: 3;
+	column-count: 3;
 }
 
 :global(.adapting-columns-2) {
@@ -370,7 +369,6 @@
 	border-color: $info-l1;
 	color: $info;
 }
-
 
 :global(.link-false) {
 	color: $primary;
