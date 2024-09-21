@@ -146,8 +146,8 @@ export default class Team extends Component {
 						src={withPrefix(avatarPath(teammate.id))}
 					/>
 				</Box>
-				
-				<Navbar section ={(alumni ? "Alumni" : "Team")}/>
+
+				<Navbar section={alumni ? 'Alumni' : 'Team'} />
 
 				<Container banner>
 					<Flex
@@ -188,8 +188,9 @@ export default class Team extends Component {
 											color: 'mainL3',
 											variant: 'text.caps',
 										}}
-									>					
-										{moment(teammate.startDate).format('YYYY')} - {moment(teammate.endDate).format('YYYY')}
+									>
+										{moment(teammate.startDate).format('YYYY')} -{' '}
+										{moment(teammate.endDate).format('YYYY')}
 									</span>
 								) : (
 									<span
@@ -200,7 +201,7 @@ export default class Team extends Component {
 											color: 'mainL3',
 											variant: 'text.caps',
 										}}
-									>					
+									>
 										Since {moment(teammate.startDate).format('YYYY')}
 									</span>
 								)}

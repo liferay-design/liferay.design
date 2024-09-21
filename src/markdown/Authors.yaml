@@ -1,7 +1,7 @@
 ---
 # Active Designers
 - id: Abel Hancock
-  title: Senior Product Designer
+  title: Staff Product Designer
   active: true
   icon: fa_code
   startDate: 2017-09-18
@@ -14,6 +14,7 @@
       instagram: 'abelhancock'
       twitter: 'abelfhancock'
       webflow: 'templates/designers/abel-hancock'
+      medium: 'abelhancock'
 - id: Alex Clementi
   title: Associate Product Designer
   active: true
@@ -47,20 +48,8 @@
   icon: fa_music
   startDate: 2021-08-30
   office: Madrid
-- id: Carolina Hurtado
-  title: Associate Product Designer
-  active: false
-  icon: fa_seedling
-  startDate: 2021-11-16
-  office: Remote
-  links:
-      behance: 'carolinahubb0b'
-      dribbble: 'CaroHurTam'
-      github: 'Carolina-start'
-      linkedin: 'carolinahurtadotambini'
-      website: https://carolina-portfolio.webflow.io
 - id: Carolina Venegas
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pizza
   startDate: 2021-11-16
@@ -70,45 +59,18 @@
       twitter: 'ninaayellow'
       behance: 'zittoc'
       discord: 'zittoc#3547'
-- id: Chika Noguchi
-  title: Senior Product Designer
-  active: false
-  icon: fa_owl
-  startDate: 2021-04-01
-  endDate: 2023-10-31
-  office: Tokyo
-  links:
-      instagram: 'noguchika'
-      website: https://www.ngcka.biz/
-  alumni: true
 - id: David Aragonés
   title: Staff Product Designer
   active: true
   icon: fa_universal_access
   startDate: 2016-08-22
   office: Madrid
-- id: Daniela de la Garza
-  title: Communication Designer
-  active: false
-  icon: fa_coffee
-  startDate: 2022-01-03
-  endDate: 2023-12-15
-  office: Mexico City
-  links:
-      website: http://www.danieladelagarza.info
-  alumni: true
 - id: Déborah Silva
   title: Product Designer
   active: true
   icon: fa_pen_nib
   startDate: 2021-03-08
   office: Recife
-- id: Emiliano Cicero
-  title: Senior Product Designer
-  active: true
-  icon: fa_bezier_curve
-  startDate: 2016-08-10
-  office: Madrid
 - id: Euripedes Magalhães
   title: Senior Manager, Product Design
   active: true
@@ -119,16 +81,6 @@
       website: https://www.euripedes.com.br/
       linkedin: 'euripedesm'
       instagram: 'euripedesm'
-- id: Gabriel Moreno
-  title: Senior Product Designer
-  active: false
-  icon: fa_heart
-  startDate: 2022-04-25
-  office: Madrid
-  links:
-      instagram: 'gabobrown'
-      twitter: 'gabxbrown'
-      website: https://gabobrown.com
 - id: Gina Chang
   title: Product Designer
   active: true
@@ -141,10 +93,6 @@
   icon: fa_user_astronaut
   startDate: 2023-05-02
   office: São Paulo
-  links:
-      website:
-      linkedin:
-      instagram:
 - id: Jon Wood
   title: Director, Product Design
   active: true
@@ -166,7 +114,7 @@
       instagram: 'bkr_juan'
       linkedin: 'juanbaker'
 - id: Julia Lira
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pencil_alt
   startDate: 2021-07-04
@@ -178,7 +126,7 @@
   startDate: 2021-03-29
   office: Seattle
 - id: Markus Hammer
-  title: Senior Communication Designer
+  title: Staff Communication Designer
   active: true
   icon: fa_gavel
   startDate: 2016-09-15
@@ -188,7 +136,7 @@
       unsplash: 'markushmr'
       instagram: '_marcuz__'
 - id: Maria Arce
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pen_fancy
   startDate: 2021-04-05
@@ -196,7 +144,7 @@
   links:
       instagram: 'sinreproche'
 - id: Maria Martins
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_pizza
   startDate: 2022-01-11
@@ -213,7 +161,7 @@
   startDate: 2019-08-12T07:00:00Z
   office: Madrid
 - id: May Chen
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_pepper_hot_solid
   startDate: 2021-04-20
@@ -224,14 +172,6 @@
   icon: fa_stethoscope
   startDate: 2021-07-19T07:00:00Z
   office: Mexico City
-- id: Miriam Manso
-  title: Design Researcher
-  active: false
-  icon: fa_pointe_shoe
-  startDate: 2018-10-15
-  endDate: 2023-12-15
-  office: Madrid
-  alumni: true
 - id: Murillo Barreto
   title: Associate Communication Designer
   active: true
@@ -240,73 +180,6 @@
   office: Recife
   links:
       behance: 'baheto'
-- id: Naoki Hisamoto
-  title: Associate Manager, Design Operations
-  active: false
-  icon: fa_rebel
-  startDate: 2017-04-18
-  endDate: 2023-11-15
-  office: Diamond Bar
-  links:
-      dribbble: 'naoki_hisamoto'
-      figma: 'naokihisamoto'
-      github: 'nhisamoto'
-      twitter: 'NaokiHisamoto'
-      instagram: 'naoki.hisamoto'
-      linkedin: 'naoki-hisamoto'
-  alumni: true
-- id: Nate Cavanaugh
-  title: Always one of us
-  active: false
-  icon: fa_heart
-  startDate: 2006-11-27
-  endDate: 2020-03-20
-  office: Diamond Bar
-  alumni: true
-- id: Paul Hanaoka
-  title: Design Director
-  active: false
-  icon: fa_terminal
-  startDate: 2014-08-25
-  endDate: 2024-01-05
-  office: Diamond Bar
-  links:
-      website: https://paul.hanaoka.co
-      dribbble: 'plhnk'
-      figma: 'paul'
-      github: 'plhnk'
-      twitter: 'plhnk'
-      unsplash: 'plhnk'
-      medium: 'plhnk'
-  alumni: true
-- id: Pedro Cerqueira
-  title: Associate Communication Designer
-  active: false
-  icon: fa_hat_wizard
-  startDate: 2022-07-18
-  office: Recife
-  links:
-      instagram: 'cerq.arte'
-      behance: 'pedrocerqueira3'
-- id: Rachel Yuan
-  title: Senior Communication Designer
-  active: false
-  icon: fa_chess_queen
-  startDate: 2013-10-07
-  endDate: 2023-12-15
-  office: Diamond Bar
-  links:
-      dribbble: 'rachel_yuan'
-  alumni: true
-- id: Sandy Gonzales
-  title: Associate Product Designer
-  active: false
-  icon: fa_book
-  startDate: 2021-11-16
-  office: Remote
-  links:
-      instagram: 'yugentsuki'
-      twitter: 'yugentsuki'
 - id: Temístocles Gonçalves
   title: Communication Designer
   active: true
@@ -317,28 +190,78 @@
       instagram: 'darkzeh'
       behance: 'estudiopingo'
       linkedin: 'temístocles-d-anunciação-85a17355'
-- id: Thiago Menezes
-  title: Senior Product Designer
-  active: true
-  icon: fa_brain
-  startDate: 2022-11-03
-  office: Recife
-  links:
-      instagram: 'txa_go'
-      linkedin: 'txago'
 - id: Uge Ortiz
   title: Senior Product Designer
   active: true
   icon: fa_headphones_alt
   startDate: 2022-01-17
   office: Madrid
-- id: Vitor Fernandes
-  title: Senior Manager, Product Design
-  active: false
-  icon: fa_rocket
-  startDate: 2013-08-12
-  office: Diamond Bar
+
 # Alumni
+- id: Nate Cavanaugh
+  title: Always one of us
+  active: false
+  icon: fa_heart
+  startDate: 2006-11-27
+  endDate: 2020-03-20
+  office: Diamond Bar
+  alumni: true
+- id: Naoki Hisamoto
+  title: Associate Manager, Design Operations
+  active: false
+  icon: fa_rebel
+  startDate: 2017-04-18
+  endDate: 2023-11-15
+  office: Diamond Bar
+  alumni: true
+- id: Chika Noguchi
+  title: Senior Product Designer
+  active: false
+  icon: fa_owl
+  startDate: 2021-04-01
+  endDate: 2023-10-31
+  office: Tokyo
+  alumni: true
+- id: Paul Hanaoka
+  title: Design Director
+  active: false
+  icon: fa_terminal
+  startDate: 2014-08-25
+  endDate: 2024-01-05
+  office: Diamond Bar
+  alumni: true
+- id: Rachel Yuan
+  title: Senior Communication Designer
+  active: false
+  icon: fa_chess_queen
+  startDate: 2013-10-07
+  endDate: 2023-12-15
+  office: Diamond Bar
+  alumni: true
+- id: Miriam Manso
+  title: Design Researcher
+  active: false
+  icon: fa_pointe_shoe
+  startDate: 2018-10-15
+  endDate: 2023-12-15
+  office: Madrid
+  alumni: true
+- id: Emiliano Cicero
+  title: Senior Product Designer
+  active: false
+  icon: fa_bezier_curve
+  startDate: 2016-08-10
+  endDate: 2024-04-04
+  office: Madrid
+  alumni: true
+- id: Thiago Menezes
+  title: Senior Product Designer
+  active: false
+  icon: fa_brain
+  startDate: 2022-11-03
+  endDate: 2024-06-07
+  office: Recife
+  alumni: true
 - id: Chris Jeong
   title: Principal Designer
   active: false
@@ -346,10 +269,6 @@
   startDate: 2017-10-16
   endDate: 2022-05-20
   office: Diamond Bar
-  links:
-      dribbble: 'cj213x'
-      instagram: 'jeongotti'
-      twitter: 'cj213x'
   alumni: true
 - id: Jolin Huang
   title: Product Design Intern
@@ -358,9 +277,6 @@
   startDate: 2022-06-13
   endDate: 2022-09-02
   office: Diamond Bar
-  links:
-      website: 'https://jolinuxui.myportfolio.com/work'
-      linkedin: 'jolin-huang-30a4451b0'
   alumni: true
 - id: Victor Santos
   title: Product Designer
@@ -377,12 +293,41 @@
   startDate: 2016-08-18
   endDate: 2022-04-22
   office: Madrid
-  links:
-      twitter: 'victorvj06'
-      unsplash: 'victorvj'
-      linkedin: 'vvalleju'
   alumni: true
+- id: Daniela de la Garza
+  title: Communication Designer
+  active: false
+  icon: fa_coffee
+  startDate: 2022-01-03
+  endDate: 2023-12-15
+  office: Mexico City
+  alumni: true
+
 # Inactive Designers
+- id: Gabriel Moreno
+  title: Senior Product Designer
+  active: false
+  icon: fa_heart
+  startDate: 2022-04-25
+  office: Madrid
+- id: Vitor Fernandes
+  title: Senior Manager, Product Design
+  active: false
+  icon: fa_rocket
+  startDate: 2013-08-12
+  office: Diamond Bar
+- id: Pedro Cerqueira
+  title: Associate Communication Designer
+  active: false
+  icon: fa_hat_wizard
+  startDate: 2022-07-18
+  office: Recife
+- id: Sandy Gonzales
+  title: Associate Product Designer
+  active: false
+  icon: fa_book
+  startDate: 2021-11-16
+  office: Remote
 - id: András Himer
   title: Product Designer
   active: false
@@ -395,10 +340,6 @@
   icon: fa_drum
   startDate: 2021-07-01
   office: Curitiba
-  links:
-      dribbble: 'Coninck'
-      figma: 'arthurconincklr'
-      instagram: 'atrhuh'
 - id: Bryan Ho
   title: Associate Communication Design Manager
   active: false
@@ -435,10 +376,6 @@
   icon: fa_music
   startDate: 2021-06-14
   office: Recife
-  links:
-      instagram: 'eloipinheiros'
-      twitter: 'eloipinheiros'
-      website: behance.net/eloipinheiro
 - id: Emily Young
   title: Manager, Communication Design
   active: false
@@ -451,13 +388,6 @@
   icon: fa_dumbbell
   startDate: 2015-09-01
   office: Recife
-  links:
-      website: https://www.fpires.me
-      dribbble: 'felipepires'
-      figma: 'fpires'
-      github: 'fapires'
-      instagram: 'felippires'
-      twitter: 'felipeapiress'
 - id: Jadson Dantas
   title: Product Designer
   active: false
@@ -489,8 +419,6 @@
   startDate: 2016-10-17
   endDate: 2022-01-31
   office: Diamond Bar
-  links:
-      twitter: 'jhidalgoreina'
   alumni: true
 - id: Julia Chan
   title: Communication Designer
@@ -508,7 +436,7 @@
   title: Associate Product Designer
   active: false
   icon: fa_spa
-  startDate: 2019-10-12T07:00:00Z
+  startDate: 2019-10-12
   office: Madrid
 - id: Leonardo Lohmann
   title: DesignOps
@@ -516,13 +444,6 @@
   icon: fa_gem
   startDate: 2021-06-01
   office: Recife
-  links:
-      dribbble: 'leolohmann'
-      instagram: 'leolohmann'
-      medium: 'leolohmann'
-      twitter: 'leolohmann'
-      unsplash: 'leolohmann'
-      website: http://www.leonardolohmann.com.br
 - id: Nathália Moura
   title: Product Designer
   active: false
@@ -535,10 +456,6 @@
   icon: fa_camera
   startDate: 2017-08-07
   office: Diamond Bar
-  links:
-      dribbble: 'pjpentz'
-      figma: 'pj'
-      instagram: 'pjpentz'
 - id: Rafael Fernandes
   title: Product Designer
   active: false
@@ -558,9 +475,6 @@
   startDate: 2017-04-24
   endDate: 2021-03-19
   office: Diamond Bar
-  links:
-      dribbble: 'ryconn888'
-      instagram: 'ryconndesign'
   alumni: true
 - id: Sharon Kim
   title: Communication Designer
@@ -574,15 +488,18 @@
   icon: fa_archway
   startDate: 2017-10-18
   office: Madrid
-  links:
-      twitter: 'usavor'
-      website: 'http://www.suix.es'
 - id: Sven Iten
   title: Business Partner
   active: false
   icon: fa_archway
   startDate: 2020-12-10
   office: Eschborn
+- id: Carolina Hurtado
+  title: Associate Product Designer
+  active: false
+  icon: fa_seedling
+  startDate: 2021-11-16
+  office: Remote
 
   # Friends of Design :)
 - id: Angelo Youn

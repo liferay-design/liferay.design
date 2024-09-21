@@ -31,7 +31,7 @@ const CardDefault = ({
 				className={styles.cardLink}
 				to={link}
 				sx={{
-					'&:hover > div > div > img:nth-child(2)': {
+					'&:hover > div > div > img:nth-of-type(2)': {
 						filter: 'grayscale(0)',
 					},
 					'&:hover > div > div': {
@@ -93,7 +93,7 @@ const CardDefault = ({
 									color: 'white',
 									fontWeight: 'bold',
 									variant: 'text.caps',
-									py: 1, 
+									py: 1,
 									px: 2,
 									borderRadius: '2em',
 								}}
