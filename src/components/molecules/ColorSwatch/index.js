@@ -48,7 +48,7 @@ export default function ColorSwatch({
 			<Flex direction="column" padding="1rem">
 				<Text type="p" weight="heavy" margin="micro" size="base">
 					{title}
-					{smallText ? <small class="d-block">{smallText}</small> : null}
+					{smallText ? <small className="d-block">{smallText}</small> : null}
 				</Text>
 
 				{hex ? (

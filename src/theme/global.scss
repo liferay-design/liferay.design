@@ -88,15 +88,15 @@ img {
 }
 
 .contrastCircle {
-	color: white;
-	margin: 12px 0 0 12px;
+	border-radius: 20px !important;
 	border: 1px solid white;
+	color: white;
 	font-size: 10px;
 	height: 24px;
-	width: 24px;
-	text-align: center;
-	border-radius: 20px !important;
+	margin: 12px 0 0 12px;
 	padding-top: 5px;
+	text-align: center;
+	width: 24px;
 
 	&::after {
 		content: '3:1';

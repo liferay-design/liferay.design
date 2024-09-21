@@ -873,7 +873,7 @@ const TwentyEighteen = () => {
 
 			{/* illustrations */}
 			<section id="illustrations" className={styles.illustrations}>
-				<div class="carousel-wrapper">
+				<div className="carousel-wrapper">
 					<IllustrationsCarousel />
 				</div>
 			</section>
@@ -1175,10 +1175,8 @@ const TwentyEighteen = () => {
 				</Plx>
 				<p className={styles.p}>
 					Our Design System evolved into{' '}
-					<Link href="/lexicon">
-						version 2.0
-					</Link>{' '}
-					and was spread to different products and projects.
+					<Link href="/lexicon">version 2.0</Link> and was spread to different
+					products and projects.
 				</p>
 				<p className={styles.p}>
 					Utilizing Lexicon in more interfaces allow us to gain robustness and
