@@ -38,7 +38,7 @@ export default {
 		sideNav: {
 			gridTemplate: [
 				'"nav" 8rem "main" 1fr / 1fr',
-				null,
+				'"sidebar main" auto / 20rem 1fr',
 				'"sidebar main" auto / 20rem 1fr',
 			],
 			gap: 0,
