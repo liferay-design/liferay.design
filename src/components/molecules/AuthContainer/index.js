@@ -83,6 +83,7 @@ export default class AuthContainer extends Component {
 					this.props.children
 				) : (
 					<NavLink
+						href="#"
 						sx={{
 							pr: 0,
 							p: [1, null, 2],
