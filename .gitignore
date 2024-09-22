@@ -9,5 +9,5 @@ yarn-error.log
 
 .env.*
 
-# token files
+# token file
 token.json
