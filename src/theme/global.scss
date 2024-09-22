@@ -15,6 +15,7 @@ body {
 	font-family: $fontFamilyPrimary;
 	margin: 0;
 	// overflow-x: hidden; // fixing #660
+
 	::selection {
 		background: #05f;
 		color: #fff;
@@ -33,6 +34,7 @@ h5,
 h6,
 p {
 	margin-bottom: 1em;
+
 	&:hover .nice-anchor {
 		opacity: 1;
 		transition: opacity 0.2s ease-in-out;
