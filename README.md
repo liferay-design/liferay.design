@@ -9,7 +9,6 @@ The online presence of Liferay's Design Teams!
 Designed in [Figma](https://figma.com), built with [Gatsby](https://gatsbyjs.org), powered by [Netlify](https://Netlify.com).
 
 <br />
-<br />
 
 ## Table of Contents
 
@@ -52,7 +51,7 @@ Skip down to [Starting Phresh](#starting-phresh) for a step-by-step guide.
 
 ### Quick Start
 
-**Warning**: This project only works with Node v12. You can use [NVM](https://github.com/nvm-sh/nvm) to install Node v14 by `nvm install 14`, then you can follow these steps:
+**Warning**: This project only works with Node v14 (v14.21.3). You can use [NVM](https://github.com/nvm-sh/nvm) to install Node v14 by `nvm install 14`, in some cases you might need v12, then you can follow these steps:
 
 1. **Install Dependencies**
 
