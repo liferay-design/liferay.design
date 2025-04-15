@@ -2,7 +2,7 @@
 # Active Designers
 - id: Abel Hancock
   title: Senior Product Designer
-  active: true
+  active: false
   icon: fa_code
   startDate: 2017-09-18
   office: Diamond Bar
@@ -14,8 +14,9 @@
       instagram: 'abelhancock'
       twitter: 'abelfhancock'
       webflow: 'templates/designers/abel-hancock'
+  alumni: true
 - id: Alex Clementi
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_binoculars
   startDate: 2022-11-07
@@ -43,10 +44,11 @@
       instagram: 'brunolacerda09'
 - id: Carolina Rodriguez
   title: Staff Product Designer
-  active: true
+  active: false
   icon: fa_music
   startDate: 2021-08-30
   office: Madrid
+  alumni: true
 - id: Carolina Hurtado
   title: Associate Product Designer
   active: false
@@ -60,7 +62,7 @@
       linkedin: 'carolinahurtadotambini'
       website: https://carolina-portfolio.webflow.io
 - id: Carolina Venegas
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pizza
   startDate: 2021-11-16
@@ -82,7 +84,7 @@
       website: https://www.ngcka.biz/
   alumni: true
 - id: David Aragonés
-  title: Staff Product Designer
+  title: Manager, Principal Product Designer
   active: true
   icon: fa_universal_access
   startDate: 2016-08-22
@@ -97,6 +99,12 @@
   links:
       website: http://www.danieladelagarza.info
   alumni: true
+- id: Diego Alonso
+  title: Associate Product Designer
+  active: true
+  icon: fa_fingerprint
+  startDate: 2024-11-19
+  office: Madrid
 - id: Déborah Silva
   title: Product Designer
   active: true
@@ -105,7 +113,7 @@
   office: Recife
 - id: Emiliano Cicero
   title: Senior Product Designer
-  active: true
+  active: false
   icon: fa_bezier_curve
   startDate: 2016-08-10
   office: Madrid
@@ -141,10 +149,6 @@
   icon: fa_user_astronaut
   startDate: 2023-05-02
   office: São Paulo
-  links:
-      website:
-      linkedin:
-      instagram:
 - id: Jon Wood
   title: Director, Product Design
   active: true
@@ -166,11 +170,17 @@
       instagram: 'bkr_juan'
       linkedin: 'juanbaker'
 - id: Julia Lira
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pencil_alt
   startDate: 2021-07-04
   office: Recife
+- id: Marcos Castro
+  title: Staff Product Designer, Accessibility Expert
+  active: true
+  icon: fa_universal_access
+  startDate: 2014-06-06
+  office: Madrid
 - id: Makena Ford
   title: Manager, Product Design
   active: true
@@ -188,7 +198,7 @@
       unsplash: 'markushmr'
       instagram: '_marcuz__'
 - id: Maria Arce
-  title: Associate Product Designer
+  title: Product Designer
   active: true
   icon: fa_pen_fancy
   startDate: 2021-04-05
@@ -319,7 +329,7 @@
       linkedin: 'temístocles-d-anunciação-85a17355'
 - id: Thiago Menezes
   title: Senior Product Designer
-  active: true
+  active: false
   icon: fa_brain
   startDate: 2022-11-03
   office: Recife
@@ -327,7 +337,7 @@
       instagram: 'txa_go'
       linkedin: 'txago'
 - id: Uge Ortiz
-  title: Senior Product Designer
+  title: Staff Product Designer
   active: true
   icon: fa_headphones_alt
   startDate: 2022-01-17
@@ -491,7 +501,7 @@
   office: Diamond Bar
   links:
       twitter: 'jhidalgoreina'
-  alumni: true
+  alumni: false
 - id: Julia Chan
   title: Communication Designer
   active: false
