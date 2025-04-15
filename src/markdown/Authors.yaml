@@ -2,7 +2,7 @@
 # Active Designers
 - id: Abel Hancock
   title: Senior Product Designer
-  active: false
+  active: true
   icon: fa_code
   startDate: 2017-09-18
   office: Diamond Bar
@@ -43,7 +43,7 @@
       instagram: 'brunolacerda09'
 - id: Carolina Rodriguez
   title: Staff Product Designer
-  active: false
+  active: true
   icon: fa_music
   startDate: 2021-08-30
   office: Madrid
