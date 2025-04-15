@@ -39,7 +39,7 @@ const Lexicon = () => (
 					>
 						Explore Lexicon
 					</Text>
-					<Box sx={{marginTop: [0, null, '-8rem'] }}>
+					<Box sx={{ marginTop: [0, null, '-8rem'] }}>
 						<CardLexicon
 							icon="what"
 							title="Get Started"
@@ -48,7 +48,7 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box sx={{marginTop: [0, null, '-8rem'] }}>
+					<Box sx={{ marginTop: [0, null, '-8rem'] }}>
 						<CardLexicon
 							delay="0.1s"
 							icon="principles"
@@ -58,21 +58,17 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box sx={{gridColumnStart: "1", gridColumnEnd:["2", null, "3"]}}>
+					<Box>
 						<CardLexicon
 							delay="0.2s"
-							wide
 							icon="library"
-							iconHeight="10rem"
-							iconWidth="11rem"
-							direction="horizontal"
 							title="Components"
 							text="Explores the list of components and pattern that configure the building blocks of Lexicon system"
 							to="/lexicon/core-components/alerts"
 							cta="Learn More"
 						/>
 					</Box>
-					<Box>
+					{/* <Box>
 						<CardLexicon
 							icon="news"
 							title="News & Updates"
@@ -80,7 +76,7 @@ const Lexicon = () => (
 							to="/lexicon/news"
 							cta="Learn More"
 						/>
-					</Box>
+					</Box> */}
 					<Box>
 						<CardLexicon
 							icon="folder"
@@ -90,26 +86,24 @@ const Lexicon = () => (
 							cta="Learn More"
 						/>
 					</Box>
-					<Box
-						className={documentation.socialContainer}
-					>
+					<Box className={documentation.socialContainer}>
 						<Link
 							className={documentation.social}
 							to="https://github.com/liferay-design"
 						>
-							<Icon sx={{fill:"white"}} name="github" />
+							<Icon sx={{ fill: 'white' }} name="github" />
 						</Link>
 						<Link
 							className={documentation.social}
 							to="https://dribbble.com/liferay"
 						>
-							<Icon sx={{fill:"white"}} name="dribbble" />
+							<Icon sx={{ fill: 'white' }} name="dribbble" />
 						</Link>
 						<Link
 							className={documentation.social}
 							to="https://twitter.com/Liferay_Lexicon"
 						>
-							<Icon sx={{fill:"white"}} name="twitter" />
+							<Icon sx={{ fill: 'white' }} name="twitter" />
 						</Link>
 					</Box>
 				</Grid>
