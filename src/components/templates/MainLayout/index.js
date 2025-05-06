@@ -22,7 +22,7 @@ export default ({ children, section }) => (
 
 		{children}
 
-		<Container padding={{ p: '6rem 0 0' }}>
+		{/* <Container padding={{ p: '6rem 0 0' }}>
 			<Heading sx={{ textAlign: 'center', color: 'white' }} level={2}>
 				Sign up for our monthly newsletter!
 			</Heading>
@@ -36,7 +36,7 @@ export default ({ children, section }) => (
 				</Text>
 			</Link>
 			<FormNewsletter placeholderText="Your Email Address" submitText="Subscribe" />
-		</Container>
+		</Container> */}
 		<Footer />
 		<FancyFooter />
 	</div>
