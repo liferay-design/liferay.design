@@ -106,7 +106,7 @@
   startDate: 2024-11-19
   office: Madrid
 - id: Déborah Silva
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_pen_nib
   startDate: 2021-03-08
@@ -116,7 +116,9 @@
   active: false
   icon: fa_bezier_curve
   startDate: 2016-08-10
+  endDate: 2024-01-15
   office: Madrid
+  alumni: true
 - id: Euripedes Magalhães
   title: Senior Manager, Product Design
   active: true
@@ -188,7 +190,7 @@
   startDate: 2021-03-29
   office: Seattle
 - id: Markus Hammer
-  title: Senior Communication Designer
+  title: Staff Communication Designer
   active: true
   icon: fa_gavel
   startDate: 2016-09-15
@@ -206,7 +208,7 @@
   links:
       instagram: 'sinreproche'
 - id: Maria Martins
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_pizza
   startDate: 2022-01-11
@@ -217,13 +219,13 @@
       instagram: 'a.maria.mar'
       linkedin: 'maria-mar'
 - id: Marleny Francisco
-  title: Senior Communication Designer
+  title: Staff Communication Designer
   active: true
   icon: fa_headphones_alt
   startDate: 2019-08-12T07:00:00Z
   office: Madrid
 - id: May Chen
-  title: Product Designer
+  title: Senior Product Designer
   active: true
   icon: fa_pepper_hot_solid
   startDate: 2021-04-20
