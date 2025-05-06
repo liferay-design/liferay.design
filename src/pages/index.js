@@ -42,13 +42,13 @@ export default () => {
 			/> */}
 			<MainLayout>
 				<HeroBanner />
-				<SideTab
+				{/* <SideTab
 					cta="We're&nbsp;Hiring"
 					ctaUrl="/careers"
 					image="/images/components/pj-thumb.jpg"
 					innerCta="See Openings"
 					subtitle="Read the job descriptions and apply to be a part of the team."
-				/>
+				/> */}
 				<Container heading="What's New" padding={{ px: 0, pt: 2, pb: 5 }}>
 					<TopBlogPosts />
 				</Container>
