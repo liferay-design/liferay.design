@@ -103,7 +103,7 @@ export const Handbook = () => {
 					</Grid>
 				</Container>
 			</div>
-			<Container background={colors.main} padding={{ py: '5' }}>
+			{/* <Container background={colors.main} padding={{ py: '5' }}>
 				<Heading sx={{ textAlign: 'center', color: 'white' }} level={2}>
 					Sign up for our monthly newsletter!
 				</Heading>
@@ -120,7 +120,7 @@ export const Handbook = () => {
 					placeholderText="Your Email Address"
 					submitText="Subscribe"
 				/>
-			</Container>
+			</Container> */}
 		</div>
 	)
 }
