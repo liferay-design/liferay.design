@@ -129,6 +129,14 @@
       website: https://www.euripedes.com.br/
       linkedin: 'euripedesm'
       instagram: 'euripedesm'
+- id: Gabriel Aires
+  title: Associate Product Designer
+  active: true
+  icon: fa_drum
+  startDate: 2024-10-07
+  office: Recife
+  links:
+      linkedin: 'gabriell-airess'
 - id: Gabriel Moreno
   title: Senior Product Designer
   active: false
