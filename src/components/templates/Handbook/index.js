@@ -63,7 +63,7 @@ export default class Handbook extends Component {
 										padding="2rem 1rem"
 									>
 										<SiteName section="Handbook" dark />
-										<AuthContainer />
+										{/* <AuthContainer /> */}
 									</Flex>
 								)}
 
@@ -92,7 +92,7 @@ export default class Handbook extends Component {
 												>
 													<h1>{mdx.frontmatter.title}</h1>
 
-													{!matches && <AuthContainer />}
+													{/* {!matches && <AuthContainer />} */}
 												</Flex>
 
 												<GlobalMdx>

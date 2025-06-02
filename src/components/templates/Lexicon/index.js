@@ -96,7 +96,7 @@ export default class Lexicon extends Component {
 										padding="2rem 1rem"
 									>
 										<SiteName section="Lexicon" dark />
-										<AuthContainer />
+										{/* <AuthContainer /> */}
 									</Flex>
 								)}
 
@@ -114,7 +114,7 @@ export default class Lexicon extends Component {
 										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>
 
-											{!matches && <AuthContainer />}
+											{/* {!matches && <AuthContainer />} */}
 										</Flex>
 
 										{mdx.frontmatter.figmaLink ? (

@@ -46,7 +46,7 @@ const NavItems = () => {
 				))}
 			</Flex>
 
-			<AuthContainer />
+			{/* <AuthContainer /> */}
 		</Flex>
 	)
 }

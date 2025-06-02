@@ -54,7 +54,7 @@ export default class Blueprints extends Component {
 										padding="2rem 1rem"
 									>
 										<SiteName section="Blueprints" dark />
-										<AuthContainer />
+										{/* <AuthContainer /> */}
 									</Flex>
 								)}
 
@@ -80,7 +80,7 @@ export default class Blueprints extends Component {
 												>
 													<h1>{mdx.frontmatter.title}</h1>
 
-													{!matches && <AuthContainer />}
+													{/* {!matches && <AuthContainer />} */}
 												</Flex>
 
 												<GlobalMdx>

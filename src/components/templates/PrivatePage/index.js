@@ -70,9 +70,9 @@ export default class PrivatePage extends Component {
 							{this.props.message}
 						</Heading>
 
-						<AuthContainer>
+						{/* <AuthContainer>
 							<Button>Sign In</Button>{' '}
-						</AuthContainer>
+						</AuthContainer> */}
 					</Box>
 				</Flex>
 			</Flex>

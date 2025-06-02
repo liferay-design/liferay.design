@@ -51,7 +51,7 @@ export default class Lexicon extends Component {
 										padding="2rem 1rem"
 									>
 										<SiteName section="Lexicon-1" dark />
-										<AuthContainer />
+										{/* <AuthContainer /> */}
 									</Flex>
 								)}
 
@@ -69,7 +69,7 @@ export default class Lexicon extends Component {
 										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>
 
-											{!matches && <AuthContainer />}
+											{/* {!matches && <AuthContainer />} */}
 										</Flex>
 
 										{mdx.frontmatter.titleLabelLink ? (
@@ -106,7 +106,7 @@ export default class Lexicon extends Component {
 									{this.state.mobileSidebarVisible ? (
 										<Icon
 											name="close"
-											color='white'
+											color="white"
 											onClick={this.toggleMobileSidebarVisibility}
 										/>
 									) : (

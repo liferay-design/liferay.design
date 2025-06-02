@@ -8,7 +8,6 @@ import styles from './styles.module.scss'
 import { AuthContainer } from 'components/molecules'
 
 const Navbar = ({ white, section, underlineColor, simpleNav }) => {
-
 	return (
 		<Container>
 			<nav className={white ? styles.white : styles.default}>
@@ -23,7 +22,7 @@ const Navbar = ({ white, section, underlineColor, simpleNav }) => {
 					<SiteName underlineColor={underlineColor} section={section} />
 				)}
 
-				{simpleNav ? <AuthContainer /> : <NavItems />}
+				{simpleNav ? null : <NavItems />}
 			</nav>
 		</Container>
 	)
