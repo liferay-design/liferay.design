@@ -28,6 +28,23 @@ export default function SearchInput({ id }) {
 			apiKey: process.env.GATSBY_ALGOLIA_KEY || 'e743f8519124b276f2f3325e8e126246',
 			indexName: 'liferay_design',
 			inputSelector: `#${id}`,
+			handleSelected: (input, event, suggestion) => {
+				if (event) {
+					event.preventDefault()
+				}
+
+				const rawUrl = suggestion && suggestion.url ? suggestion.url : ''
+
+				try {
+					const url = new URL(rawUrl, window.location.origin)
+					url.protocol = window.location.protocol
+					url.host = window.location.host
+					window.location.assign(url.toString())
+				} catch (err) {
+					// If parsing fails, fall back to the default behavior.
+					window.location.assign(rawUrl)
+				}
+			},
 		})
 	}, [id])
 

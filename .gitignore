@@ -11,3 +11,6 @@ yarn-error.log
 
 # token file
 token.json
+
+# Claude / AI agent artifacts
+.claude/
