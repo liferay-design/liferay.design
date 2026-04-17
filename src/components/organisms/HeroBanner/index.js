@@ -27,9 +27,9 @@ const HeroBanner = () => (
 		>
 			We are{' '}
 			<Text as="span" sx={{ color: 'neutral1' }}>
-				Liferayʼs global team of{' '}
+				Liferayʼs global designers{' '}
 			</Text>
-			designers.
+			team.
 		</Text>
 	</Flex>
 )
