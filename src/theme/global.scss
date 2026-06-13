@@ -14,13 +14,16 @@ body {
 	font-size: 16px;
 	font-family: $fontFamilyPrimary;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 	// overflow-x: hidden; // fixing #660
 	::selection {
-		background: #05f;
+		background: $primary;
 		color: #fff;
 	}
 	::-moz-selection {
-		background: #05f;
+		background: $primary;
 		color: #fff;
 	}
 }
@@ -39,12 +42,54 @@ p {
 	}
 }
 
+h1,
+h2,
+h3 {
+	text-wrap: balance;
+}
+
 h1 {
 	line-height: 1.2;
 }
 
 a {
 	text-decoration: none;
+	transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+// visible, on-brand keyboard focus without bothering mouse users
+:focus-visible {
+	outline: 2px solid $primary;
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+// slim, rounded scrollbars site-wide
+* {
+	scrollbar-width: thin;
+	scrollbar-color: $main-l5 transparent;
+}
+
+::-webkit-scrollbar {
+	height: 8px;
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $main-l5;
+	border-radius: 8px;
+
+	&:hover {
+		background-color: $main-l4;
+	}
+}
+
+::-webkit-scrollbar-corner {
+	background: transparent;
 }
 
 img {
