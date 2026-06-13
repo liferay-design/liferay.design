@@ -37,6 +37,13 @@ const CardLexicon = ({
 		horizontal: 'left',
 	}
 
+	// the heading must follow the same alignment as the copy block, otherwise
+	// the Heading atom's default `align: left` leaves the title left-aligned
+	// inside a centered card
+	const copyAlign = isMobile
+		? textAlignmentMap.vertical
+		: textAlignmentMap[direction]
+
 	const iconWidthMap = {
 		vertical: '100%',
 		horizontal: '50%',
@@ -91,16 +98,20 @@ const CardLexicon = ({
 						className={styles.copy}
 						style={{
 							flexBasis: '50%',
-							textAlign: isMobile
-								? textAlignmentMap.vertical
-								: textAlignmentMap[direction],
+							textAlign: copyAlign,
 							alignSelf: 'center',
 						}}
 					>
 						{preTitle ? (
-							<Heading className={styles.preTitle}>{preTitle}</Heading>
+							<Heading align={copyAlign} className={styles.preTitle}>
+								{preTitle}
+							</Heading>
 						) : null}
-						<Heading level={2} className={styles.title}>
+						<Heading
+							align={copyAlign}
+							level={2}
+							className={styles.title}
+						>
 							{title}
 						</Heading>
 						<Text type="p" size="medium" className={styles.text}>

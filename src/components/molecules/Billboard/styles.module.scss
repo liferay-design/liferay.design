@@ -14,6 +14,11 @@
 	.icon {
 		grid-area: icon;
 		justify-self: center;
+		// on mobile the icon spans the grid column and touches the screen
+		// edges — keep it off the margins
+		@media screen and (max-width: $screenMedium) {
+			padding: 0 $spacingBase;
+		}
 	}
 	.copy {
 		grid-area: copy;

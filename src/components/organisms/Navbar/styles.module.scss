@@ -16,6 +16,8 @@
 	position: relative;
 	a {
 		text-decoration: none;
+		// theme-ui's links.nav variant sets weight 400; bump links to semibold
+		font-weight: $fontWeightHeavy;
 	}
 }
 
