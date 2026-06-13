@@ -12,7 +12,7 @@ export default class FancyFooter extends Component {
 
 	render() {
 		return (
-			<div className={styles.fancyFooter}>
+			<div className={styles.fancyFooter} aria-hidden="true">
 				<svg
 					viewBox="0 0 1440 720"
 					fill="none"
@@ -70,92 +70,140 @@ export default class FancyFooter extends Component {
 						<path
 							d="M480 480v240H240c0-132.548 107.452-240 240-240z"
 							fill="#EEE"
+							className={styles.pie}
+							data-seq="1"
 						/>
 						<path
 							d="M960 480h240v240c-132.55 0-240-107.452-240-240z"
 							fill="#C4C4C4"
+							className={styles.pie}
+							data-seq="2"
 						/>
 						<path
-							d="M1440 240h-240v480c132.55 0 240-107.452 240-240V240zM720 480c-132.548 0-240-107.452-240-240S587.452 0 720 0s240 107.452 240 240H720v240z"
+							d="M1440 240h-240v480c132.55 0 240-107.452 240-240V240z"
 							fill="#232225"
+							className={styles.pie}
+							data-seq="3"
+						/>
+						<path
+							d="M720 480c-132.548 0-240-107.452-240-240S587.452 0 720 0s240 107.452 240 240H720v240z"
+							fill="#232225"
+							className={styles.pie}
+							data-seq="4"
 						/>
 						<path
 							d="M240 480H0V240c132.548 0 240 107.452 240 240z"
 							fill="#0058FF"
+							className={styles.pie}
+							data-seq="5"
 						/>
-						<circle cx="120" cy="120" r="60" fill="#232225" />
-						<circle cx="840" cy="600" r="48" fill="#232225" />
+						<circle
+							cx="120"
+							cy="120"
+							r="60"
+							fill="#232225"
+							className={styles.breathe}
+							data-seq="1"
+						/>
+						<circle
+							cx="840"
+							cy="600"
+							r="48"
+							fill="#232225"
+							className={styles.breathe}
+							data-seq="2"
+						/>
 						<path
 							d="M600 240c0-66.274 53.726-120 120-120v240c-66.274 0-120-53.726-120-120z"
 							fill="#0058FF"
+							className={styles.pie}
+							data-seq="6"
 						/>
 						<path
 							d="M840 240H720V120c66.274 0 120 53.726 120 120z"
 							fill="#0084FF"
+							className={styles.beacon}
 						/>
 						<path
 							d="M80 480H0v-80c44.183 0 80 35.817 80 80z"
 							fill="#232225"
+							className={styles.pie}
+							data-seq="7"
 						/>
 						<g className={styles.stroke}>
 							{' '}
 							<path
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.lineFlow}`}
+								data-seq="1"
+								pathLength="1"
 								d="M130 120h110"
 							/>
 							<path
-								className={styles.whiteStroke}
+								className={`${styles.whiteStroke} ${styles.lineFlow}`}
+								data-seq="2"
+								pathLength="1"
 								d="M1310 360h-110M350 120H240M1310 600h-110"
 							/>
 							<path
-								className={styles.darkStroke}
+								className={`${styles.darkStroke} ${styles.lineFlow}`}
+								data-seq="3"
+								pathLength="1"
 								d="M1090 600h110M1090 360h110"
 							/>
 							<path
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.lineFlow}`}
+								data-seq="4"
+								pathLength="1"
 								d="M360 350V240"
 							/>
 							<circle
 								cx="120"
 								cy="120"
 								r="9"
-								className={styles.whiteStroke}
+								className={`${styles.whiteStroke} ${styles.node}`}
+								data-seq="1"
 							/>
 							<circle
 								cx="360"
 								cy="360"
 								r="9"
-								className={styles.whiteStroke}
+								className={`${styles.whiteStroke} ${styles.node}`}
+								data-seq="3"
 							/>
 							<circle
 								cx="360"
 								cy="120"
 								r="9"
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.node}`}
+								data-seq="2"
 							/>
 							<circle
 								cx="1320"
 								cy="360"
 								r="9"
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.node}`}
+								data-seq="5"
 							/>
 							<circle
 								cx="1080"
 								cy="360"
 								r="9"
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.node}`}
+								data-seq="4"
 							/>
 							<circle
 								cx="1320"
 								cy="600"
 								r="9"
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.node}`}
+								data-seq="7"
 							/>
 							<circle
 								cx="1080"
 								cy="600"
 								r="9"
-								className={styles.primaryStroke}
+								className={`${styles.primaryStroke} ${styles.node}`}
+								data-seq="6"
 							/>
 							<g clipPath="url(#clip1)">
 								<circle
@@ -164,6 +212,9 @@ export default class FancyFooter extends Component {
 									r="120"
 									transform="rotate(-180 240 240)"
 									stroke="#fff"
+									pathLength="1"
+									className={styles.arcDraw}
+									data-seq="1"
 								/>
 							</g>
 							<g clipPath="url(#clip2)">
@@ -173,6 +224,9 @@ export default class FancyFooter extends Component {
 									r="120"
 									transform="rotate(-180 1200 480)"
 									stroke="#fff"
+									pathLength="1"
+									className={styles.arcDraw}
+									data-seq="2"
 								/>
 							</g>
 							<g clipPath="url(#clip3)">
@@ -182,6 +236,9 @@ export default class FancyFooter extends Component {
 									r="120"
 									transform="rotate(-90 1200 480)"
 									stroke="#fff"
+									pathLength="1"
+									className={styles.arcDraw}
+									data-seq="3"
 								/>
 							</g>
 							<g clipPath="url(#clip4)">
@@ -190,13 +247,62 @@ export default class FancyFooter extends Component {
 									cy="480"
 									r="120"
 									stroke="#232225"
+									pathLength="1"
+									className={styles.arcDraw}
+									data-seq="4"
 								/>
 							</g>
 						</g>
-						<path
-							fill="#0058FF"
-							d="M248 128h-16v-16h16zM368 248h-16v-16h16zM1208 368h-16v-16h16zM1328 488h-16v-16h16zM1192 592h16v16h-16zM1072 472h16v16h-16z"
-						/>
+						<g fill="#0058FF">
+							<rect
+								x="232"
+								y="112"
+								width="16"
+								height="16"
+								className={styles.miniSquare}
+								data-seq="1"
+							/>
+							<rect
+								x="352"
+								y="232"
+								width="16"
+								height="16"
+								className={styles.miniSquare}
+								data-seq="2"
+							/>
+							<rect
+								x="1192"
+								y="352"
+								width="16"
+								height="16"
+								className={styles.miniSquare}
+								data-seq="3"
+							/>
+							<rect
+								x="1312"
+								y="472"
+								width="16"
+								height="16"
+								className={styles.miniSquare}
+								data-seq="4"
+							/>
+							<rect
+								x="1192"
+								y="592"
+								width="16"
+								height="16"
+								className={styles.miniSquare}
+								data-seq="5"
+							/>
+							<rect
+								x="1072"
+								y="472"
+								width="16"
+								height="16"
+								className={styles.miniSquare}
+								data-seq="6"
+							/>
+						</g>
 						<g fill="#0058ff" className={styles.dotCircle}>
 							<rect
 								x="40"
@@ -223,6 +329,7 @@ export default class FancyFooter extends Component {
 							stroke="#13141F"
 							strokeWidth="6"
 							strokeDasharray="3 12"
+							className={styles.dashMarch}
 						/>
 						<rect
 							x="1204"
@@ -230,6 +337,7 @@ export default class FancyFooter extends Component {
 							fill="url(#dots)"
 							width="240"
 							height="200"
+							className={styles.dotsDrift}
 						/>
 					</g>
 				</svg>

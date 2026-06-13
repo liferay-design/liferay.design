@@ -1,37 +1,27 @@
-/** @jsx jsx */
-
-import { jsx, Flex, Text } from 'theme-ui'
+import React from 'react'
+import styles from './styles.module.scss'
 
 const HeroBanner = () => (
-	<Flex
-		sx={{
-			alignItems: 'center',
-			justifyContent: ['flex-start', 'center', null],
-			height: ['40vh', '448px', null],
-			margin: '0 auto',
-			pl: [3, 0, null],
-			minWidth: '360px',
-			position: 'relative',
-			width: '100vw',
-			maxWidth: '100%',
-		}}
-	>
-		<Text
-			as="h1"
-			sx={{
-				width: ['14ch', '20ch', null],
-				fontSize: [5, 6, null],
-				fontWeight: 'heading',
-				color: 'white',
-			}}
-		>
-			We are{' '}
-			<Text as="span" sx={{ color: 'neutral1' }}>
-				Liferayʼs global team of{' '}
-			</Text>
-			designers.
-		</Text>
-	</Flex>
+	<div className={styles.heroBanner}>
+		<h1 className={styles.headline}>
+			<span className={styles.line}>
+				<span className={styles.word}>
+					We are <span className={styles.accent}>Liferayʼs</span>
+				</span>
+			</span>
+			<span className={styles.line}>
+				<span className={styles.word}>
+					<span className={styles.accent}>global team</span> of
+				</span>
+			</span>
+			<span className={styles.line}>
+				<span className={styles.word}>
+					designers.
+					<span className={styles.bar} />
+				</span>
+			</span>
+		</h1>
+	</div>
 )
 
 export default HeroBanner
