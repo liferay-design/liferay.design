@@ -4,7 +4,9 @@ import { jsx, NavLink, Flex, Box } from 'theme-ui'
 import { AuthContainer } from 'components/molecules'
 
 const NavItems = () => {
-	const pages = ['Lexicon', 'Articles', 'Events', 'Team', 'Handbook']
+	// Handbook intentionally omitted from the primary nav — it lives as a
+	// discreet link in the footer instead
+	const pages = ['Lexicon', 'Articles', 'Events', 'Team']
 
 	return (
 		<Flex align="center">
