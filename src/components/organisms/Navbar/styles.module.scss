@@ -1,6 +1,13 @@
 @import '~theme/variables';
 
-nav {
+// scoped to a class (not the bare `nav` element selector, which CSS Modules
+// leave global) so these rules don't leak into other <nav> landmarks such as
+// the Lexicon sidebar
+.navbar {
+	// keep the site's monospace nav on every page — Lexicon's .theme wrapper
+	// otherwise swaps it to the system sans, which reflows the navbar so it no
+	// longer matches the rest of the site
+	font-family: $fontFamilyPrimary;
 	font-weight: $fontWeightHeavy;
 	align-items: baseline;
 	display: flex;
@@ -12,7 +19,7 @@ nav {
 	}
 }
 
-nav.white {
+.white {
 	color: $white !important;
 
 	a {

@@ -10,7 +10,7 @@ import { AuthContainer } from 'components/molecules'
 const Navbar = ({ white, section, underlineColor, simpleNav }) => {
 	return (
 		<Container>
-			<nav className={white ? styles.white : styles.default}>
+			<nav className={`${styles.navbar} ${white ? styles.white : ''}`}>
 				{simpleNav ? (
 					<Link style={{ alignSelf: 'center', marginLeft: '-.2rem' }} to="/">
 						<Icon
