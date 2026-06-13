@@ -77,6 +77,7 @@ const CardLexicon = ({
 						>
 							<Icon
 								name={icon}
+								aria-hidden="true"
 								sx={{
 									width: `${iconWidth}`,
 									height: `${iconHeight}`,

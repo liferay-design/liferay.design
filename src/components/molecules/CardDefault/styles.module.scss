@@ -1,10 +1,20 @@
 @import '~theme/variables';
 
 .cardLink {
-	&:hover {
+	border-radius: 2em; // match the card so the keyboard ring hugs it
+	// keyboard-only focus: mirror the hover glow + lift and add a clear ring
+	&:hover,
+	&:focus-visible {
 		.sexyShadow {
 			opacity: 0.64;
 			transition: opacity 0.2s ease-in-out;
+		}
+	}
+	&:focus-visible {
+		outline: 3px solid $primary;
+		outline-offset: 6px;
+		.card {
+			transform: translateY(-0.2rem);
 		}
 	}
 	.sexyShadow {

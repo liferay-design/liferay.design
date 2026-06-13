@@ -109,7 +109,7 @@ export default class Lexicon extends Component {
 									section="Lexicon"
 								/>
 
-								<div>
+								<main>
 									<ContainerMarkdown>
 										<Flex justify="space-between" align="baseline">
 											<h1>{mdx.frontmatter.title}</h1>
@@ -184,29 +184,46 @@ export default class Lexicon extends Component {
 										{/* <PreviousNext section='lexicon' current={post.id} /> */}
 									</ContainerMarkdown>
 									<Footer markdown light />
-								</div>
+								</main>
 
 								<Flex
 									align="center"
 									className={documentation.mobileMenuBar}
 									justify="space-between"
 								>
-									<Icon name="lexicon" color="white" height="2em" />
+									<Icon
+										name="lexicon"
+										color="white"
+										height="2em"
+										aria-hidden="true"
+									/>
 
-									{this.state.mobileSidebarVisible ? (
-										<Icon
-											name="close"
-											color="white"
-											onClick={this.toggleMobileSidebarVisibility}
-										/>
-									) : (
-										<Text
-											color="white"
-											onClick={this.toggleMobileSidebarVisibility}
-										>
-											Menu
-										</Text>
-									)}
+									<button
+										type="button"
+										onClick={this.toggleMobileSidebarVisibility}
+										aria-expanded={this.state.mobileSidebarVisible}
+										aria-label={
+											this.state.mobileSidebarVisible
+												? 'Close navigation menu'
+												: 'Open navigation menu'
+										}
+										sx={{
+											alignItems: 'center',
+											background: 'none',
+											border: 0,
+											color: 'white',
+											cursor: 'pointer',
+											display: 'flex',
+											font: 'inherit',
+											p: 0,
+										}}
+									>
+										{this.state.mobileSidebarVisible ? (
+											<Icon name="close" color="white" aria-hidden="true" />
+										) : (
+											<Text color="white">Menu</Text>
+										)}
+									</button>
 								</Flex>
 							</Grid>
 						)

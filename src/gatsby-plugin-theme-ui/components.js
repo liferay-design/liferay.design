@@ -202,7 +202,9 @@ export default {
 				transform: 'scaleX(0)',
 				width: 4,
 			},
-			'&:hover': {
+			// focus must match hover: theme-ui's NavLink default turns
+			// :focus the primary blue, which vanishes on the blue banner
+			'&:hover, &:focus, &:focus-visible': {
 				color: 'white',
 				transition: 'color 0.4s ease-out',
 				'&::after': {

@@ -13,6 +13,7 @@ const Lexicon = () => (
 			description="Lexicon is a design language that provides a common framework for building interfaces within the Liferay product ecosystem."
 			pageTitle="Liferay Lexicon | An Experience Language for Crafting Beautiful UI"
 		/>
+		<main>
 		<Banner
 			headline="Lexicon"
 			subtitle="An Experience Language for Crafting Beautiful UI"
@@ -31,7 +32,6 @@ const Lexicon = () => (
 					}}
 				>
 					<Text
-						color="#c4cacb"
 						weight="700"
 						size="12px"
 						type="p"
@@ -90,20 +90,31 @@ const Lexicon = () => (
 						<Link
 							className={documentation.social}
 							to="https://github.com/liferay-design"
+							aria-label="Liferay Design on GitHub"
 						>
-							<Icon sx={{ fill: 'white' }} name="github" />
+							<Icon sx={{ fill: 'white' }} name="github" aria-hidden="true" />
 						</Link>
 						<Link
 							className={documentation.social}
 							to="https://dribbble.com/liferay"
+							aria-label="Liferay on Dribbble"
 						>
-							<Icon sx={{ fill: 'white' }} name="dribbble" />
+							<Icon
+								sx={{ fill: 'white' }}
+								name="dribbble"
+								aria-hidden="true"
+							/>
 						</Link>
 						<Link
 							className={documentation.social}
 							to="https://twitter.com/Liferay_Lexicon"
+							aria-label="Liferay Lexicon on Twitter"
 						>
-							<Icon sx={{ fill: 'white' }} name="twitter" />
+							<Icon
+								sx={{ fill: 'white' }}
+								name="twitter"
+								aria-hidden="true"
+							/>
 						</Link>
 					</Box>
 				</Grid>
@@ -136,6 +147,7 @@ const Lexicon = () => (
 				/>
 			</Container>
 		</section>
+		</main>
 		<Footer background="#30313f" />
 	</div>
 )

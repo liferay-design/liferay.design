@@ -60,6 +60,7 @@ export default function SearchInput({ id }) {
 				onBlur={showKeys}
 				id={id}
 				placeholder="Search"
+				aria-label="Search Lexicon"
 			/>
 			<Flex
 				sx={{

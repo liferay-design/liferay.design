@@ -31,7 +31,7 @@ const CardDefault = ({
 				className={styles.cardLink}
 				to={link}
 				sx={{
-					'&:hover > div > div > img:nth-child(2)': {
+					'&:hover > div > div > img:nth-of-type(2)': {
 						filter: 'grayscale(0)',
 					},
 					'&:hover > div > div': {

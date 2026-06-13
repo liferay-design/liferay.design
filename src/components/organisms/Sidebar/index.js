@@ -58,6 +58,8 @@ export default function SidebarWrapper({
 
 	return (
 		<Grid
+			as="nav"
+			aria-label={`${section || 'Section'} navigation`}
 			sx={{
 				gridTemplateColumns: '1fr',
 				gridTemplateRows: ['8rem', null, '12rem auto 8rem'],

@@ -36,7 +36,10 @@ Heading.propTypes = {
 Heading.defaultProps = {
 	className: '',
 	level: 3,
-	textAlign: 'left',
+	// was `textAlign: 'left'` — not a destructured prop, so it leaked onto the
+	// DOM node as an invalid `textAlign` attribute. The component consumes
+	// `align` for text alignment.
+	align: 'left',
 }
 
 export default Heading

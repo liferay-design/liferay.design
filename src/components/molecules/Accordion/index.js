@@ -19,7 +19,9 @@ export default class Accordion extends Component {
 
 	render() {
 		return (
-			<ul className={styles.accordion}>
+			// a disclosure widget, not a semantic list — a <ul> here only ever
+			// held a Flex + a div, which fails "lists structured correctly"
+			<div className={styles.accordion}>
 				<Flex
 					align="center"
 					onClick={this.toggleVisibility}
@@ -52,7 +54,7 @@ export default class Accordion extends Component {
 				>
 					{this.props.children}
 				</div>
-			</ul>
+			</div>
 		)
 	}
 }
