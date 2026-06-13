@@ -1,21 +1,19 @@
-import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
+import { Component } from 'react'
+import LogRocketLib from 'logrocket'
+
+const APP_ID = 'vvepjf/liferaydesign'
 
 export class LogRocket extends Component {
 	componentDidMount() {
-		window.LogRocket && window.LogRocket.init('vvepjf/liferaydesign')
+		// Load from the bundled npm package (version-locked via package-lock)
+		// instead of the rolling CDN URL. The CDN file is unversioned, so the
+		// pinned SRI hash broke whenever LogRocket shipped a new build and the
+		// browser blocked LogRocket.min.js outright.
+		LogRocketLib.init(APP_ID)
 	}
 
 	render() {
-		return (
-			<Helmet>
-				<script
-					src="https://cdn.lr-ingest.io/LogRocket.min.js"
-					integrity="sha384-b0XbgzE6J/qtc+4HLtAb/hJlDBpi4wFgJu6KmnqBMSxJQG0VrkHjKb+DDaxpAjdN"
-					crossorigin="anonymous"
-				/>
-			</Helmet>
-		)
+		return null
 	}
 }
 
