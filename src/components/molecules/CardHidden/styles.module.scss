@@ -58,12 +58,12 @@
 
 		p.text {
 			font-weight: $fontWeightRegular;
-			color: $main-l4;
+			color: $main-l3;
 			margin: 0 0 1em;
 		}
 
 		p.cta {
-			color: lighten($main-l4, 16%);
+			color: $main-l3;
 			transition: color 0.4s;
 		}
 

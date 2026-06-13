@@ -31,7 +31,7 @@
 	// lexicon homepage
 	.vertical {
 		@include small-caps;
-		color: $main-l4;
+		color: $main-l3;
 		font-size: 13px;
 		left: -4rem;
 		position: absolute;
@@ -117,8 +117,10 @@
 			line-height: 1.75;
 			margin-bottom: $base-size * 0.7;
 
+			// underline so body links aren't distinguished by colour alone
 			a {
 				color: $brand-primary;
+				text-decoration: underline;
 			}
 		}
 
@@ -242,6 +244,7 @@
 
 		li > a {
 			color: $brand-primary;
+			text-decoration: underline;
 		}
 	}
 }

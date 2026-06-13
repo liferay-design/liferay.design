@@ -28,8 +28,13 @@ footer.dark {
 		fill: $white;
 	}
 	a {
-		color: $grey;
-		text-decoration: underline
+		// $grey (#6b6c7e) fails AA on the dark footer; lift to a light neutral
+		color: $lightGrey;
+		text-decoration: underline;
+	}
+	// SiteCredits hardcodes its <span> to $grey, which also fails here
+	span {
+		color: $lightGrey;
 	}
 }
 
