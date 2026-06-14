@@ -8,7 +8,7 @@
 		"@theme-ui/prism": "^0.3.5",
 		"eslint-config-liferay": "^19.0.2",
 		"firebase": "^8.2.6",
-		"gatsby": "^4.25.9",
+		"gatsby": "^5.16.1",
 		"gatsby-cli": "^4.25.0",
 		"gatsby-plugin-algolia-docsearch": "^1.0.5",
 		"gatsby-plugin-manifest": "^4.25.0",
